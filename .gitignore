@@ -1,0 +1,10 @@
+# Never commit Kalshi credentials
+*.key
+*.pem
+.env
+.env.*
+# Local junk
+__pycache__/
+*.tmp
+orders.log
+STOP

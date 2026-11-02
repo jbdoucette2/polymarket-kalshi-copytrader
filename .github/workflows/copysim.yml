@@ -1,0 +1,37 @@
+# Optional: run copysim on GitHub Actions instead of a laptop or a Claude Code scheduled task.
+# Off by default. To turn on, uncomment the schedule block. Each run takes ~2 minutes;
+# private repos get a limited number of free Actions minutes per month, so every 30 minutes
+# is a reasonable cadence. Live mode reads keys from repository secrets (never from files).
+name: copysim
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "*/30 * * * *"
+permissions:
+  contents: write
+concurrency: copysim
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - name: One cycle
+        env:
+          COPYSIM_MODE: ${{ vars.COPYSIM_MODE || 'paper' }}
+          COPYSIM_LIVE_ACK: ${{ vars.COPYSIM_LIVE_ACK }}
+          COPYSIM_START: ${{ vars.COPYSIM_START || '100' }}
+          LIVE_MAX_PER_TRADE: ${{ vars.LIVE_MAX_PER_TRADE || '10' }}
+          LIVE_MAX_DAILY: ${{ vars.LIVE_MAX_DAILY || '50' }}
+          KALSHI_API_KEY_ID: ${{ secrets.KALSHI_API_KEY_ID }}
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+        run: python copysim.py --once
+      - name: Save results
+        run: |
+          git config user.name "copysim-bot"
+          git config user.email "copysim-bot@users.noreply.github.com"
+          git add copysim.db REPORT.md dashboard.html
+          git diff --cached --quiet || git commit -m "copysim run $(date -u +%FT%TZ)"
+          git push
