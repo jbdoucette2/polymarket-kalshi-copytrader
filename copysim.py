@@ -83,6 +83,8 @@ NOW = lambda: datetime.now(timezone.utc)
 def log(msg):
     print(f"[{NOW().isoformat(timespec='seconds')}] {msg}", flush=True)
 
+FAILED = []   # URLs that failed this cycle; missing data must not read as "the leaders left"
+
 def get(url, **params):
     for attempt in range(3):
         try:
@@ -97,8 +99,10 @@ def get(url, **params):
             return r.json()
         except Exception as e:
             if attempt == 2:
-                log(f"request failed {url}: {e}"); return None
+                log(f"request failed {url}: {e}"); FAILED.append(url); return None
             time.sleep(2 * (attempt + 1))
+    log(f"rate limited: {url}"); FAILED.append(url)
+    return None
 
 def parse_ts(s):
     if not s:
@@ -577,11 +581,12 @@ def snapshot(c, cands, kind, lo_min, hi_min, pregame_window=None):
                        kalshi_side=cd["side"], kalshi_ask=cd["ask"], start_ts=cd["start"].isoformat(),
                        passes=int(not cd["fails"]), reason="; ".join(cd["fails"]), fails=len(cd["fails"])))
     # markets snapshotted before in this window that no vetted wallet holds any more
+    # (skipped when any lookup failed: a missing market would look like everyone left)
     seen = {cd["cond"] for cd in cands}
     lo = (now + timedelta(minutes=lo_min)).isoformat()
     hi = (now + timedelta(minutes=hi_min)).isoformat()
-    for prev in rows(c, "SELECT s.* FROM snapshots s JOIN (SELECT cond, MAX(id) id FROM snapshots GROUP BY cond) l "
-                        "ON s.id=l.id WHERE s.start_ts>? AND s.start_ts<=? AND s.n_wallets>0", (lo, hi)):
+    for prev in [] if FAILED else rows(c, "SELECT s.* FROM snapshots s JOIN (SELECT cond, MAX(id) id FROM snapshots "
+                        "GROUP BY cond) l ON s.id=l.id WHERE s.start_ts>? AND s.start_ts<=? AND s.n_wallets>0", (lo, hi)):
         if prev["cond"] not in seen:
             record(c, dict(prev, ts=ts, kind=kind_of(parse_ts(prev["start_ts"])), wallets="[]", n_wallets=0, lead_usd=0, opp_usd=0, kalshi_ask=None,
                            passes=0, reason="no vetted wallets hold it now", fails=1))
@@ -816,51 +821,64 @@ def position_changes(c):
         out.append("")
     return out
 
-E = html.escape
-def write_dashboard(c, s, sk):
-    def card(r):
-        L = json.loads(r["leaders"])
-        who = "".join(f"<li><a href='https://polymarket.com/profile/{l['addr']}' target='_blank'>{E(l['name'])}</a> "
-                      f"${l['usd']:,} at {l['avg']*100:.0f}¢ · <a target='_blank' href='{PM}/v2/trades?user={l['addr']}&condition={r['cond']}'>trades</a></li>" for l in L)
-        pnl = "" if r["pnl"] is None else f"<b class='{'up' if r['pnl'] > 0 else 'down'}'>{'+' if r['pnl'] > 0 else '−'}${abs(r['pnl']):.2f}</b>"
-        ex = f"<p>Sold at {r['exit_price']*100:.0f}¢: {E(r['exit_reason'] or '')}</p>" if r["status"] == "sold" else ""
+TEMPLATE = os.path.join(HERE, "dashboard_template.html")
+
+def hist_point(x):
+    return [x["ts"], x["lead_usd"], x["opp_usd"], x["kalshi_ask"], x["passes"], x["n_wallets"]]
+
+def note_row(n):
+    return dict(ts=n["ts"], kind=n["kind"], title=n["title"], note=n["note"])
+
+def dashboard_data(c, s, sk):
+    """Everything dashboard_template.html renders, as one JSON-able dict."""
+    now = NOW()
+    trades = []
+    for r in sorted(s["trades"], key=lambda r: r["ts"], reverse=True):
         snaps, notes = timeline(c, r["event_slug"], r["cond"])
-        if snaps:
-            ex += ("<h4>How the money moved</h4><ul class='q'>"
-                   + "".join(f"<li>{local(n['ts'])} ({n['kind']}): {E(n['note'])}</li>" for n in notes)
-                   + "</ul><div class='tl'><table><tr><th>Time</th><th>Run</th><th>Side</th><th>Leaders</th>"
-                     "<th>Opp.</th><th>Kalshi</th><th>Rules</th></tr>"
-                   + "".join(f"<tr><td>{local(s['ts'])}</td><td>{s['kind']}</td><td>{E(s['pick'] or '')}</td>"
-                             f"<td>{E(leaders_text(s['wallets']))}</td><td>{money(s['opp_usd'])}</td>"
-                             f"<td>{kalshi_text(s)}</td><td>{E(verdict(s))}</td></tr>" for s in snaps)
-                   + "</table></div>")
-        return (f"<details class='t {r['status']}'><summary><span>{r['status'].title()}</span>"
-                f"<span><b>{E(r['pick'])}</b><small>{E(r['title'] or '')} · starts {local(r['start_ts'])}</small></span>"
-                f"<span>{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()}</span>{pnl}</summary>"
-                f"<div><p>{len(L)} vetted wallets agreed with ${r['lead_usd']:,.0f} (opposition ${r['opp_usd']:,.0f}), "
-                f"averaging {r['leader_avg']*100:.0f}¢. Kalshi was {r['price']*100:.0f}¢.</p>{ex}<ul>{who}</ul>"
-                f"<p><a target='_blank' href='https://polymarket.com/event/{r['event_slug']}'>Polymarket</a> · "
-                f"<a target='_blank' href='{KAL}/markets/{r['kalshi_ticker']}'>Kalshi data</a></p></div></details>")
-    trades = sorted(s["trades"], key=lambda r: r["ts"], reverse=True)
-    skips = "".join(f"<li>{E(r['game'] or '')}: {E(r['title'] or '')} → {E(r['pick'] or '')} <small>({E(r['reason'])})</small></li>" for r in sk)
-    page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="120"><title>Copy-trade sim</title><style>
-:root{{--bg:#eef1f4;--card:#fff;--ink:#14213d;--quiet:#5c677d;--rule:#d5dbe3;--up:#137a4b;--down:#b3261e;--accent:#2b59c3}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#0f1624;--card:#172133;--ink:#e6ebf3;--quiet:#9aa6ba;--rule:#2a3750;--up:#46c48a;--down:#ff7b72;--accent:#7aa2ff}}}}
-body{{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,sans-serif;font-variant-numeric:tabular-nums}}
-main{{max-width:860px;margin:0 auto;padding:24px 16px 48px}} h1{{margin:0;font-size:26px}} .q{{color:var(--quiet)}}
-.big{{font-size:44px;font-weight:800;margin:12px 0 0}} .up{{color:var(--up)}} .down{{color:var(--down)}} a{{color:var(--accent)}}
-.t{{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--rule);border-radius:8px;margin:8px 0}}
-.t.won{{border-left-color:var(--up)}} .t.lost{{border-left-color:var(--down)}} .t.open{{border-left-color:var(--accent)}}
-summary{{display:grid;grid-template-columns:60px 1fr auto auto;gap:10px;padding:12px;cursor:pointer;align-items:center}}
-summary small{{display:block;color:var(--quiet)}} .t>div{{padding:0 14px 10px;border-top:1px solid var(--rule)}}
-h4{{margin:14px 0 4px}} .tl{{overflow-x:auto}} .tl table{{border-collapse:collapse;font-size:13px;width:100%}}
-.tl th,.tl td{{text-align:left;padding:4px 8px 4px 0;border-bottom:1px solid var(--rule);vertical-align:top}}
-@media (max-width:600px){{summary{{grid-template-columns:1fr auto}}}}</style></head><body><main>
-<h1>Copy-trade sim</h1><p class="q">Updated {local(NOW().isoformat())} · {'LIVE on Kalshi (' + os.environ.get('KALSHI_ENV', 'prod') + ')' if MODE == 'live' else 'paper money'}</p>
-<p class="big">${s['equity']:.2f}</p><p class="q">from ${START_BANKROLL:.0f} · {s['won']} won, {s['lost']} lost, {s['sold']} sold early · {s['open']} open · cash ${s['cash']:.2f}</p>
-<h2>Trades</h2>{''.join(card(r) for r in trades) or '<p class="q">No trades yet.</p>'}
-<h2>Recent skips</h2><ul class="q">{skips or '<li>None</li>'}</ul></main></body></html>"""
+        trades.append(dict(id=r["id"], ts=r["ts"], game=r["game"], slug=r["event_slug"], title=r["title"],
+                           pick=r["pick"], start=r["start_ts"], status=r["status"], n=r["contracts"], price=r["price"],
+                           side=r["kalshi_side"], ticker=r["kalshi_ticker"], cost=r["cost"], fee=r["fee"], pnl=r["pnl"],
+                           exit_price=r["exit_price"], exit_reason=r["exit_reason"], closed=r["settled_ts"] or r["exit_ts"],
+                           leaders=json.loads(r["leaders"]), lead=r["lead_usd"], opp=r["opp_usd"], avg=r["leader_avg"],
+                           cond=r["cond"], hist=[hist_point(x) for x in reversed(snaps)], notes=[note_row(n) for n in notes]))
+    traded = {t["slug"] for t in trades}
+    games = []
+    since = (now - timedelta(hours=TIMELINE_HOURS)).isoformat()
+    for g in rows(c, "SELECT event_slug, MAX(game) game, MAX(start_ts) start FROM snapshots WHERE start_ts>? AND fails<=1 "
+                     "GROUP BY event_slug ORDER BY start", (since,)):
+        snaps, notes = timeline(c, g["event_slug"])
+        markets = {}
+        for x in snaps:   # newest first, so the first row per market is its latest state
+            m = markets.setdefault(x["cond"], dict(cond=x["cond"], title=x["title"], pick=x["pick"],
+                                                   wallets=json.loads(x["wallets"]), lead=x["lead_usd"], opp=x["opp_usd"],
+                                                   avg=x["leader_avg"], ask=x["kalshi_ask"], side=x["kalshi_side"],
+                                                   ok=x["passes"], why=x["reason"], fails=x["fails"], hist=[]))
+            m["hist"].insert(0, hist_point(x))
+        ms = sorted(markets.values(), key=lambda m: (-m["ok"], m["fails"], -m["lead"]))
+        games.append(dict(slug=g["event_slug"], game=g["game"], start=g["start"], traded=g["event_slug"] in traded,
+                          markets=ms, notes=[note_row(n) for n in notes[:40]]))
+    w = c.execute("SELECT v FROM meta WHERE k='window'").fetchone()
+    window = [int(x) for x in w[0].split("-")] if w else list(PREGAME_WINDOW)
+    curve, eq = [[s["trades"][0]["ts"] if s["trades"] else NOW().isoformat(), START_BANKROLL]], START_BANKROLL
+    for t in sorted((t for t in trades if t["closed"]), key=lambda t: t["closed"]):
+        eq = round(eq + (t["pnl"] or 0), 2)
+        curve.append([t["closed"], eq])
+    return dict(mode=MODE, env=os.environ.get("KALSHI_ENV", "prod"), updated=now.isoformat(timespec="seconds"),
+                start=START_BANKROLL, stake=STAKE_USD,
+                summary={k: s[k] for k in ("cash", "equity", "open", "won", "lost", "sold", "pnl")},
+                at_risk=round(sum(t["cost"] + t["fee"] for t in trades if t["status"] == "open"), 2),
+                rules=dict(min_wallets=MIN_WALLETS, opp_max=OPP_MAX, hedge=HEDGE_RATIO, slip=MAX_SLIP,
+                           min_price=MIN_PRICE, max_price=MAX_PRICE, window=window,
+                           lock=LOCK_WINDOW_MIN, plan_lead=PLAN_LEAD_MIN, timeline_hours=TIMELINE_HOURS),
+                trades=trades, games=games, curve=curve,
+                skips=[dict(ts=r["ts"], game=r["game"], title=r["title"], pick=r["pick"], reason=r["reason"],
+                            lead=r["lead_usd"]) for r in sk])
+
+def write_dashboard(c, s, sk):
+    with open(TEMPLATE, encoding="utf-8") as f:
+        page = f.read()
+    data = json.dumps(dashboard_data(c, s, sk), separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+    page = page.replace("/*__DATA__*/null", data)
     with open(DASH + ".tmp", "w", encoding="utf-8") as f:
         f.write(page)
     os.replace(DASH + ".tmp", DASH)
@@ -877,9 +895,13 @@ def report(c):
 def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
     """One pull of positions, then exits, the hourly snapshot + plan and/or the pre-game decision, and settlement.
     Only the pre-game decision opens trades."""
-    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear()
+    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
     refresh_pool(c)
     markets = consensus(c)
+    if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
+        log("ERROR: could not pull every vetted wallet's positions; no exits, snapshots or entries this run")
+        settle(c); write_report(c)
+        return
     check_exits(c, markets)
     lo, hi = window
     if hourly:
@@ -898,6 +920,7 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
         log(f"pre-game check: {len({x['slug'] for x in due})} game(s) starting in {lo}-{hi} min, "
             f"{sum(not x['fails'] for x in due)} passing market(s)")
         decide(c, due)
+        c.execute("INSERT OR REPLACE INTO meta VALUES('window', ?)", (f"{lo}-{hi}",)); c.commit()
     settle(c)
     write_report(c)
 
