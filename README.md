@@ -12,7 +12,7 @@ on Kalshi and only turns on when you explicitly enable it.
 | Signal | 2+ vetted wallets on the same side (`MIN_WALLETS`) |
 | Opposition | Vetted money on the other side must be under 10% of theirs (`OPP_MAX`) |
 | Hedges | A wallet holding both sides (smaller side > 20%) doesn't count |
-| Timing | Enter only in the last hour before the game starts (`LOCK_WINDOW_MIN`) |
+| Timing | Decide 5 to 25 minutes before the start, in the pre-game check (`PREGAME_WINDOW`, inside `LOCK_WINDOW_MIN`) |
 | Price | Kalshi must be within 3¢ of the leaders' average entry (`MAX_SLIP`), same line only |
 | Size | One trade per game, flat $10 (`COPYSIM_STAKE`) |
 | Exits | If the leaders sell or flip before the start, sell; otherwise hold to settlement |
@@ -24,19 +24,23 @@ basketball, and major soccer leagues.
 
 - `copysim.py`: the strategy, matching, paper/live execution, reports
 - `kalshi_client.py`: signed Kalshi API calls for live mode (Create Order V2)
-- `REPORT.md` / `dashboard.html`: written after every cycle
-- `copysim.db`: trade history (SQLite)
+- `REPORT.md` / `dashboard.html`: written after every run, with a per-game timeline of how the vetted money moved
+- `pregame_plan.json`: games worth a pre-game check, and when (`check_at`, 15 minutes before start)
+- `copysim.db`: trade history, hourly snapshots and change notes (SQLite). `COPYSIM_DB=copysim_live.db` keeps a
+  separate history and writes `REPORT_live.md`, `dashboard_live.html` and `pregame_plan_live.json`.
 
 ## Run the simulation
 
 ```bash
 pip install -r requirements.txt
-python3 copysim.py            # loops every 5 minutes; keep the computer awake
-python3 copysim.py --once     # one cycle, for schedulers
+python3 copysim.py hourly     # snapshot every game in the next 24h, note changes, write the plan; never trades
+python3 copysim.py pregame    # decide games starting in 5-25 min (--window 15-45 to widen); the only mode that trades
+python3 copysim.py            # laptop: hourly snapshot + pre-game check every 5 minutes; keep the computer awake
+python3 copysim.py --once     # one snapshot + pre-game check
 python3 copysim.py report     # print the bankroll and trades
 ```
 
-Start somewhere other than $100 with `COPYSIM_START=137.54`.
+Start somewhere other than $100 with `COPYSIM_START=137.54`. For scheduled cloud runs, see `CLAUDE_CODE_SETUP.md`.
 
 ### Run it in the cloud, managed from your phone (Claude Code scheduled task)
 

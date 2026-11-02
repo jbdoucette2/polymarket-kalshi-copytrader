@@ -14,8 +14,12 @@ Rules (match the manual sim):
 Markets matched to Kalshi: moneylines, soccer win/draw, totals (O/U), spreads,
 for NBA, NFL, NHL, college football and basketball, and major soccer leagues.
 
-Run continuously (laptop):  python3 copysim.py
-Run one cycle (scheduler):   python3 copysim.py --once
+Entries happen only in the pre-game check, 5 to 25 minutes before the start (PREGAME_WINDOW).
+
+Hourly snapshot and plan:    python3 copysim.py hourly     (never opens trades; writes pregame_plan.json)
+Pre-game decision:           python3 copysim.py pregame    (optionally --window 15-45)
+Run continuously (laptop):   python3 copysim.py            (hourly snapshot + pre-game check every 5 min)
+Run one cycle:               python3 copysim.py --once     (snapshot + pre-game check)
 Print results:               python3 copysim.py report
 Test live credentials:       python3 copysim.py check-keys
 
@@ -23,7 +27,8 @@ Modes (COPYSIM_MODE): paper (default, no keys, no orders) | live (real orders on
 Live mode also requires COPYSIM_LIVE_ACK=yes and Kalshi keys (see kalshi_client.py),
 and is capped by the LIVE_* limits below. Create a file named STOP next to this script
 to halt all new entries immediately in any mode.
-Writes REPORT.md and dashboard.html next to this file after every cycle.
+COPYSIM_DB (default copysim.db) picks the history file. REPORT.md, dashboard.html and pregame_plan.json
+are written next to it with the same suffix (copysim_live.db -> REPORT_live.md).
 """
 import html, json, math, os, re, sqlite3, sys, time, difflib
 from datetime import datetime, timezone, timedelta
@@ -43,13 +48,21 @@ HEDGE_RATIO     = 0.20
 MAX_SLIP        = 0.03
 MIN_PRICE, MAX_PRICE = 0.05, 0.95
 LOCK_WINDOW_MIN = 60        # enter only when the game starts within this many minutes
+PREGAME_WINDOW  = (5, 25)   # the pre-game check decides games starting this many minutes from now
+PLAN_LEAD_MIN   = 15        # pregame_plan.json asks for the check this long before the start
+SNAPSHOT_HOURS  = 24        # the hourly snapshot covers games starting within this many hours
+TIMELINE_HOURS  = 48        # REPORT.md shows position changes for games that started this recently
 POLL_SECONDS    = 300
+HOURLY_SECONDS  = 3600
 POOL_REFRESH_H  = 6
 MAX_POS_PAGES   = 10        # 500 positions per page
 HERE = os.path.dirname(os.path.abspath(__file__))
-DB   = os.path.join(HERE, "copysim.db")
-DASH = os.path.join(HERE, "dashboard.html")
-REPORT = os.path.join(HERE, "REPORT.md")
+DB   = os.path.join(HERE, os.environ.get("COPYSIM_DB", "copysim.db"))
+_base = os.path.splitext(os.path.basename(DB))[0]
+SUFFIX = _base[len("copysim"):] if _base.startswith("copysim") else "_" + _base
+DASH = os.path.join(os.path.dirname(DB), f"dashboard{SUFFIX}.html")
+REPORT = os.path.join(os.path.dirname(DB), f"REPORT{SUFFIX}.md")
+PLAN = os.path.join(os.path.dirname(DB), f"pregame_plan{SUFFIX}.json")
 STOP_FILE = os.path.join(HERE, "STOP")
 ORDER_LOG = os.path.join(HERE, "orders.log")
 
@@ -110,6 +123,15 @@ def db():
       result TEXT, pnl REAL, settled_ts TEXT, mode TEXT, order_id TEXT, exit_order_id TEXT);
     CREATE TABLE IF NOT EXISTS skips(id INTEGER PRIMARY KEY, ts TEXT, game TEXT, title TEXT, pick TEXT,
       reason TEXT, lead_usd REAL, opp_usd REAL, UNIQUE(title, pick, reason));
+    CREATE TABLE IF NOT EXISTS snapshots(
+      id INTEGER PRIMARY KEY, ts TEXT, kind TEXT, event_slug TEXT, game TEXT, cond TEXT, title TEXT, pick TEXT,
+      wallets TEXT, n_wallets INT, lead_usd REAL, opp_usd REAL, leader_avg REAL,
+      kalshi_ticker TEXT, kalshi_side TEXT, kalshi_ask REAL, start_ts TEXT, passes INT, reason TEXT, fails INT);
+    CREATE INDEX IF NOT EXISTS snapshots_cond ON snapshots(cond, id);
+    CREATE INDEX IF NOT EXISTS snapshots_event ON snapshots(event_slug, id);
+    CREATE TABLE IF NOT EXISTS changes(
+      id INTEGER PRIMARY KEY, ts TEXT, kind TEXT, event_slug TEXT, game TEXT, cond TEXT, title TEXT, note TEXT);
+    CREATE INDEX IF NOT EXISTS changes_event ON changes(event_slug, id);
     """)
     if not c.execute("SELECT 1 FROM meta WHERE k='cash'").fetchone():
         c.execute("INSERT INTO meta VALUES('cash', ?)", (str(START_BANKROLL),))
@@ -266,8 +288,14 @@ def k_events(series):
         _k_cache[series] = out
     return _k_cache[series]
 
+_kg_cache = {}
 def k_game(ev, start):
     """Find the Kalshi game event for a Polymarket event. Returns (event, {pm_team: kalshi_market})."""
+    if ev.get("slug") not in _kg_cache:
+        _kg_cache[ev.get("slug")] = _k_game(ev, start)
+    return _kg_cache[ev.get("slug")]
+
+def _k_game(ev, start):
     teams = pm_teams(ev)
     if not teams:
         return None, None
@@ -429,82 +457,219 @@ def entry_blocked(c, need):
             return "max open trades reached"
     return None
 
-# ---------------- entries ----------------
-def skip(c, game, title, pick, reason, lead=0, opp=0):
-    c.execute("INSERT OR IGNORE INTO skips(ts,game,title,pick,reason,lead_usd,opp_usd) VALUES(?,?,?,?,?,?,?)",
-              (NOW().isoformat(timespec="seconds"), game, title, pick, reason, lead, opp))
-
-def find_entries(c, markets):
+# ---------------- rules ----------------
+def evaluate(c, markets, lo_min, hi_min):
+    """Every vetted-wallet market whose game starts lo_min..hi_min minutes from now, checked against every
+    rule except timing (the window is the timing). Each candidate lists all the rules it fails."""
     now = NOW()
+    lo, hi = now + timedelta(minutes=lo_min), now + timedelta(minutes=hi_min)
     held_games = {g for (g,) in c.execute("SELECT event_slug FROM trades")}
-    candidates = {}
+    out = []
     for cond, m in markets.items():
-        main, lead, lead_usd, opp, avg = best_side(m)
         p = m["pos"]
-        if len(lead) < MIN_WALLETS or opp > OPP_MAX * lead_usd:
+        slug = p.get("eventSlug") or ""
+        d = re.search(r"(\d{4}-\d\d-\d\d)$", slug)   # dated game slugs: skip far-off games without a lookup
+        if d and abs((parse_ts(d.group(1)) - now).total_seconds()) > 2 * 86400:
             continue
-        ev = pm_event(p.get("eventSlug") or "")
+        ev = pm_event(slug)
         if not ev:
             continue
         mk = pm_market(ev, cond)
         if not mk:
             continue
         st = start_time(ev, mk)
-        if not st or not (now < st <= now + timedelta(minutes=LOCK_WINDOW_MIN)):
+        if not st or not (lo < st <= hi):
             continue
+        main, lead, lead_usd, opp, avg = best_side(m)
         outs = json.loads(mk["outcomes"]) if isinstance(mk["outcomes"], str) else mk["outcomes"]
-        prices = json.loads(mk["outcomePrices"]) if isinstance(mk["outcomePrices"], str) else mk["outcomePrices"]
-        if not (MIN_PRICE < float(prices[main]) < MAX_PRICE):
-            continue
-        game = ev.get("title")
+        prices = json.loads(mk["outcomePrices"]) if isinstance(mk.get("outcomePrices"), str) else mk.get("outcomePrices")
+        fails = []
+        if len(lead) < MIN_WALLETS:
+            fails.append(f"only {len(lead)} vetted wallet{'' if len(lead) == 1 else 's'}")
+        if opp > OPP_MAX * lead_usd:
+            fails.append(f"opposition {opp / lead_usd:.0%}" if lead_usd else "no money on the leading side")
+        price = float(prices[main]) if prices else 0
+        if not (MIN_PRICE < price < MAX_PRICE):
+            fails.append(f"Polymarket price {price * 100:.0f}¢ outside {MIN_PRICE * 100:.0f}–{MAX_PRICE * 100:.0f}¢")
         if ev["slug"] in held_games:
-            continue
-        cand = dict(cond=cond, ev=ev, mk=mk, idx=main, lead=lead, lead_usd=lead_usd, opp=opp, avg=avg,
-                    start=st, game=game, title=mk.get("question"), pick=outs[main])
-        candidates.setdefault(ev["slug"], [])
-        candidates[ev["slug"]].append(cand)
-    for slug, cands in candidates.items():
-        cands.sort(key=lambda x: -x["lead_usd"])   # one trade per game: most leader money first
-        for cd in cands:
-            res, why = match_kalshi(cd["ev"], cd["mk"], cd["idx"], cd["start"])
-            if not res:
-                skip(c, cd["game"], cd["title"], cd["pick"], why, cd["lead_usd"], cd["opp"]); continue
+            fails.append("already traded this game")
+        km = side = ask = None
+        res, why = match_kalshi(ev, mk, main, st)
+        if not res:
+            fails.append(why)
+        else:
             km, side = res
             ask = k_price(km, side, "ask")
             if km.get("status") != "active" or not (0 < ask < 1):
-                skip(c, cd["game"], cd["title"], cd["pick"], "Kalshi market not open"); continue
-            if ask - cd["avg"] > MAX_SLIP:
-                skip(c, cd["game"], cd["title"], cd["pick"],
-                     f"Kalshi {ask*100:.0f}c vs leaders {cd['avg']*100:.0f}c", cd["lead_usd"], cd["opp"]); continue
-            n = int(STAKE_USD // ask)
-            need = n * ask + kalshi_fee(n, ask)
-            blocked = entry_blocked(c, need)
-            if blocked:
-                skip(c, cd["game"], cd["title"], cd["pick"], blocked); continue
-            if n < 1 or not executor().funds_ok(c, need):
-                skip(c, cd["game"], cd["title"], cd["pick"], "not enough cash"); continue
-            limit = min(round(cd["avg"] + MAX_SLIP, 2), 0.99)
-            try:
-                n, ask, fee, oid = executor().buy(km, side, n, ask, limit)
-            except Exception as e:
-                skip(c, cd["game"], cd["title"], cd["pick"], f"order failed: {str(e)[:120]}"); continue
-            if n < 1:
-                skip(c, cd["game"], cd["title"], cd["pick"], "order did not fill"); continue
-            cost = round(n * ask, 2)
-            cash(c, -(cost + fee))
-            leaders = [dict(name=l["name"], addr=l["addr"], avg=round(l["avg"], 3), usd=round(l["usd"]))
-                       for l in cd["lead"]]
-            c.execute("""INSERT INTO trades(ts,game,event_slug,cond,title,pick,pm_outcome_idx,start_ts,leaders,
-                lead_usd,opp_usd,leader_avg,kalshi_ticker,kalshi_side,price,contracts,cost,fee,status,mode,order_id)
-                VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'open',?,?)""",
-                (NOW().isoformat(timespec="seconds"), cd["game"], slug, cd["cond"], cd["title"], cd["pick"],
-                 cd["idx"], cd["start"].isoformat(), json.dumps(leaders), round(cd["lead_usd"]), round(cd["opp"]),
-                 round(cd["avg"], 3), km["ticker"], side, ask, n, cost, fee,
-                 "live" if executor().live else "paper", oid))
-            c.commit()
-            log(f"ENTER {cd['game']} | {cd['title']} -> {cd['pick']} | {n} x {ask:.2f} {side.upper()} {km['ticker']}")
-            break
+                fails.append("Kalshi market not open")
+            elif ask - avg > MAX_SLIP:
+                fails.append(f"Kalshi {ask*100:.0f}c vs leaders {avg*100:.0f}c")
+        out.append(dict(cond=cond, ev=ev, mk=mk, idx=main, lead=lead, lead_usd=lead_usd, opp=opp, avg=avg,
+                        start=st.astimezone(timezone.utc), game=ev.get("title"), slug=ev["slug"],
+                        title=mk.get("question"), pick=outs[main], km=km, side=side, ask=ask,
+                        fails=fails, held=ev["slug"] in held_games))
+    return out
+
+# ---------------- snapshots & change notes ----------------
+def money(x):
+    return f"${x / 1000:.1f}k" if abs(x) >= 1000 else f"${x:.0f}"
+
+def change_notes(prev, cur):
+    """Human-readable differences between two snapshots of the same market."""
+    if not prev or not prev["n_wallets"]:
+        if not cur["n_wallets"]:
+            return []
+        note = f"{'first seen' if not prev else 'back'}: {cur['n_wallets']} vetted on {cur['pick']} ({money(cur['lead_usd'])})"
+        return [note + (", passes" if cur["passes"] else f", fails: {cur['reason']}")]
+    if not cur["n_wallets"]:
+        return [f"all vetted wallets left {prev['pick']}"]
+    notes = []
+    if cur["pick"] != prev["pick"]:
+        notes.append(f"majority flipped to {cur['pick']} ({money(cur['lead_usd'])} vs {money(cur['opp_usd'])})")
+    else:
+        was = {w["name"]: w["usd"] for w in json.loads(prev["wallets"])}
+        now = {w["name"]: w["usd"] for w in json.loads(cur["wallets"])}
+        for n, usd in now.items():
+            if n not in was:
+                notes.append(f"{n} joined {cur['pick']} (+{money(usd)})")
+            elif abs(usd - was[n]) >= max(1000, 0.25 * was[n]):
+                notes.append(f"{n} {'added' if usd > was[n] else 'cut'} {money(abs(usd - was[n]))} on {cur['pick']}")
+        notes += [f"{n} left" for n in was if n not in now]
+    if prev["kalshi_ask"] and cur["kalshi_ask"] and round(prev["kalshi_ask"] * 100) != round(cur["kalshi_ask"] * 100):
+        notes.append(f"Kalshi {prev['kalshi_ask'] * 100:.0f}¢ → {cur['kalshi_ask'] * 100:.0f}¢")
+    elif cur["kalshi_ask"] and not prev["kalshi_ask"]:
+        notes.append(f"Kalshi matched at {cur['kalshi_ask'] * 100:.0f}¢")
+    if cur["passes"] and not prev["passes"]:
+        notes.append("now passes")
+    elif prev["passes"] and not cur["passes"]:
+        notes.append(f"now fails: {cur['reason']}")
+    return notes
+
+SNAP_COLS = ["ts", "kind", "event_slug", "game", "cond", "title", "pick", "wallets", "n_wallets", "lead_usd", "opp_usd",
+             "leader_avg", "kalshi_ticker", "kalshi_side", "kalshi_ask", "start_ts", "passes", "reason", "fails"]
+
+def record(c, row):
+    prev = rows(c, "SELECT * FROM snapshots WHERE cond=? ORDER BY id DESC LIMIT 1", (row["cond"],))
+    prev = prev[0] if prev else None
+    c.execute(f"INSERT INTO snapshots({','.join(SNAP_COLS)}) VALUES({','.join('?' * len(SNAP_COLS))})",
+              [row[k] for k in SNAP_COLS])
+    # notes only for markets that are (or were) passing or one rule away; the rest is noise
+    if row["fails"] <= 1 or (prev and prev["fails"] <= 1):
+        for note in change_notes(prev, row):
+            c.execute("INSERT INTO changes(ts,kind,event_slug,game,cond,title,note) VALUES(?,?,?,?,?,?,?)",
+                      (row["ts"], row["kind"], row["event_slug"], row["game"], row["cond"], row["title"], note))
+
+def snapshot(c, cands, kind, lo_min, hi_min, pregame_window=None):
+    """Record one snapshot row per market, plus change notes against each market's previous snapshot.
+    Rows for games inside pregame_window (minutes from now) are labelled 'pregame'."""
+    now = NOW()
+    ts = now.isoformat(timespec="seconds")
+    def kind_of(start):
+        if pregame_window and now + timedelta(minutes=pregame_window[0]) < start <= now + timedelta(minutes=pregame_window[1]):
+            return "pregame"
+        return kind
+    for cd in cands:
+        lead = sorted(cd["lead"], key=lambda l: -l["usd"])
+        record(c, dict(ts=ts, kind=kind_of(cd["start"]), event_slug=cd["slug"], game=cd["game"], cond=cd["cond"], title=cd["title"],
+                       pick=cd["pick"], wallets=json.dumps([dict(name=l["name"], usd=round(l["usd"])) for l in lead]),
+                       n_wallets=len(lead), lead_usd=round(cd["lead_usd"]), opp_usd=round(cd["opp"]),
+                       leader_avg=round(cd["avg"], 3), kalshi_ticker=(cd["km"] or {}).get("ticker"),
+                       kalshi_side=cd["side"], kalshi_ask=cd["ask"], start_ts=cd["start"].isoformat(),
+                       passes=int(not cd["fails"]), reason="; ".join(cd["fails"]), fails=len(cd["fails"])))
+    # markets snapshotted before in this window that no vetted wallet holds any more
+    seen = {cd["cond"] for cd in cands}
+    lo = (now + timedelta(minutes=lo_min)).isoformat()
+    hi = (now + timedelta(minutes=hi_min)).isoformat()
+    for prev in rows(c, "SELECT s.* FROM snapshots s JOIN (SELECT cond, MAX(id) id FROM snapshots GROUP BY cond) l "
+                        "ON s.id=l.id WHERE s.start_ts>? AND s.start_ts<=? AND s.n_wallets>0", (lo, hi)):
+        if prev["cond"] not in seen:
+            record(c, dict(prev, ts=ts, kind=kind_of(parse_ts(prev["start_ts"])), wallets="[]", n_wallets=0, lead_usd=0, opp_usd=0, kalshi_ask=None,
+                           passes=0, reason="no vetted wallets hold it now", fails=1))
+    # once a game has started, drop markets that were never passing or one rule away: no report shows them
+    c.execute("DELETE FROM snapshots WHERE start_ts<? AND cond NOT IN (SELECT cond FROM trades) AND cond IN "
+              "(SELECT cond FROM snapshots GROUP BY cond HAVING MIN(fails)>=2)", (ts,))
     c.commit()
+
+def write_plan(cands):
+    """pregame_plan.json: games with a market passing or one rule away, and when to run the pre-game check."""
+    games = {}
+    for cd in cands:
+        if cd["held"] or len(cd["fails"]) > 1:
+            continue
+        games.setdefault(cd["slug"], []).append(cd)
+    plan = []
+    for slug, cs in sorted(games.items(), key=lambda kv: kv[1][0]["start"]):
+        best = min(cs, key=lambda x: (len(x["fails"]), -x["lead_usd"]))
+        st = cs[0]["start"]
+        plan.append(dict(event_slug=slug, game=best["game"],
+                         start=st.isoformat(timespec="seconds").replace("+00:00", "Z"),
+                         check_at=(st - timedelta(minutes=PLAN_LEAD_MIN)).isoformat(timespec="seconds").replace("+00:00", "Z"),
+                         passing=sum(not x["fails"] for x in cs), near=sum(len(x["fails"]) == 1 for x in cs),
+                         best=f"{best['title']} → {best['pick']} ({money(best['lead_usd'])}, {len(best['lead'])} wallets)",
+                         status="passes" if not best["fails"] else f"fails: {best['fails'][0]}"))
+    with open(PLAN + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(dict(updated=NOW().isoformat(timespec="seconds").replace("+00:00", "Z"), games=plan), f, indent=2,
+                  ensure_ascii=False)
+    os.replace(PLAN + ".tmp", PLAN)
+    log(f"plan: {len(plan)} game(s) to check before start")
+    return plan
+
+# ---------------- entries ----------------
+def skip(c, game, title, pick, reason, lead=0, opp=0):
+    c.execute("INSERT OR IGNORE INTO skips(ts,game,title,pick,reason,lead_usd,opp_usd) VALUES(?,?,?,?,?,?,?)",
+              (NOW().isoformat(timespec="seconds"), game, title, pick, reason, lead, opp))
+
+def decide(c, cands):
+    """The pre-game decision: per game, the passing market with the most leader money
+    (ties: more wallets, then lower Kalshi price) goes to the executor."""
+    games = {}
+    for cd in cands:
+        if not cd["held"]:
+            games.setdefault(cd["slug"], []).append(cd)
+    for slug, cs in games.items():
+        ok = sorted((x for x in cs if not x["fails"]), key=lambda x: (-x["lead_usd"], -len(x["lead"]), x["ask"]))
+        for cd in ok:
+            if enter(c, cd):
+                break
+        else:
+            near = [x for x in cs if len(x["fails"]) <= 1] or [min(cs, key=lambda x: len(x["fails"]))]
+            for x in near:
+                if x["fails"]:
+                    skip(c, x["game"], x["title"], x["pick"], "; ".join(x["fails"]), x["lead_usd"], x["opp"])
+            log(f"no trade: {cs[0]['game']} ({len(ok)} passing, {len(cs)} markets)")
+    c.commit()
+
+def enter(c, cd):
+    """Size, safety-gate and place one entry through the executor. Returns True if it filled."""
+    km, side, ask, slug = cd["km"], cd["side"], cd["ask"], cd["slug"]
+    n = int(STAKE_USD // ask)
+    need = n * ask + kalshi_fee(n, ask)
+    blocked = entry_blocked(c, need)
+    if blocked:
+        skip(c, cd["game"], cd["title"], cd["pick"], blocked); return False
+    if n < 1 or not executor().funds_ok(c, need):
+        skip(c, cd["game"], cd["title"], cd["pick"], "not enough cash"); return False
+    limit = min(round(cd["avg"] + MAX_SLIP, 2), 0.99)
+    try:
+        n, ask, fee, oid = executor().buy(km, side, n, ask, limit)
+    except Exception as e:
+        skip(c, cd["game"], cd["title"], cd["pick"], f"order failed: {str(e)[:120]}"); return False
+    if n < 1:
+        skip(c, cd["game"], cd["title"], cd["pick"], "order did not fill"); return False
+    cost = round(n * ask, 2)
+    cash(c, -(cost + fee))
+    leaders = [dict(name=l["name"], addr=l["addr"], avg=round(l["avg"], 3), usd=round(l["usd"]))
+               for l in cd["lead"]]
+    c.execute("""INSERT INTO trades(ts,game,event_slug,cond,title,pick,pm_outcome_idx,start_ts,leaders,
+        lead_usd,opp_usd,leader_avg,kalshi_ticker,kalshi_side,price,contracts,cost,fee,status,mode,order_id)
+        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'open',?,?)""",
+        (NOW().isoformat(timespec="seconds"), cd["game"], slug, cd["cond"], cd["title"], cd["pick"],
+         cd["idx"], cd["start"].isoformat(), json.dumps(leaders), round(cd["lead_usd"]), round(cd["opp"]),
+         round(cd["avg"], 3), km["ticker"], side, ask, n, cost, fee,
+         "live" if executor().live else "paper", oid))
+    c.commit()
+    log(f"ENTER {cd['game']} | {cd['title']} -> {cd['pick']} | {n} x {ask:.2f} {side.upper()} {km['ticker']}")
+    return True
 
 # ---------------- exits & settlement ----------------
 def check_exits(c, markets):
@@ -601,6 +766,7 @@ def write_report(c):
                      f"{r['title']} → {r['pick']} | {lead} (${r['lead_usd']:,.0f}) | "
                      f"{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()} `{r['kalshi_ticker']}` | "
                      f"{r['status']} | {fmt_pnl(r['pnl'])} |")
+    lines += position_changes(c)
     sk = rows(c, "SELECT * FROM skips ORDER BY id DESC LIMIT 30")
     if sk:
         lines += ["", "## Recent skips", "", "| When | Game | Pick | Reason |", "| --- | --- | --- | --- |"]
@@ -610,6 +776,46 @@ def write_report(c):
     os.replace(REPORT + ".tmp", REPORT)
     write_dashboard(c, s, sk)
 
+def leaders_text(wallets):
+    return ", ".join(f"{w['name']} {money(w['usd'])}" for w in json.loads(wallets)) or "none"
+
+def kalshi_text(r):
+    return f"{r['kalshi_ask'] * 100:.0f}¢ {r['kalshi_side'].upper()}" if r["kalshi_ask"] else "—"
+
+def verdict(r):
+    return "passes" if r["passes"] else f"fails: {r['reason']}"
+
+def timeline(c, slug, cond=None):
+    """Snapshots (newest first) and change notes for one game. Without cond, only markets that were
+    passing or one rule away at some point, since those are the ones the decision chose between."""
+    if cond:
+        snaps = rows(c, "SELECT * FROM snapshots WHERE cond=? ORDER BY id DESC", (cond,))
+    else:
+        snaps = rows(c, "SELECT * FROM snapshots WHERE event_slug=? AND cond IN (SELECT cond FROM snapshots "
+                        "WHERE event_slug=? GROUP BY cond HAVING MIN(fails)<=1) ORDER BY id DESC", (slug, slug))
+    notes = rows(c, "SELECT * FROM changes WHERE event_slug=?" + (" AND cond=?" if cond else "") + " ORDER BY id DESC",
+                 (slug, cond) if cond else (slug,))
+    return snaps, notes
+
+def position_changes(c):
+    since = (NOW() - timedelta(hours=TIMELINE_HOURS)).isoformat()
+    games = rows(c, "SELECT event_slug, MAX(game) game, MAX(start_ts) start_ts, MAX(id) last FROM snapshots "
+                    "WHERE start_ts>? AND fails<=1 GROUP BY event_slug ORDER BY last DESC", (since,))
+    if not games:
+        return []
+    out = ["", "## Position changes", "",
+           f"Games starting in the last {TIMELINE_HOURS} hours or later that had a market passing or one rule away. "
+           "Newest first.", ""]
+    for g in games:
+        snaps, notes = timeline(c, g["event_slug"])
+        out += [f"### {g['game']} · starts {local(g['start_ts'])}", ""]
+        out += [f"- {local(n['ts'])} ({n['kind']}): {n['title']}: {n['note']}" for n in notes]
+        out += ["", "| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |", "| --- | --- | --- | --- | --- | --- | --- |"]
+        out += [f"| {local(r['ts'])} | {r['kind']} | {r['title']} → {r['pick']} | {leaders_text(r['wallets'])} | "
+                f"{money(r['opp_usd'])} | {kalshi_text(r)} | {verdict(r)} |" for r in snaps]
+        out.append("")
+    return out
+
 E = html.escape
 def write_dashboard(c, s, sk):
     def card(r):
@@ -618,6 +824,16 @@ def write_dashboard(c, s, sk):
                       f"${l['usd']:,} at {l['avg']*100:.0f}¢ · <a target='_blank' href='{PM}/v2/trades?user={l['addr']}&condition={r['cond']}'>trades</a></li>" for l in L)
         pnl = "" if r["pnl"] is None else f"<b class='{'up' if r['pnl'] > 0 else 'down'}'>{'+' if r['pnl'] > 0 else '−'}${abs(r['pnl']):.2f}</b>"
         ex = f"<p>Sold at {r['exit_price']*100:.0f}¢: {E(r['exit_reason'] or '')}</p>" if r["status"] == "sold" else ""
+        snaps, notes = timeline(c, r["event_slug"], r["cond"])
+        if snaps:
+            ex += ("<h4>How the money moved</h4><ul class='q'>"
+                   + "".join(f"<li>{local(n['ts'])} ({n['kind']}): {E(n['note'])}</li>" for n in notes)
+                   + "</ul><div class='tl'><table><tr><th>Time</th><th>Run</th><th>Side</th><th>Leaders</th>"
+                     "<th>Opp.</th><th>Kalshi</th><th>Rules</th></tr>"
+                   + "".join(f"<tr><td>{local(s['ts'])}</td><td>{s['kind']}</td><td>{E(s['pick'] or '')}</td>"
+                             f"<td>{E(leaders_text(s['wallets']))}</td><td>{money(s['opp_usd'])}</td>"
+                             f"<td>{kalshi_text(s)}</td><td>{E(verdict(s))}</td></tr>" for s in snaps)
+                   + "</table></div>")
         return (f"<details class='t {r['status']}'><summary><span>{r['status'].title()}</span>"
                 f"<span><b>{E(r['pick'])}</b><small>{E(r['title'] or '')} · starts {local(r['start_ts'])}</small></span>"
                 f"<span>{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()}</span>{pnl}</summary>"
@@ -637,9 +853,11 @@ main{{max-width:860px;margin:0 auto;padding:24px 16px 48px}} h1{{margin:0;font-s
 .t{{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--rule);border-radius:8px;margin:8px 0}}
 .t.won{{border-left-color:var(--up)}} .t.lost{{border-left-color:var(--down)}} .t.open{{border-left-color:var(--accent)}}
 summary{{display:grid;grid-template-columns:60px 1fr auto auto;gap:10px;padding:12px;cursor:pointer;align-items:center}}
-summary small{{display:block;color:var(--quiet)}} .t div{{padding:0 14px 10px;border-top:1px solid var(--rule)}}
+summary small{{display:block;color:var(--quiet)}} .t>div{{padding:0 14px 10px;border-top:1px solid var(--rule)}}
+h4{{margin:14px 0 4px}} .tl{{overflow-x:auto}} .tl table{{border-collapse:collapse;font-size:13px;width:100%}}
+.tl th,.tl td{{text-align:left;padding:4px 8px 4px 0;border-bottom:1px solid var(--rule);vertical-align:top}}
 @media (max-width:600px){{summary{{grid-template-columns:1fr auto}}}}</style></head><body><main>
-<h1>Copy-trade sim</h1><p class="q">Updated {local(NOW().isoformat())} · paper money</p>
+<h1>Copy-trade sim</h1><p class="q">Updated {local(NOW().isoformat())} · {'LIVE on Kalshi (' + os.environ.get('KALSHI_ENV', 'prod') + ')' if MODE == 'live' else 'paper money'}</p>
 <p class="big">${s['equity']:.2f}</p><p class="q">from ${START_BANKROLL:.0f} · {s['won']} won, {s['lost']} lost, {s['sold']} sold early · {s['open']} open · cash ${s['cash']:.2f}</p>
 <h2>Trades</h2>{''.join(card(r) for r in trades) or '<p class="q">No trades yet.</p>'}
 <h2>Recent skips</h2><ul class="q">{skips or '<li>None</li>'}</ul></main></body></html>"""
@@ -656,12 +874,30 @@ def report(c):
               f"{r['kalshi_side']} | {fmt_pnl(r['pnl'])}")
 
 # ---------------- main ----------------
-def cycle(c):
-    _ev_cache.clear(); _k_cache.clear()
+def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
+    """One pull of positions, then exits, the hourly snapshot + plan and/or the pre-game decision, and settlement.
+    Only the pre-game decision opens trades."""
+    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear()
     refresh_pool(c)
     markets = consensus(c)
     check_exits(c, markets)
-    find_entries(c, markets)
+    lo, hi = window
+    if hourly:
+        cands = evaluate(c, markets, 0, SNAPSHOT_HOURS * 60)
+        now = NOW()
+        due = [x for x in cands if now + timedelta(minutes=lo) < x["start"] <= now + timedelta(minutes=hi)]
+        snapshot(c, cands, "hourly", 0, SNAPSHOT_HOURS * 60, window if pregame else None)
+        log(f"snapshot: {len(cands)} markets in {len({x['slug'] for x in cands})} games over the next {SNAPSHOT_HOURS}h, "
+            f"{sum(not x['fails'] for x in cands)} passing")
+        write_plan(cands)
+        c.execute("INSERT OR REPLACE INTO meta VALUES('hourly_ts', ?)", (str(time.time()),)); c.commit()
+    elif pregame:
+        due = evaluate(c, markets, lo, hi)
+        snapshot(c, due, "pregame", lo, hi)
+    if pregame:
+        log(f"pre-game check: {len({x['slug'] for x in due})} game(s) starting in {lo}-{hi} min, "
+            f"{sum(not x['fails'] for x in due)} passing market(s)")
+        decide(c, due)
     settle(c)
     write_report(c)
 
@@ -674,12 +910,23 @@ def main():
         k = KalshiClient()
         print(f"Kalshi ({os.environ.get('KALSHI_ENV', 'prod')}) balance: ${k.balance_usd():.2f}. Keys work.")
         return
+    window = PREGAME_WINDOW
+    if "--window" in sys.argv:
+        lo, hi = sys.argv[sys.argv.index("--window") + 1].split("-")
+        window = (int(lo), int(hi))
+        if not 0 <= window[0] < window[1] <= LOCK_WINDOW_MIN:
+            raise SystemExit(f"--window must be inside 0-{LOCK_WINDOW_MIN} minutes")
     executor()
+    if "hourly" in sys.argv:
+        cycle(c, hourly=True, pregame=False); report(c); return
+    if "pregame" in sys.argv:
+        cycle(c, hourly=False, pregame=True, window=window); report(c); return
     if "--once" in sys.argv:
-        cycle(c); report(c); return
+        cycle(c, window=window); report(c); return
     while True:
         try:
-            cycle(c)
+            last = c.execute("SELECT v FROM meta WHERE k='hourly_ts'").fetchone()
+            cycle(c, hourly=not last or time.time() - float(last[0]) >= HOURLY_SECONDS, window=window)
         except Exception as e:
             log(f"cycle error (continuing): {e}")
         time.sleep(POLL_SECONDS)
