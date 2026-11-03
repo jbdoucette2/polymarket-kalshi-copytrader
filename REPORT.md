@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 8:17 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 8:45 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -19,6 +19,72 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A · starts Tue Nov 3, 9:30 AM
+
+- Tue Nov 3, 8:45 AM (pregame): Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A: all vetted wallets left Legacy
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 8:45 AM | pregame | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:16 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### KBO Playoff: Samsung Lions vs. KT Wiz · starts Tue Nov 3, 9:30 AM
+
+- Tue Nov 3, 8:45 AM (pregame): KBO Playoff: Samsung Lions vs. KT Wiz: all vetted wallets left KT Wiz
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 8:45 AM | pregame | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:16 AM | hourly | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | Flaznorp $1.5k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | Flaznorp $1.5k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | Flaznorp $1.1k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | Flaznorp $412 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | Flaznorp $389 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A · starts Tue Nov 3, 9:30 AM
+
+- Tue Nov 3, 8:45 AM (pregame): Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A: all vetted wallets left FURIA
+- Tue Nov 3, 8:45 AM (pregame): Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5): all vetted wallets left Natus Vincere
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 8:45 AM | pregame | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:45 AM | pregame | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:16 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova · starts Tue Nov 3, 9:30 AM
+
+- Tue Nov 3, 8:45 AM (pregame): Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova: all vetted wallets left Tereza Valentova
+- Tue Nov 3, 8:16 AM (hourly): Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova: Flaznorp joined Tereza Valentova (+$796)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 8:45 AM | pregame | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:16 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | Flaznorp $796, omnibus-076daa $48 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### SC Internacional vs. Coritiba FBC - More Markets · starts Wed Nov 4, 12:30 AM
 
@@ -245,20 +311,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 46¢ NO | fails: only 1 vetted wallet |
 | Mon Nov 2, 11:59 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | 47¢ NO | fails: only 1 vetted wallet |
-
-### Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova · starts Tue Nov 3, 9:30 AM
-
-- Tue Nov 3, 8:16 AM (hourly): Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova: Flaznorp joined Tereza Valentova (+$796)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 8:16 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | Flaznorp $796, omnibus-076daa $48 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | omnibus-076daa $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Oilers vs. Devils · starts Wed Nov 4, 12:30 AM
 
@@ -2612,6 +2664,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 8:45 AM | Chennai Open: Viktoria Morvayova vs Polina Kudermetova | Chennai Open: Viktoria Morvayova vs Polina Kudermetova → Viktoria Morvayova | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:17 AM | W35 Liberec: Adrienn Nagy vs Josy Daems | W35 Liberec: Adrienn Nagy vs Josy Daems → Josy Daems | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:17 AM | Counter-Strike: Saint Sinners vs Spirit Academy (BO3) - NODWIN Clutch Series Play-In Group A | Counter-Strike: Saint Sinners vs Spirit Academy (BO3) - NODWIN Clutch Series Play-In Group A → Spirit Academy | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:17 AM | Luanda: Sofya Lansere vs Angella Okutoyi | Luanda: Sofya Lansere vs Angella Okutoyi → Angella Okutoyi | only 1 vetted wallet; no Kalshi game found |
@@ -2641,4 +2694,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Seattle Redhawks vs. Hawaii Rainbow Warriors | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | only 1 vetted wallet; Kalshi 55c vs leaders 52c |
 | Tue Nov 3, 4:25 AM | Renofa Yamaguchi vs. Kagoshima United - Exact Score | Exact Score: Renofa Yamaguchi 2 - 0 Kagoshima United? → No | only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Ventforet Kōfu vs. Albirex Niigata - Exact Score | Exact Score: Ventforet Kōfu 1 - 0 Albirex Niigata? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Fujieda MYFC vs. Júbilo Iwata - More Markets | Fujieda MYFC vs. Júbilo Iwata: O/U 3.5 → Over | only 1 vetted wallet; no Kalshi game found |
