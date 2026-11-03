@@ -18,6 +18,9 @@ Entries happen only in the pre-game check, 5 to 25 minutes before the start (PRE
 
 Hourly snapshot and plan:    python3 copysim.py hourly     (never opens trades; writes pregame_plan.json)
 Pre-game decision:           python3 copysim.py pregame    (optionally --window 15-45)
+15-minute check:             python3 copysim.py verify     (open trades starting within 25 min must still pass
+                                                            the 2-wallet and opposition rules, or they are sold;
+                                                            next_check.json says when to run it next)
 Run continuously (laptop):   python3 copysim.py            (hourly snapshot + pre-game check every 5 min)
 Run one cycle:               python3 copysim.py --once     (snapshot + pre-game check)
 Print results:               python3 copysim.py report
@@ -50,6 +53,8 @@ MIN_PRICE, MAX_PRICE = 0.05, 0.95
 LOCK_WINDOW_MIN = 60        # enter only when the game starts within this many minutes
 PREGAME_WINDOW  = (5, 25)   # the pre-game check decides games starting this many minutes from now
 PLAN_LEAD_MIN   = 15        # pregame_plan.json asks for the check this long before the start
+VERIFY_LEAD_MIN = 15        # the 15-minute check runs this long before each open trade's start
+VERIFY_AHEAD_MIN = 25       # ...and re-checks every open trade starting within this many minutes
 SNAPSHOT_HOURS  = 24        # the hourly snapshot covers games starting within this many hours
 TIMELINE_HOURS  = 48        # REPORT.md shows position changes for games that started this recently
 POLL_SECONDS    = 300
@@ -63,6 +68,7 @@ SUFFIX = _base[len("copysim"):] if _base.startswith("copysim") else "_" + _base
 DASH = os.path.join(os.path.dirname(DB), f"dashboard{SUFFIX}.html")
 REPORT = os.path.join(os.path.dirname(DB), f"REPORT{SUFFIX}.md")
 PLAN = os.path.join(os.path.dirname(DB), f"pregame_plan{SUFFIX}.json")
+NEXT_CHECK = os.path.join(os.path.dirname(DB), f"next_check{SUFFIX}.json")
 STOP_FILE = os.path.join(HERE, "STOP")
 ORDER_LOG = os.path.join(HERE, "orders.log")
 
@@ -696,32 +702,81 @@ def check_exits(c, markets):
         still = sum(1 for l in orig if l["addr"] in holding)
         if still * 2 > len(orig):
             continue
-        km = (get(f"{KAL}/markets/{tk}") or {}).get("market", {})
-        if km.get("status") != "active":
+        sell_open(c, tid, tk, side, n, cost, fee, f"{len(orig) - still} of {len(orig)} leaders sold or flipped before start")
+
+def sell_open(c, tid, tk, side, n, cost, fee, reason):
+    """Sell an open trade at Kalshi's bid through the executor. Returns True once it is fully sold."""
+    km = (get(f"{KAL}/markets/{tk}") or {}).get("market", {})
+    if km.get("status") != "active":
+        log(f"can't sell trade #{tid}: Kalshi market {tk} is {km.get('status') or 'unreachable'}"); return False
+    bid = k_price(km, side, "bid")
+    try:
+        sold, bid, xfee, xoid = executor().sell(tk, side, n, bid)
+    except Exception as e:
+        log(f"exit order failed for trade #{tid}: {e}"); return False
+    if sold < n:
+        log(f"exit for trade #{tid} filled {sold}/{n}; holding the rest to settlement")
+        if sold < 1:
+            return False
+    proceeds = round(sold * bid - xfee, 2)
+    cash(c, proceeds)
+    rest = n - sold
+    if rest:   # partial exit: keep remainder open as a new row-equivalent by shrinking this trade
+        frac = rest / n
+        c.execute("UPDATE trades SET contracts=?, cost=?, fee=? WHERE id=?",
+                  (rest, round(cost * frac, 2), round(fee * frac, 2), tid))
+        c.commit(); return False
+    c.execute("UPDATE trades SET status='sold', exit_price=?, exit_fee=?, exit_ts=?, exit_reason=?, pnl=?, exit_order_id=? WHERE id=?",
+              (bid, xfee, NOW().isoformat(timespec="seconds"), reason, round(proceeds - cost - fee, 2), xoid, tid))
+    c.commit()
+    log(f"EXIT trade #{tid}: {reason}; sold at {bid:.2f}")
+    return True
+
+def verify_open(c, markets, ahead_min):
+    """The 15-minute check: every open trade whose game starts within ahead_min must still pass the candidate
+    rules (2+ vetted wallets on the pick, opposition under OPP_MAX). One that fails is sold; price isn't re-checked."""
+    now, ts = NOW(), NOW().isoformat(timespec="seconds")
+    checked = 0
+    for tid, game, slug, cond, title, pick, idx, tk, side, n, cost, fee, st in c.execute(
+            "SELECT id,game,event_slug,cond,title,pick,pm_outcome_idx,kalshi_ticker,kalshi_side,contracts,cost,fee,start_ts "
+            "FROM trades WHERE status='open' AND pm_outcome_idx IS NOT NULL").fetchall():
+        if not now < parse_ts(st) <= now + timedelta(minutes=ahead_min):
             continue
-        bid = k_price(km, side, "bid")
-        try:
-            sold, bid, xfee, xoid = executor().sell(tk, side, n, bid)
-        except Exception as e:
-            log(f"exit order failed for trade #{tid}: {e}"); continue
-        if sold < n:
-            log(f"exit for trade #{tid} filled {sold}/{n}; holding the rest to settlement")
-            if sold < 1:
-                continue
-        proceeds = round(sold * bid - xfee, 2)
-        cash(c, proceeds)
-        rest = n - sold
-        if rest:   # partial exit: keep remainder open as a new row-equivalent by shrinking this trade
-            frac = rest / n
-            c.execute("UPDATE trades SET contracts=?, cost=?, fee=? WHERE id=?",
-                      (rest, round(cost * frac, 2), round(fee * frac, 2), tid))
-            c.commit(); continue
-        c.execute("UPDATE trades SET status='sold', exit_price=?, exit_fee=?, exit_ts=?, exit_reason=?, pnl=?, exit_order_id=? WHERE id=?",
-                  (bid, xfee, now.isoformat(timespec="seconds"),
-                   f"{len(orig) - still} of {len(orig)} leaders sold or flipped before start",
-                   round(proceeds - cost - fee, 2), xoid, tid))
-        c.commit()
-        log(f"EXIT trade #{tid}: leaders left before start, sold at {bid:.2f}")
+        checked += 1
+        sides = (markets.get(cond) or {"sides": {}})["sides"]
+        ours = sides.get(idx, [])
+        ours_usd = sum(l["usd"] for l in ours)
+        opp = sum(l["usd"] for k, v in sides.items() if k != idx for l in v)
+        fails = []
+        if len(ours) < MIN_WALLETS:
+            fails.append(f"only {len(ours)} vetted wallet{'' if len(ours) == 1 else 's'} left on {pick}")
+        if opp > OPP_MAX * ours_usd:
+            fails.append(f"opposition {opp / ours_usd:.0%}" if ours_usd else "no vetted money left on the pick")
+        summary = f"{len(ours)} wallets, {money(ours_usd)} for vs {money(opp)} against"
+        if fails:
+            reason = "failed the 15-minute check: " + "; ".join(fails)
+            note = f"15-min check: {'; '.join(fails)} ({summary}); " + ("sold" if sell_open(c, tid, tk, side, n, cost, fee, reason) else "sell failed, holding")
+        else:
+            note = f"15-min check: still passes ({summary}); holding"
+            log(f"HOLD trade #{tid} {game} -> {pick}: {summary}")
+        c.execute("INSERT INTO changes(ts,kind,event_slug,game,cond,title,note) VALUES(?,?,?,?,?,?,?)",
+                  (ts, "verify", slug, game, cond, title, note))
+    c.commit()
+    log(f"15-minute check: {checked} open trade(s) starting within {ahead_min} min")
+
+def write_next_check(c):
+    """next_check.json: when the 15-minute check should next run (15 min before the earliest open trade's start)."""
+    now, best = NOW(), None
+    for tid, game, st in c.execute("SELECT id, game, start_ts FROM trades WHERE status='open' AND pm_outcome_idx IS NOT NULL"):
+        at = parse_ts(st) - timedelta(minutes=VERIFY_LEAD_MIN)
+        if at > now + timedelta(minutes=1) and (best is None or at < best[0]):
+            best = (at, tid, game)
+    data = dict(check_at=best[0].astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z") if best else None,
+                trade_id=best[1] if best else None, game=best[2] if best else None)
+    with open(NEXT_CHECK + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    os.replace(NEXT_CHECK + ".tmp", NEXT_CHECK)
+    return data
 
 def settle(c):
     for tid, tk, side, n, cost, fee in c.execute(
@@ -993,6 +1048,20 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
         c.execute("INSERT OR REPLACE INTO meta VALUES('window', ?)", (f"{lo}-{hi}",)); c.commit()
     settle(c)
     write_report(c)
+    log(f"next 15-minute check: {write_next_check(c)['check_at'] or 'none (no open trades ahead)'}")
+
+def verify(c):
+    """The 15-minute check on its own: fresh positions, re-check open trades about to start, settle, report."""
+    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
+    refresh_pool(c)
+    markets = consensus(c)
+    if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
+        log("ERROR: could not pull every vetted wallet's positions; holding every open trade this run")
+    else:
+        verify_open(c, markets, VERIFY_AHEAD_MIN)
+    settle(c)
+    write_report(c)
+    log(f"next 15-minute check: {write_next_check(c)['check_at'] or 'none (no open trades ahead)'}")
 
 def main():
     c = db()
@@ -1016,6 +1085,8 @@ def main():
         cycle(c, hourly=True, pregame=False); report(c); return
     if "pregame" in sys.argv:
         cycle(c, hourly=False, pregame=True, window=window); report(c); return
+    if "verify" in sys.argv:
+        verify(c); report(c); return
     if "--once" in sys.argv:
         cycle(c, window=window); report(c); return
     while True:
