@@ -10,7 +10,7 @@ on Kalshi and only turns on when you explicitly enable it.
 | --- | --- |
 | Vetted wallets | Top 100 on Polymarket's sports leaderboard this month **and** top 200 all-time |
 | Signal | 3+ vetted wallets on the same side, or 2 with $5k+ between them: one point per wallet, one more at $5k, 3 points needed (`MIN_POINTS`, `BIG_MONEY_USD`, `MIN_WALLETS`) |
-| Time-out | A wallet that lost our last 3 copied trades, won under 40% of 5+, or trades a market hundreds of times is benched: it counts neither for nor against a trade. Its $500+ pre-game picks are tracked, and it's released once 5+ settle with 60%+ won, beating its average price by 5 points. `python3 copysim.py timeout NAME [reason]` / `release NAME` by hand |
+| Time-out | A wallet that lost our last 3 copied trades, won under 40% of 5+, or trades a market hundreds of times is benched: it counts neither for nor against a trade. Its $500+ pre-game picks (latest side before the start, biggest pick per game) are tracked, and it's released once 5+ games settle with 60%+ won, beating its average price by 5 points. `python3 copysim.py timeout NAME [reason]` / `release NAME` by hand |
 | Opposition | Vetted money on the other side must be under 10% of theirs (`OPP_MAX`) |
 | Hedges | A wallet holding both sides (smaller side > 20%) doesn't count |
 | Timing | The hourly run enters games starting 5 to 65 minutes out (`--window 5-65`, inside `LOCK_WINDOW_MIN`) |

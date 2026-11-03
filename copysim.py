@@ -54,7 +54,7 @@ BIG_MONEY_USD   = 5000      # so 3+ wallets pass, and 2 wallets pass with $5k+ b
 TIMEOUT_STREAK  = 3         # lost our last this-many copied trades in a row
 TIMEOUT_MIN_N, TIMEOUT_MAX_WIN = 5, 0.40   # or won under 40% of 5+ copied trades
 TRADER_MEDIAN, TRADER_MIN_N, TRADER_ONE = 30, 3, 200   # or a median of 30+ trades per copied market (3+ markets), or 200+ on one
-RELEASE_N, RELEASE_WIN = 5, 0.60           # released after 5+ settled shadow picks winning 60%+ ...
+RELEASE_N, RELEASE_WIN = 5, 0.60           # released after shadow picks in 5+ games settle, 60%+ won ...
 RELEASE_EDGE    = 0.05      # ... and beating their average price by 5+ points (so 90¢ favorites don't count)
 SHADOW_MIN_USD  = 500       # shadow picks are positions of $500+ priced MIN_PRICE-MAX_PRICE, like the ones we'd copy
 SEED_TIMEOUTS = {           # benched by hand when the time-out list started
@@ -537,7 +537,10 @@ def evaluate(c, markets, lo_min, hi_min):
         for b in m["bench"]:   # a benched wallet's pick before the start, for its shadow record
             if b["usd"] < SHADOW_MIN_USD or not (MIN_PRICE < b["avg"] < MAX_PRICE):
                 continue
-            c.execute("INSERT OR IGNORE INTO shadow(addr,cond,idx,start_ts,avg,usd,ts,game,title,pick) VALUES(?,?,?,?,?,?,?,?,?,?)",
+            # the latest pre-start side counts: a wallet that switches sides before the start is graded on the switch
+            c.execute("INSERT INTO shadow(addr,cond,idx,start_ts,avg,usd,ts,game,title,pick) VALUES(?,?,?,?,?,?,?,?,?,?) "
+                      "ON CONFLICT(addr,cond) DO UPDATE SET idx=excluded.idx, avg=excluded.avg, usd=excluded.usd, "
+                      "pick=excluded.pick WHERE won IS NULL",
                       (b["addr"].lower(), cond, b["idx"], st.astimezone(timezone.utc).isoformat(timespec="seconds"), b["avg"],
                        b["usd"], now.isoformat(timespec="seconds"), ev.get("title"), mk.get("question"),
                        outs[b["idx"]] if b["idx"] is not None and b["idx"] < len(outs) else b.get("outcome")))
@@ -992,6 +995,15 @@ def wallet_record(c, addr, since=None):
             out.append((status == "won", cond))
     return out
 
+def shadow_games(c, addr, since, until=None):
+    """(won, avg price) of a benched wallet's settled shadow picks, one per game: its biggest pick on each."""
+    best = {}
+    for game, won, avg, usd in c.execute("SELECT game, won, avg, usd FROM shadow WHERE addr=? AND ts>=? AND (? IS NULL OR ts<=?) "
+                                         "AND won IS NOT NULL", (addr, since, until, until)):
+        if game not in best or usd > best[game][2]:
+            best[game] = (won, avg, usd)
+    return [(w, a) for w, a, _ in best.values()]
+
 def review_wallets(c):
     """Bench wallets that keep losing us money or trade like market makers; release benched ones whose shadow
     picks have proven themselves."""
@@ -1018,12 +1030,12 @@ def review_wallets(c):
             bench(c, addr, name, f"trader: {sorted(counts)[len(counts) // 2]} trades per market (median), "
                                  f"up to {max(counts)}")
     for addr, name, since in c.execute("SELECT addr, name, since FROM timeouts WHERE released IS NULL").fetchall():
-        picks = c.execute("SELECT won, avg FROM shadow WHERE addr=? AND ts>=? AND won IS NOT NULL", (addr, since)).fetchall()
+        picks = shadow_games(c, addr, since)
         if len(picks) < RELEASE_N:
             continue
         rate, price = sum(w for w, _ in picks) / len(picks), sum(a for _, a in picks) / len(picks)
         if rate >= RELEASE_WIN and rate >= price + RELEASE_EDGE:
-            release(c, addr, name, f"shadow picks won {rate:.0%} of {len(picks)} at an average price of {price * 100:.0f}¢")
+            release(c, addr, name, f"shadow picks won {rate:.0%} of {len(picks)} games at an average price of {price * 100:.0f}¢")
     c.commit()
 
 def timeout_rows(c):
@@ -1031,9 +1043,9 @@ def timeout_rows(c):
     out = []
     for addr, name, reason, since, released, note in c.execute(
             "SELECT addr, name, reason, since, released, release_note FROM timeouts ORDER BY released IS NOT NULL, since DESC"):
-        w, n = c.execute("SELECT COALESCE(SUM(won),0), COUNT(won) FROM shadow WHERE addr=? AND ts>=? AND (? IS NULL OR ts<=?)",
-                         (addr, since, released, released)).fetchone()
-        pending = c.execute("SELECT COUNT(*) FROM shadow WHERE addr=? AND ts>=? AND won IS NULL", (addr, since)).fetchone()[0]
+        games = shadow_games(c, addr, since, released)
+        w, n = sum(x for x, _ in games), len(games)
+        pending = c.execute("SELECT COUNT(DISTINCT game) FROM shadow WHERE addr=? AND ts>=? AND won IS NULL", (addr, since)).fetchone()[0]
         out.append(dict(addr=addr, name=name, reason=reason, since=since, released=released, note=note,
                         shadow_won=w, shadow_n=n, shadow_pending=0 if released else pending))
     return out
