@@ -5,7 +5,7 @@ Rules (match the manual sim):
   * Vetted wallets: top 100 on Polymarket's SPORTS leaderboard this month AND top 200 all-time.
   * Trade only when 2+ vetted wallets hold the same side and vetted money on the other
     side is under 10% of theirs. Hedged wallets (both sides, smaller > 20%) don't count.
-  * Enter only in the last hour before the game starts (LOCK_WINDOW_MIN).
+  * Enter only in about the last hour before the game starts (LOCK_WINDOW_MIN).
   * Kalshi price must be within 3c of the leaders' average entry. Same line only.
   * One trade per game (the side with the most leader money). Flat $10 per trade.
   * If the leaders sell or flip before the game starts, the sim sells at Kalshi's bid.
@@ -50,7 +50,8 @@ OPP_MAX         = 0.10      # opposing vetted money must be under 10% of the agr
 HEDGE_RATIO     = 0.20
 MAX_SLIP        = 0.03
 MIN_PRICE, MAX_PRICE = 0.05, 0.95
-LOCK_WINDOW_MIN = 60        # enter only when the game starts within this many minutes
+LOCK_WINDOW_MIN = 65        # enter only when the game starts within this many minutes (an hourly run's
+                            # 5-65 window leaves no gap between one run and the next)
 PREGAME_WINDOW  = (5, 25)   # the pre-game check decides games starting this many minutes from now
 PLAN_LEAD_MIN   = 15        # pregame_plan.json asks for the check this long before the start
 VERIFY_LEAD_MIN = 15        # the 15-minute check runs this long before each open trade's start
