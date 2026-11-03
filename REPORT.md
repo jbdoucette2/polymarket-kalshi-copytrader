@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 4:25 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 4:40 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -20,19 +20,52 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B · starts Tue Nov 3, 5:10 AM
+### Tegevajaro Miyazaki vs. Tochigi City FC - More Markets · starts Tue Nov 3, 5:00 AM
 
-- Tue Nov 3, 4:25 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: all vetted wallets left BetBoom Team
-- Tue Nov 3, 4:25 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): all vetted wallets left BetBoom Team
+- Tue Nov 3, 4:40 AM (pregame): Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5: all vetted wallets left Under
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:25 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:25 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:22 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $140 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | pregame | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:25 AM | pregame | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Ōita Trinita vs. Vanraure Hachinohe FC - More Markets · starts Tue Nov 3, 5:00 AM
+
+- Tue Nov 3, 4:40 AM (pregame): Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5: all vetted wallets left Under
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:25 AM | pregame | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Yokohama FC vs. Blaublitz Akita - More Markets · starts Tue Nov 3, 5:00 AM
+
+- Tue Nov 3, 4:40 AM (pregame): Yokohama FC vs. Blaublitz Akita: O/U 3.5: all vetted wallets left Under
+- Tue Nov 3, 4:22 AM (hourly): Yokohama FC vs. Blaublitz Akita: O/U 2.5: first seen: 2 vetted on Over ($6.1k), fails: no Kalshi game found
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:40 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | Flaznorp $723 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | Flaznorp $723 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
+
+### Seattle Redhawks vs. Hawaii Rainbow Warriors · starts Tue Nov 3, 4:59 AM
+
+- Tue Nov 3, 4:40 AM (pregame): Seattle Redhawks vs. Hawaii Rainbow Warriors: Kalshi 55¢ → 54¢
+- Mon Nov 2, 11:33 PM (hourly): Seattle Redhawks vs. Hawaii Rainbow Warriors: first seen: 1 vetted on Hawaii Rainbow Warriors ($44), fails: only 1 vetted wallet
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 54¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 4:25 AM | pregame | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
+| Tue Nov 3, 4:22 AM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
+| Mon Nov 2, 11:59 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | 53¢ YES | fails: only 1 vetted wallet |
 
 ### Yokohama FC vs. Blaublitz Akita · starts Tue Nov 3, 5:00 AM
 
@@ -40,6 +73,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $81, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:25 AM | pregame | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $80, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $80, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -50,8 +84,21 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $210, Flaznorp $109 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:25 AM | pregame | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $210, Flaznorp $109 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $208, Flaznorp $108 | $0 | — | fails: no Kalshi game found |
+
+### Tegevajaro Miyazaki vs. Tochigi City FC · starts Tue Nov 3, 5:00 AM
+
+- Tue Nov 3, 4:40 AM (pregame): Will Tochigi City FC win on 2026-11-03?: SnakeBall joined No (+$38)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $130, SnakeBall $38 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Giravanz Kitakyushu vs. Reilac Shiga FC · starts Tue Nov 3, 5:00 AM
 
@@ -59,6 +106,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.4k, omnibus-076daa $95 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:25 AM | pregame | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.3k, omnibus-076daa $93 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.3k, omnibus-076daa $92 | $0 | — | fails: no Kalshi game found |
 
@@ -68,10 +116,24 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:25 AM | pregame | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → Yes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → Yes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Ventforet Kōfu vs. Albirex Niigata · starts Tue Nov 3, 5:00 AM
+
+- Tue Nov 3, 4:40 AM (pregame): Will Albirex Niigata win on 2026-11-03?: tradecraft joined Yes (+$28)
+- Tue Nov 3, 4:40 AM (pregame): Will Albirex Niigata win on 2026-11-03?: Flaznorp added $1.0k on Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $2.7k, tradecraft $28 | $123 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $1.6k | $123 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $1.6k | $123 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will Albirex Niigata win on 2026-11-03? → No | UpTheBlues $128 | $89 | — | fails: only 1 vetted wallet; opposition 70%; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will Albirex Niigata win on 2026-11-03? → No | UpTheBlues $128 | $89 | — | fails: only 1 vetted wallet; opposition 70%; no Kalshi game found |
 
 ### Ōita Trinita vs. Vanraure Hachinohe FC · starts Tue Nov 3, 5:00 AM
 
@@ -79,19 +141,29 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | pregame | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.1k, RN1 $1.9k, SnakeBall $247, tradecraft $86 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:25 AM | pregame | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.3k, RN1 $2.0k, SnakeBall $253, tradecraft $88 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.3k, RN1 $2.0k, SnakeBall $253, tradecraft $88 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Yokohama FC vs. Blaublitz Akita - More Markets · starts Tue Nov 3, 5:00 AM
+### Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B · starts Tue Nov 3, 5:10 AM
 
-- Tue Nov 3, 4:22 AM (hourly): Yokohama FC vs. Blaublitz Akita: O/U 2.5: first seen: 2 vetted on Over ($6.1k), fails: no Kalshi game found
+- Tue Nov 3, 4:40 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): back: 1 vetted on BetBoom Team ($143), fails: only 1 vetted wallet; no Kalshi game found
+- Tue Nov 3, 4:40 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: back: 1 vetted on BetBoom Team ($6), fails: only 1 vetted wallet; no Kalshi game found
+- Tue Nov 3, 4:25 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: all vetted wallets left BetBoom Team
+- Tue Nov 3, 4:25 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): all vetted wallets left BetBoom Team
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:25 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:40 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:25 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:22 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $140 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Chennai Open: Panna Udvardy vs Robin Montgomery · starts Tue Nov 3, 5:30 AM
 
@@ -1959,17 +2031,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Radford Highlanders vs. San Francisco Dons → Radford Highlanders | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Radford Highlanders vs. San Francisco Dons → Radford Highlanders | SnakeBall $38 | $0 | 11¢ YES | fails: only 1 vetted wallet |
 
-### Seattle Redhawks vs. Hawaii Rainbow Warriors · starts Tue Nov 3, 4:59 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Seattle Redhawks vs. Hawaii Rainbow Warriors: first seen: 1 vetted on Hawaii Rainbow Warriors ($44), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:25 AM | pregame | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
-| Tue Nov 3, 4:22 AM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
-| Mon Nov 2, 11:59 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | 53¢ YES | fails: only 1 vetted wallet |
-
 ### Western Illinois Leathernecks vs. Valparaiso Beacons · starts Tue Nov 3, 1:00 AM
 
 - Mon Nov 2, 11:33 PM (hourly): Western Illinois Leathernecks vs. Valparaiso Beacons: first seen: 1 vetted on Valparaiso Beacons ($62), fails: only 1 vetted wallet
@@ -2043,6 +2104,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 4:40 AM | Kamatamare Sanuki vs. Matsumoto Yamaga FC - Exact Score | Exact Score: Kamatamare Sanuki 1 - 0 Matsumoto Yamaga FC? → Yes | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Seattle Redhawks vs. Hawaii Rainbow Warriors | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | only 1 vetted wallet |
+| Tue Nov 3, 4:40 AM | Taipei: Masamichi Imamura vs Mitsuki Wei Kang Leong | Taipei: Masamichi Imamura vs Mitsuki Wei Kang Leong → Masamichi Imamura | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Kochi United SC vs. Ehime FC - More Markets | Kochi United SC vs. Ehime FC: O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Tegevajaro Miyazaki vs. Tochigi City FC | Will Tochigi City FC win on 2026-11-03? → No | no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Shōnan Bellmāre vs. Sagan Tosu | Will Sagan Tosu win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | Ventforet Kōfu vs. Albirex Niigata | Will Albirex Niigata win on 2026-11-03? → Yes | no Kalshi game found |
 | Tue Nov 3, 4:25 AM | RB Ōmiya Ardija vs. Iwaki FC | Will RB Ōmiya Ardija win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Kochi United SC vs. Ehime FC - Exact Score | Exact Score: Kochi United SC 1 - 3 Ehime FC? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Seattle Redhawks vs. Hawaii Rainbow Warriors | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | only 1 vetted wallet; Kalshi 55c vs leaders 52c |
@@ -2065,11 +2134,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Zweigen Kanazawa vs. AC Nagano Parceiro - More Markets | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Renofa Yamaguchi vs. Kagoshima United - More Markets | Renofa Yamaguchi vs. Kagoshima United: O/U 2.5 → Over | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Kataller Toyama vs. Vegalta Sendai - Exact Score | Exact Score: Kataller Toyama 2 - 1 Vegalta Sendai? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Tochigi SC vs. Fukushima United FC | Will Tochigi SC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Kataller Toyama vs. Vegalta Sendai - More Markets | Kataller Toyama vs. Vegalta Sendai: Both Teams to Score → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Fujieda MYFC vs. Júbilo Iwata | Will Júbilo Iwata win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Kataller Toyama vs. Vegalta Sendai | Will Vegalta Sendai win on 2026-11-02? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Montedio Yamagata vs. Tokushima Vortis - More Markets | Spread: Montedio Yamagata (-1.5) → Tokushima Vortis | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Ōita Trinita vs. Vanraure Hachinohe FC - More Markets | Spread: Ōita Trinita (-1.5) → Vanraure Hachinohe FC | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Ventforet Kōfu vs. Albirex Niigata | Will Albirex Niigata win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Giravanz Kitakyushu vs. Reilac Shiga FC | Will Giravanz Kitakyushu win on 2026-11-03? → No | no Kalshi game found |
