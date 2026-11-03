@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 4:13 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 4:41 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -19,6 +19,36 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Republican Senate seats after the 2026 midterm elections? · starts Tue Nov 3, 5:00 PM
+
+- Tue Nov 3, 8:16 AM (hourly): Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections?: all vetted wallets left Yes
+- Mon Nov 2, 11:33 PM (hourly): Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections?: first seen: 2 vetted on No ($3.2k), fails: no Kalshi game found
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 4:41 PM | pregame | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:12 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 3:16 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 1:16 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 12:17 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 11:15 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 10:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 8:16 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $380 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $380 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $430 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
 
 ### FK Shakhtar Donetsk vs. Sporting CP - More Markets · starts Tue Nov 3, 5:45 PM
 
@@ -716,35 +746,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 46¢ NO | fails: only 1 vetted wallet |
 | Mon Nov 2, 11:59 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | 47¢ NO | fails: only 1 vetted wallet |
-
-### Republican Senate seats after the 2026 midterm elections? · starts Tue Nov 3, 5:00 PM
-
-- Tue Nov 3, 8:16 AM (hourly): Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections?: all vetted wallets left Yes
-- Mon Nov 2, 11:33 PM (hourly): Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections?: first seen: 2 vetted on No ($3.2k), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:12 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 8:16 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $380 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $380 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $430 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections? → Yes | BreakTheBank $347 | $0 | — | fails: only 1 vetted wallet; Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
 
 ### Alabama State Hornets vs. Texas A&M Aggies · starts Wed Nov 4, 1:00 AM
 
@@ -4063,6 +4064,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 4:41 PM | W75 Petange: Victoria Jimenez Kasintseva vs Anna-Lena Friedsam | W75 Petange: Victoria Jimenez Kasintseva vs Anna-Lena Friedsam → Anna-Lena Friedsam | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:41 PM | W50 Huamantla: Misa Malkin vs Sofia Avataneo | W50 Huamantla: Misa Malkin vs Sofia Avataneo → Misa Malkin | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:41 PM | Tofas SK Bursa vs. BC Neptunas Klaipeda | Tofas SK Bursa vs. BC Neptunas Klaipeda → BC Neptunas Klaipeda | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:41 PM | Republican Senate seats after the 2026 midterm elections? | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | no Kalshi game found |
 | Tue Nov 3, 4:13 PM | Charlottesville: Aidan Mayo vs Petr Nesterov | Charlottesville: Aidan Mayo vs Petr Nesterov → Aidan Mayo | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:13 PM | KHL: Shanghai Dragons vs. Severstal Cherepovets | KHL: Shanghai Dragons vs. Severstal Cherepovets → Shanghai Dragons | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:13 PM | Bratislava 2: Jurij Rodionov vs Stefano Travaglia | Bratislava 2: Jurij Rodionov vs Stefano Travaglia → Jurij Rodionov | only 1 vetted wallet; no Kalshi game found |
@@ -4089,7 +4094,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 2:24 PM | M15 Trois-Rivières: Jaden Weekes vs Daniel De Jonge | M15 Trois-Rivières: Jaden Weekes vs Daniel De Jonge → Daniel De Jonge | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 2:24 PM | Luanda: Zongyu Li vs Ana Sofia Sanchez | Luanda: Zongyu Li vs Ana Sofia Sanchez → Ana Sofia Sanchez | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 2:24 PM | Charlottesville: Stefan Kozlov vs Andres Martin | Charlottesville: Stefan Kozlov vs Andres Martin → Andres Martin | only 1 vetted wallet; opposition 73%; no Kalshi game found |
-| Tue Nov 3, 2:24 PM | Rolex Paris Masters: Alex Michelsen vs Jiri Lehecka | Rolex Paris Masters: Alex Michelsen vs Jiri Lehecka → Jiri Lehecka | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:41 PM | Bratislava 2: Laslo Djere vs Edas Butvilas | Bratislava 2: Laslo Djere vs Edas Butvilas → Laslo Djere | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:41 PM | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot → Novak Djokovic | only 1 vetted wallet; opposition 79%; no Kalshi game found |
-| Tue Nov 3, 1:18 PM | M15 Pembroke: Mitchell Dobek vs Tariq Simons | M15 Pembroke: Mitchell Dobek vs Tariq Simons → Tariq Simons | only 1 vetted wallet; no Kalshi game found |
