@@ -8,3 +8,5 @@ __pycache__/
 *.tmp
 orders.log
 STOP
+# Tracker data files are regenerated every run and uploaded to the artifact
+tracker*/

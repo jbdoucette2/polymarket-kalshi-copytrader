@@ -828,6 +828,7 @@ def position_changes(c):
     return out
 
 TEMPLATE = os.path.join(HERE, "dashboard_template.html")
+TRACKER_DIR = os.path.join(os.path.dirname(DB), f"tracker{SUFFIX}")   # row files the claude.ai tracker artifact loads
 
 def hist_point(x):
     return [x["ts"], x["lead_usd"], x["opp_usd"], x["kalshi_ask"], x["passes"], x["n_wallets"]]
@@ -880,10 +881,41 @@ def dashboard_data(c, s, sk):
                 skips=[dict(ts=r["ts"], game=r["game"], title=r["title"], pick=r["pick"], reason=r["reason"],
                             lead=r["lead_usd"]) for r in sk])
 
+def write_tracker_files(c, d):
+    """Row files for the claude.ai Copy-Trade Tracker artifact: overview, trades, games, activity."""
+    s = d["summary"]
+    files = {
+        "overview": [dict(updated=d["updated"], mode=d["mode"], start=d["start"], equity=s["equity"], cash=s["cash"],
+                          realized_pnl=s["pnl"], won=s["won"], lost=s["lost"], sold=s["sold"], open=s["open"],
+                          at_risk=d["at_risk"], stake=d["stake"], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
+        "trades": [dict(id=t["id"], entered=t["ts"], starts=t["start"], game=t["game"], market=t["title"], pick=t["pick"],
+                        side=(t["side"] or "").upper(), contracts=t["n"], price=t["price"], cost=round(t["cost"] + t["fee"], 2),
+                        status=t["status"], pnl=t["pnl"], closed=t["closed"], ticker=t["ticker"],
+                        leaders=", ".join(f"{l['name']} {money(l['usd'])}" for l in t["leaders"]),
+                        lead_usd=t["lead"], opp_usd=t["opp"], leader_avg=t["avg"], exit_reason=t["exit_reason"])
+                   for t in d["trades"]],
+        "games": [dict(key=m["cond"], game=g["game"], starts=g["start"], traded=g["traded"], market=m["title"], pick=m["pick"],
+                       wallets=len(m["wallets"]), leaders=", ".join(f"{w['name']} {money(w['usd'])}" for w in m["wallets"]),
+                       lead_usd=m["lead"], opp_usd=m["opp"], kalshi=m["ask"], side=(m["side"] or "").upper(),
+                       leader_avg=m["avg"], status="passes" if m["ok"] else ("one rule away" if m["fails"] <= 1 else "fails"),
+                       reason=m["why"] or "")
+                  for g in d["games"] for m in g["markets"]],
+        "activity": sorted([dict(at=n["ts"], type="change", game=n["game"], market=n["title"], text=n["note"])
+                            for n in rows(c, "SELECT * FROM changes ORDER BY id DESC LIMIT 80")]
+                           + [dict(at=r["ts"], type="skip", game=r["game"], market=f"{r['title']} → {r['pick']}", text=r["reason"])
+                              for r in d["skips"]], key=lambda r: r["at"], reverse=True),
+    }
+    os.makedirs(TRACKER_DIR, exist_ok=True)
+    for name, data in files.items():
+        with open(os.path.join(TRACKER_DIR, name + ".json"), "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
 def write_dashboard(c, s, sk):
     with open(TEMPLATE, encoding="utf-8") as f:
         page = f.read()
-    data = json.dumps(dashboard_data(c, s, sk), separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+    d = dashboard_data(c, s, sk)
+    write_tracker_files(c, d)
+    data = json.dumps(d, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
     page = page.replace("/*__DATA__*/null", data)
     with open(DASH + ".tmp", "w", encoding="utf-8") as f:
         f.write(page)

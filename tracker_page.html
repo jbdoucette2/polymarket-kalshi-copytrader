@@ -1,0 +1,374 @@
+<meta name="dash-one-writer">
+<style>
+  .ct { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
+  .ct-head { display: grid; gap: var(--cds-gap-xs); }
+  .ct-row { display: flex; align-items: center; gap: var(--cds-gap-sm); flex-wrap: wrap; }
+  .ct-title { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+  .ct-mode { font-size: var(--cds-font-size-caption); padding: 2px 10px; border-radius: 99px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); text-transform: capitalize; }
+  .ct-take { margin: 0; color: var(--color-fg-muted); max-width: 70ch; }
+  .ct-take b { color: var(--color-fg); }
+  .ct .up { color: var(--color-ok); } .ct .down { color: var(--color-bad); }
+  .ct-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); }
+  .ct-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .ct-kpi { display: grid; gap: 2px; }
+  .ct-kpi .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-kpi .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; }
+  .ct-kpi .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .ct-card .note { margin: 2px 0 var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-chart { position: relative; min-height: 180px; }
+  .ct-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; transform: translate(-50%, -115%); }
+  .ct-tip .when { color: var(--cds-text-secondary); }
+  .ct-tabs { display: flex; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); overflow-x: auto; }
+  .ct-tab { background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); cursor: pointer; white-space: nowrap; }
+  .ct-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: currentColor; }
+  .ct-tab:focus-visible, .ct-chip:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ct-chips { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; margin-bottom: var(--cds-gap-md); }
+  .ct-chip { font: inherit; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); background: var(--color-bg); color: var(--color-fg-muted); border-radius: 99px; padding: 3px 12px; cursor: pointer; }
+  .ct-chip[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .ct-scroll { max-height: 34rem; overflow: auto; }
+  .ct-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); }
+  .ct-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .ct-table td { padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ct-table td.num, .ct-table th.num { text-align: right; white-space: nowrap; }
+  .ct-table td.muted { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ct-pill { display: inline-block; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); padding: 1px 9px; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; text-transform: capitalize; }
+  .ct-pill.open { color: var(--color-fg-muted); } .ct-pill.won, .ct-pill.passes { color: var(--color-ok); }
+  .ct-pill.lost, .ct-pill.fails { color: var(--color-bad); } .ct-pill.sold, .ct-pill.near { color: var(--color-warn); }
+  .ct-split { display: flex; height: 6px; border-radius: 99px; overflow: hidden; background: var(--color-border-line); min-width: 70px; margin-top: 4px; }
+  .ct-split span:last-child { background: var(--cds-chart-status-critical); }
+  .ct-feed { list-style: none; margin: 0; padding: 0; display: grid; }
+  .ct-feed li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: var(--cds-gap-sm); padding: var(--cds-pad-sm) 0; border-bottom: 1px solid var(--color-border-line); }
+  .ct-feed .when { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-feed .what { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-feed .skip { color: var(--color-warn); }
+  .ct-empty { margin: var(--cds-gap-md) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ct-rules { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); color: var(--color-fg-muted); max-width: 75ch; }
+  .ct-rules b { color: var(--color-fg); }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+  @media (max-width: 640px) { .ct-hide-narrow { display: none; } .ct-feed li { grid-template-columns: 1fr; gap: 0; } }
+</style>
+
+<div class="ct">
+  <header class="ct-head" id="top">
+    <div class="ct-row">
+      <h1 class="ct-title">Copy-Trade Tracker</h1>
+      <span class="ct-mode" data-draw="mode" data-source="overview" data-field="mode" data-row="0">—</span>
+    </div>
+    <p class="ct-take">Copies the bets Polymarket's top sports wallets agree on onto Kalshi. Bankroll <b data-draw="equity" data-source="overview" data-field="equity" data-row="0">—</b> from a <b data-draw="start" data-source="overview" data-field="start" data-row="0">—</b> start, with open trades counted at cost. Last run <span data-draw="updated" data-source="overview" data-field="updated" data-row="0">—</span>.</p>
+  </header>
+
+  <section class="ct-kpis" id="numbers" aria-label="Headline numbers">
+    <div class="ct-card ct-kpi"><span class="lbl">Realized P&amp;L</span><span class="big" data-draw="pnl" data-source="overview" data-field="realized_pnl" data-row="0" data-fetchpriority="high">—</span><span class="sub">from settled and sold trades</span></div>
+    <div class="ct-card ct-kpi"><span class="lbl">Record (won–lost)</span><span class="big"><span data-draw="won" data-source="overview" data-field="won" data-row="0">—</span>–<span data-draw="lost" data-source="overview" data-field="lost" data-row="0">—</span></span><span class="sub"><span data-draw="sold" data-source="overview" data-field="sold" data-row="0">—</span> sold early before the start</span></div>
+    <div class="ct-card ct-kpi"><span class="lbl">Open trades</span><span class="big" data-draw="open" data-source="overview" data-field="open" data-row="0">—</span><span class="sub"><span data-draw="atrisk" data-source="overview" data-field="at_risk" data-row="0">—</span> at risk</span></div>
+    <div class="ct-card ct-kpi"><span class="lbl">Cash</span><span class="big" data-draw="cash" data-source="overview" data-field="cash" data-row="0">—</span><span class="sub"><span data-draw="stake" data-source="overview" data-field="stake" data-row="0">—</span> per trade</span></div>
+  </section>
+
+  <section class="ct-card" id="bankroll">
+    <h2>Realized bankroll</h2>
+    <p class="note">Start plus the profit or loss of each trade as it settles or sells.</p>
+    <p class="ct-empty" id="curve-empty" hidden>The line starts when the first trade settles.</p>
+    <div class="ct-chart" data-draw="curve" data-source="bankroll_curve"></div>
+  </section>
+
+  <nav class="ct-tabs" role="tablist" aria-label="Views">
+    <button class="ct-tab" role="tab" id="tab-trades" data-tab="trades" aria-selected="true">Trades</button>
+    <button class="ct-tab" role="tab" id="tab-nextup" data-tab="nextup" aria-selected="false">Next up</button>
+    <button class="ct-tab" role="tab" id="tab-activity" data-tab="activity" aria-selected="false">What changed</button>
+    <button class="ct-tab" role="tab" id="tab-rules" data-tab="rules" aria-selected="false">How it decides</button>
+  </nav>
+
+  <section class="ct-card" id="trades" data-panel="trades">
+    <h2>Trades</h2>
+    <p class="note">One trade per game, entered before the start; held to settlement unless the leaders bail first.</p>
+    <div class="ct-chips" role="group" aria-label="Filter trades">
+      <button class="ct-chip" data-filter="all" aria-pressed="true">All</button>
+      <button class="ct-chip" data-filter="open" aria-pressed="false">Open</button>
+      <button class="ct-chip" data-filter="won" aria-pressed="false">Won</button>
+      <button class="ct-chip" data-filter="lost" aria-pressed="false">Lost</button>
+      <button class="ct-chip" data-filter="sold" aria-pressed="false">Sold early</button>
+    </div>
+    <div class="ct-scroll">
+      <table class="ct-table" data-source="trades" data-row-key="id">
+        <thead><tr>
+          <th data-field="status">Status</th>
+          <th data-field="pick">Pick</th>
+          <th data-field="market" class="ct-hide-narrow">Market</th>
+          <th data-field="side">Side</th>
+          <th data-field="contracts" class="num ct-hide-narrow">Qty</th>
+          <th data-field="price" class="num">Price</th>
+          <th data-field="cost" class="num">Cost</th>
+          <th data-field="pnl" class="num">P&amp;L</th>
+          <th data-field="starts" class="ct-hide-narrow">Starts</th>
+          <th data-field="leaders" class="ct-hide-narrow">Leaders</th>
+        </tr></thead>
+        <tbody data-draw="trades"></tbody>
+      </table>
+    </div>
+    <p class="ct-empty" id="trades-empty" hidden>No trades match this filter.</p>
+  </section>
+
+  <section class="ct-card" id="nextup" data-panel="nextup" hidden>
+    <h2>Next up</h2>
+    <p class="note">Upcoming markets where vetted wallets pass every rule or are one rule away. Blue is money on the pick, red is money against.</p>
+    <div class="ct-scroll">
+      <table class="ct-table" data-source="games" data-row-key="key">
+        <thead><tr>
+          <th data-field="starts">Starts</th>
+          <th data-field="pick">Pick</th>
+          <th data-field="market" class="ct-hide-narrow">Market</th>
+          <th data-field="status">Rules</th>
+          <th data-field="reason" class="ct-hide-narrow">Why not yet</th>
+          <th data-field="lead_usd" class="num">For</th>
+          <th data-field="opp_usd" class="num ct-hide-narrow">Against</th>
+          <th data-field="kalshi" class="num">Kalshi</th>
+          <th data-field="side" class="ct-hide-narrow">Side</th>
+          <th data-field="leader_avg" class="num ct-hide-narrow">Leaders paid</th>
+        </tr></thead>
+        <tbody data-draw="games"></tbody>
+      </table>
+    </div>
+    <p class="ct-empty" id="games-empty" hidden>No upcoming game has a market close to passing right now. The hourly snapshot adds them as they appear.</p>
+  </section>
+
+  <section class="ct-card" id="activity" data-panel="activity" hidden>
+    <h2>What changed</h2>
+    <p class="note">Moves in the vetted money between snapshots, and why a game was skipped.</p>
+    <div class="ct-scroll"><ul class="ct-feed" data-draw="feed" data-source="activity"></ul></div>
+  </section>
+
+  <section class="ct-card" id="rules" data-panel="rules" hidden>
+    <h2>How it decides</h2>
+    <p class="note">The rules every trade has to pass.</p>
+    <ol class="ct-rules">
+      <li><b>Proven bettors only.</b> A wallet counts if it is in the top 100 of Polymarket's sports leaderboard this month and the top 200 all-time.</li>
+      <li><b>Agreement.</b> At least 2 of those wallets hold the same side. A wallet holding both sides as a hedge doesn't count.</li>
+      <li><b>Little pushback.</b> Vetted money on the other side is under 10% of the money on the pick.</li>
+      <li><b>Fair price.</b> Kalshi's price is within 3¢ of what the leaders paid, on the same line.</li>
+      <li><b>Decide late.</b> The decision happens <span data-draw="window" data-source="overview" data-field="window" data-row="0">—</span> minutes before the start: one trade per game, the passing market with the most leader money.</li>
+      <li><b>Leave with the leaders.</b> If most of them sell or flip before the start, the trade is sold; otherwise it is held to settlement.</li>
+    </ol>
+  </section>
+</div>
+
+<script>
+  const money = (x) => (x < 0 ? '−$' : '$') + d3.format(',.2f')(Math.abs(x));
+  const signed = (x) => (x > 0 ? '+' : x < 0 ? '−' : '') + '$' + d3.format(',.2f')(Math.abs(x));
+  const kmoney = (x) => Math.abs(x) >= 1000 ? '$' + d3.format(',.1f')(x / 1000) + 'k' : '$' + d3.format(',.0f')(x);
+  const cents = (p) => p == null ? '—' : Math.round(p * 100) + '¢';
+  const when = (s) => new Date(s).toLocaleString([], {weekday: 'short', hour: 'numeric', minute: '2-digit'});
+  const ago = (s) => {
+    const m = Math.round((Date.now() - new Date(s)) / 60000);
+    return m < 1 ? 'just now' : m < 60 ? m + ' min ago' : m < 1440 ? Math.round(m / 60) + ' h ago' : Math.round(m / 1440) + ' d ago';
+  };
+  window.ctUtil = {money, signed, kmoney, cents, when, ago};
+  window.ctFilter = 'all';
+
+  dash.calc('bankroll_curve', {
+    title: 'Realized bankroll over time',
+    description: 'The starting bankroll plus each closed trade’s profit or loss, in the order they closed.',
+    inputs: ['overview', 'trades'],
+    fn: (overview, trades) => {
+      const start = overview[0] ? Number(overview[0].start) : 0;
+      const closed = trades.filter((t) => t.closed && t.pnl != null).sort((a, b) => (a.closed < b.closed ? -1 : 1));
+      let bank = start;
+      const pts = closed.map((t) => ({at: t.closed, bankroll: Math.round((bank += Number(t.pnl)) * 100) / 100}));
+      const first = trades.length ? trades.map((t) => t.entered).sort()[0] : null;
+      return first ? [{at: first, bankroll: start}, ...pts] : pts;
+    },
+  });
+
+  const one = (id, field) => {
+    const d = dash.data('overview');
+    return d.status === 'ok' && d.data[0] ? d.data[0][field] : null;
+  };
+  const fill = (name, field, fmt, cls) => dash.draw(name, (el) => {
+    const v = one('overview', field);
+    el.textContent = v == null ? '—' : fmt(v);
+    if (cls) { el.classList.toggle('up', v > 0); el.classList.toggle('down', v < 0); }
+  });
+  fill('mode', 'mode', (v) => v);
+  fill('equity', 'equity', money);
+  fill('start', 'start', (v) => money(v));
+  fill('updated', 'updated', (v) => ago(v));
+  fill('pnl', 'realized_pnl', signed, true);
+  fill('won', 'won', (v) => String(v));
+  fill('lost', 'lost', (v) => String(v));
+  fill('sold', 'sold', (v) => String(v));
+  fill('open', 'open', (v) => String(v));
+  fill('atrisk', 'at_risk', money);
+  fill('cash', 'cash', money);
+  fill('stake', 'stake', money);
+  fill('window', 'window', (v) => String(v).replace('-', '–'));
+
+  dash.onData(() => {
+    const t = dash.data('trades');
+    const closed = t.status === 'ok' ? t.data.filter((r) => r.closed && r.pnl != null).length : 0;
+    document.querySelectorAll('#curve-empty').forEach((el) => { el.hidden = t.status !== 'ok' || closed > 0; });
+  });
+</script>
+
+<script>
+  dash.draw('curve', (el) => {
+    const d = dash.data('bankroll_curve');
+    el.replaceChildren();
+    if (d.status !== 'ok' || d.data.length < 2) { el.textContent = d.status === 'ok' ? '' : '—'; return; }
+    const pts = d.data.map((r) => ({at: new Date(r.at), v: Number(r.bankroll)}));
+    const W = Math.max(280, el.clientWidth), H = 180, m = {t: 12, r: 14, b: 24, l: 10};
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Realized bankroll over time');
+    const lo = d3.min(pts, (p) => p.v), hi = d3.max(pts, (p) => p.v), pad = Math.max(1, (hi - lo) * 0.15);
+    const y = d3.scaleLinear([lo - pad, hi + pad], [H - m.b, m.t]).nice(4);
+    const ticks = y.ticks(4);
+    const probe = svg.append('text').attr('font-size', 11).text(money(d3.max(ticks, (v) => Math.abs(v))));
+    m.l = probe.node().getComputedTextLength() + 10; probe.remove();
+    const x = d3.scaleUtc(d3.extent(pts, (p) => p.at), [m.l, W - m.r]);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', m.l - 6).attr('y', (v) => y(v) + 4).attr('text-anchor', 'end').attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text(money);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 140))).tickSizeOuter(0))
+      .attr('font-size', null).attr('font-family', null).call((g) => { g.select('.domain').attr('stroke', 'var(--cds-chart-axis)'); g.selectAll('.tick line').remove(); g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 11); });
+    const color = dash.colors[0];
+    const gid = 'ct-fade';
+    const grad = svg.append('defs').append('linearGradient').attr('id', gid).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+    [[0, .26], [.25, .16], [.5, .08], [.75, .03], [1, 0]].forEach(([o, a]) => grad.append('stop').attr('offset', o).attr('style', `stop-color:${color};stop-opacity:${a}`));
+    svg.append('path').datum(pts).attr('fill', `url(#${gid})`).attr('d', d3.area().x((p) => x(p.at)).y0(H - m.b).y1((p) => y(p.v)));
+    svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round').attr('d', d3.line().x((p) => x(p.at)).y((p) => y(p.v)));
+    const last = pts[pts.length - 1];
+    svg.append('circle').attr('cx', x(last.at)).attr('cy', y(last.v)).attr('r', 4).attr('fill', color);
+    const dot = svg.append('circle').attr('r', 4).attr('fill', 'var(--color-panel)').attr('stroke', color).attr('stroke-width', 2).style('display', 'none');
+    const tip = d3.select(el).append('div').attr('class', 'ct-tip').style('display', 'none');
+    svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', W - m.l - m.r).attr('height', H).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [mx] = d3.pointer(ev);
+        const i = Math.min(pts.length - 1, Math.max(0, d3.bisector((p) => p.at).center(pts, x.invert(mx))));
+        const p = pts[i];
+        dot.style('display', null).attr('cx', x(p.at)).attr('cy', y(p.v));
+        const left = Math.min(Math.max(x(p.at) / W * el.clientWidth, 70), el.clientWidth - 70);
+        tip.style('display', null).style('left', left + 'px').style('top', (y(p.v) / H * el.clientHeight) + 'px');
+        tip.replaceChildren();
+        tip.append('div').attr('class', 'when').text(when(p.at.toISOString()));
+        tip.append('div').text(money(p.v));
+      })
+      .on('pointerleave', () => { dot.style('display', 'none'); tip.style('display', 'none'); });
+  });
+</script>
+
+<script>
+  const U = window.ctUtil;
+  dash.draw('trades', (tbody) => {
+    const d = dash.data('trades');
+    tbody.replaceChildren();
+    const rows = d.status === 'ok' ? d.data.filter((r) => window.ctFilter === 'all' || r.status === window.ctFilter) : [];
+    rows.sort((a, b) => (a.entered < b.entered ? 1 : -1)).forEach((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = String(r.id);
+      const td = (text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = text; tr.append(c); return c; };
+      const st = td('');
+      const pill = document.createElement('span');
+      pill.className = 'ct-pill ' + r.status;
+      pill.textContent = r.status;
+      st.append(pill);
+      td(r.pick);
+      td(r.market, 'ct-hide-narrow muted');
+      td(r.side);
+      td(String(r.contracts), 'num ct-hide-narrow');
+      td(U.cents(r.price), 'num');
+      td(U.money(r.cost), 'num');
+      const p = td(r.pnl == null ? 'open' : U.signed(r.pnl), 'num');
+      if (r.pnl != null) p.classList.add(r.pnl > 0 ? 'up' : r.pnl < 0 ? 'down' : 'muted'); else p.classList.add('muted');
+      td(U.when(r.starts), 'ct-hide-narrow muted');
+      td(r.leaders, 'ct-hide-narrow muted');
+      tbody.append(tr);
+    });
+  });
+  dash.onData(() => {
+    const d = dash.data('trades');
+    const n = d.status === 'ok' ? d.data.filter((r) => window.ctFilter === 'all' || r.status === window.ctFilter).length : 1;
+    document.querySelectorAll('#trades-empty').forEach((el) => { el.hidden = n > 0; });
+  });
+  document.querySelectorAll('.ct-chip').forEach((b) => b.addEventListener('click', () => {
+    window.ctFilter = b.dataset.filter;
+    document.querySelectorAll('.ct-chip').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    dash.draw('trades');
+    const d = dash.data('trades');
+    const n = d.status === 'ok' ? d.data.filter((r) => window.ctFilter === 'all' || r.status === window.ctFilter).length : 1;
+    document.querySelectorAll('#trades-empty').forEach((el) => { el.hidden = n > 0; });
+  }));
+</script>
+
+<script>
+  const G = window.ctUtil;
+  const upcoming = (d) => d.status === 'ok'
+    ? d.data.filter((r) => new Date(r.starts) > Date.now() && r.status !== 'fails' && !r.traded)
+        .sort((a, b) => (a.starts < b.starts ? -1 : a.starts > b.starts ? 1 : (a.status === 'passes' ? -1 : 1)))
+    : [];
+  dash.draw('games', (tbody) => {
+    const d = dash.data('games');
+    tbody.replaceChildren();
+    upcoming(d).forEach((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.key;
+      const td = (text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = text; tr.append(c); return c; };
+      td(G.when(r.starts), 'muted');
+      td(r.pick);
+      td(r.market, 'ct-hide-narrow muted');
+      const st = td('');
+      const pill = document.createElement('span');
+      pill.className = 'ct-pill ' + (r.status === 'passes' ? 'passes' : 'near');
+      pill.textContent = r.status;
+      st.append(pill);
+      td(r.reason, 'ct-hide-narrow muted');
+      const f = td(G.kmoney(r.lead_usd), 'num');
+      const tot = (Number(r.lead_usd) + Number(r.opp_usd)) || 1;
+      const bar = document.createElement('div'); bar.className = 'ct-split';
+      const a = document.createElement('span'); a.style.width = (r.lead_usd / tot * 100) + '%';
+      const o = document.createElement('span'); o.style.width = (r.opp_usd / tot * 100) + '%';
+      a.style.background = dash.colors[0];
+      bar.append(a, o); f.append(bar);
+      td(G.kmoney(r.opp_usd), 'num ct-hide-narrow');
+      td(r.kalshi == null ? '—' : G.cents(r.kalshi), 'num');
+      td(r.side, 'ct-hide-narrow muted');
+      td(G.cents(r.leader_avg), 'num ct-hide-narrow');
+      tbody.append(tr);
+    });
+  });
+  dash.onData(() => {
+    const panel = document.querySelector('#nextup');
+    if (!panel || panel.hidden) return;
+    const d = dash.data('games');
+    document.querySelectorAll('#games-empty').forEach((el) => { el.hidden = d.status !== 'ok' || upcoming(d).length > 0; });
+  });
+</script>
+
+<script>
+  const A = window.ctUtil;
+  dash.draw('feed', (ul) => {
+    const d = dash.data('activity');
+    ul.replaceChildren();
+    (d.status === 'ok' ? d.data : []).slice(0, 120).forEach((r) => {
+      const li = document.createElement('li');
+      const w = document.createElement('span'); w.className = 'when'; w.textContent = A.when(r.at);
+      const body = document.createElement('div');
+      const t = document.createElement('div'); t.textContent = r.text; if (r.type === 'skip') t.className = 'skip';
+      const m = document.createElement('div'); m.className = 'what'; m.textContent = (r.type === 'skip' ? 'Skipped · ' : '') + r.game + ' · ' + r.market;
+      body.append(t, m); li.append(w, body); ul.append(li);
+    });
+  });
+</script>
+
+<script>
+  const show = (name) => {
+    document.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== name; });
+    document.querySelectorAll('.ct-tab').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.tab === name)));
+    dash.setLink(name);
+  };
+  document.querySelectorAll('.ct-tab').forEach((t) => t.addEventListener('click', () => show(t.dataset.tab)));
+  const named = location.hash.slice(1);
+  if (['trades', 'nextup', 'activity', 'rules'].includes(named)) show(named);
+  dash.onData(() => {
+    const panel = document.querySelector('#nextup');
+    const d = panel && !panel.hidden ? dash.data('games') : null;
+    if (d) document.querySelectorAll('#games-empty').forEach((el) => { el.hidden = d.status !== 'ok' || d.data.some((r) => new Date(r.starts) > Date.now() && r.status !== 'fails' && !r.traded); });
+  });
+</script>
