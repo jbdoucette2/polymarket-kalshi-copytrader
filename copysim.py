@@ -54,7 +54,7 @@ LOCK_WINDOW_MIN = 60        # enter only when the game starts within this many m
 PREGAME_WINDOW  = (5, 25)   # the pre-game check decides games starting this many minutes from now
 PLAN_LEAD_MIN   = 15        # pregame_plan.json asks for the check this long before the start
 VERIFY_LEAD_MIN = 15        # the 15-minute check runs this long before each open trade's start
-VERIFY_AHEAD_MIN = 25       # ...and re-checks every open trade starting within this many minutes
+VERIFY_AHEAD_MIN = 20       # checks run every 15 min, so each open trade is re-checked once or twice in its last 20 min
 SNAPSHOT_HOURS  = 24        # the hourly snapshot covers games starting within this many hours
 TIMELINE_HOURS  = 48        # REPORT.md shows position changes for games that started this recently
 POLL_SECONDS    = 300
@@ -1028,6 +1028,7 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
         settle(c); write_report(c)
         return
     check_exits(c, markets)
+    verify_open(c, markets, VERIFY_AHEAD_MIN)
     lo, hi = window
     if hourly:
         cands = evaluate(c, markets, 0, SNAPSHOT_HOURS * 60)
@@ -1051,7 +1052,14 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
     log(f"next 15-minute check: {write_next_check(c)['check_at'] or 'none (no open trades ahead)'}")
 
 def verify(c):
-    """The 15-minute check on its own: fresh positions, re-check open trades about to start, settle, report."""
+    """The 15-minute check on its own: fresh positions, re-check open trades about to start, settle, report.
+    With no open trade starting within VERIFY_AHEAD_MIN it prints 'nothing due' and touches nothing."""
+    now = NOW()
+    due = [st for (st,) in c.execute("SELECT start_ts FROM trades WHERE status='open' AND pm_outcome_idx IS NOT NULL")
+           if now < parse_ts(st) <= now + timedelta(minutes=VERIFY_AHEAD_MIN)]
+    if not due:
+        log(f"nothing due: no open trade starts within {VERIFY_AHEAD_MIN} min")
+        return
     _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
     refresh_pool(c)
     markets = consensus(c)
