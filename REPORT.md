@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 1:41 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 2:24 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -19,6 +19,25 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Taranto: Matteo Martineau vs Inaki Montes · starts Tue Nov 3, 3:00 PM
+
+- Tue Nov 3, 2:24 PM (pregame): Taranto: Matteo Martineau vs Inaki Montes: all vetted wallets left Inaki Montes
+- Tue Nov 3, 10:12 AM (hourly): Taranto: Matteo Martineau vs Inaki Montes: omnibus-076daa joined Inaki Montes (+$94)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 2:24 PM | pregame | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 1:16 PM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 12:17 PM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 11:15 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 10:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Taranto: Florent Bax vs Gianluca Cadenasso · starts Tue Nov 3, 2:00 PM
 
@@ -171,23 +190,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
 | Tue Nov 3, 1:16 PM | hourly | Will Kashima Antlers win on 2026-11-04? → No | Flaznorp $43, omnibus-076daa $24 | $0 | — | fails: no Kalshi game found |
-
-### Taranto: Matteo Martineau vs Inaki Montes · starts Tue Nov 3, 3:00 PM
-
-- Tue Nov 3, 10:12 AM (hourly): Taranto: Matteo Martineau vs Inaki Montes: omnibus-076daa joined Inaki Montes (+$94)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 1:16 PM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | omnibus-076daa $94, Flaznorp $45 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### FK Shakhtar Donetsk vs. Sporting CP · starts Tue Nov 3, 5:45 PM
 
@@ -3582,6 +3584,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 2:24 PM | W75 Petange: Margaux Maquet vs Isis Louise Van den Broek | W75 Petange: Margaux Maquet vs Isis Louise Van den Broek → Isis Louise Van den Broek | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 2:24 PM | M15 Trois-Rivières: Jaden Weekes vs Daniel De Jonge | M15 Trois-Rivières: Jaden Weekes vs Daniel De Jonge → Daniel De Jonge | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 2:24 PM | Luanda: Zongyu Li vs Ana Sofia Sanchez | Luanda: Zongyu Li vs Ana Sofia Sanchez → Ana Sofia Sanchez | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 2:24 PM | Charlottesville: Stefan Kozlov vs Andres Martin | Charlottesville: Stefan Kozlov vs Andres Martin → Andres Martin | only 1 vetted wallet; opposition 73%; no Kalshi game found |
+| Tue Nov 3, 2:24 PM | Rolex Paris Masters: Alex Michelsen vs Jiri Lehecka | Rolex Paris Masters: Alex Michelsen vs Jiri Lehecka → Jiri Lehecka | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 1:41 PM | Bratislava 2: Laslo Djere vs Edas Butvilas | Bratislava 2: Laslo Djere vs Edas Butvilas → Laslo Djere | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 1:41 PM | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot → Novak Djokovic | only 1 vetted wallet; opposition 79%; no Kalshi game found |
 | Tue Nov 3, 1:18 PM | M15 Pembroke: Mitchell Dobek vs Tariq Simons | M15 Pembroke: Mitchell Dobek vs Tariq Simons → Tariq Simons | only 1 vetted wallet; no Kalshi game found |
@@ -3607,8 +3614,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:41 AM | Which party will win the Senate in 2026? | Will the Democratic Party control the Senate after the 2026 Midterm elections? → Yes | opposition 25%; no Kalshi game found |
 | Tue Nov 3, 11:41 AM | Cong An Ha Noi FC vs. Kyoto Sanga FC - Exact Score | Exact Score: Cong An Ha Noi FC 3 - 2 Kyoto Sanga FC? → No | only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan - More Markets | Port FC vs. Beijing Guoan: Both Teams to Score → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan - Exact Score | Exact Score: Port FC 2 - 2 Beijing Guoan? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:41 AM | Cong An Ha Noi FC vs. Kyoto Sanga FC - More Markets | Cong An Ha Noi FC vs. Kyoto Sanga FC: O/U 4.5 → Over | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan | Will Beijing Guoan win on 2026-11-03? → No | no Kalshi game found |
-| Tue Nov 3, 11:16 AM | M25 Heraklion: Michel Hopp vs Cezar Cretu | M25 Heraklion: Michel Hopp vs Cezar Cretu → Cezar Cretu | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:16 AM | Another US government shutdown & House Winner 2026? | Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026? → Yes | only 1 vetted wallet; no Kalshi game found |
