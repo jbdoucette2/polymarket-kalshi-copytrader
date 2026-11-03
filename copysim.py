@@ -84,21 +84,27 @@ def log(msg):
     print(f"[{NOW().isoformat(timespec='seconds')}] {msg}", flush=True)
 
 FAILED = []   # URLs that failed this cycle; missing data must not read as "the leaders left"
+KALSHI_GAP = 0.2   # seconds between Kalshi requests; its public API rate-limits bursts
+_k_last = [0.0]
 
 def get(url, **params):
-    for attempt in range(3):
+    for attempt in range(5):   # rate limits get 5 tries with growing waits; other errors get 3
+        if url.startswith(KAL):
+            time.sleep(max(0.0, _k_last[0] + KALSHI_GAP - time.time()))
+            _k_last[0] = time.time()
         try:
             r = S.get(url, params=params, timeout=30)
             if r.status_code == 404:
                 return None
             if r.status_code == 429:
-                time.sleep(5 * (attempt + 1)); continue
+                wait = r.headers.get("Retry-After", "")
+                time.sleep(float(wait) if wait.isdigit() else 3 * 2 ** attempt); continue
             if r.status_code == 410:
                 log(f"API retired: {url} -> {r.text[:200]}"); return None
             r.raise_for_status()
             return r.json()
         except Exception as e:
-            if attempt == 2:
+            if attempt >= 2:
                 log(f"request failed {url}: {e}"); FAILED.append(url); return None
             time.sleep(2 * (attempt + 1))
     log(f"rate limited: {url}"); FAILED.append(url)
