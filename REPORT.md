@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 11:16 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 11:41 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -20,6 +20,44 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### Balance of Power: 2026 Midterms · starts Tue Nov 3, 12:00 PM
+
+- Mon Nov 2, 11:33 PM (hourly): 2026 Balance of Power: D Senate, D House: first seen: 2 vetted on Yes ($3013.7k), fails: no Kalshi game found
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 11:41 AM | pregame | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 11:16 AM | pregame | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 11:15 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 10:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
+
+### Port FC vs. Beijing Guoan · starts Tue Nov 3, 12:15 PM
+
+- Tue Nov 3, 11:15 AM (hourly): Will Beijing Guoan win on 2026-11-03?: tradecraft joined No (+$17)
+- Tue Nov 3, 11:15 AM (hourly): Will Beijing Guoan win on 2026-11-03?: RN1 joined No (+$25)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 11:41 AM | pregame | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $2.1k, RN1 $25, tradecraft $17 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 11:15 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $1.9k, RN1 $25, tradecraft $17 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 10:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $965 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $965 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $878 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $580 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $580 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
 ### Shenzhen Leopards vs. Zhejiang Golden Bulls · starts Tue Nov 3, 11:35 AM
 
 - Tue Nov 3, 10:12 AM (hourly): Shenzhen Leopards vs. Zhejiang Golden Bulls: omnibus-076daa joined Shenzhen Leopards (+$11)
@@ -36,24 +74,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 6:13 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $42, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $40, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
-
-### Balance of Power: 2026 Midterms · starts Tue Nov 3, 12:00 PM
-
-- Mon Nov 2, 11:33 PM (hourly): 2026 Balance of Power: D Senate, D House: first seen: 2 vetted on Yes ($3013.7k), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:16 AM | pregame | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
 
 ### Deportivo Pereira vs. CD Tolima - Exact Score · starts Tue Nov 3, 8:30 PM
 
@@ -283,24 +303,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 46¢ NO | fails: only 1 vetted wallet |
 | Mon Nov 2, 11:59 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | 47¢ NO | fails: only 1 vetted wallet |
-
-### Port FC vs. Beijing Guoan · starts Tue Nov 3, 12:15 PM
-
-- Tue Nov 3, 11:15 AM (hourly): Will Beijing Guoan win on 2026-11-03?: tradecraft joined No (+$17)
-- Tue Nov 3, 11:15 AM (hourly): Will Beijing Guoan win on 2026-11-03?: RN1 joined No (+$25)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:15 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $1.9k, RN1 $25, tradecraft $17 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $965 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $965 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $878 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $580 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $580 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### IK Sirius vs. Halmstads BK - More Markets · starts Tue Nov 3, 6:00 PM
 
@@ -3192,6 +3194,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 11:41 AM | Cong An Ha Noi FC vs. Kyoto Sanga FC | Will Cong An Ha Noi FC win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Which party will win the Senate in 2026? | Will the Democratic Party control the Senate after the 2026 Midterm elections? → Yes | opposition 25%; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Cong An Ha Noi FC vs. Kyoto Sanga FC - Exact Score | Exact Score: Cong An Ha Noi FC 3 - 2 Kyoto Sanga FC? → No | only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan - More Markets | Port FC vs. Beijing Guoan: Both Teams to Score → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan - Exact Score | Exact Score: Port FC 2 - 2 Beijing Guoan? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Cong An Ha Noi FC vs. Kyoto Sanga FC - More Markets | Cong An Ha Noi FC vs. Kyoto Sanga FC: O/U 4.5 → Over | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan | Will Beijing Guoan win on 2026-11-03? → No | no Kalshi game found |
 | Tue Nov 3, 11:16 AM | M25 Heraklion: Michel Hopp vs Cezar Cretu | M25 Heraklion: Michel Hopp vs Cezar Cretu → Cezar Cretu | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 11:16 AM | Another US government shutdown & House Winner 2026? | Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026? → Yes | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 11:16 AM | ACA credits extended & House Winner 2026? | Will ACA premium tax credits not be extended and will the Democratic Party win the House in 2026? → Yes | only 1 vetted wallet; no Kalshi game found |
@@ -3215,10 +3224,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:41 AM | Vissel Kobe vs. Ratchaburi FC | Will Vissel Kobe win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:41 AM | Jeonbuk FC vs. Johor Darul Ta'zim | Will Jeonbuk FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:41 AM | Kashiwa Reysol vs. Daejeon Citizen FC | Will Kashiwa Reysol win on 2026-11-03? → Yes | no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Kashiwa Reysol vs. Daejeon Citizen FC - More Markets | Spread: Kashiwa Reysol (-1.5) → Kashiwa Reysol | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Rolex Paris Masters: Arthur Rinderknech vs Francisco Cerundolo | Set Handicap: Francisco Cerundolo (-1.5) vs Arthur Rinderknech (+1.5) → Arthur Rinderknech | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | KCC Egis vs. Goyang | KCC Egis vs. Goyang → KCC Egis | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Bratislava 2: Mika Brunold vs Michael Vrbensky | Bratislava 2: Mika Brunold vs Michael Vrbensky → Mika Brunold | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Dota 2: LEGION vs OG (BO3) - EPL Masters Playoffs | Dota 2: LEGION vs OG (BO3) - EPL Masters Playoffs → OG | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:41 AM | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Liudmila Samsonova | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Liudmila Samsonova → Liudmila Samsonova | only 1 vetted wallet; no Kalshi game found |
