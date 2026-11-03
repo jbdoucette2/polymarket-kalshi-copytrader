@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-03T20:14:24Z",
+  "updated": "2026-11-03T21:17:02Z",
   "games": [
+    {
+      "event_slug": "ven1-msc-car-2026-11-03-halftime-result",
+      "game": "Monagas SC vs. Caracas FC - Halftime Result",
+      "start": "2026-11-03T21:30:00Z",
+      "check_at": "2026-11-03T21:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Caracas FC leading at halftime? → No ($216, 2 wallets)",
+      "status": "fails: no Kalshi game found"
+    },
     {
       "event_slug": "cs2-bsta-zettag-2026-11-03",
       "game": "Counter-Strike: BESTIA Academy vs Zetta Games (BO3) - CCT South America Group Stage",
@@ -8,7 +18,7 @@
       "check_at": "2026-11-03T21:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Counter-Strike: BESTIA Academy vs Zetta Games (BO3) - CCT South America Group Stage → BESTIA Academy ($49, 2 wallets)",
+      "best": "Counter-Strike: BESTIA Academy vs Zetta Games (BO3) - CCT South America Group Stage → BESTIA Academy ($51, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -57,8 +67,8 @@
       "start": "2026-11-04T00:00:00Z",
       "check_at": "2026-11-03T23:45:00Z",
       "passing": 1,
-      "near": 2,
-      "best": "Red Wings vs. Lightning → Red Wings ($1.3k, 2 wallets)",
+      "near": 3,
+      "best": "Red Wings vs. Lightning → Red Wings ($1.3k, 3 wallets)",
       "status": "passes"
     },
     {
@@ -70,6 +80,16 @@
       "near": 2,
       "best": "Wild vs. Flyers: O/U 4.5 → Over ($707, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
+    },
+    {
+      "event_slug": "cbb-ipfw-duq-2026-11-03",
+      "game": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes",
+      "start": "2026-11-04T00:00:00Z",
+      "check_at": "2026-11-03T23:45:00Z",
+      "passing": 1,
+      "near": 0,
+      "best": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes ($94, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "nhl-stl-nyr-2026-11-03",
@@ -90,26 +110,6 @@
       "near": 1,
       "best": "Utah vs. Maple Leafs → Utah ($1.2k, 2 wallets)",
       "status": "fails: no Kalshi game found"
-    },
-    {
-      "event_slug": "cbb-ipfw-duq-2026-11-03",
-      "game": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes",
-      "start": "2026-11-04T00:00:00Z",
-      "check_at": "2026-11-03T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes ($63, 1 wallets)",
-      "status": "fails: only 1 vetted wallet"
-    },
-    {
-      "event_slug": "cbb-hamp-gtech-2026-11-03",
-      "game": "Hampton Pirates vs. Georgia Tech Yellow Jackets",
-      "start": "2026-11-04T00:00:00Z",
-      "check_at": "2026-11-03T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Hampton Pirates vs. Georgia Tech Yellow Jackets → Hampton Pirates ($10, 1 wallets)",
-      "status": "fails: only 1 vetted wallet"
     },
     {
       "event_slug": "cbb-stetsn-sc-2026-11-03",
@@ -138,7 +138,7 @@
       "check_at": "2026-11-04T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Hurricanes vs. Predators → Hurricanes ($12.9k, 1 wallets)",
+      "best": "Hurricanes vs. Predators → Hurricanes ($13.1k, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
     },
     {
@@ -147,7 +147,7 @@
       "start": "2026-11-04T01:00:00Z",
       "check_at": "2026-11-04T00:45:00Z",
       "passing": 1,
-      "near": 3,
+      "near": 4,
       "best": "Buffalo vs. Miami (OH): O/U 43.5 → Over ($5.5k, 2 wallets)",
       "status": "passes"
     },
@@ -172,13 +172,23 @@
       "status": "fails: only 1 vetted wallet"
     },
     {
+      "event_slug": "cbb-csufl-sdst-2026-11-03",
+      "game": "Cal State Fullerton Titans vs. San Diego State Aztecs",
+      "start": "2026-11-04T03:00:00Z",
+      "check_at": "2026-11-04T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Cal State Fullerton Titans vs. San Diego State Aztecs → Cal State Fullerton Titans ($58, 1 wallets)",
+      "status": "fails: only 1 vetted wallet"
+    },
+    {
       "event_slug": "cbb-nfl-cabap-2026-11-03",
       "game": "North Florida Ospreys vs. California Baptist Lancers",
       "start": "2026-11-04T03:00:00Z",
       "check_at": "2026-11-04T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "North Florida Ospreys vs. California Baptist Lancers → North Florida Ospreys ($8, 1 wallets)",
+      "best": "North Florida Ospreys vs. California Baptist Lancers → North Florida Ospreys ($36, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
     },
     {
@@ -208,7 +218,7 @@
       "check_at": "2026-11-04T09:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rolex Paris Masters: Quentin Halys vs Frances Tiafoe → Quentin Halys ($108, 2 wallets)",
+      "best": "Rolex Paris Masters: Quentin Halys vs Frances Tiafoe → Quentin Halys ($110, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -228,7 +238,7 @@
       "check_at": "2026-11-04T17:30:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Will Real Madrid CF win on 2026-11-04? → No ($2.3k, 3 wallets)",
+      "best": "Will Real Madrid CF win on 2026-11-04? → No ($2.2k, 3 wallets)",
       "status": "passes"
     },
     {
@@ -238,7 +248,7 @@
       "check_at": "2026-11-04T17:30:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Real Madrid CF (-1.5) → AEK ($634, 2 wallets)",
+      "best": "Spread: Real Madrid CF (-1.5) → AEK ($618, 2 wallets)",
       "status": "fails: no Kalshi spread market"
     },
     {
@@ -248,7 +258,7 @@
       "check_at": "2026-11-04T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Exact Score: AEK 0 - 3 Real Madrid CF? → No ($98, 2 wallets)",
+      "best": "Exact Score: AEK 0 - 3 Real Madrid CF? → No ($109, 2 wallets)",
       "status": "fails: market type not supported"
     },
     {
@@ -277,7 +287,7 @@
       "start": "2026-11-04T20:00:00Z",
       "check_at": "2026-11-04T19:45:00Z",
       "passing": 1,
-      "near": 2,
+      "near": 1,
       "best": "Will SSC Napoli win on 2026-11-04? → No ($1.9k, 2 wallets)",
       "status": "passes"
     },
@@ -328,7 +338,7 @@
       "check_at": "2026-11-04T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Viking FK vs. Sabah FK: Both Teams to Score → No ($106, 2 wallets)",
+      "best": "Viking FK vs. Sabah FK: Both Teams to Score → No ($104, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -340,16 +350,6 @@
       "near": 2,
       "best": "Will Real Betis Balompié win on 2026-11-04? → No ($58, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
-    },
-    {
-      "event_slug": "ucl-psv-bru-2026-11-04-more-markets",
-      "game": "PSV vs. Club Brugge KV - More Markets",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: PSV (-1.5) → Club Brugge KV ($73, 2 wallets)",
-      "status": "fails: no Kalshi spread market"
     }
   ]
 }
