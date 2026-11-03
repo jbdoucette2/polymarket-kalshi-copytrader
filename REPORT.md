@@ -1,8 +1,8 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 7:17 PM. Bankroll **$120.66** (start $100): $70.53 cash + open trades at cost.
+Updated Tue Nov 3, 7:56 PM. Bankroll **$110.44** (start $100): $70.53 cash + open trades at cost.
 
-Record: 22 won, 15 lost, 1 sold early. Realized P&L $+20.66. Open: 5.
+Record: 22 won, 16 lost, 1 sold early. Realized P&L $+10.44. Open: 4.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,7 @@ Record: 22 won, 15 lost, 1 sold early. Realized P&L $+20.66. Open: 5.
 | Tue Nov 3, 7:17 PM | [FC Barcelona vs. Aston Villa FC](https://polymarket.com/event/ucl-fcb-ast-2026-11-03) | Will FC Barcelona vs. Aston Villa FC end in a draw? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($7,109) | 11 × 87¢ NO `KXUCLGAME-26NOV03BARAVL-TIE` | open |  |
 | Tue Nov 3, 7:17 PM | [Manchester United FC vs. AS Roma](https://polymarket.com/event/ucl-mnu-rom-2026-11-03) | Will Manchester United FC win on 2026-11-03? → No | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($22,565) | 18 × 54¢ NO `KXUCLGAME-26NOV03MUNROM-MUN` | open |  |
 | Tue Nov 3, 7:17 PM | [Feyenoord Rotterdam vs. FC Internazionale Milano](https://polymarket.com/event/ucl-fey-int-2026-11-03) | Will FC Internazionale Milano win on 2026-11-03? → No | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($5,809) | 20 × 49¢ NO `KXUCLGAME-26NOV03FEYINT-INT` | open |  |
-| Tue Nov 3, 5:18 PM | [Galatasaray SK vs. VfB Stuttgart](https://polymarket.com/event/ucl-gal-stu-2026-11-03) | Will Galatasaray SK win on 2026-11-03? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($51,685) | 19 × 52¢ NO `KXUCLGAME-26NOV03GALVFB-GAL` | open |  |
+| Tue Nov 3, 5:18 PM | [Galatasaray SK vs. VfB Stuttgart](https://polymarket.com/event/ucl-gal-stu-2026-11-03) | Will Galatasaray SK win on 2026-11-03? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($51,685) | 19 × 52¢ NO `KXUCLGAME-26NOV03GALVFB-GAL` | lost | $-10.22 |
 | Tue Nov 3, 12:02 AM | [Bulls vs. 76ers](https://polymarket.com/event/nba-chi-phi-2026-11-02) | Spread: 76ers (-11.5) → 76ers | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [UpTheBlues](https://polymarket.com/profile/0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($12,547) | 20 × 48¢ YES `KXNBASPREAD-26NOV02CHIPHI-PHI12` | won | $+10.05 |
 | Tue Nov 3, 12:02 AM | [Hawks vs. Pacers](https://polymarket.com/event/nba-atl-ind-2026-11-02) | Spread: Hawks (-12.5) → Hawks | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d) ($4,163) | 24 × 41¢ YES `KXNBASPREAD-26NOV02ATLIND-ATL13` | lost | $-10.25 |
 | Tue Nov 3, 12:02 AM | [Pistons vs. Hornets](https://polymarket.com/event/nba-det-cha-2026-11-02) | Spread: Pistons (-5.5) → Pistons | [UpTheBlues](https://polymarket.com/profile/0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($15,575) | 19 × 52¢ YES `KXNBASPREAD-26NOV02DETCHA-DET6` | won | $+8.78 |
@@ -1378,6 +1378,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Manchester United FC vs. AS Roma · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:56 PM (verify): Will Manchester United FC win on 2026-11-03?: 15-min check: still passes (2 wallets, $40.6k for vs $0 against); holding
 - Tue Nov 3, 7:17 PM (pregame): Will Manchester United FC vs. AS Roma end in a draw?: Kalshi 77¢ → 78¢
 - Tue Nov 3, 7:17 PM (pregame): Will Manchester United FC win on 2026-11-03?: Kalshi 56¢ → 54¢
 - Tue Nov 3, 4:12 PM (hourly): Will Manchester United FC win on 2026-11-03?: now passes
@@ -1463,6 +1464,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Feyenoord Rotterdam vs. FC Internazionale Milano · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:56 PM (verify): Will FC Internazionale Milano win on 2026-11-03?: 15-min check: still passes (2 wallets, $5.4k for vs $0 against); holding
 - Tue Nov 3, 7:17 PM (pregame): Will Feyenoord Rotterdam win on 2026-11-03?: Kalshi 26¢ → 25¢
 - Tue Nov 3, 7:17 PM (pregame): Will FC Internazionale Milano win on 2026-11-03?: Kalshi 50¢ → 49¢
 - Tue Nov 3, 3:16 PM (hourly): Will Feyenoord Rotterdam vs. FC Internazionale Milano end in a draw?: Kalshi 24¢ → 25¢
@@ -1558,6 +1560,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Villarreal CF vs. Paris Saint-Germain FC · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:56 PM (verify): Will Paris Saint-Germain FC win on 2026-11-03?: 15-min check: still passes (3 wallets, $59.8k for vs $0 against); holding
 - Tue Nov 3, 7:17 PM (pregame): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 43¢ → 44¢
 - Tue Nov 3, 6:13 PM (hourly): Will Villarreal CF vs. Paris Saint-Germain FC end in a draw?: first seen: 1 vetted on Yes ($2.1k), fails: only 1 vetted wallet
 - Tue Nov 3, 3:16 PM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 44¢ → 43¢
@@ -1645,6 +1648,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### FC Barcelona vs. Aston Villa FC · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:56 PM (verify): Will FC Barcelona vs. Aston Villa FC end in a draw?: 15-min check: still passes (4 wallets, $10.7k for vs $0 against); holding
 - Tue Nov 3, 7:17 PM (pregame): Will Aston Villa FC win on 2026-11-03?: Kalshi 11¢ → 90¢
 - Tue Nov 3, 7:17 PM (pregame): Will Aston Villa FC win on 2026-11-03?: majority flipped to No ($667 vs $666)
 - Tue Nov 3, 7:17 PM (pregame): Will FC Barcelona vs. Aston Villa FC end in a draw?: now passes
