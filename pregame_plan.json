@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:14:59Z",
+  "updated": "2026-11-03T23:12:39Z",
   "games": [
     {
       "event_slug": "nhl-col-cbj-2026-11-03",
@@ -7,19 +7,9 @@
       "start": "2026-11-04T00:00:00Z",
       "check_at": "2026-11-03T23:45:00Z",
       "passing": 0,
-      "near": 3,
+      "near": 5,
       "best": "Spread: Blue Jackets (-1.5) → Avalanche ($9.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $9.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-min-phi-2026-11-03",
-      "game": "Wild vs. Flyers",
-      "start": "2026-11-04T00:00:00Z",
-      "check_at": "2026-11-03T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Wild vs. Flyers: O/U 4.5 → Over ($2.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-det-tb-2026-11-03",
@@ -32,14 +22,24 @@
       "status": "passes"
     },
     {
+      "event_slug": "nhl-min-phi-2026-11-03",
+      "game": "Wild vs. Flyers",
+      "start": "2026-11-04T00:00:00Z",
+      "check_at": "2026-11-03T23:45:00Z",
+      "passing": 1,
+      "near": 1,
+      "best": "Wild vs. Flyers → Flyers ($1.0k, 3 wallets)",
+      "status": "passes"
+    },
+    {
       "event_slug": "cfb-ohio-akron-2026-11-03",
       "game": "Ohio vs. Akron",
       "start": "2026-11-04T00:00:00Z",
       "check_at": "2026-11-03T23:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Ohio vs. Akron: O/U 51.5 → Over ($824, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $824 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 5,
+      "best": "Ohio vs. Akron: O/U 51.5 → Over ($835, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $835 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-ipfw-duq-2026-11-03",
@@ -48,8 +48,8 @@
       "check_at": "2026-11-03T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes ($94, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $94 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes ($31, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-stl-nyr-2026-11-03",
@@ -68,8 +68,8 @@
       "check_at": "2026-11-03T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Wagner Seahawks vs. Boston College Eagles → Boston College Eagles ($114, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wagner Seahawks vs. Boston College Eagles → Boston College Eagles ($320, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $320 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-stetsn-sc-2026-11-03",
@@ -82,14 +82,24 @@
       "status": "fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cbb-holy-ri-2026-11-03",
+      "game": "Holy Cross Crusaders vs. Rhode Island Rams",
+      "start": "2026-11-04T00:00:00Z",
+      "check_at": "2026-11-03T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Holy Cross Crusaders vs. Rhode Island Rams → Holy Cross Crusaders ($2, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nhl-edm-nj-2026-11-03",
       "game": "Oilers vs. Devils",
       "start": "2026-11-04T00:30:00Z",
       "check_at": "2026-11-04T00:15:00Z",
       "passing": 0,
       "near": 4,
-      "best": "Oilers vs. Devils: O/U 4.5 → Over ($343, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Oilers vs. Devils: O/U 6.5 → Under ($412, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $412 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-car-nsh-2026-11-03",
@@ -107,29 +117,19 @@
       "start": "2026-11-04T01:00:00Z",
       "check_at": "2026-11-04T00:45:00Z",
       "passing": 1,
-      "near": 4,
+      "near": 5,
       "best": "Buffalo vs. Miami (OH): O/U 43.5 → Over ($5.5k, 2 wallets)",
       "status": "passes"
-    },
-    {
-      "event_slug": "cbb-sdkst-kanst-2026-11-03",
-      "game": "South Dakota State Jackrabbits vs. Kansas State Wildcats",
-      "start": "2026-11-04T01:00:00Z",
-      "check_at": "2026-11-04T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits ($3, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-ana-van-2026-11-03",
       "game": "Ducks vs. Canucks",
       "start": "2026-11-04T02:00:00Z",
       "check_at": "2026-11-04T01:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Ducks vs. Canucks → Canucks ($2.4k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $2.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "passing": 1,
+      "near": 1,
+      "best": "Ducks vs. Canucks → Canucks ($2.9k, 3 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "cbb-csufl-sdst-2026-11-03",
@@ -138,8 +138,8 @@
       "check_at": "2026-11-04T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Cal State Fullerton Titans vs. San Diego State Aztecs → Cal State Fullerton Titans ($62, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cal State Fullerton Titans vs. San Diego State Aztecs → Cal State Fullerton Titans ($66, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-nfl-cabap-2026-11-03",
@@ -148,18 +148,18 @@
       "check_at": "2026-11-04T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "North Florida Ospreys vs. California Baptist Lancers → North Florida Ospreys ($36, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "North Florida Ospreys vs. California Baptist Lancers → North Florida Ospreys ($38, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "ucl-aek1-rma-2026-11-04",
       "game": "AEK vs. Real Madrid CF",
       "start": "2026-11-04T17:45:00Z",
       "check_at": "2026-11-04T17:30:00Z",
-      "passing": 1,
-      "near": 0,
-      "best": "Will Real Madrid CF win on 2026-11-04? → No ($2.1k, 3 wallets)",
-      "status": "passes"
+      "passing": 0,
+      "near": 1,
+      "best": "Will Real Madrid CF win on 2026-11-04? → No ($482, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $482 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "ucl-por-nap-2026-11-04",
@@ -167,39 +167,9 @@
       "start": "2026-11-04T20:00:00Z",
       "check_at": "2026-11-04T19:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Will SSC Napoli win on 2026-11-04? → No ($1.9k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $1.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-rbl-mnc-2026-11-04",
-      "game": "RB Leipzig vs. Manchester City FC",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Manchester City FC win on 2026-11-04? → No ($1.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-rcl-com-2026-11-04",
-      "game": "Racing Club de Lens vs. Como 1907",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Como 1907 win on 2026-11-04? → No ($576, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $576 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-psv-bru-2026-11-04",
-      "game": "PSV vs. Club Brugge KV",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will PSV win on 2026-11-04? → No ($203, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $203 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Will FC Porto win on 2026-11-04? → No ($1.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "ucl-bvb-bet-2026-11-04",
@@ -207,9 +177,19 @@
       "start": "2026-11-04T20:00:00Z",
       "check_at": "2026-11-04T19:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Will Real Betis Balompié win on 2026-11-04? → No ($58, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes ($322, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "ucl-rbl-mnc-2026-11-04",
+      "game": "RB Leipzig vs. Manchester City FC",
+      "start": "2026-11-04T20:00:00Z",
+      "check_at": "2026-11-04T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Manchester City FC win on 2026-11-04? → No ($173, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $173 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
