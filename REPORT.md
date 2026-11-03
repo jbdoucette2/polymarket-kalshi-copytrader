@@ -1,13 +1,13 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 11:12 PM. Bankroll **$81.53** (start $100): $60.79 cash + open trades at cost.
+Updated Tue Nov 3, 11:55 PM. Bankroll **$79.29** (start $100): $79.29 cash + open trades at cost.
 
-Record: 23 won, 19 lost, 1 sold early. Realized P&L $-18.47. Open: 2.
+Record: 23 won, 19 lost, 3 sold early. Realized P&L $-20.71. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | [Red Wings vs. Lightning](https://polymarket.com/event/nhl-det-tb-2026-11-03) | Red Wings vs. Lightning → Red Wings | [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,283) | 35 × 28¢ YES `KXNHLGAME-26NOV03DETTB-DET` | open |  |
-| Tue Nov 3, 11:12 PM | [Wild vs. Flyers](https://polymarket.com/event/nhl-min-phi-2026-11-03) | Wild vs. Flyers → Flyers | [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,029) | 27 × 37¢ YES `KXNHLGAME-26NOV03MINPHI-PHI` | open |  |
+| Tue Nov 3, 11:12 PM | [Red Wings vs. Lightning](https://polymarket.com/event/nhl-det-tb-2026-11-03) | Red Wings vs. Lightning → Red Wings | [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,283) | 35 × 28¢ YES `KXNHLGAME-26NOV03DETTB-DET` | sold | $-1.34 |
+| Tue Nov 3, 11:12 PM | [Wild vs. Flyers](https://polymarket.com/event/nhl-min-phi-2026-11-03) | Wild vs. Flyers → Flyers | [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,029) | 27 × 37¢ YES `KXNHLGAME-26NOV03MINPHI-PHI` | sold | $-0.90 |
 | Tue Nov 3, 7:17 PM | [Villarreal CF vs. Paris Saint-Germain FC](https://polymarket.com/event/ucl-vil-psg-2026-11-03) | Will Paris Saint-Germain FC win on 2026-11-03? → No | [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($53,395) | 22 × 44¢ NO `KXUCLGAME-26NOV03VILPSG-PSG` | lost | $-10.06 |
 | Tue Nov 3, 7:17 PM | [FC Barcelona vs. Aston Villa FC](https://polymarket.com/event/ucl-fcb-ast-2026-11-03) | Will FC Barcelona vs. Aston Villa FC end in a draw? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($7,109) | 11 × 87¢ NO `KXUCLGAME-26NOV03BARAVL-TIE` | won | $+1.34 |
 | Tue Nov 3, 7:17 PM | [Manchester United FC vs. AS Roma](https://polymarket.com/event/ucl-mnu-rom-2026-11-03) | Will Manchester United FC win on 2026-11-03? → No | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($22,565) | 18 × 54¢ NO `KXUCLGAME-26NOV03MUNROM-MUN` | lost | $-10.04 |
@@ -2147,6 +2147,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Wild vs. Flyers · starts Wed Nov 4, 12:00 AM
 
+- Tue Nov 3, 11:55 PM (verify): Wild vs. Flyers: 15-min check: Flyers has only 2 vetted wallets with $724 (needs 3+ wallets, or 2 with $5.0k+) (2 wallets, $724 for vs $0 against); sold
 - Tue Nov 3, 11:12 PM (pregame): Wild vs. Flyers: now passes
 - Tue Nov 3, 11:12 PM (pregame): Wild vs. Flyers: tradecraft joined Flyers (+$18)
 - Tue Nov 3, 11:12 PM (pregame): Wild vs. Flyers: SnakeBall joined Flyers (+$324)
@@ -2215,6 +2216,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Red Wings vs. Lightning · starts Wed Nov 4, 12:00 AM
 
+- Tue Nov 3, 11:55 PM (verify): Red Wings vs. Lightning: 15-min check: Red Wings has only 2 vetted wallets with $1.0k (needs 3+ wallets, or 2 with $5.0k+) (2 wallets, $1.0k for vs $0 against); sold
 - Tue Nov 3, 11:12 PM (pregame): Spread: Lightning (-1.5): HomeRunHazard added $3.4k on Red Wings
 - Tue Nov 3, 9:17 PM (hourly): Spread: Red Wings (-1.5): first seen: 1 vetted on Red Wings ($6), fails: only 1 vetted wallet
 - Tue Nov 3, 9:17 PM (hourly): Spread: Lightning (-1.5): Kalshi 51¢ → 50¢
@@ -6822,7 +6824,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 0-0 | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 0-0 (26 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 0-0 (23 pending) | benched |
 
 ## Recent skips
 
