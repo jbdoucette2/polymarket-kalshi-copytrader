@@ -48,6 +48,18 @@ LIVE_MAX_OPEN      = int(os.environ.get("LIVE_MAX_OPEN", 10))          # max ope
 MIN_WALLETS     = 2         # never fewer than this many vetted wallets on the pick
 MIN_POINTS      = 3         # conviction needed: 1 point per vetted wallet, +1 when their money reaches BIG_MONEY_USD
 BIG_MONEY_USD   = 5000      # so 3+ wallets pass, and 2 wallets pass with $5k+ between them (backtest, Nov 2-3)
+# Time-out: a vetted wallet that keeps losing us money or trades a market hundreds of times is benched. A benched
+# wallet doesn't count for or against any trade, but its pre-game picks are kept as a shadow record; it comes back
+# once that record proves it. `python3 copysim.py timeout NAME [reason]` / `release NAME` do it by hand.
+TIMEOUT_STREAK  = 3         # lost our last this-many copied trades in a row
+TIMEOUT_MIN_N, TIMEOUT_MAX_WIN = 5, 0.40   # or won under 40% of 5+ copied trades
+TRADER_MEDIAN, TRADER_MIN_N, TRADER_ONE = 30, 3, 200   # or a median of 30+ trades per copied market (3+ markets), or 200+ on one
+RELEASE_N, RELEASE_WIN = 5, 0.60           # released after 5+ settled shadow picks winning 60%+ ...
+RELEASE_EDGE    = 0.05      # ... and beating their average price by 5+ points (so 90¢ favorites don't count)
+SHADOW_MIN_USD  = 500       # shadow picks are positions of $500+ priced MIN_PRICE-MAX_PRICE, like the ones we'd copy
+SEED_TIMEOUTS = {           # benched by hand when the time-out list started
+    "0x821dab0565ebf5b327f51db06223fdcfe01acf16": ("Flaznorp", "trader: 400-1,300 trades per game; 4-11 on our trades"),
+}
 OPP_MAX        = 0.10      # opposing vetted money must be under 10% of the agreeing side
 HEDGE_RATIO     = 0.20
 MAX_SLIP        = 0.03
@@ -151,7 +163,16 @@ def db():
     CREATE TABLE IF NOT EXISTS changes(
       id INTEGER PRIMARY KEY, ts TEXT, kind TEXT, event_slug TEXT, game TEXT, cond TEXT, title TEXT, note TEXT);
     CREATE INDEX IF NOT EXISTS changes_event ON changes(event_slug, id);
+    CREATE TABLE IF NOT EXISTS timeouts(addr TEXT PRIMARY KEY, name TEXT, reason TEXT, since TEXT,
+      released TEXT, release_note TEXT);
+    CREATE TABLE IF NOT EXISTS shadow(addr TEXT, cond TEXT, idx INT, start_ts TEXT, avg REAL, usd REAL, ts TEXT,
+      game TEXT, title TEXT, pick TEXT, won INT, PRIMARY KEY(addr, cond));
+    CREATE TABLE IF NOT EXISTS wallet_market_trades(addr TEXT, cond TEXT, n INT, PRIMARY KEY(addr, cond));
     """)
+    for addr, (name, reason) in SEED_TIMEOUTS.items():
+        c.execute("INSERT OR IGNORE INTO timeouts(addr,name,reason,since) VALUES(?,?,?,?)",
+                  (addr, name, reason, NOW().isoformat(timespec="seconds")))
+    c.commit()
     if not c.execute("SELECT 1 FROM meta WHERE k='cash'").fetchone():
         c.execute("INSERT INTO meta VALUES('cash', ?)", (str(START_BANKROLL),))
         c.execute("INSERT INTO meta VALUES('start_ts', ?)", (NOW().isoformat(),))
@@ -219,8 +240,10 @@ def all_positions(addr):
 
 # ---------------- consensus ----------------
 def consensus(c):
-    """Return {cond: {"sides": {idx: [leader dicts]}, "pos": sample position}} excluding hedged legs."""
+    """Return {cond: {"sides": {idx: [leader dicts]}, "pos": sample position, "bench": [...]}} excluding hedged legs.
+    Wallets in time-out go to "bench" instead of "sides", so they count neither for nor against a trade."""
     pool = c.execute("SELECT addr, name FROM pool").fetchall()
+    benched = benched_wallets(c)
     markets = {}
     for addr, name in pool:
         by_cond = {}
@@ -233,12 +256,15 @@ def consensus(c):
                 if sizes[-1] and sizes[0] / sizes[-1] > HEDGE_RATIO:
                     continue  # hedged: not a prediction
             p = max(legs, key=lambda l: float(l["size"]))
-            m = markets.setdefault(cond, {"sides": {}, "pos": p})
-            m["sides"].setdefault(p["outcomeIndex"], []).append(dict(
-                addr=addr, name=name, avg=float(p.get("avgPrice") or 0),
-                usd=float(p.get("currentValue") or 0), size=float(p["size"])))
+            m = markets.setdefault(cond, {"sides": {}, "pos": p, "bench": []})
+            leg = dict(addr=addr, name=name, avg=float(p.get("avgPrice") or 0),
+                       usd=float(p.get("currentValue") or 0), size=float(p["size"]))
+            if addr.lower() in benched:
+                m["bench"].append(dict(leg, idx=p["outcomeIndex"], outcome=p.get("outcome")))
+            else:
+                m["sides"].setdefault(p["outcomeIndex"], []).append(leg)
         time.sleep(0.2)
-    return markets
+    return {cond: m for cond, m in markets.items() if m["sides"] or m["bench"]}
 
 def best_side(m):
     tot = {k: sum(l["usd"] for l in v) for k, v in m["sides"].items()}
@@ -507,8 +533,17 @@ def evaluate(c, markets, lo_min, hi_min):
         st = start_time(ev, mk)
         if not st or not (lo < st <= hi):
             continue
-        main, lead, lead_usd, opp, avg = best_side(m)
         outs = json.loads(mk["outcomes"]) if isinstance(mk["outcomes"], str) else mk["outcomes"]
+        for b in m["bench"]:   # a benched wallet's pick before the start, for its shadow record
+            if b["usd"] < SHADOW_MIN_USD or not (MIN_PRICE < b["avg"] < MAX_PRICE):
+                continue
+            c.execute("INSERT OR IGNORE INTO shadow(addr,cond,idx,start_ts,avg,usd,ts,game,title,pick) VALUES(?,?,?,?,?,?,?,?,?,?)",
+                      (b["addr"].lower(), cond, b["idx"], st.astimezone(timezone.utc).isoformat(timespec="seconds"), b["avg"],
+                       b["usd"], now.isoformat(timespec="seconds"), ev.get("title"), mk.get("question"),
+                       outs[b["idx"]] if b["idx"] is not None and b["idx"] < len(outs) else b.get("outcome")))
+        if not m["sides"]:
+            continue
+        main, lead, lead_usd, opp, avg = best_side(m)
         prices = json.loads(mk["outcomePrices"]) if isinstance(mk.get("outcomePrices"), str) else mk.get("outcomePrices")
         fails = []
         short = conviction(len(lead), lead_usd)[1]
@@ -536,6 +571,7 @@ def evaluate(c, markets, lo_min, hi_min):
                         start=st.astimezone(timezone.utc), game=ev.get("title"), slug=ev["slug"],
                         title=mk.get("question"), pick=outs[main], km=km, side=side, ask=ask,
                         fails=fails, held=ev["slug"] in held_games))
+    c.commit()
     return out
 
 # ---------------- snapshots & change notes ----------------
@@ -881,6 +917,134 @@ def settle(c):
         c.commit()
         log(f"SETTLED trade #{tid}: {'WON' if won else 'lost'}")
 
+# ---------------- time-outs ----------------
+def benched_wallets(c):
+    return {a.lower() for (a,) in c.execute("SELECT addr FROM timeouts WHERE released IS NULL")}
+
+def trade_wallets(c, leaders):
+    """(addr, name) for each leader of a trade; hand-logged trades only have names, matched through the pool."""
+    L = json.loads(leaders)
+    if L and L[0].get("addr"):
+        return [(l["addr"].lower(), l["name"]) for l in L]
+    by_name = {n: a.lower() for a, n in c.execute("SELECT addr, name FROM pool")}
+    by_name.update({n: a for a, (n, _) in SEED_TIMEOUTS.items()})
+    names = re.findall(r"[A-Za-z][A-Za-z0-9_-]+", L[0]["name"]) if L else []
+    return [(by_name[n], n) for n in dict.fromkeys(names) if n in by_name]
+
+def market_trade_count(c, addr, cond):
+    """How many times a wallet traded one market (cached; pages capped at 2,000 trades)."""
+    row = c.execute("SELECT n FROM wallet_market_trades WHERE addr=? AND cond=?", (addr, cond)).fetchone()
+    if row:
+        return row[0]
+    n, cur = 0, None
+    for _ in range(4):
+        d = get(f"{PM}/v2/activity", user=addr, condition=cond, limit=500, **({"cursor": cur} if cur else {}))
+        if d is None:
+            return None
+        n += sum(1 for x in d.get("data") or [] if x.get("type") == "TRADE")
+        cur = (d.get("pagination") or {}).get("next_cursor") if (d.get("pagination") or {}).get("has_more") else None
+        if not cur:
+            break
+    c.execute("INSERT OR REPLACE INTO wallet_market_trades VALUES(?,?,?)", (addr, cond, n))
+    return n
+
+def bench(c, addr, name, reason):
+    ts = NOW().isoformat(timespec="seconds")
+    c.execute("INSERT OR REPLACE INTO timeouts(addr,name,reason,since,released,release_note) VALUES(?,?,?,?,NULL,NULL)",
+              (addr.lower(), name, reason, ts))
+    c.execute("INSERT INTO changes(ts,kind,event_slug,game,cond,title,note) VALUES(?,?,?,?,?,?,?)",
+              (ts, "timeout", "", name, "", "Time-out", f"{name} put in time-out: {reason}"))
+    log(f"TIME-OUT {name}: {reason}")
+
+def release(c, addr, name, note):
+    if addr.lower() not in benched_wallets(c):
+        raise SystemExit(f"{name} isn't in time-out")
+    ts = NOW().isoformat(timespec="seconds")
+    c.execute("UPDATE timeouts SET released=?, release_note=? WHERE addr=? AND released IS NULL", (ts, note, addr.lower()))
+    c.execute("INSERT INTO changes(ts,kind,event_slug,game,cond,title,note) VALUES(?,?,?,?,?,?,?)",
+              (ts, "timeout", "", name, "", "Time-out", f"{name} released: {note}"))
+    log(f"RELEASED {name}: {note}")
+
+def settle_shadow(c):
+    """Mark benched wallets' shadow picks won or lost once Polymarket resolves the market."""
+    due = c.execute("SELECT DISTINCT cond FROM shadow WHERE won IS NULL AND start_ts < ?",
+                    ((NOW() - timedelta(hours=3)).isoformat(timespec="seconds"),)).fetchall()
+    conds = [x for (x,) in due]
+    for i in range(0, len(conds), 40):
+        rows = get(f"{GAMMA}/markets", condition_ids=conds[i:i + 40], closed="true", limit=100) or []
+        for m in rows:
+            try:
+                prices = [float(p) for p in json.loads(m.get("outcomePrices") or "[]")]
+            except Exception:
+                continue
+            if prices and max(prices) > 0.98:
+                c.execute("UPDATE shadow SET won=(idx=?) WHERE cond=? AND won IS NULL", (prices.index(max(prices)), m["conditionId"]))
+    c.commit()
+
+def wallet_record(c, addr, since=None):
+    """Our settled copied trades this wallet led (oldest first), as True/False for won/lost, plus their markets."""
+    out = []
+    for status, leaders, cond, settled in c.execute(
+            "SELECT status, leaders, cond, settled_ts FROM trades WHERE status IN ('won','lost') ORDER BY settled_ts"):
+        if since and (settled or "") <= since:
+            continue
+        if addr in {a for a, _ in trade_wallets(c, leaders)}:
+            out.append((status == "won", cond))
+    return out
+
+def review_wallets(c):
+    """Bench wallets that keep losing us money or trade like market makers; release benched ones whose shadow
+    picks have proven themselves."""
+    settle_shadow(c)
+    benched = benched_wallets(c)
+    last_release = {a.lower(): r for a, r in c.execute("SELECT addr, MAX(released) FROM timeouts GROUP BY addr")}
+    seen = {}
+    for (leaders,) in c.execute("SELECT leaders FROM trades WHERE status IN ('won','lost')").fetchall():
+        for a, n in trade_wallets(c, leaders):
+            seen.setdefault(a, n)
+    for addr, name in seen.items():
+        if addr in benched:
+            continue
+        rec = wallet_record(c, addr, last_release.get(addr))
+        wins = sum(w for w, _ in rec)
+        if len(rec) >= TIMEOUT_STREAK and not any(w for w, _ in rec[-TIMEOUT_STREAK:]):
+            bench(c, addr, name, f"lost our last {TIMEOUT_STREAK} copied trades ({wins}-{len(rec) - wins} overall)"); continue
+        if len(rec) >= TIMEOUT_MIN_N and wins / len(rec) < TIMEOUT_MAX_WIN:
+            bench(c, addr, name, f"won {wins} of {len(rec)} copied trades"); continue
+        counts = [n for n in (market_trade_count(c, addr, cond) for _, cond in rec if not cond.startswith("manual:"))
+                  if n is not None]
+        if counts and (max(counts) >= TRADER_ONE or (len(counts) >= TRADER_MIN_N
+                                                      and sorted(counts)[len(counts) // 2] >= TRADER_MEDIAN)):
+            bench(c, addr, name, f"trader: {sorted(counts)[len(counts) // 2]} trades per market (median), "
+                                 f"up to {max(counts)}")
+    for addr, name, since in c.execute("SELECT addr, name, since FROM timeouts WHERE released IS NULL").fetchall():
+        picks = c.execute("SELECT won, avg FROM shadow WHERE addr=? AND ts>=? AND won IS NOT NULL", (addr, since)).fetchall()
+        if len(picks) < RELEASE_N:
+            continue
+        rate, price = sum(w for w, _ in picks) / len(picks), sum(a for _, a in picks) / len(picks)
+        if rate >= RELEASE_WIN and rate >= price + RELEASE_EDGE:
+            release(c, addr, name, f"shadow picks won {rate:.0%} of {len(picks)} at an average price of {price * 100:.0f}¢")
+    c.commit()
+
+def timeout_rows(c):
+    """Every wallet ever benched, with its shadow record since it was benched."""
+    out = []
+    for addr, name, reason, since, released, note in c.execute(
+            "SELECT addr, name, reason, since, released, release_note FROM timeouts ORDER BY released IS NOT NULL, since DESC"):
+        w, n = c.execute("SELECT COALESCE(SUM(won),0), COUNT(won) FROM shadow WHERE addr=? AND ts>=? AND (? IS NULL OR ts<=?)",
+                         (addr, since, released, released)).fetchone()
+        pending = c.execute("SELECT COUNT(*) FROM shadow WHERE addr=? AND ts>=? AND won IS NULL", (addr, since)).fetchone()[0]
+        out.append(dict(addr=addr, name=name, reason=reason, since=since, released=released, note=note,
+                        shadow_won=w, shadow_n=n, shadow_pending=0 if released else pending))
+    return out
+
+def find_wallet(c, who):
+    who_l = who.lower()
+    for a, n in list(c.execute("SELECT addr, name FROM pool")) + list(c.execute("SELECT addr, name FROM timeouts")):
+        if a.lower() == who_l or (n or "").lower() == who_l:
+            return a.lower(), n
+    raise SystemExit(f"no vetted or benched wallet named {who}")
+
 # ---------------- reporting ----------------
 def rows(c, sql, args=()):
     c.row_factory = sqlite3.Row
@@ -921,6 +1085,17 @@ def write_report(c):
                      f"{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()} `{r['kalshi_ticker']}` | "
                      f"{r['status']} | {fmt_pnl(r['pnl'])} |")
     lines += position_changes(c)
+    tos = timeout_rows(c)
+    if tos:
+        lines += ["", "## Time-out", "", "Wallets that don't count for or against a trade until their shadow picks win "
+                  f"{RELEASE_WIN:.0%}+ of {RELEASE_N}+ settled games.", "",
+                  "| Wallet | Why | Since | Shadow picks | Status |", "| --- | --- | --- | --- | --- |"]
+        for t in tos:
+            rec = f"{t['shadow_won']}-{t['shadow_n'] - t['shadow_won']}"
+            if t["shadow_pending"]:
+                rec += f" ({t['shadow_pending']} pending)"
+            status = f"released {local(t['released'])}: {t['note']}" if t["released"] else "benched"
+            lines.append(f"| {t['name']} | {t['reason']} | {local(t['since'])} | {rec} | {status} |")
     sk = rows(c, "SELECT * FROM skips ORDER BY id DESC LIMIT 30")
     if sk:
         lines += ["", "## Recent skips", "", "| When | Game | Pick | Reason |", "| --- | --- | --- | --- |"]
@@ -1024,7 +1199,7 @@ def dashboard_data(c, s, sk):
                 rules=dict(min_wallets=MIN_WALLETS, min_points=MIN_POINTS, big_money=BIG_MONEY_USD, opp_max=OPP_MAX, hedge=HEDGE_RATIO, slip=MAX_SLIP,
                            min_price=MIN_PRICE, max_price=MAX_PRICE, window=window,
                            lock=LOCK_WINDOW_MIN, plan_lead=PLAN_LEAD_MIN, timeline_hours=TIMELINE_HOURS),
-                trades=trades, games=games, curve=curve,
+                trades=trades, games=games, curve=curve, timeouts=timeout_rows(c),
                 skips=[dict(ts=r["ts"], game=r["game"], title=r["title"], pick=r["pick"], reason=r["reason"],
                             lead=r["lead_usd"]) for r in sk])
 
@@ -1034,7 +1209,10 @@ def write_tracker_files(c, d):
     files = {
         "overview": [dict(updated=d["updated"], mode=d["mode"], start=d["start"], equity=s["equity"], cash=s["cash"],
                           realized_pnl=s["pnl"], won=s["won"], lost=s["lost"], sold=s["sold"], open=s["open"],
-                          at_risk=d["at_risk"], open_value=d["open_value"], stake=d["stake"], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
+                          at_risk=d["at_risk"], open_value=d["open_value"], stake=d["stake"],
+                          timeouts=[dict(name=t["name"], reason=t["reason"], since=t["since"], released=t["released"],
+                                         note=t["note"], shadow_won=t["shadow_won"], shadow_n=t["shadow_n"],
+                                         shadow_pending=t["shadow_pending"]) for t in d["timeouts"]], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
         "trades": [dict(id=t["id"], entered=t["ts"], starts=t["start"], game=t["game"], market=t["title"], pick=t["pick"],
                         side=(t["side"] or "").upper(), contracts=t["n"], price=t["price"], cost=round(t["cost"] + t["fee"], 2),
                         status=t["status"], pnl=t["pnl"], closed=t["closed"], ticker=t["ticker"],
@@ -1142,6 +1320,8 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
         decide(c, due)
         c.execute("INSERT OR REPLACE INTO meta VALUES('window', ?)", (f"{lo}-{hi}",)); c.commit()
     settle(c)
+    if hourly:
+        review_wallets(c)
     write_report(c)
     log(f"next 15-minute check: {write_next_check(c)['check_at'] or 'none (no open trades ahead)'}")
 
@@ -1179,6 +1359,13 @@ def main():
         return report(c)
     if "import-manual" in sys.argv:
         return import_manual(c, sys.argv[sys.argv.index("import-manual") + 1])
+    if "timeout" in sys.argv:
+        i = sys.argv.index("timeout")
+        addr, name = find_wallet(c, sys.argv[i + 1])
+        bench(c, addr, name, " ".join(sys.argv[i + 2:]) or "benched by hand"); c.commit(); write_report(c); return
+    if "release" in sys.argv:
+        addr, name = find_wallet(c, sys.argv[sys.argv.index("release") + 1])
+        release(c, addr, name, "released by hand"); c.commit(); write_report(c); return
     if "check-keys" in sys.argv:
         from kalshi_client import KalshiClient
         k = KalshiClient()

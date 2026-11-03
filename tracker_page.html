@@ -83,6 +83,12 @@
     <div class="ct-live-grid" data-draw="live" data-source="trades"></div>
   </section>
 
+  <section class="ct-card" id="timeout">
+    <h2>In time-out</h2>
+    <p class="note">Wallets that don't count for or against a trade right now. Each one's pre-game picks ($500+) are tracked; it comes back after 5+ settle with a 60%+ win rate that beats the price it paid by 5 points.</p>
+    <ul class="ct-feed" data-draw="timeouts" data-source="overview"></ul>
+  </section>
+
   <section class="ct-card" id="bankroll">
     <h2>Realized bankroll</h2>
     <p class="note">Start plus the profit or loss of each trade as it settles or sells.</p>
@@ -161,6 +167,7 @@
     <p class="note">The rules every trade has to pass.</p>
     <ol class="ct-rules">
       <li><b>Proven bettors only.</b> A wallet counts if it is in the top 100 of Polymarket's sports leaderboard this month and the top 200 all-time.</li>
+      <li><b>Time-out.</b> A wallet that loses 3 of our copied trades in a row, wins under 40% of 5 or more, or trades a market hundreds of times is benched until its shadow picks prove it.</li>
       <li><b>Agreement, weighted by money.</b> At least 3 of those wallets hold the same side, or 2 who have $5,000 or more on it between them. A wallet holding both sides as a hedge doesn't count.</li>
       <li><b>Little pushback.</b> Vetted money on the other side is under 10% of the money on the pick.</li>
       <li><b>Fair price.</b> Kalshi's price is within 3¢ of what the leaders paid, on the same line.</li>
@@ -308,6 +315,28 @@
         card.append(bar, val);
       }
       grid.append(card);
+    });
+  });
+</script>
+
+<script>
+  dash.draw('timeouts', (ul) => {
+    const U = window.ctUtil;
+    const d = dash.data('overview');
+    const rows = d.status === 'ok' && d.data[0] && Array.isArray(d.data[0].timeouts) ? d.data[0].timeouts : [];
+    ul.replaceChildren();
+    if (d.status === 'ok' && !rows.length) { ul.append(Object.assign(document.createElement('li'), {textContent: 'Nobody is in time-out.'})); return; }
+    rows.forEach((t) => {
+      const li = document.createElement('li');
+      const w = document.createElement('div'); w.className = 'when';
+      w.textContent = t.released ? 'Released ' + U.ago(t.released) : 'Since ' + U.ago(t.since);
+      const body = document.createElement('div');
+      const name = document.createElement('div');
+      name.textContent = t.name + (t.released ? ' (back in)' : '');
+      const what = document.createElement('div'); what.className = 'what';
+      const settled = t.shadow_n ? t.shadow_won + '-' + (t.shadow_n - t.shadow_won) + ' on shadow picks' : 'no shadow picks settled yet';
+      what.textContent = (t.released ? t.note : t.reason) + ' · ' + settled + (t.shadow_pending ? ', ' + t.shadow_pending + ' pending' : '');
+      body.append(name, what); li.append(w, body); ul.append(li);
     });
   });
 </script>
