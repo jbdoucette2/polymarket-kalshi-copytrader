@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 5:14 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 5:40 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -19,6 +19,31 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B · starts Tue Nov 3, 5:55 AM
+
+- Tue Nov 3, 5:40 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: omnibus-076daa joined BetBoom Team (+$10)
+- Tue Nov 3, 4:40 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): back: 1 vetted on BetBoom Team ($143), fails: only 1 vetted wallet; no Kalshi game found
+- Tue Nov 3, 4:40 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: back: 1 vetted on BetBoom Team ($6), fails: only 1 vetted wallet; no Kalshi game found
+- Tue Nov 3, 4:25 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: all vetted wallets left BetBoom Team
+- Tue Nov 3, 4:25 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): all vetted wallets left BetBoom Team
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 5:40 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | omnibus-076daa $10, Flaznorp $6 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 5:40 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:14 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:14 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:40 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:25 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:25 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 4:22 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $140 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### FC Imabari vs. Hokkaidō Consadole Sapporo - More Markets · starts Tue Nov 3, 5:50 AM
 
@@ -668,28 +693,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.3k, RN1 $2.0k, SnakeBall $253, tradecraft $88 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B · starts Tue Nov 3, 5:10 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): back: 1 vetted on BetBoom Team ($143), fails: only 1 vetted wallet; no Kalshi game found
-- Tue Nov 3, 4:40 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: back: 1 vetted on BetBoom Team ($6), fails: only 1 vetted wallet; no Kalshi game found
-- Tue Nov 3, 4:25 AM (pregame): Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B: all vetted wallets left BetBoom Team
-- Tue Nov 3, 4:25 AM (pregame): Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5): all vetted wallets left BetBoom Team
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 5:14 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:14 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $143 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:25 AM | pregame | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:22 AM | hourly | Map Handicap: MOUZ (-1.5) vs BetBoom Team (+1.5) → BetBoom Team | omnibus-076daa $140 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Chennai Open: Panna Udvardy vs Robin Montgomery · starts Tue Nov 3, 5:30 AM
 
@@ -2234,6 +2237,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 5:40 AM | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | no Kalshi game found |
 | Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo | Will Hokkaidō Consadole Sapporo win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo - More Markets | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | no Kalshi game found |
 | Tue Nov 3, 4:40 AM | Kamatamare Sanuki vs. Matsumoto Yamaga FC - Exact Score | Exact Score: Kamatamare Sanuki 1 - 0 Matsumoto Yamaga FC? → Yes | only 1 vetted wallet; no Kalshi game found |
@@ -2263,4 +2267,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Yokohama FC vs. Blaublitz Akita | Will Blaublitz Akita win on 2026-11-03? → No | no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Nara Club vs. Thespa Gunma | Will Nara Club win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Tegevajaro Miyazaki vs. Tochigi City FC | Will Tochigi City FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Zweigen Kanazawa vs. AC Nagano Parceiro - More Markets | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | no Kalshi game found |
