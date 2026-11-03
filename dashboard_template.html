@@ -237,13 +237,15 @@ const moneyChart = hist => lineChart([
 /* ---------- views ---------- */
 function tradeCard(t) {
   const st = t.status, pnl = t.pnl;
+  const L = t.live || {}, mark = L.now_value != null ? L.now_value - t.cost - t.fee : null;
   const right = st === "open"
-    ? `<b>${$(t.cost + t.fee)}</b><small class="q">pays ${$(t.n)}</small>`
+    ? (mark != null ? `<b class="${mark > 0 ? "up" : mark < 0 ? "down" : ""}">${sign$(mark)}</b><small class="q">worth ${$(L.now_value)} now</small>`
+                    : `<b>${$(t.cost + t.fee)}</b><small class="q">pays ${$(t.n)}</small>`)
     : `<b class="${pnl > 0 ? "up" : pnl < 0 ? "down" : ""}">${sign$(pnl ?? 0)}</b><small class="q">${st === "sold" ? "sold at " + c(t.exit_price) : "settled " + (t.closed ? when(t.closed) : "")}</small>`;
   return `<details class="card" data-id="${t.id}">
   <summary><span class="pill ${st}">${STATUS[st] || st}</span>
     <div style="min-width:0"><div class="title">${esc(t.pick)} <span class="f" style="font-weight:500">· ${t.n} × ${c(t.price)} ${sideTxt(t.side)}</span></div>
-    <div class="sub">${esc(t.title)} · ${esc(t.game)} · ${st === "open" ? "starts " + rel(t.start) : when(t.start)}</div></div>
+    <div class="sub">${esc(t.title)} · ${esc(t.game)} · ${st !== "open" ? when(t.start) : L.state === "live" || L.state === "final" ? `<b>${esc(L.score || "–")}</b> ${esc(L.clock || "")}` : "starts " + rel(t.start)}</div></div>
     <div class="right">${right}</div></summary>
   <div class="body">
     <div class="facts">
@@ -352,7 +354,7 @@ function render() {
   <section class="kpis">
     <div class="kpi"><small>Realized P&amp;L</small><b class="${s.pnl > 0 ? "up" : s.pnl < 0 ? "down" : ""}">${sign$(s.pnl)}</b><small>${decided + s.sold} closed</small></div>
     <div class="kpi"><small>Record</small><b>${s.won}–${s.lost}</b><small>win rate ${wr}${s.sold ? ` · ${s.sold} sold early` : ""}</small></div>
-    <div class="kpi"><small>Open</small><b>${s.open}</b><small>${$(D.at_risk)} at risk</small></div>
+    <div class="kpi"><small>Open</small><b>${s.open}</b><small>${$(D.at_risk)} in, worth ${$(D.open_value ?? D.at_risk)} now</small></div>
     <div class="kpi"><small>Cash</small><b>${$(s.cash)}</b><small>${$(D.stake, 0)} per trade</small></div>
   </section>
   <nav class="tabs" role="tablist">

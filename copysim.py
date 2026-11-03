@@ -765,6 +765,29 @@ def verify_open(c, markets, ahead_min):
     c.commit()
     log(f"15-minute check: {checked} open trade(s) starting within {ahead_min} min")
 
+def game_clock(ev):
+    """Polymarket's live game feed: (state, score, clock), state being pre, live or final."""
+    if not ev:
+        return "pre", None, None
+    if ev.get("ended") or ev.get("closed"):
+        return "final", ev.get("score") or None, "Final"
+    if ev.get("live"):
+        clock = " · ".join(str(x) for x in (ev.get("period"), ev.get("elapsed")) if x)
+        return "live", ev.get("score") or None, clock or "Live"
+    return "pre", None, None
+
+def live_marks(c):
+    """Score and current Kalshi value of every open trade, keyed by trade id. Pre-game trades get a value only."""
+    out = {}
+    for tid, slug, tk, side, n in c.execute(
+            "SELECT id, event_slug, kalshi_ticker, kalshi_side, contracts FROM trades WHERE status='open'").fetchall():
+        state, score, clock = game_clock(None if slug.startswith("manual-") else pm_event(slug))
+        km = (get(f"{KAL}/markets/{tk}") or {}).get("market", {})
+        bid = k_price(km, side, "bid") if km else None
+        out[tid] = dict(state=state, score=score, clock=clock, now_price=bid,
+                        now_value=round(n * bid, 2) if bid is not None else None)
+    return out
+
 def write_next_check(c):
     """next_check.json: when the 15-minute check should next run (15 min before the earliest open trade's start)."""
     now, best = NOW(), None
@@ -895,6 +918,7 @@ def note_row(n):
 def dashboard_data(c, s, sk):
     """Everything dashboard_template.html renders, as one JSON-able dict."""
     now = NOW()
+    marks = live_marks(c)
     trades = []
     for r in sorted(s["trades"], key=lambda r: r["ts"], reverse=True):
         snaps, notes = timeline(c, r["event_slug"], r["cond"])
@@ -903,7 +927,8 @@ def dashboard_data(c, s, sk):
                            side=r["kalshi_side"], ticker=r["kalshi_ticker"], cost=r["cost"], fee=r["fee"], pnl=r["pnl"],
                            exit_price=r["exit_price"], exit_reason=r["exit_reason"], closed=r["settled_ts"] or r["exit_ts"],
                            leaders=json.loads(r["leaders"]), lead=r["lead_usd"], opp=r["opp_usd"], avg=r["leader_avg"],
-                           cond=r["cond"], hist=[hist_point(x) for x in reversed(snaps)], notes=[note_row(n) for n in notes]))
+                           cond=r["cond"], hist=[hist_point(x) for x in reversed(snaps)], notes=[note_row(n) for n in notes],
+                           live=marks.get(r["id"])))
     traded = {t["slug"] for t in trades}
     games = []
     since = (now - timedelta(hours=TIMELINE_HOURS)).isoformat()
@@ -930,6 +955,8 @@ def dashboard_data(c, s, sk):
                 start=START_BANKROLL, stake=STAKE_USD,
                 summary={k: s[k] for k in ("cash", "equity", "open", "won", "lost", "sold", "pnl")},
                 at_risk=round(sum(t["cost"] + t["fee"] for t in trades if t["status"] == "open"), 2),
+                open_value=round(sum(t["live"]["now_value"] if t["live"] and t["live"]["now_value"] is not None
+                                     else t["cost"] + t["fee"] for t in trades if t["status"] == "open"), 2),
                 rules=dict(min_wallets=MIN_WALLETS, opp_max=OPP_MAX, hedge=HEDGE_RATIO, slip=MAX_SLIP,
                            min_price=MIN_PRICE, max_price=MAX_PRICE, window=window,
                            lock=LOCK_WINDOW_MIN, plan_lead=PLAN_LEAD_MIN, timeline_hours=TIMELINE_HOURS),
@@ -943,12 +970,14 @@ def write_tracker_files(c, d):
     files = {
         "overview": [dict(updated=d["updated"], mode=d["mode"], start=d["start"], equity=s["equity"], cash=s["cash"],
                           realized_pnl=s["pnl"], won=s["won"], lost=s["lost"], sold=s["sold"], open=s["open"],
-                          at_risk=d["at_risk"], stake=d["stake"], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
+                          at_risk=d["at_risk"], open_value=d["open_value"], stake=d["stake"], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
         "trades": [dict(id=t["id"], entered=t["ts"], starts=t["start"], game=t["game"], market=t["title"], pick=t["pick"],
                         side=(t["side"] or "").upper(), contracts=t["n"], price=t["price"], cost=round(t["cost"] + t["fee"], 2),
                         status=t["status"], pnl=t["pnl"], closed=t["closed"], ticker=t["ticker"],
                         leaders=", ".join(f"{l['name']} {money(l['usd'])}" if l.get("addr") else l["name"] for l in t["leaders"]),
-                        lead_usd=t["lead"], opp_usd=t["opp"], leader_avg=t["avg"], exit_reason=t["exit_reason"])
+                        lead_usd=t["lead"], opp_usd=t["opp"], leader_avg=t["avg"], exit_reason=t["exit_reason"],
+                        **{k: (t["live"] or {}).get(k2) for k, k2 in (("game_state", "state"), ("score", "score"),
+                           ("clock", "clock"), ("now_price", "now_price"), ("now_value", "now_value"))})
                    for t in d["trades"]],
         "games": [dict(key=m["cond"], game=g["game"], starts=g["start"], traded=g["traded"], market=m["title"], pick=m["pick"],
                        wallets=len(m["wallets"]), leaders=", ".join(f"{w['name']} {money(w['usd'])}" for w in m["wallets"]),
@@ -1054,12 +1083,20 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
 
 def verify(c):
     """The 15-minute check on its own: fresh positions, re-check open trades about to start, settle, report.
-    With no open trade starting within VERIFY_AHEAD_MIN it prints 'nothing due' and touches nothing."""
+    With none due but a game in progress it only refreshes scores, settles and reports.
+    With neither it prints 'nothing due' and touches nothing."""
     now = NOW()
     due = [st for (st,) in c.execute("SELECT start_ts FROM trades WHERE status='open' AND pm_outcome_idx IS NOT NULL")
            if now < parse_ts(st) <= now + timedelta(minutes=VERIFY_AHEAD_MIN)]
     if not due:
-        log(f"nothing due: no open trade starts within {VERIFY_AHEAD_MIN} min")
+        started = [st for (st,) in c.execute("SELECT start_ts FROM trades WHERE status='open'") if parse_ts(st) <= now]
+        if not started:
+            log(f"nothing due: no open trade starts within {VERIFY_AHEAD_MIN} min and none is in progress")
+            return
+        _ev_cache.clear(); FAILED.clear()
+        settle(c)
+        write_report(c)
+        log(f"scores refreshed: {len(started)} open trade(s) in progress")
         return
     _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
     refresh_pool(c)

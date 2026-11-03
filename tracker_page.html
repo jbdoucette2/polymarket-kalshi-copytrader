@@ -45,6 +45,17 @@
   .ct-empty { margin: var(--cds-gap-md) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
   .ct-rules { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); color: var(--color-fg-muted); max-width: 75ch; }
   .ct-rules b { color: var(--color-fg); }
+  .ct-live-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: var(--cds-gap-md); }
+  .ct-pos { display: grid; gap: var(--cds-gap-xs); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); background: var(--color-bg); min-width: 0; }
+  .ct-pos .game { font-weight: var(--cds-font-weight-medium); overflow-wrap: anywhere; }
+  .ct-pos .bet { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-pos .score { display: flex; align-items: baseline; gap: var(--cds-gap-sm); }
+  .ct-pos .score b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.1; }
+  .ct-state { font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); }
+  .ct-state.live { color: var(--color-bad); } .ct-state.live::before { content: '●'; margin-right: 4px; }
+  .ct-pos .val { display: flex; justify-content: space-between; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ct-bar { height: 6px; border-radius: 99px; background: var(--color-border-line); overflow: hidden; }
+  .ct-bar span { display: block; height: 100%; background: var(--cds-chart-status-positive, var(--color-ok)); }
   [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
   [data-dash-source-state=empty] { color: transparent; }
   @media (max-width: 640px) { .ct-hide-narrow { display: none; } .ct-feed li { grid-template-columns: 1fr; gap: 0; } }
@@ -62,8 +73,14 @@
   <section class="ct-kpis" id="numbers" aria-label="Headline numbers">
     <div class="ct-card ct-kpi"><span class="lbl">Realized P&amp;L</span><span class="big" data-draw="pnl" data-source="overview" data-field="realized_pnl" data-row="0" data-fetchpriority="high">—</span><span class="sub">from settled and sold trades</span></div>
     <div class="ct-card ct-kpi"><span class="lbl">Record (won–lost)</span><span class="big"><span data-draw="won" data-source="overview" data-field="won" data-row="0">—</span>–<span data-draw="lost" data-source="overview" data-field="lost" data-row="0">—</span></span><span class="sub"><span data-draw="sold" data-source="overview" data-field="sold" data-row="0">—</span> sold early before the start</span></div>
-    <div class="ct-card ct-kpi"><span class="lbl">Open trades</span><span class="big" data-draw="open" data-source="overview" data-field="open" data-row="0">—</span><span class="sub"><span data-draw="atrisk" data-source="overview" data-field="at_risk" data-row="0">—</span> at risk</span></div>
+    <div class="ct-card ct-kpi"><span class="lbl">Open trades</span><span class="big" data-draw="open" data-source="overview" data-field="open" data-row="0">—</span><span class="sub"><span data-draw="atrisk" data-source="overview" data-field="at_risk" data-row="0">—</span> in, worth <span data-draw="openvalue" data-source="overview" data-field="open_value" data-row="0">—</span> now</span></div>
     <div class="ct-card ct-kpi"><span class="lbl">Cash</span><span class="big" data-draw="cash" data-source="overview" data-field="cash" data-row="0">—</span><span class="sub"><span data-draw="stake" data-source="overview" data-field="stake" data-row="0">—</span> per trade</span></div>
+  </section>
+
+  <section class="ct-card" id="live" hidden>
+    <h2>Open positions</h2>
+    <p class="note">Score from Polymarket's game feed and what each trade would sell for on Kalshi right now. Refreshed every 15 minutes while a game is on.</p>
+    <div class="ct-live-grid" data-draw="live" data-source="trades"></div>
   </section>
 
   <section class="ct-card" id="bankroll">
@@ -200,6 +217,7 @@
   fill('sold', 'sold', (v) => String(v));
   fill('open', 'open', (v) => String(v));
   fill('atrisk', 'at_risk', money);
+  fill('openvalue', 'open_value', money);
   fill('cash', 'cash', money);
   fill('stake', 'stake', money);
   fill('window', 'window', (v) => String(v).replace('-', '–'));
@@ -258,6 +276,43 @@
 </script>
 
 <script>
+  dash.draw('live', (grid) => {
+    const U = window.ctUtil;
+    const d = dash.data('trades');
+    const open = d.status === 'ok' ? d.data.filter((r) => r.status === 'open') : [];
+    document.querySelectorAll('#live').forEach((el) => { el.hidden = d.status === 'ok' && !open.length; });
+    grid.replaceChildren();
+    const order = {live: 0, final: 1, pre: 2};
+    open.sort((a, b) => (order[a.game_state] ?? 2) - (order[b.game_state] ?? 2) || (a.starts < b.starts ? -1 : 1)).forEach((r) => {
+      const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+      const card = el('div', 'ct-pos');
+      card.append(el('div', 'game', r.game), el('div', 'bet', r.market + ' → ' + r.pick + ' (' + r.side + ')'));
+      const row = el('div', 'score');
+      const started = new Date(r.starts) <= Date.now();
+      if (r.game_state === 'live' || r.game_state === 'final') {
+        row.append(el('b', null, r.score || '–'), el('span', 'ct-state ' + r.game_state, r.clock || (r.game_state === 'final' ? 'Final' : 'Live')));
+      } else {
+        row.append(el('span', 'ct-state', started ? 'Started ' + U.when(r.starts) + ' · no score yet' : 'Starts ' + U.when(r.starts)));
+      }
+      card.append(row);
+      if (r.now_price != null) {
+        const bar = el('div', 'ct-bar'); const fillEl = el('span');
+        fillEl.style.width = Math.max(0, Math.min(100, r.now_price * 100)) + '%';
+        bar.append(fillEl);
+        bar.setAttribute('role', 'img'); bar.setAttribute('aria-label', 'Kalshi prices this pick at ' + U.cents(r.now_price));
+        const pl = r.now_value - r.cost;
+        const val = el('div', 'val');
+        val.append(el('span', null, 'Kalshi ' + U.cents(r.now_price) + ' (paid ' + U.cents(r.price) + ')'));
+        const v = el('span', pl > 0 ? 'up' : pl < 0 ? 'down' : null, U.money(r.now_value) + ' · ' + U.signed(pl));
+        val.append(v);
+        card.append(bar, val);
+      }
+      grid.append(card);
+    });
+  });
+</script>
+
+<script>
   const U = window.ctUtil;
   dash.draw('trades', (tbody) => {
     const d = dash.data('trades');
@@ -278,7 +333,8 @@
       td(String(r.contracts), 'num ct-hide-narrow');
       td(U.cents(r.price), 'num');
       td(U.money(r.cost), 'num');
-      const p = td(r.pnl == null ? 'open' : U.signed(r.pnl), 'num');
+      const mark = r.pnl == null && r.now_value != null ? r.now_value - r.cost : null;
+      const p = td(r.pnl != null ? U.signed(r.pnl) : mark != null ? 'now ' + U.signed(mark) : 'open', 'num');
       if (r.pnl != null) p.classList.add(r.pnl > 0 ? 'up' : r.pnl < 0 ? 'down' : 'muted'); else p.classList.add('muted');
       td(U.when(r.starts), 'ct-hide-narrow muted');
       td(r.leaders, 'ct-hide-narrow muted');
