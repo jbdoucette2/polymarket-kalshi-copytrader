@@ -45,9 +45,6 @@
   .ct-empty { margin: var(--cds-gap-md) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
   .ct-rules { margin: 0; padding-left: 1.2rem; display: grid; gap: var(--cds-gap-xs); color: var(--color-fg-muted); max-width: 75ch; }
   .ct-rules b { color: var(--color-fg); }
-  .ct-manual { display: grid; gap: var(--cds-gap-md); }
-  .ct-manual .ct-kpis .ct-kpi { padding: 0; }
-  .ct-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
   [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
   [data-dash-source-state=empty] { color: transparent; }
   @media (max-width: 640px) { .ct-hide-narrow { display: none; } .ct-feed li { grid-template-columns: 1fr; gap: 0; } }
@@ -80,7 +77,6 @@
     <button class="ct-tab" role="tab" id="tab-trades" data-tab="trades" aria-selected="true">Trades</button>
     <button class="ct-tab" role="tab" id="tab-nextup" data-tab="nextup" aria-selected="false">Next up</button>
     <button class="ct-tab" role="tab" id="tab-activity" data-tab="activity" aria-selected="false">What changed</button>
-    <button class="ct-tab" role="tab" id="tab-manual" data-tab="manual" aria-selected="false">Manual sim</button>
     <button class="ct-tab" role="tab" id="tab-rules" data-tab="rules" aria-selected="false">How it decides</button>
   </nav>
 
@@ -141,64 +137,6 @@
     <h2>What changed</h2>
     <p class="note">Moves in the vetted money between snapshots, and why a game was skipped.</p>
     <div class="ct-scroll"><ul class="ct-feed" data-draw="feed" data-source="activity"></ul></div>
-  </section>
-
-  <section class="ct-manual" id="manual" data-panel="manual" hidden>
-    <div class="ct-card">
-      <h2>Manual sim, Oct 29 to Nov 2</h2>
-      <p class="note">The hand-run sim before the automated one: a separate $100 book, flat $10 per trade at Kalshi's ask. It isn't part of the bankroll above.</p>
-      <div class="ct-kpis">
-        <div class="ct-kpi"><span class="lbl">Bankroll</span><span class="big" data-draw="m-bank" data-source="manual_summary" data-field="bankroll" data-row="0">—</span><span class="sub">from a $100 start, open trades at cost</span></div>
-        <div class="ct-kpi"><span class="lbl">Realized P&amp;L</span><span class="big" data-draw="m-pnl" data-source="manual_summary" data-field="pnl" data-row="0">—</span><span class="sub">settled and sold trades</span></div>
-        <div class="ct-kpi"><span class="lbl">Record (won–lost)</span><span class="big"><span data-draw="m-won" data-source="manual_summary" data-field="won" data-row="0">—</span>–<span data-draw="m-lost" data-source="manual_summary" data-field="lost" data-row="0">—</span></span><span class="sub"><span data-draw="m-sold" data-source="manual_summary" data-field="sold" data-row="0">—</span> sold early, <span data-draw="m-open" data-source="manual_summary" data-field="open" data-row="0">—</span> open</span></div>
-        <div class="ct-kpi"><span class="lbl">Cash</span><span class="big" data-draw="m-cash" data-source="manual_summary" data-field="cash" data-row="0">—</span><span class="sub">bankroll less open trades</span></div>
-      </div>
-    </div>
-    <div class="ct-pair">
-      <div class="ct-card">
-        <h2>Agreement vs. one wallet</h2>
-        <p class="note">Consensus is 2+ vetted wallets on the same side; single is one wallet alone, dropped from the rules on Nov 1.</p>
-        <table class="ct-table" data-source="manual_signals" data-row-key="signal">
-          <thead><tr><th data-field="signal">Signal</th><th data-field="won" class="num">Won</th><th data-field="lost" class="num">Lost</th><th data-field="sold" class="num">Sold</th><th data-field="open" class="num">Open</th><th data-field="pnl" class="num">P&amp;L</th></tr></thead>
-          <tbody data-draw="m-signals"></tbody>
-        </table>
-      </div>
-      <div class="ct-card">
-        <h2>Notes on this book</h2>
-        <ul class="ct-rules">
-          <li>Flat $10 per trade at Kalshi's live ask; fees use Kalshi's taker formula.</li>
-          <li>Rules changed along the way: the 10% opposition rule was added Oct 30 at 4:32 PM PT, the last-hour lock-in started Oct 30, and single-wallet picks were dropped Nov 1.</li>
-          <li>Fiorentina and Deportivo were backfilled after missed lock-ins. Newcastle was not, since its main backer may have exited before lock-in.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="ct-card">
-      <h2>Realized bankroll</h2>
-      <p class="note">$100 plus each trade's profit or loss as it settled or sold.</p>
-      <div class="ct-chart" data-draw="m-curve" data-source="manual_curve"></div>
-    </div>
-    <div class="ct-card">
-      <h2>Manual trades</h2>
-      <p class="note">All of them, newest first.</p>
-      <div class="ct-scroll">
-        <table class="ct-table" data-source="manual_trades" data-row-key="id">
-          <thead><tr>
-            <th data-field="status">Status</th>
-            <th data-field="signal" class="ct-hide-narrow">Signal</th>
-            <th data-field="pick">Pick</th>
-            <th data-field="market" class="ct-hide-narrow">Market</th>
-            <th data-field="side">Side</th>
-            <th data-field="price" class="num">Price</th>
-            <th data-field="cost" class="num ct-hide-narrow">Cost</th>
-            <th data-field="pnl" class="num">P&amp;L</th>
-            <th data-field="starts" class="ct-hide-narrow">Started</th>
-            <th data-field="leaders" class="ct-hide-narrow">Leaders</th>
-            <th data-field="exit_reason" class="ct-hide-narrow">Note</th>
-          </tr></thead>
-          <tbody data-draw="m-trades"></tbody>
-        </table>
-      </div>
-    </div>
   </section>
 
   <section class="ct-card" id="rules" data-panel="rules" hidden>
@@ -429,7 +367,7 @@
   };
   document.querySelectorAll('.ct-tab').forEach((t) => t.addEventListener('click', () => show(t.dataset.tab)));
   const named = location.hash.slice(1);
-  if (['trades', 'nextup', 'activity', 'manual', 'rules'].includes(named)) show(named);
+  if (['trades', 'nextup', 'activity', 'rules'].includes(named)) show(named);
   dash.onData(() => {
     const panel = document.querySelector('#nextup');
     const d = panel && !panel.hidden ? dash.data('games') : null;
@@ -437,90 +375,3 @@
   });
 </script>
 
-<script>
-  const M = window.ctUtil;
-  dash.calc('manual_summary', {
-    title: 'Manual sim totals',
-    description: 'Record, realized P&L, bankroll and cash from the manual trades, on a $100 start.',
-    inputs: ['manual_trades'],
-    fn: (manual_trades) => {
-      const pnl = manual_trades.reduce((a, t) => a + (t.pnl == null ? 0 : Number(t.pnl)), 0);
-      const openCost = manual_trades.filter((t) => t.status === 'open').reduce((a, t) => a + Number(t.cost), 0);
-      const n = (s) => manual_trades.filter((t) => t.status === s).length;
-      const r2 = (x) => Math.round(x * 100) / 100;
-      return [{pnl: r2(pnl), bankroll: r2(100 + pnl), cash: r2(100 + pnl - openCost), won: n('won'), lost: n('lost'), sold: n('sold'), open: n('open')}];
-    },
-  });
-  dash.calc('manual_signals', {
-    title: 'Manual sim by signal',
-    description: 'Won, lost, sold, open and P&L for consensus (2+ wallets) and single-wallet picks.',
-    inputs: ['manual_trades'],
-    fn: (manual_trades) => ['consensus', 'single'].map((signal) => {
-      const xs = manual_trades.filter((t) => t.signal === signal);
-      const n = (s) => xs.filter((t) => t.status === s).length;
-      return {signal, won: n('won'), lost: n('lost'), sold: n('sold'), open: n('open'),
-              pnl: Math.round(xs.reduce((a, t) => a + (t.pnl == null ? 0 : Number(t.pnl)), 0) * 100) / 100};
-    }),
-  });
-  dash.calc('manual_curve', {
-    title: 'Manual sim bankroll over time',
-    description: '$100 plus each closed manual trade’s profit or loss, in the order they closed.',
-    inputs: ['manual_trades'],
-    fn: (manual_trades) => {
-      const closed = manual_trades.filter((t) => t.closed && t.pnl != null).sort((a, b) => (a.closed < b.closed ? -1 : 1));
-      let bank = 100;
-      const first = manual_trades.map((t) => t.entered).sort()[0];
-      return [{at: first, bankroll: 100}, ...closed.map((t) => ({at: t.closed, bankroll: Math.round((bank += Number(t.pnl)) * 100) / 100}))];
-    },
-  });
-  const mval = (field) => { const d = dash.data('manual_summary'); return d.status === 'ok' && d.data[0] ? d.data[0][field] : null; };
-  const mfill = (name, field, fmt, cls) => dash.draw(name, (el) => {
-    const v = mval(field);
-    el.textContent = v == null ? '—' : fmt(v);
-    if (cls) { el.classList.toggle('up', v > 0); el.classList.toggle('down', v < 0); }
-  });
-  mfill('m-bank', 'bankroll', M.money);
-  mfill('m-pnl', 'pnl', M.signed, true);
-  mfill('m-won', 'won', String);
-  mfill('m-lost', 'lost', String);
-  mfill('m-sold', 'sold', String);
-  mfill('m-open', 'open', String);
-  mfill('m-cash', 'cash', M.money);
-  dash.draw('m-curve', (el) => window.ctCurve(el, 'manual_curve'));
-  dash.draw('m-signals', (tbody) => {
-    const d = dash.data('manual_signals');
-    tbody.replaceChildren();
-    (d.status === 'ok' ? d.data : []).forEach((r) => {
-      const tr = document.createElement('tr');
-      tr.dataset.key = r.signal;
-      const td = (text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = text; tr.append(c); return c; };
-      td(r.signal);
-      td(String(r.won), 'num'); td(String(r.lost), 'num'); td(String(r.sold), 'num'); td(String(r.open), 'num');
-      const p = td(M.signed(r.pnl), 'num'); p.classList.add(r.pnl > 0 ? 'up' : r.pnl < 0 ? 'down' : 'muted');
-      tbody.append(tr);
-    });
-  });
-  dash.draw('m-trades', (tbody) => {
-    const d = dash.data('manual_trades');
-    tbody.replaceChildren();
-    (d.status === 'ok' ? d.data.slice() : []).sort((a, b) => (a.entered < b.entered ? 1 : -1)).forEach((r) => {
-      const tr = document.createElement('tr');
-      tr.dataset.key = r.id;
-      const td = (text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = text; tr.append(c); return c; };
-      const st = td('');
-      const pill = document.createElement('span'); pill.className = 'ct-pill ' + r.status; pill.textContent = r.status; st.append(pill);
-      td(r.signal, 'ct-hide-narrow muted');
-      td(r.pick);
-      td(r.market, 'ct-hide-narrow muted');
-      td(r.side);
-      td(M.cents(r.price), 'num');
-      td(M.money(r.cost), 'num ct-hide-narrow');
-      const p = td(r.pnl == null ? 'open' : M.signed(r.pnl), 'num');
-      p.classList.add(r.pnl == null ? 'muted' : r.pnl > 0 ? 'up' : r.pnl < 0 ? 'down' : 'muted');
-      td(M.when(r.starts), 'ct-hide-narrow muted');
-      td(r.leaders, 'ct-hide-narrow muted');
-      td(r.exit_reason || '', 'ct-hide-narrow muted');
-      tbody.append(tr);
-    });
-  });
-</script>

@@ -772,7 +772,7 @@ def write_report(c):
              "| Entered | Game | Pick | Leaders | Kalshi | Status | P&L |", "| --- | --- | --- | --- | --- | --- | --- |"]
     for r in sorted(s["trades"], key=lambda r: r["ts"], reverse=True):
         L = json.loads(r["leaders"])
-        lead = ", ".join(f"[{l['name']}](https://polymarket.com/profile/{l['addr']})" for l in L)
+        lead = ", ".join(f"[{l['name']}](https://polymarket.com/profile/{l['addr']})" if l.get("addr") else l["name"] for l in L)
         lines.append(f"| {local(r['ts'])} | [{r['game']}](https://polymarket.com/event/{r['event_slug']}) | "
                      f"{r['title']} → {r['pick']} | {lead} (${r['lead_usd']:,.0f}) | "
                      f"{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()} `{r['kalshi_ticker']}` | "
@@ -891,7 +891,7 @@ def write_tracker_files(c, d):
         "trades": [dict(id=t["id"], entered=t["ts"], starts=t["start"], game=t["game"], market=t["title"], pick=t["pick"],
                         side=(t["side"] or "").upper(), contracts=t["n"], price=t["price"], cost=round(t["cost"] + t["fee"], 2),
                         status=t["status"], pnl=t["pnl"], closed=t["closed"], ticker=t["ticker"],
-                        leaders=", ".join(f"{l['name']} {money(l['usd'])}" for l in t["leaders"]),
+                        leaders=", ".join(f"{l['name']} {money(l['usd'])}" if l.get("addr") else l["name"] for l in t["leaders"]),
                         lead_usd=t["lead"], opp_usd=t["opp"], leader_avg=t["avg"], exit_reason=t["exit_reason"])
                    for t in d["trades"]],
         "games": [dict(key=m["cond"], game=g["game"], starts=g["start"], traded=g["traded"], market=m["title"], pick=m["pick"],
@@ -920,6 +920,38 @@ def write_dashboard(c, s, sk):
     with open(DASH + ".tmp", "w", encoding="utf-8") as f:
         f.write(page)
     os.replace(DASH + ".tmp", DASH)
+
+def import_manual(c, path):
+    """Add a hand-run sim's trades (history/manual_sim.json) to this book, each once, and move cash to match."""
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    added = 0
+    for t in d["trades"]:
+        oid = "manual:" + t["id"]
+        if c.execute("SELECT 1 FROM trades WHERE order_id=?", (oid,)).fetchone():
+            continue
+        n, price, status = int(t["contracts"]), float(t["price"]), t["status"]
+        cost = round(n * price, 2)
+        fee = round(float(t["cost"]) - cost, 2)   # the log's cost includes the entry fee
+        exit_price = exit_fee = None
+        if status == "sold":
+            m = re.search(r"at (\d+)¢.*fee \$([\d.]+)", t.get("exit_reason") or "")
+            exit_price, exit_fee = (int(m.group(1)) / 100, float(m.group(2))) if m else (None, None)
+        iso = lambda s: parse_ts(s).isoformat() if s else None
+        won = status == "won"
+        c.execute("""INSERT INTO trades(ts,game,event_slug,cond,title,pick,pm_outcome_idx,start_ts,leaders,lead_usd,opp_usd,
+            leader_avg,kalshi_ticker,kalshi_side,price,contracts,cost,fee,status,exit_price,exit_fee,exit_ts,exit_reason,
+            result,pnl,settled_ts,mode,order_id) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (iso(t["entered"]), t["game"], "manual-" + t["id"], oid, t["market"], t["pick"], None, iso(t["starts"]),
+             json.dumps([dict(name=t["leaders"], addr="", avg=t["leader_avg"], usd=t["lead_usd"])]),
+             t["lead_usd"], t["opp_usd"], t["leader_avg"], t["ticker"], t["side"].lower(), price, n, cost, fee, status,
+             exit_price, exit_fee, iso(t["closed"]) if status == "sold" else None, t.get("exit_reason"),
+             (t["side"].lower() if won else {"YES": "no", "NO": "yes"}[t["side"]]) if status in ("won", "lost") else None,
+             t["pnl"], iso(t["closed"]) if status in ("won", "lost") else None, "paper", oid))
+        cash(c, t["pnl"] if t["pnl"] is not None else -float(t["cost"]))
+        added += 1
+    c.commit()
+    log(f"imported {added} manual trade(s) from {path}; cash now ${cash(c):.2f}")
 
 def report(c):
     s = summary(c)
@@ -966,6 +998,8 @@ def main():
     c = db()
     if "report" in sys.argv:
         return report(c)
+    if "import-manual" in sys.argv:
+        return import_manual(c, sys.argv[sys.argv.index("import-manual") + 1])
     if "check-keys" in sys.argv:
         from kalshi_client import KalshiClient
         k = KalshiClient()

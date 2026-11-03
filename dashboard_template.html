@@ -256,7 +256,7 @@ function tradeCard(t) {
     <div class="section"><h3>Who's behind it · ${t.leaders.length} wallets, ${k$(t.lead)} vs ${k$(t.opp)} against</h3>${walletBars(t.leaders)}</div>
     ${t.hist.length ? `<div class="section"><h3>How the money moved before the decision</h3>${moneyChart(t.hist)}</div>` : ""}
     <div class="section"><h3>What changed</h3>${notesList(t.notes)}</div>
-    <div class="links"><a href="https://polymarket.com/event/${esc(t.slug)}" target="_blank" rel="noopener">Polymarket event ↗</a>
+    <div class="links">${t.slug.startsWith("manual-") ? `<span class="f">Logged by hand</span>` : `<a href="https://polymarket.com/event/${esc(t.slug)}" target="_blank" rel="noopener">Polymarket event ↗</a>`}
       <a href="https://kalshi.com/markets/${esc((t.ticker || "").split("-")[0].toLowerCase())}" target="_blank" rel="noopener">Kalshi series ↗</a>
       <span class="f">${esc(t.ticker)}</span></div>
   </div></details>`;
