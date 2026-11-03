@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 1:18 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 1:41 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -26,6 +26,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 1:41 PM | pregame | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $266, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 1:18 PM | pregame | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $266, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 1:16 PM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $266, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 12:17 PM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $268, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
@@ -45,6 +46,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 1:41 PM | pregame | Taranto: Raul Brancaccio vs Kilian Feldbausch → Kilian Feldbausch | omnibus-076daa $77, Flaznorp $47 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 1:18 PM | pregame | Taranto: Raul Brancaccio vs Kilian Feldbausch → Kilian Feldbausch | omnibus-076daa $78, Flaznorp $47 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 1:16 PM | hourly | Taranto: Raul Brancaccio vs Kilian Feldbausch → Kilian Feldbausch | omnibus-076daa $78, Flaznorp $48 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 12:17 PM | hourly | Taranto: Raul Brancaccio vs Kilian Feldbausch → Kilian Feldbausch | omnibus-076daa $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -3580,6 +3582,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 1:41 PM | Bratislava 2: Laslo Djere vs Edas Butvilas | Bratislava 2: Laslo Djere vs Edas Butvilas → Laslo Djere | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 1:41 PM | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot → Novak Djokovic | only 1 vetted wallet; opposition 79%; no Kalshi game found |
 | Tue Nov 3, 1:18 PM | M15 Pembroke: Mitchell Dobek vs Tariq Simons | M15 Pembroke: Mitchell Dobek vs Tariq Simons → Tariq Simons | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 1:18 PM | M15 Salvador: Enzo Crevelaro vs Vitor Machado De Melo Cunha | M15 Salvador: Enzo Crevelaro vs Vitor Machado De Melo Cunha → Vitor Machado De Melo Cunha | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 1:18 PM | Rolex Paris Masters: Tommy Paul vs Holger Rune | Rolex Paris Masters: Tommy Paul vs Holger Rune → Tommy Paul | only 1 vetted wallet; no Kalshi game found |
@@ -3608,5 +3612,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:41 AM | Port FC vs. Beijing Guoan | Will Beijing Guoan win on 2026-11-03? → No | no Kalshi game found |
 | Tue Nov 3, 11:16 AM | M25 Heraklion: Michel Hopp vs Cezar Cretu | M25 Heraklion: Michel Hopp vs Cezar Cretu → Cezar Cretu | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 11:16 AM | Another US government shutdown & House Winner 2026? | Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:16 AM | ACA credits extended & House Winner 2026? | Will ACA premium tax credits not be extended and will the Democratic Party win the House in 2026? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:16 AM | Republican House seats after the 2026 midterm elections? | Will the Republican Party hold between 190 and 194 House seats after the 2026 midterm elections? → No | only 1 vetted wallet; no Kalshi game found |
