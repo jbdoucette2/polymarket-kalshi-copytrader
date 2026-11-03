@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 3:18 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 3:42 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -3882,6 +3882,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 3:42 PM | Rolex Paris Masters: Benjamin Bonzi vs Taylor Fritz | Rolex Paris Masters: Benjamin Bonzi vs Taylor Fritz → Taylor Fritz | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 3:42 PM | Parma Perm vs. BC Samara | Parma Perm vs. BC Samara → Parma Perm | only 1 vetted wallet; Polymarket price 100¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 3:42 PM | Esteghlal FC Tehran vs. Al-Shamal - More Markets | Esteghlal FC Tehran vs. Al-Shamal: 1st Half O/U 1.5 → Over | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 3:42 PM | Al Hussein Irbid vs. Al Shorta SC - More Markets | Spread: Al Hussein Irbid (-1.5) → Al Shorta SC | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 3:18 PM | Bratislava 2: Giovanni Mpetshi Perricard vs Martin Krumich | Bratislava 2: Giovanni Mpetshi Perricard vs Martin Krumich → Martin Krumich | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 3:18 PM | Cali: Jazmin Ortenzi vs Elizabeth Mandlik | Cali: Jazmin Ortenzi vs Elizabeth Mandlik → Jazmin Ortenzi | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 3:18 PM | Parma Perm vs. BC Samara | Parma Perm vs. BC Samara → Parma Perm | only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
@@ -3908,7 +3912,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 1:18 PM | Taranto: Florent Bax vs Gianluca Cadenasso | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | no Kalshi game found |
 | Tue Nov 3, 1:18 PM | Counter-Strike: Rebels Gaming vs maybe (BO3) - ESL Challenger League Europe Cup #10 Group C | Counter-Strike: Rebels Gaming vs maybe (BO3) - ESL Challenger League Europe Cup #10 Group C → Rebels Gaming | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 1:18 PM | Taranto: Raul Brancaccio vs Kilian Feldbausch | Taranto: Raul Brancaccio vs Kilian Feldbausch → Kilian Feldbausch | no Kalshi game found |
-| Tue Nov 3, 1:18 PM | East Bengal FC vs. Al-Seeb | Will East Bengal FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:18 PM | East Bengal FC vs. Al-Seeb - More Markets | East Bengal FC vs. Al-Seeb: O/U 2.5 → Over | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:18 PM | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot | Rolex Paris Masters: Novak Djokovic vs Valentin Vacherot → Novak Djokovic | only 1 vetted wallet; opposition 83%; no Kalshi game found |
-| Tue Nov 3, 1:18 PM | Taranto: Sumit Nagal vs Georgii Kravchenko | Taranto: Sumit Nagal vs Georgii Kravchenko → Georgii Kravchenko | only 1 vetted wallet; no Kalshi game found |
