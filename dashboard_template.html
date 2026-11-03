@@ -326,7 +326,7 @@ function view() {
   const r = D.rules;
   const rules = [
     ["Follow proven bettors", `Only wallets in the top 100 of Polymarket's sports leaderboard this month <b>and</b> the top 200 all-time count as "vetted".`],
-    ["Need agreement", `At least <b>${r.min_wallets}</b> vetted wallets on the same side. A wallet holding both sides (smaller side over ${Math.round(r.hedge * 100)}%) is a hedge and doesn't count.`],
+    ["Need agreement", `At least <b>${r.min_points ?? r.min_wallets}</b> vetted wallets on the same side${r.big_money ? `, or <b>${r.min_wallets}</b> with <b>$${Math.round(r.big_money).toLocaleString()}</b>+ between them` : ''}. A wallet holding both sides (smaller side over ${Math.round(r.hedge * 100)}%) is a hedge and doesn't count.`],
     ["Little pushback", `Vetted money on the other side must be under <b>${Math.round(r.opp_max * 100)}%</b> of the money on the pick.`],
     ["Fair price", `Kalshi's price must be within <b>${Math.round(r.slip * 100)}¢</b> of what the leaders paid, same line only, and the Polymarket price between ${Math.round(r.min_price * 100)}¢ and ${Math.round(r.max_price * 100)}¢.`],
     ["Decide late", `Every hour it snapshots games in the next 24 h. The trade decision happens ${r.window[0]}–${r.window[1]} minutes before the start: one trade per game, the passing market with the most leader money.`],

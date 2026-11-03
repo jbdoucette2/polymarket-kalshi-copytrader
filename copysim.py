@@ -3,7 +3,7 @@ copysim.py v3 - copy vetted Polymarket sports wallets onto Kalshi. Paper by defa
 
 Rules (match the manual sim):
   * Vetted wallets: top 100 on Polymarket's SPORTS leaderboard this month AND top 200 all-time.
-  * Trade only when 2+ vetted wallets hold the same side and vetted money on the other
+  * Trade only when 3+ vetted wallets hold the same side (or 2 with $5k+ between them) and vetted money on the other
     side is under 10% of theirs. Hedged wallets (both sides, smaller > 20%) don't count.
   * Enter only in about the last hour before the game starts (LOCK_WINDOW_MIN).
   * Kalshi price must be within 3c of the leaders' average entry. Same line only.
@@ -45,8 +45,10 @@ LIVE_ACK        = os.environ.get("COPYSIM_LIVE_ACK", "").lower() == "yes"
 LIVE_MAX_PER_TRADE = float(os.environ.get("LIVE_MAX_PER_TRADE", 10))   # $ cap per order
 LIVE_MAX_DAILY     = float(os.environ.get("LIVE_MAX_DAILY", 50))       # $ cap on new buys per day
 LIVE_MAX_OPEN      = int(os.environ.get("LIVE_MAX_OPEN", 10))          # max open positions
-MIN_WALLETS     = 2
-OPP_MAX         = 0.10      # opposing vetted money must be under 10% of the agreeing side
+MIN_WALLETS     = 2         # never fewer than this many vetted wallets on the pick
+MIN_POINTS      = 3         # conviction needed: 1 point per vetted wallet, +1 when their money reaches BIG_MONEY_USD
+BIG_MONEY_USD   = 5000      # so 3+ wallets pass, and 2 wallets pass with $5k+ between them (backtest, Nov 2-3)
+OPP_MAX        = 0.10      # opposing vetted money must be under 10% of the agreeing side
 HEDGE_RATIO     = 0.20
 MAX_SLIP        = 0.03
 MIN_PRICE, MAX_PRICE = 0.05, 0.95
@@ -475,6 +477,14 @@ def entry_blocked(c, need):
     return None
 
 # ---------------- rules ----------------
+def conviction(n, usd):
+    """Points for n vetted wallets holding usd on one side, and why it falls short (None if it passes)."""
+    pts = n + (usd >= BIG_MONEY_USD)
+    if n >= MIN_WALLETS and pts >= MIN_POINTS:
+        return pts, None
+    return pts, (f"only {n} vetted wallet{'' if n == 1 else 's'} with {money(usd)} "
+                 f"(needs {MIN_POINTS}+ wallets, or {MIN_WALLETS} with {money(BIG_MONEY_USD)}+)")
+
 def evaluate(c, markets, lo_min, hi_min):
     """Every vetted-wallet market whose game starts lo_min..hi_min minutes from now, checked against every
     rule except timing (the window is the timing). Each candidate lists all the rules it fails."""
@@ -501,8 +511,9 @@ def evaluate(c, markets, lo_min, hi_min):
         outs = json.loads(mk["outcomes"]) if isinstance(mk["outcomes"], str) else mk["outcomes"]
         prices = json.loads(mk["outcomePrices"]) if isinstance(mk.get("outcomePrices"), str) else mk.get("outcomePrices")
         fails = []
-        if len(lead) < MIN_WALLETS:
-            fails.append(f"only {len(lead)} vetted wallet{'' if len(lead) == 1 else 's'}")
+        short = conviction(len(lead), lead_usd)[1]
+        if short:
+            fails.append(short)
         if opp > OPP_MAX * lead_usd:
             fails.append(f"opposition {opp / lead_usd:.0%}" if lead_usd else "no money on the leading side")
         price = float(prices[main]) if prices else 0
@@ -735,7 +746,7 @@ def sell_open(c, tid, tk, side, n, cost, fee, reason):
 
 def verify_open(c, markets, ahead_min):
     """The 15-minute check: every open trade whose game starts within ahead_min must still pass the candidate
-    rules (2+ vetted wallets on the pick, opposition under OPP_MAX). One that fails is sold; price isn't re-checked."""
+    rules (conviction(): 3+ vetted wallets, or 2 with BIG_MONEY_USD+; opposition under OPP_MAX). One that fails is sold; price isn't re-checked."""
     now, ts = NOW(), NOW().isoformat(timespec="seconds")
     checked = 0
     for tid, game, slug, cond, title, pick, idx, tk, side, n, cost, fee, st in c.execute(
@@ -749,8 +760,9 @@ def verify_open(c, markets, ahead_min):
         ours_usd = sum(l["usd"] for l in ours)
         opp = sum(l["usd"] for k, v in sides.items() if k != idx for l in v)
         fails = []
-        if len(ours) < MIN_WALLETS:
-            fails.append(f"only {len(ours)} vetted wallet{'' if len(ours) == 1 else 's'} left on {pick}")
+        short = conviction(len(ours), ours_usd)[1]
+        if short:
+            fails.append(f"{pick} has {short}" if len(ours) else f"no vetted wallets left on {pick}")
         if opp > OPP_MAX * ours_usd:
             fails.append(f"opposition {opp / ours_usd:.0%}" if ours_usd else "no vetted money left on the pick")
         summary = f"{len(ours)} wallets, {money(ours_usd)} for vs {money(opp)} against"
@@ -1009,7 +1021,7 @@ def dashboard_data(c, s, sk):
                 at_risk=round(sum(t["cost"] + t["fee"] for t in trades if t["status"] == "open"), 2),
                 open_value=round(sum(t["live"]["now_value"] if t["live"] and t["live"]["now_value"] is not None
                                      else t["cost"] + t["fee"] for t in trades if t["status"] == "open"), 2),
-                rules=dict(min_wallets=MIN_WALLETS, opp_max=OPP_MAX, hedge=HEDGE_RATIO, slip=MAX_SLIP,
+                rules=dict(min_wallets=MIN_WALLETS, min_points=MIN_POINTS, big_money=BIG_MONEY_USD, opp_max=OPP_MAX, hedge=HEDGE_RATIO, slip=MAX_SLIP,
                            min_price=MIN_PRICE, max_price=MAX_PRICE, window=window,
                            lock=LOCK_WINDOW_MIN, plan_lead=PLAN_LEAD_MIN, timeline_hours=TIMELINE_HOURS),
                 trades=trades, games=games, curve=curve,

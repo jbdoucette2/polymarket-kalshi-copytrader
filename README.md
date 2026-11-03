@@ -9,11 +9,11 @@ on Kalshi and only turns on when you explicitly enable it.
 | Rule | Setting |
 | --- | --- |
 | Vetted wallets | Top 100 on Polymarket's sports leaderboard this month **and** top 200 all-time |
-| Signal | 2+ vetted wallets on the same side (`MIN_WALLETS`) |
+| Signal | 3+ vetted wallets on the same side, or 2 with $5k+ between them: one point per wallet, one more at $5k, 3 points needed (`MIN_POINTS`, `BIG_MONEY_USD`, `MIN_WALLETS`) |
 | Opposition | Vetted money on the other side must be under 10% of theirs (`OPP_MAX`) |
 | Hedges | A wallet holding both sides (smaller side > 20%) doesn't count |
 | Timing | The hourly run enters games starting 5 to 65 minutes out (`--window 5-65`, inside `LOCK_WINDOW_MIN`) |
-| Last-minute check | Every 15 minutes, open trades starting within 20 minutes must still have 2+ wallets and opposition under 10%, or they're sold (`verify`) |
+| Last-minute check | Every 15 minutes, open trades starting within 20 minutes must still pass the signal rule and have opposition under 10%, or they're sold (`verify`) |
 | Price | Kalshi must be within 3¢ of the leaders' average entry (`MAX_SLIP`), same line only |
 | Size | One trade per game, flat $10 (`COPYSIM_STAKE`) |
 | Exits | If the leaders sell or flip before the start, sell; otherwise hold to settlement |
