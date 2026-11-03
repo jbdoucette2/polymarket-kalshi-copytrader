@@ -776,12 +776,64 @@ def game_clock(ev):
         return "live", ev.get("score") or None, clock or "Live"
     return "pre", None, None
 
+ESPN = "https://site.api.espn.com/apis/site/v2/sports"
+ESPN_LEAGUES = {   # Polymarket slug prefix -> ESPN scoreboard; leagues missing here use Polymarket's own feed
+    "nba": "basketball/nba", "nfl": "football/nfl", "nhl": "hockey/nhl", "cfb": "football/college-football",
+    "cbb": "basketball/mens-college-basketball", "wnba": "basketball/wnba", "mlb": "baseball/mlb",
+    "ucl": "soccer/uefa.champions", "uel": "soccer/uefa.europa", "epl": "soccer/eng.1", "elc": "soccer/eng.2",
+    "el1": "soccer/eng.3", "lal": "soccer/esp.1", "bun": "soccer/ger.1", "sea": "soccer/ita.1", "fl1": "soccer/fra.1",
+    "mls": "soccer/usa.1", "bra": "soccer/bra.1", "col1": "soccer/col.1", "per1": "soccer/per.1", "ecu1": "soccer/ecu.1",
+    "bel1": "soccer/bel.1", "acle": "soccer/afc.champions",
+}
+_espn_cache = {}
+_NAME_FILLER = {"fc", "cf", "sk", "ac", "as", "afc", "sc", "fk", "cd", "club", "the", "of", "de", "st", "state", "university"}
+
+def _name_tokens(s):
+    return {w for w in re.findall(r"[a-z0-9]+", (s or "").lower()) if len(w) > 2 and w not in _NAME_FILLER}
+
+def espn_clock(slug, game, start):
+    """(state, score, clock) from ESPN's scoreboard, score in the order of Polymarket's title, or None if
+    the league isn't mapped, ESPN is unreachable, or no game matches both team names within 3 hours of start."""
+    league = ESPN_LEAGUES.get(slug.split("-")[0])
+    sides = game.split(" vs. ")
+    if not league or len(sides) != 2 or not start:
+        return None
+    day = (start - timedelta(hours=5)).strftime("%Y%m%d")   # ESPN's scoreboard days are US Eastern
+    key = (league, day)
+    if key not in _espn_cache:
+        extra = dict(groups=50, limit=500) if league.endswith("college-basketball") or league.endswith("college-football") else {}
+        _espn_cache[key] = (get(f"{ESPN}/{league}/scoreboard", dates=day, **extra) or {}).get("events", [])
+    want = [_name_tokens(s) for s in sides]
+    best = None
+    for ev in _espn_cache[key]:
+        st = parse_ts(ev.get("date"))
+        if not st or abs((st - start).total_seconds()) > 3 * 3600:
+            continue
+        comps = (ev.get("competitions") or [{}])[0].get("competitors", [])
+        if len(comps) != 2:
+            continue
+        names = [_name_tokens(" ".join(str(t.get(k, "")) for k in ("displayName", "shortDisplayName", "name", "location")))
+                 for t in (x.get("team", {}) for x in comps)]
+        for order in ((0, 1), (1, 0)):
+            hits = [len(want[i] & names[j]) for i, j in zip((0, 1), order)]
+            if min(hits) and (best is None or sum(hits) > best[0]):
+                best = (sum(hits), ev, [comps[j] for j in order])
+    if not best:
+        return None
+    _, ev, ordered = best
+    status = ev.get("status", {}).get("type", {})
+    state = {"in": "live", "post": "final"}.get(status.get("state"), "pre")
+    score = "-".join(str(x.get("score", "")) for x in ordered) if state != "pre" else None
+    return state, score, status.get("shortDetail") or status.get("detail")
+
 def live_marks(c):
     """Score and current Kalshi value of every open trade, keyed by trade id. Pre-game trades get a value only."""
     out = {}
-    for tid, slug, tk, side, n in c.execute(
-            "SELECT id, event_slug, kalshi_ticker, kalshi_side, contracts FROM trades WHERE status='open'").fetchall():
-        state, score, clock = game_clock(None if slug.startswith("manual-") else pm_event(slug))
+    for tid, slug, game, st, tk, side, n in c.execute("SELECT id, event_slug, game, start_ts, kalshi_ticker, kalshi_side, "
+                                                       "contracts FROM trades WHERE status='open'").fetchall():
+        manual = slug.startswith("manual-")
+        state, score, clock = (None if manual else espn_clock(slug, game, parse_ts(st))) \
+            or game_clock(None if manual else pm_event(slug))
         km = (get(f"{KAL}/markets/{tk}") or {}).get("market", {})
         bid = k_price(km, side, "bid") if km else None
         out[tid] = dict(state=state, score=score, clock=clock, now_price=bid,
@@ -1050,7 +1102,7 @@ def report(c):
 def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
     """One pull of positions, then exits, the hourly snapshot + plan and/or the pre-game decision, and settlement.
     Only the pre-game decision opens trades."""
-    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
+    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
     refresh_pool(c)
     markets = consensus(c)
     if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
@@ -1093,12 +1145,12 @@ def verify(c):
         if not started:
             log(f"nothing due: no open trade starts within {VERIFY_AHEAD_MIN} min and none is in progress")
             return
-        _ev_cache.clear(); FAILED.clear()
+        _ev_cache.clear(); _espn_cache.clear(); FAILED.clear()
         settle(c)
         write_report(c)
         log(f"scores refreshed: {len(started)} open trade(s) in progress")
         return
-    _ev_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
+    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
     refresh_pool(c)
     markets = consensus(c)
     if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
