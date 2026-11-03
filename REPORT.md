@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 12:20 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 12:43 PM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -26,6 +26,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 12:43 PM | pregame | Counter-Strike: MIBR fe vs Rush (BO3) - CCT South America Group Stage → Rush | Flaznorp $1.4k, omnibus-076daa $62 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 12:20 PM | pregame | Counter-Strike: MIBR fe vs Rush (BO3) - CCT South America Group Stage → Rush | Flaznorp $1.4k, omnibus-076daa $63 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 12:17 PM | hourly | Counter-Strike: MIBR fe vs Rush (BO3) - CCT South America Group Stage → Rush | Flaznorp $1.4k, omnibus-076daa $63 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 11:15 AM | hourly | Counter-Strike: MIBR fe vs Rush (BO3) - CCT South America Group Stage → Rush | Flaznorp $1.4k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -3349,6 +3350,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 12:43 PM | Dota 2: Xipto Esports vs PuckChamp (BO3) - Asgard Championship Group A | Dota 2: Xipto Esports vs PuckChamp (BO3) - Asgard Championship Group A → Xipto Esports | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 12:43 PM | Taranto: Hugo Grenier vs Marvin Moeller | Taranto: Hugo Grenier vs Marvin Moeller → Hugo Grenier | only 1 vetted wallet; opposition 34%; no Kalshi game found |
+| Tue Nov 3, 12:43 PM | Prudential Hong Kong Tennis Open: Elena Pridankina vs Paula Badosa | Prudential Hong Kong Tennis Open: Elena Pridankina vs Paula Badosa → Elena Pridankina | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 12:43 PM | Chennai Open: Rada Zolotareva vs Lucrezia Stefanini | Chennai Open: Rada Zolotareva vs Lucrezia Stefanini → Rada Zolotareva | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 12:20 PM | Dota 2: Nemiga Gaming vs CyberHero (BO3) - EPL Masters Playoffs | Game Handicap: CH (-1.5) vs Nemiga Gaming (+1.5) → Nemiga Gaming | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 12:20 PM | M15 Pembroke: Kian Vakili vs Richard Mallory | M15 Pembroke: Kian Vakili vs Richard Mallory → Richard Mallory | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 12:20 PM | Villa Maria: Lorenzo Gagliardo vs Ryan Nijboer | Set Handicap: Ryan Nijboer (-1.5) vs Lorenzo Gagliardo (+1.5) → Lorenzo Gagliardo | only 1 vetted wallet; no Kalshi game found |
@@ -3375,7 +3380,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:16 AM | Beijing Ducks vs. Ningbo Rockets | Beijing Ducks vs. Ningbo Rockets → Beijing Ducks | Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 11:16 AM | Which party will win the House in 2026? | Will the Republican Party control the House after the 2026 Midterm elections? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 11:16 AM | Balance of Power: 2026 Midterms | 2026 Balance of Power: D Senate, D House → Yes | no Kalshi game found |
-| Tue Nov 3, 11:16 AM | Which party will win the Senate in 2026? | Will the Democratic Party control the Senate after the 2026 Midterm elections? → Yes | opposition 26%; no Kalshi game found |
-| Tue Nov 3, 10:13 AM | W15 Szabolcsveresmart: Teodora Vlajic vs Ann Akasha Ceuca | W15 Szabolcsveresmart: Teodora Vlajic vs Ann Akasha Ceuca → Ann Akasha Ceuca | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:13 AM | W50 Heraklion: Felitsata Dorofeeva-Rybas vs Charo Esquiva Banuls | W50 Heraklion: Felitsata Dorofeeva-Rybas vs Charo Esquiva Banuls → Felitsata Dorofeeva-Rybas | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:13 AM | M15 Monastir: Emilien Demanet vs Kasra Rahmani | M15 Monastir: Emilien Demanet vs Kasra Rahmani → Emilien Demanet | only 1 vetted wallet; no Kalshi game found |
