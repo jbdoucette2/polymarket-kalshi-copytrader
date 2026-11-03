@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T10:12:11Z",
+  "updated": "2026-11-03T11:15:02Z",
   "games": [
     {
       "event_slug": "atp-fokina-kouame-2026-11-02",
@@ -28,7 +28,7 @@
       "check_at": "2026-11-03T11:20:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards ($342, 3 wallets)",
+      "best": "Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards ($408, 3 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -42,20 +42,30 @@
       "status": "fails: no Kalshi game found"
     },
     {
-      "event_slug": "atp-bax-cadenas-2026-11-02",
-      "game": "Taranto: Florent Bax vs Gianluca Cadenasso",
-      "start": "2026-11-03T12:00:00Z",
-      "check_at": "2026-11-03T11:45:00Z",
+      "event_slug": "acle-por-bjg-2026-11-03",
+      "game": "Port FC vs. Beijing Guoan",
+      "start": "2026-11-03T12:15:00Z",
+      "check_at": "2026-11-03T12:00:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso ($302, 2 wallets)",
+      "best": "Will Beijing Guoan win on 2026-11-03? → No ($2.0k, 3 wallets)",
+      "status": "fails: no Kalshi game found"
+    },
+    {
+      "event_slug": "atp-bax-cadenas-2026-11-02",
+      "game": "Taranto: Florent Bax vs Gianluca Cadenasso",
+      "start": "2026-11-03T12:45:00Z",
+      "check_at": "2026-11-03T12:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso ($305, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
       "event_slug": "atp-martin-montes-2026-11-02",
       "game": "Taranto: Matteo Martineau vs Inaki Montes",
-      "start": "2026-11-03T13:30:00Z",
-      "check_at": "2026-11-03T13:15:00Z",
+      "start": "2026-11-03T14:15:00Z",
+      "check_at": "2026-11-03T14:00:00Z",
       "passing": 0,
       "near": 1,
       "best": "Taranto: Matteo Martineau vs Inaki Montes → Inaki Montes ($139, 2 wallets)",
@@ -64,8 +74,8 @@
     {
       "event_slug": "wta-falei-linette-2026-11-02",
       "game": "Chennai Open: Aliona Falei vs Magda Linette",
-      "start": "2026-11-03T14:00:00Z",
-      "check_at": "2026-11-03T13:45:00Z",
+      "start": "2026-11-03T14:30:00Z",
+      "check_at": "2026-11-03T14:15:00Z",
       "passing": 0,
       "near": 1,
       "best": "Chennai Open: Aliona Falei vs Magda Linette → Aliona Falei ($971, 2 wallets)",
@@ -128,7 +138,17 @@
       "check_at": "2026-11-03T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Exact Score: CD Pamplona 1 - 1 SD Eibar? → No ($104, 2 wallets)",
+      "best": "Exact Score: CD Pamplona 1 - 1 SD Eibar? → No ($105, 2 wallets)",
+      "status": "fails: no Kalshi game found"
+    },
+    {
+      "event_slug": "acle-hil-sah-2026-11-03-more-markets",
+      "game": "Al Hilal SFC vs. Shabab Al Ahli Dubai - More Markets",
+      "start": "2026-11-03T18:15:00Z",
+      "check_at": "2026-11-03T18:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai ($2.1k, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -148,7 +168,7 @@
       "check_at": "2026-11-03T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under ($264, 2 wallets)",
+      "best": "Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under ($257, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -158,7 +178,7 @@
       "check_at": "2026-11-03T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Huddersfield Town AFC vs. Luton Town FC: O/U 2.5 → Under ($299, 2 wallets)",
+      "best": "Huddersfield Town AFC vs. Luton Town FC: O/U 2.5 → Under ($303, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -182,6 +202,26 @@
       "status": "fails: no Kalshi game found"
     },
     {
+      "event_slug": "ucl-mnu-rom-2026-11-03",
+      "game": "Manchester United FC vs. AS Roma",
+      "start": "2026-11-03T20:00:00Z",
+      "check_at": "2026-11-03T19:45:00Z",
+      "passing": 0,
+      "near": 3,
+      "best": "Will Manchester United FC win on 2026-11-03? → No ($16.4k, 2 wallets)",
+      "status": "fails: opposition 36%"
+    },
+    {
+      "event_slug": "ucl-mnu-rom-2026-11-03-more-markets",
+      "game": "Manchester United FC vs. AS Roma - More Markets",
+      "start": "2026-11-03T20:00:00Z",
+      "check_at": "2026-11-03T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under ($685, 2 wallets)",
+      "status": "fails: no Kalshi totals market"
+    },
+    {
       "event_slug": "ucl-vil-psg-2026-11-03",
       "game": "Villarreal CF vs. Paris Saint-Germain FC",
       "start": "2026-11-03T20:00:00Z",
@@ -190,26 +230,6 @@
       "near": 0,
       "best": "Will Paris Saint-Germain FC win on 2026-11-03? → No ($39.5k, 3 wallets)",
       "status": "passes"
-    },
-    {
-      "event_slug": "ucl-mnu-rom-2026-11-03-more-markets",
-      "game": "Manchester United FC vs. AS Roma - More Markets",
-      "start": "2026-11-03T20:00:00Z",
-      "check_at": "2026-11-03T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under ($660, 2 wallets)",
-      "status": "fails: no Kalshi totals market"
-    },
-    {
-      "event_slug": "ucl-mnu-rom-2026-11-03",
-      "game": "Manchester United FC vs. AS Roma",
-      "start": "2026-11-03T20:00:00Z",
-      "check_at": "2026-11-03T19:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Will Manchester United FC win on 2026-11-03? → No ($15.7k, 2 wallets)",
-      "status": "fails: opposition 38%"
     },
     {
       "event_slug": "ucl-atm-bay-2026-11-03-more-markets",
@@ -230,6 +250,16 @@
       "near": 4,
       "best": "LASK Linz vs. ŠK Slovan Bratislava: O/U 5.5 → Over ($528, 2 wallets)",
       "status": "fails: no Kalshi totals market"
+    },
+    {
+      "event_slug": "ucl-lin2-sba-2026-11-03",
+      "game": "LASK Linz vs. ŠK Slovan Bratislava",
+      "start": "2026-11-03T20:00:00Z",
+      "check_at": "2026-11-03T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will LASK Linz win on 2026-11-03? → Yes ($336, 1 wallets)",
+      "status": "fails: only 1 vetted wallet"
     },
     {
       "event_slug": "ucl-atm-bay-2026-11-03-exact-score",
@@ -258,17 +288,7 @@
       "check_at": "2026-11-03T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Exact Score: Villarreal CF 0 - 2 Paris Saint-Germain FC? → No ($390, 2 wallets)",
-      "status": "fails: market type not supported"
-    },
-    {
-      "event_slug": "ucl-vil-psg-2026-11-03-more-markets",
-      "game": "Villarreal CF vs. Paris Saint-Germain FC - More Markets",
-      "start": "2026-11-03T20:00:00Z",
-      "check_at": "2026-11-03T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Villarreal CF vs. Paris Saint-Germain FC: Both Teams to Score → No ($61, 2 wallets)",
+      "best": "Exact Score: Villarreal CF 0 - 2 Paris Saint-Germain FC? → No ($421, 2 wallets)",
       "status": "fails: market type not supported"
     },
     {
@@ -277,8 +297,18 @@
       "start": "2026-11-03T20:00:00Z",
       "check_at": "2026-11-03T19:45:00Z",
       "passing": 0,
+      "near": 3,
+      "best": "Spread: FC Internazionale Milano (-1.5) → Feyenoord Rotterdam ($2.9k, 2 wallets)",
+      "status": "fails: no Kalshi spread market"
+    },
+    {
+      "event_slug": "ucl-vil-psg-2026-11-03-more-markets",
+      "game": "Villarreal CF vs. Paris Saint-Germain FC - More Markets",
+      "start": "2026-11-03T20:00:00Z",
+      "check_at": "2026-11-03T19:45:00Z",
+      "passing": 0,
       "near": 2,
-      "best": "Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score → No ($50, 2 wallets)",
+      "best": "Villarreal CF vs. Paris Saint-Germain FC: Both Teams to Score → No ($69, 2 wallets)",
       "status": "fails: market type not supported"
     },
     {
@@ -292,6 +322,16 @@
       "status": "fails: only 1 vetted wallet"
     },
     {
+      "event_slug": "ucl-fcb-ast-2026-11-03",
+      "game": "FC Barcelona vs. Aston Villa FC",
+      "start": "2026-11-03T20:00:00Z",
+      "check_at": "2026-11-03T19:45:00Z",
+      "passing": 0,
+      "near": 3,
+      "best": "Will FC Barcelona win on 2026-11-03? → No ($2.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet"
+    },
+    {
       "event_slug": "ucl-bog-lil-2026-11-03",
       "game": "FK Bodø/Glimt vs. Lille OSC",
       "start": "2026-11-03T20:00:00Z",
@@ -299,16 +339,6 @@
       "passing": 0,
       "near": 1,
       "best": "Will FK Bodø/Glimt win on 2026-11-03? → No ($1.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet"
-    },
-    {
-      "event_slug": "ucl-fcb-ast-2026-11-03",
-      "game": "FC Barcelona vs. Aston Villa FC",
-      "start": "2026-11-03T20:00:00Z",
-      "check_at": "2026-11-03T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Aston Villa FC win on 2026-11-03? → Yes ($608, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
     },
     {
@@ -389,16 +419,6 @@
       "passing": 0,
       "near": 3,
       "best": "Buffalo vs. Miami (OH) → Miami (OH) ($672, 1 wallets)",
-      "status": "fails: only 1 vetted wallet"
-    },
-    {
-      "event_slug": "cbb-sdkst-kanst-2026-11-03",
-      "game": "South Dakota State Jackrabbits vs. Kansas State Wildcats",
-      "start": "2026-11-04T01:00:00Z",
-      "check_at": "2026-11-04T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits ($3, 1 wallets)",
       "status": "fails: only 1 vetted wallet"
     },
     {
