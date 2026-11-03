@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 7:14 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 7:45 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -2487,6 +2487,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 7:45 AM | W50 Heraklion: Astrid Lew Yan Foon vs Ruth Roura Llaverias | W50 Heraklion: Astrid Lew Yan Foon vs Ruth Roura Llaverias → Ruth Roura Llaverias | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC | Will Shanghai Port FC win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - Exact Score | Exact Score: Newcastle United Jets 0 - 2 Shanghai Port FC? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - More Markets | Newcastle United Jets vs. Shanghai Port FC: 1st Half O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
@@ -2516,4 +2517,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Kochi United SC vs. Ehime FC | Will Ehime FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Shōnan Bellmāre vs. Sagan Tosu - More Markets | Shōnan Bellmāre vs. Sagan Tosu: O/U 3.5 → Over | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Giravanz Kitakyushu vs. Reilac Shiga FC - Exact Score | Exact Score: Giravanz Kitakyushu 2 - 0 Reilac Shiga FC? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Ventforet Kōfu vs. Albirex Niigata - More Markets | Ventforet Kōfu vs. Albirex Niigata: 1st Half O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
