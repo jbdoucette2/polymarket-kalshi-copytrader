@@ -274,6 +274,7 @@
 
 <script>
   window.ctCurve = (el, id) => {
+    const {money, when} = window.ctUtil;
     const d = dash.data(id);
     el.replaceChildren();
     if (d.status !== 'ok' || d.data.length < 2) { el.textContent = d.status === 'ok' ? '' : '—'; return; }
