@@ -26,6 +26,8 @@ basketball, and major soccer leagues.
 - `copysim.py`: the strategy, matching, paper/live execution, reports
 - `kalshi_client.py`: signed Kalshi API calls for live mode (Create Order V2)
 - `REPORT.md` / `dashboard.html`: written after every run, with a per-game timeline of how the vetted money moved.
+  Open trades show the live score (Polymarket's game feed) and what they'd sell for on Kalshi now; while a game
+  is on, `verify` refreshes just that every 15 minutes.
   The dashboard's layout lives in `dashboard_template.html`; `copysim.py` only fills in the data.
 - `pregame_plan.json`: games worth a pre-game check, and when (`check_at`, 15 minutes before start)
 - `copysim.db`: trade history, hourly snapshots and change notes (SQLite). `COPYSIM_DB=copysim_live.db` keeps a
