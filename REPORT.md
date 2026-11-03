@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 9:15 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 9:41 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -19,6 +19,29 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Jeonbuk FC vs. Johor Darul Ta'zim · starts Tue Nov 3, 10:00 AM
+
+- Tue Nov 3, 9:41 AM (pregame): Will Jeonbuk FC vs. Johor Darul Ta'zim end in a draw?: all vetted wallets left No
+- Tue Nov 3, 9:41 AM (pregame): Will Johor Darul Ta'zim win on 2026-11-03?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 9:41 AM | pregame | Will Jeonbuk FC vs. Johor Darul Ta'zim end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 9:41 AM | pregame | Will Johor Darul Ta'zim win on 2026-11-03? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 9:12 AM | hourly | Will Jeonbuk FC vs. Johor Darul Ta'zim end in a draw? → No | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Will Johor Darul Ta'zim win on 2026-11-03? → No | Flaznorp $325 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Kashiwa Reysol vs. Daejeon Citizen FC · starts Tue Nov 3, 10:00 AM
+
+- Tue Nov 3, 9:12 AM (hourly): Will Kashiwa Reysol win on 2026-11-03?: majority flipped to Yes ($4.7k vs $0)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 9:41 AM | pregame | Will Kashiwa Reysol win on 2026-11-03? → Yes | RN1 $3.7k, Flaznorp $1.7k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → Yes | RN1 $3.7k, Flaznorp $1.1k | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → No | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova · starts Tue Nov 3, 9:30 AM
 
@@ -300,16 +323,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 46¢ NO | fails: only 1 vetted wallet |
 | Mon Nov 2, 11:59 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $534 | $0 | 47¢ NO | fails: only 1 vetted wallet |
-
-### Kashiwa Reysol vs. Daejeon Citizen FC · starts Tue Nov 3, 10:00 AM
-
-- Tue Nov 3, 9:12 AM (hourly): Will Kashiwa Reysol win on 2026-11-03?: majority flipped to Yes ($4.7k vs $0)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 9:12 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → Yes | RN1 $3.7k, Flaznorp $1.1k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → No | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Will Kashiwa Reysol win on 2026-11-03? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### IK Sirius vs. Halmstads BK - More Markets · starts Tue Nov 3, 6:00 PM
 
@@ -896,6 +909,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 9:41 AM | pregame | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:12 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:45 AM | pregame | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 3, 8:16 AM | hourly | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | omnibus-076daa $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -929,6 +943,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 9:41 AM | pregame | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | pregame | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $104 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:15 AM | pregame | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:15 AM | pregame | Counter-Strike: FURIA vs Natus Vincere (BO3) - IEM Beijing Group A → FURIA | omnibus-076daa $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:12 AM | hourly | Map Handicap: FURIA (-1.5) vs Natus Vincere (+1.5) → Natus Vincere | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -2814,6 +2830,23 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 9:41 AM | Jeonbuk FC vs. Johor Darul Ta'zim - More Markets | Jeonbuk FC vs. Johor Darul Ta'zim: Both Teams to Score → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Jeonbuk FC vs. Johor Darul Ta'zim - Halftime Result | Jeonbuk FC vs. Johor Darul Ta'zim: Draw at halftime? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Vissel Kobe vs. Ratchaburi FC | Will Vissel Kobe win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Jeonbuk FC vs. Johor Darul Ta'zim | Will Jeonbuk FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Kashiwa Reysol vs. Daejeon Citizen FC | Will Kashiwa Reysol win on 2026-11-03? → Yes | no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Kashiwa Reysol vs. Daejeon Citizen FC - More Markets | Spread: Kashiwa Reysol (-1.5) → Kashiwa Reysol | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Rolex Paris Masters: Arthur Rinderknech vs Francisco Cerundolo | Set Handicap: Francisco Cerundolo (-1.5) vs Arthur Rinderknech (+1.5) → Arthur Rinderknech | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | KCC Egis vs. Goyang | KCC Egis vs. Goyang → KCC Egis | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A | Counter-Strike: Legacy vs B8 (BO3) - IEM Beijing Group A → Legacy | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Bratislava 2: Mika Brunold vs Michael Vrbensky | Bratislava 2: Mika Brunold vs Michael Vrbensky → Mika Brunold | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Dota 2: LEGION vs OG (BO3) - EPL Masters Playoffs | Dota 2: LEGION vs OG (BO3) - EPL Masters Playoffs → OG | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Liudmila Samsonova | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Liudmila Samsonova → Liudmila Samsonova | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Vissel Kobe vs. Ratchaburi FC - More Markets | Vissel Kobe vs. Ratchaburi FC: 1st Half O/U 2.5 → Under | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Jeonbuk FC vs. Johor Darul Ta'zim - Exact Score | Exact Score: Jeonbuk FC 4 - 1 Johor Darul Ta'zim? → No | only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Vissel Kobe vs. Ratchaburi FC - Exact Score | Exact Score: Vissel Kobe 2 - 0 Ratchaburi FC? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Vissel Kobe vs. Ratchaburi FC - Halftime Result | Ratchaburi FC leading at halftime? → Yes | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:41 AM | Kashiwa Reysol vs. Daejeon Citizen FC - Exact Score | Exact Score: Kashiwa Reysol 3 - 2 Daejeon Citizen FC? → No | only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 9:15 AM | W50 Heraklion: Antonia Stoyanov vs Laura Svatikova | W50 Heraklion: Antonia Stoyanov vs Laura Svatikova → Laura Svatikova | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:15 AM | KBO Playoff: Samsung Lions vs. KT Wiz | KBO Playoff: Samsung Lions vs. KT Wiz → KT Wiz | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:15 AM | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova | Prudential Hong Kong Tennis Open: Himeno Sakatsume vs Tereza Valentova → Tereza Valentova | no Kalshi game found |
@@ -2827,20 +2860,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 7:45 AM | W50 Heraklion: Astrid Lew Yan Foon vs Ruth Roura Llaverias | W50 Heraklion: Astrid Lew Yan Foon vs Ruth Roura Llaverias → Ruth Roura Llaverias | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC | Will Shanghai Port FC win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - Exact Score | Exact Score: Newcastle United Jets 0 - 2 Shanghai Port FC? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - More Markets | Newcastle United Jets vs. Shanghai Port FC: 1st Half O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu | Will FC Gifu win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu - More Markets | FC Ryukyu vs. FC Gifu: O/U 2.5 → Over | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:42 AM | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A → FaZe | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:42 AM | Chennai Open: Jeline Vandromme vs Kyoka Okamura | Chennai Open: Jeline Vandromme vs Kyoka Okamura → Kyoka Okamura | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:42 AM | Counter-Strike: TheMongolz vs Heroic (BO3) - IEM Beijing Group A | Map Handicap: MGLZ (-1.5) vs Heroic (+1.5) → Heroic | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:40 AM | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | no Kalshi game found |
-| Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo | Will Hokkaidō Consadole Sapporo win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo - More Markets | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Kamatamare Sanuki vs. Matsumoto Yamaga FC - Exact Score | Exact Score: Kamatamare Sanuki 1 - 0 Matsumoto Yamaga FC? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Seattle Redhawks vs. Hawaii Rainbow Warriors | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | only 1 vetted wallet |
-| Tue Nov 3, 4:40 AM | Taipei: Masamichi Imamura vs Mitsuki Wei Kang Leong | Taipei: Masamichi Imamura vs Mitsuki Wei Kang Leong → Masamichi Imamura | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Kochi United SC vs. Ehime FC - More Markets | Kochi United SC vs. Ehime FC: O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Tegevajaro Miyazaki vs. Tochigi City FC | Will Tochigi City FC win on 2026-11-03? → No | no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Shōnan Bellmāre vs. Sagan Tosu | Will Sagan Tosu win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:40 AM | Ventforet Kōfu vs. Albirex Niigata | Will Albirex Niigata win on 2026-11-03? → Yes | no Kalshi game found |
