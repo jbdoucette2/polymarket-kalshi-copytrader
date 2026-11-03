@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 5:18 PM. Bankroll **$120.66** (start $100): $110.44 cash + open trades at cost.
+Updated Tue Nov 3, 5:38 PM. Bankroll **$120.66** (start $100): $110.44 cash + open trades at cost.
 
 Record: 22 won, 15 lost, 1 sold early. Realized P&L $+20.66. Open: 1.
 
@@ -360,6 +360,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Galatasaray SK vs. VfB Stuttgart · starts Tue Nov 3, 5:45 PM
 
+- Tue Nov 3, 5:38 PM (verify): Will Galatasaray SK win on 2026-11-03?: 15-min check: still passes (3 wallets, $52.4k for vs $0 against); holding
 - Tue Nov 3, 5:18 PM (pregame): Will VfB Stuttgart win on 2026-11-03?: back: 1 vetted on Yes ($1.2k), fails: only 1 vetted wallet
 - Tue Nov 3, 5:18 PM (pregame): Will Galatasaray SK win on 2026-11-03?: Kalshi 51¢ → 52¢
 - Tue Nov 3, 5:18 PM (pregame): Will Galatasaray SK win on 2026-11-03?: RN1 joined No (+$6.6k)
