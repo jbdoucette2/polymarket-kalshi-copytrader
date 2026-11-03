@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 6:14 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 6:42 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -2355,6 +2355,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu | Will FC Gifu win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu - More Markets | FC Ryukyu vs. FC Gifu: O/U 2.5 → Over | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:42 AM | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A → FaZe | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:42 AM | Chennai Open: Jeline Vandromme vs Kyoka Okamura | Chennai Open: Jeline Vandromme vs Kyoka Okamura → Kyoka Okamura | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:42 AM | Counter-Strike: TheMongolz vs Heroic (BO3) - IEM Beijing Group A | Map Handicap: MGLZ (-1.5) vs Heroic (+1.5) → Heroic | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 5:40 AM | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | no Kalshi game found |
 | Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo | Will Hokkaidō Consadole Sapporo win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 5:14 AM | FC Imabari vs. Hokkaidō Consadole Sapporo - More Markets | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | no Kalshi game found |
@@ -2380,8 +2385,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Giravanz Kitakyushu vs. Reilac Shiga FC - More Markets | Spread: Giravanz Kitakyushu (-1.5) → Giravanz Kitakyushu | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Shōnan Bellmāre vs. Sagan Tosu | Will Shōnan Bellmāre win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Tegevajaro Miyazaki vs. Tochigi City FC - More Markets | Tegevajaro Miyazaki vs. Tochigi City FC: Both Teams to Score → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | RB Ōmiya Ardija vs. Iwaki FC - More Markets | RB Ōmiya Ardija vs. Iwaki FC: 1st Half O/U 1.5 → Over | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Gainare Tottori vs. SC Sagamihara | Will SC Sagamihara win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Yokohama FC vs. Blaublitz Akita | Will Blaublitz Akita win on 2026-11-03? → No | no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Nara Club vs. Thespa Gunma | Will Nara Club win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Tegevajaro Miyazaki vs. Tochigi City FC | Will Tochigi City FC win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
