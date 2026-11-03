@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 3, 6:42 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
+Updated Tue Nov 3, 7:14 AM. Bankroll **$103.21** (start $100): $103.21 cash + open trades at cost.
 
 Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
@@ -20,50 +20,121 @@ Record: 5 won, 4 lost, 0 sold early. Realized P&L $+3.21. Open: 0.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Taranto: Buvaysar Gadamauri vs Pierluigi Basile · starts Tue Nov 3, 4:00 PM
+### Villarreal CF vs. Paris Saint-Germain FC · starts Tue Nov 3, 8:00 PM
 
-- Tue Nov 3, 6:13 AM (hourly): Taranto: Buvaysar Gadamauri vs Pierluigi Basile: all vetted wallets left Buvaysar Gadamauri
+- Tue Nov 3, 7:12 AM (hourly): Will Villarreal CF win on 2026-11-03?: all vetted wallets left Yes
+- Tue Nov 3, 6:13 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now fails: Kalshi 44c vs leaders 41c
+- Tue Nov 3, 6:13 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 43¢ → 44¢
+- Tue Nov 3, 5:12 AM (hourly): Will Villarreal CF win on 2026-11-03?: Kalshi 21¢ → 22¢
+- Tue Nov 3, 5:12 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 42¢ → 43¢
+- Tue Nov 3, 5:12 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: omnibus-076daa added $10.6k on No
+- Tue Nov 3, 4:22 AM (hourly): Will Villarreal CF win on 2026-11-03?: Kalshi matched at 21¢
+- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now passes
+- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi matched at 42¢
+- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Flaznorp added $1.2k on No
+- Mon Nov 2, 11:59 PM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now fails: no Kalshi game found
+- Mon Nov 2, 11:33 PM (hourly): Will Villarreal CF win on 2026-11-03?: first seen: 1 vetted on Yes ($267), fails: only 1 vetted wallet
+- Mon Nov 2, 11:33 PM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: first seen: 3 vetted on No ($20.2k), passes
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:12 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 7:12 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $29.1k, Flaznorp $3.0k, SnakeBall $578 | $0 | 44¢ NO | fails: Kalshi 44c vs leaders 41c |
+| Tue Nov 3, 6:13 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $346 | $0 | 23¢ YES | fails: only 1 vetted wallet; Kalshi 23c vs leaders 19c |
+| Tue Nov 3, 6:13 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $29.8k, Flaznorp $3.0k, SnakeBall $591 | $0 | 44¢ NO | fails: Kalshi 44c vs leaders 41c |
+| Tue Nov 3, 5:12 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $346 | $0 | 22¢ YES | fails: only 1 vetted wallet; Kalshi 22c vs leaders 19c |
+| Tue Nov 3, 5:12 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $29.8k, Flaznorp $3.0k, SnakeBall $591 | $0 | 43¢ NO | passes |
+| Tue Nov 3, 4:22 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $331 | $0 | 21¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 4:22 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $19.2k, Flaznorp $3.0k, SnakeBall $578 | $0 | 42¢ NO | passes |
+| Mon Nov 2, 11:59 PM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $267 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $18.3k, Flaznorp $1.8k, SnakeBall $550 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $267 | $0 | 20¢ YES | fails: only 1 vetted wallet |
+| Mon Nov 2, 11:33 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $17.9k, Flaznorp $1.7k, SnakeBall $537 | $0 | 40¢ NO | passes |
+
+### Club Atlético de Madrid vs. FC Bayern München - More Markets · starts Tue Nov 3, 8:00 PM
+
+- Tue Nov 3, 7:12 AM (hourly): Spread: FC Bayern München (-1.5): all vetted wallets left FC Bayern München
+- Mon Nov 2, 11:33 PM (hourly): Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score: first seen: 2 vetted on No ($298), fails: no Kalshi game found
+- Mon Nov 2, 11:33 PM (hourly): Spread: FC Bayern München (-2.5): first seen: 2 vetted on FC Bayern München ($684), fails: no Kalshi game found
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 7:12 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $349, Flaznorp $64 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | Flaznorp $304 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $587, SnakeBall $25 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $238, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $226, Flaznorp $63 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | Flaznorp $304 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $621, SnakeBall $27 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $226, Flaznorp $63 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | Flaznorp $304 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $233, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | Flaznorp $297 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $233, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Spread: FC Bayern München (-1.5) → FC Bayern München | Flaznorp $297 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
 
 ### FC Barcelona vs. Aston Villa FC - More Markets · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:12 AM (hourly): Spread: FC Barcelona (-2.5): all vetted wallets left FC Barcelona
+- Tue Nov 3, 7:12 AM (hourly): FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5: SnakeBall joined Under (+$117)
 - Tue Nov 3, 6:13 AM (hourly): FC Barcelona vs. Aston Villa FC: Both Teams to Score: all vetted wallets left No
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 7:12 AM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | SnakeBall $117, Flaznorp $15 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 6:13 AM | hourly | FC Barcelona vs. Aston Villa FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 6:13 AM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 6:13 AM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | Flaznorp $145 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 5:12 AM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 5:12 AM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
 | Tue Nov 3, 5:12 AM | hourly | FC Barcelona vs. Aston Villa FC: Both Teams to Score → No | Flaznorp $674 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 4:22 AM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 4:22 AM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
 | Tue Nov 3, 4:22 AM | hourly | FC Barcelona vs. Aston Villa FC: Both Teams to Score → No | Flaznorp $674 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Mon Nov 2, 11:59 PM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | FC Barcelona vs. Aston Villa FC: Both Teams to Score → No | Flaznorp $705 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | FC Barcelona vs. Aston Villa FC: FC Barcelona O/U 2.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Mon Nov 2, 11:33 PM | hourly | Spread: FC Barcelona (-2.5) → FC Barcelona | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
 | Mon Nov 2, 11:33 PM | hourly | FC Barcelona vs. Aston Villa FC: Both Teams to Score → No | Flaznorp $705 | $0 | — | fails: only 1 vetted wallet; market type not supported |
 
-### CD Comerciantes Unidos vs. AD Tarma · starts Tue Nov 3, 8:00 PM
+### Shanghai Sharks vs. Jilin Northeast Tigers · starts Tue Nov 3, 11:35 AM
 
-- Tue Nov 3, 6:13 AM (hourly): Will AD Tarma win on 2026-11-03?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Will AD Tarma win on 2026-11-03? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:12 AM | hourly | Will AD Tarma win on 2026-11-03? → Yes | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Taipei: James McCabe vs Yanki Erel · starts Tue Nov 3, 7:00 AM
-
-- Tue Nov 3, 6:13 AM (hourly): Taipei: James McCabe vs Yanki Erel: all vetted wallets left James McCabe
+- Tue Nov 3, 7:12 AM (hourly): Spread: Shanghai Sharks (-24.5): all vetted wallets left Jilin Northeast Tigers
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:12 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $287 | $21 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 6:13 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Newcastle United Jets vs. Shanghai Port FC · starts Tue Nov 3, 7:45 AM
+
+- Tue Nov 3, 7:12 AM (hourly): Will Newcastle United Jets vs. Shanghai Port FC end in a draw?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will Newcastle United Jets vs. Shanghai Port FC end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 6:13 AM | hourly | Will Newcastle United Jets vs. Shanghai Port FC end in a draw? → Yes | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Will Newcastle United Jets vs. Shanghai Port FC end in a draw? → Yes | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Will Newcastle United Jets vs. Shanghai Port FC end in a draw? → Yes | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Newcastle United Jets vs. Shanghai Port FC - More Markets · starts Tue Nov 3, 7:45 AM
+
+- Tue Nov 3, 7:12 AM (hourly): Spread: Shanghai Port FC (-1.5): all vetted wallets left Shanghai Port FC
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Shanghai Port FC (-1.5) → Shanghai Port FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 6:13 AM | hourly | Spread: Shanghai Port FC (-1.5) → Shanghai Port FC | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Spread: Shanghai Port FC (-1.5) → Shanghai Port FC | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Feyenoord Rotterdam vs. FC Internazionale Milano · starts Tue Nov 3, 8:00 PM
 
@@ -81,6 +152,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will Feyenoord Rotterdam vs. FC Internazionale Milano end in a draw? → No | Flaznorp $35 | $0 | 77¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will Feyenoord Rotterdam win on 2026-11-03? → Yes | Flaznorp $1.2k | $0 | 26¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will FC Internazionale Milano win on 2026-11-03? → No | Flaznorp $2.7k | $0 | 50¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will Feyenoord Rotterdam vs. FC Internazionale Milano end in a draw? → No | Flaznorp $35 | $0 | 77¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will Feyenoord Rotterdam win on 2026-11-03? → Yes | Flaznorp $1.3k | $0 | 26¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will FC Internazionale Milano win on 2026-11-03? → No | Flaznorp $2.8k | $0 | 50¢ NO | fails: only 1 vetted wallet |
@@ -102,6 +176,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will FK Shakhtar Donetsk vs. Sporting CP end in a draw? → No | Flaznorp $92 | $0 | 75¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will Sporting CP win on 2026-11-03? → Yes | Flaznorp $4.6k | $0 | 49¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will FK Shakhtar Donetsk vs. Sporting CP end in a draw? → No | Flaznorp $92 | $0 | 75¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will Sporting CP win on 2026-11-03? → Yes | Flaznorp $4.6k | $0 | 49¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Will FK Shakhtar Donetsk vs. Sporting CP end in a draw? → No | Flaznorp $92 | $0 | 75¢ NO | fails: only 1 vetted wallet |
@@ -123,6 +199,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will FC Barcelona vs. Aston Villa FC end in a draw? → Yes | Flaznorp $101 | $0 | 13¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will Aston Villa FC win on 2026-11-03? → Yes | Flaznorp $608 | $0 | 11¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will FC Barcelona win on 2026-11-03? → No | Flaznorp $2.0k | $0 | 23¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will FC Barcelona vs. Aston Villa FC end in a draw? → Yes | Flaznorp $101 | $0 | 13¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will Aston Villa FC win on 2026-11-03? → Yes | Flaznorp $608 | $0 | 11¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will FC Barcelona win on 2026-11-03? → No | Flaznorp $2.0k | $0 | 23¢ NO | fails: only 1 vetted wallet |
@@ -139,6 +218,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Manchester United FC vs. AS Roma · starts Tue Nov 3, 8:00 PM
 
+- Tue Nov 3, 7:12 AM (hourly): Will Manchester United FC win on 2026-11-03?: Flaznorp added $4.7k on No
 - Tue Nov 3, 6:13 AM (hourly): Will AS Roma win on 2026-11-03?: back: 1 vetted on No ($5.7k), fails: only 1 vetted wallet
 - Tue Nov 3, 5:12 AM (hourly): Will AS Roma win on 2026-11-03?: all vetted wallets left No
 - Tue Nov 3, 5:12 AM (hourly): Will Manchester United FC win on 2026-11-03?: Kalshi 43¢ → 57¢
@@ -151,6 +231,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will Manchester United FC vs. AS Roma end in a draw? → No | Flaznorp $457 | $0 | 77¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will AS Roma win on 2026-11-03? → No | Flaznorp $5.7k | $0 | 67¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Will Manchester United FC win on 2026-11-03? → No | Flaznorp $12.6k, SnakeBall $587 | $6.0k | 57¢ NO | fails: opposition 46% |
 | Tue Nov 3, 6:13 AM | hourly | Will Manchester United FC vs. AS Roma end in a draw? → No | Flaznorp $457 | $0 | 77¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will AS Roma win on 2026-11-03? → No | Flaznorp $5.7k | $0 | 67¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will Manchester United FC win on 2026-11-03? → No | Flaznorp $7.9k, SnakeBall $598 | $5.9k | 57¢ NO | fails: opposition 69% |
@@ -167,30 +250,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Will Manchester United FC vs. AS Roma end in a draw? → No | Flaznorp $457 | $0 | 77¢ NO | fails: only 1 vetted wallet |
 | Mon Nov 2, 11:33 PM | hourly | Will AS Roma win on 2026-11-03? → No | Flaznorp $7.7k | $0 | 66¢ NO | fails: only 1 vetted wallet |
 
-### Galatasaray SK vs. VfB Stuttgart · starts Tue Nov 3, 5:45 PM
-
-- Tue Nov 3, 5:12 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Kalshi 56¢ → 55¢
-- Tue Nov 3, 5:12 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Flaznorp added $4.4k on No
-- Tue Nov 3, 4:22 AM (hourly): Will VfB Stuttgart win on 2026-11-03?: Kalshi matched at 69¢
-- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: now passes
-- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Kalshi matched at 56¢
-- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: SnakeBall joined No (+$653)
-- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Flaznorp added $1.4k on No
-- Mon Nov 2, 11:33 PM (hourly): Will Galatasaray SK win on 2026-11-03?: first seen: 1 vetted on No ($2.7k), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $494 | $0 | 69¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 6:13 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $8.6k, SnakeBall $629 | $0 | 55¢ NO | passes |
-| Tue Nov 3, 5:12 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $487 | $0 | 69¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 5:12 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $8.6k, SnakeBall $629 | $0 | 55¢ NO | passes |
-| Tue Nov 3, 4:22 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $487 | $0 | 69¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:22 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $4.1k, SnakeBall $653 | $0 | 56¢ NO | passes |
-| Mon Nov 2, 11:59 PM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $191 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $2.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $191 | $0 | 69¢ NO | fails: only 1 vetted wallet; Kalshi 69c vs leaders 65c |
-| Mon Nov 2, 11:33 PM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $2.7k | $0 | 56¢ NO | fails: only 1 vetted wallet |
-
 ### FK Bodø/Glimt vs. Lille OSC · starts Tue Nov 3, 8:00 PM
 
 - Tue Nov 3, 5:12 AM (hourly): Will FK Bodø/Glimt win on 2026-11-03?: Kalshi 46¢ → 45¢
@@ -200,6 +259,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 45¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 45¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 45¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Will FK Bodø/Glimt win on 2026-11-03? → No | Flaznorp $1.5k | $0 | 46¢ NO | fails: only 1 vetted wallet |
@@ -212,6 +272,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | IK Sirius vs. Halmstads BK: O/U 3.5 → Over | Flaznorp $409, omnibus-076daa $41 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | IK Sirius vs. Halmstads BK: O/U 3.5 → Over | Flaznorp $409, omnibus-076daa $41 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | IK Sirius vs. Halmstads BK: O/U 3.5 → Over | Flaznorp $409, omnibus-076daa $41 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | IK Sirius vs. Halmstads BK: O/U 3.5 → Over | Flaznorp $426, omnibus-076daa $43 | $0 | — | fails: no Kalshi game found |
@@ -224,6 +285,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
@@ -234,6 +296,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $270, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $270, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $270, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Taranto: Florent Bax vs Gianluca Cadenasso → Gianluca Cadenasso | omnibus-076daa $270, Flaznorp $34 | $0 | — | fails: no Kalshi game found |
@@ -246,6 +309,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Portsmouth FC vs. Swansea City AFC: O/U 2.5 → Under | Flaznorp $587, omnibus-076daa $316 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Portsmouth FC vs. Swansea City AFC: O/U 0.5 → Over | Flaznorp $24, SnakeBall $23 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Portsmouth FC vs. Swansea City AFC: O/U 2.5 → Under | Flaznorp $577, omnibus-076daa $310 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Portsmouth FC vs. Swansea City AFC: O/U 0.5 → Over | Flaznorp $24, SnakeBall $24 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Portsmouth FC vs. Swansea City AFC: O/U 0.5 → Over | Flaznorp $24, SnakeBall $24 | $0 | — | fails: no Kalshi game found |
@@ -263,6 +328,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Wild vs. Flyers → Flyers | omnibus-076daa $724 | $0 | 39¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Wild vs. Flyers → Flyers | omnibus-076daa $724 | $0 | 39¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Wild vs. Flyers → Flyers | omnibus-076daa $724 | $0 | 39¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Wild vs. Flyers → Flyers | omnibus-076daa $724 | $0 | 39¢ YES | fails: only 1 vetted wallet |
@@ -273,6 +339,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Blues vs. Rangers → Blues | omnibus-076daa $984 | $0 | 48¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Blues vs. Rangers → Blues | omnibus-076daa $984 | $0 | 48¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Blues vs. Rangers → Blues | omnibus-076daa $984 | $0 | 48¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Blues vs. Rangers → Blues | omnibus-076daa $1.0k | $0 | 48¢ YES | fails: only 1 vetted wallet |
@@ -283,6 +350,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Ducks vs. Canucks → Canucks | omnibus-076daa $1.2k | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Ducks vs. Canucks → Canucks | omnibus-076daa $1.2k | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Ducks vs. Canucks → Canucks | omnibus-076daa $1.2k | $0 | 42¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Ducks vs. Canucks → Canucks | omnibus-076daa $1.2k | $0 | 42¢ YES | fails: only 1 vetted wallet |
@@ -293,18 +361,20 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $93, takeormake $55 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $93, takeormake $55 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $93, takeormake $55 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $91, takeormake $54 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $93, takeormake $55 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Rolex Paris Masters: Jan-Lennard Struff vs Arthur Gea → Arthur Gea | omnibus-076daa $92, takeormake $54 | $0 | — | fails: no Kalshi game found |
 
-### Chennai Open: Aliona Falei vs Magda Linette · starts Tue Nov 3, 11:30 AM
+### Chennai Open: Aliona Falei vs Magda Linette · starts Tue Nov 3, 12:00 PM
 
 - Mon Nov 2, 11:33 PM (hourly): Chennai Open: Aliona Falei vs Magda Linette: first seen: 2 vetted on Aliona Falei ($971), fails: no Kalshi game found
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Chennai Open: Aliona Falei vs Magda Linette → Aliona Falei | RN1 $954, UpTheBlues $17 | $50 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Chennai Open: Aliona Falei vs Magda Linette → Aliona Falei | RN1 $954, UpTheBlues $17 | $50 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Chennai Open: Aliona Falei vs Magda Linette → Aliona Falei | RN1 $954, UpTheBlues $17 | $50 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Chennai Open: Aliona Falei vs Magda Linette → Aliona Falei | RN1 $954, UpTheBlues $17 | $50 | — | fails: no Kalshi game found |
@@ -317,6 +387,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Hurricanes vs. Predators → Predators | HomeRunHazard $661 | $0 | 37¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Hurricanes vs. Predators → Predators | HomeRunHazard $661 | $0 | 37¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Hurricanes vs. Predators → Predators | HomeRunHazard $661 | $0 | 37¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Hurricanes vs. Predators → Predators | HomeRunHazard $661 | $0 | 37¢ YES | fails: only 1 vetted wallet |
@@ -327,8 +398,27 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits | SnakeBall $3 | $0 | 15¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits | SnakeBall $3 | $0 | 15¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits | SnakeBall $3 | $0 | 15¢ YES | fails: only 1 vetted wallet |
+
+### Feyenoord Rotterdam vs. FC Internazionale Milano - More Markets · starts Tue Nov 3, 8:00 PM
+
+- Tue Nov 3, 7:12 AM (hourly): Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5: SnakeBall joined Under (+$6)
+- Tue Nov 3, 7:12 AM (hourly): Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score: SnakeBall joined No (+$23)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | SnakeBall $6, Flaznorp $6 | $0 | — | fails: no Kalshi totals market |
+| Tue Nov 3, 7:12 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score → No | Flaznorp $27, SnakeBall $23 | $0 | — | fails: market type not supported |
+| Tue Nov 3, 6:13 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 6:13 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score → No | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 5:12 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 5:12 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score → No | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 4:22 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 4:22 AM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: Both Teams to Score → No | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Mon Nov 2, 11:59 PM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Feyenoord Rotterdam vs. FC Internazionale Milano: O/U 2.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
 
 ### Hampton Pirates vs. Georgia Tech Yellow Jackets · starts Wed Nov 4, 12:00 AM
 
@@ -336,6 +426,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Hampton Pirates vs. Georgia Tech Yellow Jackets → Hampton Pirates | SnakeBall $8 | $0 | 8¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Hampton Pirates vs. Georgia Tech Yellow Jackets → Hampton Pirates | SnakeBall $8 | $0 | 8¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Hampton Pirates vs. Georgia Tech Yellow Jackets → Hampton Pirates | SnakeBall $8 | $0 | 8¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Hampton Pirates vs. Georgia Tech Yellow Jackets → Hampton Pirates | SnakeBall $9 | $0 | 8¢ YES | fails: only 1 vetted wallet |
@@ -348,6 +439,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Villarreal CF vs. Paris Saint-Germain FC: Villarreal CF O/U 0.5 → Under | Flaznorp $29, SnakeBall $17 | $0 | — | fails: no Kalshi totals market |
+| Tue Nov 3, 7:12 AM | hourly | Villarreal CF vs. Paris Saint-Germain FC: Both Teams to Score → No | SnakeBall $30, Flaznorp $30 | $0 | — | fails: market type not supported |
 | Tue Nov 3, 6:13 AM | hourly | Villarreal CF vs. Paris Saint-Germain FC: Villarreal CF O/U 0.5 → Under | Flaznorp $29, SnakeBall $17 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 6:13 AM | hourly | Villarreal CF vs. Paris Saint-Germain FC: Both Teams to Score → No | SnakeBall $30, Flaznorp $30 | $0 | — | fails: market type not supported |
 | Tue Nov 3, 5:12 AM | hourly | Villarreal CF vs. Paris Saint-Germain FC: Paris Saint-Germain FC O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
@@ -370,6 +463,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 3.5 → Over | Flaznorp $331, SnakeBall $22 | $0 | — | fails: no Kalshi totals market |
+| Tue Nov 3, 7:12 AM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 5.5 → Over | SnakeBall $398, Flaznorp $130 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 6:13 AM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 3.5 → Over | Flaznorp $331, SnakeBall $22 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 6:13 AM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 5.5 → Over | SnakeBall $375, Flaznorp $120 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 5:12 AM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 3.5 → Over | Flaznorp $310, SnakeBall $21 | $0 | — | fails: no Kalshi totals market |
@@ -377,30 +472,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 3.5 → Over | Flaznorp $68, SnakeBall $21 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | LASK Linz vs. ŠK Slovan Bratislava: O/U 3.5 → Over | Flaznorp $68, SnakeBall $21 | $0 | — | fails: no Kalshi totals market |
 
-### Club Atlético de Madrid vs. FC Bayern München - More Markets · starts Tue Nov 3, 8:00 PM
-
-- Mon Nov 2, 11:33 PM (hourly): Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score: first seen: 2 vetted on No ($298), fails: no Kalshi game found
-- Mon Nov 2, 11:33 PM (hourly): Spread: FC Bayern München (-2.5): first seen: 2 vetted on FC Bayern München ($684), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $587, SnakeBall $25 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $238, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $226, Flaznorp $63 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $621, SnakeBall $27 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $226, Flaznorp $63 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $233, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Club Atlético de Madrid vs. FC Bayern München: Both Teams to Score → No | SnakeBall $233, Flaznorp $65 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Spread: FC Bayern München (-2.5) → FC Bayern München | Flaznorp $656, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
-
 ### CD Pamplona vs. SD Eibar - Exact Score · starts Tue Nov 3, 6:00 PM
 
 - Tue Nov 3, 6:13 AM (hourly): Exact Score: CD Pamplona 1 - 1 SD Eibar?: first seen: 2 vetted on No ($103), fails: no Kalshi game found
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Exact Score: CD Pamplona 1 - 1 SD Eibar? → No | Flaznorp $76, SnakeBall $27 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Exact Score: CD Pamplona 1 - 1 SD Eibar? → No | Flaznorp $76, SnakeBall $27 | $0 | — | fails: no Kalshi game found |
 
 ### Queens Park Rangers FC vs. Burnley FC · starts Tue Nov 3, 7:45 PM
@@ -409,6 +487,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will Queens Park Rangers FC win on 2026-11-03? → No | Flaznorp $1.1k, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Will Queens Park Rangers FC win on 2026-11-03? → No | Flaznorp $1.1k, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Will Queens Park Rangers FC win on 2026-11-03? → No | Flaznorp $1.1k, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will Queens Park Rangers FC win on 2026-11-03? → No | Flaznorp $1.1k, SnakeBall $28 | $0 | — | fails: no Kalshi game found |
@@ -422,6 +501,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Exact Score: Villarreal CF 0 - 2 Paris Saint-Germain FC? → No | Flaznorp $316, SnakeBall $40 | $0 | — | fails: market type not supported |
+| Tue Nov 3, 7:12 AM | hourly | Exact Score: Villarreal CF 0 - 3 Paris Saint-Germain FC? → No | SnakeBall $768, Flaznorp $319 | $0 | — | fails: Polymarket price 95¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 6:13 AM | hourly | Exact Score: Villarreal CF 0 - 2 Paris Saint-Germain FC? → No | Flaznorp $318, SnakeBall $40 | $0 | — | fails: market type not supported |
 | Tue Nov 3, 6:13 AM | hourly | Exact Score: Villarreal CF 0 - 3 Paris Saint-Germain FC? → No | SnakeBall $768, Flaznorp $319 | $0 | — | fails: Polymarket price 95¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 5:12 AM | hourly | Exact Score: Villarreal CF 0 - 2 Paris Saint-Germain FC? → No | Flaznorp $318, SnakeBall $40 | $0 | — | fails: market type not supported |
@@ -439,12 +520,15 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $42, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $40, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
 
 ### Buffalo vs. Miami (OH) · starts Wed Nov 4, 1:00 AM
 
+- Tue Nov 3, 7:12 AM (hourly): Spread: Miami (OH) (-5.5): first seen: 1 vetted on Buffalo ($47), fails: only 1 vetted wallet
+- Tue Nov 3, 7:12 AM (hourly): Spread: Miami (OH) (-4.5): Kalshi 46¢ → 45¢
 - Tue Nov 3, 6:13 AM (hourly): Spread: Miami (OH) (-4.5): Kalshi 45¢ → 46¢
 - Tue Nov 3, 5:12 AM (hourly): Buffalo vs. Miami (OH): O/U 45.5: all vetted wallets left Under
 - Tue Nov 3, 5:12 AM (hourly): Spread: Miami (OH) (-4.5): first seen: 1 vetted on Buffalo ($77), fails: only 1 vetted wallet
@@ -454,6 +538,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Miami (OH) (-5.5) → Buffalo | SnakeBall $47 | $0 | 46¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Buffalo vs. Miami (OH) → Miami (OH) | HomeRunHazard $672 | $56 | 69¢ YES | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Miami (OH) (-4.5) → Buffalo | SnakeBall $77 | $0 | 45¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Miami (OH) (-6.5) → Buffalo | SnakeBall $183 | $0 | 51¢ NO | fails: only 1 vetted wallet; Kalshi 51c vs leaders 48c |
 | Tue Nov 3, 6:13 AM | hourly | Buffalo vs. Miami (OH) → Miami (OH) | HomeRunHazard $672 | $56 | 69¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Spread: Miami (OH) (-4.5) → Buffalo | SnakeBall $77 | $0 | 46¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Spread: Miami (OH) (-6.5) → Buffalo | SnakeBall $179 | $0 | 51¢ NO | fails: only 1 vetted wallet |
@@ -471,6 +559,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes | SnakeBall $62 | $0 | 82¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes | SnakeBall $62 | $0 | 82¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 5:12 AM | hourly | Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes | SnakeBall $62 | $0 | 82¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Purdue Fort Wayne Mastodons vs. Duquesne Dukes → Duquesne Dukes | SnakeBall $54 | $0 | 82¢ YES | fails: only 1 vetted wallet |
@@ -482,6 +571,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 1 FC Bayern München? → No | SnakeBall $89, Flaznorp $59 | $0 | — | fails: no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Bayern München? → No | Flaznorp $301, SnakeBall $269 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 1 FC Bayern München? → No | SnakeBall $89, Flaznorp $59 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Bayern München? → No | Flaznorp $301, SnakeBall $269 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 1 FC Bayern München? → No | SnakeBall $89, Flaznorp $59 | $0 | — | fails: no Kalshi game found |
@@ -499,6 +590,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under | Flaznorp $158, SnakeBall $105 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under | Flaznorp $158, SnakeBall $105 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under | Flaznorp $154, SnakeBall $103 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Queens Park Rangers FC vs. Burnley FC: O/U 1.5 → Under | Flaznorp $154, SnakeBall $103 | $0 | — | fails: no Kalshi game found |
@@ -515,6 +607,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Ohio vs. Akron: O/U 49.5 → Over | HomeRunHazard $173 | $0 | 56¢ YES | fails: only 1 vetted wallet; Kalshi 56c vs leaders 53c |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Ohio (-13.5) → Ohio | HomeRunHazard $522, SnakeBall $140 | $0 | 53¢ YES | fails: Kalshi 53c vs leaders 47c |
+| Tue Nov 3, 7:12 AM | hourly | Ohio vs. Akron → Akron | SnakeBall $311 | $0 | 17¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 6:13 AM | hourly | Ohio vs. Akron: O/U 49.5 → Over | HomeRunHazard $173 | $0 | 56¢ YES | fails: only 1 vetted wallet; Kalshi 56c vs leaders 53c |
 | Tue Nov 3, 6:13 AM | hourly | Spread: Ohio (-13.5) → Ohio | HomeRunHazard $522, SnakeBall $140 | $0 | 53¢ YES | fails: Kalshi 53c vs leaders 47c |
 | Tue Nov 3, 6:13 AM | hourly | Ohio vs. Akron → Akron | SnakeBall $311 | $0 | 17¢ YES | fails: only 1 vetted wallet |
@@ -525,34 +620,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Ohio vs. Akron: O/U 49.5 → Over | HomeRunHazard $173 | $0 | 55¢ YES | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Spread: Ohio (-13.5) → Ohio | HomeRunHazard $517, SnakeBall $139 | $0 | 52¢ YES | fails: Kalshi 52c vs leaders 47c |
 
-### Villarreal CF vs. Paris Saint-Germain FC · starts Tue Nov 3, 8:00 PM
-
-- Tue Nov 3, 6:13 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now fails: Kalshi 44c vs leaders 41c
-- Tue Nov 3, 6:13 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 43¢ → 44¢
-- Tue Nov 3, 5:12 AM (hourly): Will Villarreal CF win on 2026-11-03?: Kalshi 21¢ → 22¢
-- Tue Nov 3, 5:12 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi 42¢ → 43¢
-- Tue Nov 3, 5:12 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: omnibus-076daa added $10.6k on No
-- Tue Nov 3, 4:22 AM (hourly): Will Villarreal CF win on 2026-11-03?: Kalshi matched at 21¢
-- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now passes
-- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Kalshi matched at 42¢
-- Tue Nov 3, 4:22 AM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: Flaznorp added $1.2k on No
-- Mon Nov 2, 11:59 PM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: now fails: no Kalshi game found
-- Mon Nov 2, 11:33 PM (hourly): Will Villarreal CF win on 2026-11-03?: first seen: 1 vetted on Yes ($267), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Will Paris Saint-Germain FC win on 2026-11-03?: first seen: 3 vetted on No ($20.2k), passes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $346 | $0 | 23¢ YES | fails: only 1 vetted wallet; Kalshi 23c vs leaders 19c |
-| Tue Nov 3, 6:13 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $29.8k, Flaznorp $3.0k, SnakeBall $591 | $0 | 44¢ NO | fails: Kalshi 44c vs leaders 41c |
-| Tue Nov 3, 5:12 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $346 | $0 | 22¢ YES | fails: only 1 vetted wallet; Kalshi 22c vs leaders 19c |
-| Tue Nov 3, 5:12 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $29.8k, Flaznorp $3.0k, SnakeBall $591 | $0 | 43¢ NO | passes |
-| Tue Nov 3, 4:22 AM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $331 | $0 | 21¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:22 AM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $19.2k, Flaznorp $3.0k, SnakeBall $578 | $0 | 42¢ NO | passes |
-| Mon Nov 2, 11:59 PM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $267 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $18.3k, Flaznorp $1.8k, SnakeBall $550 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Villarreal CF win on 2026-11-03? → Yes | Flaznorp $267 | $0 | 20¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-03? → No | omnibus-076daa $17.9k, Flaznorp $1.7k, SnakeBall $537 | $0 | 40¢ NO | passes |
-
 ### Manchester United FC vs. AS Roma - More Markets · starts Tue Nov 3, 8:00 PM
 
 - Tue Nov 3, 5:12 AM (hourly): Manchester United FC vs. AS Roma: Manchester United FC O/U 0.5: all vetted wallets left Over
@@ -560,6 +627,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under | SnakeBall $597, Flaznorp $58 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 6:13 AM | hourly | Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under | SnakeBall $608, Flaznorp $59 | $0 | — | fails: no Kalshi totals market |
 | Tue Nov 3, 5:12 AM | hourly | Manchester United FC vs. AS Roma: Manchester United FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 3, 5:12 AM | hourly | Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under | SnakeBall $602, Flaznorp $58 | $0 | — | fails: no Kalshi totals market |
@@ -569,12 +637,40 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Manchester United FC vs. AS Roma: Manchester United FC O/U 0.5 → Over | Flaznorp $133 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Manchester United FC vs. AS Roma: AS Roma O/U 1.5 → Under | SnakeBall $493 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
 
+### Galatasaray SK vs. VfB Stuttgart · starts Tue Nov 3, 5:45 PM
+
+- Tue Nov 3, 7:12 AM (hourly): Will VfB Stuttgart win on 2026-11-03?: Kalshi 69¢ → 70¢
+- Tue Nov 3, 5:12 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Kalshi 56¢ → 55¢
+- Tue Nov 3, 5:12 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Flaznorp added $4.4k on No
+- Tue Nov 3, 4:22 AM (hourly): Will VfB Stuttgart win on 2026-11-03?: Kalshi matched at 69¢
+- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: now passes
+- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Kalshi matched at 56¢
+- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: SnakeBall joined No (+$653)
+- Tue Nov 3, 4:22 AM (hourly): Will Galatasaray SK win on 2026-11-03?: Flaznorp added $1.4k on No
+- Mon Nov 2, 11:33 PM (hourly): Will Galatasaray SK win on 2026-11-03?: first seen: 1 vetted on No ($2.7k), fails: only 1 vetted wallet
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $494 | $0 | 70¢ NO | fails: only 1 vetted wallet; Kalshi 70c vs leaders 67c |
+| Tue Nov 3, 7:12 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $9.8k, SnakeBall $1.3k | $0 | 55¢ NO | passes |
+| Tue Nov 3, 6:13 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $494 | $0 | 69¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 6:13 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $8.6k, SnakeBall $629 | $0 | 55¢ NO | passes |
+| Tue Nov 3, 5:12 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $487 | $0 | 69¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 5:12 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $8.6k, SnakeBall $629 | $0 | 55¢ NO | passes |
+| Tue Nov 3, 4:22 AM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $487 | $0 | 69¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 4:22 AM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $4.1k, SnakeBall $653 | $0 | 56¢ NO | passes |
+| Mon Nov 2, 11:59 PM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $191 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $2.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Will VfB Stuttgart win on 2026-11-03? → No | Flaznorp $191 | $0 | 69¢ NO | fails: only 1 vetted wallet; Kalshi 69c vs leaders 65c |
+| Mon Nov 2, 11:33 PM | hourly | Will Galatasaray SK win on 2026-11-03? → No | Flaznorp $2.7k | $0 | 56¢ NO | fails: only 1 vetted wallet |
+
 ### Republican Senate seats after the 2026 midterm elections? · starts Tue Nov 3, 5:00 PM
 
 - Mon Nov 2, 11:33 PM (hourly): Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections?: first seen: 2 vetted on No ($3.2k), fails: no Kalshi game found
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.1k, BreakTheBank $123 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Will the Republican Party hold 47 or fewer Senate seats after the 2026 midterm elections? → No | ndb1 $3.0k, BreakTheBank $120 | $0 | — | fails: no Kalshi game found |
@@ -587,11 +683,45 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2910.3k, BreakTheBank $184.2k | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2872.3k, BreakTheBank $181.8k | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | 2026 Balance of Power: D Senate, D House → Yes | ndb1 $2834.3k, BreakTheBank $179.4k | $0 | — | fails: no Kalshi game found |
+
+### Taranto: Buvaysar Gadamauri vs Pierluigi Basile · starts Tue Nov 3, 4:00 PM
+
+- Tue Nov 3, 6:13 AM (hourly): Taranto: Buvaysar Gadamauri vs Pierluigi Basile: all vetted wallets left Buvaysar Gadamauri
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 6:13 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 5:12 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Taranto: Buvaysar Gadamauri vs Pierluigi Basile → Buvaysar Gadamauri | omnibus-076daa $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### CD Comerciantes Unidos vs. AD Tarma · starts Tue Nov 3, 8:00 PM
+
+- Tue Nov 3, 6:13 AM (hourly): Will AD Tarma win on 2026-11-03?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 6:13 AM | hourly | Will AD Tarma win on 2026-11-03? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 5:12 AM | hourly | Will AD Tarma win on 2026-11-03? → Yes | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Taipei: James McCabe vs Yanki Erel · starts Tue Nov 3, 7:00 AM
+
+- Tue Nov 3, 6:13 AM (hourly): Taipei: James McCabe vs Yanki Erel: all vetted wallets left James McCabe
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 6:13 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 5:12 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $287 | $21 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Taipei: James McCabe vs Yanki Erel → James McCabe | Flaznorp $43 | $19 | — | fails: only 1 vetted wallet; opposition 43%; no Kalshi game found |
 
 ### Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B · starts Tue Nov 3, 5:55 AM
 
@@ -654,6 +784,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Will ŠK Slovan Bratislava win on 2026-11-03? → No | Flaznorp $65 | $0 | 88¢ NO | fails: only 1 vetted wallet; Kalshi 88c vs leaders 85c |
 | Tue Nov 3, 6:13 AM | hourly | Will ŠK Slovan Bratislava win on 2026-11-03? → No | Flaznorp $65 | $0 | 88¢ NO | fails: only 1 vetted wallet; Kalshi 88c vs leaders 85c |
 | Tue Nov 3, 5:12 AM | hourly | Will LASK Linz win on 2026-11-03? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 3, 5:12 AM | hourly | Will ŠK Slovan Bratislava win on 2026-11-03? → No | Flaznorp $64 | $0 | 88¢ NO | fails: only 1 vetted wallet; Kalshi 88c vs leaders 85c |
@@ -2317,6 +2448,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 6:13 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 5:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:22 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
@@ -2355,6 +2487,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC | Will Shanghai Port FC win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - Exact Score | Exact Score: Newcastle United Jets 0 - 2 Shanghai Port FC? → No | only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 7:14 AM | Newcastle United Jets vs. Shanghai Port FC - More Markets | Newcastle United Jets vs. Shanghai Port FC: 1st Half O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu | Will FC Gifu win on 2026-11-03? → No | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 6:42 AM | FC Ryukyu vs. FC Gifu - More Markets | FC Ryukyu vs. FC Gifu: O/U 2.5 → Over | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 6:42 AM | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A | Counter-Strike: FaZe vs Team Falcons (BO3) - IEM Beijing Group A → FaZe | only 1 vetted wallet; no Kalshi game found |
@@ -2382,6 +2517,3 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:25 AM | Shōnan Bellmāre vs. Sagan Tosu - More Markets | Shōnan Bellmāre vs. Sagan Tosu: O/U 3.5 → Over | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Giravanz Kitakyushu vs. Reilac Shiga FC - Exact Score | Exact Score: Giravanz Kitakyushu 2 - 0 Reilac Shiga FC? → Yes | only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 4:25 AM | Ventforet Kōfu vs. Albirex Niigata - More Markets | Ventforet Kōfu vs. Albirex Niigata: 1st Half O/U 3.5 → Under | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Giravanz Kitakyushu vs. Reilac Shiga FC - More Markets | Spread: Giravanz Kitakyushu (-1.5) → Giravanz Kitakyushu | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Shōnan Bellmāre vs. Sagan Tosu | Will Shōnan Bellmāre win on 2026-11-03? → Yes | only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | Tegevajaro Miyazaki vs. Tochigi City FC - More Markets | Tegevajaro Miyazaki vs. Tochigi City FC: Both Teams to Score → No | only 1 vetted wallet; no Kalshi game found |
