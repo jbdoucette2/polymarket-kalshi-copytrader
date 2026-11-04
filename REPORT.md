@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 4, 6:11 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
+Updated Wed Nov 4, 7:15 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 
@@ -57,46 +57,252 @@ Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
+### RB Leipzig vs. Manchester City FC - More Markets · starts Wed Nov 4, 8:00 PM
 
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-2.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: all vetted wallets left Over
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-3.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-1.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: Kalshi 44¢ → 57¢
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: majority flipped to Thunder ($70 vs $0)
-- Wed Nov 4, 5:11 AM (hourly): Spread: Thunder (-3.5): Kalshi 55¢ → 57¢
-- Wed Nov 4, 5:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 49¢ → 50¢
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-1.5): first seen: 1 vetted on Cavaliers ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-3.5): first seen: 1 vetted on Cavaliers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-2.5): Kalshi 50¢ → 53¢
-- Wed Nov 4, 3:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 50¢ → 49¢
-- Wed Nov 4, 3:11 AM (hourly): Spread: Thunder (-2.5): first seen: 1 vetted on Cavaliers ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 7:15 AM (hourly): Spread: RB Leipzig (-1.5): all vetted wallets left RB Leipzig
+- Wed Nov 4, 7:15 AM (hourly): Spread: RB Leipzig (-2.5): all vetted wallets left RB Leipzig
+- Wed Nov 4, 1:11 AM (hourly): Spread: RB Leipzig (-2.5): back: 1 vetted on RB Leipzig ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market
+- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: O/U 6.5: all vetted wallets left Under
+- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5: all vetted wallets left Under
+- Wed Nov 4, 12:11 AM (hourly): Spread: Manchester City FC (-3.5): all vetted wallets left Manchester City FC
+- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): Spread: Manchester City FC (-1.5): all vetted wallets left RB Leipzig
+- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 3.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): Spread: RB Leipzig (-2.5): all vetted wallets left RB Leipzig
+- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 0.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: Both Teams to Score: all vetted wallets left No
+- Tue Nov 3, 10:14 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 4.5: all vetted wallets left Over
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $70 | $0 | 57¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 57¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 50¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 52¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 55¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 49¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 53¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
-| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 49¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $277 | $0 | 50¢ NO | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
-| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 50¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
-| Wed Nov 4, 1:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $80 | $40 | 44¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); opposition 50% |
+| Wed Nov 4, 7:15 AM | hourly | Spread: RB Leipzig (-1.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 7:15 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 6:11 AM | hourly | Spread: RB Leipzig (-1.5) → RB Leipzig | CUTJALENHURTS $1.6k | $0 | — | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Wed Nov 4, 5:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 5:11 AM | hourly | Spread: RB Leipzig (-1.5) → RB Leipzig | CUTJALENHURTS $1.6k | $0 | — | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Wed Nov 4, 4:13 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 3:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 2:17 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 1:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: O/U 6.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5 → Under | SnakeBall $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 6.5 → Under | SnakeBall $102 | $0 | — | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $101 | $0 | — | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $2.6k | $0 | — | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $324 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+
+### SK Slavia Praha vs. Arsenal FC - More Markets · starts Wed Nov 4, 8:00 PM
+
+- Wed Nov 4, 7:15 AM (hourly): Spread: SK Slavia Praha (-1.5): all vetted wallets left SK Slavia Praha
+- Wed Nov 4, 1:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5: all vetted wallets left Over
+- Wed Nov 4, 12:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5: all vetted wallets left Under
+- Wed Nov 4, 12:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 1.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: Both Teams to Score: all vetted wallets left No
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 5.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 2.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 3.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): Spread: Arsenal FC (-1.5): all vetted wallets left SK Slavia Praha
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 4.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): Spread: Arsenal FC (-2.5): all vetted wallets left Arsenal FC
+- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | CUTJALENHURTS $620 | $0 | — | fails: only 1 vetted wallet with $620 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
+| Wed Nov 4, 5:11 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | CUTJALENHURTS $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Wed Nov 4, 4:13 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | CUTJALENHURTS $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Wed Nov 4, 3:11 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | CUTJALENHURTS $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
+| Wed Nov 4, 2:17 AM | hourly | Spread: SK Slavia Praha (-1.5) → SK Slavia Praha | CUTJALENHURTS $620 | $0 | — | fails: only 1 vetted wallet with $620 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
+| Wed Nov 4, 1:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | omnibus-076daa $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Arsenal FC (-1.5) → SK Slavia Praha | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | SnakeBall $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | SnakeBall $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | omnibus-076daa $2.2k | $167 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | SnakeBall $71 | $6 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Arsenal FC (-1.5) → SK Slavia Praha | Flaznorp $147 | $0 | — | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Both Teams to Score → No | Flaznorp $356 | $0 | — | fails: only 1 vetted wallet with $356 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### AEK vs. Real Madrid CF - More Markets · starts Wed Nov 4, 5:45 PM
+
+- Wed Nov 4, 7:15 AM (hourly): AEK vs. Real Madrid CF: O/U 0.5: all vetted wallets left Under
+- Wed Nov 4, 1:11 AM (hourly): AEK vs. Real Madrid CF: O/U 0.5: back: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market
+- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-2.5): all vetted wallets left Real Madrid CF
+- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-1.5): all vetted wallets left AEK
+- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5: all vetted wallets left Under
+- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-3.5): all vetted wallets left Real Madrid CF
+- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5: all vetted wallets left Under
+- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 6.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: 1st Half O/U 1.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 8.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): Spread: Real Madrid CF (-4.5): all vetted wallets left AEK
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 2.5: all vetted wallets left Under
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK O/U 1.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5: all vetted wallets left Over
+- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 0.5: all vetted wallets left Over
+- Tue Nov 3, 10:14 PM (hourly): Spread: Real Madrid CF (-1.5): Flaznorp added $1.3k on AEK
+- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-2.5): first seen: 2 vetted on Real Madrid CF ($241), fails: no Kalshi spread market
+- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-1.5): first seen: 2 vetted on AEK ($634), fails: no Kalshi spread market
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 5:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 4:13 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 3:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 2:17 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 1:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
+| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-1.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | SnakeBall $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $675 | $0 | — | fails: only 1 vetted wallet with $675 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $35, Flaznorp $25 | $0 | — | fails: only 2 vetted wallets with $59 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | Flaznorp $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: only 2 vetted wallets with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet with $309 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $622 | $0 | — | fails: only 1 vetted wallet with $622 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $1.9k, SnakeBall $26 | $0 | — | fails: only 2 vetted wallets with $1.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $593, SnakeBall $26 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $213, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
+| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
+| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
 
 ### Raptors vs. Nuggets · starts Thu Nov 5, 2:00 AM
 
@@ -113,6 +319,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
@@ -132,6 +339,47 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 2:17 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 40¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $185 | $0 | 50¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Hornets vs. Nets · starts Thu Nov 5, 12:30 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Spread: Hornets (-6.5): all vetted wallets left Nets
+- Wed Nov 4, 6:11 AM (hourly): Hornets vs. Nets: O/U 212.5: all vetted wallets left Over
+- Wed Nov 4, 4:13 AM (hourly): Spread: Hornets (-6.5): first seen: 1 vetted on Nets ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Hornets vs. Nets: first seen: 1 vetted on Hornets ($326), fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 1:11 AM (hourly): Hornets vs. Nets: O/U 212.5: first seen: 1 vetted on Over ($63), fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Hornets (-6.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Trail Blazers vs. Suns · starts Thu Nov 5, 2:00 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $2.5k on Suns
+- Wed Nov 4, 3:11 AM (hourly): Trail Blazers vs. Suns: Kalshi 42¢ → 43¢
+- Wed Nov 4, 2:17 AM (hourly): Trail Blazers vs. Suns: first seen: 1 vetted on Suns ($627), fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $3.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $879 | $0 | 43¢ YES | fails: only 1 vetted wallet with $879 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $875 | $0 | 43¢ YES | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $849 | $0 | 43¢ YES | fails: only 1 vetted wallet with $849 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $627 | $0 | 42¢ YES | fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### 76ers vs. Pistons · starts Thu Nov 5, 12:00 AM
 
@@ -153,6 +401,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.5k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-1.5) → 76ers | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 6:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
@@ -177,6 +426,66 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 1:11 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons → Pistons | omnibus-076daa $39 | $0 | 53¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons: O/U 219.5 → Over | omnibus-076daa $105 | $0 | 50¢ YES | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-2.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: all vetted wallets left Over
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-3.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-1.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: Kalshi 44¢ → 57¢
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: majority flipped to Thunder ($70 vs $0)
+- Wed Nov 4, 5:11 AM (hourly): Spread: Thunder (-3.5): Kalshi 55¢ → 57¢
+- Wed Nov 4, 5:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 49¢ → 50¢
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-1.5): first seen: 1 vetted on Cavaliers ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-3.5): first seen: 1 vetted on Cavaliers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-2.5): Kalshi 50¢ → 53¢
+- Wed Nov 4, 3:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 50¢ → 49¢
+- Wed Nov 4, 3:11 AM (hourly): Spread: Thunder (-2.5): first seen: 1 vetted on Cavaliers ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $74 | $0 | 57¢ YES | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $70 | $0 | 57¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 57¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 50¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 52¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 55¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 49¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 53¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
+| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 49¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $277 | $0 | 50¢ NO | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
+| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 50¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
+| Wed Nov 4, 1:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $80 | $40 | 44¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); opposition 50% |
+
+### Jazz vs. Pelicans · starts Thu Nov 5, 1:00 AM
+
+- Wed Nov 4, 7:15 AM (hourly): Jazz vs. Pelicans: Kalshi 35¢ → 34¢
+- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: Kalshi 34¢ → 35¢
+- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard left
+- Wed Nov 4, 5:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard joined Jazz (+$633)
+- Wed Nov 4, 1:11 AM (hourly): Jazz vs. Pelicans: first seen: 1 vetted on Jazz ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 7:15 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 35¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Jazz vs. Pelicans → Jazz | HomeRunHazard $633, takeormake $9 | $0 | 34¢ YES | fails: only 2 vetted wallets with $642 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Timberwolves vs. Rockets · starts Thu Nov 5, 1:30 AM
 
@@ -253,31 +562,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 2:17 AM | hourly | Hawks vs. Wizards: O/U 232.5 → Over | HomeRunHazard $768 | $0 | 50¢ YES | fails: only 1 vetted wallet with $768 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 1:11 AM | hourly | Spread: Wizards (-1.5) → Hawks | HomeRunHazard $62 | $0 | 59¢ NO | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 1:11 AM | hourly | Hawks vs. Wizards: O/U 232.5 → Over | HomeRunHazard $348 | $0 | 50¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Hornets vs. Nets · starts Thu Nov 5, 12:30 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Hornets (-6.5): all vetted wallets left Nets
-- Wed Nov 4, 6:11 AM (hourly): Hornets vs. Nets: O/U 212.5: all vetted wallets left Over
-- Wed Nov 4, 4:13 AM (hourly): Spread: Hornets (-6.5): first seen: 1 vetted on Nets ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Hornets vs. Nets: first seen: 1 vetted on Hornets ($326), fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 1:11 AM (hourly): Hornets vs. Nets: O/U 212.5: first seen: 1 vetted on Over ($63), fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Hornets (-6.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Mavericks vs. Spurs · starts Thu Nov 5, 2:30 AM
 
@@ -418,36 +702,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 3:11 AM | hourly | Pacers vs. Grizzlies → Pacers | HomeRunHazard $90 | $0 | 30¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 2:17 AM | hourly | Pacers vs. Grizzlies → Pacers | HomeRunHazard $90 | $0 | 30¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 1:11 AM | hourly | Pacers vs. Grizzlies → Pacers | HomeRunHazard $90 | $0 | 30¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Trail Blazers vs. Suns · starts Thu Nov 5, 2:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $2.5k on Suns
-- Wed Nov 4, 3:11 AM (hourly): Trail Blazers vs. Suns: Kalshi 42¢ → 43¢
-- Wed Nov 4, 2:17 AM (hourly): Trail Blazers vs. Suns: first seen: 1 vetted on Suns ($627), fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $3.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $879 | $0 | 43¢ YES | fails: only 1 vetted wallet with $879 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $875 | $0 | 43¢ YES | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $849 | $0 | 43¢ YES | fails: only 1 vetted wallet with $849 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $627 | $0 | 42¢ YES | fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Jazz vs. Pelicans · starts Thu Nov 5, 1:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: Kalshi 34¢ → 35¢
-- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard left
-- Wed Nov 4, 5:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard joined Jazz (+$633)
-- Wed Nov 4, 1:11 AM (hourly): Jazz vs. Pelicans: first seen: 1 vetted on Jazz ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 35¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Jazz vs. Pelicans → Jazz | HomeRunHazard $633, takeormake $9 | $0 | 34¢ YES | fails: only 2 vetted wallets with $642 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Heat vs. Clippers · starts Thu Nov 5, 3:30 AM
 
@@ -798,67 +1052,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | Flaznorp $398 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | Flaznorp $342, omnibus-076daa $113 | $0 | — | fails: no Kalshi game found |
-
-### SK Slavia Praha vs. Arsenal FC - More Markets · starts Wed Nov 4, 8:00 PM
-
-- Wed Nov 4, 1:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5: all vetted wallets left Over
-- Wed Nov 4, 12:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 1.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: Both Teams to Score: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 5.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 2.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 3.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Spread: Arsenal FC (-1.5): all vetted wallets left SK Slavia Praha
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: O/U 4.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Spread: Arsenal FC (-2.5): all vetted wallets left Arsenal FC
-- Tue Nov 3, 11:12 PM (hourly): SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | omnibus-076daa $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Arsenal FC (-1.5) → SK Slavia Praha | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | SnakeBall $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | SnakeBall $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | omnibus-076daa $2.2k | $167 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Under | SnakeBall $71 | $6 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Arsenal FC (-1.5) → SK Slavia Praha | Flaznorp $147 | $0 | — | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Both Teams to Score → No | Flaznorp $356 | $0 | — | fails: only 1 vetted wallet with $356 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 0.5 → Over | SnakeBall $73 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: Arsenal FC O/U 3.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: SK Slavia Praha 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 4.5 → Over | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Arsenal FC (-2.5) → Arsenal FC | Flaznorp $116 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 5.5 → Over | Flaznorp $169 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 1.5 → Under | Flaznorp $249 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### AEK vs. Real Madrid CF · starts Wed Nov 4, 5:45 PM
 
@@ -1425,71 +1618,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Cardiff City FC vs. West Ham United FC: Both Teams to Score → No | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | Flaznorp $343, SnakeBall $81 | $0 | — | fails: no Kalshi game found |
 
-### RB Leipzig vs. Manchester City FC - More Markets · starts Wed Nov 4, 8:00 PM
-
-- Wed Nov 4, 1:11 AM (hourly): Spread: RB Leipzig (-2.5): back: 1 vetted on RB Leipzig ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market
-- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: O/U 6.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Spread: Manchester City FC (-3.5): all vetted wallets left Manchester City FC
-- Wed Nov 4, 12:11 AM (hourly): RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Spread: Manchester City FC (-1.5): all vetted wallets left RB Leipzig
-- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 3.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Spread: RB Leipzig (-2.5): all vetted wallets left RB Leipzig
-- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): RB Leipzig vs. Manchester City FC: Both Teams to Score: all vetted wallets left No
-- Tue Nov 3, 10:14 PM (hourly): RB Leipzig vs. Manchester City FC: O/U 4.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 5:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 4:13 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 3:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 2:17 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 1:11 AM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | CUTJALENHURTS $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: O/U 6.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: RB Leipzig O/U 0.5 → Under | SnakeBall $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 6.5 → Under | SnakeBall $102 | $0 | — | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $101 | $0 | — | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $2.6k | $0 | — | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $324 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: Manchester City FC O/U 1.5 → Under | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Manchester City FC (-3.5) → Manchester City FC | SnakeBall $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 4.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: RB Leipzig (-2.5) → RB Leipzig | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: Both Teams to Score → No | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: 1st Half O/U 1.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 0.5 → Over | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | RB Leipzig vs. Manchester City FC: O/U 3.5 → Over | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Manchester City FC (-1.5) → RB Leipzig | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-
 ### PSV vs. Club Brugge KV - Exact Score · starts Wed Nov 4, 8:00 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Exact Score: PSV 0 - 0 Club Brugge KV?: all vetted wallets left No
@@ -1722,112 +1850,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 7:17 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 6:13 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-
-### AEK vs. Real Madrid CF - More Markets · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 1:11 AM (hourly): AEK vs. Real Madrid CF: O/U 0.5: back: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-2.5): all vetted wallets left Real Madrid CF
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-1.5): all vetted wallets left AEK
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-3.5): all vetted wallets left Real Madrid CF
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 6.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: 1st Half O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 8.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Spread: Real Madrid CF (-4.5): all vetted wallets left AEK
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 2.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 10:14 PM (hourly): Spread: Real Madrid CF (-1.5): Flaznorp added $1.3k on AEK
-- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-2.5): first seen: 2 vetted on Real Madrid CF ($241), fails: no Kalshi spread market
-- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-1.5): first seen: 2 vetted on AEK ($634), fails: no Kalshi spread market
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 5:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 4:13 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 3:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 2:17 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 1:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-1.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | SnakeBall $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $675 | $0 | — | fails: only 1 vetted wallet with $675 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $35, Flaznorp $25 | $0 | — | fails: only 2 vetted wallets with $59 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | Flaznorp $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: only 2 vetted wallets with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet with $309 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $622 | $0 | — | fails: only 1 vetted wallet with $622 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $1.9k, SnakeBall $26 | $0 | — | fails: only 2 vetted wallets with $1.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $593, SnakeBall $26 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $213, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
 
 ### AEK vs. Real Madrid CF - Exact Score · starts Wed Nov 4, 5:45 PM
 
@@ -8134,7 +8156,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | --- | --- | --- | --- | --- |
 | HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-0 (8 pending) | benched |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 1-0 (4 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-2 (28 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-3 (29 pending) | benched |
 
 ## Recent skips
 
