@@ -1,46 +1,6 @@
 {
-  "updated": "2026-11-04T00:11:07Z",
+  "updated": "2026-11-04T01:11:19Z",
   "games": [
-    {
-      "event_slug": "nhl-edm-nj-2026-11-03",
-      "game": "Oilers vs. Devils",
-      "start": "2026-11-04T00:30:00Z",
-      "check_at": "2026-11-04T00:15:00Z",
-      "passing": 0,
-      "near": 4,
-      "best": "Oilers vs. Devils: O/U 4.5 → Over ($346, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-car-nsh-2026-11-03",
-      "game": "Hurricanes vs. Predators",
-      "start": "2026-11-04T01:00:00Z",
-      "check_at": "2026-11-04T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Hurricanes vs. Predators → Hurricanes ($13.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-buf-miaoh-2026-11-03",
-      "game": "Buffalo vs. Miami (OH)",
-      "start": "2026-11-04T01:00:00Z",
-      "check_at": "2026-11-04T00:45:00Z",
-      "passing": 2,
-      "near": 5,
-      "best": "Buffalo vs. Miami (OH): O/U 45.5 → Under ($12.8k, 2 wallets)",
-      "status": "passes"
-    },
-    {
-      "event_slug": "cbb-sdkst-kanst-2026-11-03",
-      "game": "South Dakota State Jackrabbits vs. Kansas State Wildcats",
-      "start": "2026-11-04T01:00:00Z",
-      "check_at": "2026-11-04T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "South Dakota State Jackrabbits vs. Kansas State Wildcats → South Dakota State Jackrabbits ($130, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nhl-ana-van-2026-11-03",
       "game": "Ducks vs. Canucks",
@@ -48,38 +8,18 @@
       "check_at": "2026-11-04T01:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Ducks vs. Canucks → Canucks ($2.4k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $2.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Ducks vs. Canucks: O/U 6.5 → Over ($2.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "ucl-aek1-rma-2026-11-04",
-      "game": "AEK vs. Real Madrid CF",
-      "start": "2026-11-04T17:45:00Z",
-      "check_at": "2026-11-04T17:30:00Z",
+      "event_slug": "cbb-csufl-sdst-2026-11-03",
+      "game": "Cal State Fullerton Titans vs. San Diego State Aztecs",
+      "start": "2026-11-04T03:00:00Z",
+      "check_at": "2026-11-04T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Real Madrid CF win on 2026-11-04? → No ($11, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-por-nap-2026-11-04",
-      "game": "FC Porto vs. SSC Napoli",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will FC Porto win on 2026-11-04? → No ($1.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-bvb-bet-2026-11-04",
-      "game": "BV Borussia 09 Dortmund vs. Real Betis Balompié",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes ($322, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cal State Fullerton Titans vs. San Diego State Aztecs → Cal State Fullerton Titans ($28, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phi-det-2026-11-04",
@@ -87,9 +27,59 @@
       "start": "2026-11-05T00:00:00Z",
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
+      "near": 3,
+      "best": "76ers vs. Pistons → 76ers ($1.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-atl-was-2026-11-04",
+      "game": "Hawks vs. Wizards",
+      "start": "2026-11-05T00:00:00Z",
+      "check_at": "2026-11-04T23:45:00Z",
+      "passing": 0,
       "near": 2,
-      "best": "76ers vs. Pistons: O/U 219.5 → Over ($105, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hawks vs. Wizards: O/U 232.5 → Over ($348, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-chi-nyk-2026-11-04",
+      "game": "Bulls vs. Knicks",
+      "start": "2026-11-05T00:30:00Z",
+      "check_at": "2026-11-05T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Bulls vs. Knicks → Knicks ($184, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-cha-bkn-2026-11-04",
+      "game": "Hornets vs. Nets",
+      "start": "2026-11-05T00:30:00Z",
+      "check_at": "2026-11-05T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hornets vs. Nets: O/U 212.5 → Over ($63, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-uta-nop-2026-11-04",
+      "game": "Jazz vs. Pelicans",
+      "start": "2026-11-05T01:00:00Z",
+      "check_at": "2026-11-05T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Jazz vs. Pelicans → Jazz ($9, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-ind-mem-2026-11-04",
+      "game": "Pacers vs. Grizzlies",
+      "start": "2026-11-05T01:00:00Z",
+      "check_at": "2026-11-05T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Pacers vs. Grizzlies → Pacers ($90, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
