@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T04:13:39Z",
+  "updated": "2026-11-04T05:11:10Z",
   "games": [
     {
       "event_slug": "nba-phi-det-2026-11-04",
@@ -32,6 +32,16 @@
       "status": "fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-mil-bos-2026-11-04",
+      "game": "Bucks vs. Celtics",
+      "start": "2026-11-05T00:30:00Z",
+      "check_at": "2026-11-05T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Celtics (-12.5) → Bucks ($841, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-chi-nyk-2026-11-04",
       "game": "Bulls vs. Knicks",
       "start": "2026-11-05T00:30:00Z",
@@ -42,24 +52,14 @@
       "status": "fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-mil-bos-2026-11-04",
-      "game": "Bucks vs. Celtics",
-      "start": "2026-11-05T00:30:00Z",
-      "check_at": "2026-11-05T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Bucks vs. Celtics: O/U 221.5 → Under ($29, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nba-uta-nop-2026-11-04",
       "game": "Jazz vs. Pelicans",
       "start": "2026-11-05T01:00:00Z",
       "check_at": "2026-11-05T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Jazz vs. Pelicans → Jazz ($8, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Jazz vs. Pelicans → Jazz ($642, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $642 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cle-okc-2026-11-04",
@@ -78,8 +78,8 @@
       "check_at": "2026-11-05T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Pacers vs. Grizzlies → Pacers ($87, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Pacers vs. Grizzlies → Pacers ($92, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-min-hou-2026-11-04",
@@ -87,9 +87,9 @@
       "start": "2026-11-05T01:30:00Z",
       "check_at": "2026-11-05T01:15:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Timberwolves vs. Rockets → Timberwolves ($739, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "Spread: Rockets (-8.5) → Timberwolves ($1.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-tor-den-2026-11-04",
@@ -98,8 +98,8 @@
       "check_at": "2026-11-05T01:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spread: Nuggets (-7.5) → Nuggets ($85, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Nuggets (-7.5) → Nuggets ($86, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-por-phx-2026-11-04",
@@ -108,8 +108,8 @@
       "check_at": "2026-11-05T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Trail Blazers vs. Suns → Suns ($875, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Trail Blazers vs. Suns → Suns ($879, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $879 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-dal-sas-2026-11-04",
@@ -118,8 +118,8 @@
       "check_at": "2026-11-05T02:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Mavericks vs. Spurs: O/U 225.5 → Over ($157, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Mavericks vs. Spurs: O/U 225.5 → Over ($158, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
