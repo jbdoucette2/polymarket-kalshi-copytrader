@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 4, 12:11 AM. Bankroll **$79.29** (start $100): $69.43 cash + open trades at cost.
+Updated Wed Nov 4, 12:54 AM. Bankroll **$79.29** (start $100): $69.43 cash + open trades at cost.
 
 Record: 23 won, 19 lost, 3 sold early. Realized P&L $-20.71. Open: 1.
 
@@ -1304,6 +1304,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Buffalo vs. Miami (OH) · starts Wed Nov 4, 1:00 AM
 
+- Wed Nov 4, 12:54 AM (verify): Buffalo vs. Miami (OH): O/U 45.5: 15-min check: still passes (2 wallets, $13.5k for vs $0 against); holding
 - Wed Nov 4, 12:11 AM (pregame): Spread: Miami (OH) (-4.5): Kalshi 45¢ → 44¢
 - Wed Nov 4, 12:11 AM (pregame): Spread: Miami (OH) (-4.5): SnakeBall left
 - Wed Nov 4, 12:11 AM (pregame): Spread: Miami (OH) (-6.5): back: 1 vetted on Buffalo ($3.0k), fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+)
