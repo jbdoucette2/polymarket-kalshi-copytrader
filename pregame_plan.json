@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:15:59Z",
+  "updated": "2026-11-04T16:35:28Z",
   "games": [
     {
       "event_slug": "nba-phi-det-2026-11-04",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
       "near": 6,
-      "best": "76ers vs. Pistons → Pistons ($9.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "76ers vs. Pistons → Pistons ($9.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-atl-was-2026-11-04",
@@ -47,19 +47,9 @@
       "start": "2026-11-05T01:00:00Z",
       "check_at": "2026-11-05T00:45:00Z",
       "passing": 0,
-      "near": 5,
-      "best": "Cavaliers vs. Thunder → Thunder ($6.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-ind-mem-2026-11-04",
-      "game": "Pacers vs. Grizzlies",
-      "start": "2026-11-05T01:00:00Z",
-      "check_at": "2026-11-05T00:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Pacers vs. Grizzlies: O/U 228.5 → Under ($238, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Spread: Thunder (-3.5) → Cavaliers ($220, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-uta-nop-2026-11-04",
@@ -72,12 +62,22 @@
       "status": "fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-ind-mem-2026-11-04",
+      "game": "Pacers vs. Grizzlies",
+      "start": "2026-11-05T01:00:00Z",
+      "check_at": "2026-11-05T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Pacers vs. Grizzlies: O/U 230.5 → Over ($59, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-min-hou-2026-11-04",
       "game": "Timberwolves vs. Rockets",
       "start": "2026-11-05T01:30:00Z",
       "check_at": "2026-11-05T01:15:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Spread: Rockets (-6.5) → Rockets ($29, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -98,8 +98,8 @@
       "check_at": "2026-11-05T01:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Nuggets (-5.5) → Raptors ($174, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $174 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Nuggets (-5.5) → Raptors ($177, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
