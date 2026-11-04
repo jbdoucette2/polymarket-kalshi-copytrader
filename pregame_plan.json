@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:35:28Z",
+  "updated": "2026-11-04T17:15:01Z",
   "games": [
     {
       "event_slug": "nba-phi-det-2026-11-04",
@@ -7,9 +7,9 @@
       "start": "2026-11-05T00:00:00Z",
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
-      "near": 6,
-      "best": "76ers vs. Pistons → Pistons ($9.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 7,
+      "best": "76ers vs. Pistons → Pistons ($9.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-atl-was-2026-11-04",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Hawks (-2.5) → Hawks ($406, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $406 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Hawks (-2.5) → Hawks ($408, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $408 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cha-bkn-2026-11-04",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-05T00:15:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Hornets vs. Nets: O/U 212.5 → Over ($36.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hornets vs. Nets: O/U 212.5 → Over ($42.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $42.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-chi-nyk-2026-11-04",
@@ -37,7 +37,7 @@
       "start": "2026-11-05T00:30:00Z",
       "check_at": "2026-11-05T00:15:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Bulls vs. Knicks: O/U 234.5 → Over ($10.4k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $10.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -47,9 +47,9 @@
       "start": "2026-11-05T01:00:00Z",
       "check_at": "2026-11-05T00:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Spread: Thunder (-3.5) → Cavaliers ($220, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Cavaliers vs. Thunder: O/U 228.5 → Over ($15, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-uta-nop-2026-11-04",
