@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 4, 8:11 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
+Updated Wed Nov 4, 9:11 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 
@@ -73,6 +73,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 37¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 37¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | none | $0 | — | fails: no vetted wallets hold it now |
@@ -97,6 +98,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Hornets vs. Nets · starts Thu Nov 5, 12:30 AM
 
+- Wed Nov 4, 9:11 AM (hourly): Hornets vs. Nets: Kalshi 60¢ → 61¢
 - Wed Nov 4, 6:11 AM (hourly): Spread: Hornets (-6.5): all vetted wallets left Nets
 - Wed Nov 4, 6:11 AM (hourly): Hornets vs. Nets: O/U 212.5: all vetted wallets left Over
 - Wed Nov 4, 4:13 AM (hourly): Spread: Hornets (-6.5): first seen: 1 vetted on Nets ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
@@ -105,6 +107,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 61¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Hornets (-6.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
@@ -124,12 +127,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Trail Blazers vs. Suns · starts Thu Nov 5, 2:00 AM
 
+- Wed Nov 4, 9:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $1.4k on Suns
 - Wed Nov 4, 6:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $2.5k on Suns
 - Wed Nov 4, 3:11 AM (hourly): Trail Blazers vs. Suns: Kalshi 42¢ → 43¢
 - Wed Nov 4, 2:17 AM (hourly): Trail Blazers vs. Suns: first seen: 1 vetted on Suns ($627), fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $5.5k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.1k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $3.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -158,6 +163,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.7k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.7k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.5k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
@@ -187,6 +193,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
 
+- Wed Nov 4, 9:11 AM (hourly): Cavaliers vs. Thunder: monkeymashingkeyboard added $2.5k on Thunder
 - Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-2.5): all vetted wallets left Cavaliers
 - Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: all vetted wallets left Over
 - Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-3.5): all vetted wallets left Cavaliers
@@ -204,6 +211,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $3.4k | $0 | 57¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $919 | $0 | 57¢ YES | fails: only 1 vetted wallet with $919 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $74 | $0 | 57¢ YES | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
@@ -238,6 +246,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 8:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:15 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 35¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1130,12 +1139,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Buriram United vs. Kashima Antlers · starts Wed Nov 4, 12:15 PM
 
+- Wed Nov 4, 9:11 AM (hourly): Will Kashima Antlers win on 2026-11-04?: back: 1 vetted on No ($119), fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
 - Wed Nov 4, 1:11 AM (hourly): Will Kashima Antlers win on 2026-11-04?: all vetted wallets left No
 - Tue Nov 3, 11:12 PM (hourly): Will Buriram United win on 2026-11-04?: all vetted wallets left Yes
 - Tue Nov 3, 1:16 PM (hourly): Will Kashima Antlers win on 2026-11-04?: first seen: 2 vetted on No ($67), fails: no Kalshi game found
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 9:11 AM | hourly | Will Kashima Antlers win on 2026-11-04? → No | RN1 $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 4, 1:11 AM | hourly | Will Kashima Antlers win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 12:11 AM | hourly | Will Kashima Antlers win on 2026-11-04? → No | omnibus-076daa $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | Will Buriram United win on 2026-11-04? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
@@ -8161,9 +8172,9 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-0 (8 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-0 (9 pending) | benched |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 1-0 (5 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-3 (30 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-3 (33 pending) | benched |
 
 ## Recent skips
 
