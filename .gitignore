@@ -11,3 +11,4 @@ STOP
 # Tracker data files are regenerated every run and uploaded to the artifact
 tracker*/
 next_check*.json
+*.db-journal

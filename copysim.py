@@ -106,12 +106,21 @@ def log(msg):
 
 FAILED = []   # URLs that failed this cycle; missing data must not read as "the leaders left"
 KALSHI_GAP = 0.2   # seconds between Kalshi requests; its public API rate-limits bursts
+KALSHI_WAIT_BUDGET = 120   # seconds of rate-limit waiting per cycle; after that Kalshi is skipped so the run still finishes
 _k_last = [0.0]
+_k_gap = [KALSHI_GAP]      # grows after each 429, reset every cycle
+_k_waited = [0.0]
+
+def reset_kalshi_pacing():
+    _k_gap[0], _k_waited[0] = KALSHI_GAP, 0.0
 
 def get(url, **params):
+    kal = url.startswith(KAL)
     for attempt in range(5):   # rate limits get 5 tries with growing waits; other errors get 3
-        if url.startswith(KAL):
-            time.sleep(max(0.0, _k_last[0] + KALSHI_GAP - time.time()))
+        if kal:
+            if _k_waited[0] >= KALSHI_WAIT_BUDGET:
+                FAILED.append(url); return None
+            time.sleep(max(0.0, _k_last[0] + _k_gap[0] - time.time()))
             _k_last[0] = time.time()
         try:
             r = S.get(url, params=params, timeout=30)
@@ -119,7 +128,15 @@ def get(url, **params):
                 return None
             if r.status_code == 429:
                 wait = r.headers.get("Retry-After", "")
-                time.sleep(float(wait) if wait.isdigit() else 3 * 2 ** attempt); continue
+                wait = min(float(wait) if wait.isdigit() else 3 * 2 ** attempt, 30)
+                if kal:
+                    _k_gap[0] = min(_k_gap[0] * 2, 2.0)
+                    if _k_waited[0] + wait > KALSHI_WAIT_BUDGET:
+                        _k_waited[0] = KALSHI_WAIT_BUDGET
+                        log(f"Kalshi rate limit: waited {KALSHI_WAIT_BUDGET}s this run, skipping the rest of its calls")
+                        FAILED.append(url); return None
+                    _k_waited[0] += wait
+                time.sleep(wait); continue
             if r.status_code == 410:
                 log(f"API retired: {url} -> {r.text[:200]}"); return None
             r.raise_for_status()
@@ -1304,7 +1321,7 @@ def report(c):
 def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
     """One pull of positions, then exits, the hourly snapshot + plan and/or the pre-game decision, and settlement.
     Only the pre-game decision opens trades."""
-    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
+    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear(); reset_kalshi_pacing()
     refresh_pool(c)
     markets = consensus(c)
     if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
@@ -1349,12 +1366,12 @@ def verify(c):
         if not started:
             log(f"nothing due: no open trade starts within {VERIFY_AHEAD_MIN} min and none is in progress")
             return
-        _ev_cache.clear(); _espn_cache.clear(); FAILED.clear()
+        _ev_cache.clear(); _espn_cache.clear(); FAILED.clear(); reset_kalshi_pacing()
         settle(c)
         write_report(c)
         log(f"scores refreshed: {len(started)} open trade(s) in progress")
         return
-    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear()
+    _ev_cache.clear(); _espn_cache.clear(); _k_cache.clear(); _kg_cache.clear(); FAILED.clear(); reset_kalshi_pacing()
     refresh_pool(c)
     markets = consensus(c)
     if not c.execute("SELECT 1 FROM pool").fetchone() or any("/v2/positions" in u for u in FAILED):
