@@ -1239,9 +1239,10 @@ def write_tracker_files(c, d):
         "overview": [dict(updated=d["updated"], mode=d["mode"], start=d["start"], equity=s["equity"], cash=s["cash"],
                           realized_pnl=s["pnl"], won=s["won"], lost=s["lost"], sold=s["sold"], open=s["open"],
                           at_risk=d["at_risk"], open_value=d["open_value"], stake=d["stake"],
-                          timeouts=[dict(name=t["name"], reason=t["reason"], since=t["since"], released=t["released"],
-                                         note=t["note"], shadow_won=t["shadow_won"], shadow_n=t["shadow_n"],
-                                         shadow_pending=t["shadow_pending"]) for t in d["timeouts"]], window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
+                          # JSON text, not a nested list: the dashboard's file loader keeps flat cells only
+                          timeouts=json.dumps([dict(name=t["name"], reason=t["reason"], since=t["since"], released=t["released"],
+                                                    note=t["note"], shadow_won=t["shadow_won"], shadow_n=t["shadow_n"],
+                                                    shadow_pending=t["shadow_pending"]) for t in d["timeouts"]]), window=f"{d['rules']['window'][0]}-{d['rules']['window'][1]}")],
         "trades": [dict(id=t["id"], entered=t["ts"], starts=t["start"], game=t["game"], market=t["title"], pick=t["pick"],
                         side=(t["side"] or "").upper(), contracts=t["n"], price=t["price"], cost=round(t["cost"] + t["fee"], 2),
                         status=t["status"], pnl=t["pnl"], closed=t["closed"], ticker=t["ticker"],

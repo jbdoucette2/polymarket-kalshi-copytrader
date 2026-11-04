@@ -323,8 +323,11 @@
   dash.draw('timeouts', (ul) => {
     const U = window.ctUtil;
     const d = dash.data('overview');
-    const rows = d.status === 'ok' && d.data[0] && Array.isArray(d.data[0].timeouts) ? d.data[0].timeouts : [];
+    let raw = d.status === 'ok' && d.data[0] ? d.data[0].timeouts : null;
+    if (typeof raw === 'string') { try { raw = JSON.parse(raw); } catch (e) { raw = null; } }
+    const rows = Array.isArray(raw) ? raw : [];
     ul.replaceChildren();
+    if (d.status === 'ok' && raw == null) { ul.append(Object.assign(document.createElement('li'), {textContent: 'Time-out list not in this upload yet.'})); return; }
     if (d.status === 'ok' && !rows.length) { ul.append(Object.assign(document.createElement('li'), {textContent: 'Nobody is in time-out.'})); return; }
     rows.forEach((t) => {
       const li = document.createElement('li');
