@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 4, 7:11 PM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
+Updated Wed Nov 4, 8:10 PM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 
@@ -59,6 +59,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Bucks vs. Celtics · starts Thu Nov 5, 12:30 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Spread: Celtics (-13.5): all vetted wallets left Celtics
+- Wed Nov 4, 8:10 PM (hourly): Bucks vs. Celtics: O/U 223.5: Kalshi 45¢ → 46¢
+- Wed Nov 4, 8:10 PM (hourly): Spread: Celtics (-8.5): Kalshi 61¢ → 62¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Celtics (-10.5): all vetted wallets left Celtics
 - Wed Nov 4, 7:11 PM (hourly): Spread: Celtics (-13.5): Kalshi 40¢ → 42¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Celtics (-9.5): Kalshi 46¢ → 44¢
@@ -77,6 +80,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Celtics (-13.5) → Celtics | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 8:10 PM | hourly | Bucks vs. Celtics: O/U 223.5 → Over | RN1 $87 | $0 | 46¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Celtics (-9.5) → Bucks | RN1 $124 | $0 | 44¢ NO | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Celtics (-8.5) → Celtics | RN1 $459 | $0 | 62¢ YES | fails: only 1 vetted wallet with $459 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 58c |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Celtics (-10.5) → Celtics | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 7:11 PM | hourly | Bucks vs. Celtics: O/U 223.5 → Over | RN1 $87 | $0 | 45¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Celtics (-13.5) → Celtics | RN1 $104 | $0 | 42¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -111,6 +118,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 61¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Hornets (-3.5) → Hornets | monkeymashingkeyboard $2.6k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Hornets vs. Nets: O/U 212.5 → Over | monkeymashingkeyboard $42.2k | $121 | 52¢ YES | fails: only 1 vetted wallet with $42.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 61¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Hornets (-3.5) → Hornets | monkeymashingkeyboard $2.6k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Hornets vs. Nets: O/U 212.5 → Over | monkeymashingkeyboard $42.2k | $121 | 52¢ YES | fails: only 1 vetted wallet with $42.2k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -165,6 +175,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $16.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $16.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Trail Blazers (-1.5) → Trail Blazers | RN1 $99 | $0 | 56¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $16.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $16.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Trail Blazers (-1.5) → Trail Blazers | RN1 $99 | $0 | 56¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:10 PM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $16.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $16.6k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -191,6 +203,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Raptors vs. Nuggets · starts Thu Nov 5, 2:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Spread: Nuggets (-5.5): now passes
+- Wed Nov 4, 8:10 PM (hourly): Spread: Nuggets (-5.5): RN1 joined Raptors (+$131)
+- Wed Nov 4, 8:10 PM (hourly): Spread: Nuggets (-5.5): monkeymashingkeyboard added $10.2k on Raptors
 - Wed Nov 4, 7:11 PM (hourly): Spread: Nuggets (-5.5): monkeymashingkeyboard added $7.2k on Raptors
 - Wed Nov 4, 7:11 PM (hourly): Raptors vs. Nuggets: Kalshi 38¢ → 37¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Nuggets (-4.5): first seen: 1 vetted on Raptors ($119), fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+)
@@ -216,6 +231,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 37¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Nuggets (-5.5) → Raptors | monkeymashingkeyboard $17.7k, RN1 $131 | $0 | 54¢ NO | passes |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Nuggets (-4.5) → Raptors | RN1 $121 | $0 | 49¢ NO | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Nuggets (-5.5) → Raptors | monkeymashingkeyboard $7.5k | $0 | 54¢ NO | fails: only 1 vetted wallet with $7.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Raptors vs. Nuggets → Raptors | takeormake $31 | $0 | 37¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Nuggets (-4.5) → Raptors | RN1 $119 | $0 | 49¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -259,6 +277,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Spread: Thunder (-3.5): Kalshi 51¢ → 50¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Thunder (-3.5): monkeymashingkeyboard added $9.9k on Thunder
 - Wed Nov 4, 6:10 PM (hourly): Spread: Thunder (-18.5): Kalshi 12¢ → 13¢
 - Wed Nov 4, 6:10 PM (hourly): Spread: Thunder (-3.5): Kalshi 50¢ → 51¢
@@ -293,6 +312,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Thunder (-18.5) → Thunder | RN1 $6 | $0 | 13¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $8.2k | $0 | 60¢ YES | fails: only 1 vetted wallet with $8.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 57c |
+| Wed Nov 4, 8:10 PM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | RN1 $15 | $0 | 46¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Thunder (-3.5) → Thunder | monkeymashingkeyboard $19.8k | $0 | 50¢ YES | fails: only 1 vetted wallet with $19.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Thunder (-2.5) → Thunder | monkeymashingkeyboard $332, RN1 $272 | $0 | 55¢ YES | fails: only 2 vetted wallets with $604 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Thunder (-18.5) → Thunder | RN1 $6 | $0 | 13¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $7.3k | $0 | 60¢ YES | fails: only 1 vetted wallet with $7.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 56c |
 | Wed Nov 4, 7:11 PM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | RN1 $15 | $0 | 46¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -348,6 +372,20 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
 | Wed Nov 4, 1:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $80 | $40 | 44¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); opposition 50% |
 
+### Heat vs. Clippers · starts Thu Nov 5, 3:30 AM
+
+- Wed Nov 4, 8:10 PM (hourly): Spread: Heat (-2.5): first seen: 1 vetted on Heat ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 7:11 PM (hourly): Spread: Heat (-5.5): first seen: 1 vetted on Clippers ($242), fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 5:11 AM (hourly): Heat vs. Clippers: O/U 233.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Heat (-2.5) → Heat | RN1 $24 | $0 | 62¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Heat (-5.5) → Clippers | RN1 $242 | $0 | 48¢ NO | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:11 PM | hourly | Spread: Heat (-5.5) → Clippers | RN1 $242 | $0 | 48¢ NO | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 4:13 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | HomeRunHazard $231 | $0 | — | fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 233.5 line |
+
 ### Bulls vs. Knicks · starts Thu Nov 5, 12:30 AM
 
 - Wed Nov 4, 6:10 PM (hourly): Bulls vs. Knicks: O/U 234.5: now passes
@@ -367,6 +405,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Bulls vs. Knicks: O/U 234.5 → Over | monkeymashingkeyboard $10.7k, RN1 $82 | $0 | 49¢ YES | passes |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Knicks (-11.5) → Knicks | monkeymashingkeyboard $359 | $119 | 53¢ YES | fails: only 1 vetted wallet with $359 (needs 3+ wallets, or 2 with $5.0k+); opposition 33% |
+| Wed Nov 4, 8:10 PM | hourly | Bulls vs. Knicks: O/U 236.5 → Under | RN1 $139 | $0 | 56¢ NO | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Knicks (-12.5) → Knicks | RN1 $119 | $0 | 48¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Bulls vs. Knicks: O/U 234.5 → Over | monkeymashingkeyboard $10.7k, RN1 $82 | $0 | 49¢ YES | passes |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Knicks (-11.5) → Knicks | monkeymashingkeyboard $359 | $119 | 53¢ YES | fails: only 1 vetted wallet with $359 (needs 3+ wallets, or 2 with $5.0k+); opposition 33% |
 | Wed Nov 4, 7:11 PM | hourly | Bulls vs. Knicks: O/U 236.5 → Under | RN1 $139 | $0 | 56¢ NO | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -398,6 +440,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### 76ers vs. Pistons · starts Thu Nov 5, 12:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): 76ers vs. Pistons: O/U 217.5: Kalshi 56¢ → 55¢
+- Wed Nov 4, 8:10 PM (hourly): 76ers vs. Pistons: O/U 219.5: Kalshi 51¢ → 48¢
+- Wed Nov 4, 8:10 PM (hourly): Spread: Pistons (-2.5): Kalshi 49¢ → 50¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Pistons (-21.5): Kalshi 7¢ → 8¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Pistons (-2.5): Kalshi 50¢ → 49¢
 - Wed Nov 4, 6:10 PM (hourly): Spread: Pistons (-4.5): first seen: 1 vetted on 76ers ($139), fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+)
@@ -433,6 +478,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | 76ers vs. Pistons: O/U 217.5 → Over | RN1 $83 | $0 | 55¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: 76ers (-1.5) → Pistons | RN1 $122 | $0 | 60¢ NO | fails: only 1 vetted wallet with $122 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pistons (-4.5) → 76ers | RN1 $139 | $0 | 57¢ NO | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | 76ers vs. Pistons: O/U 219.5 → Under | RN1 $272 | $0 | 48¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pistons (-21.5) → Pistons | RN1 $18 | $0 | 8¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pistons (-1.5) → Pistons | monkeymashingkeyboard $73 | $0 | 56¢ YES | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pistons (-2.5) → 76ers | RN1 $242 | $0 | 50¢ NO | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $35.8k | $0 | 56¢ YES | fails: only 1 vetted wallet with $35.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | 76ers vs. Pistons: O/U 217.5 → Over | RN1 $83 | $0 | 56¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: 76ers (-1.5) → Pistons | RN1 $122 | $0 | 60¢ NO | fails: only 1 vetted wallet with $122 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Pistons (-4.5) → 76ers | RN1 $139 | $0 | 57¢ NO | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -505,6 +558,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Pacers vs. Grizzlies · starts Thu Nov 5, 1:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Pacers vs. Grizzlies: O/U 226.5: Kalshi 45¢ → 46¢
+- Wed Nov 4, 8:10 PM (hourly): Pacers vs. Grizzlies: O/U 228.5: Kalshi 51¢ → 50¢
 - Wed Nov 4, 7:11 PM (hourly): Pacers vs. Grizzlies: O/U 226.5: Kalshi 47¢ → 45¢
 - Wed Nov 4, 7:11 PM (hourly): Spread: Grizzlies (-5.5): first seen: 1 vetted on Grizzlies ($5.5k), fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)
 - Wed Nov 4, 6:10 PM (hourly): Pacers vs. Grizzlies: O/U 230.5: all vetted wallets left Over
@@ -522,6 +577,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Pacers vs. Grizzlies: O/U 226.5 → Under | RN1 $114 | $0 | 46¢ NO | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Pacers vs. Grizzlies: O/U 228.5 → Under | RN1 $379 | $0 | 50¢ NO | fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Grizzlies (-6.5) → Grizzlies | RN1 $121 | $0 | 49¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Grizzlies (-5.5) → Grizzlies | monkeymashingkeyboard $5.5k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Pacers vs. Grizzlies: O/U 226.5 → Under | RN1 $114 | $0 | 45¢ NO | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Pacers vs. Grizzlies: O/U 228.5 → Under | RN1 $379 | $0 | 51¢ NO | fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Grizzlies (-6.5) → Grizzlies | RN1 $121 | $0 | 49¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -545,11 +604,17 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Lakers vs. Kings · starts Thu Nov 5, 3:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Lakers vs. Kings: O/U 232.5: Kalshi 49¢ → 47¢
+- Wed Nov 4, 8:10 PM (hourly): Lakers vs. Kings: O/U 234.5: first seen: 1 vetted on Under ($147), fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 8:10 PM (hourly): Spread: Lakers (-12.5): monkeymashingkeyboard added $4.4k on Kings
 - Wed Nov 4, 7:11 PM (hourly): Lakers vs. Kings: O/U 232.5: first seen: 1 vetted on Under ($119), fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+)
 - Wed Nov 4, 6:10 PM (hourly): Spread: Lakers (-12.5): first seen: 1 vetted on Kings ($7.4k), fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Lakers vs. Kings: O/U 232.5 → Under | RN1 $119 | $0 | 47¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Lakers vs. Kings: O/U 234.5 → Under | RN1 $147 | $0 | 54¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Lakers (-12.5) → Kings | monkeymashingkeyboard $11.8k | $0 | 53¢ NO | fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Lakers vs. Kings: O/U 232.5 → Under | RN1 $119 | $0 | 49¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Lakers (-12.5) → Kings | monkeymashingkeyboard $7.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:10 PM | hourly | Spread: Lakers (-12.5) → Kings | monkeymashingkeyboard $7.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -571,6 +636,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pelicans (-5.5) → Pelicans | RN1 $121 | $0 | 50¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Jazz vs. Pelicans: O/U 233.5 → Over | RN1 $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Pelicans (-6.5) → Pelicans | RN1 $231 | $0 | 45¢ YES | fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Pelicans (-5.5) → Pelicans | RN1 $121 | $0 | 50¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Jazz vs. Pelicans: O/U 233.5 → Over | RN1 $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -607,6 +676,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:11 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
@@ -619,36 +690,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | HomeRunHazard $157 | $0 | 56¢ YES | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 228.5 → Over | HomeRunHazard $345 | $0 | — | fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 228.5 line |
 | Wed Nov 4, 3:11 AM | hourly | Mavericks vs. Spurs → Spurs | HomeRunHazard $107 | $0 | 82¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### BV Borussia 09 Dortmund vs. Real Betis Balompié · starts Wed Nov 4, 8:00 PM
-
-- Wed Nov 4, 7:11 PM (pregame): Will BV Borussia 09 Dortmund win on 2026-11-04?: back: 1 vetted on Yes ($4.3k), fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 1:11 AM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: all vetted wallets left Yes
-- Tue Nov 3, 11:12 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw?: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: Kalshi 46¢ → 55¢
-- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: majority flipped to Yes ($322 vs $0)
-- Tue Nov 3, 10:14 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: Kalshi 79¢ → 78¢
-- Tue Nov 3, 8:14 PM (hourly): Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw?: first seen: 1 vetted on No ($36), fails: only 1 vetted wallet
-- Tue Nov 3, 8:14 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: first seen: 1 vetted on No ($58), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:11 PM | pregame | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | RN1 $4.3k | $0 | 59¢ YES | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | omnibus-076daa $322 | $0 | 55¢ YES | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | omnibus-076daa $322 | $0 | 55¢ YES | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 78¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+); opposition 17% |
-| Tue Nov 3, 9:17 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:17 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 79¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:17 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet; opposition 17% |
-| Tue Nov 3, 8:14 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 79¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet; opposition 17% |
 
 ### Timberwolves vs. Rockets · starts Thu Nov 5, 1:30 AM
 
@@ -672,6 +713,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -706,6 +750,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Hawks vs. Wizards · starts Thu Nov 5, 12:00 AM
 
+- Wed Nov 4, 8:10 PM (hourly): Spread: Hawks (-4.5): first seen: 1 vetted on Wizards ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
 - Wed Nov 4, 7:11 PM (hourly): Hawks vs. Wizards: O/U 230.5: first seen: 1 vetted on Over ($252), fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+)
 - Wed Nov 4, 6:10 PM (hourly): Spread: Hawks (-2.5): Kalshi 53¢ → 54¢
 - Wed Nov 4, 2:13 PM (hourly): Spread: Hawks (-2.5): first seen: 1 vetted on Hawks ($258), fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+)
@@ -720,6 +765,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Hawks (-4.5) → Wizards | RN1 $89 | $0 | 56¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Hawks vs. Wizards: O/U 230.5 → Over | RN1 $252 | $0 | 52¢ YES | fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Hawks (-1.5) → Wizards | RN1 $22 | $0 | 44¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 8:10 PM | hourly | Spread: Hawks (-2.5) → Hawks | RN1 $430 | $0 | 54¢ YES | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Hawks vs. Wizards: O/U 230.5 → Over | RN1 $252 | $0 | 52¢ YES | fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Hawks (-1.5) → Wizards | RN1 $22 | $0 | 44¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Hawks (-2.5) → Hawks | RN1 $430 | $0 | 54¢ YES | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -746,16 +795,35 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 1:11 AM | hourly | Spread: Wizards (-1.5) → Hawks | HomeRunHazard $62 | $0 | 59¢ NO | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 1:11 AM | hourly | Hawks vs. Wizards: O/U 232.5 → Over | HomeRunHazard $348 | $0 | 50¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Heat vs. Clippers · starts Thu Nov 5, 3:30 AM
+### BV Borussia 09 Dortmund vs. Real Betis Balompié · starts Wed Nov 4, 8:00 PM
 
-- Wed Nov 4, 7:11 PM (hourly): Spread: Heat (-5.5): first seen: 1 vetted on Clippers ($242), fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 5:11 AM (hourly): Heat vs. Clippers: O/U 233.5: all vetted wallets left Over
+- Wed Nov 4, 7:11 PM (pregame): Will BV Borussia 09 Dortmund win on 2026-11-04?: back: 1 vetted on Yes ($4.3k), fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 1:11 AM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: all vetted wallets left Yes
+- Tue Nov 3, 11:12 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: all vetted wallets left No
+- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw?: all vetted wallets left No
+- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: Kalshi 46¢ → 55¢
+- Tue Nov 3, 11:12 PM (hourly): Will BV Borussia 09 Dortmund win on 2026-11-04?: majority flipped to Yes ($322 vs $0)
+- Tue Nov 3, 10:14 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: Kalshi 79¢ → 78¢
+- Tue Nov 3, 8:14 PM (hourly): Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw?: first seen: 1 vetted on No ($36), fails: only 1 vetted wallet
+- Tue Nov 3, 8:14 PM (hourly): Will Real Betis Balompié win on 2026-11-04?: first seen: 1 vetted on No ($58), fails: only 1 vetted wallet
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:11 PM | hourly | Spread: Heat (-5.5) → Clippers | RN1 $242 | $0 | 48¢ NO | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 4:13 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | HomeRunHazard $231 | $0 | — | fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 233.5 line |
+| Wed Nov 4, 7:11 PM | pregame | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | RN1 $4.3k | $0 | 59¢ YES | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 12:11 AM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | omnibus-076daa $322 | $0 | 55¢ YES | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 3, 11:12 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 3, 11:12 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes | omnibus-076daa $322 | $0 | 55¢ YES | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 3, 10:14 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 3, 10:14 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 78¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 3, 10:14 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+); opposition 17% |
+| Tue Nov 3, 9:17 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 9:17 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 79¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 9:17 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet; opposition 17% |
+| Tue Nov 3, 8:14 PM | hourly | Will BV Borussia 09 Dortmund vs. Real Betis Balompié end in a draw? → No | Flaznorp $36 | $0 | 78¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 8:14 PM | hourly | Will Real Betis Balompié win on 2026-11-04? → No | Flaznorp $58 | $0 | 79¢ NO | fails: only 1 vetted wallet |
+| Tue Nov 3, 8:14 PM | hourly | Will BV Borussia 09 Dortmund win on 2026-11-04? → No | Flaznorp $1.9k | $322 | 46¢ NO | fails: only 1 vetted wallet; opposition 17% |
 
 ### FC Porto vs. SSC Napoli · starts Wed Nov 4, 8:00 PM
 
@@ -1332,10 +1400,12 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Rolex Paris Masters: Arthur Fils vs Tomas Machac · starts Wed Nov 4, 7:30 PM
 
+- Wed Nov 4, 8:10 PM (hourly): Rolex Paris Masters: Arthur Fils vs Tomas Machac: back: 1 vetted on Tomas Machac ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
 - Wed Nov 4, 1:11 AM (hourly): Rolex Paris Masters: Arthur Fils vs Tomas Machac: all vetted wallets left Tomas Machac
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:10 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | RN1 $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 4, 1:11 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 12:11 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -8540,9 +8610,9 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-1 (19 pending) | benched |
-| SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 1-0 (15 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 6-7 (44 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-1 (20 pending) | benched |
+| SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 2-0 (14 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 8-7 (47 pending) | benched |
 
 ## Recent skips
 

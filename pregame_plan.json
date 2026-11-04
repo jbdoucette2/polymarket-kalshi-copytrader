@@ -1,36 +1,6 @@
 {
-  "updated": "2026-11-04T19:11:31Z",
+  "updated": "2026-11-04T20:10:09Z",
   "games": [
-    {
-      "event_slug": "ucl-rbl-mnc-2026-11-04",
-      "game": "RB Leipzig vs. Manchester City FC",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Manchester City FC win on 2026-11-04? → No ($75, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-por-nap-2026-11-04",
-      "game": "FC Porto vs. SSC Napoli",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will SSC Napoli win on 2026-11-04? → Yes ($96, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ucl-bvb-bet-2026-11-04",
-      "game": "BV Borussia 09 Dortmund vs. Real Betis Balompié",
-      "start": "2026-11-04T20:00:00Z",
-      "check_at": "2026-11-04T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will BV Borussia 09 Dortmund win on 2026-11-04? → Yes ($4.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nba-phi-det-2026-11-04",
       "game": "76ers vs. Pistons",
@@ -47,7 +17,7 @@
       "start": "2026-11-05T00:00:00Z",
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
-      "near": 3,
+      "near": 4,
       "best": "Spread: Hawks (-2.5) → Hawks ($430, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -77,9 +47,9 @@
       "start": "2026-11-05T00:30:00Z",
       "check_at": "2026-11-05T00:15:00Z",
       "passing": 0,
-      "near": 4,
-      "best": "Spread: Celtics (-8.5) → Celtics ($459, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $459 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Spread: Celtics (-9.5) → Bucks ($124, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-ind-mem-2026-11-04",
@@ -126,10 +96,10 @@
       "game": "Raptors vs. Nuggets",
       "start": "2026-11-05T02:00:00Z",
       "check_at": "2026-11-05T01:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Nuggets (-5.5) → Raptors ($7.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "passing": 1,
+      "near": 2,
+      "best": "Spread: Nuggets (-5.5) → Raptors ($17.9k, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "nba-por-phx-2026-11-04",
@@ -157,9 +127,9 @@
       "start": "2026-11-05T03:00:00Z",
       "check_at": "2026-11-05T02:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Lakers (-12.5) → Kings ($7.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Spread: Lakers (-12.5) → Kings ($11.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mia-lac-2026-11-04",
@@ -167,7 +137,7 @@
       "start": "2026-11-05T03:30:00Z",
       "check_at": "2026-11-05T03:15:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Spread: Heat (-5.5) → Clippers ($242, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+)"
     }
