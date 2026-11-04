@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 4, 7:15 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
+Updated Wed Nov 4, 8:11 AM. Bankroll **$69.43** (start $100): $69.43 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 
@@ -56,6 +56,196 @@ Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 0.
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Raptors vs. Nuggets · starts Thu Nov 5, 2:00 AM
+
+- Wed Nov 4, 8:11 AM (hourly): Raptors vs. Nuggets: Kalshi 35¢ → 37¢
+- Wed Nov 4, 6:11 AM (hourly): Spread: Nuggets (-7.5): all vetted wallets left Nuggets
+- Wed Nov 4, 6:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: all vetted wallets left Under
+- Wed Nov 4, 6:11 AM (hourly): Raptors vs. Nuggets: O/U 231.5: all vetted wallets left Under
+- Wed Nov 4, 5:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: Kalshi 56¢ → 57¢
+- Wed Nov 4, 3:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: first seen: 1 vetted on Under ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 3:11 AM (hourly): Spread: Nuggets (-7.5): Kalshi 40¢ → 39¢
+- Wed Nov 4, 3:11 AM (hourly): Raptors vs. Nuggets: O/U 231.5: Kalshi 50¢ → 52¢
+- Wed Nov 4, 2:17 AM (hourly): Spread: Nuggets (-7.5): first seen: 1 vetted on Nuggets ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Raptors vs. Nuggets: O/U 231.5: first seen: 1 vetted on Under ($185), fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Raptors vs. Nuggets: first seen: 1 vetted on Raptors ($30), fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 37¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 57¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 39¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $530 | $0 | 52¢ NO | fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 56¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $85 | $0 | 39¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $510 | $0 | 52¢ NO | fails: only 1 vetted wallet with $510 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 56¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 39¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $510 | $0 | 52¢ NO | fails: only 1 vetted wallet with $510 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 40¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $185 | $0 | 50¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Hornets vs. Nets · starts Thu Nov 5, 12:30 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Spread: Hornets (-6.5): all vetted wallets left Nets
+- Wed Nov 4, 6:11 AM (hourly): Hornets vs. Nets: O/U 212.5: all vetted wallets left Over
+- Wed Nov 4, 4:13 AM (hourly): Spread: Hornets (-6.5): first seen: 1 vetted on Nets ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Hornets vs. Nets: first seen: 1 vetted on Hornets ($326), fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 1:11 AM (hourly): Hornets vs. Nets: O/U 212.5: first seen: 1 vetted on Over ($63), fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Hornets (-6.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Trail Blazers vs. Suns · starts Thu Nov 5, 2:00 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $2.5k on Suns
+- Wed Nov 4, 3:11 AM (hourly): Trail Blazers vs. Suns: Kalshi 42¢ → 43¢
+- Wed Nov 4, 2:17 AM (hourly): Trail Blazers vs. Suns: first seen: 1 vetted on Suns ($627), fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.1k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $3.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $879 | $0 | 43¢ YES | fails: only 1 vetted wallet with $879 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $875 | $0 | 43¢ YES | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $849 | $0 | 43¢ YES | fails: only 1 vetted wallet with $849 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $627 | $0 | 42¢ YES | fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### 76ers vs. Pistons · starts Thu Nov 5, 12:00 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Spread: Pistons (-3.5): all vetted wallets left Pistons
+- Wed Nov 4, 6:11 AM (hourly): Spread: Pistons (-1.5): all vetted wallets left 76ers
+- Wed Nov 4, 6:11 AM (hourly): Spread: 76ers (-1.5): all vetted wallets left Pistons
+- Wed Nov 4, 5:11 AM (hourly): Spread: 76ers (-1.5): Kalshi 57¢ → 59¢
+- Wed Nov 4, 4:13 AM (hourly): Spread: Pistons (-1.5): first seen: 1 vetted on 76ers ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 4:13 AM (hourly): 76ers vs. Pistons: HomeRunHazard added $1.3k on 76ers
+- Wed Nov 4, 3:11 AM (hourly): Spread: Pistons (-3.5): Kalshi 46¢ → 45¢
+- Wed Nov 4, 2:17 AM (hourly): Spread: 76ers (-1.5): Kalshi 58¢ → 57¢
+- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: O/U 219.5: all vetted wallets left Over
+- Wed Nov 4, 1:11 AM (hourly): Spread: 76ers (-1.5): first seen: 1 vetted on Pistons ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 1:11 AM (hourly): Spread: Pistons (-3.5): first seen: 1 vetted on Pistons ($123), fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: Kalshi 53¢ → 47¢
+- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: majority flipped to 76ers ($1.7k vs $0)
+- Wed Nov 4, 12:11 AM (hourly): 76ers vs. Pistons: first seen: 1 vetted on Pistons ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 12:11 AM (hourly): 76ers vs. Pistons: O/U 219.5: first seen: 1 vetted on Over ($105), fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.7k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.5k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-1.5) → 76ers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.4k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 59¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 45¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Pistons (-1.5) → 76ers | HomeRunHazard $1.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.0k | $3.1k | 54¢ YES | fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+); opposition 62% |
+| Wed Nov 4, 4:13 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $53 | $0 | 57¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $119 | $0 | 45¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Pistons (-1.5) → 76ers | HomeRunHazard $1.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $3.1k | $2.7k | 47¢ YES | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 87% |
+| Wed Nov 4, 3:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 57¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 45¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 57¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 46¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | 76ers vs. Pistons: O/U 219.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 1:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 58¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $123 | $0 | 46¢ YES | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons → Pistons | omnibus-076daa $39 | $0 | 53¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons: O/U 219.5 → Over | omnibus-076daa $105 | $0 | 50¢ YES | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
+
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-2.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: all vetted wallets left Over
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-3.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-1.5): all vetted wallets left Cavaliers
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: Kalshi 44¢ → 57¢
+- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: majority flipped to Thunder ($70 vs $0)
+- Wed Nov 4, 5:11 AM (hourly): Spread: Thunder (-3.5): Kalshi 55¢ → 57¢
+- Wed Nov 4, 5:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 49¢ → 50¢
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-1.5): first seen: 1 vetted on Cavaliers ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-3.5): first seen: 1 vetted on Cavaliers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-2.5): Kalshi 50¢ → 53¢
+- Wed Nov 4, 3:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 50¢ → 49¢
+- Wed Nov 4, 3:11 AM (hourly): Spread: Thunder (-2.5): first seen: 1 vetted on Cavaliers ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 4, 2:17 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $919 | $0 | 57¢ YES | fails: only 1 vetted wallet with $919 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $74 | $0 | 57¢ YES | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
+| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $70 | $0 | 57¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 57¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 50¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 52¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 55¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 49¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 53¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
+| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 49¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $277 | $0 | 50¢ NO | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
+| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 50¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
+| Wed Nov 4, 1:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $80 | $40 | 44¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); opposition 50% |
+
+### Jazz vs. Pelicans · starts Thu Nov 5, 1:00 AM
+
+- Wed Nov 4, 7:15 AM (hourly): Jazz vs. Pelicans: Kalshi 35¢ → 34¢
+- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: Kalshi 34¢ → 35¢
+- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard left
+- Wed Nov 4, 5:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard joined Jazz (+$633)
+- Wed Nov 4, 1:11 AM (hourly): Jazz vs. Pelicans: first seen: 1 vetted on Jazz ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 4, 8:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 7:15 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 6:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 35¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 5:11 AM | hourly | Jazz vs. Pelicans → Jazz | HomeRunHazard $633, takeormake $9 | $0 | 34¢ YES | fails: only 2 vetted wallets with $642 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 4:13 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 3:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 2:17 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 1:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### RB Leipzig vs. Manchester City FC - More Markets · starts Wed Nov 4, 8:00 PM
 
@@ -303,189 +493,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $213, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
 | Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
 | Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-
-### Raptors vs. Nuggets · starts Thu Nov 5, 2:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Nuggets (-7.5): all vetted wallets left Nuggets
-- Wed Nov 4, 6:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: all vetted wallets left Under
-- Wed Nov 4, 6:11 AM (hourly): Raptors vs. Nuggets: O/U 231.5: all vetted wallets left Under
-- Wed Nov 4, 5:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: Kalshi 56¢ → 57¢
-- Wed Nov 4, 3:11 AM (hourly): Raptors vs. Nuggets: O/U 233.5: first seen: 1 vetted on Under ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 3:11 AM (hourly): Spread: Nuggets (-7.5): Kalshi 40¢ → 39¢
-- Wed Nov 4, 3:11 AM (hourly): Raptors vs. Nuggets: O/U 231.5: Kalshi 50¢ → 52¢
-- Wed Nov 4, 2:17 AM (hourly): Spread: Nuggets (-7.5): first seen: 1 vetted on Nuggets ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Raptors vs. Nuggets: O/U 231.5: first seen: 1 vetted on Under ($185), fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Raptors vs. Nuggets: first seen: 1 vetted on Raptors ($30), fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 57¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 39¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $530 | $0 | 52¢ NO | fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Wed Nov 4, 5:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 56¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $85 | $0 | 39¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $510 | $0 | 52¢ NO | fails: only 1 vetted wallet with $510 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Wed Nov 4, 4:13 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets: O/U 233.5 → Under | HomeRunHazard $15 | $0 | 56¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 39¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $510 | $0 | 52¢ NO | fails: only 1 vetted wallet with $510 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Wed Nov 4, 3:11 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Spread: Nuggets (-7.5) → Nuggets | HomeRunHazard $86 | $0 | 40¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets: O/U 231.5 → Under | HomeRunHazard $185 | $0 | 50¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Raptors vs. Nuggets → Raptors | takeormake $30 | $0 | 35¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Hornets vs. Nets · starts Thu Nov 5, 12:30 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Hornets (-6.5): all vetted wallets left Nets
-- Wed Nov 4, 6:11 AM (hourly): Hornets vs. Nets: O/U 212.5: all vetted wallets left Over
-- Wed Nov 4, 4:13 AM (hourly): Spread: Hornets (-6.5): first seen: 1 vetted on Nets ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Hornets vs. Nets: first seen: 1 vetted on Hornets ($326), fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 1:11 AM (hourly): Hornets vs. Nets: O/U 212.5: first seen: 1 vetted on Over ($63), fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Hornets (-6.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Hornets (-6.5) → Nets | HomeRunHazard $82 | $0 | 61¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $62 | $0 | 54¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Hornets vs. Nets → Hornets | monkeymashingkeyboard $326 | $0 | 60¢ YES | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Hornets vs. Nets: O/U 212.5 → Over | HomeRunHazard $63 | $0 | 54¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Trail Blazers vs. Suns · starts Thu Nov 5, 2:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Trail Blazers vs. Suns: monkeymashingkeyboard added $2.5k on Suns
-- Wed Nov 4, 3:11 AM (hourly): Trail Blazers vs. Suns: Kalshi 42¢ → 43¢
-- Wed Nov 4, 2:17 AM (hourly): Trail Blazers vs. Suns: first seen: 1 vetted on Suns ($627), fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $4.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $3.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $879 | $0 | 43¢ YES | fails: only 1 vetted wallet with $879 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $875 | $0 | 43¢ YES | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $849 | $0 | 43¢ YES | fails: only 1 vetted wallet with $849 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $627 | $0 | 42¢ YES | fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### 76ers vs. Pistons · starts Thu Nov 5, 12:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Pistons (-3.5): all vetted wallets left Pistons
-- Wed Nov 4, 6:11 AM (hourly): Spread: Pistons (-1.5): all vetted wallets left 76ers
-- Wed Nov 4, 6:11 AM (hourly): Spread: 76ers (-1.5): all vetted wallets left Pistons
-- Wed Nov 4, 5:11 AM (hourly): Spread: 76ers (-1.5): Kalshi 57¢ → 59¢
-- Wed Nov 4, 4:13 AM (hourly): Spread: Pistons (-1.5): first seen: 1 vetted on 76ers ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:13 AM (hourly): 76ers vs. Pistons: HomeRunHazard added $1.3k on 76ers
-- Wed Nov 4, 3:11 AM (hourly): Spread: Pistons (-3.5): Kalshi 46¢ → 45¢
-- Wed Nov 4, 2:17 AM (hourly): Spread: 76ers (-1.5): Kalshi 58¢ → 57¢
-- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: O/U 219.5: all vetted wallets left Over
-- Wed Nov 4, 1:11 AM (hourly): Spread: 76ers (-1.5): first seen: 1 vetted on Pistons ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 1:11 AM (hourly): Spread: Pistons (-3.5): first seen: 1 vetted on Pistons ($123), fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: Kalshi 53¢ → 47¢
-- Wed Nov 4, 1:11 AM (hourly): 76ers vs. Pistons: majority flipped to 76ers ($1.7k vs $0)
-- Wed Nov 4, 12:11 AM (hourly): 76ers vs. Pistons: first seen: 1 vetted on Pistons ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 12:11 AM (hourly): 76ers vs. Pistons: O/U 219.5: first seen: 1 vetted on Over ($105), fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.5k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Pistons (-1.5) → 76ers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.4k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 59¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 45¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Pistons (-1.5) → 76ers | HomeRunHazard $1.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | 76ers vs. Pistons → Pistons | monkeymashingkeyboard $5.0k | $3.1k | 54¢ YES | fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+); opposition 62% |
-| Wed Nov 4, 4:13 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $53 | $0 | 57¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $119 | $0 | 45¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Pistons (-1.5) → 76ers | HomeRunHazard $1.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $3.1k | $2.7k | 47¢ YES | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 87% |
-| Wed Nov 4, 3:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 57¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 45¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 57¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $121 | $0 | 46¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | 76ers vs. Pistons: O/U 219.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 1:11 AM | hourly | Spread: 76ers (-1.5) → Pistons | HomeRunHazard $54 | $0 | 58¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Spread: Pistons (-3.5) → Pistons | HomeRunHazard $123 | $0 | 46¢ YES | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | 76ers vs. Pistons → 76ers | HomeRunHazard $1.7k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons → Pistons | omnibus-076daa $39 | $0 | 53¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 12:11 AM | hourly | 76ers vs. Pistons: O/U 219.5 → Over | omnibus-076daa $105 | $0 | 50¢ YES | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Cavaliers vs. Thunder · starts Thu Nov 5, 1:00 AM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-2.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: all vetted wallets left Over
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-3.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Spread: Thunder (-1.5): all vetted wallets left Cavaliers
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: Kalshi 44¢ → 57¢
-- Wed Nov 4, 6:11 AM (hourly): Cavaliers vs. Thunder: majority flipped to Thunder ($70 vs $0)
-- Wed Nov 4, 5:11 AM (hourly): Spread: Thunder (-3.5): Kalshi 55¢ → 57¢
-- Wed Nov 4, 5:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 49¢ → 50¢
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-1.5): first seen: 1 vetted on Cavaliers ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-3.5): first seen: 1 vetted on Cavaliers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:13 AM (hourly): Spread: Thunder (-2.5): Kalshi 50¢ → 53¢
-- Wed Nov 4, 3:11 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: Kalshi 50¢ → 49¢
-- Wed Nov 4, 3:11 AM (hourly): Spread: Thunder (-2.5): first seen: 1 vetted on Cavaliers ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Cavaliers vs. Thunder: O/U 228.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $74 | $0 | 57¢ YES | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Cavaliers vs. Thunder → Thunder | monkeymashingkeyboard $70 | $0 | 57¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 57¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 50¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 52¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Wed Nov 4, 5:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-1.5) → Cavaliers | HomeRunHazard $19 | $0 | 49¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-3.5) → Cavaliers | HomeRunHazard $23 | $0 | 55¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $48 | $0 | 49¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $343 | $0 | 53¢ NO | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
-| Wed Nov 4, 4:13 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $396 | $40 | 44¢ YES | fails: only 1 vetted wallet with $396 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 49¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Thunder (-2.5) → Cavaliers | HomeRunHazard $277 | $0 | 50¢ NO | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
-| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder: O/U 228.5 → Over | HomeRunHazard $49 | $0 | 50¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $82 | $40 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); opposition 48% |
-| Wed Nov 4, 1:11 AM | hourly | Cavaliers vs. Thunder → Cavaliers | HomeRunHazard $80 | $40 | 44¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); opposition 50% |
-
-### Jazz vs. Pelicans · starts Thu Nov 5, 1:00 AM
-
-- Wed Nov 4, 7:15 AM (hourly): Jazz vs. Pelicans: Kalshi 35¢ → 34¢
-- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: Kalshi 34¢ → 35¢
-- Wed Nov 4, 6:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard left
-- Wed Nov 4, 5:11 AM (hourly): Jazz vs. Pelicans: HomeRunHazard joined Jazz (+$633)
-- Wed Nov 4, 1:11 AM (hourly): Jazz vs. Pelicans: first seen: 1 vetted on Jazz ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:15 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 35¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Jazz vs. Pelicans → Jazz | HomeRunHazard $633, takeormake $9 | $0 | 34¢ YES | fails: only 2 vetted wallets with $642 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $8 | $0 | 34¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 1:11 AM | hourly | Jazz vs. Pelicans → Jazz | takeormake $9 | $0 | 34¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Timberwolves vs. Rockets · starts Thu Nov 5, 1:30 AM
 
@@ -8155,8 +8162,8 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-0 (8 pending) | benched |
-| SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 1-0 (4 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-3 (29 pending) | benched |
+| SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 1-0 (5 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 2-3 (30 pending) | benched |
 
 ## Recent skips
 
