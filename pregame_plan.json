@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T21:10:42Z",
+  "updated": "2026-11-04T22:12:35Z",
   "games": [
     {
       "event_slug": "nba-phi-det-2026-11-04",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
       "near": 7,
-      "best": "76ers vs. Pistons → Pistons ($35.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $35.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "76ers vs. Pistons → Pistons ($37.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $37.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ballst-umass-2026-11-04",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-04T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Ball State vs. UMass → Ball State ($36, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $36 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Ball State vs. UMass → Ball State ($41, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $41 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-atl-was-2026-11-04",
@@ -38,8 +38,8 @@
       "check_at": "2026-11-05T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Central Michigan vs. Eastern Michigan → Eastern Michigan ($71, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Central Michigan vs. Eastern Michigan → Eastern Michigan ($378, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $378 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-chi-nyk-2026-11-04",
@@ -58,8 +58,8 @@
       "check_at": "2026-11-05T00:15:00Z",
       "passing": 0,
       "near": 4,
-      "best": "Spread: Celtics (-11.5) → Celtics ($6.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Celtics (-11.5) → Celtics ($7.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $7.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cha-bkn-2026-11-04",
@@ -70,6 +70,16 @@
       "near": 3,
       "best": "Hornets vs. Nets: O/U 212.5 → Over ($42.2k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $42.2k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-chi-fla-2026-11-04",
+      "game": "Blackhawks vs. Panthers",
+      "start": "2026-11-05T00:30:00Z",
+      "check_at": "2026-11-05T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Blackhawks vs. Panthers: O/U 5.5 → Under ($316, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-ind-mem-2026-11-04",
@@ -87,7 +97,7 @@
       "start": "2026-11-05T01:00:00Z",
       "check_at": "2026-11-05T00:45:00Z",
       "passing": 0,
-      "near": 5,
+      "near": 6,
       "best": "Spread: Thunder (-3.5) → Thunder ($19.8k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $19.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -127,7 +137,7 @@
       "start": "2026-11-05T02:00:00Z",
       "check_at": "2026-11-05T01:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Trail Blazers vs. Suns → Suns ($16.6k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $16.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -148,8 +158,8 @@
       "check_at": "2026-11-05T02:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spread: Lakers (-12.5) → Kings ($13.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Lakers (-12.5) → Kings ($19.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $19.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mia-lac-2026-11-04",
@@ -157,7 +167,7 @@
       "start": "2026-11-05T03:30:00Z",
       "check_at": "2026-11-05T03:15:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Spread: Heat (-5.5) → Clippers ($242, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+)"
     }
