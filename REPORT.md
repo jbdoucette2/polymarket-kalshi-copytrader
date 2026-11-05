@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 11:23 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
+Updated Thu Nov 5, 11:37 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
 
 Record: 25 won, 20 lost, 4 sold early. Realized P&L $-13.63. Open: 1.
 
@@ -7466,23 +7466,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Beijing Guoan win on 2026-11-03? → No | Flaznorp $339 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Shenzhen Leopards vs. Zhejiang Golden Bulls · starts Tue Nov 3, 11:35 AM
-
-- Tue Nov 3, 10:12 AM (hourly): Shenzhen Leopards vs. Zhejiang Golden Bulls: omnibus-076daa joined Shenzhen Leopards (+$11)
-- Tue Nov 3, 4:22 AM (hourly): Shenzhen Leopards vs. Zhejiang Golden Bulls: first seen: 2 vetted on Shenzhen Leopards ($60), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:16 AM | pregame | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $323, Flaznorp $68, omnibus-076daa $18 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $323, Flaznorp $68, omnibus-076daa $18 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $299, Flaznorp $31, omnibus-076daa $11 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $53, Flaznorp $23 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $47, Flaznorp $20 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $42, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Shenzhen Leopards vs. Zhejiang Golden Bulls → Shenzhen Leopards | SnakeBall $40, Flaznorp $19 | $0 | — | fails: no Kalshi game found |
-
 ### Deportivo Pereira vs. CD Tolima - Exact Score · starts Tue Nov 3, 8:30 PM
 
 - Tue Nov 3, 11:15 AM (hourly): Exact Score: Deportivo Pereira 2 - 0 CD Tolima?: all vetted wallets left No
@@ -7521,40 +7504,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:12 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | Flaznorp $417 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:16 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | Flaznorp $417 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien · starts Tue Nov 3, 11:30 AM
-
-- Tue Nov 3, 10:12 AM (hourly): Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien: Flaznorp joined Learner Tien (+$451)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:15 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | Flaznorp $451, omnibus-076daa $213 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | Flaznorp $451, omnibus-076daa $213 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $140 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Rolex Paris Masters: Stefanos Tsitsipas vs Learner Tien → Learner Tien | omnibus-076daa $142 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame · starts Tue Nov 3, 11:30 AM
-
-- Tue Nov 3, 10:12 AM (hourly): Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame: majority flipped to Alejandro Davidovich Fokina ($746 vs $44)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:15 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Alejandro Davidovich Fokina | Flaznorp $719, omnibus-076daa $27 | $44 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Alejandro Davidovich Fokina | Flaznorp $719, omnibus-076daa $27 | $44 | — | fails: no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Rolex Paris Masters: Alejandro Davidovich Fokina vs Moise Kouame → Moise Kouame | UpTheBlues $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Cong An Ha Noi FC vs. Kyoto Sanga FC · starts Tue Nov 3, 12:15 PM
 
 - Tue Nov 3, 10:12 AM (hourly): Will Kyoto Sanga FC win on 2026-11-03?: all vetted wallets left Yes
@@ -7587,34 +7536,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Birmingham City FC vs. Millwall FC: O/U 2.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Birmingham City FC vs. Millwall FC: O/U 2.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Sichuan Blue Whales vs. Fujian Sturgeons · starts Tue Nov 3, 11:35 AM
-
-- Tue Nov 3, 9:12 AM (hourly): Spread: Fujian Sturgeons (-5.5): all vetted wallets left Fujian Sturgeons
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 9:12 AM | hourly | Spread: Fujian Sturgeons (-5.5) → Fujian Sturgeons | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 8:16 AM | hourly | Spread: Fujian Sturgeons (-5.5) → Fujian Sturgeons | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Spread: Fujian Sturgeons (-5.5) → Fujian Sturgeons | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Spread: Fujian Sturgeons (-5.5) → Fujian Sturgeons | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Liaoning Flying Leopards vs. Guangzhou Loong Lions · starts Tue Nov 3, 11:35 AM
-
-- Tue Nov 3, 10:12 AM (hourly): Liaoning Flying Leopards vs. Guangzhou Loong Lions: back: 1 vetted on Guangzhou Loong Lions ($11), fails: only 1 vetted wallet; no Kalshi game found
-- Tue Nov 3, 9:12 AM (hourly): Liaoning Flying Leopards vs. Guangzhou Loong Lions: all vetted wallets left Liaoning Flying Leopards
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:16 AM | pregame | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Guangzhou Loong Lions | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Guangzhou Loong Lions | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Guangzhou Loong Lions | SnakeBall $11 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 8:16 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Liaoning Flying Leopards vs. Guangzhou Loong Lions → Liaoning Flying Leopards | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### FK Bodø/Glimt vs. Lille OSC - More Markets · starts Tue Nov 3, 8:00 PM
 
 - Tue Nov 3, 8:16 AM (hourly): FK Bodø/Glimt vs. Lille OSC: O/U 6.5: all vetted wallets left Under
@@ -7642,17 +7563,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Will Watford FC win on 2026-11-03? → Yes | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Will Watford FC win on 2026-11-03? → Yes | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Watford FC win on 2026-11-03? → Yes | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Shanghai Sharks vs. Jilin Northeast Tigers · starts Tue Nov 3, 11:35 AM
-
-- Tue Nov 3, 7:12 AM (hourly): Spread: Shanghai Sharks (-24.5): all vetted wallets left Jilin Northeast Tigers
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 7:12 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 6:13 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Spread: Shanghai Sharks (-24.5) → Jilin Northeast Tigers | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Taranto: Buvaysar Gadamauri vs Pierluigi Basile · starts Tue Nov 3, 4:00 PM
 
@@ -7688,17 +7598,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Spread: Beijing Guoan (-1.5) → Port FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Spread: Beijing Guoan (-1.5) → Port FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Port FC vs. Beijing Guoan: O/U 3.5 → Under | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Chennai Open: Mananchaya Sawangkaew vs Mai Hontama · starts Tue Nov 3, 11:30 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Chennai Open: Mananchaya Sawangkaew vs Mai Hontama: all vetted wallets left Mananchaya Sawangkaew
-- Mon Nov 2, 11:33 PM (hourly): Chennai Open: Mananchaya Sawangkaew vs Mai Hontama: first seen: 2 vetted on Mananchaya Sawangkaew ($384), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | none | $0 | — | fails: no vetted wallets hold it now |
-| Mon Nov 2, 11:59 PM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | Flaznorp $352, omnibus-076daa $32 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | Flaznorp $352, omnibus-076daa $32 | $0 | — | fails: no Kalshi game found |
 
 
 ## Time-out
