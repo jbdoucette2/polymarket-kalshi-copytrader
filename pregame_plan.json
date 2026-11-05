@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-05T05:12:12Z",
+  "updated": "2026-11-05T06:13:53Z",
   "games": [
-    {
-      "event_slug": "wta-pridank-shublad-2026-11-05",
-      "game": "Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze",
-      "start": "2026-11-05T06:00:00Z",
-      "check_at": "2026-11-05T05:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze → Alexandra Shubladze ($799, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $799 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "wta-hontama-kulamba-2026-11-04",
       "game": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva",
@@ -38,7 +28,7 @@
       "check_at": "2026-11-05T10:15:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.8k, 2 wallets)",
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.9k, 2 wallets)",
       "status": "passes"
     },
     {
@@ -98,8 +88,8 @@
       "check_at": "2026-11-05T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($563, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($569, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-cel-bes-2026-11-05-more-markets",
@@ -118,8 +108,8 @@
       "check_at": "2026-11-06T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($176, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($180, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
