@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 10:12 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
+Updated Thu Nov 5, 10:23 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
 
 Record: 25 won, 20 lost, 4 sold early. Realized P&L $-13.63. Open: 1.
 
@@ -345,6 +345,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala · starts Thu Nov 5, 11:00 AM
 
+- Thu Nov 5, 10:23 AM (verify): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: 15-min check: still passes (2 wallets, $13.4k for vs $0 against); holding
 - Thu Nov 5, 10:12 AM (pregame): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: Kalshi 64¢ → 65¢
 - Thu Nov 5, 9:15 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: monkeymashingkeyboard added $3.9k on Alexandra Eala
 - Thu Nov 5, 7:11 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: monkeymashingkeyboard added $2.6k on Alexandra Eala
