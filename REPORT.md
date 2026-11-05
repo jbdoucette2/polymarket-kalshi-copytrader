@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 4:22 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 4:37 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
 Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
@@ -7733,16 +7733,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Taipei: Coleman Wong vs Tsung-Hao Huang → Coleman Wong | none | $0 | — | fails: no vetted wallets hold it now |
 | Mon Nov 2, 11:59 PM | hourly | Taipei: Coleman Wong vs Tsung-Hao Huang → Coleman Wong | omnibus-076daa $2.4k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Taipei: Coleman Wong vs Tsung-Hao Huang → Coleman Wong | omnibus-076daa $2.4k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B · starts Tue Nov 3, 4:30 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B: first seen: 2 vetted on TYLOO ($191), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B → TYLOO | omnibus-076daa $143, SnakeBall $137 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B → TYLOO | SnakeBall $133, omnibus-076daa $58 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B → TYLOO | SnakeBall $133, omnibus-076daa $58 | $0 | — | fails: no Kalshi game found |
 
 
 ## Time-out
