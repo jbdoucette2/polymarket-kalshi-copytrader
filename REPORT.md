@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 3:11 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 3:23 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
 Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
@@ -131,6 +131,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Heat vs. Clippers · starts Thu Nov 5, 3:30 AM
 
+- Thu Nov 5, 3:23 AM (verify): Spread: Heat (-6.5): 15-min check: still passes (2 wallets, $15.7k for vs $0 against); holding
 - Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-9.5): first seen: 1 vetted on Heat ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-6.5): now passes
 - Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-6.5): RN1 joined Clippers (+$129)
