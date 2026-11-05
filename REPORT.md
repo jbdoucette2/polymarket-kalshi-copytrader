@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 11:37 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
+Updated Thu Nov 5, 11:53 AM. Bankroll **$86.37** (start $100): $76.38 cash + open trades at cost.
 
 Record: 25 won, 20 lost, 4 sold early. Realized P&L $-13.63. Open: 1.
 
@@ -7492,17 +7492,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:15 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 3, 10:12 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 9:12 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | Flaznorp $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Taipei: Tung-Lin Wu vs Chun-Chien Hou · starts Tue Nov 3, 11:50 AM
-
-- Tue Nov 3, 11:15 AM (hourly): Taipei: Tung-Lin Wu vs Chun-Chien Hou: all vetted wallets left Tung-Lin Wu
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:15 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:12 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | Flaznorp $417 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | Flaznorp $417 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Taipei: Tung-Lin Wu vs Chun-Chien Hou → Tung-Lin Wu | Flaznorp $417 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Cong An Ha Noi FC vs. Kyoto Sanga FC · starts Tue Nov 3, 12:15 PM
 
