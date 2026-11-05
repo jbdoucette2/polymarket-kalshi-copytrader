@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-05T09:15:59Z",
+  "updated": "2026-11-05T10:12:13Z",
   "games": [
-    {
-      "event_slug": "wta-hontama-kulamba-2026-11-04",
-      "game": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva",
-      "start": "2026-11-05T09:30:00Z",
-      "check_at": "2026-11-05T09:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama ($204, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "wta-valento-eala-2026-11-05",
       "game": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala",
@@ -42,46 +32,6 @@
       "status": "fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "col-tra-scf-2026-11-05",
-      "game": "Trabzonspor vs. SC Freiburg",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Trabzonspor win on 2026-11-05? → No ($449, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $449 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-mil1-ftc-2026-11-05",
-      "game": "AC Milan vs. Ferencvárosi TC",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Ferencvárosi TC win on 2026-11-05? → No ($271, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-and-rbs-2026-11-05-more-markets",
-      "game": "RSC Anderlecht vs. FC Red Bull Salzburg - More Markets",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "RSC Anderlecht vs. FC Red Bull Salzburg: O/U 5.5 → Under ($226, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $226 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-spp-bou-2026-11-05-more-markets",
-      "game": "AC Sparta Praha vs. AFC Bournemouth - More Markets",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "AC Sparta Praha vs. AFC Bournemouth: O/U 5.5 → Under ($226, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $226 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "col-agf-scb-2026-11-05-more-markets",
       "game": "Aarhus GF vs. SC Braga - More Markets",
       "start": "2026-11-05T17:45:00Z",
@@ -90,6 +40,26 @@
       "near": 1,
       "best": "Aarhus GF vs. SC Braga: O/U 2.5 → Under ($168, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-lil1-plz-2026-11-05",
+      "game": "Lillestrøm SK vs. FC Viktoria Plzeň",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will FC Viktoria Plzeň win on 2026-11-05? → No ($97, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "col-tra-scf-2026-11-05",
+      "game": "Trabzonspor vs. SC Freiburg",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Trabzonspor win on 2026-11-05? → No ($442, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $442 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lev2-jag-2026-11-05",
@@ -102,16 +72,6 @@
       "status": "fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "uel-lil1-plz-2026-11-05",
-      "game": "Lillestrøm SK vs. FC Viktoria Plzeň",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will FC Viktoria Plzeň win on 2026-11-05? → No ($99, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "uel-spp-bou-2026-11-05",
       "game": "AC Sparta Praha vs. AFC Bournemouth",
       "start": "2026-11-05T17:45:00Z",
@@ -122,14 +82,84 @@
       "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "uel-and-rbs-2026-11-05-more-markets",
+      "game": "RSC Anderlecht vs. FC Red Bull Salzburg - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "RSC Anderlecht vs. FC Red Bull Salzburg: O/U 5.5 → Under ($452, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $452 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "col-lin-haj-2026-11-05-more-markets",
+      "game": "Lincoln Red Imps FC vs. HNK Hajduk Split - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Lincoln Red Imps FC vs. HNK Hajduk Split: O/U 5.5 → Under ($272, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-mil1-ftc-2026-11-05",
+      "game": "AC Milan vs. Ferencvárosi TC",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Ferencvárosi TC win on 2026-11-05? → No ($271, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-spp-bou-2026-11-05-more-markets",
+      "game": "AC Sparta Praha vs. AFC Bournemouth - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "AC Sparta Praha vs. AFC Bournemouth: O/U 5.5 → Under ($225, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-mil1-ftc-2026-11-05-more-markets",
+      "game": "AC Milan vs. Ferencvárosi TC - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "AC Milan vs. Ferencvárosi TC: O/U 5.5 → Under ($161, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $161 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-cry-hof-2026-11-05-more-markets",
+      "game": "Crystal Palace FC vs. TSG 1899 Hoffenheim - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Crystal Palace FC vs. TSG 1899 Hoffenheim: O/U 5.5 → Over ($46, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "col-mid-aja-2026-11-05-more-markets",
+      "game": "FC Midtjylland vs. AFC Ajax - More Markets",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "FC Midtjylland vs. AFC Ajax: O/U 5.5 → Over ($20, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "atp-berrett-alcaraz-2026-11-05",
       "game": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz",
       "start": "2026-11-05T18:00:00Z",
       "check_at": "2026-11-05T17:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz ($2.6k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $2.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "passing": 1,
+      "near": 0,
+      "best": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz ($33.4k, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "uel-cel-bes-2026-11-05-more-markets",
@@ -137,9 +167,19 @@
       "start": "2026-11-05T20:00:00Z",
       "check_at": "2026-11-05T19:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under ($272, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-ut-aa-2026-11-05",
+      "game": "SC União Torreense vs. Ararat-Armenia FA",
+      "start": "2026-11-05T20:00:00Z",
+      "check_at": "2026-11-05T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Ararat-Armenia FA win on 2026-11-05? → No ($44, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bra-pal-cre-2026-11-05",
@@ -150,6 +190,16 @@
       "near": 1,
       "best": "Will Clube do Remo win on 2026-11-05? → No ($268, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bra-pal-cre-2026-11-05-more-markets",
+      "game": "SE Palmeiras vs. Clube do Remo - More Markets",
+      "start": "2026-11-05T22:30:00Z",
+      "check_at": "2026-11-05T22:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over ($32, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-utsa-flatl-2026-11-05",
