@@ -1,35 +1,25 @@
 {
-  "updated": "2026-11-05T02:17:10Z",
+  "updated": "2026-11-05T03:11:26Z",
   "games": [
-    {
-      "event_slug": "nba-dal-sas-2026-11-04",
-      "game": "Mavericks vs. Spurs",
-      "start": "2026-11-05T02:30:00Z",
-      "check_at": "2026-11-05T02:15:00Z",
-      "passing": 0,
-      "near": 4,
-      "best": "Spread: Spurs (-12.5) → Spurs ($152, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-lal-sac-2026-11-04",
-      "game": "Lakers vs. Kings",
-      "start": "2026-11-05T03:00:00Z",
-      "check_at": "2026-11-05T02:45:00Z",
-      "passing": 1,
-      "near": 3,
-      "best": "Spread: Lakers (-12.5) → Kings ($40.7k, 2 wallets)",
-      "status": "passes"
-    },
     {
       "event_slug": "nba-mia-lac-2026-11-04",
       "game": "Heat vs. Clippers",
       "start": "2026-11-05T03:30:00Z",
       "check_at": "2026-11-05T03:15:00Z",
-      "passing": 0,
+      "passing": 1,
       "near": 3,
-      "best": "Heat vs. Clippers: O/U 232.5 → Over ($126, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Heat (-6.5) → Clippers ($15.6k, 2 wallets)",
+      "status": "passes"
+    },
+    {
+      "event_slug": "wta-valento-eala-2026-11-05",
+      "game": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala",
+      "start": "2026-11-05T10:30:00Z",
+      "check_at": "2026-11-05T10:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($5.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lil1-plz-2026-11-05",
@@ -78,8 +68,8 @@
       "check_at": "2026-11-05T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz ($148, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz ($146, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lev-olm-2026-11-05",
@@ -88,8 +78,8 @@
       "check_at": "2026-11-05T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($35, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($269, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-cel-bes-2026-11-05-more-markets",
@@ -118,8 +108,8 @@
       "check_at": "2026-11-06T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "James Madison vs. Southern Miss → Southern Miss ($195, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "James Madison vs. Southern Miss → Southern Miss ($208, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }

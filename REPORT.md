@@ -1,13 +1,14 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 2:53 AM. Bankroll **$68.56** (start $100): $58.41 cash + open trades at cost.
+Updated Thu Nov 5, 3:11 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
-Record: 23 won, 20 lost, 4 sold early. Realized P&L $-31.44. Open: 1.
+Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | [Heat vs. Clippers](https://polymarket.com/event/nba-mia-lac-2026-11-04) | Spread: Heat (-6.5) → Clippers | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($15,579) | 18 × 54¢ NO `KXNBASPREAD-26NOV04MIALAC-MIA7` | open |  |
 | Thu Nov 5, 2:17 AM | [Lakers vs. Kings](https://polymarket.com/event/nba-lal-sac-2026-11-04) | Spread: Lakers (-12.5) → Kings | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($40,652) | 19 × 52¢ NO `KXNBASPREAD-26NOV04LALSAC-LAL13` | sold | $-0.87 |
-| Thu Nov 5, 12:17 AM | [Bulls vs. Knicks](https://polymarket.com/event/nba-chi-nyk-2026-11-04) | Bulls vs. Knicks: O/U 234.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($10,742) | 20 × 49¢ YES `KXNBATOTAL-26NOV04CHINYK-235` | open |  |
+| Thu Nov 5, 12:17 AM | [Bulls vs. Knicks](https://polymarket.com/event/nba-chi-nyk-2026-11-04) | Bulls vs. Knicks: O/U 234.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($10,742) | 20 × 49¢ YES `KXNBATOTAL-26NOV04CHINYK-235` | won | $+9.85 |
 | Wed Nov 4, 12:11 AM | [Buffalo vs. Miami (OH)](https://polymarket.com/event/cfb-buf-miaoh-2026-11-03) | Buffalo vs. Miami (OH): O/U 45.5 → Under | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d) ($12,753) | 18 × 53¢ NO `KXNCAAFTOTAL-26NOV03BUFFMOH-46` | lost | $-9.86 |
 | Tue Nov 3, 11:12 PM | [Red Wings vs. Lightning](https://polymarket.com/event/nhl-det-tb-2026-11-03) | Red Wings vs. Lightning → Red Wings | [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,283) | 35 × 28¢ YES `KXNHLGAME-26NOV03DETTB-DET` | sold | $-1.34 |
 | Tue Nov 3, 11:12 PM | [Wild vs. Flyers](https://polymarket.com/event/nhl-min-phi-2026-11-03) | Wild vs. Flyers → Flyers | [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,029) | 27 × 37¢ YES `KXNHLGAME-26NOV03MINPHI-PHI` | sold | $-0.90 |
@@ -59,8 +60,81 @@ Record: 23 won, 20 lost, 4 sold early. Realized P&L $-31.44. Open: 1.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### UTSA vs. Florida Atlantic · starts Fri Nov 6, 12:30 AM
+
+- Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-7.5): Kalshi matched at 47¢
+- Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-6.5): Kalshi matched at 46¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | 47¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | 46¢ NO | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | 47¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | 46¢ NO | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | — | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Celtic FC vs. Beşiktaş JK - More Markets · starts Thu Nov 5, 8:00 PM
+
+- Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 2.5: Kalshi matched at 64¢
+- Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 5.5: Kalshi matched at 90¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | 64¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | 90¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | 64¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | 90¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 5, 1:15 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 4, 11:11 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 4, 11:11 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+
+### James Madison vs. Southern Miss · starts Fri Nov 6, 1:00 AM
+
+- Thu Nov 5, 1:15 AM (hourly): James Madison vs. Southern Miss: first seen: 1 vetted on Southern Miss ($195), fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $208 | $0 | 16¢ YES | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### AC Milan vs. Ferencvárosi TC · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 1:15 AM (hourly): Will Ferencvárosi TC win on 2026-11-05?: first seen: 1 vetted on No ($268), fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz · starts Thu Nov 5, 6:00 PM
+
+- Thu Nov 5, 2:17 AM (hourly): Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz: first seen: 1 vetted on Carlos Alcaraz ($148), fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $146 | $0 | 83¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | 83¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala · starts Thu Nov 5, 10:30 AM
+
+- Thu Nov 5, 3:11 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: first seen: 1 vetted on Alexandra Eala ($5.6k), fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala | monkeymashingkeyboard $5.6k | $0 | 64¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Heat vs. Clippers · starts Thu Nov 5, 3:30 AM
 
+- Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-9.5): first seen: 1 vetted on Heat ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+- Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-6.5): now passes
+- Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-6.5): RN1 joined Clippers (+$129)
+- Thu Nov 5, 3:11 AM (pregame): Spread: Heat (-6.5): monkeymashingkeyboard added $15.4k on Clippers
 - Thu Nov 5, 2:17 AM (hourly): Spread: Heat (-5.5): all vetted wallets left Clippers
 - Thu Nov 5, 2:17 AM (hourly): Spread: Heat (-6.5): Kalshi matched at 54¢
 - Thu Nov 5, 2:17 AM (hourly): Spread: Heat (-2.5): Kalshi matched at 62¢
@@ -72,6 +146,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | pregame | Spread: Heat (-2.5) → Heat | RN1 $24 | $0 | 62¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | pregame | Spread: Heat (-9.5) → Heat | RN1 $49 | $0 | 39¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | pregame | Heat vs. Clippers: O/U 232.5 → Over | RN1 $126 | $0 | 52¢ YES | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | pregame | Spread: Heat (-6.5) → Clippers | monkeymashingkeyboard $15.4k, RN1 $129 | $0 | 54¢ NO | passes |
 | Thu Nov 5, 2:17 AM | hourly | Spread: Heat (-5.5) → Clippers | none | $0 | — | fails: no vetted wallets hold it now |
 | Thu Nov 5, 2:17 AM | hourly | Spread: Heat (-6.5) → Clippers | monkeymashingkeyboard $90 | $0 | 54¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | hourly | Spread: Heat (-2.5) → Heat | RN1 $24 | $0 | 62¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -92,59 +170,49 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 5:11 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 4:13 AM | hourly | Heat vs. Clippers: O/U 233.5 → Over | HomeRunHazard $231 | $0 | — | fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 233.5 line |
 
-### UTSA vs. Florida Atlantic · starts Fri Nov 6, 12:30 AM
+### Atalanta BC vs. Qairat FK · starts Thu Nov 5, 5:45 PM
 
-- Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-7.5): Kalshi matched at 47¢
-- Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-6.5): Kalshi matched at 46¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | 47¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | 46¢ NO | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | — | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Celtic FC vs. Beşiktaş JK - More Markets · starts Thu Nov 5, 8:00 PM
-
-- Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 2.5: Kalshi matched at 64¢
-- Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 5.5: Kalshi matched at 90¢
+- Thu Nov 5, 1:15 AM (hourly): Will Qairat FK win on 2026-11-05?: Kalshi matched at 95¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | 64¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | 90¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 1:15 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 11:11 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 11:11 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 5, 3:11 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 11:11 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Wed Nov 4, 10:12 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### James Madison vs. Southern Miss · starts Fri Nov 6, 1:00 AM
+### AC Sparta Praha vs. AFC Bournemouth · starts Thu Nov 5, 5:45 PM
 
-- Thu Nov 5, 1:15 AM (hourly): James Madison vs. Southern Miss: first seen: 1 vetted on Southern Miss ($195), fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+)
+- Thu Nov 5, 1:15 AM (hourly): Will AFC Bournemouth win on 2026-11-05?: Kalshi matched at 36¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 11:11 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Wed Nov 4, 10:12 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### AC Milan vs. Ferencvárosi TC · starts Thu Nov 5, 5:45 PM
+### Bayer 04 Leverkusen vs. Olympique de Marseille · starts Thu Nov 5, 8:00 PM
 
-- Thu Nov 5, 1:15 AM (hourly): Will Ferencvárosi TC win on 2026-11-05?: first seen: 1 vetted on No ($268), fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz · starts Thu Nov 5, 6:00 PM
-
-- Thu Nov 5, 2:17 AM (hourly): Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz: first seen: 1 vetted on Carlos Alcaraz ($148), fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+)
+- Thu Nov 5, 2:17 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: first seen: 1 vetted on No ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | 83¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $269 | $0 | 88¢ NO | fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Lillestrøm SK vs. FC Viktoria Plzeň · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 1:15 AM (hourly): Will FC Viktoria Plzeň win on 2026-11-05?: Kalshi matched at 57¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 11:11 PM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Lakers vs. Kings · starts Thu Nov 5, 3:00 AM
 
@@ -238,46 +306,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | HomeRunHazard $157 | $0 | 56¢ YES | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 228.5 → Over | HomeRunHazard $345 | $0 | — | fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 228.5 line |
 | Wed Nov 4, 3:11 AM | hourly | Mavericks vs. Spurs → Spurs | HomeRunHazard $107 | $0 | 82¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Atalanta BC vs. Qairat FK · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will Qairat FK win on 2026-11-05?: Kalshi matched at 95¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 10:12 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### AC Sparta Praha vs. AFC Bournemouth · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will AFC Bournemouth win on 2026-11-05?: Kalshi matched at 36¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 10:12 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Bayer 04 Leverkusen vs. Olympique de Marseille · starts Thu Nov 5, 8:00 PM
-
-- Thu Nov 5, 2:17 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: first seen: 1 vetted on No ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Lillestrøm SK vs. FC Viktoria Plzeň · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will FC Viktoria Plzeň win on 2026-11-05?: Kalshi matched at 57¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Raptors vs. Nuggets · starts Thu Nov 5, 2:00 AM
 
@@ -7693,134 +7721,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B → TYLOO | SnakeBall $133, omnibus-076daa $58 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Counter-Strike: TYLOO vs 9z (BO3) - IEM Beijing Group B → TYLOO | SnakeBall $133, omnibus-076daa $58 | $0 | — | fails: no Kalshi game found |
 
-### Heat vs. Lakers · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Spread: Lakers (-5.5): first seen: 1 vetted on Heat ($44), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Heat (-1.5): first seen: 1 vetted on Lakers ($42), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Lakers (-3.5): first seen: 3 vetted on Lakers ($517), fails: opposition 10%
-- Mon Nov 2, 11:33 PM (hourly): Heat vs. Lakers: first seen: 3 vetted on Heat ($21.0k), fails: opposition 57%
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Lakers (-5.5) → Heat | SnakeBall $44 | $0 | 62¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Heat (-1.5) → Lakers | Flaznorp $42 | $0 | 58¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Lakers (-3.5) → Lakers | Flaznorp $360, SnakeBall $117, UpTheBlues $40 | $53 | 46¢ YES | fails: opposition 10% |
-| Mon Nov 2, 11:59 PM | hourly | Heat vs. Lakers → Heat | HomeRunHazard $19.4k, Flaznorp $1.1k, omnibus-076daa $516 | $12.1k | 45¢ YES | fails: opposition 57% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Lakers (-5.5) → Heat | SnakeBall $44 | $0 | 62¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Heat (-1.5) → Lakers | Flaznorp $42 | $0 | 58¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Lakers (-3.5) → Lakers | Flaznorp $360, SnakeBall $117, UpTheBlues $40 | $53 | 46¢ YES | fails: opposition 10% |
-| Mon Nov 2, 11:33 PM | hourly | Heat vs. Lakers → Heat | HomeRunHazard $19.4k, Flaznorp $1.1k, omnibus-076daa $516 | $12.1k | 45¢ YES | fails: opposition 57% |
-
-### Raptors vs. Clippers · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Spread: Raptors (-1.5): first seen: 1 vetted on Raptors ($144), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Raptors (-6.5): first seen: 3 vetted on Raptors ($8.1k), passes
-- Mon Nov 2, 11:33 PM (hourly): Raptors vs. Clippers: first seen: 2 vetted on Clippers ($7.0k), passes
-- Mon Nov 2, 11:33 PM (hourly): Raptors vs. Clippers: O/U 219.5: first seen: 3 vetted on Under ($257), passes
-- Mon Nov 2, 11:33 PM (hourly): Raptors vs. Clippers: O/U 220.5: first seen: 2 vetted on Under ($50.8k), fails: Kalshi has no 220.5 line
-- Mon Nov 2, 11:33 PM (hourly): Spread: Raptors (-2.5): first seen: 1 vetted on Raptors ($1.4k), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Raptors (-3.5): first seen: 3 vetted on Raptors ($10.8k), fails: opposition 36%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Raptors (-4.5): first seen: 2 vetted on Clippers ($16.2k), passes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Raptors (-1.5) → Raptors | HomeRunHazard $142 | $0 | 61¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Raptors (-6.5) → Raptors | HomeRunHazard $8.0k, SnakeBall $76, UpTheBlues $42 | $0 | 43¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Raptors vs. Clippers → Clippers | monkeymashingkeyboard $6.5k, omnibus-076daa $435 | $0 | 39¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Raptors vs. Clippers: O/U 219.5 → Under | SnakeBall $117, Flaznorp $90, UpTheBlues $50 | $0 | 50¢ NO | passes |
-| Mon Nov 2, 11:59 PM | hourly | Raptors vs. Clippers: O/U 220.5 → Under | monkeymashingkeyboard $50.8k, UpTheBlues $55 | $463 | — | fails: Kalshi has no 220.5 line |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Raptors (-2.5) → Raptors | Flaznorp $1.4k | $0 | 58¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Raptors (-3.5) → Raptors | HomeRunHazard $10.4k, RN1 $268, SnakeBall $37 | $3.9k | 54¢ YES | fails: opposition 36% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Raptors (-4.5) → Clippers | monkeymashingkeyboard $15.2k, Flaznorp $1.1k | $378 | 52¢ NO | passes |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-1.5) → Raptors | HomeRunHazard $144 | $0 | 61¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-6.5) → Raptors | HomeRunHazard $8.0k, SnakeBall $76, UpTheBlues $42 | $0 | 43¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Raptors vs. Clippers → Clippers | monkeymashingkeyboard $6.5k, omnibus-076daa $435 | $0 | 39¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Raptors vs. Clippers: O/U 219.5 → Under | SnakeBall $117, Flaznorp $90, UpTheBlues $50 | $0 | 50¢ NO | passes |
-| Mon Nov 2, 11:33 PM | hourly | Raptors vs. Clippers: O/U 220.5 → Under | monkeymashingkeyboard $50.8k, UpTheBlues $55 | $463 | — | fails: Kalshi has no 220.5 line |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-2.5) → Raptors | Flaznorp $1.4k | $0 | 58¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-3.5) → Raptors | HomeRunHazard $10.4k, RN1 $268, SnakeBall $37 | $3.9k | 54¢ YES | fails: opposition 36% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-4.5) → Clippers | monkeymashingkeyboard $15.2k, Flaznorp $1.1k | $378 | 52¢ NO | passes |
-
-### Suns vs. Warriors · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:59 PM (hourly): Suns vs. Warriors: Kalshi 57¢ → 56¢
-- Mon Nov 2, 11:59 PM (hourly): Spread: Warriors (-1.5): Kalshi 55¢ → 56¢
-- Mon Nov 2, 11:33 PM (hourly): Suns vs. Warriors: O/U 228.5: first seen: 2 vetted on Over ($463), fails: Kalshi has no 228.5 line
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-8.5): first seen: 1 vetted on Suns ($176), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Suns (-5.5): first seen: 1 vetted on Suns ($299), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Suns vs. Warriors: O/U 226.5: first seen: 3 vetted on Over ($5.3k), fails: Kalshi has no 226.5 line
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-2.5): first seen: 2 vetted on Warriors ($26.0k), passes
-- Mon Nov 2, 11:33 PM (hourly): Spread: Suns (-3.5): first seen: 2 vetted on Suns ($158), fails: opposition 63%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-4.5): first seen: 1 vetted on Suns ($6.6k), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Suns vs. Warriors: first seen: 2 vetted on Warriors ($416), fails: opposition 49%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-3.5): first seen: 2 vetted on Warriors ($572), fails: opposition 36%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-5.5): first seen: 3 vetted on Warriors ($801), passes
-- Mon Nov 2, 11:33 PM (hourly): Suns vs. Warriors: O/U 227.5: first seen: 2 vetted on Over ($274), fails: opposition 46%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Warriors (-1.5): first seen: 2 vetted on Warriors ($832), fails: opposition 19%
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Suns vs. Warriors: O/U 228.5 → Over | HomeRunHazard $429, UpTheBlues $34 | $0 | — | fails: Kalshi has no 228.5 line |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-8.5) → Suns | UpTheBlues $176 | $0 | 69¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Suns (-5.5) → Suns | UpTheBlues $299 | $0 | 29¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Suns vs. Warriors: O/U 226.5 → Over | HomeRunHazard $4.2k, UpTheBlues $765, SnakeBall $392 | $0 | — | fails: Kalshi has no 226.5 line |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-2.5) → Warriors | monkeymashingkeyboard $23.2k, HomeRunHazard $2.9k | $41 | 53¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Suns (-3.5) → Suns | UpTheBlues $116, SnakeBall $42 | $99 | 35¢ YES | fails: opposition 63% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-4.5) → Suns | HomeRunHazard $6.6k | $191 | 58¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Suns vs. Warriors → Warriors | omnibus-076daa $228, Flaznorp $188 | $204 | 56¢ YES | fails: opposition 49% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-3.5) → Warriors | Flaznorp $532, SnakeBall $40 | $208 | 47¢ YES | fails: opposition 36% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-5.5) → Warriors | Flaznorp $682, SnakeBall $74, UpTheBlues $46 | $0 | 41¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Suns vs. Warriors: O/U 227.5 → Over | omnibus-076daa $173, Flaznorp $101 | $126 | 50¢ YES | fails: opposition 46% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Warriors (-1.5) → Warriors | UpTheBlues $694, RN1 $139 | $157 | 56¢ YES | fails: opposition 19% |
-| Mon Nov 2, 11:33 PM | hourly | Suns vs. Warriors: O/U 228.5 → Over | HomeRunHazard $429, UpTheBlues $34 | $0 | — | fails: Kalshi has no 228.5 line |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-8.5) → Suns | UpTheBlues $176 | $0 | 69¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Suns (-5.5) → Suns | UpTheBlues $299 | $0 | 29¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Suns vs. Warriors: O/U 226.5 → Over | HomeRunHazard $4.2k, UpTheBlues $765, SnakeBall $392 | $0 | — | fails: Kalshi has no 226.5 line |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-2.5) → Warriors | monkeymashingkeyboard $23.2k, HomeRunHazard $2.9k | $41 | 53¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Suns (-3.5) → Suns | UpTheBlues $116, SnakeBall $42 | $99 | 35¢ YES | fails: opposition 63% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-4.5) → Suns | HomeRunHazard $6.6k | $191 | 58¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Suns vs. Warriors → Warriors | omnibus-076daa $228, Flaznorp $188 | $204 | 57¢ YES | fails: opposition 49% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-3.5) → Warriors | Flaznorp $532, SnakeBall $40 | $208 | 47¢ YES | fails: opposition 36% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-5.5) → Warriors | Flaznorp $682, SnakeBall $74, UpTheBlues $46 | $0 | 41¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Suns vs. Warriors: O/U 227.5 → Over | omnibus-076daa $173, Flaznorp $101 | $126 | 50¢ YES | fails: opposition 46% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Warriors (-1.5) → Warriors | UpTheBlues $694, RN1 $139 | $157 | 55¢ YES | fails: opposition 19% |
-
-### Radford Highlanders vs. San Francisco Dons · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Radford Highlanders vs. San Francisco Dons: first seen: 1 vetted on Radford Highlanders ($38), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Radford Highlanders vs. San Francisco Dons → Radford Highlanders | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Radford Highlanders vs. San Francisco Dons → Radford Highlanders | SnakeBall $38 | $0 | 11¢ YES | fails: only 1 vetted wallet |
-
-### UCLA Bruins vs. Arizona Wildcats · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): UCLA Bruins vs. Arizona Wildcats: first seen: 1 vetted on Arizona Wildcats ($13), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | UCLA Bruins vs. Arizona Wildcats → Arizona Wildcats | HomeRunHazard $13 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | UCLA Bruins vs. Arizona Wildcats → Arizona Wildcats | HomeRunHazard $13 | $0 | 66¢ YES | fails: only 1 vetted wallet |
-
-### Montana State Bobcats vs. Colorado State Rams · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Montana State Bobcats vs. Colorado State Rams: first seen: 1 vetted on Colorado State Rams ($21), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Montana State Bobcats vs. Colorado State Rams → Colorado State Rams | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Montana State Bobcats vs. Colorado State Rams → Colorado State Rams | Flaznorp $21 | $0 | 85¢ YES | fails: only 1 vetted wallet |
-
-### East Tennessee State Buccaneers vs. Arizona State Sun Devils · starts Tue Nov 3, 3:00 AM
-
-- Mon Nov 2, 11:33 PM (hourly): East Tennessee State Buccaneers vs. Arizona State Sun Devils: first seen: 1 vetted on Arizona State Sun Devils ($1.1k), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | East Tennessee State Buccaneers vs. Arizona State Sun Devils → Arizona State Sun Devils | Flaznorp $1.1k | $74 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | East Tennessee State Buccaneers vs. Arizona State Sun Devils → Arizona State Sun Devils | Flaznorp $1.1k | $74 | 97¢ YES | fails: only 1 vetted wallet |
-
 
 ## Time-out
 
@@ -7828,14 +7728,15 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-2 (26 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 25-19 (30 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 0-3 (25 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 28-22 (25 pending) | benched |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 12-3 | released Wed Nov 4, 9:10 PM: shadow picks won 75% of 8 games at an average price of 67¢ |
 
 ## Recent skips
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Thu Nov 5, 3:11 AM | Test Match: Bangladesh vs West Indies | Will the match end in a draw? → No | only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 2:17 AM | Mavericks vs. Spurs | Mavericks vs. Spurs: O/U 223.5 → Over | only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | Mavericks vs. Spurs | Mavericks vs. Spurs: O/U 225.5 → Over | only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | Mavericks vs. Spurs | Spread: Spurs (-12.5) → Spurs | only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -7865,4 +7766,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Bucks vs. Celtics: O/U 207.5 → Under | only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Spread: Celtics (-30.5) → Bucks | only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Bucks vs. Celtics: O/U 223.5 → Over | only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Bucks vs. Celtics: O/U 221.5 → Over | only 1 vetted wallet with $4.4k (needs 3+ wallets, or 2 with $5.0k+) |
