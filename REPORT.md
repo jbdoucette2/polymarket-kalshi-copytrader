@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 2:38 AM. Bankroll **$69.43** (start $100): $49.06 cash + open trades at cost.
+Updated Thu Nov 5, 2:53 AM. Bankroll **$68.56** (start $100): $58.41 cash + open trades at cost.
 
-Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 2.
+Record: 23 won, 20 lost, 4 sold early. Realized P&L $-31.44. Open: 1.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | [Lakers vs. Kings](https://polymarket.com/event/nba-lal-sac-2026-11-04) | Spread: Lakers (-12.5) → Kings | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($40,652) | 19 × 52¢ NO `KXNBASPREAD-26NOV04LALSAC-LAL13` | open |  |
+| Thu Nov 5, 2:17 AM | [Lakers vs. Kings](https://polymarket.com/event/nba-lal-sac-2026-11-04) | Spread: Lakers (-12.5) → Kings | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($40,652) | 19 × 52¢ NO `KXNBASPREAD-26NOV04LALSAC-LAL13` | sold | $-0.87 |
 | Thu Nov 5, 12:17 AM | [Bulls vs. Knicks](https://polymarket.com/event/nba-chi-nyk-2026-11-04) | Bulls vs. Knicks: O/U 234.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($10,742) | 20 × 49¢ YES `KXNBATOTAL-26NOV04CHINYK-235` | open |  |
 | Wed Nov 4, 12:11 AM | [Buffalo vs. Miami (OH)](https://polymarket.com/event/cfb-buf-miaoh-2026-11-03) | Buffalo vs. Miami (OH): O/U 45.5 → Under | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d) ($12,753) | 18 × 53¢ NO `KXNCAAFTOTAL-26NOV03BUFFMOH-46` | lost | $-9.86 |
 | Tue Nov 3, 11:12 PM | [Red Wings vs. Lightning](https://polymarket.com/event/nhl-det-tb-2026-11-03) | Red Wings vs. Lightning → Red Wings | [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d), [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,283) | 35 × 28¢ YES `KXNHLGAME-26NOV03DETTB-DET` | sold | $-1.34 |
@@ -148,6 +148,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Lakers vs. Kings · starts Thu Nov 5, 3:00 AM
 
+- Thu Nov 5, 2:53 AM (verify): Spread: Lakers (-12.5): 15-min check: Kings has only 1 vetted wallet with $41.2k (needs 3+ wallets, or 2 with $5.0k+) (1 wallets, $41.2k for vs $0 against); sold
 - Thu Nov 5, 2:17 AM (pregame): Lakers vs. Kings: O/U 230.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 2:17 AM (pregame): Lakers vs. Kings: O/U 234.5: Kalshi matched at 54¢
 - Thu Nov 5, 2:17 AM (pregame): Spread: Lakers (-12.5): now passes
