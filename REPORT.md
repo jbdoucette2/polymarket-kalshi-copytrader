@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 5:38 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 5:53 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
 Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
@@ -7531,18 +7531,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Counter-Strike: MOUZ vs BetBoom Team (BO3) - IEM Beijing Group B → BetBoom Team | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### FC Imabari vs. Hokkaidō Consadole Sapporo - More Markets · starts Tue Nov 3, 5:50 AM
-
-- Mon Nov 2, 11:33 PM (hourly): FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5: first seen: 2 vetted on Under ($168), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 5:14 AM | pregame | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | SnakeBall $134, Flaznorp $23 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | SnakeBall $134, Flaznorp $23 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | SnakeBall $134, Flaznorp $23 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | SnakeBall $143, Flaznorp $25 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | FC Imabari vs. Hokkaidō Consadole Sapporo: Hokkaidō Consadole Sapporo O/U 0.5 → Under | SnakeBall $143, Flaznorp $25 | $0 | — | fails: no Kalshi game found |
 
 ### Port FC vs. Beijing Guoan - More Markets · starts Tue Nov 3, 12:15 PM
 
