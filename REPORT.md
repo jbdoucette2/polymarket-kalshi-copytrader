@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 6:23 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
+Updated Thu Nov 5, 6:37 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
 
 Record: 26 won, 20 lost, 4 sold early. Realized P&L $-8.62. Open: 3.
 
@@ -7626,14 +7626,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: O/U 2.5 → Under | omnibus-076daa $923 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: Both Teams to Score → No | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: O/U 3.5 → Under | Flaznorp $259 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Villa Maria: Valentino Grippo vs Genaro Alberto Olivieri · starts Tue Nov 3, 6:30 PM
-
-- Tue Nov 3, 6:13 PM (pregame): Villa Maria: Valentino Grippo vs Genaro Alberto Olivieri: first seen: 2 vetted on Valentino Grippo ($76), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 PM | pregame | Villa Maria: Valentino Grippo vs Genaro Alberto Olivieri → Valentino Grippo | RN1 $48, Flaznorp $28 | $0 | — | fails: no Kalshi game found |
 
 ### Counter-Strike: QUINTESSÊNCIA vs RED Canids Academy (BO3) - CCT South America Group Stage · starts Tue Nov 3, 7:00 PM
 
