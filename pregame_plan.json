@@ -1,115 +1,15 @@
 {
-  "updated": "2026-11-05T19:15:06Z",
+  "updated": "2026-11-05T20:18:34Z",
   "games": [
     {
-      "event_slug": "uel-lev-olm-2026-11-05-more-markets",
-      "game": "Bayer 04 Leverkusen vs. Olympique de Marseille - More Markets",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
+      "event_slug": "bra-pal-cre-2026-11-05-more-markets",
+      "game": "SE Palmeiras vs. Clube do Remo - More Markets",
+      "start": "2026-11-05T22:30:00Z",
+      "check_at": "2026-11-05T22:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Bayer 04 Leverkusen (-1.5) → Bayer 04 Leverkusen ($30.6k, 2 wallets)",
-      "status": "fails: no Kalshi spread market"
-    },
-    {
-      "event_slug": "uel-ben-lep-2026-11-05-more-markets",
-      "game": "Sport Lisboa e Benfica vs. KKS Lech Poznań - More Markets",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica ($11.4k, 3 wallets)",
-      "status": "fails: no Kalshi game found"
-    },
-    {
-      "event_slug": "col-get-bha-2026-11-05",
-      "game": "Getafe CF vs. Brighton & Hove Albion FC",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Getafe CF win on 2026-11-05? → No ($417, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $417 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-ben-lep-2026-11-05",
-      "game": "Sport Lisboa e Benfica vs. KKS Lech Poznań",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Sport Lisboa e Benfica vs. KKS Lech Poznań end in a draw? → No ($28.3k, 3 wallets)",
-      "status": "fails: no Kalshi game found"
-    },
-    {
-      "event_slug": "col-pao-csk-2026-11-05",
-      "game": "Panathinaikós AO vs. PFK CSKA Sofia",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Panathinaikós AO win on 2026-11-05? → No ($6, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-sun-din-2026-11-05",
-      "game": "Sunderland AFC vs. GNK Dinamo Zagreb",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will GNK Dinamo Zagreb win on 2026-11-05? → Yes ($6, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "col-twe-paf-2026-11-05",
-      "game": "FC Twente vs. Páfos FC",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will FC Twente win on 2026-11-05? → No ($94, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "col-lug-kau-2026-11-05",
-      "game": "FC Lugano vs. FK Kauno Žalgiris",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will FC Lugano win on 2026-11-05? → No ($7, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-lev-olm-2026-11-05",
-      "game": "Bayer 04 Leverkusen vs. Olympique de Marseille",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 1,
-      "near": 0,
-      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($1.7k, 3 wallets)",
-      "status": "passes"
-    },
-    {
-      "event_slug": "col-asm-nor-2026-11-05",
-      "game": "AS Monaco FC vs. FC Nordsjælland",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will AS Monaco FC win on 2026-11-05? → Yes ($66, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-ut-aa-2026-11-05",
-      "game": "SC União Torreense vs. Ararat-Armenia FA",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Ararat-Armenia FA win on 2026-11-05? → No ($49, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over ($31, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bra-pal-cre-2026-11-05",
@@ -120,6 +20,16 @@
       "near": 1,
       "best": "Will Clube do Remo win on 2026-11-05? → No ($268, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-car-nyi-2026-11-05",
+      "game": "Hurricanes vs. Islanders",
+      "start": "2026-11-06T00:00:00Z",
+      "check_at": "2026-11-05T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hurricanes vs. Islanders → Islanders ($183, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-stl-nj-2026-11-05",
@@ -157,9 +67,39 @@
       "start": "2026-11-06T00:00:00Z",
       "check_at": "2026-11-05T23:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Flyers vs. Rangers → Flyers ($10.4k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $10.4k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-bos-pit-2026-11-05",
+      "game": "Bruins vs. Penguins",
+      "start": "2026-11-06T00:00:00Z",
+      "check_at": "2026-11-05T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Bruins vs. Penguins: O/U 6.5 → Under ($19, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-utsa-flatl-2026-11-05",
+      "game": "UTSA vs. Florida Atlantic",
+      "start": "2026-11-06T00:30:00Z",
+      "check_at": "2026-11-06T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "UTSA vs. Florida Atlantic: O/U 71.5 → Under ($24, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bra-cru-bah-2026-11-05-more-markets",
+      "game": "Cruzeiro EC vs. EC Bahia - More Markets",
+      "start": "2026-11-06T00:30:00Z",
+      "check_at": "2026-11-06T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Cruzeiro EC vs. EC Bahia: O/U 3.5 → Over ($51, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
@@ -167,9 +107,9 @@
       "start": "2026-11-06T01:00:00Z",
       "check_at": "2026-11-06T00:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "James Madison vs. Southern Miss → Southern Miss ($220, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "James Madison vs. Southern Miss → James Madison ($21.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-ana-edm-2026-11-05",
@@ -177,7 +117,7 @@
       "start": "2026-11-06T01:00:00Z",
       "check_at": "2026-11-06T00:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Ducks vs. Oilers → Ducks ($21.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $21.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -188,7 +128,7 @@
       "check_at": "2026-11-06T01:00:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Jaguars (-9.5) → Jaguars ($8.8k, 2 wallets)",
+      "best": "Spread: Jaguars (-9.5) → Jaguars ($11.0k, 2 wallets)",
       "status": "fails: no Kalshi game found"
     },
     {
@@ -200,6 +140,36 @@
       "near": 1,
       "best": "Predators vs. Avalanche → Avalanche ($16.9k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $16.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "sea-ven-udi-2026-11-06-more-markets",
+      "game": "Venezia FC vs. Udinese Calcio - More Markets",
+      "start": "2026-11-06T19:45:00Z",
+      "check_at": "2026-11-06T19:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Venezia FC vs. Udinese Calcio: O/U 1.5 → Under ($40, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "lal-sev-ala-2026-11-06",
+      "game": "Sevilla FC vs. Deportivo Alavés",
+      "start": "2026-11-06T20:00:00Z",
+      "check_at": "2026-11-06T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Deportivo Alavés win on 2026-11-06? → No ($115, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "epl-eve-cov-2026-11-06-more-markets",
+      "game": "Everton FC vs. Coventry City FC - More Markets",
+      "start": "2026-11-06T20:00:00Z",
+      "check_at": "2026-11-06T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Everton FC vs. Coventry City FC: O/U 5.5 → Over ($104, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
