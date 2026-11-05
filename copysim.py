@@ -331,17 +331,23 @@ def pm_teams(ev):
     return t if len(t) == 2 else None
 
 # ---------------- Kalshi matching ----------------
-# Polymarket name -> Kalshi name, applied word by word after accents are stripped
+# Polymarket name -> Kalshi name, applied to whole words after accents and punctuation are stripped
 NAME_ALIASES = {"praha": "prague", "independ": "independiente", "munchen": "munich", "koln": "cologne",
-                "sporting cp": "sporting", "internazionale": "inter", "olympique": ""}
+                "kobenhavn": "copenhagen", "az": "alkmaar", "sport lisboa e benfica": "benfica",
+                "saint gilloise": "gilloise", "sporting cp": "sporting", "internazionale": "inter", "olympique": ""}
+# Polymarket slug team code -> Kalshi ticker code, where the two sites differ (checked Nov 2026)
+CODE_ALIASES = {"nfl": {"JAX": "JAC", "LA": "LAR"},
+                "nhl": {"UTAH": "UTA", "MON": "MTL", "LAS": "VGK", "CAL": "CGY", "LAK": "LA"}}
+CLUB_WORDS = ("fc|cf|ac|afc|sc|cd|ud|us|ss|ssc|calcio|club|de|the|sk|kks|gnk|nk|pfk|fk|ao|rc|ru|vv|if|bk|sv|as|sl")
 
 def norm(s):
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()   # Fenerbahçe -> Fenerbahce
+    s = (s or "").translate(str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "AE", "ß": "ss", "đ": "d", "ł": "l", "Ł": "L"}))
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()   # Fenerbahçe -> Fenerbahce
     s = s.lower().replace("&", "and").replace("st.", "state").replace("'", "")
+    s = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
     for a, b in NAME_ALIASES.items():
         s = re.sub(rf"\b{a}\b", b, s)
-    s = re.sub(r"\b(fc|cf|ac|afc|sc|cd|ud|us|ss|calcio|club|de|the)\b", " ", s)
-    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    s = re.sub(rf"\b({CLUB_WORDS})\b", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
 def name_sim(pm_name, k_name):
@@ -422,18 +428,17 @@ def _k_game(ev, start):
             sc = lo
             # same kickoff time narrows it to one game: one sure name plus a partial one is enough
             # (e.g. "SK Slavia Praha" vs "Slavia Prague", "Cucuta Deportivo" vs "Cucuta")
+            # Kalshi's occurrence time is about when the game ends (NFL: kickoff + 3h), so allow -1h..+5h
             occ = parse_ts(kms[0].get("occurrence_datetime"))
-            if sc < 0.85 and start and occ and abs((occ - start).total_seconds()) <= 3 * 3600 and hi >= 0.95 and lo >= 0.6:
+            if sc < 0.85 and start and occ and -3600 <= (occ - start).total_seconds() <= 5 * 3600 and hi >= 0.95 and lo >= 0.6:
                 sc = 0.86
             # pro-league fallback: same team codes in the ticker (e.g. nba-sac-nop -> ...SACNOP)
             if sc < 0.85 and m_slug:
-                code = (m_slug.group(2) + m_slug.group(3)).upper()
-                suf = [m["ticker"].split("-")[-1] for m in kms]
-                if ke["event_ticker"].endswith(code):
-                    away = [m for m in kms if code.startswith(m["ticker"].split("-")[-1])]
-                    if away:
-                        home = [m for m in kms if m is not away[0]][0]
-                        sc, order = 0.95, (away[0], home)
+                alias = CODE_ALIASES.get(m_slug.group(1), {})
+                a, h = (alias.get(x.upper(), x.upper()) for x in (m_slug.group(2), m_slug.group(3)))
+                by_code = {m["ticker"].split("-")[-1]: m for m in kms}
+                if ke["event_ticker"].endswith(a + h) and a in by_code and h in by_code:
+                    sc, order = 0.95, (by_code[a], by_code[h])
             if sc > best[0]:
                 best = (sc, ke, order)
     if best[0] < 0.85:
