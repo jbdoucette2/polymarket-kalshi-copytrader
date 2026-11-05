@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 6:23 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 6:37 AM. Bankroll **$86.37** (start $100): $86.37 cash + open trades at cost.
 
-Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
+Record: 25 won, 20 lost, 4 sold early. Realized P&L $-13.63. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 3:11 AM | [Heat vs. Clippers](https://polymarket.com/event/nba-mia-lac-2026-11-04) | Spread: Heat (-6.5) → Clippers | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($15,579) | 18 × 54¢ NO `KXNBASPREAD-26NOV04MIALAC-MIA7` | open |  |
+| Thu Nov 5, 3:11 AM | [Heat vs. Clippers](https://polymarket.com/event/nba-mia-lac-2026-11-04) | Spread: Heat (-6.5) → Clippers | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($15,579) | 18 × 54¢ NO `KXNBASPREAD-26NOV04MIALAC-MIA7` | won | $+7.96 |
 | Thu Nov 5, 2:17 AM | [Lakers vs. Kings](https://polymarket.com/event/nba-lal-sac-2026-11-04) | Spread: Lakers (-12.5) → Kings | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($40,652) | 19 × 52¢ NO `KXNBASPREAD-26NOV04LALSAC-LAL13` | sold | $-0.87 |
 | Thu Nov 5, 12:17 AM | [Bulls vs. Knicks](https://polymarket.com/event/nba-chi-nyk-2026-11-04) | Bulls vs. Knicks: O/U 234.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($10,742) | 20 × 49¢ YES `KXNBATOTAL-26NOV04CHINYK-235` | won | $+9.85 |
 | Wed Nov 4, 12:11 AM | [Buffalo vs. Miami (OH)](https://polymarket.com/event/cfb-buf-miaoh-2026-11-03) | Buffalo vs. Miami (OH): O/U 45.5 → Under | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [HomeRunHazard](https://polymarket.com/profile/0x5268527977f700f9bf9b6d5cd843859e4e70135d) ($12,753) | 18 × 53¢ NO `KXNCAAFTOTAL-26NOV03BUFFMOH-46` | lost | $-9.86 |
