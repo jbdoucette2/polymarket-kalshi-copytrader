@@ -11,8 +11,10 @@ Rules (match the manual sim):
   * If the leaders sell or flip before the game starts, the sim sells at Kalshi's bid.
   * Held to settlement otherwise.
 
-Markets matched to Kalshi: moneylines, soccer win/draw, totals (O/U), spreads,
-for NBA, NFL, NHL, college football and basketball, and major soccer leagues.
+Markets matched to Kalshi: moneylines, soccer win/draw, game totals (O/U), spreads,
+for NBA, NFL, NHL, college football and basketball, ~50 soccer leagues and cups, Euroleague and ATP/WTA tennis.
+Team names are matched with accents stripped, a few aliases (Praha -> Prague), Kalshi's team codes
+(VDG = Vasco da Gama) and kickoff time; totals and spreads are also found by title when Kalshi has no game market.
 
 Entries happen only in the pre-game check, 5 to 25 minutes before the start (PREGAME_WINDOW).
 
@@ -33,7 +35,7 @@ to halt all new entries immediately in any mode.
 COPYSIM_DB (default copysim.db) picks the history file. REPORT.md, dashboard.html and pregame_plan.json
 are written next to it with the same suffix (copysim_live.db -> REPORT_live.md).
 """
-import html, json, math, os, re, sqlite3, sys, time, difflib
+import html, json, math, os, re, sqlite3, sys, time, difflib, unicodedata
 from datetime import datetime, timezone, timedelta
 import requests
 
@@ -90,12 +92,19 @@ ORDER_LOG = os.path.join(HERE, "orders.log")
 PM = "https://data-api.polymarket.com"
 GAMMA = "https://gamma-api.polymarket.com"
 KAL = "https://api.elections.kalshi.com/trade-api/v2"
-GAME_SERIES = ["KXNBAGAME", "KXNFLGAME", "KXNHLGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
-               "KXEPLGAME", "KXLALIGAGAME", "KXSERIEAGAME", "KXBUNDESLIGAGAME", "KXLIGUE1GAME",
-               "KXLIGAMXGAME", "KXMLSGAME", "KXUCLGAME", "KXUELGAME"]
-TOTAL_SERIES = ["KXNBATOTAL", "KXNHLTOTAL", "KXNFLTOTAL", "KXNCAAFTOTAL", "KXNCAAMBTOTAL", "KXEPLTOTAL",
-                "KXLALIGATOTAL", "KXSERIEATOTAL", "KXBUNDESLIGATOTAL", "KXLIGUE1TOTAL", "KXLIGAMXTOTAL", "KXMLSTOTAL"]
-SPREAD_SERIES = ["KXNBASPREAD", "KXNHLSPREAD", "KXNFLSPREAD", "KXNCAAFSPREAD", "KXNCAAMBSPREAD"]
+US_LEAGUES = ["NBA", "NFL", "NHL", "NCAAF", "NCAAMB", "NCAAWB"]
+# Soccer leagues and cups our wallets bet on that Kalshi lists as KX<LEAGUE>GAME / KX<LEAGUE>TOTAL
+SOCCER_LEAGUES = ["EPL", "LALIGA", "SERIEA", "BUNDESLIGA", "LIGUE1", "LIGAMX", "MLS", "UCL", "UEL", "UECL",
+                  "EFLCHAMPIONSHIP", "EFLL1", "EFLCUP", "FACUP", "SCOTTISHPREM", "LALIGA2", "SERIEB", "BUNDESLIGA2",
+                  "LIGUE2", "EREDIVISIE", "LIGAPORTUGAL", "BELGIANPL", "SUPERLIG", "SAUDIPL", "SLGREECE",
+                  "DENSUPERLIGA", "SWISSLEAGUE", "AUTBUNDES", "EKSTRAKLASA", "COPADELREY", "COPPAITALIA",
+                  "DFBPOKAL", "COUPEDEFRANCE", "BRASILEIRO", "ARGPREMDIV", "DIMAYOR", "VENFUTVE", "CHLLDP",
+                  "URYPD", "ECULP", "PERLIGA1", "CONMEBOLLIB", "CONMEBOLSUD", "COPADOBRASIL", "AFCCL", "JLEAGUE",
+                  "KLEAGUE", "ALEAGUE", "INTLFRIENDLY"]
+GAME_SERIES = ([f"KX{l}GAME" for l in US_LEAGUES + SOCCER_LEAGUES + ["EUROLEAGUE"]]
+               + ["KXNCAAFCSGAME", "KXATPMATCH", "KXWTAMATCH"])
+TOTAL_SERIES = [f"KX{l}TOTAL" for l in US_LEAGUES + SOCCER_LEAGUES + ["EUROLEAGUE"]]
+SPREAD_SERIES = [f"KX{l}SPREAD" for l in ["NBA", "NHL", "NFL", "NCAAF", "NCAAMB"]]
 
 S = requests.Session()
 S.headers["User-Agent"] = "copysim/3.0"
@@ -316,12 +325,21 @@ def pm_teams(ev):
             outs = json.loads(m["outcomes"]) if isinstance(m["outcomes"], str) else m["outcomes"]
             if len(outs) == 2 and "Yes" not in outs:
                 return outs
-    t = re.split(r"\s+vs\.?\s+", re.sub(r"\s*-\s*More Markets.*$", "", ev.get("title", "")), flags=re.I)
+    title = re.sub(r"\s+-\s+.*$", "", ev.get("title", ""))      # "... - More Markets", "- Exact Score", "- Halftime Result"
+    title = re.sub(r"^[^:]*:\s*(?=.+\svs\.?\s)", "", title)      # "Rolex Paris Masters: A vs B"
+    t = re.split(r"\s+vs\.?\s+", title, flags=re.I)
     return t if len(t) == 2 else None
 
 # ---------------- Kalshi matching ----------------
+# Polymarket name -> Kalshi name, applied word by word after accents are stripped
+NAME_ALIASES = {"praha": "prague", "independ": "independiente", "munchen": "munich", "koln": "cologne",
+                "sporting cp": "sporting", "internazionale": "inter", "olympique": ""}
+
 def norm(s):
-    s = (s or "").lower().replace("&", "and").replace("st.", "state").replace("'", "")
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()   # Fenerbahçe -> Fenerbahce
+    s = s.lower().replace("&", "and").replace("st.", "state").replace("'", "")
+    for a, b in NAME_ALIASES.items():
+        s = re.sub(rf"\b{a}\b", b, s)
     s = re.sub(r"\b(fc|cf|ac|afc|sc|cd|ud|us|ss|calcio|club|de|the)\b", " ", s)
     s = re.sub(r"[^a-z0-9 ]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
@@ -333,6 +351,32 @@ def name_sim(pm_name, k_name):
     if a == b or a.startswith(b + " ") or b.startswith(a + " ") or b in a.split(" ") or a in b.split(" "):
         return 1.0
     return difflib.SequenceMatcher(None, a, b).ratio()
+
+def abbr_match(pm_name, abbr):
+    """How well a Kalshi team code (VDG, CAP, LFC, RMA) fits a full name: 0.9 sure, 0.7 plausible, 0 no."""
+    abbr = (abbr or "").lower()
+    if len(abbr) < 2:
+        return 0
+    raw = re.sub(r"[^a-z ]", " ", unicodedata.normalize("NFKD", pm_name or "").encode("ascii", "ignore").decode().lower()).split()
+    for words in (norm(pm_name).split(" "), raw):
+        if not words or not words[0]:
+            continue
+        for k in range(len(words)):                      # "CR Vasco da Gama" -> VDG drops the CR
+            if "".join(w[0] for w in words[k:]) == abbr:
+                return 0.9
+        if "".join(words).startswith(abbr) or (len(abbr) >= 3 and any(w.startswith(abbr) for w in words)):
+            return 0.9
+    flat = "".join(raw)
+    if len(abbr) >= 4 and abbr in flat:                  # UMass -> MASS
+        return 0.7
+    it = iter(flat)                                      # Real Madrid -> RMA: letters in order, same first letter
+    if flat[:1] == abbr[0] and all(ch in it for ch in abbr):
+        return 0.7
+    return 0
+
+def team_sim(pm_name, km):
+    """Name similarity to a Kalshi market's team, counting its ticker code as a hint."""
+    return max(name_sim(pm_name, km.get("yes_sub_title")), abbr_match(pm_name, km["ticker"].split("-")[-1]))
 
 _k_cache = {}
 def k_events(series):
@@ -372,10 +416,15 @@ def _k_game(ev, start):
             exp = parse_ts(kms[0].get("expected_expiration_time"))
             if start and exp and abs((exp - start).total_seconds()) > 2 * 86400:
                 continue
-            names = [m["yes_sub_title"] for m in kms]
-            s1 = min(name_sim(teams[0], names[0]), name_sim(teams[1], names[1]))
-            s2 = min(name_sim(teams[0], names[1]), name_sim(teams[1], names[0]))
-            sc, order = (s1, (kms[0], kms[1])) if s1 >= s2 else (s2, (kms[1], kms[0]))
+            p00, p11 = team_sim(teams[0], kms[0]), team_sim(teams[1], kms[1])
+            p01, p10 = team_sim(teams[0], kms[1]), team_sim(teams[1], kms[0])
+            (lo, hi), order = ((min(p00, p11), max(p00, p11)), (kms[0], kms[1])) if min(p00, p11) >= min(p01, p10)                 else ((min(p01, p10), max(p01, p10)), (kms[1], kms[0]))
+            sc = lo
+            # same kickoff time narrows it to one game: one sure name plus a partial one is enough
+            # (e.g. "SK Slavia Praha" vs "Slavia Prague", "Cucuta Deportivo" vs "Cucuta")
+            occ = parse_ts(kms[0].get("occurrence_datetime"))
+            if sc < 0.85 and start and occ and abs((occ - start).total_seconds()) <= 3 * 3600 and hi >= 0.95 and lo >= 0.6:
+                sc = 0.86
             # pro-league fallback: same team codes in the ticker (e.g. nba-sac-nop -> ...SACNOP)
             if sc < 0.85 and m_slug:
                 code = (m_slug.group(2) + m_slug.group(3)).upper()
@@ -399,6 +448,31 @@ def k_related(game_ev, series_list):
                 return ke
     return None
 
+def k_by_title(series_list, teams, start):
+    """Find a Kalshi event by the two team names in its title ("A vs B: Total Points")."""
+    if not teams:
+        return None
+    best = (0, None)
+    for s in series_list:
+        for ke in k_events(s):
+            kt = re.split(r"\s+vs\.?\s+", re.sub(r":.*$", "", ke.get("title", "")), flags=re.I)
+            if len(kt) != 2 or not ke.get("markets"):
+                continue
+            exp = parse_ts(ke["markets"][0].get("expected_expiration_time"))
+            if start and exp and abs((exp - start).total_seconds()) > 2 * 86400:
+                continue
+            sc = max(min(name_sim(teams[0], kt[0]), name_sim(teams[1], kt[1])),
+                     min(name_sim(teams[0], kt[1]), name_sim(teams[1], kt[0])))
+            if sc > best[0]:
+                best = (sc, ke)
+    return best[1] if best[0] >= 0.85 else None
+
+def k_total_line(tev, line, pick):
+    for km in tev["markets"]:
+        if re.search(rf"\b{re.escape(line)}\b", km.get("yes_sub_title", "")) and "over" in km.get("yes_sub_title", "").lower():
+            return (km, "yes" if pick == "Over" else "no"), None
+    return None, f"Kalshi has no {line} line"
+
 def k_price(mk, side, kind="ask"):
     v = mk.get(f"{side}_{kind}_dollars")
     if v not in (None, ""):
@@ -413,6 +487,12 @@ def match_kalshi(ev, mk, idx, start):
     pick = outs[idx]
     gev, team_map = k_game(ev, start)
     if not gev:
+        # some games have a Kalshi totals market but no winner market (e.g. FBS vs FCS football)
+        mt = re.search(r"(?:^|:\s*)O/U\s*([\d.]+)", q)   # game total only, not "A vs. B: Team X O/U"
+        if mt and pick in ("Over", "Under") and not re.search(r"1H|1st|Half|Team Total|Player", q, re.I):
+            tev = k_by_title(TOTAL_SERIES, pm_teams(ev), start)
+            if tev:
+                return k_total_line(tev, mt.group(1), pick)
         return None, "no Kalshi game found"
     # 1) two-way moneyline
     if mk.get("slug") == ev.get("slug") and pick in team_map:
@@ -429,21 +509,18 @@ def match_kalshi(ev, mk, idx, start):
         tie = [m for m in gev["markets"] if (m.get("yes_sub_title") or "").lower() in ("tie", "draw")]
         return ((tie[0], pick.lower()), None) if tie else (None, "no Kalshi draw market")
     # 3) totals
-    mt = re.search(r"O/U\s*([\d.]+)", q)
+    mt = re.search(r"(?:^|:\s*)O/U\s*([\d.]+)", q)   # game total only, not "A vs. B: Team X O/U"
     if mt and pick in ("Over", "Under") and not re.search(r"1H|1st|Half|Team Total|Player", q, re.I):
         line = mt.group(1)
-        tev = k_related(gev, TOTAL_SERIES)
+        tev = k_related(gev, TOTAL_SERIES) or k_by_title(TOTAL_SERIES, pm_teams(ev), start)
         if not tev:
             return None, "no Kalshi totals market"
-        for km in tev["markets"]:
-            if re.search(rf"\b{re.escape(line)}\b", km.get("yes_sub_title", "")) and "over" in km.get("yes_sub_title", "").lower():
-                return (km, "yes" if pick == "Over" else "no"), None
-        return None, f"Kalshi has no {line} line"
+        return k_total_line(tev, line, pick)
     # 4) spreads: "Spread: Team (-3.5)"
     ms = re.match(r"Spread:\s*(.+?)\s*\(-([\d.]+)\)", q)
     if ms and not re.search(r"1H|1st|Half", q, re.I):
         fav, line = ms.group(1), ms.group(2)
-        sev = k_related(gev, SPREAD_SERIES)
+        sev = k_related(gev, SPREAD_SERIES) or k_by_title(SPREAD_SERIES, pm_teams(ev), start)
         if not sev:
             return None, "no Kalshi spread market"
         fav_k = team_map.get(max(team_map, key=lambda t: name_sim(fav, t)))
