@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 2:22 AM. Bankroll **$69.43** (start $100): $49.06 cash + open trades at cost.
+Updated Thu Nov 5, 2:38 AM. Bankroll **$69.43** (start $100): $49.06 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 2.
 
@@ -7810,15 +7810,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Mon Nov 2, 11:59 PM | hourly | Montana State Bobcats vs. Colorado State Rams → Colorado State Rams | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Montana State Bobcats vs. Colorado State Rams → Colorado State Rams | Flaznorp $21 | $0 | 85¢ YES | fails: only 1 vetted wallet |
-
-### Weber State Wildcats vs. Oregon State Beavers · starts Tue Nov 3, 2:30 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Weber State Wildcats vs. Oregon State Beavers: first seen: 1 vetted on Oregon State Beavers ($885), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Weber State Wildcats vs. Oregon State Beavers → Oregon State Beavers | Flaznorp $880 | $51 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Weber State Wildcats vs. Oregon State Beavers → Oregon State Beavers | Flaznorp $885 | $47 | 96¢ YES | fails: only 1 vetted wallet |
 
 ### East Tennessee State Buccaneers vs. Arizona State Sun Devils · starts Tue Nov 3, 3:00 AM
 
