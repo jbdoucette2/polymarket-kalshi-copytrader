@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 5:13 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
+Updated Thu Nov 5, 5:38 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
 
 Record: 26 won, 20 lost, 4 sold early. Realized P&L $-8.62. Open: 3.
 
@@ -495,6 +495,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### FC Thun vs. Heart of Midlothian FC · starts Thu Nov 5, 5:45 PM
 
+- Thu Nov 5, 5:38 PM (verify): Will FC Thun win on 2026-11-05?: 15-min check: still passes (2 wallets, $9.8k for vs $20 against); holding
 - Thu Nov 5, 5:13 PM (pregame): Will Heart of Midlothian FC win on 2026-11-05?: first seen: 1 vetted on No ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 5:13 PM (pregame): Will FC Thun win on 2026-11-05?: first seen: 2 vetted on Yes ($9.8k), passes
 
@@ -549,6 +550,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### AC Milan vs. Ferencvárosi TC · starts Thu Nov 5, 5:45 PM
 
+- Thu Nov 5, 5:38 PM (verify): Will AC Milan win on 2026-11-05?: 15-min check: still passes (2 wallets, $5.4k for vs $0 against); holding
 - Thu Nov 5, 5:13 PM (pregame): Will Ferencvárosi TC win on 2026-11-05?: Kalshi 89¢ → 87¢
 - Thu Nov 5, 5:13 PM (pregame): Will Ferencvárosi TC win on 2026-11-05?: SnakeBall added $1.0k on No
 - Thu Nov 5, 5:13 PM (pregame): Will AC Milan win on 2026-11-05?: Kalshi 73¢ → 70¢
@@ -583,6 +585,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### PFK Levski Sofia vs. Jagiellonia Białystok - More Markets · starts Thu Nov 5, 5:45 PM
 
+- Thu Nov 5, 5:38 PM (verify): PFK Levski Sofia vs. Jagiellonia Białystok: O/U 4.5: 15-min check: still passes (2 wallets, $9.6k for vs $0 against); holding
 - Thu Nov 5, 5:13 PM (pregame): PFK Levski Sofia vs. Jagiellonia Białystok: O/U 1.5: first seen: 1 vetted on Under ($41), fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 5:13 PM (pregame): PFK Levski Sofia vs. Jagiellonia Białystok: O/U 0.5: first seen: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 5:13 PM (pregame): PFK Levski Sofia vs. Jagiellonia Białystok: O/U 4.5: first seen: 2 vetted on Under ($9.6k), passes
@@ -8040,16 +8043,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Exact Score: Deportivo Pereira 2 - 0 CD Tolima? → No | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
 | Mon Nov 2, 11:59 PM | hourly | Exact Score: Deportivo Pereira 2 - 0 CD Tolima? → No | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Exact Score: Deportivo Pereira 2 - 0 CD Tolima? → No | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
-
-### Cali: Rebeka Masarova vs Alice Tubello · starts Tue Nov 3, 5:30 PM
-
-- Tue Nov 3, 11:15 AM (hourly): Cali: Rebeka Masarova vs Alice Tubello: all vetted wallets left Alice Tubello
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:15 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:12 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Cali: Rebeka Masarova vs Alice Tubello → Alice Tubello | Flaznorp $102 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Birmingham City FC vs. Millwall FC - More Markets · starts Tue Nov 3, 8:00 PM
 
