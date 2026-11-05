@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-05T03:11:26Z",
+  "updated": "2026-11-05T04:13:19Z",
   "games": [
-    {
-      "event_slug": "nba-mia-lac-2026-11-04",
-      "game": "Heat vs. Clippers",
-      "start": "2026-11-05T03:30:00Z",
-      "check_at": "2026-11-05T03:15:00Z",
-      "passing": 1,
-      "near": 3,
-      "best": "Spread: Heat (-6.5) → Clippers ($15.6k, 2 wallets)",
-      "status": "passes"
-    },
     {
       "event_slug": "wta-valento-eala-2026-11-05",
       "game": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala",
@@ -18,8 +8,38 @@
       "check_at": "2026-11-05T10:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($5.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.7k, 2 wallets)",
+      "status": "fails: no Kalshi game found"
+    },
+    {
+      "event_slug": "col-tra-scf-2026-11-05",
+      "game": "Trabzonspor vs. SC Freiburg",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Trabzonspor win on 2026-11-05? → No ($273, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uel-mil1-ftc-2026-11-05",
+      "game": "AC Milan vs. Ferencvárosi TC",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Ferencvárosi TC win on 2026-11-05? → No ($268, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "col-ata-kai-2026-11-05",
+      "game": "Atalanta BC vs. Qairat FK",
+      "start": "2026-11-05T17:45:00Z",
+      "check_at": "2026-11-05T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Qairat FK win on 2026-11-05? → No ($205, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lil1-plz-2026-11-05",
@@ -42,64 +62,14 @@
       "status": "fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "col-ata-kai-2026-11-05",
-      "game": "Atalanta BC vs. Qairat FK",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Qairat FK win on 2026-11-05? → No ($205, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-mil1-ftc-2026-11-05",
-      "game": "AC Milan vs. Ferencvárosi TC",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Ferencvárosi TC win on 2026-11-05? → No ($268, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "atp-berrett-alcaraz-2026-11-05",
-      "game": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz",
-      "start": "2026-11-05T18:00:00Z",
-      "check_at": "2026-11-05T17:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz ($146, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "uel-lev-olm-2026-11-05",
       "game": "Bayer 04 Leverkusen vs. Olympique de Marseille",
       "start": "2026-11-05T20:00:00Z",
       "check_at": "2026-11-05T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($269, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "uel-cel-bes-2026-11-05-more-markets",
-      "game": "Celtic FC vs. Beşiktaş JK - More Markets",
-      "start": "2026-11-05T20:00:00Z",
-      "check_at": "2026-11-05T19:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under ($265, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-utsa-flatl-2026-11-05",
-      "game": "UTSA vs. Florida Atlantic",
-      "start": "2026-11-06T00:30:00Z",
-      "check_at": "2026-11-06T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($176, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Olympique de Marseille win on 2026-11-05? → No ($563, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
