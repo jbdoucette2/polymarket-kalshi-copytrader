@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 12:38 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
+Updated Thu Nov 5, 12:53 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 1.
 
@@ -8137,18 +8137,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 12:17 AM | pregame | Siena Saints vs. Bryant Bulldogs → Siena Saints | Flaznorp $502, HomeRunHazard $264 | $30 | 66¢ YES | fails: Kalshi 66c vs leaders 63c |
 | Mon Nov 2, 11:59 PM | hourly | Siena Saints vs. Bryant Bulldogs → Siena Saints | Flaznorp $502, HomeRunHazard $264 | $30 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Siena Saints vs. Bryant Bulldogs → Siena Saints | Flaznorp $510, HomeRunHazard $268 | $29 | 65¢ YES | passes |
-
-### Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias · starts Tue Nov 3, 12:45 AM
-
-- Tue Nov 3, 12:17 AM (pregame): Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias: RN1 joined Pedro Boscardin Dias (+$234)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 12:30 AM | pregame | Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias → Pedro Boscardin Dias | RN1 $234, UpTheBlues $7 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:27 AM | pregame | Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias → Pedro Boscardin Dias | RN1 $234, UpTheBlues $7 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:17 AM | pregame | Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias → Pedro Boscardin Dias | RN1 $234, UpTheBlues $7 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias → Pedro Boscardin Dias | UpTheBlues $7 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Costa do Sauipe: Juan Carlos Prado vs Pedro Boscardin Dias → Pedro Boscardin Dias | UpTheBlues $7 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Heat vs. Lakers · starts Tue Nov 3, 3:00 AM
 
