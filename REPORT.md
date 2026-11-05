@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 5:23 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 5:38 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
 Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
@@ -7558,16 +7558,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Spread: Beijing Guoan (-1.5) → Port FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Port FC vs. Beijing Guoan: O/U 3.5 → Under | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Chennai Open: Panna Udvardy vs Robin Montgomery · starts Tue Nov 3, 5:30 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Chennai Open: Panna Udvardy vs Robin Montgomery: all vetted wallets left Robin Montgomery
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | none | $0 | — | fails: no vetted wallets hold it now |
-| Mon Nov 2, 11:59 PM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | omnibus-076daa $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | omnibus-076daa $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Chennai Open: Maaya Rajeshwaran Revathi vs Katarzyna Kawa · starts Tue Nov 3, 10:00 AM
 
 - Tue Nov 3, 4:22 AM (hourly): Chennai Open: Maaya Rajeshwaran Revathi vs Katarzyna Kawa: all vetted wallets left Maaya Rajeshwaran Revathi
@@ -7609,16 +7599,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | none | $0 | — | fails: no vetted wallets hold it now |
 | Mon Nov 2, 11:59 PM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | Flaznorp $352, omnibus-076daa $32 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Chennai Open: Mananchaya Sawangkaew vs Mai Hontama → Mananchaya Sawangkaew | Flaznorp $352, omnibus-076daa $32 | $0 | — | fails: no Kalshi game found |
-
-### Chennai Open: Jil Teichmann vs Joanna Garland · starts Tue Nov 3, 5:30 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Chennai Open: Jil Teichmann vs Joanna Garland: all vetted wallets left Jil Teichmann
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Chennai Open: Jil Teichmann vs Joanna Garland → Jil Teichmann | none | $0 | — | fails: no vetted wallets hold it now |
-| Mon Nov 2, 11:59 PM | hourly | Chennai Open: Jil Teichmann vs Joanna Garland → Jil Teichmann | monkeymashingkeyboard $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Chennai Open: Jil Teichmann vs Joanna Garland → Jil Teichmann | monkeymashingkeyboard $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Chennai Open: Jodie Burrage vs Vaishnavi Adkar · starts Tue Nov 3, 8:30 AM
 
