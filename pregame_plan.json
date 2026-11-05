@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T08:11:39Z",
+  "updated": "2026-11-05T09:15:59Z",
   "games": [
     {
       "event_slug": "wta-hontama-kulamba-2026-11-04",
@@ -14,12 +14,32 @@
     {
       "event_slug": "wta-valento-eala-2026-11-05",
       "game": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala",
-      "start": "2026-11-05T11:00:00Z",
-      "check_at": "2026-11-05T10:45:00Z",
+      "start": "2026-11-05T10:30:00Z",
+      "check_at": "2026-11-05T10:15:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($9.5k, 2 wallets)",
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($13.4k, 2 wallets)",
       "status": "passes"
+    },
+    {
+      "event_slug": "wta-cirstea-stoiana-2026-11-05",
+      "game": "Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana",
+      "start": "2026-11-05T12:00:00Z",
+      "check_at": "2026-11-05T11:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea ($646, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $646 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-borges-buse-2026-11-05",
+      "game": "Rolex Paris Masters: Nuno Borges vs Ignacio Buse",
+      "start": "2026-11-05T14:30:00Z",
+      "check_at": "2026-11-05T14:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges ($3.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "col-tra-scf-2026-11-05",
@@ -30,16 +50,6 @@
       "near": 1,
       "best": "Will Trabzonspor win on 2026-11-05? → No ($449, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $449 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "col-lin-haj-2026-11-05-more-markets",
-      "game": "Lincoln Red Imps FC vs. HNK Hajduk Split - More Markets",
-      "start": "2026-11-05T17:45:00Z",
-      "check_at": "2026-11-05T17:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Lincoln Red Imps FC vs. HNK Hajduk Split: O/U 5.5 → Under ($272, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-mil1-ftc-2026-11-05",
@@ -68,8 +78,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "AC Sparta Praha vs. AFC Bournemouth: O/U 5.5 → Under ($225, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "AC Sparta Praha vs. AFC Bournemouth: O/U 5.5 → Under ($226, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $226 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "col-agf-scb-2026-11-05-more-markets",
@@ -78,8 +88,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Aarhus GF vs. SC Braga: O/U 2.5 → Under ($172, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $172 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Aarhus GF vs. SC Braga: O/U 2.5 → Under ($168, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lev2-jag-2026-11-05",
@@ -88,8 +98,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will PFK Levski Sofia win on 2026-11-05? → No ($124, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will PFK Levski Sofia win on 2026-11-05? → No ($127, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lil1-plz-2026-11-05",
@@ -108,8 +118,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Will AC Sparta Praha win on 2026-11-05? → Yes ($33, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will AC Sparta Praha win on 2026-11-05? → Yes ($31, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-berrett-alcaraz-2026-11-05",
@@ -148,8 +158,8 @@
       "check_at": "2026-11-06T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($180, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($178, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
