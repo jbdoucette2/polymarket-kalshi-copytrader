@@ -1,15 +1,45 @@
 {
-  "updated": "2026-11-05T04:13:19Z",
+  "updated": "2026-11-05T05:12:12Z",
   "games": [
+    {
+      "event_slug": "wta-pridank-shublad-2026-11-05",
+      "game": "Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze",
+      "start": "2026-11-05T06:00:00Z",
+      "check_at": "2026-11-05T05:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze → Alexandra Shubladze ($799, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $799 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "wta-hontama-kulamba-2026-11-04",
+      "game": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva",
+      "start": "2026-11-05T09:30:00Z",
+      "check_at": "2026-11-05T09:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama ($206, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $206 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-paul-halys-2026-11-05",
+      "game": "Rolex Paris Masters: Tommy Paul vs Quentin Halys",
+      "start": "2026-11-05T10:00:00Z",
+      "check_at": "2026-11-05T09:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Rolex Paris Masters: Tommy Paul vs Quentin Halys → Quentin Halys ($1.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "wta-valento-eala-2026-11-05",
       "game": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala",
       "start": "2026-11-05T10:30:00Z",
       "check_at": "2026-11-05T10:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.7k, 2 wallets)",
-      "status": "fails: no Kalshi game found"
+      "passing": 1,
+      "near": 0,
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.8k, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "col-tra-scf-2026-11-05",
@@ -18,8 +48,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Trabzonspor win on 2026-11-05? → No ($273, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Trabzonspor win on 2026-11-05? → No ($457, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $457 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-mil1-ftc-2026-11-05",
@@ -72,12 +102,32 @@
       "status": "fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "uel-cel-bes-2026-11-05-more-markets",
+      "game": "Celtic FC vs. Beşiktaş JK - More Markets",
+      "start": "2026-11-05T20:00:00Z",
+      "check_at": "2026-11-05T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under ($265, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-utsa-flatl-2026-11-05",
+      "game": "UTSA vs. Florida Atlantic",
+      "start": "2026-11-06T00:30:00Z",
+      "check_at": "2026-11-06T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($176, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
       "game": "James Madison vs. Southern Miss",
       "start": "2026-11-06T01:00:00Z",
       "check_at": "2026-11-06T00:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "James Madison vs. Southern Miss → Southern Miss ($208, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+)"
     }

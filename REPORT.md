@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 4:52 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
+Updated Thu Nov 5, 5:12 AM. Bankroll **$78.41** (start $100): $68.37 cash + open trades at cost.
 
 Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
@@ -60,22 +60,54 @@ Record: 24 won, 20 lost, 4 sold early. Realized P&L $-21.59. Open: 1.
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### Rolex Paris Masters: Tommy Paul vs Quentin Halys · starts Thu Nov 5, 10:00 AM
+
+- Thu Nov 5, 5:12 AM (hourly): Rolex Paris Masters: Tommy Paul vs Quentin Halys: Kalshi matched at 26¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Rolex Paris Masters: Tommy Paul vs Quentin Halys → Quentin Halys | RN1 $1.3k | $0 | 26¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Rolex Paris Masters: Tommy Paul vs Quentin Halys → Quentin Halys | RN1 $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Chennai Open: Mai Hontama vs Zhibek Kulambayeva · starts Thu Nov 5, 9:30 AM
+
+- Thu Nov 5, 5:12 AM (hourly): Chennai Open: Mai Hontama vs Zhibek Kulambayeva: Kalshi matched at 82¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama | ferrariChampions2026 $206 | $0 | 82¢ YES | fails: only 1 vetted wallet with $206 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama | ferrariChampions2026 $206 | $0 | — | fails: only 1 vetted wallet with $206 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
 ### Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala · starts Thu Nov 5, 10:30 AM
 
+- Thu Nov 5, 5:12 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: now passes
+- Thu Nov 5, 5:12 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: Kalshi matched at 64¢
 - Thu Nov 5, 4:13 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: ferrariChampions2026 joined Alexandra Eala (+$708)
 - Thu Nov 5, 3:11 AM (hourly): Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala: first seen: 1 vetted on Alexandra Eala ($5.6k), fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala | monkeymashingkeyboard $6.1k, ferrariChampions2026 $708 | $0 | 64¢ YES | passes |
 | Thu Nov 5, 4:13 AM | hourly | Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala | monkeymashingkeyboard $6.0k, ferrariChampions2026 $708 | $0 | — | fails: no Kalshi game found |
 | Thu Nov 5, 3:11 AM | hourly | Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala | monkeymashingkeyboard $5.6k | $0 | 64¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze · starts Thu Nov 5, 6:00 AM
+
+- Thu Nov 5, 5:12 AM (pregame): Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze: Kalshi matched at 68¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | pregame | Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze → Alexandra Shubladze | ferrariChampions2026 $799 | $0 | 68¢ YES | fails: only 1 vetted wallet with $799 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze → Alexandra Shubladze | ferrariChampions2026 $799 | $0 | — | fails: only 1 vetted wallet with $799 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
 ### AC Sparta Praha vs. AFC Bournemouth · starts Thu Nov 5, 5:45 PM
 
+- Thu Nov 5, 5:12 AM (hourly): Will AFC Bournemouth win on 2026-11-05?: Kalshi 36¢ → 35¢
 - Thu Nov 5, 1:15 AM (hourly): Will AFC Bournemouth win on 2026-11-05?: Kalshi matched at 36¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 35¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 4:13 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 3:11 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | 36¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -83,79 +115,35 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 11:11 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 4, 10:12 PM | hourly | Will AFC Bournemouth win on 2026-11-05? → No | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Lillestrøm SK vs. FC Viktoria Plzeň · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will FC Viktoria Plzeň win on 2026-11-05?: Kalshi matched at 57¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 4:13 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 3:11 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Atalanta BC vs. Qairat FK · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will Qairat FK win on 2026-11-05?: Kalshi matched at 95¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 4:13 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 3:11 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 10:12 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### James Madison vs. Southern Miss · starts Fri Nov 6, 1:00 AM
 
+- Thu Nov 5, 5:12 AM (hourly): James Madison vs. Southern Miss: O/U 55.5: Kalshi matched at 46¢
 - Thu Nov 5, 1:15 AM (hourly): James Madison vs. Southern Miss: first seen: 1 vetted on Southern Miss ($195), fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | James Madison vs. Southern Miss: O/U 55.5 → Under | SnakeBall $21 | $0 | 46¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 5:12 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $208 | $0 | 16¢ YES | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | James Madison vs. Southern Miss: O/U 55.5 → Under | SnakeBall $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Thu Nov 5, 4:13 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $208 | $0 | 16¢ YES | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | James Madison vs. Southern Miss: O/U 55.5 → Under | SnakeBall $21 | $0 | 46¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
 | Thu Nov 5, 3:11 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $208 | $0 | 16¢ YES | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | James Madison vs. Southern Miss: O/U 55.5 → Under | SnakeBall $21 | $0 | 46¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
 | Thu Nov 5, 2:17 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | James Madison vs. Southern Miss: O/U 55.5 → Under | SnakeBall $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Thu Nov 5, 1:15 AM | hourly | James Madison vs. Southern Miss → Southern Miss | SnakeBall $195 | $0 | 16¢ YES | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### AC Milan vs. Ferencvárosi TC · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 1:15 AM (hourly): Will Ferencvárosi TC win on 2026-11-05?: first seen: 1 vetted on No ($268), fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 4:13 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 3:11 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Trabzonspor vs. SC Freiburg · starts Thu Nov 5, 5:45 PM
-
-- Thu Nov 5, 4:13 AM (hourly): Will Trabzonspor win on 2026-11-05?: first seen: 1 vetted on No ($273), fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 4:13 AM | hourly | Will Trabzonspor win on 2026-11-05? → No | SnakeBall $273 | $0 | 60¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Bayer 04 Leverkusen vs. Olympique de Marseille · starts Thu Nov 5, 8:00 PM
-
-- Thu Nov 5, 4:13 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: Kalshi 88¢ → 89¢
-- Thu Nov 5, 2:17 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: first seen: 1 vetted on No ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 4:13 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $563 | $0 | 89¢ NO | fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 3:11 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $269 | $0 | 88¢ NO | fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### UTSA vs. Florida Atlantic · starts Fri Nov 6, 12:30 AM
 
+- Thu Nov 5, 5:12 AM (hourly): Spread: UTSA (-7.5): Kalshi matched at 47¢
+- Thu Nov 5, 5:12 AM (hourly): Spread: UTSA (-6.5): Kalshi matched at 46¢
 - Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-7.5): Kalshi matched at 47¢
 - Thu Nov 5, 2:17 AM (hourly): Spread: UTSA (-6.5): Kalshi matched at 46¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | 47¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 5:12 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | 46¢ NO | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 4:13 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Thu Nov 5, 4:13 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | — | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Thu Nov 5, 3:11 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | 47¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -165,13 +153,30 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-7.5) → UTSA | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Thu Nov 5, 1:15 AM | hourly | Spread: UTSA (-6.5) → Florida Atlantic | SnakeBall $176 | $0 | — | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
+### Lillestrøm SK vs. FC Viktoria Plzeň · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 1:15 AM (hourly): Will FC Viktoria Plzeň win on 2026-11-05?: Kalshi matched at 57¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $96 | $0 | 57¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 11:11 PM | hourly | Will FC Viktoria Plzeň win on 2026-11-05? → No | SnakeBall $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
 ### Celtic FC vs. Beşiktaş JK - More Markets · starts Thu Nov 5, 8:00 PM
 
+- Thu Nov 5, 5:12 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 2.5: Kalshi matched at 65¢
+- Thu Nov 5, 5:12 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 5.5: Kalshi matched at 90¢
 - Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 2.5: Kalshi matched at 64¢
 - Thu Nov 5, 2:17 AM (hourly): Celtic FC vs. Beşiktaş JK: O/U 5.5: Kalshi matched at 90¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $116 | $0 | 65¢ YES | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 5:12 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | 90¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 4:13 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Thu Nov 5, 4:13 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Thu Nov 5, 3:11 AM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | 64¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -185,12 +190,60 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 2.5 → Over | SnakeBall $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 4, 10:12 PM | hourly | Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under | SnakeBall $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
+### Atalanta BC vs. Qairat FK · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 1:15 AM (hourly): Will Qairat FK win on 2026-11-05?: Kalshi matched at 95¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | 95¢ NO | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 4, 11:11 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Wed Nov 4, 10:12 PM | hourly | Will Qairat FK win on 2026-11-05? → No | SnakeBall $205 | $0 | — | fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### AC Milan vs. Ferencvárosi TC · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 1:15 AM (hourly): Will Ferencvárosi TC win on 2026-11-05?: first seen: 1 vetted on No ($268), fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 1:15 AM | hourly | Will Ferencvárosi TC win on 2026-11-05? → No | SnakeBall $268 | $0 | 90¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Trabzonspor vs. SC Freiburg · starts Thu Nov 5, 5:45 PM
+
+- Thu Nov 5, 4:13 AM (hourly): Will Trabzonspor win on 2026-11-05?: first seen: 1 vetted on No ($273), fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will Trabzonspor win on 2026-11-05? → No | SnakeBall $457 | $0 | 60¢ NO | fails: only 1 vetted wallet with $457 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Will Trabzonspor win on 2026-11-05? → No | SnakeBall $273 | $0 | 60¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Bayer 04 Leverkusen vs. Olympique de Marseille · starts Thu Nov 5, 8:00 PM
+
+- Thu Nov 5, 4:13 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: Kalshi 88¢ → 89¢
+- Thu Nov 5, 2:17 AM (hourly): Will Olympique de Marseille win on 2026-11-05?: first seen: 1 vetted on No ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $563 | $0 | 89¢ NO | fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 4:13 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $563 | $0 | 89¢ NO | fails: only 1 vetted wallet with $563 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 3:11 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $269 | $0 | 88¢ NO | fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 5, 2:17 AM | hourly | Will Olympique de Marseille win on 2026-11-05? → No | SnakeBall $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz · starts Thu Nov 5, 6:00 PM
 
 - Thu Nov 5, 2:17 AM (hourly): Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz: first seen: 1 vetted on Carlos Alcaraz ($148), fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | 84¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 80c |
 | Thu Nov 5, 4:13 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | — | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 3:11 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $146 | $0 | 83¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | 83¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -7505,133 +7558,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Spread: Beijing Guoan (-1.5) → Port FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Port FC vs. Beijing Guoan: O/U 3.5 → Under | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Tegevajaro Miyazaki vs. Tochigi City FC - More Markets · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:25 AM | pregame | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Tegevajaro Miyazaki vs. Tochigi City FC: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Ōita Trinita vs. Vanraure Hachinohe FC - More Markets · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:25 AM | pregame | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Ōita Trinita vs. Vanraure Hachinohe FC: 1st Half O/U 0.5 → Under | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Yokohama FC vs. Blaublitz Akita - More Markets · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Yokohama FC vs. Blaublitz Akita: O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 4:22 AM (hourly): Yokohama FC vs. Blaublitz Akita: O/U 2.5: first seen: 2 vetted on Over ($6.1k), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 4:40 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | Flaznorp $723 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Yokohama FC vs. Blaublitz Akita: O/U 3.5 → Under | Flaznorp $723 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Yokohama FC vs. Blaublitz Akita: O/U 2.5 → Over | RN1 $4.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
-
-### Seattle Redhawks vs. Hawaii Rainbow Warriors · starts Tue Nov 3, 4:59 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Seattle Redhawks vs. Hawaii Rainbow Warriors: Kalshi 55¢ → 54¢
-- Mon Nov 2, 11:33 PM (hourly): Seattle Redhawks vs. Hawaii Rainbow Warriors: first seen: 1 vetted on Hawaii Rainbow Warriors ($44), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 54¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:25 AM | pregame | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
-| Tue Nov 3, 4:22 AM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $45 | $0 | 55¢ YES | fails: only 1 vetted wallet; Kalshi 55c vs leaders 52c |
-| Mon Nov 2, 11:59 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Seattle Redhawks vs. Hawaii Rainbow Warriors → Hawaii Rainbow Warriors | SnakeBall $44 | $0 | 53¢ YES | fails: only 1 vetted wallet |
-
-### Yokohama FC vs. Blaublitz Akita · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Will Blaublitz Akita win on 2026-11-03?: SnakeBall joined No (+$22)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $81, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $80, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $80, SnakeBall $22 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Blaublitz Akita win on 2026-11-03? → No | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Zweigen Kanazawa vs. AC Nagano Parceiro - More Markets · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Spread: Zweigen Kanazawa (-1.5): first seen: 2 vetted on Zweigen Kanazawa ($316), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $210, Flaznorp $109 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $210, Flaznorp $109 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Spread: Zweigen Kanazawa (-1.5) → Zweigen Kanazawa | omnibus-076daa $208, Flaznorp $108 | $0 | — | fails: no Kalshi game found |
-
-### Tegevajaro Miyazaki vs. Tochigi City FC · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Will Tochigi City FC win on 2026-11-03?: SnakeBall joined No (+$38)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $130, SnakeBall $38 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Tochigi City FC win on 2026-11-03? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Giravanz Kitakyushu vs. Reilac Shiga FC · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Will Giravanz Kitakyushu win on 2026-11-03?: first seen: 2 vetted on No ($2.4k), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.4k, omnibus-076daa $95 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.3k, omnibus-076daa $93 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Giravanz Kitakyushu win on 2026-11-03? → No | Flaznorp $2.3k, omnibus-076daa $92 | $0 | — | fails: no Kalshi game found |
-
-### Zweigen Kanazawa vs. AC Nagano Parceiro · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Will Zweigen Kanazawa win on 2026-11-03?: majority flipped to No ($2.9k vs $0)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → No | Flaznorp $2.5k, omnibus-076daa $394 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → Yes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Zweigen Kanazawa win on 2026-11-03? → Yes | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Ventforet Kōfu vs. Albirex Niigata · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:40 AM (pregame): Will Albirex Niigata win on 2026-11-03?: tradecraft joined Yes (+$28)
-- Tue Nov 3, 4:40 AM (pregame): Will Albirex Niigata win on 2026-11-03?: Flaznorp added $1.0k on Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $2.7k, tradecraft $28 | $123 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $1.6k | $123 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Albirex Niigata win on 2026-11-03? → Yes | Flaznorp $1.6k | $123 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Albirex Niigata win on 2026-11-03? → No | UpTheBlues $128 | $89 | — | fails: only 1 vetted wallet; opposition 70%; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Albirex Niigata win on 2026-11-03? → No | UpTheBlues $128 | $89 | — | fails: only 1 vetted wallet; opposition 70%; no Kalshi game found |
-
-### Ōita Trinita vs. Vanraure Hachinohe FC · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Will Ōita Trinita win on 2026-11-03?: majority flipped to Yes ($8.6k vs $0)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:40 AM | pregame | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.1k, RN1 $1.9k, SnakeBall $247, tradecraft $86 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:25 AM | pregame | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.3k, RN1 $2.0k, SnakeBall $253, tradecraft $88 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Will Ōita Trinita win on 2026-11-03? → Yes | Flaznorp $6.3k, RN1 $2.0k, SnakeBall $253, tradecraft $88 | $0 | — | fails: no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Ōita Trinita win on 2026-11-03? → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Chennai Open: Panna Udvardy vs Robin Montgomery · starts Tue Nov 3, 5:30 AM
 
 - Tue Nov 3, 4:22 AM (hourly): Chennai Open: Panna Udvardy vs Robin Montgomery: all vetted wallets left Robin Montgomery
@@ -7641,26 +7567,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | none | $0 | — | fails: no vetted wallets hold it now |
 | Mon Nov 2, 11:59 PM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | omnibus-076daa $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Chennai Open: Panna Udvardy vs Robin Montgomery → Robin Montgomery | omnibus-076daa $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Kamatamare Sanuki vs. Matsumoto Yamaga FC - More Markets · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Kamatamare Sanuki vs. Matsumoto Yamaga FC: O/U 2.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Kamatamare Sanuki vs. Matsumoto Yamaga FC: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Mon Nov 2, 11:59 PM | hourly | Kamatamare Sanuki vs. Matsumoto Yamaga FC: O/U 2.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Kamatamare Sanuki vs. Matsumoto Yamaga FC: O/U 2.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Montedio Yamagata vs. Tokushima Vortis · starts Tue Nov 3, 5:00 AM
-
-- Tue Nov 3, 4:22 AM (hourly): Will Montedio Yamagata win on 2026-11-03?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 4:22 AM | hourly | Will Montedio Yamagata win on 2026-11-03? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Mon Nov 2, 11:59 PM | hourly | Will Montedio Yamagata win on 2026-11-03? → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Will Montedio Yamagata win on 2026-11-03? → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Chennai Open: Maaya Rajeshwaran Revathi vs Katarzyna Kawa · starts Tue Nov 3, 10:00 AM
 
@@ -7741,14 +7647,15 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 5-9 (14 pending) | benched |
-| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 29-24 (23 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 6-12 (10 pending) | benched |
+| Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 34-24 (21 pending) | benched |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 12-4 | released Wed Nov 4, 9:10 PM: shadow picks won 75% of 8 games at an average price of 67¢ |
 
 ## Recent skips
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Thu Nov 5, 5:12 AM | Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze | Prudential Hong Kong Tennis Open: Elena Pridankina vs Alexandra Shubladze → Alexandra Shubladze | only 1 vetted wallet with $799 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 4:13 AM | Test Match: Afghanistan vs Zimbabwe | Will Zimbabwe win? → No | only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 4:13 AM | Big Bash League, Women: Adelaide Strikers vs Brisbane Heat | Big Bash League, Women: Adelaide Strikers vs Brisbane Heat → Adelaide Strikers | only 1 vetted wallet with $363 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 3:11 AM | Test Match: Bangladesh vs West Indies | Will the match end in a draw? → No | only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -7778,4 +7685,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Thu Nov 5, 12:17 AM | Central Michigan vs. Eastern Michigan | Spread: Central Michigan (-2.5) → Eastern Michigan | no Kalshi spread market |
 | Thu Nov 5, 12:17 AM | Central Michigan vs. Eastern Michigan | Central Michigan vs. Eastern Michigan → Eastern Michigan | only 2 vetted wallets with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Bucks vs. Celtics: O/U 209.5 → Under | only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 12:17 AM | Bucks vs. Celtics | Bucks vs. Celtics: O/U 207.5 → Under | only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
