@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 1:22 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
+Updated Thu Nov 5, 1:38 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 1.
 
@@ -7634,40 +7634,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Spread: Lakers (-3.5) → Lakers | Flaznorp $360, SnakeBall $117, UpTheBlues $40 | $53 | 46¢ YES | fails: opposition 10% |
 | Mon Nov 2, 11:33 PM | hourly | Heat vs. Lakers → Heat | HomeRunHazard $19.4k, Flaznorp $1.1k, omnibus-076daa $516 | $12.1k | 45¢ YES | fails: opposition 57% |
 
-### Celtics vs. Rockets · starts Tue Nov 3, 1:30 AM
-
-- Mon Nov 2, 11:59 PM (hourly): Spread: Rockets (-7.5): Kalshi 41¢ → 40¢
-- Mon Nov 2, 11:33 PM (hourly): Spread: Celtics (-1.5): first seen: 1 vetted on Rockets ($47), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Celtics vs. Rockets: O/U 221.5: first seen: 2 vetted on Under ($161), fails: Kalshi has no 221.5 line
-- Mon Nov 2, 11:33 PM (hourly): Spread: Rockets (-2.5): first seen: 1 vetted on Rockets ($1.3k), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Celtics vs. Rockets: O/U 216.5: first seen: 2 vetted on Over ($7.1k), fails: opposition 91%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Rockets (-5.5): first seen: 3 vetted on Rockets ($273), passes
-- Mon Nov 2, 11:33 PM (hourly): Celtics vs. Rockets: first seen: 2 vetted on Rockets ($1.9k), passes
-- Mon Nov 2, 11:33 PM (hourly): Spread: Rockets (-7.5): first seen: 2 vetted on Rockets ($35), fails: opposition 58%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Rockets (-3.5): first seen: 2 vetted on Rockets ($1.1k), fails: opposition 27%
-- Mon Nov 2, 11:33 PM (hourly): Spread: Rockets (-6.5): first seen: 2 vetted on Rockets ($481), fails: opposition 58%
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Celtics (-1.5) → Rockets | SnakeBall $47 | $0 | 66¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Celtics vs. Rockets: O/U 221.5 → Under | HomeRunHazard $85, SnakeBall $76 | $0 | — | fails: Kalshi has no 221.5 line |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Rockets (-2.5) → Rockets | HomeRunHazard $1.3k | $42 | 59¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Celtics vs. Rockets: O/U 216.5 → Over | HomeRunHazard $6.8k, SnakeBall $293 | $6.5k | 48¢ YES | fails: opposition 91% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Rockets (-5.5) → Rockets | Flaznorp $192, omnibus-076daa $41, SnakeBall $40 | $0 | 47¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Celtics vs. Rockets → Rockets | Flaznorp $1.6k, omnibus-076daa $314 | $0 | 63¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Rockets (-7.5) → Rockets | RN1 $21, Flaznorp $14 | $20 | 40¢ YES | fails: opposition 58% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Rockets (-3.5) → Rockets | HomeRunHazard $982, RN1 $136 | $302 | 55¢ YES | fails: opposition 27% |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Rockets (-6.5) → Rockets | HomeRunHazard $265, UpTheBlues $216 | $278 | 43¢ YES | fails: opposition 58% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Celtics (-1.5) → Rockets | SnakeBall $47 | $0 | 66¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Celtics vs. Rockets: O/U 221.5 → Under | HomeRunHazard $85, SnakeBall $76 | $0 | — | fails: Kalshi has no 221.5 line |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Rockets (-2.5) → Rockets | HomeRunHazard $1.3k | $41 | 59¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Celtics vs. Rockets: O/U 216.5 → Over | HomeRunHazard $6.8k, SnakeBall $293 | $6.5k | 48¢ YES | fails: opposition 91% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Rockets (-5.5) → Rockets | Flaznorp $192, omnibus-076daa $41, SnakeBall $40 | $0 | 47¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Celtics vs. Rockets → Rockets | Flaznorp $1.6k, omnibus-076daa $314 | $0 | 63¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Rockets (-7.5) → Rockets | RN1 $21, Flaznorp $14 | $20 | 41¢ YES | fails: opposition 58% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Rockets (-3.5) → Rockets | HomeRunHazard $982, RN1 $136 | $302 | 55¢ YES | fails: opposition 27% |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Rockets (-6.5) → Rockets | HomeRunHazard $265, UpTheBlues $216 | $278 | 43¢ YES | fails: opposition 58% |
-
 ### Trail Blazers vs. Nuggets · starts Tue Nov 3, 2:00 AM
 
 - Mon Nov 2, 11:59 PM (hourly): Spread: Nuggets (-4.5): now passes
@@ -7745,41 +7711,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-3.5) → Raptors | HomeRunHazard $10.4k, RN1 $268, SnakeBall $37 | $3.9k | 54¢ YES | fails: opposition 36% |
 | Mon Nov 2, 11:33 PM | hourly | Spread: Raptors (-4.5) → Clippers | monkeymashingkeyboard $15.2k, Flaznorp $1.1k | $378 | 52¢ NO | passes |
 
-### Jazz vs. Spurs · starts Tue Nov 3, 1:30 AM
-
-- Mon Nov 2, 11:59 PM (hourly): Spread: Spurs (-15.5): Kalshi 53¢ → 54¢
-- Mon Nov 2, 11:59 PM (hourly): Spread: Spurs (-16.5): Kalshi 51¢ → 52¢
-- Mon Nov 2, 11:33 PM (hourly): Jazz vs. Spurs: O/U 227.5: first seen: 1 vetted on Under ($488), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Spurs (-15.5): first seen: 1 vetted on Spurs ($1.5k), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Jazz vs. Spurs: O/U 230.5: first seen: 2 vetted on Under ($15.3k), fails: Kalshi has no 230.5 line
-- Mon Nov 2, 11:33 PM (hourly): Spread: Spurs (-16.5): first seen: 1 vetted on Jazz ($2.0k), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Jazz vs. Spurs: first seen: 3 vetted on Spurs ($7.6k), passes
-- Mon Nov 2, 11:33 PM (hourly): Spread: Spurs (-14.5): first seen: 2 vetted on Spurs ($117), fails: opposition 24%
-- Mon Nov 2, 11:33 PM (hourly): Jazz vs. Spurs: O/U 231.5: first seen: 2 vetted on Under ($2.7k), fails: Kalshi 58c vs leaders 52c
-- Mon Nov 2, 11:33 PM (hourly): Spread: Spurs (-19.5): first seen: 1 vetted on Spurs ($100), fails: only 1 vetted wallet
-- Mon Nov 2, 11:33 PM (hourly): Spread: Spurs (-18.5): first seen: 2 vetted on Jazz ($1.3k), passes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Jazz vs. Spurs: O/U 227.5 → Under | HomeRunHazard $488 | $0 | 48¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Spurs (-15.5) → Spurs | HomeRunHazard $1.5k | $40 | 54¢ YES | fails: only 1 vetted wallet; Kalshi 54c vs leaders 51c |
-| Mon Nov 2, 11:59 PM | hourly | Jazz vs. Spurs: O/U 230.5 → Under | HomeRunHazard $14.9k, SnakeBall $422 | $0 | — | fails: Kalshi has no 230.5 line |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Spurs (-16.5) → Jazz | HomeRunHazard $2.0k | $179 | 52¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Jazz vs. Spurs → Spurs | HomeRunHazard $6.8k, Flaznorp $657, omnibus-076daa $164 | $0 | 90¢ YES | passes |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Spurs (-14.5) → Spurs | HomeRunHazard $78, SnakeBall $39 | $28 | 56¢ YES | fails: opposition 24% |
-| Mon Nov 2, 11:59 PM | hourly | Jazz vs. Spurs: O/U 231.5 → Under | HomeRunHazard $2.6k, RN1 $79 | $0 | 58¢ NO | fails: Kalshi 58c vs leaders 52c |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Spurs (-19.5) → Spurs | RN1 $100 | $0 | 41¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Spurs (-18.5) → Jazz | HomeRunHazard $1.1k, RN1 $146 | $91 | 59¢ NO | passes |
-| Mon Nov 2, 11:33 PM | hourly | Jazz vs. Spurs: O/U 227.5 → Under | HomeRunHazard $488 | $0 | 48¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Spurs (-15.5) → Spurs | HomeRunHazard $1.5k | $40 | 53¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Jazz vs. Spurs: O/U 230.5 → Under | HomeRunHazard $14.9k, SnakeBall $422 | $0 | — | fails: Kalshi has no 230.5 line |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Spurs (-16.5) → Jazz | HomeRunHazard $2.0k | $179 | 51¢ NO | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Jazz vs. Spurs → Spurs | HomeRunHazard $6.8k, Flaznorp $657, omnibus-076daa $164 | $0 | 90¢ YES | passes |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Spurs (-14.5) → Spurs | HomeRunHazard $78, SnakeBall $39 | $28 | 56¢ YES | fails: opposition 24% |
-| Mon Nov 2, 11:33 PM | hourly | Jazz vs. Spurs: O/U 231.5 → Under | HomeRunHazard $2.6k, RN1 $79 | $0 | 58¢ NO | fails: Kalshi 58c vs leaders 52c |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Spurs (-19.5) → Spurs | RN1 $100 | $0 | 41¢ YES | fails: only 1 vetted wallet |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Spurs (-18.5) → Jazz | HomeRunHazard $1.1k, RN1 $146 | $91 | 59¢ NO | passes |
-
 ### Suns vs. Warriors · starts Tue Nov 3, 3:00 AM
 
 - Mon Nov 2, 11:59 PM (hourly): Suns vs. Warriors: Kalshi 57¢ → 56¢
@@ -7833,15 +7764,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Mon Nov 2, 11:59 PM | hourly | Ohio State Buckeyes vs. BYU Cougars → BYU Cougars | UpTheBlues $541, HomeRunHazard $47, Flaznorp $22 | $0 | — | fails: no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Ohio State Buckeyes vs. BYU Cougars → BYU Cougars | UpTheBlues $541, HomeRunHazard $47, Flaznorp $22 | $0 | 62¢ YES | passes |
-
-### Oral Roberts Golden Eagles vs. Central Arkansas Bears · starts Tue Nov 3, 1:30 AM
-
-- Mon Nov 2, 11:33 PM (hourly): Oral Roberts Golden Eagles vs. Central Arkansas Bears: first seen: 1 vetted on Central Arkansas Bears ($26), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 2, 11:59 PM | hourly | Oral Roberts Golden Eagles vs. Central Arkansas Bears → Central Arkansas Bears | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Oral Roberts Golden Eagles vs. Central Arkansas Bears → Central Arkansas Bears | SnakeBall $26 | $0 | 80¢ YES | fails: only 1 vetted wallet |
 
 ### Radford Highlanders vs. San Francisco Dons · starts Tue Nov 3, 3:00 AM
 
