@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 12:17 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
+Updated Thu Nov 5, 12:23 AM. Bankroll **$69.43** (start $100): $59.28 cash + open trades at cost.
 
 Record: 23 won, 20 lost, 3 sold early. Realized P&L $-30.57. Open: 1.
 
@@ -497,6 +497,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Bulls vs. Knicks · starts Thu Nov 5, 12:30 AM
 
+- Thu Nov 5, 12:23 AM (verify): Bulls vs. Knicks: O/U 234.5: 15-min check: still passes (2 wallets, $10.7k for vs $0 against); holding
 - Thu Nov 5, 12:17 AM (pregame): Spread: Knicks (-26.5): first seen: 1 vetted on Bulls ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 12:17 AM (pregame): Bulls vs. Knicks: O/U 230.5: first seen: 1 vetted on Under ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 5, 12:17 AM (pregame): Spread: Knicks (-11.5): monkeymashingkeyboard added $25.2k on Knicks
