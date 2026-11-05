@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 6:13 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
+Updated Thu Nov 5, 6:23 PM. Bankroll **$91.38** (start $100): $61.92 cash + open trades at cost.
 
 Record: 26 won, 20 lost, 4 sold early. Realized P&L $-8.62. Open: 3.
 
@@ -7575,20 +7575,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | CD Comerciantes Unidos leading at halftime? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | CD Comerciantes Unidos leading at halftime? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Al Hilal SFC vs. Shabab Al Ahli Dubai · starts Tue Nov 3, 6:15 PM
-
-- Tue Nov 3, 6:13 PM (hourly): Will Shabab Al Ahli Dubai win on 2026-11-03?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 PM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:18 PM | pregame | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $468 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $485 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $482 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Will Shabab Al Ahli Dubai win on 2026-11-03? → No | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Associação Chapecoense de Futebol vs. Mirassol FC - More Markets · starts Tue Nov 3, 10:30 PM
 
 - Tue Nov 3, 7:17 PM (hourly): Associação Chapecoense de Futebol vs. Mirassol FC: Both Teams to Score: Flaznorp left
@@ -7656,36 +7642,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
 | Tue Nov 3, 6:13 PM | pregame | Counter-Strike: QUINTESSÊNCIA vs RED Canids Academy (BO3) - CCT South America Group Stage → RED Canids Academy | omnibus-076daa $84, Flaznorp $25 | $0 | — | fails: no Kalshi game found |
-
-### Al Hilal SFC vs. Shabab Al Ahli Dubai - More Markets · starts Tue Nov 3, 6:15 PM
-
-- Tue Nov 3, 5:18 PM (pregame): Al Hilal SFC vs. Shabab Al Ahli Dubai: O/U 0.5: all vetted wallets left Under
-- Tue Nov 3, 5:18 PM (pregame): Spread: Al Hilal SFC (-1.5): Flaznorp joined Shabab Al Ahli Dubai (+$737)
-- Tue Nov 3, 3:16 PM (hourly): Spread: Al Hilal SFC (-1.5): Flaznorp left
-- Tue Nov 3, 11:15 AM (hourly): Spread: Al Hilal SFC (-1.5): Flaznorp joined Shabab Al Ahli Dubai (+$316)
-- Mon Nov 2, 11:59 PM (hourly): Spread: Al Hilal SFC (-1.5): Flaznorp left
-- Mon Nov 2, 11:33 PM (hourly): Spread: Al Hilal SFC (-1.5): first seen: 2 vetted on Shabab Al Ahli Dubai ($1.9k), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $2.7k, Flaznorp $1.4k | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 5:18 PM | pregame | Al Hilal SFC vs. Shabab Al Ahli Dubai: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:18 PM | pregame | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $2.6k, Flaznorp $737 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Al Hilal SFC vs. Shabab Al Ahli Dubai: O/U 0.5 → Under | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet; Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k, Flaznorp $316 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k, Flaznorp $316 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k, Flaznorp $316 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.7k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Spread: Al Hilal SFC (-1.5) → Shabab Al Ahli Dubai | omnibus-076daa $1.8k, Flaznorp $23 | $0 | — | fails: no Kalshi game found |
 
 ### FK Bodø/Glimt vs. Lille OSC - Exact Score · starts Tue Nov 3, 8:00 PM
 
