@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 5, 7:22 PM. Bankroll **$91.38** (start $100): $52.15 cash + open trades at cost.
+Updated Thu Nov 5, 7:38 PM. Bankroll **$91.38** (start $100): $52.15 cash + open trades at cost.
 
 Record: 26 won, 20 lost, 4 sold early. Realized P&L $-8.62. Open: 4.
 
@@ -7615,42 +7615,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:59 PM | hourly | Will Birmingham City FC win on 2026-11-03? → No | omnibus-076daa $162 | $130 | — | fails: only 1 vetted wallet; opposition 80%; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Will Birmingham City FC win on 2026-11-03? → No | omnibus-076daa $162 | $130 | — | fails: only 1 vetted wallet; opposition 80%; no Kalshi game found |
 
-### M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault · starts Tue Nov 3, 7:30 PM
-
-- Tue Nov 3, 7:17 PM (pregame): M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault: Flaznorp joined Mikael Arseneault (+$47)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 7:17 PM | pregame | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $419, Flaznorp $47 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $397 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $394 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $397 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $394 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | M15 Trois-Rivières: Marko Mesarovic vs Mikael Arseneault → Mikael Arseneault | omnibus-076daa $394 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Charlottesville: Marcos Giron vs Dylan Dietrich · starts Tue Nov 3, 7:40 PM
-
-- Tue Nov 3, 1:16 PM (hourly): Charlottesville: Marcos Giron vs Dylan Dietrich: Flaznorp joined Dylan Dietrich (+$889)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 7:17 PM | pregame | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $875, omnibus-076daa $45 | $51 | — | fails: no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $48 | $45 | — | fails: only 1 vetted wallet; opposition 94%; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $51 | $45 | — | fails: only 1 vetted wallet; opposition 87%; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $44 | — | fails: only 1 vetted wallet; opposition 82%; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:59 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Mon Nov 2, 11:33 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $49 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Club Atlético de Madrid vs. FC Bayern München · starts Tue Nov 3, 8:00 PM
 
 - Tue Nov 3, 7:17 PM (pregame): Will FC Bayern München win on 2026-11-03?: BreakTheBank added $9.8k on No
@@ -7747,6 +7711,29 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: O/U 2.5 → Under | omnibus-076daa $923 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: Both Teams to Score → No | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Mon Nov 2, 11:33 PM | hourly | Associação Chapecoense de Futebol vs. Mirassol FC: O/U 3.5 → Under | Flaznorp $259 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+
+### Charlottesville: Marcos Giron vs Dylan Dietrich · starts Tue Nov 3, 7:40 PM
+
+- Tue Nov 3, 1:16 PM (hourly): Charlottesville: Marcos Giron vs Dylan Dietrich: Flaznorp joined Dylan Dietrich (+$889)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 3, 7:17 PM | pregame | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $875, omnibus-076daa $45 | $51 | — | fails: no Kalshi game found |
+| Tue Nov 3, 6:13 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
+| Tue Nov 3, 4:12 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
+| Tue Nov 3, 3:16 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
+| Tue Nov 3, 1:16 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | Flaznorp $889, omnibus-076daa $46 | $49 | — | fails: no Kalshi game found |
+| Tue Nov 3, 12:17 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
+| Tue Nov 3, 11:15 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
+| Tue Nov 3, 10:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $47 | $47 | — | fails: only 1 vetted wallet; opposition 98%; no Kalshi game found |
+| Tue Nov 3, 9:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Dylan Dietrich | omnibus-076daa $48 | $45 | — | fails: only 1 vetted wallet; opposition 94%; no Kalshi game found |
+| Tue Nov 3, 8:16 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $51 | $45 | — | fails: only 1 vetted wallet; opposition 87%; no Kalshi game found |
+| Tue Nov 3, 7:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $44 | — | fails: only 1 vetted wallet; opposition 82%; no Kalshi game found |
+| Tue Nov 3, 6:13 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 5:12 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $56 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Tue Nov 3, 4:22 AM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:59 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $53 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
+| Mon Nov 2, 11:33 PM | hourly | Charlottesville: Marcos Giron vs Dylan Dietrich → Marcos Giron | UpTheBlues $49 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### FK Bodø/Glimt vs. Lille OSC - Exact Score · starts Tue Nov 3, 8:00 PM
 
