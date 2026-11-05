@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T06:13:53Z",
+  "updated": "2026-11-05T07:11:27Z",
   "games": [
     {
       "event_slug": "wta-hontama-kulamba-2026-11-04",
@@ -8,18 +8,8 @@
       "check_at": "2026-11-05T09:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama ($206, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $206 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "atp-paul-halys-2026-11-05",
-      "game": "Rolex Paris Masters: Tommy Paul vs Quentin Halys",
-      "start": "2026-11-05T10:00:00Z",
-      "check_at": "2026-11-05T09:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Rolex Paris Masters: Tommy Paul vs Quentin Halys → Quentin Halys ($1.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Chennai Open: Mai Hontama vs Zhibek Kulambayeva → Mai Hontama ($205, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-valento-eala-2026-11-05",
@@ -28,7 +18,7 @@
       "check_at": "2026-11-05T10:15:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($6.9k, 2 wallets)",
+      "best": "Prudential Hong Kong Tennis Open: Tereza Valentova vs Alexandra Eala → Alexandra Eala ($9.5k, 2 wallets)",
       "status": "passes"
     },
     {
@@ -52,14 +42,14 @@
       "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "col-ata-kai-2026-11-05",
-      "game": "Atalanta BC vs. Qairat FK",
+      "event_slug": "col-agf-scb-2026-11-05-more-markets",
+      "game": "Aarhus GF vs. SC Braga - More Markets",
       "start": "2026-11-05T17:45:00Z",
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Qairat FK win on 2026-11-05? → No ($205, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $205 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Aarhus GF vs. SC Braga: O/U 2.5 → Under ($146, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lil1-plz-2026-11-05",
@@ -78,8 +68,8 @@
       "check_at": "2026-11-05T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will AFC Bournemouth win on 2026-11-05? → No ($13, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will AFC Bournemouth win on 2026-11-05? → No ($12, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uel-lev-olm-2026-11-05",
@@ -98,8 +88,18 @@
       "check_at": "2026-11-05T19:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under ($265, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Celtic FC vs. Beşiktaş JK: O/U 5.5 → Under ($264, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bra-pal-cre-2026-11-05",
+      "game": "SE Palmeiras vs. Clube do Remo",
+      "start": "2026-11-05T22:30:00Z",
+      "check_at": "2026-11-05T22:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Clube do Remo win on 2026-11-05? → No ($268, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-utsa-flatl-2026-11-05",
@@ -108,8 +108,8 @@
       "check_at": "2026-11-06T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($180, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: UTSA (-6.5) → Florida Atlantic ($178, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-jmad-soumis-2026-11-05",
