@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 5:37 AM. Bankroll **$105.57** (start $100): $95.35 cash + open trades at cost.
+Updated Fri Nov 6, 5:53 AM. Bankroll **$114.35** (start $100): $114.35 cash + open trades at cost.
 
-Record: 29 won, 21 lost, 5 sold early. Realized P&L $+5.57. Open: 1.
+Record: 30 won, 21 lost, 5 sold early. Realized P&L $+14.35. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 2:13 AM | [Heat vs. Warriors](https://polymarket.com/event/nba-mia-gsw-2026-11-05) | Spread: Warriors (-3.5) → Warriors | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea) ($2,587) | 19 × 52¢ YES `KXNBASPREAD-26NOV05MIAGSW-GSW4` | open |  |
+| Fri Nov 6, 2:13 AM | [Heat vs. Warriors](https://polymarket.com/event/nba-mia-gsw-2026-11-05) | Spread: Warriors (-3.5) → Warriors | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea) ($2,587) | 19 × 52¢ YES `KXNBASPREAD-26NOV05MIAGSW-GSW4` | won | $+8.78 |
 | Fri Nov 6, 12:14 AM | [James Madison vs. Southern Miss](https://polymarket.com/event/cfb-jmad-soumis-2026-11-05) | James Madison vs. Southern Miss: O/U 59.5 → Over | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,182) | 22 × 44¢ YES `KXNCAAFTOTAL-26NOV05JMUUSM-60` | won | $+11.94 |
 | Thu Nov 5, 7:15 PM | [Bayer 04 Leverkusen vs. Olympique de Marseille](https://polymarket.com/event/uel-lev-olm-2026-11-05) | Will Olympique de Marseille win on 2026-11-05? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($1,706) | 11 × 88¢ NO `KXUELGAME-26NOV05LEVOLM-OLM` | sold | $-0.29 |
 | Thu Nov 5, 5:13 PM | [PFK Levski Sofia vs. Jagiellonia Białystok - More Markets](https://polymarket.com/event/uel-lev2-jag-2026-11-05-more-markets) | PFK Levski Sofia vs. Jagiellonia Białystok: O/U 4.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,628) | 10 × 91¢ NO `KXUELTOTAL-26NOV05LEVJAG-5` | won | $+0.84 |
