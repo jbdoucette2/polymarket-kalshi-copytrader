@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:15:46Z",
+  "updated": "2026-11-06T07:18:05Z",
   "games": [
     {
       "event_slug": "lal-sev-ala-2026-11-06",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-07T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "76ers vs. Cavaliers → Cavaliers ($366, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "76ers vs. Cavaliers → Cavaliers ($357, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $357 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-okc-mem-2026-11-06",
@@ -38,8 +38,8 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Thunder vs. Grizzlies → Grizzlies ($3.5k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $3.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Thunder vs. Grizzlies → Grizzlies ($3.9k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $3.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-tor-mil-2026-11-06",
@@ -48,18 +48,18 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Raptors vs. Bucks → Bucks ($569, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raptors vs. Bucks → Bucks ($570, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-uta-dal-2026-11-06",
-      "game": "Jazz vs. Mavericks",
+      "event_slug": "mex-asl-jua-2026-11-06",
+      "game": "Atlético San Luis vs. FC Juárez",
       "start": "2026-11-07T01:00:00Z",
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Jazz vs. Mavericks → Jazz ($256, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Juárez win on 2026-11-06? → No ($275, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-min-nop-2026-11-06",
@@ -68,8 +68,18 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Timberwolves vs. Pelicans → Pelicans ($154, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Timberwolves vs. Pelicans → Pelicans ($558, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-uta-dal-2026-11-06",
+      "game": "Jazz vs. Mavericks",
+      "start": "2026-11-07T01:00:00Z",
+      "check_at": "2026-11-07T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Jazz vs. Mavericks → Jazz ($301, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-por-lal-2026-11-06",
