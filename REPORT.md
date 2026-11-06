@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 4:17 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
+Updated Fri Nov 6, 4:54 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
 
 Record: 30 won, 21 lost, 5 sold early. Realized P&L $+14.35. Open: 1.
 
@@ -454,6 +454,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Gaziantep FK vs. Kasımpaşa SK · starts Fri Nov 6, 5:00 PM
 
+- Fri Nov 6, 4:54 PM (verify): Will Gaziantep FK win on 2026-11-06?: 15-min check: still passes (2 wallets, $9.0k for vs $0 against); holding
 - Fri Nov 6, 4:17 PM (pregame): Will Kasımpaşa SK win on 2026-11-06?: first seen: 1 vetted on No ($30), fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+)
 - Fri Nov 6, 4:17 PM (pregame): Will Gaziantep FK win on 2026-11-06?: first seen: 2 vetted on No ($9.0k), passes
 
