@@ -1,45 +1,25 @@
 {
-  "updated": "2026-11-06T17:18:59Z",
+  "updated": "2026-11-06T18:18:27Z",
   "games": [
-    {
-      "event_slug": "bl2-dyn-fur-2026-11-06",
-      "game": "SG Dynamo Dresden vs. SpVgg Greuther Fürth",
-      "start": "2026-11-06T17:30:00Z",
-      "check_at": "2026-11-06T17:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will SpVgg Greuther Fürth win on 2026-11-06? → Yes ($661, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "bl2-bra-fce-2026-11-06",
-      "game": "Eintracht Braunschweig vs. FC Energie Cottbus",
-      "start": "2026-11-06T17:30:00Z",
-      "check_at": "2026-11-06T17:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Eintracht Braunschweig vs. FC Energie Cottbus end in a draw? → No ($51, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "bl2-dyn-fur-2026-11-06-more-markets",
-      "game": "SG Dynamo Dresden vs. SpVgg Greuther Fürth - More Markets",
-      "start": "2026-11-06T17:30:00Z",
-      "check_at": "2026-11-06T17:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under ($18, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "atp-fritz-alcaraz-2026-11-06",
       "game": "Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz",
-      "start": "2026-11-06T18:00:00Z",
-      "check_at": "2026-11-06T17:45:00Z",
+      "start": "2026-11-06T18:20:00Z",
+      "check_at": "2026-11-06T18:05:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz ($3.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz ($4.9k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $4.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-coppeja-rodiono-2026-11-06",
+      "game": "Bratislava 2: Kimmer Coppejans vs Jurij Rodionov",
+      "start": "2026-11-06T18:20:00Z",
+      "check_at": "2026-11-06T18:05:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Bratislava 2: Kimmer Coppejans vs Jurij Rodionov → Kimmer Coppejans ($432, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $432 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "aut-scr-wac-2026-11-06",
@@ -48,8 +28,8 @@
       "check_at": "2026-11-06T18:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Will SK Rapid win on 2026-11-06? → No ($985, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $985 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will SK Rapid win on 2026-11-06? → No ($994, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $994 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "rou1-fap-din-2026-11-06",
@@ -58,8 +38,8 @@
       "check_at": "2026-11-06T18:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will FC Argeș Pitești win on 2026-11-06? → No ($42, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Argeș Pitești win on 2026-11-06? → No ($41, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fr2-gre-rei-2026-11-06-more-markets",
@@ -68,8 +48,8 @@
       "check_at": "2026-11-06T18:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Stade de Reims (-1.5) → Grenoble Foot 38 ($27, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Stade de Reims (-1.5) → Grenoble Foot 38 ($26, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fr2-asn-fcs-2026-11-06",
@@ -88,8 +68,8 @@
       "check_at": "2026-11-06T18:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under ($1, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under ($4, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "ned2-hel-vol-2026-11-06-more-markets",
@@ -108,8 +88,18 @@
       "check_at": "2026-11-06T18:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Heracles Almelo (-2.5) → Heracles Almelo ($114, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Heracles Almelo (-2.5) → Heracles Almelo ($117, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "ned2-ven-psv-2026-11-06",
+      "game": "VVV Venlo vs. Jong PSV Eindhoven",
+      "start": "2026-11-06T19:00:00Z",
+      "check_at": "2026-11-06T18:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will VVV Venlo win on 2026-11-06? → Yes ($15, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fr2-asn-fcs-2026-11-06-more-markets",
@@ -118,8 +108,18 @@
       "check_at": "2026-11-06T18:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: AS Nancy-Lorraine (-1.5) → AS Nancy-Lorraine ($544, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $544 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: AS Nancy-Lorraine (-1.5) → AS Nancy-Lorraine ($575, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $575 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "ned2-ein-aja-2026-11-06-more-markets",
+      "game": "FC Eindhoven vs. Jong Ajax Amsterdam - More Markets",
+      "start": "2026-11-06T19:00:00Z",
+      "check_at": "2026-11-06T18:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "FC Eindhoven vs. Jong Ajax Amsterdam: O/U 3.5 → Under ($375, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $375 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bun-hsv-moe-2026-11-06-more-markets",
@@ -128,14 +128,14 @@
       "check_at": "2026-11-06T19:15:00Z",
       "passing": 1,
       "near": 2,
-      "best": "Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5 → Under ($6.6k, 2 wallets)",
+      "best": "Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5 → Under ($6.4k, 2 wallets)",
       "status": "passes"
     },
     {
       "event_slug": "atp-acosta-cecchin-2026-11-06",
       "game": "Costa do Sauipe: Facundo Acosta vs Marco Cecchinato",
-      "start": "2026-11-06T19:30:00Z",
-      "check_at": "2026-11-06T19:15:00Z",
+      "start": "2026-11-06T19:35:00Z",
+      "check_at": "2026-11-06T19:20:00Z",
       "passing": 0,
       "near": 1,
       "best": "Costa do Sauipe: Facundo Acosta vs Marco Cecchinato → Facundo Acosta ($1.7k, 1 wallets)",
@@ -168,8 +168,8 @@
       "check_at": "2026-11-06T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Venezia FC win on 2026-11-06? → Yes ($9, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Venezia FC win on 2026-11-06? → Yes ($10, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lal-sev-ala-2026-11-06-more-markets",
@@ -187,9 +187,9 @@
       "start": "2026-11-06T20:00:00Z",
       "check_at": "2026-11-06T19:45:00Z",
       "passing": 0,
-      "near": 5,
-      "best": "Everton FC vs. Coventry City FC: O/U 2.5 → Over ($2.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "Everton FC vs. Coventry City FC: O/U 0.5 → Over ($674, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $674 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lal-sev-ala-2026-11-06",
@@ -197,9 +197,9 @@
       "start": "2026-11-06T20:00:00Z",
       "check_at": "2026-11-06T19:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Will Sevilla FC win on 2026-11-06? → No ($263, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $263 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Will Sevilla FC win on 2026-11-06? → No ($269, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $269 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "por-fam-aro-2026-11-06-more-markets",
@@ -218,8 +218,8 @@
       "check_at": "2026-11-06T23:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: SMU (-5.5) → Virginia Tech ($353, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $353 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: SMU (-5.5) → Virginia Tech ($349, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $349 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-bos-cha-2026-11-06",
@@ -227,7 +227,7 @@
       "start": "2026-11-07T00:00:00Z",
       "check_at": "2026-11-06T23:45:00Z",
       "passing": 0,
-      "near": 3,
+      "near": 4,
       "best": "Celtics vs. Hornets: O/U 208.5 → Over ($4.1k, 2 wallets)",
       "status": "fails: only 2 vetted wallets with $4.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -237,7 +237,7 @@
       "start": "2026-11-07T00:00:00Z",
       "check_at": "2026-11-06T23:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Spread: Hawks (-6.5) → Wizards ($506, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $506 (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -257,19 +257,19 @@
       "start": "2026-11-07T00:30:00Z",
       "check_at": "2026-11-07T00:15:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "South Florida vs. East Carolina → South Florida ($3.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Spread: East Carolina (-2.5) → South Florida ($2.1k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $2.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phi-cle-2026-11-06",
       "game": "76ers vs. Cavaliers",
       "start": "2026-11-07T00:30:00Z",
       "check_at": "2026-11-07T00:15:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: 76ers (-2.5) → Cavaliers ($1.7k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "passing": 1,
+      "near": 1,
+      "best": "Spread: 76ers (-2.5) → Cavaliers ($1.9k, 3 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "nhl-ana-cal-2026-11-06",
@@ -277,9 +277,9 @@
       "start": "2026-11-07T01:00:00Z",
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Ducks vs. Flames → Ducks ($410, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $410 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Spread: Flames (-1.5) → Ducks ($33.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $33.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-nebr-ill-2026-11-06",
@@ -298,8 +298,8 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will FC Juárez win on 2026-11-06? → No ($278, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Juárez win on 2026-11-06? → No ($308, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $308 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-min-nop-2026-11-06",
@@ -317,7 +317,7 @@
       "start": "2026-11-07T01:00:00Z",
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 1,
-      "near": 4,
+      "near": 3,
       "best": "Jazz vs. Mavericks: O/U 227.5 → Under ($24.4k, 2 wallets)",
       "status": "passes"
     },
@@ -328,7 +328,7 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Thunder vs. Grizzlies → Grizzlies ($45.6k, 2 wallets)",
+      "best": "Thunder vs. Grizzlies → Grizzlies ($45.5k, 2 wallets)",
       "status": "passes"
     },
     {
@@ -347,9 +347,9 @@
       "start": "2026-11-07T01:00:00Z",
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Raptors (-7.5) → Bucks ($964, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $964 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Spread: Raptors (-23.5) → Raptors ($21, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-nmx-nevada-2026-11-06",
@@ -368,8 +368,8 @@
       "check_at": "2026-11-07T02:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Trail Blazers vs. Lakers → Lakers ($662, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $662 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Trail Blazers vs. Lakers → Lakers ($1.0k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-sas-sac-2026-11-06",
@@ -377,7 +377,7 @@
       "start": "2026-11-07T03:00:00Z",
       "check_at": "2026-11-07T02:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Spread: Spurs (-15.5) → Kings ($111, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -468,8 +468,8 @@
       "check_at": "2026-11-07T14:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Fulham FC vs. Newcastle United FC: O/U 2.5 → Over ($115, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Fulham FC vs. Newcastle United FC: O/U 2.5 → Over ($131, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $131 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "elc-car-bur-2026-11-07-more-markets",
@@ -557,9 +557,19 @@
       "start": "2026-11-07T17:00:00Z",
       "check_at": "2026-11-07T16:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Spread: Tulane (-1.5) → Tulane ($312, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $312 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Spread: Tulane (-1.5) → Tulane ($308, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $308 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-clmsn-syra-2026-11-07",
+      "game": "Clemson vs. Syracuse",
+      "start": "2026-11-07T17:00:00Z",
+      "check_at": "2026-11-07T16:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Clemson vs. Syracuse → Syracuse ($167, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "sea-par-bol-2026-11-07",
@@ -572,14 +582,34 @@
       "status": "fails: only 1 vetted wallet with $165 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-clmsn-syra-2026-11-07",
-      "game": "Clemson vs. Syracuse",
-      "start": "2026-11-07T17:00:00Z",
-      "check_at": "2026-11-07T16:45:00Z",
+      "event_slug": "cfb-duke-ncst-2026-11-07",
+      "game": "Duke vs. NC State",
+      "start": "2026-11-07T17:30:00Z",
+      "check_at": "2026-11-07T17:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Clemson vs. Syracuse → Syracuse ($163, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Duke vs. NC State → NC State ($156, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bun-stu-wer-2026-11-07-more-markets",
+      "game": "VfB Stuttgart vs. SV Werder Bremen - More Markets",
+      "start": "2026-11-07T17:30:00Z",
+      "check_at": "2026-11-07T17:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under ($54, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-okst-kanst-2026-11-07",
+      "game": "Oklahoma State vs. Kansas State",
+      "start": "2026-11-07T18:00:00Z",
+      "check_at": "2026-11-07T17:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Oklahoma State vs. Kansas State → Oklahoma State ($17, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
