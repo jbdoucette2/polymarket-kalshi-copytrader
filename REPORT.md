@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 5:38 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
+Updated Fri Nov 6, 5:53 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
 
 Record: 30 won, 21 lost, 5 sold early. Realized P&L $+14.35. Open: 1.
 
@@ -4923,122 +4923,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### AEK vs. Real Madrid CF - More Markets · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 5:15 PM (pregame): Spread: Real Madrid CF (-1.5): back: 1 vetted on AEK ($5.4k), fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market
-- Wed Nov 4, 1:13 PM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5: back: 1 vetted on Under ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market
-- Wed Nov 4, 7:15 AM (hourly): AEK vs. Real Madrid CF: O/U 0.5: all vetted wallets left Under
-- Wed Nov 4, 1:11 AM (hourly): AEK vs. Real Madrid CF: O/U 0.5: back: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-2.5): all vetted wallets left Real Madrid CF
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-1.5): all vetted wallets left AEK
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Spread: Real Madrid CF (-3.5): all vetted wallets left Real Madrid CF
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 6.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: 1st Half O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 8.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Spread: Real Madrid CF (-4.5): all vetted wallets left AEK
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 2.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): AEK vs. Real Madrid CF: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 10:14 PM (hourly): Spread: Real Madrid CF (-1.5): Flaznorp added $1.3k on AEK
-- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-2.5): first seen: 2 vetted on Real Madrid CF ($241), fails: no Kalshi spread market
-- Tue Nov 3, 6:13 PM (hourly): Spread: Real Madrid CF (-1.5): first seen: 2 vetted on AEK ($634), fails: no Kalshi spread market
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 5:15 PM | pregame | Spread: Real Madrid CF (-1.5) → AEK | RN1 $5.4k | $0 | — | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Wed Nov 4, 5:15 PM | pregame | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | RN1 $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 4:35 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | RN1 $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 4:15 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | RN1 $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 2:13 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | RN1 $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 1:13 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | RN1 $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 7:15 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 5:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 4:13 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 3:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 2:17 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 1:11 AM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Under | CUTJALENHURTS $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-1.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 0.5 → Under | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 3.5 → Under | SnakeBall $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $675 | $0 | — | fails: only 1 vetted wallet with $675 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | SnakeBall $35, Flaznorp $25 | $0 | — | fails: only 2 vetted wallets with $59 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 6.5 → Over | Flaznorp $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: only 2 vetted wallets with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet with $309 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 10:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $622 | $0 | — | fails: only 1 vetted wallet with $622 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $1.9k, SnakeBall $26 | $0 | — | fails: only 2 vetted wallets with $1.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $309 | $30 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $593, SnakeBall $26 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $216, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: Real Madrid CF O/U 2.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: 1st Half O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 2.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: AEK 1st Half O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-4.5) → AEK | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | AEK vs. Real Madrid CF: O/U 8.5 → Under | Flaznorp $157 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $213, SnakeBall $28 | $0 | — | fails: no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-3.5) → AEK | Flaznorp $311 | $29 | — | fails: only 1 vetted wallet; no Kalshi spread market |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Real Madrid CF (-1.5) → AEK | Flaznorp $607, SnakeBall $27 | $0 | — | fails: no Kalshi spread market |
-
 ### Real Madrid vs. Panathinaikos · starts Wed Nov 4, 7:45 PM
 
 - Wed Nov 4, 6:11 AM (hourly): Spread: Real Madrid (-1.5): all vetted wallets left Real Madrid
@@ -5173,27 +5057,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | Flaznorp $398 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | Flaznorp $342, omnibus-076daa $113 | $0 | — | fails: no Kalshi game found |
-
-### AEK vs. Real Madrid CF · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 1:11 AM (hourly): Will Real Madrid CF win on 2026-11-04?: all vetted wallets left No
-- Wed Nov 4, 12:11 AM (hourly): Will Real Madrid CF win on 2026-11-04?: Kalshi 20¢ → 19¢
-- Wed Nov 4, 12:11 AM (hourly): Will Real Madrid CF win on 2026-11-04?: SnakeBall left
-- Tue Nov 3, 11:12 PM (hourly): Will Real Madrid CF win on 2026-11-04?: now fails: only 2 vetted wallets with $482 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 3, 11:12 PM (hourly): Will Real Madrid CF win on 2026-11-04?: Flaznorp left
-- Tue Nov 3, 10:14 PM (hourly): Will Real Madrid CF win on 2026-11-04?: Kalshi 22¢ → 20¢
-- Tue Nov 3, 6:13 PM (hourly): Will Real Madrid CF win on 2026-11-04?: first seen: 3 vetted on No ($2.3k), passes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | Will Real Madrid CF win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Will Real Madrid CF win on 2026-11-04? → No | omnibus-076daa $11 | $0 | 19¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | SnakeBall $471, omnibus-076daa $11 | $0 | 20¢ NO | fails: only 2 vetted wallets with $482 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.6k, SnakeBall $471, omnibus-076daa $11 | $0 | 20¢ NO | passes |
-| Tue Nov 3, 9:17 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $495, omnibus-076daa $12 | $0 | 22¢ NO | passes |
-| Tue Nov 3, 8:14 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $519, omnibus-076daa $13 | $0 | 22¢ NO | passes |
-| Tue Nov 3, 7:17 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $519, omnibus-076daa $13 | $0 | 22¢ NO | passes |
-| Tue Nov 3, 6:13 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $519, omnibus-076daa $13 | $0 | 22¢ NO | passes |
 
 ### Al-Taawoun FC vs. Al Faisaly (JOR) · starts Wed Nov 4, 6:15 PM
 
@@ -5512,177 +5375,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 
-### Fenerbahçe SK vs. Liverpool FC - Exact Score · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: Fenerbahçe SK 0 - 5 Liverpool FC?: all vetted wallets left Yes
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: Fenerbahçe SK 0 - 5 Liverpool FC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: Fenerbahçe SK 0 - 5 Liverpool FC? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: Fenerbahçe SK 0 - 5 Liverpool FC? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Exact Score: Fenerbahçe SK 1 - 4 Liverpool FC? → No | SnakeBall $22 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-
-### AEK vs. Real Madrid CF - Exact Score · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: AEK 1 - 5 Real Madrid CF?: all vetted wallets left No
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: AEK 0 - 3 Real Madrid CF?: all vetted wallets left No
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: AEK 1 - 2 Real Madrid CF?: all vetted wallets left No
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: AEK 0 - 5 Real Madrid CF?: all vetted wallets left No
-- Tue Nov 3, 7:17 PM (hourly): Exact Score: AEK 0 - 3 Real Madrid CF?: SnakeBall joined No (+$48)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: AEK 1 - 2 Real Madrid CF? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: AEK 0 - 5 Real Madrid CF? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: AEK 0 - 5 Real Madrid CF? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: AEK 1 - 2 Real Madrid CF? → No | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $391 | $0 | — | fails: only 1 vetted wallet with $391 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | SnakeBall $202 | $0 | — | fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: AEK 0 - 5 Real Madrid CF? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: AEK 1 - 2 Real Madrid CF? → No | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $340 | $2 | — | fails: only 1 vetted wallet with $340 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | SnakeBall $113, Flaznorp $51 | $0 | — | fails: only 2 vetted wallets with $164 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $86 | $2 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | SnakeBall $59, Flaznorp $51 | $0 | — | fails: market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $86 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | Flaznorp $51, SnakeBall $48 | $0 | — | fails: market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $86 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | Flaznorp $51, SnakeBall $48 | $0 | — | fails: market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $86 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-
-### Fenerbahçe SK vs. Liverpool FC - More Markets · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 4:15 PM (hourly): Fenerbahçe SK vs. Liverpool FC: Both Teams to Score: back: 1 vetted on Yes ($393), fails: only 1 vetted wallet with $393 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Wed Nov 4, 12:11 AM (hourly): Spread: Liverpool FC (-3.5): all vetted wallets left Liverpool FC
-- Wed Nov 4, 12:11 AM (hourly): Spread: Liverpool FC (-2.5): all vetted wallets left Liverpool FC
-- Wed Nov 4, 12:11 AM (hourly): Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Fenerbahçe SK vs. Liverpool FC: O/U 1.5: all vetted wallets left Under
-- Wed Nov 4, 12:11 AM (hourly): Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Spread: Liverpool FC (-5.5): all vetted wallets left Fenerbahçe SK
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: O/U 7.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: Both Teams to Score: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Spread: Liverpool FC (-4.5): all vetted wallets left Fenerbahçe SK
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Spread: Liverpool FC (-1.5): all vetted wallets left Fenerbahçe SK
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Fenerbahçe SK vs. Liverpool FC: O/U 8.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 5:15 PM | pregame | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → Yes | RN1 $381 | $0 | — | fails: only 1 vetted wallet with $381 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:35 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → Yes | RN1 $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:15 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → Yes | RN1 $393 | $0 | — | fails: only 1 vetted wallet with $393 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Liverpool FC (-3.5) → Liverpool FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Liverpool FC (-2.5) → Liverpool FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Liverpool FC (-4.5) → Fenerbahçe SK | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 1.5 → Under | SnakeBall $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $915 | $0 | — | fails: only 1 vetted wallet with $915 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Liverpool FC (-3.5) → Liverpool FC | SnakeBall $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Liverpool FC (-2.5) → Liverpool FC | SnakeBall $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $767 | $0 | — | fails: only 1 vetted wallet with $767 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Liverpool FC (-4.5) → Fenerbahçe SK | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Liverpool FC (-2.5) → Fenerbahçe SK | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Liverpool FC (-3.5) → Fenerbahçe SK | Flaznorp $130 | $5 | — | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet with $174 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | Flaznorp $227 | $0 | — | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | Flaznorp $294 | $0 | — | fails: only 1 vetted wallet with $294 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | Flaznorp $310 | $0 | — | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $400 | $0 | — | fails: only 1 vetted wallet with $400 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $486 | $0 | — | fails: only 1 vetted wallet with $486 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $771 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Liverpool FC (-4.5) → Fenerbahçe SK | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Liverpool FC (-2.5) → Fenerbahçe SK | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Liverpool FC (-3.5) → Fenerbahçe SK | Flaznorp $130 | $5 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | Flaznorp $227 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | Flaznorp $293 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | Flaznorp $310 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $401 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $486 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $772 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Liverpool FC (-4.5) → Fenerbahçe SK | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Liverpool FC (-2.5) → Fenerbahçe SK | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Liverpool FC (-3.5) → Fenerbahçe SK | Flaznorp $130 | $5 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | Flaznorp $148 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | Flaznorp $227 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | Flaznorp $259 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $400 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $487 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $772 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Liverpool FC (-4.5) → Fenerbahçe SK | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Liverpool FC (-2.5) → Fenerbahçe SK | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Liverpool FC (-3.5) → Fenerbahçe SK | Flaznorp $130 | $5 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | Flaznorp $148 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | Flaznorp $227 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | Flaznorp $259 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $400 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $487 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 4.5 → Under | SnakeBall $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 0.5 → Over | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Liverpool FC O/U 5.5 → Under | SnakeBall $772 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 3.5 → Under | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Liverpool FC (-2.5) → Fenerbahçe SK | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Liverpool FC (-1.5) → Fenerbahçe SK | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: Both Teams to Score → No | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Liverpool FC (-3.5) → Fenerbahçe SK | Flaznorp $130 | $5 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 0.5 → Over | Flaznorp $148 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 3.5 → Under | Flaznorp $227 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Liverpool FC (-5.5) → Fenerbahçe SK | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $400 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $487 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-
 ### KV Kortrijk vs. Yellow-Red KV Mechelen - Exact Score · starts Wed Nov 4, 7:30 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen?: all vetted wallets left Yes
@@ -5705,20 +5397,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:12 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 10:14 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 9:17 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-
-### AEK vs. Real Madrid CF - Halftime Result · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Real Madrid CF leading at halftime?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Real Madrid CF leading at halftime? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Real Madrid CF leading at halftime? → No | SnakeBall $163 | $0 | — | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 10:14 PM | hourly | Real Madrid CF leading at halftime? → No | Flaznorp $366, SnakeBall $163 | $0 | — | fails: only 2 vetted wallets with $529 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Tue Nov 3, 9:17 PM | hourly | Real Madrid CF leading at halftime? → No | Flaznorp $371 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 8:14 PM | hourly | Real Madrid CF leading at halftime? → No | Flaznorp $375 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 7:17 PM | hourly | Real Madrid CF leading at halftime? → No | Flaznorp $375 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-| Tue Nov 3, 6:13 PM | hourly | Real Madrid CF leading at halftime? → No | Flaznorp $375 | $0 | — | fails: only 1 vetted wallet; market type not supported |
 
 ### Viking FK vs. Sabah FK - Exact Score · starts Wed Nov 4, 8:00 PM
 
@@ -6022,32 +5700,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | AS FAR vs. Raja Club Athletic: O/U 2.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | AS FAR vs. Raja Club Athletic: AS FAR O/U 1.5 → Over | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | AS FAR vs. Raja Club Athletic: AS FAR 1st Half O/U 0.5 → Over | Flaznorp $48 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Fenerbahçe SK vs. Liverpool FC · starts Wed Nov 4, 5:45 PM
-
-- Wed Nov 4, 4:35 PM (hourly): Will Fenerbahçe SK vs. Liverpool FC end in a draw?: back: 1 vetted on Yes ($244), fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Wed Nov 4, 4:35 PM (hourly): Will Fenerbahçe SK win on 2026-11-04?: back: 2 vetted on Yes ($120), fails: only 2 vetted wallets with $120 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Tue Nov 3, 11:12 PM (hourly): Will Fenerbahçe SK win on 2026-11-04?: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Will Fenerbahçe SK vs. Liverpool FC end in a draw?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 5:15 PM | pregame | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → Yes | RN1 $256 | $0 | — | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 5:15 PM | pregame | Will Fenerbahçe SK win on 2026-11-04? → Yes | RN1 $107, tradecraft $21 | $0 | — | fails: only 2 vetted wallets with $128 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:35 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → Yes | RN1 $244 | $0 | — | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:35 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → Yes | RN1 $101, tradecraft $20 | $0 | — | fails: only 2 vetted wallets with $120 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | Flaznorp $508 | $0 | — | fails: only 1 vetted wallet with $508 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | Flaznorp $508 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | Flaznorp $502 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | Flaznorp $502 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Will Fenerbahçe SK vs. Liverpool FC end in a draw? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Will Fenerbahçe SK win on 2026-11-04? → No | Flaznorp $502 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Racing Club de Lens vs. Como 1907 · starts Wed Nov 4, 8:00 PM
 
