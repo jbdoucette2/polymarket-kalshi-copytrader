@@ -1,36 +1,6 @@
 {
-  "updated": "2026-11-06T02:13:17Z",
+  "updated": "2026-11-06T03:11:21Z",
   "games": [
-    {
-      "event_slug": "nhl-nsh-col-2026-11-05",
-      "game": "Predators vs. Avalanche",
-      "start": "2026-11-06T02:30:00Z",
-      "check_at": "2026-11-06T02:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Predators vs. Avalanche: O/U 5.5 → Under ($249, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-mia-gsw-2026-11-05",
-      "game": "Heat vs. Warriors",
-      "start": "2026-11-06T03:00:00Z",
-      "check_at": "2026-11-06T02:45:00Z",
-      "passing": 1,
-      "near": 4,
-      "best": "Spread: Warriors (-3.5) → Warriors ($2.6k, 3 wallets)",
-      "status": "passes"
-    },
-    {
-      "event_slug": "mex2-acr-len-2026-11-05",
-      "game": "Alacranes de Durango vs. Leones Negros UDEG",
-      "start": "2026-11-06T03:05:00Z",
-      "check_at": "2026-11-06T02:50:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Will Alacranes de Durango win on 2026-11-05? → Yes ($21, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "aus-syd-ccm-2026-11-06-more-markets",
       "game": "Sydney FC vs. Central Coast Mariners FC - More Markets",
