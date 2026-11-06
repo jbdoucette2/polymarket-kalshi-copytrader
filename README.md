@@ -89,6 +89,11 @@ Suggested bar first: 50+ settled paper trades with positive profit after fees.
   It also checks your real Kalshi balance before each buy.
 - **Kill switch:** create a file named `STOP` next to the script (or in the repo) and no new trades are entered.
 - Every live order response is logged to `orders.log`.
+- Every order carries our own id. If a request errors or times out, the script looks that id up on Kalshi; if it
+  can't tell whether the order went through, it halts new entries. Each run also compares Kalshi's open positions
+  with our open trades, and a mismatch seen twice in a row halts entries too. After checking Kalshi, run
+  `python3 copysim.py resume`. Use a Kalshi account (or subaccount) only this script trades in, or your own
+  positions will look like a mismatch.
 
 Kalshi's API changes over time (prices moved to dollar strings and orders to `/portfolio/events/orders` in 2026).
 If orders start failing, check https://docs.kalshi.com. Nothing here is financial advice.

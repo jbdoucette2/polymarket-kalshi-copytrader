@@ -86,12 +86,36 @@ class KalshiClient:
         fee = round(float(r.get("average_fee_paid") or 0) * filled, 2)
         return filled, paid, fee, r.get("order_id"), r
 
-    def sell(self, ticker, outcome_side, count, min_price):
+    def positions(self):
+        """{ticker: signed contract count} for unsettled positions: positive is YES, negative is NO."""
+        out, cur = {}, None
+        for _ in range(20):
+            d = self._req("GET", "/portfolio/positions?limit=1000" + (f"&cursor={cur}" if cur else ""))
+            for p in d.get("market_positions") or []:
+                n = float(p.get("position_fp") or p.get("position") or 0)
+                if n:
+                    out[p["ticker"]] = n
+            cur = d.get("cursor")
+            if not cur:
+                break
+        return out
+
+    def find_order(self, ticker, client_order_id, since_ts):
+        """The order we sent with this client_order_id, looked up after a failed or timed-out request.
+        Returns (filled_count, fees) or None if Kalshi has no such order."""
+        d = self._req("GET", f"/portfolio/orders?ticker={ticker}&min_ts={int(since_ts)}&limit=200")
+        for o in d.get("orders") or []:
+            if o.get("client_order_id") == client_order_id:
+                fees = sum(float(o.get(k) or 0) for k in ("taker_fees_dollars", "maker_fees_dollars"))
+                return float(o.get("fill_count_fp") or o.get("fill_count") or 0), round(fees, 2)
+        return None
+
+    def sell(self, ticker, outcome_side, count, min_price, client_order_id=None):
         """Close a YES or NO position, receiving at least `min_price` per contract (reduce-only IOC)."""
         if outcome_side == "yes":
-            r = self._order(ticker, "ask", count, min_price, reduce_only=True)
+            r = self._order(ticker, "ask", count, min_price, reduce_only=True, client_order_id=client_order_id)
         else:  # selling NO at q == buying YES at 1 - q
-            r = self._order(ticker, "bid", count, 1 - min_price, reduce_only=True)
+            r = self._order(ticker, "bid", count, 1 - min_price, reduce_only=True, client_order_id=client_order_id)
         filled = float(r.get("fill_count") or 0)
         avg_yes = float(r.get("average_fill_price") or 0)
         got = avg_yes if outcome_side == "yes" else (1 - avg_yes if filled else 0)

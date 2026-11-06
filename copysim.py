@@ -18,6 +18,8 @@ Other leagues are found by matching Polymarket's league tag to Kalshi's series t
 aliases (Praha -> Prague), Kalshi's team codes (VDG = Vasco da Gama), kickoff time and matching prices;
 totals and spreads are also found by title or the league's sibling series.
 `python copysim.py audit-matching` lists games our wallets hold that found no Kalshi match.
+REPORT.md's "What's working" grades every market that passed the rules or missed by one, and every
+wallet's pre-game picks, once Polymarket settles them: the evidence for tuning rules.
 
 Entries happen only in the pre-game check, 5 to 25 minutes before the start (PREGAME_WINDOW).
 
@@ -30,6 +32,7 @@ Run continuously (laptop):   python3 copysim.py            (hourly snapshot + pr
 Run one cycle:               python3 copysim.py --once     (snapshot + pre-game check)
 Print results:               python3 copysim.py report
 Test live credentials:       python3 copysim.py check-keys
+Resume after a halt:         python3 copysim.py resume   (live: a lost order or a Kalshi position mismatch halts entries)
 
 Modes (COPYSIM_MODE): paper (default, no keys, no orders) | live (real orders on Kalshi).
 Live mode also requires COPYSIM_LIVE_ACK=yes and Kalshi keys (see kalshi_client.py),
@@ -38,7 +41,7 @@ to halt all new entries immediately in any mode.
 COPYSIM_DB (default copysim.db) picks the history file. REPORT.md, dashboard.html and pregame_plan.json
 are written next to it with the same suffix (copysim_live.db -> REPORT_live.md).
 """
-import html, json, math, os, re, sqlite3, sys, time, difflib, unicodedata
+import html, json, math, os, re, sqlite3, sys, time, difflib, unicodedata, uuid
 from datetime import datetime, timezone, timedelta
 import requests
 
@@ -197,6 +200,9 @@ def db():
     CREATE TABLE IF NOT EXISTS shadow(addr TEXT, cond TEXT, idx INT, start_ts TEXT, avg REAL, usd REAL, ts TEXT,
       game TEXT, title TEXT, pick TEXT, won INT, PRIMARY KEY(addr, cond));
     CREATE TABLE IF NOT EXISTS wallet_market_trades(addr TEXT, cond TEXT, n INT, PRIMARY KEY(addr, cond));
+    CREATE TABLE IF NOT EXISTS graded(cond TEXT PRIMARY KEY, event_slug TEXT, game TEXT, title TEXT, pick TEXT,
+      start_ts TEXT, n_wallets INT, lead_usd REAL, opp_usd REAL, leader_avg REAL, kalshi_ask REAL, passes INT,
+      reason TEXT, traded INT, won INT);
     """)
     for addr, (name, reason) in SEED_TIMEOUTS.items():
         c.execute("INSERT OR IGNORE INTO timeouts(addr,name,reason,since) VALUES(?,?,?,?)",
@@ -703,14 +709,33 @@ class LiveExec:
     def _log(self, what, raw):
         with open(ORDER_LOG, "a") as f:
             f.write(json.dumps({"ts": NOW().isoformat(), "what": what, "resp": raw}, default=str) + "\n")
+    def _send(self, what, fn, ticker, side, n, price):
+        """Send one order with our own id. If the request errors or times out, Kalshi may still have taken it,
+        so look the id up: a fill found there is recorded at our limit price; an unknown state halts entries."""
+        coid, t0 = str(uuid.uuid4()), time.time()
+        try:
+            filled, px, fee, oid, raw = fn(ticker, side, n, price, client_order_id=coid)
+            self._log(what, raw)
+            return int(filled), px, fee, oid
+        except Exception as e:
+            self._log(what + " error", {"error": str(e), "client_order_id": coid, "ticker": ticker})
+            err = e
+        for wait in (2, 5):
+            time.sleep(wait)
+            try:
+                found = self.k.find_order(ticker, coid, t0 - 60)
+            except Exception as e:
+                err = e; continue
+            if found is None:
+                raise RuntimeError(f"Kalshi rejected it: {str(err)[:160]}")
+            filled, fee = found
+            self._log(what + " recovered", {"client_order_id": coid, "filled": filled, "fees": fee})
+            return int(filled), price, fee, "coid:" + coid
+        raise OrderUnknown(f"{what} {ticker}: request failed ({str(err)[:120]}) and the order couldn't be looked up")
     def buy(self, km, side, n, ask, limit):
-        filled, paid, fee, oid, raw = self.k.buy(km["ticker"], side, n, limit)
-        self._log("buy", raw)
-        return int(filled), paid, fee, oid
+        return self._send("buy", self.k.buy, km["ticker"], side, n, limit)
     def sell(self, ticker, side, n, bid):
-        filled, got, fee, oid, raw = self.k.sell(ticker, side, n, max(bid, 0.01))
-        self._log("sell", raw)
-        return int(filled), got, fee, oid
+        return self._send("sell", self.k.sell, ticker, side, n, max(bid, 0.01))
     def funds_ok(self, c, need):
         return cash(c) >= need and self.k.balance_usd() >= need
 
@@ -728,10 +753,51 @@ def executor():
             EXEC = PaperExec()
     return EXEC
 
+class OrderUnknown(Exception):
+    """A live order whose outcome we couldn't confirm: entries halt until someone checks Kalshi."""
+
+def halted(c):
+    r = c.execute("SELECT v FROM meta WHERE k='halt'").fetchone()
+    return r[0] if r else None
+
+def halt(c, reason):
+    """Stop new entries until `python3 copysim.py resume`. Exits and settlement keep running."""
+    ts = NOW().isoformat(timespec="seconds")
+    c.execute("INSERT OR REPLACE INTO meta VALUES('halt', ?)", (f"{reason} (since {ts})",))
+    c.execute("INSERT INTO changes(ts,kind,event_slug,game,cond,title,note) VALUES(?,?,?,?,?,?,?)",
+              (ts, "halt", "", "", "", "Entries halted", f"{reason}. Check Kalshi, then run `python3 copysim.py resume`."))
+    c.commit()
+    log(f"HALT: {reason}")
+
+def reconcile(c):
+    """Live only: compare Kalshi's open positions with our open trades. A gap seen on two runs in a row
+    (one run can catch a game mid-settlement) halts entries, since an order may have gone untracked."""
+    if not executor().live:
+        return
+    try:
+        have = executor().k.positions()
+    except Exception as e:
+        log(f"reconcile: couldn't read Kalshi positions ({e})"); return
+    want = {}
+    for tk, side, n in c.execute("SELECT kalshi_ticker, kalshi_side, contracts FROM trades WHERE status='open' AND mode='live'"):
+        want[tk] = want.get(tk, 0) + (n if side == "yes" else -n)
+    gaps = sorted(f"{tk}: Kalshi {have.get(tk, 0):+g}, ours {want.get(tk, 0):+g}"
+                  for tk in set(have) | set(want) if round(have.get(tk, 0)) != round(want.get(tk, 0)))
+    prev = c.execute("SELECT v FROM meta WHERE k='reconcile_gaps'").fetchone()
+    c.execute("INSERT OR REPLACE INTO meta VALUES('reconcile_gaps', ?)", (json.dumps(gaps),))
+    c.commit()
+    if not gaps:
+        return
+    log("reconcile: positions differ: " + "; ".join(gaps))
+    if prev and set(json.loads(prev[0])) & set(gaps) and not halted(c):
+        halt(c, "Kalshi positions don't match our open trades: " + "; ".join(gaps)[:400])
+
 def entry_blocked(c, need):
     """Safety gates checked before every new entry."""
     if os.path.exists(STOP_FILE):
         return "STOP file present"
+    if halted(c):
+        return "entries halted: " + halted(c)[:150]
     if executor().live:
         if need > LIVE_MAX_PER_TRADE + 0.5:
             return "over per-trade cap"
@@ -776,7 +842,10 @@ def evaluate(c, markets, lo_min, hi_min):
         if not st or not (lo < st <= hi):
             continue
         outs = json.loads(mk["outcomes"]) if isinstance(mk["outcomes"], str) else mk["outcomes"]
-        for b in m["bench"]:   # a benched wallet's pick before the start, for its shadow record
+        # every wallet's pick before the start is graded later: benched wallets earn release with it,
+        # and the report's wallet table shows who actually picks winners
+        legs = m["bench"] + [dict(l, idx=k) for k, v in m["sides"].items() for l in v]
+        for b in legs:
             if b["usd"] < SHADOW_MIN_USD or not (MIN_PRICE < b["avg"] < MAX_PRICE):
                 continue
             # the latest pre-start side counts: a wallet that switches sides before the start is graded on the switch
@@ -962,6 +1031,9 @@ def enter(c, cd):
     limit = min(round(cd["avg"] + MAX_SLIP, 2), 0.99)
     try:
         n, ask, fee, oid = executor().buy(km, side, n, ask, limit)
+    except OrderUnknown as e:
+        halt(c, str(e))
+        skip(c, cd["game"], cd["title"], cd["pick"], "order state unknown; entries halted"); return False
     except Exception as e:
         skip(c, cd["game"], cd["title"], cd["pick"], f"order failed: {str(e)[:120]}"); return False
     if n < 1:
@@ -1003,8 +1075,12 @@ def sell_open(c, tid, tk, side, n, cost, fee, reason):
     if km.get("status") != "active":
         log(f"can't sell trade #{tid}: Kalshi market {tk} is {km.get('status') or 'unreachable'}"); return False
     bid = k_price(km, side, "bid")
+    if bid < 0.01:   # no buyers: selling would hand the stake away, so hold to settlement
+        log(f"can't sell trade #{tid}: nobody is bidding on {tk} {side.upper()}"); return False
     try:
         sold, bid, xfee, xoid = executor().sell(tk, side, n, bid)
+    except OrderUnknown as e:
+        halt(c, str(e)); return False
     except Exception as e:
         log(f"exit order failed for trade #{tid}: {e}"); return False
     if sold < n:
@@ -1151,16 +1227,23 @@ def settle(c):
     for tid, tk, side, n, cost, fee in c.execute(
             "SELECT id,kalshi_ticker,kalshi_side,contracts,cost,fee FROM trades WHERE status='open'").fetchall():
         km = (get(f"{KAL}/markets/{tk}") or {}).get("market", {})
-        if km.get("status") not in ("finalized", "settled") or km.get("result") not in ("yes", "no"):
+        status, result = km.get("status"), (km.get("result") or "").lower()
+        if result in ("yes", "no") and status in ("finalized", "settled"):
+            won = result == side
+            payout, label = (float(n) if won else 0.0), ("won" if won else "lost")
+        elif result == "void" or status in ("voided", "void", "canceled", "cancelled"):
+            payout, label = cost + fee, "void"   # Kalshi refunds a voided market
+        elif status in ("finalized", "settled") and km.get("settlement_value_dollars") not in (None, ""):
+            v = float(km["settlement_value_dollars"])   # partial payout: YES gets v per contract, NO gets 1 - v
+            payout = round(n * (v if side == "yes" else 1 - v), 2)
+            label = "won" if payout > cost + fee else "lost"
+        else:
             continue
-        won = km["result"] == side
-        payout = float(n) if won else 0.0
         cash(c, payout)
         c.execute("UPDATE trades SET status=?, result=?, pnl=?, settled_ts=? WHERE id=?",
-                  ("won" if won else "lost", km["result"], round(payout - cost - fee, 2),
-                   NOW().isoformat(timespec="seconds"), tid))
+                  (label, result or status, round(payout - cost - fee, 2), NOW().isoformat(timespec="seconds"), tid))
         c.commit()
-        log(f"SETTLED trade #{tid}: {'WON' if won else 'lost'}")
+        log(f"SETTLED trade #{tid}: {label} (paid ${payout:.2f})")
 
 # ---------------- time-outs ----------------
 def benched_wallets(c):
@@ -1210,20 +1293,45 @@ def release(c, addr, name, note):
               (ts, "timeout", "", name, "", "Time-out", f"{name} released: {note}"))
     log(f"RELEASED {name}: {note}")
 
-def settle_shadow(c):
-    """Mark benched wallets' shadow picks won or lost once Polymarket resolves the market."""
-    due = c.execute("SELECT DISTINCT cond FROM shadow WHERE won IS NULL AND start_ts < ?",
-                    ((NOW() - timedelta(hours=3)).isoformat(timespec="seconds"),)).fetchall()
-    conds = [x for (x,) in due]
+def pm_resolutions(conds):
+    """{cond: (outcomes, winning index)} for markets Polymarket has resolved, 40 per request."""
+    out = {}
     for i in range(0, len(conds), 40):
-        rows = get(f"{GAMMA}/markets", condition_ids=conds[i:i + 40], closed="true", limit=100) or []
-        for m in rows:
+        for m in get(f"{GAMMA}/markets", condition_ids=conds[i:i + 40], closed="true", limit=100) or []:
             try:
                 prices = [float(p) for p in json.loads(m.get("outcomePrices") or "[]")]
+                outs = json.loads(m["outcomes"]) if isinstance(m.get("outcomes"), str) else m.get("outcomes") or []
             except Exception:
                 continue
             if prices and max(prices) > 0.98:
-                c.execute("UPDATE shadow SET won=(idx=?) WHERE cond=? AND won IS NULL", (prices.index(max(prices)), m["conditionId"]))
+                out[m["conditionId"]] = (outs, prices.index(max(prices)))
+    return out
+
+def settle_shadow(c):
+    """Mark wallets' pre-game picks won or lost once Polymarket resolves the market."""
+    due = c.execute("SELECT DISTINCT cond FROM shadow WHERE won IS NULL AND start_ts < ?",
+                    ((NOW() - timedelta(hours=3)).isoformat(timespec="seconds"),)).fetchall()
+    for cond, (_, win) in pm_resolutions([x for (x,) in due]).items():
+        c.execute("UPDATE shadow SET won=(idx=?) WHERE cond=? AND won IS NULL", (win, cond))
+    c.commit()
+
+def grade_candidates(c):
+    """Every market that passed the rules or missed by one, as it stood at its last check before the start,
+    graded won or lost once Polymarket resolves it. This is the evidence for tuning rules: many times more
+    picks than the trades we took."""
+    now = NOW()
+    c.execute("""INSERT OR IGNORE INTO graded(cond,event_slug,game,title,pick,start_ts,n_wallets,lead_usd,opp_usd,
+                   leader_avg,kalshi_ask,passes,reason,traded)
+                 SELECT s.cond,s.event_slug,s.game,s.title,s.pick,s.start_ts,s.n_wallets,s.lead_usd,s.opp_usd,s.leader_avg,
+                   s.kalshi_ask,s.passes,s.reason,s.cond IN (SELECT cond FROM trades)
+                 FROM snapshots s JOIN (SELECT cond, MAX(id) id FROM snapshots WHERE ts < start_ts GROUP BY cond) l ON s.id=l.id
+                 WHERE s.start_ts < ? AND s.n_wallets > 0 AND s.fails <= 1""", (now.isoformat(),))
+    due = [x for (x,) in c.execute("SELECT cond FROM graded WHERE won IS NULL AND start_ts < ?",
+                                   ((now - timedelta(hours=3)).isoformat(),))]
+    for cond, (outs, win) in pm_resolutions(due).items():
+        pick = c.execute("SELECT pick FROM graded WHERE cond=?", (cond,)).fetchone()[0]
+        if pick in outs:
+            c.execute("UPDATE graded SET won=? WHERE cond=?", (int(outs.index(pick) == win), cond))
     c.commit()
 
 def wallet_record(c, addr, since=None):
@@ -1250,6 +1358,7 @@ def review_wallets(c):
     """Bench wallets that keep losing us money or trade like market makers; release benched ones whose shadow
     picks have proven themselves."""
     settle_shadow(c)
+    grade_candidates(c)
     benched = benched_wallets(c)
     last_release = {a.lower(): r for a, r in c.execute("SELECT addr, MAX(released) FROM timeouts GROUP BY addr")}
     seen = {}
@@ -1309,7 +1418,7 @@ def rows(c, sql, args=()):
 def summary(c):
     t = rows(c, "SELECT * FROM trades")
     open_cost = sum(r["cost"] + r["fee"] for r in t if r["status"] == "open")
-    closed = [r for r in t if r["status"] in ("won", "lost", "sold")]
+    closed = [r for r in t if r["status"] in ("won", "lost", "sold", "void")]
     return dict(cash=cash(c), equity=round(cash(c) + open_cost, 2), open=sum(r["status"] == "open" for r in t),
                 won=sum(r["status"] == "won" for r in t), lost=sum(r["status"] == "lost" for r in t),
                 sold=sum(r["status"] == "sold" for r in t), pnl=round(sum(r["pnl"] or 0 for r in closed), 2), trades=t)
@@ -1330,6 +1439,7 @@ def write_report(c):
              f"Updated {local(NOW().isoformat())}. Bankroll **${s['equity']:.2f}** (start ${START_BANKROLL:.0f}): "
              f"${s['cash']:.2f} cash + open trades at cost.", "",
              f"Record: {s['won']} won, {s['lost']} lost, {s['sold']} sold early. Realized P&L ${s['pnl']:+.2f}. Open: {s['open']}.", "",
+             *([f"**Entries halted:** {halted(c)}. Check Kalshi, then run `python3 copysim.py resume`.", ""] if halted(c) else []),
              "| Entered | Game | Pick | Leaders | Kalshi | Status | P&L |", "| --- | --- | --- | --- | --- | --- | --- |"]
     for r in sorted(s["trades"], key=lambda r: r["ts"], reverse=True):
         L = json.loads(r["leaders"])
@@ -1338,6 +1448,7 @@ def write_report(c):
                      f"{r['title']} → {r['pick']} | {lead} (${r['lead_usd']:,.0f}) | "
                      f"{r['contracts']} × {r['price']*100:.0f}¢ {r['kalshi_side'].upper()} `{r['kalshi_ticker']}` | "
                      f"{r['status']} | {fmt_pnl(r['pnl'])} |")
+    lines += working_section(c)
     lines += position_changes(c)
     tos = timeout_rows(c)
     if tos:
@@ -1358,6 +1469,84 @@ def write_report(c):
         f.write("\n".join(lines) + "\n")
     os.replace(REPORT + ".tmp", REPORT)
     write_dashboard(c, s, sk)
+
+def market_kind(title):
+    t = title or ""
+    if "O/U" in t:
+        return "total"
+    if t.startswith("Spread"):
+        return "spread"
+    if "draw" in t.lower():
+        return "draw"
+    if re.match(r"Will .+ win", t):
+        return "soccer win/lose"
+    return "moneyline"
+
+WORKING_MIN_N = 5   # buckets with fewer graded picks are left out: too few to mean anything
+
+def working_section(c):
+    """'What's working': graded candidates and wallets' graded picks, by rule, against what their prices expected.
+    Edge = win rate minus average price (what a fair coin at that price would win); return = profit per $1 staked
+    before fees."""
+    g = rows(c, "SELECT * FROM graded WHERE won IS NOT NULL")
+    if not g:
+        return []
+    def price(r):
+        return r["kalshi_ask"] or r["leader_avg"] or 0.5
+    def line(label, rs):
+        n, w = len(rs), sum(r["won"] for r in rs)
+        p = sum(price(r) for r in rs) / n
+        ret = sum((1 / price(r) - 1) if r["won"] else -1 for r in rs) / n
+        return f"| {label} | {n} | {w / n:.0%} | {p * 100:.0f}¢ | {(w / n - p) * 100:+.0f} pts | {ret:+.0%} |"
+    def moved(r):
+        if not r["kalshi_ask"] or not r["leader_avg"]:
+            return None
+        d = r["kalshi_ask"] - r["leader_avg"]
+        return "price fell 3¢+ since leaders bought" if d <= -0.03 else "price rose 3¢+ since leaders bought" if d >= 0.03 else "price moved under 3¢"
+    groups = [
+        ("Rules", lambda r: "passed every rule" if r["passes"] else "one rule away"),
+        ("Price", lambda r: "under 40¢" if price(r) < 0.4 else "40–60¢" if price(r) < 0.6 else "60–80¢" if price(r) < 0.8 else "80¢+"),
+        ("Wallets on the pick", lambda r: f"{min(r['n_wallets'], 3)}{'+' if r['n_wallets'] >= 3 else ''} wallet{'s' if r['n_wallets'] > 1 else ''}"),
+        ("Leader money", lambda r: "under $5k" if r["lead_usd"] < 5000 else "$5k–20k" if r["lead_usd"] < 20000 else "$20k+"),
+        ("Market type", lambda r: market_kind(r["title"])),
+        ("Kalshi vs leaders' entry", moved),
+    ]
+    out = ["", "## What's working", "",
+           f"Every market that passed the rules or missed by one, graded at its last check before the start "
+           f"({len(g)} settled so far, {sum(r['traded'] for r in g)} of them traded). Edge is win rate minus the average "
+           f"price; return is profit per $1 staked before fees. Groups under {WORKING_MIN_N} picks are left out.", "",
+           "| Group | Picks | Won | Avg price | Edge | Return |", "| --- | --- | --- | --- | --- | --- |",
+           line("**all**", g)]
+    for title, key in groups:
+        buckets = {}
+        for r in g:
+            k = key(r)
+            if k:
+                buckets.setdefault(k, []).append(r)
+        for k, rs in sorted(buckets.items()):
+            if len(rs) >= WORKING_MIN_N:
+                out.append(line(f"{title}: {k}", rs))
+    # wallets: each one's biggest pre-game pick per game, graded
+    names = dict(c.execute("SELECT addr, name FROM pool").fetchall())
+    names.update({a: n for a, n in c.execute("SELECT addr, name FROM timeouts")})
+    benched = benched_wallets(c)
+    per = {}
+    for addr, game, won, avg, usd in c.execute("SELECT addr, game, won, avg, usd FROM shadow WHERE won IS NOT NULL"):
+        best = per.setdefault(addr, {})
+        if game not in best or usd > best[game][2]:
+            best[game] = (won, avg, usd)
+    wal = []
+    for addr, games in per.items():
+        if len(games) < WORKING_MIN_N:
+            continue
+        n, w = len(games), sum(x[0] for x in games.values())
+        p = sum(x[1] for x in games.values()) / n
+        wal.append((w / n - p, n, w, p, names.get(addr, addr[:10]) + (" (benched)" if addr in benched else "")))
+    if wal:
+        out += ["", f"Wallets with {WORKING_MIN_N}+ graded pre-game picks ($500+, one per game), best edge first:", "",
+                "| Wallet | Games | Won | Avg price | Edge |", "| --- | --- | --- | --- | --- |"]
+        out += [f"| {name} | {n} | {w / n:.0%} | {p * 100:.0f}¢ | {e * 100:+.0f} pts |" for e, n, w, p, name in sorted(wal, reverse=True)]
+    return out
 
 def leaders_text(wallets):
     return ", ".join(f"{w['name']} {money(w['usd'])}" for w in json.loads(wallets)) or "none"
@@ -1575,6 +1764,7 @@ def cycle(c, hourly=True, pregame=True, window=PREGAME_WINDOW):
         decide(c, due)
         c.execute("INSERT OR REPLACE INTO meta VALUES('window', ?)", (f"{lo}-{hi}",)); c.commit()
     settle(c)
+    reconcile(c)
     if hourly:
         review_wallets(c)
     write_report(c)
@@ -1621,6 +1811,9 @@ def main():
     if "release" in sys.argv:
         addr, name = find_wallet(c, sys.argv[sys.argv.index("release") + 1])
         release(c, addr, name, "released by hand"); c.commit(); write_report(c); return
+    if "resume" in sys.argv:
+        c.execute("DELETE FROM meta WHERE k IN ('halt', 'reconcile_gaps')"); c.commit()
+        log("entries resumed"); write_report(c); return
     if "audit-matching" in sys.argv:
         return audit_matching(c)
     if "check-keys" in sys.argv:
