@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 7:23 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
+Updated Fri Nov 6, 7:39 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
 
 Record: 31 won, 21 lost, 5 sold early. Realized P&L $+20.32. Open: 2.
 
@@ -776,6 +776,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Standard Liege vs. SK Beveren · starts Fri Nov 6, 7:45 PM
 
+- Fri Nov 6, 7:39 PM (verify): Will Standard Liege win on 2026-11-06?: 15-min check: still passes (2 wallets, $10.6k for vs $0 against); holding
 - Fri Nov 6, 7:14 PM (pregame): Will Standard Liege win on 2026-11-06?: first seen: 2 vetted on Yes ($9.9k), passes
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
@@ -5461,30 +5462,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Will Wolverhampton Wanderers FC win on 2026-11-04? → No | Flaznorp $138, omnibus-076daa $29 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will Wolverhampton Wanderers FC win on 2026-11-04? → No | Flaznorp $138, omnibus-076daa $29 | $0 | — | fails: no Kalshi game found |
 
-### Rolex Paris Masters: Arthur Fils vs Tomas Machac · starts Wed Nov 4, 7:30 PM
-
-- Wed Nov 4, 8:10 PM (hourly): Rolex Paris Masters: Arthur Fils vs Tomas Machac: back: 1 vetted on Tomas Machac ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Wed Nov 4, 1:11 AM (hourly): Rolex Paris Masters: Arthur Fils vs Tomas Machac: all vetted wallets left Tomas Machac
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 8:10 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | RN1 $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 1:11 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+); opposition 42%; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.6k | $1.1k | — | fails: only 1 vetted wallet; opposition 44%; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet; opposition 42%; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet; opposition 42%; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet; opposition 42%; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet; opposition 42%; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Arthur Fils | Flaznorp $2.7k | $1.1k | — | fails: only 1 vetted wallet; opposition 42%; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Rolex Paris Masters: Arthur Fils vs Tomas Machac → Tomas Machac | omnibus-076daa $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Cardiff City FC vs. West Ham United FC · starts Wed Nov 4, 7:45 PM
 
 - Wed Nov 4, 1:11 AM (hourly): Will West Ham United FC win on 2026-11-04?: all vetted wallets left No
@@ -5812,18 +5789,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 
-### KV Kortrijk vs. Yellow-Red KV Mechelen - Exact Score · starts Wed Nov 4, 7:30 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen? → Yes | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen? → Yes | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen? → Yes | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: KV Kortrijk 2 - 2 Yellow-Red KV Mechelen? → Yes | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Cardiff City FC vs. West Ham United FC - Exact Score · starts Wed Nov 4, 7:45 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Exact Score: Cardiff City FC 0 - 0 West Ham United FC?: all vetted wallets left No
@@ -5869,37 +5834,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### KV Kortrijk vs. Yellow-Red KV Mechelen - More Markets · starts Wed Nov 4, 7:30 PM
-
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: Both Teams to Score: all vetted wallets left Yes
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: Yellow-Red KV Mechelen O/U 0.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 1.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 2.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 3.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Yellow-Red KV Mechelen O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 3.5 → Over | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Both Teams to Score → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 2.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Yellow-Red KV Mechelen O/U 0.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 1.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 3.5 → Over | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Both Teams to Score → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 2.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Yellow-Red KV Mechelen O/U 0.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 1.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 3.5 → Over | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Both Teams to Score → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 2.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Yellow-Red KV Mechelen O/U 0.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: O/U 1.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Oxford United FC vs. Reading FC - More Markets · starts Wed Nov 4, 7:45 PM
 
 - Wed Nov 4, 2:13 PM (hourly): Oxford United FC vs. Reading FC: O/U 2.5: back: 1 vetted on Over ($7.8k), fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
@@ -5928,17 +5862,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Oxford United FC vs. Reading FC: O/U 1.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Reus FC Reddis vs. Barakaldo CF - Exact Score · starts Wed Nov 4, 7:30 PM
-
-- Tue Nov 3, 11:12 PM (hourly): Exact Score: Reus FC Reddis 0 - 3 Barakaldo CF?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: Reus FC Reddis 0 - 3 Barakaldo CF? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: Reus FC Reddis 0 - 3 Barakaldo CF? → No | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: Reus FC Reddis 0 - 3 Barakaldo CF? → No | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: Reus FC Reddis 0 - 3 Barakaldo CF? → No | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-
 ### FC Porto vs. SSC Napoli - More Markets · starts Wed Nov 4, 8:00 PM
 
 - Tue Nov 3, 11:12 PM (hourly): Spread: FC Porto (-3.5): all vetted wallets left SSC Napoli
@@ -5964,32 +5887,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | FC Porto vs. SSC Napoli: O/U 1.5 → Under | Flaznorp $137 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
 | Tue Nov 3, 8:14 PM | hourly | Spread: SSC Napoli (-1.5) → FC Porto | Flaznorp $150 | $0 | — | fails: only 1 vetted wallet; no Kalshi spread market |
 | Tue Nov 3, 8:14 PM | hourly | FC Porto vs. SSC Napoli: O/U 2.5 → Over | Flaznorp $247 | $0 | — | fails: only 1 vetted wallet; no Kalshi totals market |
-
-### Utebo FC vs. CE Sabadell FC - More Markets · starts Wed Nov 4, 7:30 PM
-
-- Tue Nov 3, 11:12 PM (hourly): Utebo FC vs. CE Sabadell FC: Utebo FC O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Utebo FC vs. CE Sabadell FC: CE Sabadell FC O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Utebo FC vs. CE Sabadell FC: O/U 2.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Utebo FC vs. CE Sabadell FC: O/U 1.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | Utebo FC vs. CE Sabadell FC: Utebo FC O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Utebo FC vs. CE Sabadell FC: CE Sabadell FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Utebo FC vs. CE Sabadell FC: Utebo FC O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Utebo FC vs. CE Sabadell FC: CE Sabadell FC O/U 1.5 → Over | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 1.5 → Over | Flaznorp $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 2.5 → Over | Flaznorp $309 | $0 | — | fails: only 1 vetted wallet with $309 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Utebo FC vs. CE Sabadell FC: Utebo FC O/U 3.5 → Under | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Utebo FC vs. CE Sabadell FC: CE Sabadell FC O/U 1.5 → Over | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 1.5 → Over | Flaznorp $240 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 2.5 → Over | Flaznorp $309 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Utebo FC vs. CE Sabadell FC: Utebo FC O/U 3.5 → Under | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Utebo FC vs. CE Sabadell FC: CE Sabadell FC O/U 1.5 → Over | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 1.5 → Over | Flaznorp $240 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Utebo FC vs. CE Sabadell FC: O/U 2.5 → Over | Flaznorp $300 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### SK Slavia Praha vs. Arsenal FC · starts Wed Nov 4, 8:00 PM
 
@@ -6096,32 +5993,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Bristol City FC vs. Wolverhampton Wanderers FC: Both Teams to Score → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Bristol City FC vs. Wolverhampton Wanderers FC: Both Teams to Score → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Reus FC Reddis vs. Barakaldo CF - More Markets · starts Wed Nov 4, 7:30 PM
-
-- Tue Nov 3, 11:12 PM (hourly): Reus FC Reddis vs. Barakaldo CF: Barakaldo CF O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Reus FC Reddis vs. Barakaldo CF: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Reus FC Reddis vs. Barakaldo CF: O/U 2.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Reus FC Reddis vs. Barakaldo CF: O/U 1.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | Reus FC Reddis vs. Barakaldo CF: Barakaldo CF O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 2.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: Barakaldo CF O/U 1.5 → Over | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 1.5 → Over | Flaznorp $64 | $0 | — | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 2.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Reus FC Reddis vs. Barakaldo CF: Barakaldo CF O/U 1.5 → Over | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 1.5 → Over | Flaznorp $64 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 2.5 → Over | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 0.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: Barakaldo CF O/U 1.5 → Over | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Reus FC Reddis vs. Barakaldo CF: O/U 1.5 → Over | Flaznorp $64 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Viking FK vs. Sabah FK · starts Wed Nov 4, 8:00 PM
 
 - Tue Nov 3, 11:12 PM (hourly): Will Viking FK win on 2026-11-04?: all vetted wallets left No
@@ -6170,17 +6041,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 10:14 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 9:17 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### KV Kortrijk vs. Yellow-Red KV Mechelen - Halftime Result · starts Wed Nov 4, 7:30 PM
-
-- Tue Nov 3, 11:12 PM (hourly): KV Kortrijk vs. Yellow-Red KV Mechelen: Draw at halftime?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Draw at halftime? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Draw at halftime? → Yes | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Draw at halftime? → Yes | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | KV Kortrijk vs. Yellow-Red KV Mechelen: Draw at halftime? → Yes | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Wrexham AFC vs. Middlesbrough FC - More Markets · starts Wed Nov 4, 7:45 PM
 
