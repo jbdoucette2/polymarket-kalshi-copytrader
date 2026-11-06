@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 6:22 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
+Updated Fri Nov 6, 6:38 PM. Bankroll **$114.35** (start $100): $104.32 cash + open trades at cost.
 
 Record: 30 won, 21 lost, 5 sold early. Realized P&L $+14.35. Open: 1.
 
