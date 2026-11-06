@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 7:14 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
+Updated Fri Nov 6, 7:23 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
 
 Record: 31 won, 21 lost, 5 sold early. Realized P&L $+20.32. Open: 2.
 
@@ -219,6 +219,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Hamburger SV vs. Borussia Mönchengladbach - More Markets · starts Fri Nov 6, 7:30 PM
 
+- Fri Nov 6, 7:23 PM (verify): Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5: 15-min check: still passes (2 wallets, $6.3k for vs $0 against); holding
 - Fri Nov 6, 7:14 PM (pregame): Hamburger SV vs. Borussia Mönchengladbach: Hamburger SV O/U 2.5: all vetted wallets left Over
 - Fri Nov 6, 7:14 PM (pregame): Hamburger SV vs. Borussia Mönchengladbach: O/U 5.5: first seen: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
 - Fri Nov 6, 7:14 PM (pregame): Hamburger SV vs. Borussia Mönchengladbach: O/U 3.5: Kalshi 67¢ → 66¢
