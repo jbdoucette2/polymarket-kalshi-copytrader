@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-06T09:13:44Z",
+  "updated": "2026-11-06T10:11:27Z",
   "games": [
     {
       "event_slug": "wta-montgom-revathi-2026-11-05",
       "game": "Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi",
-      "start": "2026-11-06T11:00:00Z",
-      "check_at": "2026-11-06T10:45:00Z",
+      "start": "2026-11-06T11:10:00Z",
+      "check_at": "2026-11-06T10:55:00Z",
       "passing": 0,
       "near": 1,
       "best": "Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi → Robin Montgomery ($4.8k, 1 wallets)",
@@ -14,12 +14,22 @@
     {
       "event_slug": "wta-ruzic-eala-2026-11-06",
       "game": "Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala",
-      "start": "2026-11-06T12:00:00Z",
-      "check_at": "2026-11-06T11:45:00Z",
+      "start": "2026-11-06T12:10:00Z",
+      "check_at": "2026-11-06T11:55:00Z",
       "passing": 0,
       "near": 1,
       "best": "Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala ($739, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-feldbau-nagal-2026-11-06",
+      "game": "Taranto: Kilian Feldbausch vs Sumit Nagal",
+      "start": "2026-11-06T12:40:00Z",
+      "check_at": "2026-11-06T12:25:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal ($80, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-shelton-paul-2026-11-06",
@@ -30,6 +40,26 @@
       "near": 1,
       "best": "Rolex Paris Masters: Ben Shelton vs Tommy Paul → Tommy Paul ($5.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "ere-wii-zwo-2026-11-06-more-markets",
+      "game": "Willem II Tilburg vs. PEC Zwolle - More Markets",
+      "start": "2026-11-06T19:00:00Z",
+      "check_at": "2026-11-06T18:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under ($1, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bun-hsv-moe-2026-11-06-more-markets",
+      "game": "Hamburger SV vs. Borussia Mönchengladbach - More Markets",
+      "start": "2026-11-06T19:30:00Z",
+      "check_at": "2026-11-06T19:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5 → Under ($2.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "sea-ven-udi-2026-11-06-more-markets",
@@ -52,6 +82,26 @@
       "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "lal-sev-ala-2026-11-06-more-markets",
+      "game": "Sevilla FC vs. Deportivo Alavés - More Markets",
+      "start": "2026-11-06T20:00:00Z",
+      "check_at": "2026-11-06T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Sevilla FC vs. Deportivo Alavés: O/U 2.5 → Under ($1.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "epl-eve-cov-2026-11-06-more-markets",
+      "game": "Everton FC vs. Coventry City FC - More Markets",
+      "start": "2026-11-06T20:00:00Z",
+      "check_at": "2026-11-06T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Everton FC vs. Coventry City FC: O/U 0.5 → Over ($667, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "lal-sev-ala-2026-11-06",
       "game": "Sevilla FC vs. Deportivo Alavés",
       "start": "2026-11-06T20:00:00Z",
@@ -60,26 +110,6 @@
       "near": 1,
       "best": "Will Sevilla FC win on 2026-11-06? → No ($185, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "lal-sev-ala-2026-11-06-more-markets",
-      "game": "Sevilla FC vs. Deportivo Alavés - More Markets",
-      "start": "2026-11-06T20:00:00Z",
-      "check_at": "2026-11-06T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Sevilla FC (-1.5) → Deportivo Alavés ($104, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "epl-eve-cov-2026-11-06-more-markets",
-      "game": "Everton FC vs. Coventry City FC - More Markets",
-      "start": "2026-11-06T20:00:00Z",
-      "check_at": "2026-11-06T19:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Everton FC vs. Coventry City FC: O/U 5.5 → Over ($104, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "por-fam-aro-2026-11-06-more-markets",
@@ -110,16 +140,6 @@
       "near": 2,
       "best": "76ers vs. Cavaliers → Cavaliers ($357, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $357 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-sfl-ecar-2026-11-06",
-      "game": "South Florida vs. East Carolina",
-      "start": "2026-11-07T00:30:00Z",
-      "check_at": "2026-11-07T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: East Carolina (-2.5) → South Florida ($23, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-okc-mem-2026-11-06",
