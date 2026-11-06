@@ -1,46 +1,6 @@
 {
-  "updated": "2026-11-06T04:14:25Z",
+  "updated": "2026-11-06T05:14:20Z",
   "games": [
-    {
-      "event_slug": "aus-syd-ccm-2026-11-06-more-markets",
-      "game": "Sydney FC vs. Central Coast Mariners FC - More Markets",
-      "start": "2026-11-06T08:40:00Z",
-      "check_at": "2026-11-06T08:25:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under ($254, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "ere-wii-zwo-2026-11-06-more-markets",
-      "game": "Willem II Tilburg vs. PEC Zwolle - More Markets",
-      "start": "2026-11-06T19:00:00Z",
-      "check_at": "2026-11-06T18:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under ($273, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "sea-ven-udi-2026-11-06-more-markets",
-      "game": "Venezia FC vs. Udinese Calcio - More Markets",
-      "start": "2026-11-06T19:45:00Z",
-      "check_at": "2026-11-06T19:30:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Venezia FC (-1.5) → Udinese Calcio ($52, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "fl1-tou-str-2026-11-06-more-markets",
-      "game": "Toulouse FC vs. RC Strasbourg Alsace - More Markets",
-      "start": "2026-11-06T19:45:00Z",
-      "check_at": "2026-11-06T19:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Toulouse FC (-2.5) → Toulouse FC ($35, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "lal-sev-ala-2026-11-06",
       "game": "Sevilla FC vs. Deportivo Alavés",
@@ -52,44 +12,34 @@
       "status": "fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "lal-sev-ala-2026-11-06-more-markets",
-      "game": "Sevilla FC vs. Deportivo Alavés - More Markets",
-      "start": "2026-11-06T20:00:00Z",
-      "check_at": "2026-11-06T19:45:00Z",
+      "event_slug": "nba-phi-cle-2026-11-06",
+      "game": "76ers vs. Cavaliers",
+      "start": "2026-11-07T00:30:00Z",
+      "check_at": "2026-11-07T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Sevilla FC (-1.5) → Deportivo Alavés ($105, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "76ers vs. Cavaliers → Cavaliers ($37, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "epl-eve-cov-2026-11-06-more-markets",
-      "game": "Everton FC vs. Coventry City FC - More Markets",
-      "start": "2026-11-06T20:00:00Z",
-      "check_at": "2026-11-06T19:45:00Z",
+      "event_slug": "nba-tor-mil-2026-11-06",
+      "game": "Raptors vs. Bucks",
+      "start": "2026-11-07T01:00:00Z",
+      "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Everton FC vs. Coventry City FC: O/U 5.5 → Over ($112, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raptors vs. Bucks → Bucks ($546, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "por-fam-aro-2026-11-06-more-markets",
-      "game": "FC Famalicão vs. FC Arouca - More Markets",
-      "start": "2026-11-06T20:45:00Z",
-      "check_at": "2026-11-06T20:30:00Z",
+      "event_slug": "mex-asl-jua-2026-11-06",
+      "game": "Atlético San Luis vs. FC Juárez",
+      "start": "2026-11-07T01:00:00Z",
+      "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "FC Famalicão vs. FC Arouca: O/U 2.5 → Over ($82, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-vtech-smu-2026-11-06",
-      "game": "Virginia Tech vs. SMU",
-      "start": "2026-11-07T00:00:00Z",
-      "check_at": "2026-11-06T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: SMU (-6.5) → SMU ($21, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Juárez win on 2026-11-06? → No ($275, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-uta-dal-2026-11-06",
@@ -102,24 +52,14 @@
       "status": "fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "mex-asl-jua-2026-11-06",
-      "game": "Atlético San Luis vs. FC Juárez",
-      "start": "2026-11-07T01:00:00Z",
-      "check_at": "2026-11-07T00:45:00Z",
+      "event_slug": "nba-por-lal-2026-11-06",
+      "game": "Trail Blazers vs. Lakers",
+      "start": "2026-11-07T03:00:00Z",
+      "check_at": "2026-11-07T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will FC Juárez win on 2026-11-06? → No ($268, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-nebr-ill-2026-11-06",
-      "game": "Nebraska vs. Illinois",
-      "start": "2026-11-07T01:00:00Z",
-      "check_at": "2026-11-07T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Nebraska vs. Illinois: O/U 49.5 → Under ($252, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Trail Blazers vs. Lakers → Lakers ($289, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
