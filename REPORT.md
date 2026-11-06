@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 4:22 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
+Updated Fri Nov 6, 4:38 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
 
 Record: 28 won, 21 lost, 5 sold early. Realized P&L $-6.37. Open: 2.
 
@@ -3744,21 +3744,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 12:11 AM | hourly | M15 Maanshan: Ye Hongyu vs Xirui Han → Xirui Han | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | M15 Maanshan: Ye Hongyu vs Xirui Han → Xirui Han | omnibus-076daa $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Counter-Strike: Heroic vs Team Falcons (BO3) - IEM Beijing Group A · starts Wed Nov 4, 4:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): Counter-Strike: Heroic vs Team Falcons - Map 1 Winner: all vetted wallets left Team Falcons
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Counter-Strike: Heroic vs Team Falcons - Map 1 Winner → Team Falcons | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Taipei: Yuta Shimizu vs August Holmgren · starts Wed Nov 4, 9:30 AM
 
 - Wed Nov 4, 1:11 AM (hourly): Taipei: Yuta Shimizu vs August Holmgren: all vetted wallets left August Holmgren
@@ -3874,26 +3859,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 6:13 PM | hourly | Rolex Paris Masters: Mattia Bellucci vs Arthur Rinderknech → Mattia Bellucci | omnibus-076daa $72 | $13 | — | fails: only 1 vetted wallet; opposition 18%; no Kalshi game found |
 | Tue Nov 3, 4:12 PM | hourly | Rolex Paris Masters: Mattia Bellucci vs Arthur Rinderknech → Mattia Bellucci | omnibus-076daa $73 | $12 | — | fails: only 1 vetted wallet; opposition 17%; no Kalshi game found |
 | Tue Nov 3, 3:16 PM | hourly | Rolex Paris Masters: Mattia Bellucci vs Arthur Rinderknech → Mattia Bellucci | omnibus-076daa $73 | $12 | — | fails: only 1 vetted wallet; opposition 17%; no Kalshi game found |
-
-### Counter-Strike: Natus Vincere vs B8 (BO3) - IEM Beijing Group A · starts Wed Nov 4, 4:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): Counter-Strike: Natus Vincere vs B8 - Map 1 Winner: all vetted wallets left B8
-- Wed Nov 4, 1:11 AM (hourly): Map Handicap: NAVI (-1.5) vs B8 (+1.5): all vetted wallets left Natus Vincere
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 1:11 AM | hourly | Map Handicap: NAVI (-1.5) vs B8 (+1.5) → Natus Vincere | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 12:11 AM | hourly | Map Handicap: NAVI (-1.5) vs B8 (+1.5) → Natus Vincere | omnibus-076daa $5.3k | $0 | — | fails: only 1 vetted wallet with $5.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Map Handicap: NAVI (-1.5) vs B8 (+1.5) → Natus Vincere | omnibus-076daa $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Map Handicap: NAVI (-1.5) vs B8 (+1.5) → Natus Vincere | omnibus-076daa $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $21 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $21 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Counter-Strike: Natus Vincere vs B8 - Map 1 Winner → B8 | omnibus-076daa $20 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### KHL: Admiral Vladivostok vs. SKA St. Petersburg · starts Wed Nov 4, 7:00 AM
 
