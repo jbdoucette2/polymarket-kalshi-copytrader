@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:11:21Z",
+  "updated": "2026-11-06T04:14:25Z",
   "games": [
     {
       "event_slug": "aus-syd-ccm-2026-11-06-more-markets",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-06T18:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under ($272, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under ($273, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "sea-ven-udi-2026-11-06-more-markets",
@@ -90,16 +90,6 @@
       "near": 1,
       "best": "Spread: SMU (-6.5) → SMU ($21, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-sfl-ecar-2026-11-06",
-      "game": "South Florida vs. East Carolina",
-      "start": "2026-11-07T00:30:00Z",
-      "check_at": "2026-11-07T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: East Carolina (-2.5) → South Florida ($23, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-uta-dal-2026-11-06",
