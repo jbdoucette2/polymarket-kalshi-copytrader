@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 10:23 PM. Bankroll **$121.02** (start $100): $111.28 cash + open trades at cost.
+Updated Fri Nov 6, 10:37 PM. Bankroll **$121.02** (start $100): $111.28 cash + open trades at cost.
 
 Record: 32 won, 22 lost, 5 sold early. Realized P&L $+21.02. Open: 1.
 
@@ -5801,24 +5801,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 5:11 AM | hourly | Spread: Kraken (-1.5) → Flames | HomeRunHazard $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 4, 4:13 AM | hourly | Spread: Kraken (-1.5) → Flames | HomeRunHazard $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 4, 3:11 AM | hourly | Spread: Kraken (-1.5) → Flames | HomeRunHazard $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### CA Paranaense vs. CR Vasco da Gama · starts Wed Nov 4, 10:30 PM
-
-- Wed Nov 4, 10:12 PM (pregame): Will CA Paranaense win on 2026-11-04?: back: 1 vetted on No ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Wed Nov 4, 10:12 PM (pregame): Will CR Vasco da Gama win on 2026-11-04?: back: 2 vetted on No ($3.4k), fails: only 2 vetted wallets with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Wed Nov 4, 1:11 AM (hourly): Will CR Vasco da Gama win on 2026-11-04?: all vetted wallets left Yes
-- Wed Nov 4, 1:11 AM (hourly): Will CA Paranaense win on 2026-11-04?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 10:12 PM | pregame | Will CA Paranaense win on 2026-11-04? → No | SnakeBall $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 10:12 PM | pregame | Will CR Vasco da Gama win on 2026-11-04? → No | RN1 $3.3k, tradecraft $33 | $0 | — | fails: only 2 vetted wallets with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 1:11 AM | hourly | Will CR Vasco da Gama win on 2026-11-04? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 1:11 AM | hourly | Will CA Paranaense win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Will CA Paranaense win on 2026-11-04? → No | omnibus-076daa $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 12:11 AM | hourly | Will CR Vasco da Gama win on 2026-11-04? → Yes | omnibus-076daa $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Will CA Paranaense win on 2026-11-04? → No | omnibus-076daa $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Will CR Vasco da Gama win on 2026-11-04? → Yes | omnibus-076daa $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 
 ## Time-out
