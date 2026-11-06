@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 1:22 AM. Bankroll **$93.63** (start $100): $83.57 cash + open trades at cost.
+Updated Fri Nov 6, 1:38 AM. Bankroll **$93.63** (start $100): $83.57 cash + open trades at cost.
 
 Record: 28 won, 21 lost, 5 sold early. Realized P&L $-6.37. Open: 1.
 
@@ -5371,22 +5371,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 10:14 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 9:17 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Real Cartagena FC vs. Deportes Quindio · starts Wed Nov 4, 1:30 AM
-
-- Tue Nov 3, 10:14 PM (hourly): Will Real Cartagena FC win on 2026-11-03?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 10:14 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 9:17 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Will Real Cartagena FC win on 2026-11-03? → Yes | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### FC Seoul vs. The Cong - Viettel FC · starts Wed Nov 4, 10:00 AM
 
