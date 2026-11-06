@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 12:14 AM. Bankroll **$93.63** (start $100): $83.57 cash + open trades at cost.
+Updated Fri Nov 6, 12:53 AM. Bankroll **$93.63** (start $100): $83.57 cash + open trades at cost.
 
 Record: 28 won, 21 lost, 5 sold early. Realized P&L $-6.37. Open: 1.
 
@@ -101,6 +101,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### James Madison vs. Southern Miss · starts Fri Nov 6, 1:00 AM
 
+- Fri Nov 6, 12:53 AM (verify): James Madison vs. Southern Miss: O/U 59.5: 15-min check: still passes (3 wallets, $1.2k for vs $0 against); holding
 - Fri Nov 6, 12:14 AM (pregame): Spread: James Madison (-13.5): all vetted wallets left James Madison
 - Fri Nov 6, 12:14 AM (pregame): James Madison vs. Southern Miss: O/U 55.5: Kalshi 54¢ → 55¢
 - Fri Nov 6, 12:14 AM (pregame): Spread: James Madison (-16.5): first seen: 1 vetted on James Madison ($445), fails: only 1 vetted wallet with $445 (needs 3+ wallets, or 2 with $5.0k+)
@@ -4370,148 +4371,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: PSV 3 - 2 Club Brugge KV? → No | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet; Polymarket price 95¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: PSV 1 - 4 Club Brugge KV? → No | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; market type not supported |
 
-### SC Internacional vs. Coritiba FBC - More Markets · starts Wed Nov 4, 12:30 AM
-
-- Wed Nov 4, 12:11 AM (pregame): SC Internacional vs. Coritiba FBC: O/U 3.5: all vetted wallets left Over
-- Wed Nov 4, 12:11 AM (pregame): SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5: all vetted wallets left Over
-- Wed Nov 4, 12:11 AM (pregame): SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): SC Internacional vs. Coritiba FBC: Both Teams to Score: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Spread: SC Internacional (-1.5): all vetted wallets left Coritiba FBC
-- Tue Nov 3, 11:12 PM (hourly): SC Internacional vs. Coritiba FBC: O/U 4.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): SC Internacional vs. Coritiba FBC: O/U 0.5: all vetted wallets left Over
-- Tue Nov 3, 3:16 PM (hourly): SC Internacional vs. Coritiba FBC: O/U 3.5: back: 1 vetted on Over ($32), fails: only 1 vetted wallet; no Kalshi game found
-- Tue Nov 3, 8:16 AM (hourly): SC Internacional vs. Coritiba FBC: O/U 3.5: all vetted wallets left Over
-- Tue Nov 3, 5:12 AM (hourly): SC Internacional vs. Coritiba FBC: O/U 2.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | pregame | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $154 | $0 | — | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $446 | $0 | — | fails: only 1 vetted wallet with $446 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 0.5 → Over | Flaznorp $600 | $0 | — | fails: only 1 vetted wallet with $600 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $159 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $450 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $166 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $164 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $453 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $168 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $154 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $164 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $320 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $164 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $164 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $164 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $163 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $168 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $167 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 8:16 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $166 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $175 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $175 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $170 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 2.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: SC Internacional O/U 1.5 → Over | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $175 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 3.5 → Over | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 2.5 → Under | omnibus-076daa $1.1k | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | SC Internacional vs. Coritiba FBC: O/U 4.5 → Over | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | Spread: SC Internacional (-1.5) → Coritiba FBC | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | SC Internacional vs. Coritiba FBC: Coritiba FBC O/U 1.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:22 AM | hourly | SC Internacional vs. Coritiba FBC: Both Teams to Score → No | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### Racing Club de Lens vs. Como 1907 - More Markets · starts Wed Nov 4, 8:00 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Racing Club de Lens vs. Como 1907: Both Teams to Score: all vetted wallets left No
@@ -4611,17 +4470,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 7:17 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | Flaznorp $51, SnakeBall $48 | $0 | — | fails: market type not supported |
 | Tue Nov 3, 6:13 PM | hourly | Exact Score: AEK 1 - 5 Real Madrid CF? → No | SnakeBall $86 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 6:13 PM | hourly | Exact Score: AEK 0 - 3 Real Madrid CF? → No | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet; market type not supported |
-
-### Sam Houston Bearkats vs. Alabama Crimson Tide · starts Wed Nov 4, 12:30 AM
-
-- Wed Nov 4, 12:11 AM (pregame): Sam Houston Bearkats vs. Alabama Crimson Tide: all vetted wallets left Alabama Crimson Tide
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | pregame | Sam Houston Bearkats vs. Alabama Crimson Tide → Alabama Crimson Tide | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Sam Houston Bearkats vs. Alabama Crimson Tide → Alabama Crimson Tide | SnakeBall $94 | $0 | 99¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
-| Tue Nov 3, 10:14 PM | hourly | Sam Houston Bearkats vs. Alabama Crimson Tide → Alabama Crimson Tide | SnakeBall $94 | $0 | 99¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
-| Tue Nov 3, 9:17 PM | hourly | Sam Houston Bearkats vs. Alabama Crimson Tide → Alabama Crimson Tide | SnakeBall $94 | $0 | 99¢ YES | fails: only 1 vetted wallet; Polymarket price 98¢ outside 5–95¢ |
 
 ### Fenerbahçe SK vs. Liverpool FC - More Markets · starts Wed Nov 4, 5:45 PM
 
@@ -4744,47 +4592,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: 1st Half O/U 4.5 → Under | Flaznorp $400 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 7.5 → Under | Flaznorp $487 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 6:13 PM | hourly | Fenerbahçe SK vs. Liverpool FC: O/U 8.5 → Under | Flaznorp $745 | $0 | — | fails: only 1 vetted wallet; Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-
-### SC Internacional vs. Coritiba FBC - Exact Score · starts Wed Nov 4, 12:30 AM
-
-- Wed Nov 4, 12:11 AM (pregame): Exact Score: SC Internacional 0 - 2 Coritiba FBC?: all vetted wallets left Yes
-- Wed Nov 4, 12:11 AM (pregame): Exact Score: SC Internacional 1 - 2 Coritiba FBC?: all vetted wallets left No
-- Wed Nov 4, 12:11 AM (pregame): Exact Score: SC Internacional 1 - 3 Coritiba FBC?: all vetted wallets left Yes
-- Wed Nov 4, 12:11 AM (pregame): Exact Score: SC Internacional 0 - 1 Coritiba FBC?: all vetted wallets left Yes
-- Wed Nov 4, 12:11 AM (pregame): Exact Score: SC Internacional 0 - 3 Coritiba FBC?: all vetted wallets left Yes
-- Tue Nov 3, 11:12 PM (hourly): Exact Score: SC Internacional 0 - 0 Coritiba FBC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | pregame | Exact Score: SC Internacional 0 - 2 Coritiba FBC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | Exact Score: SC Internacional 1 - 2 Coritiba FBC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | Exact Score: SC Internacional 1 - 3 Coritiba FBC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | Exact Score: SC Internacional 0 - 1 Coritiba FBC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | pregame | Exact Score: SC Internacional 0 - 3 Coritiba FBC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 0 - 3 Coritiba FBC? → Yes | SnakeBall $0 | $0 | — | fails: only 1 vetted wallet with $0 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 1 - 3 Coritiba FBC? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 0 - 2 Coritiba FBC? → Yes | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 1 - 2 Coritiba FBC? → No | SnakeBall $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: SC Internacional 0 - 1 Coritiba FBC? → Yes | SnakeBall $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: SC Internacional 0 - 2 Coritiba FBC? → Yes | SnakeBall $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: SC Internacional 0 - 1 Coritiba FBC? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 12:17 PM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 11:15 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 10:12 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:12 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:16 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:12 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 5:12 AM | hourly | Exact Score: SC Internacional 0 - 0 Coritiba FBC? → No | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet; Polymarket price 95¢ outside 5–95¢; no Kalshi game found |
 
 ### KV Kortrijk vs. Yellow-Red KV Mechelen - Exact Score · starts Wed Nov 4, 7:30 PM
 
@@ -5020,15 +4827,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:12 PM | hourly | Exact Score: Viking FK 4 - 2 Sabah FK? → No | SnakeBall $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Tue Nov 3, 10:14 PM | hourly | Exact Score: Viking FK 4 - 2 Sabah FK? → No | SnakeBall $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
 
-### SC Internacional vs. Coritiba FBC · starts Wed Nov 4, 12:30 AM
-
-- Wed Nov 4, 12:11 AM (pregame): Will Coritiba FBC win on 2026-11-03?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | pregame | Will Coritiba FBC win on 2026-11-03? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will Coritiba FBC win on 2026-11-03? → No | SnakeBall $576 | $0 | — | fails: only 1 vetted wallet with $576 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### BV Borussia 09 Dortmund vs. Real Betis Balompié - Total Corners · starts Wed Nov 4, 8:00 PM
 
 - Wed Nov 4, 12:11 AM (hourly): BV Borussia 09 Dortmund vs. Real Betis Balompié: BV Borussia 09 Dortmund O/U 5.5 Corners: all vetted wallets left Under
@@ -5198,70 +4996,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 4:22 AM | hourly | Buffalo vs. Miami (OH): O/U 45.5 → Under | SnakeBall $159 | $0 | 54¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Spread: Miami (OH) (-6.5) → Buffalo | SnakeBall $179 | $0 | 51¢ NO | fails: only 1 vetted wallet |
 | Tue Nov 3, 4:22 AM | hourly | Buffalo vs. Miami (OH) → Miami (OH) | HomeRunHazard $672 | $46 | 69¢ YES | fails: only 1 vetted wallet |
-
-### Oilers vs. Devils · starts Wed Nov 4, 12:30 AM
-
-- Wed Nov 4, 12:11 AM (pregame): Oilers vs. Devils: O/U 6.5: Kalshi 55¢ → 56¢
-- Wed Nov 4, 12:11 AM (pregame): Oilers vs. Devils: O/U 6.5: SnakeBall left
-- Tue Nov 3, 11:12 PM (hourly): Oilers vs. Devils: O/U 6.5: Kalshi 56¢ → 55¢
-- Tue Nov 3, 11:12 PM (hourly): Oilers vs. Devils: O/U 6.5: SnakeBall joined Under (+$368)
-- Tue Nov 3, 10:14 PM (hourly): Oilers vs. Devils: O/U 4.5: Kalshi 79¢ → 80¢
-- Tue Nov 3, 9:17 PM (hourly): Oilers vs. Devils: O/U 6.5: Kalshi 57¢ → 56¢
-- Tue Nov 3, 9:17 PM (hourly): Oilers vs. Devils: O/U 4.5: Kalshi 80¢ → 79¢
-- Tue Nov 3, 8:14 PM (hourly): Oilers vs. Devils: Kalshi 42¢ → 41¢
-- Tue Nov 3, 8:14 PM (hourly): Oilers vs. Devils: O/U 6.5: first seen: 1 vetted on Under ($14), fails: only 1 vetted wallet
-- Tue Nov 3, 7:17 PM (hourly): Oilers vs. Devils: O/U 4.5: Kalshi 79¢ → 80¢
-- Tue Nov 3, 6:13 PM (hourly): Spread: Devils (-1.5): first seen: 1 vetted on Devils ($14), fails: only 1 vetted wallet
-- Tue Nov 3, 6:13 PM (hourly): Oilers vs. Devils: O/U 4.5: Kalshi 80¢ → 79¢
-- Tue Nov 3, 10:12 AM (hourly): Oilers vs. Devils: O/U 4.5: first seen: 1 vetted on Over ($36), fails: only 1 vetted wallet
-- Tue Nov 3, 4:22 AM (hourly): Oilers vs. Devils: first seen: 1 vetted on Oilers ($91), fails: only 1 vetted wallet
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | pregame | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 41¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 12:11 AM | pregame | Spread: Devils (-1.5) → Devils | HomeRunHazard $37 | $0 | 37¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 12:11 AM | pregame | Oilers vs. Devils: O/U 6.5 → Under | HomeRunHazard $44 | $0 | 56¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 12:11 AM | pregame | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $346 | $0 | 80¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 41¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $37 | $0 | 37¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Oilers vs. Devils: O/U 6.5 → Under | SnakeBall $368, HomeRunHazard $44 | $0 | 55¢ NO | fails: only 2 vetted wallets with $412 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 11:12 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $348 | $0 | 80¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 41¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $37 | $0 | 37¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Oilers vs. Devils: O/U 6.5 → Under | HomeRunHazard $45 | $0 | 56¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 10:14 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $343 | $0 | 80¢ YES | fails: only 1 vetted wallet with $343 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 3, 9:17 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 41¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $37 | $0 | 37¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:17 PM | hourly | Oilers vs. Devils: O/U 6.5 → Under | HomeRunHazard $45 | $0 | 56¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:17 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $343 | $0 | 79¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 41¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Oilers vs. Devils: O/U 6.5 → Under | HomeRunHazard $14 | $0 | 57¢ NO | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $37 | $0 | 37¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:14 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $343 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 7:17 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $14 | $0 | 37¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 7:17 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $343 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 6:13 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Devils (-1.5) → Devils | HomeRunHazard $14 | $0 | 37¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 6:13 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $343 | $0 | 79¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:12 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:12 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $346 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 3:16 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 3:16 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $348 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 1:16 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 1:16 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $36 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 12:17 PM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 12:17 PM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $36 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 11:15 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 11:15 AM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $36 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 10:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 10:12 AM | hourly | Oilers vs. Devils: O/U 4.5 → Over | HomeRunHazard $36 | $0 | 80¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 9:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 8:16 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 7:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 6:13 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 5:12 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
-| Tue Nov 3, 4:22 AM | hourly | Oilers vs. Devils → Oilers | omnibus-076daa $91 | $0 | 42¢ YES | fails: only 1 vetted wallet |
 
 ### South Dakota State Jackrabbits vs. Kansas State Wildcats · starts Wed Nov 4, 1:00 AM
 
