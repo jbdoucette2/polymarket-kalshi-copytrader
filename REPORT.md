@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 5:22 AM. Bankroll **$105.57** (start $100): $95.35 cash + open trades at cost.
+Updated Fri Nov 6, 5:37 AM. Bankroll **$105.57** (start $100): $95.35 cash + open trades at cost.
 
 Record: 29 won, 21 lost, 5 sold early. Realized P&L $+5.57. Open: 1.
 
@@ -3775,16 +3775,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 11:12 PM | hourly | Will CA Paranaense win on 2026-11-04? → No | omnibus-076daa $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | Will CR Vasco da Gama win on 2026-11-04? → Yes | omnibus-076daa $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### M15 Maanshan: Ye Hongyu vs Xirui Han · starts Wed Nov 4, 5:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): M15 Maanshan: Ye Hongyu vs Xirui Han: all vetted wallets left Xirui Han
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | M15 Maanshan: Ye Hongyu vs Xirui Han → Xirui Han | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | M15 Maanshan: Ye Hongyu vs Xirui Han → Xirui Han | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | M15 Maanshan: Ye Hongyu vs Xirui Han → Xirui Han | omnibus-076daa $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Taipei: Yuta Shimizu vs August Holmgren · starts Wed Nov 4, 9:30 AM
 
 - Wed Nov 4, 1:11 AM (hourly): Taipei: Yuta Shimizu vs August Holmgren: all vetted wallets left August Holmgren
@@ -4031,22 +4021,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 1:11 AM | hourly | Libertad Asuncion vs. Cerro Porteno: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 12:11 AM | hourly | Libertad Asuncion vs. Cerro Porteno: O/U 3.5 → Over | omnibus-076daa $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | Libertad Asuncion vs. Cerro Porteno: O/U 3.5 → Over | omnibus-076daa $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### M15 Maanshan: Lingxi Zhao vs James Connel · starts Wed Nov 4, 5:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): M15 Maanshan: Lingxi Zhao vs James Connel: all vetted wallets left Lingxi Zhao
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $28 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | M15 Maanshan: Lingxi Zhao vs James Connel → Lingxi Zhao | omnibus-076daa $29 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Rolex Paris Masters: Matteo Berrettini vs Ugo Humbert · starts Wed Nov 4, 4:00 PM
 
