@@ -13,8 +13,11 @@ Rules (match the manual sim):
 
 Markets matched to Kalshi: moneylines, soccer win/draw, game totals (O/U), spreads,
 for NBA, NFL, NHL, college football and basketball, ~50 soccer leagues and cups, Euroleague and ATP/WTA tennis.
-Team names are matched with accents stripped, a few aliases (Praha -> Prague), Kalshi's team codes
-(VDG = Vasco da Gama) and kickoff time; totals and spreads are also found by title when Kalshi has no game market.
+Other leagues are found by matching Polymarket's league tag to Kalshi's series titles ("Sweden Allsvenskan"
+-> KXALLSVENSKANGAME). Team names are matched with accents stripped, word by word ("Uni Craiova"), a few
+aliases (Praha -> Prague), Kalshi's team codes (VDG = Vasco da Gama), kickoff time and matching prices;
+totals and spreads are also found by title or the league's sibling series.
+`python copysim.py audit-matching` lists games our wallets hold that found no Kalshi match.
 
 Entries happen only in the pre-game check, 5 to 25 minutes before the start (PREGAME_WINDOW).
 
@@ -334,20 +337,22 @@ def pm_teams(ev):
 # Polymarket name -> Kalshi name, applied to whole words after accents and punctuation are stripped
 NAME_ALIASES = {"praha": "prague", "independ": "independiente", "munchen": "munich", "koln": "cologne",
                 "kobenhavn": "copenhagen", "az": "alkmaar", "sport lisboa e benfica": "benfica",
-                "saint gilloise": "gilloise", "sporting cp": "sporting", "internazionale": "inter", "olympique": ""}
+                "saint gilloise": "gilloise", "real racing club": "santander", "racing santander": "santander",
+                "nec": "nijmegen", "m gladbach": "monchengladbach", "sporting cp": "sporting", "internazionale": "inter", "olympique": ""}
 # Polymarket slug team code -> Kalshi ticker code, where the two sites differ (checked Nov 2026)
 CODE_ALIASES = {"nfl": {"JAX": "JAC", "LA": "LAR"},
                 "nhl": {"UTAH": "UTA", "MON": "MTL", "LAS": "VGK", "CAL": "CGY", "LAK": "LA"}}
 CLUB_WORDS = ("fc|cf|ac|afc|sc|cd|ud|us|ss|ssc|calcio|club|de|the|sk|kks|gnk|nk|pfk|fk|ao|rc|ru|vv|if|bk|sv|as|sl")
 
 def norm(s):
-    s = (s or "").translate(str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "AE", "ß": "ss", "đ": "d", "ł": "l", "Ł": "L"}))
+    s = (s or "").translate(str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "AE", "ß": "ss", "đ": "d", "ł": "l", "Ł": "L", "·": " "}))
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()   # Fenerbahçe -> Fenerbahce
     s = s.lower().replace("&", "and").replace("st.", "state").replace("'", "")
     s = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
     for a, b in NAME_ALIASES.items():
         s = re.sub(rf"\b{a}\b", b, s)
     s = re.sub(rf"\b({CLUB_WORDS})\b", " ", s)
+    s = s.replace("oe", "o").replace("ae", "a").replace("ue", "u")   # Tromsoe = Tromso, Mueller = Muller
     return re.sub(r"\s+", " ", s).strip()
 
 def name_sim(pm_name, k_name):
@@ -356,6 +361,16 @@ def name_sim(pm_name, k_name):
         return 0
     if a == b or a.startswith(b + " ") or b.startswith(a + " ") or b in a.split(" ") or a in b.split(" "):
         return 1.0
+    # word by word: every word of the shorter name is in the longer one, or abbreviates one
+    # ("CFR 1907 Cluj" ~ "CFR Cluj", "Universitatea Craiova" ~ "Uni Craiova")
+    if " " not in a and " " not in b and min(len(a), len(b)) >= 5 and (a.startswith(b) or b.startswith(a)):
+        return 0.9                                                   # "Hamburger" ~ "Hamburg"
+    ta, tb = [w for w in a.split(" ") if not w.isdigit()], [w for w in b.split(" ") if not w.isdigit()]
+    for short, long_ in ((ta, tb), (tb, ta)):
+        if 2 <= len(short) <= len(long_) and all(
+                any(w == x or ((len(w) >= 3 or i > 0) and x.startswith(w)) or (len(x) >= 3 and w.startswith(x)) for x in long_)
+                for i, w in enumerate(short)):                        # "Fagiano O" ~ "Fagiano Okayama"
+            return 0.92
     return difflib.SequenceMatcher(None, a, b).ratio()
 
 def abbr_match(pm_name, abbr):
@@ -400,6 +415,62 @@ def k_events(series):
         _k_cache[series] = out
     return _k_cache[series]
 
+# ---- league routing: Polymarket's league label -> Kalshi series with a similar title ----
+GENERIC_TAGS = {"sports", "games", "soccer", "tennis", "esports", "basketball", "football", "hockey", "baseball"}
+_k_series = []
+def k_sports_series():
+    """Kalshi's sports series (ticker, title), fetched once per process."""
+    if not _k_series:
+        r = get(f"{KAL}/series", category="Sports") or {}
+        _k_series.extend((x["ticker"], x.get("title") or "") for x in r.get("series", []))
+    return _k_series
+
+LOW_TOKENS = {"league", "liga", "cup", "super", "superliga", "premier", "division", "serie", "national", "pro", "1"}
+def _league_tokens(text):
+    t = (text or "").lower().replace("-", " ")
+    t = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode()))
+    return {LEAGUE_SYNONYMS.get(w, w) for w in t.split(" ") if w and w not in ("game", "match", "games", "de", "the", "of")}
+
+def _tok_in(a, toks):
+    return any(a == b or (len(a) >= 4 and len(b) >= 4 and (a in b or b in a)) for b in toks)
+
+# Polymarket slug prefix -> league words, where its label alone is ambiguous ("Prva Liga")
+SLUG_LEAGUE_HINTS = {"hr1": "Croatia HNL", "bra2": "Brasileiro Serie B", "bra": "Brasileiro"}
+LEAGUE_SYNONYMS = {"brazil": "brasileiro", "brasil": "brasileiro"}
+
+def league_series(ev, limit=6):
+    """Kalshi game series whose title fits this event's league tag, e.g. "Sweden Allsvenskan" -> KXALLSVENSKANGAME."""
+    labels = [t.get("label") or "" for t in ev.get("tags") or [] if (t.get("label") or "").lower() not in GENERIC_TAGS]
+    labels += [x.get("title") or "" for x in ev.get("series") or []]
+    hint = SLUG_LEAGUE_HINTS.get((ev.get("slug") or "").split("-")[0])
+    if hint:
+        labels.insert(0, hint)
+    scored = {}
+    for lab in labels:
+        lt = _league_tokens(re.sub(r"20\d\d", "", lab))
+        if not lt:
+            continue
+        for tk, title in k_sports_series():
+            if not re.search(r"(GAME|MATCH)$", tk) or re.search(r"\d[HQP]GAME$|EXACT|SERIES|ALLSTAR|CELEB", tk):
+                continue
+            kt = _league_tokens(title)
+            if not kt:
+                continue
+            def fit(xs, ys):   # share of xs found in ys, ignoring filler words like "league" when there are others
+                key = [x for x in xs if x not in LOW_TOKENS] or list(xs)
+                return sum(_tok_in(x, ys) for x in key) / len(key)
+            sc = max(fit(lt, kt), fit(kt, lt))
+            if sc >= 0.6:
+                full = max(sum(_tok_in(a, kt) for a in lt) / len(lt), sum(_tok_in(b, lt) for b in kt) / len(kt))
+                scored[tk] = max(scored.get(tk, (0, 0)), (sc, full))
+    return [tk for tk, _ in sorted(scored.items(), key=lambda x: x[1], reverse=True)[:limit]]
+
+def sibling_series(game_ev, kind):
+    """KXFOOGAME -> KXFOOTOTAL / KXFOOSPREAD, when Kalshi has it."""
+    st = game_ev.get("series_ticker") or game_ev["event_ticker"].split("-")[0]
+    sib = re.sub(r"(GAME|MATCH)$", kind, st)
+    return [sib] if sib != st and any(t == sib for t, _ in k_sports_series()) else []
+
 _kg_cache = {}
 def k_game(ev, start):
     """Find the Kalshi game event for a Polymarket event. Returns (event, {pm_team: kalshi_market})."""
@@ -413,7 +484,7 @@ def _k_game(ev, start):
         return None, None
     m_slug = re.match(r"^([a-z]+)-([a-z0-9]+)-([a-z0-9]+)-\d{4}-\d\d-\d\d", ev.get("slug", ""))
     best = (0, None, None)
-    for series in GAME_SERIES:
+    for series in GAME_SERIES + [x for x in league_series(ev) if x not in GAME_SERIES]:
         for ke in k_events(series):
             kms = [m for m in ke.get("markets", []) if (m.get("yes_sub_title") or "").lower() not in ("tie", "draw")]
             if len(kms) != 2:
@@ -430,8 +501,14 @@ def _k_game(ev, start):
             # (e.g. "SK Slavia Praha" vs "Slavia Prague", "Cucuta Deportivo" vs "Cucuta")
             # Kalshi's occurrence time is about when the game ends (NFL: kickoff + 3h), so allow -1h..+5h
             occ = parse_ts(kms[0].get("occurrence_datetime"))
-            if sc < 0.85 and start and occ and -3600 <= (occ - start).total_seconds() <= 5 * 3600 and hi >= 0.95 and lo >= 0.6:
+            in_window = bool(start and occ and -3600 <= (occ - start).total_seconds() <= 5 * 3600)
+            if sc < 0.85 and in_window and hi >= 0.95 and lo >= 0.6:
                 sc = 0.86
+            # same time, one team clearly named, and both sites price both teams within 6 points:
+            # the other name is just spelled differently (e.g. "FC Twente" vs "Enschede")
+            named = max(name_sim(t, km.get("yes_sub_title")) for t, km in zip(teams, order))
+            if sc < 0.85 and in_window and named >= 0.9 and prices_agree(pm_team_prices(ev, teams), teams, order):
+                sc = 0.88
             # pro-league fallback: same team codes in the ticker (e.g. nba-sac-nop -> ...SACNOP)
             if sc < 0.85 and m_slug:
                 alias = CODE_ALIASES.get(m_slug.group(1), {})
@@ -444,6 +521,72 @@ def _k_game(ev, start):
     if best[0] < 0.85:
         return None, None
     return best[1], {teams[0]: best[2][0], teams[1]: best[2][1]}
+
+def pm_team_prices(ev, teams):
+    """Polymarket win price for each team: the moneyline market, or soccer's "Will X win" markets."""
+    out = {}
+    for m in ev.get("markets", []):
+        try:
+            outs = json.loads(m["outcomes"]) if isinstance(m["outcomes"], str) else m["outcomes"]
+            px = [float(x) for x in (json.loads(m["outcomePrices"]) if isinstance(m.get("outcomePrices"), str) else m.get("outcomePrices") or [])]
+        except (KeyError, ValueError, TypeError):
+            continue
+        if m.get("slug") == ev.get("slug") and len(outs) == 2 and set(outs) == set(teams) and len(px) == 2:
+            return dict(zip(outs, px))
+        mw = re.match(r"Will (.+?) win on", m.get("question") or "")
+        if mw and mw.group(1) in teams and px:
+            out[mw.group(1)] = px[0]
+    return out if len(out) == 2 else {}
+
+def k_mid(km):
+    bid, ask = k_price(km, "yes", "bid"), k_price(km, "yes", "ask")
+    return (bid + ask) / 2 if bid and ask else (ask or bid or None)
+
+def prices_agree(pm_px, teams, order, tol=0.06):
+    if not pm_px:
+        return False
+    for t, km in zip(teams, order):
+        k = k_mid(km)
+        if k is None or t not in pm_px or abs(pm_px[t] - k) > tol:
+            return False
+    return True
+
+def audit_matching(c):
+    """List games our wallets hold that found no Kalshi match, with Kalshi games at the same time and price."""
+    cons = consensus(c)
+    seen, misses = set(), 0
+    now = datetime.now(timezone.utc)
+    for cond, m in cons.items():
+        slug = m["pos"].get("eventSlug")
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        ev = pm_event(slug)
+        if not ev:
+            continue
+        st = parse_ts(ev.get("startTime"))
+        if not st or not (now - timedelta(hours=3) <= st <= now + timedelta(days=3)):
+            continue
+        teams = pm_teams(ev)
+        if not teams or k_game(ev, st)[0]:
+            continue
+        pm_px = pm_team_prices(ev, teams)
+        cands = []
+        for series in GAME_SERIES + league_series(ev):
+            for ke in k_events(series):
+                kms = [x for x in ke.get("markets", []) if (x.get("yes_sub_title") or "").lower() not in ("tie", "draw")]
+                occ = parse_ts(kms[0].get("occurrence_datetime")) if kms else None
+                if len(kms) != 2 or not occ or not (-3600 <= (occ - st).total_seconds() <= 5 * 3600):
+                    continue
+                for order in ((kms[0], kms[1]), (kms[1], kms[0])):
+                    names = max(team_sim(teams[0], order[0]), team_sim(teams[1], order[1]))
+                    if prices_agree(pm_px, teams, order) or names >= 0.8:
+                        cands.append((names, ke["event_ticker"], ke["title"], prices_agree(pm_px, teams, order)))
+        misses += 1
+        print(f"NO MATCH  {ev['title']}  ({slug}, {st:%m-%d %H:%M}Z, league series tried: {league_series(ev) or 'none'})")
+        for names, tk, title, px_ok in sorted(cands, reverse=True)[:3]:
+            print(f"    maybe {tk}  {title}  (best name {names:.2f}{', prices agree' if px_ok else ''})")
+    print(f"{misses} unmatched games out of {len(seen)} our wallets hold")
 
 def k_related(game_ev, series_list):
     code = game_ev["event_ticker"].split("-", 1)[1]
@@ -517,7 +660,7 @@ def match_kalshi(ev, mk, idx, start):
     mt = re.search(r"(?:^|:\s*)O/U\s*([\d.]+)", q)   # game total only, not "A vs. B: Team X O/U"
     if mt and pick in ("Over", "Under") and not re.search(r"1H|1st|Half|Team Total|Player", q, re.I):
         line = mt.group(1)
-        tev = k_related(gev, TOTAL_SERIES) or k_by_title(TOTAL_SERIES, pm_teams(ev), start)
+        tev = k_related(gev, sibling_series(gev, "TOTAL") + TOTAL_SERIES) or k_by_title(TOTAL_SERIES, pm_teams(ev), start)
         if not tev:
             return None, "no Kalshi totals market"
         return k_total_line(tev, line, pick)
@@ -525,7 +668,7 @@ def match_kalshi(ev, mk, idx, start):
     ms = re.match(r"Spread:\s*(.+?)\s*\(-([\d.]+)\)", q)
     if ms and not re.search(r"1H|1st|Half", q, re.I):
         fav, line = ms.group(1), ms.group(2)
-        sev = k_related(gev, SPREAD_SERIES) or k_by_title(SPREAD_SERIES, pm_teams(ev), start)
+        sev = k_related(gev, sibling_series(gev, "SPREAD") + SPREAD_SERIES) or k_by_title(SPREAD_SERIES, pm_teams(ev), start)
         if not sev:
             return None, "no Kalshi spread market"
         fav_k = team_map.get(max(team_map, key=lambda t: name_sim(fav, t)))
@@ -1478,6 +1621,8 @@ def main():
     if "release" in sys.argv:
         addr, name = find_wallet(c, sys.argv[sys.argv.index("release") + 1])
         release(c, addr, name, "released by hand"); c.commit(); write_report(c); return
+    if "audit-matching" in sys.argv:
+        return audit_matching(c)
     if "check-keys" in sys.argv:
         from kalshi_client import KalshiClient
         k = KalshiClient()
