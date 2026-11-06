@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 2:37 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
+Updated Fri Nov 6, 2:53 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
 
 Record: 28 won, 21 lost, 5 sold early. Realized P&L $-6.37. Open: 2.
 
@@ -69,6 +69,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Heat vs. Warriors · starts Fri Nov 6, 3:00 AM
 
+- Fri Nov 6, 2:53 AM (verify): Spread: Warriors (-3.5): 15-min check: still passes (3 wallets, $2.8k for vs $0 against); holding
 - Fri Nov 6, 2:13 AM (pregame): Heat vs. Warriors: O/U 234.5: Kalshi matched at 49¢
 - Fri Nov 6, 2:13 AM (pregame): Spread: Warriors (-3.5): now passes
 - Fri Nov 6, 2:13 AM (pregame): Spread: Warriors (-3.5): BreakTheBank joined Warriors (+$1.7k)
