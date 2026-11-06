@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 7:39 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
+Updated Fri Nov 6, 7:53 PM. Bankroll **$120.32** (start $100): $100.02 cash + open trades at cost.
 
 Record: 31 won, 21 lost, 5 sold early. Realized P&L $+20.32. Open: 2.
 
@@ -5375,32 +5375,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 2.5 → Under | Flaznorp $634 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | SK Slavia Praha vs. Arsenal FC: O/U 3.5 → Over | Flaznorp $666 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
-### Real Madrid vs. Panathinaikos · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 6:11 AM (hourly): Spread: Real Madrid (-1.5): all vetted wallets left Real Madrid
-- Wed Nov 4, 6:11 AM (hourly): Real Madrid vs. Panathinaikos: O/U 170.5: all vetted wallets left Over
-- Tue Nov 3, 11:12 PM (hourly): Real Madrid vs. Panathinaikos: all vetted wallets left Real Madrid
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Real Madrid vs. Panathinaikos: O/U 170.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 5:11 AM | hourly | Real Madrid vs. Panathinaikos: O/U 170.5 → Over | HomeRunHazard $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $191 | $0 | — | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $191 | $0 | — | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $191 | $0 | — | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 2:17 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 1:11 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Real Madrid vs. Panathinaikos → Real Madrid | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Real Madrid (-1.5) → Real Madrid | HomeRunHazard $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Real Madrid vs. Panathinaikos → Real Madrid | Flaznorp $991 | $0 | — | fails: only 1 vetted wallet with $991 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Real Madrid (-1.5) → Panathinaikos | Flaznorp $338 | $188 | — | fails: only 1 vetted wallet with $338 (needs 3+ wallets, or 2 with $5.0k+); opposition 56%; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Real Madrid vs. Panathinaikos → Real Madrid | Flaznorp $991 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Real Madrid (-1.5) → Panathinaikos | Flaznorp $338 | $188 | — | fails: only 1 vetted wallet; opposition 56%; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Real Madrid vs. Panathinaikos → Real Madrid | Flaznorp $991 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Real Madrid (-1.5) → Panathinaikos | Flaznorp $338 | $188 | — | fails: only 1 vetted wallet; opposition 56%; no Kalshi game found |
-
 ### Flames vs. Kraken · starts Thu Nov 5, 3:00 AM
 
 - Wed Nov 4, 6:11 AM (hourly): Spread: Kraken (-1.5): all vetted wallets left Flames
@@ -5461,30 +5435,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 10:14 PM | hourly | Will Wolverhampton Wanderers FC win on 2026-11-04? → No | Flaznorp $138, omnibus-076daa $29 | $0 | — | fails: only 2 vetted wallets with $168 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 9:17 PM | hourly | Will Wolverhampton Wanderers FC win on 2026-11-04? → No | Flaznorp $138, omnibus-076daa $29 | $0 | — | fails: no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Will Wolverhampton Wanderers FC win on 2026-11-04? → No | Flaznorp $138, omnibus-076daa $29 | $0 | — | fails: no Kalshi game found |
-
-### Cardiff City FC vs. West Ham United FC · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 1:11 AM (hourly): Will West Ham United FC win on 2026-11-04?: all vetted wallets left No
-- Tue Nov 3, 11:12 PM (hourly): Will Cardiff City FC win on 2026-11-04?: all vetted wallets left Yes
-- Tue Nov 3, 11:12 PM (hourly): Will Cardiff City FC vs. West Ham United FC end in a draw?: all vetted wallets left No
-- Tue Nov 3, 8:14 PM (hourly): Will West Ham United FC win on 2026-11-04?: first seen: 2 vetted on No ($456), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | Will West Ham United FC win on 2026-11-04? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Will West Ham United FC win on 2026-11-04? → No | omnibus-076daa $109 | $0 | — | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | omnibus-076daa $113 | $0 | — | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | Flaznorp $398 | $0 | — | fails: only 1 vetted wallet with $398 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | Flaznorp $342, omnibus-076daa $113 | $0 | — | fails: only 2 vetted wallets with $456 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | Flaznorp $398 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | Flaznorp $342, omnibus-076daa $113 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC vs. West Ham United FC end in a draw? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will Cardiff City FC win on 2026-11-04? → Yes | Flaznorp $398 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Will West Ham United FC win on 2026-11-04? → No | Flaznorp $342, omnibus-076daa $113 | $0 | — | fails: no Kalshi game found |
 
 ### Libertad Asuncion vs. Cerro Porteno - More Markets · starts Wed Nov 4, 10:00 PM
 
@@ -5693,29 +5643,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: BV Borussia 09 Dortmund 2 - 1 Real Betis Balompié? → No | SnakeBall $52 | $0 | — | fails: only 1 vetted wallet; market type not supported |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: BV Borussia 09 Dortmund 1 - 2 Real Betis Balompié? → No | SnakeBall $147 | $0 | — | fails: only 1 vetted wallet; market type not supported |
 
-### Cardiff City FC vs. West Ham United FC - More Markets · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Cardiff City FC vs. West Ham United FC: O/U 3.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Cardiff City FC vs. West Ham United FC: O/U 2.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Cardiff City FC vs. West Ham United FC: Both Teams to Score: all vetted wallets left No
-- Tue Nov 3, 8:14 PM (hourly): Cardiff City FC vs. West Ham United FC: O/U 3.5: first seen: 2 vetted on Under ($424), fails: no Kalshi game found
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Cardiff City FC vs. West Ham United FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | SnakeBall $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 2.5 → Under | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Cardiff City FC vs. West Ham United FC: Both Teams to Score → No | Flaznorp $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | Flaznorp $343, SnakeBall $81 | $0 | — | fails: only 2 vetted wallets with $424 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 2.5 → Under | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Cardiff City FC vs. West Ham United FC: Both Teams to Score → No | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | Flaznorp $343, SnakeBall $81 | $0 | — | fails: no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 2.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Cardiff City FC vs. West Ham United FC: Both Teams to Score → No | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Cardiff City FC vs. West Ham United FC: O/U 3.5 → Under | Flaznorp $343, SnakeBall $81 | $0 | — | fails: no Kalshi game found |
-
 ### PSV vs. Club Brugge KV - Exact Score · starts Wed Nov 4, 8:00 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Exact Score: PSV 0 - 0 Club Brugge KV?: all vetted wallets left No
@@ -5789,17 +5716,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 9:17 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 | Tue Nov 3, 8:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Como 1907? → No | SnakeBall $99 | $0 | — | fails: only 1 vetted wallet; Polymarket price 96¢ outside 5–95¢; market type not supported |
 
-### Cardiff City FC vs. West Ham United FC - Exact Score · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: Cardiff City FC 0 - 0 West Ham United FC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: Cardiff City FC 0 - 0 West Ham United FC? → No | SnakeBall $62 | $0 | — | fails: only 1 vetted wallet; Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-
 ### Viking FK vs. Sabah FK - Exact Score · starts Wed Nov 4, 8:00 PM
 
 - Wed Nov 4, 12:11 AM (hourly): Exact Score: Viking FK 3 - 1 Sabah FK?: all vetted wallets left No
@@ -5821,46 +5737,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Wed Nov 4, 12:11 AM | hourly | BV Borussia 09 Dortmund vs. Real Betis Balompié: BV Borussia 09 Dortmund O/U 5.5 Corners → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 3, 11:12 PM | hourly | BV Borussia 09 Dortmund vs. Real Betis Balompié: BV Borussia 09 Dortmund O/U 5.5 Corners → Under | SnakeBall $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
-### Wrexham AFC vs. Middlesbrough FC - Exact Score · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 12:11 AM (hourly): Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 12:11 AM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet with $141 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet with $141 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Exact Score: Wrexham AFC 0 - 3 Middlesbrough FC? → No | SnakeBall $141 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Oxford United FC vs. Reading FC - More Markets · starts Wed Nov 4, 7:45 PM
-
-- Wed Nov 4, 2:13 PM (hourly): Oxford United FC vs. Reading FC: O/U 2.5: back: 1 vetted on Over ($7.8k), fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Tue Nov 3, 11:12 PM (hourly): Oxford United FC vs. Reading FC: O/U 1.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Oxford United FC vs. Reading FC: O/U 2.5: all vetted wallets left Under
-- Tue Nov 3, 11:12 PM (hourly): Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 7:11 PM | pregame | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $8.0k | $0 | — | fails: only 1 vetted wallet with $8.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 6:10 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $7.8k | $0 | — | fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 5:15 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $7.7k | $0 | — | fails: only 1 vetted wallet with $7.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:35 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $7.8k | $0 | — | fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 4:15 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $7.8k | $0 | — | fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 2:13 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Over | RN1 $7.8k | $0 | — | fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Oxford United FC vs. Reading FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 11:12 PM | hourly | Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Oxford United FC vs. Reading FC: O/U 1.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Oxford United FC vs. Reading FC: O/U 1.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Oxford United FC vs. Reading FC: O/U 2.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Oxford United FC vs. Reading FC: Oxford United FC O/U 0.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Oxford United FC vs. Reading FC: O/U 1.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### FC Porto vs. SSC Napoli - More Markets · starts Wed Nov 4, 8:00 PM
 
@@ -6041,17 +5917,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 10:14 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 9:17 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 | Tue Nov 3, 8:14 PM | hourly | Spread: CD Tenerife (-1.5) → CD Badajoz | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
-### Wrexham AFC vs. Middlesbrough FC - More Markets · starts Wed Nov 4, 7:45 PM
-
-- Tue Nov 3, 11:12 PM (hourly): Wrexham AFC vs. Middlesbrough FC: Both Teams to Score: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 3, 11:12 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 3, 10:14 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Wrexham AFC vs. Middlesbrough FC: Both Teams to Score → No | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 
 ## Time-out
