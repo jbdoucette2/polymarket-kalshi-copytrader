@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 8:15 PM. Bankroll **$120.32** (start $100): $90.28 cash + open trades at cost.
+Updated Fri Nov 6, 8:23 PM. Bankroll **$120.32** (start $100): $90.28 cash + open trades at cost.
 
 Record: 31 won, 21 lost, 5 sold early. Realized P&L $+20.32. Open: 3.
 
@@ -1334,6 +1334,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Rolex Paris Masters: Casper Ruud vs Nuno Borges · starts Fri Nov 6, 8:35 PM
 
+- Fri Nov 6, 8:23 PM (verify): Rolex Paris Masters: Casper Ruud vs Nuno Borges: 15-min check: still passes (2 wallets, $23.2k for vs $1.3k against); holding
 - Fri Nov 6, 8:15 PM (pregame): Rolex Paris Masters: Casper Ruud vs Nuno Borges: now passes
 - Fri Nov 6, 8:15 PM (pregame): Rolex Paris Masters: Casper Ruud vs Nuno Borges: gmpm2 joined Casper Ruud (+$21.6k)
 - Fri Nov 6, 7:14 PM (hourly): Rolex Paris Masters: Casper Ruud vs Nuno Borges: first seen: 1 vetted on Casper Ruud ($1.6k), fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+)
