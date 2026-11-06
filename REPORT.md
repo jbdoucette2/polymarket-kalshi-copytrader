@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 6, 2:23 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
+Updated Fri Nov 6, 2:37 AM. Bankroll **$93.63** (start $100): $73.35 cash + open trades at cost.
 
 Record: 28 won, 21 lost, 5 sold early. Realized P&L $-6.37. Open: 2.
 
@@ -3950,27 +3950,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 3, 7:17 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $519, omnibus-076daa $13 | $0 | 22¢ NO | passes |
 | Tue Nov 3, 6:13 PM | hourly | Will Real Madrid CF win on 2026-11-04? → No | Flaznorp $1.7k, SnakeBall $519, omnibus-076daa $13 | $0 | 22¢ NO | passes |
 
-### Panteras de Aguascalientes vs. Soles de Mexicali · starts Wed Nov 4, 2:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): Panteras de Aguascalientes vs. Soles de Mexicali: all vetted wallets left Panteras de Aguascalientes
-- Wed Nov 4, 1:11 AM (hourly): Spread: Soles de Mexicali (-4.5): all vetted wallets left Soles de Mexicali
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | Panteras de Aguascalientes vs. Soles de Mexicali → Panteras de Aguascalientes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 1:11 AM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | Panteras de Aguascalientes vs. Soles de Mexicali → Panteras de Aguascalientes | omnibus-076daa $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 4, 12:11 AM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $121 | $0 | — | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $121 | $0 | — | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $113 | $28 | — | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+); opposition 25%; no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $111 | $29 | — | fails: only 1 vetted wallet; opposition 26%; no Kalshi game found |
-| Tue Nov 3, 8:14 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $112 | $29 | — | fails: only 1 vetted wallet; opposition 26%; no Kalshi game found |
-| Tue Nov 3, 7:17 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $113 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 6:13 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $113 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 4:12 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $113 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 3:16 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $113 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-| Tue Nov 3, 1:16 PM | hourly | Spread: Soles de Mexicali (-4.5) → Soles de Mexicali | omnibus-076daa $114 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
-
 ### W35 Hamamatsu: Himari Sato vs Mio Mushika · starts Wed Nov 4, 4:00 AM
 
 - Wed Nov 4, 1:11 AM (hourly): W35 Hamamatsu: Himari Sato vs Mio Mushika: all vetted wallets left Himari Sato
@@ -4026,18 +4005,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 1:11 AM | hourly | W50 Heraklion: Antonia Stoyanov vs Alisa Oktiabreva → Alisa Oktiabreva | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 4, 12:11 AM | hourly | W50 Heraklion: Antonia Stoyanov vs Alisa Oktiabreva → Alisa Oktiabreva | omnibus-076daa $64 | $0 | — | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 3, 11:12 PM | hourly | W50 Heraklion: Antonia Stoyanov vs Alisa Oktiabreva → Alisa Oktiabreva | omnibus-076daa $64 | $0 | — | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### M15 Maanshan: Maxim Zhukov vs Stefan Storch · starts Wed Nov 4, 2:30 AM
-
-- Wed Nov 4, 1:11 AM (hourly): M15 Maanshan: Maxim Zhukov vs Stefan Storch: all vetted wallets left Maxim Zhukov
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 4, 1:11 AM | hourly | M15 Maanshan: Maxim Zhukov vs Stefan Storch → Maxim Zhukov | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 12:11 AM | hourly | M15 Maanshan: Maxim Zhukov vs Stefan Storch → Maxim Zhukov | omnibus-076daa $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 11:12 PM | hourly | M15 Maanshan: Maxim Zhukov vs Stefan Storch → Maxim Zhukov | omnibus-076daa $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 10:14 PM | hourly | M15 Maanshan: Maxim Zhukov vs Stefan Storch → Maxim Zhukov | omnibus-076daa $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 3, 9:17 PM | hourly | M15 Maanshan: Maxim Zhukov vs Stefan Storch → Maxim Zhukov | omnibus-076daa $65 | $0 | — | fails: only 1 vetted wallet; no Kalshi game found |
 
 ### Al-Taawoun FC vs. Al Faisaly (JOR) · starts Wed Nov 4, 6:15 PM
 
