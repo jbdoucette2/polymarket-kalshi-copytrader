@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06T10:11:27Z",
+  "updated": "2026-11-06T11:14:32Z",
   "games": [
     {
-      "event_slug": "wta-montgom-revathi-2026-11-05",
-      "game": "Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi",
-      "start": "2026-11-06T11:10:00Z",
-      "check_at": "2026-11-06T10:55:00Z",
+      "event_slug": "isr-mta-mpt-2026-11-06",
+      "game": "Maccabi Tel Aviv FC vs. Maccabi Petah Tikva FC",
+      "start": "2026-11-06T12:00:00Z",
+      "check_at": "2026-11-06T11:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi → Robin Montgomery ($4.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Maccabi Tel Aviv FC win on 2026-11-06? → No ($23, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-ruzic-eala-2026-11-06",
@@ -38,8 +38,8 @@
       "check_at": "2026-11-06T12:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rolex Paris Masters: Ben Shelton vs Tommy Paul → Tommy Paul ($5.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rolex Paris Masters: Ben Shelton vs Tommy Paul → Tommy Paul ($4.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "ere-wii-zwo-2026-11-06-more-markets",
@@ -56,10 +56,10 @@
       "game": "Hamburger SV vs. Borussia Mönchengladbach - More Markets",
       "start": "2026-11-06T19:30:00Z",
       "check_at": "2026-11-06T19:15:00Z",
-      "passing": 0,
+      "passing": 1,
       "near": 1,
-      "best": "Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5 → Under ($2.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hamburger SV vs. Borussia Mönchengladbach: O/U 2.5 → Under ($5.0k, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "sea-ven-udi-2026-11-06-more-markets",
@@ -78,8 +78,8 @@
       "check_at": "2026-11-06T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Toulouse FC (-2.5) → Toulouse FC ($31, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Toulouse FC (-2.5) → Toulouse FC ($33, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lal-sev-ala-2026-11-06-more-markets",
@@ -97,9 +97,9 @@
       "start": "2026-11-06T20:00:00Z",
       "check_at": "2026-11-06T19:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Everton FC vs. Coventry City FC: O/U 0.5 → Over ($667, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Everton FC vs. Coventry City FC: O/U 0.5 → Over ($670, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lal-sev-ala-2026-11-06",
@@ -158,8 +158,8 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Raptors vs. Bucks → Bucks ($597, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $597 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Raptors (-7.5) → Bucks ($706, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $706 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-uta-dal-2026-11-06",
@@ -167,9 +167,9 @@
       "start": "2026-11-07T01:00:00Z",
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Mavericks (-7.5) → Jazz ($434, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $434 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Jazz vs. Mavericks: O/U 227.5 → Under ($7.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $7.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-min-nop-2026-11-06",
@@ -188,8 +188,8 @@
       "check_at": "2026-11-07T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will FC Juárez win on 2026-11-06? → No ($275, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Juárez win on 2026-11-06? → No ($277, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-nebr-ill-2026-11-06",
