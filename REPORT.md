@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 7:22 AM. Bankroll **$122.45** (start $100): $112.71 cash + open trades at cost.
+Updated Sat Nov 7, 7:33 AM. Bankroll **$122.45** (start $100): $112.71 cash + open trades at cost.
 
 Record: 37 won, 26 lost, 5 sold early. Realized P&L $+22.45. Open: 1.
 
@@ -117,6 +117,27 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Melbourne United vs. Brisbane Bullets · starts Sat Nov 7, 8:30 AM
+
+- Sat Nov 7, 5:17 AM (hourly): Melbourne United vs. Brisbane Bullets: Kalshi matched at 84¢
+- Sat Nov 7, 1:15 AM (hourly): Melbourne United vs. Brisbane Bullets: first seen: 1 vetted on Melbourne United ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 7:33 AM | pregame | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 2:16 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Borneo Samarinda vs. PSM Makassar - More Markets · starts Sat Nov 7, 8:30 AM
+
+- Sat Nov 7, 7:33 AM (pregame): Spread: Borneo Samarinda (-1.5): first seen: 1 vetted on PSM Makassar ($79), fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 7:33 AM | pregame | Spread: Borneo Samarinda (-1.5) → PSM Makassar | Flaznorp $79 | $0 | 69¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Gimcheon Sangmu FC vs. FC Anyang · starts Sat Nov 7, 7:30 AM
 
@@ -2439,18 +2460,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Sat Nov 7, 5:17 AM | hourly | Bristol City FC vs. Norwich City FC: O/U 2.5 → Under | Flaznorp $53 | $0 | 46¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:17 AM | hourly | Bristol City FC vs. Norwich City FC: O/U 3.5 → Under | Flaznorp $57 | $0 | 70¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Melbourne United vs. Brisbane Bullets · starts Sat Nov 7, 8:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Melbourne United vs. Brisbane Bullets: Kalshi matched at 84¢
-- Sat Nov 7, 1:15 AM (hourly): Melbourne United vs. Brisbane Bullets: first seen: 1 vetted on Melbourne United ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Kansas City Current vs. Angel City FC · starts Sat Nov 7, 5:00 PM
 
@@ -9931,7 +9940,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 0-0 | benched |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 0-0 (1 pending) | benched |
 | HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 39-33 (58 pending) | benched |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 12-4 | released Wed Nov 4, 9:10 PM: shadow picks won 75% of 8 games at an average price of 67¢ |
 | Flaznorp | trader: 400-1,300 trades per game; 4-11 on our trades | Tue Nov 3, 11:08 PM | 123-67 | released Fri Nov 6, 11:13 PM: shadow picks won 66% of 167 games at an average price of 61¢ |
@@ -9940,6 +9949,11 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Sat Nov 7, 7:33 AM | Borneo Samarinda vs. PSM Makassar - Exact Score | Exact Score: Borneo Samarinda 4 - 5 PSM Makassar? → No | only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 7:33 AM | Melbourne United vs. Brisbane Bullets | Melbourne United vs. Brisbane Bullets → Melbourne United | only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 7:33 AM | Tokyo Sunrockers vs. Kyoto Hannaryz | Tokyo Sunrockers vs. Kyoto Hannaryz → Tokyo Sunrockers | only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sat Nov 7, 7:33 AM | Borneo Samarinda vs. PSM Makassar - More Markets | Spread: Borneo Samarinda (-1.5) → PSM Makassar | only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 7:33 AM | Big Bash League, Women: Brisbane Heat vs Hobart Hurricanes | Big Bash League, Women: Brisbane Heat vs Hobart Hurricanes → Brisbane Heat | only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 6:34 AM | Gimhae FC vs. Hwaseong FC - Halftime Result | Gimhae FC leading at halftime? → No | only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 6:34 AM | Seoul E-Land FC vs. Jeonnam Dragons - More Markets | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:34 AM | Seoul E-Land FC vs. Jeonnam Dragons - More Markets | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -9965,8 +9979,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Sat Nov 7, 5:17 AM | Yokohama B-Corsairs vs. Kobe Storks | Yokohama B-Corsairs vs. Kobe Storks → Yokohama B-Corsairs | only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 69c |
 | Sat Nov 7, 5:17 AM | Avispa Fukuoka vs. V-Varen Nagasaki - More Markets | Spread: V-Varen Nagasaki (-1.5) → Avispa Fukuoka | only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:17 AM | Avispa Fukuoka vs. V-Varen Nagasaki - More Markets | Spread: Avispa Fukuoka (-2.5) → Avispa Fukuoka | only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | Avispa Fukuoka vs. V-Varen Nagasaki - More Markets | Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5 → Under | only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | Matsumoto Yamaga FC vs. Zweigen Kanazawa | Will Matsumoto Yamaga FC vs. Zweigen Kanazawa end in a draw? → No | only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 5:17 AM | Avispa Fukuoka vs. V-Varen Nagasaki - Halftime Result | Avispa Fukuoka leading at halftime? → No | only 1 vetted wallet with $211 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | FC Tōkyō vs. Kashima Antlers | Will Kashima Antlers win on 2026-11-07? → Yes | only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | Toyama Grouses vs. Diamond Dolphins | Toyama Grouses vs. Diamond Dolphins → Diamond Dolphins | only 1 vetted wallet with $856 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
