@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 6:53 PM. Bankroll **$138.26** (start $100): $77.02 cash + open trades at cost.
+Updated Sat Nov 7, 7:22 PM. Bankroll **$128.11** (start $100): $77.02 cash + open trades at cost.
 
-Record: 42 won, 27 lost, 6 sold early. Realized P&L $+38.26. Open: 6.
+Record: 42 won, 28 lost, 6 sold early. Realized P&L $+28.11. Open: 5.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:15 PM | [CD Leganés vs. Albacete Balompié - More Markets](https://polymarket.com/event/es2-leg-alb-2026-11-07-more-markets) | CD Leganés vs. Albacete Balompié: O/U 2.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($6,358) | 20 × 49¢ NO `KXLALIGA2TOTAL-26NOV07LEGALB-3` | open |  |
+| Sat Nov 7, 5:15 PM | [CD Leganés vs. Albacete Balompié - More Markets](https://polymarket.com/event/es2-leg-alb-2026-11-07-more-markets) | CD Leganés vs. Albacete Balompié: O/U 2.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($6,358) | 20 × 49¢ NO `KXLALIGA2TOTAL-26NOV07LEGALB-3` | lost | $-10.15 |
 | Sat Nov 7, 5:15 PM | [Nottingham Forest FC vs. Manchester City FC](https://polymarket.com/event/epl-not-mac-2026-11-07) | Will Manchester City FC win on 2026-11-07? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($28,196) | 24 × 41¢ NO `KXEPLGAME-26NOV07NFOMCI-MCI` | open |  |
 | Sat Nov 7, 5:15 PM | [Nottingham Forest FC vs. Manchester City FC - More Markets](https://polymarket.com/event/epl-not-mac-2026-11-07-more-markets) | Spread: Manchester City FC (-1.5) → Nottingham Forest FC | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($4,205) | 15 × 66¢ NO `KXEPLSPREAD-26NOV07NFOMCI-MCI2` | open |  |
 | Sat Nov 7, 5:15 PM | [VfB Stuttgart vs. SV Werder Bremen - More Markets](https://polymarket.com/event/bun-stu-wer-2026-11-07-more-markets) | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,130) | 19 × 51¢ NO `KXBUNDESLIGATOTAL-26NOV07VFBSVW-4` | sold | $-0.87 |
