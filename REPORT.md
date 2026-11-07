@@ -1,14 +1,17 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 3:52 PM. Bankroll **$140.79** (start $100): $111.13 cash + open trades at cost.
+Updated Sat Nov 7, 4:15 PM. Bankroll **$147.97** (start $100): $97.43 cash + open trades at cost.
 
-Record: 40 won, 26 lost, 5 sold early. Realized P&L $+40.79. Open: 3.
+Record: 41 won, 26 lost, 5 sold early. Realized P&L $+47.97. Open: 5.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | [UCLA vs. Minnesota](https://polymarket.com/event/cfb-ucla-minnst-2026-11-07) | UCLA vs. Minnesota → Minnesota | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($8,263) | 26 × 38¢ YES `KXNCAAFGAME-26NOV07UCLAMINN-MINN` | open |  |
+| Sat Nov 7, 4:15 PM | [Clemson vs. Syracuse](https://polymarket.com/event/cfb-clmsn-syra-2026-11-07) | Clemson vs. Syracuse → Syracuse | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($17,249) | 21 × 47¢ YES `KXNCAAFGAME-26NOV07CLEMSYR-SYR` | open |  |
+| Sat Nov 7, 4:15 PM | [North Carolina vs. UConn](https://polymarket.com/event/cfb-ncar-uconn-2026-11-07) | Spread: North Carolina (-7.5) → UConn | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,676) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07UNCCONN-UNC8` | open |  |
 | Sat Nov 7, 3:17 PM | [FC Den Bosch vs. Jong FC Utrecht - More Markets](https://polymarket.com/event/ned2-dbo-utr-2026-11-07-more-markets) | FC Den Bosch vs. Jong FC Utrecht: O/U 3.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($8,680) | 16 × 60¢ YES `KXEERSTEDIVTOTAL-26NOV07DBOUTR-4` | open |  |
 | Sat Nov 7, 2:20 PM | [Arsenal FC vs. Hull City AFC](https://polymarket.com/event/epl-ars-hul-2026-11-07) | Will Arsenal FC vs. Hull City AFC end in a draw? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($5,676) | 11 × 90¢ NO `KXEPLGAME-26NOV07ARSHUL-TIE` | open |  |
-| Sat Nov 7, 1:12 PM | [Cagliari Calcio vs. Frosinone Calcio](https://polymarket.com/event/sea-cag-fro-2026-11-07) | Will Frosinone Calcio win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c) ($11,033) | 17 × 56¢ NO `KXSERIEAGAME-26NOV07CAGFRO-FRO` | open |  |
+| Sat Nov 7, 1:12 PM | [Cagliari Calcio vs. Frosinone Calcio](https://polymarket.com/event/sea-cag-fro-2026-11-07) | Will Frosinone Calcio win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c) ($11,033) | 17 × 56¢ NO `KXSERIEAGAME-26NOV07CAGFRO-FRO` | won | $+7.18 |
 | Sat Nov 7, 12:14 PM | [Leeds United FC vs. Tottenham Hotspur FC](https://polymarket.com/event/epl-lee-tot-2026-11-07) | Will Tottenham Hotspur FC win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($6,359) | 15 × 63¢ NO `KXEPLGAME-26NOV07LEETOT-TOT` | won | $+5.30 |
 | Sat Nov 7, 12:14 PM | [Leeds United FC vs. Tottenham Hotspur FC - More Markets](https://polymarket.com/event/epl-lee-tot-2026-11-07-more-markets) | Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5 → Under | [ndb1](https://polymarket.com/profile/0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($42,313) | 19 × 52¢ NO `KXEPLTOTAL-26NOV07LEETOT-3` | won | $+8.78 |
 | Sat Nov 7, 5:17 AM | [FC Tōkyō vs. Kashima Antlers - More Markets](https://polymarket.com/event/jap-fct-kas-2026-11-07-more-markets) | FC Tōkyō vs. Kashima Antlers: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($15,896) | 14 × 68¢ NO `KXJLEAGUETOTAL-26NOV07TOKKAS-4` | won | $+4.26 |
@@ -83,30 +86,30 @@ Record: 40 won, 26 lost, 5 sold early. Realized P&L $+40.79. Open: 3.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (720 settled so far, 38 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (734 settled so far, 40 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 720 | 52% | 51¢ | +1 pts | -1% |
-| Rules: one rule away | 643 | 53% | 51¢ | +2 pts | +1% |
-| Rules: passed every rule | 77 | 44% | 51¢ | -6 pts | -19% |
-| Price: 40–60¢ | 320 | 52% | 49¢ | +3 pts | +7% |
-| Price: 60–80¢ | 124 | 70% | 69¢ | +2 pts | +1% |
+| **all** | 734 | 52% | 51¢ | +1 pts | -1% |
+| Rules: one rule away | 654 | 53% | 51¢ | +2 pts | +1% |
+| Rules: passed every rule | 80 | 45% | 51¢ | -6 pts | -17% |
+| Price: 40–60¢ | 324 | 52% | 49¢ | +3 pts | +7% |
+| Price: 60–80¢ | 128 | 70% | 69¢ | +2 pts | +2% |
 | Price: 80¢+ | 90 | 90% | 88¢ | +2 pts | +2% |
-| Price: under 40¢ | 186 | 22% | 25¢ | -4 pts | -18% |
-| Wallets on the pick: 1 wallet | 456 | 53% | 52¢ | +1 pts | -1% |
-| Wallets on the pick: 2 wallets | 206 | 48% | 49¢ | -1 pts | -5% |
-| Wallets on the pick: 3+ wallets | 58 | 59% | 50¢ | +9 pts | +14% |
-| Leader money: $20k+ | 31 | 55% | 56¢ | -2 pts | -5% |
-| Leader money: $5k–20k | 88 | 56% | 56¢ | -0 pts | +1% |
-| Leader money: under $5k | 601 | 52% | 50¢ | +1 pts | -1% |
+| Price: under 40¢ | 192 | 22% | 25¢ | -3 pts | -16% |
+| Wallets on the pick: 1 wallet | 466 | 53% | 52¢ | +1 pts | -1% |
+| Wallets on the pick: 2 wallets | 208 | 48% | 49¢ | -1 pts | -5% |
+| Wallets on the pick: 3+ wallets | 60 | 58% | 50¢ | +8 pts | +13% |
+| Leader money: $20k+ | 32 | 56% | 56¢ | -0 pts | -2% |
+| Leader money: $5k–20k | 91 | 55% | 56¢ | -1 pts | -1% |
+| Leader money: under $5k | 611 | 52% | 50¢ | +1 pts | -1% |
 | Market type: draw | 17 | 65% | 64¢ | +1 pts | -19% |
-| Market type: moneyline | 123 | 47% | 50¢ | -3 pts | -12% |
-| Market type: soccer win/lose | 109 | 56% | 54¢ | +2 pts | +6% |
-| Market type: spread | 223 | 50% | 50¢ | +0 pts | -0% |
-| Market type: total | 248 | 54% | 51¢ | +3 pts | +2% |
+| Market type: moneyline | 125 | 47% | 50¢ | -3 pts | -12% |
+| Market type: soccer win/lose | 114 | 56% | 54¢ | +2 pts | +7% |
+| Market type: spread | 225 | 49% | 49¢ | +0 pts | -1% |
+| Market type: total | 253 | 55% | 51¢ | +3 pts | +3% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 21 | 43% | 43¢ | +0 pts | -7% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 581 | 53% | 52¢ | +0 pts | -3% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 595 | 53% | 52¢ | +1 pts | -3% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 16 | 50% | 48¢ | +2 pts | +22% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -114,47 +117,30 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Wallet | Games | Won | Avg price | Edge |
 | --- | --- | --- | --- | --- |
 | monkeymashingkeyboard (benched) | 6 | 67% | 48¢ | +19 pts |
-| Flaznorp (benched) | 213 | 66% | 60¢ | +6 pts |
-| ferrariChampions2026 | 30 | 60% | 55¢ | +5 pts |
-| RN1 | 12 | 58% | 54¢ | +4 pts |
-| SnakeBall | 27 | 70% | 67¢ | +4 pts |
+| RN1 | 13 | 62% | 55¢ | +7 pts |
+| Flaznorp | 222 | 67% | 60¢ | +7 pts |
+| SnakeBall | 31 | 74% | 69¢ | +6 pts |
+| ferrariChampions2026 | 34 | 56% | 54¢ | +2 pts |
 | HomeRunHazard (benched) | 82 | 55% | 55¢ | -0 pts |
 
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### RCD Espanyol de Barcelona vs. RC Deportivo A Coruña - More Markets · starts Sat Nov 7, 3:15 PM
+### VfB Stuttgart vs. SV Werder Bremen - Exact Score · starts Sat Nov 7, 5:30 PM
 
-- Sat Nov 7, 3:17 PM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 0.5: first seen: 1 vetted on Under ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Spread: RCD Espanyol de Barcelona (-1.5): all vetted wallets left RC Deportivo A Coruña
-- Sat Nov 7, 10:14 AM (hourly): Spread: RC Deportivo A Coruña (-2.5): all vetted wallets left RCD Espanyol de Barcelona
-- Sat Nov 7, 10:14 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: all vetted wallets left Over
-- Sat Nov 7, 5:17 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: Kalshi matched at 73¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: RCD Espanyol de Barcelona (-1.5): first seen: 1 vetted on RC Deportivo A Coruña ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: first seen: 1 vetted on Over ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (hourly): Exact Score: VfB Stuttgart 0 - 0 SV Werder Bremen?: all vetted wallets left Yes
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 0.5 → Under | SnakeBall $2 | $0 | 8¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $512 | $0 | — | fails: only 1 vetted wallet with $512 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 5:17 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | Flaznorp $46 | $0 | 83¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $512 | $0 | 97¢ NO | fails: only 1 vetted wallet with $512 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Sat Nov 7, 4:15 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | — | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 2:16 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | 97¢ NO | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Sat Nov 7, 1:15 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | 97¢ NO | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sat Nov 7, 4:15 PM | hourly | Exact Score: VfB Stuttgart 0 - 0 SV Werder Bremen? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 3:17 PM | hourly | Exact Score: VfB Stuttgart 0 - 0 SV Werder Bremen? → Yes | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 2:20 PM | hourly | Exact Score: VfB Stuttgart 0 - 0 SV Werder Bremen? → Yes | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 1:12 PM | hourly | Exact Score: VfB Stuttgart 0 - 0 SV Werder Bremen? → Yes | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; market type not supported |
 
 ### Odense BK vs. Viborg FF - More Markets · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Odense BK vs. Viborg FF: O/U 1.5: Kalshi 16¢ → 17¢
 - Sat Nov 7, 12:14 PM (hourly): Odense BK vs. Viborg FF: O/U 1.5: back: 1 vetted on Under ($4), fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 10:14 AM (hourly): Spread: Odense BK (-2.5): all vetted wallets left Odense BK
 - Sat Nov 7, 10:14 AM (hourly): Odense BK vs. Viborg FF: O/U 1.5: all vetted wallets left Under
@@ -162,6 +148,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Odense BK vs. Viborg FF: O/U 1.5 → Under | SnakeBall $4 | $0 | 17¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Odense BK vs. Viborg FF: O/U 1.5 → Under | SnakeBall $4 | $0 | 16¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Odense BK vs. Viborg FF: O/U 1.5 → Under | SnakeBall $4 | $0 | 16¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Odense BK vs. Viborg FF: O/U 1.5 → Under | SnakeBall $4 | $0 | 16¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -175,6 +162,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Miami (FL) vs. Notre Dame · starts Sun Nov 8, 12:30 AM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Notre Dame (-7.5): ferrariChampions2026 joined Notre Dame (+$185)
 - Sat Nov 7, 2:20 PM (hourly): Spread: Notre Dame (-3.5): Kalshi 39¢ → 40¢
 - Sat Nov 7, 12:14 PM (hourly): Miami (FL) vs. Notre Dame: O/U 54.5: Kalshi matched at 51¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Notre Dame (-3.5): Kalshi matched at 39¢
@@ -201,6 +189,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Miami (FL) vs. Notre Dame: O/U 54.5 → Over | SnakeBall $11 | $0 | 51¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Notre Dame (-3.5) → Miami (FL) | SnakeBall $37 | $0 | 40¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Notre Dame (-5.5) → Miami (FL) | SnakeBall $570 | $0 | 43¢ NO | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Notre Dame (-4.5) → Miami (FL) | SnakeBall $9 | $0 | 42¢ NO | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Notre Dame (-7.5) → Notre Dame | ferrariChampions2026 $185, SnakeBall $57 | $0 | 48¢ YES | fails: only 2 vetted wallets with $242 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Miami (FL) vs. Notre Dame: O/U 54.5 → Over | SnakeBall $11 | $0 | 51¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Notre Dame (-3.5) → Miami (FL) | SnakeBall $37 | $0 | 40¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Notre Dame (-5.5) → Miami (FL) | SnakeBall $570 | $0 | 43¢ NO | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -268,6 +261,18 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Spread: Notre Dame (-7.5) → Notre Dame | SnakeBall $59 | $0 | 48¢ YES | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Spread: Notre Dame (-5.5) → Miami (FL) | SnakeBall $570 | $0 | 43¢ NO | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Brighton & Hove Albion FC vs. Brentford FC - More Markets · starts Sun Nov 8, 2:00 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): first seen: 1 vetted on Brighton & Hove Albion FC ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Spread: Brentford FC (-1.5): first seen: 1 vetted on Brighton & Hove Albion FC ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### CA Osasuna vs. Athletic Club - More Markets · starts Sat Nov 7, 5:30 PM
 
 - Sat Nov 7, 12:14 PM (hourly): CA Osasuna vs. Athletic Club: O/U 4.5: Kalshi matched at 91¢
@@ -282,6 +287,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | CA Osasuna vs. Athletic Club: O/U 4.5 → Under | SnakeBall $18 | $0 | 91¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | CA Osasuna vs. Athletic Club: O/U 4.5 → Under | SnakeBall $18 | $0 | 91¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | CA Osasuna vs. Athletic Club: O/U 4.5 → Under | SnakeBall $18 | $0 | 91¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | CA Osasuna vs. Athletic Club: O/U 4.5 → Under | SnakeBall $18 | $0 | 91¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -314,6 +320,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Texas A&M vs. South Carolina · starts Sat Nov 7, 8:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: South Carolina (-5.5): Kalshi 45¢ → 46¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: South Carolina (-5.5): first seen: 1 vetted on Texas A&M ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:14 PM (hourly): Texas A&M vs. South Carolina: O/U 51.5: Kalshi matched at 48¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: South Carolina (-6.5): Kalshi matched at 48¢
@@ -324,6 +331,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: South Carolina (-5.5) → Texas A&M | SnakeBall $19 | $0 | 46¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Texas A&M vs. South Carolina: O/U 51.5 → Under | SnakeBall $45 | $0 | 48¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: South Carolina (-6.5) → Texas A&M | SnakeBall $268 | $0 | 48¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: South Carolina (-5.5) → Texas A&M | SnakeBall $19 | $0 | 45¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Texas A&M vs. South Carolina: O/U 51.5 → Under | SnakeBall $45 | $0 | 48¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: South Carolina (-6.5) → Texas A&M | SnakeBall $268 | $0 | 48¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -347,69 +357,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 9:13 PM | hourly | Spread: South Carolina (-6.5) → Texas A&M | SnakeBall $72 | $0 | 47¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 8:15 PM | hourly | Spread: South Carolina (-6.5) → Texas A&M | SnakeBall $72 | $0 | 47¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Western Kentucky vs. Middle Tennessee · starts Sat Nov 7, 8:30 PM
-
-- Sat Nov 7, 3:17 PM (hourly): Western Kentucky vs. Middle Tennessee: primm joined Middle Tennessee (+$4.9k)
-- Sat Nov 7, 2:20 PM (hourly): Spread: Western Kentucky (-2.5): Kalshi 31¢ → 30¢
-- Sat Nov 7, 1:12 PM (hourly): Spread: Western Kentucky (-2.5): Kalshi 70¢ → 31¢
-- Sat Nov 7, 1:12 PM (hourly): Spread: Western Kentucky (-2.5): majority flipped to Western Kentucky ($539 vs $25)
-- Sat Nov 7, 12:14 PM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
-- Sat Nov 7, 10:14 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
-- Sat Nov 7, 9:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Flaznorp left
-- Sat Nov 7, 5:17 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
-- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
-- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Kalshi 67¢ → 66¢
-- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Flaznorp joined Middle Tennessee (+$1.2k)
-- Fri Nov 6, 9:13 PM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: first seen: 1 vetted on Over ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $534 | $164 | 30¢ YES | fails: only 1 vetted wallet with $534 (needs 3+ wallets, or 2 with $5.0k+); opposition 31% |
-| Sat Nov 7, 3:17 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | primm $4.9k, SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 44c |
-| Sat Nov 7, 2:20 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $539 | $25 | 30¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 1:12 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $539 | $25 | 31¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 12:14 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
-| Sat Nov 7, 12:14 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 11:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 10:14 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
-| Sat Nov 7, 10:14 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 9:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: only 2 vetted wallets with $698 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 8:17 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
-| Sat Nov 7, 8:17 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 5:17 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
-| Sat Nov 7, 5:17 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 4:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 2:16 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
-| Sat Nov 7, 2:16 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
-| Sat Nov 7, 1:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
-| Sat Nov 7, 1:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
-| Fri Nov 6, 11:13 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 11:13 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 6, 11:13 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $621, tradecraft $46 | $0 | 67¢ YES | fails: only 2 vetted wallets with $667 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 45c |
-| Fri Nov 6, 10:16 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
-| Fri Nov 6, 10:16 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $635, tradecraft $11 | $0 | 67¢ YES | fails: only 2 vetted wallets with $647 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 46c |
-| Fri Nov 6, 9:13 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
-| Fri Nov 6, 9:13 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $635, tradecraft $11 | $0 | 67¢ YES | fails: only 2 vetted wallets with $647 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 46c |
-
 ### Sporting CP vs. Moreirense FC - More Markets · starts Sat Nov 7, 8:30 PM
 
 - Sat Nov 7, 12:14 PM (hourly): Sporting CP vs. Moreirense FC: O/U 1.5: Kalshi matched at 87¢
@@ -427,6 +374,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Sporting CP vs. Moreirense FC: O/U 1.5 → Over | SnakeBall $22 | $0 | 87¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Sporting CP vs. Moreirense FC: O/U 1.5 → Over | SnakeBall $22 | $0 | 87¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Sporting CP vs. Moreirense FC: O/U 1.5 → Over | SnakeBall $22 | $0 | 87¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Sporting CP vs. Moreirense FC: O/U 1.5 → Over | SnakeBall $22 | $0 | 87¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -479,6 +427,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### FC Alverca vs. Casa Pia AC - More Markets · starts Sat Nov 7, 6:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: FC Alverca (-1.5): Kalshi 72¢ → 73¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: FC Alverca (-1.5): Kalshi matched at 72¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: FC Alverca (-1.5): Kalshi matched at 73¢
 - Sat Nov 7, 10:14 AM (hourly): FC Alverca vs. Casa Pia AC: FC Alverca O/U 0.5: all vetted wallets left Under
@@ -487,6 +436,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: FC Alverca (-1.5) → Casa Pia AC | SnakeBall $26 | $0 | 73¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: FC Alverca (-1.5) → Casa Pia AC | SnakeBall $26 | $0 | 72¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: FC Alverca (-1.5) → Casa Pia AC | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 1:12 PM | hourly | Spread: FC Alverca (-1.5) → Casa Pia AC | SnakeBall $26 | $0 | 73¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -502,6 +452,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Duke vs. NC State · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Duke (-3.5): Kalshi 48¢ → 47¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: Duke (-4.5): first seen: 1 vetted on NC State ($12.5k), fails: only 1 vetted wallet with $12.5k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 1:12 PM (hourly): Spread: Duke (-3.5): Kalshi 47¢ → 48¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Duke (-5.5): Kalshi matched at 47¢
@@ -520,6 +471,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Duke (-5.5) → Duke | SnakeBall $26 | $0 | 47¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Duke vs. NC State → NC State | SnakeBall $156 | $0 | 37¢ YES | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Duke (-3.5) → NC State | SnakeBall $367 | $0 | 47¢ NO | fails: only 1 vetted wallet with $367 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Duke (-4.5) → NC State | ferrariChampions2026 $12.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $12.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Duke (-5.5) → Duke | SnakeBall $26 | $0 | 47¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Duke vs. NC State → NC State | SnakeBall $156 | $0 | 37¢ YES | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Duke (-3.5) → NC State | SnakeBall $375 | $0 | 48¢ NO | fails: only 1 vetted wallet with $375 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -566,15 +521,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Spread: Duke (-3.5) → NC State | SnakeBall $47 | $0 | 48¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 6:18 PM | hourly | Duke vs. NC State → NC State | SnakeBall $156 | $0 | 36¢ YES | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Brighton & Hove Albion FC vs. Brentford FC - More Markets · starts Sun Nov 8, 2:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Spread: Brentford FC (-1.5): first seen: 1 vetted on Brighton & Hove Albion FC ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Penn State vs. Washington · starts Sat Nov 7, 8:30 PM
 
 - Sat Nov 7, 3:17 PM (hourly): Spread: Washington (-2.5): Kalshi 51¢ → 50¢
@@ -590,6 +536,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Penn State vs. Washington → Washington | SnakeBall $32 | $0 | 55¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Washington (-2.5) → Washington | SnakeBall $405 | $0 | 50¢ YES | fails: only 1 vetted wallet with $405 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Penn State vs. Washington: O/U 43.5 → Under | primm $155 | $0 | 48¢ NO | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Penn State vs. Washington: O/U 45.5 → Under | primm $1.5k | $124 | 55¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Penn State vs. Washington → Washington | SnakeBall $32 | $0 | 55¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Washington (-2.5) → Washington | SnakeBall $405 | $0 | 50¢ YES | fails: only 1 vetted wallet with $405 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Penn State vs. Washington: O/U 43.5 → Under | primm $155 | $0 | 48¢ NO | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -634,6 +584,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Louisville (-14.5) → Georgia Tech | SnakeBall $38 | $0 | 50¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Louisville (-14.5) → Georgia Tech | SnakeBall $38 | $0 | 50¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Louisville (-14.5) → Georgia Tech | SnakeBall $38 | $0 | 50¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Spread: Louisville (-14.5) → Georgia Tech | SnakeBall $38 | $0 | 50¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -648,6 +599,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Wyoming vs. UNLV · starts Sun Nov 8, 3:30 AM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: UNLV (-4.5): Kalshi 48¢ → 46¢
+- Sat Nov 7, 4:15 PM (hourly): Wyoming vs. UNLV: first seen: 1 vetted on Wyoming ($13.1k), fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi 45¢ → 46¢
 - Sat Nov 7, 1:12 PM (hourly): Spread: UNLV (-4.5): Kalshi 49¢ → 48¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: UNLV (-4.5): Kalshi matched at 49¢
@@ -659,6 +612,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | 46¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 46¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.1k | $0 | 39¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $41 | $0 | 48¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 46¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $41 | $0 | 48¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -680,6 +636,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 4:15 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 4:15 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
+### SC Cambuur-Leeuwarden vs. PSV · starts Sun Nov 8, 3:45 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Will PSV win on 2026-11-08?: first seen: 1 vetted on No ($41), fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will PSV win on 2026-11-08? → No | SnakeBall $41 | $0 | 31¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### SSC Napoli vs. SS Lazio - More Markets · starts Sun Nov 8, 11:30 AM
 
 - Sat Nov 7, 3:17 PM (hourly): SSC Napoli vs. SS Lazio: O/U 4.5: Kalshi 84¢ → 83¢
@@ -687,6 +651,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | SSC Napoli vs. SS Lazio: O/U 4.5 → Under | SnakeBall $46 | $0 | 83¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | SSC Napoli vs. SS Lazio: O/U 4.5 → Under | SnakeBall $46 | $0 | 83¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | SSC Napoli vs. SS Lazio: O/U 4.5 → Under | SnakeBall $47 | $0 | 84¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | SSC Napoli vs. SS Lazio: O/U 4.5 → Under | SnakeBall $47 | $0 | 84¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -719,6 +684,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Kentucky vs. Tennessee: O/U 53.5 → Over | SnakeBall $48 | $0 | 40¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Kentucky vs. Tennessee → Tennessee | SnakeBall $482 | $0 | 66¢ YES | fails: only 1 vetted wallet with $482 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Kentucky vs. Tennessee: O/U 51.5 → Over | SnakeBall $181 | $0 | 44¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Tennessee (-7.5) → Tennessee | SnakeBall $8 | $0 | 42¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Tennessee (-3.5) → Kentucky | primm $428 | $0 | 44¢ NO | fails: only 1 vetted wallet with $428 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Tennessee (-5.5) → Kentucky | ferrariChampions2026 $566, SnakeBall $503 | $0 | 49¢ NO | fails: only 2 vetted wallets with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Tennessee (-6.5) → Tennessee | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $1.7k | $0 | 48¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Kentucky vs. Tennessee: O/U 53.5 → Over | SnakeBall $49 | $0 | 40¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Kentucky vs. Tennessee → Tennessee | SnakeBall $482 | $0 | 66¢ YES | fails: only 1 vetted wallet with $482 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Kentucky vs. Tennessee: O/U 51.5 → Over | SnakeBall $181 | $0 | 44¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -789,6 +761,181 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Kentucky vs. Tennessee: O/U 51.5 → Over | SnakeBall $181 | $0 | 44¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Kentucky vs. Tennessee → Tennessee | SnakeBall $489 | $0 | 66¢ YES | fails: only 1 vetted wallet with $489 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Hertha BSC vs. VfL Wolfsburg - More Markets · starts Sat Nov 7, 7:30 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Hertha BSC (-2.5): first seen: 1 vetted on Hertha BSC ($65), fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: Both Teams to Score: all vetted wallets left Yes
+- Sat Nov 7, 10:14 AM (hourly): Spread: Hertha BSC (-3.5): all vetted wallets left Hertha BSC
+- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 1.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5: all vetted wallets left Over
+- Sat Nov 7, 5:17 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: Kalshi matched at 72¢
+- Sat Nov 7, 1:15 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: first seen: 1 vetted on Under ($67), fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Hertha BSC (-2.5) → Hertha BSC | SnakeBall $65 | $0 | 13¢ YES | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
+| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
+| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
+| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Valencia CF vs. Real Madrid CF - More Markets · starts Sat Nov 7, 8:00 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Real Madrid CF (-2.5): back: 1 vetted on Real Madrid CF ($68), fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 3:17 PM (hourly): Spread: Real Madrid CF (-3.5): back: 1 vetted on Real Madrid CF ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line
+- Sat Nov 7, 12:14 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 15¢
+- Sat Nov 7, 12:14 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 35¢
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 0.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): Spread: Valencia CF (-1.5): all vetted wallets left Valencia CF
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: Both Teams to Score: all vetted wallets left No
+- Sat Nov 7, 10:14 AM (hourly): Spread: Valencia CF (-2.5): all vetted wallets left Real Madrid CF
+- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-4.5): all vetted wallets left Valencia CF
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-2.5): all vetted wallets left Real Madrid CF
+- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-1.5): all vetted wallets left Valencia CF
+- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-3.5): all vetted wallets left Valencia CF
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 14¢
+- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 34¢
+- Sat Nov 7, 5:17 AM (hourly): Spread: Real Madrid CF (-1.5): Kalshi matched at 44¢
+- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: Kalshi matched at 45¢
+- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 14¢
+- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 34¢
+- Sat Nov 7, 2:16 AM (hourly): Spread: Real Madrid CF (-1.5): Kalshi 45¢ → 44¢
+- Sat Nov 7, 2:16 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi 15¢ → 14¢
+- Sat Nov 7, 1:15 AM (hourly): Spread: Real Madrid CF (-1.5): first seen: 1 vetted on Valencia CF ($776), fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: first seen: 1 vetted on Over ($6.4k), fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 15¢
+- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Flaznorp joined Under (+$25)
+- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 33¢
+- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Flaznorp joined Under (+$29)
+- Fri Nov 6, 10:16 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi 34¢ → 33¢
+- Fri Nov 6, 8:15 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: first seen: 1 vetted on Under ($7), fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+)
+- Fri Nov 6, 8:15 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: first seen: 1 vetted on Under ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | SnakeBall $68 | $0 | 34¢ YES | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 3:17 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 2:20 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 11:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 14¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 9:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $25, SnakeBall $7 | $0 | — | fails: only 2 vetted wallets with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39, Flaznorp $29 | $0 | — | fails: only 2 vetted wallets with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $187 | $0 | — | fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $275 | $0 | — | fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $868 | $0 | — | fails: only 1 vetted wallet with $868 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi market not open |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $182 | $0 | 3¢ YES | fails: only 1 vetted wallet with $182 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $275 | $0 | — | fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $794 | $0 | 44¢ NO | fails: only 1 vetted wallet with $794 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $868 | $0 | — | fails: only 1 vetted wallet with $868 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $26, SnakeBall $8 | $0 | 14¢ NO | fails: only 2 vetted wallets with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | 34¢ NO | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | — | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $273 | $0 | — | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | — | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $877 | $0 | — | fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $24, SnakeBall $7 | $0 | — | fails: only 2 vetted wallets with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | — | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; Kalshi market not open |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $94 | $0 | 35¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | 3¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $271 | $0 | — | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | 44¢ NO | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $828 | $0 | — | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $24, SnakeBall $7 | $0 | 14¢ NO | fails: only 2 vetted wallets with $31 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | 33¢ NO | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; Kalshi market not open |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $94 | $0 | 35¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | 3¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $271 | $0 | — | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $730 | $0 | — | fails: only 1 vetted wallet with $730 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | 45¢ NO | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $25, SnakeBall $7 | $0 | 15¢ NO | fails: only 2 vetted wallets with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39, Flaznorp $29 | $0 | 33¢ NO | fails: only 2 vetted wallets with $68 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 11:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 10:16 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 33¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 8:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 8:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Paris Saint-Germain FC vs. ES Troyes AC · starts Sat Nov 7, 8:05 PM
 
 - Sat Nov 7, 1:12 PM (hourly): Will Paris Saint-Germain FC vs. ES Troyes AC end in a draw?: Kalshi 10¢ → 11¢
@@ -805,6 +952,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Paris Saint-Germain FC vs. ES Troyes AC end in a draw? → Yes | SnakeBall $77 | $0 | 11¢ YES | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-07? → No | SnakeBall $19 | $0 | 16¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 16c vs leaders 12c |
 | Sat Nov 7, 3:17 PM | hourly | Will Paris Saint-Germain FC vs. ES Troyes AC end in a draw? → Yes | SnakeBall $77 | $0 | 11¢ YES | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Paris Saint-Germain FC win on 2026-11-07? → No | SnakeBall $19 | $0 | 16¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 16c vs leaders 12c |
 | Sat Nov 7, 2:20 PM | hourly | Will Paris Saint-Germain FC vs. ES Troyes AC end in a draw? → Yes | SnakeBall $77 | $0 | 11¢ YES | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -854,6 +1003,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 50¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 50¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -884,6 +1035,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Louisiana Tech (-4.5) → Troy | SnakeBall $82 | $0 | 45¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Louisiana Tech vs. Troy → Louisiana Tech | tradecraft $67 | $0 | 68¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Louisiana Tech (-4.5) → Troy | SnakeBall $82 | $0 | 45¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Louisiana Tech vs. Troy → Louisiana Tech | tradecraft $67 | $0 | 68¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Louisiana Tech (-4.5) → Troy | SnakeBall $82 | $0 | 45¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -916,6 +1069,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Parma Calcio 1913 vs. Bologna FC 1909: O/U 4.5 → Under | SnakeBall $99 | $0 | 91¢ NO | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Parma Calcio 1913 vs. Bologna FC 1909: O/U 2.5 → Under | ferrariChampions2026 $2.4k | $0 | 55¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Parma Calcio 1913 vs. Bologna FC 1909: O/U 4.5 → Under | SnakeBall $99 | $0 | 91¢ NO | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Parma Calcio 1913 vs. Bologna FC 1909: O/U 2.5 → Under | ferrariChampions2026 $2.4k | $0 | 55¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Parma Calcio 1913 vs. Bologna FC 1909: O/U 4.5 → Under | SnakeBall $99 | $0 | 91¢ NO | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -933,6 +1088,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### UCF vs. Kansas · starts Sat Nov 7, 8:45 PM
 
+- Sat Nov 7, 4:15 PM (hourly): UCF vs. Kansas: O/U 49.5: Kalshi 47¢ → 48¢
+- Sat Nov 7, 4:15 PM (hourly): Spread: Kansas (-2.5): first seen: 1 vetted on UCF ($1.4k), fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (hourly): UCF vs. Kansas: Kalshi 62¢ → 65¢
+- Sat Nov 7, 4:15 PM (hourly): UCF vs. Kansas: ferrariChampions2026 added $11.4k on Kansas
 - Sat Nov 7, 3:17 PM (hourly): UCF vs. Kansas: first seen: 1 vetted on Kansas ($444), fails: only 1 vetted wallet with $444 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:14 PM (hourly): UCF vs. Kansas: O/U 49.5: Kalshi matched at 47¢
 - Sat Nov 7, 10:14 AM (hourly): UCF vs. Kansas: O/U 49.5: Kalshi matched at 47¢
@@ -943,6 +1102,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | UCF vs. Kansas: O/U 49.5 → Over | SnakeBall $107 | $0 | 48¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Kansas (-2.5) → UCF | primm $1.4k | $0 | 39¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | UCF vs. Kansas → Kansas | ferrariChampions2026 $11.8k | $0 | 65¢ YES | fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | UCF vs. Kansas: O/U 49.5 → Over | SnakeBall $107 | $0 | 47¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | UCF vs. Kansas → Kansas | ferrariChampions2026 $444 | $0 | 62¢ YES | fails: only 1 vetted wallet with $444 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | UCF vs. Kansas: O/U 49.5 → Over | SnakeBall $107 | $0 | 47¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -962,6 +1124,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Boise State vs. Colorado State · starts Sat Nov 7, 11:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Boise State (-16.5): Kalshi 49¢ → 50¢
 - Sat Nov 7, 2:20 PM (hourly): Spread: Boise State (-16.5): Kalshi 48¢ → 49¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Boise State (-17.5): Kalshi matched at 47¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Boise State (-16.5): Kalshi matched at 48¢
@@ -976,6 +1139,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Boise State (-17.5) → Boise State | SnakeBall $111 | $0 | 47¢ YES | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Boise State (-16.5) → Colorado State | SnakeBall $109 | $0 | 50¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Boise State vs. Colorado State → Colorado State | SnakeBall $38 | $0 | 13¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Boise State (-17.5) → Boise State | SnakeBall $111 | $0 | 47¢ YES | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Boise State (-16.5) → Colorado State | SnakeBall $109 | $0 | 49¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Boise State vs. Colorado State → Colorado State | SnakeBall $37 | $0 | 13¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1012,6 +1178,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Atlético Nacional vs. Deportivo Pereira - More Markets · starts Sat Nov 7, 11:10 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Atlético Nacional vs. Deportivo Pereira: O/U 3.5: Kalshi 44¢ → 43¢
 - Sat Nov 7, 1:12 PM (hourly): Atlético Nacional vs. Deportivo Pereira: O/U 3.5: Kalshi 45¢ → 44¢
 - Sat Nov 7, 12:14 PM (hourly): Atlético Nacional vs. Deportivo Pereira: O/U 3.5: Kalshi matched at 45¢
 - Sat Nov 7, 10:14 AM (hourly): Atlético Nacional vs. Deportivo Pereira: Atlético Nacional O/U 1.5: all vetted wallets left Under
@@ -1024,6 +1191,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Atlético Nacional vs. Deportivo Pereira: O/U 3.5 → Over | SnakeBall $117 | $0 | 43¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Atlético Nacional vs. Deportivo Pereira: O/U 3.5 → Over | SnakeBall $117 | $0 | 44¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Atlético Nacional vs. Deportivo Pereira: O/U 3.5 → Over | SnakeBall $117 | $0 | 44¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Atlético Nacional vs. Deportivo Pereira: O/U 3.5 → Over | SnakeBall $117 | $0 | 44¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1059,6 +1227,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Louisiana-Monroe vs. Arkansas State: O/U 49.5 → Under | SnakeBall $162 | $0 | 41¢ NO | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Louisiana-Monroe vs. Arkansas State: O/U 53.5 → Over | SnakeBall $102 | $0 | 48¢ YES | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Louisiana-Monroe vs. Arkansas State: O/U 49.5 → Under | SnakeBall $156 | $0 | 41¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Louisiana-Monroe vs. Arkansas State: O/U 53.5 → Over | SnakeBall $103 | $0 | 48¢ YES | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Louisiana-Monroe vs. Arkansas State: O/U 49.5 → Under | SnakeBall $156 | $0 | 41¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1097,6 +1267,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Liberty vs. New Mexico State → New Mexico State | SnakeBall $176 | $0 | 14¢ YES | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Liberty (-16.5) → Liberty | SnakeBall $477 | $0 | 49¢ YES | fails: only 1 vetted wallet with $477 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Liberty vs. New Mexico State: O/U 47.5 → Over | primm $487 | $0 | 49¢ YES | fails: only 1 vetted wallet with $487 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Liberty vs. New Mexico State → New Mexico State | SnakeBall $176 | $0 | 14¢ YES | fails: only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Liberty (-16.5) → Liberty | SnakeBall $477 | $0 | 49¢ YES | fails: only 1 vetted wallet with $477 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Liberty vs. New Mexico State: O/U 47.5 → Over | primm $487 | $0 | 49¢ YES | fails: only 1 vetted wallet with $487 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1123,6 +1296,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Texas vs. Missouri · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Spread: Texas (-3.5): Kalshi 44¢ → 42¢
+- Sat Nov 7, 4:15 PM (pregame): Texas vs. Missouri: O/U 47.5: first seen: 1 vetted on Under ($3.2k), fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (pregame): Spread: Texas (-2.5): Kalshi 49¢ → 50¢
 - Sat Nov 7, 2:20 PM (hourly): Spread: Texas (-3.5): first seen: 1 vetted on Texas ($228), fails: only 1 vetted wallet with $228 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:14 PM (hourly): Spread: Texas (-2.5): Kalshi matched at 49¢
 - Sat Nov 7, 10:14 AM (hourly): Spread: Texas (-2.5): Kalshi matched at 49¢
@@ -1131,6 +1307,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Texas (-3.5) → Texas | SnakeBall $223 | $0 | 42¢ YES | fails: only 1 vetted wallet with $223 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Texas vs. Missouri → Missouri | SnakeBall $366 | $0 | 44¢ YES | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Texas vs. Missouri: O/U 47.5 → Under | primm $3.2k | $0 | 61¢ NO | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Texas (-2.5) → Missouri | ferrariChampions2026 $1.1k | $0 | 50¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Texas (-3.5) → Texas | SnakeBall $223 | $0 | 44¢ YES | fails: only 1 vetted wallet with $223 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Texas vs. Missouri → Missouri | SnakeBall $366 | $0 | 44¢ YES | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Texas (-2.5) → Missouri | ferrariChampions2026 $1.1k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1174,6 +1354,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Atlas FC win on 2026-11-07? → Yes | SnakeBall $236 | $0 | 39¢ YES | fails: only 1 vetted wallet with $236 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Atlas FC win on 2026-11-07? → Yes | SnakeBall $236 | $0 | 39¢ YES | fails: only 1 vetted wallet with $236 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Atlas FC win on 2026-11-07? → Yes | SnakeBall $236 | $0 | 39¢ YES | fails: only 1 vetted wallet with $236 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will Atlas FC win on 2026-11-07? → Yes | SnakeBall $236 | $0 | 39¢ YES | fails: only 1 vetted wallet with $236 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1196,6 +1377,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Iowa vs. Northwestern · starts Sun Nov 8, 12:30 AM
 
+- Sat Nov 7, 4:15 PM (hourly): Iowa vs. Northwestern: Kalshi 58¢ → 59¢
+- Sat Nov 7, 4:15 PM (hourly): Iowa vs. Northwestern: ferrariChampions2026 joined Iowa (+$134)
 - Sat Nov 7, 2:20 PM (hourly): Spread: Iowa (-2.5): Kalshi 49¢ → 48¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Iowa (-2.5): Kalshi matched at 49¢
 - Sat Nov 7, 10:14 AM (hourly): Spread: Iowa (-2.5): Kalshi matched at 49¢
@@ -1204,20 +1387,36 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $249 | $0 | 48¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Iowa vs. Northwestern → Iowa | ferrariChampions2026 $134, tradecraft $14 | $0 | 59¢ YES | fails: only 2 vetted wallets with $147 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 48¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $14 | $0 | 58¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 52c |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 48¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 1:12 PM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 49¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 12:14 PM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 49¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 11:15 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 11:15 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 10:14 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 49¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 9:15 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:15 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 8:17 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $254 | $0 | 49¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
+| Sat Nov 7, 5:17 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 5:17 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $257 | $0 | 49¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 4:15 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $102 | $0 | — | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 2:16 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 2:16 AM | hourly | Spread: Iowa (-2.5) → Northwestern | SnakeBall $30 | $0 | 49¢ NO | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Iowa vs. Northwestern → Iowa | tradecraft $13 | $0 | 56¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 
 ### Tulsa vs. Tulane · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Spread: Tulsa (-3.5): first seen: 1 vetted on Tulane ($337), fails: only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (pregame): Spread: Tulsa (-2.5): Kalshi 48¢ → 47¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Tulane (-1.5): Kalshi matched at 40¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Tulsa (-2.5): Kalshi matched at 48¢
 - Sat Nov 7, 10:14 AM (hourly): Spread: Tulane (-1.5): Kalshi matched at 40¢
@@ -1232,6 +1431,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Tulane (-1.5) → Tulane | SnakeBall $297 | $0 | 40¢ YES | fails: only 1 vetted wallet with $297 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Tulsa (-3.5) → Tulane | SnakeBall $337 | $0 | 54¢ NO | fails: only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Tulsa vs. Tulane → Tulsa | SnakeBall $307 | $0 | 58¢ YES | fails: only 1 vetted wallet with $307 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 55c |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Tulsa (-2.5) → Tulane | ferrariChampions2026 $2.7k | $0 | 47¢ NO | fails: only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Tulane (-1.5) → Tulane | SnakeBall $297 | $0 | 40¢ YES | fails: only 1 vetted wallet with $297 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Tulsa vs. Tulane → Tulsa | SnakeBall $307 | $0 | 58¢ YES | fails: only 1 vetted wallet with $307 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 55c |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Tulsa (-2.5) → Tulane | ferrariChampions2026 $2.7k | $0 | 48¢ NO | fails: only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1280,6 +1483,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Fresno State vs. Utah State · starts Sun Nov 8, 2:30 AM
 
+- Sat Nov 7, 4:15 PM (hourly): Fresno State vs. Utah State: O/U 39.5: Kalshi 39¢ → 38¢
+- Sat Nov 7, 4:15 PM (hourly): Fresno State vs. Utah State: O/U 43.5: Kalshi 51¢ → 50¢
 - Sat Nov 7, 3:17 PM (hourly): Fresno State vs. Utah State: O/U 39.5: Kalshi 40¢ → 39¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Fresno State (-1.5): Kalshi matched at 49¢
 - Sat Nov 7, 12:14 PM (hourly): Fresno State vs. Utah State: O/U 39.5: Kalshi matched at 40¢
@@ -1295,6 +1500,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Fresno State (-1.5) → Fresno State | SnakeBall $437 | $0 | 49¢ YES | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Fresno State vs. Utah State: O/U 39.5 → Under | SnakeBall $86 | $0 | 38¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Fresno State vs. Utah State: O/U 43.5 → Under | SnakeBall $204 | $0 | 50¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Fresno State (-1.5) → Fresno State | SnakeBall $437 | $0 | 49¢ YES | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Fresno State vs. Utah State: O/U 39.5 → Under | SnakeBall $88 | $0 | 39¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Fresno State vs. Utah State: O/U 43.5 → Under | SnakeBall $204 | $0 | 51¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1330,6 +1538,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Paris Saint-Germain FC vs. ES Troyes AC - More Markets · starts Sat Nov 7, 8:05 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Paris Saint-Germain FC (-2.5): Kalshi 59¢ → 60¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: Paris Saint-Germain FC (-2.5): Kalshi 60¢ → 59¢
 - Sat Nov 7, 1:12 PM (hourly): Spread: Paris Saint-Germain FC (-2.5): Kalshi 58¢ → 60¢
 - Sat Nov 7, 12:14 PM (hourly): Paris Saint-Germain FC vs. ES Troyes AC: O/U 5.5: Kalshi matched at 85¢
@@ -1365,6 +1574,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Paris Saint-Germain FC vs. ES Troyes AC: O/U 5.5 → Under | SnakeBall $465 | $0 | 85¢ NO | fails: only 1 vetted wallet with $465 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Paris Saint-Germain FC (-4.5) → ES Troyes AC | SnakeBall $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 4:15 PM | hourly | Paris Saint-Germain FC vs. ES Troyes AC: O/U 2.5 → Under | SnakeBall $180 | $0 | 29¢ NO | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 23c |
+| Sat Nov 7, 4:15 PM | hourly | Paris Saint-Germain FC vs. ES Troyes AC: O/U 3.5 → Over | ferrariChampions2026 $167 | $0 | 50¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Paris Saint-Germain FC (-2.5) → ES Troyes AC | ferrariChampions2026 $13.6k, SnakeBall $72 | $0 | 60¢ NO | passes |
 | Sat Nov 7, 3:17 PM | hourly | Paris Saint-Germain FC vs. ES Troyes AC: O/U 5.5 → Under | SnakeBall $459 | $0 | 85¢ NO | fails: only 1 vetted wallet with $459 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Paris Saint-Germain FC (-4.5) → ES Troyes AC | SnakeBall $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
 | Sat Nov 7, 3:17 PM | hourly | Paris Saint-Germain FC vs. ES Troyes AC: O/U 2.5 → Under | SnakeBall $180 | $0 | 29¢ NO | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 23c |
@@ -1460,11 +1674,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### North Carolina A&T vs. Monmouth · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): North Carolina A&T vs. Monmouth: Kalshi 88¢ → 89¢
 - Sat Nov 7, 3:17 PM (hourly): North Carolina A&T vs. Monmouth: Kalshi 89¢ → 88¢
 - Sat Nov 7, 2:20 PM (hourly): North Carolina A&T vs. Monmouth: first seen: 1 vetted on Monmouth ($657), fails: only 1 vetted wallet with $657 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | North Carolina A&T vs. Monmouth → Monmouth | SnakeBall $661 | $0 | 89¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | North Carolina A&T vs. Monmouth → Monmouth | SnakeBall $661 | $0 | 88¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | North Carolina A&T vs. Monmouth → Monmouth | SnakeBall $657 | $0 | 89¢ YES | fails: only 1 vetted wallet with $657 (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -1482,6 +1698,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Oregon vs. Ohio State → Ohio State | SnakeBall $677 | $0 | 73¢ YES | fails: only 1 vetted wallet with $677 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Oregon vs. Ohio State: O/U 43.5 → Under | primm $47 | $0 | 45¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Oregon vs. Ohio State: O/U 45.5 → Over | SnakeBall $305 | $84 | 48¢ YES | fails: only 1 vetted wallet with $305 (needs 3+ wallets, or 2 with $5.0k+); opposition 28% |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Ohio State (-5.5) → Oregon | primm $448 | $0 | 41¢ NO | fails: only 1 vetted wallet with $448 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Ohio State (-6.5) → Oregon | primm $4.9k | $0 | 43¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Oregon vs. Ohio State → Ohio State | SnakeBall $677 | $0 | 73¢ YES | fails: only 1 vetted wallet with $677 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Oregon vs. Ohio State: O/U 43.5 → Under | primm $47 | $0 | 45¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Oregon vs. Ohio State: O/U 45.5 → Over | SnakeBall $305 | $84 | 48¢ YES | fails: only 1 vetted wallet with $305 (needs 3+ wallets, or 2 with $5.0k+); opposition 28% |
@@ -1522,134 +1743,31 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: AC Milan (-1.5) → Genoa CFC | SnakeBall $57 | $0 | 73¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: AC Milan (-1.5) → Genoa CFC | SnakeBall $57 | $0 | 73¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: AC Milan (-1.5) → Genoa CFC | SnakeBall $57 | $0 | 73¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Valencia CF vs. Real Madrid CF - More Markets · starts Sat Nov 7, 8:00 PM
+### Atlético Nacional vs. Deportivo Pereira · starts Sat Nov 7, 11:10 PM
 
-- Sat Nov 7, 3:17 PM (hourly): Spread: Real Madrid CF (-3.5): back: 1 vetted on Real Madrid CF ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line
-- Sat Nov 7, 12:14 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 15¢
-- Sat Nov 7, 12:14 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 35¢
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 0.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Spread: Valencia CF (-1.5): all vetted wallets left Valencia CF
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: Both Teams to Score: all vetted wallets left No
-- Sat Nov 7, 10:14 AM (hourly): Spread: Valencia CF (-2.5): all vetted wallets left Real Madrid CF
-- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-4.5): all vetted wallets left Valencia CF
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-2.5): all vetted wallets left Real Madrid CF
-- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-1.5): all vetted wallets left Valencia CF
-- Sat Nov 7, 10:14 AM (hourly): Spread: Real Madrid CF (-3.5): all vetted wallets left Valencia CF
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 14¢
-- Sat Nov 7, 10:14 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 34¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: Real Madrid CF (-1.5): Kalshi matched at 44¢
-- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: Kalshi matched at 45¢
-- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 14¢
-- Sat Nov 7, 5:17 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 34¢
-- Sat Nov 7, 2:16 AM (hourly): Spread: Real Madrid CF (-1.5): Kalshi 45¢ → 44¢
-- Sat Nov 7, 2:16 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi 15¢ → 14¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: Real Madrid CF (-1.5): first seen: 1 vetted on Valencia CF ($776), fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 3.5: first seen: 1 vetted on Over ($6.4k), fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Kalshi matched at 15¢
-- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: Flaznorp joined Under (+$25)
-- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi matched at 33¢
-- Sat Nov 7, 1:15 AM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Flaznorp joined Under (+$29)
-- Fri Nov 6, 10:16 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: Kalshi 34¢ → 33¢
-- Fri Nov 6, 8:15 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 1.5: first seen: 1 vetted on Under ($7), fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 8:15 PM (hourly): Valencia CF vs. Real Madrid CF: O/U 2.5: first seen: 1 vetted on Under ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 12:14 PM (hourly): Will Deportivo Pereira win on 2026-11-07?: first seen: 1 vetted on No ($266), fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Will Atlético Nacional win on 2026-11-07?: all vetted wallets left No
+- Sat Nov 7, 8:17 AM (hourly): Will Atlético Nacional win on 2026-11-07?: Kalshi 18¢ → 21¢
+- Sat Nov 7, 5:17 AM (hourly): Will Atlético Nacional win on 2026-11-07?: Kalshi matched at 18¢
+- Sat Nov 7, 1:15 AM (hourly): Will Atlético Nacional win on 2026-11-07?: first seen: 1 vetted on No ($61), fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Real Madrid CF (-3.5) → Real Madrid CF | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 2:20 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 15¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | 35¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 11:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $8 | $0 | 14¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $25, SnakeBall $7 | $0 | — | fails: only 2 vetted wallets with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39, Flaznorp $29 | $0 | — | fails: only 2 vetted wallets with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $187 | $0 | — | fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $275 | $0 | — | fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $868 | $0 | — | fails: only 1 vetted wallet with $868 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi market not open |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $182 | $0 | 3¢ YES | fails: only 1 vetted wallet with $182 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $275 | $0 | — | fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $794 | $0 | 44¢ NO | fails: only 1 vetted wallet with $794 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $868 | $0 | — | fails: only 1 vetted wallet with $868 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $26, SnakeBall $8 | $0 | 14¢ NO | fails: only 2 vetted wallets with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | 34¢ NO | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | — | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $273 | $0 | — | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | — | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $877 | $0 | — | fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $24, SnakeBall $7 | $0 | — | fails: only 2 vetted wallets with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | — | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; Kalshi market not open |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $94 | $0 | 35¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | 3¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $271 | $0 | — | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | 44¢ NO | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $828 | $0 | — | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $24, SnakeBall $7 | $0 | 14¢ NO | fails: only 2 vetted wallets with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $38, Flaznorp $28 | $0 | 33¢ NO | fails: only 2 vetted wallets with $66 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: Valencia CF 1st Half O/U 0.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Valencia CF (-2.5) → Real Madrid CF | Flaznorp $47 | $0 | 100¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; Kalshi market not open |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-4.5) → Valencia CF | Flaznorp $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 0.5 → Over | Flaznorp $85 | $0 | 98¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-2.5) → Real Madrid CF | Flaznorp $94 | $0 | 35¢ YES | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Valencia CF (-1.5) → Valencia CF | Flaznorp $177 | $0 | 3¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-3.5) → Valencia CF | Flaznorp $271 | $0 | — | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: Both Teams to Score → No | Flaznorp $730 | $0 | — | fails: only 1 vetted wallet with $730 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Real Madrid CF (-1.5) → Valencia CF | Flaznorp $776 | $0 | 45¢ NO | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 3.5 → Over | Flaznorp $6.4k | $0 | 45¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | Flaznorp $25, SnakeBall $7 | $0 | 15¢ NO | fails: only 2 vetted wallets with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39, Flaznorp $29 | $0 | 33¢ NO | fails: only 2 vetted wallets with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 11:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 10:16 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 33¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 1.5 → Under | SnakeBall $7 | $0 | 14¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Valencia CF vs. Real Madrid CF: O/U 2.5 → Under | SnakeBall $39 | $0 | 34¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $267 | $0 | 95¢ NO | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢ |
+| Sat Nov 7, 2:20 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $156 | $0 | 21¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 21c vs leaders 18c |
+| Sat Nov 7, 5:17 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $120 | $0 | 18¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 2:16 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | 17¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | 17¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Georgia State vs. Appalachian State · starts Sat Nov 7, 7:30 PM
 
@@ -1662,6 +1780,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Georgia State vs. Appalachian State → Georgia State | SnakeBall $8 | $0 | 32¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Georgia State vs. Appalachian State → Georgia State | SnakeBall $8 | $0 | 32¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Georgia State vs. Appalachian State → Georgia State | SnakeBall $8 | $0 | 32¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Georgia State vs. Appalachian State → Georgia State | SnakeBall $8 | $0 | 32¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1689,6 +1808,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Orlando City SC (-1.5) → Orlando City SC | SnakeBall $53 | $0 | 29¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Orlando City SC (-1.5) → Orlando City SC | SnakeBall $54 | $0 | 29¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Orlando City SC (-1.5) → Orlando City SC | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 1:12 PM | hourly | Spread: Orlando City SC (-1.5) → Orlando City SC | SnakeBall $54 | $0 | 29¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1706,34 +1826,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will SK Slavia Praha win on 2026-11-08? → No | SnakeBall $4 | $0 | 17¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will SK Slavia Praha win on 2026-11-08? → No | SnakeBall $4 | $0 | 17¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will SK Slavia Praha win on 2026-11-08? → No | SnakeBall $4 | $0 | 17¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CD Nacional vs. Académico de Viseu FC · starts Sat Nov 7, 3:30 PM
-
-- Sat Nov 7, 3:17 PM (pregame): Will Académico de Viseu FC win on 2026-11-07?: back: 1 vetted on No ($30), fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:15 AM (hourly): Will CD Nacional win on 2026-11-07?: Kalshi 71¢ → 70¢
-- Sat Nov 7, 10:14 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: Kalshi 69¢ → 71¢
-- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: Flaznorp left
-- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: SnakeBall joined No (+$58)
-- Sat Nov 7, 8:17 AM (hourly): Will CD Nacional win on 2026-11-07?: first seen: 1 vetted on No ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:17 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: Kalshi 62¢ → 60¢
-- Sat Nov 7, 5:17 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: first seen: 1 vetted on No ($262), fails: only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | pregame | Will CD Nacional win on 2026-11-07? → No | SnakeBall $56 | $0 | 70¢ NO | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | pregame | Will Académico de Viseu FC win on 2026-11-07? → No | tradecraft $30 | $0 | 61¢ NO | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $57 | $0 | 70¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 71¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Will CD Nacional win on 2026-11-07? → No | Flaznorp $89 | $0 | 69¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | Flaznorp $258 | $0 | 60¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | Flaznorp $262 | $0 | 62¢ NO | fails: only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Parma Calcio 1913 vs. Bologna FC 1909 · starts Sat Nov 7, 5:00 PM
 
@@ -1753,6 +1848,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Will Parma Calcio 1913 vs. Bologna FC 1909 end in a draw? → Yes | SnakeBall $159 | $0 | 27¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Parma Calcio 1913 vs. Bologna FC 1909 end in a draw? → Yes | SnakeBall $159 | $0 | 27¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Parma Calcio 1913 vs. Bologna FC 1909 end in a draw? → Yes | SnakeBall $159 | $0 | 27¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will Parma Calcio 1913 vs. Bologna FC 1909 end in a draw? → Yes | SnakeBall $159 | $0 | 27¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1792,6 +1888,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Deportivo Toluca FC win on 2026-11-07? → No | SnakeBall $81 | $0 | 43¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Deportivo Toluca FC win on 2026-11-07? → No | SnakeBall $81 | $0 | 43¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Deportivo Toluca FC win on 2026-11-07? → No | SnakeBall $81 | $0 | 43¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will Deportivo Toluca FC win on 2026-11-07? → No | SnakeBall $81 | $0 | 43¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1846,6 +1943,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Manchester City FC (-1.5) → Nottingham Forest FC | SnakeBall $58 | $0 | 68¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Nottingham Forest FC vs. Manchester City FC: O/U 2.5 → Under | ferrariChampions2026 $350 | $0 | 42¢ NO | fails: only 1 vetted wallet with $350 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Nottingham Forest FC vs. Manchester City FC: O/U 0.5 → Under | SnakeBall $2, tradecraft $1 | $0 | 5¢ NO | fails: only 2 vetted wallets with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
+| Sat Nov 7, 4:15 PM | hourly | Nottingham Forest FC vs. Manchester City FC: O/U 3.5 → Under | tradecraft $61 | $0 | 64¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Manchester City FC (-1.5) → Nottingham Forest FC | SnakeBall $58 | $0 | 68¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Nottingham Forest FC vs. Manchester City FC: O/U 2.5 → Under | ferrariChampions2026 $350 | $0 | 42¢ NO | fails: only 1 vetted wallet with $350 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Nottingham Forest FC vs. Manchester City FC: O/U 0.5 → Under | SnakeBall $2, tradecraft $1 | $0 | 5¢ NO | fails: only 2 vetted wallets with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
@@ -1945,6 +2046,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Dalian Yingbo FC win on 2026-11-08? → No | SnakeBall $37 | $0 | 29¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Dalian Yingbo FC win on 2026-11-08? → No | SnakeBall $37 | $0 | 29¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Dalian Yingbo FC win on 2026-11-08? → No | SnakeBall $37 | $0 | 29¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will Dalian Yingbo FC win on 2026-11-08? → No | SnakeBall $37 | $0 | 29¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1965,6 +2067,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will AS Saint-Étienne win on 2026-11-07? → No | SnakeBall $94 | $0 | 29¢ NO | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will AS Saint-Étienne win on 2026-11-07? → No | SnakeBall $94 | $0 | 29¢ NO | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will AS Saint-Étienne win on 2026-11-07? → No | SnakeBall $94 | $0 | 29¢ NO | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will AS Saint-Étienne win on 2026-11-07? → No | SnakeBall $94 | $0 | 29¢ NO | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1975,6 +2078,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### AS Roma vs. US Sassuolo Calcio - More Markets · starts Sat Nov 7, 7:45 PM
 
+- Sat Nov 7, 4:15 PM (hourly): AS Roma vs. US Sassuolo Calcio: O/U 3.5: ferrariChampions2026 added $1.5k on Under
+- Sat Nov 7, 4:15 PM (hourly): Spread: AS Roma (-1.5): Kalshi 52¢ → 50¢
 - Sat Nov 7, 2:20 PM (hourly): AS Roma vs. US Sassuolo Calcio: O/U 1.5: Kalshi 12¢ → 13¢
 - Sat Nov 7, 12:14 PM (hourly): AS Roma vs. US Sassuolo Calcio: O/U 1.5: Kalshi matched at 12¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: AS Roma (-1.5): Kalshi matched at 52¢
@@ -1995,14 +2100,22 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | 13¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $3.2k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $8.5k | $0 | 50¢ YES | fails: only 1 vetted wallet with $8.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | 13¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $1.6k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 7, 3:17 PM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $8.5k | $0 | 52¢ YES | fails: only 1 vetted wallet with $8.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | 13¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $1.6k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 7, 2:20 PM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $8.9k | $0 | 52¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $1.6k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 7, 1:12 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | 12¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $8.9k | $0 | 52¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $1.6k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 7, 12:14 PM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | 12¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 12:14 PM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $8.9k | $0 | 52¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 3.5 → Under | ferrariChampions2026 $1.6k | $0 | — | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 7, 11:15 AM | hourly | AS Roma vs. US Sassuolo Calcio: O/U 1.5 → Under | SnakeBall $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 7, 11:15 AM | hourly | Spread: AS Roma (-1.5) → AS Roma | ferrariChampions2026 $9.1k | $0 | — | fails: only 1 vetted wallet with $9.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 10:14 AM | hourly | Spread: AS Roma (-2.5) → AS Roma | none | $0 | — | fails: no vetted wallets hold it now |
@@ -2042,6 +2155,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will SS Lazio win on 2026-11-08? → No | SnakeBall $123 | $0 | 68¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will SS Lazio win on 2026-11-08? → No | SnakeBall $123 | $0 | 68¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will SS Lazio win on 2026-11-08? → No | SnakeBall $123 | $0 | 68¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will SS Lazio win on 2026-11-08? → No | SnakeBall $123 | $0 | 68¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2061,6 +2175,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Hertha BSC win on 2026-11-07? → No | SnakeBall $723 | $0 | 54¢ NO | fails: only 1 vetted wallet with $723 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Hertha BSC win on 2026-11-07? → No | SnakeBall $723 | $0 | 54¢ NO | fails: only 1 vetted wallet with $723 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Hertha BSC win on 2026-11-07? → No | SnakeBall $723 | $0 | 54¢ NO | fails: only 1 vetted wallet with $723 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will Hertha BSC win on 2026-11-07? → No | SnakeBall $379 | $0 | 55¢ NO | fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2082,6 +2197,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### VfB Stuttgart vs. SV Werder Bremen · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Will VfB Stuttgart win on 2026-11-07?: Kalshi 52¢ → 53¢
 - Sat Nov 7, 1:12 PM (hourly): Will VfB Stuttgart win on 2026-11-07?: Kalshi 53¢ → 52¢
 - Sat Nov 7, 10:14 AM (hourly): Will SV Werder Bremen win on 2026-11-07?: all vetted wallets left Yes
 - Sat Nov 7, 9:15 AM (hourly): Will VfB Stuttgart win on 2026-11-07?: Flaznorp left
@@ -2094,6 +2210,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will VfB Stuttgart win on 2026-11-07? → Yes | SnakeBall $302 | $0 | 53¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will VfB Stuttgart win on 2026-11-07? → Yes | SnakeBall $302 | $0 | 52¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will VfB Stuttgart win on 2026-11-07? → Yes | SnakeBall $302 | $0 | 52¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Will VfB Stuttgart win on 2026-11-07? → Yes | SnakeBall $302 | $0 | 52¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2131,6 +2248,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Valencia CF win on 2026-11-07? → No | SnakeBall $562 | $0 | 93¢ NO | fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Will Real Madrid CF win on 2026-11-07? → No | SnakeBall $35 | $0 | 22¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Valencia CF win on 2026-11-07? → No | SnakeBall $562 | $0 | 93¢ NO | fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Will Real Madrid CF win on 2026-11-07? → No | SnakeBall $35 | $0 | 22¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Will Valencia CF win on 2026-11-07? → No | SnakeBall $556 | $0 | 93¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2176,6 +2295,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Rice vs. North Texas → Rice | SnakeBall $11 | $0 | 14¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Rice vs. North Texas → Rice | SnakeBall $11 | $0 | 14¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Rice vs. North Texas → Rice | SnakeBall $11 | $0 | 14¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Rice vs. North Texas → Rice | SnakeBall $11 | $0 | 14¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2198,6 +2318,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Georgia vs. Ole Miss → Ole Miss | SnakeBall $53 | $0 | 39¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Georgia vs. Ole Miss → Ole Miss | SnakeBall $53 | $0 | 39¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Georgia vs. Ole Miss → Ole Miss | SnakeBall $53 | $0 | 39¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Georgia vs. Ole Miss → Ole Miss | SnakeBall $53 | $0 | 39¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2213,6 +2334,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### North Carolina vs. UConn · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Spread: North Carolina (-7.5): now passes
+- Sat Nov 7, 4:15 PM (pregame): Spread: North Carolina (-7.5): ferrariChampions2026 joined UConn (+$13.3k)
 - Sat Nov 7, 12:14 PM (hourly): Spread: North Carolina (-6.5): Kalshi matched at 43¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: North Carolina (-7.5): Kalshi matched at 49¢
 - Sat Nov 7, 10:14 AM (hourly): Spread: North Carolina (-6.5): Kalshi matched at 43¢
@@ -2226,6 +2349,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: North Carolina (-6.5) → UConn | SnakeBall $476 | $0 | 43¢ NO | fails: only 1 vetted wallet with $476 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: North Carolina (-7.5) → UConn | ferrariChampions2026 $13.3k, SnakeBall $425 | $0 | 49¢ NO | passes |
 | Sat Nov 7, 3:17 PM | hourly | Spread: North Carolina (-6.5) → UConn | SnakeBall $471 | $0 | 43¢ NO | fails: only 1 vetted wallet with $471 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: North Carolina (-7.5) → UConn | SnakeBall $434 | $0 | 49¢ NO | fails: only 1 vetted wallet with $434 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: North Carolina (-6.5) → UConn | SnakeBall $476 | $0 | 43¢ NO | fails: only 1 vetted wallet with $476 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2271,7 +2396,127 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Morgan State vs. Delaware State: O/U 51.5 → Under | SnakeBall $467 | $0 | 45¢ NO | fails: only 1 vetted wallet with $467 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Morgan State vs. Delaware State: O/U 51.5 → Under | SnakeBall $472 | $0 | 45¢ NO | fails: only 1 vetted wallet with $472 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rutgers vs. Wisconsin · starts Sat Nov 7, 9:15 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Rutgers vs. Wisconsin: O/U 43.5: Kalshi 44¢ → 43¢
+- Sat Nov 7, 3:17 PM (hourly): Spread: Wisconsin (-20.5): Kalshi 46¢ → 47¢
+- Sat Nov 7, 12:14 PM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
+- Sat Nov 7, 10:14 AM (hourly): Rutgers vs. Wisconsin: O/U 45.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
+- Sat Nov 7, 5:17 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
+- Sat Nov 7, 1:15 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
+- Sat Nov 7, 1:15 AM (hourly): Rutgers vs. Wisconsin: O/U 45.5: Kalshi matched at 51¢
+- Fri Nov 6, 10:16 PM (hourly): Rutgers vs. Wisconsin: O/U 45.5: first seen: 1 vetted on Under ($6.3k), fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Fri Nov 6, 10:16 PM (hourly): Spread: Wisconsin (-20.5): first seen: 1 vetted on Wisconsin ($883), fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 43¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 47¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 47¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 11:15 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | — | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 10:14 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 9:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:15 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | — | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | — | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | — | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $864 | $0 | 46¢ YES | fails: only 1 vetted wallet with $864 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 2:16 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $864 | $0 | 46¢ YES | fails: only 1 vetted wallet with $864 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Sat Nov 7, 1:15 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | — | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 11:13 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $873 | $0 | — | fails: only 1 vetted wallet with $873 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 6, 11:13 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | — | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 10:16 PM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Rutgers vs. Wisconsin: O/U 43.5 → Under | SnakeBall $241 | $0 | 44¢ NO | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+
+### Western Kentucky vs. Middle Tennessee · starts Sat Nov 7, 8:30 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Western Kentucky vs. Middle Tennessee: primm added $2.2k on Middle Tennessee
+- Sat Nov 7, 3:17 PM (hourly): Western Kentucky vs. Middle Tennessee: primm joined Middle Tennessee (+$4.9k)
+- Sat Nov 7, 2:20 PM (hourly): Spread: Western Kentucky (-2.5): Kalshi 31¢ → 30¢
+- Sat Nov 7, 1:12 PM (hourly): Spread: Western Kentucky (-2.5): Kalshi 70¢ → 31¢
+- Sat Nov 7, 1:12 PM (hourly): Spread: Western Kentucky (-2.5): majority flipped to Western Kentucky ($539 vs $25)
+- Sat Nov 7, 12:14 PM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
+- Sat Nov 7, 10:14 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
+- Sat Nov 7, 9:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Flaznorp left
+- Sat Nov 7, 5:17 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
+- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: Kalshi matched at 40¢
+- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Kalshi 67¢ → 66¢
+- Sat Nov 7, 1:15 AM (hourly): Western Kentucky vs. Middle Tennessee: Flaznorp joined Middle Tennessee (+$1.2k)
+- Fri Nov 6, 9:13 PM (hourly): Western Kentucky vs. Middle Tennessee: O/U 53.5: first seen: 1 vetted on Over ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $534 | $164 | 30¢ YES | fails: only 1 vetted wallet with $534 (needs 3+ wallets, or 2 with $5.0k+); opposition 31% |
+| Sat Nov 7, 4:15 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | primm $7.1k, SnakeBall $1.0k, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 44c |
+| Sat Nov 7, 3:17 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $534 | $164 | 30¢ YES | fails: only 1 vetted wallet with $534 (needs 3+ wallets, or 2 with $5.0k+); opposition 31% |
+| Sat Nov 7, 3:17 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | primm $4.9k, SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 44c |
+| Sat Nov 7, 2:20 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $539 | $25 | 30¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 1:12 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Western Kentucky (-2.5) → Western Kentucky | ferrariChampions2026 $539 | $25 | 31¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 12:14 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
+| Sat Nov 7, 12:14 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 11:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 11:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 10:14 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
+| Sat Nov 7, 10:14 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $856, tradecraft $47 | $0 | 66¢ YES | fails: only 2 vetted wallets with $904 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 9:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 9:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: only 2 vetted wallets with $698 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 8:17 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 70¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 53c |
+| Sat Nov 7, 8:17 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 5:17 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
+| Sat Nov 7, 5:17 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 4:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 2:16 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
+| Sat Nov 7, 2:16 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
+| Sat Nov 7, 1:15 AM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
+| Sat Nov 7, 1:15 AM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | Flaznorp $1.2k, SnakeBall $650, tradecraft $48 | $0 | 66¢ YES | fails: Kalshi 66c vs leaders 45c |
+| Fri Nov 6, 11:13 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 11:13 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 6, 11:13 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $621, tradecraft $46 | $0 | 67¢ YES | fails: only 2 vetted wallets with $667 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 45c |
+| Fri Nov 6, 10:16 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
+| Fri Nov 6, 10:16 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $635, tradecraft $11 | $0 | 67¢ YES | fails: only 2 vetted wallets with $647 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 46c |
+| Fri Nov 6, 9:13 PM | hourly | Western Kentucky vs. Middle Tennessee: O/U 53.5 → Over | SnakeBall $19 | $0 | 40¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | Spread: Western Kentucky (-2.5) → Middle Tennessee | SnakeBall $25 | $0 | 71¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 71c vs leaders 53c |
+| Fri Nov 6, 9:13 PM | hourly | Western Kentucky vs. Middle Tennessee → Middle Tennessee | SnakeBall $635, tradecraft $11 | $0 | 67¢ YES | fails: only 2 vetted wallets with $647 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 46c |
 
 ### BYU vs. Utah · starts Sat Nov 7, 5:00 PM
 
@@ -2292,6 +2537,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Utah (-6.5) → Utah | SnakeBall $425 | $0 | 45¢ YES | fails: only 1 vetted wallet with $425 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Utah (-4.5) → BYU | SnakeBall $380 | $0 | 51¢ NO | fails: only 1 vetted wallet with $380 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | BYU vs. Utah: O/U 49.5 → Under | ferrariChampions2026 $11.8k | $2.1k | 48¢ NO | fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+); opposition 18% |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Utah (-6.5) → Utah | SnakeBall $420 | $0 | 45¢ YES | fails: only 1 vetted wallet with $420 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Utah (-4.5) → BYU | SnakeBall $380 | $0 | 51¢ NO | fails: only 1 vetted wallet with $380 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | BYU vs. Utah: O/U 49.5 → Under | ferrariChampions2026 $12.5k | $2.0k | 51¢ NO | fails: only 1 vetted wallet with $12.5k (needs 3+ wallets, or 2 with $5.0k+); opposition 16% |
@@ -2328,39 +2576,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Spread: Utah (-6.5) → Utah | SnakeBall $411 | $0 | 45¢ YES | fails: only 1 vetted wallet with $411 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 5:18 PM | hourly | Spread: Utah (-6.5) → Utah | SnakeBall $411 | $0 | 45¢ YES | fails: only 1 vetted wallet with $411 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Iowa State vs. Baylor · starts Sat Nov 7, 5:00 PM
-
-- Sat Nov 7, 12:14 PM (hourly): Spread: Baylor (-10.5): Kalshi matched at 47¢
-- Sat Nov 7, 10:14 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 47¢
-- Sat Nov 7, 8:17 AM (hourly): Spread: Baylor (-10.5): Kalshi 46¢ → 47¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 46¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 46¢
-- Fri Nov 6, 5:18 PM (hourly): Spread: Baylor (-10.5): first seen: 1 vetted on Baylor ($358), fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $361 | $0 | — | fails: only 1 vetted wallet with $361 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $365 | $0 | 47¢ YES | fails: only 1 vetted wallet with $365 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 6, 10:16 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### UCLA vs. Minnesota · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Spread: UCLA (-3.5): Kalshi 49¢ → 50¢
+- Sat Nov 7, 4:15 PM (pregame): UCLA vs. Minnesota: Kalshi 37¢ → 38¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: UCLA (-3.5): first seen: 1 vetted on Minnesota ($776), fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Spread: UCLA (-4.5): first seen: 1 vetted on Minnesota ($4.6k), fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): UCLA vs. Minnesota: now passes
@@ -2374,6 +2593,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: UCLA (-6.5) → UCLA | SnakeBall $463 | $0 | 44¢ YES | fails: only 1 vetted wallet with $463 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: UCLA (-3.5) → Minnesota | ferrariChampions2026 $931 | $0 | 50¢ NO | fails: only 1 vetted wallet with $931 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: UCLA (-4.5) → Minnesota | ferrariChampions2026 $4.7k | $64 | 53¢ NO | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | UCLA vs. Minnesota → Minnesota | ferrariChampions2026 $8.1k, SnakeBall $148 | $31 | 38¢ YES | passes |
 | Sat Nov 7, 3:17 PM | hourly | Spread: UCLA (-6.5) → UCLA | SnakeBall $463 | $0 | 44¢ YES | fails: only 1 vetted wallet with $463 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: UCLA (-3.5) → Minnesota | ferrariChampions2026 $776 | $0 | 49¢ NO | fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: UCLA (-4.5) → Minnesota | ferrariChampions2026 $4.6k | $66 | 53¢ NO | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2409,8 +2632,42 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Spread: UCLA (-6.5) → UCLA | SnakeBall $474 | $0 | 45¢ YES | fails: only 1 vetted wallet with $474 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 5:18 PM | hourly | Spread: UCLA (-6.5) → UCLA | SnakeBall $474 | $0 | 45¢ YES | fails: only 1 vetted wallet with $474 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Iowa State vs. Baylor · starts Sat Nov 7, 5:00 PM
+
+- Sat Nov 7, 4:15 PM (pregame): Spread: Baylor (-10.5): Kalshi 47¢ → 46¢
+- Sat Nov 7, 12:14 PM (hourly): Spread: Baylor (-10.5): Kalshi matched at 47¢
+- Sat Nov 7, 10:14 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 47¢
+- Sat Nov 7, 8:17 AM (hourly): Spread: Baylor (-10.5): Kalshi 46¢ → 47¢
+- Sat Nov 7, 5:17 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 46¢
+- Sat Nov 7, 1:15 AM (hourly): Spread: Baylor (-10.5): Kalshi matched at 46¢
+- Fri Nov 6, 5:18 PM (hourly): Spread: Baylor (-10.5): first seen: 1 vetted on Baylor ($358), fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 47¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $361 | $0 | — | fails: only 1 vetted wallet with $361 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $365 | $0 | 47¢ YES | fails: only 1 vetted wallet with $365 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | — | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 6, 10:16 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 8:15 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 7:14 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 6:18 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 5:18 PM | hourly | Spread: Baylor (-10.5) → Baylor | SnakeBall $358 | $0 | 46¢ YES | fails: only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Cincinnati vs. Houston · starts Sat Nov 7, 8:30 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Cincinnati vs. Houston: O/U 63.5: Kalshi 56¢ → 57¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: Houston (-13.5): first seen: 1 vetted on Houston ($3.1k), fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Cincinnati vs. Houston: O/U 63.5: primm added $3.5k on Under
 - Sat Nov 7, 2:20 PM (hourly): Cincinnati vs. Houston: O/U 63.5: first seen: 1 vetted on Under ($868), fails: only 1 vetted wallet with $868 (needs 3+ wallets, or 2 with $5.0k+)
@@ -2427,6 +2684,11 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Houston (-10.5) → Cincinnati | SnakeBall $202 | $0 | 50¢ NO | fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Cincinnati vs. Houston: O/U 61.5 → Under | primm $89 | $0 | 52¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Houston (-13.5) → Houston | primm $3.1k | $0 | 45¢ YES | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Cincinnati vs. Houston: O/U 63.5 → Under | primm $4.3k | $0 | 57¢ NO | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Cincinnati vs. Houston → Houston | primm $40.6k | $0 | 78¢ YES | fails: only 1 vetted wallet with $40.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Houston (-10.5) → Cincinnati | SnakeBall $202 | $0 | 50¢ NO | fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Cincinnati vs. Houston: O/U 61.5 → Under | primm $89 | $0 | 52¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Houston (-13.5) → Houston | primm $3.1k | $0 | 45¢ YES | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2475,6 +2737,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Texas Tech (-11.5) → West Virginia | primm $9 | $0 | 41¢ NO | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Texas Tech (-13.5) → West Virginia | primm $4.1k | $0 | 43¢ NO | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Texas Tech (-11.5) → West Virginia | primm $9 | $0 | 41¢ NO | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Texas Tech (-13.5) → West Virginia | primm $4.1k | $0 | 43¢ NO | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 10:14 AM | hourly | West Virginia vs. Texas Tech → West Virginia | none | $0 | — | fails: no vetted wallets hold it now |
@@ -2484,6 +2748,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Northern Illinois vs. San Jose State · starts Sat Nov 7, 9:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: San Jose State (-13.5): Kalshi 48¢ → 47¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: San Jose State (-17.5): first seen: 1 vetted on San Jose State ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Spread: San Jose State (-16.5): first seen: 1 vetted on San Jose State ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Northern Illinois vs. San Jose State: O/U 53.5: Kalshi 48¢ → 49¢
@@ -2505,6 +2770,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: San Jose State (-17.5) → San Jose State | primm $23 | $0 | 36¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: San Jose State (-16.5) → San Jose State | primm $26 | $0 | 40¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Northern Illinois vs. San Jose State: O/U 53.5 → Over | primm $56, SnakeBall $37 | $0 | 49¢ YES | fails: only 2 vetted wallets with $93 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: San Jose State (-14.5) → San Jose State | primm $2.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: San Jose State (-13.5) → San Jose State | primm $4.5k | $0 | 47¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Northern Illinois vs. San Jose State: O/U 51.5 → Over | primm $5.8k | $0 | 54¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Northern Illinois vs. San Jose State → San Jose State | ferrariChampions2026 $245 | $0 | 81¢ YES | fails: only 1 vetted wallet with $245 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: San Jose State (-10.5) → San Jose State | ferrariChampions2026 $4.4k | $242 | 54¢ YES | fails: only 1 vetted wallet with $4.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: San Jose State (-17.5) → San Jose State | primm $23 | $0 | 36¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: San Jose State (-16.5) → San Jose State | primm $26 | $0 | 40¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Northern Illinois vs. San Jose State: O/U 53.5 → Over | primm $56, SnakeBall $37 | $0 | 49¢ YES | fails: only 2 vetted wallets with $93 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2540,6 +2813,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Oklahoma vs. Florida · starts Sun Nov 8, 12:45 AM
 
+- Sat Nov 7, 4:15 PM (hourly): Oklahoma vs. Florida: Kalshi 34¢ → 35¢
+- Sat Nov 7, 4:15 PM (hourly): Spread: Florida (-5.5): first seen: 1 vetted on Oklahoma ($21.6k), fails: only 1 vetted wallet with $21.6k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Spread: Florida (-3.5): first seen: 1 vetted on Oklahoma ($44), fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Oklahoma vs. Florida: primm joined Oklahoma (+$1.4k)
 - Sat Nov 7, 2:20 PM (hourly): Oklahoma vs. Florida: Kalshi 33¢ → 34¢
@@ -2547,6 +2822,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Florida (-3.5) → Oklahoma | primm $46 | $0 | 45¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Oklahoma vs. Florida → Oklahoma | primm $1.4k, SnakeBall $12 | $0 | 35¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Florida (-5.5) → Oklahoma | gmpm2 $21.6k | $0 | 52¢ NO | fails: only 1 vetted wallet with $21.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Florida (-3.5) → Oklahoma | primm $44 | $0 | 45¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Oklahoma vs. Florida → Oklahoma | primm $1.4k, SnakeBall $11 | $0 | 34¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Oklahoma vs. Florida → Oklahoma | SnakeBall $11 | $0 | 34¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2567,6 +2845,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Navy (-6.5) → Temple | primm $90 | $0 | 47¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Navy (-6.5) → Temple | primm $91 | $0 | 47¢ NO | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Sam Houston vs. Jacksonville State · starts Sun Nov 8, 12:00 AM
@@ -2575,10 +2854,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Jacksonville State (-13.5) → Sam Houston | primm $345 | $0 | 42¢ NO | fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Jacksonville State (-13.5) → Sam Houston | primm $345 | $0 | 42¢ NO | fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Clemson vs. Syracuse · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 47.5: Kalshi 44¢ → 43¢
+- Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 51.5: first seen: 1 vetted on Under ($2.3k), fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 49.5: Kalshi 50¢ → 48¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: Clemson (-1.5): Kalshi 48¢ → 50¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: Clemson (-2.5): Kalshi 51¢ → 52¢
 - Sat Nov 7, 3:17 PM (hourly): Clemson vs. Syracuse: now passes
@@ -2611,6 +2894,12 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Clemson vs. Syracuse: O/U 47.5 → Under | primm $411 | $0 | 43¢ NO | fails: only 1 vetted wallet with $411 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Clemson vs. Syracuse: O/U 51.5 → Under | primm $2.3k | $0 | 53¢ NO | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Clemson (-1.5) → Syracuse | primm $5.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $5.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Clemson (-2.5) → Syracuse | ferrariChampions2026 $1.1k | $12 | 52¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | pregame | Clemson vs. Syracuse: O/U 49.5 → Under | ferrariChampions2026 $2.3k, primm $2.0k, SnakeBall $106 | $0 | 48¢ NO | passes |
+| Sat Nov 7, 4:15 PM | pregame | Clemson vs. Syracuse → Syracuse | ferrariChampions2026 $17.1k, SnakeBall $178 | $0 | 47¢ YES | passes |
 | Sat Nov 7, 3:17 PM | hourly | Clemson vs. Syracuse: O/U 47.5 → Under | primm $431 | $0 | 44¢ NO | fails: only 1 vetted wallet with $431 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Clemson (-1.5) → Syracuse | primm $5.2k | $0 | 50¢ NO | fails: only 1 vetted wallet with $5.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Clemson (-2.5) → Syracuse | ferrariChampions2026 $1.1k | $12 | 52¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2686,17 +2975,25 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Michigan State vs. Michigan: O/U 41.5 → Under | primm $571 | $0 | 57¢ NO | fails: only 1 vetted wallet with $571 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Michigan (-14.5) → Michigan State | ferrariChampions2026 $1.6k | $0 | 48¢ YES | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Michigan State vs. Michigan: O/U 41.5 → Under | primm $571 | $0 | 57¢ NO | fails: only 1 vetted wallet with $571 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Michigan (-14.5) → Michigan State | ferrariChampions2026 $1.6k | $0 | 48¢ YES | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Delaware vs. Kennesaw State · starts Sat Nov 7, 8:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Kennesaw State (-1.5): Kalshi 54¢ → 53¢
+- Sat Nov 7, 4:15 PM (hourly): Spread: Kennesaw State (-2.5): Kalshi 57¢ → 55¢
+- Sat Nov 7, 4:15 PM (hourly): Delaware vs. Kennesaw State: first seen: 1 vetted on Delaware ($2.1k), fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 3:17 PM (hourly): Spread: Kennesaw State (-1.5): Kalshi 55¢ → 54¢
 - Sat Nov 7, 2:20 PM (hourly): Spread: Kennesaw State (-1.5): first seen: 1 vetted on Delaware ($635), fails: only 1 vetted wallet with $635 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 2:20 PM (hourly): Spread: Kennesaw State (-2.5): first seen: 1 vetted on Delaware ($681), fails: only 1 vetted wallet with $681 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Kennesaw State (-1.5) → Delaware | primm $607 | $0 | 53¢ NO | fails: only 1 vetted wallet with $607 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Kennesaw State (-2.5) → Delaware | primm $652 | $0 | 55¢ NO | fails: only 1 vetted wallet with $652 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Delaware vs. Kennesaw State → Delaware | primm $2.1k | $0 | 50¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Kennesaw State (-1.5) → Delaware | primm $630 | $0 | 54¢ NO | fails: only 1 vetted wallet with $630 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Kennesaw State (-2.5) → Delaware | primm $675 | $0 | 57¢ NO | fails: only 1 vetted wallet with $675 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Kennesaw State (-1.5) → Delaware | primm $635 | $0 | 55¢ NO | fails: only 1 vetted wallet with $635 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2704,12 +3001,15 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Arkansas vs. Auburn · starts Sat Nov 7, 5:45 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: Auburn (-13.5): first seen: 1 vetted on Arkansas ($2.5k), fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 2:20 PM (hourly): Spread: Auburn (-10.5): first seen: 1 vetted on Arkansas ($770), fails: only 1 vetted wallet with $770 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 10:14 AM (hourly): Arkansas vs. Auburn: all vetted wallets left Auburn
 - Sat Nov 7, 1:15 AM (hourly): Arkansas vs. Auburn: first seen: 1 vetted on Auburn ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Auburn (-10.5) → Arkansas | primm $755 | $0 | 51¢ NO | fails: only 1 vetted wallet with $755 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Auburn (-13.5) → Arkansas | primm $2.5k | $0 | 56¢ NO | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Auburn (-10.5) → Arkansas | primm $770 | $0 | 51¢ NO | fails: only 1 vetted wallet with $770 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Auburn (-10.5) → Arkansas | primm $770 | $0 | 51¢ NO | fails: only 1 vetted wallet with $770 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 10:14 AM | hourly | Arkansas vs. Auburn → Auburn | none | $0 | — | fails: no vetted wallets hold it now |
@@ -2719,47 +3019,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Arkansas vs. Auburn → Auburn | Flaznorp $32 | $0 | 79¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Arkansas vs. Auburn → Auburn | Flaznorp $32 | $0 | 79¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Rutgers vs. Wisconsin · starts Sat Nov 7, 9:15 PM
-
-- Sat Nov 7, 3:17 PM (hourly): Spread: Wisconsin (-20.5): Kalshi 46¢ → 47¢
-- Sat Nov 7, 12:14 PM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
-- Sat Nov 7, 10:14 AM (hourly): Rutgers vs. Wisconsin: O/U 45.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: Wisconsin (-20.5): Kalshi matched at 46¢
-- Sat Nov 7, 1:15 AM (hourly): Rutgers vs. Wisconsin: O/U 45.5: Kalshi matched at 51¢
-- Fri Nov 6, 10:16 PM (hourly): Rutgers vs. Wisconsin: O/U 45.5: first seen: 1 vetted on Under ($6.3k), fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 10:16 PM (hourly): Spread: Wisconsin (-20.5): first seen: 1 vetted on Wisconsin ($883), fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 47¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 10:14 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | — | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | — | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $864 | $0 | 46¢ YES | fails: only 1 vetted wallet with $864 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $864 | $0 | 46¢ YES | fails: only 1 vetted wallet with $864 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | — | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 11:13 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $873 | $0 | — | fails: only 1 vetted wallet with $873 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 6, 10:16 PM | hourly | Rutgers vs. Wisconsin: O/U 45.5 → Under | monkeymashingkeyboard $6.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Spread: Wisconsin (-20.5) → Wisconsin | primm $883 | $0 | 46¢ YES | fails: only 1 vetted wallet with $883 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Charlotte vs. UAB · starts Sat Nov 7, 8:30 PM
 
 - Sat Nov 7, 3:17 PM (hourly): Spread: UAB (-10.5): first seen: 1 vetted on Charlotte ($984), fails: only 1 vetted wallet with $984 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: UAB (-10.5) → Charlotte | primm $984 | $0 | 57¢ NO | fails: only 1 vetted wallet with $984 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: UAB (-10.5) → Charlotte | primm $984 | $0 | 57¢ NO | fails: only 1 vetted wallet with $984 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Alabama vs. LSU · starts Sat Nov 7, 8:30 PM
@@ -2783,6 +3049,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: LSU (-4.5) → Alabama | primm $1.2k | $0 | 47¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: LSU (-3.5) → Alabama | primm $4.2k | $0 | 44¢ NO | fails: only 1 vetted wallet with $4.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: LSU (-5.5) → Alabama | primm $4.9k, SnakeBall $107 | $0 | 49¢ NO | passes |
+| Sat Nov 7, 4:15 PM | hourly | Spread: LSU (-6.5) → Alabama | ferrariChampions2026 $9.7k | $257 | 52¢ NO | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: LSU (-4.5) → Alabama | primm $1.2k | $0 | 47¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: LSU (-3.5) → Alabama | primm $4.2k | $0 | 44¢ NO | fails: only 1 vetted wallet with $4.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: LSU (-5.5) → Alabama | primm $4.9k, SnakeBall $107 | $0 | 49¢ NO | passes |
@@ -2820,6 +3090,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Blues (-1.5) → Blues | ferrariChampions2026 $154 | $0 | 30¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Blues (-1.5) → Blues | ferrariChampions2026 $154 | $0 | 30¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Blues (-1.5) → Blues | ferrariChampions2026 $154 | $0 | 30¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:12 PM | hourly | Spread: Blues (-1.5) → Blues | ferrariChampions2026 $151 | $0 | 30¢ YES | fails: only 1 vetted wallet with $151 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2830,21 +3101,26 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Cal State Fullerton Titans vs. South Dakota Coyotes · starts Sat Nov 7, 7:00 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Spread: South Dakota Coyotes (-1.5): Kalshi 56¢ → 54¢
 - Sat Nov 7, 2:20 PM (hourly): Spread: South Dakota Coyotes (-1.5): first seen: 1 vetted on Cal State Fullerton Titans ($242), fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: South Dakota Coyotes (-1.5) → Cal State Fullerton Titans | ferrariChampions2026 $231 | $0 | 54¢ NO | fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: South Dakota Coyotes (-1.5) → Cal State Fullerton Titans | ferrariChampions2026 $240 | $0 | 56¢ NO | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: South Dakota Coyotes (-1.5) → Cal State Fullerton Titans | ferrariChampions2026 $242 | $0 | 56¢ NO | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Panthers vs. Capitals · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Panthers vs. Capitals: Kalshi 48¢ → 47¢
 - Sat Nov 7, 2:20 PM (hourly): Panthers vs. Capitals: Kalshi 47¢ → 48¢
 - Sat Nov 7, 12:14 PM (hourly): Spread: Capitals (-1.5): Kalshi matched at 33¢
 - Sat Nov 7, 12:14 PM (hourly): Panthers vs. Capitals: first seen: 1 vetted on Panthers ($13.4k), fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Capitals (-1.5) → Capitals | ferrariChampions2026 $295 | $0 | 33¢ YES | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Panthers vs. Capitals → Panthers | ferrariChampions2026 $13.4k | $0 | 47¢ YES | fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Capitals (-1.5) → Capitals | ferrariChampions2026 $295 | $0 | 33¢ YES | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | hourly | Panthers vs. Capitals → Panthers | ferrariChampions2026 $13.4k | $0 | 48¢ YES | fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Capitals (-1.5) → Capitals | ferrariChampions2026 $295 | $0 | 33¢ YES | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -2854,6 +3130,748 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 12:14 PM | hourly | Spread: Capitals (-1.5) → Capitals | ferrariChampions2026 $295 | $0 | 33¢ YES | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 12:14 PM | hourly | Panthers vs. Capitals → Panthers | ferrariChampions2026 $13.4k | $0 | 47¢ YES | fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 11:15 AM | hourly | Spread: Capitals (-1.5) → Capitals | ferrariChampions2026 $295 | $0 | — | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### BNP Paribas Nordic Open, Qualification: Jacob Fearnley vs Arthur Nagel · starts Sat Nov 7, 4:15 PM
+
+- Sat Nov 7, 4:15 PM (hourly): BNP Paribas Nordic Open, Qualification: Jacob Fearnley vs Arthur Nagel: first seen: 1 vetted on Arthur Nagel ($311), fails: only 1 vetted wallet with $311 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | BNP Paribas Nordic Open, Qualification: Jacob Fearnley vs Arthur Nagel → Arthur Nagel | ferrariChampions2026 $311 | $0 | 6¢ YES | fails: only 1 vetted wallet with $311 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Oklahoma State vs. Kansas State · starts Sat Nov 7, 6:00 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Oklahoma State (-6.5): Kalshi 48¢ → 47¢
+- Sat Nov 7, 2:20 PM (hourly): Spread: Oklahoma State (-6.5): first seen: 1 vetted on Kansas State ($773), fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+)
+- Fri Nov 6, 10:16 PM (hourly): Oklahoma State vs. Kansas State: primm joined Oklahoma State (+$28)
+- Fri Nov 6, 6:18 PM (hourly): Oklahoma State vs. Kansas State: first seen: 1 vetted on Oklahoma State ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Oklahoma State (-6.5) → Kansas State | ferrariChampions2026 $757 | $0 | 47¢ NO | fails: only 1 vetted wallet with $757 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 70¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Oklahoma State (-6.5) → Kansas State | ferrariChampions2026 $773 | $0 | 48¢ NO | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 68¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Oklahoma State (-6.5) → Kansas State | ferrariChampions2026 $773 | $0 | 48¢ NO | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
+| Sat Nov 7, 1:12 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
+| Sat Nov 7, 12:14 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 8:15 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 7:14 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 6:18 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Sharks vs. Stars · starts Sun Nov 8, 1:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Stars (-1.5): first seen: 1 vetted on Sharks ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Stars (-1.5) → Sharks | ferrariChampions2026 $1.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Maryland vs. Purdue · starts Sat Nov 7, 5:30 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Maryland vs. Purdue: Kalshi 37¢ → 36¢
+- Sat Nov 7, 2:20 PM (hourly): Spread: Purdue (-5.5): ferrariChampions2026 cut $1.1k on Maryland
+- Sat Nov 7, 1:12 PM (hourly): Spread: Purdue (-5.5): Kalshi 51¢ → 52¢
+- Sat Nov 7, 1:12 PM (hourly): Spread: Purdue (-5.5): ferrariChampions2026 added $2.4k on Maryland
+- Sat Nov 7, 1:12 PM (hourly): Maryland vs. Purdue: back: 1 vetted on Maryland ($1.9k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 12:14 PM (hourly): Spread: Purdue (-5.5): Kalshi matched at 51¢
+- Sat Nov 7, 10:14 AM (hourly): Maryland vs. Purdue: all vetted wallets left Maryland
+- Sat Nov 7, 10:14 AM (hourly): Spread: Purdue (-5.5): Kalshi matched at 51¢
+- Sat Nov 7, 8:17 AM (hourly): Spread: Purdue (-5.5): first seen: 1 vetted on Maryland ($424), fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Maryland vs. Purdue: first seen: 1 vetted on Maryland ($250), fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.5k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $1.7k | $90 | 52¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.5k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $1.7k | $88 | 52¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.5k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $1.7k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $2.9k | $0 | 52¢ NO | fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.9k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | — | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 10:14 AM | hourly | Maryland vs. Purdue → Maryland | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | — | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### SBV Excelsior vs. Go Ahead Eagles - More Markets · starts Sat Nov 7, 8:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 2.5: back: 1 vetted on Under ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 2.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): Spread: Go Ahead Eagles (-2.5): all vetted wallets left Go Ahead Eagles
+- Sat Nov 7, 10:14 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 5:17 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 1.5: Kalshi matched at 17¢
+- Sat Nov 7, 1:15 AM (hourly): Spread: Go Ahead Eagles (-2.5): first seen: 1 vetted on Go Ahead Eagles ($3), fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | ferrariChampions2026 $1.5k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | ferrariChampions2026 $1.5k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | ferrariChampions2026 $1.5k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | Flaznorp $633 | $0 | — | fails: only 1 vetted wallet with $633 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 5:17 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 5:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $16 | $0 | 17¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | 9¢ YES | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | 9¢ YES | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rockets vs. Suns · starts Sun Nov 8, 2:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Rockets (-7.5): first seen: 1 vetted on Suns ($2.5k), fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Rockets vs. Suns: Kalshi 28¢ → 30¢
+- Sat Nov 7, 5:17 AM (hourly): Rockets vs. Suns: Kalshi 29¢ → 28¢
+- Sat Nov 7, 4:15 AM (hourly): Rockets vs. Suns: Kalshi 30¢ → 29¢
+- Sat Nov 7, 2:16 AM (hourly): Rockets vs. Suns: first seen: 1 vetted on Suns ($95), fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Rockets (-7.5) → Suns | ferrariChampions2026 $2.5k | $0 | 54¢ NO | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Rockets vs. Suns → Suns | takeormake $433 | $0 | 30¢ YES | fails: only 1 vetted wallet with $433 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Rockets vs. Suns → Suns | takeormake $418 | $0 | 30¢ YES | fails: only 1 vetted wallet with $418 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Rockets vs. Suns → Suns | takeormake $418 | $0 | 30¢ YES | fails: only 1 vetted wallet with $418 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $155 | $0 | 29¢ YES | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Rockets vs. Suns → Suns | takeormake $95 | $0 | 30¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Blackhawks vs. Hurricanes · starts Sun Nov 8, 1:00 AM
+
+- Sat Nov 7, 2:20 PM (hourly): Blackhawks vs. Hurricanes: Kalshi 80¢ → 81¢
+- Sat Nov 7, 1:12 PM (hourly): Blackhawks vs. Hurricanes: first seen: 1 vetted on Hurricanes ($2.6k), fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 81¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 81¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 81¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 80¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### VfB Stuttgart vs. SV Werder Bremen - More Markets · starts Sat Nov 7, 5:30 PM
+
+- Sat Nov 7, 3:17 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 51¢ → 52¢
+- Sat Nov 7, 2:20 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 52¢ → 51¢
+- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: now passes
+- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 50¢ → 52¢
+- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: ferrariChampions2026 joined Under (+$5.2k)
+- Sat Nov 7, 10:14 AM (hourly): Spread: VfB Stuttgart (-1.5): all vetted wallets left SV Werder Bremen
+- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 5:17 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: Kalshi matched at 29¢
+- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: first seen: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Spread: VfB Stuttgart (-1.5): first seen: 1 vetted on SV Werder Bremen ($106), fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi matched at 49¢
+- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Flaznorp joined Under (+$109)
+- Fri Nov 6, 6:18 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: first seen: 1 vetted on Under ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.3k, SnakeBall $57 | $0 | 52¢ NO | passes |
+| Sat Nov 7, 3:17 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.3k, SnakeBall $57 | $0 | 52¢ NO | passes |
+| Sat Nov 7, 2:20 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.2k, SnakeBall $56 | $0 | 51¢ NO | passes |
+| Sat Nov 7, 1:12 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.2k, SnakeBall $56 | $0 | 52¢ NO | passes |
+| Sat Nov 7, 12:14 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | 50¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
+| Sat Nov 7, 11:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 10:14 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | 50¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
+| Sat Nov 7, 9:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5 → Under | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $111, SnakeBall $55 | $0 | — | fails: only 2 vetted wallets with $166 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $118 | $0 | — | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $31 | $0 | 29¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $115 | $0 | 69¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 63c |
+| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 50¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
+| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | — | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $22 | $0 | 28¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $105 | $0 | 65¢ NO | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 49¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $22 | $0 | 28¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $106 | $0 | 65¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 49¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Fri Nov 6, 10:16 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 9:13 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 8:15 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 7:14 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 6:18 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz · starts Sat Nov 7, 4:15 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: Kalshi 82¢ → 84¢
+- Sat Nov 7, 4:15 PM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: ferrariChampions2026 added $1.6k on Carlos Alcaraz
+- Sat Nov 7, 12:14 PM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: Kalshi matched at 82¢
+- Sat Nov 7, 10:14 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: Kalshi matched at 82¢
+- Sat Nov 7, 9:15 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: ferrariChampions2026 cut $2.6k on Carlos Alcaraz
+- Sat Nov 7, 8:17 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: first seen: 1 vetted on Carlos Alcaraz ($8.4k), fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $7.3k | $0 | 84¢ YES | fails: only 1 vetted wallet with $7.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | pregame | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | — | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 10:14 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | — | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 8:17 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $8.4k | $324 | 83¢ YES | fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nets vs. Hawks · starts Sun Nov 8, 12:30 AM
+
+- Sat Nov 7, 3:17 PM (hourly): Spread: Hawks (-6.5): Kalshi 50¢ → 49¢
+- Sat Nov 7, 2:20 PM (hourly): Nets vs. Hawks: O/U 227.5: first seen: 1 vetted on Over ($11.2k), fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:12 PM (hourly): Spread: Hawks (-6.5): first seen: 1 vetted on Nets ($330), fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:17 AM (hourly): Nets vs. Hawks: Kalshi 31¢ → 29¢
+- Sat Nov 7, 4:15 AM (hourly): Nets vs. Hawks: Kalshi 32¢ → 31¢
+- Sat Nov 7, 2:16 AM (hourly): Nets vs. Hawks: Kalshi 33¢ → 32¢
+- Sat Nov 7, 1:15 AM (hourly): Nets vs. Hawks: first seen: 1 vetted on Nets ($258), fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Nets vs. Hawks: O/U 227.5 → Over | ferrariChampions2026 $11.2k | $0 | 49¢ YES | fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $323 | $0 | 49¢ NO | fails: only 1 vetted wallet with $323 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Nets vs. Hawks: O/U 227.5 → Over | ferrariChampions2026 $11.2k | $0 | 49¢ YES | fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $323 | $0 | 49¢ NO | fails: only 1 vetted wallet with $323 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Nets vs. Hawks: O/U 227.5 → Over | ferrariChampions2026 $11.2k | $0 | 49¢ YES | fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $330 | $0 | 50¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $330 | $0 | 50¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $250 | $0 | 31¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Nets vs. Hawks → Nets | takeormake $258 | $0 | 32¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $258 | $0 | 33¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Lightning vs. Wild · starts Sun Nov 8, 1:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Lightning vs. Wild: first seen: 1 vetted on Wild ($13.0k), fails: only 1 vetted wallet with $13.0k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (hourly): Spread: Lightning (-1.5): Kalshi 66¢ → 65¢
+- Sat Nov 7, 4:15 PM (hourly): Spread: Lightning (-1.5): ferrariChampions2026 added $17.5k on Wild
+- Sat Nov 7, 2:20 PM (hourly): Spread: Lightning (-1.5): first seen: 1 vetted on Wild ($15.4k), fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Lightning vs. Wild → Wild | ferrariChampions2026 $13.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $13.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Lightning (-1.5) → Wild | ferrariChampions2026 $32.9k | $0 | 65¢ NO | fails: only 1 vetted wallet with $32.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Lightning (-1.5) → Wild | ferrariChampions2026 $15.4k | $0 | 66¢ NO | fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Lightning (-1.5) → Wild | ferrariChampions2026 $15.4k | $0 | 66¢ NO | fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Air Force vs. Army · starts Sun Nov 8, 12:30 AM
+
+- Sat Nov 7, 3:17 PM (hourly): Air Force vs. Army: Kalshi 62¢ → 63¢
+- Sat Nov 7, 2:20 PM (hourly): Air Force vs. Army: O/U 43.5: first seen: 1 vetted on Over ($13.1k), fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Air Force vs. Army: Kalshi 61¢ → 62¢
+- Sat Nov 7, 1:15 AM (hourly): Air Force vs. Army: first seen: 1 vetted on Army ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Air Force vs. Army: O/U 43.5 → Over | ferrariChampions2026 $13.1k | $92 | 52¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 63¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 63c vs leaders 60c |
+| Sat Nov 7, 3:17 PM | hourly | Air Force vs. Army: O/U 43.5 → Over | ferrariChampions2026 $13.1k | $92 | 52¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 63¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 63c vs leaders 60c |
+| Sat Nov 7, 2:20 PM | hourly | Air Force vs. Army: O/U 43.5 → Over | ferrariChampions2026 $13.1k | $92 | 52¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 62¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Canadiens vs. Maple Leafs · starts Sun Nov 8, 12:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Canadiens (-1.5): Kalshi 69¢ → 68¢
+- Sat Nov 7, 1:12 PM (hourly): Spread: Canadiens (-1.5): first seen: 1 vetted on Maple Leafs ($21.5k), fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.2k | $0 | 68¢ NO | fails: only 1 vetted wallet with $21.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rangers vs. Kraken · starts Sat Nov 7, 10:00 PM
+
+- Sat Nov 7, 3:17 PM (hourly): Spread: Rangers (-1.5): first seen: 1 vetted on Kraken ($22.2k), fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Rangers (-1.5) → Kraken | ferrariChampions2026 $22.2k | $0 | 67¢ NO | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Rangers (-1.5) → Kraken | ferrariChampions2026 $22.2k | $0 | 67¢ NO | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Red Wings vs. Avalanche · starts Sun Nov 8, 2:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Red Wings vs. Avalanche: first seen: 1 vetted on Avalanche ($33.2k), fails: only 1 vetted wallet with $33.2k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Red Wings vs. Avalanche → Avalanche | ferrariChampions2026 $33.2k | $0 | 67¢ YES | fails: only 1 vetted wallet with $33.2k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### FC Dallas vs. Colorado Rapids SC - More Markets · starts Sun Nov 8, 12:00 AM
+
+- Sat Nov 7, 3:17 PM (hourly): FC Dallas vs. Colorado Rapids SC: O/U 2.5: first seen: 1 vetted on Over ($149), fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Spread: FC Dallas (-2.5): all vetted wallets left Colorado Rapids SC
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | FC Dallas vs. Colorado Rapids SC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $149 | $0 | 56¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | FC Dallas vs. Colorado Rapids SC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $149 | $0 | 56¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spread: FC Dallas (-2.5) → Colorado Rapids SC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 4:15 AM | hourly | Spread: FC Dallas (-2.5) → Colorado Rapids SC | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Old Dominion vs. Coastal Carolina · starts Sat Nov 7, 6:00 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Old Dominion vs. Coastal Carolina: O/U 43.5: first seen: 1 vetted on Under ($381), fails: only 1 vetted wallet with $381 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Old Dominion vs. Coastal Carolina: O/U 43.5 → Under | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $381 | $0 | 46¢ NO | fails: only 1 vetted wallet with $381 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### St Mirren FC vs. Rangers FC - More Markets · starts Sat Nov 7, 8:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): St Mirren FC vs. Rangers FC: O/U 2.5: first seen: 1 vetted on Over ($4.6k), fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Spread: Rangers FC (-3.5): all vetted wallets left Rangers FC
+- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: 1st Half O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 5:17 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: Kalshi matched at 22¢
+- Sat Nov 7, 5:17 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: Kalshi matched at 40¢
+- Sat Nov 7, 1:15 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: first seen: 1 vetted on Over ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: first seen: 1 vetted on Over ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $4.6k | $0 | 63¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $4.6k | $0 | 63¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $4.6k | $0 | 63¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Rangers FC (-3.5) → Rangers FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | Spread: Rangers FC (-3.5) → Rangers FC | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $41 | $0 | 22¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | 22¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | 22¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Knicks vs. Cavaliers · starts Sun Nov 8, 1:00 AM
+
+- Sat Nov 7, 12:14 PM (hourly): Spread: Knicks (-3.5): Kalshi matched at 45¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $88 | $0 | 45¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $12 | $0 | 45¢ NO | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Wizards vs. Thunder · starts Sun Nov 8, 1:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Spread: Thunder (-8.5): Kalshi 41¢ → 40¢
+- Sat Nov 7, 2:20 PM (hourly): Wizards vs. Thunder: Kalshi 19¢ → 18¢
+- Sat Nov 7, 2:20 PM (hourly): Wizards vs. Thunder: O/U 220.5: first seen: 1 vetted on Under ($183), fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:12 PM (hourly): Spread: Thunder (-8.5): Kalshi 42¢ → 41¢
+- Sat Nov 7, 12:14 PM (hourly): Spread: Thunder (-8.5): first seen: 1 vetted on Wizards ($321), fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:15 AM (hourly): Wizards vs. Thunder: Kalshi 20¢ → 19¢
+- Sat Nov 7, 4:15 AM (hourly): Wizards vs. Thunder: Kalshi 22¢ → 20¢
+- Sat Nov 7, 1:15 AM (hourly): Wizards vs. Thunder: first seen: 1 vetted on Wizards ($170), fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 18¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $313 | $0 | 40¢ NO | fails: only 1 vetted wallet with $313 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Wizards vs. Thunder: O/U 220.5 → Under | ferrariChampions2026 $185 | $0 | 45¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 18¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Wizards vs. Thunder: O/U 220.5 → Under | ferrariChampions2026 $185 | $0 | 45¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 18¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Wizards vs. Thunder: O/U 220.5 → Under | ferrariChampions2026 $183 | $0 | 45¢ NO | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 19¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 42¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 19¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 19¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 20¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $155 | $0 | 20¢ YES | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $170 | $0 | 22¢ YES | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $170 | $0 | 22¢ YES | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Spurs vs. Trail Blazers · starts Sun Nov 8, 3:00 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Spurs vs. Trail Blazers: Kalshi 33¢ → 34¢
+- Sat Nov 7, 3:17 PM (hourly): Spurs vs. Trail Blazers: Kalshi 34¢ → 33¢
+- Sat Nov 7, 1:12 PM (hourly): Spurs vs. Trail Blazers: Kalshi 35¢ → 34¢
+- Sat Nov 7, 12:14 PM (hourly): Spread: Spurs (-3.5): Kalshi matched at 44¢
+- Sat Nov 7, 10:14 AM (hourly): Spread: Spurs (-3.5): first seen: 1 vetted on Trail Blazers ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:17 AM (hourly): Spurs vs. Trail Blazers: Kalshi 43¢ → 35¢
+- Sat Nov 7, 5:17 AM (hourly): Spurs vs. Trail Blazers: Kalshi 40¢ → 43¢
+- Sat Nov 7, 4:15 AM (hourly): Spurs vs. Trail Blazers: first seen: 1 vetted on Trail Blazers ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $321 | $0 | 44¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 34¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $318 | $0 | 44¢ NO | fails: only 1 vetted wallet with $318 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 33¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $96 | $0 | 44¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 34¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $96 | $0 | 44¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 34¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | 44¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 35¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 11:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $147 | $0 | 35¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | 44¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $184 | $0 | 43¢ YES | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
+| Sat Nov 7, 4:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $167 | $0 | 40¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nuggets vs. Pacers · starts Sat Nov 7, 10:00 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Nuggets vs. Pacers: O/U 230.5: first seen: 1 vetted on Over ($10.6k), fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Spread: Nuggets (-6.5): first seen: 1 vetted on Pacers ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:17 AM (hourly): Nuggets vs. Pacers: Kalshi 29¢ → 27¢
+- Sat Nov 7, 5:17 AM (hourly): Nuggets vs. Pacers: Kalshi 30¢ → 29¢
+- Sat Nov 7, 4:15 AM (hourly): Nuggets vs. Pacers: Kalshi 32¢ → 30¢
+- Sat Nov 7, 2:16 AM (hourly): Nuggets vs. Pacers: Kalshi 29¢ → 32¢
+- Fri Nov 6, 10:16 PM (hourly): Nuggets vs. Pacers: first seen: 1 vetted on Pacers ($243), fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Nuggets (-6.5) → Pacers | takeormake $329 | $317 | 47¢ NO | fails: only 1 vetted wallet with $329 (needs 3+ wallets, or 2 with $5.0k+); opposition 96% |
+| Sat Nov 7, 4:15 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $562 | $0 | 27¢ YES | fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Nuggets vs. Pacers: O/U 230.5 → Over | ferrariChampions2026 $10.6k | $0 | 48¢ YES | fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Nuggets (-6.5) → Pacers | takeormake $25 | $0 | 47¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $562 | $0 | 27¢ YES | fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Nuggets (-6.5) → Pacers | takeormake $25 | $0 | 47¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $403 | $0 | 27¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $239 | $0 | 29¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 30¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 32¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 29¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 11:13 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 29¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 6, 10:16 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $243 | $0 | 29¢ YES | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Sunderland AFC vs. Chelsea FC - More Markets · starts Sun Nov 8, 2:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): Sunderland AFC vs. Chelsea FC: O/U 0.5: first seen: 1 vetted on Under ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Sunderland AFC vs. Chelsea FC: O/U 0.5 → Under | tradecraft $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Sunderland AFC vs. Chelsea FC: O/U 0.5 → Under | tradecraft $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Sunderland AFC vs. Chelsea FC: O/U 0.5 → Under | tradecraft $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nottingham Forest FC vs. Manchester City FC · starts Sat Nov 7, 5:30 PM
+
+- Sat Nov 7, 4:15 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 19¢ → 20¢
+- Sat Nov 7, 4:15 PM (hourly): Will Nottingham Forest FC vs. Manchester City FC end in a draw?: Kalshi 23¢ → 24¢
+- Sat Nov 7, 4:15 PM (hourly): Will Manchester City FC win on 2026-11-07?: Kalshi 43¢ → 42¢
+- Sat Nov 7, 3:17 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 20¢ → 19¢
+- Sat Nov 7, 3:17 PM (hourly): Will Nottingham Forest FC vs. Manchester City FC end in a draw?: first seen: 1 vetted on Yes ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Will Manchester City FC win on 2026-11-07?: Kalshi 44¢ → 43¢
+- Sat Nov 7, 1:12 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 21¢ → 20¢
+- Sat Nov 7, 12:14 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 20¢ → 21¢
+- Sat Nov 7, 12:14 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: SnakeBall joined Yes (+$199)
+- Sat Nov 7, 9:15 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Flaznorp left
+- Sat Nov 7, 9:15 AM (hourly): Will Manchester City FC win on 2026-11-07?: Flaznorp left
+- Sat Nov 7, 8:17 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: tradecraft joined Yes (+$10)
+- Sat Nov 7, 8:17 AM (hourly): Will Manchester City FC win on 2026-11-07?: Flaznorp added $3.3k on No
+- Sat Nov 7, 1:15 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: first seen: 1 vetted on Yes ($239), fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Will Manchester City FC win on 2026-11-07?: first seen: 2 vetted on No ($385), fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Will Nottingham Forest FC vs. Manchester City FC end in a draw? → Yes | tradecraft $11 | $0 | 24¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $123 | $0 | 42¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 19¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Nottingham Forest FC vs. Manchester City FC end in a draw? → Yes | tradecraft $12 | $0 | 23¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $123 | $0 | 43¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $123 | $0 | 43¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 21¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $228, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $238 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $3.6k, tradecraft $90 | $0 | 44¢ NO | fails: only 2 vetted wallets with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Minnesota United FC vs. San Jose Earthquakes · starts Sun Nov 8, 12:00 AM
+
+- Sat Nov 7, 3:17 PM (hourly): Will Minnesota United FC win on 2026-11-07?: back: 1 vetted on Yes ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Will Minnesota United FC win on 2026-11-07?: all vetted wallets left No
+- Sat Nov 7, 10:14 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: all vetted wallets left No
+- Sat Nov 7, 8:17 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 78¢ → 79¢
+- Sat Nov 7, 4:15 AM (hourly): Will Minnesota United FC win on 2026-11-07?: Kalshi 18¢ → 45¢
+- Sat Nov 7, 4:15 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 83¢ → 78¢
+- Sat Nov 7, 2:16 AM (hourly): Will Minnesota United FC win on 2026-11-07?: Kalshi 28¢ → 18¢
+- Sat Nov 7, 2:16 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 73¢ → 83¢
+- Sat Nov 7, 1:15 AM (hourly): Will Minnesota United FC win on 2026-11-07?: first seen: 1 vetted on No ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: first seen: 1 vetted on No ($101), fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Minnesota United FC win on 2026-11-07? → Yes | tradecraft $15 | $0 | 58¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Minnesota United FC win on 2026-11-07? → Yes | tradecraft $15 | $0 | 58¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $88 | $0 | 45¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $102 | $0 | 79¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $88 | $0 | 45¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 78¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 45¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 78¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 18¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 83¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 77c |
+| Sat Nov 7, 1:15 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 28¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 73¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Ipswich Town FC vs. AFC Bournemouth · starts Sun Nov 8, 2:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): Will AFC Bournemouth win on 2026-11-08?: first seen: 1 vetted on No ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will AFC Bournemouth win on 2026-11-08? → No | tradecraft $25 | $0 | 49¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will AFC Bournemouth win on 2026-11-08? → No | tradecraft $25 | $0 | 49¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will AFC Bournemouth win on 2026-11-08? → No | tradecraft $25 | $0 | 49¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Sunderland AFC vs. Chelsea FC · starts Sun Nov 8, 2:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): Will Chelsea FC win on 2026-11-08?: first seen: 1 vetted on No ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Chelsea FC win on 2026-11-08? → No | tradecraft $31 | $0 | 52¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Chelsea FC win on 2026-11-08? → No | tradecraft $31 | $0 | 52¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will Chelsea FC win on 2026-11-08? → No | tradecraft $31 | $0 | 52¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Brighton & Hove Albion FC vs. Brentford FC · starts Sun Nov 8, 2:00 PM
+
+- Sat Nov 7, 2:20 PM (hourly): Will Brighton & Hove Albion FC win on 2026-11-08?: first seen: 2 vetted on No ($533), fails: only 2 vetted wallets with $533 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will Brighton & Hove Albion FC win on 2026-11-08? → No | SnakeBall $509, tradecraft $48 | $0 | 49¢ NO | fails: only 2 vetted wallets with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Will Brighton & Hove Albion FC win on 2026-11-08? → No | SnakeBall $509, tradecraft $48 | $0 | 49¢ NO | fails: only 2 vetted wallets with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will Brighton & Hove Albion FC win on 2026-11-08? → No | SnakeBall $509, tradecraft $24 | $0 | 49¢ NO | fails: only 2 vetted wallets with $533 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Marshall vs. Georgia Southern · starts Sat Nov 7, 8:30 PM
+
+- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-7.5): first seen: 1 vetted on Marshall ($52), fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-8.5): Kalshi 52¢ → 47¢
+- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-8.5): majority flipped to Georgia Southern ($442 vs $0)
+- Sat Nov 7, 2:20 PM (hourly): Spread: Georgia Southern (-8.5): first seen: 1 vetted on Marshall ($1.1k), fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Georgia Southern (-7.5) → Marshall | gmpm2 $52 | $0 | 52¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Georgia Southern (-8.5) → Georgia Southern | gmpm2 $442 | $0 | 47¢ YES | fails: only 1 vetted wallet with $442 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Georgia Southern (-7.5) → Marshall | gmpm2 $52 | $0 | 52¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Georgia Southern (-8.5) → Georgia Southern | gmpm2 $442 | $0 | 47¢ YES | fails: only 1 vetted wallet with $442 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Georgia Southern (-8.5) → Marshall | gmpm2 $1.1k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Magic vs. Warriors · starts Sun Nov 8, 1:30 AM
+
+- Sat Nov 7, 4:15 PM (hourly): Magic vs. Warriors: Kalshi 34¢ → 33¢
+- Sat Nov 7, 4:15 PM (hourly): Spread: Warriors (-5.5): first seen: 1 vetted on Warriors ($8.7k), fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 3:17 PM (hourly): Magic vs. Warriors: Kalshi 32¢ → 34¢
+- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): Kalshi 51¢ → 54¢
+- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): ferrariChampions2026 joined Magic (+$793)
+- Sat Nov 7, 12:14 PM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
+- Sat Nov 7, 10:14 AM (hourly): Magic vs. Warriors: O/U 219.5: all vetted wallets left Over
+- Sat Nov 7, 10:14 AM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
+- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: Kalshi 69¢ → 32¢
+- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: majority flipped to Magic ($85 vs $0)
+- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: now fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49%
+- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: Kalshi 32¢ → 69¢
+- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: majority flipped to Warriors ($178 vs $88)
+- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: now passes
+- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: Kalshi 33¢ → 32¢
+- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: monkeymashingkeyboard joined Magic (+$6.5k)
+- Sat Nov 7, 2:16 AM (hourly): Magic vs. Warriors: first seen: 1 vetted on Magic ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $779, takeormake $356 | $0 | 54¢ NO | fails: only 2 vetted wallets with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
+| Sat Nov 7, 4:15 PM | hourly | Magic vs. Warriors → Magic | takeormake $453 | $399 | 33¢ YES | fails: only 1 vetted wallet with $453 (needs 3+ wallets, or 2 with $5.0k+); opposition 88% |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $8.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 55¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 51c |
+| Sat Nov 7, 3:17 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 34¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 54¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
+| Sat Nov 7, 2:20 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 32¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 11:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $200 | $0 | 32¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $330 | $0 | 51¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $180 | $85 | 69¢ YES | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+); opposition 47% |
+| Sat Nov 7, 5:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $178 | $88 | 69¢ YES | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49% |
+| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | monkeymashingkeyboard $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors → Magic | monkeymashingkeyboard $6.5k, takeormake $88 | $178 | 32¢ YES | passes |
+| Sat Nov 7, 2:16 AM | hourly | Magic vs. Warriors → Magic | takeormake $96 | $0 | 33¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Orgryte IS vs. Vasteraas SK · starts Sat Nov 7, 4:30 PM
+
+- Sat Nov 7, 4:15 PM (pregame): Will Vasteraas SK win on 2026-11-07?: first seen: 1 vetted on No ($5.5k), fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Will Vasteraas SK win on 2026-11-07? → No | RN1 $5.5k | $0 | 51¢ NO | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### RCD Espanyol de Barcelona vs. RC Deportivo A Coruña - More Markets · starts Sat Nov 7, 3:15 PM
+
+- Sat Nov 7, 3:17 PM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 0.5: first seen: 1 vetted on Under ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:14 AM (hourly): Spread: RCD Espanyol de Barcelona (-1.5): all vetted wallets left RC Deportivo A Coruña
+- Sat Nov 7, 10:14 AM (hourly): Spread: RC Deportivo A Coruña (-2.5): all vetted wallets left RCD Espanyol de Barcelona
+- Sat Nov 7, 10:14 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: all vetted wallets left Over
+- Sat Nov 7, 5:17 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: Kalshi matched at 73¢
+- Sat Nov 7, 5:17 AM (hourly): Spread: RCD Espanyol de Barcelona (-1.5): first seen: 1 vetted on RC Deportivo A Coruña ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 1:15 AM (hourly): RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5: first seen: 1 vetted on Over ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 3:17 PM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 0.5 → Under | SnakeBall $2 | $0 | 8¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:17 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 8:17 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $512 | $0 | — | fails: only 1 vetted wallet with $512 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 5:17 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spread: RCD Espanyol de Barcelona (-1.5) → RC Deportivo A Coruña | Flaznorp $46 | $0 | 83¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $512 | $0 | 97¢ NO | fails: only 1 vetted wallet with $512 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sat Nov 7, 4:15 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 4:15 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | — | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 2:16 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:16 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | 97¢ NO | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sat Nov 7, 1:15 AM | hourly | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña: O/U 1.5 → Over | Flaznorp $39 | $0 | 73¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:15 AM | hourly | Spread: RC Deportivo A Coruña (-2.5) → RCD Espanyol de Barcelona | Flaznorp $513 | $0 | 97¢ NO | fails: only 1 vetted wallet with $513 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+
+### CD Nacional vs. Académico de Viseu FC · starts Sat Nov 7, 3:30 PM
+
+- Sat Nov 7, 3:17 PM (pregame): Will Académico de Viseu FC win on 2026-11-07?: back: 1 vetted on No ($30), fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:15 AM (hourly): Will CD Nacional win on 2026-11-07?: Kalshi 71¢ → 70¢
+- Sat Nov 7, 10:14 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: all vetted wallets left No
+- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: Kalshi 69¢ → 71¢
+- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: Flaznorp left
+- Sat Nov 7, 10:14 AM (hourly): Will CD Nacional win on 2026-11-07?: SnakeBall joined No (+$58)
+- Sat Nov 7, 8:17 AM (hourly): Will CD Nacional win on 2026-11-07?: first seen: 1 vetted on No ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:17 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: Kalshi 62¢ → 60¢
+- Sat Nov 7, 5:17 AM (hourly): Will Académico de Viseu FC win on 2026-11-07?: first seen: 1 vetted on No ($262), fails: only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 3:17 PM | pregame | Will CD Nacional win on 2026-11-07? → No | SnakeBall $56 | $0 | 70¢ NO | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | pregame | Will Académico de Viseu FC win on 2026-11-07? → No | tradecraft $30 | $0 | 61¢ NO | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $57 | $0 | 70¢ NO | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 1:12 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 12:14 PM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:15 AM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 70¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:14 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:14 AM | hourly | Will CD Nacional win on 2026-11-07? → No | SnakeBall $58 | $0 | 71¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Will CD Nacional win on 2026-11-07? → No | Flaznorp $89 | $0 | 69¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:17 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | Flaznorp $258 | $0 | 60¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:17 AM | hourly | Will Académico de Viseu FC win on 2026-11-07? → No | Flaznorp $262 | $0 | 62¢ NO | fails: only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Galatasaray SK vs. Amed Sportif - More Markets · starts Sat Nov 7, 4:00 PM
 
@@ -2904,35 +3922,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Spread: Amed Sportif (-1.5) → Galatasaray SK | Flaznorp $54 | $0 | 96¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Galatasaray SK vs. Amed Sportif: O/U 3.5 → Under | Flaznorp $328 | $0 | 55¢ NO | fails: only 1 vetted wallet with $328 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Oklahoma State vs. Kansas State · starts Sat Nov 7, 6:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Spread: Oklahoma State (-6.5): first seen: 1 vetted on Kansas State ($773), fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 10:16 PM (hourly): Oklahoma State vs. Kansas State: primm joined Oklahoma State (+$28)
-- Fri Nov 6, 6:18 PM (hourly): Oklahoma State vs. Kansas State: first seen: 1 vetted on Oklahoma State ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Oklahoma State (-6.5) → Kansas State | ferrariChampions2026 $773 | $0 | 48¢ NO | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 68¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Oklahoma State (-6.5) → Kansas State | ferrariChampions2026 $773 | $0 | 48¢ NO | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
-| Sat Nov 7, 1:12 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $16 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
-| Sat Nov 7, 12:14 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | primm $28, SnakeBall $18 | $0 | 69¢ YES | fails: only 2 vetted wallets with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | Oklahoma State vs. Kansas State → Oklahoma State | SnakeBall $17 | $0 | 69¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Fortuna Sittard vs. Telstar 1963 - More Markets · starts Sat Nov 7, 3:30 PM
 
 - Sat Nov 7, 3:17 PM (pregame): Fortuna Sittard vs. Telstar 1963: O/U 2.5: back: 1 vetted on Under ($1.0k), fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)
@@ -2951,501 +3940,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 4:15 AM | hourly | Fortuna Sittard vs. Telstar 1963: O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 7, 2:16 AM | hourly | Fortuna Sittard vs. Telstar 1963: O/U 2.5 → Under | Flaznorp $17 | $0 | 42¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Fortuna Sittard vs. Telstar 1963: O/U 2.5 → Under | Flaznorp $17 | $0 | 42¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Maryland vs. Purdue · starts Sat Nov 7, 5:30 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Spread: Purdue (-5.5): ferrariChampions2026 cut $1.1k on Maryland
-- Sat Nov 7, 1:12 PM (hourly): Spread: Purdue (-5.5): Kalshi 51¢ → 52¢
-- Sat Nov 7, 1:12 PM (hourly): Spread: Purdue (-5.5): ferrariChampions2026 added $2.4k on Maryland
-- Sat Nov 7, 1:12 PM (hourly): Maryland vs. Purdue: back: 1 vetted on Maryland ($1.9k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 12:14 PM (hourly): Spread: Purdue (-5.5): Kalshi matched at 51¢
-- Sat Nov 7, 10:14 AM (hourly): Maryland vs. Purdue: all vetted wallets left Maryland
-- Sat Nov 7, 10:14 AM (hourly): Spread: Purdue (-5.5): Kalshi matched at 51¢
-- Sat Nov 7, 8:17 AM (hourly): Spread: Purdue (-5.5): first seen: 1 vetted on Maryland ($424), fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Maryland vs. Purdue: first seen: 1 vetted on Maryland ($250), fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.5k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $1.7k | $88 | 52¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.5k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $1.7k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $2.9k | $0 | 52¢ NO | fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Maryland vs. Purdue → Maryland | ferrariChampions2026 $1.9k | $0 | 37¢ YES | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | — | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 10:14 AM | hourly | Maryland vs. Purdue → Maryland | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | — | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Purdue (-5.5) → Maryland | ferrariChampions2026 $424 | $0 | 51¢ NO | fails: only 1 vetted wallet with $424 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Maryland vs. Purdue → Maryland | Flaznorp $250 | $0 | 36¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SBV Excelsior vs. Go Ahead Eagles - More Markets · starts Sat Nov 7, 8:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 2.5: back: 1 vetted on Under ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 2.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): Spread: Go Ahead Eagles (-2.5): all vetted wallets left Go Ahead Eagles
-- Sat Nov 7, 10:14 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 5:17 AM (hourly): SBV Excelsior vs. Go Ahead Eagles: O/U 1.5: Kalshi matched at 17¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: Go Ahead Eagles (-2.5): first seen: 1 vetted on Go Ahead Eagles ($3), fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | ferrariChampions2026 $1.5k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | ferrariChampions2026 $1.5k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 2.5 → Under | Flaznorp $633 | $0 | — | fails: only 1 vetted wallet with $633 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 5:17 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $16 | $0 | 17¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | SBV Excelsior vs. Go Ahead Eagles: O/U 1.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | 9¢ YES | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Go Ahead Eagles (-2.5) → Go Ahead Eagles | Flaznorp $3 | $0 | 9¢ YES | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Blackhawks vs. Hurricanes · starts Sun Nov 8, 1:00 AM
-
-- Sat Nov 7, 2:20 PM (hourly): Blackhawks vs. Hurricanes: Kalshi 80¢ → 81¢
-- Sat Nov 7, 1:12 PM (hourly): Blackhawks vs. Hurricanes: first seen: 1 vetted on Hurricanes ($2.6k), fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 81¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 81¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Blackhawks vs. Hurricanes → Hurricanes | ferrariChampions2026 $2.6k | $0 | 80¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### VfB Stuttgart vs. SV Werder Bremen - More Markets · starts Sat Nov 7, 5:30 PM
-
-- Sat Nov 7, 3:17 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 51¢ → 52¢
-- Sat Nov 7, 2:20 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 52¢ → 51¢
-- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: now passes
-- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi 50¢ → 52¢
-- Sat Nov 7, 1:12 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: ferrariChampions2026 joined Under (+$5.2k)
-- Sat Nov 7, 10:14 AM (hourly): Spread: VfB Stuttgart (-1.5): all vetted wallets left SV Werder Bremen
-- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 5:17 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: Kalshi matched at 29¢
-- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: first seen: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: VfB Stuttgart (-1.5): first seen: 1 vetted on SV Werder Bremen ($106), fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Kalshi matched at 49¢
-- Sat Nov 7, 1:15 AM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: Flaznorp joined Under (+$109)
-- Fri Nov 6, 6:18 PM (hourly): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: first seen: 1 vetted on Under ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.3k, SnakeBall $57 | $0 | 52¢ NO | passes |
-| Sat Nov 7, 2:20 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.2k, SnakeBall $56 | $0 | 51¢ NO | passes |
-| Sat Nov 7, 1:12 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | ferrariChampions2026 $5.2k, SnakeBall $56 | $0 | 52¢ NO | passes |
-| Sat Nov 7, 12:14 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | 50¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
-| Sat Nov 7, 11:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 10:14 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | 50¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
-| Sat Nov 7, 9:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: 1st Half O/U 1.5 → Under | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $111, SnakeBall $55 | $0 | — | fails: only 2 vetted wallets with $166 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $118 | $0 | — | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $31 | $0 | 29¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $115 | $0 | 69¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 63c |
-| Sat Nov 7, 5:17 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 50¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
-| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | — | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $22 | $0 | 28¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $105 | $0 | 65¢ NO | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 49¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 2.5 → Under | Flaznorp $22 | $0 | 28¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: VfB Stuttgart (-1.5) → SV Werder Bremen | Flaznorp $106 | $0 | 65¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | Flaznorp $109, SnakeBall $54 | $0 | 49¢ NO | fails: only 2 vetted wallets with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 10:16 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | SnakeBall $54 | $0 | 49¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz · starts Sat Nov 7, 4:00 PM
-
-- Sat Nov 7, 12:14 PM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: Kalshi matched at 82¢
-- Sat Nov 7, 10:14 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: Kalshi matched at 82¢
-- Sat Nov 7, 9:15 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: ferrariChampions2026 cut $2.6k on Carlos Alcaraz
-- Sat Nov 7, 8:17 AM (hourly): Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz: first seen: 1 vetted on Carlos Alcaraz ($8.4k), fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | pregame | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | — | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 10:14 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | 82¢ YES | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $5.8k | $0 | — | fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 8:17 AM | hourly | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | ferrariChampions2026 $8.4k | $324 | 83¢ YES | fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nets vs. Hawks · starts Sun Nov 8, 12:30 AM
-
-- Sat Nov 7, 3:17 PM (hourly): Spread: Hawks (-6.5): Kalshi 50¢ → 49¢
-- Sat Nov 7, 2:20 PM (hourly): Nets vs. Hawks: O/U 227.5: first seen: 1 vetted on Over ($11.2k), fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:12 PM (hourly): Spread: Hawks (-6.5): first seen: 1 vetted on Nets ($330), fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:17 AM (hourly): Nets vs. Hawks: Kalshi 31¢ → 29¢
-- Sat Nov 7, 4:15 AM (hourly): Nets vs. Hawks: Kalshi 32¢ → 31¢
-- Sat Nov 7, 2:16 AM (hourly): Nets vs. Hawks: Kalshi 33¢ → 32¢
-- Sat Nov 7, 1:15 AM (hourly): Nets vs. Hawks: first seen: 1 vetted on Nets ($258), fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Nets vs. Hawks: O/U 227.5 → Over | ferrariChampions2026 $11.2k | $0 | 49¢ YES | fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $323 | $0 | 49¢ NO | fails: only 1 vetted wallet with $323 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Nets vs. Hawks: O/U 227.5 → Over | ferrariChampions2026 $11.2k | $0 | 49¢ YES | fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $330 | $0 | 50¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Hawks (-6.5) → Nets | takeormake $330 | $0 | 50¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Nets vs. Hawks → Nets | takeormake $234 | $0 | 29¢ YES | fails: only 1 vetted wallet with $234 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $250 | $0 | 31¢ YES | fails: only 1 vetted wallet with $250 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Nets vs. Hawks → Nets | takeormake $258 | $0 | 32¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Nets vs. Hawks → Nets | takeormake $258 | $0 | 33¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Air Force vs. Army · starts Sun Nov 8, 12:30 AM
-
-- Sat Nov 7, 3:17 PM (hourly): Air Force vs. Army: Kalshi 62¢ → 63¢
-- Sat Nov 7, 2:20 PM (hourly): Air Force vs. Army: O/U 43.5: first seen: 1 vetted on Over ($13.1k), fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 2:20 PM (hourly): Air Force vs. Army: Kalshi 61¢ → 62¢
-- Sat Nov 7, 1:15 AM (hourly): Air Force vs. Army: first seen: 1 vetted on Army ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Air Force vs. Army: O/U 43.5 → Over | ferrariChampions2026 $13.1k | $92 | 52¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 63¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 63c vs leaders 60c |
-| Sat Nov 7, 2:20 PM | hourly | Air Force vs. Army: O/U 43.5 → Over | ferrariChampions2026 $13.1k | $92 | 52¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 62¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Air Force vs. Army → Army | tradecraft $21 | $0 | 61¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Lightning vs. Wild · starts Sun Nov 8, 1:00 AM
-
-- Sat Nov 7, 2:20 PM (hourly): Spread: Lightning (-1.5): first seen: 1 vetted on Wild ($15.4k), fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Lightning (-1.5) → Wild | ferrariChampions2026 $15.4k | $0 | 66¢ NO | fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Lightning (-1.5) → Wild | ferrariChampions2026 $15.4k | $0 | 66¢ NO | fails: only 1 vetted wallet with $15.4k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Canadiens vs. Maple Leafs · starts Sun Nov 8, 12:00 AM
-
-- Sat Nov 7, 1:12 PM (hourly): Spread: Canadiens (-1.5): first seen: 1 vetted on Maple Leafs ($21.5k), fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Canadiens (-1.5) → Maple Leafs | ferrariChampions2026 $21.5k | $0 | 69¢ NO | fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rangers vs. Kraken · starts Sat Nov 7, 10:00 PM
-
-- Sat Nov 7, 3:17 PM (hourly): Spread: Rangers (-1.5): first seen: 1 vetted on Kraken ($22.2k), fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Rangers (-1.5) → Kraken | ferrariChampions2026 $22.2k | $0 | 67¢ NO | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### FC Dallas vs. Colorado Rapids SC - More Markets · starts Sun Nov 8, 12:00 AM
-
-- Sat Nov 7, 3:17 PM (hourly): FC Dallas vs. Colorado Rapids SC: O/U 2.5: first seen: 1 vetted on Over ($149), fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Spread: FC Dallas (-2.5): all vetted wallets left Colorado Rapids SC
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | FC Dallas vs. Colorado Rapids SC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $149 | $0 | 56¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: FC Dallas (-2.5) → Colorado Rapids SC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 4:15 AM | hourly | Spread: FC Dallas (-2.5) → Colorado Rapids SC | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### St Mirren FC vs. Rangers FC - More Markets · starts Sat Nov 7, 8:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): St Mirren FC vs. Rangers FC: O/U 2.5: first seen: 1 vetted on Over ($4.6k), fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Spread: Rangers FC (-3.5): all vetted wallets left Rangers FC
-- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: 1st Half O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 5:17 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: Kalshi matched at 22¢
-- Sat Nov 7, 5:17 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: Kalshi matched at 40¢
-- Sat Nov 7, 1:15 AM (hourly): St Mirren FC vs. Rangers FC: O/U 4.5: first seen: 1 vetted on Over ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): St Mirren FC vs. Rangers FC: O/U 3.5: first seen: 1 vetted on Over ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $4.6k | $0 | 63¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $4.6k | $0 | 63¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Rangers FC (-3.5) → Rangers FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Rangers FC (-3.5) → Rangers FC | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $41 | $0 | 22¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | 22¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 4.5 → Over | Flaznorp $42 | $0 | 22¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: 1st Half O/U 4.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | St Mirren FC vs. Rangers FC: O/U 3.5 → Over | Flaznorp $82 | $0 | 40¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Knicks vs. Cavaliers · starts Sun Nov 8, 1:00 AM
-
-- Sat Nov 7, 12:14 PM (hourly): Spread: Knicks (-3.5): Kalshi matched at 45¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $12 | $0 | 45¢ NO | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | 45¢ NO | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Knicks (-3.5) → Cavaliers | takeormake $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Nuggets vs. Pacers · starts Sat Nov 7, 10:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Spread: Nuggets (-6.5): first seen: 1 vetted on Pacers ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:17 AM (hourly): Nuggets vs. Pacers: Kalshi 29¢ → 27¢
-- Sat Nov 7, 5:17 AM (hourly): Nuggets vs. Pacers: Kalshi 30¢ → 29¢
-- Sat Nov 7, 4:15 AM (hourly): Nuggets vs. Pacers: Kalshi 32¢ → 30¢
-- Sat Nov 7, 2:16 AM (hourly): Nuggets vs. Pacers: Kalshi 29¢ → 32¢
-- Fri Nov 6, 10:16 PM (hourly): Nuggets vs. Pacers: first seen: 1 vetted on Pacers ($243), fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Nuggets (-6.5) → Pacers | takeormake $25 | $0 | 47¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $562 | $0 | 27¢ YES | fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Nuggets (-6.5) → Pacers | takeormake $25 | $0 | 47¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $403 | $0 | 27¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $222 | $0 | 27¢ YES | fails: only 1 vetted wallet with $222 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $239 | $0 | 29¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 30¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 32¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 29¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $256 | $0 | 29¢ YES | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Nuggets vs. Pacers → Pacers | takeormake $243 | $0 | 29¢ YES | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Wizards vs. Thunder · starts Sun Nov 8, 1:00 AM
-
-- Sat Nov 7, 2:20 PM (hourly): Wizards vs. Thunder: Kalshi 19¢ → 18¢
-- Sat Nov 7, 2:20 PM (hourly): Wizards vs. Thunder: O/U 220.5: first seen: 1 vetted on Under ($183), fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:12 PM (hourly): Spread: Thunder (-8.5): Kalshi 42¢ → 41¢
-- Sat Nov 7, 12:14 PM (hourly): Spread: Thunder (-8.5): first seen: 1 vetted on Wizards ($321), fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:15 AM (hourly): Wizards vs. Thunder: Kalshi 20¢ → 19¢
-- Sat Nov 7, 4:15 AM (hourly): Wizards vs. Thunder: Kalshi 22¢ → 20¢
-- Sat Nov 7, 1:15 AM (hourly): Wizards vs. Thunder: first seen: 1 vetted on Wizards ($170), fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 18¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Wizards vs. Thunder: O/U 220.5 → Under | ferrariChampions2026 $185 | $0 | 45¢ NO | fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 18¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Wizards vs. Thunder: O/U 220.5 → Under | ferrariChampions2026 $183 | $0 | 45¢ NO | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 41¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $132 | $0 | 19¢ YES | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Thunder (-8.5) → Wizards | takeormake $321 | $0 | 42¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 19¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 19¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $140 | $0 | 20¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $148 | $0 | 20¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $155 | $0 | 20¢ YES | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $170 | $0 | 22¢ YES | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Wizards vs. Thunder → Wizards | takeormake $170 | $0 | 22¢ YES | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Spurs vs. Trail Blazers · starts Sun Nov 8, 3:00 AM
-
-- Sat Nov 7, 3:17 PM (hourly): Spurs vs. Trail Blazers: Kalshi 34¢ → 33¢
-- Sat Nov 7, 1:12 PM (hourly): Spurs vs. Trail Blazers: Kalshi 35¢ → 34¢
-- Sat Nov 7, 12:14 PM (hourly): Spread: Spurs (-3.5): Kalshi matched at 44¢
-- Sat Nov 7, 10:14 AM (hourly): Spread: Spurs (-3.5): first seen: 1 vetted on Trail Blazers ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:17 AM (hourly): Spurs vs. Trail Blazers: Kalshi 43¢ → 35¢
-- Sat Nov 7, 5:17 AM (hourly): Spurs vs. Trail Blazers: Kalshi 40¢ → 43¢
-- Sat Nov 7, 4:15 AM (hourly): Spurs vs. Trail Blazers: first seen: 1 vetted on Trail Blazers ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $318 | $0 | 44¢ NO | fails: only 1 vetted wallet with $318 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 33¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $96 | $0 | 44¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 34¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $96 | $0 | 44¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 34¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | 44¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $470 | $0 | 35¢ YES | fails: only 1 vetted wallet with $470 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $147 | $0 | 35¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Spurs (-3.5) → Trail Blazers | takeormake $18 | $0 | 44¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $142 | $0 | 35¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $184 | $0 | 43¢ YES | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
-| Sat Nov 7, 4:15 AM | hourly | Spurs vs. Trail Blazers → Trail Blazers | takeormake $167 | $0 | 40¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rockets vs. Suns · starts Sun Nov 8, 2:00 AM
-
-- Sat Nov 7, 2:20 PM (hourly): Rockets vs. Suns: Kalshi 28¢ → 30¢
-- Sat Nov 7, 5:17 AM (hourly): Rockets vs. Suns: Kalshi 29¢ → 28¢
-- Sat Nov 7, 4:15 AM (hourly): Rockets vs. Suns: Kalshi 30¢ → 29¢
-- Sat Nov 7, 2:16 AM (hourly): Rockets vs. Suns: first seen: 1 vetted on Suns ($95), fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Rockets vs. Suns → Suns | takeormake $418 | $0 | 30¢ YES | fails: only 1 vetted wallet with $418 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Rockets vs. Suns → Suns | takeormake $418 | $0 | 30¢ YES | fails: only 1 vetted wallet with $418 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Rockets vs. Suns → Suns | takeormake $149 | $0 | 28¢ YES | fails: only 1 vetted wallet with $149 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $155 | $0 | 29¢ YES | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Rockets vs. Suns → Suns | takeormake $95 | $0 | 30¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Sunderland AFC vs. Chelsea FC - More Markets · starts Sun Nov 8, 2:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Sunderland AFC vs. Chelsea FC: O/U 0.5: first seen: 1 vetted on Under ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Sunderland AFC vs. Chelsea FC: O/U 0.5 → Under | tradecraft $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Sunderland AFC vs. Chelsea FC: O/U 0.5 → Under | tradecraft $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nottingham Forest FC vs. Manchester City FC · starts Sat Nov 7, 5:30 PM
-
-- Sat Nov 7, 3:17 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 20¢ → 19¢
-- Sat Nov 7, 3:17 PM (hourly): Will Nottingham Forest FC vs. Manchester City FC end in a draw?: first seen: 1 vetted on Yes ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 2:20 PM (hourly): Will Manchester City FC win on 2026-11-07?: Kalshi 44¢ → 43¢
-- Sat Nov 7, 1:12 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 21¢ → 20¢
-- Sat Nov 7, 12:14 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 20¢ → 21¢
-- Sat Nov 7, 12:14 PM (hourly): Will Nottingham Forest FC win on 2026-11-07?: SnakeBall joined Yes (+$199)
-- Sat Nov 7, 9:15 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: Flaznorp left
-- Sat Nov 7, 9:15 AM (hourly): Will Manchester City FC win on 2026-11-07?: Flaznorp left
-- Sat Nov 7, 8:17 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: tradecraft joined Yes (+$10)
-- Sat Nov 7, 8:17 AM (hourly): Will Manchester City FC win on 2026-11-07?: Flaznorp added $3.3k on No
-- Sat Nov 7, 1:15 AM (hourly): Will Nottingham Forest FC win on 2026-11-07?: first seen: 1 vetted on Yes ($239), fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Manchester City FC win on 2026-11-07?: first seen: 2 vetted on No ($385), fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 19¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Will Nottingham Forest FC vs. Manchester City FC end in a draw? → Yes | tradecraft $12 | $0 | 23¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $123 | $0 | 43¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $123 | $0 | 43¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | SnakeBall $199, tradecraft $10 | $0 | 21¢ YES | fails: only 2 vetted wallets with $209 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | tradecraft $10 | $0 | 20¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | tradecraft $90 | $0 | 44¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $228, tradecraft $10 | $0 | 20¢ YES | fails: only 2 vetted wallets with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $3.6k, tradecraft $90 | $0 | 44¢ NO | fails: only 2 vetted wallets with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Nottingham Forest FC win on 2026-11-07? → Yes | Flaznorp $239 | $0 | 20¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Manchester City FC win on 2026-11-07? → No | Flaznorp $363, tradecraft $22 | $0 | 44¢ NO | fails: only 2 vetted wallets with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Minnesota United FC vs. San Jose Earthquakes · starts Sun Nov 8, 12:00 AM
-
-- Sat Nov 7, 3:17 PM (hourly): Will Minnesota United FC win on 2026-11-07?: back: 1 vetted on Yes ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Will Minnesota United FC win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 10:14 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 8:17 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 78¢ → 79¢
-- Sat Nov 7, 4:15 AM (hourly): Will Minnesota United FC win on 2026-11-07?: Kalshi 18¢ → 45¢
-- Sat Nov 7, 4:15 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 83¢ → 78¢
-- Sat Nov 7, 2:16 AM (hourly): Will Minnesota United FC win on 2026-11-07?: Kalshi 28¢ → 18¢
-- Sat Nov 7, 2:16 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: Kalshi 73¢ → 83¢
-- Sat Nov 7, 1:15 AM (hourly): Will Minnesota United FC win on 2026-11-07?: first seen: 1 vetted on No ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will San Jose Earthquakes win on 2026-11-07?: first seen: 1 vetted on No ($101), fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will Minnesota United FC win on 2026-11-07? → Yes | tradecraft $15 | $0 | 58¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $88 | $0 | 45¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $102 | $0 | 79¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $88 | $0 | 45¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 78¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 45¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 78¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 18¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 83¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 77c |
-| Sat Nov 7, 1:15 AM | hourly | Will Minnesota United FC win on 2026-11-07? → No | Flaznorp $89 | $0 | 28¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will San Jose Earthquakes win on 2026-11-07? → No | Flaznorp $101 | $0 | 73¢ NO | fails: only 1 vetted wallet with $101 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Ipswich Town FC vs. AFC Bournemouth · starts Sun Nov 8, 2:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Will AFC Bournemouth win on 2026-11-08?: first seen: 1 vetted on No ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will AFC Bournemouth win on 2026-11-08? → No | tradecraft $25 | $0 | 49¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will AFC Bournemouth win on 2026-11-08? → No | tradecraft $25 | $0 | 49¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Sunderland AFC vs. Chelsea FC · starts Sun Nov 8, 2:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Will Chelsea FC win on 2026-11-08?: first seen: 1 vetted on No ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will Chelsea FC win on 2026-11-08? → No | tradecraft $31 | $0 | 52¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will Chelsea FC win on 2026-11-08? → No | tradecraft $31 | $0 | 52¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Cádiz CF vs. Real Oviedo · starts Sat Nov 7, 3:15 PM
 
@@ -3494,17 +3988,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Will Galatasaray SK win on 2026-11-07? → No | Flaznorp $236 | $0 | 33¢ NO | fails: only 1 vetted wallet with $236 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Will Amed Sportif win on 2026-11-07? → No | Flaznorp $342 | $0 | 86¢ NO | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Brighton & Hove Albion FC vs. Brentford FC · starts Sun Nov 8, 2:00 PM
-
-- Sat Nov 7, 2:20 PM (hourly): Will Brighton & Hove Albion FC win on 2026-11-08?: first seen: 2 vetted on No ($533), fails: only 2 vetted wallets with $533 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will Brighton & Hove Albion FC win on 2026-11-08? → No | SnakeBall $509, tradecraft $48 | $0 | 49¢ NO | fails: only 2 vetted wallets with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Will Brighton & Hove Albion FC win on 2026-11-08? → No | SnakeBall $509, tradecraft $24 | $0 | 49¢ NO | fails: only 2 vetted wallets with $533 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Bursaspor vs. Fenerbahce · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 4:15 PM (hourly): Bursaspor vs. Fenerbahce: Kalshi 23¢ → 24¢
 - Sat Nov 7, 3:17 PM (hourly): Bursaspor vs. Fenerbahce: Kalshi 24¢ → 23¢
 - Sat Nov 7, 2:20 PM (hourly): Bursaspor vs. Fenerbahce: Kalshi 22¢ → 24¢
 - Sat Nov 7, 12:14 PM (hourly): Bursaspor vs. Fenerbahce: Kalshi matched at 22¢
@@ -3516,6 +4002,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $98 | $0 | 24¢ YES | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 24c vs leaders 21c |
 | Sat Nov 7, 3:17 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $98 | $0 | 23¢ YES | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:20 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $98 | $0 | 24¢ YES | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 24c vs leaders 21c |
 | Sat Nov 7, 1:12 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $85 | $0 | 22¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -3537,60 +4024,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 10:16 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $89 | $0 | 25¢ YES | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 25c vs leaders 21c |
 | Fri Nov 6, 9:13 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $92 | $0 | 27¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 27c vs leaders 21c |
 | Fri Nov 6, 8:15 PM | hourly | Bursaspor vs. Fenerbahce → Bursaspor | tradecraft $100 | $0 | 26¢ YES | fails: only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 26c vs leaders 21c |
-
-### Marshall vs. Georgia Southern · starts Sat Nov 7, 8:30 PM
-
-- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-7.5): first seen: 1 vetted on Marshall ($52), fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-8.5): Kalshi 52¢ → 47¢
-- Sat Nov 7, 3:17 PM (hourly): Spread: Georgia Southern (-8.5): majority flipped to Georgia Southern ($442 vs $0)
-- Sat Nov 7, 2:20 PM (hourly): Spread: Georgia Southern (-8.5): first seen: 1 vetted on Marshall ($1.1k), fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Georgia Southern (-7.5) → Marshall | gmpm2 $52 | $0 | 52¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Georgia Southern (-8.5) → Georgia Southern | gmpm2 $442 | $0 | 47¢ YES | fails: only 1 vetted wallet with $442 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Georgia Southern (-8.5) → Marshall | gmpm2 $1.1k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Magic vs. Warriors · starts Sun Nov 8, 1:30 AM
-
-- Sat Nov 7, 3:17 PM (hourly): Magic vs. Warriors: Kalshi 32¢ → 34¢
-- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): Kalshi 51¢ → 54¢
-- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): ferrariChampions2026 joined Magic (+$793)
-- Sat Nov 7, 12:14 PM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
-- Sat Nov 7, 10:14 AM (hourly): Magic vs. Warriors: O/U 219.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
-- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: Kalshi 69¢ → 32¢
-- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: majority flipped to Magic ($85 vs $0)
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: now fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49%
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: Kalshi 32¢ → 69¢
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: majority flipped to Warriors ($178 vs $88)
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: now passes
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: Kalshi 33¢ → 32¢
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: monkeymashingkeyboard joined Magic (+$6.5k)
-- Sat Nov 7, 2:16 AM (hourly): Magic vs. Warriors: first seen: 1 vetted on Magic ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 55¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 51c |
-| Sat Nov 7, 3:17 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 34¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 54¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
-| Sat Nov 7, 2:20 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 32¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $200 | $0 | 32¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $330 | $0 | 51¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $180 | $85 | 69¢ YES | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+); opposition 47% |
-| Sat Nov 7, 5:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $178 | $88 | 69¢ YES | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49% |
-| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | monkeymashingkeyboard $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors → Magic | monkeymashingkeyboard $6.5k, takeormake $88 | $178 | 32¢ YES | passes |
-| Sat Nov 7, 2:16 AM | hourly | Magic vs. Warriors → Magic | takeormake $96 | $0 | 33¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### FC Den Bosch vs. Jong FC Utrecht - More Markets · starts Sat Nov 7, 3:30 PM
 
@@ -4236,27 +4669,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 5:18 PM | hourly | Cardiff City FC vs. Burnley FC: O/U 1.5 → Under | SnakeBall $3 | $0 | 17¢ NO | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 4:17 PM | hourly | Cardiff City FC vs. Burnley FC: O/U 1.5 → Under | SnakeBall $3 | $0 | 16¢ NO | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 3:16 PM | hourly | Cardiff City FC vs. Burnley FC: O/U 1.5 → Under | SnakeBall $3 | $0 | 16¢ NO | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Atlético Nacional vs. Deportivo Pereira · starts Sat Nov 7, 11:10 PM
-
-- Sat Nov 7, 12:14 PM (hourly): Will Deportivo Pereira win on 2026-11-07?: first seen: 1 vetted on No ($266), fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Will Atlético Nacional win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 8:17 AM (hourly): Will Atlético Nacional win on 2026-11-07?: Kalshi 18¢ → 21¢
-- Sat Nov 7, 5:17 AM (hourly): Will Atlético Nacional win on 2026-11-07?: Kalshi matched at 18¢
-- Sat Nov 7, 1:15 AM (hourly): Will Atlético Nacional win on 2026-11-07?: first seen: 1 vetted on No ($61), fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:17 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $267 | $0 | 95¢ NO | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢ |
-| Sat Nov 7, 2:20 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Will Deportivo Pereira win on 2026-11-07? → No | SnakeBall $266 | $0 | 95¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $156 | $0 | 21¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 21c vs leaders 18c |
-| Sat Nov 7, 5:17 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $120 | $0 | 18¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | 17¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Atlético Nacional win on 2026-11-07? → No | Flaznorp $61 | $0 | 17¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### BV Borussia 09 Dortmund vs. SV 07 Elversberg - More Markets · starts Sat Nov 7, 2:30 PM
 
@@ -7618,6 +8030,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Will EC Juventude win on 2026-11-06? → No | SnakeBall $282 | $0 | 56¢ NO | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 3:17 PM | hourly | Will EC Juventude win on 2026-11-06? → No | SnakeBall $287 | $0 | 56¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 2:20 PM | hourly | Will EC Juventude win on 2026-11-06? → No | SnakeBall $287 | $0 | 56¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
 | Sat Nov 7, 1:12 PM | hourly | Will EC Juventude win on 2026-11-06? → No | SnakeBall $287 | $0 | 56¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 52c |
@@ -9196,48 +9609,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 4:15 AM | hourly | Vålerenga Fotball leading at halftime? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 2:16 AM | hourly | Vålerenga Fotball leading at halftime? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 1:15 AM | hourly | Vålerenga Fotball leading at halftime? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Hertha BSC vs. VfL Wolfsburg - More Markets · starts Sat Nov 7, 7:30 PM
-
-- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: Both Teams to Score: all vetted wallets left Yes
-- Sat Nov 7, 10:14 AM (hourly): Spread: Hertha BSC (-3.5): all vetted wallets left Hertha BSC
-- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5: all vetted wallets left Under
-- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 1.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5: all vetted wallets left Over
-- Sat Nov 7, 5:17 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: Kalshi matched at 72¢
-- Sat Nov 7, 1:15 AM (hourly): Hertha BSC vs. VfL Wolfsburg: O/U 4.5: first seen: 1 vetted on Under ($67), fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Hertha BSC (-3.5) → Hertha BSC | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
-| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: Both Teams to Score → Yes | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:17 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: 1st Half O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
-| Sat Nov 7, 2:16 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: VfL Wolfsburg O/U 2.5 → Over | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 1.5 → Over | Flaznorp $31 | $0 | 89¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 86c |
-| Sat Nov 7, 1:15 AM | hourly | Hertha BSC vs. VfL Wolfsburg: O/U 4.5 → Under | Flaznorp $67 | $0 | 72¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### AD Tarma vs. CS Cristal · starts Sat Nov 7, 6:00 PM
 
@@ -12692,6 +13063,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | hourly | Exact Score: CA Osasuna 0 - 0 Athletic Club? → No | SnakeBall $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 3:17 PM | hourly | Exact Score: CA Osasuna 0 - 0 Athletic Club? → No | SnakeBall $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 2:20 PM | hourly | Exact Score: CA Osasuna 0 - 0 Athletic Club? → No | SnakeBall $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 1:12 PM | hourly | Exact Score: CA Osasuna 0 - 0 Athletic Club? → No | SnakeBall $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
@@ -15638,6 +16010,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Florida State (-7.5) → Florida State | SnakeBall $238 | $0 | — | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
+| Sat Nov 7, 4:15 PM | pregame | Spread: Florida State (-6.5) → Boston College | ferrariChampions2026 $2.4k | $680 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 29%; Kalshi has no 6.5 spread line |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $244 | $0 | — | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
 | Sat Nov 7, 3:17 PM | hourly | Spread: Florida State (-6.5) → Boston College | ferrariChampions2026 $2.3k | $695 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); opposition 30%; Kalshi has no 6.5 spread line |
 | Sat Nov 7, 2:20 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $244 | $0 | — | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
@@ -20693,15 +21067,38 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 41 trades per market (median), up to 101 | Sat Nov 7, 8:17 AM | 3-0 (65 pending) | benched |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 1-0 (5 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 45-37 (60 pending) | benched |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 1-0 (7 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 45-37 (66 pending) | benched |
+| Flaznorp | trader: 41 trades per market (median), up to 101 | Sat Nov 7, 8:17 AM | 7-1 | released Sat Nov 7, 4:15 PM: shadow picks won 88% of 8 games at an average price of 63¢ |
 | SnakeBall | won 5 of 13 copied trades | Tue Nov 3, 11:12 PM | 12-4 | released Wed Nov 4, 9:10 PM: shadow picks won 75% of 8 games at an average price of 67¢ |
 
 ## Recent skips
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Sat Nov 7, 4:15 PM | Orgryte IS vs. Vasteraas SK - Exact Score | Exact Score: Orgryte IS 1 - 0 Vasteraas SK? → Yes | only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 PM | FC Vaduz vs. FC Sion - Exact Score | Exact Score: FC Vaduz 0 - 0 FC Sion? → Yes | only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 4:15 PM | Odense BK vs. Viborg FF - More Markets | Odense BK vs. Viborg FF: O/U 1.5 → Under | only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Parma Calcio 1913 vs. Bologna FC 1909 - Exact Score | Exact Score: Parma Calcio 1913 0 - 3 Bologna FC 1909? → No | only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 PM | FC Luzern vs. Young Boys Bern - Exact Score | Exact Score: FC Luzern 1 - 3 Young Boys Bern? → No | only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 4:15 PM | North Carolina A&T vs. Monmouth | North Carolina A&T vs. Monmouth → Monmouth | only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Rosenborg BK vs. IK Start - More Markets | Rosenborg BK vs. IK Start: O/U 6.5 → Under | only 1 vetted wallet with $474 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 6.5 line |
+| Sat Nov 7, 4:15 PM | Parma Calcio 1913 vs. Bologna FC 1909 | Will Parma Calcio 1913 vs. Bologna FC 1909 end in a draw? → Yes | only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Iowa State vs. Baylor | Spread: Baylor (-10.5) → Baylor | only 1 vetted wallet with $358 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Morehead State Eagles vs. Louisville Cardinals | Spread: Louisville Cardinals (-38.5) → Morehead State Eagles | only 1 vetted wallet with $422 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 38.5 spread line |
+| Sat Nov 7, 4:15 PM | Texas vs. Missouri | Spread: Texas (-3.5) → Texas | only 1 vetted wallet with $223 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Texas vs. Missouri | Texas vs. Missouri → Missouri | only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Texas vs. Missouri | Texas vs. Missouri: O/U 47.5 → Under | only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Texas vs. Missouri | Spread: Texas (-2.5) → Missouri | only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Florida State vs. Boston College | Florida State vs. Boston College: O/U 53.5 → Over | only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 53.5 line |
+| Sat Nov 7, 4:15 PM | Parma Calcio 1913 vs. Bologna FC 1909 - More Markets | Parma Calcio 1913 vs. Bologna FC 1909: O/U 4.5 → Under | only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Parma Calcio 1913 vs. Bologna FC 1909 - More Markets | Parma Calcio 1913 vs. Bologna FC 1909: O/U 2.5 → Under | only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Tulsa vs. Tulane | Spread: Tulane (-1.5) → Tulane | only 1 vetted wallet with $297 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Tulsa vs. Tulane | Spread: Tulsa (-3.5) → Tulane | only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Tulsa vs. Tulane | Spread: Tulsa (-2.5) → Tulane | only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | BYU vs. Utah | Spread: Utah (-6.5) → Utah | only 1 vetted wallet with $425 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | BYU vs. Utah | Spread: Utah (-4.5) → BYU | only 1 vetted wallet with $380 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | Orgryte IS vs. Vasteraas SK | Will Vasteraas SK win on 2026-11-07? → No | only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | CD Nacional vs. Académico de Viseu FC - Exact Score | Exact Score: CD Nacional 2 - 0 Académico de Viseu FC? → No | only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 3:17 PM | Galatasaray SK vs. Amed Sportif - Exact Score | Exact Score: Galatasaray SK 0 - 1 Amed Sportif? → No | only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
 | Sat Nov 7, 3:17 PM | CD Nacional vs. Académico de Viseu FC - More Markets | CD Nacional vs. Académico de Viseu FC: 1st Half O/U 0.5 → Under | only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
@@ -20709,26 +21106,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Sat Nov 7, 3:17 PM | Fortuna Sittard vs. Telstar 1963 - More Markets | Fortuna Sittard vs. Telstar 1963: O/U 2.5 → Under | only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz | Rolex Paris Masters: Casper Ruud vs Carlos Alcaraz → Carlos Alcaraz | only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 3:17 PM | CD Nacional vs. Académico de Viseu FC | Will CD Nacional win on 2026-11-07? → No | only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | CD Nacional vs. Académico de Viseu FC | Will Académico de Viseu FC win on 2026-11-07? → No | only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | Galatasaray SK vs. Amed Sportif | Will Amed Sportif win on 2026-11-07? → No | only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | BV Borussia 09 Dortmund vs. SV 07 Elversberg | Will BV Borussia 09 Dortmund win on 2026-11-07? → No | only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | St Johnstone FC vs. Dundee FC - Exact Score | Exact Score: St Johnstone FC 0 - 2 Dundee FC? → No | only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | West Bromwich Albion FC vs. Millwall FC - Exact Score | Exact Score: West Bromwich Albion FC 0 - 2 Millwall FC? → No | only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | Charlton Athletic FC vs. Sheffield United FC - Exact Score | Exact Score: Charlton Athletic FC 2 - 0 Sheffield United FC? → No | only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | Blackburn Rovers FC vs. West Ham United FC - Exact Score | Exact Score: Blackburn Rovers FC 3 - 1 West Ham United FC? → No | only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | Bromley FC vs. Rotherham United FC - Exact Score | Exact Score: Bromley FC 1 - 3 Rotherham United FC? → No | only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Sat Nov 7, 2:20 PM | Cardiff City FC vs. Burnley FC - Exact Score | Exact Score: Cardiff City FC 3 - 2 Burnley FC? → No | only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | Watford FC vs. Middlesbrough FC - Exact Score | Exact Score: Watford FC 2 - 1 Middlesbrough FC? → No | only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | BV Borussia 09 Dortmund vs. SV 07 Elversberg - Exact Score | Exact Score: BV Borussia 09 Dortmund 2 - 0 SV 07 Elversberg? → No | only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | Birmingham City FC vs. Swansea City AFC - Exact Score | Exact Score: Birmingham City FC 0 - 2 Swansea City AFC? → No | only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 2:20 PM | Preston North End FC vs. Southampton FC - Exact Score | Exact Score: Preston North End FC 0 - 2 Southampton FC? → No | only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | SC Paderborn 07 vs. Eintracht Frankfurt - Exact Score | Exact Score: SC Paderborn 07 1 - 0 Eintracht Frankfurt? → Yes | only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | RCD Espanyol de Barcelona vs. RC Deportivo A Coruña - Exact Score | Exact Score: RCD Espanyol de Barcelona 0 - 2 RC Deportivo A Coruña? → No | only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | 1. FSV Mainz 05 vs. FC Bayern München - Exact Score | Exact Score: 1. FSV Mainz 05 0 - 2 FC Bayern München? → No | only 1 vetted wallet with $608 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | RB Leipzig vs. FC Augsburg - Exact Score | Exact Score: RB Leipzig 4 - 1 FC Augsburg? → No | only 1 vetted wallet with $551 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | Fulham FC vs. Newcastle United FC - Exact Score | Exact Score: Fulham FC 1 - 2 Newcastle United FC? → No | only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | Cardiff City FC vs. Burnley FC - More Markets | Cardiff City FC vs. Burnley FC: O/U 1.5 → Under | only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | Hampton & Richmond Borough vs. Maidenhead United FC - Exact Score | Exact Score: Hampton & Richmond Borough 2 - 0 Maidenhead United FC? → No | only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:20 PM | Arsenal FC vs. Hull City AFC - Exact Score | Exact Score: Arsenal FC 2 - 0 Hull City AFC? → No | only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:20 PM | Luton Town FC vs. Forest Green Rovers FC | Will Luton Town FC win on 2026-11-07? → No | only 1 vetted wallet with $176 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:20 PM | Cheltenham Town FC vs. FC Halifax Town - Exact Score | Exact Score: Cheltenham Town FC 1 - 2 FC Halifax Town? → No | only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
