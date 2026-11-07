@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 1:23 PM. Bankroll **$126.71** (start $100): $96.97 cash + open trades at cost.
+Updated Sat Nov 7, 1:37 PM. Bankroll **$126.71** (start $100): $96.97 cash + open trades at cost.
 
 Record: 38 won, 26 lost, 5 sold early. Realized P&L $+26.71. Open: 3.
 
@@ -19990,14 +19990,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 4:13 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | — | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 3:11 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $146 | $0 | 83¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 2:17 AM | hourly | Rolex Paris Masters: Matteo Berrettini vs Carlos Alcaraz → Carlos Alcaraz | takeormake $148 | $0 | 83¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rolex Paris Masters: Rinky Hijikata vs Tomas Etcheverry · starts Thu Nov 5, 1:30 PM
-
-- Thu Nov 5, 1:16 PM (pregame): Rolex Paris Masters: Rinky Hijikata vs Tomas Etcheverry: first seen: 1 vetted on Tomas Etcheverry ($18.9k), fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 1:16 PM | pregame | Rolex Paris Masters: Rinky Hijikata vs Tomas Etcheverry → Tomas Etcheverry | ferrariChampions2026 $18.9k | $0 | 58¢ YES | fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### FC København vs. SK Iberia 1999 - Exact Score · starts Thu Nov 5, 8:00 PM
 
