@@ -1,8 +1,8 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 10:22 PM. Bankroll **$94.71** (start $100): $34.96 cash + open trades at cost.
+Updated Sat Nov 7, 10:38 PM. Bankroll **$96.15** (start $100): $45.96 cash + open trades at cost.
 
-Record: 44 won, 33 lost, 7 sold early. Realized P&L $-5.29. Open: 6.
+Record: 45 won, 33 lost, 7 sold early. Realized P&L $-3.85. Open: 5.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,7 @@ Record: 44 won, 33 lost, 7 sold early. Realized P&L $-5.29. Open: 6.
 | Sat Nov 7, 9:14 PM | [LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-ig1-gen-2026-11-07) | LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($86,879) | 12 × 80¢ YES `KXLOLGAME-26NOV071700GENIG-GEN` | open |  |
 | Sat Nov 7, 8:16 PM | [UCF vs. Kansas](https://polymarket.com/event/cfb-ucf-kan-2026-11-07) | Spread: Kansas (-4.5) → Kansas | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($9,139) | 18 × 53¢ YES `KXNCAAFSPREAD-26NOV07UCFKU-KU5` | open |  |
 | Sat Nov 7, 7:35 PM | [Delaware vs. Kennesaw State](https://polymarket.com/event/cfb-del-kenest-2026-11-07) | Delaware vs. Kennesaw State → Delaware | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($25,354) | 20 × 50¢ YES `KXNCAAFGAME-26NOV07DELKENN-DEL` | open |  |
-| Sat Nov 7, 7:35 PM | [Sporting CP vs. Moreirense FC](https://polymarket.com/event/por-spo-mor-2026-11-07) | Will Sporting CP win on 2026-11-07? → Yes | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,852) | 11 × 86¢ YES `KXLIGAPORTUGALGAME-26NOV07SPOMOR-SPO` | open |  |
+| Sat Nov 7, 7:35 PM | [Sporting CP vs. Moreirense FC](https://polymarket.com/event/por-spo-mor-2026-11-07) | Will Sporting CP win on 2026-11-07? → Yes | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,852) | 11 × 86¢ YES `KXLIGAPORTUGALGAME-26NOV07SPOMOR-SPO` | won | $+1.44 |
 | Sat Nov 7, 7:35 PM | [Alabama vs. LSU](https://polymarket.com/event/cfb-ala-lsu-2026-11-07) | Spread: LSU (-5.5) → Alabama | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($7,077) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07ALALSU-LSU6` | sold | $-0.90 |
 | Sat Nov 7, 7:35 PM | [St Mirren FC vs. Rangers FC - More Markets](https://polymarket.com/event/scop-stm-ran-2026-11-07-more-markets) | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,617) | 15 × 65¢ YES `KXSCOTTISHPREMTOTAL-26NOV07MIRRFC-3` | lost | $-9.99 |
 | Sat Nov 7, 7:35 PM | [Penn State vs. Washington](https://polymarket.com/event/cfb-pennst-wash-2026-11-07) | Penn State vs. Washington: O/U 43.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($6,439) | 23 × 43¢ NO `KXNCAAFTOTAL-26NOV07PSUWASH-44` | open |  |
@@ -26182,66 +26182,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 8:18 PM | hourly | Stars vs. Blue Jackets → Blue Jackets | ferrariChampions2026 $15.9k | $0 | 45¢ YES | fails: only 1 vetted wallet with $15.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 7:15 PM | hourly | Stars vs. Blue Jackets → Blue Jackets | ferrariChampions2026 $15.9k | $0 | 45¢ YES | fails: only 1 vetted wallet with $15.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 6:13 PM | hourly | Stars vs. Blue Jackets → Blue Jackets | ferrariChampions2026 $15.9k | $0 | 45¢ YES | fails: only 1 vetted wallet with $15.9k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SE Palmeiras vs. Clube do Remo · starts Thu Nov 5, 10:30 PM
-
-- Thu Nov 5, 10:18 PM (pregame): Will Clube do Remo win on 2026-11-05?: all vetted wallets left No
-- Thu Nov 5, 10:18 PM (pregame): Will SE Palmeiras win on 2026-11-05?: first seen: 1 vetted on Yes ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 5, 10:18 PM (pregame): Will SE Palmeiras vs. Clube do Remo end in a draw?: first seen: 1 vetted on No ($94), fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 5, 5:13 PM (hourly): Will Clube do Remo win on 2026-11-05?: Kalshi matched at 94¢
-- Thu Nov 5, 1:16 PM (hourly): Will Clube do Remo win on 2026-11-05?: Kalshi matched at 94¢
-- Thu Nov 5, 7:11 AM (hourly): Will Clube do Remo win on 2026-11-05?: first seen: 1 vetted on No ($268), fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 10:18 PM | pregame | Will Clube do Remo win on 2026-11-05? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 5, 10:18 PM | pregame | Will SE Palmeiras win on 2026-11-05? → Yes | tradecraft $80 | $0 | 80¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:18 PM | pregame | Will SE Palmeiras vs. Clube do Remo end in a draw? → No | tradecraft $94 | $0 | 87¢ NO | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:14 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | — | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:18 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 7:15 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 6:13 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 5:13 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 4:18 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | — | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 3:12 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:12 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:16 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 12:19 PM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | — | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:12 AM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:15 AM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 8:11 AM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 7:11 AM | hourly | Will Clube do Remo win on 2026-11-05? → No | SnakeBall $268 | $0 | 94¢ NO | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SE Palmeiras vs. Clube do Remo - More Markets · starts Thu Nov 5, 10:30 PM
-
-- Thu Nov 5, 10:18 PM (pregame): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi matched at 39¢
-- Thu Nov 5, 10:18 PM (pregame): SE Palmeiras vs. Clube do Remo: O/U 2.5: first seen: 1 vetted on Under ($1.1k), fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 5, 10:18 PM (pregame): Spread: SE Palmeiras (-1.5): first seen: 3 vetted on SE Palmeiras ($38.5k), fails: no Kalshi spread market
-- Thu Nov 5, 8:18 PM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi matched at 40¢
-- Thu Nov 5, 6:13 PM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi 40¢ → 39¢
-- Thu Nov 5, 5:13 PM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi matched at 40¢
-- Thu Nov 5, 1:16 PM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi matched at 40¢
-- Thu Nov 5, 11:14 AM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: Kalshi 40¢ → 41¢
-- Thu Nov 5, 10:12 AM (hourly): SE Palmeiras vs. Clube do Remo: O/U 3.5: first seen: 1 vetted on Over ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 10:18 PM | pregame | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $49 | $0 | 39¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:18 PM | pregame | SE Palmeiras vs. Clube do Remo: O/U 2.5 → Under | ferrariChampions2026 $1.1k | $0 | 38¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:18 PM | pregame | Spread: SE Palmeiras (-1.5) → SE Palmeiras | ferrariChampions2026 $30.2k, RN1 $8.2k, SnakeBall $57 | $0 | — | fails: no Kalshi spread market |
-| Thu Nov 5, 9:14 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:18 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 40¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 7:15 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 6:13 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 39¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 5:13 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 40¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 4:18 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 3:12 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 40¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:12 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 40¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:16 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 40¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 12:19 PM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $31 | $0 | 41¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:12 AM | hourly | SE Palmeiras vs. Clube do Remo: O/U 3.5 → Over | SnakeBall $32 | $0 | 40¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Utah vs. Canadiens · starts Fri Nov 6, 12:00 AM
 
