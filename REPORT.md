@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 12:38 PM. Bankroll **$126.71** (start $100): $106.79 cash + open trades at cost.
+Updated Sat Nov 7, 12:53 PM. Bankroll **$126.71** (start $100): $106.79 cash + open trades at cost.
 
 Record: 38 won, 26 lost, 5 sold early. Realized P&L $+26.71. Open: 2.
 
@@ -19755,19 +19755,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 3:11 AM | hourly | Exact Score: FC København 4 - 0 SK Iberia 1999? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 2:17 AM | hourly | Exact Score: FC København 4 - 0 SK Iberia 1999? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
 | Thu Nov 5, 1:15 AM | hourly | Exact Score: FC København 4 - 0 SK Iberia 1999? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-
-### Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana · starts Thu Nov 5, 12:40 PM
-
-- Thu Nov 5, 11:14 AM (hourly): Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana: Kalshi 78¢ → 77¢
-- Thu Nov 5, 9:15 AM (hourly): Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana: first seen: 1 vetted on Sorana Cirstea ($646), fails: only 1 vetted wallet with $646 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 1:16 PM | pregame | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea | ferrariChampions2026 $637 | $611 | 77¢ YES | fails: only 1 vetted wallet with $637 (needs 3+ wallets, or 2 with $5.0k+); opposition 96% |
-| Thu Nov 5, 12:19 PM | pregame | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea | ferrariChampions2026 $654 | $0 | — | fails: only 1 vetted wallet with $654 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea | ferrariChampions2026 $646 | $0 | 77¢ YES | fails: only 1 vetted wallet with $646 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:12 AM | hourly | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea | ferrariChampions2026 $646 | $0 | 78¢ YES | fails: only 1 vetted wallet with $646 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:15 AM | hourly | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Mary Stoiana → Sorana Cirstea | ferrariChampions2026 $646 | $0 | 78¢ YES | fails: only 1 vetted wallet with $646 (needs 3+ wallets, or 2 with $5.0k+) |
 
 
 ## Time-out
