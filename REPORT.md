@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 2:23 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
+Updated Sat Nov 7, 2:37 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
 
 Record: 33 won, 22 lost, 5 sold early. Realized P&L $+25.28. Open: 7.
 
@@ -8336,55 +8336,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 7:11 PM | hourly | Lakers vs. Kings: O/U 232.5 → Under | RN1 $119 | $0 | 49¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 7:11 PM | hourly | Spread: Lakers (-12.5) → Kings | monkeymashingkeyboard $7.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 6:10 PM | hourly | Spread: Lakers (-12.5) → Kings | monkeymashingkeyboard $7.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Mavericks vs. Spurs · starts Thu Nov 5, 2:30 AM
-
-- Thu Nov 5, 2:17 AM (pregame): Mavericks vs. Spurs: O/U 223.5: Kalshi matched at 57¢
-- Thu Nov 5, 2:17 AM (pregame): Mavericks vs. Spurs: O/U 225.5: Kalshi matched at 53¢
-- Thu Nov 5, 2:17 AM (pregame): Spread: Spurs (-12.5): Kalshi matched at 51¢
-- Thu Nov 5, 2:17 AM (pregame): Mavericks vs. Spurs: O/U 227.5: Kalshi matched at 49¢
-- Wed Nov 4, 9:10 PM (hourly): Mavericks vs. Spurs: O/U 223.5: first seen: 1 vetted on Over ($28), fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 7:11 PM (hourly): Mavericks vs. Spurs: O/U 225.5: back: 1 vetted on Over ($131), fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 7:11 PM (hourly): Mavericks vs. Spurs: O/U 227.5: first seen: 1 vetted on Over ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 6:11 AM (hourly): Mavericks vs. Spurs: O/U 225.5: all vetted wallets left Over
-- Wed Nov 4, 6:11 AM (hourly): Mavericks vs. Spurs: O/U 228.5: all vetted wallets left Over
-- Wed Nov 4, 6:11 AM (hourly): Mavericks vs. Spurs: all vetted wallets left Spurs
-- Wed Nov 4, 4:13 AM (hourly): Mavericks vs. Spurs: O/U 225.5: first seen: 1 vetted on Over ($157), fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 3:11 AM (hourly): Mavericks vs. Spurs: first seen: 1 vetted on Spurs ($107), fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 2:17 AM | pregame | Mavericks vs. Spurs: O/U 223.5 → Over | RN1 $28 | $0 | 57¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | pregame | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | pregame | Spread: Spurs (-12.5) → Spurs | RN1 $152 | $0 | 51¢ YES | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:17 AM | pregame | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:15 AM | hourly | Mavericks vs. Spurs: O/U 223.5 → Over | RN1 $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 1:15 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | — | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 1:15 AM | hourly | Spread: Spurs (-12.5) → Spurs | RN1 $124 | $0 | — | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 5, 1:15 AM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | — | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 4, 11:11 PM | hourly | Mavericks vs. Spurs: O/U 223.5 → Over | RN1 $28 | $0 | 58¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 10:12 PM | hourly | Mavericks vs. Spurs: O/U 223.5 → Over | RN1 $29 | $0 | 58¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 10:12 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 10:12 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 9:10 PM | hourly | Mavericks vs. Spurs: O/U 223.5 → Over | RN1 $28 | $0 | 58¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 9:10 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 9:10 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 8:10 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 8:10 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 7:11 PM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | RN1 $131 | $0 | 53¢ YES | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 7:11 PM | hourly | Mavericks vs. Spurs: O/U 227.5 → Over | RN1 $86 | $0 | 49¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Mavericks vs. Spurs: O/U 228.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Mavericks vs. Spurs → Spurs | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 5:11 AM | hourly | Mavericks vs. Spurs → Spurs | HomeRunHazard $107 | $0 | 82¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | HomeRunHazard $158 | $0 | 56¢ YES | fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Mavericks vs. Spurs: O/U 228.5 → Over | HomeRunHazard $348 | $0 | — | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 228.5 line |
-| Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs → Spurs | HomeRunHazard $107 | $0 | 82¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 225.5 → Over | HomeRunHazard $157 | $0 | 56¢ YES | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Mavericks vs. Spurs: O/U 228.5 → Over | HomeRunHazard $345 | $0 | — | fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 228.5 line |
-| Wed Nov 4, 3:11 AM | hourly | Mavericks vs. Spurs → Spurs | HomeRunHazard $107 | $0 | 82¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Flames vs. Kraken · starts Thu Nov 5, 3:00 AM
 
