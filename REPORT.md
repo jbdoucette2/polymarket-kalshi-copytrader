@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 4:38 PM. Bankroll **$147.97** (start $100): $97.43 cash + open trades at cost.
+Updated Sat Nov 7, 4:53 PM. Bankroll **$147.97** (start $100): $97.43 cash + open trades at cost.
 
 Record: 41 won, 26 lost, 5 sold early. Realized P&L $+47.97. Open: 5.
 
@@ -2334,6 +2334,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### North Carolina vs. UConn · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:53 PM (verify): Spread: North Carolina (-7.5): 15-min check: still passes (2 wallets, $13.7k for vs $0 against); holding
 - Sat Nov 7, 4:15 PM (pregame): Spread: North Carolina (-7.5): now passes
 - Sat Nov 7, 4:15 PM (pregame): Spread: North Carolina (-7.5): ferrariChampions2026 joined UConn (+$13.3k)
 - Sat Nov 7, 12:14 PM (hourly): Spread: North Carolina (-6.5): Kalshi matched at 43¢
@@ -2578,6 +2579,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### UCLA vs. Minnesota · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:53 PM (verify): UCLA vs. Minnesota: 15-min check: still passes (2 wallets, $8.5k for vs $30 against); holding
 - Sat Nov 7, 4:15 PM (pregame): Spread: UCLA (-3.5): Kalshi 49¢ → 50¢
 - Sat Nov 7, 4:15 PM (pregame): UCLA vs. Minnesota: Kalshi 37¢ → 38¢
 - Sat Nov 7, 3:17 PM (hourly): Spread: UCLA (-3.5): first seen: 1 vetted on Minnesota ($776), fails: only 1 vetted wallet with $776 (needs 3+ wallets, or 2 with $5.0k+)
@@ -2859,6 +2861,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Clemson vs. Syracuse · starts Sat Nov 7, 5:00 PM
 
+- Sat Nov 7, 4:53 PM (verify): Clemson vs. Syracuse: 15-min check: still passes (2 wallets, $17.2k for vs $0 against); holding
 - Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 47.5: Kalshi 44¢ → 43¢
 - Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 51.5: first seen: 1 vetted on Under ($2.3k), fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 4:15 PM (pregame): Clemson vs. Syracuse: O/U 49.5: Kalshi 50¢ → 48¢
