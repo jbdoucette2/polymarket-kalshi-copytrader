@@ -1,15 +1,15 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 8:17 PM. Bankroll **$146.72** (start $100): $45.40 cash + open trades at cost.
+Updated Sat Nov 7, 8:23 PM. Bankroll **$135.67** (start $100): $54.65 cash + open trades at cost.
 
-Record: 44 won, 28 lost, 6 sold early. Realized P&L $+46.72. Open: 10.
+Record: 44 won, 29 lost, 7 sold early. Realized P&L $+35.67. Open: 8.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sat Nov 7, 8:16 PM | [UCF vs. Kansas](https://polymarket.com/event/cfb-ucf-kan-2026-11-07) | Spread: Kansas (-4.5) → Kansas | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($9,139) | 18 × 53¢ YES `KXNCAAFSPREAD-26NOV07UCFKU-KU5` | open |  |
 | Sat Nov 7, 7:35 PM | [Delaware vs. Kennesaw State](https://polymarket.com/event/cfb-del-kenest-2026-11-07) | Delaware vs. Kennesaw State → Delaware | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($25,354) | 20 × 50¢ YES `KXNCAAFGAME-26NOV07DELKENN-DEL` | open |  |
 | Sat Nov 7, 7:35 PM | [Sporting CP vs. Moreirense FC](https://polymarket.com/event/por-spo-mor-2026-11-07) | Will Sporting CP win on 2026-11-07? → Yes | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,852) | 11 × 86¢ YES `KXLIGAPORTUGALGAME-26NOV07SPOMOR-SPO` | open |  |
-| Sat Nov 7, 7:35 PM | [Alabama vs. LSU](https://polymarket.com/event/cfb-ala-lsu-2026-11-07) | Spread: LSU (-5.5) → Alabama | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($7,077) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07ALALSU-LSU6` | open |  |
+| Sat Nov 7, 7:35 PM | [Alabama vs. LSU](https://polymarket.com/event/cfb-ala-lsu-2026-11-07) | Spread: LSU (-5.5) → Alabama | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($7,077) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07ALALSU-LSU6` | sold | $-0.90 |
 | Sat Nov 7, 7:35 PM | [St Mirren FC vs. Rangers FC - More Markets](https://polymarket.com/event/scop-stm-ran-2026-11-07-more-markets) | St Mirren FC vs. Rangers FC: O/U 2.5 → Over | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,617) | 15 × 65¢ YES `KXSCOTTISHPREMTOTAL-26NOV07MIRRFC-3` | open |  |
 | Sat Nov 7, 7:35 PM | [Penn State vs. Washington](https://polymarket.com/event/cfb-pennst-wash-2026-11-07) | Penn State vs. Washington: O/U 43.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($6,439) | 23 × 43¢ NO `KXNCAAFTOTAL-26NOV07PSUWASH-44` | open |  |
 | Sat Nov 7, 7:35 PM | [Valencia CF vs. Real Madrid CF](https://polymarket.com/event/lal-val-rea-2026-11-07) | Will Real Madrid CF win on 2026-11-07? → No | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($5,468) | 47 × 21¢ NO `KXLALIGAGAME-26NOV07VCFRMA-RMA` | open |  |
@@ -19,7 +19,7 @@ Record: 44 won, 28 lost, 6 sold early. Realized P&L $+46.72. Open: 10.
 | Sat Nov 7, 5:15 PM | [VfB Stuttgart vs. SV Werder Bremen - More Markets](https://polymarket.com/event/bun-stu-wer-2026-11-07-more-markets) | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,130) | 19 × 51¢ NO `KXBUNDESLIGATOTAL-26NOV07VFBSVW-4` | sold | $-0.87 |
 | Sat Nov 7, 4:15 PM | [UCLA vs. Minnesota](https://polymarket.com/event/cfb-ucla-minnst-2026-11-07) | UCLA vs. Minnesota → Minnesota | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($8,263) | 26 × 38¢ YES `KXNCAAFGAME-26NOV07UCLAMINN-MINN` | open |  |
 | Sat Nov 7, 4:15 PM | [Clemson vs. Syracuse](https://polymarket.com/event/cfb-clmsn-syra-2026-11-07) | Clemson vs. Syracuse → Syracuse | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($17,249) | 21 × 47¢ YES `KXNCAAFGAME-26NOV07CLEMSYR-SYR` | open |  |
-| Sat Nov 7, 4:15 PM | [North Carolina vs. UConn](https://polymarket.com/event/cfb-ncar-uconn-2026-11-07) | Spread: North Carolina (-7.5) → UConn | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,676) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07UNCCONN-UNC8` | open |  |
+| Sat Nov 7, 4:15 PM | [North Carolina vs. UConn](https://polymarket.com/event/cfb-ncar-uconn-2026-11-07) | Spread: North Carolina (-7.5) → UConn | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,676) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07UNCCONN-UNC8` | lost | $-10.15 |
 | Sat Nov 7, 3:17 PM | [FC Den Bosch vs. Jong FC Utrecht - More Markets](https://polymarket.com/event/ned2-dbo-utr-2026-11-07-more-markets) | FC Den Bosch vs. Jong FC Utrecht: O/U 3.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($8,680) | 16 × 60¢ YES `KXEERSTEDIVTOTAL-26NOV07DBOUTR-4` | lost | $-9.87 |
 | Sat Nov 7, 2:20 PM | [Arsenal FC vs. Hull City AFC](https://polymarket.com/event/epl-ars-hul-2026-11-07) | Will Arsenal FC vs. Hull City AFC end in a draw? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($5,676) | 11 × 90¢ NO `KXEPLGAME-26NOV07ARSHUL-TIE` | won | $+1.03 |
 | Sat Nov 7, 1:12 PM | [Cagliari Calcio vs. Frosinone Calcio](https://polymarket.com/event/sea-cag-fro-2026-11-07) | Will Frosinone Calcio win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c) ($11,033) | 17 × 56¢ NO `KXSERIEAGAME-26NOV07CAGFRO-FRO` | won | $+7.18 |
@@ -7191,6 +7191,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Penn State vs. Washington · starts Sat Nov 7, 8:30 PM
 
+- Sat Nov 7, 8:23 PM (verify): Penn State vs. Washington: O/U 43.5: 15-min check: still passes (2 wallets, $6.4k for vs $0 against); holding
 - Sat Nov 7, 8:16 PM (pregame): Penn State vs. Washington: O/U 43.5: now fails: already traded this game
 - Sat Nov 7, 8:16 PM (pregame): Penn State vs. Washington: O/U 43.5: Kalshi 43¢ → 42¢
 - Sat Nov 7, 7:35 PM (pregame): Spread: Washington (-2.5): Kalshi matched at 51¢
@@ -7516,6 +7517,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Sporting CP vs. Moreirense FC · starts Sat Nov 7, 8:30 PM
 
+- Sat Nov 7, 8:23 PM (verify): Will Sporting CP win on 2026-11-07?: 15-min check: still passes (2 wallets, $144.3k for vs $0 against); holding
 - Sat Nov 7, 8:16 PM (pregame): Will Sporting CP win on 2026-11-07?: now fails: already traded this game
 - Sat Nov 7, 8:16 PM (pregame): Will Sporting CP win on 2026-11-07?: SnakeBall joined Yes (+$217)
 - Sat Nov 7, 7:35 PM (pregame): Will Sporting CP vs. Moreirense FC end in a draw?: all vetted wallets left No
@@ -8850,6 +8852,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Alabama vs. LSU · starts Sat Nov 7, 8:30 PM
 
+- Sat Nov 7, 8:23 PM (verify): Spread: LSU (-5.5): 15-min check: opposition 405% (2 wallets, $7.1k for vs $28.7k against); sold
 - Sat Nov 7, 8:16 PM (pregame): Spread: LSU (-5.5): now fails: only 1 vetted wallet with $28.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 26%; already traded this game
 - Sat Nov 7, 8:16 PM (pregame): Spread: LSU (-5.5): Kalshi 49¢ → 52¢
 - Sat Nov 7, 8:16 PM (pregame): Spread: LSU (-5.5): majority flipped to LSU ($28.1k vs $7.2k)
