@@ -1,15 +1,15 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 2:38 PM. Bankroll **$132.01** (start $100): $102.00 cash + open trades at cost.
+Updated Sat Nov 7, 2:53 PM. Bankroll **$140.79** (start $100): $121.00 cash + open trades at cost.
 
-Record: 39 won, 26 lost, 5 sold early. Realized P&L $+32.01. Open: 3.
+Record: 40 won, 26 lost, 5 sold early. Realized P&L $+40.79. Open: 2.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sat Nov 7, 2:20 PM | [Arsenal FC vs. Hull City AFC](https://polymarket.com/event/epl-ars-hul-2026-11-07) | Will Arsenal FC vs. Hull City AFC end in a draw? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($5,676) | 11 × 90¢ NO `KXEPLGAME-26NOV07ARSHUL-TIE` | open |  |
 | Sat Nov 7, 1:12 PM | [Cagliari Calcio vs. Frosinone Calcio](https://polymarket.com/event/sea-cag-fro-2026-11-07) | Will Frosinone Calcio win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c) ($11,033) | 17 × 56¢ NO `KXSERIEAGAME-26NOV07CAGFRO-FRO` | open |  |
 | Sat Nov 7, 12:14 PM | [Leeds United FC vs. Tottenham Hotspur FC](https://polymarket.com/event/epl-lee-tot-2026-11-07) | Will Tottenham Hotspur FC win on 2026-11-07? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($6,359) | 15 × 63¢ NO `KXEPLGAME-26NOV07LEETOT-TOT` | won | $+5.30 |
-| Sat Nov 7, 12:14 PM | [Leeds United FC vs. Tottenham Hotspur FC - More Markets](https://polymarket.com/event/epl-lee-tot-2026-11-07-more-markets) | Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5 → Under | [ndb1](https://polymarket.com/profile/0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($42,313) | 19 × 52¢ NO `KXEPLTOTAL-26NOV07LEETOT-3` | open |  |
+| Sat Nov 7, 12:14 PM | [Leeds United FC vs. Tottenham Hotspur FC - More Markets](https://polymarket.com/event/epl-lee-tot-2026-11-07-more-markets) | Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5 → Under | [ndb1](https://polymarket.com/profile/0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($42,313) | 19 × 52¢ NO `KXEPLTOTAL-26NOV07LEETOT-3` | won | $+8.78 |
 | Sat Nov 7, 5:17 AM | [FC Tōkyō vs. Kashima Antlers - More Markets](https://polymarket.com/event/jap-fct-kas-2026-11-07-more-markets) | FC Tōkyō vs. Kashima Antlers: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($15,896) | 14 × 68¢ NO `KXJLEAGUETOTAL-26NOV07TOKKAS-4` | won | $+4.26 |
 | Sat Nov 7, 3:31 AM | [Shimizu S-Pulse vs. Tōkyō Verdy - More Markets](https://polymarket.com/event/jap-ssp-fct1-2026-11-06-more-markets) | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 2.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($23,269) | 16 × 62¢ NO `KXJLEAGUETOTAL-26NOV06SHIVER-3` | won | $+5.81 |
 | Sat Nov 7, 12:31 AM | [Ducks vs. Flames](https://polymarket.com/event/nhl-ana-cal-2026-11-06) | Ducks vs. Flames → Ducks | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,275) | 23 × 43¢ YES `KXNHLGAME-26NOV06ANACGY-ANA` | won | $+12.71 |
@@ -4066,6 +4066,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Arsenal FC vs. Hull City AFC · starts Sat Nov 7, 3:00 PM
 
+- Sat Nov 7, 2:53 PM (verify): Will Arsenal FC vs. Hull City AFC end in a draw?: 15-min check: still passes (2 wallets, $5.7k for vs $0 against); holding
 - Sat Nov 7, 2:20 PM (pregame): Will Arsenal FC vs. Hull City AFC end in a draw?: first seen: 2 vetted on No ($5.7k), passes
 - Sat Nov 7, 9:15 AM (hourly): Will Arsenal FC win on 2026-11-07?: Flaznorp left
 - Sat Nov 7, 8:17 AM (hourly): Will Arsenal FC win on 2026-11-07?: Kalshi 16¢ → 15¢
