@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 3:17 PM. Bankroll **$140.79** (start $100): $111.13 cash + open trades at cost.
+Updated Sat Nov 7, 3:23 PM. Bankroll **$140.79** (start $100): $111.13 cash + open trades at cost.
 
 Record: 40 won, 26 lost, 5 sold early. Realized P&L $+40.79. Open: 3.
 
@@ -3594,6 +3594,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### FC Den Bosch vs. Jong FC Utrecht - More Markets · starts Sat Nov 7, 3:30 PM
 
+- Sat Nov 7, 3:23 PM (verify): FC Den Bosch vs. Jong FC Utrecht: O/U 3.5: 15-min check: still passes (2 wallets, $8.5k for vs $0 against); holding
 - Sat Nov 7, 3:17 PM (pregame): FC Den Bosch vs. Jong FC Utrecht: O/U 3.5: first seen: 2 vetted on Over ($8.7k), passes
 - Sat Nov 7, 10:14 AM (hourly): FC Den Bosch vs. Jong FC Utrecht: Both Teams to Score: all vetted wallets left Yes
 - Sat Nov 7, 10:14 AM (hourly): FC Den Bosch vs. Jong FC Utrecht: O/U 2.5: all vetted wallets left Over
