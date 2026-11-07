@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 12:14 PM. Bankroll **$126.71** (start $100): $106.79 cash + open trades at cost.
+Updated Sat Nov 7, 12:23 PM. Bankroll **$126.71** (start $100): $106.79 cash + open trades at cost.
 
 Record: 38 won, 26 lost, 5 sold early. Realized P&L $+26.71. Open: 2.
 
@@ -2082,6 +2082,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Leeds United FC vs. Tottenham Hotspur FC - More Markets · starts Sat Nov 7, 12:30 PM
 
+- Sat Nov 7, 12:23 PM (verify): Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5: 15-min check: still passes (2 wallets, $41.5k for vs $0 against); holding
 - Sat Nov 7, 12:14 PM (pregame): Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5: now passes
 - Sat Nov 7, 12:14 PM (pregame): Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5: Kalshi matched at 52¢
 - Sat Nov 7, 12:14 PM (pregame): Leeds United FC vs. Tottenham Hotspur FC: O/U 2.5: ferrariChampions2026 joined Under (+$10.8k)
@@ -4017,6 +4018,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Leeds United FC vs. Tottenham Hotspur FC · starts Sat Nov 7, 12:30 PM
 
+- Sat Nov 7, 12:23 PM (verify): Will Tottenham Hotspur FC win on 2026-11-07?: 15-min check: still passes (3 wallets, $6.4k for vs $0 against); holding
 - Sat Nov 7, 12:14 PM (pregame): Will Tottenham Hotspur FC win on 2026-11-07?: now passes
 - Sat Nov 7, 12:14 PM (pregame): Will Tottenham Hotspur FC win on 2026-11-07?: RN1 joined No (+$6.2k)
 - Sat Nov 7, 9:15 AM (hourly): Will Tottenham Hotspur FC win on 2026-11-07?: now fails: only 2 vetted wallets with $45 (needs 3+ wallets, or 2 with $5.0k+)
