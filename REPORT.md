@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 12:31 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
+Updated Sat Nov 7, 12:53 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
 
 Record: 33 won, 22 lost, 5 sold early. Realized P&L $+25.28. Open: 7.
 
@@ -117,6 +117,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Jazz vs. Mavericks · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Jazz vs. Mavericks: O/U 227.5: 15-min check: still passes (2 wallets, $24.4k for vs $125 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Jazz vs. Mavericks: O/U 221.5: first seen: 1 vetted on Under ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Jazz vs. Mavericks: O/U 225.5: Kalshi matched at 48¢
 - Sat Nov 7, 12:31 AM (pregame): Jazz vs. Mavericks: O/U 225.5: Flaznorp joined Under (+$86)
@@ -238,6 +239,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Thunder vs. Grizzlies · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Thunder vs. Grizzlies: 15-min check: still passes (3 wallets, $155.6k for vs $721 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Spread: Thunder (-7.5): first seen: 1 vetted on Thunder ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Thunder vs. Grizzlies: O/U 238.5: first seen: 1 vetted on Over ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Spread: Thunder (-1.5): Kalshi matched at 42¢
@@ -332,6 +334,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Club Necaxa vs. Club Tijuana - More Markets · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Club Necaxa vs. Club Tijuana: O/U 2.5: 15-min check: still passes (3 wallets, $7.0k for vs $0 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Club Necaxa vs. Club Tijuana: O/U 1.5: first seen: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Spread: Club Necaxa (-2.5): first seen: 1 vetted on Club Necaxa ($69), fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Club Necaxa vs. Club Tijuana: O/U 4.5: first seen: 1 vetted on Under ($225), fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+)
@@ -403,6 +406,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Ducks vs. Flames · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Ducks vs. Flames: 15-min check: still passes (2 wallets, $13.3k for vs $0 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Spread: Flames (-2.5): first seen: 1 vetted on Flames ($116), fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Ducks vs. Flames: O/U 6.5: Kalshi matched at 48¢
 - Sat Nov 7, 12:31 AM (pregame): Ducks vs. Flames: O/U 5.5: Kalshi matched at 38¢
@@ -475,6 +479,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Club Necaxa vs. Club Tijuana · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Will Club Necaxa win on 2026-11-06?: 15-min check: still passes (2 wallets, $6.5k for vs $0 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Will Club Tijuana win on 2026-11-06?: first seen: 1 vetted on No ($4.6k), fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Will Club Necaxa win on 2026-11-06?: first seen: 2 vetted on No ($6.5k), passes
 
@@ -565,6 +570,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Nebraska vs. Illinois · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Nebraska vs. Illinois: O/U 51.5: 15-min check: still passes (2 wallets, $13.1k for vs $0 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Spread: Nebraska (-7.5): Kalshi matched at 39¢
 - Sat Nov 7, 12:31 AM (pregame): Spread: Nebraska (-5.5): Kalshi matched at 53¢
 - Sat Nov 7, 12:31 AM (pregame): Nebraska vs. Illinois: O/U 47.5: first seen: 1 vetted on Over ($437), fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+)
@@ -658,6 +664,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Timberwolves vs. Pelicans · starts Sat Nov 7, 1:00 AM
 
+- Sat Nov 7, 12:53 AM (verify): Timberwolves vs. Pelicans: 15-min check: still passes (2 wallets, $17.9k for vs $0 against); holding
 - Sat Nov 7, 12:31 AM (pregame): Spread: Timberwolves (-6.5): Kalshi matched at 60¢
 - Sat Nov 7, 12:31 AM (pregame): Spread: Timberwolves (-5.5): first seen: 2 vetted on Timberwolves ($194), fails: only 2 vetted wallets with $194 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 12:31 AM (pregame): Timberwolves vs. Pelicans: now passes
