@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 9:37 PM. Bankroll **$115.12** (start $100): $44.91 cash + open trades at cost.
+Updated Sat Nov 7, 9:53 PM. Bankroll **$115.12** (start $100): $44.91 cash + open trades at cost.
 
 Record: 44 won, 31 lost, 7 sold early. Realized P&L $+15.12. Open: 7.
 
@@ -1705,6 +1705,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs · starts Sat Nov 7, 10:00 PM
 
+- Sat Nov 7, 9:53 PM (verify): LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs: 15-min check: still passes (2 wallets, $207.0k for vs $0 against); holding
 - Sat Nov 7, 8:16 PM (hourly): LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs: now passes
 - Sat Nov 7, 8:16 PM (hourly): LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs: Kalshi matched at 80¢
 - Sat Nov 7, 8:16 PM (hourly): LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs: 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 joined Gen.G (+$70.0k)
