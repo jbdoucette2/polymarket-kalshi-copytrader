@@ -1,15 +1,15 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 5:16 PM. Bankroll **$149.00** (start $100): $67.86 cash + open trades at cost.
+Updated Sat Nov 7, 5:23 PM. Bankroll **$148.13** (start $100): $77.02 cash + open trades at cost.
 
-Record: 42 won, 26 lost, 5 sold early. Realized P&L $+49.00. Open: 8.
+Record: 42 won, 26 lost, 6 sold early. Realized P&L $+48.13. Open: 7.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sat Nov 7, 5:15 PM | [CD Leganés vs. Albacete Balompié - More Markets](https://polymarket.com/event/es2-leg-alb-2026-11-07-more-markets) | CD Leganés vs. Albacete Balompié: O/U 2.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($6,358) | 20 × 49¢ NO `KXLALIGA2TOTAL-26NOV07LEGALB-3` | open |  |
 | Sat Nov 7, 5:15 PM | [Nottingham Forest FC vs. Manchester City FC](https://polymarket.com/event/epl-not-mac-2026-11-07) | Will Manchester City FC win on 2026-11-07? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($28,196) | 24 × 41¢ NO `KXEPLGAME-26NOV07NFOMCI-MCI` | open |  |
 | Sat Nov 7, 5:15 PM | [Nottingham Forest FC vs. Manchester City FC - More Markets](https://polymarket.com/event/epl-not-mac-2026-11-07-more-markets) | Spread: Manchester City FC (-1.5) → Nottingham Forest FC | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($4,205) | 15 × 66¢ NO `KXEPLSPREAD-26NOV07NFOMCI-MCI2` | open |  |
-| Sat Nov 7, 5:15 PM | [VfB Stuttgart vs. SV Werder Bremen - More Markets](https://polymarket.com/event/bun-stu-wer-2026-11-07-more-markets) | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,130) | 19 × 51¢ NO `KXBUNDESLIGATOTAL-26NOV07VFBSVW-4` | open |  |
+| Sat Nov 7, 5:15 PM | [VfB Stuttgart vs. SV Werder Bremen - More Markets](https://polymarket.com/event/bun-stu-wer-2026-11-07-more-markets) | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,130) | 19 × 51¢ NO `KXBUNDESLIGATOTAL-26NOV07VFBSVW-4` | sold | $-0.87 |
 | Sat Nov 7, 4:15 PM | [UCLA vs. Minnesota](https://polymarket.com/event/cfb-ucla-minnst-2026-11-07) | UCLA vs. Minnesota → Minnesota | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($8,263) | 26 × 38¢ YES `KXNCAAFGAME-26NOV07UCLAMINN-MINN` | open |  |
 | Sat Nov 7, 4:15 PM | [Clemson vs. Syracuse](https://polymarket.com/event/cfb-clmsn-syra-2026-11-07) | Clemson vs. Syracuse → Syracuse | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($17,249) | 21 × 47¢ YES `KXNCAAFGAME-26NOV07CLEMSYR-SYR` | open |  |
 | Sat Nov 7, 4:15 PM | [North Carolina vs. UConn](https://polymarket.com/event/cfb-ncar-uconn-2026-11-07) | Spread: North Carolina (-7.5) → UConn | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,676) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07UNCCONN-UNC8` | open |  |
@@ -2714,6 +2714,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### VfB Stuttgart vs. SV Werder Bremen - More Markets · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 5:23 PM (verify): VfB Stuttgart vs. SV Werder Bremen: O/U 3.5: 15-min check: opposition 26% (2 wallets, $8.8k for vs $2.3k against); sold
 - Sat Nov 7, 5:15 PM (pregame): VfB Stuttgart vs. SV Werder Bremen: O/U 5.5: first seen: 1 vetted on Over ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 5:15 PM (pregame): VfB Stuttgart vs. SV Werder Bremen: VfB Stuttgart O/U 3.5: back: 1 vetted on Over ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
 - Sat Nov 7, 5:15 PM (pregame): VfB Stuttgart vs. SV Werder Bremen: O/U 2.5: back: 1 vetted on Under ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c
@@ -4260,6 +4261,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### CD Leganés vs. Albacete Balompié - More Markets · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 5:23 PM (verify): CD Leganés vs. Albacete Balompié: O/U 2.5: 15-min check: still passes (2 wallets, $6.4k for vs $0 against); holding
 - Sat Nov 7, 5:15 PM (pregame): CD Leganés vs. Albacete Balompié: 1st Half O/U 1.5: back: 1 vetted on Over ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
 - Sat Nov 7, 5:15 PM (pregame): CD Leganés vs. Albacete Balompié: O/U 3.5: first seen: 1 vetted on Over ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 5:15 PM (pregame): CD Leganés vs. Albacete Balompié: O/U 2.5: first seen: 2 vetted on Under ($6.4k), passes
@@ -4585,6 +4587,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Nottingham Forest FC vs. Manchester City FC - More Markets · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 5:23 PM (verify): Spread: Manchester City FC (-1.5): 15-min check: still passes (3 wallets, $6.8k for vs $0 against); holding
 - Sat Nov 7, 5:15 PM (pregame): Nottingham Forest FC vs. Manchester City FC: O/U 5.5: back: 1 vetted on Under ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 5:15 PM (pregame): Spread: Manchester City FC (-2.5): back: 1 vetted on Nottingham Forest FC ($134), fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 7, 5:15 PM (pregame): Spread: Nottingham Forest FC (-2.5): back: 1 vetted on Nottingham Forest FC ($189), fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢
@@ -7740,6 +7743,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Nottingham Forest FC vs. Manchester City FC · starts Sat Nov 7, 5:30 PM
 
+- Sat Nov 7, 5:23 PM (verify): Will Manchester City FC win on 2026-11-07?: 15-min check: still passes (3 wallets, $46.7k for vs $0 against); holding
 - Sat Nov 7, 5:15 PM (pregame): Will Nottingham Forest FC win on 2026-11-07?: now passes
 - Sat Nov 7, 5:15 PM (pregame): Will Nottingham Forest FC win on 2026-11-07?: Kalshi 20¢ → 18¢
 - Sat Nov 7, 5:15 PM (pregame): Will Nottingham Forest FC win on 2026-11-07?: Flaznorp joined Yes (+$216)
