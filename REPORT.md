@@ -1,8 +1,8 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 8:23 PM. Bankroll **$135.67** (start $100): $54.65 cash + open trades at cost.
+Updated Sat Nov 7, 8:38 PM. Bankroll **$125.43** (start $100): $54.65 cash + open trades at cost.
 
-Record: 44 won, 29 lost, 7 sold early. Realized P&L $+35.67. Open: 8.
+Record: 44 won, 30 lost, 7 sold early. Realized P&L $+25.43. Open: 7.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Record: 44 won, 29 lost, 7 sold early. Realized P&L $+35.67. Open: 8.
 | Sat Nov 7, 5:15 PM | [Nottingham Forest FC vs. Manchester City FC - More Markets](https://polymarket.com/event/epl-not-mac-2026-11-07-more-markets) | Spread: Manchester City FC (-1.5) → Nottingham Forest FC | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($4,205) | 15 × 66¢ NO `KXEPLSPREAD-26NOV07NFOMCI-MCI2` | won | $+4.86 |
 | Sat Nov 7, 5:15 PM | [VfB Stuttgart vs. SV Werder Bremen - More Markets](https://polymarket.com/event/bun-stu-wer-2026-11-07-more-markets) | VfB Stuttgart vs. SV Werder Bremen: O/U 3.5 → Under | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($9,130) | 19 × 51¢ NO `KXBUNDESLIGATOTAL-26NOV07VFBSVW-4` | sold | $-0.87 |
 | Sat Nov 7, 4:15 PM | [UCLA vs. Minnesota](https://polymarket.com/event/cfb-ucla-minnst-2026-11-07) | UCLA vs. Minnesota → Minnesota | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($8,263) | 26 × 38¢ YES `KXNCAAFGAME-26NOV07UCLAMINN-MINN` | open |  |
-| Sat Nov 7, 4:15 PM | [Clemson vs. Syracuse](https://polymarket.com/event/cfb-clmsn-syra-2026-11-07) | Clemson vs. Syracuse → Syracuse | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($17,249) | 21 × 47¢ YES `KXNCAAFGAME-26NOV07CLEMSYR-SYR` | open |  |
+| Sat Nov 7, 4:15 PM | [Clemson vs. Syracuse](https://polymarket.com/event/cfb-clmsn-syra-2026-11-07) | Clemson vs. Syracuse → Syracuse | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($17,249) | 21 × 47¢ YES `KXNCAAFGAME-26NOV07CLEMSYR-SYR` | lost | $-10.24 |
 | Sat Nov 7, 4:15 PM | [North Carolina vs. UConn](https://polymarket.com/event/cfb-ncar-uconn-2026-11-07) | Spread: North Carolina (-7.5) → UConn | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,676) | 20 × 49¢ NO `KXNCAAFSPREAD-26NOV07UNCCONN-UNC8` | lost | $-10.15 |
 | Sat Nov 7, 3:17 PM | [FC Den Bosch vs. Jong FC Utrecht - More Markets](https://polymarket.com/event/ned2-dbo-utr-2026-11-07-more-markets) | FC Den Bosch vs. Jong FC Utrecht: O/U 3.5 → Over | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($8,680) | 16 × 60¢ YES `KXEERSTEDIVTOTAL-26NOV07DBOUTR-4` | lost | $-9.87 |
 | Sat Nov 7, 2:20 PM | [Arsenal FC vs. Hull City AFC](https://polymarket.com/event/epl-ars-hul-2026-11-07) | Will Arsenal FC vs. Hull City AFC end in a draw? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563) ($5,676) | 11 × 90¢ NO `KXEPLGAME-26NOV07ARSHUL-TIE` | won | $+1.03 |
@@ -6434,6 +6434,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### UCF vs. Kansas · starts Sat Nov 7, 8:45 PM
 
+- Sat Nov 7, 8:38 PM (verify): Spread: Kansas (-4.5): 15-min check: still passes (2 wallets, $9.1k for vs $0 against); holding
 - Sat Nov 7, 8:16 PM (pregame): UCF vs. Kansas: O/U 49.5: Kalshi matched at 47¢
 - Sat Nov 7, 8:16 PM (pregame): Spread: Kansas (-5.5): Kalshi matched at 52¢
 - Sat Nov 7, 8:16 PM (pregame): Spread: Kansas (-4.5): now passes
