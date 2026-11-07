@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 3:23 PM. Bankroll **$140.79** (start $100): $111.13 cash + open trades at cost.
+Updated Sat Nov 7, 3:37 PM. Bankroll **$140.79** (start $100): $111.13 cash + open trades at cost.
 
 Record: 40 won, 26 lost, 5 sold early. Realized P&L $+40.79. Open: 3.
 
@@ -20630,22 +20630,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 5:13 PM | pregame | FK Crvena zvezda vs. Inter Club d'Escaldes: O/U 3.5 → Over | juice-fruit $39.7k | $0 | 60¢ YES | fails: only 1 vetted wallet with $39.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 5, 4:18 PM | hourly | FK Crvena zvezda vs. Inter Club d'Escaldes: O/U 3.5 → Over | juice-fruit $39.0k | $0 | — | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Thu Nov 5, 3:12 PM | hourly | FK Crvena zvezda vs. Inter Club d'Escaldes: O/U 3.5 → Over | juice-fruit $17 | $0 | 58¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rolex Paris Masters: Nuno Borges vs Ignacio Buse · starts Thu Nov 5, 3:30 PM
-
-- Thu Nov 5, 1:16 PM (hourly): Rolex Paris Masters: Nuno Borges vs Ignacio Buse: Kalshi matched at 62¢
-- Thu Nov 5, 10:12 AM (hourly): Rolex Paris Masters: Nuno Borges vs Ignacio Buse: Kalshi 60¢ → 62¢
-- Thu Nov 5, 9:15 AM (hourly): Rolex Paris Masters: Nuno Borges vs Ignacio Buse: first seen: 1 vetted on Nuno Borges ($3.4k), fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 3:12 PM | pregame | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.4k | $0 | 62¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 2:12 PM | pregame | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.4k | $0 | 62¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 1:16 PM | hourly | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.5k | $0 | 62¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 12:19 PM | hourly | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.5k | $0 | — | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.5k | $0 | 62¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:12 AM | hourly | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.4k | $0 | 62¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:15 AM | hourly | Rolex Paris Masters: Nuno Borges vs Ignacio Buse → Nuno Borges | ferrariChampions2026 $3.4k | $0 | 60¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### K. Sint-Truidense VV vs. SK Brann - More Markets · starts Thu Nov 5, 8:00 PM
 
