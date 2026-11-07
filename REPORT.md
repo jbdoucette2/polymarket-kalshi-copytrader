@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 7:37 PM. Bankroll **$146.72** (start $100): $55.26 cash + open trades at cost.
+Updated Sat Nov 7, 7:53 PM. Bankroll **$146.72** (start $100): $55.26 cash + open trades at cost.
 
 Record: 44 won, 28 lost, 6 sold early. Realized P&L $+46.72. Open: 9.
 
@@ -1284,6 +1284,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### St Mirren FC vs. Rangers FC - More Markets · starts Sat Nov 7, 8:00 PM
 
+- Sat Nov 7, 7:53 PM (verify): St Mirren FC vs. Rangers FC: O/U 2.5: 15-min check: still passes (2 wallets, $5.6k for vs $0 against); holding
 - Sat Nov 7, 7:35 PM (pregame): St Mirren FC vs. Rangers FC: O/U 5.5: Kalshi matched at 89¢
 - Sat Nov 7, 7:35 PM (pregame): Spread: Rangers FC (-3.5): back: 1 vetted on Rangers FC ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line
 - Sat Nov 7, 7:35 PM (pregame): St Mirren FC vs. Rangers FC: O/U 4.5: Kalshi matched at 24¢
@@ -1817,6 +1818,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Valencia CF vs. Real Madrid CF · starts Sat Nov 7, 8:00 PM
 
+- Sat Nov 7, 7:53 PM (verify): Will Real Madrid CF win on 2026-11-07?: 15-min check: still passes (3 wallets, $5.7k for vs $0 against); holding
 - Sat Nov 7, 7:35 PM (pregame): Will Valencia CF win on 2026-11-07?: Kalshi 93¢ → 92¢
 - Sat Nov 7, 6:15 PM (hourly): Will Real Madrid CF win on 2026-11-07?: now passes
 - Sat Nov 7, 6:15 PM (hourly): Will Real Madrid CF win on 2026-11-07?: Kalshi 22¢ → 21¢
@@ -2117,6 +2119,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Delaware vs. Kennesaw State · starts Sat Nov 7, 8:00 PM
 
+- Sat Nov 7, 7:53 PM (verify): Delaware vs. Kennesaw State: 15-min check: still passes (2 wallets, $25.4k for vs $0 against); holding
 - Sat Nov 7, 7:35 PM (pregame): Spread: Kennesaw State (-1.5): Kalshi matched at 54¢
 - Sat Nov 7, 7:35 PM (pregame): Spread: Kennesaw State (-2.5): Kalshi matched at 56¢
 - Sat Nov 7, 7:35 PM (pregame): Delaware vs. Kennesaw State: now passes
