@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 1:37 PM. Bankroll **$126.71** (start $100): $96.97 cash + open trades at cost.
+Updated Sat Nov 7, 1:53 PM. Bankroll **$126.71** (start $100): $96.97 cash + open trades at cost.
 
 Record: 38 won, 26 lost, 5 sold early. Realized P&L $+26.71. Open: 3.
 
@@ -3892,6 +3892,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Cagliari Calcio vs. Frosinone Calcio · starts Sat Nov 7, 2:00 PM
 
+- Sat Nov 7, 1:53 PM (verify): Will Frosinone Calcio win on 2026-11-07?: 15-min check: still passes (2 wallets, $11.0k for vs $0 against); holding
 - Sat Nov 7, 12:14 PM (hourly): Will Frosinone Calcio win on 2026-11-07?: Kalshi 57¢ → 56¢
 - Sat Nov 7, 10:14 AM (hourly): Will Cagliari Calcio vs. Frosinone Calcio end in a draw?: all vetted wallets left No
 - Sat Nov 7, 10:14 AM (hourly): Will Cagliari Calcio win on 2026-11-07?: all vetted wallets left Yes
