@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 5:38 AM. Bankroll **$116.64** (start $100): $96.71 cash + open trades at cost.
+Updated Sat Nov 7, 5:53 AM. Bankroll **$116.64** (start $100): $96.71 cash + open trades at cost.
 
 Record: 36 won, 26 lost, 5 sold early. Realized P&L $+16.64. Open: 2.
 
@@ -992,6 +992,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### FC Tōkyō vs. Kashima Antlers - More Markets · starts Sat Nov 7, 6:00 AM
 
+- Sat Nov 7, 5:53 AM (verify): FC Tōkyō vs. Kashima Antlers: O/U 3.5: 15-min check: still passes (2 wallets, $29.7k for vs $0 against); holding
 - Sat Nov 7, 5:17 AM (pregame): Spread: Kashima Antlers (-1.5): Kalshi matched at 88¢
 - Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 5.5: Kalshi matched at 93¢
 - Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 2.5: first seen: 2 vetted on Under ($11.4k), passes
