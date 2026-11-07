@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 1:22 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
+Updated Sat Nov 7, 1:38 AM. Bankroll **$125.28** (start $100): $54.64 cash + open trades at cost.
 
 Record: 33 won, 22 lost, 5 sold early. Realized P&L $+25.28. Open: 7.
 
@@ -7808,78 +7808,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 4, 4:13 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $875 | $0 | 43¢ YES | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 3:11 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $849 | $0 | 43¢ YES | fails: only 1 vetted wallet with $849 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 4, 2:17 AM | hourly | Trail Blazers vs. Suns → Suns | monkeymashingkeyboard $627 | $0 | 42¢ YES | fails: only 1 vetted wallet with $627 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Timberwolves vs. Rockets · starts Thu Nov 5, 1:30 AM
-
-- Wed Nov 4, 11:11 PM (hourly): Spread: Rockets (-11.5): first seen: 1 vetted on Timberwolves ($159), fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 7:11 PM (hourly): Spread: Rockets (-6.5): Kalshi 55¢ → 54¢
-- Wed Nov 4, 6:10 PM (hourly): Timberwolves vs. Rockets: O/U 222.5: Kalshi 54¢ → 58¢
-- Wed Nov 4, 6:10 PM (hourly): Spread: Rockets (-6.5): Kalshi 54¢ → 55¢
-- Wed Nov 4, 6:10 PM (hourly): Spread: Rockets (-7.5): back: 1 vetted on Timberwolves ($126), fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:35 PM (hourly): Timberwolves vs. Rockets: O/U 222.5: first seen: 1 vetted on Under ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 4:15 PM (hourly): Spread: Rockets (-6.5): first seen: 1 vetted on Rockets ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 6:11 AM (hourly): Timberwolves vs. Rockets: all vetted wallets left Timberwolves
-- Wed Nov 4, 6:11 AM (hourly): Spread: Rockets (-7.5): all vetted wallets left Timberwolves
-- Wed Nov 4, 6:11 AM (hourly): Spread: Rockets (-8.5): all vetted wallets left Timberwolves
-- Wed Nov 4, 6:11 AM (hourly): Timberwolves vs. Rockets: O/U 220.5: all vetted wallets left Under
-- Wed Nov 4, 5:11 AM (hourly): Spread: Rockets (-8.5): HomeRunHazard added $1.0k on Timberwolves
-- Wed Nov 4, 3:11 AM (hourly): Spread: Rockets (-7.5): Kalshi 47¢ → 48¢
-- Wed Nov 4, 3:11 AM (hourly): Timberwolves vs. Rockets: Kalshi 74¢ → 27¢
-- Wed Nov 4, 3:11 AM (hourly): Timberwolves vs. Rockets: majority flipped to Timberwolves ($739 vs $0)
-- Wed Nov 4, 2:17 AM (hourly): Timberwolves vs. Rockets: first seen: 1 vetted on Rockets ($133), fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Spread: Rockets (-7.5): first seen: 1 vetted on Timberwolves ($272), fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 4, 2:17 AM (hourly): Timberwolves vs. Rockets: O/U 220.5: first seen: 1 vetted on Under ($722), fails: only 1 vetted wallet with $722 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 5, 1:15 AM | pregame | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 1:15 AM | pregame | Spread: Rockets (-11.5) → Timberwolves | RN1 $160 | $0 | — | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 5, 1:15 AM | pregame | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | — | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 5, 1:15 AM | pregame | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $559 | $0 | — | fails: only 1 vetted wallet with $559 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Wed Nov 4, 11:11 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 60¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 53c |
-| Wed Nov 4, 11:11 PM | hourly | Spread: Rockets (-11.5) → Timberwolves | RN1 $159 | $0 | 64¢ NO | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $30 | $0 | 54¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 11:11 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 10:12 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 59¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 59c vs leaders 53c |
-| Wed Nov 4, 10:12 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $30 | $0 | 54¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 10:12 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 9:10 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
-| Wed Nov 4, 9:10 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $30 | $0 | 54¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 9:10 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 8:10 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
-| Wed Nov 4, 8:10 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 8:10 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 7:11 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
-| Wed Nov 4, 7:11 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 7:11 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:10 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $20 | $0 | 58¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
-| Wed Nov 4, 6:10 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 55¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:10 PM | hourly | Spread: Rockets (-7.5) → Timberwolves | RN1 $126 | $0 | 51¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:15 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $18 | $0 | 54¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:15 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:35 PM | hourly | Timberwolves vs. Rockets: O/U 222.5 → Under | RN1 $18 | $0 | 54¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:35 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:15 PM | hourly | Spread: Rockets (-6.5) → Rockets | monkeymashingkeyboard $29 | $0 | 54¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 6:11 AM | hourly | Timberwolves vs. Rockets → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Rockets (-7.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Spread: Rockets (-8.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 6:11 AM | hourly | Timberwolves vs. Rockets: O/U 220.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Rockets (-7.5) → Timberwolves | HomeRunHazard $278 | $0 | 48¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Timberwolves vs. Rockets: O/U 220.5 → Under | HomeRunHazard $722 | $0 | 51¢ NO | fails: only 1 vetted wallet with $722 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Timberwolves vs. Rockets → Timberwolves | HomeRunHazard $739 | $0 | 27¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 5:11 AM | hourly | Spread: Rockets (-8.5) → Timberwolves | HomeRunHazard $1.3k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Rockets (-7.5) → Timberwolves | HomeRunHazard $272 | $0 | 48¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Spread: Rockets (-8.5) → Timberwolves | HomeRunHazard $319 | $0 | 52¢ NO | fails: only 1 vetted wallet with $319 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 49c |
-| Wed Nov 4, 4:13 AM | hourly | Timberwolves vs. Rockets: O/U 220.5 → Under | HomeRunHazard $722 | $0 | 51¢ NO | fails: only 1 vetted wallet with $722 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 4:13 AM | hourly | Timberwolves vs. Rockets → Timberwolves | HomeRunHazard $739 | $0 | 27¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Rockets (-7.5) → Timberwolves | HomeRunHazard $272 | $0 | 48¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Spread: Rockets (-8.5) → Timberwolves | HomeRunHazard $319 | $0 | 52¢ NO | fails: only 1 vetted wallet with $319 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 49c |
-| Wed Nov 4, 3:11 AM | hourly | Timberwolves vs. Rockets: O/U 220.5 → Under | HomeRunHazard $722 | $0 | 51¢ NO | fails: only 1 vetted wallet with $722 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 3:11 AM | hourly | Timberwolves vs. Rockets → Timberwolves | HomeRunHazard $739 | $0 | 27¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Timberwolves vs. Rockets → Rockets | HomeRunHazard $133 | $0 | 74¢ YES | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Spread: Rockets (-7.5) → Timberwolves | HomeRunHazard $272 | $0 | 47¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 4, 2:17 AM | hourly | Spread: Rockets (-8.5) → Timberwolves | HomeRunHazard $316 | $0 | 52¢ NO | fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 49c |
-| Wed Nov 4, 2:17 AM | hourly | Timberwolves vs. Rockets: O/U 220.5 → Under | HomeRunHazard $722 | $0 | 51¢ NO | fails: only 1 vetted wallet with $722 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Flames vs. Kraken · starts Thu Nov 5, 3:00 AM
 
