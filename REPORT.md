@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 7, 8:17 AM. Bankroll **$122.45** (start $100): $112.71 cash + open trades at cost.
+Updated Sat Nov 7, 8:22 AM. Bankroll **$126.71** (start $100): $126.71 cash + open trades at cost.
 
-Record: 37 won, 26 lost, 5 sold early. Realized P&L $+22.45. Open: 1.
+Record: 38 won, 26 lost, 5 sold early. Realized P&L $+26.71. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | [FC Tōkyō vs. Kashima Antlers - More Markets](https://polymarket.com/event/jap-fct-kas-2026-11-07-more-markets) | FC Tōkyō vs. Kashima Antlers: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($15,896) | 14 × 68¢ NO `KXJLEAGUETOTAL-26NOV07TOKKAS-4` | open |  |
+| Sat Nov 7, 5:17 AM | [FC Tōkyō vs. Kashima Antlers - More Markets](https://polymarket.com/event/jap-fct-kas-2026-11-07-more-markets) | FC Tōkyō vs. Kashima Antlers: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($15,896) | 14 × 68¢ NO `KXJLEAGUETOTAL-26NOV07TOKKAS-4` | won | $+4.26 |
 | Sat Nov 7, 3:31 AM | [Shimizu S-Pulse vs. Tōkyō Verdy - More Markets](https://polymarket.com/event/jap-ssp-fct1-2026-11-06-more-markets) | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 2.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($23,269) | 16 × 62¢ NO `KXJLEAGUETOTAL-26NOV06SHIVER-3` | won | $+5.81 |
 | Sat Nov 7, 12:31 AM | [Ducks vs. Flames](https://polymarket.com/event/nhl-ana-cal-2026-11-06) | Ducks vs. Flames → Ducks | [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($13,275) | 23 × 43¢ YES `KXNHLGAME-26NOV06ANACGY-ANA` | won | $+12.71 |
 | Sat Nov 7, 12:31 AM | [Thunder vs. Grizzlies](https://polymarket.com/event/nba-okc-mem-2026-11-06) | Thunder vs. Grizzlies → Grizzlies | [takeormake](https://polymarket.com/profile/0xa38a455bbdd4b68486548b7e19da99903f4f821d), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($45,479) | 25 × 39¢ YES `KXNBAGAME-26NOV06OKCMEM-MEM` | lost | $-10.17 |
