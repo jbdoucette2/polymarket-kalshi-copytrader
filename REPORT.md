@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 9:12 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
+Updated Sun Nov 8, 9:23 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
 
 Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
@@ -204,6 +204,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
 
+- Sun Nov 8, 9:23 PM (verify): Raiders vs. 49ers: 15-min check: still passes (2 wallets, $79.5k for vs $0 against); holding
 - Sun Nov 8, 8:13 PM (hourly): Spread: 49ers (-9.5): first seen: 1 vetted on 49ers ($8.2k), fails: only 1 vetted wallet with $8.2k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 8, 8:13 PM (hourly): Raiders vs. 49ers: now passes
 - Sun Nov 8, 8:13 PM (hourly): Raiders vs. 49ers: gmpm2 joined 49ers (+$19.9k)
