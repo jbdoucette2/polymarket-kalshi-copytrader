@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 11:14 AM. Bankroll **$66.02** (start $100): $55.80 cash + open trades at cost.
+Updated Sun Nov 8, 11:23 AM. Bankroll **$66.02** (start $100): $55.80 cash + open trades at cost.
 
 Record: 48 won, 37 lost, 9 sold early. Realized P&L $-33.98. Open: 1.
 
@@ -1691,6 +1691,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### SSC Napoli vs. SS Lazio · starts Sun Nov 8, 11:30 AM
 
+- Sun Nov 8, 11:23 AM (verify): Will SSC Napoli win on 2026-11-08?: 15-min check: still passes (2 wallets, $19.7k for vs $0 against); holding
 - Sun Nov 8, 11:14 AM (pregame): Will SSC Napoli win on 2026-11-08?: now passes
 - Sun Nov 8, 11:14 AM (pregame): Will SSC Napoli win on 2026-11-08?: Kalshi 59¢ → 55¢
 - Sun Nov 8, 11:14 AM (pregame): Will SSC Napoli win on 2026-11-08?: RN1 joined No (+$5.5k)
