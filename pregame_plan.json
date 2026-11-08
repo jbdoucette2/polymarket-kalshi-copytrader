@@ -1,55 +1,15 @@
 {
-  "updated": "2026-11-08T20:13:27Z",
+  "updated": "2026-11-08T21:12:03Z",
   "games": [
-    {
-      "event_slug": "nba-phi-chi-2026-11-08",
-      "game": "76ers vs. Bulls",
-      "start": "2026-11-08T20:30:00Z",
-      "check_at": "2026-11-08T20:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: 76ers (-9.5) → 76ers ($388, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $388 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-hou-lac-2026-11-08",
-      "game": "Texans vs. Chargers",
-      "start": "2026-11-08T21:05:00Z",
-      "check_at": "2026-11-08T20:50:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Texans (-5.5) → Texans ($27.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $27.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nfl-lv-sf-2026-11-08",
       "game": "Raiders vs. 49ers",
       "start": "2026-11-08T21:25:00Z",
       "check_at": "2026-11-08T21:10:00Z",
       "passing": 1,
-      "near": 1,
+      "near": 0,
       "best": "Raiders vs. 49ers → 49ers ($59.6k, 2 wallets)",
       "status": "passes"
-    },
-    {
-      "event_slug": "nfl-gb-ne-2026-11-08",
-      "game": "Packers vs. Patriots",
-      "start": "2026-11-08T21:25:00Z",
-      "check_at": "2026-11-08T21:10:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Packers vs. Patriots: O/U 44.5 → Under ($17.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-lal-det-2026-11-08",
-      "game": "Lakers vs. Pistons",
-      "start": "2026-11-08T23:00:00Z",
-      "check_at": "2026-11-08T22:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Pistons (-7.5) → Lakers ($4.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-tb-chi-2026-11-09",
@@ -57,7 +17,7 @@
       "start": "2026-11-09T01:20:00Z",
       "check_at": "2026-11-09T01:05:00Z",
       "passing": 0,
-      "near": 3,
+      "near": 1,
       "best": "Buccaneers vs. Bears → Buccaneers ($18.7k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+)"
     }
