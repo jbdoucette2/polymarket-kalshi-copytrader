@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 10:12 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
+Updated Sun Nov 8, 10:23 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
 
 Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
@@ -39324,17 +39324,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
 | Fri Nov 6, 5:18 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
 | Fri Nov 6, 4:17 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### CA Unión vs. CA Vélez Sarsfield · starts Fri Nov 6, 10:15 PM
-
-- Fri Nov 6, 10:16 PM (hourly): Will CA Unión win on 2026-11-06?: Kalshi 63¢ → 64¢
-- Fri Nov 6, 8:15 PM (hourly): Will CA Unión win on 2026-11-06?: first seen: 1 vetted on No ($9.4k), fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 10:16 PM | hourly | Will CA Unión win on 2026-11-06? → No | RN1 $9.4k | $0 | 64¢ NO | fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | pregame | Will CA Unión win on 2026-11-06? → No | RN1 $9.4k | $0 | 63¢ NO | fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Will CA Unión win on 2026-11-06? → No | RN1 $9.4k | $0 | 63¢ NO | fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### EC Vitória vs. Fluminense FC - More Markets · starts Fri Nov 6, 11:00 PM
 
