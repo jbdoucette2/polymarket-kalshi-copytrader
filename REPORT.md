@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 3:23 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
+Updated Sun Nov 8, 3:37 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
 
 Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 5.
 
@@ -36769,18 +36769,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
 | Fri Nov 6, 3:16 PM | pregame | Bratislava 2: Dalibor Svrcina vs Zsombor Piros → Dalibor Svrcina | ferrariChampions2026 $2.9k | $0 | 57¢ YES | fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### FC UTA Arad vs. FC Petrolul Ploieşti · starts Fri Nov 6, 3:30 PM
-
-- Fri Nov 6, 3:16 PM (pregame): Will FC UTA Arad win on 2026-11-06?: Kalshi 51¢ → 46¢
-- Fri Nov 6, 2:16 PM (hourly): Will FC UTA Arad win on 2026-11-06?: Kalshi 50¢ → 51¢
-- Fri Nov 6, 1:13 PM (hourly): Will FC UTA Arad win on 2026-11-06?: first seen: 1 vetted on No ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 3:16 PM | pregame | Will FC UTA Arad win on 2026-11-06? → No | tradecraft $20 | $0 | 46¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | Will FC UTA Arad win on 2026-11-06? → No | tradecraft $23 | $0 | 51¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | Will FC UTA Arad win on 2026-11-06? → No | tradecraft $23 | $0 | 50¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### CD Castellón vs. SD Eibar - Exact Score · starts Fri Nov 6, 7:30 PM
 
