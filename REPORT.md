@@ -1,14 +1,14 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 5:38 PM. Bankroll **$61.29** (start $100): $21.30 cash + open trades at cost.
+Updated Sun Nov 8, 5:53 PM. Bankroll **$67.42** (start $100): $37.30 cash + open trades at cost.
 
-Record: 50 won, 39 lost, 9 sold early. Realized P&L $-38.71. Open: 4.
+Record: 51 won, 39 lost, 9 sold early. Realized P&L $-32.58. Open: 3.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | open |  |
 | Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | open |  |
-| Sun Nov 8, 3:18 PM | [CD Universidad Católica vs. CD Limache - More Markets](https://polymarket.com/event/chi1-cuc-cdl-2026-11-08-more-markets) | CD Universidad Católica vs. CD Limache: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,935) | 16 × 60¢ NO `KXCHLLDPTOTAL-26NOV08UCDEP-4` | open |  |
+| Sun Nov 8, 3:18 PM | [CD Universidad Católica vs. CD Limache - More Markets](https://polymarket.com/event/chi1-cuc-cdl-2026-11-08-more-markets) | CD Universidad Católica vs. CD Limache: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,935) | 16 × 60¢ NO `KXCHLLDPTOTAL-26NOV08UCDEP-4` | won | $+6.13 |
 | Sun Nov 8, 3:18 PM | [Lillestrøm SK vs. Aalesunds FK](https://polymarket.com/event/nor-lil-aal-2026-11-08) | Will Lillestrøm SK win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,279) | 20 × 48¢ NO `KXELITESERIENGAME-26NOV08LSKAFK-LSK` | open |  |
 | Sun Nov 8, 2:14 PM | [Real Sociedad de Fútbol vs. Rayo Vallecano de Madrid](https://polymarket.com/event/lal-rso-ray-2026-11-08) | Will Real Sociedad de Fútbol win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($11,878) | 18 × 54¢ YES `KXLALIGAGAME-26NOV08RSORVC-RSO` | won | $+7.96 |
 | Sun Nov 8, 1:18 PM | [Sunderland AFC vs. Chelsea FC](https://polymarket.com/event/epl-sun-che-2026-11-08) | Will Chelsea FC win on 2026-11-08? → Yes | [joseph00677](https://polymarket.com/profile/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223) ($1,922,110) | 21 × 46¢ YES `KXEPLGAME-26NOV08SUNCFC-CFC` | lost | $-10.03 |
