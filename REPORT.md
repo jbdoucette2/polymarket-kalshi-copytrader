@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 3:18 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
+Updated Sun Nov 8, 3:23 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
 
 Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 5.
 
@@ -2022,6 +2022,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### CD Universidad Católica vs. CD Limache - More Markets · starts Sun Nov 8, 3:30 PM
 
+- Sun Nov 8, 3:23 PM (verify): CD Universidad Católica vs. CD Limache: O/U 3.5: 15-min check: still passes (2 wallets, $22.1k for vs $0 against); holding
 - Sun Nov 8, 3:18 PM (pregame): CD Universidad Católica vs. CD Limache: O/U 1.5: Kalshi 19¢ → 17¢
 - Sun Nov 8, 3:18 PM (pregame): CD Universidad Católica vs. CD Limache: O/U 3.5: first seen: 2 vetted on Under ($21.9k), passes
 - Sun Nov 8, 1:18 PM (hourly): CD Universidad Católica vs. CD Limache: O/U 1.5: Kalshi matched at 19¢
