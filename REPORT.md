@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 3:37 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
+Updated Sun Nov 8, 3:55 PM. Bankroll **$73.80** (start $100): $23.47 cash + open trades at cost.
 
 Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 5.
 
@@ -4881,6 +4881,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Lillestrøm SK vs. Aalesunds FK · starts Sun Nov 8, 4:00 PM
 
+- Sun Nov 8, 3:55 PM (verify): Will Lillestrøm SK win on 2026-11-08?: 15-min check: still passes (2 wallets, $19.7k for vs $0 against); holding
 - Sun Nov 8, 3:18 PM (pregame): Will Aalesunds FK win on 2026-11-08?: first seen: 1 vetted on Yes ($592), fails: only 1 vetted wallet with $592 (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 8, 3:18 PM (pregame): Will Lillestrøm SK win on 2026-11-08?: first seen: 2 vetted on No ($5.3k), passes
 
