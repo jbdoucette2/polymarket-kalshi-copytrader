@@ -1,14 +1,14 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 1:23 PM. Bankroll **$66.02** (start $100): $35.33 cash + open trades at cost.
+Updated Sun Nov 8, 1:38 PM. Bankroll **$73.80** (start $100): $53.33 cash + open trades at cost.
 
-Record: 48 won, 37 lost, 9 sold early. Realized P&L $-33.98. Open: 3.
+Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 2.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sun Nov 8, 1:18 PM | [Sunderland AFC vs. Chelsea FC](https://polymarket.com/event/epl-sun-che-2026-11-08) | Will Chelsea FC win on 2026-11-08? → Yes | [joseph00677](https://polymarket.com/profile/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223) ($1,922,110) | 21 × 46¢ YES `KXEPLGAME-26NOV08SUNCFC-CFC` | open |  |
 | Sun Nov 8, 1:18 PM | [Crystal Palace FC vs. Liverpool FC](https://polymarket.com/event/epl-cry-liv-2026-11-08) | Will Liverpool FC win on 2026-11-08? → No | [ndb1](https://polymarket.com/profile/0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,544) | 27 × 37¢ NO `KXEPLGAME-26NOV08CRYLFC-LFC` | open |  |
-| Sun Nov 8, 11:14 AM | [SSC Napoli vs. SS Lazio](https://polymarket.com/event/sea-nap-laz-2026-11-08) | Will SSC Napoli win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($20,056) | 18 × 55¢ NO `KXSERIEAGAME-26NOV08NAPLAZ-NAP` | open |  |
+| Sun Nov 8, 11:14 AM | [SSC Napoli vs. SS Lazio](https://polymarket.com/event/sea-nap-laz-2026-11-08) | Will SSC Napoli win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($20,056) | 18 × 55¢ NO `KXSERIEAGAME-26NOV08NAPLAZ-NAP` | won | $+7.78 |
 | Sun Nov 8, 2:10 AM | [Pumas de la UNAM vs. CF América](https://polymarket.com/event/mex-pum-ame-2026-11-07) | Will Pumas de la UNAM win on 2026-11-07? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea) ($6,769) | 14 × 68¢ NO `KXLIGAMXGAME-26NOV07PUMAME-PUM` | sold | $-0.72 |
 | Sun Nov 8, 2:10 AM | [Spurs vs. Trail Blazers](https://polymarket.com/event/nba-sas-por-2026-11-07) | Spurs vs. Trail Blazers → Trail Blazers | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [takeormake](https://polymarket.com/profile/0xa38a455bbdd4b68486548b7e19da99903f4f821d), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($7,288) | 28 × 35¢ YES `KXNBAGAME-26NOV07SASPOR-POR` | lost | $-10.25 |
 | Sun Nov 8, 12:13 AM | [Miami (FL) vs. Notre Dame](https://polymarket.com/event/cfb-mia-nd-2026-11-07) | Miami (FL) vs. Notre Dame → Notre Dame | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($41,900) | 14 × 71¢ YES `KXNCAAFGAME-26NOV07MIAND-ND` | won | $+3.85 |
