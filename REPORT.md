@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 2:37 AM. Bankroll **$67.01** (start $100): $27.00 cash + open trades at cost.
+Updated Sun Nov 8, 2:54 AM. Bankroll **$66.29** (start $100): $36.02 cash + open trades at cost.
 
-Record: 46 won, 36 lost, 8 sold early. Realized P&L $-32.99. Open: 4.
+Record: 46 won, 36 lost, 9 sold early. Realized P&L $-33.71. Open: 3.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 2:10 AM | [Pumas de la UNAM vs. CF América](https://polymarket.com/event/mex-pum-ame-2026-11-07) | Will Pumas de la UNAM win on 2026-11-07? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea) ($6,769) | 14 × 68¢ NO `KXLIGAMXGAME-26NOV07PUMAME-PUM` | open |  |
+| Sun Nov 8, 2:10 AM | [Pumas de la UNAM vs. CF América](https://polymarket.com/event/mex-pum-ame-2026-11-07) | Will Pumas de la UNAM win on 2026-11-07? → No | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea) ($6,769) | 14 × 68¢ NO `KXLIGAMXGAME-26NOV07PUMAME-PUM` | sold | $-0.72 |
 | Sun Nov 8, 2:10 AM | [Spurs vs. Trail Blazers](https://polymarket.com/event/nba-sas-por-2026-11-07) | Spurs vs. Trail Blazers → Trail Blazers | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [takeormake](https://polymarket.com/profile/0xa38a455bbdd4b68486548b7e19da99903f4f821d), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($7,288) | 28 × 35¢ YES `KXNBAGAME-26NOV07SASPOR-POR` | open |  |
 | Sun Nov 8, 12:13 AM | [Miami (FL) vs. Notre Dame](https://polymarket.com/event/cfb-mia-nd-2026-11-07) | Miami (FL) vs. Notre Dame → Notre Dame | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($41,900) | 14 × 71¢ YES `KXNCAAFGAME-26NOV07MIAND-ND` | open |  |
 | Sun Nov 8, 12:13 AM | [Iowa vs. Northwestern](https://polymarket.com/event/cfb-iowa-nw-2026-11-07) | Iowa vs. Northwestern → Iowa | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($65,828) | 16 × 60¢ YES `KXNCAAFGAME-26NOV07IOWANW-IOWA` | open |  |
@@ -300,6 +300,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Spurs vs. Trail Blazers · starts Sun Nov 8, 3:00 AM
 
+- Sun Nov 8, 2:54 AM (verify): Spurs vs. Trail Blazers: 15-min check: still passes (2 wallets, $17.4k for vs $0 against); holding
+- Sun Nov 8, 2:54 AM (verify): Spurs vs. Trail Blazers: 15-min check: still passes (2 wallets, $17.4k for vs $0 against); holding
 - Sun Nov 8, 2:10 AM (pregame): Spurs vs. Trail Blazers: O/U 226.5: Kalshi 44¢ → 46¢
 - Sun Nov 8, 2:10 AM (pregame): Spurs vs. Trail Blazers: now passes
 - Sun Nov 8, 2:10 AM (pregame): Spurs vs. Trail Blazers: tradecraft joined Trail Blazers (+$17)
@@ -473,6 +475,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Pumas de la UNAM vs. CF América · starts Sun Nov 8, 3:10 AM
 
+- Sun Nov 8, 2:54 AM (verify): Will Pumas de la UNAM win on 2026-11-07?: 15-min check: No has only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) (1 wallets, $6.7k for vs $0 against); sold
 - Sun Nov 8, 2:10 AM (pregame): Will CF América win on 2026-11-07?: back: 1 vetted on Yes ($2.2k), fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 8, 2:10 AM (pregame): Will Pumas de la UNAM win on 2026-11-07?: back: 2 vetted on No ($6.8k), passes
 - Sat Nov 7, 11:14 PM (hourly): Will CF América win on 2026-11-07?: all vetted wallets left No
