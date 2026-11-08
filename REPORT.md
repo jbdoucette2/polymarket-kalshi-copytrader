@@ -1,15 +1,15 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 1:11 AM. Bankroll **$64.75** (start $100): $34.99 cash + open trades at cost.
+Updated Sun Nov 8, 1:22 AM. Bankroll **$67.01** (start $100): $46.99 cash + open trades at cost.
 
-Record: 45 won, 36 lost, 8 sold early. Realized P&L $-35.25. Open: 3.
+Record: 46 won, 36 lost, 8 sold early. Realized P&L $-32.99. Open: 2.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sun Nov 8, 12:13 AM | [Miami (FL) vs. Notre Dame](https://polymarket.com/event/cfb-mia-nd-2026-11-07) | Miami (FL) vs. Notre Dame → Notre Dame | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($41,900) | 14 × 71¢ YES `KXNCAAFGAME-26NOV07MIAND-ND` | open |  |
 | Sun Nov 8, 12:13 AM | [Iowa vs. Northwestern](https://polymarket.com/event/cfb-iowa-nw-2026-11-07) | Iowa vs. Northwestern → Iowa | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($65,828) | 16 × 60¢ YES `KXNCAAFGAME-26NOV07IOWANW-IOWA` | open |  |
 | Sat Nov 7, 10:17 PM | [Kentucky vs. Tennessee](https://polymarket.com/event/cfb-uk-tenn-2026-11-07) | Spread: Tennessee (-5.5) → Kentucky | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($3,026) | 20 × 48¢ NO `KXNCAAFSPREAD-26NOV07UKTENN-TENN6` | sold | $-0.90 |
-| Sat Nov 7, 9:14 PM | [LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-ig1-gen-2026-11-07) | LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($86,879) | 12 × 80¢ YES `KXLOLGAME-26NOV071700GENIG-GEN` | open |  |
+| Sat Nov 7, 9:14 PM | [LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-ig1-gen-2026-11-07) | LoL: Invictus Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [SnakeBall](https://polymarket.com/profile/0xc29198ad764bd6adaf7bb971a3757a689ece5d74) ($86,879) | 12 × 80¢ YES `KXLOLGAME-26NOV071700GENIG-GEN` | won | $+2.26 |
 | Sat Nov 7, 8:16 PM | [UCF vs. Kansas](https://polymarket.com/event/cfb-ucf-kan-2026-11-07) | Spread: Kansas (-4.5) → Kansas | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) ($9,139) | 18 × 53¢ YES `KXNCAAFSPREAD-26NOV07UCFKU-KU5` | lost | $-9.86 |
 | Sat Nov 7, 7:35 PM | [Delaware vs. Kennesaw State](https://polymarket.com/event/cfb-del-kenest-2026-11-07) | Delaware vs. Kennesaw State → Delaware | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($25,354) | 20 × 50¢ YES `KXNCAAFGAME-26NOV07DELKENN-DEL` | lost | $-10.35 |
 | Sat Nov 7, 7:35 PM | [Sporting CP vs. Moreirense FC](https://polymarket.com/event/por-spo-mor-2026-11-07) | Will Sporting CP win on 2026-11-07? → Yes | [0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465](https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,852) | 11 × 86¢ YES `KXLIGAPORTUGALGAME-26NOV07SPOMOR-SPO` | won | $+1.44 |
@@ -30671,86 +30671,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 11:17 PM | hourly | Will Alacranes de Durango vs. Leones Negros UDEG end in a draw? → No | tradecraft $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 11:17 PM | hourly | Will Alacranes de Durango win on 2026-11-05? → Yes | tradecraft $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 5, 10:18 PM | hourly | Will Alacranes de Durango win on 2026-11-05? → Yes | tradecraft $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Jaguars vs. Ravens · starts Fri Nov 6, 1:15 AM
-
-- Fri Nov 6, 1:16 AM (hourly): Spread: Jaguars (-1.5): Kalshi 22¢ → 24¢
-- Fri Nov 6, 1:16 AM (hourly): Spread: Jaguars (-6.5): Kalshi 38¢ → 39¢
-- Fri Nov 6, 1:16 AM (hourly): Spread: Jaguars (-7.5): first seen: 1 vetted on Jaguars ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 1:16 AM (hourly): Spread: Jaguars (-5.5): Kalshi 36¢ → 37¢
-- Fri Nov 6, 1:16 AM (hourly): Jaguars vs. Ravens: Kalshi 79¢ → 78¢
-- Fri Nov 6, 12:14 AM (pregame): Spread: Jaguars (-1.5): Kalshi matched at 22¢
-- Fri Nov 6, 12:14 AM (pregame): Spread: Jaguars (-6.5): first seen: 1 vetted on Ravens ($423), fails: only 1 vetted wallet with $423 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 12:14 AM (pregame): Spread: Jaguars (-5.5): first seen: 1 vetted on Ravens ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 12:14 AM (pregame): Jaguars vs. Ravens: Kalshi matched at 79¢
-- Thu Nov 5, 11:17 PM (hourly): Jaguars vs. Ravens: majority flipped to Jaguars ($128.7k vs $79.3k)
-- Thu Nov 5, 10:18 PM (hourly): Jaguars vs. Ravens: BreakTheBank joined Ravens (+$44.2k)
-- Thu Nov 5, 10:18 PM (hourly): Spread: Jaguars (-9.5): majority flipped to Ravens ($96.8k vs $93.6k)
-- Thu Nov 5, 7:15 PM (hourly): Spread: Jaguars (-9.5): monkeymashingkeyboard added $7.4k on Jaguars
-- Thu Nov 5, 6:13 PM (hourly): Jaguars vs. Ravens: O/U 38.5: back: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Thu Nov 5, 2:12 PM (hourly): Jaguars vs. Ravens: O/U 38.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 1:16 AM | hourly | Spread: Jaguars (-1.5) → Ravens | BreakTheBank $8 | $0 | 24¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Spread: Jaguars (-6.5) → Ravens | BreakTheBank $827 | $0 | 39¢ NO | fails: only 1 vetted wallet with $827 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Spread: Jaguars (-7.5) → Jaguars | tradecraft $26 | $0 | 54¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Spread: Jaguars (-5.5) → Ravens | BreakTheBank $1.6k | $35 | 37¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 37c vs leaders 33c |
-| Fri Nov 6, 1:16 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 38.5 line |
-| Fri Nov 6, 1:16 AM | hourly | Spread: Jaguars (-9.5) → Ravens | BreakTheBank $195.6k | $81.9k | 53¢ NO | fails: only 1 vetted wallet with $195.6k (needs 3+ wallets, or 2 with $5.0k+); opposition 42% |
-| Fri Nov 6, 1:16 AM | hourly | Jaguars vs. Ravens → Jaguars | gmpm2 $125.4k, tradecraft $116 | $124.1k | 78¢ YES | fails: opposition 99% |
-| Fri Nov 6, 12:14 AM | pregame | Spread: Jaguars (-1.5) → Ravens | BreakTheBank $8 | $0 | 22¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | pregame | Spread: Jaguars (-6.5) → Ravens | BreakTheBank $423 | $0 | 38¢ NO | fails: only 1 vetted wallet with $423 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | pregame | Spread: Jaguars (-5.5) → Ravens | BreakTheBank $1.5k | $0 | 36¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | pregame | Spread: Jaguars (-9.5) → Ravens | BreakTheBank $184.3k | $83.3k | 51¢ NO | fails: only 1 vetted wallet with $184.3k (needs 3+ wallets, or 2 with $5.0k+); opposition 45% |
-| Fri Nov 6, 12:14 AM | pregame | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 38.5 line |
-| Fri Nov 6, 12:14 AM | pregame | Jaguars vs. Ravens → Jaguars | gmpm2 $127.1k, tradecraft $78 | $94.5k | 79¢ YES | fails: opposition 74% |
-| Thu Nov 5, 11:17 PM | hourly | Spread: Jaguars (-1.5) → Ravens | BreakTheBank $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:17 PM | hourly | Spread: Jaguars (-9.5) → Ravens | BreakTheBank $110.5k | $60.3k | — | fails: only 1 vetted wallet with $110.5k (needs 3+ wallets, or 2 with $5.0k+); opposition 55%; no Kalshi game found |
-| Thu Nov 5, 11:17 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:17 PM | hourly | Jaguars vs. Ravens → Jaguars | gmpm2 $128.7k, tradecraft $40 | $79.3k | — | fails: opposition 62%; no Kalshi game found |
-| Thu Nov 5, 10:18 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 10:18 PM | hourly | Jaguars vs. Ravens → Ravens | BreakTheBank $44.2k, SnakeBall $92 | $40 | — | fails: no Kalshi game found |
-| Thu Nov 5, 10:18 PM | hourly | Spread: Jaguars (-9.5) → Ravens | BreakTheBank $96.8k | $93.6k | — | fails: only 1 vetted wallet with $96.8k (needs 3+ wallets, or 2 with $5.0k+); opposition 97%; no Kalshi game found |
-| Thu Nov 5, 9:14 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 9:14 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 9:14 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | monkeymashingkeyboard $11.0k, tradecraft $15 | $0 | — | fails: no Kalshi game found |
-| Thu Nov 5, 8:18 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:18 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:18 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | monkeymashingkeyboard $11.0k, tradecraft $15 | $0 | — | fails: no Kalshi game found |
-| Thu Nov 5, 7:15 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 7:15 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 7:15 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | monkeymashingkeyboard $8.8k, tradecraft $15 | $0 | — | fails: no Kalshi game found |
-| Thu Nov 5, 6:13 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 6:13 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Under | tradecraft $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 6:13 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | monkeymashingkeyboard $1.4k, tradecraft $15 | $0 | — | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 5:13 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 5:13 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | monkeymashingkeyboard $152, tradecraft $15 | $0 | — | fails: only 2 vetted wallets with $167 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 4:18 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 4:18 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 3:12 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 3:12 PM | hourly | Spread: Jaguars (-9.5) → Jaguars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 2:12 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 5, 2:12 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 1:16 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 1:16 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 12:19 PM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 12:19 PM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 11:14 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 10:12 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 10:12 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 9:15 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 9:15 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:11 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 8:11 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 7:11 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 7:11 AM | hourly | Jaguars vs. Ravens: O/U 38.5 → Over | SnakeBall $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 6:13 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 5:12 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 4:13 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 3:11 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 5, 2:17 AM | hourly | Jaguars vs. Ravens → Ravens | SnakeBall $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Magic vs. Suns · starts Fri Nov 6, 2:00 AM
 
