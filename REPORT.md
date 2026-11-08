@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 2:23 PM. Bankroll **$73.80** (start $100): $43.29 cash + open trades at cost.
+Updated Sun Nov 8, 2:38 PM. Bankroll **$73.80** (start $100): $43.29 cash + open trades at cost.
 
 Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 3.
 
@@ -35997,20 +35997,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Fri Nov 6, 3:16 PM | hourly | Rolex Paris Masters: Luca Van Assche vs Rinky Hijikata → Rinky Hijikata | ferrariChampions2026 $3.8k, RN1 $3.1k | $0 | 40¢ YES | passes |
 | Fri Nov 6, 2:16 PM | pregame | Rolex Paris Masters: Luca Van Assche vs Rinky Hijikata → Rinky Hijikata | ferrariChampions2026 $3.8k | $0 | 40¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Taranto: Kilian Feldbausch vs Sumit Nagal · starts Fri Nov 6, 2:30 PM
-
-- Fri Nov 6, 2:16 PM (pregame): Taranto: Kilian Feldbausch vs Sumit Nagal: Kalshi 43¢ → 44¢
-- Fri Nov 6, 1:13 PM (pregame): Taranto: Kilian Feldbausch vs Sumit Nagal: Kalshi 42¢ → 43¢
-- Fri Nov 6, 10:11 AM (hourly): Taranto: Kilian Feldbausch vs Sumit Nagal: first seen: 1 vetted on Sumit Nagal ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 2:16 PM | pregame | Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal | ferrariChampions2026 $82 | $0 | 44¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | pregame | Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal | ferrariChampions2026 $80 | $0 | 43¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:20 PM | hourly | Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal | ferrariChampions2026 $80 | $0 | 42¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:14 AM | hourly | Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal | ferrariChampions2026 $80 | $0 | 42¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:11 AM | hourly | Taranto: Kilian Feldbausch vs Sumit Nagal → Sumit Nagal | ferrariChampions2026 $80 | $0 | 42¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### CD Castellón vs. SD Eibar - Exact Score · starts Fri Nov 6, 7:30 PM
 
