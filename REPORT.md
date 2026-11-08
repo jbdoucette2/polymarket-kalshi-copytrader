@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 6:38 PM. Bankroll **$55.30** (start $100): $55.30 cash + open trades at cost.
+Updated Sun Nov 8, 7:10 PM. Bankroll **$55.30** (start $100): $55.30 cash + open trades at cost.
 
 Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 0.
 
@@ -111,30 +111,30 @@ Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1234 settled so far, 64 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1279 settled so far, 65 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1234 | 49% | 50¢ | -1 pts | -7% |
-| Rules: one rule away | 1130 | 49% | 49¢ | -1 pts | -7% |
-| Rules: passed every rule | 104 | 46% | 51¢ | -5 pts | -13% |
-| Price: 40–60¢ | 504 | 49% | 49¢ | -0 pts | +1% |
-| Price: 60–80¢ | 215 | 69% | 69¢ | +0 pts | -0% |
-| Price: 80¢+ | 143 | 92% | 88¢ | +3 pts | +4% |
-| Price: under 40¢ | 372 | 19% | 24¢ | -5 pts | -26% |
-| Wallets on the pick: 1 wallet | 907 | 48% | 50¢ | -1 pts | -9% |
-| Wallets on the pick: 2 wallets | 255 | 47% | 50¢ | -3 pts | -9% |
+| **all** | 1279 | 49% | 49¢ | -1 pts | -5% |
+| Rules: one rule away | 1174 | 49% | 49¢ | -0 pts | -5% |
+| Rules: passed every rule | 105 | 47% | 51¢ | -5 pts | -12% |
+| Price: 40–60¢ | 508 | 49% | 49¢ | -0 pts | +0% |
+| Price: 60–80¢ | 224 | 69% | 69¢ | +0 pts | -0% |
+| Price: 80¢+ | 149 | 91% | 88¢ | +2 pts | +3% |
+| Price: under 40¢ | 398 | 21% | 24¢ | -3 pts | -19% |
+| Wallets on the pick: 1 wallet | 951 | 48% | 49¢ | -1 pts | -7% |
+| Wallets on the pick: 2 wallets | 256 | 47% | 50¢ | -2 pts | -8% |
 | Wallets on the pick: 3+ wallets | 72 | 60% | 50¢ | +10 pts | +19% |
 | Leader money: $20k+ | 48 | 58% | 57¢ | +1 pts | -2% |
-| Leader money: $5k–20k | 135 | 50% | 56¢ | -5 pts | -11% |
-| Leader money: under $5k | 1051 | 48% | 48¢ | -1 pts | -7% |
-| Market type: draw | 56 | 48% | 54¢ | -6 pts | -31% |
-| Market type: moneyline | 171 | 49% | 52¢ | -2 pts | -11% |
-| Market type: soccer win/lose | 221 | 52% | 53¢ | -0 pts | -3% |
-| Market type: spread | 351 | 46% | 49¢ | -3 pts | -9% |
-| Market type: total | 435 | 49% | 47¢ | +1 pts | -3% |
-| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 39 | 38% | 40¢ | -2 pts | -13% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1069 | 48% | 50¢ | -2 pts | -9% |
+| Leader money: $5k–20k | 136 | 51% | 56¢ | -5 pts | -10% |
+| Leader money: under $5k | 1095 | 48% | 48¢ | -0 pts | -5% |
+| Market type: draw | 59 | 47% | 54¢ | -6 pts | -28% |
+| Market type: moneyline | 174 | 50% | 52¢ | -2 pts | -10% |
+| Market type: soccer win/lose | 231 | 53% | 53¢ | +0 pts | -1% |
+| Market type: spread | 358 | 46% | 48¢ | -2 pts | -8% |
+| Market type: total | 457 | 48% | 47¢ | +1 pts | -1% |
+| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 42 | 40% | 39¢ | +2 pts | +4% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1111 | 48% | 50¢ | -1 pts | -8% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 21 | 62% | 55¢ | +7 pts | +26% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -142,13 +142,13 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Wallet | Games | Won | Avg price | Edge |
 | --- | --- | --- | --- | --- |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
-| RN1 (benched) | 29 | 66% | 56¢ | +10 pts |
+| RN1 (benched) | 30 | 67% | 55¢ | +11 pts |
 | primm | 23 | 57% | 50¢ | +7 pts |
 | gmpm2 | 13 | 62% | 56¢ | +6 pts |
 | monkeymashingkeyboard (benched) | 15 | 53% | 48¢ | +6 pts |
-| Flaznorp (benched) | 412 | 63% | 58¢ | +5 pts |
+| Flaznorp (benched) | 419 | 64% | 58¢ | +5 pts |
 | HomeRunHazard (benched) | 162 | 54% | 54¢ | +1 pts |
-| SnakeBall (benched) | 68 | 68% | 68¢ | -0 pts |
+| SnakeBall (benched) | 70 | 69% | 69¢ | -0 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 19 | 47% | 55¢ | -8 pts |
@@ -157,75 +157,856 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Buccaneers vs. Bears · starts Mon Nov 9, 1:20 AM
+### Antigua GFC vs. CD Malacateco - More Markets · starts Mon Nov 9, 12:00 AM
 
-- Sun Nov 8, 6:14 PM (hourly): Buccaneers vs. Bears: gmpm2 added $4.4k on Buccaneers
-- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: first seen: 1 vetted on Buccaneers ($14.3k), fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: O/U 58.5: first seen: 1 vetted on Over ($235), fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: O/U 48.5: first seen: 1 vetted on Over ($4.5k), fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 7:11 AM (hourly): Spread: Bears (-14.5): all vetted wallets left Bears
-- Sun Nov 8, 7:11 AM (hourly): Spread: Bears (-6.5): all vetted wallets left Bears
-- Sun Nov 8, 3:12 AM (hourly): Spread: Bears (-6.5): first seen: 1 vetted on Bears ($828), fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 7:10 PM (hourly): Antigua GFC vs. CD Malacateco: O/U 2.5: all vetted wallets left Over
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | — | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 7:11 AM | hourly | Spread: Bears (-14.5) → Bears | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:11 AM | hourly | Spread: Bears (-6.5) → Bears | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 6:12 AM | hourly | Spread: Bears (-14.5) → Bears | takeormake $852 | $0 | — | fails: only 1 vetted wallet with $852 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 6:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-14.5) → Bears | takeormake $852 | $0 | — | fails: only 1 vetted wallet with $852 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 4:10 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:10 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Antigua GFC vs. CD Malacateco: O/U 2.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
+### Lakers vs. Pistons · starts Sun Nov 8, 11:00 PM
 
-- Sun Nov 8, 2:14 PM (hourly): Raiders vs. 49ers: back: 1 vetted on 49ers ($39.8k), fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 7:11 AM (hourly): Raiders vs. 49ers: all vetted wallets left Raiders
-- Sun Nov 8, 5:13 AM (hourly): Raiders vs. 49ers: Kalshi 20¢ → 21¢
-- Sun Nov 8, 3:12 AM (hourly): Raiders vs. 49ers: O/U 52.5: all vetted wallets left Over
-- Sun Nov 8, 1:11 AM (hourly): Raiders vs. 49ers: O/U 52.5: first seen: 1 vetted on Over ($6.7k), fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Raiders vs. 49ers: O/U 54.5: all vetted wallets left Over
-- Sat Nov 7, 10:17 PM (hourly): Raiders vs. 49ers: first seen: 1 vetted on Raiders ($556), fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 229.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 227.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: all vetted wallets left Pistons
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 222.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 213.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 195.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 237.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 223.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 51¢
+- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): majority flipped to Lakers ($4.0k vs $0)
+- Sun Nov 8, 5:14 PM (hourly): Spread: Pistons (-7.5): Kalshi 41¢ → 42¢
+- Sun Nov 8, 5:14 PM (hourly): Lakers vs. Pistons: first seen: 1 vetted on Pistons ($666), fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 41¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 40¢ → 42¢
+- Sun Nov 8, 3:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 47¢ → 46¢
+- Sun Nov 8, 2:14 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 49¢ → 47¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Pistons (-7.5): Kalshi matched at 40¢
+- Sun Nov 8, 1:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi matched at 49¢
+- Sun Nov 8, 10:24 AM (hourly): Lakers vs. Pistons: O/U 222.5: first seen: 1 vetted on Over ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Pistons (-7.5): first seen: 1 vetted on Pistons ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 6:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 7:11 AM | hourly | Raiders vs. 49ers → Raiders | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 6:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $671 | $0 | 21¢ YES | fails: only 1 vetted wallet with $671 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $670 | $0 | 21¢ YES | fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $647 | $0 | 20¢ YES | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | SnakeBall $130 | $0 | — | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 54.5 line |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 42¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons → Pistons | Flaznorp $666 | $0 | 64¢ YES | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $193 | $0 | — | fails: only 1 vetted wallet with $193 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $100 | $0 | 42¢ YES | fails: only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 47¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $85 | $0 | 49¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Richmond Spiders vs. Temple Owls · starts Sun Nov 8, 10:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Richmond Spiders vs. Temple Owls: all vetted wallets left Temple Owls
+- Sun Nov 8, 2:14 PM (hourly): Richmond Spiders vs. Temple Owls: Kalshi 55¢ → 46¢
+- Sun Nov 8, 2:14 PM (hourly): Richmond Spiders vs. Temple Owls: majority flipped to Temple Owls ($283 vs $0)
+- Sun Nov 8, 10:24 AM (hourly): Richmond Spiders vs. Temple Owls: first seen: 1 vetted on Richmond Spiders ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
+| Sun Nov 8, 4:50 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
+| Sun Nov 8, 4:18 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
+| Sun Nov 8, 3:18 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
+| Sun Nov 8, 2:14 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $283 | $0 | 46¢ YES | fails: only 1 vetted wallet with $283 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
+| Sun Nov 8, 1:18 PM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Heat vs. Kings · starts Mon Nov 9, 2:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Heat (-19.5): all vetted wallets left Kings
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 251.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 249.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 238.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Heat (-21.5): all vetted wallets left Kings
+- Sun Nov 8, 7:10 PM (hourly): Spread: Heat (-10.5): all vetted wallets left Heat
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 237.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 227.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Kings (-6.5): all vetted wallets left Heat
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: O/U 241.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Heat vs. Kings: all vetted wallets left Kings
+- Sun Nov 8, 4:50 PM (hourly): Spread: Heat (-21.5): Kalshi 82¢ → 81¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Heat (-19.5): Kalshi 78¢ → 77¢
+- Sun Nov 8, 4:50 PM (hourly): Heat vs. Kings: O/U 238.5: Kalshi 51¢ → 53¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-21.5): Kalshi 85¢ → 82¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-19.5): Kalshi 82¢ → 78¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Kings (-6.5): Kalshi 88¢ → 91¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-10.5): Kalshi 43¢ → 49¢
+- Sun Nov 8, 2:14 PM (hourly): Heat vs. Kings: Kalshi 24¢ → 21¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-21.5): Kalshi matched at 85¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-19.5): Kalshi matched at 82¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Kings (-6.5): first seen: 1 vetted on Heat ($265), fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-10.5): first seen: 1 vetted on Heat ($267), fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Heat vs. Kings: O/U 238.5: first seen: 1 vetted on Under ($92), fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Heat vs. Kings: Kalshi 25¢ → 24¢
+- Sun Nov 8, 11:14 AM (hourly): Heat vs. Kings: first seen: 1 vetted on Kings ($385), fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Heat (-21.5): first seen: 1 vetted on Kings ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Heat (-19.5): first seen: 1 vetted on Kings ($81), fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Heat (-19.5) → Kings | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 249.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Heat (-21.5) → Kings | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Heat (-10.5) → Heat | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 227.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Kings (-6.5) → Heat | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings: O/U 241.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Heat vs. Kings → Kings | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $44 | $0 | 81¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 77¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 227.5 → Over | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 241.5 → Under | Flaznorp $120 | $0 | — | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 241.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | Flaznorp $124 | $0 | — | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 251.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 249.5 → Under | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 249.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 53¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
+| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $178 | $0 | — | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 81¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 77¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 227.5 → Over | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 241.5 → Under | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 241.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | Flaznorp $124 | $0 | — | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 251.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 249.5 → Under | Flaznorp $128 | $0 | — | fails: only 1 vetted wallet with $128 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 249.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 53¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
+| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $178 | $0 | — | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 227.5 → Over | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 241.5 → Under | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 241.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | Flaznorp $124 | $0 | — | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 251.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 249.5 → Under | Flaznorp $128 | $0 | — | fails: only 1 vetted wallet with $128 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 249.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 51¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $178 | $0 | — | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 251.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings: O/U 241.5 → Under | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 241.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $271 | $0 | 91¢ NO | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $298 | $0 | 50¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
+| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet with $174 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings: O/U 251.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 251.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $298 | $0 | 49¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 43c |
+| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet with $174 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | 85¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $80 | $0 | 82¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $265 | $0 | 88¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $267 | $0 | 43¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $385 | $0 | 24¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $174 | $0 | — | fails: only 1 vetted wallet with $174 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Heat vs. Kings: O/U 237.5 → Under | Flaznorp $86 | $0 | — | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Heat vs. Kings → Kings | Flaznorp $385 | $0 | 25¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | 86¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $81 | $0 | 82¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Jazz vs. Timberwolves · starts Mon Nov 9, 12:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-13.5): all vetted wallets left Timberwolves
+- Sun Nov 8, 7:10 PM (hourly): Jazz vs. Timberwolves: O/U 198.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-23.5): all vetted wallets left Jazz
+- Sun Nov 8, 7:10 PM (hourly): Jazz vs. Timberwolves: O/U 230.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Jazz (-18.5): all vetted wallets left Timberwolves
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-11.5): all vetted wallets left Timberwolves
+- Sun Nov 8, 7:10 PM (hourly): Jazz vs. Timberwolves: O/U 228.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-19.5): all vetted wallets left Jazz
+- Sun Nov 8, 7:10 PM (hourly): Jazz vs. Timberwolves: O/U 234.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-3.5): all vetted wallets left Timberwolves
+- Sun Nov 8, 7:10 PM (hourly): Spread: Timberwolves (-5.5): all vetted wallets left Jazz
+- Sun Nov 8, 7:10 PM (hourly): Jazz vs. Timberwolves: O/U 222.5: all vetted wallets left Under
+- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 214.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-5.5): Kalshi 31¢ → 29¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-13.5): Kalshi 43¢ → 45¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-11.5): Kalshi 49¢ → 53¢
+- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 234.5: Kalshi 73¢ → 76¢
+- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 230.5: first seen: 1 vetted on Under ($248), fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-5.5): first seen: 1 vetted on Jazz ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-13.5): first seen: 1 vetted on Timberwolves ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-11.5): first seen: 1 vetted on Timberwolves ($172), fails: only 1 vetted wallet with $172 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Jazz vs. Timberwolves: O/U 234.5: first seen: 1 vetted on Under ($143), fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jazz vs. Timberwolves: O/U 198.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-23.5) → Jazz | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jazz vs. Timberwolves: O/U 230.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jazz vs. Timberwolves: O/U 228.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jazz vs. Timberwolves: O/U 222.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 198.5 → Under | Flaznorp $4 | $0 | 9¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 9c vs leaders 6c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 29¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $17 | $0 | 45¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 228.5 → Under | Flaznorp $84 | $0 | 65¢ NO | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 59c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-23.5) → Jazz | Flaznorp $167 | $0 | — | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $186 | $0 | 53¢ YES | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
+| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $214 | $0 | 76¢ NO | fails: only 1 vetted wallet with $214 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
+| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 230.5 → Under | Flaznorp $248 | $0 | 69¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 222.5 → Under | Flaznorp $56 | $0 | 51¢ NO | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 47c |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 198.5 → Under | Flaznorp $4 | $0 | 9¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 9c vs leaders 6c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 29¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $17 | $0 | 45¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 228.5 → Under | Flaznorp $84 | $0 | 65¢ NO | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 59c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-23.5) → Jazz | Flaznorp $167 | $0 | — | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $186 | $0 | 53¢ YES | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $214 | $0 | 76¢ NO | fails: only 1 vetted wallet with $214 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 230.5 → Under | Flaznorp $248 | $0 | 69¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 222.5 → Under | Flaznorp $56 | $0 | 51¢ NO | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 47c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 31¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $14 | $0 | 43¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Jazz vs. Timberwolves: O/U 228.5 → Under | Flaznorp $80 | $0 | 62¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 59c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $172 | $0 | 49¢ YES | fails: only 1 vetted wallet with $172 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Jazz vs. Timberwolves: O/U 228.5 → Under | Flaznorp $80 | $0 | 62¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 59c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $84 | $0 | — | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; Kalshi has no 18.5 spread line |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Timberwolves (-19.5) → Jazz | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Timberwolves (-3.5) → Timberwolves | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Jazz (-18.5) → Timberwolves | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 18.5 spread line |
+
+### Goiás EC vs. AA Ponte Preta · starts Sun Nov 8, 10:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Goiás EC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 1:18 PM (hourly): Will Goiás EC win on 2026-11-08?: Kalshi matched at 14¢
+- Sun Nov 8, 10:24 AM (hourly): Will Goiás EC win on 2026-11-08?: first seen: 1 vetted on No ($64), fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Goiás EC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $71 | $0 | 14¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | 14¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | 14¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $64 | $0 | 14¢ NO | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### 76ers vs. Bulls · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-1.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): 76ers vs. Bulls: O/U 229.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): 76ers vs. Bulls: all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-21.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-5.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-9.5): all vetted wallets left 76ers
+- Sun Nov 8, 7:10 PM (hourly): 76ers vs. Bulls: O/U 243.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): 76ers vs. Bulls: O/U 231.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-3.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-25.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-4.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-11.5): all vetted wallets left 76ers
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-15.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-19.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): Spread: 76ers (-27.5): all vetted wallets left Bulls
+- Sun Nov 8, 7:10 PM (hourly): 76ers vs. Bulls: O/U 223.5: all vetted wallets left Over
+- Sun Nov 8, 5:14 PM (hourly): Spread: 76ers (-5.5): first seen: 1 vetted on Bulls ($124), fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Spread: 76ers (-4.5): first seen: 1 vetted on Bulls ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): 76ers vs. Bulls: O/U 223.5: Kalshi 80¢ → 79¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-3.5): first seen: 1 vetted on Bulls ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): 76ers vs. Bulls: O/U 243.5: Kalshi 39¢ → 38¢
+- Sun Nov 8, 4:18 PM (hourly): 76ers vs. Bulls: O/U 229.5: first seen: 1 vetted on Over ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-1.5): Kalshi 25¢ → 24¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-11.5): Kalshi 42¢ → 43¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-9.5): Kalshi 49¢ → 50¢
+- Sun Nov 8, 3:18 PM (hourly): 76ers vs. Bulls: O/U 231.5: first seen: 1 vetted on Over ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:18 PM (hourly): 76ers vs. Bulls: O/U 223.5: Kalshi 81¢ → 80¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: 76ers (-9.5): Kalshi 48¢ → 49¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: 76ers (-1.5): first seen: 1 vetted on Bulls ($115), fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Spread: 76ers (-9.5): Kalshi 49¢ → 48¢
+- Sun Nov 8, 2:14 PM (hourly): 76ers vs. Bulls: first seen: 1 vetted on Bulls ($225), fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: 76ers (-11.5): first seen: 1 vetted on 76ers ($135), fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: 76ers (-9.5): first seen: 1 vetted on 76ers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-1.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | 76ers vs. Bulls → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-21.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-5.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-9.5) → 76ers | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-3.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-25.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-4.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-11.5) → 76ers | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-15.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-19.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: 76ers (-27.5) → Bulls | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-4.5) → Bulls | Flaznorp $26 | $0 | 33¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $27 | $0 | 30¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-5.5) → Bulls | Flaznorp $124 | $0 | 36¢ NO | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-15.5) → Bulls | Flaznorp $139 | $0 | — | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 15.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-25.5) → Bulls | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $156 | $0 | 24¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-21.5) → Bulls | Flaznorp $190 | $0 | — | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $245 | $0 | — | fails: only 1 vetted wallet with $245 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $561 | $0 | — | fails: only 1 vetted wallet with $561 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $159 | $0 | 79¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $592 | $0 | 50¢ YES | fails: only 1 vetted wallet with $592 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-4.5) → Bulls | Flaznorp $26 | $0 | 33¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $27 | $0 | 30¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-15.5) → Bulls | Flaznorp $139 | $0 | — | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 15.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-25.5) → Bulls | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $156 | $0 | 24¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-21.5) → Bulls | Flaznorp $190 | $0 | — | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $245 | $0 | — | fails: only 1 vetted wallet with $245 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $561 | $0 | — | fails: only 1 vetted wallet with $561 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $449 | $0 | 50¢ YES | fails: only 1 vetted wallet with $449 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $159 | $7 | 79¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $13 | $0 | 30¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 24¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-15.5) → Bulls | Flaznorp $139 | $0 | — | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 15.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-25.5) → Bulls | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $160 | $0 | 80¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $245 | $0 | — | fails: only 1 vetted wallet with $245 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $323 | $0 | — | fails: only 1 vetted wallet with $323 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $431 | $0 | 50¢ YES | fails: only 1 vetted wallet with $431 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 39¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 36c |
+| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 25¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-15.5) → Bulls | Flaznorp $139 | $0 | — | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 15.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-25.5) → Bulls | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $160 | $0 | 80¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $327 | $0 | — | fails: only 1 vetted wallet with $327 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $294 | $0 | 49¢ YES | fails: only 1 vetted wallet with $294 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 39¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 36c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 25¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-15.5) → Bulls | Flaznorp $141 | $0 | — | fails: only 1 vetted wallet with $141 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 15.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-25.5) → Bulls | Flaznorp $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $161 | $0 | 81¢ YES | fails: only 1 vetted wallet with $161 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $327 | $0 | — | fails: only 1 vetted wallet with $327 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $190 | $0 | 48¢ YES | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $225 | $0 | 22¢ YES | fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 40¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 36c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $246 | $0 | — | fails: only 1 vetted wallet with $246 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $294 | $0 | — | fails: only 1 vetted wallet with $294 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $23 | $0 | 49¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $246 | $0 | — | fails: only 1 vetted wallet with $246 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: 76ers (-19.5) → Bulls | Flaznorp $293 | $0 | — | fails: only 1 vetted wallet with $293 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: 76ers (-27.5) → Bulls | Flaznorp $246 | $0 | — | fails: only 1 vetted wallet with $246 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 27.5 spread line |
+
+### CA Central Córdoba vs. CA Lanús - More Markets · starts Sun Nov 8, 10:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 1:18 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 1.5: Kalshi matched at 31¢
+- Sun Nov 8, 1:18 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 3.5: Kalshi matched at 22¢
+- Sun Nov 8, 10:24 AM (hourly): CA Central Córdoba vs. CA Lanús: O/U 1.5: first seen: 1 vetted on Under ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): CA Central Córdoba vs. CA Lanús: O/U 3.5: first seen: 1 vetted on Over ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $133 | $0 | 31¢ NO | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $72 | $0 | 31¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $26 | $0 | 22¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $72 | $0 | 31¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba vs. CA Lanús: CA Central Córdoba O/U 3.5 → Under | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $20 | $0 | 22¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Sport Boys Association vs. CU Técnica de Cajamarca - More Markets · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Sport Boys Association (-1.5): all vetted wallets left Sport Boys Association
+- Sun Nov 8, 7:10 PM (hourly): Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 4:18 PM (hourly): Spread: Sport Boys Association (-1.5): Kalshi matched at 32¢
+- Sun Nov 8, 4:18 PM (hourly): Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5: first seen: 1 vetted on Over ($103), fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Sport Boys Association (-1.5): Kalshi matched at 32¢
+- Sun Nov 8, 10:24 AM (hourly): Spread: Sport Boys Association (-1.5): first seen: 1 vetted on Sport Boys Association ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $166 | $0 | 52¢ YES | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $103 | $0 | 52¢ YES | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $103 | $0 | 52¢ YES | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: CU Técnica de Cajamarca 1st Half O/U 0.5 → Under | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $99 | $0 | — | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $16 | $0 | 30¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 7.5 → Under | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; Kalshi has no 7.5 line |
+
+### Club Bolívar vs. Club The Strongest - More Markets · starts Sun Nov 8, 9:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Club Bolívar vs. Club The Strongest: Both Teams to Score: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Spread: Club Bolívar (-1.5): all vetted wallets left Club The Strongest
+- Sun Nov 8, 7:10 PM (hourly): Club Bolívar vs. Club The Strongest: O/U 6.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Club Bolívar (-3.5): all vetted wallets left Club Bolívar
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club Bolívar vs. Club The Strongest: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Club Bolívar (-3.5) → Club Bolívar | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Club Bolívar vs. Club The Strongest: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Club Bolívar (-3.5) → Club Bolívar | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:14 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $482 | $0 | — | fails: only 1 vetted wallet with $482 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:50 PM | hourly | Club Bolívar vs. Club The Strongest: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Club Bolívar (-3.5) → Club Bolívar | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:50 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $486 | $0 | — | fails: only 1 vetted wallet with $486 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:18 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 1:18 PM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Club Bolívar vs. Club The Strongest: Both Teams to Score → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Club Bolívar (-1.5) → Club The Strongest | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Racing Club de Lens vs. Olympique de Marseille - More Markets · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 7.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens vs. Olympique de Marseille: O/U 4.5: all vetted wallets left Under
+- Sun Nov 8, 5:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 58¢ → 59¢
+- Sun Nov 8, 4:50 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 59¢ → 58¢
+- Sun Nov 8, 3:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 58¢ → 59¢
+- Sun Nov 8, 2:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 1.5: Kalshi 81¢ → 82¢
+- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 0.5: Kalshi matched at 6¢
+- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 1.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi matched at 58¢
+- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: majority flipped to Over ($871 vs $0)
+- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: Kalshi matched at 36¢
+- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 0.5: first seen: 1 vetted on Under ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5: back: 1 vetted on Under ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: back: 1 vetted on Over ($1.8k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score: all vetted wallets left Yes
+- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 8:16 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: first seen: 1 vetted on Over ($291), fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 82¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $857 | $0 | 59¢ YES | fails: only 1 vetted wallet with $857 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 82¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $857 | $0 | 58¢ YES | fails: only 1 vetted wallet with $857 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 59¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 59¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 58¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 82¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 81¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 58¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Under | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.7k | $0 | — | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 5¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 0.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 4.5 → Under | Flaznorp $21 | $0 | 83¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens O/U 1.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Under | Flaznorp $50 | $0 | 43¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 36c |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 7.5 → Under | Flaznorp $132 | $0 | — | fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.8k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score → Yes | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $291 | $0 | 43¢ YES | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CR Vasco da Gama vs. SE Palmeiras - More Markets · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: O/U 7.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Spread: CR Vasco da Gama (-1.5): all vetted wallets left CR Vasco da Gama
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): Spread: CR Vasco da Gama (-1.5): Kalshi matched at 15¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: CR Vasco da Gama (-1.5): first seen: 1 vetted on CR Vasco da Gama ($87), fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: Kalshi matched at 45¢
+- Sun Nov 8, 1:18 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: Kalshi matched at 24¢
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score: back: 1 vetted on Yes ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5: back: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5: back: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 7.5: back: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: back: 1 vetted on Over ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: back: 1 vetted on Over ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5: back: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score: all vetted wallets left Yes
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 7.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 8:16 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: first seen: 1 vetted on Over ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: first seen: 1 vetted on Over ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 1.5 → Over | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 44¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 46¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 25¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Piratas Veracruz vs. Cancun FC - More Markets · starts Mon Nov 9, 1:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 0.5: Kalshi matched at 6¢
+- Sun Nov 8, 4:50 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: Kalshi matched at 17¢
+- Sun Nov 8, 1:18 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: Kalshi matched at 19¢
+- Sun Nov 8, 10:24 AM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: first seen: 1 vetted on Over ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 17¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 17¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 4:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 3:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi totals market |
+| Sun Nov 8, 3:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 2:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
+| Sun Nov 8, 2:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
+| Sun Nov 8, 1:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### CD Unión La Calera vs. CD Huachipato - More Markets · starts Sun Nov 8, 8:30 PM
 
+- Sun Nov 8, 7:10 PM (hourly): Spread: CD Unión La Calera (-1.5): all vetted wallets left CD Huachipato
 - Sun Nov 8, 5:14 PM (hourly): CD Unión La Calera vs. CD Huachipato: 1st Half O/U 3.5: all vetted wallets left Under
 - Sun Nov 8, 4:50 PM (hourly): CD Unión La Calera vs. CD Huachipato: O/U 2.5: all vetted wallets left Over
 - Sun Nov 8, 4:50 PM (hourly): CD Unión La Calera vs. CD Huachipato: CD Huachipato O/U 0.5: all vetted wallets left Over
@@ -234,6 +1015,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: CD Unión La Calera (-1.5) → CD Huachipato | none | $0 | — | fails: no vetted wallets hold it now |
 | Sun Nov 8, 5:14 PM | hourly | CD Unión La Calera vs. CD Huachipato: 1st Half O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Sun Nov 8, 5:14 PM | hourly | Spread: CD Unión La Calera (-1.5) → CD Huachipato | Flaznorp $33 | $0 | 78¢ NO | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:50 PM | hourly | CD Unión La Calera vs. CD Huachipato: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
@@ -258,8 +1040,1605 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 10:24 AM | hourly | CD Unión La Calera vs. CD Huachipato: 1st Half O/U 3.5 → Under | Flaznorp $98 | $0 | — | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
 | Sun Nov 8, 10:24 AM | hourly | CD Unión La Calera vs. CD Huachipato: O/U 2.5 → Over | Flaznorp $203 | $0 | 53¢ YES | fails: only 1 vetted wallet with $203 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 49c |
 
+### Club Atlético de Madrid vs. FC Barcelona - More Markets · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): 1st Half Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
+- Sun Nov 8, 7:10 PM (pregame): Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
+- Sun Nov 8, 7:10 PM (pregame): Spread: FC Barcelona (-2.5): all vetted wallets left Club Atlético de Madrid
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Spread: Club Atlético de Madrid (-3.5): all vetted wallets left Club Atlético de Madrid
+- Sun Nov 8, 7:10 PM (pregame): Spread: FC Barcelona (-3.5): all vetted wallets left FC Barcelona
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: O/U 2.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Spread: Club Atlético de Madrid (-2.5): all vetted wallets left Club Atlético de Madrid
+- Sun Nov 8, 7:10 PM (pregame): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): Spread: Club Atlético de Madrid (-1.5): all vetted wallets left FC Barcelona
+- Sun Nov 8, 4:50 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 69¢ → 68¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi 71¢ → 70¢
+- Sun Nov 8, 4:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 68¢ → 69¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi 72¢ → 71¢
+- Sun Nov 8, 3:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 2.5: first seen: 1 vetted on Under ($102), fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 69¢ → 68¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: Club Atlético de Madrid (-1.5): Kalshi 86¢ → 87¢
+- Sun Nov 8, 1:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi matched at 69¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi matched at 72¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Club Atlético de Madrid (-1.5): Kalshi matched at 86¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Club Atlético de Madrid (-2.5): Kalshi matched at 6¢
+- Sun Nov 8, 1:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: Kalshi matched at 51¢
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5: back: 1 vetted on Over ($3), fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 0.5: back: 1 vetted on Under ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢
+- Sun Nov 8, 10:24 AM (hourly): 1st Half Spread: FC Barcelona (-1.5): back: 1 vetted on Club Atlético de Madrid ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: back: 1 vetted on Under ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: back: 1 vetted on Under ($287), fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: FC Barcelona (-1.5): back: 1 vetted on Club Atlético de Madrid ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Club Atlético de Madrid (-1.5): back: 1 vetted on FC Barcelona ($2.3k), fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: FC Barcelona (-3.5): back: 1 vetted on FC Barcelona ($92), fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line
+- Sun Nov 8, 10:24 AM (hourly): Spread: Club Atlético de Madrid (-2.5): back: 1 vetted on Club Atlético de Madrid ($409), fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5: back: 1 vetted on Under ($959), fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score: back: 1 vetted on No ($2.2k), fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sat Nov 7, 11:14 PM (hourly): 1st Half Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
+- Sat Nov 7, 11:14 PM (hourly): Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 0.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: FC Barcelona (-3.5): all vetted wallets left FC Barcelona
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Club Atlético de Madrid (-2.5): all vetted wallets left Club Atlético de Madrid
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Club Atlético de Madrid (-1.5): all vetted wallets left FC Barcelona
+- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 1.5: first seen: 1 vetted on Under ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Spread: FC Barcelona (-1.5): first seen: 1 vetted on Club Atlético de Madrid ($179), fails: only 1 vetted wallet with $179 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: first seen: 1 vetted on Under ($192), fails: only 1 vetted wallet with $192 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: first seen: 1 vetted on Under ($248), fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Spread: Club Atlético de Madrid (-1.5): first seen: 1 vetted on FC Barcelona ($2.4k), fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: FC Barcelona (-3.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $78 | $0 | 3¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $157 | $0 | 28¢ NO | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 70¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.6k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $338 | $0 | 5¢ YES | fails: only 1 vetted wallet with $338 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.5k | $0 | — | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $884 | $0 | — | fails: only 1 vetted wallet with $884 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $80 | $0 | 3¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $156 | $0 | 28¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 70¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.6k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $338 | $0 | 6¢ YES | fails: only 1 vetted wallet with $338 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $909 | $0 | — | fails: only 1 vetted wallet with $909 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $78 | $0 | 3¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $130 | $0 | 28¢ NO | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 69¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 71¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 87¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.6k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $374 | $0 | 6¢ YES | fails: only 1 vetted wallet with $374 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $909 | $0 | — | fails: only 1 vetted wallet with $909 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $102 | $0 | 28¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $80 | $0 | 3¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.0k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 87¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $395 | $0 | 6¢ YES | fails: only 1 vetted wallet with $395 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $83 | $0 | 3¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.0k | $0 | 69¢ NO | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $402 | $0 | 6¢ YES | fails: only 1 vetted wallet with $402 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | 3¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢ |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $763 | $0 | 69¢ NO | fails: only 1 vetted wallet with $763 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $395 | $0 | 6¢ YES | fails: only 1 vetted wallet with $395 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | — | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $409 | $0 | — | fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $405 | $0 | — | fails: only 1 vetted wallet with $405 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $959 | $0 | — | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | — | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: 1st Half O/U 1.5 → Over | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 3.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | 3¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢ |
+| Sun Nov 8, 10:24 AM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | Flaznorp $264 | $0 | 50¢ NO | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $287 | $0 | 68¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.3k | $0 | 73¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Club Atlético de Madrid (-3.5) → Club Atlético de Madrid | Flaznorp $1.7k | $0 | — | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; Kalshi has no 3.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.3k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: FC Barcelona (-2.5) → Club Atlético de Madrid | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 82c |
+| Sun Nov 8, 10:24 AM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $409 | $0 | 6¢ YES | fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $959 | $0 | — | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 11:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | SnakeBall $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $74 | $0 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $208 | $0 | — | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | SnakeBall $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $208 | $0 | — | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Over | Flaznorp $20 | $0 | 99¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 1.5 → Under | Flaznorp $21 | $0 | 11¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $92 | $0 | 5¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
+| Sat Nov 7, 8:16 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $179 | $0 | 67¢ NO | fails: only 1 vetted wallet with $179 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $192 | $0 | 68¢ NO | fails: only 1 vetted wallet with $192 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | Flaznorp $248 | $0 | 48¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 89¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $125, SnakeBall $63 | $0 | — | fails: only 2 vetted wallets with $188 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $74 | $0 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $212 | $0 | — | fails: only 1 vetted wallet with $212 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CD Unión La Calera vs. CD Huachipato - Exact Score · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CD Unión La Calera 0 - 2 CD Huachipato?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: CD Unión La Calera 0 - 2 CD Huachipato? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+
+### ACF Fiorentina vs. Juventus FC · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Will Juventus FC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Will ACF Fiorentina vs. Juventus FC end in a draw?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Will ACF Fiorentina win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 2:14 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 28¢ → 29¢
+- Sun Nov 8, 2:14 PM (hourly): Will Juventus FC win on 2026-11-08?: Kalshi 57¢ → 56¢
+- Sun Nov 8, 1:18 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 29¢ → 28¢
+- Sun Nov 8, 1:18 PM (hourly): Will Juventus FC win on 2026-11-08?: Kalshi 56¢ → 57¢
+- Sun Nov 8, 11:14 AM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 28¢ → 29¢
+- Sun Nov 8, 10:24 AM (hourly): Will ACF Fiorentina win on 2026-11-08?: back: 1 vetted on Yes ($38), fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: back: 1 vetted on Yes ($138), fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c
+- Sun Nov 8, 10:24 AM (hourly): Will Juventus FC win on 2026-11-08?: back: 1 vetted on No ($816), fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Will Juventus FC win on 2026-11-08?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: all vetted wallets left Yes
+- Sat Nov 7, 11:14 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: all vetted wallets left Yes
+- Sat Nov 7, 8:16 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: first seen: 1 vetted on Yes ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: first seen: 1 vetted on Yes ($138), fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Will Juventus FC win on 2026-11-08?: first seen: 1 vetted on No ($802), fails: only 1 vetted wallet with $802 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Will Juventus FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Will ACF Fiorentina win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $36 | $0 | 29¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
+| Sun Nov 8, 5:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
+| Sun Nov 8, 4:50 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
+| Sun Nov 8, 4:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 28¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
+| Sun Nov 8, 3:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 28¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
+| Sun Nov 8, 2:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 28¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
+| Sun Nov 8, 1:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 57¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 53c |
+| Sun Nov 8, 11:14 AM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
+| Sun Nov 8, 11:14 AM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 56¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 28¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
+| Sun Nov 8, 10:24 AM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 56¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $36 | $0 | 28¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 27¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $802 | $0 | 55¢ NO | fails: only 1 vetted wallet with $802 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Real Murcia CF vs. CF Algeciras · starts Sun Nov 8, 7:30 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Will Real Murcia CF win on 2026-11-08?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Will Real Murcia CF win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Will Real Murcia CF win on 2026-11-08? → No | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Pelicans vs. Clippers · starts Mon Nov 9, 2:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 239.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 241.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 223.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 233.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 229.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 227.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 243.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Pelicans vs. Clippers: O/U 230.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Clippers (-14.5): all vetted wallets left Pelicans
+- Sun Nov 8, 4:18 PM (hourly): Pelicans vs. Clippers: O/U 233.5: Kalshi 65¢ → 66¢
+- Sun Nov 8, 4:18 PM (hourly): Pelicans vs. Clippers: O/U 243.5: Kalshi 82¢ → 83¢
+- Sun Nov 8, 3:18 PM (hourly): Pelicans vs. Clippers: O/U 243.5: Kalshi 83¢ → 82¢
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 233.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 223.5: Kalshi 61¢ → 59¢
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 239.5: first seen: 1 vetted on Under ($204), fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 241.5: first seen: 1 vetted on Under ($315), fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 243.5: first seen: 1 vetted on Under ($437), fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 227.5: first seen: 1 vetted on Over ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 229.5: Kalshi 47¢ → 44¢
+- Sun Nov 8, 1:18 PM (hourly): Pelicans vs. Clippers: O/U 229.5: first seen: 1 vetted on Over ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Pelicans vs. Clippers: O/U 223.5: Kalshi matched at 61¢
+- Sun Nov 8, 10:24 AM (hourly): Pelicans vs. Clippers: O/U 223.5: first seen: 1 vetted on Over ($87), fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Clippers (-14.5) → Pelicans | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $18 | $0 | 66¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 88c vs leaders 85c |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $255 | $0 | 75¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $317 | $0 | 78¢ NO | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $439 | $0 | 83¢ NO | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $82 | $0 | 59¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | Flaznorp $75 | $0 | — | fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 230.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $18 | $0 | 66¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 88c vs leaders 85c |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $255 | $0 | 75¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $317 | $0 | 78¢ NO | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $439 | $0 | 83¢ NO | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $82 | $0 | 59¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | Flaznorp $75 | $0 | — | fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 230.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 66¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 88¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 88c vs leaders 85c |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $254 | $0 | 75¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 83¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 230.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 65¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 89¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 85c |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $201 | $0 | 75¢ NO | fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 82¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 230.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 65¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 89¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 85c |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $204 | $0 | 75¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 83¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $89 | $0 | 48¢ YES | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 230.5 → Over | Flaznorp $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 230.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 89¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 85c |
+| Sun Nov 8, 1:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $82 | $0 | 47¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | 61¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Clippers (-14.5) → Pelicans | Flaznorp $35 | $0 | 89¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 85c |
+| Sun Nov 8, 10:24 AM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | 61¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CS Herediano vs. Inter San Carlos - More Markets · starts Mon Nov 9, 12:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): CS Herediano vs. Inter San Carlos: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: CS Herediano (-2.5): all vetted wallets left CS Herediano
+- Sun Nov 8, 7:10 PM (hourly): CS Herediano vs. Inter San Carlos: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): CS Herediano vs. Inter San Carlos: O/U 2.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: CS Herediano (-2.5) → CS Herediano | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | Spread: CS Herediano (-2.5) → CS Herediano | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Spread: CS Herediano (-2.5) → CS Herediano | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $517 | $0 | — | fails: only 1 vetted wallet with $517 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | CS Herediano vs. Inter San Carlos: Inter San Carlos O/U 0.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 3.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Celtics vs. Bucks · starts Mon Nov 9, 1:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-5.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 232.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 234.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 210.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 220.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 212.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-18.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 206.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 221.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-9.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-28.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 236.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 222.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-36.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Bucks (-1.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-26.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 230.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-30.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-24.5): all vetted wallets left Bucks
+- Sun Nov 8, 7:10 PM (hourly): Celtics vs. Bucks: O/U 238.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Celtics (-11.5): all vetted wallets left Bucks
+- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-9.5): Kalshi 38¢ → 39¢
+- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-11.5): Kalshi 46¢ → 45¢
+- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-24.5): Kalshi 80¢ → 81¢
+- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 75¢ → 76¢
+- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: Kalshi 14¢ → 15¢
+- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: O/U 222.5: Kalshi 49¢ → 48¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Bucks (-7.5): all vetted wallets left Celtics
+- Sun Nov 8, 4:50 PM (hourly): Spread: Celtics (-9.5): Kalshi 39¢ → 38¢
+- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 230.5: Kalshi 69¢ → 70¢
+- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 206.5: Kalshi 84¢ → 83¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Celtics (-24.5): first seen: 1 vetted on Bucks ($162), fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 77¢ → 75¢
+- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 220.5: Kalshi 45¢ → 47¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Bucks (-1.5): first seen: 1 vetted on Bucks ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 76¢ → 77¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: Celtics (-26.5): first seen: 1 vetted on Bucks ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 230.5: Kalshi 73¢ → 69¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 210.5: first seen: 1 vetted on Over ($200), fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 236.5: Kalshi 84¢ → 80¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 238.5: Kalshi 86¢ → 84¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 234.5: Kalshi 80¢ → 77¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 232.5: Kalshi 76¢ → 73¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 220.5: Kalshi 52¢ → 45¢
+- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 222.5: Kalshi 44¢ → 49¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Celtics (-11.5): Kalshi 45¢ → 46¢
+- Sun Nov 8, 2:14 PM (hourly): Celtics vs. Bucks: O/U 222.5: first seen: 1 vetted on Over ($267), fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-9.5): Kalshi matched at 39¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-11.5): Kalshi matched at 45¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-28.5): Kalshi matched at 88¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-30.5): first seen: 1 vetted on Bucks ($530), fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Celtics (-9.5): first seen: 1 vetted on Bucks ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Celtics (-11.5): first seen: 1 vetted on Bucks ($129), fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Celtics vs. Bucks: first seen: 1 vetted on Bucks ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-5.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 212.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-18.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-9.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-28.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-36.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Bucks (-1.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-26.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-30.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-24.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Celtics (-11.5) → Bucks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-5.5) → Bucks | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 5.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $23 | $0 | 14¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 14c vs leaders 11c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $92 | $0 | 68¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 68c vs leaders 65c |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $96 | $0 | 97¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 70¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 212.5 → Over | Flaznorp $147 | $0 | 72¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 83¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-24.5) → Bucks | Flaznorp $162 | $0 | 81¢ NO | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $198 | $0 | 76¢ YES | fails: only 1 vetted wallet with $198 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $257 | $0 | 77¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $314 | $0 | 80¢ NO | fails: only 1 vetted wallet with $314 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $298 | $0 | 15¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $291 | $0 | 47¢ NO | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $390 | $0 | 48¢ YES | fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Bucks (-7.5) → Celtics | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-5.5) → Bucks | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 5.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 38¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $22 | $0 | 14¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $92 | $0 | 68¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 68c vs leaders 65c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $96 | $0 | 97¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 70¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 212.5 → Over | Flaznorp $145 | $0 | 72¢ YES | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 83¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-24.5) → Bucks | Flaznorp $162 | $0 | 80¢ NO | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $199 | $0 | 75¢ YES | fails: only 1 vetted wallet with $199 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $257 | $0 | 77¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $314 | $0 | 80¢ NO | fails: only 1 vetted wallet with $314 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $291 | $0 | 47¢ NO | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $390 | $0 | 49¢ YES | fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
+| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | Flaznorp $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-5.5) → Bucks | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 5.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $22 | $0 | 14¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $92 | $0 | 68¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 68c vs leaders 65c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $96 | $0 | 97¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 69¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 212.5 → Over | Flaznorp $147 | $0 | 72¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 84¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 81c |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $200 | $0 | 77¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 77c vs leaders 74c |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $202 | $0 | 80¢ NO | fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $255 | $0 | 77¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $221 | $0 | 45¢ NO | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $398 | $0 | 49¢ YES | fails: only 1 vetted wallet with $398 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
+| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-5.5) → Bucks | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 5.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $92 | $0 | 68¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 68c vs leaders 65c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $96 | $0 | 97¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 69¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 212.5 → Over | Flaznorp $147 | $0 | 72¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 84¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 81c |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $200 | $0 | 76¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $204 | $0 | 80¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $255 | $0 | 77¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Bucks (-7.5) → Celtics | Flaznorp $321 | $0 | 97¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 93c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.6k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $195 | $0 | 45¢ NO | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $398 | $0 | 49¢ YES | fails: only 1 vetted wallet with $398 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
+| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | Flaznorp $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-5.5) → Bucks | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 5.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $92 | $0 | 68¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 68c vs leaders 65c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $96 | $0 | 97¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $107 | $0 | 73¢ NO | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 69c |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $126 | $0 | 52¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 47c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $210 | $0 | 84¢ NO | fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 80c |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $221 | $0 | 86¢ NO | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $249 | $0 | 80¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 76c |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $494 | $0 | 88¢ NO | fails: only 1 vetted wallet with $494 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $622 | $0 | 76¢ NO | fails: only 1 vetted wallet with $622 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $829 | $0 | 91¢ NO | fails: only 1 vetted wallet with $829 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $267 | $0 | 44¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 221.5 → Over | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-18.5) → Bucks | Flaznorp $93 | $0 | 69¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 65c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-36.5) → Bucks | Flaznorp $95 | $0 | 97¢ NO | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢ |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $494 | $0 | 88¢ NO | fails: only 1 vetted wallet with $494 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $530 | $0 | 91¢ NO | fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | — | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $255 | $0 | — | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Piratas Veracruz vs. Cancun FC · starts Mon Nov 9, 1:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 5:14 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi 63¢ → 64¢
+- Sun Nov 8, 4:50 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi 64¢ → 63¢
+- Sun Nov 8, 1:18 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi matched at 64¢
+- Sun Nov 8, 10:24 AM (hourly): Will Piratas Veracruz win on 2026-11-08?: first seen: 1 vetted on Yes ($154), fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 64¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 63¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 64¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | — | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nagasaki Velca vs. Sendai 89ers · starts Mon Nov 9, 10:05 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Nagasaki Velca vs. Sendai 89ers: all vetted wallets left Sendai 89ers
+- Sun Nov 8, 4:50 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 69¢ → 72¢
+- Sun Nov 8, 4:18 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 70¢ → 69¢
+- Sun Nov 8, 3:18 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 72¢ → 70¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $240 | $0 | 72¢ YES | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 4:50 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $239 | $0 | 72¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+| Sun Nov 8, 4:18 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $227 | $0 | 69¢ YES | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $227 | $0 | 70¢ YES | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $240 | $0 | 72¢ YES | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
+
+### Club Blooming vs. CD Oriente Petrolero - More Markets · starts Sun Nov 8, 11:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Club Blooming vs. CD Oriente Petrolero: O/U 6.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club Blooming vs. CD Oriente Petrolero: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Club Blooming vs. CD Oriente Petrolero: O/U 6.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 5:14 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Blooming vs. CD Oriente Petrolero: O/U 6.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 4:50 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Club Blooming vs. CD Oriente Petrolero: CD Oriente Petrolero O/U 1.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club Blooming vs. CD Oriente Petrolero: Club Blooming O/U 1.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### ACF Fiorentina vs. Juventus FC - More Markets · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Spread: Juventus FC (-1.5): all vetted wallets left ACF Fiorentina
+- Sun Nov 8, 7:10 PM (pregame): ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (pregame): ACF Fiorentina vs. Juventus FC: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 5:14 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Kalshi 52¢ → 51¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Juventus FC (-1.5): Kalshi 79¢ → 80¢
+- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 1:18 PM (hourly): Spread: Juventus FC (-1.5): Kalshi matched at 79¢
+- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Kalshi matched at 52¢
+- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Flaznorp added $1.9k on Over
+- Sun Nov 8, 10:24 AM (hourly): ACF Fiorentina vs. Juventus FC: O/U 4.5: first seen: 1 vetted on Over ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Juventus FC (-1.5): first seen: 1 vetted on ACF Fiorentina ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: first seen: 1 vetted on Over ($52), fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): ACF Fiorentina vs. Juventus FC: Both Teams to Score: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Spread: Juventus FC (-1.5) → ACF Fiorentina | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | Flaznorp $158 | $0 | — | fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
+| Sun Nov 8, 4:50 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | Flaznorp $158 | $0 | — | fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
+| Sun Nov 8, 4:18 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
+| Sun Nov 8, 4:18 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 0.5 → Under | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | ACF Fiorentina vs. Juventus FC: 1st Half O/U 1.5 → Under | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 4.5 → Over | Flaznorp $12 | $0 | 15¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $43 | $0 | 79¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $52 | $0 | 52¢ YES | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | ACF Fiorentina vs. Juventus FC: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | ACF Fiorentina vs. Juventus FC: Both Teams to Score → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CF Estrela da Amadora vs. Sport Lisboa e Benfica - More Markets · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 6.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Sport Lisboa e Benfica (-2.5): all vetted wallets left Sport Lisboa e Benfica
+- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: Kalshi 15¢ → 16¢
+- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: Kalshi 29¢ → 30¢
+- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi 51¢ → 52¢
+- Sun Nov 8, 4:50 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi 52¢ → 51¢
+- Sun Nov 8, 4:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5: first seen: 1 vetted on Under ($59), fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: Kalshi matched at 15¢
+- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: Kalshi matched at 29¢
+- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi matched at 52¢
+- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: first seen: 1 vetted on Over ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: first seen: 1 vetted on Over ($107), fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: first seen: 1 vetted on Under ($258), fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 6.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | 38¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $58 | $0 | 29¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 16¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 30¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $306 | $0 | 52¢ NO | fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 6.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | 38¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $58 | $0 | 29¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $256 | $0 | 51¢ NO | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $59 | $0 | 29¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | 38¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $72 | $0 | 15¢ YES | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | 38¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $72 | $0 | 15¢ YES | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $256 | $0 | — | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Sport Lisboa e Benfica (-2.5) → Sport Lisboa e Benfica | Flaznorp $20 | $0 | 38¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 1.5 → Under | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora 1st Half O/U 0.5 → Over | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: Sport Lisboa e Benfica O/U 3.5 → Over | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $35 | $0 | 15¢ YES | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nets vs. Mavericks · starts Mon Nov 9, 12:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-33.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 203.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-17.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 207.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 211.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 221.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-11.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-23.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-37.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 237.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-21.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-10.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-9.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-25.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-39.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-8.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-29.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-19.5): all vetted wallets left Nets
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-8.5): first seen: 1 vetted on Mavericks ($168), fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-10.5): Kalshi 41¢ → 40¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-11.5): Kalshi 38¢ → 37¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-9.5): Kalshi 44¢ → 43¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-11.5): Kalshi 37¢ → 38¢
+- Sun Nov 8, 3:18 PM (hourly): Nets vs. Mavericks: Kalshi 27¢ → 26¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-10.5): Kalshi 42¢ → 41¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-11.5): Kalshi 40¢ → 37¢
+- Sun Nov 8, 2:14 PM (hourly): Nets vs. Mavericks: Kalshi 25¢ → 27¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-9.5): first seen: 1 vetted on Mavericks ($153), fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-10.5): first seen: 1 vetted on Mavericks ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-11.5): first seen: 1 vetted on Mavericks ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: Kalshi 78¢ → 25¢
+- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: majority flipped to Nets ($78 vs $0)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-33.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-17.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-23.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-37.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-21.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-25.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-39.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-29.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-19.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $146 | $0 | 43¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $303 | $0 | 40¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $85 | $0 | 26¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $148 | $0 | 43¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 40¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 43¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 38¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $84 | $0 | — | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $210 | $0 | — | fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $98 | $0 | — | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 27¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 27c vs leaders 23c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 39.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $310 | $0 | — | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $153 | $0 | 44¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $167 | $0 | 42¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $264 | $0 | 40¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $78 | $0 | 25¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $18 | $0 | 78¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $17 | $0 | 78¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
+
+### Goiás EC vs. AA Ponte Preta - Exact Score · starts Sun Nov 8, 10:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Goiás EC 2 - 2 AA Ponte Preta?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Goiás EC 2 - 2 AA Ponte Preta? → No | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+
+### Washington Spirit vs. Portland Thorns FC - More Markets · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Washington Spirit vs. Portland Thorns FC: O/U 0.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (pregame): Washington Spirit vs. Portland Thorns FC: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 5:14 PM (hourly): Washington Spirit vs. Portland Thorns FC: O/U 3.5: first seen: 1 vetted on Over ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Washington Spirit vs. Portland Thorns FC: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Washington Spirit vs. Portland Thorns FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Washington Spirit vs. Portland Thorns FC: O/U 3.5 → Over | Flaznorp $47 | $0 | 35¢ YES | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Washington Spirit vs. Portland Thorns FC: O/U 0.5 → Over | Flaznorp $148 | $0 | 95¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+
+### Club Atlético de Madrid vs. FC Barcelona · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Will Club Atlético de Madrid win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Will FC Barcelona win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: all vetted wallets left No
+- Sun Nov 8, 5:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: now fails: only 1 vetted wallet with $41.6k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 5:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: RN1 left
+- Sun Nov 8, 4:50 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 72¢ → 73¢
+- Sun Nov 8, 4:50 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 50¢ → 49¢
+- Sun Nov 8, 4:18 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 71¢ → 72¢
+- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: now passes
+- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 51¢ → 50¢
+- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: RN1 joined No (+$5.0k)
+- Sun Nov 8, 3:18 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Flaznorp added $6.2k on No
+- Sun Nov 8, 2:14 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 70¢ → 71¢
+- Sun Nov 8, 10:24 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: back: 1 vetted on No ($739), fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: first seen: 1 vetted on No ($14.2k), fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will FC Barcelona win on 2026-11-08?: back: 1 vetted on No ($37.1k), fails: only 1 vetted wallet with $37.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c
+- Sun Nov 8, 3:12 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: all vetted wallets left No
+- Sun Nov 8, 2:10 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: back: 1 vetted on No ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: all vetted wallets left No
+- Sat Nov 7, 10:17 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 46¢ → 47¢
+- Sat Nov 7, 8:16 PM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: first seen: 1 vetted on No ($739), fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 8:16 PM (hourly): Will FC Barcelona win on 2026-11-08?: first seen: 1 vetted on No ($187), fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Will Club Atlético de Madrid win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Will FC Barcelona win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $21.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $21.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
+| Sun Nov 8, 5:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $41.6k | $0 | 49¢ NO | fails: only 1 vetted wallet with $41.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $21.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $21.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
+| Sun Nov 8, 4:50 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $41.6k, RN1 $4.8k | $0 | 49¢ NO | passes |
+| Sun Nov 8, 4:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $20.7k | $0 | 72¢ NO | fails: only 1 vetted wallet with $20.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $42.4k, RN1 $5.0k | $0 | 50¢ NO | passes |
+| Sun Nov 8, 3:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $20.4k | $0 | 71¢ NO | fails: only 1 vetted wallet with $20.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 48c |
+| Sun Nov 8, 2:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 71¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 48c |
+| Sun Nov 8, 1:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.9k | $0 | 52¢ NO | fails: only 1 vetted wallet with $36.9k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Sun Nov 8, 11:14 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.4k | $0 | 52¢ NO | fails: only 1 vetted wallet with $36.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Sun Nov 8, 10:24 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $37.1k | $0 | 52¢ NO | fails: only 1 vetted wallet with $37.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
+| Sun Nov 8, 3:12 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 2:10 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $27 | $0 | 79¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $191 | $0 | 47¢ NO | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $191 | $0 | 46¢ NO | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $187 | $0 | 46¢ NO | fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Rio Ave FC vs. SC Braga - More Markets · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: SC Braga (-1.5): all vetted wallets left SC Braga
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: O/U 6.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Rio Ave FC vs. SC Braga: 1st Half O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 3:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 3.5: Kalshi 34¢ → 35¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: SC Braga (-1.5): Kalshi 40¢ → 39¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: SC Braga (-1.5): Kalshi matched at 40¢
+- Sun Nov 8, 1:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 3.5: first seen: 1 vetted on Over ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 4.5: Kalshi matched at 17¢
+- Sun Nov 8, 10:24 AM (hourly): Rio Ave FC vs. SC Braga: O/U 4.5: first seen: 1 vetted on Over ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: SC Braga (-1.5): first seen: 1 vetted on SC Braga ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: O/U 6.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Rio Ave FC vs. SC Braga: 1st Half O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 41¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 41c vs leaders 38c |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: 1st Half O/U 1.5 → Under | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 6.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 41¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 41c vs leaders 38c |
+| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
+| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 39¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 34¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 40¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 2.5 → Over | Flaznorp $13 | $0 | 57¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 34¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $10 | $0 | 16¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $11 | $0 | 39¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Rio Ave FC vs. SC Braga: Rio Ave FC O/U 1.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### ACF Fiorentina vs. Juventus FC - Exact Score · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: ACF Fiorentina 1 - 1 Juventus FC?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: ACF Fiorentina 1 - 0 Juventus FC?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: ACF Fiorentina 1 - 1 Juventus FC? → Yes | Flaznorp $123 | $0 | — | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: ACF Fiorentina 1 - 0 Juventus FC? → Yes | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Club Atlético de Madrid vs. FC Barcelona - Exact Score · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona?: all vetted wallets left No
+- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona?: back: 1 vetted on No ($170), fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona?: back: 1 vetted on No ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported
+- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona?: back: 1 vetted on No ($106), fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona?: all vetted wallets left No
+- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | SnakeBall $221 | $0 | — | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270 | $0 | — | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | SnakeBall $221 | $0 | — | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270 | $0 | — | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270, Flaznorp $169 | $0 | — | fails: only 2 vetted wallets with $438 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
+
+### Deportivo Saprissa vs. Puntarenas FC - More Markets · starts Sun Nov 8, 10:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Puntarenas FC (-2.5): all vetted wallets left Deportivo Saprissa
+- Sun Nov 8, 7:10 PM (hourly): Spread: Deportivo Saprissa (-2.5): all vetted wallets left Deportivo Saprissa
+- Sun Nov 8, 7:10 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 5:14 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 4:50 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: back: 1 vetted on Under ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
+- Sun Nov 8, 1:18 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Under | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Deportivo Saprissa (-2.5) → Deportivo Saprissa | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC O/U 0.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: O/U 4.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Puntarenas FC (-2.5) → Deportivo Saprissa | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### CD Universidad de Concepción vs. O'Higgins FC · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will O'Higgins FC win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (hourly): Will CD Universidad de Concepción vs. O'Higgins FC end in a draw?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (hourly): Will CD Universidad de Concepción win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 5:14 PM (hourly): Will O'Higgins FC win on 2026-11-08?: Kalshi 39¢ → 40¢
+- Sun Nov 8, 10:24 AM (hourly): Will CD Universidad de Concepción win on 2026-11-08?: first seen: 1 vetted on Yes ($140), fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will O'Higgins FC win on 2026-11-08?: first seen: 1 vetted on Yes ($298), fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will CD Universidad de Concepción vs. O'Higgins FC end in a draw?: first seen: 1 vetted on Yes ($351), fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 40¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $1.2k | $0 | 32¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $1.2k | $0 | 32¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $145 | $0 | 31¢ YES | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $145 | $0 | 31¢ YES | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Club Universitario de Deportes vs. CD Moquegua - Halftime Result · starts Mon Nov 9, 1:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes leading at halftime?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Racing Club de Lens vs. Olympique de Marseille - Halftime Result · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Racing Club de Lens leading at halftime?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Racing Club de Lens leading at halftime? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens leading at halftime? → Yes | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Idaho State Bengals vs. Air Force Falcons · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Spread: Air Force Falcons (-6.5): all vetted wallets left Air Force Falcons
+- Sun Nov 8, 3:18 PM (hourly): Spread: Air Force Falcons (-6.5): first seen: 1 vetted on Air Force Falcons ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Spread: Air Force Falcons (-6.5) → Air Force Falcons | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Goiás EC vs. AA Ponte Preta - Halftime Result · starts Sun Nov 8, 10:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Goiás EC leading at halftime?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Goiás EC leading at halftime? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Goiás EC leading at halftime? → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Goiás EC leading at halftime? → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Goiás EC leading at halftime? → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Goiás EC leading at halftime? → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Racing Club de Lens vs. Olympique de Marseille - Exact Score · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille?: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (pregame): Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | pregame | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $64 | $0 | — | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $569 | $0 | — | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $569 | $0 | — | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Racing Club de Lens 2 - 0 Olympique de Marseille? → Yes | Flaznorp $103 | $0 | — | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $314 | $0 | — | fails: only 1 vetted wallet with $314 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Racing Club de Lens 0 - 0 Olympique de Marseille? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Racing Club de Lens 0 - 1 Olympique de Marseille? → Yes | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Racing Club de Lens 1 - 0 Olympique de Marseille? → Yes | Flaznorp $277 | $0 | — | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Racing Club de Lens 1 - 1 Olympique de Marseille? → Yes | Flaznorp $545 | $0 | — | fails: only 1 vetted wallet with $545 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Cardinals vs. Seahawks · starts Sun Nov 8, 9:25 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Cardinals vs. Seahawks: all vetted wallets left Cardinals
+- Sun Nov 8, 10:24 AM (hourly): Cardinals vs. Seahawks: back: 1 vetted on Cardinals ($163), fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-7.5): all vetted wallets left Seahawks
+- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: O/U 42.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: all vetted wallets left Seahawks
+- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: O/U 40.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-8.5): all vetted wallets left Cardinals
+- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-13.5): all vetted wallets left Seahawks
+- Sat Nov 7, 10:17 PM (hourly): Spread: Seahawks (-13.5): first seen: 1 vetted on Seahawks ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:17 PM (hourly): Cardinals vs. Seahawks: O/U 42.5: first seen: 1 vetted on Over ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:17 PM (hourly): Spread: Seahawks (-7.5): first seen: 1 vetted on Seahawks ($261), fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:17 PM (hourly): Cardinals vs. Seahawks: first seen: 1 vetted on Seahawks ($634), fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Cardinals vs. Seahawks → Cardinals | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-7.5) → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks: O/U 42.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks: O/U 40.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-8.5) → Cardinals | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-13.5) → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks: O/U 40.5 → Under | SnakeBall $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 40.5 line |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-13.5) → Seahawks | SnakeBall $16 | $0 | 36¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-8.5) → Cardinals | SnakeBall $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 8.5 spread line |
+| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks: O/U 42.5 → Over | SnakeBall $90 | $0 | 40¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-7.5) → Seahawks | SnakeBall $261 | $0 | 53¢ YES | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks → Seahawks | SnakeBall $634 | $0 | 79¢ YES | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Club Universitario de Deportes vs. CD Moquegua - More Markets · starts Mon Nov 9, 1:30 AM
 
+- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: all vetted wallets left Over
 - Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5: all vetted wallets left Over
 - Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5: all vetted wallets left Under
 - Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 1.5: Kalshi 20¢ → 19¢
@@ -277,6 +2656,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
 | Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
 | Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | Flaznorp $77 | $0 | 19¢ NO | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -305,6 +2686,1326 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 3:18 PM | hourly | Spread: Club Universitario de Deportes (-1.5) → Club Universitario de Deportes | Flaznorp $874 | $0 | — | fails: only 1 vetted wallet with $874 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 3:18 PM | hourly | Spread: Club Universitario de Deportes (-2.5) → CD Moquegua | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
+### Cerro Porteno vs. Recoleta FC - More Markets · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 10:24 AM (hourly): Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5: back: 1 vetted on Over ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
+- Sat Nov 7, 11:14 PM (hourly): Cerro Porteno vs. Recoleta FC: O/U 4.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 11:14 PM | hourly | Cerro Porteno vs. Recoleta FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Cerro Porteno vs. Recoleta FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 7, 8:16 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### CD Garcilaso vs. CD Comerciantes Unidos - More Markets · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: CD Garcilaso (-1.5): all vetted wallets left CD Comerciantes Unidos
+- Sun Nov 8, 5:14 PM (hourly): CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5: all vetted wallets left Under
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $44 | $0 | 67¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 62c |
+| Sun Nov 8, 5:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $78 | $0 | 76¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
+| Sun Nov 8, 4:50 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $44 | $0 | 67¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 62c |
+| Sun Nov 8, 4:50 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 54¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 46c |
+| Sun Nov 8, 4:50 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $78 | $0 | 76¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
+| Sun Nov 8, 4:18 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $44 | $0 | 66¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
+| Sun Nov 8, 4:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 53¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 46c |
+| Sun Nov 8, 4:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $74 | $0 | 75¢ NO | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 75c vs leaders 70c |
+| Sun Nov 8, 3:18 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 53¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 46c |
+| Sun Nov 8, 3:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $74 | $0 | 75¢ NO | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 75c vs leaders 70c |
+| Sun Nov 8, 2:14 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $40 | $0 | 65¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 61c |
+| Sun Nov 8, 2:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
+| Sun Nov 8, 2:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $73 | $0 | 74¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 74c vs leaders 70c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $40 | $0 | 65¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 61c |
+| Sun Nov 8, 1:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
+| Sun Nov 8, 1:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $73 | $0 | 74¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 74c vs leaders 70c |
+| Sun Nov 8, 11:14 AM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: CD Garcilaso (-1.5) → CD Comerciantes Unidos | Flaznorp $40 | $0 | 65¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 61c |
+| Sun Nov 8, 10:24 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: Both Teams to Score → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
+| Sun Nov 8, 10:24 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 3.5 → Under | Flaznorp $72 | $0 | 74¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 74c vs leaders 70c |
+
+### KKS Lech Poznan vs. Zaglebie Lubin - Exact Score · starts Sun Nov 8, 7:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: KKS Lech Poznan 0 - 0 Zaglebie Lubin? → No | Flaznorp $4.8k | $0 | — | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
+
+### Club Universitario de Deportes vs. CD Moquegua - Exact Score · starts Mon Nov 9, 1:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua?: all vetted wallets left No
+- Sun Nov 8, 4:50 PM (hourly): Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | Flaznorp $369 | $0 | — | fails: only 1 vetted wallet with $369 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | Flaznorp $367 | $0 | — | fails: only 1 vetted wallet with $367 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $248 | $0 | — | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### KKS Lech Poznan vs. Zaglebie Lubin · starts Sun Nov 8, 7:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will KKS Lech Poznan win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw?: all vetted wallets left No
+- Sun Nov 8, 5:14 PM (hourly): Will KKS Lech Poznan win on 2026-11-08?: Kalshi 34¢ → 35¢
+- Sun Nov 8, 4:50 PM (hourly): Will KKS Lech Poznan win on 2026-11-08?: Kalshi 35¢ → 34¢
+- Sun Nov 8, 10:24 AM (hourly): Will KKS Lech Poznan win on 2026-11-08?: first seen: 1 vetted on No ($190), fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw?: first seen: 1 vetted on No ($558), fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 35¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 34¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 35¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### KKS Lech Poznan vs. Zaglebie Lubin - More Markets · starts Sun Nov 8, 7:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: KKS Lech Poznan (-1.5): all vetted wallets left Zaglebie Lubin
+- Sun Nov 8, 7:10 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score: all vetted wallets left No
+- Sun Nov 8, 5:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: Kalshi 39¢ → 38¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: KKS Lech Poznan (-1.5): Kalshi matched at 60¢
+- Sun Nov 8, 4:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi 61¢ → 62¢
+- Sun Nov 8, 2:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi 62¢ → 61¢
+- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5: Kalshi matched at 19¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: KKS Lech Poznan (-1.5): Kalshi matched at 60¢
+- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi matched at 62¢
+- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: Kalshi matched at 39¢
+- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5: first seen: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: KKS Lech Poznan (-1.5): back: 1 vetted on Zaglebie Lubin ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: back: 1 vetted on Over ($690), fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: back: 1 vetted on Over ($756), fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Spread: KKS Lech Poznan (-1.5): all vetted wallets left Zaglebie Lubin
+- Sat Nov 7, 11:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 38¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 61¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 61¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | — | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | — | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 61¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: Both Teams to Score → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 62¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 59c |
+| Sat Nov 7, 8:16 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $713 | $0 | 97¢ YES | fails: only 1 vetted wallet with $713 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 62c |
+| Sat Nov 7, 8:16 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $785 | $0 | 97¢ YES | fails: only 1 vetted wallet with $785 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 38c |
+
+### Barcelona SC vs. LDU Quito - More Markets · starts Sun Nov 8, 9:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Barcelona SC vs. LDU Quito: LDU Quito O/U 1.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Jaguares de Córdoba FC vs. CA Bucaramanga · starts Sun Nov 8, 9:05 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will Jaguares de Córdoba FC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:50 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 48¢ → 46¢
+- Sun Nov 8, 4:50 PM (hourly): Will Jaguares de Córdoba FC win on 2026-11-08?: Kalshi 76¢ → 79¢
+- Sun Nov 8, 4:18 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 49¢ → 48¢
+- Sun Nov 8, 3:18 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 50¢ → 49¢
+- Sun Nov 8, 10:24 AM (hourly): Will CA Bucaramanga win on 2026-11-08?: first seen: 1 vetted on No ($103), fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will Jaguares de Córdoba FC win on 2026-11-08?: first seen: 1 vetted on No ($419), fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $95 | $0 | 46¢ NO | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $436 | $0 | 79¢ NO | fails: only 1 vetted wallet with $436 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 79c vs leaders 73c |
+| Sun Nov 8, 4:50 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $96 | $0 | 46¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 79¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 79c vs leaders 73c |
+| Sun Nov 8, 4:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $99 | $0 | 48¢ NO | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 76¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $98 | $0 | 49¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 76¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $422 | $0 | 76¢ NO | fails: only 1 vetted wallet with $422 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Club León FC vs. CD Guadalajara - More Markets · starts Mon Nov 9, 2:10 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: CD Guadalajara (-2.5): all vetted wallets left CD Guadalajara
+- Sun Nov 8, 7:10 PM (hourly): Spread: CD Guadalajara (-1.5): all vetted wallets left CD Guadalajara
+- Sun Nov 8, 7:10 PM (hourly): Club León FC vs. CD Guadalajara: CD Guadalajara O/U 2.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Club León FC vs. CD Guadalajara: Both Teams to Score: all vetted wallets left No
+- Sun Nov 8, 4:50 PM (hourly): Spread: CD Guadalajara (-2.5): first seen: 1 vetted on CD Guadalajara ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Spread: CD Guadalajara (-1.5): first seen: 1 vetted on CD Guadalajara ($88), fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: CD Guadalajara (-2.5) → CD Guadalajara | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: CD Guadalajara (-1.5) → CD Guadalajara | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club León FC vs. CD Guadalajara: CD Guadalajara O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: CD Guadalajara (-2.5) → CD Guadalajara | Flaznorp $20 | $0 | 10¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: CD Guadalajara (-1.5) → CD Guadalajara | Flaznorp $91 | $0 | 25¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Club León FC vs. CD Guadalajara: CD Guadalajara O/U 2.5 → Under | Flaznorp $229 | $0 | — | fails: only 1 vetted wallet with $229 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Spread: CD Guadalajara (-2.5) → CD Guadalajara | Flaznorp $20 | $0 | 10¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: CD Guadalajara (-1.5) → CD Guadalajara | Flaznorp $88 | $0 | 25¢ YES | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CD Universidad de Concepción vs. O'Higgins FC - More Markets · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): CD Universidad de Concepción vs. O'Higgins FC: 1st Half O/U 0.5: all vetted wallets left Under
+- Sun Nov 8, 5:14 PM (hourly): CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5: first seen: 1 vetted on Over ($158), fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: 1st Half O/U 0.5 → Under | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5 → Over | Flaznorp $158 | $0 | 53¢ YES | fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: 1st Half O/U 0.5 → Under | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: 1st Half O/U 0.5 → Under | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CF Estrela da Amadora vs. Sport Lisboa e Benfica - Exact Score · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CF Estrela da Amadora 1 - 3 Sport Lisboa e Benfica?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CF Estrela da Amadora 1 - 3 Sport Lisboa e Benfica? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CF Estrela da Amadora 1 - 3 Sport Lisboa e Benfica? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CF Estrela da Amadora 1 - 3 Sport Lisboa e Benfica? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: CF Estrela da Amadora 0 - 3 Sport Lisboa e Benfica? → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: CF Estrela da Amadora 0 - 0 Sport Lisboa e Benfica? → No | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+
+### Rio Ave FC vs. SC Braga · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Rio Ave FC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 10:24 AM (hourly): Will Rio Ave FC win on 2026-11-08?: first seen: 1 vetted on No ($134), fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CF Estrela da Amadora vs. Sport Lisboa e Benfica · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will CF Estrela da Amadora win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:18 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: Kalshi 20¢ → 19¢
+- Sun Nov 8, 3:18 PM (hourly): Will CF Estrela da Amadora win on 2026-11-08?: Kalshi 93¢ → 94¢
+- Sun Nov 8, 10:24 AM (hourly): Will CF Estrela da Amadora win on 2026-11-08?: first seen: 1 vetted on No ($612), fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: back: 1 vetted on No ($1.8k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: all vetted wallets left No
+- Sat Nov 7, 9:14 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: first seen: 1 vetted on No ($131), fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $619 | $0 | 94¢ NO | fails: only 1 vetted wallet with $619 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 94¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $616 | $0 | 94¢ NO | fails: only 1 vetted wallet with $616 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 94¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | SnakeBall $131 | $0 | 20¢ NO | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | SnakeBall $131 | $0 | 20¢ NO | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### WTA Finals, Group A: Marta Kostyuk vs Linda Noskova · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: all vetted wallets left Marta Kostyuk
+- Sun Nov 8, 2:14 PM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: Kalshi 44¢ → 43¢
+- Sun Nov 8, 1:18 PM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: Kalshi matched at 44¢
+- Sun Nov 8, 10:24 AM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: first seen: 1 vetted on Marta Kostyuk ($332), fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $324 | $0 | 44¢ YES | fails: only 1 vetted wallet with $324 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $332 | $0 | 45¢ YES | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Club Universitario de Deportes vs. CD Moquegua · starts Mon Nov 9, 1:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CD Moquegua win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 5:14 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 12¢ → 8¢
+- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: all vetted wallets left Yes
+- Sun Nov 8, 4:50 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 13¢ → 12¢
+- Sun Nov 8, 4:18 PM (hourly): Will CD Moquegua win on 2026-11-08?: first seen: 1 vetted on Yes ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:18 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: first seen: 1 vetted on Yes ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $58 | $0 | 8¢ YES | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $79 | $0 | 12¢ YES | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $86 | $0 | 13¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | Flaznorp $14 | $0 | 16¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | Flaznorp $98 | $0 | 24¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 24c vs leaders 16c |
+
+### Jaguares de Córdoba FC vs. CA Bucaramanga - Exact Score · starts Sun Nov 8, 9:05 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Jaguares de Córdoba FC 2 - 0 CA Bucaramanga? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
+
+### Racing Club de Lens vs. Olympique de Marseille · starts Sun Nov 8, 7:45 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Will Racing Club de Lens win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 5:14 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: Flaznorp added $1.1k on No
+- Sun Nov 8, 10:24 AM (hourly): Will Racing Club de Lens win on 2026-11-08?: back: 1 vetted on No ($658), fails: only 1 vetted wallet with $658 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: all vetted wallets left No
+- Sat Nov 7, 8:16 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: first seen: 1 vetted on No ($614), fails: only 1 vetted wallet with $614 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Will Racing Club de Lens win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 58¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $658 | $0 | 58¢ NO | fails: only 1 vetted wallet with $658 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $614 | $0 | 58¢ NO | fails: only 1 vetted wallet with $614 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Club León FC vs. CD Guadalajara · starts Mon Nov 9, 2:10 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Club León FC vs. CD Guadalajara end in a draw?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will Club León FC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will CD Guadalajara win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 5:14 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 46¢ → 48¢
+- Sun Nov 8, 5:14 PM (hourly): Will Club León FC win on 2026-11-08?: Kalshi 72¢ → 73¢
+- Sun Nov 8, 4:50 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 55¢ → 46¢
+- Sun Nov 8, 4:50 PM (hourly): Will CD Guadalajara win on 2026-11-08?: majority flipped to Yes ($773 vs $0)
+- Sun Nov 8, 4:50 PM (hourly): Will Club León FC win on 2026-11-08?: first seen: 1 vetted on No ($1.6k), fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 56¢ → 55¢
+- Sun Nov 8, 3:18 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 55¢ → 56¢
+- Sun Nov 8, 2:14 PM (hourly): Will Club León FC vs. CD Guadalajara end in a draw?: first seen: 1 vetted on No ($79), fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will CD Guadalajara win on 2026-11-08?: first seen: 1 vetted on No ($147), fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will Club León FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Guadalajara win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Guadalajara win on 2026-11-08? → Yes | Flaznorp $789 | $0 | 48¢ YES | fails: only 1 vetted wallet with $789 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Will Club León FC win on 2026-11-08? → No | Flaznorp $1.6k | $0 | 73¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Guadalajara win on 2026-11-08? → Yes | Flaznorp $773 | $0 | 46¢ YES | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club León FC win on 2026-11-08? → No | Flaznorp $1.6k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 56¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Shimane Susanoo Magic vs. Toyama Grouses · starts Mon Nov 9, 10:05 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Shimane Susanoo Magic vs. Toyama Grouses: all vetted wallets left Shimane Susanoo Magic
+- Sun Nov 8, 4:50 PM (hourly): Shimane Susanoo Magic vs. Toyama Grouses: Kalshi 63¢ → 70¢
+- Sun Nov 8, 4:18 PM (hourly): Shimane Susanoo Magic vs. Toyama Grouses: first seen: 1 vetted on Shimane Susanoo Magic ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $43 | $0 | 70¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 61c |
+| Sun Nov 8, 4:50 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $43 | $0 | 70¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 61c |
+| Sun Nov 8, 4:18 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $36 | $0 | 63¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Ceará SC vs. América FC - More Markets · starts Sun Nov 8, 10:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Ceará SC vs. América FC: O/U 4.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Ceará SC vs. América FC: Ceará SC O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Ceará SC (-1.5): all vetted wallets left América FC
+- Sun Nov 8, 7:10 PM (hourly): Ceará SC vs. América FC: 1st Half O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Ceará SC vs. América FC: América FC O/U 1.5: all vetted wallets left Over
+- Sun Nov 8, 4:50 PM (hourly): Ceará SC vs. América FC: O/U 4.5: first seen: 1 vetted on Over ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Ceará SC (-1.5): Kalshi matched at 72¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Ceará SC (-1.5): Kalshi matched at 72¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Ceará SC vs. América FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Ceará SC (-1.5) → América FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Ceará SC vs. América FC: O/U 4.5 → Over | Flaznorp $6 | $0 | 12¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Ceará SC vs. América FC: O/U 4.5 → Over | Flaznorp $6 | $0 | 12¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | 72¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Ceará SC vs. América FC: Ceará SC O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | 72¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Ceará SC vs. América FC: América FC O/U 1.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Ceará SC vs. América FC: 1st Half O/U 1.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert · starts Mon Nov 9, 1:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert: all vetted wallets left Ugo Humbert
+- Sun Nov 8, 5:14 PM (hourly): BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert: first seen: 1 vetted on Ugo Humbert ($583), fails: only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert → Ugo Humbert | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert → Ugo Humbert | Flaznorp $583 | $0 | 69¢ YES | fails: only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Goiás EC vs. AA Ponte Preta - More Markets · starts Sun Nov 8, 10:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Goiás EC vs. AA Ponte Preta: Both Teams to Score: all vetted wallets left Yes
+- Sun Nov 8, 7:10 PM (hourly): Spread: Goiás EC (-1.5): all vetted wallets left AA Ponte Preta
+- Sun Nov 8, 7:10 PM (hourly): Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5: all vetted wallets left Over
+- Sun Nov 8, 5:14 PM (hourly): Spread: Goiás EC (-2.5): all vetted wallets left Goiás EC
+- Sun Nov 8, 4:50 PM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: Kalshi matched at 14¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Goiás EC (-1.5): Kalshi matched at 32¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Goiás EC (-2.5): Kalshi matched at 46¢
+- Sun Nov 8, 1:18 PM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: Kalshi matched at 14¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Goiás EC (-1.5): Kalshi matched at 32¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Goiás EC (-2.5): Kalshi matched at 46¢
+- Sun Nov 8, 10:24 AM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: first seen: 1 vetted on Over ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Goiás EC (-1.5): first seen: 1 vetted on AA Ponte Preta ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Goiás EC (-2.5): first seen: 1 vetted on Goiás EC ($348), fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $91 | $0 | 32¢ NO | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 4:18 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 3:18 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | — | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $352 | $0 | 46¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $352 | $0 | 46¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Goiás EC vs. AA Ponte Preta: AA Ponte Preta O/U 0.5 → Over | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | — | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $29 | $0 | 32¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Goiás EC vs. AA Ponte Preta: Both Teams to Score → Yes | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Jaguares de Córdoba FC vs. CA Bucaramanga - More Markets · starts Sun Nov 8, 9:05 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5: all vetted wallets left Over
+- Sun Nov 8, 4:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: Kalshi 49¢ → 48¢
+- Sun Nov 8, 1:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5: Kalshi matched at 24¢
+- Sun Nov 8, 1:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: Kalshi matched at 49¢
+- Sun Nov 8, 10:24 AM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5: first seen: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: first seen: 1 vetted on Under ($53), fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 49¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | — | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: CA Bucaramanga O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Kyoto Hannaryz vs. Levanga Hokkaido · starts Mon Nov 9, 10:15 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Kyoto Hannaryz vs. Levanga Hokkaido: all vetted wallets left Kyoto Hannaryz
+- Sun Nov 8, 3:18 PM (hourly): Kyoto Hannaryz vs. Levanga Hokkaido: Kalshi 52¢ → 48¢
+- Sun Nov 8, 2:14 PM (hourly): Kyoto Hannaryz vs. Levanga Hokkaido: first seen: 1 vetted on Kyoto Hannaryz ($383), fails: only 1 vetted wallet with $383 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $337 | $0 | 48¢ YES | fails: only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $383 | $0 | 52¢ YES | fails: only 1 vetted wallet with $383 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Deportivo La Guaira vs. Carabobo FC · starts Sun Nov 8, 9:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Carabobo FC win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:18 PM (hourly): Will Carabobo FC win on 2026-11-08?: Kalshi 64¢ → 61¢
+- Sun Nov 8, 11:14 AM (hourly): Will Carabobo FC win on 2026-11-08?: first seen: 1 vetted on No ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CD Garcilaso vs. CD Comerciantes Unidos - Exact Score · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: CD Garcilaso 0 - 0 CD Comerciantes Unidos? → Yes | Flaznorp $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Raja Club Athletic vs. IR Tanger - More Markets · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Raja Club Athletic vs. IR Tanger: O/U 5.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Raja Club Athletic vs. IR Tanger: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Raja Club Athletic vs. IR Tanger: O/U 5.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Raja Club Athletic vs. IR Tanger: O/U 5.5 → Over | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
+
+### Washington Spirit vs. Portland Thorns FC · starts Sun Nov 8, 8:00 PM
+
+- Sun Nov 8, 7:10 PM (pregame): Will Washington Spirit win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:18 PM (hourly): Will Washington Spirit win on 2026-11-08?: Kalshi matched at 49¢
+- Sun Nov 8, 1:18 PM (hourly): Will Washington Spirit win on 2026-11-08?: Kalshi matched at 49¢
+- Sun Nov 8, 10:24 AM (hourly): Will Washington Spirit win on 2026-11-08?: back: 1 vetted on No ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Will Washington Spirit win on 2026-11-08?: all vetted wallets left No
+- Sat Nov 7, 8:16 PM (hourly): Will Washington Spirit win on 2026-11-08?: first seen: 1 vetted on No ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | pregame | Will Washington Spirit win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 8:16 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Querétaro FC vs. Club Puebla - More Markets · starts Mon Nov 9, 12:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Querétaro FC vs. Club Puebla: O/U 5.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Querétaro FC (-1.5): all vetted wallets left Club Puebla
+- Sun Nov 8, 5:14 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi 22¢ → 23¢
+- Sun Nov 8, 4:50 PM (hourly): Querétaro FC vs. Club Puebla: O/U 5.5: first seen: 1 vetted on Over ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Spread: Querétaro FC (-1.5): Kalshi matched at 71¢
+- Sun Nov 8, 2:14 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi 23¢ → 22¢
+- Sun Nov 8, 1:18 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi matched at 23¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Querétaro FC (-1.5): Kalshi matched at 71¢
+- Sun Nov 8, 10:24 AM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: first seen: 1 vetted on Under ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Querétaro FC (-1.5): first seen: 1 vetted on Club Puebla ($44), fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Querétaro FC vs. Club Puebla: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 5.5 → Over | Flaznorp $1 | $0 | 7¢ YES | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 23¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Querétaro FC vs. Club Puebla: O/U 5.5 → Over | Flaznorp $1 | $0 | 7¢ YES | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 23¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Barcelona SC vs. LDU Quito - Exact Score · starts Sun Nov 8, 9:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Barcelona SC 3 - 0 LDU Quito?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Barcelona SC 3 - 0 LDU Quito? → No | Flaznorp $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+
+### CSD Cobán Imperial vs. CSD Xelajú MC · starts Sun Nov 8, 9:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Will CSD Cobán Imperial vs. CSD Xelajú MC end in a draw? → No | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Portuguesa FC vs. Metropolitanos FC - More Markets · starts Sun Nov 8, 9:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Portuguesa FC (-2.5): all vetted wallets left Portuguesa FC
+- Sun Nov 8, 5:14 PM (hourly): Spread: Portuguesa FC (-2.5): first seen: 1 vetted on Portuguesa FC ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Portuguesa FC (-2.5) → Portuguesa FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Portuguesa FC (-2.5) → Portuguesa FC | Flaznorp $2 | $0 | 7¢ YES | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CS Herediano vs. Inter San Carlos · starts Mon Nov 9, 12:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Inter San Carlos win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 7:10 PM (hourly): Will CS Herediano win on 2026-11-08?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 5:14 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Will Inter San Carlos win on 2026-11-08? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will CS Herediano win on 2026-11-08? → Yes | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Rio Ave FC vs. SC Braga - Exact Score · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Rio Ave FC 0 - 2 SC Braga?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Rio Ave FC 0 - 2 SC Braga? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CA Central Córdoba vs. CA Lanús - Exact Score · starts Sun Nov 8, 10:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: CA Central Córdoba 2 - 0 CA Lanús?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $184 | $0 | — | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $184 | $0 | — | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $184 | $0 | — | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: CA Central Córdoba 2 - 0 CA Lanús? → No | Flaznorp $184 | $0 | — | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
+
+### Incarnate Word Cardinals vs. UTEP Miners · starts Mon Nov 9, 12:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: all vetted wallets left UTEP Miners
+- Sun Nov 8, 4:50 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: Kalshi 87¢ → 88¢
+- Sun Nov 8, 4:18 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: Kalshi 88¢ → 87¢
+- Sun Nov 8, 3:18 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: first seen: 1 vetted on UTEP Miners ($249), fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 87¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Deportivo Saprissa vs. Puntarenas FC · starts Sun Nov 8, 10:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Puntarenas FC win on 2026-11-08?: all vetted wallets left Yes
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Puntarenas FC win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Puntarenas FC win on 2026-11-08? → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will Puntarenas FC win on 2026-11-08? → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will Puntarenas FC win on 2026-11-08? → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will Puntarenas FC win on 2026-11-08? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### CA Central Córdoba vs. CA Lanús - Halftime Result · starts Sun Nov 8, 10:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CA Central Córdoba leading at halftime?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CA Central Córdoba leading at halftime? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Houston Cougars vs. California Golden Bears · starts Mon Nov 9, 1:30 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Houston Cougars (-17.5): all vetted wallets left California Golden Bears
+- Sun Nov 8, 4:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 44¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 42¢ → 43¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 42¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Houston Cougars (-17.5): first seen: 1 vetted on California Golden Bears ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $39 | $0 | 44¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 43¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 42¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $37 | $0 | 43¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CD Unión La Calera vs. CD Huachipato · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CD Unión La Calera win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 1:18 PM (hourly): Will CD Unión La Calera win on 2026-11-08?: Kalshi 53¢ → 54¢
+- Sun Nov 8, 11:14 AM (hourly): Will CD Unión La Calera win on 2026-11-08?: Kalshi 52¢ → 53¢
+- Sun Nov 8, 10:24 AM (hourly): Will CD Unión La Calera win on 2026-11-08?: first seen: 1 vetted on No ($68), fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $118 | $0 | 53¢ NO | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $68 | $0 | 52¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Jaguares de Córdoba FC vs. CA Bucaramanga - Halftime Result · starts Sun Nov 8, 9:05 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Jaguares de Córdoba FC leading at halftime?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC leading at halftime? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### Barcelona SC vs. LDU Quito · starts Sun Nov 8, 9:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will LDU Quito win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 4:18 PM (hourly): Will LDU Quito win on 2026-11-08?: Kalshi 36¢ → 35¢
+- Sun Nov 8, 10:24 AM (hourly): Will LDU Quito win on 2026-11-08?: first seen: 1 vetted on Yes ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Querétaro FC vs. Club Puebla · starts Mon Nov 9, 12:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Club Puebla win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 10:24 AM (hourly): Will Club Puebla win on 2026-11-08?: first seen: 1 vetted on No ($237), fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Club Puebla win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Packers vs. Patriots · starts Sun Nov 8, 9:25 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Packers vs. Patriots: all vetted wallets left Patriots
+- Sun Nov 8, 7:10 PM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 49¢
+- Sun Nov 8, 2:14 PM (hourly): Packers vs. Patriots: O/U 44.5: gmpm2 added $16.9k on Under
+- Sun Nov 8, 1:18 PM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 50¢
+- Sun Nov 8, 10:24 AM (hourly): Packers vs. Patriots: back: 1 vetted on Patriots ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c
+- Sun Nov 8, 7:11 AM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 50¢
+- Sun Nov 8, 1:11 AM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 49¢
+- Sat Nov 7, 11:14 PM (hourly): Packers vs. Patriots: all vetted wallets left Packers
+- Sat Nov 7, 10:17 PM (hourly): Packers vs. Patriots: first seen: 1 vetted on Packers ($416), fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 10:17 PM (hourly): Packers vs. Patriots: O/U 44.5: first seen: 1 vetted on Under ($783), fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Packers vs. Patriots → Patriots | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | — | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 5:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
+| Sun Nov 8, 4:50 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
+| Sun Nov 8, 4:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
+| Sun Nov 8, 3:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
+| Sun Nov 8, 2:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.7k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
+| Sun Nov 8, 1:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
+| Sun Nov 8, 11:14 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
+| Sun Nov 8, 10:24 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
+| Sun Nov 8, 9:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 8:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 5:13 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 4:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 12:13 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 11:14 PM | hourly | Packers vs. Patriots → Packers | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Packers vs. Patriots → Packers | SnakeBall $416 | $0 | 40¢ YES | fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Karsiyaka vs. Besiktas · starts Mon Nov 9, 4:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Karsiyaka vs. Besiktas: all vetted wallets left Karsiyaka
+- Sun Nov 8, 4:18 PM (hourly): Karsiyaka vs. Besiktas: first seen: 1 vetted on Karsiyaka ($346), fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Club Bolívar vs. Club The Strongest · starts Sun Nov 8, 9:15 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Club The Strongest win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 4:50 PM (hourly): Will Club The Strongest win on 2026-11-08?: Kalshi 83¢ → 80¢
+- Sun Nov 8, 1:18 PM (hourly): Will Club The Strongest win on 2026-11-08?: Kalshi matched at 83¢
+- Sun Nov 8, 10:24 AM (hourly): Will Club The Strongest win on 2026-11-08?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $83 | $0 | 80¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $83 | $0 | 80¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Alianza FC vs. Llaneros FC - More Markets · starts Mon Nov 9, 1:15 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Alianza FC (-1.5): all vetted wallets left Llaneros FC
+- Sun Nov 8, 5:14 PM (hourly): Spread: Alianza FC (-1.5): Kalshi 81¢ → 80¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Alianza FC (-1.5): Kalshi matched at 81¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Alianza FC (-1.5): Kalshi matched at 81¢
+- Sun Nov 8, 10:24 AM (hourly): Spread: Alianza FC (-1.5): first seen: 1 vetted on Llaneros FC ($93), fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | 80¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | 81¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | — | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | — | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Sport Boys Association vs. CU Técnica de Cajamarca · starts Sun Nov 8, 8:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw?: all vetted wallets left No
+- Sun Nov 8, 1:18 PM (hourly): Will Sport Boys Association win on 2026-11-08?: all vetted wallets left Yes
+- Sun Nov 8, 1:18 PM (hourly): Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw?: Kalshi 75¢ → 76¢
+- Sun Nov 8, 10:24 AM (hourly): Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw?: first seen: 1 vetted on No ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Will Sport Boys Association win on 2026-11-08?: first seen: 1 vetted on Yes ($104), fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will Sport Boys Association win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 1:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 75¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 75¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will Sport Boys Association win on 2026-11-08? → Yes | Flaznorp $104 | $0 | 55¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Antigua GFC vs. CD Malacateco · starts Mon Nov 9, 12:00 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Will Antigua GFC win on 2026-11-08?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:50 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 4:18 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 3:18 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 2:14 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $77 | $0 | — | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 1:18 PM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 11:14 AM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sun Nov 8, 10:24 AM | hourly | Will Antigua GFC win on 2026-11-08? → No | Flaznorp $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### CD Tolima vs. Millonarios FC - More Markets · starts Sun Nov 8, 11:10 PM
+
+- Sun Nov 8, 7:10 PM (hourly): CD Tolima vs. Millonarios FC: O/U 1.5: all vetted wallets left Under
+- Sun Nov 8, 1:18 PM (hourly): CD Tolima vs. Millonarios FC: O/U 1.5: Kalshi matched at 31¢
+- Sun Nov 8, 10:24 AM (hourly): CD Tolima vs. Millonarios FC: O/U 1.5: first seen: 1 vetted on Under ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 10:24 AM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CA Central Córdoba vs. CA Lanús · starts Sun Nov 8, 10:30 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: all vetted wallets left No
+- Sun Nov 8, 3:18 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: Kalshi 75¢ → 74¢
+- Sun Nov 8, 2:14 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: Kalshi 74¢ → 75¢
+- Sun Nov 8, 1:18 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: first seen: 1 vetted on No ($171), fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 75¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Alianza FC vs. Llaneros FC - Exact Score · starts Mon Nov 9, 1:15 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Exact Score: Alianza FC 5 - 5 Llaneros FC?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:50 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 4:18 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 3:18 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 2:14 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 1:18 PM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 11:14 AM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sun Nov 8, 10:24 AM | hourly | Exact Score: Alianza FC 5 - 5 Llaneros FC? → No | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+
+### CD Garcilaso vs. CD Comerciantes Unidos · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Will CD Comerciantes Unidos win on 2026-11-08?: all vetted wallets left No
+- Sun Nov 8, 10:24 AM (hourly): Will CD Comerciantes Unidos win on 2026-11-08?: first seen: 1 vetted on No ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Buccaneers vs. Bears · starts Mon Nov 9, 1:20 AM
+
+- Sun Nov 8, 7:10 PM (hourly): Buccaneers vs. Bears: O/U 58.5: Kalshi matched at 21¢
+- Sun Nov 8, 7:10 PM (hourly): Buccaneers vs. Bears: O/U 48.5: Kalshi matched at 48¢
+- Sun Nov 8, 6:14 PM (hourly): Buccaneers vs. Bears: gmpm2 added $4.4k on Buccaneers
+- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: first seen: 1 vetted on Buccaneers ($14.3k), fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: O/U 58.5: first seen: 1 vetted on Over ($235), fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Buccaneers vs. Bears: O/U 48.5: first seen: 1 vetted on Over ($4.5k), fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 7:11 AM (hourly): Spread: Bears (-14.5): all vetted wallets left Bears
+- Sun Nov 8, 7:11 AM (hourly): Spread: Bears (-6.5): all vetted wallets left Bears
+- Sun Nov 8, 3:12 AM (hourly): Spread: Bears (-6.5): first seen: 1 vetted on Bears ($828), fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:10 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:10 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | — | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 6:14 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $14.3k | $0 | 29¢ YES | fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $235 | $0 | 21¢ YES | fails: only 1 vetted wallet with $235 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:11 AM | hourly | Spread: Bears (-14.5) → Bears | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:11 AM | hourly | Spread: Bears (-6.5) → Bears | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 6:12 AM | hourly | Spread: Bears (-14.5) → Bears | takeormake $852 | $0 | — | fails: only 1 vetted wallet with $852 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 6:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-14.5) → Bears | takeormake $852 | $0 | — | fails: only 1 vetted wallet with $852 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 4:10 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Texans vs. Chargers · starts Sun Nov 8, 9:05 PM
+
+- Sun Nov 8, 7:10 PM (hourly): Spread: Texans (-5.5): Kalshi matched at 49¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Texans (-5.5): first seen: 1 vetted on Texans ($24.0k), fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Spread: Texans (-4.5): all vetted wallets left Chargers
+- Sat Nov 7, 10:17 PM (hourly): Spread: Texans (-4.5): Kalshi matched at 46¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $27.1k | $0 | 49¢ YES | fails: only 1 vetted wallet with $27.1k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:14 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $26.1k | $0 | — | fails: only 1 vetted wallet with $26.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Texans (-4.5) → Chargers | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | 46¢ NO | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | — | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
+
+- Sun Nov 8, 2:14 PM (hourly): Raiders vs. 49ers: back: 1 vetted on 49ers ($39.8k), fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 7:11 AM (hourly): Raiders vs. 49ers: all vetted wallets left Raiders
+- Sun Nov 8, 5:13 AM (hourly): Raiders vs. 49ers: Kalshi 20¢ → 21¢
+- Sun Nov 8, 3:12 AM (hourly): Raiders vs. 49ers: O/U 52.5: all vetted wallets left Over
+- Sun Nov 8, 1:11 AM (hourly): Raiders vs. 49ers: O/U 52.5: first seen: 1 vetted on Over ($6.7k), fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Raiders vs. 49ers: O/U 54.5: all vetted wallets left Over
+- Sat Nov 7, 10:17 PM (hourly): Raiders vs. 49ers: first seen: 1 vetted on Raiders ($556), fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 7:10 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 6:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Raiders vs. 49ers → 49ers | primm $39.8k | $0 | 80¢ YES | fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:11 AM | hourly | Raiders vs. 49ers → Raiders | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 6:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $671 | $0 | 21¢ YES | fails: only 1 vetted wallet with $671 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $670 | $0 | 21¢ YES | fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $647 | $0 | 20¢ YES | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 12:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | SnakeBall $130 | $0 | — | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 54.5 line |
+
 ### CF Universidad de Chile vs. CD Cobresal · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 5:14 PM (pregame): Will CD Cobresal win on 2026-11-09?: all vetted wallets left Yes
@@ -321,20 +4022,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 2:14 PM | hourly | Will CD Cobresal win on 2026-11-09? → Yes | Flaznorp $8 | $0 | 10¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 1:18 PM | hourly | Will CD Cobresal win on 2026-11-09? → Yes | Flaznorp $8 | $0 | 10¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Deportivo Saprissa vs. Puntarenas FC - More Markets · starts Sun Nov 8, 10:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: all vetted wallets left Under
-- Sun Nov 8, 4:50 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: back: 1 vetted on Under ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Sun Nov 8, 1:18 PM (hourly): Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Under | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 1:18 PM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 11:14 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Deportivo Saprissa vs. Puntarenas FC: Puntarenas FC 1st Half O/U 0.5 → Over | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Oldham Athletic AFC vs. Sheffield Wednesday FC · starts Sun Nov 8, 5:15 PM
 
 - Sun Nov 8, 5:14 PM (hourly): Will Oldham Athletic AFC win on 2026-11-08?: all vetted wallets left No
@@ -346,21 +4033,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 4:18 PM | pregame | Will Oldham Athletic AFC win on 2026-11-08? → No | Flaznorp $342 | $0 | — | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sun Nov 8, 3:18 PM | hourly | Will Oldham Athletic AFC win on 2026-11-08? → No | Flaznorp $342 | $0 | — | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sun Nov 8, 2:14 PM | hourly | Will Oldham Athletic AFC win on 2026-11-08? → No | Flaznorp $328 | $0 | — | fails: only 1 vetted wallet with $328 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### CD Garcilaso vs. CD Comerciantes Unidos - More Markets · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 54¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 46c |
-| Sun Nov 8, 4:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 53¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 46c |
-| Sun Nov 8, 3:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $60 | $0 | 53¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 46c |
-| Sun Nov 8, 2:14 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
-| Sun Nov 8, 1:18 PM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
-| Sun Nov 8, 11:14 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | CD Garcilaso vs. CD Comerciantes Unidos: O/U 2.5 → Under | Flaznorp $58 | $0 | 51¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 46c |
 
 ### Beşiktaş JK vs. Gençlerbirliği SK - More Markets · starts Sun Nov 8, 6:00 PM
 
@@ -491,86 +4163,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will Club Alianza Lima win on 2026-11-08? → Yes | Flaznorp $16 | $0 | 57¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
 | Sat Nov 7, 6:15 PM | hourly | Will Club Alianza Lima win on 2026-11-08? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Goiás EC vs. AA Ponte Preta - More Markets · starts Sun Nov 8, 10:15 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: Goiás EC (-2.5): all vetted wallets left Goiás EC
-- Sun Nov 8, 4:50 PM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: Kalshi matched at 14¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Goiás EC (-1.5): Kalshi matched at 32¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Goiás EC (-2.5): Kalshi matched at 46¢
-- Sun Nov 8, 1:18 PM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: Kalshi matched at 14¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Goiás EC (-1.5): Kalshi matched at 32¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Goiás EC (-2.5): Kalshi matched at 46¢
-- Sun Nov 8, 10:24 AM (hourly): Goiás EC vs. AA Ponte Preta: O/U 5.5: first seen: 1 vetted on Over ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Goiás EC (-1.5): first seen: 1 vetted on AA Ponte Preta ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Goiás EC (-2.5): first seen: 1 vetted on Goiás EC ($348), fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $91 | $0 | 32¢ NO | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | — | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $352 | $0 | 46¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | 32¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $352 | $0 | 46¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | — | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Goiás EC vs. AA Ponte Preta: O/U 5.5 → Over | Flaznorp $24 | $0 | 14¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Goiás EC (-1.5) → AA Ponte Preta | Flaznorp $29 | $0 | 32¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Goiás EC (-2.5) → Goiás EC | Flaznorp $348 | $0 | 46¢ YES | fails: only 1 vetted wallet with $348 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Querétaro FC vs. Club Puebla - More Markets · starts Mon Nov 9, 12:00 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi 22¢ → 23¢
-- Sun Nov 8, 4:50 PM (hourly): Querétaro FC vs. Club Puebla: O/U 5.5: first seen: 1 vetted on Over ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Spread: Querétaro FC (-1.5): Kalshi matched at 71¢
-- Sun Nov 8, 2:14 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi 23¢ → 22¢
-- Sun Nov 8, 1:18 PM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: Kalshi matched at 23¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Querétaro FC (-1.5): Kalshi matched at 71¢
-- Sun Nov 8, 10:24 AM (hourly): Querétaro FC vs. Club Puebla: O/U 1.5: first seen: 1 vetted on Under ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Querétaro FC (-1.5): first seen: 1 vetted on Club Puebla ($44), fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 5.5 → Over | Flaznorp $1 | $0 | 7¢ YES | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 23¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Querétaro FC vs. Club Puebla: O/U 5.5 → Over | Flaznorp $1 | $0 | 7¢ YES | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 23¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Querétaro FC vs. Club Puebla: O/U 1.5 → Under | Flaznorp $6 | $0 | 22¢ NO | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Querétaro FC (-1.5) → Club Puebla | Flaznorp $44 | $0 | 71¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Portuguesa FC vs. Metropolitanos FC - More Markets · starts Sun Nov 8, 9:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: Portuguesa FC (-2.5): first seen: 1 vetted on Portuguesa FC ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Portuguesa FC (-2.5) → Portuguesa FC | Flaznorp $2 | $0 | 7¢ YES | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### CD Ñublense vs. CSD Colo-Colo - More Markets · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 4:50 PM (hourly): CD Ñublense vs. CSD Colo-Colo: O/U 4.5: Kalshi 15¢ → 14¢
@@ -639,97 +4231,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | CD Ñublense vs. CSD Colo-Colo: O/U 3.5 → Over | Flaznorp $53 | $0 | — | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 6:15 PM | hourly | CD Ñublense vs. CSD Colo-Colo: O/U 4.5 → Over | Flaznorp $74 | $0 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 6:15 PM | hourly | CD Ñublense vs. CSD Colo-Colo: O/U 1.5 → Under | Flaznorp $113 | $0 | — | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Racing Club de Lens vs. Olympique de Marseille - More Markets · starts Sun Nov 8, 7:45 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 58¢ → 59¢
-- Sun Nov 8, 4:50 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 59¢ → 58¢
-- Sun Nov 8, 3:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi 58¢ → 59¢
-- Sun Nov 8, 2:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 1.5: Kalshi 81¢ → 82¢
-- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 0.5: Kalshi matched at 6¢
-- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 1.5: first seen: 1 vetted on Over ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: Kalshi matched at 58¢
-- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 2.5: majority flipped to Over ($871 vs $0)
-- Sun Nov 8, 1:18 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: Kalshi matched at 36¢
-- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 0.5: first seen: 1 vetted on Under ($2), fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5: back: 1 vetted on Under ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: back: 1 vetted on Over ($1.8k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score: all vetted wallets left Yes
-- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 8:16 PM (hourly): Racing Club de Lens vs. Olympique de Marseille: O/U 3.5: first seen: 1 vetted on Over ($291), fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 82¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $857 | $0 | 59¢ YES | fails: only 1 vetted wallet with $857 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 82¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $857 | $0 | 58¢ YES | fails: only 1 vetted wallet with $857 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 59¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 59¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $50 | $0 | 82¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 58¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 1.5 → Over | Flaznorp $49 | $0 | 81¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Over | Flaznorp $871 | $0 | 58¢ YES | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.9k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Under | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.7k | $0 | — | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 0.5 → Under | Flaznorp $2 | $0 | 5¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 2.5 → Under | Flaznorp $50 | $0 | 43¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 36c |
-| Sun Nov 8, 10:24 AM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $1.8k | $0 | 36¢ YES | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: 1st Half O/U 4.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: Both Teams to Score → Yes | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Racing Club de Lens vs. Olympique de Marseille: O/U 3.5 → Over | Flaznorp $291 | $0 | 43¢ YES | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Piratas Veracruz vs. Cancun FC - More Markets · starts Mon Nov 9, 1:00 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 0.5: Kalshi matched at 6¢
-- Sun Nov 8, 4:50 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: Kalshi matched at 17¢
-- Sun Nov 8, 1:18 PM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: Kalshi matched at 19¢
-- Sun Nov 8, 10:24 AM (hourly): Piratas Veracruz vs. Cancun FC: O/U 4.5: first seen: 1 vetted on Over ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 17¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 17¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 4:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 3:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi totals market |
-| Sun Nov 8, 3:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 2:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
-| Sun Nov 8, 2:14 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | 6¢ NO | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
-| Sun Nov 8, 1:18 PM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 0.5 → Under | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Piratas Veracruz vs. Cancun FC: O/U 4.5 → Over | Flaznorp $18 | $0 | 19¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### FC Wurzburger Kickers vs. TSG Hoffenheim II - More Markets · starts Sun Nov 8, 6:30 PM
 
@@ -872,24 +4373,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Villarreal CF vs. Getafe CF: O/U 6.5 → Under | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi totals market |
 | Sat Nov 7, 6:15 PM | hourly | Spread: Villarreal CF (-1.5) → Getafe CF | Flaznorp $487 | $0 | — | fails: only 1 vetted wallet with $487 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Ceará SC vs. América FC - More Markets · starts Sun Nov 8, 10:15 PM
-
-- Sun Nov 8, 4:50 PM (hourly): Ceará SC vs. América FC: O/U 4.5: first seen: 1 vetted on Over ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Ceará SC (-1.5): Kalshi matched at 72¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Ceará SC (-1.5): Kalshi matched at 72¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Ceará SC vs. América FC: O/U 4.5 → Over | Flaznorp $6 | $0 | 12¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Ceará SC vs. América FC: O/U 4.5 → Over | Flaznorp $6 | $0 | 12¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $50 | $0 | 72¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | 72¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $51 | $0 | 72¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Ceará SC (-1.5) → América FC | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### CD Los Chankas vs. Club Alianza Lima - More Markets · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 5:14 PM (pregame): CD Los Chankas vs. Club Alianza Lima: O/U 3.5: first seen: 1 vetted on Under ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
@@ -969,42 +4452,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 11:14 PM | hourly | Will CD Eldense win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 8:16 PM | hourly | Will CD Eldense win on 2026-11-08? → Yes | Flaznorp $8 | $0 | 27¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Jazz vs. Timberwolves · starts Mon Nov 9, 12:00 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 214.5: all vetted wallets left Over
-- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-5.5): Kalshi 31¢ → 29¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-13.5): Kalshi 43¢ → 45¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Timberwolves (-11.5): Kalshi 49¢ → 53¢
-- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 234.5: Kalshi 73¢ → 76¢
-- Sun Nov 8, 4:50 PM (hourly): Jazz vs. Timberwolves: O/U 230.5: first seen: 1 vetted on Under ($248), fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-5.5): first seen: 1 vetted on Jazz ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-13.5): first seen: 1 vetted on Timberwolves ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Timberwolves (-11.5): first seen: 1 vetted on Timberwolves ($172), fails: only 1 vetted wallet with $172 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Jazz vs. Timberwolves: O/U 234.5: first seen: 1 vetted on Under ($143), fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 29¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $17 | $0 | 45¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $186 | $0 | 53¢ YES | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
-| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $214 | $0 | 76¢ NO | fails: only 1 vetted wallet with $214 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
-| Sun Nov 8, 5:14 PM | hourly | Jazz vs. Timberwolves: O/U 230.5 → Under | Flaznorp $248 | $0 | 69¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 29¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $17 | $0 | 45¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $186 | $0 | 53¢ YES | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 48c |
-| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $214 | $0 | 76¢ NO | fails: only 1 vetted wallet with $214 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
-| Sun Nov 8, 4:50 PM | hourly | Jazz vs. Timberwolves: O/U 230.5 → Under | Flaznorp $248 | $0 | 69¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-5.5) → Jazz | Flaznorp $10 | $0 | 31¢ NO | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-13.5) → Timberwolves | Flaznorp $14 | $0 | 43¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Timberwolves (-11.5) → Timberwolves | Flaznorp $172 | $0 | 49¢ YES | fails: only 1 vetted wallet with $172 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-| Sun Nov 8, 2:14 PM | hourly | Jazz vs. Timberwolves: O/U 234.5 → Under | Flaznorp $143 | $0 | 73¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Jazz vs. Timberwolves: O/U 214.5 → Over | Flaznorp $144 | $0 | 73¢ YES | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-
 ### Vasas FC vs. Ferencvarosi Budapest · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 5:14 PM (pregame): Will Vasas FC win on 2026-11-08?: first seen: 1 vetted on Yes ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
@@ -1058,75 +4505,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Athletic Club vs. AC Goianiense: O/U 2.5 → Under | Flaznorp $42 | $0 | 52¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Spread: AC Goianiense (-1.5) → Athletic Club | Flaznorp $51 | $0 | 74¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### 76ers vs. Bulls · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: 76ers (-5.5): first seen: 1 vetted on Bulls ($124), fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Spread: 76ers (-4.5): first seen: 1 vetted on Bulls ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): 76ers vs. Bulls: O/U 223.5: Kalshi 80¢ → 79¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-3.5): first seen: 1 vetted on Bulls ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): 76ers vs. Bulls: O/U 243.5: Kalshi 39¢ → 38¢
-- Sun Nov 8, 4:18 PM (hourly): 76ers vs. Bulls: O/U 229.5: first seen: 1 vetted on Over ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-1.5): Kalshi 25¢ → 24¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-11.5): Kalshi 42¢ → 43¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: 76ers (-9.5): Kalshi 49¢ → 50¢
-- Sun Nov 8, 3:18 PM (hourly): 76ers vs. Bulls: O/U 231.5: first seen: 1 vetted on Over ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): 76ers vs. Bulls: O/U 223.5: Kalshi 81¢ → 80¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: 76ers (-9.5): Kalshi 48¢ → 49¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: 76ers (-1.5): first seen: 1 vetted on Bulls ($115), fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Spread: 76ers (-9.5): Kalshi 49¢ → 48¢
-- Sun Nov 8, 2:14 PM (hourly): 76ers vs. Bulls: first seen: 1 vetted on Bulls ($225), fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: 76ers (-11.5): first seen: 1 vetted on 76ers ($135), fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: 76ers (-9.5): first seen: 1 vetted on 76ers ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-4.5) → Bulls | Flaznorp $26 | $0 | 33¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $27 | $0 | 30¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-5.5) → Bulls | Flaznorp $124 | $0 | 36¢ NO | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $156 | $0 | 24¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $159 | $0 | 79¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $592 | $0 | 50¢ YES | fails: only 1 vetted wallet with $592 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-4.5) → Bulls | Flaznorp $26 | $0 | 33¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $27 | $0 | 30¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $156 | $0 | 24¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $449 | $0 | 50¢ YES | fails: only 1 vetted wallet with $449 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $159 | $7 | 79¢ YES | fails: only 1 vetted wallet with $159 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-3.5) → Bulls | Flaznorp $13 | $0 | 30¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 38¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 229.5 → Over | Flaznorp $17 | $0 | 68¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 24¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $160 | $0 | 80¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 43¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $431 | $0 | 50¢ YES | fails: only 1 vetted wallet with $431 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 39¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 36c |
-| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 231.5 → Over | Flaznorp $37 | $0 | 64¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 25¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $160 | $0 | 80¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $294 | $0 | 49¢ YES | fails: only 1 vetted wallet with $294 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $215 | $0 | 22¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 39¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 36c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-1.5) → Bulls | Flaznorp $115 | $0 | 25¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls: O/U 223.5 → Over | Flaznorp $161 | $0 | 81¢ YES | fails: only 1 vetted wallet with $161 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $190 | $0 | 48¢ YES | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | 76ers vs. Bulls → Bulls | Flaznorp $225 | $0 | 22¢ YES | fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | 76ers vs. Bulls: O/U 243.5 → Over | Flaznorp $15 | $0 | 40¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 36c |
-| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-11.5) → 76ers | Flaznorp $135 | $0 | 42¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: 76ers (-9.5) → 76ers | Flaznorp $23 | $0 | 49¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Olympiacos Piraeus vs. PAOK Thessaloniki - More Markets · starts Sun Nov 8, 7:00 PM
 
 - Sun Nov 8, 5:14 PM (hourly): Olympiacos Piraeus vs. PAOK Thessaloniki: O/U 4.5: Kalshi 15¢ → 16¢
@@ -1175,65 +4553,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Olympiacos Piraeus vs. PAOK Thessaloniki: O/U 4.5 → Over | Flaznorp $14 | $0 | 16¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Olympiacos Piraeus vs. PAOK Thessaloniki: O/U 3.5 → Over | Flaznorp $15 | $0 | 32¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Olympiacos Piraeus vs. PAOK Thessaloniki: O/U 1.5 → Under | Flaznorp $16 | $0 | 24¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### KKS Lech Poznan vs. Zaglebie Lubin - More Markets · starts Sun Nov 8, 7:15 PM
-
-- Sun Nov 8, 5:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: Kalshi 39¢ → 38¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: KKS Lech Poznan (-1.5): Kalshi matched at 60¢
-- Sun Nov 8, 4:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi 61¢ → 62¢
-- Sun Nov 8, 2:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi 62¢ → 61¢
-- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5: Kalshi matched at 19¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: KKS Lech Poznan (-1.5): Kalshi matched at 60¢
-- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: Kalshi matched at 62¢
-- Sun Nov 8, 1:18 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: Kalshi matched at 39¢
-- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5: first seen: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: KKS Lech Poznan (-1.5): back: 1 vetted on Zaglebie Lubin ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: back: 1 vetted on Over ($690), fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: back: 1 vetted on Over ($756), fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Spread: KKS Lech Poznan (-1.5): all vetted wallets left Zaglebie Lubin
-- Sat Nov 7, 11:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 38¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 61¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 61¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 60¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | — | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | — | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 1.5 → Under | Flaznorp $16 | $0 | 19¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 61¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $690 | $0 | 62¢ YES | fails: only 1 vetted wallet with $690 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $756 | $0 | 39¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Spread: KKS Lech Poznan (-1.5) → Zaglebie Lubin | Flaznorp $39 | $0 | 62¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 59c |
-| Sat Nov 7, 8:16 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 2.5 → Over | Flaznorp $713 | $0 | 97¢ YES | fails: only 1 vetted wallet with $713 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 62c |
-| Sat Nov 7, 8:16 PM | hourly | KKS Lech Poznan vs. Zaglebie Lubin: O/U 3.5 → Over | Flaznorp $785 | $0 | 97¢ YES | fails: only 1 vetted wallet with $785 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 38c |
 
 ### SD Aucas vs. CSD Independiente del Valle · starts Sun Nov 8, 6:45 PM
 
@@ -1383,27 +4702,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Vitória SC vs. FC Porto: O/U 1.5 → Under | SnakeBall $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 7, 6:15 PM | hourly | Vitória SC vs. FC Porto: O/U 4.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
-### Sport Boys Association vs. CU Técnica de Cajamarca - More Markets · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Spread: Sport Boys Association (-1.5): Kalshi matched at 32¢
-- Sun Nov 8, 4:18 PM (hourly): Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5: first seen: 1 vetted on Over ($103), fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Sport Boys Association (-1.5): Kalshi matched at 32¢
-- Sun Nov 8, 10:24 AM (hourly): Spread: Sport Boys Association (-1.5): first seen: 1 vetted on Sport Boys Association ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $166 | $0 | 52¢ YES | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $103 | $0 | 52¢ YES | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Sport Boys Association vs. CU Técnica de Cajamarca: O/U 2.5 → Over | Flaznorp $103 | $0 | 52¢ YES | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $18 | $0 | 32¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Sport Boys Association (-1.5) → Sport Boys Association | Flaznorp $16 | $0 | 30¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### RC Celta de Vigo vs. Levante UD - More Markets · starts Sun Nov 8, 5:30 PM
 
 - Sun Nov 8, 5:14 PM (pregame): RC Celta de Vigo vs. Levante UD: O/U 1.5: Kalshi 77¢ → 76¢
@@ -1517,148 +4815,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | RC Celta de Vigo vs. Levante UD: O/U 1.5 → Over | Flaznorp $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 7, 6:15 PM | hourly | RC Celta de Vigo vs. Levante UD: O/U 3.5 → Over | Flaznorp $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
-### Celtics vs. Bucks · starts Mon Nov 9, 1:00 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-9.5): Kalshi 38¢ → 39¢
-- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-11.5): Kalshi 46¢ → 45¢
-- Sun Nov 8, 5:14 PM (hourly): Spread: Celtics (-24.5): Kalshi 80¢ → 81¢
-- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 75¢ → 76¢
-- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: Kalshi 14¢ → 15¢
-- Sun Nov 8, 5:14 PM (hourly): Celtics vs. Bucks: O/U 222.5: Kalshi 49¢ → 48¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Bucks (-7.5): all vetted wallets left Celtics
-- Sun Nov 8, 4:50 PM (hourly): Spread: Celtics (-9.5): Kalshi 39¢ → 38¢
-- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 230.5: Kalshi 69¢ → 70¢
-- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 206.5: Kalshi 84¢ → 83¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Celtics (-24.5): first seen: 1 vetted on Bucks ($162), fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 77¢ → 75¢
-- Sun Nov 8, 4:50 PM (hourly): Celtics vs. Bucks: O/U 220.5: Kalshi 45¢ → 47¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Bucks (-1.5): first seen: 1 vetted on Bucks ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Celtics vs. Bucks: O/U 210.5: Kalshi 76¢ → 77¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Celtics (-26.5): first seen: 1 vetted on Bucks ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 230.5: Kalshi 73¢ → 69¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 210.5: first seen: 1 vetted on Over ($200), fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 236.5: Kalshi 84¢ → 80¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 238.5: Kalshi 86¢ → 84¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 234.5: Kalshi 80¢ → 77¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 232.5: Kalshi 76¢ → 73¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 220.5: Kalshi 52¢ → 45¢
-- Sun Nov 8, 3:18 PM (hourly): Celtics vs. Bucks: O/U 222.5: Kalshi 44¢ → 49¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Celtics (-11.5): Kalshi 45¢ → 46¢
-- Sun Nov 8, 2:14 PM (hourly): Celtics vs. Bucks: O/U 222.5: first seen: 1 vetted on Over ($267), fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-9.5): Kalshi matched at 39¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-11.5): Kalshi matched at 45¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-28.5): Kalshi matched at 88¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Celtics (-30.5): first seen: 1 vetted on Bucks ($530), fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Celtics (-9.5): first seen: 1 vetted on Bucks ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Celtics (-11.5): first seen: 1 vetted on Bucks ($129), fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Celtics vs. Bucks: first seen: 1 vetted on Bucks ($277), fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $23 | $0 | 14¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 14c vs leaders 11c |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 70¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 83¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-24.5) → Bucks | Flaznorp $162 | $0 | 81¢ NO | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $198 | $0 | 76¢ YES | fails: only 1 vetted wallet with $198 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $257 | $0 | 77¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $314 | $0 | 80¢ NO | fails: only 1 vetted wallet with $314 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $298 | $0 | 15¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $291 | $0 | 47¢ NO | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $390 | $0 | 48¢ YES | fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Bucks (-7.5) → Celtics | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 38¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $22 | $0 | 14¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 70¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 83¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-24.5) → Bucks | Flaznorp $162 | $0 | 80¢ NO | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $199 | $0 | 75¢ YES | fails: only 1 vetted wallet with $199 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $257 | $0 | 77¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $314 | $0 | 80¢ NO | fails: only 1 vetted wallet with $314 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $291 | $0 | 47¢ NO | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $390 | $0 | 49¢ YES | fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Bucks (-1.5) → Bucks | Flaznorp $22 | $0 | 14¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 69¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 84¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 81c |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $200 | $0 | 77¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 77c vs leaders 74c |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $202 | $0 | 80¢ NO | fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $255 | $0 | 77¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.9k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $221 | $0 | 45¢ NO | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $398 | $0 | 49¢ YES | fails: only 1 vetted wallet with $398 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-26.5) → Bucks | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $103 | $0 | 69¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 206.5 → Over | Flaznorp $153 | $0 | 84¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 81c |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 210.5 → Over | Flaznorp $200 | $0 | 76¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $204 | $0 | 80¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $217 | $0 | 84¢ NO | fails: only 1 vetted wallet with $217 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $255 | $0 | 77¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Bucks (-7.5) → Celtics | Flaznorp $321 | $0 | 97¢ NO | fails: only 1 vetted wallet with $321 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 97c vs leaders 93c |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $569 | $0 | 88¢ NO | fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $601 | $0 | 73¢ NO | fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $1.6k | $0 | 91¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $195 | $0 | 45¢ NO | fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $398 | $0 | 49¢ YES | fails: only 1 vetted wallet with $398 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 230.5 → Under | Flaznorp $107 | $0 | 73¢ NO | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 69c |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 220.5 → Under | Flaznorp $126 | $0 | 52¢ NO | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 47c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 46¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 236.5 → Under | Flaznorp $210 | $0 | 84¢ NO | fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 80c |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 238.5 → Under | Flaznorp $221 | $0 | 86¢ NO | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 234.5 → Under | Flaznorp $249 | $0 | 80¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 76c |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $494 | $0 | 88¢ NO | fails: only 1 vetted wallet with $494 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 232.5 → Under | Flaznorp $622 | $0 | 76¢ NO | fails: only 1 vetted wallet with $622 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 72c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $829 | $0 | 91¢ NO | fails: only 1 vetted wallet with $829 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Celtics vs. Bucks: O/U 222.5 → Over | Flaznorp $267 | $0 | 44¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $494 | $0 | 88¢ NO | fails: only 1 vetted wallet with $494 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Celtics (-30.5) → Bucks | Flaznorp $530 | $0 | 91¢ NO | fails: only 1 vetted wallet with $530 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | — | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Celtics (-28.5) → Bucks | Flaznorp $255 | $0 | — | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Celtics (-9.5) → Bucks | Flaznorp $19 | $0 | 39¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Celtics (-11.5) → Bucks | Flaznorp $129 | $0 | 45¢ NO | fails: only 1 vetted wallet with $129 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Celtics vs. Bucks → Bucks | Flaznorp $277 | $0 | 14¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club León FC vs. CD Guadalajara - More Markets · starts Mon Nov 9, 2:10 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Spread: CD Guadalajara (-2.5): first seen: 1 vetted on CD Guadalajara ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Spread: CD Guadalajara (-1.5): first seen: 1 vetted on CD Guadalajara ($88), fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: CD Guadalajara (-2.5) → CD Guadalajara | Flaznorp $20 | $0 | 10¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: CD Guadalajara (-1.5) → CD Guadalajara | Flaznorp $91 | $0 | 25¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: CD Guadalajara (-2.5) → CD Guadalajara | Flaznorp $20 | $0 | 10¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: CD Guadalajara (-1.5) → CD Guadalajara | Flaznorp $88 | $0 | 25¢ YES | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Union Saint-Gilloise vs. KRC Genk - More Markets · starts Sun Nov 8, 5:30 PM
 
 - Sun Nov 8, 4:50 PM (pregame): Union Saint-Gilloise vs. KRC Genk: O/U 4.5: Kalshi 21¢ → 20¢
@@ -1751,26 +4907,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Hapoel Be`er Sheva FC vs. Hapoel Tel Aviv FC: O/U 2.5 → Under | Flaznorp $50 | $0 | 47¢ NO | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Hapoel Be`er Sheva FC vs. Hapoel Tel Aviv FC: O/U 5.5 → Under | Flaznorp $668 | $0 | 96¢ NO | fails: only 1 vetted wallet with $668 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 96c vs leaders 91c |
 
-### Sport Boys Association vs. CU Técnica de Cajamarca · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 1:18 PM (hourly): Will Sport Boys Association win on 2026-11-08?: all vetted wallets left Yes
-- Sun Nov 8, 1:18 PM (hourly): Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw?: Kalshi 75¢ → 76¢
-- Sun Nov 8, 10:24 AM (hourly): Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw?: first seen: 1 vetted on No ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will Sport Boys Association win on 2026-11-08?: first seen: 1 vetted on Yes ($104), fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Sport Boys Association win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 1:18 PM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 76¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 75¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Sport Boys Association vs. CU Técnica de Cajamarca end in a draw? → No | Flaznorp $22 | $0 | 75¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Sport Boys Association win on 2026-11-08? → Yes | Flaznorp $104 | $0 | 55¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade - More Markets · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 4:50 PM (hourly): FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade: O/U 1.5: Kalshi matched at 18¢
@@ -1823,133 +4959,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 11:14 PM | hourly | FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade: FK Crvena Zvezda Belgrade O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 8:16 PM | hourly | FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade: FK Crvena Zvezda Belgrade O/U 1.5 → Under | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 6:15 PM | hourly | FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade: FK Crvena Zvezda Belgrade O/U 1.5 → Under | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### CA Central Córdoba vs. CA Lanús - More Markets · starts Sun Nov 8, 10:30 PM
-
-- Sun Nov 8, 1:18 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 1.5: Kalshi matched at 31¢
-- Sun Nov 8, 1:18 PM (hourly): CA Central Córdoba vs. CA Lanús: O/U 3.5: Kalshi matched at 22¢
-- Sun Nov 8, 10:24 AM (hourly): CA Central Córdoba vs. CA Lanús: O/U 1.5: first seen: 1 vetted on Under ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): CA Central Córdoba vs. CA Lanús: O/U 3.5: first seen: 1 vetted on Over ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $133 | $0 | 31¢ NO | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $72 | $0 | 31¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $26 | $0 | 22¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $72 | $0 | 31¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $25 | $0 | 22¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 1.5 → Under | Flaznorp $14 | $0 | 31¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | CA Central Córdoba vs. CA Lanús: O/U 3.5 → Over | Flaznorp $20 | $0 | 22¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CR Vasco da Gama vs. SE Palmeiras - More Markets · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 4:50 PM (hourly): Spread: CR Vasco da Gama (-1.5): Kalshi matched at 15¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: CR Vasco da Gama (-1.5): first seen: 1 vetted on CR Vasco da Gama ($87), fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: Kalshi matched at 45¢
-- Sun Nov 8, 1:18 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: Kalshi matched at 24¢
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score: back: 1 vetted on Yes ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5: back: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5: back: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 7.5: back: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: back: 1 vetted on Over ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: back: 1 vetted on Over ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5: back: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score: all vetted wallets left Yes
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 7.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 8:16 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 2.5: first seen: 1 vetted on Over ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): CR Vasco da Gama vs. SE Palmeiras: O/U 3.5: first seen: 1 vetted on Over ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: CR Vasco da Gama (-1.5) → CR Vasco da Gama | Flaznorp $87 | $0 | 15¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 45¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi has no 7.5 line |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 44¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 24¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: Both Teams to Score → Yes | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 7.5 → Under | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 line |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: SE Palmeiras O/U 4.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 4.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 2.5 → Over | Flaznorp $26 | $0 | 46¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: O/U 3.5 → Over | Flaznorp $33 | $0 | 25¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | CR Vasco da Gama vs. SE Palmeiras: CR Vasco da Gama O/U 5.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 
 ### Real Sporting de Gijón vs. Real Valladolid CF - More Markets · starts Sun Nov 8, 5:30 PM
 
@@ -2213,217 +5222,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will Real Valladolid CF win on 2026-11-08? → No | Flaznorp $24 | $0 | 71¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Will Real Valladolid CF win on 2026-11-08? → No | Flaznorp $24 | $0 | 71¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Jaguares de Córdoba FC vs. CA Bucaramanga - More Markets · starts Sun Nov 8, 9:05 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: Kalshi 49¢ → 48¢
-- Sun Nov 8, 1:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5: Kalshi matched at 24¢
-- Sun Nov 8, 1:18 PM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: Kalshi matched at 49¢
-- Sun Nov 8, 10:24 AM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5: first seen: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5: first seen: 1 vetted on Under ($53), fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $52 | $0 | 49¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | — | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 1.5 → Under | Flaznorp $34 | $0 | 24¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 2.5 → Under | Flaznorp $53 | $0 | 49¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### ACF Fiorentina vs. Juventus FC · starts Sun Nov 8, 7:45 PM
-
-- Sun Nov 8, 2:14 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 28¢ → 29¢
-- Sun Nov 8, 2:14 PM (hourly): Will Juventus FC win on 2026-11-08?: Kalshi 57¢ → 56¢
-- Sun Nov 8, 1:18 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 29¢ → 28¢
-- Sun Nov 8, 1:18 PM (hourly): Will Juventus FC win on 2026-11-08?: Kalshi 56¢ → 57¢
-- Sun Nov 8, 11:14 AM (hourly): Will ACF Fiorentina win on 2026-11-08?: Kalshi 28¢ → 29¢
-- Sun Nov 8, 10:24 AM (hourly): Will ACF Fiorentina win on 2026-11-08?: back: 1 vetted on Yes ($38), fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: back: 1 vetted on Yes ($138), fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c
-- Sun Nov 8, 10:24 AM (hourly): Will Juventus FC win on 2026-11-08?: back: 1 vetted on No ($816), fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Will Juventus FC win on 2026-11-08?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: all vetted wallets left Yes
-- Sat Nov 7, 11:14 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: all vetted wallets left Yes
-- Sat Nov 7, 8:16 PM (hourly): Will ACF Fiorentina win on 2026-11-08?: first seen: 1 vetted on Yes ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Will ACF Fiorentina vs. Juventus FC end in a draw?: first seen: 1 vetted on Yes ($138), fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Will Juventus FC win on 2026-11-08?: first seen: 1 vetted on No ($802), fails: only 1 vetted wallet with $802 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $36 | $0 | 29¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Sun Nov 8, 5:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Sun Nov 8, 4:50 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 29¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Sun Nov 8, 4:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 28¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Sun Nov 8, 3:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $143 | $0 | 28¢ YES | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Sun Nov 8, 2:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $831 | $0 | 56¢ NO | fails: only 1 vetted wallet with $831 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 28¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Sun Nov 8, 1:18 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 57¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 53c |
-| Sun Nov 8, 11:14 AM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Sun Nov 8, 11:14 AM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 56¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $38 | $0 | 28¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 28¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Sun Nov 8, 10:24 AM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $816 | $0 | 56¢ NO | fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will Juventus FC win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Will ACF Fiorentina win on 2026-11-08? → Yes | Flaznorp $36 | $0 | 28¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will ACF Fiorentina vs. Juventus FC end in a draw? → Yes | Flaznorp $138 | $0 | 27¢ YES | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will Juventus FC win on 2026-11-08? → No | Flaznorp $802 | $0 | 55¢ NO | fails: only 1 vetted wallet with $802 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Barcelona SC vs. LDU Quito · starts Sun Nov 8, 9:30 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Will LDU Quito win on 2026-11-08?: Kalshi 36¢ → 35¢
-- Sun Nov 8, 10:24 AM (hourly): Will LDU Quito win on 2026-11-08?: first seen: 1 vetted on Yes ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 35¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will LDU Quito win on 2026-11-08? → Yes | Flaznorp $39 | $0 | 36¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Heat vs. Kings · starts Mon Nov 9, 2:00 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Spread: Heat (-21.5): Kalshi 82¢ → 81¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Heat (-19.5): Kalshi 78¢ → 77¢
-- Sun Nov 8, 4:50 PM (hourly): Heat vs. Kings: O/U 238.5: Kalshi 51¢ → 53¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-21.5): Kalshi 85¢ → 82¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-19.5): Kalshi 82¢ → 78¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Kings (-6.5): Kalshi 88¢ → 91¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Heat (-10.5): Kalshi 43¢ → 49¢
-- Sun Nov 8, 2:14 PM (hourly): Heat vs. Kings: Kalshi 24¢ → 21¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-21.5): Kalshi matched at 85¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-19.5): Kalshi matched at 82¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Kings (-6.5): first seen: 1 vetted on Heat ($265), fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Heat (-10.5): first seen: 1 vetted on Heat ($267), fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Heat vs. Kings: O/U 238.5: first seen: 1 vetted on Under ($92), fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Heat vs. Kings: Kalshi 25¢ → 24¢
-- Sun Nov 8, 11:14 AM (hourly): Heat vs. Kings: first seen: 1 vetted on Kings ($385), fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Heat (-21.5): first seen: 1 vetted on Kings ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Heat (-19.5): first seen: 1 vetted on Kings ($81), fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $44 | $0 | 81¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 77¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
-| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 53¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 81¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 77¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
-| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 53¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $304 | $0 | 50¢ YES | fails: only 1 vetted wallet with $304 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
-| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $96 | $0 | 51¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $271 | $0 | 91¢ NO | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $298 | $0 | 50¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 43c |
-| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $45 | $0 | 82¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $76 | $0 | 78¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $270 | $0 | 91¢ NO | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $298 | $0 | 49¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 43c |
-| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings → Kings | Flaznorp $352 | $0 | 21¢ YES | fails: only 1 vetted wallet with $352 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | 85¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $80 | $0 | 82¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Kings (-6.5) → Heat | Flaznorp $265 | $0 | 88¢ NO | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Heat (-10.5) → Heat | Flaznorp $267 | $0 | 43¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Heat vs. Kings: O/U 238.5 → Under | Flaznorp $92 | $0 | 51¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Heat vs. Kings → Kings | Flaznorp $385 | $0 | 24¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Heat vs. Kings → Kings | Flaznorp $385 | $0 | 25¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Heat (-21.5) → Kings | Flaznorp $47 | $0 | 86¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Heat (-19.5) → Kings | Flaznorp $81 | $0 | 82¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Deportivo La Guaira vs. Carabobo FC · starts Sun Nov 8, 9:30 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Will Carabobo FC win on 2026-11-08?: Kalshi 64¢ → 61¢
-- Sun Nov 8, 11:14 AM (hourly): Will Carabobo FC win on 2026-11-08?: first seen: 1 vetted on No ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $45 | $0 | 61¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Carabobo FC win on 2026-11-08? → No | Flaznorp $47 | $0 | 64¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CD Tolima vs. Millonarios FC - More Markets · starts Sun Nov 8, 11:10 PM
-
-- Sun Nov 8, 1:18 PM (hourly): CD Tolima vs. Millonarios FC: O/U 1.5: Kalshi matched at 31¢
-- Sun Nov 8, 10:24 AM (hourly): CD Tolima vs. Millonarios FC: O/U 1.5: first seen: 1 vetted on Under ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | CD Tolima vs. Millonarios FC: O/U 1.5 → Under | Flaznorp $46 | $0 | 31¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Washington Spirit vs. Portland Thorns FC - More Markets · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Washington Spirit vs. Portland Thorns FC: O/U 3.5: first seen: 1 vetted on Over ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Washington Spirit vs. Portland Thorns FC: O/U 3.5 → Over | Flaznorp $47 | $0 | 35¢ YES | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CD Garcilaso vs. CD Comerciantes Unidos · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 10:24 AM (hourly): Will CD Comerciantes Unidos win on 2026-11-08?: first seen: 1 vetted on No ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CD Comerciantes Unidos win on 2026-11-08? → No | Flaznorp $49 | $0 | 85¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Fredrikstad FK vs. SK Brann - More Markets · starts Sun Nov 8, 6:15 PM
 
 - Sun Nov 8, 4:50 PM (hourly): Fredrikstad FK vs. SK Brann: O/U 1.5: first seen: 1 vetted on Under ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
@@ -2444,69 +5242,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 11:14 AM | hourly | Spread: SK Brann (-2.5) → SK Brann | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sun Nov 8, 10:24 AM | hourly | Spread: SK Brann (-2.5) → SK Brann | Flaznorp $52 | $0 | 9¢ YES | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### CF Estrela da Amadora vs. Sport Lisboa e Benfica - More Markets · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: Kalshi 15¢ → 16¢
-- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: Kalshi 29¢ → 30¢
-- Sun Nov 8, 5:14 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi 51¢ → 52¢
-- Sun Nov 8, 4:50 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi 52¢ → 51¢
-- Sun Nov 8, 4:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5: first seen: 1 vetted on Under ($59), fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: Kalshi matched at 15¢
-- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: Kalshi matched at 29¢
-- Sun Nov 8, 1:18 PM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: Kalshi matched at 52¢
-- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5: first seen: 1 vetted on Over ($35), fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5: first seen: 1 vetted on Over ($107), fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5: first seen: 1 vetted on Under ($258), fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $58 | $0 | 29¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 16¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 30¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $306 | $0 | 52¢ NO | fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $58 | $0 | 29¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $256 | $0 | 51¢ NO | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 2.5 → Under | Flaznorp $59 | $0 | 29¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $67 | $0 | 15¢ YES | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $72 | $0 | 15¢ YES | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $72 | $0 | 15¢ YES | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $256 | $0 | — | fails: only 1 vetted wallet with $256 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 5.5 → Over | Flaznorp $35 | $0 | 15¢ YES | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club Universitario de Deportes vs. CD Moquegua · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 12¢ → 8¢
-- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes win on 2026-11-08?: all vetted wallets left No
-- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: all vetted wallets left Yes
-- Sun Nov 8, 4:50 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 13¢ → 12¢
-- Sun Nov 8, 4:18 PM (hourly): Will CD Moquegua win on 2026-11-08?: first seen: 1 vetted on Yes ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: first seen: 1 vetted on Yes ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $58 | $0 | 8¢ YES | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $79 | $0 | 12¢ YES | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $86 | $0 | 13¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | Flaznorp $14 | $0 | 16¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | Flaznorp $98 | $0 | 24¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 24c vs leaders 16c |
-
 ### L.R. Vicenza vs. US Cremonese - More Markets · starts Sun Nov 8, 6:30 PM
 
 - Sun Nov 8, 2:14 PM (hourly): L.R. Vicenza vs. US Cremonese: O/U 2.5: first seen: 1 vetted on Under ($78), fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+)
@@ -2518,192 +5253,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 4:18 PM | hourly | L.R. Vicenza vs. US Cremonese: O/U 2.5 → Under | Flaznorp $78 | $0 | 54¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:18 PM | hourly | L.R. Vicenza vs. US Cremonese: O/U 2.5 → Under | Flaznorp $78 | $0 | 54¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:14 PM | hourly | L.R. Vicenza vs. US Cremonese: O/U 2.5 → Under | Flaznorp $78 | $0 | 54¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club León FC vs. CD Guadalajara · starts Mon Nov 9, 2:10 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 46¢ → 48¢
-- Sun Nov 8, 5:14 PM (hourly): Will Club León FC win on 2026-11-08?: Kalshi 72¢ → 73¢
-- Sun Nov 8, 4:50 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 55¢ → 46¢
-- Sun Nov 8, 4:50 PM (hourly): Will CD Guadalajara win on 2026-11-08?: majority flipped to Yes ($773 vs $0)
-- Sun Nov 8, 4:50 PM (hourly): Will Club León FC win on 2026-11-08?: first seen: 1 vetted on No ($1.6k), fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 56¢ → 55¢
-- Sun Nov 8, 3:18 PM (hourly): Will CD Guadalajara win on 2026-11-08?: Kalshi 55¢ → 56¢
-- Sun Nov 8, 2:14 PM (hourly): Will Club León FC vs. CD Guadalajara end in a draw?: first seen: 1 vetted on No ($79), fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will CD Guadalajara win on 2026-11-08?: first seen: 1 vetted on No ($147), fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Guadalajara win on 2026-11-08? → Yes | Flaznorp $789 | $0 | 48¢ YES | fails: only 1 vetted wallet with $789 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will Club León FC win on 2026-11-08? → No | Flaznorp $1.6k | $0 | 73¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Guadalajara win on 2026-11-08? → Yes | Flaznorp $773 | $0 | 46¢ YES | fails: only 1 vetted wallet with $773 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club León FC win on 2026-11-08? → No | Flaznorp $1.6k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 56¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Club León FC vs. CD Guadalajara end in a draw? → No | Flaznorp $79 | $0 | 75¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CD Guadalajara win on 2026-11-08? → No | Flaznorp $147 | $0 | 55¢ NO | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club Bolívar vs. Club The Strongest · starts Sun Nov 8, 9:15 PM
-
-- Sun Nov 8, 4:50 PM (hourly): Will Club The Strongest win on 2026-11-08?: Kalshi 83¢ → 80¢
-- Sun Nov 8, 1:18 PM (hourly): Will Club The Strongest win on 2026-11-08?: Kalshi matched at 83¢
-- Sun Nov 8, 10:24 AM (hourly): Will Club The Strongest win on 2026-11-08?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $83 | $0 | 80¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $83 | $0 | 80¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Will Club The Strongest win on 2026-11-08? → No | Flaznorp $24 | $0 | 83¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rio Ave FC vs. SC Braga - More Markets · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 3:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 3.5: Kalshi 34¢ → 35¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: SC Braga (-1.5): Kalshi 40¢ → 39¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: SC Braga (-1.5): Kalshi matched at 40¢
-- Sun Nov 8, 1:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 3.5: first seen: 1 vetted on Over ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Rio Ave FC vs. SC Braga: O/U 4.5: Kalshi matched at 17¢
-- Sun Nov 8, 10:24 AM (hourly): Rio Ave FC vs. SC Braga: O/U 4.5: first seen: 1 vetted on Over ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: SC Braga (-1.5): first seen: 1 vetted on SC Braga ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 41¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 41c vs leaders 38c |
-| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sun Nov 8, 5:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 41¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 41c vs leaders 38c |
-| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sun Nov 8, 4:50 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sun Nov 8, 4:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 35¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sun Nov 8, 3:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 39¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 34¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $12 | $0 | 40¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 3.5 → Over | Flaznorp $15 | $0 | 34¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $83 | $0 | 17¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Rio Ave FC vs. SC Braga: O/U 4.5 → Over | Flaznorp $10 | $0 | 16¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: SC Braga (-1.5) → SC Braga | Flaznorp $11 | $0 | 39¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Pelicans vs. Clippers · starts Mon Nov 9, 2:00 AM
-
-- Sun Nov 8, 4:18 PM (hourly): Pelicans vs. Clippers: O/U 233.5: Kalshi 65¢ → 66¢
-- Sun Nov 8, 4:18 PM (hourly): Pelicans vs. Clippers: O/U 243.5: Kalshi 82¢ → 83¢
-- Sun Nov 8, 3:18 PM (hourly): Pelicans vs. Clippers: O/U 243.5: Kalshi 83¢ → 82¢
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 233.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 223.5: Kalshi 61¢ → 59¢
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 239.5: first seen: 1 vetted on Under ($204), fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 241.5: first seen: 1 vetted on Under ($315), fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 243.5: first seen: 1 vetted on Under ($437), fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 227.5: first seen: 1 vetted on Over ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 2:14 PM (hourly): Pelicans vs. Clippers: O/U 229.5: Kalshi 47¢ → 44¢
-- Sun Nov 8, 1:18 PM (hourly): Pelicans vs. Clippers: O/U 229.5: first seen: 1 vetted on Over ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Pelicans vs. Clippers: O/U 223.5: Kalshi matched at 61¢
-- Sun Nov 8, 10:24 AM (hourly): Pelicans vs. Clippers: O/U 223.5: first seen: 1 vetted on Over ($87), fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $18 | $0 | 66¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $255 | $0 | 75¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $317 | $0 | 78¢ NO | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $439 | $0 | 83¢ NO | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $82 | $0 | 59¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $18 | $0 | 66¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $255 | $0 | 75¢ NO | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $317 | $0 | 78¢ NO | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $439 | $0 | 83¢ NO | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $82 | $0 | 59¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 66¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 63c |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $254 | $0 | 75¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 83¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 65¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $201 | $0 | 75¢ NO | fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 82¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 233.5 → Under | Flaznorp $17 | $0 | 65¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 239.5 → Under | Flaznorp $204 | $0 | 75¢ NO | fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 241.5 → Under | Flaznorp $315 | $0 | 78¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 243.5 → Under | Flaznorp $437 | $0 | 83¢ NO | fails: only 1 vetted wallet with $437 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 227.5 → Over | Flaznorp $89 | $0 | 48¢ YES | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $302 | $0 | 44¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Pelicans vs. Clippers: O/U 229.5 → Over | Flaznorp $82 | $0 | 47¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | 61¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | Pelicans vs. Clippers: O/U 223.5 → Over | Flaznorp $87 | $0 | 61¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Alianza FC vs. Llaneros FC - More Markets · starts Mon Nov 9, 1:15 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: Alianza FC (-1.5): Kalshi 81¢ → 80¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Alianza FC (-1.5): Kalshi matched at 81¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Alianza FC (-1.5): Kalshi matched at 81¢
-- Sun Nov 8, 10:24 AM (hourly): Spread: Alianza FC (-1.5): first seen: 1 vetted on Llaneros FC ($93), fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | 80¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | 81¢ NO | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | — | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | — | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Alianza FC (-1.5) → Llaneros FC | Flaznorp $93 | $0 | 81¢ NO | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Jaguares de Córdoba FC vs. CA Bucaramanga · starts Sun Nov 8, 9:05 PM
-
-- Sun Nov 8, 4:50 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 48¢ → 46¢
-- Sun Nov 8, 4:50 PM (hourly): Will Jaguares de Córdoba FC win on 2026-11-08?: Kalshi 76¢ → 79¢
-- Sun Nov 8, 4:18 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 49¢ → 48¢
-- Sun Nov 8, 3:18 PM (hourly): Will CA Bucaramanga win on 2026-11-08?: Kalshi 50¢ → 49¢
-- Sun Nov 8, 10:24 AM (hourly): Will CA Bucaramanga win on 2026-11-08?: first seen: 1 vetted on No ($103), fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will Jaguares de Córdoba FC win on 2026-11-08?: first seen: 1 vetted on No ($419), fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $95 | $0 | 46¢ NO | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $436 | $0 | 79¢ NO | fails: only 1 vetted wallet with $436 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 79c vs leaders 73c |
-| Sun Nov 8, 4:50 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $96 | $0 | 46¢ NO | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 79¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 79c vs leaders 73c |
-| Sun Nov 8, 4:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $99 | $0 | 48¢ NO | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 76¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $98 | $0 | 49¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $430 | $0 | 76¢ NO | fails: only 1 vetted wallet with $430 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $422 | $0 | 76¢ NO | fails: only 1 vetted wallet with $422 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CA Bucaramanga win on 2026-11-08? → No | Flaznorp $103 | $0 | 50¢ NO | fails: only 1 vetted wallet with $103 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Jaguares de Córdoba FC win on 2026-11-08? → No | Flaznorp $419 | $0 | 76¢ NO | fails: only 1 vetted wallet with $419 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### CD Ñublense vs. CSD Colo-Colo · starts Sun Nov 8, 6:00 PM
 
@@ -2718,39 +5267,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 4:18 PM | hourly | Will CSD Colo-Colo win on 2026-11-08? → No | Flaznorp $115 | $0 | 51¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:18 PM | hourly | Will CSD Colo-Colo win on 2026-11-08? → No | Flaznorp $113 | $0 | 52¢ NO | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:14 PM | hourly | Will CSD Colo-Colo win on 2026-11-08? → No | Flaznorp $14 | $0 | 51¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CD Unión La Calera vs. CD Huachipato · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 1:18 PM (hourly): Will CD Unión La Calera win on 2026-11-08?: Kalshi 53¢ → 54¢
-- Sun Nov 8, 11:14 AM (hourly): Will CD Unión La Calera win on 2026-11-08?: Kalshi 52¢ → 53¢
-- Sun Nov 8, 10:24 AM (hourly): Will CD Unión La Calera win on 2026-11-08?: first seen: 1 vetted on No ($68), fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $119 | $0 | 54¢ NO | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $118 | $0 | 53¢ NO | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CD Unión La Calera win on 2026-11-08? → No | Flaznorp $68 | $0 | 52¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Goiás EC vs. AA Ponte Preta · starts Sun Nov 8, 10:15 PM
-
-- Sun Nov 8, 1:18 PM (hourly): Will Goiás EC win on 2026-11-08?: Kalshi matched at 14¢
-- Sun Nov 8, 10:24 AM (hourly): Will Goiás EC win on 2026-11-08?: first seen: 1 vetted on No ($64), fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $123 | $0 | 14¢ NO | fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $71 | $0 | 14¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | 14¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | 14¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Will Goiás EC win on 2026-11-08? → No | Flaznorp $64 | $0 | 14¢ NO | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Hapoel Be`er Sheva FC vs. Hapoel Tel Aviv FC · starts Sun Nov 8, 6:30 PM
 
@@ -2791,262 +5307,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 10:24 AM | hourly | Will Hapoel Tel Aviv FC win on 2026-11-08? → No | Flaznorp $68 | $0 | 70¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:24 AM | hourly | Will Hapoel Be`er Sheva FC vs. Hapoel Tel Aviv FC end in a draw? → No | Flaznorp $117 | $0 | 73¢ NO | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:24 AM | hourly | Will Hapoel Be`er Sheva FC win on 2026-11-08? → No | Flaznorp $138 | $0 | 59¢ NO | fails: only 1 vetted wallet with $138 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rio Ave FC vs. SC Braga · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 10:24 AM (hourly): Will Rio Ave FC win on 2026-11-08?: first seen: 1 vetted on No ($134), fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Rio Ave FC win on 2026-11-08? → No | Flaznorp $134 | $0 | 86¢ NO | fails: only 1 vetted wallet with $134 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CD Universidad de Concepción vs. O'Higgins FC · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Will O'Higgins FC win on 2026-11-08?: Kalshi 39¢ → 40¢
-- Sun Nov 8, 10:24 AM (hourly): Will CD Universidad de Concepción win on 2026-11-08?: first seen: 1 vetted on Yes ($140), fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will O'Higgins FC win on 2026-11-08?: first seen: 1 vetted on Yes ($298), fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will CD Universidad de Concepción vs. O'Higgins FC end in a draw?: first seen: 1 vetted on Yes ($351), fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 40¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $1.2k | $0 | 32¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $1.2k | $0 | 32¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $302 | $0 | 39¢ YES | fails: only 1 vetted wallet with $302 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $145 | $0 | 31¢ YES | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $145 | $0 | 31¢ YES | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CD Universidad de Concepción win on 2026-11-08? → Yes | Flaznorp $140 | $0 | 31¢ YES | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will O'Higgins FC win on 2026-11-08? → Yes | Flaznorp $298 | $0 | 39¢ YES | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CD Universidad de Concepción vs. O'Higgins FC end in a draw? → Yes | Flaznorp $351 | $0 | 32¢ YES | fails: only 1 vetted wallet with $351 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Piratas Veracruz vs. Cancun FC · starts Mon Nov 9, 1:00 AM
-
-- Sun Nov 8, 5:14 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi 63¢ → 64¢
-- Sun Nov 8, 4:50 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi 64¢ → 63¢
-- Sun Nov 8, 1:18 PM (hourly): Will Piratas Veracruz win on 2026-11-08?: Kalshi matched at 64¢
-- Sun Nov 8, 10:24 AM (hourly): Will Piratas Veracruz win on 2026-11-08?: first seen: 1 vetted on Yes ($154), fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 64¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 63¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $153 | $0 | 64¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | — | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Will Piratas Veracruz win on 2026-11-08? → Yes | Flaznorp $154 | $0 | 64¢ YES | fails: only 1 vetted wallet with $154 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club Atlético de Madrid vs. FC Barcelona - More Markets · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 4:50 PM (hourly): Spread: Club Atlético de Madrid (-1.5): all vetted wallets left FC Barcelona
-- Sun Nov 8, 4:50 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 69¢ → 68¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi 71¢ → 70¢
-- Sun Nov 8, 4:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 68¢ → 69¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi 72¢ → 71¢
-- Sun Nov 8, 3:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 2.5: first seen: 1 vetted on Under ($102), fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi 69¢ → 68¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Club Atlético de Madrid (-1.5): Kalshi 86¢ → 87¢
-- Sun Nov 8, 1:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: Kalshi matched at 69¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: FC Barcelona (-1.5): Kalshi matched at 72¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Club Atlético de Madrid (-1.5): Kalshi matched at 86¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Club Atlético de Madrid (-2.5): Kalshi matched at 6¢
-- Sun Nov 8, 1:18 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: Kalshi matched at 51¢
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5: back: 1 vetted on Over ($3), fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 0.5: back: 1 vetted on Under ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢
-- Sun Nov 8, 10:24 AM (hourly): 1st Half Spread: FC Barcelona (-1.5): back: 1 vetted on Club Atlético de Madrid ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: back: 1 vetted on Under ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: back: 1 vetted on Under ($287), fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: FC Barcelona (-1.5): back: 1 vetted on Club Atlético de Madrid ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Club Atlético de Madrid (-1.5): back: 1 vetted on FC Barcelona ($2.3k), fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: FC Barcelona (-3.5): back: 1 vetted on FC Barcelona ($92), fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line
-- Sun Nov 8, 10:24 AM (hourly): Spread: Club Atlético de Madrid (-2.5): back: 1 vetted on Club Atlético de Madrid ($409), fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5: back: 1 vetted on Under ($959), fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score: back: 1 vetted on No ($2.2k), fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sat Nov 7, 11:14 PM (hourly): 1st Half Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
-- Sat Nov 7, 11:14 PM (hourly): Spread: FC Barcelona (-1.5): all vetted wallets left Club Atlético de Madrid
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 0.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: FC Barcelona (-3.5): all vetted wallets left FC Barcelona
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Club Atlético de Madrid (-2.5): all vetted wallets left Club Atlético de Madrid
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Club Atlético de Madrid (-1.5): all vetted wallets left FC Barcelona
-- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 1.5: first seen: 1 vetted on Under ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Spread: FC Barcelona (-1.5): first seen: 1 vetted on Club Atlético de Madrid ($179), fails: only 1 vetted wallet with $179 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 4.5: first seen: 1 vetted on Under ($192), fails: only 1 vetted wallet with $192 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Club Atlético de Madrid vs. FC Barcelona: O/U 3.5: first seen: 1 vetted on Under ($248), fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Spread: Club Atlético de Madrid (-1.5): first seen: 1 vetted on FC Barcelona ($2.4k), fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $78 | $0 | 3¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $157 | $0 | 28¢ NO | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 70¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $338 | $0 | 5¢ YES | fails: only 1 vetted wallet with $338 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.5k | $0 | — | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $884 | $0 | — | fails: only 1 vetted wallet with $884 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $80 | $0 | 3¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $156 | $0 | 28¢ NO | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 70¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $338 | $0 | 6¢ YES | fails: only 1 vetted wallet with $338 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢ |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $909 | $0 | — | fails: only 1 vetted wallet with $909 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $78 | $0 | 3¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $130 | $0 | 28¢ NO | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.4k | $0 | 69¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 71¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 87¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $374 | $0 | 6¢ YES | fails: only 1 vetted wallet with $374 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $909 | $0 | — | fails: only 1 vetted wallet with $909 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 2.5 → Under | Flaznorp $102 | $0 | 28¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $80 | $0 | 3¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.0k | $0 | 68¢ NO | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 87¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $395 | $0 | 6¢ YES | fails: only 1 vetted wallet with $395 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $83 | $0 | 3¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢ |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $1.0k | $0 | 69¢ NO | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $402 | $0 | 6¢ YES | fails: only 1 vetted wallet with $402 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | 3¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢ |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $763 | $0 | 69¢ NO | fails: only 1 vetted wallet with $763 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | 72¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $395 | $0 | 6¢ YES | fails: only 1 vetted wallet with $395 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $947 | $0 | — | fails: only 1 vetted wallet with $947 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | — | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $409 | $0 | — | fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $405 | $0 | — | fails: only 1 vetted wallet with $405 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $959 | $0 | — | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Over | Flaznorp $3.0k | $0 | — | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Under | Flaznorp $86 | $0 | 3¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢ |
-| Sun Nov 8, 10:24 AM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | Flaznorp $264 | $0 | 50¢ NO | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 47c |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $287 | $0 | 68¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $1.3k | $0 | 73¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.3k | $0 | 86¢ NO | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $409 | $0 | 6¢ YES | fails: only 1 vetted wallet with $409 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | Flaznorp $959 | $0 | — | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $2.2k | $0 | — | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 11:14 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | SnakeBall $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $74 | $0 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $208 | $0 | — | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | SnakeBall $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $76 | $0 | — | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $208 | $0 | — | fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 3.5 → Over | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 0.5 → Over | Flaznorp $20 | $0 | 99¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 1.5 → Under | Flaznorp $21 | $0 | 11¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | 1st Half Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Club Atlético de Madrid (-2.5) → Club Atlético de Madrid | Flaznorp $92 | $0 | 5¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
-| Sat Nov 7, 8:16 PM | hourly | Spread: FC Barcelona (-1.5) → Club Atlético de Madrid | Flaznorp $179 | $0 | 67¢ NO | fails: only 1 vetted wallet with $179 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 4.5 → Under | Flaznorp $192 | $0 | 68¢ NO | fails: only 1 vetted wallet with $192 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: O/U 3.5 → Under | Flaznorp $248 | $0 | 48¢ NO | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Both Teams to Score → No | Flaznorp $540 | $0 | — | fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Club Atlético de Madrid (-1.5) → FC Barcelona | Flaznorp $2.4k | $0 | 89¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 0.5 → Under | SnakeBall $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 2.5 → Under | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Spread: FC Barcelona (-3.5) → FC Barcelona | Flaznorp $125, SnakeBall $63 | $0 | — | fails: only 2 vetted wallets with $188 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: FC Barcelona O/U 1.5 → Under | SnakeBall $74 | $0 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Club Atlético de Madrid vs. FC Barcelona: Club Atlético de Madrid O/U 1.5 → Under | SnakeBall $212 | $0 | — | fails: only 1 vetted wallet with $212 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### CD Universidad de Concepción vs. O'Higgins FC - More Markets · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5: first seen: 1 vetted on Over ($158), fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | CD Universidad de Concepción vs. O'Higgins FC: O/U 2.5 → Over | Flaznorp $158 | $0 | 53¢ YES | fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### FC Utrecht vs. NEC - More Markets · starts Sun Nov 8, 7:00 PM
 
@@ -3096,21 +5356,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | FC Utrecht vs. NEC: O/U 2.5 → Under | Flaznorp $34 | $0 | 37¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | FC Utrecht vs. NEC: O/U 3.5 → Over | Flaznorp $45 | $0 | 44¢ YES | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### CA Central Córdoba vs. CA Lanús · starts Sun Nov 8, 10:30 PM
-
-- Sun Nov 8, 3:18 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: Kalshi 75¢ → 74¢
-- Sun Nov 8, 2:14 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: Kalshi 74¢ → 75¢
-- Sun Nov 8, 1:18 PM (hourly): Will CA Central Córdoba vs. CA Lanús end in a draw?: first seen: 1 vetted on No ($171), fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 75¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CA Central Córdoba vs. CA Lanús end in a draw? → No | Flaznorp $171 | $0 | 74¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### FC Utrecht vs. NEC · starts Sun Nov 8, 7:00 PM
 
 - Sun Nov 8, 3:18 PM (hourly): Will FC Utrecht vs. NEC end in a draw?: Kalshi 77¢ → 76¢
@@ -3145,32 +5390,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will FC Utrecht win on 2026-11-08? → No | Flaznorp $17 | $0 | 62¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Will NEC win on 2026-11-08? → No | Flaznorp $180 | $0 | 65¢ NO | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### KKS Lech Poznan vs. Zaglebie Lubin · starts Sun Nov 8, 7:15 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Will KKS Lech Poznan win on 2026-11-08?: Kalshi 34¢ → 35¢
-- Sun Nov 8, 4:50 PM (hourly): Will KKS Lech Poznan win on 2026-11-08?: Kalshi 35¢ → 34¢
-- Sun Nov 8, 10:24 AM (hourly): Will KKS Lech Poznan win on 2026-11-08?: first seen: 1 vetted on No ($190), fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw?: first seen: 1 vetted on No ($558), fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 35¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 34¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $184 | $0 | 35¢ NO | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $565 | $0 | 81¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will KKS Lech Poznan win on 2026-11-08? → No | Flaznorp $190 | $0 | 35¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will KKS Lech Poznan vs. Zaglebie Lubin end in a draw? → No | Flaznorp $558 | $0 | 81¢ NO | fails: only 1 vetted wallet with $558 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### St. Truidense VV vs. SV Zulte Waregem · starts Sun Nov 8, 6:15 PM
 
 - Sun Nov 8, 10:24 AM (hourly): Will St. Truidense VV vs. SV Zulte Waregem end in a draw?: first seen: 1 vetted on No ($202), fails: only 1 vetted wallet with $202 (needs 3+ wallets, or 2 with $5.0k+)
@@ -3202,21 +5421,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 1:18 PM | hourly | Will AC Goianiense win on 2026-11-08? → Yes | Flaznorp $219 | $0 | 53¢ YES | fails: only 1 vetted wallet with $219 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 11:14 AM | hourly | Will AC Goianiense win on 2026-11-08? → Yes | Flaznorp $221 | $0 | — | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sun Nov 8, 10:24 AM | hourly | Will AC Goianiense win on 2026-11-08? → Yes | Flaznorp $219 | $0 | 53¢ YES | fails: only 1 vetted wallet with $219 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Querétaro FC vs. Club Puebla · starts Mon Nov 9, 12:00 AM
-
-- Sun Nov 8, 10:24 AM (hourly): Will Club Puebla win on 2026-11-08?: first seen: 1 vetted on No ($237), fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Club Puebla win on 2026-11-08? → No | Flaznorp $237 | $0 | 78¢ NO | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### RC Celta de Vigo vs. Levante UD · starts Sun Nov 8, 5:30 PM
 
@@ -3282,33 +5486,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will Independiente Santa Fe vs. AD Pasto end in a draw? → No | Flaznorp $225 | $0 | 93¢ NO | fails: only 1 vetted wallet with $225 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 8:16 PM | hourly | Will Independiente Santa Fe win on 2026-11-09? → Yes | SnakeBall $77 | $0 | 90¢ YES | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 90c vs leaders 83c |
 
-### WTA Finals, Group A: Marta Kostyuk vs Linda Noskova · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 2:14 PM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: Kalshi 44¢ → 43¢
-- Sun Nov 8, 1:18 PM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: Kalshi matched at 44¢
-- Sun Nov 8, 10:24 AM (hourly): WTA Finals, Group A: Marta Kostyuk vs Linda Noskova: first seen: 1 vetted on Marta Kostyuk ($332), fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $317 | $0 | 43¢ YES | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $324 | $0 | 44¢ YES | fails: only 1 vetted wallet with $324 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | WTA Finals, Group A: Marta Kostyuk vs Linda Noskova → Marta Kostyuk | Flaznorp $332 | $0 | 45¢ YES | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Karsiyaka vs. Besiktas · starts Mon Nov 9, 4:00 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Karsiyaka vs. Besiktas: first seen: 1 vetted on Karsiyaka ($346), fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Karsiyaka vs. Besiktas → Karsiyaka | Flaznorp $346 | $0 | 37¢ YES | fails: only 1 vetted wallet with $346 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Costa do Sauipe: Thiago Seyboth Wild vs Camilo Ugo Carabelli · starts Sun Nov 8, 7:00 PM
 
 - Sun Nov 8, 5:14 PM (hourly): Costa do Sauipe: Thiago Seyboth Wild vs Camilo Ugo Carabelli: Kalshi 55¢ → 54¢
@@ -3329,45 +5506,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 5:14 PM | pregame | Charlottesville: Stefan Kozlov vs Aidan Mayo → Aidan Mayo | Flaznorp $440 | $0 | 63¢ YES | fails: only 1 vetted wallet with $440 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:50 PM | hourly | Charlottesville: Stefan Kozlov vs Aidan Mayo → Aidan Mayo | Flaznorp $440 | $0 | 63¢ YES | fails: only 1 vetted wallet with $440 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:18 PM | hourly | Charlottesville: Stefan Kozlov vs Aidan Mayo → Aidan Mayo | Flaznorp $440 | $0 | 62¢ YES | fails: only 1 vetted wallet with $440 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert · starts Mon Nov 9, 1:30 PM
-
-- Sun Nov 8, 5:14 PM (hourly): BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert: first seen: 1 vetted on Ugo Humbert ($583), fails: only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | BNP Paribas Nordic Open: Adolfo Vallejo vs Ugo Humbert → Ugo Humbert | Flaznorp $583 | $0 | 69¢ YES | fails: only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CF Estrela da Amadora vs. Sport Lisboa e Benfica · starts Sun Nov 8, 8:30 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: Kalshi 20¢ → 19¢
-- Sun Nov 8, 3:18 PM (hourly): Will CF Estrela da Amadora win on 2026-11-08?: Kalshi 93¢ → 94¢
-- Sun Nov 8, 10:24 AM (hourly): Will CF Estrela da Amadora win on 2026-11-08?: first seen: 1 vetted on No ($612), fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: back: 1 vetted on No ($1.8k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: all vetted wallets left No
-- Sat Nov 7, 9:14 PM (hourly): Will Sport Lisboa e Benfica win on 2026-11-08?: first seen: 1 vetted on No ($131), fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $619 | $0 | 94¢ NO | fails: only 1 vetted wallet with $619 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 94¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $616 | $0 | 94¢ NO | fails: only 1 vetted wallet with $616 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 19¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 94¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will CF Estrela da Amadora win on 2026-11-08? → No | Flaznorp $612 | $0 | 93¢ NO | fails: only 1 vetted wallet with $612 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | Flaznorp $1.8k | $0 | 20¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | SnakeBall $131 | $0 | 20¢ NO | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Will Sport Lisboa e Benfica win on 2026-11-08? → No | SnakeBall $131 | $0 | 20¢ NO | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Union Saint-Gilloise vs. KRC Genk · starts Sun Nov 8, 5:30 PM
 
@@ -3413,85 +5551,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will NJ/NY Gotham FC win on 2026-11-08? → No | Flaznorp $623 | $0 | 48¢ NO | fails: only 1 vetted wallet with $623 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Will NJ/NY Gotham FC win on 2026-11-08? → No | Flaznorp $623 | $0 | — | fails: only 1 vetted wallet with $623 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Club Atlético de Madrid vs. FC Barcelona · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: now fails: only 1 vetted wallet with $41.6k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 5:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: RN1 left
-- Sun Nov 8, 4:50 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 72¢ → 73¢
-- Sun Nov 8, 4:50 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 50¢ → 49¢
-- Sun Nov 8, 4:18 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 71¢ → 72¢
-- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: now passes
-- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 51¢ → 50¢
-- Sun Nov 8, 4:18 PM (hourly): Will FC Barcelona win on 2026-11-08?: RN1 joined No (+$5.0k)
-- Sun Nov 8, 3:18 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Flaznorp added $6.2k on No
-- Sun Nov 8, 2:14 PM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: Kalshi 70¢ → 71¢
-- Sun Nov 8, 10:24 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: back: 1 vetted on No ($739), fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will Club Atlético de Madrid win on 2026-11-08?: first seen: 1 vetted on No ($14.2k), fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Will FC Barcelona win on 2026-11-08?: back: 1 vetted on No ($37.1k), fails: only 1 vetted wallet with $37.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c
-- Sun Nov 8, 3:12 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: all vetted wallets left No
-- Sun Nov 8, 2:10 AM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: back: 1 vetted on No ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Will FC Barcelona win on 2026-11-08?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: all vetted wallets left No
-- Sat Nov 7, 10:17 PM (hourly): Will FC Barcelona win on 2026-11-08?: Kalshi 46¢ → 47¢
-- Sat Nov 7, 8:16 PM (hourly): Will Club Atlético de Madrid vs. FC Barcelona end in a draw?: first seen: 1 vetted on No ($739), fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Will FC Barcelona win on 2026-11-08?: first seen: 1 vetted on No ($187), fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $21.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $21.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-| Sun Nov 8, 5:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $41.6k | $0 | 49¢ NO | fails: only 1 vetted wallet with $41.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $21.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $21.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-| Sun Nov 8, 4:50 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $41.6k, RN1 $4.8k | $0 | 49¢ NO | passes |
-| Sun Nov 8, 4:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $20.7k | $0 | 72¢ NO | fails: only 1 vetted wallet with $20.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $42.4k, RN1 $5.0k | $0 | 50¢ NO | passes |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $20.4k | $0 | 71¢ NO | fails: only 1 vetted wallet with $20.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 48c |
-| Sun Nov 8, 2:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 71¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 51c vs leaders 48c |
-| Sun Nov 8, 1:18 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.9k | $0 | 52¢ NO | fails: only 1 vetted wallet with $36.9k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Sun Nov 8, 11:14 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $36.4k | $0 | 52¢ NO | fails: only 1 vetted wallet with $36.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Sun Nov 8, 10:24 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Club Atlético de Madrid win on 2026-11-08? → No | Flaznorp $14.2k | $0 | 70¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will FC Barcelona win on 2026-11-08? → No | Flaznorp $37.1k | $0 | 52¢ NO | fails: only 1 vetted wallet with $37.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 48c |
-| Sun Nov 8, 3:12 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 2:10 AM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $27 | $0 | 79¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $191 | $0 | 47¢ NO | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $191 | $0 | 46¢ NO | fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will Club Atlético de Madrid vs. FC Barcelona end in a draw? → No | Flaznorp $739 | $0 | 79¢ NO | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will FC Barcelona win on 2026-11-08? → No | SnakeBall $187 | $0 | 46¢ NO | fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Washington Spirit vs. Portland Thorns FC · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Will Washington Spirit win on 2026-11-08?: Kalshi matched at 49¢
-- Sun Nov 8, 1:18 PM (hourly): Will Washington Spirit win on 2026-11-08?: Kalshi matched at 49¢
-- Sun Nov 8, 10:24 AM (hourly): Will Washington Spirit win on 2026-11-08?: back: 1 vetted on No ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Will Washington Spirit win on 2026-11-08?: all vetted wallets left No
-- Sat Nov 7, 8:16 PM (hourly): Will Washington Spirit win on 2026-11-08?: first seen: 1 vetted on No ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 2:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Will Washington Spirit win on 2026-11-08? → No | Flaznorp $1.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### TSG 1899 Hoffenheim vs. FC Schalke 04 · starts Sun Nov 8, 6:30 PM
 
 - Sun Nov 8, 10:24 AM (hourly): Will TSG 1899 Hoffenheim win on 2026-11-08?: back: 1 vetted on No ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
@@ -3510,107 +5569,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 10:24 AM | hourly | Will TSG 1899 Hoffenheim win on 2026-11-08? → No | Flaznorp $1.5k | $0 | 39¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 11:14 PM | hourly | Will TSG 1899 Hoffenheim win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 8:16 PM | hourly | Will TSG 1899 Hoffenheim win on 2026-11-08? → No | Flaznorp $1.3k | $0 | 41¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Racing Club de Lens vs. Olympique de Marseille · starts Sun Nov 8, 7:45 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: Flaznorp added $1.1k on No
-- Sun Nov 8, 10:24 AM (hourly): Will Racing Club de Lens win on 2026-11-08?: back: 1 vetted on No ($658), fails: only 1 vetted wallet with $658 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: all vetted wallets left No
-- Sat Nov 7, 8:16 PM (hourly): Will Racing Club de Lens win on 2026-11-08?: first seen: 1 vetted on No ($614), fails: only 1 vetted wallet with $614 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $1.7k | $0 | 58¢ NO | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $647 | $0 | 58¢ NO | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $658 | $0 | 58¢ NO | fails: only 1 vetted wallet with $658 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Will Racing Club de Lens win on 2026-11-08? → No | Flaznorp $614 | $0 | 58¢ NO | fails: only 1 vetted wallet with $614 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### ACF Fiorentina vs. Juventus FC - More Markets · starts Sun Nov 8, 7:45 PM
-
-- Sun Nov 8, 5:14 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Kalshi 52¢ → 51¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Juventus FC (-1.5): Kalshi 79¢ → 80¢
-- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 4.5: all vetted wallets left Over
-- Sun Nov 8, 1:18 PM (hourly): Spread: Juventus FC (-1.5): Kalshi matched at 79¢
-- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Kalshi matched at 52¢
-- Sun Nov 8, 1:18 PM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: Flaznorp added $1.9k on Over
-- Sun Nov 8, 10:24 AM (hourly): ACF Fiorentina vs. Juventus FC: O/U 4.5: first seen: 1 vetted on Over ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Juventus FC (-1.5): first seen: 1 vetted on ACF Fiorentina ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): ACF Fiorentina vs. Juventus FC: O/U 2.5: first seen: 1 vetted on Over ($52), fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): ACF Fiorentina vs. Juventus FC: Both Teams to Score: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Sun Nov 8, 4:50 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 80¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Sun Nov 8, 4:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $44 | $0 | 79¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $2.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 10:24 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 4.5 → Over | Flaznorp $12 | $0 | 15¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Juventus FC (-1.5) → ACF Fiorentina | Flaznorp $43 | $0 | 79¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | ACF Fiorentina vs. Juventus FC: O/U 2.5 → Over | Flaznorp $52 | $0 | 52¢ YES | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | ACF Fiorentina vs. Juventus FC: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | ACF Fiorentina vs. Juventus FC: Both Teams to Score → Yes | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### Packers vs. Patriots · starts Sun Nov 8, 9:25 PM
-
-- Sun Nov 8, 2:14 PM (hourly): Packers vs. Patriots: O/U 44.5: gmpm2 added $16.9k on Under
-- Sun Nov 8, 1:18 PM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 50¢
-- Sun Nov 8, 10:24 AM (hourly): Packers vs. Patriots: back: 1 vetted on Patriots ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c
-- Sun Nov 8, 7:11 AM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 50¢
-- Sun Nov 8, 1:11 AM (hourly): Packers vs. Patriots: O/U 44.5: Kalshi matched at 49¢
-- Sat Nov 7, 11:14 PM (hourly): Packers vs. Patriots: all vetted wallets left Packers
-- Sat Nov 7, 10:17 PM (hourly): Packers vs. Patriots: first seen: 1 vetted on Packers ($416), fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:17 PM (hourly): Packers vs. Patriots: O/U 44.5: first seen: 1 vetted on Under ($783), fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 6:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | — | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 5:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
-| Sun Nov 8, 4:50 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
-| Sun Nov 8, 4:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $43 | $0 | 62¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 54c |
-| Sun Nov 8, 3:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
-| Sun Nov 8, 2:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $17.7k | $0 | 50¢ NO | fails: only 1 vetted wallet with $17.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
-| Sun Nov 8, 1:18 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
-| Sun Nov 8, 11:14 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
-| Sun Nov 8, 10:24 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Packers vs. Patriots → Patriots | Flaznorp $42 | $0 | 61¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 54c |
-| Sun Nov 8, 9:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 8:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 7:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 6:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 5:13 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 4:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 11:14 PM | hourly | Packers vs. Patriots → Packers | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Packers vs. Patriots → Packers | SnakeBall $416 | $0 | 40¢ YES | fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Brown Bears vs. Lehigh Mountain Hawks · starts Sun Nov 8, 7:00 PM
 
@@ -3655,33 +5613,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 11:14 AM | hourly | Arkansas Razorbacks vs. Virginia Cavaliers → Virginia Cavaliers | Flaznorp $452 | $0 | 58¢ YES | fails: only 1 vetted wallet with $452 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:24 AM | hourly | Spread: Virginia Cavaliers (-3.5) → Virginia Cavaliers | Flaznorp $36 | $0 | 48¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:24 AM | hourly | Arkansas Razorbacks vs. Virginia Cavaliers → Virginia Cavaliers | Flaznorp $452 | $0 | 58¢ YES | fails: only 1 vetted wallet with $452 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Idaho State Bengals vs. Air Force Falcons · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 3:18 PM (hourly): Spread: Air Force Falcons (-6.5): first seen: 1 vetted on Air Force Falcons ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Air Force Falcons (-6.5) → Air Force Falcons | Flaznorp $18 | $0 | 48¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Houston Cougars vs. California Golden Bears · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 4:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 44¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 42¢ → 43¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 42¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Houston Cougars (-17.5): first seen: 1 vetted on California Golden Bears ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $39 | $0 | 44¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 43¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 42¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $37 | $0 | 43¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Jets vs. Chiefs · starts Sun Nov 8, 6:00 PM
 
@@ -3865,54 +5796,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Spread: Chiefs (-10.5) → Jets | takeormake $8.0k | $161 | — | fails: only 1 vetted wallet with $8.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Jets vs. Chiefs → Jets | takeormake $9.0k, Flaznorp $68 | $321 | 20¢ YES | passes |
 
-### Nets vs. Mavericks · starts Mon Nov 9, 12:30 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-8.5): first seen: 1 vetted on Mavericks ($168), fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-10.5): Kalshi 41¢ → 40¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-11.5): Kalshi 38¢ → 37¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-9.5): Kalshi 44¢ → 43¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-11.5): Kalshi 37¢ → 38¢
-- Sun Nov 8, 3:18 PM (hourly): Nets vs. Mavericks: Kalshi 27¢ → 26¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-10.5): Kalshi 42¢ → 41¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-11.5): Kalshi 40¢ → 37¢
-- Sun Nov 8, 2:14 PM (hourly): Nets vs. Mavericks: Kalshi 25¢ → 27¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-9.5): first seen: 1 vetted on Mavericks ($153), fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-10.5): first seen: 1 vetted on Mavericks ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-11.5): first seen: 1 vetted on Mavericks ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: Kalshi 78¢ → 25¢
-- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: majority flipped to Nets ($78 vs $0)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $146 | $0 | 43¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $303 | $0 | 40¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $85 | $0 | 26¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $148 | $0 | 43¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 40¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 43¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 38¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 27¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 27c vs leaders 23c |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $153 | $0 | 44¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $167 | $0 | 42¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $264 | $0 | 40¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $78 | $0 | 25¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $18 | $0 | 78¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $17 | $0 | 78¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
-
 ### Broncos vs. Panthers · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 5:14 PM (pregame): Spread: Broncos (-2.5): Kalshi 48¢ → 46¢
@@ -3992,19 +5875,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | — | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Broncos vs. Panthers → Panthers | SnakeBall $252 | $0 | 43¢ YES | fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | — | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Incarnate Word Cardinals vs. UTEP Miners · starts Mon Nov 9, 12:00 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: Kalshi 87¢ → 88¢
-- Sun Nov 8, 4:18 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: Kalshi 88¢ → 87¢
-- Sun Nov 8, 3:18 PM (hourly): Incarnate Word Cardinals vs. UTEP Miners: first seen: 1 vetted on UTEP Miners ($249), fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 87¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Incarnate Word Cardinals vs. UTEP Miners → UTEP Miners | Flaznorp $249 | $0 | 88¢ YES | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Rams vs. Commanders · starts Sun Nov 8, 6:00 PM
 
@@ -4089,68 +5959,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Spread: Rams (-10.5) → Commanders | takeormake $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Rams vs. Commanders → Commanders | Flaznorp $221, SnakeBall $17 | $0 | 34¢ YES | fails: only 2 vetted wallets with $239 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
 
-### Kyoto Hannaryz vs. Levanga Hokkaido · starts Mon Nov 9, 10:15 AM
-
-- Sun Nov 8, 3:18 PM (hourly): Kyoto Hannaryz vs. Levanga Hokkaido: Kalshi 52¢ → 48¢
-- Sun Nov 8, 2:14 PM (hourly): Kyoto Hannaryz vs. Levanga Hokkaido: first seen: 1 vetted on Kyoto Hannaryz ($383), fails: only 1 vetted wallet with $383 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $337 | $0 | 48¢ YES | fails: only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $383 | $0 | 52¢ YES | fails: only 1 vetted wallet with $383 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Lakers vs. Pistons · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 5:14 PM (hourly): Spread: Pistons (-7.5): Kalshi 41¢ → 42¢
-- Sun Nov 8, 5:14 PM (hourly): Lakers vs. Pistons: first seen: 1 vetted on Pistons ($666), fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 41¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 40¢ → 42¢
-- Sun Nov 8, 3:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 47¢ → 46¢
-- Sun Nov 8, 2:14 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 49¢ → 47¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Pistons (-7.5): Kalshi matched at 40¢
-- Sun Nov 8, 1:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi matched at 49¢
-- Sun Nov 8, 10:24 AM (hourly): Lakers vs. Pistons: O/U 222.5: first seen: 1 vetted on Over ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Pistons (-7.5): first seen: 1 vetted on Pistons ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 42¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons → Pistons | Flaznorp $666 | $0 | 64¢ YES | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $100 | $0 | 42¢ YES | fails: only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 47¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $85 | $0 | 49¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Texans vs. Chargers · starts Sun Nov 8, 9:05 PM
-
-- Sun Nov 8, 4:18 PM (hourly): Spread: Texans (-5.5): first seen: 1 vetted on Texans ($24.0k), fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Spread: Texans (-4.5): all vetted wallets left Chargers
-- Sat Nov 7, 10:17 PM (hourly): Spread: Texans (-4.5): Kalshi matched at 46¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 6:14 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $26.1k | $0 | — | fails: only 1 vetted wallet with $26.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Texans (-5.5) → Texans | gmpm2 $24.0k | $0 | 50¢ YES | fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Texans (-4.5) → Chargers | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | 46¢ NO | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | — | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
 ### Vitória SC vs. FC Porto · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 5:14 PM (pregame): Will FC Porto win on 2026-11-08?: Kalshi 35¢ → 36¢
@@ -4220,43 +6028,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Spread: Saints (-2.5) → Saints | SnakeBall $518 | $0 | — | fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Browns vs. Saints → Saints | SnakeBall $206 | $0 | 62¢ YES | fails: only 1 vetted wallet with $206 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 55c |
 | Sat Nov 7, 6:15 PM | hourly | Browns vs. Saints: O/U 42.5 → Over | SnakeBall $111 | $0 | — | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
-### Cardinals vs. Seahawks · starts Sun Nov 8, 9:25 PM
-
-- Sun Nov 8, 10:24 AM (hourly): Cardinals vs. Seahawks: back: 1 vetted on Cardinals ($163), fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-7.5): all vetted wallets left Seahawks
-- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: O/U 42.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: all vetted wallets left Seahawks
-- Sat Nov 7, 11:14 PM (hourly): Cardinals vs. Seahawks: O/U 40.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-8.5): all vetted wallets left Cardinals
-- Sat Nov 7, 11:14 PM (hourly): Spread: Seahawks (-13.5): all vetted wallets left Seahawks
-- Sat Nov 7, 10:17 PM (hourly): Spread: Seahawks (-13.5): first seen: 1 vetted on Seahawks ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:17 PM (hourly): Cardinals vs. Seahawks: O/U 42.5: first seen: 1 vetted on Over ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:17 PM (hourly): Spread: Seahawks (-7.5): first seen: 1 vetted on Seahawks ($261), fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:17 PM (hourly): Cardinals vs. Seahawks: first seen: 1 vetted on Seahawks ($634), fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Cardinals vs. Seahawks → Cardinals | Flaznorp $163 | $0 | 22¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-7.5) → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks: O/U 42.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Cardinals vs. Seahawks: O/U 40.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-8.5) → Cardinals | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Seahawks (-13.5) → Seahawks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks: O/U 40.5 → Under | SnakeBall $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 40.5 line |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-13.5) → Seahawks | SnakeBall $16 | $0 | 36¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-8.5) → Cardinals | SnakeBall $72 | $0 | — | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 8.5 spread line |
-| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks: O/U 42.5 → Over | SnakeBall $90 | $0 | 40¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Seahawks (-7.5) → Seahawks | SnakeBall $261 | $0 | 53¢ YES | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Cardinals vs. Seahawks → Seahawks | SnakeBall $634 | $0 | 79¢ YES | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Cowboys vs. Colts · starts Sun Nov 8, 6:00 PM
 
@@ -4449,18 +6220,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Spread: Lions (-7.5) → Lions | SnakeBall $464 | $0 | 44¢ YES | fails: only 1 vetted wallet with $464 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Spread: Lions (-7.5) → Lions | SnakeBall $464 | $0 | — | fails: only 1 vetted wallet with $464 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Lions vs. Dolphins → Dolphins | Flaznorp $168 | $0 | 27¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Club Universitario de Deportes vs. CD Moquegua - Exact Score · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 
 ### Club Bolívar vs. Club The Strongest - Halftime Result · starts Sun Nov 8, 9:15 PM
 
@@ -4914,19 +6673,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | KFC Komárno vs. MFK Zemplín Michalovce: O/U 4.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 5:15 PM | hourly | KFC Komárno vs. MFK Zemplín Michalovce: O/U 3.5 → Over | Flaznorp $18 | $0 | 99¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 99c vs leaders 35c |
 | Sat Nov 7, 5:15 PM | hourly | KFC Komárno vs. MFK Zemplín Michalovce: O/U 4.5 → Over | Flaznorp $19 | $0 | 99¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 99c vs leaders 18c |
-
-### CS Herediano vs. Inter San Carlos - More Markets · starts Mon Nov 9, 12:30 AM
-
-- Sun Nov 8, 4:50 PM (hourly): CS Herediano vs. Inter San Carlos: O/U 2.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:50 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 3:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 2:14 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 1:18 PM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | CS Herediano vs. Inter San Carlos: O/U 2.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Sporting CP B vs. CD Tondela - More Markets · starts Sun Nov 8, 6:00 PM
 
@@ -5691,17 +7437,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 2:14 PM | hourly | CD Cuenca vs. Orense SC: Draw at halftime? → Yes | Flaznorp $25 | $0 | 34¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 1:18 PM | hourly | CD Cuenca vs. Orense SC: Draw at halftime? → Yes | Flaznorp $25 | $0 | 34¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Shimane Susanoo Magic vs. Toyama Grouses · starts Mon Nov 9, 10:05 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Shimane Susanoo Magic vs. Toyama Grouses: Kalshi 63¢ → 70¢
-- Sun Nov 8, 4:18 PM (hourly): Shimane Susanoo Magic vs. Toyama Grouses: first seen: 1 vetted on Shimane Susanoo Magic ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $43 | $0 | 70¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 61c |
-| Sun Nov 8, 4:50 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $43 | $0 | 70¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 70c vs leaders 61c |
-| Sun Nov 8, 4:18 PM | hourly | Shimane Susanoo Magic vs. Toyama Grouses → Shimane Susanoo Magic | Flaznorp $36 | $0 | 63¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Stade Brestois 29 vs. Olympique Lyonnais - More Markets · starts Sun Nov 8, 4:15 PM
 
 - Sun Nov 8, 4:18 PM (hourly): Spread: Olympique Lyonnais (-1.5): first seen: 1 vetted on Stade Brestois 29 ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
@@ -6309,20 +8044,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Will SC Freiburg win on 2026-11-08? → No | Flaznorp $743 | $0 | 35¢ NO | fails: only 1 vetted wallet with $743 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:15 PM | hourly | Will 1. FC Union Berlin win on 2026-11-08? → No | SnakeBall $42 | $0 | 86¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:15 PM | hourly | Will SC Freiburg win on 2026-11-08? → No | Flaznorp $743 | $0 | 35¢ NO | fails: only 1 vetted wallet with $743 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nagasaki Velca vs. Sendai 89ers · starts Mon Nov 9, 10:05 AM
-
-- Sun Nov 8, 4:50 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 69¢ → 72¢
-- Sun Nov 8, 4:18 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 70¢ → 69¢
-- Sun Nov 8, 3:18 PM (hourly): Nagasaki Velca vs. Sendai 89ers: Kalshi 72¢ → 70¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $240 | $0 | 72¢ YES | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
-| Sun Nov 8, 4:50 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $239 | $0 | 72¢ YES | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
-| Sun Nov 8, 4:18 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $227 | $0 | 69¢ YES | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $227 | $0 | 70¢ YES | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $240 | $0 | 72¢ YES | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
 
 ### OFI Crete vs. Atromitos Athinon · starts Sun Nov 8, 4:30 PM
 
@@ -9752,23 +11473,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 3:18 PM | pregame | Will Baniyas Club win on 2026-11-08? → Yes | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sun Nov 8, 2:14 PM | hourly | Will Baniyas Club win on 2026-11-08? → Yes | Flaznorp $11 | $0 | 30¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 26c |
 | Sun Nov 8, 1:18 PM | hourly | Will Baniyas Club win on 2026-11-08? → Yes | Flaznorp $10 | $0 | 27¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Richmond Spiders vs. Temple Owls · starts Sun Nov 8, 10:00 PM
-
-- Sun Nov 8, 2:14 PM (hourly): Richmond Spiders vs. Temple Owls: Kalshi 55¢ → 46¢
-- Sun Nov 8, 2:14 PM (hourly): Richmond Spiders vs. Temple Owls: majority flipped to Temple Owls ($283 vs $0)
-- Sun Nov 8, 10:24 AM (hourly): Richmond Spiders vs. Temple Owls: first seen: 1 vetted on Richmond Spiders ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-| Sun Nov 8, 4:50 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-| Sun Nov 8, 4:18 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-| Sun Nov 8, 3:18 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $290 | $0 | 46¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-| Sun Nov 8, 2:14 PM | hourly | Richmond Spiders vs. Temple Owls → Temple Owls | Flaznorp $283 | $0 | 46¢ YES | fails: only 1 vetted wallet with $283 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-| Sun Nov 8, 1:18 PM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Richmond Spiders vs. Temple Owls → Richmond Spiders | Flaznorp $11 | $0 | 55¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Crystal Palace vs. Charlton Athletic · starts Sun Nov 8, 2:00 PM
 
@@ -14116,27 +15820,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 5:17 AM | hourly | Will Suwon Bluewings win on 2026-11-08? → No | Flaznorp $20 | $0 | 30¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:17 AM | hourly | Will Suwon Bluewings vs. Yongin FC end in a draw? → Yes | Flaznorp $21 | $0 | 17¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Cerro Porteno vs. Recoleta FC - More Markets · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 10:24 AM (hourly): Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5: back: 1 vetted on Over ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Sat Nov 7, 11:14 PM (hourly): Cerro Porteno vs. Recoleta FC: O/U 4.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 4:50 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 4:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 3:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 2:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 1:18 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 11:14 AM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 10:24 AM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 11:14 PM | hourly | Cerro Porteno vs. Recoleta FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Cerro Porteno vs. Recoleta FC: O/U 4.5 → Over | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 8:16 PM | hourly | Cerro Porteno vs. Recoleta FC: Recoleta FC O/U 1.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Raufoss IL vs. Egersunds IK - More Markets · starts Sun Nov 8, 12:00 PM
 
 - Sun Nov 8, 10:24 AM (hourly): Raufoss IL vs. Egersunds IK: O/U 5.5: back: 1 vetted on Over ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
@@ -14877,94 +16560,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Exact Score: Zhejiang Zhiye FC 0 - 2 Henan FC? → No | Flaznorp $464 | $0 | — | fails: only 1 vetted wallet with $464 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
 | Sat Nov 7, 6:15 PM | hourly | Exact Score: Zhejiang Zhiye FC 0 - 2 Henan FC? → No | Flaznorp $463 | $0 | — | fails: only 1 vetted wallet with $463 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Sat Nov 7, 5:15 PM | hourly | Exact Score: Zhejiang Zhiye FC 0 - 2 Henan FC? → No | Flaznorp $462 | $0 | — | fails: only 1 vetted wallet with $462 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-
-### Club Atlético de Madrid vs. FC Barcelona - Exact Score · starts Sun Nov 8, 8:00 PM
-
-- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona?: back: 1 vetted on No ($170), fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona?: back: 1 vetted on No ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Sun Nov 8, 10:24 AM (hourly): Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona?: back: 1 vetted on No ($106), fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | Flaznorp $170 | $0 | — | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | Flaznorp $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | SnakeBall $221 | $0 | — | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270 | $0 | — | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 10:17 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | SnakeBall $221 | $0 | — | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270 | $0 | — | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 9:14 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 0 FC Barcelona? → No | Flaznorp $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 1 FC Barcelona? → No | SnakeBall $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 3 - 1 FC Barcelona? → No | SnakeBall $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 0 FC Barcelona? → No | SnakeBall $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 2 FC Barcelona? → No | SnakeBall $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 0 FC Barcelona? → No | SnakeBall $152 | $0 | — | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 4 FC Barcelona? → No | SnakeBall $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 3 FC Barcelona? → No | SnakeBall $240 | $0 | — | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 1 - 3 FC Barcelona? → No | SnakeBall $270, Flaznorp $169 | $0 | — | fails: only 2 vetted wallets with $438 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 2 - 3 FC Barcelona? → No | SnakeBall $339 | $0 | — | fails: only 1 vetted wallet with $339 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Exact Score: Club Atlético de Madrid 0 - 1 FC Barcelona? → No | SnakeBall $399 | $0 | — | fails: only 1 vetted wallet with $399 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
 
 ### Bryne FK vs. Kongsvinger IL Toppfotball - More Markets · starts Sun Nov 8, 12:00 PM
 
@@ -38308,166 +39903,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 5:18 PM | hourly | Costa do Sauipe: Facundo Acosta vs Marco Cecchinato → Facundo Acosta | ferrariChampions2026 $1.7k | $0 | 71¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 4:17 PM | hourly | Costa do Sauipe: Facundo Acosta vs Marco Cecchinato → Facundo Acosta | ferrariChampions2026 $1.7k | $0 | 71¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 
-### FC Eindhoven vs. Jong Ajax Amsterdam - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 6:18 PM (pregame): FC Eindhoven vs. Jong Ajax Amsterdam: O/U 3.5: first seen: 1 vetted on Under ($375), fails: only 1 vetted wallet with $375 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | FC Eindhoven vs. Jong Ajax Amsterdam: O/U 3.5 → Under | ferrariChampions2026 $375 | $0 | 52¢ NO | fails: only 1 vetted wallet with $375 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### AS Nancy-Lorraine vs. FC Sochaux-Montbéliard - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 5:18 PM (hourly): Spread: AS Nancy-Lorraine (-1.5): first seen: 1 vetted on AS Nancy-Lorraine ($544), fails: only 1 vetted wallet with $544 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Spread: AS Nancy-Lorraine (-1.5) → AS Nancy-Lorraine | ferrariChampions2026 $575 | $0 | 34¢ YES | fails: only 1 vetted wallet with $575 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Spread: AS Nancy-Lorraine (-1.5) → AS Nancy-Lorraine | ferrariChampions2026 $544 | $0 | 34¢ YES | fails: only 1 vetted wallet with $544 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### VVV Venlo vs. Jong PSV Eindhoven · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 6:18 PM (pregame): Will VVV Venlo win on 2026-11-06?: first seen: 1 vetted on Yes ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Will VVV Venlo win on 2026-11-06? → Yes | tradecraft $15 | $0 | 62¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Heracles Almelo vs. Roda JC Kerkrade - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 5:18 PM (hourly): Spread: Heracles Almelo (-2.5): Kalshi 23¢ → 22¢
-- Fri Nov 6, 4:17 PM (hourly): Spread: Heracles Almelo (-2.5): first seen: 1 vetted on Heracles Almelo ($125), fails: only 1 vetted wallet with $125 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $117 | $0 | 22¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $114 | $0 | 22¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $125 | $0 | 23¢ YES | fails: only 1 vetted wallet with $125 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Helmond Sport vs. FC Volendam - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 6:18 PM (pregame): Helmond Sport vs. FC Volendam: O/U 4.5: Kalshi 31¢ → 30¢
-- Fri Nov 6, 5:18 PM (hourly): Helmond Sport vs. FC Volendam: O/U 4.5: first seen: 1 vetted on Over ($2.1k), fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Helmond Sport vs. FC Volendam: O/U 4.5 → Over | RN1 $2.1k | $0 | 30¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Helmond Sport vs. FC Volendam: O/U 4.5 → Over | RN1 $2.1k | $0 | 31¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Willem II Tilburg vs. PEC Zwolle - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 10:11 AM (hourly): Willem II Tilburg vs. PEC Zwolle: O/U 0.5: first seen: 1 vetted on Under ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 5, 11:17 PM (hourly): Willem II Tilburg vs. PEC Zwolle: O/U 4.5: first seen: 1 vetted on Under ($273), fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 5, 11:17 PM (hourly): Willem II Tilburg vs. PEC Zwolle: O/U 5.5: first seen: 1 vetted on Under ($272), fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | pregame | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $278 | $0 | 93¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 6:18 PM | pregame | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 5:18 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $278 | $0 | 93¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 5:18 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 4:17 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 4:17 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 3:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 3:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 2:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 2:16 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 1:13 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 1:13 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 12:20 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:20 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 12:20 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 11:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $279 | $0 | 93¢ NO | fails: only 1 vetted wallet with $279 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 11:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $285 | $0 | 83¢ NO | fails: only 1 vetted wallet with $285 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 83c vs leaders 78c |
-| Fri Nov 6, 10:11 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 0.5 → Under | SnakeBall $1 | $0 | 6¢ NO | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:11 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $278 | $0 | 93¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 93c vs leaders 89c |
-| Fri Nov 6, 10:11 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $283 | $0 | 82¢ NO | fails: only 1 vetted wallet with $283 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
-| Fri Nov 6, 9:13 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $278 | $0 | 92¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
-| Fri Nov 6, 9:13 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $283 | $0 | 82¢ NO | fails: only 1 vetted wallet with $283 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 82c vs leaders 78c |
-| Fri Nov 6, 8:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $273 | $0 | 92¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
-| Fri Nov 6, 8:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $278 | $0 | 81¢ NO | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
-| Fri Nov 6, 7:18 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $275 | $0 | — | fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 7:18 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $278 | $0 | — | fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 6:15 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $273 | $0 | — | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 6:15 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $276 | $0 | — | fails: only 1 vetted wallet with $276 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 5:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $273 | $0 | — | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 5:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $273 | $0 | — | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 4:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $273 | $0 | 79¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:11 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $271 | $0 | 79¢ NO | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:11 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:13 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $271 | $0 | 79¢ NO | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:13 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $271 | $0 | 79¢ NO | fails: only 1 vetted wallet with $271 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $273 | $0 | 79¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 11:17 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 4.5 → Under | SnakeBall $273 | $0 | 79¢ NO | fails: only 1 vetted wallet with $273 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 11:17 PM | hourly | Willem II Tilburg vs. PEC Zwolle: O/U 5.5 → Under | SnakeBall $272 | $0 | 91¢ NO | fails: only 1 vetted wallet with $272 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### AS Nancy-Lorraine vs. FC Sochaux-Montbéliard · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 6:18 PM (pregame): Will FC Sochaux-Montbéliard win on 2026-11-06?: Kalshi 85¢ → 86¢
-- Fri Nov 6, 3:16 PM (hourly): Will FC Sochaux-Montbéliard win on 2026-11-06?: first seen: 1 vetted on No ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Will FC Sochaux-Montbéliard win on 2026-11-06? → No | SnakeBall $26 | $0 | 86¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Will FC Sochaux-Montbéliard win on 2026-11-06? → No | SnakeBall $26 | $0 | 85¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Will FC Sochaux-Montbéliard win on 2026-11-06? → No | SnakeBall $26 | $0 | 85¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | Will FC Sochaux-Montbéliard win on 2026-11-06? → No | SnakeBall $26 | $0 | 85¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Grenoble Foot 38 vs. Stade de Reims - More Markets · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 6:18 PM (pregame): Spread: Stade de Reims (-1.5): Kalshi 74¢ → 73¢
-- Fri Nov 6, 5:18 PM (hourly): Spread: Stade de Reims (-1.5): Kalshi 75¢ → 74¢
-- Fri Nov 6, 4:17 PM (hourly): Spread: Stade de Reims (-1.5): Kalshi 74¢ → 75¢
-- Fri Nov 6, 1:13 PM (hourly): Spread: Stade de Reims (-1.5): first seen: 1 vetted on Grenoble Foot 38 ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $26 | $0 | 73¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 75¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Willem II Tilburg vs. PEC Zwolle - Exact Score · starts Fri Nov 6, 7:00 PM
-
-- Fri Nov 6, 4:17 PM (hourly): Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 4:17 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 3:16 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 2:16 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 1:13 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 12:20 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 11:14 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 10:11 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 9:13 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 8:14 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 7:18 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 6:15 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Fri Nov 6, 5:14 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 4:14 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 3:11 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 2:13 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 1:16 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 12:14 AM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Thu Nov 5, 11:17 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Thu Nov 5, 10:18 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Thu Nov 5, 9:14 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-| Thu Nov 5, 8:18 PM | hourly | Exact Score: Willem II Tilburg 3 - 1 PEC Zwolle? → No | SnakeBall $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; market type not supported |
-
 ### Hamburger SV vs. Borussia Mönchengladbach - Exact Score · starts Fri Nov 6, 7:30 PM
 
 - Fri Nov 6, 4:17 PM (hourly): Exact Score: Hamburger SV 1 - 3 Borussia Mönchengladbach?: all vetted wallets left No
@@ -38515,15 +39950,15 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 0-0 (9 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 0-0 (3 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 0-0 (13 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 0-0 (5 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 0-0 (4 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 5-4 (19 pending) | benched |
-| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 (3 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 7-4 (20 pending) | benched |
+| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 (4 pending) | benched |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 4-5 (10 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 88-74 (29 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 88-74 (30 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
 ## Recent skips
