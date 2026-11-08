@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 11:54 AM. Bankroll **$66.02** (start $100): $55.80 cash + open trades at cost.
+Updated Sun Nov 8, 12:23 PM. Bankroll **$66.02** (start $100): $55.80 cash + open trades at cost.
 
 Record: 48 won, 37 lost, 9 sold early. Realized P&L $-33.98. Open: 1.
 
@@ -33807,17 +33807,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 1:13 PM | pregame | FC Goa vs. Bengaluru FC: O/U 5.5 → Under | SnakeBall $512 | $0 | 96¢ NO | fails: only 1 vetted wallet with $512 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 12:20 PM | hourly | FC Goa vs. Bengaluru FC: O/U 5.5 → Under | SnakeBall $395 | $0 | 96¢ NO | fails: only 1 vetted wallet with $395 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi · starts Fri Nov 6, 12:20 PM
-
-- Fri Nov 6, 12:20 PM (hourly): Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi: Kalshi 83¢ → 81¢
-- Fri Nov 6, 9:13 AM (hourly): Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi: first seen: 1 vetted on Robin Montgomery ($4.8k), fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 12:20 PM | hourly | Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi → Robin Montgomery | ferrariChampions2026 $4.5k | $0 | 81¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:11 AM | pregame | Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi → Robin Montgomery | ferrariChampions2026 $4.8k | $0 | 83¢ YES | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 AM | hourly | Chennai Open: Robin Montgomery vs Maaya Rajeshwaran Revathi → Robin Montgomery | ferrariChampions2026 $4.8k | $0 | 83¢ YES | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Rolex Paris Masters: Ben Shelton vs Tommy Paul · starts Fri Nov 6, 1:00 PM
 
 - Fri Nov 6, 8:14 AM (hourly): Rolex Paris Masters: Ben Shelton vs Tommy Paul: Kalshi matched at 54¢
@@ -33860,24 +33849,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 10:18 PM | hourly | Exact Score: CD Castellón 0 - 0 SD Eibar? → Yes | SnakeBall $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
 | Thu Nov 5, 9:14 PM | hourly | Exact Score: CD Castellón 0 - 0 SD Eibar? → Yes | SnakeBall $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
 | Thu Nov 5, 8:18 PM | hourly | Exact Score: CD Castellón 0 - 0 SD Eibar? → Yes | SnakeBall $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
-
-### Maccabi Tel Aviv FC vs. Maccabi Petah Tikva FC · starts Fri Nov 6, 12:00 PM
-
-- Fri Nov 6, 11:14 AM (pregame): Will Maccabi Tel Aviv FC win on 2026-11-06?: first seen: 1 vetted on No ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 11:14 AM | pregame | Will Maccabi Tel Aviv FC win on 2026-11-06? → No | tradecraft $23 | $0 | 16¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala · starts Fri Nov 6, 12:10 PM
-
-- Fri Nov 6, 9:13 AM (hourly): Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala: first seen: 1 vetted on Alexandra Eala ($739), fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 11:14 AM | pregame | Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala | ferrariChampions2026 $739 | $0 | 79¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:11 AM | hourly | Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala | ferrariChampions2026 $739 | $0 | 79¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 AM | hourly | Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala | ferrariChampions2026 $739 | $0 | 79¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
 
 
 ## Time-out
