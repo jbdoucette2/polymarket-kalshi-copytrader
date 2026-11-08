@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T03:12:08Z",
+  "updated": "2026-11-08T04:10:32Z",
   "games": [
     {
       "event_slug": "epl-cry-liv-2026-11-08",
@@ -27,9 +27,9 @@
       "start": "2026-11-08T18:00:00Z",
       "check_at": "2026-11-08T17:45:00Z",
       "passing": 0,
-      "near": 7,
-      "best": "Jets vs. Chiefs → Jets ($9.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 6,
+      "best": "Jets vs. Chiefs → Jets ($12.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-nyg-phi-2026-11-08",
@@ -78,8 +78,8 @@
       "check_at": "2026-11-08T21:10:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Raiders vs. 49ers → Raiders ($568, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raiders vs. 49ers → Raiders ($647, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-tb-chi-2026-11-09",
