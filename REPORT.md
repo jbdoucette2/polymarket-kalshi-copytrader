@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 1:38 PM. Bankroll **$73.80** (start $100): $53.33 cash + open trades at cost.
+Updated Sun Nov 8, 1:54 PM. Bankroll **$73.80** (start $100): $53.33 cash + open trades at cost.
 
 Record: 49 won, 37 lost, 9 sold early. Realized P&L $-26.20. Open: 2.
 
@@ -3110,6 +3110,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Sunderland AFC vs. Chelsea FC · starts Sun Nov 8, 2:00 PM
 
+- Sun Nov 8, 1:54 PM (verify): Will Chelsea FC win on 2026-11-08?: 15-min check: still passes (2 wallets, $1744.8k for vs $91.1k against); holding
 - Sun Nov 8, 1:18 PM (pregame): Will Sunderland AFC vs. Chelsea FC end in a draw?: Kalshi 75¢ → 74¢
 - Sun Nov 8, 1:18 PM (pregame): Will Sunderland AFC win on 2026-11-08?: Kalshi 77¢ → 74¢
 - Sun Nov 8, 1:18 PM (pregame): Will Chelsea FC win on 2026-11-08?: now passes
@@ -5531,6 +5532,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Crystal Palace FC vs. Liverpool FC · starts Sun Nov 8, 2:00 PM
 
+- Sun Nov 8, 1:54 PM (verify): Will Liverpool FC win on 2026-11-08?: 15-min check: still passes (2 wallets, $24.6k for vs $0 against); holding
 - Sun Nov 8, 1:18 PM (pregame): Will Crystal Palace FC win on 2026-11-08?: first seen: 1 vetted on No ($345), fails: only 1 vetted wallet with $345 (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 8, 1:18 PM (pregame): Will Liverpool FC win on 2026-11-08?: Kalshi 38¢ → 37¢
 - Sun Nov 8, 11:14 AM (hourly): Will Liverpool FC win on 2026-11-08?: Flaznorp added $1.5k on No
