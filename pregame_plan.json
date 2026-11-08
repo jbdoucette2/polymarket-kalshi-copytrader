@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T05:13:56Z",
+  "updated": "2026-11-08T06:12:19Z",
   "games": [
     {
       "event_slug": "epl-cry-liv-2026-11-08",
@@ -38,8 +38,8 @@
       "check_at": "2026-11-08T21:10:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Raiders vs. 49ers → Raiders ($670, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raiders vs. 49ers → Raiders ($671, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $671 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
