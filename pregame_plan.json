@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-08T21:12:03Z",
+  "updated": "2026-11-08T22:12:30Z",
   "games": [
     {
-      "event_slug": "nfl-lv-sf-2026-11-08",
-      "game": "Raiders vs. 49ers",
-      "start": "2026-11-08T21:25:00Z",
-      "check_at": "2026-11-08T21:10:00Z",
-      "passing": 1,
-      "near": 0,
-      "best": "Raiders vs. 49ers → 49ers ($59.6k, 2 wallets)",
-      "status": "passes"
+      "event_slug": "nba-lal-det-2026-11-08",
+      "game": "Lakers vs. Pistons",
+      "start": "2026-11-08T23:00:00Z",
+      "check_at": "2026-11-08T22:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Pistons (-7.5) → Lakers ($5.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-tb-chi-2026-11-09",
@@ -17,7 +17,7 @@
       "start": "2026-11-09T01:20:00Z",
       "check_at": "2026-11-09T01:05:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 3,
       "best": "Buccaneers vs. Bears → Buccaneers ($18.7k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+)"
     }

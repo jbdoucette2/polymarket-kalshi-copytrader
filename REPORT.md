@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 9:52 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
+Updated Sun Nov 8, 10:12 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
 
 Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
@@ -112,30 +112,30 @@ Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1448 settled so far, 69 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1510 settled so far, 69 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1448 | 48% | 49¢ | -1 pts | -6% |
-| Rules: one rule away | 1336 | 48% | 49¢ | -1 pts | -5% |
-| Rules: passed every rule | 112 | 48% | 52¢ | -3 pts | -10% |
-| Price: 40–60¢ | 546 | 48% | 49¢ | -1 pts | -1% |
-| Price: 60–80¢ | 260 | 69% | 69¢ | +0 pts | -1% |
-| Price: 80¢+ | 168 | 91% | 88¢ | +3 pts | +3% |
-| Price: under 40¢ | 474 | 21% | 24¢ | -3 pts | -17% |
-| Wallets on the pick: 1 wallet | 1110 | 47% | 49¢ | -1 pts | -7% |
-| Wallets on the pick: 2 wallets | 266 | 47% | 50¢ | -2 pts | -8% |
+| **all** | 1510 | 47% | 49¢ | -1 pts | -7% |
+| Rules: one rule away | 1397 | 47% | 49¢ | -1 pts | -7% |
+| Rules: passed every rule | 113 | 48% | 51¢ | -4 pts | -11% |
+| Price: 40–60¢ | 563 | 48% | 49¢ | -1 pts | -2% |
+| Price: 60–80¢ | 273 | 70% | 69¢ | +1 pts | +0% |
+| Price: 80¢+ | 170 | 91% | 88¢ | +3 pts | +3% |
+| Price: under 40¢ | 504 | 20% | 24¢ | -4 pts | -20% |
+| Wallets on the pick: 1 wallet | 1171 | 47% | 48¢ | -2 pts | -8% |
+| Wallets on the pick: 2 wallets | 267 | 47% | 50¢ | -2 pts | -9% |
 | Wallets on the pick: 3+ wallets | 72 | 60% | 50¢ | +10 pts | +19% |
-| Leader money: $20k+ | 52 | 62% | 58¢ | +4 pts | +3% |
-| Leader money: $5k–20k | 146 | 51% | 55¢ | -5 pts | -10% |
-| Leader money: under $5k | 1250 | 47% | 48¢ | -1 pts | -6% |
-| Market type: draw | 72 | 51% | 54¢ | -3 pts | -21% |
-| Market type: moneyline | 175 | 50% | 52¢ | -2 pts | -10% |
-| Market type: soccer win/lose | 281 | 52% | 52¢ | -0 pts | -3% |
-| Market type: spread | 383 | 46% | 49¢ | -3 pts | -9% |
-| Market type: total | 537 | 46% | 46¢ | +0 pts | -1% |
-| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 43 | 40% | 38¢ | +1 pts | +2% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1277 | 48% | 49¢ | -2 pts | -8% |
+| Leader money: $20k+ | 55 | 60% | 58¢ | +2 pts | -1% |
+| Leader money: $5k–20k | 152 | 50% | 55¢ | -5 pts | -10% |
+| Leader money: under $5k | 1303 | 47% | 48¢ | -1 pts | -7% |
+| Market type: draw | 76 | 53% | 55¢ | -2 pts | -20% |
+| Market type: moneyline | 179 | 50% | 52¢ | -3 pts | -11% |
+| Market type: soccer win/lose | 294 | 50% | 52¢ | -1 pts | -6% |
+| Market type: spread | 398 | 46% | 49¢ | -2 pts | -9% |
+| Market type: total | 563 | 45% | 45¢ | +0 pts | -3% |
+| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 50 | 36% | 38¢ | -2 pts | -8% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1332 | 47% | 49¢ | -2 pts | -9% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 22 | 59% | 53¢ | +6 pts | +20% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -143,16 +143,17 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Wallet | Games | Won | Avg price | Edge |
 | --- | --- | --- | --- | --- |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
-| primm | 24 | 58% | 51¢ | +8 pts |
-| gmpm2 | 14 | 64% | 57¢ | +7 pts |
-| monkeymashingkeyboard (benched) | 15 | 53% | 48¢ | +6 pts |
-| Flaznorp (benched) | 474 | 64% | 58¢ | +5 pts |
-| RN1 (benched) | 39 | 59% | 54¢ | +5 pts |
-| SnakeBall (benched) | 80 | 69% | 68¢ | +1 pts |
-| HomeRunHazard (benched) | 165 | 55% | 54¢ | +1 pts |
+| monkeymashingkeyboard (benched) | 19 | 58% | 49¢ | +9 pts |
+| primm | 26 | 58% | 51¢ | +7 pts |
+| Flaznorp (benched) | 484 | 64% | 58¢ | +6 pts |
+| RN1 (benched) | 41 | 59% | 54¢ | +5 pts |
+| gmpm2 | 19 | 58% | 55¢ | +3 pts |
+| HomeRunHazard (benched) | 171 | 56% | 55¢ | +2 pts |
+| SnakeBall (benched) | 84 | 69% | 67¢ | +2 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 20 | 50% | 56¢ | -6 pts |
 | keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 19 | 47% | 55¢ | -8 pts |
+| takeormake (benched) | 8 | 25% | 41¢ | -16 pts |
 
 ## Position changes
 
@@ -160,6 +161,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Buccaneers vs. Bears · starts Mon Nov 9, 1:20 AM
 
+- Sun Nov 8, 10:12 PM (hourly): Buccaneers vs. Bears: O/U 58.5: Kalshi matched at 20¢
+- Sun Nov 8, 10:12 PM (hourly): Buccaneers vs. Bears: O/U 48.5: Kalshi matched at 47¢
 - Sun Nov 8, 7:10 PM (hourly): Buccaneers vs. Bears: O/U 58.5: Kalshi matched at 21¢
 - Sun Nov 8, 7:10 PM (hourly): Buccaneers vs. Bears: O/U 48.5: Kalshi matched at 48¢
 - Sun Nov 8, 6:14 PM (hourly): Buccaneers vs. Bears: gmpm2 added $4.4k on Buccaneers
@@ -172,6 +175,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $219 | $0 | 20¢ YES | fails: only 1 vetted wallet with $219 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 9:12 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 9:12 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $224 | $0 | — | fails: only 1 vetted wallet with $224 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sun Nov 8, 9:12 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.4k | $0 | — | fails: only 1 vetted wallet with $4.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -201,6 +207,93 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Lakers vs. Pistons · starts Sun Nov 8, 11:00 PM
+
+- Sun Nov 8, 10:12 PM (pregame): Spread: Pistons (-7.5): Kalshi matched at 51¢
+- Sun Nov 8, 10:12 PM (pregame): Spread: Pistons (-7.5): gmpm2 added $1.3k on Lakers
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 229.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 227.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: all vetted wallets left Pistons
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 222.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 213.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 195.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 237.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 223.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 51¢
+- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): majority flipped to Lakers ($4.0k vs $0)
+- Sun Nov 8, 5:14 PM (hourly): Spread: Pistons (-7.5): Kalshi 41¢ → 42¢
+- Sun Nov 8, 5:14 PM (hourly): Lakers vs. Pistons: first seen: 1 vetted on Pistons ($666), fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 41¢
+- Sun Nov 8, 3:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 40¢ → 42¢
+- Sun Nov 8, 3:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 47¢ → 46¢
+- Sun Nov 8, 2:14 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 49¢ → 47¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Pistons (-7.5): Kalshi matched at 40¢
+- Sun Nov 8, 1:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi matched at 49¢
+- Sun Nov 8, 10:24 AM (hourly): Lakers vs. Pistons: O/U 222.5: first seen: 1 vetted on Over ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 10:24 AM (hourly): Spread: Pistons (-7.5): first seen: 1 vetted on Pistons ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 10:12 PM | pregame | Spread: Pistons (-7.5) → Lakers | gmpm2 $5.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $5.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 9:12 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | — | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 8:13 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 42¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons → Pistons | Flaznorp $666 | $0 | 64¢ YES | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $193 | $0 | — | fails: only 1 vetted wallet with $193 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $100 | $0 | 42¢ YES | fails: only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 47¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $85 | $0 | 49¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
 
@@ -317,90 +410,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 11:14 PM | hourly | Spread: Texans (-4.5) → Chargers | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 10:17 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | 46¢ NO | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 9:14 PM | hourly | Spread: Texans (-4.5) → Chargers | SnakeBall $207 | $0 | — | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Lakers vs. Pistons · starts Sun Nov 8, 11:00 PM
-
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 229.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 227.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: all vetted wallets left Pistons
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 222.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 213.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 195.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 237.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Lakers vs. Pistons: O/U 223.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 51¢
-- Sun Nov 8, 7:10 PM (hourly): Spread: Pistons (-7.5): majority flipped to Lakers ($4.0k vs $0)
-- Sun Nov 8, 5:14 PM (hourly): Spread: Pistons (-7.5): Kalshi 41¢ → 42¢
-- Sun Nov 8, 5:14 PM (hourly): Lakers vs. Pistons: first seen: 1 vetted on Pistons ($666), fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 42¢ → 41¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Pistons (-7.5): Kalshi 40¢ → 42¢
-- Sun Nov 8, 3:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 47¢ → 46¢
-- Sun Nov 8, 2:14 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi 49¢ → 47¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Pistons (-7.5): Kalshi matched at 40¢
-- Sun Nov 8, 1:18 PM (hourly): Lakers vs. Pistons: O/U 222.5: Kalshi matched at 49¢
-- Sun Nov 8, 10:24 AM (hourly): Lakers vs. Pistons: O/U 222.5: first seen: 1 vetted on Over ($80), fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 10:24 AM (hourly): Spread: Pistons (-7.5): first seen: 1 vetted on Pistons ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 9:12 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | — | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 8:13 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Pistons (-7.5) → Lakers | gmpm2 $4.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $194 | $0 | — | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 42¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Lakers vs. Pistons → Pistons | Flaznorp $666 | $0 | 64¢ YES | fails: only 1 vetted wallet with $666 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $193 | $0 | — | fails: only 1 vetted wallet with $193 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 195.5 → Under | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 195.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 213.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 213.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $188 | $0 | — | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $243 | $0 | — | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $99 | $0 | 41¢ YES | fails: only 1 vetted wallet with $99 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $100 | $0 | 42¢ YES | fails: only 1 vetted wallet with $100 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 229.5 → Under | Flaznorp $186 | $0 | — | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 229.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 237.5 → Under | Flaznorp $242 | $0 | — | fails: only 1 vetted wallet with $242 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $81 | $0 | 47¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 223.5 → Over | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 223.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $85 | $0 | 49¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $91 | $0 | — | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | — | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 222.5 → Over | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 10:24 AM | hourly | Lakers vs. Pistons: O/U 227.5 → Under | Flaznorp $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 227.5 line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Pistons (-7.5) → Pistons | Flaznorp $96 | $0 | 40¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### 76ers vs. Bulls · starts Sun Nov 8, 8:30 PM
 
@@ -39389,21 +39398,22 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 0-0 (15 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 0-0 (5 pending) | benched |
-| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 0-0 (5 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 0-1 (16 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-1 (3 pending) | benched |
+| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 1-2 (2 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 14-7 (11 pending) | benched |
-| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 (7 pending) | benched |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 4-5 (10 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 90-75 (29 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 16-8 (8 pending) | benched |
+| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 1-0 (7 pending) | benched |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 7-6 (7 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 96-75 (23 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
 ## Recent skips
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Sun Nov 8, 10:12 PM | Lakers vs. Pistons | Spread: Pistons (-7.5) → Lakers | only 1 vetted wallet with $5.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 9:12 PM | Packers vs. Patriots | Packers vs. Patriots: O/U 44.5 → Under | only 1 vetted wallet with $66.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sun Nov 8, 8:13 PM | 76ers vs. Bulls | Spread: 76ers (-9.5) → 76ers | only 1 vetted wallet with $388 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:13 PM | Texans vs. Chargers | Spread: Texans (-5.5) → Texans | only 1 vetted wallet with $27.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -39433,4 +39443,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Sun Nov 8, 5:14 PM | Real Sporting de Gijón vs. Real Valladolid CF | Will Real Sporting de Gijón win on 2026-11-08? → No | only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 5:14 PM | Real Sporting de Gijón vs. Real Valladolid CF | Will Real Valladolid CF win on 2026-11-08? → No | only 1 vetted wallet with $125 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 5:14 PM | FK Baltika Kaliningrad vs. FK Dinamo Makhachkala - More Markets | FK Baltika Kaliningrad vs. FK Dinamo Makhachkala: O/U 2.5 → Under | only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 5:14 PM | FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade - More Markets | FK Vojvodina Novi Sad vs. FK Crvena Zvezda Belgrade: O/U 1.5 → Under | only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
