@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 2:24 AM. Bankroll **$67.01** (start $100): $27.00 cash + open trades at cost.
+Updated Sun Nov 8, 2:37 AM. Bankroll **$67.01** (start $100): $27.00 cash + open trades at cost.
 
 Record: 46 won, 36 lost, 8 sold early. Realized P&L $-32.99. Open: 4.
 
@@ -30669,34 +30669,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 5, 6:13 PM | hourly | Heat vs. Warriors: O/U 235.5 → Under | ferrariChampions2026 $3.2k | $0 | — | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 235.5 line |
 | Thu Nov 5, 5:13 PM | hourly | Heat vs. Warriors: O/U 235.5 → Under | ferrariChampions2026 $3.2k | $0 | — | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 235.5 line |
 | Thu Nov 5, 4:18 PM | hourly | Heat vs. Warriors: O/U 235.5 → Under | ferrariChampions2026 $3.1k | $0 | — | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
-### Predators vs. Avalanche · starts Fri Nov 6, 2:30 AM
-
-- Fri Nov 6, 2:13 AM (pregame): Predators vs. Avalanche: O/U 5.5: Kalshi matched at 37¢
-- Thu Nov 5, 11:17 PM (hourly): Predators vs. Avalanche: Kalshi 65¢ → 35¢
-- Thu Nov 5, 11:17 PM (hourly): Predators vs. Avalanche: majority flipped to Predators ($83 vs $0)
-- Thu Nov 5, 10:18 PM (hourly): Predators vs. Avalanche: O/U 5.5: Kalshi matched at 39¢
-- Thu Nov 5, 4:18 PM (hourly): Predators vs. Avalanche: first seen: 1 vetted on Avalanche ($16.7k), fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 2:13 AM | pregame | Predators vs. Avalanche → Predators | SnakeBall $83 | $0 | 35¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:13 AM | pregame | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | 37¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Predators vs. Avalanche → Predators | SnakeBall $83 | $0 | 35¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | — | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 12:14 AM | hourly | Predators vs. Avalanche → Predators | SnakeBall $83 | $0 | 35¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 12:14 AM | hourly | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | 39¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 11:17 PM | hourly | Predators vs. Avalanche → Predators | SnakeBall $83 | $0 | 35¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 11:17 PM | hourly | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | 39¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:18 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.9k | $83 | 65¢ YES | fails: only 1 vetted wallet with $16.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 10:18 PM | hourly | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | 39¢ NO | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:14 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.9k | $83 | 65¢ YES | fails: only 1 vetted wallet with $16.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 9:14 PM | hourly | Predators vs. Avalanche: O/U 5.5 → Under | SnakeBall $249 | $0 | — | fails: only 1 vetted wallet with $249 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 5, 8:18 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.9k | $83 | 65¢ YES | fails: only 1 vetted wallet with $16.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 7:15 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.9k | $83 | 65¢ YES | fails: only 1 vetted wallet with $16.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 6:13 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.7k | $0 | 65¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 5:13 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.7k | $0 | 65¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 5, 4:18 PM | hourly | Predators vs. Avalanche → Avalanche | ferrariChampions2026 $16.7k | $0 | 65¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Alacranes de Durango vs. Leones Negros UDEG · starts Fri Nov 6, 3:05 AM
 
