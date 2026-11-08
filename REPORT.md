@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 5:22 PM. Bankroll **$61.29** (start $100): $21.30 cash + open trades at cost.
+Updated Sun Nov 8, 5:38 PM. Bankroll **$61.29** (start $100): $21.30 cash + open trades at cost.
 
 Record: 50 won, 39 lost, 9 sold early. Realized P&L $-38.71. Open: 4.
 
@@ -38490,52 +38490,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Fri Nov 6, 5:18 PM | hourly | Exact Score: SK Rapid 1 - 2 Wolfsberger AC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
 | Fri Nov 6, 4:17 PM | hourly | Exact Score: SK Rapid 1 - 2 Wolfsberger AC? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; market type not supported |
-
-### SG Dynamo Dresden vs. SpVgg Greuther Fürth - Exact Score · starts Fri Nov 6, 5:30 PM
-
-- Fri Nov 6, 5:18 PM (pregame): Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 5:18 PM | pregame | Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 4:17 PM | hourly | Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth? → Yes | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 6, 3:16 PM | hourly | Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth? → Yes | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 6, 2:16 PM | hourly | Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth? → Yes | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 6, 1:13 PM | hourly | Exact Score: SG Dynamo Dresden 2 - 0 SpVgg Greuther Fürth? → Yes | SnakeBall $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### SG Dynamo Dresden vs. SpVgg Greuther Fürth - More Markets · starts Fri Nov 6, 5:30 PM
-
-- Fri Nov 6, 1:13 PM (hourly): SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5: first seen: 1 vetted on Under ($4), fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 5:18 PM | pregame | SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under | SnakeBall $18 | $0 | 6¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under | SnakeBall $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under | SnakeBall $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under | SnakeBall $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | SG Dynamo Dresden vs. SpVgg Greuther Fürth: O/U 0.5 → Under | SnakeBall $4 | $0 | 6¢ NO | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Eintracht Braunschweig vs. FC Energie Cottbus · starts Fri Nov 6, 5:30 PM
-
-- Fri Nov 6, 5:18 PM (pregame): Will Eintracht Braunschweig vs. FC Energie Cottbus end in a draw?: Kalshi 78¢ → 77¢
-- Fri Nov 6, 4:17 PM (hourly): Will Eintracht Braunschweig vs. FC Energie Cottbus end in a draw?: first seen: 1 vetted on No ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 5:18 PM | pregame | Will Eintracht Braunschweig vs. FC Energie Cottbus end in a draw? → No | SnakeBall $51 | $0 | 77¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Will Eintracht Braunschweig vs. FC Energie Cottbus end in a draw? → No | SnakeBall $21 | $0 | 78¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SG Dynamo Dresden vs. SpVgg Greuther Fürth · starts Fri Nov 6, 5:30 PM
-
-- Fri Nov 6, 1:13 PM (hourly): Will SpVgg Greuther Fürth win on 2026-11-06?: first seen: 1 vetted on Yes ($661), fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 5:18 PM | pregame | Will SpVgg Greuther Fürth win on 2026-11-06? → Yes | SnakeBall $661 | $0 | 26¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Will SpVgg Greuther Fürth win on 2026-11-06? → Yes | SnakeBall $661 | $0 | 26¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | Will SpVgg Greuther Fürth win on 2026-11-06? → Yes | SnakeBall $661 | $0 | 26¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | Will SpVgg Greuther Fürth win on 2026-11-06? → Yes | SnakeBall $661 | $0 | 26¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | Will SpVgg Greuther Fürth win on 2026-11-06? → Yes | SnakeBall $661 | $0 | 26¢ YES | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Willem II Tilburg vs. PEC Zwolle - Exact Score · starts Fri Nov 6, 7:00 PM
 
