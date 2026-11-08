@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 10:54 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
+Updated Sun Nov 8, 11:10 PM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
 
 Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
@@ -112,30 +112,30 @@ Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1510 settled so far, 69 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1534 settled so far, 69 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1510 | 47% | 49¢ | -1 pts | -7% |
-| Rules: one rule away | 1397 | 47% | 49¢ | -1 pts | -7% |
+| **all** | 1534 | 47% | 49¢ | -1 pts | -7% |
+| Rules: one rule away | 1421 | 47% | 48¢ | -1 pts | -6% |
 | Rules: passed every rule | 113 | 48% | 51¢ | -4 pts | -11% |
-| Price: 40–60¢ | 563 | 48% | 49¢ | -1 pts | -2% |
-| Price: 60–80¢ | 273 | 70% | 69¢ | +1 pts | +0% |
-| Price: 80¢+ | 170 | 91% | 88¢ | +3 pts | +3% |
-| Price: under 40¢ | 504 | 20% | 24¢ | -4 pts | -20% |
-| Wallets on the pick: 1 wallet | 1171 | 47% | 48¢ | -2 pts | -8% |
+| Price: 40–60¢ | 566 | 48% | 49¢ | -1 pts | -2% |
+| Price: 60–80¢ | 278 | 70% | 69¢ | +1 pts | +0% |
+| Price: 80¢+ | 171 | 91% | 88¢ | +3 pts | +3% |
+| Price: under 40¢ | 519 | 20% | 24¢ | -3 pts | -19% |
+| Wallets on the pick: 1 wallet | 1195 | 47% | 48¢ | -2 pts | -8% |
 | Wallets on the pick: 2 wallets | 267 | 47% | 50¢ | -2 pts | -9% |
 | Wallets on the pick: 3+ wallets | 72 | 60% | 50¢ | +10 pts | +19% |
 | Leader money: $20k+ | 55 | 60% | 58¢ | +2 pts | -1% |
 | Leader money: $5k–20k | 152 | 50% | 55¢ | -5 pts | -10% |
-| Leader money: under $5k | 1303 | 47% | 48¢ | -1 pts | -7% |
-| Market type: draw | 76 | 53% | 55¢ | -2 pts | -20% |
-| Market type: moneyline | 179 | 50% | 52¢ | -3 pts | -11% |
-| Market type: soccer win/lose | 294 | 50% | 52¢ | -1 pts | -6% |
-| Market type: spread | 398 | 46% | 49¢ | -2 pts | -9% |
-| Market type: total | 563 | 45% | 45¢ | +0 pts | -3% |
+| Leader money: under $5k | 1327 | 47% | 47¢ | -1 pts | -6% |
+| Market type: draw | 79 | 54% | 56¢ | -1 pts | -18% |
+| Market type: moneyline | 180 | 50% | 52¢ | -2 pts | -10% |
+| Market type: soccer win/lose | 296 | 50% | 52¢ | -1 pts | -6% |
+| Market type: spread | 400 | 46% | 49¢ | -3 pts | -10% |
+| Market type: total | 579 | 45% | 45¢ | +0 pts | -2% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 50 | 36% | 38¢ | -2 pts | -8% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1332 | 47% | 49¢ | -2 pts | -9% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1356 | 47% | 49¢ | -2 pts | -8% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 22 | 59% | 53¢ | +6 pts | +20% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -145,11 +145,11 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | monkeymashingkeyboard (benched) | 19 | 58% | 49¢ | +9 pts |
 | primm | 26 | 58% | 51¢ | +7 pts |
-| Flaznorp (benched) | 484 | 64% | 58¢ | +6 pts |
-| RN1 (benched) | 41 | 59% | 54¢ | +5 pts |
+| Flaznorp (benched) | 498 | 64% | 58¢ | +6 pts |
 | gmpm2 | 19 | 58% | 55¢ | +3 pts |
-| HomeRunHazard (benched) | 171 | 56% | 55¢ | +2 pts |
-| SnakeBall (benched) | 84 | 69% | 67¢ | +2 pts |
+| HomeRunHazard (benched) | 175 | 56% | 54¢ | +2 pts |
+| RN1 (benched) | 44 | 55% | 54¢ | +0 pts |
+| SnakeBall (benched) | 90 | 68% | 68¢ | +0 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 20 | 50% | 56¢ | -6 pts |
 | keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
@@ -175,6 +175,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 11:10 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $219 | $0 | 20¢ YES | fails: only 1 vetted wallet with $219 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:10 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:10 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears: O/U 58.5 → Over | primm $219 | $0 | 20¢ YES | fails: only 1 vetted wallet with $219 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears → Buccaneers | gmpm2 $18.7k | $0 | 29¢ YES | fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:12 PM | hourly | Buccaneers vs. Bears: O/U 48.5 → Over | primm $4.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $4.3k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -207,6 +210,196 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Nets vs. Mavericks · starts Mon Nov 9, 12:30 AM
+
+- Sun Nov 8, 11:10 PM (hourly): Spread: Mavericks (-8.5): back: 1 vetted on Nets ($12.9k), fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 11:10 PM (hourly): Spread: Mavericks (-7.5): first seen: 1 vetted on Nets ($65.4k), fails: only 1 vetted wallet with $65.4k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-33.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 203.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-17.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 207.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 211.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 221.5: all vetted wallets left Under
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-11.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-23.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-37.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 237.5: all vetted wallets left Over
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-21.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-10.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-9.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-25.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-39.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-8.5): all vetted wallets left Mavericks
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-29.5): all vetted wallets left Nets
+- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-19.5): all vetted wallets left Nets
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-8.5): first seen: 1 vetted on Mavericks ($168), fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-10.5): Kalshi 41¢ → 40¢
+- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-11.5): Kalshi 38¢ → 37¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-9.5): Kalshi 44¢ → 43¢
+- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-11.5): Kalshi 37¢ → 38¢
+- Sun Nov 8, 3:18 PM (hourly): Nets vs. Mavericks: Kalshi 27¢ → 26¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-10.5): Kalshi 42¢ → 41¢
+- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-11.5): Kalshi 40¢ → 37¢
+- Sun Nov 8, 2:14 PM (hourly): Nets vs. Mavericks: Kalshi 25¢ → 27¢
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-9.5): first seen: 1 vetted on Mavericks ($153), fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-10.5): first seen: 1 vetted on Mavericks ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-11.5): first seen: 1 vetted on Mavericks ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: Kalshi 78¢ → 25¢
+- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: majority flipped to Nets ($78 vs $0)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 11:10 PM | hourly | Spread: Mavericks (-8.5) → Nets | gmpm2 $12.9k | $0 | 55¢ NO | fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:10 PM | hourly | Spread: Mavericks (-7.5) → Nets | gmpm2 $65.4k | $0 | 52¢ NO | fails: only 1 vetted wallet with $65.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-33.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-17.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-23.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-37.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-21.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-25.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-39.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-29.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-19.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $146 | $0 | 43¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $303 | $0 | 40¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $85 | $0 | 26¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $148 | $0 | 43¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 40¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 43¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 38¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $84 | $0 | — | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $210 | $0 | — | fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $98 | $0 | — | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 27¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 27c vs leaders 23c |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 39.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $310 | $0 | — | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $153 | $0 | 44¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $167 | $0 | 42¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $264 | $0 | 40¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $78 | $0 | 25¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $18 | $0 | 78¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
+| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $17 | $0 | 78¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
 
 ### Lakers vs. Pistons · starts Sun Nov 8, 11:00 PM
 
@@ -2109,192 +2302,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: CF Estrela da Amadora O/U 0.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 4.5 → Over | Flaznorp $107 | $0 | 29¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 10:24 AM | hourly | CF Estrela da Amadora vs. Sport Lisboa e Benfica: O/U 3.5 → Under | Flaznorp $258 | $0 | 52¢ NO | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nets vs. Mavericks · starts Mon Nov 9, 12:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-33.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 203.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-17.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 207.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 211.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 221.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-11.5): all vetted wallets left Mavericks
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-23.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-37.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Nets vs. Mavericks: O/U 237.5: all vetted wallets left Over
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-21.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-10.5): all vetted wallets left Mavericks
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-9.5): all vetted wallets left Mavericks
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-25.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-39.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-8.5): all vetted wallets left Mavericks
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-29.5): all vetted wallets left Nets
-- Sun Nov 8, 7:10 PM (hourly): Spread: Mavericks (-19.5): all vetted wallets left Nets
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-8.5): first seen: 1 vetted on Mavericks ($168), fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-10.5): Kalshi 41¢ → 40¢
-- Sun Nov 8, 4:50 PM (hourly): Spread: Mavericks (-11.5): Kalshi 38¢ → 37¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-9.5): Kalshi 44¢ → 43¢
-- Sun Nov 8, 4:18 PM (hourly): Spread: Mavericks (-11.5): Kalshi 37¢ → 38¢
-- Sun Nov 8, 3:18 PM (hourly): Nets vs. Mavericks: Kalshi 27¢ → 26¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-10.5): Kalshi 42¢ → 41¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Mavericks (-11.5): Kalshi 40¢ → 37¢
-- Sun Nov 8, 2:14 PM (hourly): Nets vs. Mavericks: Kalshi 25¢ → 27¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-9.5): first seen: 1 vetted on Mavericks ($153), fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-10.5): first seen: 1 vetted on Mavericks ($167), fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Spread: Mavericks (-11.5): first seen: 1 vetted on Mavericks ($264), fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: Kalshi 78¢ → 25¢
-- Sun Nov 8, 1:18 PM (hourly): Nets vs. Mavericks: majority flipped to Nets ($78 vs $0)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-33.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-17.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-23.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-37.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-21.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-25.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-39.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-29.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Mavericks (-19.5) → Nets | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $146 | $0 | 43¢ YES | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $303 | $0 | 40¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 5:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $85 | $0 | 26¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $148 | $0 | 43¢ YES | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-8.5) → Mavericks | Flaznorp $168 | $0 | 47¢ YES | fails: only 1 vetted wallet with $168 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 40¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 4:50 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 43¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 38¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 4:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 237.5 → Over | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 237.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $69 | $0 | — | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $215 | $0 | — | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $317 | $0 | — | fails: only 1 vetted wallet with $317 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $322 | $0 | — | fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 3:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 26¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-37.5) → Nets | Flaznorp $84 | $0 | — | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 37.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $210 | $0 | — | fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $315 | $0 | — | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $332 | $0 | — | fails: only 1 vetted wallet with $332 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 29.5 spread line |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $150 | $0 | 44¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $169 | $0 | 41¢ YES | fails: only 1 vetted wallet with $169 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $257 | $0 | 37¢ YES | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $98 | $0 | — | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 2:14 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $82 | $0 | 27¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 27c vs leaders 23c |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 33.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 25.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-17.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 17.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 39.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-23.5) → Nets | Flaznorp $310 | $0 | — | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 23.5 spread line |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-9.5) → Mavericks | Flaznorp $153 | $0 | 44¢ YES | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-10.5) → Mavericks | Flaznorp $167 | $0 | 42¢ YES | fails: only 1 vetted wallet with $167 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Mavericks (-11.5) → Mavericks | Flaznorp $264 | $0 | 40¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Nets vs. Mavericks → Nets | Flaznorp $78 | $0 | 25¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-25.5) → Nets | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 11:14 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $18 | $0 | 78¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-33.5) → Nets | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 33.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 221.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 221.5 line |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 207.5 → Over | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 207.5 line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-39.5) → Nets | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 39.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-29.5) → Nets | Flaznorp $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 29.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 203.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 203.5 line |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks: O/U 211.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 211.5 line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-19.5) → Nets | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 19.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Spread: Mavericks (-21.5) → Nets | Flaznorp $92 | $0 | — | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 21.5 spread line |
-| Sun Nov 8, 10:24 AM | hourly | Nets vs. Mavericks → Mavericks | Flaznorp $17 | $0 | 78¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 75c |
 
 ### Goiás EC vs. AA Ponte Preta - Exact Score · starts Sun Nov 8, 10:15 PM
 
@@ -39311,28 +39318,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 3:16 PM | hourly | Spread: Hawks (-7.5) → Hawks | ferrariChampions2026 $255 | $0 | 52¢ YES | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 2:16 PM | hourly | Spread: Hawks (-6.5) → Wizards | ferrariChampions2026 $506 | $0 | 45¢ NO | fails: only 1 vetted wallet with $506 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### EC Vitória vs. Fluminense FC - Exact Score · starts Fri Nov 6, 11:00 PM
-
-- Fri Nov 6, 10:16 PM (pregame): Exact Score: EC Vitória 2 - 0 Fluminense FC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 10:16 PM | pregame | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 9:13 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 8:15 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 7:14 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 6:18 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 5:18 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 95¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 4:17 PM | hourly | Exact Score: EC Vitória 2 - 0 Fluminense FC? → No | SnakeBall $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### EC Vitória vs. Fluminense FC - More Markets · starts Fri Nov 6, 11:00 PM
-
-- Fri Nov 6, 10:16 PM (pregame): Spread: Fluminense FC (-1.5): first seen: 1 vetted on EC Vitória ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 10:16 PM | pregame | Spread: Fluminense FC (-1.5) → EC Vitória | SnakeBall $31 | $0 | 82¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### South Florida vs. East Carolina · starts Sat Nov 7, 12:30 AM
 
 - Fri Nov 6, 10:16 PM (hourly): Spread: East Carolina (-2.5): Kalshi 54¢ → 55¢
@@ -39387,15 +39372,15 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 0-1 (16 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-1 (3 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 4-5 (9 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-3 (1 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 1-2 (2 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 16-8 (8 pending) | benched |
-| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 1-0 (7 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 19-11 (2 pending) | benched |
+| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 1-1 (6 pending) | benched |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 7-6 (7 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 96-75 (23 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 98-77 (20 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
 ## Recent skips
