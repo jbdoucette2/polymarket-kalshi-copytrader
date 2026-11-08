@@ -1,13 +1,13 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 6:23 PM. Bankroll **$57.47** (start $100): $37.30 cash + open trades at cost.
+Updated Sun Nov 8, 6:38 PM. Bankroll **$55.30** (start $100): $55.30 cash + open trades at cost.
 
-Record: 51 won, 40 lost, 9 sold early. Realized P&L $-42.53. Open: 2.
+Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | open |  |
-| Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | open |  |
+| Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | won | $+8.14 |
+| Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | lost | $-10.31 |
 | Sun Nov 8, 3:18 PM | [CD Universidad Católica vs. CD Limache - More Markets](https://polymarket.com/event/chi1-cuc-cdl-2026-11-08-more-markets) | CD Universidad Católica vs. CD Limache: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,935) | 16 × 60¢ NO `KXCHLLDPTOTAL-26NOV08UCDEP-4` | won | $+6.13 |
 | Sun Nov 8, 3:18 PM | [Lillestrøm SK vs. Aalesunds FK](https://polymarket.com/event/nor-lil-aal-2026-11-08) | Will Lillestrøm SK win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,279) | 20 × 48¢ NO `KXELITESERIENGAME-26NOV08LSKAFK-LSK` | lost | $-9.95 |
 | Sun Nov 8, 2:14 PM | [Real Sociedad de Fútbol vs. Rayo Vallecano de Madrid](https://polymarket.com/event/lal-rso-ray-2026-11-08) | Will Real Sociedad de Fútbol win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($11,878) | 18 × 54¢ YES `KXLALIGAGAME-26NOV08RSORVC-RSO` | won | $+7.96 |
@@ -38333,32 +38333,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Fri Nov 6, 6:18 PM | pregame | Will VVV Venlo win on 2026-11-06? → Yes | tradecraft $15 | $0 | 62¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### FC Argeș Pitești vs. Dinamo 1948 · starts Fri Nov 6, 6:30 PM
-
-- Fri Nov 6, 6:18 PM (pregame): Will FC Argeș Pitești win on 2026-11-06?: Kalshi 85¢ → 84¢
-- Fri Nov 6, 5:18 PM (hourly): Will FC Argeș Pitești win on 2026-11-06?: Kalshi 83¢ → 85¢
-- Fri Nov 6, 4:17 PM (hourly): Will FC Argeș Pitești win on 2026-11-06?: first seen: 1 vetted on No ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Will FC Argeș Pitești win on 2026-11-06? → No | tradecraft $41 | $0 | 84¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Will FC Argeș Pitești win on 2026-11-06? → No | tradecraft $42 | $0 | 85¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Will FC Argeș Pitești win on 2026-11-06? → No | tradecraft $42 | $0 | 83¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SK Rapid vs. Wolfsberger AC · starts Fri Nov 6, 6:30 PM
-
-- Fri Nov 6, 5:18 PM (hourly): Will Wolfsberger AC win on 2026-11-06?: Kalshi 94¢ → 93¢
-- Fri Nov 6, 5:18 PM (hourly): Will SK Rapid win on 2026-11-06?: first seen: 2 vetted on No ($985), fails: only 2 vetted wallets with $985 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 4:17 PM (hourly): Will Wolfsberger AC win on 2026-11-06?: first seen: 1 vetted on No ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | pregame | Will Wolfsberger AC win on 2026-11-06? → No | tradecraft $80 | $0 | 93¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | pregame | Will SK Rapid win on 2026-11-06? → No | RN1 $975, tradecraft $20 | $0 | 20¢ NO | fails: only 2 vetted wallets with $994 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Will Wolfsberger AC win on 2026-11-06? → No | tradecraft $80 | $0 | 93¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Will SK Rapid win on 2026-11-06? → No | RN1 $975, tradecraft $10 | $0 | 20¢ NO | fails: only 2 vetted wallets with $985 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Will Wolfsberger AC win on 2026-11-06? → No | tradecraft $34 | $0 | 94¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Heracles Almelo vs. Roda JC Kerkrade - More Markets · starts Fri Nov 6, 7:00 PM
 
 - Fri Nov 6, 5:18 PM (hourly): Spread: Heracles Almelo (-2.5): Kalshi 23¢ → 22¢
@@ -38465,15 +38439,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 3:16 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 2:16 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 1:13 PM | hourly | Spread: Stade de Reims (-1.5) → Grenoble Foot 38 | SnakeBall $27 | $0 | 74¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### SK Rapid vs. Wolfsberger AC - Exact Score · starts Fri Nov 6, 6:30 PM
-
-- Fri Nov 6, 5:18 PM (hourly): Exact Score: SK Rapid 1 - 2 Wolfsberger AC?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 5:18 PM | hourly | Exact Score: SK Rapid 1 - 2 Wolfsberger AC? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 4:17 PM | hourly | Exact Score: SK Rapid 1 - 2 Wolfsberger AC? → Yes | SnakeBall $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; market type not supported |
 
 ### Willem II Tilburg vs. PEC Zwolle - Exact Score · starts Fri Nov 6, 7:00 PM
 
