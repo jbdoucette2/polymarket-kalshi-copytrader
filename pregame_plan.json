@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T04:10:32Z",
+  "updated": "2026-11-08T05:13:56Z",
   "games": [
     {
       "event_slug": "epl-cry-liv-2026-11-08",
@@ -12,24 +12,14 @@
       "status": "fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nfl-den-car-2026-11-08",
-      "game": "Broncos vs. Panthers",
-      "start": "2026-11-08T18:00:00Z",
-      "check_at": "2026-11-08T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Broncos (-2.5) → Panthers ($14.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nfl-nyj-kc-2026-11-08",
       "game": "Jets vs. Chiefs",
       "start": "2026-11-08T18:00:00Z",
       "check_at": "2026-11-08T17:45:00Z",
       "passing": 0,
-      "near": 6,
-      "best": "Jets vs. Chiefs → Jets ($12.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $12.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Jets vs. Chiefs → Jets ($12.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-nyg-phi-2026-11-08",
@@ -37,39 +27,9 @@
       "start": "2026-11-08T18:00:00Z",
       "check_at": "2026-11-08T17:45:00Z",
       "passing": 0,
-      "near": 5,
-      "best": "Spread: Giants (-2.5) → Giants ($33.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-la-was-2026-11-08",
-      "game": "Rams vs. Commanders",
-      "start": "2026-11-08T18:00:00Z",
-      "check_at": "2026-11-08T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Commanders (-3.5) → Commanders ($3.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-dal-ind-2026-11-08",
-      "game": "Cowboys vs. Colts",
-      "start": "2026-11-08T18:00:00Z",
-      "check_at": "2026-11-08T17:45:00Z",
-      "passing": 0,
       "near": 1,
-      "best": "Spread: Cowboys (-10.5) → Cowboys ($4.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-gb-ne-2026-11-08",
-      "game": "Packers vs. Patriots",
-      "start": "2026-11-08T21:25:00Z",
-      "check_at": "2026-11-08T21:10:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Packers vs. Patriots: O/U 44.5 → Under ($783, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Giants vs. Eagles → Giants ($14.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-lv-sf-2026-11-08",
@@ -78,18 +38,8 @@
       "check_at": "2026-11-08T21:10:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Raiders vs. 49ers → Raiders ($647, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-tb-chi-2026-11-09",
-      "game": "Buccaneers vs. Bears",
-      "start": "2026-11-09T01:20:00Z",
-      "check_at": "2026-11-09T01:05:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Bears (-6.5) → Bears ($828, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raiders vs. 49ers → Raiders ($670, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }

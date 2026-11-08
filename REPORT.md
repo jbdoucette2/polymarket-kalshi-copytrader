@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 4:53 AM. Bankroll **$76.27** (start $100): $66.02 cash + open trades at cost.
+Updated Sun Nov 8, 5:13 AM. Bankroll **$76.27** (start $100): $66.02 cash + open trades at cost.
 
 Record: 48 won, 36 lost, 9 sold early. Realized P&L $-23.73. Open: 1.
 
@@ -103,30 +103,30 @@ Record: 48 won, 36 lost, 9 sold early. Realized P&L $-23.73. Open: 1.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1091 settled so far, 58 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1102 settled so far, 59 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1091 | 50% | 50¢ | -0 pts | -4% |
-| Rules: one rule away | 993 | 50% | 50¢ | +0 pts | -3% |
-| Rules: passed every rule | 98 | 46% | 51¢ | -5 pts | -13% |
-| Price: 40–60¢ | 469 | 50% | 49¢ | +1 pts | +3% |
-| Price: 60–80¢ | 183 | 70% | 69¢ | +1 pts | +1% |
+| **all** | 1102 | 50% | 50¢ | +0 pts | -4% |
+| Rules: one rule away | 1003 | 50% | 50¢ | +1 pts | -3% |
+| Rules: passed every rule | 99 | 46% | 51¢ | -5 pts | -12% |
+| Price: 40–60¢ | 474 | 50% | 49¢ | +1 pts | +2% |
+| Price: 60–80¢ | 184 | 70% | 69¢ | +1 pts | +1% |
 | Price: 80¢+ | 129 | 91% | 88¢ | +3 pts | +4% |
-| Price: under 40¢ | 310 | 21% | 25¢ | -4 pts | -19% |
-| Wallets on the pick: 1 wallet | 772 | 50% | 50¢ | -0 pts | -4% |
-| Wallets on the pick: 2 wallets | 249 | 47% | 50¢ | -3 pts | -9% |
+| Price: under 40¢ | 315 | 21% | 25¢ | -3 pts | -19% |
+| Wallets on the pick: 1 wallet | 781 | 50% | 50¢ | -0 pts | -4% |
+| Wallets on the pick: 2 wallets | 251 | 47% | 50¢ | -3 pts | -9% |
 | Wallets on the pick: 3+ wallets | 70 | 61% | 50¢ | +12 pts | +22% |
-| Leader money: $20k+ | 42 | 60% | 58¢ | +2 pts | +1% |
+| Leader money: $20k+ | 43 | 60% | 58¢ | +2 pts | +2% |
 | Leader money: $5k–20k | 126 | 52% | 56¢ | -4 pts | -8% |
-| Leader money: under $5k | 923 | 49% | 49¢ | +0 pts | -3% |
+| Leader money: under $5k | 933 | 49% | 49¢ | +0 pts | -3% |
 | Market type: draw | 42 | 52% | 54¢ | -2 pts | -24% |
-| Market type: moneyline | 163 | 49% | 52¢ | -3 pts | -13% |
-| Market type: soccer win/lose | 181 | 55% | 53¢ | +2 pts | +3% |
-| Market type: spread | 321 | 46% | 49¢ | -2 pts | -7% |
+| Market type: moneyline | 168 | 49% | 52¢ | -2 pts | -11% |
+| Market type: soccer win/lose | 182 | 55% | 53¢ | +2 pts | +2% |
+| Market type: spread | 326 | 46% | 49¢ | -2 pts | -7% |
 | Market type: total | 384 | 51% | 48¢ | +2 pts | +2% |
-| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 34 | 44% | 41¢ | +3 pts | -0% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 933 | 50% | 51¢ | -1 pts | -6% |
+| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 38 | 39% | 40¢ | -0 pts | -11% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 940 | 50% | 51¢ | -1 pts | -5% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 19 | 58% | 54¢ | +4 pts | +22% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -134,18 +134,147 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Wallet | Games | Won | Avg price | Edge |
 | --- | --- | --- | --- | --- |
 | RN1 | 26 | 65% | 56¢ | +10 pts |
-| Flaznorp (benched) | 333 | 65% | 58¢ | +7 pts |
-| HomeRunHazard (benched) | 140 | 55% | 54¢ | +1 pts |
-| SnakeBall (benched) | 53 | 70% | 69¢ | +1 pts |
-| primm | 20 | 50% | 51¢ | -1 pts |
-| monkeymashingkeyboard (benched) | 11 | 45% | 48¢ | -2 pts |
-| gmpm2 | 10 | 50% | 55¢ | -5 pts |
-| ferrariChampions2026 | 103 | 48% | 53¢ | -6 pts |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 15 | 47% | 57¢ | -10 pts |
+| Flaznorp (benched) | 337 | 64% | 58¢ | +7 pts |
+| gmpm2 | 13 | 62% | 56¢ | +6 pts |
+| primm | 22 | 55% | 50¢ | +5 pts |
+| HomeRunHazard (benched) | 150 | 55% | 54¢ | +2 pts |
+| SnakeBall (benched) | 55 | 69% | 68¢ | +1 pts |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 18 | 50% | 56¢ | -6 pts |
+| ferrariChampions2026 | 110 | 47% | 53¢ | -6 pts |
+| monkeymashingkeyboard (benched) | 12 | 42% | 48¢ | -6 pts |
 
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
+
+- Sun Nov 8, 5:13 AM (hourly): Raiders vs. 49ers: Kalshi 20¢ → 21¢
+- Sun Nov 8, 3:12 AM (hourly): Raiders vs. 49ers: O/U 52.5: all vetted wallets left Over
+- Sun Nov 8, 1:11 AM (hourly): Raiders vs. 49ers: O/U 52.5: first seen: 1 vetted on Over ($6.7k), fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 11:14 PM (hourly): Raiders vs. 49ers: O/U 54.5: all vetted wallets left Over
+- Sat Nov 7, 10:17 PM (hourly): Raiders vs. 49ers: first seen: 1 vetted on Raiders ($556), fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $670 | $0 | 21¢ YES | fails: only 1 vetted wallet with $670 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $647 | $0 | 20¢ YES | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 12:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | SnakeBall $130 | $0 | — | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 54.5 line |
+
+### Crystal Palace FC vs. Liverpool FC · starts Sun Nov 8, 2:00 PM
+
+- Sun Nov 8, 3:12 AM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 39¢ → 38¢
+- Sun Nov 8, 1:11 AM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 62¢ → 39¢
+- Sun Nov 8, 1:11 AM (hourly): Will Liverpool FC win on 2026-11-08?: majority flipped to No ($17.9k vs $0)
+- Sat Nov 7, 11:14 PM (hourly): Will Crystal Palace FC vs. Liverpool FC end in a draw?: all vetted wallets left No
+- Sat Nov 7, 9:14 PM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 39¢ → 62¢
+- Sat Nov 7, 9:14 PM (hourly): Will Liverpool FC win on 2026-11-08?: majority flipped to Yes ($18 vs $0)
+- Sat Nov 7, 5:15 PM (hourly): Will Crystal Palace FC vs. Liverpool FC end in a draw?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 39¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 39¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 12:13 AM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Will Liverpool FC win on 2026-11-08? → No | Flaznorp $76 | $18 | 39¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); opposition 23% |
+| Sat Nov 7, 6:15 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Giants vs. Eagles · starts Sun Nov 8, 6:00 PM
+
+- Sun Nov 8, 3:12 AM (hourly): Spread: Giants (-4.5): first seen: 1 vetted on Giants ($117), fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:12 AM (hourly): Giants vs. Eagles: now fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:12 AM (hourly): Giants vs. Eagles: 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 left
+- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
+- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-3.5): Kalshi matched at 46¢
+- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
+- Sun Nov 8, 1:11 AM (hourly): Giants vs. Eagles: Kalshi 62¢ → 61¢
+- Sun Nov 8, 12:13 AM (hourly): Spread: Giants (-5.5): takeormake added $19.4k on Giants
+- Sun Nov 8, 12:13 AM (hourly): Giants vs. Eagles: back: 2 vetted on Giants ($24.4k), passes
+- Sat Nov 7, 11:14 PM (hourly): Giants vs. Eagles: all vetted wallets left Eagles
+- Sat Nov 7, 11:14 PM (hourly): Giants vs. Eagles: O/U 40.5: all vetted wallets left Under
+- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
+- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-3.5): Kalshi matched at 47¢
+- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
+- Sat Nov 7, 10:17 PM (hourly): Giants vs. Eagles: O/U 40.5: Kalshi matched at 58¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-3.5): Kalshi matched at 47¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
+- Sat Nov 7, 8:16 PM (hourly): Giants vs. Eagles: O/U 40.5: Kalshi matched at 58¢
+- Sat Nov 7, 6:15 PM (hourly): Giants vs. Eagles: first seen: 1 vetted on Eagles ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Giants (-4.5) → Giants | takeormake $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $24.7k | $0 | — | fails: only 1 vetted wallet with $24.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | — | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-4.5) → Giants | takeormake $117 | $0 | 43¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $24.7k | $0 | 46¢ YES | fails: only 1 vetted wallet with $24.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 4:10 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-4.5) → Giants | takeormake $117 | $0 | 43¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $24.7k | $0 | 46¢ YES | fails: only 1 vetted wallet with $24.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 2:10 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 61¢ YES | passes |
+| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.4k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 1:11 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 61¢ YES | passes |
+| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.4k | $0 | — | fails: only 1 vetted wallet with $19.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 12:13 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 62¢ YES | passes |
+| Sat Nov 7, 11:14 PM | hourly | Giants vs. Eagles → Eagles | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | 58¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 9:14 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | 58¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 6:15 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 6:15 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
 ### Jets vs. Chiefs · starts Sun Nov 8, 6:00 PM
 
@@ -179,6 +308,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Jets (-7.5) → Jets | takeormake $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Chiefs (-6.5) → Jets | takeormake $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Chiefs (-2.5) → Jets | takeormake $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Chiefs (-5.5) → Jets | takeormake $1.6k | $0 | — | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Chiefs (-3.5) → Jets | takeormake $6.8k | $0 | — | fails: only 1 vetted wallet with $6.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Chiefs (-10.5) → Jets | takeormake $8.0k | $0 | — | fails: only 1 vetted wallet with $8.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Jets vs. Chiefs → Jets | takeormake $12.9k | $0 | 20¢ YES | fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Jets (-7.5) → Jets | takeormake $9 | $0 | 6¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Chiefs (-6.5) → Jets | takeormake $30 | $0 | 40¢ NO | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Chiefs (-2.5) → Jets | takeormake $41 | $0 | 23¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -276,6 +412,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Rams (-10.5) → Commanders | takeormake $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Commanders (-3.5) → Commanders | takeormake $3.2k | $0 | — | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Rams (-10.5) → Commanders | takeormake $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Commanders (-3.5) → Commanders | takeormake $3.0k | $0 | 21¢ YES | fails: only 1 vetted wallet with $3.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Spread: Rams (-10.5) → Commanders | takeormake $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -318,101 +456,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Spread: Rams (-10.5) → Commanders | takeormake $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 7, 6:15 PM | hourly | Rams vs. Commanders → Commanders | Flaznorp $221, SnakeBall $17 | $0 | 34¢ YES | fails: only 2 vetted wallets with $239 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
 
-### Giants vs. Eagles · starts Sun Nov 8, 6:00 PM
-
-- Sun Nov 8, 3:12 AM (hourly): Spread: Giants (-4.5): first seen: 1 vetted on Giants ($117), fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:12 AM (hourly): Giants vs. Eagles: now fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:12 AM (hourly): Giants vs. Eagles: 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 left
-- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
-- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-3.5): Kalshi matched at 46¢
-- Sun Nov 8, 1:11 AM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
-- Sun Nov 8, 1:11 AM (hourly): Giants vs. Eagles: Kalshi 62¢ → 61¢
-- Sun Nov 8, 12:13 AM (hourly): Spread: Giants (-5.5): takeormake added $19.4k on Giants
-- Sun Nov 8, 12:13 AM (hourly): Giants vs. Eagles: back: 2 vetted on Giants ($24.4k), passes
-- Sat Nov 7, 11:14 PM (hourly): Giants vs. Eagles: all vetted wallets left Eagles
-- Sat Nov 7, 11:14 PM (hourly): Giants vs. Eagles: O/U 40.5: all vetted wallets left Under
-- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
-- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-3.5): Kalshi matched at 47¢
-- Sat Nov 7, 10:17 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
-- Sat Nov 7, 10:17 PM (hourly): Giants vs. Eagles: O/U 40.5: Kalshi matched at 58¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-5.5): Kalshi matched at 42¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-3.5): Kalshi matched at 47¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 56¢
-- Sat Nov 7, 8:16 PM (hourly): Giants vs. Eagles: O/U 40.5: Kalshi matched at 58¢
-- Sat Nov 7, 6:15 PM (hourly): Giants vs. Eagles: first seen: 1 vetted on Eagles ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-4.5) → Giants | takeormake $117 | $0 | 43¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $24.7k | $0 | 46¢ YES | fails: only 1 vetted wallet with $24.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:10 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:10 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-4.5) → Giants | takeormake $117 | $0 | 43¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $24.7k | $0 | 46¢ YES | fails: only 1 vetted wallet with $24.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.5k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 61¢ YES | passes |
-| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.4k | $0 | 42¢ YES | fails: only 1 vetted wallet with $19.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 61¢ YES | passes |
-| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-5.5) → Giants | takeormake $19.4k | $0 | — | fails: only 1 vetted wallet with $19.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 12:13 AM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 12:13 AM | hourly | Giants vs. Eagles → Giants | takeormake $14.2k, 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $10.3k | $0 | 62¢ YES | passes |
-| Sat Nov 7, 11:14 PM | hourly | Giants vs. Eagles → Eagles | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | 58¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | 42¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | 47¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | 56¢ YES | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | 58¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | Giants vs. Eagles → Eagles | SnakeBall $34 | $0 | 39¢ YES | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | Giants vs. Eagles: O/U 40.5 → Under | SnakeBall $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-5.5) → Giants | takeormake $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-3.5) → Giants | takeormake $25.3k | $0 | — | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Giants (-2.5) → Giants | takeormake $33.0k | $0 | — | fails: only 1 vetted wallet with $33.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Raiders vs. 49ers · starts Sun Nov 8, 9:25 PM
-
-- Sun Nov 8, 3:12 AM (hourly): Raiders vs. 49ers: O/U 52.5: all vetted wallets left Over
-- Sun Nov 8, 1:11 AM (hourly): Raiders vs. 49ers: O/U 52.5: first seen: 1 vetted on Over ($6.7k), fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 11:14 PM (hourly): Raiders vs. 49ers: O/U 54.5: all vetted wallets left Over
-- Sat Nov 7, 10:17 PM (hourly): Raiders vs. 49ers: first seen: 1 vetted on Raiders ($556), fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $647 | $0 | 20¢ YES | fails: only 1 vetted wallet with $647 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 3:12 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $568 | $0 | 20¢ YES | fails: only 1 vetted wallet with $568 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Raiders vs. 49ers: O/U 52.5 → Over | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $6.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Raiders vs. 49ers → Raiders | takeormake $564 | $0 | 20¢ YES | fails: only 1 vetted wallet with $564 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers → Raiders | takeormake $556 | $0 | 20¢ YES | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Raiders vs. 49ers: O/U 54.5 → Over | SnakeBall $130 | $0 | — | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 54.5 line |
-
 ### Cowboys vs. Colts · starts Sun Nov 8, 6:00 PM
 
 - Sun Nov 8, 1:11 AM (hourly): Spread: Cowboys (-10.5): Kalshi matched at 32¢
@@ -423,6 +466,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Cowboys (-10.5) → Cowboys | takeormake $4.0k | $0 | — | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Cowboys (-10.5) → Cowboys | takeormake $4.0k | $0 | 32¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Spread: Cowboys (-10.5) → Cowboys | takeormake $4.0k | $0 | 32¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:10 AM | hourly | Spread: Cowboys (-10.5) → Cowboys | takeormake $4.0k | $0 | 32¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -447,6 +491,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sun Nov 8, 4:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:10 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 49¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -472,6 +517,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | — | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | — | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | 57¢ NO | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Broncos vs. Panthers → Panthers | none | $0 | — | fails: no vetted wallets hold it now |
@@ -502,38 +549,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:15 PM | hourly | Broncos vs. Panthers → Panthers | SnakeBall $252 | $0 | 43¢ YES | fails: only 1 vetted wallet with $252 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | — | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Crystal Palace FC vs. Liverpool FC · starts Sun Nov 8, 2:00 PM
-
-- Sun Nov 8, 3:12 AM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 39¢ → 38¢
-- Sun Nov 8, 1:11 AM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 62¢ → 39¢
-- Sun Nov 8, 1:11 AM (hourly): Will Liverpool FC win on 2026-11-08?: majority flipped to No ($17.9k vs $0)
-- Sat Nov 7, 11:14 PM (hourly): Will Crystal Palace FC vs. Liverpool FC end in a draw?: all vetted wallets left No
-- Sat Nov 7, 9:14 PM (hourly): Will Liverpool FC win on 2026-11-08?: Kalshi 39¢ → 62¢
-- Sat Nov 7, 9:14 PM (hourly): Will Liverpool FC win on 2026-11-08?: majority flipped to Yes ($18 vs $0)
-- Sat Nov 7, 5:15 PM (hourly): Will Crystal Palace FC vs. Liverpool FC end in a draw?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 4:10 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:12 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:10 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 39¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 39¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Will Liverpool FC win on 2026-11-08? → Yes | tradecraft $18 | $0 | 62¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will Liverpool FC win on 2026-11-08? → No | Flaznorp $76 | $18 | 39¢ NO | fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+); opposition 23% |
-| Sat Nov 7, 6:15 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Will Crystal Palace FC vs. Liverpool FC end in a draw? → No | Flaznorp $24 | $0 | 79¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Buccaneers vs. Bears · starts Mon Nov 9, 1:20 AM
 
 - Sun Nov 8, 3:12 AM (hourly): Spread: Bears (-6.5): first seen: 1 vetted on Bears ($828), fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 5:13 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $841 | $0 | — | fails: only 1 vetted wallet with $841 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sun Nov 8, 4:10 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:12 AM | hourly | Spread: Bears (-6.5) → Bears | takeormake $828 | $0 | 49¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -30734,12 +30756,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 0-0 (5 pending) | benched |
-| Flaznorp | trader: 44 trades per market (median), up to 405 | Sat Nov 7, 8:17 PM | 4-4 (25 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 0-1 (5 pending) | benched |
+| Flaznorp | trader: 44 trades per market (median), up to 405 | Sat Nov 7, 8:17 PM | 4-5 (34 pending) | benched |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 | benched |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 1-4 (9 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 77-63 (38 pending) | benched |
-| ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 5-3 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 1-5 (8 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 83-67 (29 pending) | benched |
+| ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 5-5 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
 ## Recent skips
 
