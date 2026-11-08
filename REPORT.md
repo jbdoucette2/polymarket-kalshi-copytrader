@@ -1,15 +1,15 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 6:14 PM. Bankroll **$67.42** (start $100): $37.30 cash + open trades at cost.
+Updated Sun Nov 8, 6:23 PM. Bankroll **$57.47** (start $100): $37.30 cash + open trades at cost.
 
-Record: 51 won, 39 lost, 9 sold early. Realized P&L $-32.58. Open: 3.
+Record: 51 won, 40 lost, 9 sold early. Realized P&L $-42.53. Open: 2.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | open |  |
 | Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | open |  |
 | Sun Nov 8, 3:18 PM | [CD Universidad Católica vs. CD Limache - More Markets](https://polymarket.com/event/chi1-cuc-cdl-2026-11-08-more-markets) | CD Universidad Católica vs. CD Limache: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,935) | 16 × 60¢ NO `KXCHLLDPTOTAL-26NOV08UCDEP-4` | won | $+6.13 |
-| Sun Nov 8, 3:18 PM | [Lillestrøm SK vs. Aalesunds FK](https://polymarket.com/event/nor-lil-aal-2026-11-08) | Will Lillestrøm SK win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,279) | 20 × 48¢ NO `KXELITESERIENGAME-26NOV08LSKAFK-LSK` | open |  |
+| Sun Nov 8, 3:18 PM | [Lillestrøm SK vs. Aalesunds FK](https://polymarket.com/event/nor-lil-aal-2026-11-08) | Will Lillestrøm SK win on 2026-11-08? → No | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($5,279) | 20 × 48¢ NO `KXELITESERIENGAME-26NOV08LSKAFK-LSK` | lost | $-9.95 |
 | Sun Nov 8, 2:14 PM | [Real Sociedad de Fútbol vs. Rayo Vallecano de Madrid](https://polymarket.com/event/lal-rso-ray-2026-11-08) | Will Real Sociedad de Fútbol win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($11,878) | 18 × 54¢ YES `KXLALIGAGAME-26NOV08RSORVC-RSO` | won | $+7.96 |
 | Sun Nov 8, 1:18 PM | [Sunderland AFC vs. Chelsea FC](https://polymarket.com/event/epl-sun-che-2026-11-08) | Will Chelsea FC win on 2026-11-08? → Yes | [joseph00677](https://polymarket.com/profile/0xcdcccd0f2d86e450d973da415ad2430e5cc7935a), [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223) ($1,922,110) | 21 × 46¢ YES `KXEPLGAME-26NOV08SUNCFC-CFC` | lost | $-10.03 |
 | Sun Nov 8, 1:18 PM | [Crystal Palace FC vs. Liverpool FC](https://polymarket.com/event/epl-cry-liv-2026-11-08) | Will Liverpool FC win on 2026-11-08? → No | [ndb1](https://polymarket.com/profile/0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,544) | 27 × 37¢ NO `KXEPLGAME-26NOV08CRYLFC-LFC` | lost | $-10.44 |
@@ -38369,29 +38369,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | pregame | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $117 | $0 | 22¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 5:18 PM | hourly | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $114 | $0 | 22¢ YES | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 4:17 PM | hourly | Spread: Heracles Almelo (-2.5) → Heracles Almelo | RN1 $125 | $0 | 23¢ YES | fails: only 1 vetted wallet with $125 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Bratislava 2: Kimmer Coppejans vs Jurij Rodionov · starts Fri Nov 6, 6:20 PM
-
-- Fri Nov 6, 6:18 PM (hourly): Bratislava 2: Kimmer Coppejans vs Jurij Rodionov: first seen: 1 vetted on Kimmer Coppejans ($432), fails: only 1 vetted wallet with $432 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | hourly | Bratislava 2: Kimmer Coppejans vs Jurij Rodionov → Kimmer Coppejans | RN1 $432 | $0 | 30¢ YES | fails: only 1 vetted wallet with $432 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz · starts Fri Nov 6, 6:20 PM
-
-- Fri Nov 6, 6:18 PM (hourly): Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz: RN1 joined Taylor Fritz (+$1.4k)
-- Fri Nov 6, 2:16 PM (hourly): Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz: Kalshi 28¢ → 27¢
-- Fri Nov 6, 1:13 PM (hourly): Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz: first seen: 1 vetted on Taylor Fritz ($3.5k), fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 6:18 PM | hourly | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.5k, RN1 $1.4k | $0 | 27¢ YES | fails: only 2 vetted wallets with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | pregame | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.6k | $0 | 27¢ YES | fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.5k | $0 | 27¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.5k | $0 | 27¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.5k | $0 | 27¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:13 PM | hourly | Rolex Paris Masters: Taylor Fritz vs Carlos Alcaraz → Taylor Fritz | ferrariChampions2026 $3.5k | $0 | 28¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Helmond Sport vs. FC Volendam - More Markets · starts Fri Nov 6, 7:00 PM
 
