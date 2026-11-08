@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 8, 8:12 AM. Bankroll **$66.02** (start $100): $66.02 cash + open trades at cost.
+Updated Sun Nov 8, 9:11 AM. Bankroll **$66.02** (start $100): $66.02 cash + open trades at cost.
 
 Record: 48 won, 37 lost, 9 sold early. Realized P&L $-33.98. Open: 0.
 
@@ -135,18 +135,126 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | --- | --- | --- | --- | --- |
 | RN1 | 27 | 67% | 56¢ | +11 pts |
 | primm | 23 | 57% | 50¢ | +7 pts |
-| Flaznorp (benched) | 345 | 64% | 58¢ | +6 pts |
+| Flaznorp | 349 | 64% | 58¢ | +7 pts |
 | gmpm2 | 13 | 62% | 56¢ | +6 pts |
-| HomeRunHazard (benched) | 160 | 54% | 54¢ | +1 pts |
+| HomeRunHazard (benched) | 161 | 55% | 54¢ | +1 pts |
 | SnakeBall (benched) | 58 | 66% | 67¢ | -2 pts |
 | monkeymashingkeyboard (benched) | 13 | 46% | 49¢ | -3 pts |
-| ferrariChampions2026 | 118 | 48% | 53¢ | -5 pts |
+| ferrariChampions2026 | 119 | 48% | 53¢ | -5 pts |
 | keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 19 | 47% | 55¢ | -8 pts |
 
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Brighton & Hove Albion FC vs. Brentford FC - More Markets · starts Sun Nov 8, 2:00 PM
+
+- Sun Nov 8, 9:11 AM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: back: 1 vetted on Under ($740), fails: only 1 vetted wallet with $740 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 8, 3:12 AM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): all vetted wallets left Brentford FC
+- Sat Nov 7, 11:14 PM (hourly): Spread: Brentford FC (-1.5): all vetted wallets left Brighton & Hove Albion FC
+- Sat Nov 7, 11:14 PM (hourly): Spread: Brentford FC (-2.5): all vetted wallets left Brighton & Hove Albion FC
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-4.5): all vetted wallets left Brentford FC
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: all vetted wallets left Under
+- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): all vetted wallets left Brighton & Hove Albion FC
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5: all vetted wallets left Over
+- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5: all vetted wallets left Under
+- Sat Nov 7, 10:17 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): Kalshi matched at 15¢
+- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: Kalshi matched at 18¢
+- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: Kalshi matched at 40¢
+- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: Kalshi matched at 10¢
+- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: Kalshi matched at 20¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): Kalshi matched at 71¢
+- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: Kalshi matched at 38¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): Kalshi matched at 13¢
+- Sat Nov 7, 8:16 PM (hourly): Spread: Brentford FC (-1.5): Kalshi matched at 91¢
+- Sat Nov 7, 5:15 PM (hourly): Spread: Brentford FC (-1.5): Kalshi 91¢ → 92¢
+- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: first seen: 1 vetted on Under ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: first seen: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: first seen: 1 vetted on Over ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: first seen: 1 vetted on Over ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:15 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): first seen: 1 vetted on Brentford FC ($120), fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: first seen: 1 vetted on Over ($183), fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 4:15 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): first seen: 1 vetted on Brighton & Hove Albion FC ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 7, 2:20 PM (hourly): Spread: Brentford FC (-1.5): first seen: 1 vetted on Brighton & Hove Albion FC ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Under | Jsram $740 | $0 | 62¢ NO | fails: only 1 vetted wallet with $740 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 3:12 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sun Nov 8, 2:10 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sun Nov 8, 1:11 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sun Nov 8, 12:13 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $16 | $0 | 15¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 10:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 92¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
+| Sat Nov 7, 10:17 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 9:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | 18¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | 40¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | 10¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | 20¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | 71¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | 5¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | 38¢ YES | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $342 | $0 | 98¢ NO | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | — | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 7, 6:15 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $342 | $0 | — | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi spread market |
+| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
+| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 92¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | 18¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | 40¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | 10¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | 21¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | 71¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | 5¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | 38¢ YES | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 5:15 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $340 | $0 | 98¢ NO | fails: only 1 vetted wallet with $340 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 4:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 3:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 3:17 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
+| Sat Nov 7, 2:20 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 7, 2:20 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
 
 ### Browns vs. Saints · starts Sun Nov 8, 6:00 PM
 
@@ -159,6 +267,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Spread: Saints (-3.5) → Browns | gmpm2 $263 | $0 | 52¢ NO | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Spread: Saints (-3.5) → Browns | gmpm2 $263 | $0 | 52¢ NO | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 7:11 AM | hourly | Spread: Saints (-3.5) → Browns | gmpm2 $263 | $0 | 52¢ NO | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 6:12 AM | hourly | Spread: Saints (-3.5) → Browns | gmpm2 $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -188,6 +297,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 7:11 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | 50¢ NO | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 6:12 AM | hourly | Packers vs. Patriots: O/U 44.5 → Under | gmpm2 $783 | $0 | — | fails: only 1 vetted wallet with $783 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -219,6 +329,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | 57¢ NO | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 8, 9:11 AM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | 57¢ NO | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Spread: Broncos (-2.5) → Panthers | gmpm2 $14.2k | $0 | 49¢ NO | fails: only 1 vetted wallet with $14.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 7:11 AM | hourly | Spread: Broncos (-3.5) → Panthers | gmpm2 $9.6k | $0 | 57¢ NO | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -274,6 +386,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Crystal Palace FC vs. Liverpool FC: O/U 2.5 → Under | ndb1 $11.3k | $0 | 36¢ NO | fails: only 1 vetted wallet with $11.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Crystal Palace FC vs. Liverpool FC: O/U 2.5 → Under | ndb1 $11.3k | $0 | 36¢ NO | fails: only 1 vetted wallet with $11.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 7:11 AM | hourly | Crystal Palace FC vs. Liverpool FC: O/U 2.5 → Under | ndb1 $11.3k | $0 | 36¢ NO | fails: only 1 vetted wallet with $11.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 6:12 AM | hourly | Crystal Palace FC vs. Liverpool FC: O/U 2.5 → Under | ndb1 $11.3k | $0 | — | fails: only 1 vetted wallet with $11.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -315,6 +428,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 8:12 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 7:11 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 6:12 AM | hourly | Will Liverpool FC win on 2026-11-08? → No | ndb1 $17.9k | $0 | 38¢ NO | fails: only 1 vetted wallet with $17.9k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -947,112 +1061,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will Beijing Guoan FC win on 2026-11-08? → No | Flaznorp $7 | $0 | 27¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Will Beijing Guoan FC win on 2026-11-08? → No | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 5:15 PM | hourly | Will Beijing Guoan FC win on 2026-11-08? → No | Flaznorp $7 | $0 | 26¢ NO | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Brighton & Hove Albion FC vs. Brentford FC - More Markets · starts Sun Nov 8, 2:00 PM
-
-- Sun Nov 8, 3:12 AM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): all vetted wallets left Brentford FC
-- Sat Nov 7, 11:14 PM (hourly): Spread: Brentford FC (-1.5): all vetted wallets left Brighton & Hove Albion FC
-- Sat Nov 7, 11:14 PM (hourly): Spread: Brentford FC (-2.5): all vetted wallets left Brighton & Hove Albion FC
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-4.5): all vetted wallets left Brentford FC
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): all vetted wallets left Brighton & Hove Albion FC
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5: all vetted wallets left Under
-- Sat Nov 7, 10:17 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): Kalshi matched at 15¢
-- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: Kalshi matched at 18¢
-- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: Kalshi matched at 40¢
-- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: Kalshi matched at 10¢
-- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: Kalshi matched at 20¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): Kalshi matched at 71¢
-- Sat Nov 7, 8:16 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: Kalshi matched at 38¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): Kalshi matched at 13¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Brentford FC (-1.5): Kalshi matched at 91¢
-- Sat Nov 7, 5:15 PM (hourly): Spread: Brentford FC (-1.5): Kalshi 91¢ → 92¢
-- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5: first seen: 1 vetted on Under ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5: first seen: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5: first seen: 1 vetted on Over ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5: first seen: 1 vetted on Over ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Spread: Brighton & Hove Albion FC (-1.5): first seen: 1 vetted on Brentford FC ($120), fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5: first seen: 1 vetted on Over ($183), fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 4:15 PM (hourly): Spread: Brighton & Hove Albion FC (-2.5): first seen: 1 vetted on Brighton & Hove Albion FC ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 2:20 PM (hourly): Spread: Brentford FC (-1.5): first seen: 1 vetted on Brighton & Hove Albion FC ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 3:12 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 2:10 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sun Nov 8, 1:11 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sun Nov 8, 12:13 AM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $16 | $0 | 15¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 92¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
-| Sat Nov 7, 10:17 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | 18¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | 40¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | 10¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | 20¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | 71¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | 5¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | 38¢ YES | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $342 | $0 | 98¢ NO | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | — | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | — | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | — | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $342 | $0 | — | fails: only 1 vetted wallet with $342 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 92¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 92c vs leaders 89c |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 1.5 → Under | Flaznorp $5 | $0 | 18¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 2.5 → Under | Flaznorp $13 | $0 | 40¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 5.5 → Over | Flaznorp $19 | $0 | 10¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-4.5) → Brentford FC | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 4.5 spread line |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 4.5 → Over | Flaznorp $22 | $0 | 21¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: Brentford FC O/U 0.5 → Over | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Brighton & Hove Albion FC (-1.5) → Brentford FC | Flaznorp $120 | $0 | 71¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 0.5 → Under | Flaznorp $171 | $0 | 5¢ NO | fails: only 1 vetted wallet with $171 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Over | Flaznorp $183 | $0 | 38¢ YES | fails: only 1 vetted wallet with $183 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Brentford FC (-2.5) → Brighton & Hove Albion FC | Flaznorp $340 | $0 | 98¢ NO | fails: only 1 vetted wallet with $340 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-| Sat Nov 7, 5:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 4:15 PM | hourly | Spread: Brighton & Hove Albion FC (-2.5) → Brighton & Hove Albion FC | SnakeBall $15 | $0 | 13¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Brentford FC (-1.5) → Brighton & Hove Albion FC | SnakeBall $32 | $0 | 91¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Brighton & Hove Albion FC vs. Brentford FC: O/U 6.5 → Under | tradecraft $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; Kalshi has no 6.5 line |
 
 ### Ipswich Town FC vs. AFC Bournemouth · starts Sun Nov 8, 2:00 PM
 
@@ -7950,6 +7958,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 8, 9:11 AM | hourly | Manchester United FC vs. Aston Villa FC: Both Teams to Score → No | ndb1 $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sun Nov 8, 8:12 AM | hourly | Manchester United FC vs. Aston Villa FC: Both Teams to Score → No | ndb1 $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sun Nov 8, 7:11 AM | hourly | Manchester United FC vs. Aston Villa FC: Both Teams to Score → No | ndb1 $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 11:14 PM | hourly | Spread: Aston Villa FC (-1.5) → Manchester United FC | none | $0 | — | fails: no vetted wallets hold it now |
@@ -30788,63 +30797,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 10:11 AM | hourly | Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala | ferrariChampions2026 $739 | $0 | 79¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 9:13 AM | hourly | Prudential Hong Kong Tennis Open: Antonia Ruzic vs Alexandra Eala → Alexandra Eala | ferrariChampions2026 $739 | $0 | 79¢ YES | fails: only 1 vetted wallet with $739 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Tasmania JackJumpers vs. New Zealand Breakers · starts Fri Nov 6, 8:30 AM
-
-- Fri Nov 6, 8:14 AM (pregame): Spread: Tasmania JackJumpers (-5.5): all vetted wallets left Tasmania JackJumpers
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 8:14 AM | pregame | Spread: Tasmania JackJumpers (-5.5) → Tasmania JackJumpers | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 6:15 AM | hourly | Spread: Tasmania JackJumpers (-5.5) → Tasmania JackJumpers | tradecraft $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Sydney FC vs. Central Coast Mariners FC · starts Fri Nov 6, 8:40 AM
-
-- Fri Nov 6, 8:14 AM (pregame): Will Sydney FC win on 2026-11-06?: Kalshi matched at 38¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 8:14 AM | pregame | Will Sydney FC win on 2026-11-06? → No | tradecraft $14 | $0 | 38¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:18 AM | hourly | Will Sydney FC win on 2026-11-06? → No | tradecraft $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Sydney FC vs. Central Coast Mariners FC - More Markets · starts Fri Nov 6, 8:40 AM
-
-- Fri Nov 6, 8:14 AM (pregame): Sydney FC vs. Central Coast Mariners FC: O/U 5.5: Kalshi matched at 92¢
-- Fri Nov 6, 8:14 AM (pregame): Sydney FC vs. Central Coast Mariners FC: O/U 3.5: first seen: 1 vetted on Under ($560), fails: only 1 vetted wallet with $560 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 3:11 AM (hourly): Sydney FC vs. Central Coast Mariners FC: O/U 5.5: Kalshi 92¢ → 93¢
-- Fri Nov 6, 2:13 AM (hourly): Sydney FC vs. Central Coast Mariners FC: O/U 5.5: Kalshi matched at 92¢
-- Fri Nov 6, 12:14 AM (hourly): Sydney FC vs. Central Coast Mariners FC: O/U 5.5: first seen: 1 vetted on Under ($253), fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 8:14 AM | pregame | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $257 | $0 | 92¢ NO | fails: only 1 vetted wallet with $257 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:14 AM | pregame | Sydney FC vs. Central Coast Mariners FC: O/U 3.5 → Under | ferrariChampions2026 $560 | $0 | 66¢ NO | fails: only 1 vetted wallet with $560 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:18 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 6:15 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 5:14 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 4:14 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | 93¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:11 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | 93¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:13 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $254 | $0 | 92¢ NO | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 1:16 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $253 | $0 | — | fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 12:14 AM | hourly | Sydney FC vs. Central Coast Mariners FC: O/U 5.5 → Under | SnakeBall $253 | $0 | 93¢ NO | fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Taipei: Coleman Wong vs Kasidit Samrej · starts Fri Nov 6, 8:15 AM
-
-- Fri Nov 6, 8:14 AM (hourly): Taipei: Coleman Wong vs Kasidit Samrej: first seen: 1 vetted on Coleman Wong ($2.4k), fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 8:14 AM | hourly | Taipei: Coleman Wong vs Kasidit Samrej → Coleman Wong | RN1 $2.4k | $9 | 83¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Prudential Hong Kong Tennis Open: Sorana Cirstea vs Alexandra Shubladze · starts Fri Nov 6, 8:30 AM
-
-- Fri Nov 6, 8:14 AM (pregame): Prudential Hong Kong Tennis Open: Sorana Cirstea vs Alexandra Shubladze: Kalshi matched at 27¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 6, 8:14 AM | pregame | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Alexandra Shubladze → Alexandra Shubladze | ferrariChampions2026 $263 | $0 | 27¢ YES | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:18 AM | hourly | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Alexandra Shubladze → Alexandra Shubladze | ferrariChampions2026 $263 | $0 | — | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 6:15 AM | hourly | Prudential Hong Kong Tennis Open: Sorana Cirstea vs Alexandra Shubladze → Alexandra Shubladze | ferrariChampions2026 $254 | $0 | — | fails: only 1 vetted wallet with $254 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 
 ## Time-out
 
@@ -30856,11 +30808,11 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 0-3 (8 pending) | benched |
-| Flaznorp | trader: 44 trades per market (median), up to 405 | Sat Nov 7, 8:17 PM | 8-6 (61 pending) | benched |
-| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 | benched |
+| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 0-0 (1 pending) | benched |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 2-5 (8 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 87-73 (22 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 88-73 (21 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
+| Flaznorp | trader: 44 trades per market (median), up to 405 | Sat Nov 7, 8:17 PM | 11-7 | released Sun Nov 8, 9:11 AM: shadow picks won 61% of 18 games at an average price of 52¢ |
 
 ## Recent skips
 

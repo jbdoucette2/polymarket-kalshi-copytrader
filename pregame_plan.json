@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T08:12:43Z",
+  "updated": "2026-11-08T09:11:20Z",
   "games": [
     {
       "event_slug": "epl-cry-liv-2026-11-08",
@@ -20,6 +20,16 @@
       "near": 1,
       "best": "Crystal Palace FC vs. Liverpool FC: O/U 2.5 → Under ($11.3k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $11.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "epl-bri-bre-2026-11-08-more-markets",
+      "game": "Brighton & Hove Albion FC vs. Brentford FC - More Markets",
+      "start": "2026-11-08T14:00:00Z",
+      "check_at": "2026-11-08T13:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Brighton & Hove Albion FC vs. Brentford FC: O/U 3.5 → Under ($740, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $740 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-den-car-2026-11-08",
