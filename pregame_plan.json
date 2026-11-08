@@ -1,13 +1,23 @@
 {
-  "updated": "2026-11-08T19:10:10Z",
+  "updated": "2026-11-08T20:13:27Z",
   "games": [
+    {
+      "event_slug": "nba-phi-chi-2026-11-08",
+      "game": "76ers vs. Bulls",
+      "start": "2026-11-08T20:30:00Z",
+      "check_at": "2026-11-08T20:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: 76ers (-9.5) → 76ers ($388, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $388 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "nfl-hou-lac-2026-11-08",
       "game": "Texans vs. Chargers",
       "start": "2026-11-08T21:05:00Z",
       "check_at": "2026-11-08T20:50:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Spread: Texans (-5.5) → Texans ($27.1k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $27.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -16,10 +26,10 @@
       "game": "Raiders vs. 49ers",
       "start": "2026-11-08T21:25:00Z",
       "check_at": "2026-11-08T21:10:00Z",
-      "passing": 0,
+      "passing": 1,
       "near": 1,
-      "best": "Raiders vs. 49ers → 49ers ($39.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $39.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Raiders vs. 49ers → 49ers ($59.6k, 2 wallets)",
+      "status": "passes"
     },
     {
       "event_slug": "nfl-gb-ne-2026-11-08",
