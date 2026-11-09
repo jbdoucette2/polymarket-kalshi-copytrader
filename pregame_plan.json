@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T16:13:44Z",
+  "updated": "2026-11-09T17:21:07Z",
   "games": [
     {
       "event_slug": "nfl-buf-min-2026-11-10",
@@ -7,8 +7,8 @@
       "start": "2026-11-10T01:15:00Z",
       "check_at": "2026-11-10T01:00:00Z",
       "passing": 1,
-      "near": 2,
-      "best": "Bills vs. Vikings → Bills ($31.8k, 2 wallets)",
+      "near": 3,
+      "best": "Bills vs. Vikings → Bills ($32.4k, 2 wallets)",
       "status": "passes"
     },
     {
