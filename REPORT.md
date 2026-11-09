@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 6:16 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 7:16 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -147,11 +147,11 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | monkeymashingkeyboard | 27 | 59% | 49¢ | +10 pts |
 | primm | 28 | 61% | 52¢ | +9 pts |
 | gmpm2 | 26 | 62% | 54¢ | +7 pts |
-| Flaznorp (benched) | 522 | 64% | 59¢ | +5 pts |
+| Flaznorp (benched) | 524 | 64% | 59¢ | +5 pts |
 | keeptheblueflagflyinghigh (benched) | 6 | 50% | 47¢ | +3 pts |
-| HomeRunHazard (benched) | 193 | 56% | 55¢ | +2 pts |
+| HomeRunHazard (benched) | 194 | 56% | 55¢ | +2 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
-| RN1 (benched) | 45 | 53% | 54¢ | -1 pts |
+| RN1 (benched) | 46 | 54% | 55¢ | -0 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | takeormake (benched) | 12 | 25% | 39¢ | -14 pts |
@@ -169,6 +169,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 7:16 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | — | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11%; no Kalshi totals market |
+| Mon Nov 9, 7:16 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | — | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Mon Nov 9, 7:16 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.2k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 6:16 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
 | Mon Nov 9, 6:16 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 6:16 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37245,39 +37248,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | Flaznorp $63 | $0 | 44¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | Flaznorp $63 | $0 | 44¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Kashiwa Reysol vs. Kawasaki Frontale - More Markets · starts Sat Nov 7, 7:00 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Kashiwa Reysol vs. Kawasaki Frontale: O/U 2.5: all vetted wallets left Over
-- Sat Nov 7, 6:34 AM (pregame): Kashiwa Reysol vs. Kawasaki Frontale: 1st Half O/U 0.5: all vetted wallets left Under
-- Sat Nov 7, 6:34 AM (pregame): Kashiwa Reysol vs. Kawasaki Frontale: O/U 4.5: first seen: 1 vetted on Over ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 6:34 AM (pregame): Spread: Kawasaki Frontale (-2.5): Kalshi 6¢ → 5¢
-- Sat Nov 7, 6:34 AM (pregame): Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5: Kalshi 16¢ → 14¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: Kawasaki Frontale (-2.5): Kalshi matched at 6¢
-- Sat Nov 7, 5:17 AM (hourly): Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5: Kalshi matched at 16¢
-- Sat Nov 7, 2:16 AM (hourly): Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5: SnakeBall joined Under (+$77)
-- Sat Nov 7, 1:15 AM (hourly): Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5: first seen: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Kashiwa Reysol vs. Kawasaki Frontale: O/U 2.5: first seen: 1 vetted on Over ($56), fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: Kawasaki Frontale (-2.5): first seen: 1 vetted on Kawasaki Frontale ($26), fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Kashiwa Reysol vs. Kawasaki Frontale: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 6:34 AM | pregame | Kashiwa Reysol vs. Kawasaki Frontale: 1st Half O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 6:34 AM | pregame | Kashiwa Reysol vs. Kawasaki Frontale: O/U 4.5 → Over | Flaznorp $43 | $0 | 26¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Spread: Kawasaki Frontale (-2.5) → Kawasaki Frontale | SnakeBall $21 | $0 | 5¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
-| Sat Nov 7, 6:34 AM | pregame | Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5 → Under | SnakeBall $74, Flaznorp $14 | $0 | 14¢ NO | fails: only 2 vetted wallets with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Kawasaki Frontale (-2.5) → Kawasaki Frontale | SnakeBall $26 | $0 | 6¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5 → Under | SnakeBall $74, Flaznorp $14 | $0 | 16¢ NO | fails: only 2 vetted wallets with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Kawasaki Frontale (-2.5) → Kawasaki Frontale | SnakeBall $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5 → Under | SnakeBall $74, Flaznorp $14 | $0 | — | fails: only 2 vetted wallets with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: 1st Half O/U 0.5 → Under | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 2.5 → Over | Flaznorp $56 | $0 | 66¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Kawasaki Frontale (-2.5) → Kawasaki Frontale | SnakeBall $26 | $0 | 6¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5 → Under | SnakeBall $77, Flaznorp $15 | $0 | 16¢ NO | fails: only 2 vetted wallets with $92 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 1.5 → Under | Flaznorp $16 | $0 | 16¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Kashiwa Reysol vs. Kawasaki Frontale: O/U 2.5 → Over | Flaznorp $56 | $0 | 66¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Kawasaki Frontale (-2.5) → Kawasaki Frontale | SnakeBall $26 | $0 | 6¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Seoul E-Land FC vs. Jeonnam Dragons · starts Sat Nov 7, 7:30 AM
 
 - Sat Nov 7, 6:34 AM (pregame): Will Seoul E-Land FC vs. Jeonnam Dragons end in a draw?: first seen: 1 vetted on No ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
@@ -37357,46 +37327,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 6:34 AM | pregame | Gimcheon Sangmu FC vs. FC Anyang: O/U 3.5 → Under | Flaznorp $70 | $0 | 71¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:17 AM | hourly | Gimcheon Sangmu FC vs. FC Anyang: O/U 3.5 → Under | Flaznorp $70 | $0 | 71¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Kashiwa Reysol vs. Kawasaki Frontale · starts Sat Nov 7, 7:00 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Will Kashiwa Reysol win on 2026-11-07?: Kalshi 56¢ → 49¢
-- Sat Nov 7, 6:34 AM (pregame): Will Kashiwa Reysol win on 2026-11-07?: majority flipped to Yes ($2.7k vs $0)
-- Sat Nov 7, 5:17 AM (hourly): Will Kashiwa Reysol vs. Kawasaki Frontale end in a draw?: first seen: 1 vetted on No ($51), fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:17 AM (hourly): Will Kashiwa Reysol win on 2026-11-07?: Kalshi matched at 56¢
-- Sat Nov 7, 2:16 AM (hourly): Will Kawasaki Frontale win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 1:15 AM (hourly): Will Kawasaki Frontale win on 2026-11-07?: first seen: 1 vetted on No ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Kashiwa Reysol win on 2026-11-07?: first seen: 1 vetted on No ($117), fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Will Kashiwa Reysol vs. Kawasaki Frontale end in a draw? → No | Flaznorp $124 | $0 | 77¢ NO | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Will Kashiwa Reysol win on 2026-11-07? → Yes | Flaznorp $2.0k, SnakeBall $678 | $0 | 49¢ YES | fails: only 2 vetted wallets with $2.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Kashiwa Reysol vs. Kawasaki Frontale end in a draw? → No | Flaznorp $51 | $0 | 77¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Kashiwa Reysol win on 2026-11-07? → No | Flaznorp $239 | $0 | 56¢ NO | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Kashiwa Reysol win on 2026-11-07? → No | Flaznorp $198 | $0 | — | fails: only 1 vetted wallet with $198 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Kawasaki Frontale win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 2:16 AM | hourly | Will Kashiwa Reysol win on 2026-11-07? → No | Flaznorp $135 | $0 | 56¢ NO | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Kawasaki Frontale win on 2026-11-07? → No | Flaznorp $90 | $0 | 69¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Kashiwa Reysol win on 2026-11-07? → No | Flaznorp $117 | $0 | 56¢ NO | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Dalian Kun City vs. Meizhou Hakka · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Will Dalian Kun City win on 2026-11-07?: Kalshi matched at 32¢
-- Sat Nov 7, 5:17 AM (hourly): Will Meizhou Hakka win on 2026-11-07?: Kalshi matched at 13¢
-- Sat Nov 7, 1:15 AM (hourly): Will Dalian Kun City win on 2026-11-07?: first seen: 1 vetted on No ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Meizhou Hakka win on 2026-11-07?: first seen: 1 vetted on Yes ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Will Dalian Kun City win on 2026-11-07? → No | Flaznorp $8 | $0 | 32¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Meizhou Hakka win on 2026-11-07? → Yes | Flaznorp $13 | $0 | 13¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Dalian Kun City win on 2026-11-07? → No | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will Meizhou Hakka win on 2026-11-07? → Yes | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Dalian Kun City win on 2026-11-07? → No | Flaznorp $8 | $0 | 32¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Meizhou Hakka win on 2026-11-07? → Yes | Flaznorp $13 | $0 | 13¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Dalian Kun City win on 2026-11-07? → No | Flaznorp $8 | $0 | 32¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Meizhou Hakka win on 2026-11-07? → Yes | Flaznorp $13 | $0 | 13¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Enisey Krasnoyarsk vs. Dynamo Vladivostok · starts Sat Nov 7, 9:00 AM
 
 - Sat Nov 7, 5:17 AM (hourly): Enisey Krasnoyarsk vs. Dynamo Vladivostok: Kalshi matched at 58¢
@@ -37409,15 +37339,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 4:15 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 2:16 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | 58¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | 58¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Wuxi Wugou vs. Changchun Yatai · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Will Wuxi Wugou win on 2026-11-07?: Kalshi matched at 59¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Will Wuxi Wugou win on 2026-11-07? → No | Flaznorp $24 | $0 | 59¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Wuxi Wugou win on 2026-11-07? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Melbourne City FC vs. Western Sydney Wanderers FC - More Markets · starts Sat Nov 7, 8:40 AM
 
@@ -37440,34 +37361,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | 84¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 94¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Shaanxi Union FC vs. Guangxi Hengchen FC · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Will Shaanxi Union FC win on 2026-11-07?: Kalshi matched at 51¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Will Shaanxi Union FC win on 2026-11-07? → No | Flaznorp $44 | $0 | 51¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Shaanxi Union FC win on 2026-11-07? → No | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Nantong Zhiyun vs. Foshan Nanshi FC · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Will Nantong Zhiyun win on 2026-11-07?: Kalshi matched at 13¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Will Nantong Zhiyun win on 2026-11-07? → No | Flaznorp $84 | $0 | 13¢ NO | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Nantong Zhiyun win on 2026-11-07? → No | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Nantong Zhiyun win on 2026-11-07? → No | Flaznorp $72 | $0 | 19¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 19c vs leaders 16c |
-
-### Osaka Evessa vs. Ibaraki Robots · starts Sat Nov 7, 7:05 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Osaka Evessa vs. Ibaraki Robots: first seen: 1 vetted on Ibaraki Robots ($117), fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Osaka Evessa vs. Ibaraki Robots → Ibaraki Robots | Flaznorp $194 | $0 | 96¢ YES | fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Sat Nov 7, 5:17 AM | hourly | Osaka Evessa vs. Ibaraki Robots → Ibaraki Robots | Flaznorp $117 | $0 | 96¢ YES | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Cayirova vs. Bandirma Bordo · starts Sat Nov 7, 10:00 AM
 
 - Sat Nov 7, 5:17 AM (hourly): Cayirova vs. Bandirma Bordo: Kalshi matched at 50¢
@@ -37478,18 +37371,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:17 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 5:17 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | 50¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 4:15 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Adelaide 36ers vs. Illawarra Hawks · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Adelaide 36ers vs. Illawarra Hawks: Kalshi matched at 34¢
-- Sat Nov 7, 5:17 AM (hourly): Adelaide 36ers vs. Illawarra Hawks: Flaznorp joined Illawarra Hawks (+$17)
-- Sat Nov 7, 2:16 AM (hourly): Adelaide 36ers vs. Illawarra Hawks: first seen: 1 vetted on Illawarra Hawks ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $42, Flaznorp $17 | $0 | 34¢ YES | fails: only 2 vetted wallets with $59 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $16 | $0 | 32¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Racing Club de Ferrol vs. UD Logrones - More Markets · starts Sat Nov 7, 12:00 PM
 
@@ -37509,34 +37390,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Will POFC Botev Vratsa vs. PFC Lokomotiv Plovdiv end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 1:15 AM | hourly | Will POFC Botev Vratsa vs. PFC Lokomotiv Plovdiv end in a draw? → No | Flaznorp $140 | $0 | — | fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Ningbo Professional FC vs. Jiangxi Dingnan United · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Will Ningbo Professional FC win on 2026-11-07?: back: 1 vetted on No ($613), fails: only 1 vetted wallet with $613 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 64c
-- Sat Nov 7, 2:16 AM (hourly): Will Ningbo Professional FC win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 2:16 AM (hourly): Will Jiangxi Dingnan United win on 2026-11-07?: Kalshi 39¢ → 38¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Will Ningbo Professional FC win on 2026-11-07? → No | Flaznorp $613 | $0 | 69¢ NO | fails: only 1 vetted wallet with $613 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 64c |
-| Sat Nov 7, 4:15 AM | hourly | Will Jiangxi Dingnan United win on 2026-11-07? → Yes | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Ningbo Professional FC win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 2:16 AM | hourly | Will Jiangxi Dingnan United win on 2026-11-07? → Yes | Flaznorp $24 | $0 | 38¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Jiangxi Dingnan United win on 2026-11-07? → Yes | Flaznorp $24 | $0 | 39¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 35c |
-| Sat Nov 7, 1:15 AM | hourly | Will Ningbo Professional FC win on 2026-11-07? → No | Flaznorp $40 | $0 | 62¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-
-### Nantong Zhiyun vs. Foshan Nanshi FC - More Markets · starts Sat Nov 7, 6:30 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Spread: Nantong Zhiyun (-1.5): first seen: 1 vetted on Foshan Nanshi FC ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Nantong Zhiyun vs. Foshan Nanshi FC: O/U 2.5: first seen: 1 vetted on Over ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Nantong Zhiyun (-1.5) → Foshan Nanshi FC | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Nantong Zhiyun (-1.5) → Foshan Nanshi FC | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Nantong Zhiyun (-1.5) → Foshan Nanshi FC | Flaznorp $8 | $0 | 36¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Nantong Zhiyun vs. Foshan Nanshi FC: O/U 2.5 → Over | Flaznorp $16 | $0 | 82¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Nantong Zhiyun vs. Foshan Nanshi FC: O/U 2.5 → Over | Flaznorp $16 | $0 | 82¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -37544,13 +37397,13 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (4 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 (1 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (3 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 2-4 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-84 (9 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-85 (9 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 12-9 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
