@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 12:12 AM. Bankroll **$55.30** (start $100): $45.56 cash + open trades at cost.
+Updated Mon Nov 9, 12:23 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
-Record: 52 won, 41 lost, 9 sold early. Realized P&L $-44.70. Open: 1.
+Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 9:12 PM | [Raiders vs. 49ers](https://polymarket.com/event/nfl-lv-sf-2026-11-08) | Raiders vs. 49ers → 49ers | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($59,625) | 12 × 80¢ YES `KXNFLGAME-26NOV08LVSF-SF` | open |  |
+| Sun Nov 8, 9:12 PM | [Raiders vs. 49ers](https://polymarket.com/event/nfl-lv-sf-2026-11-08) | Raiders vs. 49ers → 49ers | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($59,625) | 12 × 80¢ YES `KXNFLGAME-26NOV08LVSF-SF` | won | $+2.26 |
 | Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | won | $+8.14 |
 | Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | lost | $-10.31 |
 | Sun Nov 8, 3:18 PM | [CD Universidad Católica vs. CD Limache - More Markets](https://polymarket.com/event/chi1-cuc-cdl-2026-11-08-more-markets) | CD Universidad Católica vs. CD Limache: O/U 3.5 → Under | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($21,935) | 16 × 60¢ NO `KXCHLLDPTOTAL-26NOV08UCDEP-4` | won | $+6.13 |
