@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-09T01:12:18Z",
+  "updated": "2026-11-09T02:12:09Z",
   "games": [
     {
-      "event_slug": "nfl-tb-chi-2026-11-09",
-      "game": "Buccaneers vs. Bears",
-      "start": "2026-11-09T01:20:00Z",
-      "check_at": "2026-11-09T01:05:00Z",
+      "event_slug": "nfl-buf-min-2026-11-10",
+      "game": "Bills vs. Vikings",
+      "start": "2026-11-10T01:15:00Z",
+      "check_at": "2026-11-10T01:00:00Z",
       "passing": 0,
-      "near": 7,
-      "best": "Spread: Bears (-5.5) → Buccaneers ($90.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $90.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Bills vs. Vikings → Bills ($16.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }

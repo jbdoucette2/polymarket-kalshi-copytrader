@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 1:12 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 2:12 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -112,30 +112,30 @@ Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1541 settled so far, 70 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1542 settled so far, 70 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1541 | 48% | 49¢ | -1 pts | -6% |
-| Rules: one rule away | 1427 | 47% | 48¢ | -1 pts | -6% |
+| **all** | 1542 | 48% | 49¢ | -1 pts | -6% |
+| Rules: one rule away | 1428 | 47% | 48¢ | -1 pts | -6% |
 | Rules: passed every rule | 114 | 48% | 52¢ | -3 pts | -11% |
-| Price: 40–60¢ | 569 | 48% | 49¢ | -1 pts | -2% |
+| Price: 40–60¢ | 570 | 48% | 49¢ | -1 pts | -1% |
 | Price: 60–80¢ | 280 | 70% | 69¢ | +1 pts | +0% |
 | Price: 80¢+ | 172 | 91% | 88¢ | +3 pts | +4% |
 | Price: under 40¢ | 520 | 20% | 24¢ | -4 pts | -19% |
-| Wallets on the pick: 1 wallet | 1201 | 47% | 48¢ | -2 pts | -7% |
+| Wallets on the pick: 1 wallet | 1202 | 47% | 48¢ | -1 pts | -7% |
 | Wallets on the pick: 2 wallets | 268 | 47% | 50¢ | -2 pts | -9% |
 | Wallets on the pick: 3+ wallets | 72 | 60% | 50¢ | +10 pts | +19% |
 | Leader money: $20k+ | 57 | 61% | 58¢ | +3 pts | +2% |
-| Leader money: $5k–20k | 152 | 50% | 55¢ | -5 pts | -10% |
+| Leader money: $5k–20k | 153 | 50% | 55¢ | -5 pts | -10% |
 | Leader money: under $5k | 1332 | 47% | 47¢ | -1 pts | -6% |
 | Market type: draw | 79 | 54% | 56¢ | -1 pts | -18% |
 | Market type: moneyline | 182 | 51% | 52¢ | -2 pts | -10% |
 | Market type: soccer win/lose | 297 | 51% | 52¢ | -1 pts | -6% |
-| Market type: spread | 403 | 46% | 49¢ | -3 pts | -9% |
+| Market type: spread | 404 | 46% | 49¢ | -2 pts | -9% |
 | Market type: total | 580 | 45% | 45¢ | +0 pts | -2% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 50 | 36% | 38¢ | -2 pts | -8% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1363 | 47% | 49¢ | -2 pts | -8% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1364 | 47% | 49¢ | -2 pts | -8% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 22 | 59% | 53¢ | +6 pts | +20% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -146,10 +146,10 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | monkeymashingkeyboard | 22 | 64% | 50¢ | +14 pts |
 | primm | 27 | 59% | 52¢ | +7 pts |
-| Flaznorp (benched) | 506 | 64% | 58¢ | +5 pts |
-| gmpm2 | 22 | 59% | 55¢ | +4 pts |
-| HomeRunHazard (benched) | 182 | 56% | 55¢ | +1 pts |
+| gmpm2 | 23 | 61% | 55¢ | +6 pts |
+| Flaznorp (benched) | 507 | 64% | 58¢ | +5 pts |
 | SnakeBall (benched) | 92 | 68% | 68¢ | +1 pts |
+| HomeRunHazard (benched) | 184 | 55% | 55¢ | +1 pts |
 | RN1 (benched) | 45 | 53% | 54¢ | -1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
@@ -159,6 +159,18 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Bills vs. Vikings · starts Tue Nov 10, 1:15 AM
+
+- Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: first seen: 1 vetted on Bills ($16.0k), fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)
+- Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: O/U 44.5: first seen: 1 vetted on Under ($233), fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+)
+- Mon Nov 9, 2:12 AM (hourly): Spread: Bills (-2.5): first seen: 1 vetted on Bills ($5.6k), fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 2:12 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.0k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 2:12 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $233 | $0 | 52¢ NO | fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 2:12 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.6k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Buccaneers vs. Bears · starts Mon Nov 9, 1:20 AM
 
@@ -38260,57 +38272,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Atlante FC vs. Club Santos Laguna: O/U 1.5 → Under | SnakeBall $19 | $0 | 18¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 6, 11:13 PM | hourly | Atlante FC vs. Club Santos Laguna: O/U 1.5 → Under | SnakeBall $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
-### New Mexico vs. Nevada · starts Sat Nov 7, 2:00 AM
-
-- Sat Nov 7, 1:15 AM (pregame): Spread: New Mexico (-6.5): first seen: 1 vetted on Nevada ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (pregame): New Mexico vs. Nevada: O/U 35.5: Kalshi matched at 61¢
-- Sat Nov 7, 1:15 AM (pregame): Spread: New Mexico (-9.5): first seen: 1 vetted on Nevada ($882), fails: only 1 vetted wallet with $882 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (pregame): New Mexico vs. Nevada: primm added $4.9k on Nevada
-- Fri Nov 6, 9:13 PM (hourly): New Mexico vs. Nevada: O/U 35.5: Kalshi 60¢ → 61¢
-- Fri Nov 6, 9:13 PM (hourly): New Mexico vs. Nevada: Kalshi 80¢ → 22¢
-- Fri Nov 6, 9:13 PM (hourly): New Mexico vs. Nevada: majority flipped to Nevada ($3.3k vs $2.8k)
-- Fri Nov 6, 8:15 PM (hourly): New Mexico vs. Nevada: Kalshi 79¢ → 80¢
-- Fri Nov 6, 5:18 PM (hourly): New Mexico vs. Nevada: O/U 35.5: first seen: 1 vetted on Over ($119), fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 4:17 PM (hourly): New Mexico vs. Nevada: Kalshi 78¢ → 79¢
-- Fri Nov 6, 2:16 PM (hourly): New Mexico vs. Nevada: first seen: 1 vetted on New Mexico ($2.8k), fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 1:15 AM | pregame | Spread: New Mexico (-6.5) → Nevada | primm $9 | $0 | 39¢ NO | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | pregame | New Mexico vs. Nevada: O/U 35.5 → Over | primm $119 | $0 | 61¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | pregame | Spread: New Mexico (-9.5) → Nevada | primm $882 | $0 | 48¢ NO | fails: only 1 vetted wallet with $882 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | pregame | New Mexico vs. Nevada → Nevada | primm $7.8k, gmpm2 $184, SnakeBall $149, tradecraft $11 | $2.8k | 22¢ YES | fails: opposition 35% |
-| Fri Nov 6, 11:13 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $120 | $0 | — | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 11:13 PM | hourly | New Mexico vs. Nevada → Nevada | primm $2.9k, gmpm2 $184, SnakeBall $149, tradecraft $11 | $2.8k | 22¢ YES | fails: opposition 87% |
-| Fri Nov 6, 10:16 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $121 | $0 | 61¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | New Mexico vs. Nevada → Nevada | primm $2.9k, gmpm2 $184, SnakeBall $149, tradecraft $11 | $2.8k | 22¢ YES | fails: opposition 87% |
-| Fri Nov 6, 9:13 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $121 | $0 | 61¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | New Mexico vs. Nevada → Nevada | primm $2.9k, gmpm2 $184, SnakeBall $149, tradecraft $11 | $2.8k | 22¢ YES | fails: opposition 87% |
-| Fri Nov 6, 8:15 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $121 | $0 | 60¢ YES | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.9k | $328 | 80¢ YES | fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
-| Fri Nov 6, 7:14 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $119 | $0 | 60¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $276 | 79¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $119 | $0 | 60¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $264 | 79¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | New Mexico vs. Nevada: O/U 35.5 → Over | primm $119 | $0 | 60¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $270 | 79¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 4:17 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $264 | 79¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 3:16 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $265 | 78¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 2:16 PM | hourly | New Mexico vs. Nevada → New Mexico | ferrariChampions2026 $2.8k | $81 | 78¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Southern Illinois Salukis vs. Kansas City Roos · starts Sat Nov 7, 1:30 AM
-
-- Sat Nov 7, 1:15 AM (pregame): Spread: Southern Illinois Salukis (-3.5): Kalshi 38¢ → 40¢
-- Sat Nov 7, 12:31 AM (pregame): Spread: Southern Illinois Salukis (-3.5): first seen: 1 vetted on Southern Illinois Salukis ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 12:31 AM (pregame): Southern Illinois Salukis vs. Kansas City Roos: first seen: 1 vetted on Kansas City Roos ($78), fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 1:15 AM | pregame | Spread: Southern Illinois Salukis (-3.5) → Southern Illinois Salukis | Flaznorp $70 | $0 | 40¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | pregame | Southern Illinois Salukis vs. Kansas City Roos → Kansas City Roos | Flaznorp $78 | $0 | 51¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:31 AM | pregame | Spread: Southern Illinois Salukis (-3.5) → Southern Illinois Salukis | Flaznorp $70 | $0 | 38¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:31 AM | pregame | Southern Illinois Salukis vs. Kansas City Roos → Kansas City Roos | Flaznorp $78 | $0 | 51¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Oakland Golden Grizzlies vs. Stanford Cardinal · starts Sat Nov 7, 3:00 AM
 
 - Sat Nov 7, 2:16 AM (pregame): Spread: Stanford Cardinal (-14.5): Kalshi 48¢ → 52¢
@@ -38321,14 +38282,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | pregame | Spread: Stanford Cardinal (-14.5) → Stanford Cardinal | Flaznorp $163 | $0 | 52¢ YES | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 46c |
 | Sat Nov 7, 1:15 AM | hourly | Spread: Stanford Cardinal (-14.5) → Stanford Cardinal | Flaznorp $147 | $0 | 48¢ YES | fails: only 1 vetted wallet with $147 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Idaho Vandals vs. Colorado State Rams · starts Sat Nov 7, 2:00 AM
-
-- Sat Nov 7, 1:15 AM (pregame): Spread: Colorado State Rams (-16.5): first seen: 2 vetted on Idaho Vandals ($1.5k), fails: only 2 vetted wallets with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 1:15 AM | pregame | Spread: Colorado State Rams (-16.5) → Idaho Vandals | ferrariChampions2026 $1.4k, Flaznorp $83 | $0 | 51¢ NO | fails: only 2 vetted wallets with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -38336,13 +38289,13 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 5-7 (12 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 | benched |
-| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-2 (1 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 5-8 (12 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 (1 pending) | benched |
+| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-2 (2 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 (1 pending) | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 20-11 (1 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 102-80 (13 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 20-11 (3 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 102-82 (14 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-2 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 10-6 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
