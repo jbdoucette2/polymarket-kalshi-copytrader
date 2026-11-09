@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 8:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 9:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -170,6 +170,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 9:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
+| Mon Nov 9, 9:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 9:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.3k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 8:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
 | Mon Nov 9, 8:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 8:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.3k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37129,31 +37132,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Will Garuda Yaksa win on 2026-11-07? → Yes | Flaznorp $53 | $0 | 43¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
 | Sat Nov 7, 1:15 AM | hourly | Will Garuda Yaksa win on 2026-11-07? → Yes | Flaznorp $53 | $0 | 43¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
 
-### Melbourne City FC vs. Western Sydney Wanderers FC · starts Sat Nov 7, 8:40 AM
-
-- Sat Nov 7, 8:17 AM (pregame): Will Melbourne City FC vs. Western Sydney Wanderers FC end in a draw?: Kalshi 26¢ → 27¢
-- Sat Nov 7, 8:17 AM (pregame): Will Melbourne City FC win on 2026-11-07?: Kalshi 46¢ → 57¢
-- Sat Nov 7, 8:17 AM (pregame): Will Melbourne City FC win on 2026-11-07?: majority flipped to No ($2.5k vs $0)
-- Sat Nov 7, 5:17 AM (hourly): Will Western Sydney Wanderers FC win on 2026-11-07?: Kalshi matched at 71¢
-- Sat Nov 7, 5:17 AM (hourly): Will Melbourne City FC vs. Western Sydney Wanderers FC end in a draw?: Kalshi matched at 26¢
-- Sat Nov 7, 1:15 AM (hourly): Will Western Sydney Wanderers FC win on 2026-11-07?: first seen: 1 vetted on No ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | pregame | Will Western Sydney Wanderers FC win on 2026-11-07? → No | Flaznorp $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | pregame | Will Melbourne City FC vs. Western Sydney Wanderers FC end in a draw? → Yes | Flaznorp $41 | $0 | 27¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | pregame | Will Melbourne City FC win on 2026-11-07? → No | Flaznorp $1.8k, SnakeBall $652 | $0 | 57¢ NO | fails: only 2 vetted wallets with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Western Sydney Wanderers FC win on 2026-11-07? → No | Flaznorp $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Melbourne City FC vs. Western Sydney Wanderers FC end in a draw? → Yes | Flaznorp $40 | $0 | 26¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Melbourne City FC win on 2026-11-07? → Yes | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
-| Sat Nov 7, 4:15 AM | hourly | Will Western Sydney Wanderers FC win on 2026-11-07? → No | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will Melbourne City FC vs. Western Sydney Wanderers FC end in a draw? → Yes | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will Melbourne City FC win on 2026-11-07? → Yes | Flaznorp $81 | $0 | — | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Western Sydney Wanderers FC win on 2026-11-07? → No | Flaznorp $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Melbourne City FC win on 2026-11-07? → Yes | Flaznorp $81 | $0 | 46¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
-| Sat Nov 7, 1:15 AM | hourly | Will Western Sydney Wanderers FC win on 2026-11-07? → No | Flaznorp $14 | $0 | 71¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Melbourne City FC win on 2026-11-07? → Yes | Flaznorp $80 | $0 | 46¢ YES | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
-
 ### Luanda: Anna Blinkova vs Yasmine Kabbaj · starts Sat Nov 7, 10:00 AM
 
 - Sat Nov 7, 8:17 AM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: back: 1 vetted on Anna Blinkova ($6.5k), fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+)
@@ -37210,63 +37188,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $253 | $0 | — | fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
 | Fri Nov 6, 5:18 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $255 | $0 | — | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
 
-### Melbourne United vs. Brisbane Bullets · starts Sat Nov 7, 8:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Melbourne United vs. Brisbane Bullets: Kalshi matched at 84¢
-- Sat Nov 7, 1:15 AM (hourly): Melbourne United vs. Brisbane Bullets: first seen: 1 vetted on Melbourne United ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | pregame | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 7:33 AM | pregame | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Melbourne United vs. Brisbane Bullets → Melbourne United | Flaznorp $54 | $0 | 84¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Borneo Samarinda vs. PSM Makassar - More Markets · starts Sat Nov 7, 8:30 AM
-
-- Sat Nov 7, 7:33 AM (pregame): Spread: Borneo Samarinda (-1.5): first seen: 1 vetted on PSM Makassar ($79), fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | pregame | Spread: Borneo Samarinda (-1.5) → PSM Makassar | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 7:33 AM | pregame | Spread: Borneo Samarinda (-1.5) → PSM Makassar | Flaznorp $79 | $0 | 69¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Enisey Krasnoyarsk vs. Dynamo Vladivostok · starts Sat Nov 7, 9:00 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Enisey Krasnoyarsk vs. Dynamo Vladivostok: Kalshi matched at 58¢
-- Sat Nov 7, 1:15 AM (hourly): Enisey Krasnoyarsk vs. Dynamo Vladivostok: first seen: 1 vetted on Enisey Krasnoyarsk ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | pregame | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 5:17 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | 58¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | 58¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Enisey Krasnoyarsk vs. Dynamo Vladivostok → Enisey Krasnoyarsk | Flaznorp $23 | $0 | 58¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Melbourne City FC vs. Western Sydney Wanderers FC - More Markets · starts Sat Nov 7, 8:40 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5: Kalshi matched at 83¢
-- Sat Nov 7, 5:17 AM (hourly): Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5: Kalshi matched at 93¢
-- Sat Nov 7, 2:16 AM (hourly): Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5: Kalshi 94¢ → 93¢
-- Sat Nov 7, 1:15 AM (hourly): Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5: first seen: 1 vetted on Under ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5: first seen: 2 vetted on Under ($495), fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | pregame | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | pregame | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $288, Flaznorp $206 | $0 | — | fails: only 2 vetted wallets with $493 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | 83¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 93¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | — | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | 84¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 93¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | 84¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 94¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Cayirova vs. Bandirma Bordo · starts Sat Nov 7, 10:00 AM
 
 - Sat Nov 7, 5:17 AM (hourly): Cayirova vs. Bandirma Bordo: Kalshi matched at 50¢
@@ -37303,13 +37224,13 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (3 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (4 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 2-4 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-86 (11 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-86 (12 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 12-9 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
