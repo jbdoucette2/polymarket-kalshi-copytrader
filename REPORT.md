@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 7:16 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 8:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -149,7 +149,7 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | gmpm2 | 26 | 62% | 54¢ | +7 pts |
 | Flaznorp (benched) | 524 | 64% | 59¢ | +5 pts |
 | keeptheblueflagflyinghigh (benched) | 6 | 50% | 47¢ | +3 pts |
-| HomeRunHazard (benched) | 194 | 56% | 55¢ | +2 pts |
+| HomeRunHazard (benched) | 195 | 56% | 55¢ | +1 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | RN1 (benched) | 46 | 54% | 55¢ | -0 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
@@ -162,6 +162,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Bills vs. Vikings · starts Tue Nov 10, 1:15 AM
 
+- Mon Nov 9, 8:11 AM (hourly): Spread: Bills (-2.5): Kalshi matched at 56¢
 - Mon Nov 9, 6:16 AM (hourly): Spread: Bills (-2.5): Kalshi matched at 56¢
 - Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: first seen: 1 vetted on Bills ($16.0k), fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)
 - Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: O/U 44.5: first seen: 1 vetted on Under ($233), fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+)
@@ -169,6 +170,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 8:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
+| Mon Nov 9, 8:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 8:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.3k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 7:16 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | — | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11%; no Kalshi totals market |
 | Mon Nov 9, 7:16 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | — | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Mon Nov 9, 7:16 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.2k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.2k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37229,104 +37233,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:17 AM | pregame | Spread: Borneo Samarinda (-1.5) → PSM Makassar | Flaznorp $80 | $0 | — | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 7:33 AM | pregame | Spread: Borneo Samarinda (-1.5) → PSM Makassar | Flaznorp $79 | $0 | 69¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Gimcheon Sangmu FC vs. FC Anyang · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Will Gimcheon Sangmu FC win on 2026-11-07?: all vetted wallets left Yes
-- Sat Nov 7, 6:34 AM (pregame): Will Gimcheon Sangmu FC vs. FC Anyang end in a draw?: first seen: 1 vetted on No ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 6:34 AM (pregame): Will FC Anyang win on 2026-11-07?: Kalshi 34¢ → 36¢
-- Sat Nov 7, 5:17 AM (hourly): Will FC Anyang win on 2026-11-07?: Kalshi matched at 34¢
-- Sat Nov 7, 1:15 AM (hourly): Will Gimcheon Sangmu FC win on 2026-11-07?: first seen: 1 vetted on Yes ($63), fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 6:34 AM | pregame | Will Gimcheon Sangmu FC vs. FC Anyang end in a draw? → No | Flaznorp $34 | $0 | 73¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Will FC Anyang win on 2026-11-07? → Yes | Flaznorp $62 | $0 | 36¢ YES | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 31c |
-| Sat Nov 7, 5:17 AM | hourly | Will FC Anyang win on 2026-11-07? → Yes | Flaznorp $58 | $0 | 34¢ YES | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will FC Anyang win on 2026-11-07? → Yes | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | Flaznorp $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | Flaznorp $63 | $0 | 44¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Gimcheon Sangmu FC win on 2026-11-07? → Yes | Flaznorp $63 | $0 | 44¢ YES | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Seoul E-Land FC vs. Jeonnam Dragons · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Will Seoul E-Land FC vs. Jeonnam Dragons end in a draw?: first seen: 1 vetted on No ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:17 AM (hourly): Will Jeonnam Dragons win on 2026-11-07?: Kalshi matched at 16¢
-- Sat Nov 7, 5:17 AM (hourly): Will Seoul E-Land FC win on 2026-11-07?: Kalshi matched at 34¢
-- Sat Nov 7, 2:16 AM (hourly): Will Jeonnam Dragons win on 2026-11-07?: first seen: 1 vetted on Yes ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Seoul E-Land FC win on 2026-11-07?: first seen: 1 vetted on No ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Will Jeonnam Dragons win on 2026-11-07? → Yes | Flaznorp $10 | $0 | 16¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Will Seoul E-Land FC vs. Jeonnam Dragons end in a draw? → No | Flaznorp $49 | $0 | 82¢ NO | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Will Seoul E-Land FC win on 2026-11-07? → No | Flaznorp $165 | $0 | 34¢ NO | fails: only 1 vetted wallet with $165 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Jeonnam Dragons win on 2026-11-07? → Yes | Flaznorp $10 | $0 | 16¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will Seoul E-Land FC win on 2026-11-07? → No | Flaznorp $170 | $0 | 34¢ NO | fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will Jeonnam Dragons win on 2026-11-07? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will Seoul E-Land FC win on 2026-11-07? → No | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Jeonnam Dragons win on 2026-11-07? → Yes | Flaznorp $10 | $0 | 17¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Seoul E-Land FC win on 2026-11-07? → No | Flaznorp $36 | $0 | 35¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Seoul E-Land FC win on 2026-11-07? → No | Flaznorp $36 | $0 | 35¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Gimpo FC vs. Ansan Greeners FC - More Markets · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Gimpo FC vs. Ansan Greeners FC: O/U 4.5: Kalshi matched at 16¢
-- Sat Nov 7, 6:34 AM (pregame): Gimpo FC vs. Ansan Greeners FC: O/U 0.5: Kalshi matched at 95¢
-- Sat Nov 7, 2:16 AM (hourly): Gimpo FC vs. Ansan Greeners FC: O/U 0.5: first seen: 1 vetted on Over ($135), fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Gimpo FC vs. Ansan Greeners FC: O/U 4.5: first seen: 1 vetted on Over ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Gimpo FC vs. Ansan Greeners FC: O/U 4.5 → Over | Flaznorp $15 | $0 | 16¢ YES | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Gimpo FC vs. Ansan Greeners FC: O/U 0.5 → Over | Flaznorp $135 | $0 | 95¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 4.5 → Over | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 0.5 → Over | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 4.5 → Over | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 0.5 → Over | Flaznorp $135 | $0 | — | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 16¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 0.5 → Over | Flaznorp $135 | $0 | 95¢ YES | fails: only 1 vetted wallet with $135 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Gimpo FC vs. Ansan Greeners FC: O/U 4.5 → Over | Flaznorp $16 | $0 | 16¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Seoul E-Land FC vs. Jeonnam Dragons - More Markets · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5: Kalshi matched at 24¢
-- Sat Nov 7, 6:34 AM (pregame): Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5: Kalshi matched at 65¢
-- Sat Nov 7, 2:16 AM (hourly): Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5: Kalshi 66¢ → 65¢
-- Sat Nov 7, 1:15 AM (hourly): Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5: first seen: 1 vetted on Over ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5: first seen: 1 vetted on Over ($44), fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | Flaznorp $20 | $0 | 24¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:34 AM | pregame | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | Flaznorp $44 | $0 | 65¢ YES | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 5:17 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | Flaznorp $19 | $0 | — | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | Flaznorp $19 | $0 | 24¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | Flaznorp $44 | $0 | 65¢ YES | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 4.5 → Over | Flaznorp $21 | $0 | 24¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Seoul E-Land FC vs. Jeonnam Dragons: O/U 2.5 → Over | Flaznorp $44 | $0 | 66¢ YES | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Gimhae FC vs. Hwaseong FC - More Markets · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 6:34 AM (pregame): Spread: Gimhae FC (-1.5): Kalshi matched at 93¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Spread: Gimhae FC (-1.5) → Hwaseong FC | Flaznorp $58 | $0 | 93¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: Gimhae FC (-1.5) → Hwaseong FC | Flaznorp $58 | $0 | — | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Gimcheon Sangmu FC vs. FC Anyang - More Markets · starts Sat Nov 7, 7:30 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Gimcheon Sangmu FC vs. FC Anyang: O/U 3.5: first seen: 1 vetted on Under ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 6:34 AM | pregame | Gimcheon Sangmu FC vs. FC Anyang: O/U 3.5 → Under | Flaznorp $70 | $0 | 71¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Gimcheon Sangmu FC vs. FC Anyang: O/U 3.5 → Under | Flaznorp $70 | $0 | 71¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Enisey Krasnoyarsk vs. Dynamo Vladivostok · starts Sat Nov 7, 9:00 AM
 
 - Sat Nov 7, 5:17 AM (hourly): Enisey Krasnoyarsk vs. Dynamo Vladivostok: Kalshi matched at 58¢
@@ -37403,7 +37309,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-85 (9 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-86 (11 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
 | monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 12-9 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
