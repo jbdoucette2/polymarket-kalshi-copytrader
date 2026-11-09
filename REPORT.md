@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 5:13 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 6:16 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -147,10 +147,10 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | monkeymashingkeyboard | 27 | 59% | 49¢ | +10 pts |
 | primm | 28 | 61% | 52¢ | +9 pts |
 | gmpm2 | 26 | 62% | 54¢ | +7 pts |
-| Flaznorp (benched) | 518 | 64% | 58¢ | +5 pts |
+| Flaznorp (benched) | 522 | 64% | 59¢ | +5 pts |
 | keeptheblueflagflyinghigh (benched) | 6 | 50% | 47¢ | +3 pts |
 | HomeRunHazard (benched) | 193 | 56% | 55¢ | +2 pts |
-| SnakeBall (benched) | 93 | 69% | 68¢ | +1 pts |
+| SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | RN1 (benched) | 45 | 53% | 54¢ | -1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
@@ -162,12 +162,16 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Bills vs. Vikings · starts Tue Nov 10, 1:15 AM
 
+- Mon Nov 9, 6:16 AM (hourly): Spread: Bills (-2.5): Kalshi matched at 56¢
 - Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: first seen: 1 vetted on Bills ($16.0k), fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)
 - Mon Nov 9, 2:12 AM (hourly): Bills vs. Vikings: O/U 44.5: first seen: 1 vetted on Under ($233), fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+)
 - Mon Nov 9, 2:12 AM (hourly): Spread: Bills (-2.5): first seen: 1 vetted on Bills ($5.6k), fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 6:16 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
+| Mon Nov 9, 6:16 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 6:16 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 5:13 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $237 | $0 | — | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Mon Nov 9, 5:13 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | — | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Mon Nov 9, 5:13 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37393,52 +37397,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Will Dalian Kun City win on 2026-11-07? → No | Flaznorp $8 | $0 | 32¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Will Meizhou Hakka win on 2026-11-07? → Yes | Flaznorp $13 | $0 | 13¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### FC Tōkyō vs. Kashima Antlers · starts Sat Nov 7, 6:00 AM
-
-- Sat Nov 7, 5:17 AM (pregame): Will Kashima Antlers win on 2026-11-07?: Kalshi matched at 30¢
-- Sat Nov 7, 2:16 AM (hourly): Will Kashima Antlers win on 2026-11-07?: first seen: 1 vetted on Yes ($9), fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 2:16 AM (hourly): Will FC Tōkyō win on 2026-11-07?: Kalshi 53¢ → 52¢
-- Sat Nov 7, 1:15 AM (hourly): Will FC Tōkyō win on 2026-11-07?: first seen: 1 vetted on No ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | pregame | Will Kashima Antlers win on 2026-11-07? → Yes | Flaznorp $16 | $0 | 30¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | Will FC Tōkyō win on 2026-11-07? → No | Flaznorp $213 | $0 | 55¢ NO | fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
-| Sat Nov 7, 4:15 AM | hourly | Will Kashima Antlers win on 2026-11-07? → Yes | Flaznorp $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Will FC Tōkyō win on 2026-11-07? → No | Flaznorp $90 | $0 | — | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Kashima Antlers win on 2026-11-07? → Yes | Flaznorp $9 | $0 | 27¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will FC Tōkyō win on 2026-11-07? → No | Flaznorp $86 | $0 | 52¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will FC Tōkyō win on 2026-11-07? → No | Flaznorp $32 | $0 | 53¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### FC Tōkyō vs. Kashima Antlers - More Markets · starts Sat Nov 7, 6:00 AM
-
-- Sat Nov 7, 5:53 AM (verify): FC Tōkyō vs. Kashima Antlers: O/U 3.5: 15-min check: still passes (2 wallets, $29.7k for vs $0 against); holding
-- Sat Nov 7, 5:17 AM (pregame): Spread: Kashima Antlers (-1.5): Kalshi matched at 88¢
-- Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 5.5: Kalshi matched at 93¢
-- Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 2.5: first seen: 2 vetted on Under ($11.4k), passes
-- Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 1.5: Kalshi matched at 22¢
-- Sat Nov 7, 5:17 AM (pregame): FC Tōkyō vs. Kashima Antlers: O/U 3.5: first seen: 2 vetted on Under ($15.9k), passes
-- Sat Nov 7, 2:16 AM (hourly): Spread: Kashima Antlers (-1.5): Kalshi 90¢ → 91¢
-- Sat Nov 7, 2:16 AM (hourly): FC Tōkyō vs. Kashima Antlers: O/U 1.5: first seen: 1 vetted on Under ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: Kashima Antlers (-1.5): first seen: 1 vetted on FC Tōkyō ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): FC Tōkyō vs. Kashima Antlers: O/U 5.5: first seen: 1 vetted on Under ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | pregame | Spread: Kashima Antlers (-1.5) → FC Tōkyō | Flaznorp $18 | $0 | 88¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | FC Tōkyō vs. Kashima Antlers: O/U 5.5 → Under | Flaznorp $27 | $0 | 93¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | FC Tōkyō vs. Kashima Antlers: O/U 2.5 → Under | ferrariChampions2026 $10.6k, Flaznorp $732 | $0 | 46¢ NO | passes |
-| Sat Nov 7, 5:17 AM | pregame | FC Tōkyō vs. Kashima Antlers: O/U 1.5 → Under | SnakeBall $34 | $0 | 22¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | FC Tōkyō vs. Kashima Antlers: O/U 3.5 → Under | Flaznorp $10.1k, RN1 $5.8k | $0 | 68¢ NO | passes |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Kashima Antlers (-1.5) → FC Tōkyō | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | FC Tōkyō vs. Kashima Antlers: O/U 5.5 → Under | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | FC Tōkyō vs. Kashima Antlers: O/U 1.5 → Under | SnakeBall $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Kashima Antlers (-1.5) → FC Tōkyō | Flaznorp $18 | $0 | 91¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 91c vs leaders 88c |
-| Sat Nov 7, 2:16 AM | hourly | FC Tōkyō vs. Kashima Antlers: O/U 5.5 → Under | Flaznorp $27 | $0 | 94¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | FC Tōkyō vs. Kashima Antlers: O/U 1.5 → Under | SnakeBall $34 | $0 | 22¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Kashima Antlers (-1.5) → FC Tōkyō | Flaznorp $18 | $0 | 90¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | FC Tōkyō vs. Kashima Antlers: O/U 5.5 → Under | Flaznorp $27 | $0 | 94¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Enisey Krasnoyarsk vs. Dynamo Vladivostok · starts Sat Nov 7, 9:00 AM
 
 - Sat Nov 7, 5:17 AM (hourly): Enisey Krasnoyarsk vs. Dynamo Vladivostok: Kalshi matched at 58¢
@@ -37481,30 +37439,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 93¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 4.5 → Under | Flaznorp $32 | $0 | 84¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Melbourne City FC vs. Western Sydney Wanderers FC: O/U 5.5 → Under | SnakeBall $289, Flaznorp $206 | $0 | 94¢ NO | fails: only 2 vetted wallets with $495 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Avispa Fukuoka vs. V-Varen Nagasaki - More Markets · starts Sat Nov 7, 6:00 AM
-
-- Sat Nov 7, 5:17 AM (pregame): Spread: V-Varen Nagasaki (-1.5): Kalshi matched at 90¢
-- Sat Nov 7, 5:17 AM (pregame): Spread: Avispa Fukuoka (-2.5): Kalshi matched at 7¢
-- Sat Nov 7, 5:17 AM (pregame): Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5: Kalshi matched at 77¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: V-Varen Nagasaki (-1.5): first seen: 1 vetted on Avispa Fukuoka ($40), fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: Avispa Fukuoka (-2.5): first seen: 1 vetted on Avispa Fukuoka ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5: first seen: 1 vetted on Under ($78), fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | pregame | Spread: V-Varen Nagasaki (-1.5) → Avispa Fukuoka | Flaznorp $40 | $0 | 90¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | Spread: Avispa Fukuoka (-2.5) → Avispa Fukuoka | Flaznorp $27 | $0 | 7¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | pregame | Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5 → Under | Flaznorp $78 | $0 | 77¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: V-Varen Nagasaki (-1.5) → Avispa Fukuoka | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Spread: Avispa Fukuoka (-2.5) → Avispa Fukuoka | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | hourly | Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5 → Under | Flaznorp $79 | $0 | — | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Spread: V-Varen Nagasaki (-1.5) → Avispa Fukuoka | Flaznorp $40 | $0 | 90¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Avispa Fukuoka (-2.5) → Avispa Fukuoka | Flaznorp $29 | $0 | 8¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5 → Under | Flaznorp $78 | $0 | 77¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: V-Varen Nagasaki (-1.5) → Avispa Fukuoka | Flaznorp $40 | $0 | 90¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Avispa Fukuoka (-2.5) → Avispa Fukuoka | Flaznorp $29 | $0 | 8¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Avispa Fukuoka vs. V-Varen Nagasaki: O/U 3.5 → Under | Flaznorp $78 | $0 | 77¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Shaanxi Union FC vs. Guangxi Hengchen FC · starts Sat Nov 7, 6:30 AM
 
@@ -37556,20 +37490,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 5:17 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $42, Flaznorp $17 | $0 | 34¢ YES | fails: only 2 vetted wallets with $59 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 4:15 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 2:16 AM | hourly | Adelaide 36ers vs. Illawarra Hawks → Illawarra Hawks | tradecraft $16 | $0 | 32¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu · starts Sat Nov 7, 6:00 AM
-
-- Sat Nov 7, 5:17 AM (pregame): Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu: Kalshi matched at 48¢
-- Sat Nov 7, 4:15 AM (hourly): Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu: ferrariChampions2026 joined Alexandra Shubladze (+$1.6k)
-- Sat Nov 7, 2:16 AM (hourly): Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu: Kalshi 47¢ → 48¢
-- Sat Nov 7, 1:15 AM (hourly): Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu: first seen: 1 vetted on Alexandra Shubladze ($188), fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 5:17 AM | pregame | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | ferrariChampions2026 $1.6k, Flaznorp $192 | $0 | 48¢ YES | fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | ferrariChampions2026 $1.6k, Flaznorp $192 | $0 | — | fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | Flaznorp $188 | $0 | 48¢ YES | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | Flaznorp $188 | $0 | 47¢ YES | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Racing Club de Ferrol vs. UD Logrones - More Markets · starts Sat Nov 7, 12:00 PM
 
@@ -37624,12 +37544,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 12-9 (6 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (4 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 (1 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 21-11 (2 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
 | HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-84 (9 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
