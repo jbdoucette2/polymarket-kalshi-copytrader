@@ -1,25 +1,4 @@
 {
-  "updated": "2026-11-08T23:10:50Z",
-  "games": [
-    {
-      "event_slug": "nba-bkn-dal-2026-11-08",
-      "game": "Nets vs. Mavericks",
-      "start": "2026-11-09T00:30:00Z",
-      "check_at": "2026-11-09T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Mavericks (-7.5) → Nets ($65.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $65.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-tb-chi-2026-11-09",
-      "game": "Buccaneers vs. Bears",
-      "start": "2026-11-09T01:20:00Z",
-      "check_at": "2026-11-09T01:05:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Buccaneers vs. Bears → Buccaneers ($18.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    }
-  ]
+  "updated": "2026-11-09T00:12:07Z",
+  "games": []
 }
