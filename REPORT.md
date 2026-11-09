@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 4:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 5:13 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -112,49 +112,49 @@ Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (1542 settled so far, 70 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (1549 settled so far, 70 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 1542 | 48% | 49¢ | -1 pts | -6% |
-| Rules: one rule away | 1428 | 47% | 48¢ | -1 pts | -6% |
+| **all** | 1549 | 48% | 49¢ | -1 pts | -6% |
+| Rules: one rule away | 1435 | 48% | 48¢ | -1 pts | -6% |
 | Rules: passed every rule | 114 | 48% | 52¢ | -3 pts | -11% |
-| Price: 40–60¢ | 570 | 48% | 49¢ | -1 pts | -1% |
-| Price: 60–80¢ | 280 | 70% | 69¢ | +1 pts | +0% |
+| Price: 40–60¢ | 575 | 48% | 49¢ | -1 pts | -1% |
+| Price: 60–80¢ | 281 | 70% | 69¢ | +1 pts | +0% |
 | Price: 80¢+ | 172 | 91% | 88¢ | +3 pts | +4% |
-| Price: under 40¢ | 520 | 20% | 24¢ | -4 pts | -19% |
-| Wallets on the pick: 1 wallet | 1202 | 47% | 48¢ | -1 pts | -7% |
+| Price: under 40¢ | 521 | 20% | 24¢ | -4 pts | -19% |
+| Wallets on the pick: 1 wallet | 1209 | 47% | 48¢ | -1 pts | -7% |
 | Wallets on the pick: 2 wallets | 268 | 47% | 50¢ | -2 pts | -9% |
 | Wallets on the pick: 3+ wallets | 72 | 60% | 50¢ | +10 pts | +19% |
-| Leader money: $20k+ | 57 | 61% | 58¢ | +3 pts | +2% |
-| Leader money: $5k–20k | 153 | 50% | 55¢ | -5 pts | -10% |
-| Leader money: under $5k | 1332 | 47% | 47¢ | -1 pts | -6% |
+| Leader money: $20k+ | 60 | 63% | 58¢ | +5 pts | +6% |
+| Leader money: $5k–20k | 154 | 51% | 55¢ | -4 pts | -9% |
+| Leader money: under $5k | 1335 | 47% | 47¢ | -1 pts | -6% |
 | Market type: draw | 79 | 54% | 56¢ | -1 pts | -18% |
-| Market type: moneyline | 182 | 51% | 52¢ | -2 pts | -10% |
+| Market type: moneyline | 183 | 51% | 52¢ | -2 pts | -10% |
 | Market type: soccer win/lose | 297 | 51% | 52¢ | -1 pts | -6% |
-| Market type: spread | 404 | 46% | 49¢ | -2 pts | -9% |
-| Market type: total | 580 | 45% | 45¢ | +0 pts | -2% |
+| Market type: spread | 407 | 46% | 49¢ | -2 pts | -9% |
+| Market type: total | 583 | 45% | 45¢ | +0 pts | -2% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 50 | 36% | 38¢ | -2 pts | -8% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1364 | 47% | 49¢ | -2 pts | -8% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1371 | 48% | 49¢ | -1 pts | -8% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 22 | 59% | 53¢ | +6 pts | +20% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 | Wallet | Games | Won | Avg price | Edge |
 | --- | --- | --- | --- | --- |
-| BreakTheBank | 8 | 75% | 51¢ | +24 pts |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
-| monkeymashingkeyboard | 24 | 62% | 50¢ | +13 pts |
-| primm | 27 | 59% | 52¢ | +7 pts |
-| gmpm2 | 25 | 60% | 55¢ | +5 pts |
-| Flaznorp (benched) | 513 | 64% | 58¢ | +5 pts |
+| BreakTheBank | 9 | 67% | 50¢ | +17 pts |
+| monkeymashingkeyboard | 27 | 59% | 49¢ | +10 pts |
+| primm | 28 | 61% | 52¢ | +9 pts |
+| gmpm2 | 26 | 62% | 54¢ | +7 pts |
+| Flaznorp (benched) | 518 | 64% | 58¢ | +5 pts |
+| keeptheblueflagflyinghigh (benched) | 6 | 50% | 47¢ | +3 pts |
+| HomeRunHazard (benched) | 193 | 56% | 55¢ | +2 pts |
 | SnakeBall (benched) | 93 | 69% | 68¢ | +1 pts |
-| HomeRunHazard (benched) | 190 | 56% | 55¢ | +1 pts |
 | RN1 (benched) | 45 | 53% | 54¢ | -1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
-| keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
-| takeormake (benched) | 11 | 27% | 39¢ | -11 pts |
+| takeormake (benched) | 12 | 25% | 39¢ | -14 pts |
 
 ## Position changes
 
@@ -168,6 +168,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 5:13 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $237 | $0 | — | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Mon Nov 9, 5:13 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | — | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Mon Nov 9, 5:13 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 4:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $233 | $0 | 52¢ NO | fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 4:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.6k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 4:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37601,15 +37604,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 1:15 AM | hourly | Will Jiangxi Dingnan United win on 2026-11-07? → Yes | Flaznorp $24 | $0 | 39¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 39c vs leaders 35c |
 | Sat Nov 7, 1:15 AM | hourly | Will Ningbo Professional FC win on 2026-11-07? → No | Flaznorp $40 | $0 | 62¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
 
-### FC Gifu vs. Giravanz Kitakyushu · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Will FC Gifu win on 2026-11-07?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 2:16 AM | hourly | Will FC Gifu win on 2026-11-07? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 1:15 AM | hourly | Will FC Gifu win on 2026-11-07? → Yes | Flaznorp $173 | $0 | — | fails: only 1 vetted wallet with $173 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Nantong Zhiyun vs. Foshan Nanshi FC - More Markets · starts Sat Nov 7, 6:30 AM
 
 - Sat Nov 7, 2:16 AM (hourly): Spread: Nantong Zhiyun (-1.5): first seen: 1 vetted on Foshan Nanshi FC ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
@@ -37623,234 +37617,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Nantong Zhiyun vs. Foshan Nanshi FC: O/U 2.5 → Over | Flaznorp $16 | $0 | 82¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Nantong Zhiyun vs. Foshan Nanshi FC: O/U 2.5 → Over | Flaznorp $16 | $0 | 82¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Yokohama F·Marinos vs. Fagiano Okayama - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Spread: Fagiano Okayama (-1.5): Kalshi 15¢ → 14¢
-- Sat Nov 7, 2:16 AM (hourly): Yokohama F·Marinos vs. Fagiano Okayama: O/U 5.5: first seen: 1 vetted on Under ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: Fagiano Okayama (-1.5): first seen: 1 vetted on Fagiano Okayama ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Yokohama F·Marinos vs. Fagiano Okayama: O/U 2.5: first seen: 1 vetted on Under ($115), fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Yokohama F·Marinos vs. Fagiano Okayama: O/U 5.5 → Under | Flaznorp $36 | $0 | — | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Yokohama F·Marinos vs. Fagiano Okayama: O/U 2.5 → Under | Flaznorp $126 | $0 | — | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Fagiano Okayama (-1.5) → Fagiano Okayama | Flaznorp $8 | $0 | 14¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Yokohama F·Marinos vs. Fagiano Okayama: O/U 5.5 → Under | Flaznorp $36 | $0 | 95¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Yokohama F·Marinos vs. Fagiano Okayama: O/U 2.5 → Under | Flaznorp $115 | $0 | 48¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Fagiano Okayama (-1.5) → Fagiano Okayama | Flaznorp $8 | $0 | 15¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Yokohama F·Marinos vs. Fagiano Okayama: O/U 2.5 → Under | Flaznorp $115 | $0 | 48¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Yokohama FC vs. Fujieda MYFC - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Yokohama FC vs. Fujieda MYFC: O/U 4.5: first seen: 1 vetted on Over ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Yokohama FC vs. Fujieda MYFC: O/U 1.5: first seen: 1 vetted on Under ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Yokohama FC vs. Fujieda MYFC: O/U 4.5 → Over | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Yokohama FC vs. Fujieda MYFC: O/U 1.5 → Under | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Yokohama FC vs. Fujieda MYFC: O/U 4.5 → Over | Flaznorp $13 | $0 | 17¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Yokohama FC vs. Fujieda MYFC: O/U 1.5 → Under | Flaznorp $20 | $0 | 21¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Yokohama FC vs. Fujieda MYFC: O/U 4.5 → Over | Flaznorp $13 | $0 | 17¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Yokohama FC vs. Fujieda MYFC: O/U 1.5 → Under | Flaznorp $20 | $0 | 21¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Blaublitz Akita vs. Ōita Trinita - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Blaublitz Akita vs. Ōita Trinita: O/U 3.5: first seen: 1 vetted on Over ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Blaublitz Akita vs. Ōita Trinita: O/U 3.5 → Over | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Blaublitz Akita vs. Ōita Trinita: O/U 3.5 → Over | Flaznorp $17 | $0 | 21¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Blaublitz Akita vs. Ōita Trinita: O/U 3.5 → Over | Flaznorp $17 | $0 | 21¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nagoya Grampus vs. Kyōto Sanga FC - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Nagoya Grampus vs. Kyōto Sanga FC: O/U 1.5: first seen: 1 vetted on Under ($105), fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Spread: Nagoya Grampus (-1.5): first seen: 1 vetted on Kyōto Sanga FC ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Spread: Nagoya Grampus (-1.5) → Kyōto Sanga FC | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Nagoya Grampus vs. Kyōto Sanga FC: O/U 1.5 → Under | Flaznorp $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Spread: Nagoya Grampus (-1.5) → Kyōto Sanga FC | Flaznorp $18 | $0 | 73¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Nagoya Grampus vs. Kyōto Sanga FC: O/U 1.5 → Under | Flaznorp $105 | $0 | 22¢ NO | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Nagoya Grampus (-1.5) → Kyōto Sanga FC | Flaznorp $18 | $0 | 73¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Iwaki FC vs. Montedio Yamagata · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Will Iwaki FC vs. Montedio Yamagata end in a draw?: first seen: 1 vetted on No ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Montedio Yamagata win on 2026-11-07?: first seen: 1 vetted on No ($72), fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Iwaki FC vs. Montedio Yamagata end in a draw? → No | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Montedio Yamagata win on 2026-11-07? → No | Flaznorp $75 | $0 | — | fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Iwaki FC vs. Montedio Yamagata end in a draw? → No | Flaznorp $18 | $0 | 74¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Montedio Yamagata win on 2026-11-07? → No | Flaznorp $72 | $0 | 74¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Iwaki FC vs. Montedio Yamagata end in a draw? → No | Flaznorp $18 | $0 | 74¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Montedio Yamagata win on 2026-11-07? → No | Flaznorp $72 | $0 | 74¢ NO | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Sagan Tosu vs. Kataller Toyama · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 4:15 AM (pregame): Will Sagan Tosu win on 2026-11-07?: Flaznorp added $2.3k on No
-- Sat Nov 7, 1:15 AM (hourly): Will Sagan Tosu win on 2026-11-07?: first seen: 1 vetted on No ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Sagan Tosu vs. Kataller Toyama end in a draw?: first seen: 1 vetted on No ($34), fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Sagan Tosu vs. Kataller Toyama end in a draw? → No | Flaznorp $34 | $0 | — | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Sagan Tosu win on 2026-11-07? → No | Flaznorp $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Sagan Tosu win on 2026-11-07? → No | Flaznorp $19 | $0 | 57¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Sagan Tosu vs. Kataller Toyama end in a draw? → No | Flaznorp $34 | $0 | 76¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Sagan Tosu win on 2026-11-07? → No | Flaznorp $19 | $0 | 57¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Sagan Tosu vs. Kataller Toyama end in a draw? → No | Flaznorp $34 | $0 | 76¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Albirex Niigata vs. FC Imabari - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Albirex Niigata vs. FC Imabari: O/U 1.5: first seen: 1 vetted on Under ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Albirex Niigata vs. FC Imabari: O/U 1.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Albirex Niigata vs. FC Imabari: O/U 1.5 → Under | Flaznorp $22 | $0 | 21¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Albirex Niigata vs. FC Imabari: O/U 1.5 → Under | Flaznorp $22 | $0 | 21¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nagoya Grampus vs. Kyōto Sanga FC · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 4:15 AM (pregame): Will Nagoya Grampus win on 2026-11-07?: SnakeBall joined No (+$466)
-- Sat Nov 7, 2:16 AM (hourly): Will Kyōto Sanga FC win on 2026-11-07?: first seen: 1 vetted on No ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 2:16 AM (hourly): Will Nagoya Grampus win on 2026-11-07?: Kalshi 48¢ → 49¢
-- Sat Nov 7, 1:15 AM (hourly): Will Nagoya Grampus win on 2026-11-07?: first seen: 1 vetted on No ($61), fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Kyōto Sanga FC win on 2026-11-07? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Nagoya Grampus win on 2026-11-07? → No | Flaznorp $1.0k, SnakeBall $466 | $0 | — | fails: only 2 vetted wallets with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Kyōto Sanga FC win on 2026-11-07? → No | Flaznorp $23 | $0 | 78¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Nagoya Grampus win on 2026-11-07? → No | Flaznorp $150 | $0 | 49¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Nagoya Grampus win on 2026-11-07? → No | Flaznorp $61 | $0 | 48¢ NO | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Seongnam Ilhwa vs. Daegu FC - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Seongnam Ilhwa vs. Daegu FC: O/U 1.5: first seen: 1 vetted on Under ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Seongnam Ilhwa vs. Daegu FC: O/U 1.5 → Under | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Seongnam Ilhwa vs. Daegu FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 21¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Seongnam Ilhwa vs. Daegu FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 21¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Blaublitz Akita vs. Ōita Trinita · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Will Ōita Trinita win on 2026-11-07?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Blaublitz Akita vs. Ōita Trinita end in a draw?: first seen: 1 vetted on No ($44), fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Ōita Trinita win on 2026-11-07? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Blaublitz Akita vs. Ōita Trinita end in a draw? → No | Flaznorp $71 | $0 | — | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Ōita Trinita win on 2026-11-07? → No | Flaznorp $24 | $0 | 72¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Blaublitz Akita vs. Ōita Trinita end in a draw? → No | Flaznorp $44 | $0 | 69¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Ōita Trinita win on 2026-11-07? → No | Flaznorp $24 | $0 | 72¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Blaublitz Akita vs. Ōita Trinita end in a draw? → No | Flaznorp $44 | $0 | 69¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Yokohama FC vs. Fujieda MYFC · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 4:15 AM (pregame): Will Yokohama FC win on 2026-11-07?: RN1 joined No (+$606)
-- Sat Nov 7, 1:15 AM (hourly): Will Yokohama FC win on 2026-11-07?: first seen: 1 vetted on No ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Yokohama FC win on 2026-11-07? → No | RN1 $606, Flaznorp $214 | $0 | — | fails: only 2 vetted wallets with $821 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Yokohama FC win on 2026-11-07? → No | Flaznorp $24 | $0 | 42¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Yokohama FC win on 2026-11-07? → No | Flaznorp $24 | $0 | 42¢ NO | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Sagan Tosu vs. Kataller Toyama - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Sagan Tosu vs. Kataller Toyama: O/U 2.5: first seen: 1 vetted on Under ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Sagan Tosu vs. Kataller Toyama: O/U 2.5 → Under | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Sagan Tosu vs. Kataller Toyama: O/U 2.5 → Under | Flaznorp $27 | $0 | 43¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Sagan Tosu vs. Kataller Toyama: O/U 2.5 → Under | Flaznorp $27 | $0 | 43¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Tokushima Vortis vs. Tegevajaro Miyazaki · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Will Tokushima Vortis vs. Tegevajaro Miyazaki end in a draw?: first seen: 1 vetted on No ($29), fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Tegevajaro Miyazaki win on 2026-11-07?: first seen: 1 vetted on No ($293), fails: only 1 vetted wallet with $293 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Tokushima Vortis vs. Tegevajaro Miyazaki end in a draw? → No | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Tokushima Vortis vs. Tegevajaro Miyazaki end in a draw? → No | Flaznorp $29 | $0 | 73¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Tegevajaro Miyazaki win on 2026-11-07? → No | Flaznorp $293 | $0 | 53¢ NO | fails: only 1 vetted wallet with $293 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Tokushima Vortis vs. Tegevajaro Miyazaki end in a draw? → No | Flaznorp $29 | $0 | 73¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Tegevajaro Miyazaki win on 2026-11-07? → No | Flaznorp $293 | $0 | 53¢ NO | fails: only 1 vetted wallet with $293 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Albirex Niigata vs. FC Imabari · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Will Albirex Niigata win on 2026-11-07?: first seen: 1 vetted on No ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will FC Imabari win on 2026-11-07?: first seen: 1 vetted on Yes ($98), fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will FC Imabari win on 2026-11-07? → Yes | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Albirex Niigata win on 2026-11-07? → No | Flaznorp $284 | $0 | — | fails: only 1 vetted wallet with $284 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Albirex Niigata win on 2026-11-07? → No | Flaznorp $31 | $0 | 53¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will FC Imabari win on 2026-11-07? → Yes | Flaznorp $98 | $0 | 28¢ YES | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Albirex Niigata win on 2026-11-07? → No | Flaznorp $31 | $0 | 53¢ NO | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will FC Imabari win on 2026-11-07? → Yes | Flaznorp $98 | $0 | 28¢ YES | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Jeju SK FC vs. Gwangju FC · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Will Gwangju FC win on 2026-11-07?: first seen: 1 vetted on Yes ($32), fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Gwangju FC win on 2026-11-07? → Yes | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Gwangju FC win on 2026-11-07? → Yes | Flaznorp $32 | $0 | 22¢ YES | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Yokohama F·Marinos vs. Fagiano Okayama · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Will Yokohama F·Marinos vs. Fagiano Okayama end in a draw?: Kalshi 73¢ → 74¢
-- Sat Nov 7, 2:16 AM (hourly): Will Yokohama F·Marinos win on 2026-11-07?: Kalshi 60¢ → 59¢
-- Sat Nov 7, 1:15 AM (hourly): Will Yokohama F·Marinos vs. Fagiano Okayama end in a draw?: first seen: 1 vetted on No ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Yokohama F·Marinos win on 2026-11-07?: first seen: 1 vetted on No ($116), fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Will Yokohama F·Marinos vs. Fagiano Okayama end in a draw? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Will Yokohama F·Marinos win on 2026-11-07? → No | Flaznorp $266 | $0 | — | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will Yokohama F·Marinos vs. Fagiano Okayama end in a draw? → No | Flaznorp $37 | $0 | 74¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Yokohama F·Marinos win on 2026-11-07? → No | Flaznorp $136 | $0 | 59¢ NO | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Yokohama F·Marinos vs. Fagiano Okayama end in a draw? → No | Flaznorp $36 | $0 | 73¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Yokohama F·Marinos win on 2026-11-07? → No | Flaznorp $116 | $0 | 60¢ NO | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Suwon FC vs. Gyeongnam FC - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 1:15 AM (hourly): Suwon FC vs. Gyeongnam FC: O/U 1.5: first seen: 1 vetted on Under ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Suwon FC vs. Gyeongnam FC: O/U 1.5 → Under | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Suwon FC vs. Gyeongnam FC: O/U 1.5 → Under | Flaznorp $43 | $0 | 22¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Suwon FC vs. Gyeongnam FC: O/U 1.5 → Under | Flaznorp $43 | $0 | 22¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Jeju SK FC vs. Gwangju FC - More Markets · starts Sat Nov 7, 5:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Jeju SK FC vs. Gwangju FC: O/U 3.5: first seen: 1 vetted on Over ($55), fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Jeju SK FC vs. Gwangju FC: O/U 4.5: first seen: 1 vetted on Over ($45), fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 4:15 AM | pregame | Jeju SK FC vs. Gwangju FC: O/U 4.5 → Over | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 4:15 AM | pregame | Jeju SK FC vs. Gwangju FC: O/U 3.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Jeju SK FC vs. Gwangju FC: O/U 4.5 → Over | Flaznorp $45 | $0 | 15¢ YES | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Jeju SK FC vs. Gwangju FC: O/U 3.5 → Over | Flaznorp $55 | $0 | 31¢ YES | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Jeju SK FC vs. Gwangju FC: O/U 4.5 → Over | Flaznorp $45 | $0 | 15¢ YES | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -37858,16 +37624,16 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 8-9 (10 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 12-9 (6 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 (1 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
-| keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 (1 pending) | benched |
+| keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 21-11 (2 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 106-84 (11 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 109-84 (9 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
-| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-2 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 11-7 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
+| BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 12-9 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
 
 ## Recent skips
 
