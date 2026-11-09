@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 3:10 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 4:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -144,17 +144,17 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | --- | --- | --- | --- | --- |
 | BreakTheBank | 8 | 75% | 51¢ | +24 pts |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
-| monkeymashingkeyboard | 22 | 64% | 50¢ | +14 pts |
+| monkeymashingkeyboard | 24 | 62% | 50¢ | +13 pts |
 | primm | 27 | 59% | 52¢ | +7 pts |
-| gmpm2 | 23 | 61% | 55¢ | +6 pts |
-| Flaznorp (benched) | 509 | 64% | 58¢ | +5 pts |
-| SnakeBall (benched) | 92 | 68% | 68¢ | +1 pts |
-| HomeRunHazard (benched) | 186 | 55% | 55¢ | +1 pts |
+| gmpm2 | 25 | 60% | 55¢ | +5 pts |
+| Flaznorp (benched) | 513 | 64% | 58¢ | +5 pts |
+| SnakeBall (benched) | 93 | 69% | 68¢ | +1 pts |
+| HomeRunHazard (benched) | 190 | 56% | 55¢ | +1 pts |
 | RN1 (benched) | 45 | 53% | 54¢ | -1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | keeptheblueflagflyinghigh (benched) | 5 | 40% | 47¢ | -7 pts |
-| takeormake (benched) | 10 | 30% | 40¢ | -10 pts |
+| takeormake (benched) | 11 | 27% | 39¢ | -11 pts |
 
 ## Position changes
 
@@ -168,6 +168,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 4:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $233 | $0 | 52¢ NO | fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 4:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.6k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 4:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.1k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 3:10 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.0k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 3:10 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $233 | $0 | 52¢ NO | fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 3:10 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.6k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37565,116 +37568,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | Flaznorp $188 | $0 | 48¢ YES | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Prudential Hong Kong Tennis Open: Alexandra Shubladze vs Claire Liu → Alexandra Shubladze | Flaznorp $188 | $0 | 47¢ YES | fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Auckland FC vs. Wellington Phoenix FC - More Markets · starts Sat Nov 7, 4:00 AM
-
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: Both Teams to Score: all vetted wallets left No
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 0.5: all vetted wallets left Under
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 1.5: Kalshi 23¢ → 22¢
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 2.5: Kalshi 54¢ → 56¢
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 3.5: Kalshi 69¢ → 68¢
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 4.5: Kalshi 85¢ → 84¢
-- Sat Nov 7, 3:31 AM (pregame): Auckland FC vs. Wellington Phoenix FC: O/U 4.5: Flaznorp left
-- Sat Nov 7, 2:16 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 2.5: Kalshi 55¢ → 54¢
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 2.5: first seen: 1 vetted on Over ($24), fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 1.5: first seen: 1 vetted on Under ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 3.5: first seen: 1 vetted on Under ($298), fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 0.5: Kalshi matched at 7¢
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 4.5: Kalshi matched at 85¢
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 4.5: Flaznorp joined Under (+$34)
-- Sat Nov 7, 1:15 AM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 5.5: Kalshi matched at 94¢
-- Fri Nov 6, 10:16 PM (hourly): Auckland FC vs. Wellington Phoenix FC: O/U 0.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 1.5 → Under | Flaznorp $67 | $0 | 22¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 2.5 → Over | Flaznorp $82 | $0 | 56¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 3.5 → Under | Flaznorp $289 | $0 | 68¢ NO | fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 4.5 → Under | SnakeBall $316 | $0 | 84¢ NO | fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Auckland FC vs. Wellington Phoenix FC: O/U 5.5 → Under | SnakeBall $366 | $0 | 94¢ NO | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 2.5 → Over | Flaznorp $24 | $0 | 54¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 1.5 → Under | Flaznorp $67 | $0 | 23¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 3.5 → Under | Flaznorp $298 | $0 | 69¢ NO | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 0.5 → Under | SnakeBall $19 | $0 | 7¢ NO | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 4.5 → Under | SnakeBall $320, Flaznorp $34 | $0 | 85¢ NO | fails: only 2 vetted wallets with $354 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 5.5 → Under | SnakeBall $366 | $0 | 94¢ NO | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 2.5 → Over | Flaznorp $24 | $0 | 55¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: Both Teams to Score → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 1.5 → Under | Flaznorp $70 | $0 | 23¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 3.5 → Under | Flaznorp $298 | $0 | 69¢ NO | fails: only 1 vetted wallet with $298 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 0.5 → Under | SnakeBall $17 | $0 | 7¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 4.5 → Under | SnakeBall $320, Flaznorp $34 | $0 | 85¢ NO | fails: only 2 vetted wallets with $354 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 5.5 → Under | SnakeBall $366 | $0 | 94¢ NO | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 0.5 → Under | SnakeBall $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 11:13 PM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 4.5 → Under | SnakeBall $320 | $0 | — | fails: only 1 vetted wallet with $320 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 11:13 PM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 5.5 → Under | SnakeBall $366 | $0 | — | fails: only 1 vetted wallet with $366 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 6, 10:16 PM | hourly | Auckland FC vs. Wellington Phoenix FC: O/U 0.5 → Under | SnakeBall $17 | $0 | 7¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Auckland FC vs. Wellington Phoenix FC - Exact Score · starts Sat Nov 7, 4:00 AM
-
-- Sat Nov 7, 3:31 AM (pregame): Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:31 AM | pregame | Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 2:16 AM | hourly | Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC? → No | SnakeBall $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Sat Nov 7, 1:15 AM | hourly | Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC? → No | SnakeBall $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Fri Nov 6, 11:13 PM | hourly | Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC? → No | SnakeBall $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Fri Nov 6, 10:16 PM | hourly | Exact Score: Auckland FC 2 - 3 Wellington Phoenix FC? → No | SnakeBall $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-
-### Shimizu S-Pulse vs. Tōkyō Verdy - More Markets · starts Sat Nov 7, 4:00 AM
-
-- Sat Nov 7, 3:53 AM (verify): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 2.5: 15-min check: still passes (3 wallets, $20.9k for vs $0 against); holding
-- Sat Nov 7, 3:31 AM (pregame): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 3.5: all vetted wallets left Over
-- Sat Nov 7, 3:31 AM (pregame): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 4.5: first seen: 1 vetted on Over ($4), fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 3:31 AM (pregame): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 1.5: first seen: 1 vetted on Under ($950), fails: only 1 vetted wallet with $950 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 3:31 AM (pregame): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 2.5: first seen: 4 vetted on Under ($23.3k), passes
-- Sat Nov 7, 1:15 AM (hourly): Shimizu S-Pulse vs. Tōkyō Verdy: O/U 3.5: first seen: 1 vetted on Over ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:31 AM | pregame | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 3:31 AM | pregame | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 4.5 → Over | Flaznorp $4 | $0 | 8¢ YES | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 1.5 → Under | Flaznorp $950 | $0 | 34¢ NO | fails: only 1 vetted wallet with $950 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 2.5 → Under | ferrariChampions2026 $14.2k, RN1 $6.0k, Flaznorp $2.4k, SnakeBall $654 | $0 | 62¢ NO | passes |
-| Sat Nov 7, 2:16 AM | hourly | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 3.5 → Over | Flaznorp $70 | $0 | 21¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Shimizu S-Pulse vs. Tōkyō Verdy: O/U 3.5 → Over | Flaznorp $70 | $0 | 21¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Shimizu S-Pulse vs. Tōkyō Verdy · starts Sat Nov 7, 4:00 AM
-
-- Sat Nov 7, 2:16 AM (hourly): Will Tōkyō Verdy win on 2026-11-06?: Kalshi 69¢ → 33¢
-- Sat Nov 7, 2:16 AM (hourly): Will Tōkyō Verdy win on 2026-11-06?: majority flipped to Yes ($55 vs $0)
-- Sat Nov 7, 1:15 AM (hourly): Will Tōkyō Verdy win on 2026-11-06?: first seen: 1 vetted on No ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Shimizu S-Pulse vs. Tōkyō Verdy end in a draw?: first seen: 1 vetted on No ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 1:15 AM (hourly): Will Shimizu S-Pulse win on 2026-11-06?: first seen: 1 vetted on No ($137), fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:31 AM | pregame | Will Shimizu S-Pulse vs. Tōkyō Verdy end in a draw? → No | Flaznorp $41 | $0 | 70¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Will Tōkyō Verdy win on 2026-11-06? → Yes | Flaznorp $61 | $0 | 33¢ YES | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:31 AM | pregame | Will Shimizu S-Pulse win on 2026-11-06? → No | Flaznorp $266 | $0 | 63¢ NO | fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Shimizu S-Pulse vs. Tōkyō Verdy end in a draw? → No | Flaznorp $42 | $0 | 70¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Tōkyō Verdy win on 2026-11-06? → Yes | Flaznorp $55 | $0 | 33¢ YES | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Shimizu S-Pulse win on 2026-11-06? → No | Flaznorp $137 | $0 | 63¢ NO | fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Tōkyō Verdy win on 2026-11-06? → No | Flaznorp $21 | $0 | 69¢ NO | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Shimizu S-Pulse vs. Tōkyō Verdy end in a draw? → No | Flaznorp $42 | $0 | 70¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Shimizu S-Pulse win on 2026-11-06? → No | Flaznorp $137 | $0 | 63¢ NO | fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Auckland FC vs. Wellington Phoenix FC · starts Sat Nov 7, 4:00 AM
-
-- Sat Nov 7, 3:31 AM (pregame): Will Wellington Phoenix FC win on 2026-11-06?: Kalshi 69¢ → 68¢
-- Sat Nov 7, 3:31 AM (pregame): Will Wellington Phoenix FC win on 2026-11-06?: SnakeBall joined No (+$411)
-- Sat Nov 7, 3:31 AM (pregame): Will Wellington Phoenix FC win on 2026-11-06?: Flaznorp added $1.1k on No
-- Sat Nov 7, 1:15 AM (hourly): Will Wellington Phoenix FC win on 2026-11-06?: first seen: 1 vetted on No ($60), fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 3:31 AM | pregame | Will Wellington Phoenix FC win on 2026-11-06? → No | Flaznorp $1.2k, SnakeBall $411 | $0 | 68¢ NO | fails: only 2 vetted wallets with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | hourly | Will Wellington Phoenix FC win on 2026-11-06? → No | Flaznorp $60 | $0 | 69¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Will Wellington Phoenix FC win on 2026-11-06? → No | Flaznorp $60 | $0 | 69¢ NO | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Racing Club de Ferrol vs. UD Logrones - More Markets · starts Sat Nov 7, 12:00 PM
 
 - Sat Nov 7, 2:16 AM (hourly): Racing Club de Ferrol vs. UD Logrones: O/U 2.5: all vetted wallets left Under
@@ -37958,85 +37851,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Jeju SK FC vs. Gwangju FC: O/U 3.5 → Over | Flaznorp $55 | $0 | 31¢ YES | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 1:15 AM | hourly | Jeju SK FC vs. Gwangju FC: O/U 4.5 → Over | Flaznorp $45 | $0 | 15¢ YES | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### M15 Maanshan: Millen Hurrion vs Rigele Te · starts Sat Nov 7, 3:30 AM
-
-- Sat Nov 7, 2:16 AM (hourly): M15 Maanshan: Millen Hurrion vs Rigele Te: Kalshi 51¢ → 50¢
-- Sat Nov 7, 1:15 AM (hourly): M15 Maanshan: Millen Hurrion vs Rigele Te: first seen: 1 vetted on Millen Hurrion ($160), fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 2:16 AM | hourly | M15 Maanshan: Millen Hurrion vs Rigele Te → Millen Hurrion | Flaznorp $160 | $0 | 50¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | M15 Maanshan: Millen Hurrion vs Rigele Te → Millen Hurrion | Flaznorp $160 | $0 | 51¢ YES | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### TCU vs. Arizona · starts Sat Nov 7, 3:15 AM
-
-- Sat Nov 7, 2:16 AM (pregame): Spread: Arizona (-6.5): Kalshi 51¢ → 50¢
-- Sat Nov 7, 2:16 AM (pregame): TCU vs. Arizona: ferrariChampions2026 cut $14.4k on Arizona
-- Sat Nov 7, 1:15 AM (hourly): Spread: Arizona (-6.5): Kalshi matched at 51¢
-- Sat Nov 7, 1:15 AM (hourly): TCU vs. Arizona: O/U 47.5: Kalshi matched at 49¢
-- Sat Nov 7, 1:15 AM (hourly): Spread: Arizona (-7.5): Kalshi matched at 43¢
-- Fri Nov 6, 11:13 PM (hourly): TCU vs. Arizona: Kalshi 72¢ → 71¢
-- Fri Nov 6, 9:13 PM (hourly): TCU vs. Arizona: O/U 47.5: primm joined Over (+$1.2k)
-- Fri Nov 6, 8:15 PM (hourly): TCU vs. Arizona: Kalshi 30¢ → 72¢
-- Fri Nov 6, 8:15 PM (hourly): TCU vs. Arizona: majority flipped to Arizona ($16.7k vs $38)
-- Fri Nov 6, 8:15 PM (hourly): Spread: Arizona (-6.5): first seen: 1 vetted on Arizona ($18.9k), fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 2:16 AM | pregame | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $16.5k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | pregame | TCU vs. Arizona → Arizona | ferrariChampions2026 $2.1k | $41 | 71¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | pregame | TCU vs. Arizona: O/U 47.5 → Over | primm $1.2k, SnakeBall $189 | $0 | 49¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:16 AM | pregame | Spread: Arizona (-7.5) → Arizona | SnakeBall $277 | $0 | 43¢ YES | fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $18.5k | $0 | 51¢ YES | fails: only 1 vetted wallet with $18.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | TCU vs. Arizona → Arizona | ferrariChampions2026 $16.5k | $39 | 71¢ YES | fails: only 1 vetted wallet with $16.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | primm $1.2k, SnakeBall $193 | $0 | 49¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:15 AM | hourly | Spread: Arizona (-7.5) → Arizona | SnakeBall $291 | $0 | 43¢ YES | fails: only 1 vetted wallet with $291 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Spread: Arizona (-7.5) → Arizona | SnakeBall $115 | $0 | — | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 6, 11:13 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | primm $1.2k, SnakeBall $189 | $0 | — | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 11:13 PM | hourly | TCU vs. Arizona → Arizona | ferrariChampions2026 $16.5k | $39 | 71¢ YES | fails: only 1 vetted wallet with $16.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 11:13 PM | hourly | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $18.9k | $0 | — | fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 6, 10:16 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | primm $1.2k, SnakeBall $189 | $0 | 48¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | TCU vs. Arizona → Arizona | ferrariChampions2026 $16.7k | $38 | 72¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 10:16 PM | hourly | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $18.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | primm $1.2k, SnakeBall $193 | $0 | 48¢ YES | fails: only 2 vetted wallets with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | TCU vs. Arizona → Arizona | ferrariChampions2026 $16.7k | $38 | 72¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $18.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $189 | $0 | 48¢ YES | fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 43c |
-| Fri Nov 6, 8:15 PM | hourly | TCU vs. Arizona → Arizona | ferrariChampions2026 $16.7k | $38 | 72¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 8:15 PM | hourly | Spread: Arizona (-6.5) → Arizona | ferrariChampions2026 $18.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $18.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $39 | $0 | 30¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 25c |
-| Fri Nov 6, 7:14 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $189 | $0 | 48¢ YES | fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 43c |
-| Fri Nov 6, 6:18 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $39 | $0 | 30¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 25c |
-| Fri Nov 6, 6:18 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $189 | $0 | 48¢ YES | fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 43c |
-| Fri Nov 6, 5:18 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $39 | $0 | 29¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Fri Nov 6, 5:18 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $189 | $0 | 48¢ YES | fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 43c |
-| Fri Nov 6, 4:17 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $39 | $0 | 29¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Fri Nov 6, 4:17 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 3:16 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $38 | $0 | 29¢ YES | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Fri Nov 6, 3:16 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 2:16 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 2:16 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 1:13 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 1:13 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 12:20 PM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 12:20 PM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 11:14 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 11:14 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 10:11 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 10:11 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 9:13 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 9:13 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 8:14 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 8:14 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 47¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 43c |
-| Fri Nov 6, 7:18 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 7:18 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | — | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 6:15 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 6:15 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | — | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 5:14 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 5:14 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | — | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 6, 4:14 AM | hourly | TCU vs. Arizona → TCU | SnakeBall $37 | $0 | 28¢ YES | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Fri Nov 6, 4:14 AM | hourly | TCU vs. Arizona: O/U 47.5 → Over | SnakeBall $181 | $0 | 46¢ YES | fails: only 1 vetted wallet with $181 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 43c |
-
 
 ## Time-out
 
@@ -38044,16 +37858,16 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 6-8 (13 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 8-9 (10 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 1-4 (1 pending) | benched |
-| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-2 (2 pending) | benched |
+| takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 0-0 (1 pending) | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 | benched |
-| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 20-11 (3 pending) | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 103-83 (15 pending) | benched |
+| SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 21-11 (2 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 106-84 (11 pending) | benched |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-2 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
-| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 10-6 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
+| monkeymashingkeyboard | trader: 25 trades per market (median), up to 209 | Sat Nov 7, 4:15 AM | 11-7 | released Mon Nov 9, 1:12 AM: shadow picks won 62% of 16 games at an average price of 51¢ |
 
 ## Recent skips
 

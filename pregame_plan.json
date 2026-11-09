@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T03:10:01Z",
+  "updated": "2026-11-09T04:11:07Z",
   "games": [
     {
       "event_slug": "nfl-buf-min-2026-11-10",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-10T01:00:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Bills vs. Vikings → Bills ($16.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Bills vs. Vikings → Bills ($16.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
