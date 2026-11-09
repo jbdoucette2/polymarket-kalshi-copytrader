@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 9, 9:11 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
+Updated Mon Nov 9, 10:12 AM. Bankroll **$57.56** (start $100): $57.56 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 0.
 
@@ -170,6 +170,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 9, 10:12 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
+| Mon Nov 9, 10:12 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 9, 10:12 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.3k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 9:11 AM | hourly | Bills vs. Vikings: O/U 44.5 → Over | monkeymashingkeyboard $2.1k | $233 | 49¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 11% |
 | Mon Nov 9, 9:11 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.7k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 9:11 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.3k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -37132,23 +37135,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 2:16 AM | hourly | Will Garuda Yaksa win on 2026-11-07? → Yes | Flaznorp $53 | $0 | 43¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
 | Sat Nov 7, 1:15 AM | hourly | Will Garuda Yaksa win on 2026-11-07? → Yes | Flaznorp $53 | $0 | 43¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 40c |
 
-### Luanda: Anna Blinkova vs Yasmine Kabbaj · starts Sat Nov 7, 10:00 AM
-
-- Sat Nov 7, 8:17 AM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: back: 1 vetted on Anna Blinkova ($6.5k), fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 6, 9:13 PM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: all vetted wallets left Anna Blinkova
-- Fri Nov 6, 8:15 PM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: Kalshi 94¢ → 93¢
-- Fri Nov 6, 6:18 PM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: Kalshi 92¢ → 94¢
-- Fri Nov 6, 5:18 PM (hourly): Luanda: Anna Blinkova vs Yasmine Kabbaj: first seen: 1 vetted on Anna Blinkova ($41), fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 8:17 AM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | Flaznorp $6.5k | $0 | 92¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 9:13 PM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 6, 8:15 PM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | 0xD9E0AACa471f48F91A26E8669A805f2 $41 | $0 | 93¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 7:14 PM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | 0xD9E0AACa471f48F91A26E8669A805f2 $41 | $0 | 94¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 6:18 PM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | 0xD9E0AACa471f48F91A26E8669A805f2 $41 | $0 | 94¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 6, 5:18 PM | hourly | Luanda: Anna Blinkova vs Yasmine Kabbaj → Anna Blinkova | 0xD9E0AACa471f48F91A26E8669A805f2 $41 | $0 | 92¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Florida State vs. Boston College · starts Sat Nov 7, 5:00 PM
 
 - Sat Nov 7, 8:17 AM (hourly): Spread: Florida State (-7.5): Kalshi matched at 43¢
@@ -37188,17 +37174,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 6, 6:18 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $253 | $0 | — | fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
 | Fri Nov 6, 5:18 PM | hourly | Spread: Florida State (-7.5) → Florida State | SnakeBall $255 | $0 | — | fails: only 1 vetted wallet with $255 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 7.5 spread line |
 
-### Cayirova vs. Bandirma Bordo · starts Sat Nov 7, 10:00 AM
-
-- Sat Nov 7, 5:17 AM (hourly): Cayirova vs. Bandirma Bordo: Kalshi matched at 50¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 9:15 AM | pregame | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 8:17 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 5:17 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | 50¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Cayirova vs. Bandirma Bordo → Cayirova | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Racing Club de Ferrol vs. UD Logrones - More Markets · starts Sat Nov 7, 12:00 PM
 
 - Sat Nov 7, 2:16 AM (hourly): Racing Club de Ferrol vs. UD Logrones: O/U 2.5: all vetted wallets left Under
@@ -37224,7 +37199,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (4 pending) | benched |
+| Flaznorp | trader: 172 trades per market (median), up to 282 | Sun Nov 8, 5:14 PM | 14-10 (6 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 2-4 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 2-3 (1 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 1-0 | benched |
