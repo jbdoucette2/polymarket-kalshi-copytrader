@@ -1,15 +1,25 @@
 {
-  "updated": "2026-11-09T15:18:04Z",
+  "updated": "2026-11-09T16:13:44Z",
   "games": [
     {
       "event_slug": "nfl-buf-min-2026-11-10",
       "game": "Bills vs. Vikings",
       "start": "2026-11-10T01:15:00Z",
       "check_at": "2026-11-10T01:00:00Z",
+      "passing": 1,
+      "near": 2,
+      "best": "Bills vs. Vikings → Bills ($31.8k, 2 wallets)",
+      "status": "passes"
+    },
+    {
+      "event_slug": "nba-den-hou-2026-11-09",
+      "game": "Nuggets vs. Rockets",
+      "start": "2026-11-10T01:30:00Z",
+      "check_at": "2026-11-10T01:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Bills vs. Vikings → Bills ($17.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $17.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Nuggets vs. Rockets: O/U 218.5 → Over ($410, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $410 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
