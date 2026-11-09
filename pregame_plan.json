@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T20:12:00Z",
+  "updated": "2026-11-09T21:13:02Z",
   "games": [
     {
       "event_slug": "nba-lal-atl-2026-11-09",
@@ -12,44 +12,14 @@
       "status": "fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-was-det-2026-11-09",
-      "game": "Wizards vs. Pistons",
-      "start": "2026-11-10T00:00:00Z",
-      "check_at": "2026-11-09T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Pistons (-10.5) → Wizards ($11.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-ind-dal-2026-11-09",
-      "game": "Pacers vs. Mavericks",
-      "start": "2026-11-10T01:00:00Z",
-      "check_at": "2026-11-10T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Mavericks (-3.5) → Mavericks ($6.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nfl-buf-min-2026-11-10",
       "game": "Bills vs. Vikings",
       "start": "2026-11-10T01:15:00Z",
       "check_at": "2026-11-10T01:00:00Z",
       "passing": 1,
-      "near": 4,
-      "best": "Bills vs. Vikings → Bills ($234.3k, 2 wallets)",
+      "near": 0,
+      "best": "Bills vs. Vikings → Bills ($234.4k, 2 wallets)",
       "status": "passes"
-    },
-    {
-      "event_slug": "nba-den-hou-2026-11-09",
-      "game": "Nuggets vs. Rockets",
-      "start": "2026-11-10T01:30:00Z",
-      "check_at": "2026-11-10T01:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Rockets (-3.5) → Rockets ($73, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
