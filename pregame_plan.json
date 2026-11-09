@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:16:38Z",
+  "updated": "2026-11-09T23:12:07Z",
   "games": [
     {
       "event_slug": "nba-lal-atl-2026-11-09",
@@ -8,18 +8,48 @@
       "check_at": "2026-11-09T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Lakers vs. Hawks → Lakers ($21.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Lakers vs. Hawks → Lakers ($20.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $20.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-ind-dal-2026-11-09",
+      "game": "Pacers vs. Mavericks",
+      "start": "2026-11-10T01:00:00Z",
+      "check_at": "2026-11-10T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Mavericks (-3.5) → Mavericks ($6.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-buf-min-2026-11-10",
       "game": "Bills vs. Vikings",
       "start": "2026-11-10T01:15:00Z",
       "check_at": "2026-11-10T01:00:00Z",
-      "passing": 1,
-      "near": 0,
-      "best": "Bills vs. Vikings → Bills ($251.5k, 2 wallets)",
+      "passing": 2,
+      "near": 2,
+      "best": "Bills vs. Vikings → Bills ($252.0k, 2 wallets)",
       "status": "passes"
+    },
+    {
+      "event_slug": "nba-den-hou-2026-11-09",
+      "game": "Nuggets vs. Rockets",
+      "start": "2026-11-10T01:30:00Z",
+      "check_at": "2026-11-10T01:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Rockets (-3.5) → Rockets ($2.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cdr-tav-val-2026-10-28-more-markets",
+      "game": "UE Tavernes vs. Valencia CF - More Markets",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "UE Tavernes vs. Valencia CF: O/U 3.5 → Under ($6, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
