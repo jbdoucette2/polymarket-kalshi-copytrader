@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 10, 2:38 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
+Updated Tue Nov 10, 2:53 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 1.
 
@@ -16829,20 +16829,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 11:14 PM | hourly | Exact Score: Independiente Santa Fe 0 - 0 AD Pasto? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 8:16 PM | hourly | Exact Score: Independiente Santa Fe 2 - 1 AD Pasto? → No | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 8:16 PM | hourly | Exact Score: Independiente Santa Fe 0 - 0 AD Pasto? → No | Flaznorp $86 | $0 | — | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; market type not supported |
-
-### Big Bash League, Women: Sydney Sixers vs Sydney Thunder · starts Sun Nov 8, 2:40 AM
-
-- Sun Nov 8, 12:13 AM (hourly): Big Bash League, Women: Sydney Sixers vs Sydney Thunder: back: 1 vetted on Sydney Sixers ($2.0k), fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Sat Nov 7, 11:14 PM (hourly): Big Bash League, Women: Sydney Sixers vs Sydney Thunder: all vetted wallets left Sydney Thunder
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 2:10 AM | pregame | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Sixers | tradecraft $1.9k | $0 | — | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 1:11 AM | hourly | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Sixers | tradecraft $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 8, 12:13 AM | hourly | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Sixers | tradecraft $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 11:14 PM | hourly | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Thunder | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Thunder | tradecraft $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 9:14 PM | hourly | Big Bash League, Women: Sydney Sixers vs Sydney Thunder → Sydney Thunder | tradecraft $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### FC Porto B vs. Portimonense SAD - Exact Score · starts Sun Nov 8, 11:00 AM
 
