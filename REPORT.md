@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 10, 1:23 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
+Updated Tue Nov 10, 1:38 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 1.
 
@@ -14348,131 +14348,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 4:15 AM | hourly | Rockets vs. Suns → Suns | takeormake $155 | $0 | 29¢ YES | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 2:16 AM | hourly | Rockets vs. Suns → Suns | takeormake $95 | $0 | 30¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Magic vs. Warriors · starts Sun Nov 8, 1:30 AM
-
-- Sun Nov 8, 1:11 AM (pregame): Spread: Warriors (-6.5): Kalshi matched at 46¢
-- Sun Nov 8, 1:11 AM (pregame): Spread: Warriors (-3.5): back: 1 vetted on Magic ($89), fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:11 AM (pregame): Spread: Warriors (-7.5): back: 1 vetted on Magic ($124), fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 1:11 AM (pregame): Magic vs. Warriors: Kalshi 28¢ → 27¢
-- Sun Nov 8, 1:11 AM (pregame): Spread: Warriors (-5.5): Kalshi matched at 42¢
-- Sun Nov 8, 12:13 AM (hourly): Magic vs. Warriors: Kalshi 29¢ → 28¢
-- Sun Nov 8, 12:13 AM (hourly): Magic vs. Warriors: tradecraft joined Magic (+$18)
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-7.5): all vetted wallets left Warriors
-- Sat Nov 7, 11:14 PM (hourly): Magic vs. Warriors: O/U 222.5: all vetted wallets left Over
-- Sat Nov 7, 11:14 PM (hourly): Magic vs. Warriors: O/U 220.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-4.5): all vetted wallets left Magic
-- Sat Nov 7, 11:14 PM (hourly): Magic vs. Warriors: O/U 221.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-3.5): all vetted wallets left Magic
-- Sat Nov 7, 11:14 PM (hourly): Magic vs. Warriors: O/U 233.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-9.5): all vetted wallets left Warriors
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-6.5): Kalshi 48¢ → 47¢
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-6.5): ferrariChampions2026 left
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-5.5): Kalshi 58¢ → 44¢
-- Sat Nov 7, 11:14 PM (hourly): Spread: Warriors (-5.5): majority flipped to Magic ($3.9k vs $0)
-- Sat Nov 7, 10:17 PM (hourly): Spread: Warriors (-6.5): Kalshi matched at 48¢
-- Sat Nov 7, 9:14 PM (hourly): Magic vs. Warriors: Flaznorp left
-- Sat Nov 7, 8:16 PM (hourly): Spread: Warriors (-3.5): first seen: 1 vetted on Magic ($114), fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Spread: Warriors (-4.5): first seen: 1 vetted on Magic ($145), fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 8:16 PM (hourly): Magic vs. Warriors: Kalshi 33¢ → 29¢
-- Sat Nov 7, 8:16 PM (hourly): Magic vs. Warriors: Flaznorp joined Magic (+$633)
-- Sat Nov 7, 5:15 PM (hourly): Spread: Warriors (-7.5): first seen: 1 vetted on Warriors ($104), fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 4:15 PM (hourly): Magic vs. Warriors: Kalshi 34¢ → 33¢
-- Sat Nov 7, 4:15 PM (hourly): Spread: Warriors (-5.5): first seen: 1 vetted on Warriors ($8.7k), fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 3:17 PM (hourly): Magic vs. Warriors: Kalshi 32¢ → 34¢
-- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): Kalshi 51¢ → 54¢
-- Sat Nov 7, 2:20 PM (hourly): Spread: Warriors (-6.5): ferrariChampions2026 joined Magic (+$793)
-- Sat Nov 7, 12:14 PM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
-- Sat Nov 7, 10:14 AM (hourly): Magic vs. Warriors: O/U 219.5: all vetted wallets left Over
-- Sat Nov 7, 10:14 AM (hourly): Spread: Warriors (-6.5): Kalshi matched at 51¢
-- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: Kalshi 69¢ → 32¢
-- Sat Nov 7, 9:15 AM (hourly): Magic vs. Warriors: majority flipped to Magic ($85 vs $0)
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: now fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49%
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: Kalshi 32¢ → 69¢
-- Sat Nov 7, 5:17 AM (hourly): Magic vs. Warriors: majority flipped to Warriors ($178 vs $88)
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: now passes
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: Kalshi 33¢ → 32¢
-- Sat Nov 7, 4:15 AM (hourly): Magic vs. Warriors: monkeymashingkeyboard joined Magic (+$6.5k)
-- Sat Nov 7, 2:16 AM (hourly): Magic vs. Warriors: first seen: 1 vetted on Magic ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 1:11 AM | pregame | Spread: Warriors (-6.5) → Magic | takeormake $296 | $0 | 46¢ NO | fails: only 1 vetted wallet with $296 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | pregame | Spread: Warriors (-3.5) → Magic | RN1 $89 | $0 | 36¢ NO | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | pregame | Spread: Warriors (-7.5) → Magic | RN1 $124 | $0 | 49¢ NO | fails: only 1 vetted wallet with $124 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | pregame | Magic vs. Warriors → Magic | takeormake $372, tradecraft $21 | $0 | 27¢ YES | fails: only 2 vetted wallets with $393 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:11 AM | pregame | Spread: Warriors (-5.5) → Magic | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $3.9k | $0 | 42¢ NO | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $310 | $0 | — | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 12:13 AM | hourly | Magic vs. Warriors → Magic | takeormake $372, tradecraft $18 | $0 | 28¢ YES | fails: only 2 vetted wallets with $390 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 12:13 AM | hourly | Spread: Warriors (-5.5) → Magic | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $3.9k | $0 | — | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-7.5) → Warriors | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Magic vs. Warriors: O/U 222.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Magic vs. Warriors: O/U 220.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-4.5) → Magic | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Magic vs. Warriors: O/U 221.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-3.5) → Magic | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Magic vs. Warriors: O/U 233.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-9.5) → Warriors | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $310 | $0 | 47¢ NO | fails: only 1 vetted wallet with $310 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Magic vs. Warriors → Magic | takeormake $372 | $0 | 29¢ YES | fails: only 1 vetted wallet with $372 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Warriors (-5.5) → Magic | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 $3.9k | $0 | 44¢ NO | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Warriors (-9.5) → Warriors | SnakeBall $46 | $0 | 43¢ YES | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 43c vs leaders 36c |
-| Sat Nov 7, 10:17 PM | hourly | Magic vs. Warriors: O/U 222.5 → Over | SnakeBall $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 222.5 line |
-| Sat Nov 7, 10:17 PM | hourly | Magic vs. Warriors: O/U 220.5 → Under | ferrariChampions2026 $542 | $0 | — | fails: only 1 vetted wallet with $542 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 220.5 line |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $677, takeormake $310 | $94 | 48¢ NO | fails: only 2 vetted wallets with $986 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Magic vs. Warriors: O/U 221.5 → Under | ferrariChampions2026 $532 | $0 | 54¢ NO | fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 48c |
-| Sat Nov 7, 10:17 PM | hourly | Magic vs. Warriors → Magic | takeormake $372 | $0 | 29¢ YES | fails: only 1 vetted wallet with $372 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $10.0k, SnakeBall $23 | $4.0k | 58¢ YES | fails: opposition 40%; Kalshi 58c vs leaders 50c |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Warriors (-9.5) → Warriors | SnakeBall $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Magic vs. Warriors: O/U 222.5 → Over | SnakeBall $109 | $0 | — | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:14 PM | hourly | Magic vs. Warriors: O/U 220.5 → Under | ferrariChampions2026 $542 | $0 | — | fails: only 1 vetted wallet with $542 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $691, takeormake $316 | $92 | — | fails: only 2 vetted wallets with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Magic vs. Warriors: O/U 221.5 → Under | ferrariChampions2026 $532 | $0 | — | fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:14 PM | hourly | Magic vs. Warriors → Magic | takeormake $385 | $0 | 29¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $10.0k, SnakeBall $23 | $4.0k | — | fails: opposition 40%; no Kalshi spread market |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-3.5) → Magic | Flaznorp $114 | $0 | 38¢ NO | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-7.5) → Warriors | Flaznorp $119 | $0 | 49¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 42c |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-4.5) → Magic | Flaznorp $145 | $0 | 41¢ NO | fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Magic vs. Warriors: O/U 233.5 → Under | Flaznorp $239 | $0 | 79¢ NO | fails: only 1 vetted wallet with $239 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 79c vs leaders 76c |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-9.5) → Warriors | SnakeBall $47, Flaznorp $45 | $0 | 42¢ YES | fails: only 2 vetted wallets with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 42c vs leaders 36c |
-| Sat Nov 7, 8:16 PM | hourly | Magic vs. Warriors: O/U 222.5 → Over | SnakeBall $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 222.5 line |
-| Sat Nov 7, 8:16 PM | hourly | Magic vs. Warriors: O/U 220.5 → Under | ferrariChampions2026 $542 | $0 | — | fails: only 1 vetted wallet with $542 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 220.5 line |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $691, takeormake $316 | $286 | 48¢ NO | fails: only 2 vetted wallets with $1.0k (needs 3+ wallets, or 2 with $5.0k+); opposition 28% |
-| Sat Nov 7, 8:16 PM | hourly | Magic vs. Warriors: O/U 221.5 → Under | ferrariChampions2026 $532, Flaznorp $95 | $0 | 52¢ NO | fails: only 2 vetted wallets with $626 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 49c |
-| Sat Nov 7, 8:16 PM | hourly | Magic vs. Warriors → Magic | Flaznorp $633, takeormake $385 | $0 | 29¢ YES | fails: only 2 vetted wallets with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $9.8k, SnakeBall $23 | $4.1k | 56¢ YES | fails: opposition 42%; Kalshi 56c vs leaders 50c |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Warriors (-9.5) → Warriors | SnakeBall $41, Flaznorp $39 | $0 | — | fails: only 2 vetted wallets with $81 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Warriors (-7.5) → Warriors | Flaznorp $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $779, takeormake $356 | $253 | — | fails: only 2 vetted wallets with $1.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 22%; no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $175 | 33¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+); opposition 40% |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $8.7k | $0 | — | fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Warriors (-7.5) → Warriors | Flaznorp $104 | $0 | 43¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $779, takeormake $356 | $172 | 55¢ NO | fails: only 2 vetted wallets with $1.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 15%; Kalshi 55c vs leaders 51c |
-| Sat Nov 7, 5:15 PM | hourly | Magic vs. Warriors → Warriors | SnakeBall $399, Flaznorp $173 | $453 | 68¢ YES | fails: only 2 vetted wallets with $571 (needs 3+ wallets, or 2 with $5.0k+); opposition 79% |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $8.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $779, takeormake $356 | $0 | 54¢ NO | fails: only 2 vetted wallets with $1.1k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
-| Sat Nov 7, 4:15 PM | hourly | Magic vs. Warriors → Magic | takeormake $453 | $399 | 33¢ YES | fails: only 1 vetted wallet with $453 (needs 3+ wallets, or 2 with $5.0k+); opposition 88% |
-| Sat Nov 7, 4:15 PM | hourly | Spread: Warriors (-5.5) → Warriors | ferrariChampions2026 $8.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 55¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 51c |
-| Sat Nov 7, 3:17 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 34¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Warriors (-6.5) → Magic | ferrariChampions2026 $793, takeormake $363 | $0 | 54¢ NO | fails: only 2 vetted wallets with $1.2k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
-| Sat Nov 7, 2:20 PM | hourly | Magic vs. Warriors → Magic | takeormake $439 | $0 | 32¢ YES | fails: only 1 vetted wallet with $439 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | 51¢ NO | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Magic vs. Warriors → Magic | takeormake $412 | $0 | 32¢ YES | fails: only 1 vetted wallet with $412 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $200 | $0 | 32¢ YES | fails: only 1 vetted wallet with $200 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $330 | $0 | 51¢ NO | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Warriors (-6.5) → Magic | takeormake $336 | $0 | — | fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:15 AM | hourly | Magic vs. Warriors → Magic | takeormake $85 | $0 | 32¢ YES | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $180 | $85 | 69¢ YES | fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+); opposition 47% |
-| Sat Nov 7, 5:17 AM | hourly | Magic vs. Warriors → Warriors | Flaznorp $178 | $88 | 69¢ YES | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); opposition 49% |
-| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors: O/U 219.5 → Over | monkeymashingkeyboard $63 | $0 | — | fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 4:15 AM | hourly | Magic vs. Warriors → Magic | monkeymashingkeyboard $6.5k, takeormake $88 | $178 | 32¢ YES | passes |
-| Sat Nov 7, 2:16 AM | hourly | Magic vs. Warriors → Magic | takeormake $96 | $0 | 33¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### FK Teplice vs. FK Pardubice - Exact Score · starts Sun Nov 8, 12:00 PM
 
 - Sun Nov 8, 10:24 AM (hourly): Exact Score: FK Teplice 0 - 0 FK Pardubice?: back: 1 vetted on Yes ($1), fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
@@ -17294,34 +17169,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 5:15 PM | hourly | Will Persik Kediri win on 2026-11-08? → Yes | Flaznorp $28 | $0 | 17¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 5:15 PM | hourly | Will Bali United win on 2026-11-08? → No | Flaznorp $178 | $0 | 38¢ NO | fails: only 1 vetted wallet with $178 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 38c vs leaders 34c |
 
-### CS Cienciano vs. CS Huancayo · starts Sun Nov 8, 1:30 AM
-
-- Sat Nov 7, 11:14 PM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: all vetted wallets left No
-- Sat Nov 7, 11:14 PM (hourly): Will CS Cienciano win on 2026-11-07?: all vetted wallets left No
-- Sat Nov 7, 8:16 PM (hourly): Will CS Cienciano win on 2026-11-07?: Kalshi matched at 56¢
-- Sat Nov 7, 8:16 PM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: Kalshi matched at 75¢
-- Sat Nov 7, 5:15 PM (hourly): Will CS Cienciano win on 2026-11-07?: first seen: 1 vetted on No ($48), fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 5:15 PM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: back: 1 vetted on No ($82), fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 10:14 AM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: all vetted wallets left No
-- Sat Nov 7, 5:17 AM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: Kalshi matched at 75¢
-- Sat Nov 7, 2:16 AM (hourly): Will CS Cienciano vs. CS Huancayo end in a draw?: first seen: 1 vetted on No ($83), fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 11:14 PM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Will CS Cienciano win on 2026-11-07? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | Will CS Cienciano win on 2026-11-07? → No | Flaznorp $47 | $0 | 56¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $82 | $0 | 75¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | Will CS Cienciano win on 2026-11-07? → No | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 6:15 PM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 5:15 PM | hourly | Will CS Cienciano win on 2026-11-07? → No | Flaznorp $48 | $0 | 56¢ NO | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $82 | $0 | 75¢ NO | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:17 AM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $83 | $0 | 75¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $83 | $0 | 75¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $83 | $0 | — | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 2:16 AM | hourly | Will CS Cienciano vs. CS Huancayo end in a draw? → No | Flaznorp $83 | $0 | 76¢ NO | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### CR Vasco da Gama vs. SE Palmeiras · starts Sun Nov 8, 8:00 PM
 
 - Sat Nov 7, 11:14 PM (hourly): Will CR Vasco da Gama win on 2026-11-08?: all vetted wallets left No
@@ -18371,19 +18218,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 8:16 PM | hourly | Will Henan FC win on 2026-11-08? → Yes | Flaznorp $18 | $0 | 30¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 6:15 PM | hourly | Will Henan FC win on 2026-11-08? → Yes | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 7, 5:15 PM | hourly | Will Henan FC win on 2026-11-08? → Yes | Flaznorp $19 | $0 | 31¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### CS Cienciano vs. CS Huancayo - More Markets · starts Sun Nov 8, 1:30 AM
-
-- Sat Nov 7, 11:14 PM (hourly): CS Cienciano vs. CS Huancayo: O/U 0.5: all vetted wallets left Under
-- Sat Nov 7, 8:16 PM (hourly): CS Cienciano vs. CS Huancayo: O/U 0.5: Kalshi matched at 6¢
-- Sat Nov 7, 5:15 PM (hourly): CS Cienciano vs. CS Huancayo: O/U 0.5: first seen: 1 vetted on Under ($51), fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 11:14 PM | hourly | CS Cienciano vs. CS Huancayo: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 8:16 PM | hourly | CS Cienciano vs. CS Huancayo: O/U 0.5 → Under | Flaznorp $51 | $0 | 6¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | CS Cienciano vs. CS Huancayo: O/U 0.5 → Under | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 7, 5:15 PM | hourly | CS Cienciano vs. CS Huancayo: O/U 0.5 → Under | Flaznorp $51 | $0 | 6¢ NO | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### FK Novi Pazar vs. FK Mladost Lucani - More Markets · starts Sun Nov 8, 12:00 PM
 
