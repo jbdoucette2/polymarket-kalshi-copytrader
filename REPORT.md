@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 10, 3:23 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
+Updated Tue Nov 10, 3:38 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
 
 Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 1.
 
@@ -15334,72 +15334,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 5:17 AM | hourly | Suwon Bluewings vs. Yongin FC: Yongin FC O/U 3.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sat Nov 7, 5:17 AM | hourly | Spread: Yongin FC (-2.5) → Suwon Bluewings | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Wyoming vs. UNLV · starts Sun Nov 8, 3:30 AM
-
-- Sat Nov 7, 11:14 PM (hourly): Wyoming vs. UNLV: O/U 47.5: all vetted wallets left Under
-- Sat Nov 7, 11:14 PM (hourly): Spread: UNLV (-4.5): all vetted wallets left UNLV
-- Sat Nov 7, 11:14 PM (hourly): Wyoming vs. UNLV: all vetted wallets left Wyoming
-- Sat Nov 7, 10:17 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi matched at 44¢
-- Sat Nov 7, 10:17 PM (hourly): Spread: UNLV (-4.5): Kalshi matched at 45¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: UNLV (-4.5): Kalshi matched at 46¢
-- Sat Nov 7, 8:16 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi matched at 45¢
-- Sat Nov 7, 5:15 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi 46¢ → 45¢
-- Sat Nov 7, 5:15 PM (hourly): Wyoming vs. UNLV: Kalshi 39¢ → 40¢
-- Sat Nov 7, 4:15 PM (hourly): Spread: UNLV (-4.5): Kalshi 48¢ → 46¢
-- Sat Nov 7, 4:15 PM (hourly): Wyoming vs. UNLV: first seen: 1 vetted on Wyoming ($13.1k), fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 3:17 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi 45¢ → 46¢
-- Sat Nov 7, 1:12 PM (hourly): Spread: UNLV (-4.5): Kalshi 49¢ → 48¢
-- Sat Nov 7, 12:14 PM (hourly): Spread: UNLV (-4.5): Kalshi matched at 49¢
-- Sat Nov 7, 12:14 PM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi matched at 45¢
-- Sat Nov 7, 10:14 AM (hourly): Spread: UNLV (-4.5): Kalshi matched at 49¢
-- Sat Nov 7, 10:14 AM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi matched at 45¢
-- Sat Nov 7, 5:17 AM (hourly): Spread: UNLV (-4.5): Kalshi matched at 49¢
-- Sat Nov 7, 5:17 AM (hourly): Wyoming vs. UNLV: O/U 47.5: Kalshi matched at 45¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 11:14 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: UNLV (-4.5) → UNLV | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Wyoming vs. UNLV → Wyoming | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $53 | $0 | 44¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.5k | $0 | 40¢ YES | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:17 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | 45¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:14 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $53 | $0 | — | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 9:14 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.5k | $0 | 40¢ YES | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | 46¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $53 | $0 | 45¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:16 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.5k | $0 | 40¢ YES | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 6:15 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $53 | $0 | — | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 6:15 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.5k | $0 | 40¢ YES | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | 46¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $53 | $0 | 45¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:15 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.1k | $0 | 40¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $39 | $0 | 46¢ YES | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 46¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Wyoming vs. UNLV → Wyoming | ferrariChampions2026 $13.1k | $0 | 39¢ YES | fails: only 1 vetted wallet with $13.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $41 | $0 | 48¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 46¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $41 | $0 | 48¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $41 | $0 | 48¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | 49¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 11:15 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 10:14 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | 49¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 9:15 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 7, 8:17 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | 49¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | 49¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | 45¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Spread: UNLV (-4.5) → UNLV | SnakeBall $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 4:15 AM | hourly | Wyoming vs. UNLV: O/U 47.5 → Under | SnakeBall $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
 ### Zhejiang Zhiye FC vs. Henan FC - Exact Score · starts Sun Nov 8, 7:30 AM
 
 - Sat Nov 7, 11:14 PM (hourly): Exact Score: Zhejiang Zhiye FC 0 - 2 Henan FC?: all vetted wallets left No
@@ -17139,55 +17073,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 7, 5:15 PM | hourly | Will JEF United Ichihara Chiba win on 2026-11-08? → No | Flaznorp $47 | $0 | 52¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 7, 10:14 AM | hourly | Will JEF United Ichihara Chiba win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 7, 8:17 AM | hourly | Will JEF United Ichihara Chiba win on 2026-11-08? → No | Flaznorp $47 | $0 | 52¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Texas State vs. Oregon State · starts Sun Nov 8, 3:30 AM
-
-- Sat Nov 7, 11:14 PM (hourly): Texas State vs. Oregon State: all vetted wallets left Texas State
-- Sat Nov 7, 11:14 PM (hourly): Spread: Oregon State (-5.5): all vetted wallets left Texas State
-- Sat Nov 7, 10:17 PM (hourly): Spread: Oregon State (-5.5): Kalshi matched at 50¢
-- Sat Nov 7, 8:16 PM (hourly): Spread: Oregon State (-5.5): Kalshi matched at 50¢
-- Sat Nov 7, 3:17 PM (hourly): Texas State vs. Oregon State: Kalshi 33¢ → 34¢
-- Sat Nov 7, 2:20 PM (hourly): Spread: Oregon State (-5.5): Kalshi 51¢ → 50¢
-- Sat Nov 7, 1:12 PM (hourly): Spread: Oregon State (-5.5): Kalshi 48¢ → 51¢
-- Sat Nov 7, 12:14 PM (hourly): Spread: Oregon State (-5.5): Kalshi matched at 48¢
-- Sat Nov 7, 10:14 AM (hourly): Spread: Oregon State (-5.5): Kalshi matched at 48¢
-- Sat Nov 7, 8:17 AM (hourly): Spread: Oregon State (-5.5): first seen: 1 vetted on Texas State ($78), fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 7, 4:15 AM (hourly): Texas State vs. Oregon State: first seen: 1 vetted on Texas State ($36), fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 7, 11:14 PM | hourly | Texas State vs. Oregon State → Texas State | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 11:14 PM | hourly | Spread: Oregon State (-5.5) → Texas State | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 7, 10:17 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 10:17 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 50¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:14 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 9:14 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | — | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:16 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 8:16 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 50¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 6:15 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 6:15 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | — | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 5:15 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 35¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 35c vs leaders 31c |
-| Sat Nov 7, 5:15 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 50¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 4:15 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 50¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 3:17 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 34¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 34c vs leaders 31c |
-| Sat Nov 7, 3:17 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 50¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 2:20 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 50¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 1:12 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 51¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 12:14 PM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $79 | $0 | 48¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 11:15 AM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 10:14 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 10:14 AM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 48¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 9:15 AM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 7, 8:17 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 8:17 AM | hourly | Spread: Oregon State (-5.5) → Texas State | SnakeBall $78 | $0 | 48¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 5:17 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 7, 4:15 AM | hourly | Texas State vs. Oregon State → Texas State | SnakeBall $36 | $0 | 33¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### AS FAR vs. Difaâ Hassani El Jadida - More Markets · starts Sun Nov 8, 6:00 PM
 
