@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 10, 4:23 AM. Bankroll **$57.56** (start $100): $47.71 cash + open trades at cost.
+Updated Tue Nov 10, 4:39 AM. Bankroll **$62.71** (start $100): $62.71 cash + open trades at cost.
 
-Record: 53 won, 41 lost, 9 sold early. Realized P&L $-42.44. Open: 1.
+Record: 54 won, 41 lost, 9 sold early. Realized P&L $-37.29. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 12:17 AM | [Bills vs. Vikings](https://polymarket.com/event/nfl-buf-min-2026-11-10) | Bills vs. Vikings → Bills | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($257,926) | 15 × 64¢ YES `KXNFLGAME-26NOV09BUFMIN-BUF` | open |  |
+| Tue Nov 10, 12:17 AM | [Bills vs. Vikings](https://polymarket.com/event/nfl-buf-min-2026-11-10) | Bills vs. Vikings → Bills | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($257,926) | 15 × 64¢ YES `KXNFLGAME-26NOV09BUFMIN-BUF` | won | $+5.15 |
 | Sun Nov 8, 9:12 PM | [Raiders vs. 49ers](https://polymarket.com/event/nfl-lv-sf-2026-11-08) | Raiders vs. 49ers → 49ers | [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($59,625) | 12 × 80¢ YES `KXNFLGAME-26NOV08LVSF-SF` | won | $+2.26 |
 | Sun Nov 8, 4:18 PM | [Manchester United FC vs. Aston Villa FC](https://polymarket.com/event/epl-mun-ast-2026-11-08) | Will Manchester United FC win on 2026-11-08? → No | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($146,744) | 18 × 53¢ NO `KXEPLGAME-26NOV08MUNAVL-MUN` | won | $+8.14 |
 | Sun Nov 8, 4:18 PM | [OFI Crete vs. Atromitos Athinon](https://polymarket.com/event/gre1-ofi-atr-2026-11-08) | Will OFI Crete win on 2026-11-08? → Yes | [RN1](https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($9,918) | 26 × 38¢ YES `KXSLGREECEGAME-26NOV08OFIATR-OFI` | lost | $-10.31 |
