@@ -1,45 +1,15 @@
 {
-  "updated": "2026-11-10T21:16:10Z",
+  "updated": "2026-11-10T22:18:49Z",
   "games": [
     {
-      "event_slug": "atp-kolar-silv-2026-11-09",
-      "game": "Lima: Zdenek Kolar vs Joao Lucas Da Silva",
-      "start": "2026-11-10T21:10:00Z",
-      "check_at": "2026-11-10T20:55:00Z",
+      "event_slug": "atp-galarne-kozlov-2026-11-09",
+      "game": "Knoxville: Alexis Galarneau vs Stefan Kozlov",
+      "start": "2026-11-10T22:25:00Z",
+      "check_at": "2026-11-10T22:10:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Lima: Zdenek Kolar vs Joao Lucas Da Silva → Joao Lucas Da Silva ($128, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $128 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "wta-gauff-noskova-2026-11-10",
-      "game": "WTA Finals, Group A: Coco Gauff vs Linda Noskova",
-      "start": "2026-11-10T21:30:00Z",
-      "check_at": "2026-11-10T21:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "WTA Finals, Group A: Coco Gauff vs Linda Noskova → Coco Gauff ($16, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "atp-varilla-barrios-2026-11-09",
-      "game": "Lima: Juan Pablo Varillas vs Tomas Barrios",
-      "start": "2026-11-10T22:30:00Z",
-      "check_at": "2026-11-10T22:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Lima: Juan Pablo Varillas vs Tomas Barrios → Tomas Barrios ($123, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $123 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-mst-duke-2026-11-10",
-      "game": "Michigan State Spartans vs. Duke Blue Devils",
-      "start": "2026-11-11T00:00:00Z",
-      "check_at": "2026-11-10T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Michigan State Spartans vs. Duke Blue Devils: O/U 149.5 → Under ($278, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $278 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Knoxville: Alexis Galarneau vs Stefan Kozlov → Alexis Galarneau ($185, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-wsh-ott-2026-11-10",
@@ -47,9 +17,19 @@
       "start": "2026-11-11T00:00:00Z",
       "check_at": "2026-11-10T23:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Spread: Senators (-1.5) → Capitals ($16.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "Spread: Senators (-1.5) → Capitals ($31.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $31.2k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "itf-yamala1-gadeck1-2026-11-11",
+      "game": "W75 Brisbane: Sahaja Yamalapalli vs Olivia Gadecki",
+      "start": "2026-11-11T00:00:00Z",
+      "check_at": "2026-11-10T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "W75 Brisbane: Sahaja Yamalapalli vs Olivia Gadecki → Sahaja Yamalapalli ($194, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $194 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-loymry-troy-2026-11-10",
@@ -58,8 +38,8 @@
       "check_at": "2026-11-10T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Loyola Marymount Lions vs. Troy Trojans: O/U 148.5 → Under ($108, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Loyola Marymount Lions vs. Troy Trojans: O/U 148.5 → Under ($106, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-col-tor-2026-11-10",
@@ -138,8 +118,8 @@
       "check_at": "2026-11-10T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Western Michigan (-14.5) → Western Michigan ($12.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $12.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Western Michigan (-14.5) → Western Michigan ($12.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-kentst-bowlgr-2026-11-10",
@@ -197,7 +177,7 @@
       "start": "2026-11-11T01:00:00Z",
       "check_at": "2026-11-11T00:45:00Z",
       "passing": 0,
-      "near": 7,
+      "near": 8,
       "best": "Celtics vs. 76ers: O/U 217.5 → Over ($11.9k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $11.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -218,8 +198,8 @@
       "check_at": "2026-11-11T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Saint Louis Billikens (-23.5) → Saint Louis Billikens ($104, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Saint Louis Billikens (-23.5) → Saint Louis Billikens ($112, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ohio-miaoh-2026-11-10",
@@ -242,12 +222,22 @@
       "status": "fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cbb-tmrt-arkst-2026-11-10",
+      "game": "UT Martin Skyhawks vs. Arkansas State Red Wolves",
+      "start": "2026-11-11T01:00:00Z",
+      "check_at": "2026-11-11T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "UT Martin Skyhawks vs. Arkansas State Red Wolves: O/U 151.5 → Over ($27, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nhl-det-stl-2026-11-10",
       "game": "Red Wings vs. Blues",
       "start": "2026-11-11T01:00:00Z",
       "check_at": "2026-11-11T00:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Spread: Blues (-1.5) → Red Wings ($24.3k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $24.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -257,7 +247,7 @@
       "start": "2026-11-11T02:00:00Z",
       "check_at": "2026-11-11T01:45:00Z",
       "passing": 1,
-      "near": 15,
+      "near": 20,
       "best": "Spread: Heat (-8.5) → Jazz ($137.0k, 3 wallets)",
       "status": "passes"
     },
@@ -267,7 +257,7 @@
       "start": "2026-11-11T02:00:00Z",
       "check_at": "2026-11-11T01:45:00Z",
       "passing": 0,
-      "near": 7,
+      "near": 9,
       "best": "Clippers vs. Suns: O/U 224.5 → Under ($16.1k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -278,8 +268,8 @@
       "check_at": "2026-11-11T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Arizona State Sun Devils (-18.5) → Arizona State Sun Devils ($92, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Arizona State Sun Devils (-18.5) → Arizona State Sun Devils ($93, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-creigh-kanst-2026-11-10",
@@ -308,8 +298,8 @@
       "check_at": "2026-11-11T02:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Kentucky Wildcats vs. Kansas Jayhawks → Kansas Jayhawks ($34, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Kentucky Wildcats vs. Kansas Jayhawks → Kansas Jayhawks ($41, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-orl-sac-2026-11-10",
@@ -317,7 +307,7 @@
       "start": "2026-11-11T03:00:00Z",
       "check_at": "2026-11-11T02:45:00Z",
       "passing": 0,
-      "near": 6,
+      "near": 8,
       "best": "Spread: Magic (-6.5) → Magic ($13.2k, 2 wallets)",
       "status": "fails: opposition 41%"
     },
@@ -358,8 +348,18 @@
       "check_at": "2026-11-11T04:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren ($11, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren ($12, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-rodiono-martine-2026-11-09",
+      "game": "Orleans: Jurij Rodionov vs Pedro Martinez",
+      "start": "2026-11-11T10:00:00Z",
+      "check_at": "2026-11-11T09:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Orleans: Jurij Rodionov vs Pedro Martinez → Jurij Rodionov ($782, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $782 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bkkbl-lg-seo-2026-11-11",
@@ -370,6 +370,16 @@
       "near": 1,
       "best": "LG Sakers vs. Seoul Knights → LG Sakers ($81, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-sonego-tabilo-2026-11-11",
+      "game": "BNP Paribas Nordic Open: Lorenzo Sonego vs Alejandro Tabilo",
+      "start": "2026-11-11T12:00:00Z",
+      "check_at": "2026-11-11T11:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BNP Paribas Nordic Open: Lorenzo Sonego vs Alejandro Tabilo → Lorenzo Sonego ($289, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-fritz-norrie-2026-11-11",
@@ -402,6 +412,16 @@
       "status": "fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "atp-shevche-ruud-2026-11-11",
+      "game": "BNP Paribas Nordic Open: Alexander Shevchenko vs Casper Ruud",
+      "start": "2026-11-11T17:00:00Z",
+      "check_at": "2026-11-11T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BNP Paribas Nordic Open: Alexander Shevchenko vs Casper Ruud → Alexander Shevchenko ($133, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "uwcl-ohl-hbk-2026-11-11",
       "game": "Oud-Heverlee Leuven Women vs. HB Køge",
       "start": "2026-11-11T17:45:00Z",
@@ -418,8 +438,8 @@
       "check_at": "2026-11-11T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "BC Aris Thessaloniki vs. Rigas Zelli → BC Aris Thessaloniki ($130, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "BC Aris Thessaloniki vs. Rigas Zelli → BC Aris Thessaloniki ($126, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-svitoli-muchova-2026-11-10",
@@ -438,8 +458,8 @@
       "check_at": "2026-11-11T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Sport Lisboa e Benfica vs. FK Austria Wien end in a draw? → No ($569, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $569 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Sport Lisboa e Benfica vs. FK Austria Wien end in a draw? → No ($721, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $721 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uwcl-juv-oly-2026-11-11-more-markets",
@@ -447,9 +467,29 @@
       "start": "2026-11-11T20:00:00Z",
       "check_at": "2026-11-11T19:45:00Z",
       "passing": 0,
+      "near": 4,
+      "best": "Spread: OL Lyonnes (-1.5) → OL Lyonnes ($72, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "wta-sabalen-andreev-2026-11-10",
+      "game": "WTA Finals, Group B: Aryna Sabalenka vs Mirra Andreeva",
+      "start": "2026-11-11T21:30:00Z",
+      "check_at": "2026-11-11T21:15:00Z",
+      "passing": 0,
       "near": 1,
-      "best": "Juventus FC vs. OL Lyonnes: O/U 1.5 → Under ($9, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "WTA Finals, Group B: Aryna Sabalenka vs Mirra Andreeva → Aryna Sabalenka ($994, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $994 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bra2-lon-nau-2026-11-14-more-markets",
+      "game": "Londrina EC vs. Clube Náutico Capibaribe - More Markets",
+      "start": "2026-11-11T22:00:00Z",
+      "check_at": "2026-11-11T21:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Londrina EC vs. Clube Náutico Capibaribe: O/U 2.5 → Over ($65, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
