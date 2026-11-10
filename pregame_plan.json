@@ -1,6 +1,196 @@
 {
-  "updated": "2026-11-10T07:13:40Z",
+  "updated": "2026-11-10T08:12:12Z",
   "games": [
+    {
+      "event_slug": "itf-reynia1-thomso1-2026-11-10",
+      "game": "M15 Heraklion: Matias Reyniak vs Matthew Thomson",
+      "start": "2026-11-10T09:30:00Z",
+      "check_at": "2026-11-10T09:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "M15 Heraklion: Matias Reyniak vs Matthew Thomson → Matias Reyniak ($32, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-mannari-shevche-2026-11-10",
+      "game": "BNP Paribas Nordic Open: Adrian Mannarino vs Alexander Shevchenko",
+      "start": "2026-11-10T12:00:00Z",
+      "check_at": "2026-11-10T11:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BNP Paribas Nordic Open: Adrian Mannarino vs Alexander Shevchenko → Adrian Mannarino ($3.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-manas-marcos-2026-11-10",
+      "game": "Monastir: Manoj Dhamne Manas vs Pedro Vives Marcos",
+      "start": "2026-11-10T12:00:00Z",
+      "check_at": "2026-11-10T11:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Monastir: Manoj Dhamne Manas vs Pedro Vives Marcos → Manoj Dhamne Manas ($170, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $170 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-caniato-bailly-2026-11-09",
+      "game": "Hersonissos 3: Carlo Alberto Caniato vs Gilles Arnaud Bailly",
+      "start": "2026-11-10T12:30:00Z",
+      "check_at": "2026-11-10T12:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hersonissos 3: Carlo Alberto Caniato vs Gilles Arnaud Bailly → Carlo Alberto Caniato ($51, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-sonego-halys-2026-11-10",
+      "game": "BNP Paribas Nordic Open: Lorenzo Sonego vs Quentin Halys",
+      "start": "2026-11-10T13:30:00Z",
+      "check_at": "2026-11-10T13:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BNP Paribas Nordic Open: Lorenzo Sonego vs Quentin Halys → Lorenzo Sonego ($649, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $649 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-clarke-janvier-2026-11-10",
+      "game": "Monastir: Jay Clarke vs Maxime Janvier",
+      "start": "2026-11-10T13:30:00Z",
+      "check_at": "2026-11-10T13:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Monastir: Jay Clarke vs Maxime Janvier → Jay Clarke ($21, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-rune-bergs-2026-11-09",
+      "game": "BNP Paribas Nordic Open: Holger Rune vs Zizou Bergs",
+      "start": "2026-11-10T17:00:00Z",
+      "check_at": "2026-11-10T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BNP Paribas Nordic Open: Holger Rune vs Zizou Bergs → Zizou Bergs ($2.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bkeurocup-fc-tur-2026-11-10",
+      "game": "FC Universitatea Cluj vs. Turk Telekom",
+      "start": "2026-11-10T17:00:00Z",
+      "check_at": "2026-11-10T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "FC Universitatea Cluj vs. Turk Telekom → Turk Telekom ($22, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-bhf-che-2026-11-10-more-markets",
+      "game": "BK Häcken FF vs. Chelsea FC - More Markets",
+      "start": "2026-11-10T17:45:00Z",
+      "check_at": "2026-11-10T17:30:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Chelsea FC (-2.5) → Chelsea FC ($299, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $299 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-bhf-che-2026-11-10",
+      "game": "BK Häcken FF vs. Chelsea FC",
+      "start": "2026-11-10T17:45:00Z",
+      "check_at": "2026-11-10T17:30:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Will Chelsea FC win on 2026-11-10? → No ($40, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-rma-pfc-2026-11-10-more-markets",
+      "game": "Real Madrid CF Femenino vs. Paris FC - More Markets",
+      "start": "2026-11-10T17:45:00Z",
+      "check_at": "2026-11-10T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Real Madrid CF Femenino vs. Paris FC: O/U 4.5 → Over ($9, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-rma-pfc-2026-11-10",
+      "game": "Real Madrid CF Femenino vs. Paris FC",
+      "start": "2026-11-10T17:45:00Z",
+      "check_at": "2026-11-10T17:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Real Madrid CF Femenino vs. Paris FC end in a draw? → Yes ($9, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cdr-lag-rea1-2026-10-28-more-markets",
+      "game": "CP Mijas-Las Lagunas vs. Real Jaén CF - More Markets",
+      "start": "2026-11-10T19:00:00Z",
+      "check_at": "2026-11-10T18:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Real Jaén CF (-1.5) → CP Mijas-Las Lagunas ($15, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-psg-bm-2026-11-10-more-markets",
+      "game": "Paris Saint-Germain FC vs. FC Bayern München - More Markets",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 4,
+      "best": "Paris Saint-Germain FC vs. FC Bayern München: O/U 3.5 → Under ($408, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $408 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cdr-tav-val-2026-10-28-more-markets",
+      "game": "UE Tavernes vs. Valencia CF - More Markets",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Valencia CF (-2.5) → Valencia CF ($316, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-im-mci-2026-11-10",
+      "game": "FC Internazionale Milano vs. Manchester City WFC",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Will Manchester City WFC win on 2026-11-10? → Yes ($72, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-im-mci-2026-11-10-more-markets",
+      "game": "FC Internazionale Milano vs. Manchester City WFC - More Markets",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Manchester City WFC (-1.5) → Manchester City WFC ($48, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-asr-ser-2026-11-10",
+      "game": "AS Roma vs. Servette FC Chênois Féminin",
+      "start": "2026-11-10T20:00:00Z",
+      "check_at": "2026-11-10T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Will AS Roma win on 2026-11-10? → No ($13, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-nj-wpg-2026-11-10",
+      "game": "Devils vs. Jets",
+      "start": "2026-11-11T00:00:00Z",
+      "check_at": "2026-11-10T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Devils vs. Jets: O/U 6.5 → Under ($36, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cfb-ohio-miaoh-2026-11-10",
       "game": "Ohio vs. Miami (OH)",
@@ -12,14 +202,44 @@
       "status": "fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cbb-ill-txtech-2026-11-10",
+      "game": "Illinois Fighting Illini vs. Texas Tech Red Raiders",
+      "start": "2026-11-11T01:00:00Z",
+      "check_at": "2026-11-11T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Illinois Fighting Illini (-1.5) → Texas Tech Red Raiders ($162, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-mia-uta-2026-11-10",
       "game": "Heat vs. Jazz",
       "start": "2026-11-11T02:00:00Z",
       "check_at": "2026-11-11T01:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Heat vs. Jazz → Heat ($562, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $562 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-orl-sac-2026-11-10",
+      "game": "Magic vs. Kings",
+      "start": "2026-11-11T03:00:00Z",
+      "check_at": "2026-11-11T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Magic (-5.5) → Magic ($52, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-okc-por-2026-11-10",
+      "game": "Thunder vs. Trail Blazers",
+      "start": "2026-11-11T04:00:00Z",
+      "check_at": "2026-11-11T03:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Thunder (-1.5) → Trail Blazers ($188, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $188 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
