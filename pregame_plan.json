@@ -1,46 +1,6 @@
 {
-  "updated": "2026-11-11T08:13:27Z",
+  "updated": "2026-11-11T09:15:39Z",
   "games": [
-    {
-      "event_slug": "bknbl-sou-ill-2026-11-11",
-      "game": "South East Melbourne Phoenix vs. Illawarra Hawks",
-      "start": "2026-11-11T08:30:00Z",
-      "check_at": "2026-11-11T08:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "South East Melbourne Phoenix vs. Illawarra Hawks → Illawarra Hawks ($6, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "itf-cocola1-ciurne1-2026-11-11",
-      "game": "M25 San Gregorio di Catania: Sebastiano Cocola vs Raffaele Ciurnelli",
-      "start": "2026-11-11T09:00:00Z",
-      "check_at": "2026-11-11T08:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "M25 San Gregorio di Catania: Sebastiano Cocola vs Raffaele Ciurnelli → Raffaele Ciurnelli ($57, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "atp-ayeni-bolt-2026-11-11",
-      "game": "Brisbane 3: Alafia Ayeni vs Alex Bolt",
-      "start": "2026-11-11T09:00:00Z",
-      "check_at": "2026-11-11T08:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Brisbane 3: Alafia Ayeni vs Alex Bolt → Alafia Ayeni ($23, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "itf-marian1-giambe1-2026-11-11",
-      "game": "W15 Monastir: Matilde Mariani vs Carla Giambelli",
-      "start": "2026-11-11T09:00:00Z",
-      "check_at": "2026-11-11T08:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "W15 Monastir: Matilde Mariani vs Carla Giambelli → Carla Giambelli ($19, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "cs2-mouz-g2-2026-11-11",
       "game": "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B",
@@ -48,8 +8,28 @@
       "check_at": "2026-11-11T09:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B → MOUZ ($178.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $178.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Counter-Strike: MOUZ vs G2 (BO3) - BLAST Rivals Group B → MOUZ ($298.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $298.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-gill-giunta-2026-11-11",
+      "game": "Hersonissos 3: Felix Gill vs Massimo Giunta",
+      "start": "2026-11-11T09:30:00Z",
+      "check_at": "2026-11-11T09:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hersonissos 3: Felix Gill vs Massimo Giunta → Felix Gill ($553, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $553 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-maestre-monday-2026-11-11",
+      "game": "Hersonissos 3: Francesco Maestrelli vs Johannus Monday",
+      "start": "2026-11-11T09:30:00Z",
+      "check_at": "2026-11-11T09:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hersonissos 3: Francesco Maestrelli vs Johannus Monday → Francesco Maestrelli ($104, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bkjpn-alv-nag2-2026-11-11",
@@ -58,8 +38,18 @@
       "check_at": "2026-11-11T09:50:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Alvark Tokyo vs. Nagasaki Velca → Alvark Tokyo ($532, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Alvark Tokyo vs. Nagasaki Velca → Alvark Tokyo ($575, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $575 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "bkjpn-uts-kyo-2026-11-11",
+      "game": "Utsunomiya Brex vs. Kyoto Hannaryz",
+      "start": "2026-11-11T10:05:00Z",
+      "check_at": "2026-11-11T09:50:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Utsunomiya Brex vs. Kyoto Hannaryz → Utsunomiya Brex ($15, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "itf-coutur1-beloze1-2026-11-11",
@@ -74,12 +64,12 @@
     {
       "event_slug": "atp-sonego-tabilo-2026-11-11",
       "game": "BNP Paribas Nordic Open: Lorenzo Sonego vs Alejandro Tabilo",
-      "start": "2026-11-11T12:00:00Z",
-      "check_at": "2026-11-11T11:45:00Z",
+      "start": "2026-11-11T12:10:00Z",
+      "check_at": "2026-11-11T11:55:00Z",
       "passing": 0,
       "near": 1,
-      "best": "BNP Paribas Nordic Open: Lorenzo Sonego vs Alejandro Tabilo → Lorenzo Sonego ($284, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $284 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "BNP Paribas Nordic Open: Lorenzo Sonego vs Alejandro Tabilo → Lorenzo Sonego ($816, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $816 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-dougaz-canas-2026-11-11",
@@ -182,24 +172,24 @@
       "status": "fails: only 1 vetted wallet with $711 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "uwcl-juv-oly-2026-11-11",
-      "game": "Juventus FC vs. OL Lyonnes",
-      "start": "2026-11-11T20:00:00Z",
-      "check_at": "2026-11-11T19:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Will Juventus FC win on 2026-11-11? → Yes ($158, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "uwcl-juv-oly-2026-11-11-more-markets",
       "game": "Juventus FC vs. OL Lyonnes - More Markets",
       "start": "2026-11-11T20:00:00Z",
       "check_at": "2026-11-11T19:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spread: OL Lyonnes (-1.5) → OL Lyonnes ($111, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: OL Lyonnes (-2.5) → OL Lyonnes ($422, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $422 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "uwcl-juv-oly-2026-11-11",
+      "game": "Juventus FC vs. OL Lyonnes",
+      "start": "2026-11-11T20:00:00Z",
+      "check_at": "2026-11-11T19:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Will Juventus FC win on 2026-11-11? → Yes ($158, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-sabalen-andreev-2026-11-10",
@@ -217,9 +207,9 @@
       "start": "2026-11-11T22:00:00Z",
       "check_at": "2026-11-11T21:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Londrina EC vs. Clube Náutico Capibaribe: O/U 4.5 → Over ($16, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Londrina EC vs. Clube Náutico Capibaribe: O/U 3.5 → Under ($231, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $231 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bknbb-min-uni-2026-11-11",
@@ -228,8 +218,8 @@
       "check_at": "2026-11-11T22:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Minas Tenis Clube MG vs. Unifacisa → Minas Tenis Clube MG ($540, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $540 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Minas Tenis Clube MG vs. Unifacisa → Minas Tenis Clube MG ($532, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cle-nyk-2026-11-11",
@@ -238,8 +228,8 @@
       "check_at": "2026-11-11T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Cavaliers vs. Knicks: O/U 221.5 → Over ($1.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cavaliers vs. Knicks: O/U 221.5 → Over ($2.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-stpete-sc-2026-11-11",
@@ -258,8 +248,18 @@
       "check_at": "2026-11-11T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Wizards vs. Pacers → Wizards ($186, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wizards vs. Pacers → Wizards ($204, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $204 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-bos-tor-2026-11-11",
+      "game": "Celtics vs. Raptors",
+      "start": "2026-11-12T00:00:00Z",
+      "check_at": "2026-11-11T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Celtics (-5.5) → Raptors ($190, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-den-mem-2026-11-11",
@@ -267,7 +267,7 @@
       "start": "2026-11-12T01:00:00Z",
       "check_at": "2026-11-12T00:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Nuggets vs. Grizzlies: O/U 228.5 → Over ($2.1k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -308,8 +308,8 @@
       "check_at": "2026-11-12T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Piratas Veracruz vs. Club Atletico La Paz end in a draw? → No ($76, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Piratas Veracruz win on 2026-11-11? → No ($63, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "mex2-pir-clu-2026-11-11-more-markets",
@@ -318,8 +318,8 @@
       "check_at": "2026-11-12T01:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Piratas Veracruz (-1.5) → Piratas Veracruz ($14, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Piratas Veracruz (-1.5) → Piratas Veracruz ($12, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-gsw-hou-2026-11-11",
@@ -328,8 +328,8 @@
       "check_at": "2026-11-12T02:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Warriors vs. Rockets → Rockets ($2.0k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Warriors vs. Rockets → Rockets ($2.3k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $2.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-utsa-sea-2026-11-11",
