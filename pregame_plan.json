@@ -1,15 +1,4 @@
 {
-  "updated": "2026-11-11T03:13:08Z",
-  "games": [
-    {
-      "event_slug": "nba-okc-por-2026-11-10",
-      "game": "Thunder vs. Trail Blazers",
-      "start": "2026-11-11T04:00:00Z",
-      "check_at": "2026-11-11T03:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Thunder (-2.5) → Trail Blazers ($41.7k, 2 wallets)",
-      "status": "fails: no Kalshi spread market"
-    }
-  ]
+  "updated": "2026-11-11T04:12:43Z",
+  "games": []
 }
