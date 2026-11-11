@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 11, 1:22 AM. Bankroll **$62.71** (start $100): $52.56 cash + open trades at cost.
+Updated Wed Nov 11, 1:54 AM. Bankroll **$62.71** (start $100): $52.56 cash + open trades at cost.
 
 Record: 54 won, 41 lost, 9 sold early. Realized P&L $-37.29. Open: 1.
 
@@ -164,6 +164,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Heat vs. Jazz · starts Wed Nov 11, 2:00 AM
 
+- Wed Nov 11, 1:54 AM (verify): Spread: Heat (-8.5): 15-min check: still passes (2 wallets, $152.3k for vs $0 against); holding
 - Wed Nov 11, 1:22 AM (pregame): Heat vs. Jazz: O/U 200.5: all vetted wallets left Under
 - Wed Nov 11, 1:22 AM (pregame): Heat vs. Jazz: all vetted wallets left Heat
 - Wed Nov 11, 1:22 AM (pregame): Spread: Heat (-2.5): all vetted wallets left Jazz
@@ -4355,89 +4356,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 3:18 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $227 | $0 | 70¢ YES | fails: only 1 vetted wallet with $227 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:14 PM | hourly | Nagasaki Velca vs. Sendai 89ers → Sendai 89ers | Flaznorp $240 | $0 | 72¢ YES | fails: only 1 vetted wallet with $240 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 72c vs leaders 69c |
 
-### Club Universitario de Deportes vs. CD Moquegua - Halftime Result · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes leading at halftime?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes leading at halftime? → Yes | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### Club Universitario de Deportes vs. CD Moquegua - More Markets · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 1.5: all vetted wallets left Under
-- Sun Nov 8, 7:10 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: all vetted wallets left Over
-- Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5: all vetted wallets left Over
-- Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5: all vetted wallets left Under
-- Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 1.5: Kalshi 20¢ → 19¢
-- Sun Nov 8, 5:14 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: back: 1 vetted on Over ($303), fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 58c
-- Sun Nov 8, 4:50 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: Both Teams to Score: all vetted wallets left Yes
-- Sun Nov 8, 4:50 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 3.5: all vetted wallets left Under
-- Sun Nov 8, 4:50 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: all vetted wallets left Under
-- Sun Nov 8, 4:50 PM (hourly): Spread: Club Universitario de Deportes (-1.5): all vetted wallets left Club Universitario de Deportes
-- Sun Nov 8, 4:50 PM (hourly): Spread: Club Universitario de Deportes (-2.5): all vetted wallets left CD Moquegua
-- Sun Nov 8, 4:18 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 3.5: Kalshi 64¢ → 67¢
-- Sun Nov 8, 4:18 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: Kalshi 40¢ → 43¢
-- Sun Nov 8, 3:18 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 2.5: first seen: 1 vetted on Under ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 3.5: first seen: 1 vetted on Under ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Club Universitario de Deportes vs. CD Moquegua: O/U 1.5: first seen: 1 vetted on Under ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | Flaznorp $77 | $0 | 19¢ NO | fails: only 1 vetted wallet with $77 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 5:14 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Over | Flaznorp $303 | $0 | 62¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 58c |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Club Universitario de Deportes (-1.5) → Club Universitario de Deportes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Club Universitario de Deportes (-2.5) → CD Moquegua | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5 → Under | Flaznorp $85 | $0 | — | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | Flaznorp $86 | $0 | 20¢ NO | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 3.5 → Under | Flaznorp $32 | $0 | 67¢ NO | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 64c |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Under | Flaznorp $36 | $0 | 43¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Both Teams to Score → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5 → Over | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | Flaznorp $88 | $0 | 20¢ NO | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5 → Under | Flaznorp $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Club Universitario de Deportes (-2.5) → CD Moquegua | Flaznorp $1.3k | $0 | 75¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 75c vs leaders 66c |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 2.5 → Under | Flaznorp $13 | $0 | 40¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 3.5 → Under | Flaznorp $16 | $0 | 64¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Club Universitario de Deportes O/U 2.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: CD Moquegua O/U 0.5 → Over | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: O/U 1.5 → Under | Flaznorp $25 | $0 | 20¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Club Universitario de Deportes vs. CD Moquegua: Both Teams to Score → Yes | Flaznorp $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Club Universitario de Deportes (-1.5) → Club Universitario de Deportes | Flaznorp $874 | $0 | — | fails: only 1 vetted wallet with $874 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Club Universitario de Deportes (-2.5) → CD Moquegua | Flaznorp $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Club Universitario de Deportes vs. CD Moquegua - Exact Score · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua?: all vetted wallets left No
-- Sun Nov 8, 7:10 PM (hourly): Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua?: all vetted wallets left No
-- Sun Nov 8, 4:50 PM (hourly): Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 7:10 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 5:14 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | Flaznorp $369 | $0 | — | fails: only 1 vetted wallet with $369 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:50 PM | hourly | Exact Score: Club Universitario de Deportes 2 - 1 CD Moquegua? → No | Flaznorp $367 | $0 | — | fails: only 1 vetted wallet with $367 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 4:18 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $326 | $0 | — | fails: only 1 vetted wallet with $326 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 3:18 PM | hourly | Exact Score: Club Universitario de Deportes 3 - 1 CD Moquegua? → No | Flaznorp $248 | $0 | — | fails: only 1 vetted wallet with $248 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 2:14 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 1:18 PM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 11:14 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Sun Nov 8, 10:24 AM | hourly | Exact Score: Club Universitario de Deportes 1 - 1 CD Moquegua? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
 ### Club León FC vs. CD Guadalajara - More Markets · starts Mon Nov 9, 2:10 AM
 
 - Sun Nov 8, 7:10 PM (hourly): Spread: CD Guadalajara (-2.5): all vetted wallets left CD Guadalajara
@@ -4466,27 +4384,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 1:18 PM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sun Nov 8, 11:14 AM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Sun Nov 8, 10:24 AM | hourly | Club León FC vs. CD Guadalajara: Both Teams to Score → No | Flaznorp $162 | $0 | — | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### Club Universitario de Deportes vs. CD Moquegua · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Will CD Moquegua win on 2026-11-08?: all vetted wallets left Yes
-- Sun Nov 8, 5:14 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 12¢ → 8¢
-- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes win on 2026-11-08?: all vetted wallets left No
-- Sun Nov 8, 4:50 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: all vetted wallets left Yes
-- Sun Nov 8, 4:50 PM (hourly): Will CD Moquegua win on 2026-11-08?: Kalshi 13¢ → 12¢
-- Sun Nov 8, 4:18 PM (hourly): Will CD Moquegua win on 2026-11-08?: first seen: 1 vetted on Yes ($86), fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 8, 3:18 PM (hourly): Will Club Universitario de Deportes vs. CD Moquegua end in a draw?: first seen: 1 vetted on Yes ($14), fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $58 | $0 | 8¢ YES | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 4:50 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $79 | $0 | 12¢ YES | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Will CD Moquegua win on 2026-11-08? → Yes | Flaznorp $86 | $0 | 13¢ YES | fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes vs. CD Moquegua end in a draw? → Yes | Flaznorp $14 | $0 | 16¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Will Club Universitario de Deportes win on 2026-11-08? → No | Flaznorp $98 | $0 | 24¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 24c vs leaders 16c |
 
 ### Club León FC vs. CD Guadalajara · starts Mon Nov 9, 2:10 AM
 
@@ -4561,24 +4458,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 8, 4:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $341 | $0 | 48¢ YES | fails: only 1 vetted wallet with $341 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 3:18 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $337 | $0 | 48¢ YES | fails: only 1 vetted wallet with $337 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 8, 2:14 PM | hourly | Kyoto Hannaryz vs. Levanga Hokkaido → Kyoto Hannaryz | Flaznorp $383 | $0 | 52¢ YES | fails: only 1 vetted wallet with $383 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Houston Cougars vs. California Golden Bears · starts Mon Nov 9, 1:30 AM
-
-- Sun Nov 8, 7:10 PM (hourly): Spread: Houston Cougars (-17.5): all vetted wallets left California Golden Bears
-- Sun Nov 8, 4:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 44¢
-- Sun Nov 8, 3:18 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 42¢ → 43¢
-- Sun Nov 8, 2:14 PM (hourly): Spread: Houston Cougars (-17.5): Kalshi 43¢ → 42¢
-- Sun Nov 8, 1:18 PM (hourly): Spread: Houston Cougars (-17.5): first seen: 1 vetted on California Golden Bears ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 8, 7:10 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 8, 5:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:50 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $38 | $0 | 44¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 4:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $39 | $0 | 44¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 3:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 43¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 2:14 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $36 | $0 | 42¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 8, 1:18 PM | hourly | Spread: Houston Cougars (-17.5) → California Golden Bears | Flaznorp $37 | $0 | 43¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Karsiyaka vs. Besiktas · starts Mon Nov 9, 4:00 PM
 
