@@ -1,26 +1,6 @@
 {
-  "updated": "2026-11-12T03:16:04Z",
+  "updated": "2026-11-12T04:15:59Z",
   "games": [
-    {
-      "event_slug": "atp-schoenh-daniel-2026-11-11",
-      "game": "Matsuyama: Max Schoenhaus vs Taro Daniel",
-      "start": "2026-11-12T03:30:00Z",
-      "check_at": "2026-11-12T03:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Matsuyama: Max Schoenhaus vs Taro Daniel → Max Schoenhaus ($201, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-usc-cah-2026-11-11",
-      "game": "USC Trojans vs. California Golden Bears",
-      "start": "2026-11-12T04:00:00Z",
-      "check_at": "2026-11-12T03:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: USC Trojans (-7.5) → California Golden Bears ($55, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "fif-nzl-ind-2026-11-12",
       "game": "New Zealand vs. India",
@@ -28,8 +8,8 @@
       "check_at": "2026-11-12T05:55:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Will New Zealand win on 2026-11-12? → No ($565, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will New Zealand win on 2026-11-12? → No ($559, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $559 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fif-nzl-ind-2026-11-12-more-markets",
@@ -78,8 +58,8 @@
       "check_at": "2026-11-12T09:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Hersonissos 3: Cezar Cretu vs Philip Henning → Philip Henning ($48, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hersonissos 3: Cezar Cretu vs Philip Henning → Philip Henning ($49, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-andreev-brancac-2026-11-12",
@@ -88,8 +68,8 @@
       "check_at": "2026-11-12T09:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Hersonissos 3: Adrian Andreev vs Raul Brancaccio → Raul Brancaccio ($22, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hersonissos 3: Adrian Andreev vs Raul Brancaccio → Raul Brancaccio ($23, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bkjpn-ryu-sun-2026-11-12",
@@ -108,8 +88,8 @@
       "check_at": "2026-11-12T13:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "BNP Paribas Nordic Open: Thiago Agustin Tirante vs Alexander Shevchenko → Alexander Shevchenko ($10, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "BNP Paribas Nordic Open: Thiago Agustin Tirante vs Alexander Shevchenko → Alexander Shevchenko ($11, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fif-uzb-rus-2026-11-12",
@@ -118,8 +98,8 @@
       "check_at": "2026-11-12T14:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Will Russia win on 2026-11-12? → No ($152, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Russia win on 2026-11-12? → No ($155, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fif-uzb-rus-2026-11-12-more-markets",
@@ -130,6 +110,16 @@
       "near": 4,
       "best": "Uzbekistan vs. Russia: O/U 2.5 → Under ($118, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-magadan-barrena-2026-11-12",
+      "game": "Lima: Alan Magadan vs Alex Barrena",
+      "start": "2026-11-12T16:00:00Z",
+      "check_at": "2026-11-12T15:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Lima: Alan Magadan vs Alex Barrena → Alex Barrena ($21, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-tur-bel-2026-11-12-more-markets",
@@ -157,9 +147,9 @@
       "start": "2026-11-12T17:00:00Z",
       "check_at": "2026-11-12T16:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Will SCU Torreense vs. Sparta Prague end in a draw? → No ($1.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Will SCU Torreense vs. Sparta Prague end in a draw? → No ($1.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uwec-tor-spa-2026-11-11-more-markets",
@@ -168,8 +158,8 @@
       "check_at": "2026-11-12T16:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: SCU Torreense (-1.5) → Sparta Prague ($72, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: SCU Torreense (-1.5) → Sparta Prague ($73, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-tur-bel-2026-11-12-halftime-result",
@@ -228,8 +218,8 @@
       "check_at": "2026-11-12T17:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will FC Barcelona vs. Arsenal WFC end in a draw? → No ($264, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will FC Barcelona vs. Arsenal WFC end in a draw? → No ($261, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "uwcl-fcb-ars-2026-11-12-more-markets",
@@ -238,8 +228,8 @@
       "check_at": "2026-11-12T17:30:00Z",
       "passing": 0,
       "near": 2,
-      "best": "FC Barcelona vs. Arsenal WFC: O/U 3.5 → Under ($153, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "FC Barcelona vs. Arsenal WFC: O/U 3.5 → Under ($157, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-musetti-humbert-2026-11-12",
@@ -258,8 +248,8 @@
       "check_at": "2026-11-12T18:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Guyana (-2.5) → Cayman Islands ($116, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Guyana (-2.5) → Cayman Islands ($121, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "conl-cay-guy1-2026-11-12",
@@ -268,8 +258,8 @@
       "check_at": "2026-11-12T18:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Guyana win on 2026-11-12? → No ($41, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Guyana win on 2026-11-12? → No ($48, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-ita-fra-2026-11-12",
@@ -308,8 +298,8 @@
       "check_at": "2026-11-12T19:30:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Will Spain win on 2026-11-12? → No ($601, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $601 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Spain win on 2026-11-12? → No ($851, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $851 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-smr-bela-2026-11-12",
@@ -338,8 +328,8 @@
       "check_at": "2026-11-12T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Montenegro win on 2026-11-12? → No ($266, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Montenegro win on 2026-11-12? → No ($269, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-smr-bela-2026-11-12-more-markets",
@@ -428,8 +418,8 @@
       "check_at": "2026-11-12T21:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Aruba win on 2026-11-12? → No ($130, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Aruba win on 2026-11-12? → No ($131, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "conl-aru-mart-2026-11-12-more-markets",
@@ -452,24 +442,34 @@
       "status": "fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "conl-atg-tri-2026-11-12",
-      "game": "Antigua and Barbuda vs. Trinidad and Tobago",
-      "start": "2026-11-12T23:00:00Z",
-      "check_at": "2026-11-12T22:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Trinidad and Tobago win on 2026-11-12? → No ($29, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "conl-atg-tri-2026-11-12-more-markets",
       "game": "Antigua and Barbuda vs. Trinidad and Tobago - More Markets",
       "start": "2026-11-12T23:00:00Z",
       "check_at": "2026-11-12T22:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Trinidad and Tobago (-2.5) → Trinidad and Tobago ($12, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Trinidad and Tobago (-2.5) → Trinidad and Tobago ($42, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-tor-phi-2026-11-12",
+      "game": "Raptors vs. 76ers",
+      "start": "2026-11-13T00:00:00Z",
+      "check_at": "2026-11-12T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Raptors vs. 76ers → 76ers ($54, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-det-was-2026-11-12",
+      "game": "Pistons vs. Wizards",
+      "start": "2026-11-13T00:00:00Z",
+      "check_at": "2026-11-12T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Pistons vs. Wizards → Pistons ($269, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $269 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "conl-kor-pan-2026-11-12",
@@ -498,8 +498,8 @@
       "check_at": "2026-11-13T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Hornets vs. Suns → Suns ($93, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hornets vs. Suns → Suns ($92, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "mex2-atm-len-2026-11-12",
@@ -518,8 +518,8 @@
       "check_at": "2026-11-13T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Atletico Morelia vs. Leones Negros UDEG: O/U 4.5 → Over ($15, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Atletico Morelia vs. Leones Negros UDEG: O/U 4.5 → Over ($13, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
