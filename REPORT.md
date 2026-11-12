@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 7:38 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
+Updated Thu Nov 12, 7:53 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
 
 Record: 55 won, 42 lost, 9 sold early. Realized P&L $-37.69. Open: 1.
 
@@ -10702,27 +10702,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 12:16 PM | hourly | Lima: Zdenek Kolar vs Joao Lucas Da Silva → Joao Lucas Da Silva | Flaznorp $126 | $0 | — | fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 11:14 AM | hourly | Lima: Zdenek Kolar vs Joao Lucas Da Silva → Joao Lucas Da Silva | Flaznorp $128 | $0 | — | fails: only 1 vetted wallet with $128 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Morecambe FC vs. Hereford FC · starts Tue Nov 10, 7:45 PM
-
-- Tue Nov 10, 5:17 PM (hourly): Will Hereford FC win on 2026-11-10?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Will Hereford FC win on 2026-11-10? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 4:19 PM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 2:18 PM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 12:16 PM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 11:14 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 10:11 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 9:13 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 8:12 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 7:13 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 6:14 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 5:14 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 4:14 AM | hourly | Will Hereford FC win on 2026-11-10? → No | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Vietnam vs. Chinese Taipei · starts Wed Nov 11, 12:00 PM
 
 - Wed Nov 11, 6:19 AM (hourly): Will Vietnam vs. Chinese Taipei end in a draw?: back: 1 vetted on No ($284), fails: only 1 vetted wallet with $284 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
@@ -10757,25 +10736,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 1:21 PM | hourly | Will Vietnam win on 2026-11-11? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 12:16 PM | hourly | Will Vietnam vs. Chinese Taipei end in a draw? → Yes | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 12:16 PM | hourly | Will Vietnam win on 2026-11-11? → No | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Darlington FC vs. Oxford City - More Markets · starts Tue Nov 10, 7:45 PM
-
-- Tue Nov 10, 5:17 PM (hourly): Darlington FC vs. Oxford City: O/U 0.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 4:19 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 2:18 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 12:16 PM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 11:14 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 10:11 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 9:13 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 8:12 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 7:13 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
-| Tue Nov 10, 6:14 AM | hourly | Darlington FC vs. Oxford City: O/U 0.5 → Under | Flaznorp $1 | $0 | — | fails: only 1 vetted wallet with $1 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; no Kalshi game found |
 
 ### Paris Saint-Germain FC vs. FC Bayern München - More Markets · starts Tue Nov 10, 8:00 PM
 
@@ -11312,22 +11272,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 5:17 PM | hourly | Spread: San Francisco Dons (-11.5) → Montana Grizzlies | Flaznorp $114 | $0 | 50¢ NO | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 46c |
 | Tue Nov 10, 4:19 PM | hourly | Spread: San Francisco Dons (-11.5) → Montana Grizzlies | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Tue Nov 10, 3:18 PM | hourly | Spread: San Francisco Dons (-11.5) → Montana Grizzlies | Flaznorp $67 | $0 | 47¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Darlington FC vs. Oxford City · starts Tue Nov 10, 7:45 PM
-
-- Tue Nov 10, 9:13 AM (hourly): Will Oxford City win on 2026-11-10?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 9:13 AM | hourly | Will Oxford City win on 2026-11-10? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 8:12 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 7:13 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $67 | $0 | — | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 6:14 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 5:14 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $59 | $0 | — | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 4:14 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $60 | $0 | — | fails: only 1 vetted wallet with $60 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:11 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 2:13 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:16 AM | hourly | Will Oxford City win on 2026-11-10? → No | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Paris Saint-Germain FC vs. FC Bayern München · starts Tue Nov 10, 8:00 PM
 
