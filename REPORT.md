@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 12:17 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
+Updated Thu Nov 12, 12:54 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
 
 Record: 55 won, 41 lost, 9 sold early. Realized P&L $-27.44. Open: 1.
 
@@ -1149,6 +1149,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Nuggets vs. Grizzlies · starts Thu Nov 12, 1:00 AM
 
+- Thu Nov 12, 12:54 AM (verify): Nuggets vs. Grizzlies: 15-min check: still passes (2 wallets, $270.9k for vs $0 against); holding
 - Thu Nov 12, 12:17 AM (pregame): Spread: Grizzlies (-3.5): Kalshi 70¢ → 69¢
 - Thu Nov 12, 12:17 AM (pregame): Spread: Nuggets (-7.5): Kalshi 38¢ → 37¢
 - Thu Nov 12, 12:17 AM (pregame): Spread: Nuggets (-5.5): Kalshi 44¢ → 43¢
@@ -8537,14 +8538,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 9, 2:12 AM | hourly | Bills vs. Vikings → Bills | monkeymashingkeyboard $16.0k | $0 | 62¢ YES | fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 2:12 AM | hourly | Bills vs. Vikings: O/U 44.5 → Under | gmpm2 $233 | $0 | 52¢ NO | fails: only 1 vetted wallet with $233 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 9, 2:12 AM | hourly | Spread: Bills (-2.5) → Bills | monkeymashingkeyboard $5.6k | $0 | 56¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Grizzlies vs. Raptors · starts Tue Nov 10, 12:30 AM
-
-- Tue Nov 10, 12:17 AM (pregame): Grizzlies vs. Raptors: first seen: 1 vetted on Grizzlies ($188.2k), fails: only 1 vetted wallet with $188.2k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 12:17 AM | pregame | Grizzlies vs. Raptors → Grizzlies | BreakTheBank $188.2k | $0 | 54¢ YES | fails: only 1 vetted wallet with $188.2k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Pacers vs. Mavericks · starts Tue Nov 10, 1:00 AM
 
