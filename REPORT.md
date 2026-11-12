@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 2:28 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
+Updated Thu Nov 12, 2:38 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
 
 Record: 55 won, 41 lost, 9 sold early. Realized P&L $-27.44. Open: 1.
 
@@ -8348,15 +8348,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 2:13 AM | pregame | Spread: Washington Huskies (-33.5) → Washington Huskies | Flaznorp $12 | $0 | 43¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | Spread: Washington Huskies (-33.5) → Washington Huskies | Flaznorp $12 | $0 | 43¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Eastern Washington Eagles vs. Oregon State Beavers · starts Tue Nov 10, 2:30 AM
-
-- Tue Nov 10, 1:16 AM (hourly): Spread: Oregon State Beavers (-15.5): first seen: 1 vetted on Eastern Washington Eagles ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 2:13 AM | pregame | Spread: Oregon State Beavers (-15.5) → Eastern Washington Eagles | Flaznorp $90 | $0 | 43¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | hourly | Spread: Oregon State Beavers (-15.5) → Eastern Washington Eagles | Flaznorp $90 | $0 | 43¢ NO | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic · starts Tue Nov 10, 3:00 PM
 
 - Tue Nov 10, 1:16 AM (hourly): BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic: first seen: 1 vetted on Arthur Rinderknech ($303), fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+)
@@ -8377,14 +8368,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 3:11 AM | hourly | BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic → Arthur Rinderknech | Flaznorp $303 | $0 | — | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 2:13 AM | hourly | BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic → Arthur Rinderknech | Flaznorp $303 | $0 | 66¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | BNP Paribas Nordic Open: Arthur Rinderknech vs Miomir Kecmanovic → Arthur Rinderknech | Flaznorp $303 | $0 | 66¢ YES | fails: only 1 vetted wallet with $303 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Flyers vs. Canucks · starts Tue Nov 10, 2:30 AM
-
-- Tue Nov 10, 2:13 AM (pregame): Flyers vs. Canucks: first seen: 1 vetted on Canucks ($215), fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 2:13 AM | pregame | Flyers vs. Canucks → Canucks | Flaznorp $215 | $0 | 46¢ YES | fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Islanders vs. Sharks · starts Tue Nov 10, 3:00 AM
 
