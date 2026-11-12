@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 2:38 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
+Updated Thu Nov 12, 2:53 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
 
 Record: 55 won, 41 lost, 9 sold early. Realized P&L $-27.44. Open: 1.
 
@@ -8317,27 +8317,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 2:13 AM | pregame | Rice Owls vs. Stanford Cardinal → Stanford Cardinal | Flaznorp $796 | $0 | 96¢ YES | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | Spread: Stanford Cardinal (-17.5) → Rice Owls | Flaznorp $48 | $0 | 47¢ NO | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | Rice Owls vs. Stanford Cardinal → Stanford Cardinal | Flaznorp $796 | $0 | 95¢ YES | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Matsuyama: Rei Sakamoto vs Renta Tokuda · starts Tue Nov 10, 2:45 AM
-
-- Tue Nov 10, 1:16 AM (hourly): Matsuyama: Rei Sakamoto vs Renta Tokuda: first seen: 1 vetted on Rei Sakamoto ($379), fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 3:11 AM | pregame | Matsuyama: Rei Sakamoto vs Renta Tokuda → Rei Sakamoto | Flaznorp $382 | $0 | — | fails: only 1 vetted wallet with $382 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 2:13 AM | pregame | Matsuyama: Rei Sakamoto vs Renta Tokuda → Rei Sakamoto | Flaznorp $379 | $0 | 86¢ YES | fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | hourly | Matsuyama: Rei Sakamoto vs Renta Tokuda → Rei Sakamoto | Flaznorp $379 | $0 | 86¢ YES | fails: only 1 vetted wallet with $379 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Matsuyama: Niels McDonald vs Koki Matsuda · starts Tue Nov 10, 2:45 AM
-
-- Tue Nov 10, 2:13 AM (pregame): Matsuyama: Niels McDonald vs Koki Matsuda: Kalshi 53¢ → 54¢
-- Tue Nov 10, 1:16 AM (hourly): Matsuyama: Niels McDonald vs Koki Matsuda: first seen: 1 vetted on Niels McDonald ($1.9k), fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 3:11 AM | hourly | Matsuyama: Niels McDonald vs Koki Matsuda → Niels McDonald | Flaznorp $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 2:13 AM | pregame | Matsuyama: Niels McDonald vs Koki Matsuda → Niels McDonald | Flaznorp $2.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | hourly | Matsuyama: Niels McDonald vs Koki Matsuda → Niels McDonald | Flaznorp $1.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Mississippi Valley State Delta Devils vs. Washington Huskies · starts Tue Nov 10, 3:00 AM
 
