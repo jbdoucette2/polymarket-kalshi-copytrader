@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 7:13 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
+Updated Thu Nov 12, 7:38 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
 
 Record: 55 won, 42 lost, 9 sold early. Realized P&L $-37.69. Open: 1.
 
@@ -168,6 +168,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### England vs. Croatia - More Markets · starts Thu Nov 12, 7:45 PM
 
+- Thu Nov 12, 7:38 PM (verify): Spread: England (-1.5): 15-min check: still passes (2 wallets, $19.4k for vs $0 against); holding
 - Thu Nov 12, 7:13 PM (pregame): Spread: England (-4.5): all vetted wallets left Croatia
 - Thu Nov 12, 7:13 PM (pregame): England vs. Croatia: O/U 2.5: Kalshi 34¢ → 32¢
 - Thu Nov 12, 7:13 PM (pregame): Spread: England (-1.5): now passes
@@ -11019,18 +11020,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 2:13 AM | hourly | Will Servette FC Chênois Féminin win on 2026-11-10? → Yes | Flaznorp $2 | $0 | 9¢ YES | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | Will Servette FC Chênois Féminin win on 2026-11-10? → Yes | Flaznorp $2 | $0 | 9¢ YES | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### London Lions vs. Reyer Venezia · starts Tue Nov 10, 7:30 PM
-
-- Tue Nov 10, 5:17 PM (hourly): London Lions vs. Reyer Venezia: Kalshi matched at 49¢
-- Tue Nov 10, 3:18 PM (hourly): London Lions vs. Reyer Venezia: Kalshi matched at 55¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | London Lions vs. Reyer Venezia → London Lions | Flaznorp $13 | $0 | 49¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 4:19 PM | hourly | London Lions vs. Reyer Venezia → London Lions | Flaznorp $13 | $0 | — | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | London Lions vs. Reyer Venezia → London Lions | Flaznorp $14 | $0 | 55¢ YES | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 2:18 PM | hourly | London Lions vs. Reyer Venezia → London Lions | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### FC Internazionale Milano vs. Manchester City WFC - More Markets · starts Tue Nov 10, 8:00 PM
 
 - Tue Nov 10, 5:17 PM (hourly): FC Internazionale Milano vs. Manchester City WFC: O/U 1.5: Kalshi matched at 15¢
@@ -11143,26 +11132,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 1:16 AM | hourly | Will FC Internazionale Milano win on 2026-11-10? → No | Flaznorp $18 | $0 | 87¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 1:16 AM | hourly | Will Manchester City WFC win on 2026-11-10? → Yes | Flaznorp $72 | $0 | 72¢ YES | fails: only 1 vetted wallet with $72 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Basquet Manresa vs. KK Bosna Royal Sarajevo · starts Tue Nov 10, 7:30 PM
-
-- Tue Nov 10, 5:17 PM (hourly): Basquet Manresa vs. KK Bosna Royal Sarajevo: Kalshi matched at 79¢
-- Tue Nov 10, 3:18 PM (hourly): Basquet Manresa vs. KK Bosna Royal Sarajevo: Kalshi matched at 80¢
-- Tue Nov 10, 1:21 PM (hourly): Basquet Manresa vs. KK Bosna Royal Sarajevo: Kalshi matched at 80¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $20 | $0 | 79¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 4:19 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | 80¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 2:18 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | 80¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 12:16 PM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 11:14 AM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 10:11 AM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | 81¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
-| Tue Nov 10, 9:13 AM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | 81¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
-| Tue Nov 10, 8:12 AM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $21 | $0 | 81¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 81c vs leaders 78c |
-| Tue Nov 10, 7:13 AM | hourly | Basquet Manresa vs. KK Bosna Royal Sarajevo → Basquet Manresa | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### FC Internazionale Milano vs. Manchester City WFC - Halftime Result · starts Tue Nov 10, 8:00 PM
 
 - Tue Nov 10, 5:17 PM (hourly): FC Internazionale Milano vs. Manchester City WFC: Draw at halftime?: Kalshi matched at 15¢
@@ -11181,36 +11150,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 11:14 AM | hourly | FC Internazionale Milano vs. Manchester City WFC: Draw at halftime? → Yes | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 10:11 AM | hourly | FC Internazionale Milano vs. Manchester City WFC: Draw at halftime? → Yes | Flaznorp $29 | $0 | 15¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 9:13 AM | hourly | FC Internazionale Milano vs. Manchester City WFC: Draw at halftime? → Yes | Flaznorp $29 | $0 | 15¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Orleans: Hugo Grenier vs Kyrian Jacquet · starts Tue Nov 10, 7:30 PM
-
-- Tue Nov 10, 5:17 PM (hourly): Orleans: Hugo Grenier vs Kyrian Jacquet: Kalshi matched at 79¢
-- Tue Nov 10, 3:18 PM (hourly): Orleans: Hugo Grenier vs Kyrian Jacquet: Kalshi matched at 79¢
-- Tue Nov 10, 1:21 PM (hourly): Orleans: Hugo Grenier vs Kyrian Jacquet: first seen: 1 vetted on Kyrian Jacquet ($241), fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Orleans: Hugo Grenier vs Kyrian Jacquet → Kyrian Jacquet | Flaznorp $244 | $0 | 79¢ YES | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 4:19 PM | hourly | Orleans: Hugo Grenier vs Kyrian Jacquet → Kyrian Jacquet | Flaznorp $244 | $0 | — | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | Orleans: Hugo Grenier vs Kyrian Jacquet → Kyrian Jacquet | Flaznorp $244 | $0 | 79¢ YES | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 2:18 PM | hourly | Orleans: Hugo Grenier vs Kyrian Jacquet → Kyrian Jacquet | Flaznorp $244 | $0 | — | fails: only 1 vetted wallet with $244 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Orleans: Hugo Grenier vs Kyrian Jacquet → Kyrian Jacquet | Flaznorp $241 | $0 | 79¢ YES | fails: only 1 vetted wallet with $241 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Knoxville: Ozan Baris vs Oliver Tarvet · starts Tue Nov 10, 7:15 PM
-
-- Tue Nov 10, 5:17 PM (hourly): Knoxville: Ozan Baris vs Oliver Tarvet: Kalshi matched at 81¢
-- Tue Nov 10, 3:18 PM (hourly): Knoxville: Ozan Baris vs Oliver Tarvet: Kalshi matched at 82¢
-- Tue Nov 10, 1:21 PM (hourly): Knoxville: Ozan Baris vs Oliver Tarvet: Kalshi matched at 82¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | 81¢ YES | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 4:19 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | — | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 3:18 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | 82¢ YES | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 2:18 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | — | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | 82¢ YES | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 12:16 PM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | — | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 11:14 AM | hourly | Knoxville: Ozan Baris vs Oliver Tarvet → Oliver Tarvet | Flaznorp $694 | $0 | — | fails: only 1 vetted wallet with $694 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### AS Roma vs. Servette FC Chênois Féminin - More Markets · starts Tue Nov 10, 8:00 PM
 
