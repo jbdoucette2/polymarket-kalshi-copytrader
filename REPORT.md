@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 9:22 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
+Updated Thu Nov 12, 9:38 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
 
 Record: 55 won, 42 lost, 9 sold early. Realized P&L $-37.69. Open: 1.
 
@@ -11114,14 +11114,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Tue Nov 10, 9:16 PM | hourly | Hersonissos 3: Robin Bertrand vs Henry Searle → Robin Bertrand | none | $0 | — | fails: no vetted wallets hold it now |
 | Tue Nov 10, 5:17 PM | hourly | Hersonissos 3: Robin Bertrand vs Henry Searle → Robin Bertrand | Flaznorp $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### WTA Finals, Group A: Coco Gauff vs Linda Noskova · starts Tue Nov 10, 9:30 PM
-
-- Tue Nov 10, 9:16 PM (pregame): WTA Finals, Group A: Coco Gauff vs Linda Noskova: first seen: 1 vetted on Coco Gauff ($16), fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 9:16 PM | pregame | WTA Finals, Group A: Coco Gauff vs Linda Noskova → Coco Gauff | Flaznorp $16 | $0 | 64¢ YES | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Vietnam vs. Chinese Taipei · starts Wed Nov 11, 12:00 PM
 
