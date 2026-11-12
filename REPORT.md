@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 1:23 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
+Updated Thu Nov 12, 1:27 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
 
 Record: 55 won, 41 lost, 9 sold early. Realized P&L $-27.44. Open: 1.
 
@@ -163,6 +163,172 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Magic vs. Jazz · starts Thu Nov 12, 2:00 AM
+
+- Thu Nov 12, 1:27 AM (pregame): Spread: Magic (-3.5): now fails: no Kalshi spread market
+- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-10.5): Kalshi 30¢ → 29¢
+- Thu Nov 12, 12:17 AM (hourly): Spread: Jazz (-9.5): Kalshi 85¢ → 86¢
+- Thu Nov 12, 12:17 AM (hourly): Magic vs. Jazz: O/U 201.5: first seen: 1 vetted on Over ($177), fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+)
+- Thu Nov 12, 12:17 AM (hourly): Spread: Jazz (-3.5): first seen: 1 vetted on Magic ($213), fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+)
+- Thu Nov 12, 12:17 AM (hourly): Magic vs. Jazz: O/U 223.5: Kalshi 70¢ → 69¢
+- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-1.5): Kalshi 40¢ → 41¢
+- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-4.5): Kalshi 51¢ → 52¢
+- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 211.5: Kalshi matched at 44¢
+- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 227.5: Kalshi matched at 76¢
+- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 229.5: Kalshi matched at 79¢
+- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 223.5: Kalshi matched at 70¢
+- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-1.5): Kalshi 41¢ → 40¢
+- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-2.5): Kalshi 43¢ → 44¢
+- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-4.5): RJW1 added $47.4k on Jazz
+- Wed Nov 11, 10:14 PM (hourly): Spread: Magic (-10.5): Kalshi 29¢ → 30¢
+- Wed Nov 11, 10:14 PM (hourly): Spread: Magic (-4.5): Kalshi 52¢ → 51¢
+- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-10.5): Kalshi 30¢ → 29¢
+- Wed Nov 11, 9:14 PM (hourly): Magic vs. Jazz: O/U 229.5: first seen: 1 vetted on Under ($166), fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 9:14 PM (hourly): Magic vs. Jazz: O/U 223.5: first seen: 1 vetted on Under ($220), fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-2.5): Kalshi 44¢ → 43¢
+- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-4.5): Kalshi 53¢ → 52¢
+- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-3.5): Kalshi 49¢ → 47¢
+- Wed Nov 11, 8:13 PM (hourly): Magic vs. Jazz: O/U 209.5: first seen: 1 vetted on Under ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 8:13 PM (hourly): Spread: Magic (-10.5): first seen: 1 vetted on Magic ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 8:13 PM (hourly): Magic vs. Jazz: O/U 211.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 8:13 PM (hourly): Spread: Magic (-8.5): Kalshi 35¢ → 36¢
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-1.5): Kalshi 45¢ → 41¢
+- Wed Nov 11, 7:17 PM (hourly): Magic vs. Jazz: O/U 227.5: first seen: 1 vetted on Under ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-8.5): first seen: 1 vetted on Magic ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 7:17 PM (hourly): Spread: Jazz (-9.5): first seen: 1 vetted on Magic ($112), fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-4.5): Kalshi 57¢ → 53¢
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-2.5): Kalshi 49¢ → 44¢
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): now passes
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): Kalshi 54¢ → 49¢
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): Flaznorp joined Jazz (+$175)
+- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): RJW1 added $45.0k on Jazz
+- Wed Nov 11, 6:12 PM (hourly): Spread: Magic (-3.5): RJW1 added $3.2k on Jazz
+- Wed Nov 11, 5:16 PM (hourly): Magic vs. Jazz: O/U 221.5: Kalshi 64¢ → 65¢
+- Wed Nov 11, 5:16 PM (hourly): Spread: Magic (-3.5): Kalshi 52¢ → 54¢
+- Wed Nov 11, 4:19 PM (hourly): Spread: Magic (-1.5): Kalshi 41¢ → 44¢
+- Wed Nov 11, 4:19 PM (hourly): Spread: Magic (-3.5): first seen: 1 vetted on Jazz ($3.8k), fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 3:16 PM (hourly): Magic vs. Jazz: O/U 221.5: Kalshi 62¢ → 64¢
+- Wed Nov 11, 2:17 PM (hourly): Spread: Magic (-1.5): first seen: 1 vetted on Jazz ($41), fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 2:17 PM (hourly): Magic vs. Jazz: O/U 221.5: first seen: 1 vetted on Under ($105), fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)
+- Wed Nov 11, 2:17 PM (hourly): Spread: Magic (-4.5): Kalshi 53¢ → 55¢
+- Wed Nov 11, 12:14 PM (hourly): Spread: Magic (-4.5): Kalshi 52¢ → 53¢
+- Wed Nov 11, 12:14 PM (hourly): Spread: Magic (-4.5): RJW1 added $35.3k on Jazz
+- Wed Nov 11, 11:20 AM (hourly): Spread: Magic (-4.5): first seen: 1 vetted on Jazz ($786), fails: only 1 vetted wallet with $786 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | — | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | — | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $163 | $0 | — | fails: only 1 vetted wallet with $163 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Jazz (-3.5) → Magic | Flaznorp $211 | $0 | — | fails: only 1 vetted wallet with $211 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $213 | $0 | — | fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Magic vs. Jazz: O/U 201.5 → Over | Flaznorp $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-1.5) → Jazz | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-2.5) → Jazz | Flaznorp $70 | $0 | — | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | — | fails: no Kalshi spread market |
+| Thu Nov 12, 1:27 AM | pregame | Spread: Magic (-4.5) → Jazz | RJW1 $87.7k | $0 | — | fails: only 1 vetted wallet with $87.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 40¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 29¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $110 | $0 | 67¢ NO | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 62c |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 86¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 201.5 → Over | Flaznorp $177 | $0 | 77¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Jazz (-3.5) → Magic | Flaznorp $213 | $0 | 71¢ NO | fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 69¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $70 | $0 | 44¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
+| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $87.7k | $0 | 52¢ NO | fails: only 1 vetted wallet with $87.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 40¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $95 | $0 | 36¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | 66¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 70¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 40¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $68 | $0 | 44¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $50.0k, Flaznorp $341 | $0 | 47¢ NO | passes |
+| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $87.7k | $0 | 51¢ NO | fails: only 1 vetted wallet with $87.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $95 | $0 | 36¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | — | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | — | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | — | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $70 | $0 | 43¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $40.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $40.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 39¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 29¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 43¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | 66¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 69¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $39 | $0 | 41¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $69 | $0 | 43¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $37.3k | $0 | 52¢ NO | fails: only 1 vetted wallet with $37.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
+| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 39¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 43¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $45 | $0 | 76¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
+| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 65¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $71 | $0 | 44¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.2k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 49¢ NO | passes |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $41 | $0 | 41¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $90 | $0 | 35¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 66¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.9k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $71 | $0 | 44¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $52.2k, Flaznorp $175 | $0 | 49¢ NO | passes |
+| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $44 | $0 | 45¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
+| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $78 | $0 | 49¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
+| Wed Nov 11, 6:12 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 65¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
+| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 57¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 52c |
+| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $7.2k | $0 | 54¢ NO | fails: only 1 vetted wallet with $7.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $44 | $0 | 45¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
+| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $78 | $0 | 50¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 45c |
+| Wed Nov 11, 5:16 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $107 | $0 | 65¢ NO | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
+| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $4.0k | $0 | 54¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 50c |
+| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 57¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 52c |
+| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $43 | $0 | 44¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
+| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $75 | $0 | 48¢ NO | fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 45c |
+| Wed Nov 11, 4:19 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $106 | $0 | 64¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $3.8k | $0 | 52¢ NO | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 55¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
+| Wed Nov 11, 3:16 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $42 | $0 | 41¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 3:16 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $106 | $0 | 64¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 3:16 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $38.3k | $0 | 55¢ NO | fails: only 1 vetted wallet with $38.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
+| Wed Nov 11, 2:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $41 | $0 | 41¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 2:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $105 | $0 | 62¢ NO | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 2:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $37.6k | $0 | 55¢ NO | fails: only 1 vetted wallet with $37.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
+| Wed Nov 11, 1:18 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.0k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 12:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.0k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 11, 11:20 AM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $786 | $0 | 52¢ NO | fails: only 1 vetted wallet with $786 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Spurs vs. Bulls · starts Thu Nov 12, 1:00 AM
 
@@ -764,157 +930,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 6:12 PM | hourly | Will Armenia vs. Cyprus end in a draw? → Yes | Flaznorp $10 | $0 | 29¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 5:16 PM | hourly | Will Armenia vs. Cyprus end in a draw? → Yes | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Magic vs. Jazz · starts Thu Nov 12, 2:00 AM
-
-- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-10.5): Kalshi 30¢ → 29¢
-- Thu Nov 12, 12:17 AM (hourly): Spread: Jazz (-9.5): Kalshi 85¢ → 86¢
-- Thu Nov 12, 12:17 AM (hourly): Magic vs. Jazz: O/U 201.5: first seen: 1 vetted on Over ($177), fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 12:17 AM (hourly): Spread: Jazz (-3.5): first seen: 1 vetted on Magic ($213), fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 12:17 AM (hourly): Magic vs. Jazz: O/U 223.5: Kalshi 70¢ → 69¢
-- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-1.5): Kalshi 40¢ → 41¢
-- Thu Nov 12, 12:17 AM (hourly): Spread: Magic (-4.5): Kalshi 51¢ → 52¢
-- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 211.5: Kalshi matched at 44¢
-- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 227.5: Kalshi matched at 76¢
-- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 229.5: Kalshi matched at 79¢
-- Wed Nov 11, 11:17 PM (hourly): Magic vs. Jazz: O/U 223.5: Kalshi matched at 70¢
-- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-1.5): Kalshi 41¢ → 40¢
-- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-2.5): Kalshi 43¢ → 44¢
-- Wed Nov 11, 11:17 PM (hourly): Spread: Magic (-4.5): RJW1 added $47.4k on Jazz
-- Wed Nov 11, 10:14 PM (hourly): Spread: Magic (-10.5): Kalshi 29¢ → 30¢
-- Wed Nov 11, 10:14 PM (hourly): Spread: Magic (-4.5): Kalshi 52¢ → 51¢
-- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-10.5): Kalshi 30¢ → 29¢
-- Wed Nov 11, 9:14 PM (hourly): Magic vs. Jazz: O/U 229.5: first seen: 1 vetted on Under ($166), fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 9:14 PM (hourly): Magic vs. Jazz: O/U 223.5: first seen: 1 vetted on Under ($220), fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-2.5): Kalshi 44¢ → 43¢
-- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-4.5): Kalshi 53¢ → 52¢
-- Wed Nov 11, 9:14 PM (hourly): Spread: Magic (-3.5): Kalshi 49¢ → 47¢
-- Wed Nov 11, 8:13 PM (hourly): Magic vs. Jazz: O/U 209.5: first seen: 1 vetted on Under ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 8:13 PM (hourly): Spread: Magic (-10.5): first seen: 1 vetted on Magic ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 8:13 PM (hourly): Magic vs. Jazz: O/U 211.5: first seen: 1 vetted on Under ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 8:13 PM (hourly): Spread: Magic (-8.5): Kalshi 35¢ → 36¢
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-1.5): Kalshi 45¢ → 41¢
-- Wed Nov 11, 7:17 PM (hourly): Magic vs. Jazz: O/U 227.5: first seen: 1 vetted on Under ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-8.5): first seen: 1 vetted on Magic ($90), fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 7:17 PM (hourly): Spread: Jazz (-9.5): first seen: 1 vetted on Magic ($112), fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-4.5): Kalshi 57¢ → 53¢
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-2.5): Kalshi 49¢ → 44¢
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): now passes
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): Kalshi 54¢ → 49¢
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): Flaznorp joined Jazz (+$175)
-- Wed Nov 11, 7:17 PM (hourly): Spread: Magic (-3.5): RJW1 added $45.0k on Jazz
-- Wed Nov 11, 6:12 PM (hourly): Spread: Magic (-3.5): RJW1 added $3.2k on Jazz
-- Wed Nov 11, 5:16 PM (hourly): Magic vs. Jazz: O/U 221.5: Kalshi 64¢ → 65¢
-- Wed Nov 11, 5:16 PM (hourly): Spread: Magic (-3.5): Kalshi 52¢ → 54¢
-- Wed Nov 11, 4:19 PM (hourly): Spread: Magic (-1.5): Kalshi 41¢ → 44¢
-- Wed Nov 11, 4:19 PM (hourly): Spread: Magic (-3.5): first seen: 1 vetted on Jazz ($3.8k), fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 3:16 PM (hourly): Magic vs. Jazz: O/U 221.5: Kalshi 62¢ → 64¢
-- Wed Nov 11, 2:17 PM (hourly): Spread: Magic (-1.5): first seen: 1 vetted on Jazz ($41), fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 2:17 PM (hourly): Magic vs. Jazz: O/U 221.5: first seen: 1 vetted on Under ($105), fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 2:17 PM (hourly): Spread: Magic (-4.5): Kalshi 53¢ → 55¢
-- Wed Nov 11, 12:14 PM (hourly): Spread: Magic (-4.5): Kalshi 52¢ → 53¢
-- Wed Nov 11, 12:14 PM (hourly): Spread: Magic (-4.5): RJW1 added $35.3k on Jazz
-- Wed Nov 11, 11:20 AM (hourly): Spread: Magic (-4.5): first seen: 1 vetted on Jazz ($786), fails: only 1 vetted wallet with $786 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 40¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 29¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $110 | $0 | 67¢ NO | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 67c vs leaders 62c |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 86¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 201.5 → Over | Flaznorp $177 | $0 | 77¢ YES | fails: only 1 vetted wallet with $177 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Jazz (-3.5) → Magic | Flaznorp $213 | $0 | 71¢ NO | fails: only 1 vetted wallet with $213 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 69¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $70 | $0 | 44¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $87.7k | $0 | 52¢ NO | fails: only 1 vetted wallet with $87.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 40¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $95 | $0 | 36¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | 66¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 70¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 40¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $68 | $0 | 44¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $50.0k, Flaznorp $341 | $0 | 47¢ NO | passes |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $87.7k | $0 | 51¢ NO | fails: only 1 vetted wallet with $87.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | — | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | — | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $95 | $0 | 36¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | — | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | — | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | — | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $70 | $0 | 43¢ NO | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $40.2k | $0 | 51¢ NO | fails: only 1 vetted wallet with $40.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 39¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 29¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 43¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $109 | $0 | 66¢ NO | fails: only 1 vetted wallet with $109 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 229.5 → Under | Flaznorp $166 | $0 | 79¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Magic vs. Jazz: O/U 223.5 → Under | Flaznorp $220 | $0 | 69¢ NO | fails: only 1 vetted wallet with $220 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $39 | $0 | 41¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $69 | $0 | 43¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $37.3k | $0 | 52¢ NO | fails: only 1 vetted wallet with $37.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 47¢ NO | passes |
-| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 209.5 → Under | Flaznorp $8 | $0 | 39¢ NO | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-10.5) → Magic | Flaznorp $10 | $0 | 30¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 211.5 → Under | Flaznorp $17 | $0 | 43¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $45 | $0 | 76¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $93 | $0 | 36¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 36c vs leaders 33c |
-| Wed Nov 11, 8:13 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 65¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $40 | $0 | 41¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $71 | $0 | 44¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.2k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $51.1k, Flaznorp $349 | $0 | 49¢ NO | passes |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $41 | $0 | 41¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Magic vs. Jazz: O/U 227.5 → Under | Flaznorp $46 | $0 | 76¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-8.5) → Magic | Flaznorp $90 | $0 | 35¢ YES | fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 66¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 66c vs leaders 62c |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Jazz (-9.5) → Magic | Flaznorp $112 | $0 | 85¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.9k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $71 | $0 | 44¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $52.2k, Flaznorp $175 | $0 | 49¢ NO | passes |
-| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $44 | $0 | 45¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
-| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $78 | $0 | 49¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 45c |
-| Wed Nov 11, 6:12 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $108 | $0 | 65¢ NO | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
-| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 57¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 52c |
-| Wed Nov 11, 6:12 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $7.2k | $0 | 54¢ NO | fails: only 1 vetted wallet with $7.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $44 | $0 | 45¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 45c vs leaders 41c |
-| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $78 | $0 | 50¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 45c |
-| Wed Nov 11, 5:16 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $107 | $0 | 65¢ NO | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
-| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $4.0k | $0 | 54¢ NO | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 50c |
-| Wed Nov 11, 5:16 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 57¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 52c |
-| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $43 | $0 | 44¢ NO | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 44c vs leaders 41c |
-| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-2.5) → Jazz | Flaznorp $75 | $0 | 48¢ NO | fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 45c |
-| Wed Nov 11, 4:19 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $106 | $0 | 64¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-3.5) → Jazz | RJW1 $3.8k | $0 | 52¢ NO | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 4:19 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $39.0k | $0 | 55¢ NO | fails: only 1 vetted wallet with $39.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
-| Wed Nov 11, 3:16 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $42 | $0 | 41¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $106 | $0 | 64¢ NO | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $38.3k | $0 | 55¢ NO | fails: only 1 vetted wallet with $38.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
-| Wed Nov 11, 2:17 PM | hourly | Spread: Magic (-1.5) → Jazz | Flaznorp $41 | $0 | 41¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 2:17 PM | hourly | Magic vs. Jazz: O/U 221.5 → Under | Flaznorp $105 | $0 | 62¢ NO | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 2:17 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $37.6k | $0 | 55¢ NO | fails: only 1 vetted wallet with $37.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 52c |
-| Wed Nov 11, 1:18 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.0k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 12:14 PM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $36.0k | $0 | 53¢ NO | fails: only 1 vetted wallet with $36.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:20 AM | hourly | Spread: Magic (-4.5) → Jazz | RJW1 $786 | $0 | 52¢ NO | fails: only 1 vetted wallet with $786 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Türkiye vs. Belgium - Halftime Result · starts Thu Nov 12, 5:00 PM
 
 - Wed Nov 11, 11:17 PM (hourly): Türkiye vs. Belgium: Draw at halftime?: Kalshi matched at 23¢
@@ -1053,10 +1068,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Lima: Lautaro Midon vs Miguel Tobon · starts Thu Nov 12, 2:10 AM
 
+- Thu Nov 12, 1:27 AM (pregame): Lima: Lautaro Midon vs Miguel Tobon: Flaznorp left
+- Thu Nov 12, 1:27 AM (pregame): Lima: Lautaro Midon vs Miguel Tobon: tradecraft joined Miguel Tobon (+$108)
 - Thu Nov 12, 12:17 AM (hourly): Lima: Lautaro Midon vs Miguel Tobon: first seen: 1 vetted on Miguel Tobon ($12), fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 12, 1:27 AM | pregame | Lima: Lautaro Midon vs Miguel Tobon → Miguel Tobon | tradecraft $108 | $3 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; no Kalshi game found |
 | Thu Nov 12, 12:17 AM | hourly | Lima: Lautaro Midon vs Miguel Tobon → Miguel Tobon | Flaznorp $12 | $0 | 37¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Robert Morris Colonials vs. Arkansas Razorbacks · starts Thu Nov 12, 1:00 AM
@@ -2112,6 +2130,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 12, 1:27 AM | pregame | Will Piratas Veracruz vs. Club Atletico La Paz end in a draw? → No | Flaznorp $192 | $0 | — | fails: only 1 vetted wallet with $192 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Thu Nov 12, 1:27 AM | pregame | Will Piratas Veracruz win on 2026-11-11? → Yes | Flaznorp $1.0k | $0 | — | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 12, 12:17 AM | hourly | Will Piratas Veracruz vs. Club Atletico La Paz end in a draw? → No | Flaznorp $190 | $0 | 78¢ NO | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 12:17 AM | hourly | Will Piratas Veracruz win on 2026-11-11? → Yes | Flaznorp $1.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
 | Wed Nov 11, 11:17 PM | hourly | Will Piratas Veracruz win on 2026-11-11? → Yes | Flaznorp $1.0k | $0 | 55¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 51c |
@@ -8395,6 +8415,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Thu Nov 12, 1:27 AM | Piratas Veracruz vs. Club Atletico La Paz - Exact Score | Exact Score: Piratas Veracruz 0 - 0 Club Atletico La Paz? → Yes | only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 5¢ outside 5–95¢; no Kalshi game found |
+| Thu Nov 12, 1:27 AM | Piratas Veracruz vs. Club Atletico La Paz - More Markets | Piratas Veracruz vs. Club Atletico La Paz: Both Teams to Score → No | only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Thu Nov 12, 1:27 AM | Piratas Veracruz vs. Club Atletico La Paz | Will Piratas Veracruz win on 2026-11-11? → Yes | only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Thu Nov 12, 1:27 AM | Arkansas-Pine Bluff Golden Lions vs. UCLA Bruins | Arkansas-Pine Bluff Golden Lions vs. UCLA Bruins: O/U 157.5 → Under | only 1 vetted wallet with $63 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Thu Nov 12, 1:27 AM | Lima: Lautaro Midon vs Miguel Tobon | Lima: Lautaro Midon vs Miguel Tobon → Miguel Tobon | only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 100¢ outside 5–95¢; no Kalshi game found |
+| Thu Nov 12, 1:27 AM | Magic vs. Jazz | Spread: Magic (-3.5) → Jazz | no Kalshi spread market |
 | Thu Nov 12, 12:17 AM | Santa Clara Broncos vs. North Texas Mean Green | Spread: Santa Clara Broncos (-2.5) → North Texas Mean Green | only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 2.5 spread line |
 | Thu Nov 12, 12:17 AM | Jacksonville State Gamecocks vs. Houston Cougars | Spread: Houston Cougars (-34.5) → Jacksonville State Gamecocks | only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 34.5 spread line |
 | Thu Nov 12, 12:17 AM | Robert Morris Colonials vs. Arkansas Razorbacks | Spread: Arkansas Razorbacks (-29.5) → Robert Morris Colonials | only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -8419,9 +8445,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Thu Nov 12, 12:17 AM | Spurs vs. Bulls | Spread: Spurs (-11.5) → Bulls | only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 12:17 AM | Spurs vs. Bulls | Spread: Spurs (-17.5) → Spurs | only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 12:17 AM | Spurs vs. Bulls | Spread: Spurs (-16.5) → Spurs | only 2 vetted wallets with $458 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Spurs vs. Bulls | Spread: Spurs (-15.5) → Spurs | only 1 vetted wallet with $7.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Spurs vs. Bulls | Spread: Spurs (-14.5) → Spurs | only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Lakers vs. Bucks | Lakers vs. Bucks: O/U 234.5 → Over | only 1 vetted wallet with $76 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Lakers vs. Bucks | Lakers vs. Bucks: O/U 242.5 → Under | only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Lakers vs. Bucks | Spread: Lakers (-8.5) → Bucks | only 1 vetted wallet with $319 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | Lakers vs. Bucks | Spread: Lakers (-6.5) → Bucks | only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
