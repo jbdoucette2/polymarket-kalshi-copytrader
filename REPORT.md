@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 11:12 PM. Bankroll **$74.02** (start $100): $63.67 cash + open trades at cost.
+Updated Thu Nov 12, 11:53 PM. Bankroll **$74.02** (start $100): $63.67 cash + open trades at cost.
 
 Record: 56 won, 42 lost, 9 sold early. Realized P&L $-25.98. Open: 1.
 
@@ -663,6 +663,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Raptors vs. 76ers · starts Fri Nov 13, 12:00 AM
 
+- Thu Nov 12, 11:53 PM (verify): Raptors vs. 76ers: O/U 224.5: 15-min check: still passes (2 wallets, $24.8k for vs $0 against); holding
 - Thu Nov 12, 11:12 PM (pregame): Spread: 76ers (-1.5): first seen: 1 vetted on Raptors ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
 - Thu Nov 12, 11:12 PM (pregame): Raptors vs. 76ers: O/U 224.5: Kalshi 49¢ → 50¢
 - Thu Nov 12, 11:12 PM (pregame): Spread: 76ers (-5.5): Kalshi 43¢ → 44¢
@@ -11387,14 +11388,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 9:16 PM | hourly | Spread: Saint Louis Billikens (-23.5) → Saint Louis Billikens | Flaznorp $104 | $0 | 49¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 5:17 PM | hourly | Spread: Saint Louis Billikens (-23.5) → Saint Louis Billikens | Flaznorp $65 | $0 | 48¢ YES | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 4:19 PM | hourly | Spread: Saint Louis Billikens (-23.5) → Saint Louis Billikens | Flaznorp $65 | $0 | — | fails: only 1 vetted wallet with $65 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Delaware State Hornets vs. Georgetown Hoyas · starts Tue Nov 10, 11:30 PM
-
-- Tue Nov 10, 11:12 PM (pregame): Delaware State Hornets vs. Georgetown Hoyas: O/U 143.5: first seen: 1 vetted on Over ($113), fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 11:12 PM | pregame | Delaware State Hornets vs. Georgetown Hoyas: O/U 143.5 → Over | Flaznorp $113 | $0 | 50¢ YES | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Washington State Cougars vs. Duquesne Dukes · starts Wed Nov 11, 12:00 AM
 
