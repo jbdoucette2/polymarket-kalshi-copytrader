@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 9:38 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
+Updated Thu Nov 12, 9:54 PM. Bankroll **$74.02** (start $100): $74.02 cash + open trades at cost.
 
-Record: 55 won, 42 lost, 9 sold early. Realized P&L $-37.69. Open: 1.
+Record: 56 won, 42 lost, 9 sold early. Realized P&L $-25.98. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 7:13 PM | [England vs. Croatia - More Markets](https://polymarket.com/event/unl-eng-hrv-2026-11-12-more-markets) | Spread: England (-1.5) → Croatia | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($14,320) | 22 × 45¢ NO `KXUEFANLSPREAD-26NOV12ENGCRO-ENG2` | open |  |
+| Thu Nov 12, 7:13 PM | [England vs. Croatia - More Markets](https://polymarket.com/event/unl-eng-hrv-2026-11-12-more-markets) | Spread: England (-1.5) → Croatia | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($14,320) | 22 × 45¢ NO `KXUEFANLSPREAD-26NOV12ENGCRO-ENG2` | won | $+11.71 |
 | Thu Nov 12, 12:17 AM | [Nuggets vs. Grizzlies](https://polymarket.com/event/nba-den-mem-2026-11-11) | Nuggets vs. Grizzlies → Grizzlies | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($29,349) | 24 × 41¢ YES `KXNBAGAME-26NOV11DENMEM-MEM` | lost | $-10.25 |
 | Wed Nov 11, 1:22 AM | [Heat vs. Jazz](https://polymarket.com/event/nba-mia-uta-2026-11-10) | Spread: Heat (-8.5) → Jazz | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [RJW1](https://polymarket.com/profile/0x85f031d069de300055900c4055c1baeb6bde3f67) ($152,297) | 20 × 49¢ NO `KXNBASPREAD-26NOV10MIAUTA-MIA9` | won | $+9.85 |
 | Tue Nov 10, 12:17 AM | [Bills vs. Vikings](https://polymarket.com/event/nfl-buf-min-2026-11-10) | Bills vs. Vikings → Bills | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409) ($257,926) | 15 × 64¢ YES `KXNFLGAME-26NOV09BUFMIN-BUF` | won | $+5.15 |
