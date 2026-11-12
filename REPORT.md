@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 1:27 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
+Updated Thu Nov 12, 1:38 AM. Bankroll **$72.56** (start $100): $62.31 cash + open trades at cost.
 
 Record: 55 won, 41 lost, 9 sold early. Realized P&L $-27.44. Open: 1.
 
@@ -8308,66 +8308,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Tue Nov 10, 1:16 AM | pregame | Spread: DePaul Blue Demons (-23.5) → DePaul Blue Demons | Flaznorp $30 | $0 | 53¢ YES | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Brisbane 3: Moerani Bouzige vs Christopher O'Connell · starts Tue Nov 10, 1:30 AM
-
-- Tue Nov 10, 1:16 AM (pregame): Brisbane 3: Moerani Bouzige vs Christopher O'Connell: first seen: 1 vetted on Christopher O'Connell ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 1:16 AM | pregame | Brisbane 3: Moerani Bouzige vs Christopher O'Connell → Christopher O'Connell | Flaznorp $70 | $0 | 88¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Nuggets vs. Rockets · starts Tue Nov 10, 1:30 AM
-
-- Tue Nov 10, 1:16 AM (pregame): Nuggets vs. Rockets: O/U 220.5: first seen: 1 vetted on Under ($71), fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Nuggets (-1.5): first seen: 1 vetted on Rockets ($110), fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-10.5): first seen: 1 vetted on Rockets ($116), fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Nuggets (-3.5): first seen: 1 vetted on Rockets ($218), fails: only 1 vetted wallet with $218 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-24.5): first seen: 1 vetted on Nuggets ($2.1k), fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-22.5): first seen: 1 vetted on Nuggets ($2.4k), fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Nuggets vs. Rockets: first seen: 1 vetted on Rockets ($3.8k), fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Nuggets vs. Rockets: O/U 216.5: first seen: 1 vetted on Under ($148), fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-6.5): first seen: 1 vetted on Rockets ($634), fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-8.5): first seen: 1 vetted on Nuggets ($2.9k), fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+)
-- Tue Nov 10, 1:16 AM (pregame): Spread: Rockets (-9.5): first seen: 1 vetted on Rockets ($290), fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+)
-- Mon Nov 9, 11:12 PM (hourly): Spread: Rockets (-3.5): Kalshi matched at 54¢
-- Mon Nov 9, 9:13 PM (hourly): Spread: Rockets (-3.5): monkeymashingkeyboard added $2.2k on Rockets
-- Mon Nov 9, 8:12 PM (hourly): Spread: Rockets (-3.5): first seen: 1 vetted on Rockets ($73), fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+)
-- Mon Nov 9, 8:12 PM (hourly): Nuggets vs. Rockets: O/U 218.5: Kalshi 55¢ → 62¢
-- Mon Nov 9, 7:11 PM (hourly): Nuggets vs. Rockets: O/U 218.5: Kalshi 54¢ → 55¢
-- Mon Nov 9, 6:11 PM (hourly): Nuggets vs. Rockets: O/U 218.5: Kalshi 53¢ → 54¢
-- Mon Nov 9, 4:13 PM (hourly): Nuggets vs. Rockets: O/U 218.5: Kalshi matched at 53¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 1:16 AM | pregame | Nuggets vs. Rockets: O/U 220.5 → Under | Flaznorp $71 | $0 | 44¢ NO | fails: only 1 vetted wallet with $71 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Nuggets (-1.5) → Rockets | Flaznorp $110 | $0 | 66¢ NO | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-10.5) → Rockets | Flaznorp $116 | $0 | 31¢ YES | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Nuggets (-3.5) → Rockets | Flaznorp $218 | $0 | 71¢ NO | fails: only 1 vetted wallet with $218 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-24.5) → Nuggets | Flaznorp $2.1k | $0 | 94¢ NO | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-22.5) → Nuggets | Flaznorp $2.4k | $0 | 93¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Nuggets vs. Rockets → Rockets | Flaznorp $3.8k | $0 | 64¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $488 | $74 | 62¢ YES | fails: only 1 vetted wallet with $488 (needs 3+ wallets, or 2 with $5.0k+); opposition 15%; Kalshi 62c vs leaders 53c |
-| Tue Nov 10, 1:16 AM | pregame | Nuggets vs. Rockets: O/U 216.5 → Under | Flaznorp $148 | $0 | 34¢ NO | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-6.5) → Rockets | Flaznorp $634 | $0 | 44¢ YES | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-8.5) → Nuggets | Flaznorp $2.9k | $0 | 62¢ NO | fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $2.4k | $155 | 56¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 53c |
-| Tue Nov 10, 1:16 AM | pregame | Spread: Rockets (-9.5) → Rockets | Flaznorp $290 | $0 | 35¢ YES | fails: only 1 vetted wallet with $290 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 12:17 AM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $492 | $0 | — | fails: only 1 vetted wallet with $492 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Tue Nov 10, 12:17 AM | hourly | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 9, 11:12 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $477 | $0 | 62¢ YES | fails: only 1 vetted wallet with $477 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 53c |
-| Mon Nov 9, 11:12 PM | hourly | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $2.3k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 10:16 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $484 | $0 | — | fails: only 1 vetted wallet with $484 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Mon Nov 9, 10:16 PM | hourly | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 9, 9:13 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $484 | $0 | — | fails: only 1 vetted wallet with $484 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Mon Nov 9, 9:13 PM | hourly | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $2.3k | $0 | — | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 9, 8:12 PM | hourly | Spread: Rockets (-3.5) → Rockets | monkeymashingkeyboard $73 | $0 | 54¢ YES | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 8:12 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $473 | $0 | 62¢ YES | fails: only 1 vetted wallet with $473 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 53c |
-| Mon Nov 9, 7:11 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $426 | $0 | 55¢ YES | fails: only 1 vetted wallet with $426 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 6:11 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $410 | $0 | 54¢ YES | fails: only 1 vetted wallet with $410 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 5:21 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $410 | $0 | 53¢ YES | fails: only 1 vetted wallet with $410 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 4:13 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $410 | $0 | 53¢ YES | fails: only 1 vetted wallet with $410 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 9, 3:18 PM | hourly | Nuggets vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $418 | $0 | — | fails: only 1 vetted wallet with $418 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
 ### Islanders vs. Sharks · starts Tue Nov 10, 3:00 AM
 
 - Tue Nov 10, 1:16 AM (hourly): Spread: Sharks (-1.5): first seen: 1 vetted on Islanders ($111), fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+)
@@ -8376,22 +8316,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Tue Nov 10, 2:13 AM | pregame | Spread: Sharks (-1.5) → Islanders | Flaznorp $111 | $0 | — | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Tue Nov 10, 1:16 AM | hourly | Spread: Sharks (-1.5) → Islanders | Flaznorp $111 | $0 | 77¢ NO | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Brisbane 3: Matthew Dellavedova vs Thomas Fancutt · starts Tue Nov 10, 1:30 AM
-
-- Tue Nov 10, 1:16 AM (pregame): Brisbane 3: Matthew Dellavedova vs Thomas Fancutt: first seen: 1 vetted on Matthew Dellavedova ($199), fails: only 1 vetted wallet with $199 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 1:16 AM | pregame | Brisbane 3: Matthew Dellavedova vs Thomas Fancutt → Matthew Dellavedova | Flaznorp $199 | $0 | 81¢ YES | fails: only 1 vetted wallet with $199 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Illinois State Redbirds vs. Purdue Boilermakers · starts Tue Nov 10, 1:30 AM
-
-- Tue Nov 10, 1:16 AM (pregame): Illinois State Redbirds vs. Purdue Boilermakers: O/U 144.5: first seen: 1 vetted on Over ($42), fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 1:16 AM | pregame | Illinois State Redbirds vs. Purdue Boilermakers: O/U 144.5 → Over | Flaznorp $42 | $0 | 49¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
 
 
 ## Time-out
