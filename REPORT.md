@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 12, 8:23 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
+Updated Thu Nov 12, 8:38 PM. Bankroll **$62.31** (start $100): $52.02 cash + open trades at cost.
 
 Record: 55 won, 42 lost, 9 sold early. Realized P&L $-37.69. Open: 1.
 
@@ -11012,24 +11012,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 3:18 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $142 | $0 | 46¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 10, 2:18 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $143 | $0 | — | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 1:21 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $137 | $0 | — | fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Envigado FC vs. Boca Juniors de Cali · starts Tue Nov 10, 8:30 PM
-
-- Tue Nov 10, 3:18 PM (hourly): Will Envigado FC vs. Boca Juniors de Cali end in a draw?: all vetted wallets left Yes
-- Tue Nov 10, 8:12 AM (hourly): Will Envigado FC win on 2026-11-10?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 3:18 PM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 11:14 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 10:11 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 9:13 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 8:12 AM | hourly | Will Envigado FC win on 2026-11-10? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 8:12 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 7:13 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 6:14 AM | hourly | Will Envigado FC vs. Boca Juniors de Cali end in a draw? → Yes | Flaznorp $38 | $0 | — | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 6:14 AM | hourly | Will Envigado FC win on 2026-11-10? → Yes | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 5:14 AM | hourly | Will Envigado FC win on 2026-11-10? → Yes | Flaznorp $88 | $0 | — | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Mercer Bears vs. Georgia Southern Eagles · starts Wed Nov 11, 12:00 AM
 
