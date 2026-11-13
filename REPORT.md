@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 2:38 AM. Bankroll **$82.93** (start $100): $72.69 cash + open trades at cost.
+Updated Fri Nov 13, 2:54 AM. Bankroll **$82.93** (start $100): $72.69 cash + open trades at cost.
 
 Record: 57 won, 42 lost, 10 sold early. Realized P&L $-17.07. Open: 1.
 
@@ -209,6 +209,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Islanders vs. Kings · starts Fri Nov 13, 3:00 AM
 
+- Fri Nov 13, 2:54 AM (verify): Islanders vs. Kings: 15-min check: still passes (2 wallets, $15.4k for vs $0 against); holding
 - Fri Nov 13, 2:16 AM (pregame): Islanders vs. Kings: now passes
 - Fri Nov 13, 2:16 AM (pregame): Islanders vs. Kings: monkeymashingkeyboard joined Islanders (+$1.5k)
 - Thu Nov 12, 9:17 PM (hourly): Islanders vs. Kings: Kalshi 46¢ → 47¢
