@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 4:23 AM. Bankroll **$82.93** (start $100): $72.69 cash + open trades at cost.
+Updated Fri Nov 13, 4:38 AM. Bankroll **$82.93** (start $100): $72.69 cash + open trades at cost.
 
 Record: 57 won, 42 lost, 10 sold early. Realized P&L $-17.07. Open: 1.
 
@@ -10509,23 +10509,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 5:11 AM | hourly | W15 Monastir: Ariadna Garcia-Patron Canals vs Yui Watanabe → Yui Watanabe | Flaznorp $97 | $0 | 73¢ YES | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 4:12 AM | hourly | W15 Monastir: Ariadna Garcia-Patron Canals vs Yui Watanabe → Yui Watanabe | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 11, 3:13 AM | hourly | W15 Monastir: Ariadna Garcia-Patron Canals vs Yui Watanabe → Yui Watanabe | Flaznorp $97 | $0 | — | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Brisbane 3: August Holmgren vs Christopher O'Connell · starts Wed Nov 11, 4:30 AM
-
-- Wed Nov 11, 1:22 AM (hourly): Brisbane 3: August Holmgren vs Christopher O'Connell: Kalshi matched at 39¢
-- Tue Nov 10, 10:18 PM (hourly): Brisbane 3: August Holmgren vs Christopher O'Connell: Kalshi 39¢ → 38¢
-- Tue Nov 10, 9:16 PM (hourly): Brisbane 3: August Holmgren vs Christopher O'Connell: first seen: 1 vetted on August Holmgren ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 11, 4:12 AM | pregame | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $165 | $0 | — | fails: only 1 vetted wallet with $165 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 3:13 AM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 2:11 AM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $12 | $0 | 39¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 1:22 AM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $12 | $0 | 39¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 12:13 AM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 11:12 PM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 10:18 PM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 9:16 PM | hourly | Brisbane 3: August Holmgren vs Christopher O'Connell → August Holmgren | Flaznorp $11 | $0 | 39¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Monastir: Kilian Feldbausch vs Tiago Pereira · starts Wed Nov 11, 12:00 PM
 
