@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 1:22 AM. Bankroll **$73.28** (start $100): $62.93 cash + open trades at cost.
+Updated Fri Nov 13, 1:38 AM. Bankroll **$73.28** (start $100): $62.93 cash + open trades at cost.
 
 Record: 56 won, 42 lost, 10 sold early. Realized P&L $-26.72. Open: 1.
 
@@ -11040,14 +11040,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 1:22 AM | pregame | San Diego Toreros vs. Colorado Buffaloes → San Diego Toreros | Flaznorp $43 | $0 | 12¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 12:13 AM | hourly | San Diego Toreros vs. Colorado Buffaloes → San Diego Toreros | Flaznorp $43 | $0 | 12¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Southeastern Louisiana Lions vs. Ole Miss Rebels · starts Wed Nov 11, 1:30 AM
-
-- Wed Nov 11, 1:22 AM (pregame): Southeastern Louisiana Lions vs. Ole Miss Rebels: O/U 146.5: first seen: 1 vetted on Under ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 11, 1:22 AM | pregame | Southeastern Louisiana Lions vs. Ole Miss Rebels: O/U 146.5 → Under | Flaznorp $47 | $0 | 50¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Hofstra Pride vs. Arizona State Sun Devils · starts Wed Nov 11, 2:00 AM
 
 - Wed Nov 11, 1:22 AM (pregame): Spread: Arizona State Sun Devils (-18.5): Kalshi matched at 50¢
@@ -11145,18 +11137,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 1:21 PM | hourly | Will Vietnam win on 2026-11-11? → No | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 12:16 PM | hourly | Will Vietnam vs. Chinese Taipei end in a draw? → Yes | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Tue Nov 10, 12:16 PM | hourly | Will Vietnam win on 2026-11-11? → No | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Brisbane 3: Bernard Tomic vs Omar Jasika · starts Wed Nov 11, 1:30 AM
-
-- Tue Nov 10, 5:17 PM (hourly): Brisbane 3: Bernard Tomic vs Omar Jasika: all vetted wallets left Omar Jasika
-- Tue Nov 10, 3:18 PM (hourly): Brisbane 3: Bernard Tomic vs Omar Jasika: Kalshi matched at 46¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 10, 5:17 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | none | $0 | — | fails: no vetted wallets hold it now |
-| Tue Nov 10, 3:18 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $142 | $0 | 46¢ YES | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 10, 2:18 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $143 | $0 | — | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 10, 1:21 PM | hourly | Brisbane 3: Bernard Tomic vs Omar Jasika → Omar Jasika | Flaznorp $137 | $0 | — | fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Montana Grizzlies vs. San Francisco Dons · starts Wed Nov 11, 3:00 AM
 
