@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13T21:14:07Z",
+  "updated": "2026-11-13T22:15:11Z",
   "games": [
     {
       "event_slug": "cfb-flst-pitt-2026-11-13",
       "game": "Florida State vs. Pittsburgh",
       "start": "2026-11-14T00:00:00Z",
       "check_at": "2026-11-13T23:45:00Z",
-      "passing": 1,
-      "near": 0,
-      "best": "Florida State vs. Pittsburgh → Florida State ($5.7k, 3 wallets)",
-      "status": "passes"
+      "passing": 0,
+      "near": 1,
+      "best": "Florida State vs. Pittsburgh → Florida State ($4.9k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $4.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mil-orl-2026-11-13",
@@ -22,24 +22,24 @@
       "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-nyk-ind-2026-11-13",
-      "game": "Knicks vs. Pacers",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
+      "event_slug": "nba-cle-mia-2026-11-13",
+      "game": "Cavaliers vs. Heat",
+      "start": "2026-11-14T01:00:00Z",
+      "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Knicks (-6.5) → Pacers ($19.9k, 2 wallets)",
-      "status": "fails: no Kalshi spread market"
+      "best": "Cavaliers vs. Heat → Cavaliers ($44, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cbb-semst-mtnst-2026-11-13",
-      "game": "Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders",
-      "start": "2026-11-14T00:30:00Z",
-      "check_at": "2026-11-14T00:15:00Z",
+      "event_slug": "nba-atl-chi-2026-11-13",
+      "game": "Hawks vs. Bulls",
+      "start": "2026-11-14T01:00:00Z",
+      "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks ($330, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hawks vs. Bulls → Hawks ($35, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mem-nop-2026-11-13",
@@ -47,9 +47,19 @@
       "start": "2026-11-14T01:00:00Z",
       "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Grizzlies vs. Pelicans → Pelicans ($26.5k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $26.5k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-ill-ucla-2026-11-13",
+      "game": "Illinois vs. UCLA",
+      "start": "2026-11-14T02:00:00Z",
+      "check_at": "2026-11-14T01:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Illinois vs. UCLA → UCLA ($2.8k, 2 wallets)",
+      "status": "fails: only 2 vetted wallets with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-arz-aubrn-2026-11-13",
@@ -62,26 +72,6 @@
       "status": "fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-ill-ucla-2026-11-13",
-      "game": "Illinois vs. UCLA",
-      "start": "2026-11-14T02:00:00Z",
-      "check_at": "2026-11-14T01:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Illinois vs. UCLA → UCLA ($2.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-gsw-sas-2026-11-13",
-      "game": "Warriors vs. Spurs",
-      "start": "2026-11-14T02:30:00Z",
-      "check_at": "2026-11-14T02:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Warriors vs. Spurs → Warriors ($67, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nba-por-sac-2026-11-13",
       "game": "Trail Blazers vs. Kings",
       "start": "2026-11-14T03:00:00Z",
@@ -92,74 +82,14 @@
       "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-hou-col-2026-11-13",
-      "game": "Houston vs. Colorado",
-      "start": "2026-11-14T03:15:00Z",
-      "check_at": "2026-11-14T03:00:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Houston vs. Colorado → Colorado ($19, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nba-okc-lac-2026-11-13",
       "game": "Thunder vs. Clippers",
       "start": "2026-11-14T03:30:00Z",
       "check_at": "2026-11-14T03:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Thunder vs. Clippers → Clippers ($703, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $703 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "el1-swe-ply-2026-11-14",
-      "game": "Sheffield Wednesday FC vs. Plymouth Argyle FC",
-      "start": "2026-11-14T15:00:00Z",
-      "check_at": "2026-11-14T14:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Sheffield Wednesday FC vs. Plymouth Argyle FC end in a draw? → No ($253, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "el1-sto-rea-2026-11-14",
-      "game": "Stockport County FC vs. Reading FC",
-      "start": "2026-11-14T15:00:00Z",
-      "check_at": "2026-11-14T14:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Stockport County FC win on 2026-11-14? → No ($113, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "el1-mkd-bur-2026-11-14",
-      "game": "Milton Keynes Dons FC vs. Burton Albion FC",
-      "start": "2026-11-14T15:00:00Z",
-      "check_at": "2026-11-14T14:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Burton Albion FC win on 2026-11-14? → No ($86, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $86 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "el1-wim-bla-2026-11-14",
-      "game": "AFC Wimbledon vs. Blackpool FC",
-      "start": "2026-11-14T15:00:00Z",
-      "check_at": "2026-11-14T14:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will AFC Wimbledon win on 2026-11-14? → No ($64, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-cin-iowast-2026-11-14",
-      "game": "Cincinnati vs. Iowa State",
-      "start": "2026-11-14T17:00:00Z",
-      "check_at": "2026-11-14T16:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Cincinnati vs. Iowa State → Cincinnati ($50, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Thunder vs. Clippers → Clippers ($10, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
