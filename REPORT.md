@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 7:18 PM. Bankroll **$93.69** (start $100): $73.23 cash + open trades at cost.
+Updated Fri Nov 13, 7:38 PM. Bankroll **$93.69** (start $100): $73.23 cash + open trades at cost.
 
 Record: 58 won, 42 lost, 10 sold early. Realized P&L $-6.31. Open: 2.
 
@@ -1424,6 +1424,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Luxembourg vs. Estonia · starts Fri Nov 13, 7:45 PM
 
+- Fri Nov 13, 7:38 PM (verify): Will Luxembourg win on 2026-11-13?: 15-min check: still passes (2 wallets, $10.4k for vs $0 against); holding
 - Fri Nov 13, 7:18 PM (pregame): Will Luxembourg vs. Estonia end in a draw?: Kalshi matched at 32¢
 - Fri Nov 13, 7:18 PM (pregame): Will Estonia win on 2026-11-13?: Kalshi matched at 70¢
 - Fri Nov 13, 7:18 PM (pregame): Will Luxembourg win on 2026-11-13?: now passes
@@ -1461,6 +1462,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Netherlands vs. Greece - More Markets · starts Fri Nov 13, 7:45 PM
 
+- Fri Nov 13, 7:38 PM (verify): Netherlands vs. Greece: O/U 3.5: 15-min check: still passes (2 wallets, $21.2k for vs $0 against); holding
 - Fri Nov 13, 7:18 PM (pregame): Netherlands vs. Greece: O/U 5.5: Kalshi matched at 12¢
 - Fri Nov 13, 7:18 PM (pregame): Spread: Greece (-1.5): Kalshi matched at 6¢
 - Fri Nov 13, 7:18 PM (pregame): Netherlands vs. Greece: O/U 4.5: Kalshi matched at 24¢
