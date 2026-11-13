@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 6:17 AM. Bankroll **$82.93** (start $100): $72.69 cash + open trades at cost.
+Updated Fri Nov 13, 6:22 AM. Bankroll **$93.69** (start $100): $93.69 cash + open trades at cost.
 
-Record: 57 won, 42 lost, 10 sold early. Realized P&L $-17.07. Open: 1.
+Record: 58 won, 42 lost, 10 sold early. Realized P&L $-6.31. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 2:16 AM | [Islanders vs. Kings](https://polymarket.com/event/nhl-nyi-lak-2026-11-12) | Islanders vs. Kings → Islanders | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($10,071) | 21 × 47¢ YES `KXNHLGAME-26NOV12NYILA-NYI` | open |  |
+| Fri Nov 13, 2:16 AM | [Islanders vs. Kings](https://polymarket.com/event/nhl-nyi-lak-2026-11-12) | Islanders vs. Kings → Islanders | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($10,071) | 21 × 47¢ YES `KXNHLGAME-26NOV12NYILA-NYI` | won | $+10.76 |
 | Fri Nov 13, 12:18 AM | [Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | Spread: Giants (-2.5) → Giants | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) ($11,893) | 21 × 47¢ YES `KXNFLSPREAD-26NOV12WASNYG-NYG3` | sold | $-0.74 |
 | Thu Nov 12, 11:12 PM | [Raptors vs. 76ers](https://polymarket.com/event/nba-tor-phi-2026-11-12) | Raptors vs. 76ers: O/U 224.5 → Over | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($24,848) | 20 × 50¢ YES `KXNBATOTAL-26NOV12TORPHI-225` | won | $+9.65 |
 | Thu Nov 12, 7:13 PM | [England vs. Croatia - More Markets](https://polymarket.com/event/unl-eng-hrv-2026-11-12-more-markets) | Spread: England (-1.5) → Croatia | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($14,320) | 22 × 45¢ NO `KXUEFANLSPREAD-26NOV12ENGCRO-ENG2` | won | $+11.71 |
