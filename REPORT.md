@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Fri Nov 13, 7:38 PM. Bankroll **$93.69** (start $100): $73.23 cash + open trades at cost.
+Updated Fri Nov 13, 7:53 PM. Bankroll **$93.69** (start $100): $73.23 cash + open trades at cost.
 
 Record: 58 won, 42 lost, 10 sold early. Realized P&L $-6.31. Open: 2.
 
@@ -12820,19 +12820,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 10, 9:16 PM | hourly | Spread: OL Lyonnes (-2.5) → OL Lyonnes | Flaznorp $18 | $0 | 55¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 55c vs leaders 50c |
 | Tue Nov 10, 9:16 PM | hourly | Spread: OL Lyonnes (-1.5) → OL Lyonnes | Flaznorp $73 | $0 | 74¢ YES | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 74c vs leaders 71c |
 
-### Paris Basketball vs. Fenerbahce · starts Wed Nov 11, 7:45 PM
-
-- Wed Nov 11, 6:12 PM (hourly): Spread: Fenerbahce (-6.5): Kalshi matched at 46¢
-- Wed Nov 11, 3:16 PM (hourly): Spread: Fenerbahce (-6.5): first seen: 1 vetted on Fenerbahce ($130), fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 11, 7:17 PM | pregame | Spread: Fenerbahce (-6.5) → Fenerbahce | Flaznorp $133 | $0 | 46¢ YES | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:12 PM | hourly | Spread: Fenerbahce (-6.5) → Fenerbahce | Flaznorp $133 | $0 | 46¢ YES | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 5:16 PM | hourly | Spread: Fenerbahce (-6.5) → Fenerbahce | Flaznorp $133 | $0 | — | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Wed Nov 11, 4:19 PM | hourly | Spread: Fenerbahce (-6.5) → Fenerbahce | Flaznorp $133 | $0 | 46¢ YES | fails: only 1 vetted wallet with $133 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | Spread: Fenerbahce (-6.5) → Fenerbahce | Flaznorp $130 | $0 | 46¢ YES | fails: only 1 vetted wallet with $130 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Juventus FC vs. OL Lyonnes · starts Wed Nov 11, 8:00 PM
 
 - Wed Nov 11, 7:17 PM (pregame): Will Juventus FC win on 2026-11-11?: Kalshi 92¢ → 93¢
@@ -12976,16 +12963,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 5:16 PM | hourly | Saint Joseph's Hawks vs. South Florida Bulls: O/U 151.5 → Under | Flaznorp $211 | $0 | 58¢ NO | fails: only 1 vetted wallet with $211 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 54c |
 | Wed Nov 11, 4:19 PM | hourly | Saint Joseph's Hawks vs. South Florida Bulls: O/U 151.5 → Under | Flaznorp $207 | $0 | 58¢ NO | fails: only 1 vetted wallet with $207 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 54c |
 | Wed Nov 11, 3:16 PM | hourly | Saint Joseph's Hawks vs. South Florida Bulls: O/U 151.5 → Under | Flaznorp $209 | $0 | 58¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 54c |
-
-### Partizan vs. Kosner Baskonia · starts Wed Nov 11, 7:45 PM
-
-- Wed Nov 11, 7:17 PM (pregame): Partizan vs. Kosner Baskonia: Kalshi 78¢ → 79¢
-- Wed Nov 11, 6:12 PM (hourly): Partizan vs. Kosner Baskonia: first seen: 1 vetted on Partizan ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 11, 7:17 PM | pregame | Partizan vs. Kosner Baskonia → Partizan | Flaznorp $152 | $0 | 79¢ YES | fails: only 1 vetted wallet with $152 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:12 PM | hourly | Partizan vs. Kosner Baskonia → Partizan | Flaznorp $25 | $0 | 78¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Jacksonville State Gamecocks vs. Houston Cougars · starts Thu Nov 12, 1:00 AM
 
