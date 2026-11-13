@@ -1,35 +1,25 @@
 {
-  "updated": "2026-11-13T02:16:43Z",
+  "updated": "2026-11-13T03:10:47Z",
   "games": [
-    {
-      "event_slug": "atp-noguchi-daniel-2026-11-12",
-      "game": "Matsuyama: Rio Noguchi vs Taro Daniel",
-      "start": "2026-11-13T02:10:00Z",
-      "check_at": "2026-11-13T01:55:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Matsuyama: Rio Noguchi vs Taro Daniel → Rio Noguchi ($50, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "atp-sweeny-shang-2026-11-12",
       "game": "Brisbane 3: Dane Sweeny vs Juncheng Shang",
-      "start": "2026-11-13T02:30:00Z",
-      "check_at": "2026-11-13T02:15:00Z",
+      "start": "2026-11-13T03:30:00Z",
+      "check_at": "2026-11-13T03:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Brisbane 3: Dane Sweeny vs Juncheng Shang → Dane Sweeny ($189, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $189 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Brisbane 3: Dane Sweeny vs Juncheng Shang → Dane Sweeny ($195, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $195 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nhl-nyi-lak-2026-11-12",
-      "game": "Islanders vs. Kings",
-      "start": "2026-11-13T03:00:00Z",
-      "check_at": "2026-11-13T02:45:00Z",
-      "passing": 1,
+      "event_slug": "atp-uchida-harris-2026-11-12",
+      "game": "Matsuyama: Kaichi Uchida vs Billy Harris",
+      "start": "2026-11-13T03:30:00Z",
+      "check_at": "2026-11-13T03:15:00Z",
+      "passing": 0,
       "near": 1,
-      "best": "Islanders vs. Kings → Islanders ($10.1k, 2 wallets)",
-      "status": "passes"
+      "best": "Matsuyama: Kaichi Uchida vs Billy Harris → Kaichi Uchida ($28, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bknbl-cai-syd-2026-11-13",
@@ -38,8 +28,8 @@
       "check_at": "2026-11-13T08:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Cairns Taipans vs. Sydney Kings → Sydney Kings ($270, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cairns Taipans vs. Sydney Kings → Sydney Kings ($266, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "bkkbl-won-son-2026-11-13",
@@ -68,8 +58,8 @@
       "check_at": "2026-11-13T11:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Will Paraguay win on 2026-11-13? → No ($118, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Paraguay win on 2026-11-13? → No ($120, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "fif-sin-par-2026-11-13-halftime-result",
@@ -208,8 +198,8 @@
       "check_at": "2026-11-13T19:30:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Will Switzerland win on 2026-11-13? → No ($632, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $632 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Switzerland win on 2026-11-13? → No ($686, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $686 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-lie-aze-2026-11-13",
@@ -238,8 +228,8 @@
       "check_at": "2026-11-13T19:30:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Will Germany win on 2026-11-13? → No ($322, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $322 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Germany win on 2026-11-13? → No ($336, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $336 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-bul-isl-2026-11-13",
@@ -382,6 +372,26 @@
       "status": "fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "conl-grn-skn-2026-11-13-more-markets",
+      "game": "Grenada vs. St. Kitts and Nevis - More Markets",
+      "start": "2026-11-13T20:00:00Z",
+      "check_at": "2026-11-13T19:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: St. Kitts and Nevis (-2.5) → St. Kitts and Nevis ($11, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "fif-arg-ury-2026-11-13-more-markets",
+      "game": "Argentina vs. Uruguay - More Markets",
+      "start": "2026-11-13T23:00:00Z",
+      "check_at": "2026-11-13T22:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Argentina vs. Uruguay: O/U 2.5 → Over ($10, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "fif-col-chl-2026-11-13-more-markets",
       "game": "Colombia vs. Chile - More Markets",
       "start": "2026-11-14T00:00:00Z",
@@ -437,9 +447,9 @@
       "start": "2026-11-14T01:30:00Z",
       "check_at": "2026-11-14T01:15:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Jazz vs. Rockets: O/U 218.5 → Over ($267, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Jazz vs. Rockets: O/U 218.5 → Over ($270, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "conl-gua-can-2026-11-13",
