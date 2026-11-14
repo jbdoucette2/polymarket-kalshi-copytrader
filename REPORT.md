@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 5:22 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
+Updated Sat Nov 14, 5:38 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
 
 Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
@@ -13857,19 +13857,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 9:14 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 11, 8:13 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 11, 7:17 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Brisbane 3: Cruz Hewitt vs Akira Santillan · starts Thu Nov 12, 5:30 AM
-
-- Thu Nov 12, 12:17 AM (hourly): Brisbane 3: Cruz Hewitt vs Akira Santillan: all vetted wallets left Akira Santillan
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 12:17 AM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 11:17 PM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | Flaznorp $142 | $0 | — | fails: only 1 vetted wallet with $142 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 10:14 PM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | Flaznorp $146 | $0 | — | fails: only 1 vetted wallet with $146 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | Flaznorp $125 | $0 | — | fails: only 1 vetted wallet with $125 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 8:13 PM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | Flaznorp $128 | $0 | — | fails: only 1 vetted wallet with $128 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 7:17 PM | hourly | Brisbane 3: Cruz Hewitt vs Akira Santillan → Akira Santillan | Flaznorp $117 | $0 | — | fails: only 1 vetted wallet with $117 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### WTA Finals, Group A: Marta Kostyuk vs Coco Gauff · starts Thu Nov 12, 8:00 PM
 
