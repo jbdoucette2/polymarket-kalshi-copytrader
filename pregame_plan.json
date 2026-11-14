@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T04:10:34Z",
+  "updated": "2026-11-14T05:10:30Z",
   "games": [
     {
       "event_slug": "atp-fritz-tirante-2026-11-14",
@@ -12,14 +12,14 @@
       "status": "fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-aubrn-mspst-2026-11-14",
-      "game": "Auburn vs. Mississippi State",
+      "event_slug": "cfb-syra-ncst-2026-11-14",
+      "game": "Syracuse vs. NC State",
       "start": "2026-11-14T17:00:00Z",
       "check_at": "2026-11-14T16:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Spread: Auburn (-4.5) → Auburn ($282, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Syracuse vs. NC State → Syracuse ($4.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-nw-ohiost-2026-11-14",
@@ -102,6 +102,16 @@
       "status": "fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cfb-kan-wvir-2026-11-14",
+      "game": "Kansas vs. West Virginia",
+      "start": "2026-11-14T20:30:00Z",
+      "check_at": "2026-11-14T20:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Kansas vs. West Virginia: O/U 69.5 → Over ($21, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "cfb-gas-gast-2026-11-14",
       "game": "Georgia Southern vs. Georgia State",
       "start": "2026-11-14T20:30:00Z",
@@ -112,14 +122,24 @@
       "status": "fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-kan-wvir-2026-11-14",
-      "game": "Kansas vs. West Virginia",
-      "start": "2026-11-14T22:30:00Z",
-      "check_at": "2026-11-14T22:15:00Z",
+      "event_slug": "cfb-aubrn-mspst-2026-11-14",
+      "game": "Auburn vs. Mississippi State",
+      "start": "2026-11-14T21:15:00Z",
+      "check_at": "2026-11-14T21:00:00Z",
+      "passing": 0,
+      "near": 3,
+      "best": "Spread: Auburn (-4.5) → Auburn ($282, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "wta-noskova-svitoli-2026-11-14",
+      "game": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina",
+      "start": "2026-11-14T21:30:00Z",
+      "check_at": "2026-11-14T21:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Kansas vs. West Virginia: O/U 69.5 → Over ($21, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova ($518, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-applst-marsh-2026-11-14",
