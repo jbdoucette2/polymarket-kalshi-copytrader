@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-14T08:11:35Z",
+  "updated": "2026-11-14T09:12:58Z",
   "games": [
+    {
+      "event_slug": "fif-jpn-bra-2026-11-14-more-markets",
+      "game": "Japan vs. Brazil - More Markets",
+      "start": "2026-11-14T10:15:00Z",
+      "check_at": "2026-11-14T10:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Japan vs. Brazil: O/U 3.5 → Under ($2.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cs2-furia-fal2-2026-11-14",
       "game": "Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs",
@@ -18,8 +28,8 @@
       "check_at": "2026-11-14T11:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz ($1.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz ($10.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-geo-hun-2026-11-14-more-markets",
@@ -28,8 +38,8 @@
       "check_at": "2026-11-14T16:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Georgia vs. Hungary: O/U 2.5 → Under ($10.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Georgia vs. Hungary: O/U 2.5 → Under ($14.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $14.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-syra-ncst-2026-11-14",
@@ -108,8 +118,8 @@
       "check_at": "2026-11-14T17:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Kraken vs. Hurricanes → Hurricanes ($33.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Kraken vs. Hurricanes → Hurricanes ($33.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $33.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ecar-charlt-2026-11-14",
@@ -128,8 +138,8 @@
       "check_at": "2026-11-14T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "UAB vs. Temple: O/U 51.5 → Under ($714, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "UAB vs. Temple: O/U 51.5 → Under ($702, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $702 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lol-blg-gen-2026-11-14",
@@ -140,6 +150,16 @@
       "near": 1,
       "best": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G ($93.8k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $93.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-prt-den-2026-11-14-more-markets",
+      "game": "Portugal vs. Denmark - More Markets",
+      "start": "2026-11-14T19:45:00Z",
+      "check_at": "2026-11-14T19:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Portugal (-1.5) → Denmark ($3.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-nevada-nill-2026-11-14",
@@ -178,8 +198,8 @@
       "check_at": "2026-11-14T21:00:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spread: Auburn (-4.5) → Auburn ($282, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Auburn (-4.5) → Auburn ($275, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $275 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-noskova-svitoli-2026-11-14",
