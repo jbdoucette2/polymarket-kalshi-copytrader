@@ -1,76 +1,6 @@
 {
-  "updated": "2026-11-14T17:12:11Z",
+  "updated": "2026-11-14T18:13:49Z",
   "games": [
-    {
-      "event_slug": "cfb-nebr-rutger-2026-11-14",
-      "game": "Nebraska vs. Rutgers",
-      "start": "2026-11-14T17:30:00Z",
-      "check_at": "2026-11-14T17:15:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Nebraska vs. Rutgers: O/U 53.5 → Under ($4.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "es2-rm-cor-2026-11-14-more-markets",
-      "game": "RCD Mallorca vs. Córdoba CF - More Markets",
-      "start": "2026-11-14T17:30:00Z",
-      "check_at": "2026-11-14T17:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "RCD Mallorca vs. Córdoba CF: O/U 3.5 → Under ($150, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-ala-vand-2026-11-14",
-      "game": "Alabama vs. Vanderbilt",
-      "start": "2026-11-14T17:45:00Z",
-      "check_at": "2026-11-14T17:30:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Alabama (-14.5) → Vanderbilt ($25.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $25.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-arkst-coast-2026-11-14",
-      "game": "Arkansas State vs. Coastal Carolina",
-      "start": "2026-11-14T18:00:00Z",
-      "check_at": "2026-11-14T17:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Arkansas State vs. Coastal Carolina → Coastal Carolina ($10.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-uab-templ-2026-11-14",
-      "game": "UAB vs. Temple",
-      "start": "2026-11-14T18:00:00Z",
-      "check_at": "2026-11-14T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "UAB vs. Temple: O/U 49.5 → Under ($737, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $737 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-ecar-charlt-2026-11-14",
-      "game": "East Carolina vs. Charlotte",
-      "start": "2026-11-14T18:00:00Z",
-      "check_at": "2026-11-14T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: East Carolina (-13.5) → East Carolina ($503, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $503 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-sea-car-2026-11-14",
-      "game": "Kraken vs. Hurricanes",
-      "start": "2026-11-14T18:00:00Z",
-      "check_at": "2026-11-14T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Kraken vs. Hurricanes → Hurricanes ($33.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "cfb-kenest-smho-2026-11-14",
       "game": "Kennesaw State vs. Sam Houston",
@@ -117,7 +47,7 @@
       "start": "2026-11-14T19:45:00Z",
       "check_at": "2026-11-14T19:30:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Over ($733, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -138,8 +68,8 @@
       "check_at": "2026-11-14T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Tennessee (-1.5) → Tennessee ($10.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Tennessee (-1.5) → Tennessee ($21.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "wta-pegula-andreev-2026-11-14",
@@ -148,8 +78,8 @@
       "check_at": "2026-11-14T19:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula ($3.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula ($3.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-kan-wvir-2026-11-14",
@@ -158,8 +88,8 @@
       "check_at": "2026-11-14T20:15:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Kansas vs. West Virginia → Kansas ($21.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Kansas vs. West Virginia → Kansas ($22.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $22.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-usc-ind-2026-11-14",
@@ -192,16 +122,6 @@
       "status": "fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-nevada-nill-2026-11-14",
-      "game": "Nevada vs. Northern Illinois",
-      "start": "2026-11-14T20:30:00Z",
-      "check_at": "2026-11-14T20:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Nevada (-6.5) → Northern Illinois ($4.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "cbb-lsu-gnzg-2026-11-14",
       "game": "LSU Tigers vs. Gonzaga Bulldogs",
       "start": "2026-11-14T20:30:00Z",
@@ -230,6 +150,16 @@
       "near": 1,
       "best": "Spread: Georgia (-13.5) → Missouri ($84, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-nevada-nill-2026-11-14",
+      "game": "Nevada vs. Northern Illinois",
+      "start": "2026-11-14T20:30:00Z",
+      "check_at": "2026-11-14T20:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Nevada vs. Northern Illinois → Nevada ($32.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $32.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-mich-ore-2026-11-14",
@@ -318,7 +248,7 @@
       "check_at": "2026-11-14T23:00:00Z",
       "passing": 1,
       "near": 1,
-      "best": "Florida vs. Kentucky → Kentucky ($7.3k, 2 wallets)",
+      "best": "Florida vs. Kentucky → Kentucky ($7.4k, 2 wallets)",
       "status": "passes"
     },
     {
@@ -348,8 +278,8 @@
       "check_at": "2026-11-14T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Wild vs. Bruins → Wild ($9.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wild vs. Bruins → Wild ($9.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-sjst-airf-2026-11-14",
@@ -387,9 +317,9 @@
       "start": "2026-11-15T00:00:00Z",
       "check_at": "2026-11-14T23:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Panthers vs. Blues → Blues ($4.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Spread: Panthers (-1.5) → Blues ($2.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-minnst-pennst-2026-11-14",
@@ -400,6 +330,16 @@
       "near": 1,
       "best": "Minnesota vs. Penn State → Penn State ($150, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-flatl-tulsa-2026-11-14",
+      "game": "Florida Atlantic vs. Tulsa",
+      "start": "2026-11-15T00:15:00Z",
+      "check_at": "2026-11-15T00:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Florida Atlantic vs. Tulsa: O/U 73.5 → Over ($2.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-pur-iowa-2026-11-14",
@@ -458,18 +398,8 @@
       "check_at": "2026-11-15T00:45:00Z",
       "passing": 1,
       "near": 0,
-      "best": "Spread: Timberwolves (-14.5) → Timberwolves ($13.2k, 2 wallets)",
+      "best": "Spread: Timberwolves (-14.5) → Timberwolves ($13.4k, 2 wallets)",
       "status": "passes"
-    },
-    {
-      "event_slug": "nba-det-mia-2026-11-14",
-      "game": "Pistons vs. Heat",
-      "start": "2026-11-15T01:00:00Z",
-      "check_at": "2026-11-15T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Pistons (-4.5) → Pistons ($1.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-bkn-mem-2026-11-14",
@@ -478,8 +408,18 @@
       "check_at": "2026-11-15T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Grizzlies (-3.5) → Nets ($381, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $381 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Grizzlies (-3.5) → Nets ($10.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-det-mia-2026-11-14",
+      "game": "Pistons vs. Heat",
+      "start": "2026-11-15T01:00:00Z",
+      "check_at": "2026-11-15T00:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Pistons (-4.5) → Pistons ($1.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-txtech-okst-2026-11-14",
@@ -488,8 +428,8 @@
       "check_at": "2026-11-15T02:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Texas Tech vs. Oklahoma State: O/U 73.5 → Over ($13.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Texas Tech vs. Oklahoma State: O/U 73.5 → Over ($15.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-utahst-sdst-2026-11-14",
@@ -530,6 +470,36 @@
       "near": 3,
       "best": "Patriots vs. Lions: O/U 50.5 → Under ($23.4k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-min-gb-2026-11-15",
+      "game": "Vikings vs. Packers",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Vikings vs. Packers → Packers ($26.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $26.4k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-kc-atl-2026-11-15",
+      "game": "Chiefs vs. Falcons",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Chiefs (-3.5) → Falcons ($3.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-hou-cle-2026-11-15",
+      "game": "Texans vs. Browns",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Texans vs. Browns: O/U 40.5 → Over ($9.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.9k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
