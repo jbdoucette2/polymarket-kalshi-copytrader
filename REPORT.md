@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 3:23 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
+Updated Sat Nov 14, 3:38 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
 
 Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
@@ -13809,14 +13809,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 12:17 AM | hourly | Spread: USC Trojans (-7.5) → California Golden Bears | Flaznorp $47 | $0 | 47¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 11:17 PM | hourly | Spread: USC Trojans (-7.5) → California Golden Bears | Flaznorp $47 | $0 | 47¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 10:14 PM | hourly | Spread: USC Trojans (-7.5) → California Golden Bears | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Matsuyama: Max Schoenhaus vs Taro Daniel · starts Thu Nov 12, 3:30 AM
-
-- Thu Nov 12, 3:16 AM (pregame): Matsuyama: Max Schoenhaus vs Taro Daniel: first seen: 1 vetted on Max Schoenhaus ($201), fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 3:16 AM | pregame | Matsuyama: Max Schoenhaus vs Taro Daniel → Max Schoenhaus | Flaznorp $201 | $0 | 37¢ YES | fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Brisbane 3: Cruz Hewitt vs Akira Santillan · starts Thu Nov 12, 5:30 AM
 
