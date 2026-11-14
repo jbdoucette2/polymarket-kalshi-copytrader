@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 3:11 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
+Updated Sat Nov 14, 3:23 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
 
 Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
@@ -451,6 +451,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Thunder vs. Clippers · starts Sat Nov 14, 3:30 AM
 
+- Sat Nov 14, 3:23 AM (verify): Spread: Thunder (-7.5): 15-min check: still passes (2 wallets, $10.4k for vs $0 against); holding
 - Sat Nov 14, 3:11 AM (pregame): Spread: Clippers (-1.5): first seen: 1 vetted on Clippers ($118), fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 14, 3:11 AM (pregame): Spread: Thunder (-5.5): first seen: 1 vetted on Clippers ($5.4k), fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 14, 3:11 AM (pregame): Spread: Thunder (-6.5): first seen: 1 vetted on Clippers ($18.7k), fails: only 1 vetted wallet with $18.7k (needs 3+ wallets, or 2 with $5.0k+)
