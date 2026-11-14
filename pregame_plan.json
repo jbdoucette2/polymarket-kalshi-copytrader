@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T12:13:14Z",
+  "updated": "2026-11-14T13:14:12Z",
   "games": [
     {
       "event_slug": "cfb-syra-ncst-2026-11-14",
@@ -12,6 +12,16 @@
       "status": "fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cfb-duke-mia-2026-11-14",
+      "game": "Duke vs. Miami (FL)",
+      "start": "2026-11-14T17:00:00Z",
+      "check_at": "2026-11-14T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Duke vs. Miami (FL) → Miami (FL) ($145, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nhl-sea-car-2026-11-14",
       "game": "Kraken vs. Hurricanes",
       "start": "2026-11-14T18:00:00Z",
@@ -20,6 +30,46 @@
       "near": 1,
       "best": "Kraken vs. Hurricanes → Hurricanes ($33.7k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $33.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-fl-uk-2026-11-14",
+      "game": "Florida vs. Kentucky",
+      "start": "2026-11-14T23:15:00Z",
+      "check_at": "2026-11-14T23:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Florida vs. Kentucky → Kentucky ($932, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $932 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-min-bos-2026-11-14",
+      "game": "Wild vs. Bruins",
+      "start": "2026-11-15T00:00:00Z",
+      "check_at": "2026-11-14T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Wild vs. Bruins → Bruins ($404, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $404 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-flatl-tulsa-2026-11-14",
+      "game": "Florida Atlantic vs. Tulsa",
+      "start": "2026-11-15T00:15:00Z",
+      "check_at": "2026-11-15T00:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Florida Atlantic vs. Tulsa → Tulsa ($6.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-tx-lsu-2026-11-14",
+      "game": "Texas vs. LSU",
+      "start": "2026-11-15T00:30:00Z",
+      "check_at": "2026-11-15T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Texas vs. LSU → LSU ($658, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $658 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
