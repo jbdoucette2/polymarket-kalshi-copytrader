@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 11:23 PM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
+Updated Sat Nov 14, 11:38 PM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
 
 Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 1.
 
@@ -11168,27 +11168,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 11:12 PM | pregame | Llaneros FC vs. Boyacá Chicó FC: O/U 2.5 → Over | Flaznorp $70 | $0 | 50¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 10:14 PM | hourly | Llaneros FC vs. Boyacá Chicó FC: O/U 2.5 → Over | Flaznorp $70 | $0 | 50¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 9:17 PM | hourly | Llaneros FC vs. Boyacá Chicó FC: O/U 2.5 → Over | Flaznorp $70 | $0 | 49¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Tennessee Tech Golden Eagles vs. Indiana Hoosiers · starts Thu Nov 12, 11:30 PM
-
-- Thu Nov 12, 11:12 PM (pregame): Spread: Indiana Hoosiers (-25.5): first seen: 1 vetted on Indiana Hoosiers ($83), fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 4:16 PM (hourly): Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5: Kalshi 47¢ → 48¢
-- Thu Nov 12, 3:17 PM (hourly): Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5: Kalshi 46¢ → 47¢
-- Thu Nov 12, 2:20 PM (hourly): Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5: first seen: 1 vetted on Under ($48), fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 11:12 PM | pregame | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $59 | $0 | 52¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 52c vs leaders 45c |
-| Thu Nov 12, 11:12 PM | pregame | Spread: Indiana Hoosiers (-25.5) → Indiana Hoosiers | Flaznorp $83 | $0 | 48¢ YES | fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $59 | $0 | 53¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 45c |
-| Thu Nov 12, 9:17 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $59 | $0 | 53¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 45c |
-| Thu Nov 12, 8:15 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $59 | $0 | 53¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 45c |
-| Thu Nov 12, 7:13 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $59 | $0 | 53¢ NO | fails: only 1 vetted wallet with $59 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 45c |
-| Thu Nov 12, 6:13 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $58 | $0 | 53¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 45c |
-| Thu Nov 12, 5:15 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Thu Nov 12, 4:16 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $52 | $0 | 48¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:17 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $52 | $0 | 47¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:20 PM | hourly | Tennessee Tech Golden Eagles vs. Indiana Hoosiers: O/U 168.5 → Under | Flaznorp $48 | $0 | 46¢ NO | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Pistons vs. Wizards · starts Fri Nov 13, 12:00 AM
 
