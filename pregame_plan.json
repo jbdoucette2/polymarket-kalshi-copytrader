@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T09:12:58Z",
+  "updated": "2026-11-14T10:13:08Z",
   "games": [
     {
       "event_slug": "fif-jpn-bra-2026-11-14-more-markets",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-14T10:00:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Japan vs. Brazil: O/U 3.5 → Under ($2.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Japan vs. Brazil: O/U 3.5 → Under ($5.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cs2-furia-fal2-2026-11-14",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-14T10:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons ($135.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons ($209.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $209.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "atp-fritz-tirante-2026-11-14",
@@ -30,6 +30,16 @@
       "near": 1,
       "best": "BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz ($10.9k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-nor-wal-2026-11-14-more-markets",
+      "game": "Norway vs. Wales - More Markets",
+      "start": "2026-11-14T17:00:00Z",
+      "check_at": "2026-11-14T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Norway (-1.5) → Norway ($15.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-geo-hun-2026-11-14-more-markets",
@@ -68,8 +78,8 @@
       "check_at": "2026-11-14T16:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Wake Forest vs. SMU: O/U 59.5 → Under ($667, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wake Forest vs. SMU: O/U 59.5 → Under ($653, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $653 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-duke-mia-2026-11-14",
@@ -98,8 +108,8 @@
       "check_at": "2026-11-14T17:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Nebraska vs. Rutgers: O/U 51.5 → Over ($3.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Nebraska vs. Rutgers: O/U 51.5 → Over ($3.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-gtech-clmsn-2026-11-14",
@@ -128,8 +138,8 @@
       "check_at": "2026-11-14T17:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: East Carolina (-13.5) → East Carolina ($520, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $520 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: East Carolina (-13.5) → East Carolina ($509, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $509 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-uab-templ-2026-11-14",
@@ -138,8 +148,8 @@
       "check_at": "2026-11-14T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "UAB vs. Temple: O/U 51.5 → Under ($702, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $702 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "UAB vs. Temple: O/U 51.5 → Under ($697, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $697 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "lol-blg-gen-2026-11-14",
@@ -208,8 +218,8 @@
       "check_at": "2026-11-14T21:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova ($674, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $674 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova ($24.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $24.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-applst-marsh-2026-11-14",
