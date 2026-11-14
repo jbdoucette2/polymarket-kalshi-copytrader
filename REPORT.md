@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 6:13 PM. Bankroll **$103.41** (start $100): $103.41 cash + open trades at cost.
+Updated Sat Nov 14, 7:12 PM. Bankroll **$103.41** (start $100): $103.41 cash + open trades at cost.
 
 Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 0.
 
@@ -157,13 +157,13 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | BreakTheBank (benched) | 22 | 64% | 47¢ | +16 pts |
 | monkeymashingkeyboard | 64 | 61% | 50¢ | +11 pts |
 | keeptheblueflagflyinghigh | 103 | 59% | 54¢ | +5 pts |
-| Flaznorp (benched) | 686 | 62% | 58¢ | +4 pts |
+| Flaznorp (benched) | 687 | 62% | 58¢ | +4 pts |
 | HomeRunHazard (benched) | 369 | 58% | 54¢ | +4 pts |
 | gmpm2 | 28 | 57% | 54¢ | +3 pts |
 | primm | 37 | 54% | 53¢ | +1 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | 0xde9f7f4e | 11 | 64% | 63¢ | +1 pts |
-| RN1 (benched) | 81 | 51% | 51¢ | -0 pts |
+| RN1 (benched) | 83 | 49% | 51¢ | -1 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 27 | 48% | 54¢ | -5 pts |
 | takeormake (benched) | 20 | 35% | 43¢ | -8 pts |
@@ -173,43 +173,28 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Sweden vs. Bosnia and Herzegovina - More Markets · starts Sat Nov 14, 7:45 PM
+### Pistons vs. Heat · starts Sun Nov 15, 1:00 AM
 
-- Sat Nov 14, 6:13 PM (hourly): Spread: Sweden (-1.5): all vetted wallets left Sweden
-- Sat Nov 14, 5:12 PM (hourly): Spread: Sweden (-1.5): Kalshi matched at 42¢
-- Sat Nov 14, 5:12 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 2.5: first seen: 1 vetted on Over ($733), fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 14, 2:14 PM (hourly): Spread: Sweden (-1.5): Kalshi matched at 43¢
-- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 1.5: all vetted wallets left Over
-- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 0.5: all vetted wallets left Over
-- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: Both Teams to Score: all vetted wallets left Yes
-- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 4.5: all vetted wallets left Over
-- Fri Nov 13, 8:17 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 4.5: first seen: 1 vetted on Over ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 8:17 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 1.5: first seen: 1 vetted on Over ($66), fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 7:12 PM (hourly): Spread: Pistons (-4.5): all vetted wallets left Pistons
+- Sat Nov 14, 7:12 PM (hourly): Pistons vs. Heat: Kalshi 38¢ → 39¢
+- Sat Nov 14, 6:13 PM (hourly): Spread: Pistons (-4.5): Kalshi 53¢ → 49¢
+- Sat Nov 14, 6:13 PM (hourly): Pistons vs. Heat: first seen: 1 vetted on Heat ($870), fails: only 1 vetted wallet with $870 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 5:12 PM (hourly): Spread: Pistons (-4.5): Kalshi matched at 53¢
+- Sat Nov 14, 2:14 PM (hourly): Spread: Pistons (-4.5): Kalshi matched at 53¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 6:13 PM | hourly | Spread: Sweden (-1.5) → Sweden | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 14, 6:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Over | keeptheblueflagflyinghigh $733 | $0 | 58¢ YES | fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | 42¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Over | keeptheblueflagflyinghigh $733 | $0 | 58¢ YES | fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 14, 3:13 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 14, 2:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | 43¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | Flaznorp $5 | $0 | 21¢ YES | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | Flaznorp $66 | $0 | 83¢ YES | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | Flaznorp $107 | $0 | 96¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Pistons (-4.5) → Pistons | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 7:12 PM | hourly | Pistons vs. Heat → Heat | monkeymashingkeyboard $1.6k | $0 | 39¢ YES | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.3k | $0 | 49¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Pistons vs. Heat → Heat | monkeymashingkeyboard $870 | $0 | 38¢ YES | fails: only 1 vetted wallet with $870 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 3:13 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 2:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 1:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs · starts Sat Nov 14, 7:00 PM
+### LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs · starts Sat Nov 14, 7:15 PM
 
 - Sat Nov 14, 5:12 PM (hourly): LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs: Kalshi matched at 62¢
 - Sat Nov 14, 2:14 PM (hourly): LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs: Kalshi matched at 63¢
@@ -217,6 +202,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | robloxgamblemaster-2008-10-18 $184.5k | $0 | 62¢ YES | fails: only 1 vetted wallet with $184.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | pregame | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | robloxgamblemaster-2008-10-18 $184.5k | $0 | 62¢ YES | fails: only 1 vetted wallet with $184.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | robloxgamblemaster-2008-10-18 $184.5k | $0 | 62¢ YES | fails: only 1 vetted wallet with $184.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | robloxgamblemaster-2008-10-18 $184.5k | $0 | — | fails: only 1 vetted wallet with $184.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -243,6 +229,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.2k | $0 | 50¢ NO | fails: only 1 vetted wallet with $4.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Nevada vs. Northern Illinois → Nevada | keeptheblueflagflyinghigh $33.3k | $0 | 68¢ YES | fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.1k | $1.6k | 48¢ NO | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 53% |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.2k | $0 | 50¢ NO | fails: only 1 vetted wallet with $4.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Nevada vs. Northern Illinois → Nevada | keeptheblueflagflyinghigh $32.9k | $0 | 68¢ YES | fails: only 1 vetted wallet with $32.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.1k | $1.6k | 48¢ NO | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 53% |
@@ -295,12 +284,16 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Minnesota vs. Penn State → Penn State | keeptheblueflagflyinghigh $150 | $0 | 81¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Minnesota vs. Penn State → Penn State | keeptheblueflagflyinghigh $150 | $0 | 81¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Minnesota vs. Penn State → Penn State | keeptheblueflagflyinghigh $150 | $0 | 81¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Minnesota vs. Penn State → Penn State | keeptheblueflagflyinghigh $150 | $0 | 81¢ YES | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Portugal vs. Denmark - More Markets · starts Sat Nov 14, 7:45 PM
 
+- Sat Nov 14, 7:12 PM (pregame): Portugal vs. Denmark: O/U 2.5: Kalshi 38¢ → 37¢
+- Sat Nov 14, 7:12 PM (pregame): Portugal vs. Denmark: O/U 3.5: first seen: 1 vetted on Under ($3.8k), fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 7:12 PM (pregame): Spread: Portugal (-1.5): Kalshi 63¢ → 65¢
 - Sat Nov 14, 5:12 PM (hourly): Portugal vs. Denmark: O/U 2.5: Kalshi matched at 38¢
 - Sat Nov 14, 5:12 PM (hourly): Spread: Portugal (-1.5): Kalshi matched at 63¢
 - Sat Nov 14, 3:13 PM (hourly): Portugal vs. Denmark: O/U 2.5: back: 1 vetted on Under ($295), fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
@@ -313,6 +306,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Portugal vs. Denmark: O/U 2.5 → Under | keeptheblueflagflyinghigh $287 | $0 | 37¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | pregame | Portugal vs. Denmark: O/U 3.5 → Under | keeptheblueflagflyinghigh $3.8k | $0 | 60¢ NO | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | pregame | Spread: Portugal (-1.5) → Denmark | keeptheblueflagflyinghigh $5.7k | $0 | 65¢ NO | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 62c |
 | Sat Nov 14, 6:13 PM | hourly | Portugal vs. Denmark: O/U 2.5 → Under | keeptheblueflagflyinghigh $295 | $0 | 38¢ NO | fails: only 1 vetted wallet with $295 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Portugal (-1.5) → Denmark | keeptheblueflagflyinghigh $5.5k | $0 | 63¢ NO | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Portugal vs. Denmark: O/U 2.5 → Under | keeptheblueflagflyinghigh $287 | $0 | 38¢ NO | fails: only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -339,6 +335,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Stanford vs. Virginia Tech · starts Sun Nov 15, 12:30 AM
 
+- Sat Nov 14, 7:12 PM (hourly): Spread: Virginia Tech (-16.5): Kalshi 53¢ → 54¢
 - Sat Nov 14, 6:13 PM (hourly): Spread: Virginia Tech (-14.5): Kalshi 54¢ → 55¢
 - Sat Nov 14, 6:13 PM (hourly): Spread: Virginia Tech (-16.5): Kalshi 52¢ → 53¢
 - Sat Nov 14, 5:12 PM (hourly): Spread: Virginia Tech (-14.5): Kalshi matched at 54¢
@@ -348,6 +345,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Virginia Tech (-14.5) → Virginia Tech | keeptheblueflagflyinghigh $380 | $0 | 55¢ YES | fails: only 1 vetted wallet with $380 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Stanford vs. Virginia Tech → Virginia Tech | keeptheblueflagflyinghigh $6.4k | $0 | 88¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Stanford vs. Virginia Tech: O/U 57.5 → Over | primm $258 | $0 | 52¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Virginia Tech (-16.5) → Virginia Tech | keeptheblueflagflyinghigh $4.7k | $0 | 54¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Virginia Tech (-14.5) → Virginia Tech | keeptheblueflagflyinghigh $380 | $0 | 55¢ YES | fails: only 1 vetted wallet with $380 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Stanford vs. Virginia Tech → Virginia Tech | keeptheblueflagflyinghigh $6.4k | $0 | 88¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Stanford vs. Virginia Tech: O/U 57.5 → Over | primm $258 | $0 | 52¢ YES | fails: only 1 vetted wallet with $258 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -366,6 +367,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Oregon (-10.5) → Michigan | keeptheblueflagflyinghigh $875 | $0 | 53¢ NO | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Michigan vs. Oregon: O/U 39.5 → Under | keeptheblueflagflyinghigh $3.1k | $887 | 49¢ NO | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 29% |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Oregon (-10.5) → Michigan | keeptheblueflagflyinghigh $875 | $0 | 53¢ NO | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Michigan vs. Oregon: O/U 39.5 → Under | keeptheblueflagflyinghigh $3.1k | $887 | 49¢ NO | fails: only 1 vetted wallet with $3.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 29% |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Oregon (-10.5) → Michigan | keeptheblueflagflyinghigh $875 | $0 | 53¢ NO | fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -384,6 +387,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Air Force (-13.5) → Air Force | keeptheblueflagflyinghigh $1.0k, gmpm2 $683 | $0 | 53¢ YES | fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Air Force (-14.5) → San Jose State | keeptheblueflagflyinghigh $16.1k | $2.6k | 54¢ NO | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 16% |
+| Sat Nov 14, 7:12 PM | hourly | San Jose State vs. Air Force → Air Force | keeptheblueflagflyinghigh $1.0k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Air Force (-13.5) → Air Force | keeptheblueflagflyinghigh $1.0k, gmpm2 $683 | $0 | 53¢ YES | fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Air Force (-14.5) → San Jose State | keeptheblueflagflyinghigh $16.1k | $2.6k | 54¢ NO | fails: only 1 vetted wallet with $16.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 16% |
 | Sat Nov 14, 6:13 PM | hourly | San Jose State vs. Air Force → Air Force | keeptheblueflagflyinghigh $1.0k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -400,23 +406,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 2:14 PM | hourly | Spread: Air Force (-13.5) → Air Force | keeptheblueflagflyinghigh $1.0k, gmpm2 $683 | $0 | 53¢ YES | fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 2:14 PM | hourly | San Jose State vs. Air Force → Air Force | keeptheblueflagflyinghigh $1.0k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Pistons vs. Heat · starts Sun Nov 15, 1:00 AM
-
-- Sat Nov 14, 6:13 PM (hourly): Spread: Pistons (-4.5): Kalshi 53¢ → 49¢
-- Sat Nov 14, 6:13 PM (hourly): Pistons vs. Heat: first seen: 1 vetted on Heat ($870), fails: only 1 vetted wallet with $870 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 14, 5:12 PM (hourly): Spread: Pistons (-4.5): Kalshi matched at 53¢
-- Sat Nov 14, 2:14 PM (hourly): Spread: Pistons (-4.5): Kalshi matched at 53¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 6:13 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.3k | $0 | 49¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 6:13 PM | hourly | Pistons vs. Heat → Heat | monkeymashingkeyboard $870 | $0 | 38¢ YES | fails: only 1 vetted wallet with $870 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 3:13 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 2:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:14 PM | hourly | Spread: Pistons (-4.5) → Pistons | keeptheblueflagflyinghigh $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
 ### Panthers vs. Blues · starts Sun Nov 15, 12:00 AM
 
 - Sat Nov 14, 6:13 PM (hourly): Panthers vs. Blues: Kalshi 52¢ → 53¢
@@ -425,13 +414,57 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Panthers (-1.5) → Blues | keeptheblueflagflyinghigh $2.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Panthers vs. Blues → Blues | keeptheblueflagflyinghigh $4.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Panthers (-1.5) → Blues | keeptheblueflagflyinghigh $2.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Panthers vs. Blues → Blues | keeptheblueflagflyinghigh $4.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Panthers (-1.5) → Blues | keeptheblueflagflyinghigh $2.0k | $0 | 73¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Panthers vs. Blues → Blues | keeptheblueflagflyinghigh $4.5k | $0 | 52¢ YES | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Sweden vs. Bosnia and Herzegovina - More Markets · starts Sat Nov 14, 7:45 PM
+
+- Sat Nov 14, 7:12 PM (pregame): Sweden vs. Bosnia and Herzegovina: O/U 2.5: Kalshi 58¢ → 39¢
+- Sat Nov 14, 7:12 PM (pregame): Sweden vs. Bosnia and Herzegovina: O/U 2.5: majority flipped to Under ($2.5k vs $0)
+- Sat Nov 14, 7:12 PM (pregame): Sweden vs. Bosnia and Herzegovina: O/U 3.5: first seen: 1 vetted on Under ($29.9k), fails: only 1 vetted wallet with $29.9k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 6:13 PM (hourly): Spread: Sweden (-1.5): all vetted wallets left Sweden
+- Sat Nov 14, 5:12 PM (hourly): Spread: Sweden (-1.5): Kalshi matched at 42¢
+- Sat Nov 14, 5:12 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 2.5: first seen: 1 vetted on Over ($733), fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 2:14 PM (hourly): Spread: Sweden (-1.5): Kalshi matched at 43¢
+- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 1.5: all vetted wallets left Over
+- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 0.5: all vetted wallets left Over
+- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: Both Teams to Score: all vetted wallets left Yes
+- Fri Nov 13, 11:13 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 4.5: all vetted wallets left Over
+- Fri Nov 13, 8:17 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 4.5: first seen: 1 vetted on Over ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+)
+- Fri Nov 13, 8:17 PM (hourly): Sweden vs. Bosnia and Herzegovina: O/U 1.5: first seen: 1 vetted on Over ($66), fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Under | keeptheblueflagflyinghigh $2.5k | $0 | 39¢ NO | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | pregame | Sweden vs. Bosnia and Herzegovina: O/U 3.5 → Under | keeptheblueflagflyinghigh $29.9k | $0 | 63¢ NO | fails: only 1 vetted wallet with $29.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Spread: Sweden (-1.5) → Sweden | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 6:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Over | keeptheblueflagflyinghigh $733 | $0 | 58¢ YES | fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | 42¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Over | keeptheblueflagflyinghigh $733 | $0 | 58¢ YES | fails: only 1 vetted wallet with $733 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:13 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | 43¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 1:14 PM | hourly | Spread: Sweden (-1.5) → Sweden | keeptheblueflagflyinghigh $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 11:13 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | Flaznorp $5 | $0 | — | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | Flaznorp $51 | $0 | — | fails: only 1 vetted wallet with $51 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | Flaznorp $66 | $0 | — | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 9:14 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi game found |
+| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 4.5 → Over | Flaznorp $5 | $0 | 21¢ YES | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: Both Teams to Score → Yes | Flaznorp $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
+| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 1.5 → Over | Flaznorp $66 | $0 | 83¢ YES | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 8:17 PM | hourly | Sweden vs. Bosnia and Herzegovina: O/U 0.5 → Over | Flaznorp $107 | $0 | 96¢ YES | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
+
 ### Florida International vs. Delaware · starts Sat Nov 14, 8:00 PM
 
+- Sat Nov 14, 7:12 PM (pregame): Florida International vs. Delaware: O/U 51.5: Kalshi 56¢ → 58¢
 - Sat Nov 14, 5:12 PM (hourly): Spread: Delaware (-4.5): Kalshi matched at 53¢
 - Sat Nov 14, 5:12 PM (hourly): Florida International vs. Delaware: O/U 51.5: Kalshi matched at 56¢
 - Sat Nov 14, 5:12 PM (hourly): Spread: Delaware (-3.5): Kalshi matched at 49¢
@@ -439,6 +472,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Spread: Delaware (-4.5) → Florida International | keeptheblueflagflyinghigh $3.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | pregame | Florida International vs. Delaware: O/U 51.5 → Over | primm $583 | $0 | 58¢ YES | fails: only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | pregame | Spread: Delaware (-3.5) → Florida International | primm $4.9k | $0 | 49¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Delaware (-4.5) → Florida International | keeptheblueflagflyinghigh $3.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Florida International vs. Delaware: O/U 51.5 → Over | primm $578 | $0 | 56¢ YES | fails: only 1 vetted wallet with $578 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Delaware (-3.5) → Florida International | primm $4.9k | $0 | 49¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -453,6 +489,27 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 3:13 PM | hourly | Spread: Delaware (-3.5) → Florida International | primm $4.9k | $0 | — | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 2:14 PM | hourly | Spread: Delaware (-4.5) → Florida International | keeptheblueflagflyinghigh $3.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Northern Ireland vs. Ukraine - More Markets · starts Sat Nov 14, 7:45 PM
+
+- Sat Nov 14, 7:12 PM (pregame): Northern Ireland vs. Ukraine: O/U 1.5: first seen: 1 vetted on Over ($3.5k), fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+)
+- Fri Nov 13, 11:13 PM (hourly): Northern Ireland vs. Ukraine: O/U 0.5: all vetted wallets left Under
+- Fri Nov 13, 11:13 PM (hourly): Spread: Ukraine (-2.5): all vetted wallets left Northern Ireland
+- Fri Nov 13, 11:13 PM (hourly): Northern Ireland vs. Ukraine: O/U 5.5: all vetted wallets left Under
+- Fri Nov 13, 8:17 PM (hourly): Northern Ireland vs. Ukraine: O/U 0.5: first seen: 1 vetted on Under ($28), fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Northern Ireland vs. Ukraine: O/U 1.5 → Over | keeptheblueflagflyinghigh $3.5k | $0 | 63¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 11:13 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 11:13 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 11:13 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
+| Fri Nov 13, 9:14 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
+| Fri Nov 13, 9:14 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 9:14 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
+| Fri Nov 13, 8:17 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | Flaznorp $25 | $0 | 99¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
+| Fri Nov 13, 8:17 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | Flaznorp $28 | $0 | 13¢ NO | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 8:17 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | Flaznorp $54 | $0 | 98¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
+
 ### WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva · starts Sat Nov 14, 8:00 PM
 
 - Sat Nov 14, 5:12 PM (hourly): WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva: Kalshi matched at 30¢
@@ -460,6 +517,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula | keeptheblueflagflyinghigh $3.8k | $0 | 30¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula | keeptheblueflagflyinghigh $3.7k | $0 | 30¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula | keeptheblueflagflyinghigh $3.8k | $0 | 30¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula | keeptheblueflagflyinghigh $3.8k | $0 | — | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -473,6 +531,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Austria vs. Republic of Ireland: O/U 2.5 → Under | keeptheblueflagflyinghigh $3.9k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Austria vs. Republic of Ireland: O/U 2.5 → Under | keeptheblueflagflyinghigh $3.9k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Austria vs. Republic of Ireland: O/U 2.5 → Under | keeptheblueflagflyinghigh $3.9k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Austria vs. Republic of Ireland: O/U 2.5 → Under | keeptheblueflagflyinghigh $3.9k | $0 | — | fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -490,6 +549,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Blue Jackets (-1.5) → Flyers | keeptheblueflagflyinghigh $4.9k | $0 | 69¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Flyers vs. Blue Jackets → Flyers | keeptheblueflagflyinghigh $8.9k | $0 | 44¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Blue Jackets (-1.5) → Flyers | keeptheblueflagflyinghigh $4.9k | $0 | 69¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Flyers vs. Blue Jackets → Flyers | keeptheblueflagflyinghigh $8.9k | $0 | 44¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Blue Jackets (-1.5) → Flyers | keeptheblueflagflyinghigh $4.9k | $0 | 68¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -504,6 +565,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Oilers vs. Maple Leafs → Maple Leafs | keeptheblueflagflyinghigh $5.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Oilers vs. Maple Leafs → Maple Leafs | keeptheblueflagflyinghigh $5.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Oilers vs. Maple Leafs → Maple Leafs | keeptheblueflagflyinghigh $5.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -517,6 +579,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: LSU (-4.5) → Texas | keeptheblueflagflyinghigh $6.0k | $0 | 50¢ NO | fails: only 1 vetted wallet with $6.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: LSU (-4.5) → Texas | keeptheblueflagflyinghigh $6.0k | $0 | 50¢ NO | fails: only 1 vetted wallet with $6.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Texas vs. LSU → LSU | none | $0 | — | fails: no vetted wallets hold it now |
 | Sat Nov 14, 5:12 PM | hourly | Spread: LSU (-4.5) → Texas | keeptheblueflagflyinghigh $6.0k | $0 | 50¢ NO | fails: only 1 vetted wallet with $6.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -527,27 +590,53 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Tennessee vs. Texas A&M · starts Sat Nov 14, 8:00 PM
 
+- Sat Nov 14, 7:12 PM (pregame): Spread: Tennessee (-1.5): Kalshi 49¢ → 50¢
 - Sat Nov 14, 6:13 PM (hourly): Spread: Tennessee (-1.5): keeptheblueflagflyinghigh added $11.7k on Tennessee
 - Sat Nov 14, 5:12 PM (hourly): Spread: Tennessee (-1.5): Kalshi matched at 49¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | pregame | Spread: Tennessee (-1.5) → Tennessee | keeptheblueflagflyinghigh $21.8k | $0 | 50¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Tennessee (-1.5) → Tennessee | keeptheblueflagflyinghigh $21.8k | $0 | 49¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Tennessee (-1.5) → Tennessee | keeptheblueflagflyinghigh $10.1k | $0 | 49¢ YES | fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Tennessee (-1.5) → Tennessee | keeptheblueflagflyinghigh $10.1k | $0 | — | fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
 ### Fresno State vs. Texas State · starts Sat Nov 14, 9:00 PM
 
+- Sat Nov 14, 7:12 PM (hourly): Fresno State vs. Texas State: O/U 59.5: Kalshi 52¢ → 53¢
 - Sat Nov 14, 5:12 PM (hourly): Spread: Texas State (-9.5): Kalshi matched at 53¢
 - Sat Nov 14, 5:12 PM (hourly): Fresno State vs. Texas State: O/U 59.5: first seen: 1 vetted on Over ($22.7k), fails: only 1 vetted wallet with $22.7k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Texas State (-9.5) → Texas State | keeptheblueflagflyinghigh $22.2k | $0 | 53¢ YES | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Fresno State vs. Texas State: O/U 59.5 → Over | keeptheblueflagflyinghigh $22.7k | $0 | 53¢ YES | fails: only 1 vetted wallet with $22.7k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 53c vs leaders 50c |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Texas State (-9.5) → Texas State | keeptheblueflagflyinghigh $22.2k | $0 | 53¢ YES | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Fresno State vs. Texas State: O/U 59.5 → Over | keeptheblueflagflyinghigh $22.7k | $0 | 52¢ YES | fails: only 1 vetted wallet with $22.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Texas State (-9.5) → Texas State | keeptheblueflagflyinghigh $22.2k | $0 | 53¢ YES | fails: only 1 vetted wallet with $22.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Fresno State vs. Texas State: O/U 59.5 → Over | keeptheblueflagflyinghigh $22.7k | $0 | 52¢ YES | fails: only 1 vetted wallet with $22.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Texas State (-9.5) → Texas State | keeptheblueflagflyinghigh $21.7k | $0 | — | fails: only 1 vetted wallet with $21.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Mavericks vs. Cavaliers · starts Sun Nov 15, 12:30 AM
+
+- Sat Nov 14, 7:12 PM (hourly): Spread: Mavericks (-3.5): first seen: 1 vetted on Mavericks ($2.2k), fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 7:12 PM (hourly): Mavericks vs. Cavaliers: first seen: 1 vetted on Mavericks ($72.7k), fails: only 1 vetted wallet with $72.7k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 7:12 PM (hourly): Spread: Mavericks (-4.5): first seen: 1 vetted on Mavericks ($1.3k), fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 7:12 PM (hourly): Mavericks vs. Cavaliers: O/U 231.5: first seen: 1 vetted on Over ($127), fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+)
+- Sat Nov 14, 2:14 PM (hourly): Spread: Cavaliers (-1.5): first seen: 1 vetted on Mavericks ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Mavericks (-3.5) → Mavericks | monkeymashingkeyboard $2.2k | $0 | 55¢ YES | fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Mavericks vs. Cavaliers → Mavericks | monkeymashingkeyboard $72.7k | $0 | 64¢ YES | fails: only 1 vetted wallet with $72.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.4k | $0 | 65¢ NO | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 65c vs leaders 53c |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Mavericks (-4.5) → Mavericks | monkeymashingkeyboard $1.3k | $0 | 51¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Mavericks vs. Cavaliers: O/U 231.5 → Over | keeptheblueflagflyinghigh $127 | $0 | 42¢ YES | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.3k | $0 | 59¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 59c vs leaders 53c |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.3k | $0 | 58¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 3:13 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 2:14 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | 55¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) · starts Sat Nov 14, 10:00 PM
 
@@ -559,6 +648,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) → Josh Hokit | Jsram $15.1k, monkeymashingkeyboard $3.8k | $0 | — | fails: no Kalshi game found |
 | Sat Nov 14, 6:13 PM | hourly | UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) → Josh Hokit | Jsram $15.1k, monkeymashingkeyboard $3.8k | $0 | — | fails: no Kalshi game found |
 | Sat Nov 14, 5:12 PM | hourly | UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) → Josh Hokit | Jsram $15.1k, monkeymashingkeyboard $3.8k | $0 | — | fails: no Kalshi game found |
 | Sat Nov 14, 4:14 PM | hourly | UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) → Josh Hokit | monkeymashingkeyboard $3.8k | $0 | — | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -630,6 +720,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Florida vs. Kentucky → Kentucky | monkeymashingkeyboard $6.5k, keeptheblueflagflyinghigh $948 | $0 | 60¢ YES | passes |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Kentucky (-2.5) → Kentucky | keeptheblueflagflyinghigh $1.2k | $0 | 55¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Florida vs. Kentucky → Kentucky | monkeymashingkeyboard $6.5k, keeptheblueflagflyinghigh $948 | $0 | 60¢ YES | passes |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Kentucky (-2.5) → Kentucky | keeptheblueflagflyinghigh $1.2k | $0 | 55¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Florida vs. Kentucky → Kentucky | monkeymashingkeyboard $6.3k, keeptheblueflagflyinghigh $948 | $0 | 60¢ YES | passes |
@@ -649,6 +741,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $9.9k | $0 | 51¢ YES | fails: only 1 vetted wallet with $9.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $9.9k | $0 | 51¢ YES | fails: only 1 vetted wallet with $9.9k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Patriots vs. Lions · starts Sun Nov 15, 2:30 PM
@@ -659,6 +752,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Lions (-2.5) → Lions | monkeymashingkeyboard $12.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Patriots vs. Lions → Lions | monkeymashingkeyboard $11.5k | $0 | 58¢ YES | fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Patriots vs. Lions: O/U 50.5 → Under | gmpm2 $23.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Lions (-2.5) → Lions | monkeymashingkeyboard $12.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $12.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Patriots vs. Lions → Lions | monkeymashingkeyboard $11.5k | $0 | 58¢ YES | fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Patriots vs. Lions: O/U 50.5 → Under | gmpm2 $23.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -674,6 +770,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina · starts Sat Nov 14, 9:30 PM
 
+- Sat Nov 14, 7:12 PM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: Kalshi 61¢ → 62¢
 - Sat Nov 14, 5:12 PM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: Kalshi matched at 61¢
 - Sat Nov 14, 4:14 PM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: keeptheblueflagflyinghigh left
 - Sat Nov 14, 3:13 PM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: now fails: no Kalshi game found
@@ -686,6 +783,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $24.2k | $0 | 62¢ YES | fails: only 1 vetted wallet with $24.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $24.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $24.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $24.2k | $0 | 61¢ YES | fails: only 1 vetted wallet with $24.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $24.2k | $0 | — | fails: only 1 vetted wallet with $24.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
@@ -701,32 +799,32 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 6:13 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $521 | $0 | — | fails: only 1 vetted wallet with $521 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 14, 5:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $518 | $0 | 62¢ YES | fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Kennesaw State vs. Sam Houston · starts Sat Nov 14, 7:00 PM
-
-- Sat Nov 14, 6:13 PM (pregame): Spread: Kennesaw State (-7.5): Kalshi 50¢ → 51¢
-- Sat Nov 14, 5:12 PM (hourly): Spread: Kennesaw State (-13.5): Kalshi matched at 38¢
-- Sat Nov 14, 5:12 PM (hourly): Spread: Kennesaw State (-7.5): Kalshi matched at 50¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 6:13 PM | pregame | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 6:13 PM | pregame | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | 51¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | 50¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 3:13 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 3:13 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
 ### Missouri vs. Georgia · starts Sat Nov 14, 8:30 PM
 
 - Sat Nov 14, 5:12 PM (hourly): Spread: Georgia (-13.5): Kalshi matched at 42¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Georgia (-13.5) → Missouri | primm $85 | $0 | 42¢ NO | fails: only 1 vetted wallet with $85 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Georgia (-13.5) → Missouri | primm $84 | $0 | 42¢ NO | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Georgia (-13.5) → Missouri | primm $84 | $0 | 42¢ NO | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Georgia (-13.5) → Missouri | primm $84 | $0 | — | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Southern Miss vs. Louisiana Tech · starts Sat Nov 14, 10:00 PM
+
+- Sat Nov 14, 5:12 PM (hourly): Spread: Louisiana Tech (-18.5): Kalshi matched at 47¢
+- Sat Nov 14, 5:12 PM (hourly): Spread: Louisiana Tech (-17.5): Kalshi matched at 49¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | 47¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | 49¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | 47¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | 49¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | 47¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | 49¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | — | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
 ### Auburn vs. Mississippi State · starts Sat Nov 14, 9:15 PM
 
@@ -747,6 +845,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $268 | $0 | 57¢ YES | fails: only 1 vetted wallet with $268 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Auburn (-4.5) → Auburn | primm $579 | $0 | 43¢ YES | fails: only 1 vetted wallet with $579 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | 50¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Auburn (-3.5) → Auburn | primm $446 | $0 | 45¢ YES | fails: only 1 vetted wallet with $446 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $264 | $0 | 57¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Auburn (-4.5) → Auburn | primm $579 | $0 | 43¢ YES | fails: only 1 vetted wallet with $579 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | 50¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -815,20 +917,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 10:15 PM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Fri Nov 13, 9:14 PM | hourly | Spread: Auburn (-4.5) → Auburn | primm $282 | $0 | — | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Southern Miss vs. Louisiana Tech · starts Sat Nov 14, 10:00 PM
-
-- Sat Nov 14, 5:12 PM (hourly): Spread: Louisiana Tech (-18.5): Kalshi matched at 47¢
-- Sat Nov 14, 5:12 PM (hourly): Spread: Louisiana Tech (-17.5): Kalshi matched at 49¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 6:13 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | 47¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 6:13 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | 49¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | 47¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | 49¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Louisiana Tech (-18.5) → Louisiana Tech | primm $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Louisiana Tech (-17.5) → Louisiana Tech | primm $427 | $0 | — | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
 ### Utah vs. Arizona · starts Sun Nov 15, 3:30 AM
 
 - Sat Nov 14, 5:12 PM (hourly): Spread: Arizona (-2.5): first seen: 1 vetted on Utah ($306), fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+)
@@ -836,6 +924,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Arizona (-2.5) → Utah | primm $306 | $0 | 56¢ NO | fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Arizona (-1.5) → Utah | primm $1.1k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Arizona (-2.5) → Utah | primm $306 | $0 | 56¢ NO | fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Arizona (-1.5) → Utah | primm $1.1k | $0 | 53¢ NO | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Arizona (-2.5) → Utah | primm $306 | $0 | 56¢ NO | fails: only 1 vetted wallet with $306 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -849,6 +939,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Iowa (-11.5) → Purdue | primm $340 | $0 | 37¢ NO | fails: only 1 vetted wallet with $340 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Iowa (-20.5) → Purdue | primm $591 | $0 | 58¢ NO | fails: only 1 vetted wallet with $591 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Iowa (-16.5) → Purdue | primm $4.9k | $0 | 47¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Iowa (-11.5) → Purdue | primm $340 | $0 | 37¢ NO | fails: only 1 vetted wallet with $340 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Iowa (-20.5) → Purdue | primm $591 | $0 | 58¢ NO | fails: only 1 vetted wallet with $591 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Iowa (-16.5) → Purdue | primm $4.9k | $0 | 47¢ NO | fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -858,19 +951,24 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Wyoming vs. UTEP · starts Sun Nov 15, 3:00 AM
 
+- Sat Nov 14, 7:12 PM (hourly): Wyoming vs. UTEP: O/U 43.5: Kalshi 58¢ → 59¢
 - Sat Nov 14, 5:12 PM (hourly): Wyoming vs. UTEP: O/U 43.5: first seen: 1 vetted on Under ($624), fails: only 1 vetted wallet with $624 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Wyoming vs. UTEP: O/U 43.5 → Under | primm $624 | $0 | 59¢ NO | fails: only 1 vetted wallet with $624 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Wyoming vs. UTEP: O/U 43.5 → Under | primm $624 | $0 | 58¢ NO | fails: only 1 vetted wallet with $624 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Wyoming vs. UTEP: O/U 43.5 → Under | primm $624 | $0 | 58¢ NO | fails: only 1 vetted wallet with $624 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### California vs. Virginia · starts Sat Nov 14, 8:30 PM
 
+- Sat Nov 14, 7:12 PM (hourly): California vs. Virginia: O/U 47.5: first seen: 1 vetted on Under ($3.5k), fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 14, 5:12 PM (hourly): California vs. Virginia: O/U 45.5: Kalshi matched at 47¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | California vs. Virginia: O/U 45.5 → Under | primm $842 | $0 | 47¢ NO | fails: only 1 vetted wallet with $842 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | California vs. Virginia: O/U 47.5 → Under | keeptheblueflagflyinghigh $3.5k | $0 | 53¢ NO | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | California vs. Virginia: O/U 45.5 → Under | primm $824 | $0 | 47¢ NO | fails: only 1 vetted wallet with $824 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | California vs. Virginia: O/U 45.5 → Under | primm $824 | $0 | 47¢ NO | fails: only 1 vetted wallet with $824 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | California vs. Virginia: O/U 45.5 → Under | primm $824 | $0 | — | fails: only 1 vetted wallet with $824 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -882,6 +980,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Chiefs vs. Falcons: O/U 48.5 → Over | primm $1.0k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Chiefs (-3.5) → Falcons | monkeymashingkeyboard $3.3k | $0 | 54¢ NO | fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Chiefs vs. Falcons: O/U 48.5 → Over | primm $1.0k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Chiefs (-3.5) → Falcons | monkeymashingkeyboard $3.3k | $0 | 54¢ NO | fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -894,6 +994,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Indiana (-7.5) → USC | primm $2.4k | $0 | 47¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | USC vs. Indiana: O/U 53.5 → Over | primm $2.5k | $0 | 46¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Indiana (-9.5) → USC | primm $5.0k | $0 | 50¢ NO | fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Indiana (-7.5) → USC | primm $2.4k | $0 | 47¢ NO | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | USC vs. Indiana: O/U 53.5 → Over | primm $2.5k | $0 | 46¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Indiana (-9.5) → USC | primm $5.0k | $0 | 50¢ NO | fails: only 1 vetted wallet with $5.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -912,6 +1015,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Avalanche vs. Canadiens → Avalanche | keeptheblueflagflyinghigh $2.5k | $0 | 45¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Avalanche vs. Canadiens → Avalanche | keeptheblueflagflyinghigh $2.5k | $0 | 45¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Avalanche vs. Canadiens → Avalanche | keeptheblueflagflyinghigh $2.5k | $0 | 46¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Avalanche vs. Canadiens → Avalanche | keeptheblueflagflyinghigh $2.6k | $0 | 47¢ YES | fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -931,6 +1035,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $53 | $0 | 48¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $53 | $0 | 48¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -985,6 +1091,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: West Virginia (-3.5) → West Virginia | primm $312 | $0 | 45¢ YES | fails: only 1 vetted wallet with $312 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 48¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 45c |
+| Sat Nov 14, 7:12 PM | hourly | Spread: West Virginia (-4.5) → West Virginia | primm $2.8k | $0 | 42¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Kansas vs. West Virginia → Kansas | keeptheblueflagflyinghigh $22.1k | $1.0k | 46¢ YES | fails: only 1 vetted wallet with $22.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: West Virginia (-3.5) → West Virginia | primm $312 | $0 | 45¢ YES | fails: only 1 vetted wallet with $312 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 48¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 45c |
 | Sat Nov 14, 6:13 PM | hourly | Spread: West Virginia (-4.5) → West Virginia | primm $2.8k | $0 | 42¢ YES | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1017,12 +1127,22 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 12:10 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 11:13 PM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Colorado Buffaloes vs. Providence Friars · starts Sat Nov 14, 11:00 PM
+
+- Sat Nov 14, 7:12 PM (hourly): Spread: Providence Friars (-11.5): first seen: 1 vetted on Colorado Buffaloes ($1.5k), fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Providence Friars (-11.5) → Colorado Buffaloes | keeptheblueflagflyinghigh $1.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Tulane vs. Rice · starts Sat Nov 14, 9:30 PM
 
+- Sat Nov 14, 7:12 PM (hourly): Tulane vs. Rice: Kalshi 41¢ → 40¢
 - Sat Nov 14, 4:14 PM (hourly): Tulane vs. Rice: first seen: 1 vetted on Tulane ($618), fails: only 1 vetted wallet with $618 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Tulane vs. Rice → Tulane | keeptheblueflagflyinghigh $587 | $0 | 40¢ YES | fails: only 1 vetted wallet with $587 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Tulane vs. Rice → Tulane | keeptheblueflagflyinghigh $618 | $0 | 41¢ YES | fails: only 1 vetted wallet with $618 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Tulane vs. Rice → Tulane | keeptheblueflagflyinghigh $618 | $0 | 41¢ YES | fails: only 1 vetted wallet with $618 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Tulane vs. Rice → Tulane | keeptheblueflagflyinghigh $618 | $0 | 41¢ YES | fails: only 1 vetted wallet with $618 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1033,6 +1153,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Utah State vs. San Diego State: O/U 43.5 → Over | keeptheblueflagflyinghigh $908 | $0 | 51¢ YES | fails: only 1 vetted wallet with $908 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Utah State vs. San Diego State: O/U 43.5 → Over | keeptheblueflagflyinghigh $908 | $0 | 51¢ YES | fails: only 1 vetted wallet with $908 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Utah State vs. San Diego State: O/U 43.5 → Over | keeptheblueflagflyinghigh $908 | $0 | 51¢ YES | fails: only 1 vetted wallet with $908 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Utah State vs. San Diego State: O/U 43.5 → Over | keeptheblueflagflyinghigh $908 | $0 | — | fails: only 1 vetted wallet with $908 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -1046,6 +1167,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Wild vs. Bruins → Wild | keeptheblueflagflyinghigh $9.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Wild vs. Bruins → Wild | keeptheblueflagflyinghigh $9.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Wild vs. Bruins → Wild | keeptheblueflagflyinghigh $9.4k | $0 | 54¢ YES | fails: only 1 vetted wallet with $9.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Wild vs. Bruins → Bruins | keeptheblueflagflyinghigh $404 | $0 | 49¢ YES | fails: only 1 vetted wallet with $404 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1060,6 +1182,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: South Carolina (-6.5) → Arkansas | primm $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: South Carolina (-6.5) → Arkansas | primm $17 | $0 | 44¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: South Carolina (-6.5) → Arkansas | primm $17 | $0 | 43¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -1069,6 +1192,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: New Mexico (-16.5) → New Mexico | keeptheblueflagflyinghigh $6.5k | $0 | 55¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: New Mexico (-16.5) → New Mexico | keeptheblueflagflyinghigh $6.5k | $0 | 55¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: New Mexico (-16.5) → New Mexico | keeptheblueflagflyinghigh $6.5k | $0 | 55¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: New Mexico (-16.5) → New Mexico | keeptheblueflagflyinghigh $6.3k | $0 | — | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -1081,6 +1205,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Lightning (-1.5) → Lightning | keeptheblueflagflyinghigh $10.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Lightning (-1.5) → Lightning | keeptheblueflagflyinghigh $10.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Lightning (-1.5) → Lightning | keeptheblueflagflyinghigh $10.0k | $0 | 43¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Lightning (-1.5) → Lightning | keeptheblueflagflyinghigh $10.0k | $0 | — | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -1096,6 +1221,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Grizzlies (-3.5) → Nets | keeptheblueflagflyinghigh $10.1k | $0 | 54¢ NO | fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Grizzlies (-3.5) → Nets | keeptheblueflagflyinghigh $10.1k | $0 | 54¢ NO | fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Grizzlies (-3.5) → Nets | keeptheblueflagflyinghigh $381 | $0 | 51¢ NO | fails: only 1 vetted wallet with $381 (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -1107,6 +1233,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Timberwolves (-14.5) → Timberwolves | keeptheblueflagflyinghigh $7.4k, monkeymashingkeyboard $6.0k | $0 | 55¢ YES | passes |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Timberwolves (-14.5) → Timberwolves | keeptheblueflagflyinghigh $7.4k, monkeymashingkeyboard $6.0k | $0 | 55¢ YES | passes |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Timberwolves (-14.5) → Timberwolves | keeptheblueflagflyinghigh $7.3k, monkeymashingkeyboard $5.9k | $0 | 55¢ YES | passes |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Timberwolves (-14.5) → Timberwolves | keeptheblueflagflyinghigh $7.2k, monkeymashingkeyboard $5.8k | $0 | — | fails: no Kalshi spread market |
@@ -1117,6 +1244,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Gonzaga Bulldogs (-5.5) → Gonzaga Bulldogs | keeptheblueflagflyinghigh $2.4k | $0 | 49¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Gonzaga Bulldogs (-5.5) → Gonzaga Bulldogs | keeptheblueflagflyinghigh $2.4k | $0 | 49¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Gonzaga Bulldogs (-5.5) → Gonzaga Bulldogs | keeptheblueflagflyinghigh $2.4k | $0 | 49¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Gonzaga Bulldogs (-5.5) → Gonzaga Bulldogs | keeptheblueflagflyinghigh $2.4k | $0 | — | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -1134,6 +1262,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Georgia Southern (-6.5) → Georgia Southern | primm $3.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $5.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Georgia Southern (-6.5) → Georgia Southern | primm $3.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $5.4k | $0 | 43¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Georgia Southern (-6.5) → Georgia Southern | primm $3.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -1168,6 +1298,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Liberty (-20.5) → Middle Tennessee | keeptheblueflagflyinghigh $6.3k | $0 | 47¢ NO | fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Liberty (-20.5) → Middle Tennessee | keeptheblueflagflyinghigh $6.4k | $0 | 47¢ NO | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Liberty (-20.5) → Middle Tennessee | keeptheblueflagflyinghigh $6.4k | $0 | 47¢ NO | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Spread: Liberty (-20.5) → Middle Tennessee | keeptheblueflagflyinghigh $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -1184,6 +1315,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Florida Atlantic vs. Tulsa → Tulsa | keeptheblueflagflyinghigh $6.4k | $984 | 68¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 15% |
+| Sat Nov 14, 7:12 PM | hourly | Florida Atlantic vs. Tulsa: O/U 73.5 → Over | keeptheblueflagflyinghigh $2.1k | $0 | 48¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Florida Atlantic vs. Tulsa → Tulsa | keeptheblueflagflyinghigh $6.4k | $984 | 68¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 15% |
 | Sat Nov 14, 6:13 PM | hourly | Florida Atlantic vs. Tulsa: O/U 73.5 → Over | keeptheblueflagflyinghigh $2.1k | $0 | 48¢ YES | fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Florida Atlantic vs. Tulsa → Tulsa | keeptheblueflagflyinghigh $6.4k | $984 | 68¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 15% |
@@ -1199,20 +1332,49 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Vikings vs. Packers → Packers | monkeymashingkeyboard $26.6k | $0 | 59¢ YES | fails: only 1 vetted wallet with $26.6k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 54¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Vikings vs. Packers → Packers | monkeymashingkeyboard $26.4k | $0 | 59¢ YES | fails: only 1 vetted wallet with $26.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 54¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Texas Tech vs. Oklahoma State · starts Sun Nov 15, 2:30 AM
 
+- Sat Nov 14, 7:12 PM (hourly): Texas Tech vs. Oklahoma State: O/U 73.5: Kalshi 52¢ → 50¢
 - Sat Nov 14, 6:13 PM (hourly): Texas Tech vs. Oklahoma State: O/U 73.5: Kalshi 51¢ → 52¢
 - Sat Nov 14, 5:12 PM (hourly): Texas Tech vs. Oklahoma State: O/U 73.5: Kalshi matched at 51¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Texas Tech vs. Oklahoma State: O/U 73.5 → Over | keeptheblueflagflyinghigh $14.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $14.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Texas Tech vs. Oklahoma State: O/U 73.5 → Over | keeptheblueflagflyinghigh $15.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $15.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | hourly | Texas Tech vs. Oklahoma State: O/U 73.5 → Over | keeptheblueflagflyinghigh $13.7k | $0 | 51¢ YES | fails: only 1 vetted wallet with $13.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:14 PM | hourly | Texas Tech vs. Oklahoma State: O/U 73.5 → Over | keeptheblueflagflyinghigh $13.5k | $0 | — | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 3:13 PM | hourly | Texas Tech vs. Oklahoma State: O/U 73.5 → Over | keeptheblueflagflyinghigh $13.5k | $0 | — | fails: only 1 vetted wallet with $13.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+
+### Nuggets vs. Pelicans · starts Sun Nov 15, 12:00 AM
+
+- Sat Nov 14, 7:12 PM (hourly): Nuggets vs. Pelicans: O/U 235.5: first seen: 1 vetted on Under ($608), fails: only 1 vetted wallet with $608 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Nuggets vs. Pelicans: O/U 235.5 → Under | keeptheblueflagflyinghigh $608 | $0 | 50¢ NO | fails: only 1 vetted wallet with $608 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Kennesaw State vs. Sam Houston · starts Sat Nov 14, 7:00 PM
+
+- Sat Nov 14, 6:13 PM (pregame): Spread: Kennesaw State (-7.5): Kalshi 50¢ → 51¢
+- Sat Nov 14, 5:12 PM (hourly): Spread: Kennesaw State (-13.5): Kalshi matched at 38¢
+- Sat Nov 14, 5:12 PM (hourly): Spread: Kennesaw State (-7.5): Kalshi matched at 50¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 PM | pregame | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 PM | pregame | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | 51¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | 38¢ YES | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:12 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | 50¢ YES | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 4:14 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 3:13 PM | hourly | Spread: Kennesaw State (-13.5) → Kennesaw State | primm $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 3:13 PM | hourly | Spread: Kennesaw State (-7.5) → Kennesaw State | primm $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
 ### Arkansas State vs. Coastal Carolina · starts Sat Nov 14, 6:00 PM
 
@@ -1550,18 +1712,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 7:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Mavericks vs. Cavaliers · starts Sun Nov 15, 12:30 AM
-
-- Sat Nov 14, 2:14 PM (hourly): Spread: Cavaliers (-1.5): first seen: 1 vetted on Mavericks ($1.2k), fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 6:13 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.3k | $0 | 59¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 59c vs leaders 53c |
-| Sat Nov 14, 5:12 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.3k | $0 | 58¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 53c |
-| Sat Nov 14, 4:14 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 3:13 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 2:14 PM | hourly | Spread: Cavaliers (-1.5) → Mavericks | keeptheblueflagflyinghigh $1.2k | $0 | 55¢ NO | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Norway vs. Wales - More Markets · starts Sat Nov 14, 5:00 PM
 
@@ -4839,25 +4989,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 4:18 PM | hourly | Will Barrow AFC win on 2026-11-14? → No | Flaznorp $34 | $0 | 38¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 3:23 PM | hourly | Will Barrow AFC win on 2026-11-14? → No | Flaznorp $34 | $0 | 38¢ NO | fails: only 1 vetted wallet with $34 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Northern Ireland vs. Ukraine - More Markets · starts Sat Nov 14, 7:45 PM
-
-- Fri Nov 13, 11:13 PM (hourly): Northern Ireland vs. Ukraine: O/U 0.5: all vetted wallets left Under
-- Fri Nov 13, 11:13 PM (hourly): Spread: Ukraine (-2.5): all vetted wallets left Northern Ireland
-- Fri Nov 13, 11:13 PM (hourly): Northern Ireland vs. Ukraine: O/U 5.5: all vetted wallets left Under
-- Fri Nov 13, 8:17 PM (hourly): Northern Ireland vs. Ukraine: O/U 0.5: first seen: 1 vetted on Under ($28), fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | Flaznorp $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Northern Ireland vs. Ukraine: O/U 5.5 → Under | Flaznorp $25 | $0 | 99¢ NO | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 98¢ outside 5–95¢ |
-| Fri Nov 13, 8:17 PM | hourly | Northern Ireland vs. Ukraine: O/U 0.5 → Under | Flaznorp $28 | $0 | 13¢ NO | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Spread: Ukraine (-2.5) → Northern Ireland | Flaznorp $54 | $0 | 98¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
-
 ### Milwaukee Panthers vs. TCU Horned Frogs · starts Sat Nov 14, 1:00 AM
 
 - Fri Nov 13, 11:13 PM (hourly): Spread: TCU Horned Frogs (-24.5): all vetted wallets left TCU Horned Frogs
@@ -6495,6 +6626,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 49¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 44c |
+| Sat Nov 14, 7:12 PM | hourly | Spread: Washington (-1.5) → Michigan State | primm $535 | $0 | 47¢ NO | fails: only 1 vetted wallet with $535 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 42c |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 49¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 44c |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Washington (-1.5) → Michigan State | primm $524 | $0 | 47¢ NO | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 42c |
 | Sat Nov 14, 5:12 PM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 49¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 49c vs leaders 44c |
@@ -12723,150 +12856,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 8:13 PM | hourly | Will Bonaire vs. Cuba end in a draw? → No | Flaznorp $23 | $0 | 92¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 8:13 PM | hourly | Will Bonaire win on 2026-11-12? → No | Flaznorp $97 | $0 | 96¢ NO | fails: only 1 vetted wallet with $97 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢ |
 
-### Cayman Islands vs. Guyana - More Markets · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 6:13 PM (pregame): Cayman Islands vs. Guyana: O/U 2.5: Kalshi matched at 83¢
-- Thu Nov 12, 3:17 PM (hourly): Cayman Islands vs. Guyana: O/U 0.5: all vetted wallets left Over
-- Thu Nov 12, 2:20 PM (hourly): Cayman Islands vs. Guyana: O/U 2.5: Kalshi 84¢ → 83¢
-- Thu Nov 12, 1:15 PM (hourly): Cayman Islands vs. Guyana: O/U 2.5: Kalshi matched at 84¢
-- Thu Nov 12, 11:14 AM (hourly): Spread: Guyana (-3.5): all vetted wallets left Cayman Islands
-- Thu Nov 12, 11:14 AM (hourly): Cayman Islands vs. Guyana: O/U 2.5: first seen: 1 vetted on Over ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 11:14 AM (hourly): Cayman Islands vs. Guyana: O/U 5.5: Kalshi 26¢ → 30¢
-- Thu Nov 12, 11:14 AM (hourly): Cayman Islands vs. Guyana: O/U 1.5: Kalshi 94¢ → 95¢
-- Thu Nov 12, 10:15 AM (hourly): Cayman Islands vs. Guyana: O/U 5.5: Kalshi 41¢ → 26¢
-- Thu Nov 12, 10:15 AM (hourly): Cayman Islands vs. Guyana: O/U 1.5: Kalshi 95¢ → 94¢
-- Thu Nov 12, 8:12 AM (hourly): Cayman Islands vs. Guyana: O/U 5.5: Kalshi 26¢ → 28¢
-- Thu Nov 12, 8:12 AM (hourly): Cayman Islands vs. Guyana: O/U 1.5: Kalshi 94¢ → 95¢
-- Thu Nov 12, 7:14 AM (hourly): Spread: Guyana (-2.5): all vetted wallets left Cayman Islands
-- Thu Nov 12, 7:14 AM (hourly): Spread: Guyana (-1.5): all vetted wallets left Cayman Islands
-- Thu Nov 12, 6:13 AM (hourly): Cayman Islands vs. Guyana: O/U 5.5: first seen: 1 vetted on Over ($43), fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 6:13 AM (hourly): Spread: Guyana (-1.5): first seen: 1 vetted on Cayman Islands ($54), fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 5:16 AM (hourly): Spread: Guyana (-2.5): Kalshi 33¢ → 35¢
-- Thu Nov 12, 4:15 AM (hourly): Spread: Guyana (-2.5): Kalshi 34¢ → 33¢
-- Thu Nov 12, 3:16 AM (hourly): Cayman Islands vs. Guyana: O/U 1.5: Kalshi matched at 94¢
-- Thu Nov 12, 3:16 AM (hourly): Spread: Guyana (-2.5): Kalshi matched at 34¢
-- Wed Nov 11, 11:17 PM (hourly): Cayman Islands vs. Guyana: O/U 1.5: Kalshi matched at 94¢
-- Wed Nov 11, 11:17 PM (hourly): Spread: Guyana (-2.5): Kalshi matched at 34¢
-- Wed Nov 11, 8:13 PM (hourly): Spread: Guyana (-2.5): Kalshi matched at 31¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 PM | pregame | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $24 | $0 | 83¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 PM | pregame | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $46 | $0 | 28¢ YES | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Thu Nov 12, 6:13 PM | pregame | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 5:15 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 5:15 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 5:15 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | 83¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:16 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $47 | $0 | 29¢ YES | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Thu Nov 12, 4:16 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 3:17 PM | hourly | Cayman Islands vs. Guyana: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:17 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | 83¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:17 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $47 | $0 | 29¢ YES | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Thu Nov 12, 3:17 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 2:20 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | 83¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:20 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $48 | $0 | 29¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Thu Nov 12, 2:20 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 2:20 PM | hourly | Cayman Islands vs. Guyana: O/U 0.5 → Over | Flaznorp $1.5k | $0 | 100¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi market not open |
-| Thu Nov 12, 1:15 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | 84¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 1:15 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $48 | $0 | 29¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 29c vs leaders 25c |
-| Thu Nov 12, 1:15 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 1:15 PM | hourly | Cayman Islands vs. Guyana: O/U 0.5 → Over | Flaznorp $1.5k | $0 | 100¢ YES | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; Kalshi market not open |
-| Thu Nov 12, 12:17 PM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | — | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $48 | $0 | — | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Cayman Islands vs. Guyana: O/U 0.5 → Over | Flaznorp $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 99¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 11:14 AM | hourly | Spread: Guyana (-3.5) → Cayman Islands | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 11:14 AM | hourly | Cayman Islands vs. Guyana: O/U 2.5 → Over | Flaznorp $25 | $0 | 84¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:14 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $49 | $0 | 30¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 25c |
-| Thu Nov 12, 11:14 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 10:15 AM | hourly | Spread: Guyana (-3.5) → Cayman Islands | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Thu Nov 12, 10:15 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $43 | $0 | 26¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:15 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:12 AM | hourly | Spread: Guyana (-3.5) → Cayman Islands | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Thu Nov 12, 9:12 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $43 | $0 | 41¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 41c vs leaders 25c |
-| Thu Nov 12, 9:12 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 8:12 AM | hourly | Spread: Guyana (-3.5) → Cayman Islands | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 3.5 spread line |
-| Thu Nov 12, 8:12 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $43 | $0 | 28¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 28c vs leaders 25c |
-| Thu Nov 12, 8:12 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Thu Nov 12, 7:14 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 7:14 AM | hourly | Spread: Guyana (-1.5) → Cayman Islands | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 7:14 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $43 | $0 | 26¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:14 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Cayman Islands vs. Guyana: O/U 5.5 → Over | Flaznorp $43 | $0 | 26¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $53 | $0 | 94¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Spread: Guyana (-1.5) → Cayman Islands | Flaznorp $54 | $0 | 18¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $131 | $0 | 35¢ NO | fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $121 | $0 | 35¢ NO | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $121 | $0 | 33¢ NO | fails: only 1 vetted wallet with $121 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $53 | $0 | 94¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $116 | $0 | 34¢ NO | fails: only 1 vetted wallet with $116 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 2:13 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | — | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | 34¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 94¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | 34¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 10:14 PM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | — | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Wed Nov 11, 9:14 PM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | 31¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | 95¢ YES | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 92c |
-| Wed Nov 11, 8:13 PM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $112 | $0 | 31¢ NO | fails: only 1 vetted wallet with $112 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Cayman Islands vs. Guyana: O/U 1.5 → Over | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 7:17 PM | hourly | Spread: Guyana (-2.5) → Cayman Islands | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Lima: Franco Roncadelli vs Francisco Comesana · starts Thu Nov 12, 6:50 PM
-
-- Thu Nov 12, 6:13 PM (pregame): Lima: Franco Roncadelli vs Francisco Comesana: first seen: 1 vetted on Franco Roncadelli ($187), fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 PM | pregame | Lima: Franco Roncadelli vs Francisco Comesana → Franco Roncadelli | Flaznorp $187 | $0 | 23¢ YES | fails: only 1 vetted wallet with $187 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Skyliners Frankfurt vs. Maxima Roma · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 6:13 PM (pregame): Skyliners Frankfurt vs. Maxima Roma: Kalshi matched at 37¢
-- Thu Nov 12, 4:16 PM (hourly): Skyliners Frankfurt vs. Maxima Roma: first seen: 1 vetted on Skyliners Frankfurt ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 PM | pregame | Skyliners Frankfurt vs. Maxima Roma → Skyliners Frankfurt | tradecraft $8 | $0 | 37¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:15 PM | hourly | Skyliners Frankfurt vs. Maxima Roma → Skyliners Frankfurt | tradecraft $9 | $0 | — | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Skyliners Frankfurt vs. Maxima Roma → Skyliners Frankfurt | tradecraft $8 | $0 | 42¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Ivory Coast vs. Gambia · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 3:17 PM (hourly): Will Gambia win on 2026-11-12?: all vetted wallets left No
-- Thu Nov 12, 3:17 PM (hourly): Will Ivory Coast win on 2026-11-12?: back: 1 vetted on No ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Thu Nov 12, 12:17 AM (hourly): Will Ivory Coast win on 2026-11-12?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 PM | pregame | Will Ivory Coast win on 2026-11-12? → No | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 5:15 PM | hourly | Will Ivory Coast win on 2026-11-12? → No | Flaznorp $94 | $0 | — | fails: only 1 vetted wallet with $94 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Will Ivory Coast win on 2026-11-12? → No | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 3:17 PM | hourly | Will Gambia win on 2026-11-12? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:17 PM | hourly | Will Ivory Coast win on 2026-11-12? → No | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 2:20 PM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 1:15 PM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 11:14 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 10:15 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 9:12 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 8:12 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 7:14 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $127 | $0 | — | fails: only 1 vetted wallet with $127 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 6:13 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 5:16 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:15 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $114 | $0 | — | fails: only 1 vetted wallet with $114 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 3:16 AM | hourly | Will Gambia win on 2026-11-12? → No | Flaznorp $113 | $0 | — | fails: only 1 vetted wallet with $113 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Will Ivory Coast win on 2026-11-12? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 11:17 PM | hourly | Will Ivory Coast win on 2026-11-12? → Yes | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 10:14 PM | hourly | Will Ivory Coast win on 2026-11-12? → Yes | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Will Ivory Coast win on 2026-11-12? → Yes | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Basquete Osasco vs. Mogi das Cruzes · starts Thu Nov 12, 11:00 PM
 
 - Thu Nov 12, 2:20 PM (hourly): Basquete Osasco vs. Mogi das Cruzes: all vetted wallets left Mogi das Cruzes
@@ -12888,34 +12877,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 2:13 AM | hourly | Basquete Osasco vs. Mogi das Cruzes → Mogi das Cruzes | Flaznorp $166 | $0 | — | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 12, 12:17 AM | hourly | Basquete Osasco vs. Mogi das Cruzes → Mogi das Cruzes | Flaznorp $166 | $0 | 89¢ YES | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 84c |
 | Wed Nov 11, 11:17 PM | hourly | Basquete Osasco vs. Mogi das Cruzes → Mogi das Cruzes | Flaznorp $166 | $0 | 89¢ YES | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 89c vs leaders 84c |
-
-### Senegal vs. Sudan · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 6:13 PM (pregame): Will Senegal win on 2026-11-12?: back: 1 vetted on No ($143), fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found
-- Thu Nov 12, 2:20 PM (hourly): Will Senegal win on 2026-11-12?: all vetted wallets left Yes
-- Thu Nov 12, 1:15 PM (hourly): Will Sudan win on 2026-11-12?: back: 1 vetted on Yes ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found
-- Thu Nov 12, 3:16 AM (hourly): Will Sudan win on 2026-11-12?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 PM | pregame | Will Senegal win on 2026-11-12? → No | Flaznorp $143 | $0 | — | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 6:13 PM | pregame | Will Sudan win on 2026-11-12? → No | tradecraft $74 | $13 | — | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+); opposition 18%; Polymarket price 98¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 5:15 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 3:17 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 2:20 PM | hourly | Will Senegal win on 2026-11-12? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 2:20 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 1:15 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 2¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 1:15 PM | hourly | Will Senegal win on 2026-11-12? → Yes | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet with $228 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Will Senegal win on 2026-11-12? → Yes | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet with $228 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 11:14 AM | hourly | Will Senegal win on 2026-11-12? → Yes | Flaznorp $228 | $0 | — | fails: only 1 vetted wallet with $228 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 3:16 AM | hourly | Will Sudan win on 2026-11-12? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 12:17 AM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
-| Wed Nov 11, 11:17 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
-| Wed Nov 11, 10:14 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
-| Wed Nov 11, 8:13 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
-| Wed Nov 11, 7:17 PM | hourly | Will Sudan win on 2026-11-12? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 3¢ outside 5–95¢; no Kalshi game found |
 
 ### England Tour of Australia ODIs: Australia vs England · starts Fri Nov 13, 3:30 AM
 
@@ -13012,19 +12973,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 10:15 AM | hourly | Will Central African Republic win on 2026-11-12? → No | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 12, 9:12 AM | hourly | Will Central African Republic win on 2026-11-12? → No | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Cayman Islands vs. Guyana - Halftime Result · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 11:14 AM (hourly): Cayman Islands leading at halftime?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 11:14 AM | hourly | Cayman Islands leading at halftime? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 10:15 AM | hourly | Cayman Islands leading at halftime? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
-| Thu Nov 12, 9:12 AM | hourly | Cayman Islands leading at halftime? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
-| Thu Nov 12, 8:12 AM | hourly | Cayman Islands leading at halftime? → Yes | Flaznorp $4 | $0 | — | fails: only 1 vetted wallet with $4 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢; market type not supported |
-| Thu Nov 12, 7:14 AM | hourly | Cayman Islands leading at halftime? → Yes | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Thu Nov 12, 6:13 AM | hourly | Cayman Islands leading at halftime? → Yes | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
 ### Real Madrid vs. KK Crvena Zvezda · starts Thu Nov 12, 8:00 PM
 
 - Thu Nov 12, 10:15 AM (hourly): Real Madrid vs. KK Crvena Zvezda: O/U 172.5: all vetted wallets left Under
@@ -13062,20 +13010,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 11:17 PM | hourly | Will Aurora FC win on 2026-11-13? → Yes | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Wed Nov 11, 10:14 PM | hourly | Will Aurora FC win on 2026-11-13? → Yes | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Barbados vs. Guadeloupe - More Markets · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 8:12 AM (hourly): Barbados vs. Guadeloupe: O/U 3.5: all vetted wallets left Under
-- Thu Nov 12, 7:14 AM (hourly): Barbados vs. Guadeloupe: O/U 3.5: first seen: 1 vetted on Under ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 4:15 AM (hourly): Barbados vs. Guadeloupe: Barbados O/U 3.5: all vetted wallets left Over
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 8:12 AM | hourly | Barbados vs. Guadeloupe: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 7:14 AM | hourly | Barbados vs. Guadeloupe: O/U 3.5 → Under | Flaznorp $33 | $0 | 66¢ NO | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Barbados vs. Guadeloupe: Barbados O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:16 AM | hourly | Barbados vs. Guadeloupe: Barbados O/U 3.5 → Over | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Thu Nov 12, 2:13 AM | hourly | Barbados vs. Guadeloupe: Barbados O/U 3.5 → Over | Flaznorp $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Monmouth Hawks vs. Quinnipiac Bobcats · starts Fri Nov 13, 12:00 AM
 
 - Thu Nov 12, 8:12 AM (hourly): Monmouth Hawks vs. Quinnipiac Bobcats: O/U 146.5: all vetted wallets left Under
@@ -13086,28 +13020,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 8:12 AM | hourly | Monmouth Hawks vs. Quinnipiac Bobcats: O/U 146.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Thu Nov 12, 7:14 AM | hourly | Monmouth Hawks vs. Quinnipiac Bobcats: O/U 146.5 → Under | Flaznorp $27 | $0 | 56¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 6:13 AM | hourly | Monmouth Hawks vs. Quinnipiac Bobcats: O/U 146.5 → Under | Flaznorp $27 | $0 | 56¢ NO | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Cayman Islands vs. Guyana · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 7:14 AM (hourly): Will Guyana win on 2026-11-12?: all vetted wallets left No
-- Thu Nov 12, 3:16 AM (hourly): Will Guyana win on 2026-11-12?: Kalshi matched at 7¢
-- Wed Nov 11, 11:17 PM (hourly): Will Guyana win on 2026-11-12?: Kalshi matched at 7¢
-- Wed Nov 11, 8:13 PM (hourly): Will Guyana win on 2026-11-12?: Kalshi matched at 6¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 7:14 AM | hourly | Will Guyana win on 2026-11-12? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 6:13 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $54 | $0 | 7¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $48 | $0 | 7¢ NO | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $48 | $0 | 7¢ NO | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 7¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 7¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 7¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 6¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 6¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### AA Ponte Preta vs. Operário Ferroviário EC · starts Thu Nov 12, 10:00 PM
 
@@ -13135,21 +13047,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 2:13 AM | hourly | Will Trinidad and Tobago win on 2026-11-12? → No | Flaznorp $30 | $0 | — | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 12, 12:17 AM | hourly | Will Trinidad and Tobago win on 2026-11-12? → No | Flaznorp $30 | $0 | 27¢ NO | fails: only 1 vetted wallet with $30 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 11:17 PM | hourly | Will Trinidad and Tobago win on 2026-11-12? → No | Flaznorp $26 | $0 | 27¢ NO | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Cameroon vs. Namibia - More Markets · starts Thu Nov 12, 7:00 PM
-
-- Thu Nov 12, 3:16 AM (hourly): Cameroon vs. Namibia: O/U 1.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 3:16 AM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 2:13 AM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 11:17 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 10:14 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 8:13 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 7:17 PM | hourly | Cameroon vs. Namibia: O/U 1.5 → Under | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### WTA Finals, Group A: Marta Kostyuk vs Coco Gauff · starts Thu Nov 12, 8:00 PM
 
@@ -13183,12 +13080,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 0-0 (1 pending) | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 4-11 (28 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 18-23 (9 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 4-11 (33 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 18-25 (12 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 6-7 (3 pending) | benched |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 2-4 (9 pending) | benched |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 2-4 (10 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 213-156 (80 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 213-156 (81 pending) | benched |
 | monkeymashingkeyboard | trader: 104 trades per market (median), up to 108 | Fri Nov 13, 7:13 AM | 10-3 | released Sat Nov 14, 4:10 AM: shadow picks won 67% of 6 games at an average price of 45¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
@@ -13197,6 +13094,17 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Sat Nov 14, 7:12 PM | Northern Ireland vs. Ukraine - More Markets | Northern Ireland vs. Ukraine: O/U 1.5 → Over | only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva | WTA Finals, Group A: Jessica Pegula vs Mirra Andreeva → Jessica Pegula | only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Austria vs. Republic of Ireland - More Markets | Austria vs. Republic of Ireland: O/U 2.5 → Under | only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Portugal vs. Denmark - More Markets | Portugal vs. Denmark: O/U 2.5 → Under | only 1 vetted wallet with $287 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Portugal vs. Denmark - More Markets | Portugal vs. Denmark: O/U 3.5 → Under | only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Sweden vs. Bosnia and Herzegovina - More Markets | Sweden vs. Bosnia and Herzegovina: O/U 2.5 → Under | only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Sweden vs. Bosnia and Herzegovina - More Markets | Sweden vs. Bosnia and Herzegovina: O/U 3.5 → Under | only 1 vetted wallet with $29.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Florida International vs. Delaware | Spread: Delaware (-4.5) → Florida International | only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Florida International vs. Delaware | Florida International vs. Delaware: O/U 51.5 → Over | only 1 vetted wallet with $583 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Florida International vs. Delaware | Spread: Delaware (-3.5) → Florida International | only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:12 PM | Tennessee vs. Texas A&M | Spread: Tennessee (-1.5) → Tennessee | only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | only 1 vetted wallet with $184.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | Loyola Chicago Ramblers vs. Colorado State Rams | Spread: Colorado State Rams (-9.5) → Loyola Chicago Ramblers | only 1 vetted wallet with $185 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 9.5 spread line |
 | Sat Nov 14, 6:13 PM | Kennesaw State vs. Sam Houston | Spread: Kennesaw State (-13.5) → Kennesaw State | only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -13216,14 +13124,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Sat Nov 14, 5:12 PM | Alabama vs. Vanderbilt | Alabama vs. Vanderbilt: O/U 49.5 → Under | only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | Alabama vs. Vanderbilt | Alabama vs. Vanderbilt → Alabama | only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:12 PM | Alabama vs. Vanderbilt | Spread: Alabama (-14.5) → Vanderbilt | only 1 vetted wallet with $25.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | Arkansas State vs. Coastal Carolina | Arkansas State vs. Coastal Carolina: O/U 51.5 → Over | only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | Arkansas State vs. Coastal Carolina | Arkansas State vs. Coastal Carolina: O/U 53.5 → Over | only 1 vetted wallet with $599 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:12 PM | Arkansas State vs. Coastal Carolina | Arkansas State vs. Coastal Carolina → Coastal Carolina | only 1 vetted wallet with $10.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | Norway vs. Wales - More Markets | Norway vs. Wales: O/U 3.5 → Over | only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 14, 4:14 PM | Georgia vs. Hungary - More Markets | Georgia vs. Hungary: O/U 2.5 → Under | only 1 vetted wallet with $14.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 14, 4:14 PM | Wake Forest vs. SMU | Wake Forest vs. SMU: O/U 59.5 → Over | only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 64%; no Kalshi totals market |
-| Sat Nov 14, 4:14 PM | James Madison vs. UConn | Spread: James Madison (-5.5) → UConn | only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 4:14 PM | Duke vs. Miami (FL) | Duke vs. Miami (FL) → Miami (FL) | only 1 vetted wallet with $145 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:14 PM | Cincinnati vs. Iowa State | Cincinnati vs. Iowa State: O/U 57.5 → Under | only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sat Nov 14, 4:14 PM | Northwestern vs. Ohio State | Spread: Ohio State (-13.5) → Northwestern | no Kalshi spread market |
-| Sat Nov 14, 4:14 PM | Syracuse vs. NC State | Syracuse vs. NC State: O/U 53.5 → Under | only 1 vetted wallet with $13.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
