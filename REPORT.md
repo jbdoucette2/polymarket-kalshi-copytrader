@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 7:10 AM. Bankroll **$103.41** (start $100): $103.41 cash + open trades at cost.
+Updated Sat Nov 14, 8:11 AM. Bankroll **$103.41** (start $100): $103.41 cash + open trades at cost.
 
 Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 0.
 
@@ -155,10 +155,10 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Jsram | 5 | 80% | 52¢ | +28 pts |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | BreakTheBank (benched) | 22 | 64% | 47¢ | +16 pts |
-| monkeymashingkeyboard | 63 | 60% | 50¢ | +10 pts |
+| monkeymashingkeyboard | 64 | 61% | 50¢ | +11 pts |
 | keeptheblueflagflyinghigh | 99 | 59% | 54¢ | +5 pts |
 | Flaznorp (benched) | 676 | 63% | 58¢ | +4 pts |
-| HomeRunHazard (benched) | 368 | 58% | 54¢ | +4 pts |
+| HomeRunHazard (benched) | 369 | 58% | 54¢ | +4 pts |
 | gmpm2 | 28 | 57% | 54¢ | +3 pts |
 | primm | 37 | 54% | 53¢ | +1 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
@@ -173,40 +173,111 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Nevada vs. Northern Illinois · starts Sat Nov 14, 8:30 PM
+### UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) · starts Sat Nov 14, 10:00 PM
 
-- Sat Nov 14, 7:10 AM (hourly): Spread: Nevada (-5.5): Kalshi matched at 50¢
-- Sat Nov 14, 7:10 AM (hourly): Spread: Nevada (-6.5): Kalshi matched at 53¢
-- Fri Nov 13, 11:13 PM (hourly): Spread: Nevada (-5.5): Kalshi matched at 50¢
-- Fri Nov 13, 11:13 PM (hourly): Spread: Nevada (-6.5): Kalshi matched at 52¢
+- Sat Nov 14, 8:11 AM (hourly): UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card): all vetted wallets left Yousri Belgaroui
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 7:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 7:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 53¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 4:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 3:11 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 3:11 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 2:11 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 2:11 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:13 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:13 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:15 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 10:15 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.3k | $0 | — | fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 8:11 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 7:10 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.5k | $0 | — | fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | UFC 334: Caio Borralho vs. Yousri Belgaroui (Middleweight, Main Card) → Yousri Belgaroui | BreakTheBank $1.4k | $0 | — | fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) · starts Sat Nov 14, 10:00 PM
+
+- Sat Nov 14, 8:11 AM (hourly): UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card): all vetted wallets left Uroš Medic
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 7:10 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | UFC 334: Kevin Holland vs. Uroš Medic (Welterweight, Main Card) → Uroš Medic | BreakTheBank $1.2k | $0 | — | fails: only 1 vetted wallet with $1.2k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) · starts Sat Nov 14, 10:00 PM
+
+- Sat Nov 14, 8:11 AM (hourly): UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card): all vetted wallets left Kayla Harrison
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 7:10 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### UFC 334: Josh Hokit vs. Ciryl Gane (Heavyweight, Main Card) · starts Sat Nov 14, 10:00 PM
+
+- Sat Nov 14, 8:11 AM (hourly): Will Josh Hokit win in Round 3?: all vetted wallets left No
+- Sat Nov 14, 8:11 AM (hourly): Will Josh Hokit win in Round 1?: all vetted wallets left No
+- Sat Nov 14, 8:11 AM (hourly): Will Ciryl Gane win in Round 2?: all vetted wallets left No
+- Sat Nov 14, 8:11 AM (hourly): Will Ciryl Gane win in Round 3?: all vetted wallets left No
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Will Josh Hokit win in Round 3? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 8:11 AM | hourly | Will Josh Hokit win in Round 1? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 8:11 AM | hourly | Will Ciryl Gane win in Round 2? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 8:11 AM | hourly | Will Ciryl Gane win in Round 3? → No | none | $0 | — | fails: no vetted wallets hold it now |
+| Sat Nov 14, 7:10 AM | hourly | Will Josh Hokit win in Round 1? → No | BreakTheBank $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 7:10 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 7:10 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $264 | $0 | — | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 7:10 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | Will Josh Hokit win in Round 1? → No | BreakTheBank $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $264 | $0 | — | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 6:13 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | Will Josh Hokit win in Round 1? → No | BreakTheBank $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $263 | $0 | — | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | Will Josh Hokit win in Round 1? → No | BreakTheBank $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $263 | $0 | — | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 4:10 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $263 | $0 | — | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 3:11 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $263 | $0 | — | fails: only 1 vetted wallet with $263 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 2:11 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 1:13 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 12:10 AM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 11:13 PM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | Will Ciryl Gane win in Round 2? → No | BreakTheBank $89 | $0 | — | fails: only 1 vetted wallet with $89 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | Will Ciryl Gane win in Round 3? → No | BreakTheBank $106 | $0 | — | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Fri Nov 13, 10:15 PM | hourly | Will Josh Hokit win in Round 3? → No | BreakTheBank $609 | $0 | — | fails: only 1 vetted wallet with $609 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Auburn vs. Mississippi State · starts Sat Nov 14, 9:15 PM
 
+- Sat Nov 14, 8:11 AM (hourly): Auburn vs. Mississippi State: O/U 49.5: Kalshi 55¢ → 56¢
 - Sat Nov 14, 7:10 AM (hourly): Auburn vs. Mississippi State: O/U 49.5: Kalshi matched at 55¢
 - Sat Nov 14, 7:10 AM (hourly): Spread: Auburn (-4.5): Kalshi matched at 42¢
 - Sat Nov 14, 7:10 AM (hourly): Auburn vs. Mississippi State: O/U 51.5: Kalshi matched at 50¢
@@ -216,6 +287,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $264 | $0 | 56¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Auburn (-4.5) → Auburn | primm $282 | $0 | 42¢ YES | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | 50¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $264 | $0 | 55¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Auburn (-4.5) → Auburn | primm $282 | $0 | 42¢ YES | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | 50¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -258,6 +332,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | — | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -285,6 +360,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | 41¢ YES | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Spread: East Carolina (-13.5) → East Carolina | primm $520 | $0 | 45¢ YES | fails: only 1 vetted wallet with $520 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | 41¢ YES | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: East Carolina (-13.5) → East Carolina | primm $520 | $0 | 45¢ YES | fails: only 1 vetted wallet with $520 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | — | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -313,6 +390,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | — | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -327,12 +405,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Duke vs. Miami (FL) · starts Sat Nov 14, 5:00 PM
 
+- Sat Nov 14, 8:11 AM (hourly): Spread: Miami (FL) (-14.5): Kalshi 46¢ → 47¢
 - Sat Nov 14, 7:10 AM (hourly): Spread: Miami (FL) (-14.5): Kalshi matched at 46¢
 - Sat Nov 14, 5:10 AM (hourly): Spread: Miami (FL) (-14.5): Kalshi 47¢ → 46¢
 - Fri Nov 13, 11:13 PM (hourly): Spread: Miami (FL) (-14.5): Kalshi matched at 47¢
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 47¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 46¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | — | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 46¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -353,6 +433,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 48¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 48¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | — | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 48¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -371,6 +452,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | — | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -392,6 +474,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | 48¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Ohio State (-11.5) → Northwestern | primm $52 | $0 | 45¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | 48¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Ohio State (-11.5) → Northwestern | primm $52 | $0 | 45¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -426,6 +510,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $52 | $0 | 48¢ YES | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $52 | $0 | 48¢ YES | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -452,6 +538,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -469,6 +556,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -480,13 +568,78 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 11:13 PM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 10:15 PM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
+### Nevada vs. Northern Illinois · starts Sat Nov 14, 8:30 PM
+
+- Sat Nov 14, 7:10 AM (hourly): Spread: Nevada (-5.5): Kalshi matched at 50¢
+- Sat Nov 14, 7:10 AM (hourly): Spread: Nevada (-6.5): Kalshi matched at 53¢
+- Fri Nov 13, 11:13 PM (hourly): Spread: Nevada (-5.5): Kalshi matched at 50¢
+- Fri Nov 13, 11:13 PM (hourly): Spread: Nevada (-6.5): Kalshi matched at 52¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 53¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 53¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 4:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 3:11 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 3:11 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 2:11 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 2:11 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 1:13 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 1:13 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 12:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 12:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 11:13 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 11:13 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Fri Nov 13, 10:15 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 13, 10:15 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 13, 9:14 PM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.3k | $0 | — | fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Fri Nov 13, 9:14 PM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina · starts Sat Nov 14, 9:30 PM
+
+- Sat Nov 14, 7:10 AM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: Kalshi matched at 62¢
+- Sat Nov 14, 5:10 AM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: first seen: 1 vetted on Linda Noskova ($518), fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $674 | $0 | 62¢ YES | fails: only 1 vetted wallet with $674 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 7:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $663 | $0 | 62¢ YES | fails: only 1 vetted wallet with $663 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 6:13 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $521 | $0 | — | fails: only 1 vetted wallet with $521 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+| Sat Nov 14, 5:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $518 | $0 | 62¢ YES | fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs · starts Sat Nov 14, 7:00 PM
+
+- Sat Nov 14, 8:11 AM (hourly): LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs: first seen: 1 vetted on Gen.G ($93.8k), fails: only 1 vetted wallet with $93.8k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G | robloxgamblemaster-2008-10-18 $93.8k | $0 | 63¢ YES | fails: only 1 vetted wallet with $93.8k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs · starts Sat Nov 14, 10:30 AM
+
+- Sat Nov 14, 8:11 AM (hourly): Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs: first seen: 1 vetted on Team Falcons ($135.9k), fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons | robloxgamblemaster-2008-10-18 $135.9k | $0 | 49¢ YES | fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Kraken vs. Hurricanes · starts Sat Nov 14, 6:00 PM
 
+- Sat Nov 14, 8:11 AM (hourly): Kraken vs. Hurricanes: Kalshi 78¢ → 79¢
 - Sat Nov 14, 7:10 AM (hourly): Spread: Hurricanes (-2.5): first seen: 1 vetted on Hurricanes ($96), fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)
 - Sat Nov 14, 7:10 AM (hourly): Kraken vs. Hurricanes: first seen: 1 vetted on Hurricanes ($33.3k), fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Hurricanes (-2.5) → Hurricanes | keeptheblueflagflyinghigh $96 | $0 | 44¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 8:11 AM | hourly | Kraken vs. Hurricanes → Hurricanes | keeptheblueflagflyinghigh $33.3k | $0 | 79¢ YES | fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Hurricanes (-2.5) → Hurricanes | keeptheblueflagflyinghigh $96 | $0 | 44¢ YES | fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Kraken vs. Hurricanes → Hurricanes | keeptheblueflagflyinghigh $33.3k | $0 | 78¢ YES | fails: only 1 vetted wallet with $33.3k (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -497,6 +650,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 14, 5:10 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -511,6 +665,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Nebraska vs. Rutgers: O/U 51.5 → Over | keeptheblueflagflyinghigh $3.4k | $0 | 50¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Nebraska vs. Rutgers: O/U 51.5 → Over | keeptheblueflagflyinghigh $3.4k | $0 | 50¢ YES | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Nebraska vs. Rutgers: O/U 51.5 → Over | keeptheblueflagflyinghigh $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
@@ -520,20 +675,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina · starts Sat Nov 14, 9:30 PM
-
-- Sat Nov 14, 7:10 AM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: Kalshi matched at 62¢
-- Sat Nov 14, 5:10 AM (hourly): WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina: first seen: 1 vetted on Linda Noskova ($518), fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 7:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $663 | $0 | 62¢ YES | fails: only 1 vetted wallet with $663 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 6:13 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $521 | $0 | — | fails: only 1 vetted wallet with $521 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sat Nov 14, 5:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $518 | $0 | 62¢ YES | fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Georgia vs. Hungary - More Markets · starts Sat Nov 14, 5:00 PM
 
@@ -543,6 +688,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Georgia vs. Hungary: O/U 2.5 → Under | keeptheblueflagflyinghigh $10.7k | $0 | 62¢ NO | fails: only 1 vetted wallet with $10.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 7:10 AM | hourly | Georgia vs. Hungary: O/U 2.5 → Under | keeptheblueflagflyinghigh $10.7k | $0 | 62¢ NO | fails: only 1 vetted wallet with $10.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 AM | hourly | Georgia vs. Hungary: O/U 2.5 → Over | keeptheblueflagflyinghigh $237 | $0 | — | fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 11:13 PM | hourly | Georgia vs. Hungary: O/U 5.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
@@ -5314,6 +5460,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 48¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
+| Sat Nov 14, 8:11 AM | hourly | Spread: Washington (-1.5) → Michigan State | primm $524 | $0 | 46¢ NO | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 48¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
 | Sat Nov 14, 7:10 AM | hourly | Spread: Washington (-1.5) → Michigan State | primm $524 | $0 | 46¢ NO | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
 | Sat Nov 14, 6:13 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -13655,58 +13803,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Wed Nov 11, 8:13 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | 6¢ NO | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 11, 7:17 PM | hourly | Will Guyana win on 2026-11-12? → No | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### W35 Heraklion: Marianna Argyrokastriti vs Anastasija Cvetkovic · starts Thu Nov 12, 7:30 AM
-
-- Thu Nov 12, 6:13 AM (hourly): W35 Heraklion: Marianna Argyrokastriti vs Anastasija Cvetkovic: first seen: 1 vetted on Marianna Argyrokastriti ($11), fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 7:14 AM | pregame | W35 Heraklion: Marianna Argyrokastriti vs Anastasija Cvetkovic → Marianna Argyrokastriti | Flaznorp $11 | $0 | 34¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | W35 Heraklion: Marianna Argyrokastriti vs Anastasija Cvetkovic → Marianna Argyrokastriti | Flaznorp $11 | $0 | 34¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato · starts Thu Nov 12, 8:00 AM
-
-- Thu Nov 12, 6:13 AM (hourly): Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato: Kalshi 58¢ → 59¢
-- Thu Nov 12, 3:16 AM (hourly): Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato: Kalshi matched at 58¢
-- Wed Nov 11, 11:17 PM (hourly): Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato: Kalshi matched at 58¢
-- Wed Nov 11, 9:14 PM (hourly): Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato: Kalshi 94¢ → 58¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 7:14 AM | pregame | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $104 | $0 | 59¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $81 | $0 | 59¢ YES | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 58¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Hersonissos 3: Michele Ribecai vs Carlo Alberto Caniato → Carlo Alberto Caniato | Flaznorp $56 | $0 | 94¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 94c vs leaders 56c |
-
-### Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas · starts Thu Nov 12, 8:00 AM
-
-- Thu Nov 12, 6:13 AM (hourly): Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas: Kalshi 57¢ → 58¢
-- Thu Nov 12, 3:16 AM (hourly): Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas: Kalshi matched at 57¢
-- Wed Nov 11, 11:17 PM (hourly): Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas: Kalshi matched at 58¢
-- Wed Nov 11, 9:14 PM (hourly): Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas: Kalshi 95¢ → 58¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 7:14 AM | pregame | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $105 | $0 | 58¢ YES | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 58¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 57¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 57¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 57¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 58¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 58¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 9:14 PM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 58¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | 95¢ YES | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 95c vs leaders 55c |
-| Wed Nov 11, 7:17 PM | hourly | Hersonissos 3: Lorenzo Carboni vs Ioannis Xilas → Ioannis Xilas | Flaznorp $20 | $0 | — | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### AA Ponte Preta vs. Operário Ferroviário EC · starts Thu Nov 12, 10:00 PM
 
 - Thu Nov 12, 6:13 AM (hourly): Will Operário Ferroviário EC win on 2026-11-14?: all vetted wallets left Yes
@@ -13818,14 +13914,14 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 0-0 | benched |
+| BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 0-0 (1 pending) | benched |
 | Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 2-5 (13 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 16-21 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 6-7 (1 pending) | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 (8 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 213-155 (48 pending) | benched |
-| monkeymashingkeyboard | trader: 104 trades per market (median), up to 108 | Fri Nov 13, 7:13 AM | 9-3 | released Sat Nov 14, 4:10 AM: shadow picks won 67% of 6 games at an average price of 45¢ |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 213-156 (48 pending) | benched |
+| monkeymashingkeyboard | trader: 104 trades per market (median), up to 108 | Fri Nov 13, 7:13 AM | 10-3 | released Sat Nov 14, 4:10 AM: shadow picks won 67% of 6 games at an average price of 45¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 

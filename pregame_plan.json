@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-14T07:10:55Z",
+  "updated": "2026-11-14T08:11:35Z",
   "games": [
+    {
+      "event_slug": "cs2-furia-fal2-2026-11-14",
+      "game": "Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs",
+      "start": "2026-11-14T10:30:00Z",
+      "check_at": "2026-11-14T10:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons ($135.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "atp-fritz-tirante-2026-11-14",
       "game": "BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante",
@@ -122,6 +132,16 @@
       "status": "fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "lol-blg-gen-2026-11-14",
+      "game": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
+      "start": "2026-11-14T19:00:00Z",
+      "check_at": "2026-11-14T18:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs → Gen.G ($93.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $93.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "cfb-nevada-nill-2026-11-14",
       "game": "Nevada vs. Northern Illinois",
       "start": "2026-11-14T20:30:00Z",
@@ -168,8 +188,8 @@
       "check_at": "2026-11-14T21:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova ($663, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $663 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova ($674, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $674 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-applst-marsh-2026-11-14",
