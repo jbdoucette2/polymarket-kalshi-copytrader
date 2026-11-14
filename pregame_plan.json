@@ -1,75 +1,15 @@
 {
-  "updated": "2026-11-13T23:13:27Z",
+  "updated": "2026-11-14T00:10:56Z",
   "games": [
     {
-      "event_slug": "fif-ecu-cri-2026-11-13",
-      "game": "Ecuador vs. Costa Rica",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Will Ecuador vs. Costa Rica end in a draw? → No ($42, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-nyk-ind-2026-11-13",
-      "game": "Knicks vs. Pacers",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
+      "event_slug": "nba-atl-chi-2026-11-13",
+      "game": "Hawks vs. Bulls",
+      "start": "2026-11-14T01:00:00Z",
+      "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spread: Knicks (-6.5) → Pacers ($19.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $19.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-flst-pitt-2026-11-13",
-      "game": "Florida State vs. Pittsburgh",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 4,
-      "best": "Spread: Pittsburgh (-5.5) → Pittsburgh ($966, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $966 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-mil-orl-2026-11-13",
-      "game": "Bucks vs. Magic",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Magic (-8.5) → Magic ($5.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "conl-msr-nca-2026-11-13",
-      "game": "Montserrat vs. Nicaragua",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Montserrat win on 2026-11-13? → Yes ($8, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "fif-col-chl-2026-11-13-more-markets",
-      "game": "Colombia vs. Chile - More Markets",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Colombia (-1.5) → Colombia ($5.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "fif-ecu-cri-2026-11-13-more-markets",
-      "game": "Ecuador vs. Costa Rica - More Markets",
-      "start": "2026-11-14T00:00:00Z",
-      "check_at": "2026-11-13T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Ecuador (-1.5) → Costa Rica ($484, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $484 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Hawks (-6.5) → Bulls ($13.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $13.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cle-mia-2026-11-13",
@@ -78,18 +18,8 @@
       "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Cavaliers vs. Heat → Cavaliers ($44, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-atl-chi-2026-11-13",
-      "game": "Hawks vs. Bulls",
-      "start": "2026-11-14T01:00:00Z",
-      "check_at": "2026-11-14T00:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Hawks (-6.5) → Bulls ($13.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cavaliers vs. Heat → Cavaliers ($83, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mem-nop-2026-11-13",
@@ -97,9 +27,19 @@
       "start": "2026-11-14T01:00:00Z",
       "check_at": "2026-11-14T00:45:00Z",
       "passing": 0,
-      "near": 4,
-      "best": "Grizzlies vs. Pelicans → Pelicans ($26.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $26.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 5,
+      "best": "Grizzlies vs. Pelicans → Pelicans ($25.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $25.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "fif-per-bol-2026-11-13",
+      "game": "Peru vs. Bolivia",
+      "start": "2026-11-14T01:00:00Z",
+      "check_at": "2026-11-14T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Will Peru win on 2026-11-13? → Yes ($25, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-cark-ark-2026-11-13",
@@ -120,16 +60,6 @@
       "near": 2,
       "best": "Spread: Rockets (-15.5) → Rockets ($21.8k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "conl-gua-can-2026-11-13",
-      "game": "Guatemala vs. Canada",
-      "start": "2026-11-14T02:00:00Z",
-      "check_at": "2026-11-14T01:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will Canada win on 2026-11-13? → Yes ($75, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $75 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ill-ucla-2026-11-13",
@@ -167,9 +97,9 @@
       "start": "2026-11-14T02:30:00Z",
       "check_at": "2026-11-14T02:15:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Spread: Spurs (-11.5) → Spurs ($477, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $477 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Spread: Spurs (-12.5) → Spurs ($9.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-por-sac-2026-11-13",
@@ -177,9 +107,9 @@
       "start": "2026-11-14T03:00:00Z",
       "check_at": "2026-11-14T02:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Trail Blazers vs. Kings → Kings ($10, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Spread: Trail Blazers (-10.5) → Trail Blazers ($26.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $26.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-hou-col-2026-11-13",
@@ -310,16 +240,6 @@
       "near": 1,
       "best": "Spread: Georgia Southern (-7.5) → Georgia Southern ($500, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-wash-mst-2026-11-14",
-      "game": "Washington vs. Michigan State",
-      "start": "2026-11-14T21:15:00Z",
-      "check_at": "2026-11-14T21:00:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Washington (-1.5) → Michigan State ($502, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $502 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-kan-wvir-2026-11-14",
