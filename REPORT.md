@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 4:38 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
+Updated Sat Nov 14, 4:53 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
 
 Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
@@ -13870,23 +13870,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | --- | --- | --- | --- | --- | --- | --- |
 | Thu Nov 12, 12:17 AM | hourly | São Bernardo FC vs. Athletic Club: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
 | Wed Nov 11, 11:17 PM | hourly | São Bernardo FC vs. Athletic Club: O/U 3.5 → Under | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-
-### Big Bash League, Women: Melbourne Stars vs Brisbane Heat · starts Thu Nov 12, 4:40 AM
-
-- Wed Nov 11, 9:14 PM (hourly): Big Bash League, Women: Melbourne Stars vs Brisbane Heat: all vetted wallets left Melbourne Stars
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Wed Nov 11, 9:14 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 8:13 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 7:17 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 6:12 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 5:16 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 4:19 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 3:16 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 2:17 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 1:18 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Wed Nov 11, 12:14 PM | hourly | Big Bash League, Women: Melbourne Stars vs Brisbane Heat → Melbourne Stars | tradecraft $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Daegu Pegasus vs. Goyang · starts Thu Nov 12, 10:00 AM
 
