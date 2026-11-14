@@ -1,26 +1,6 @@
 {
-  "updated": "2026-11-14T03:11:02Z",
+  "updated": "2026-11-14T04:10:34Z",
   "games": [
-    {
-      "event_slug": "cfb-hou-col-2026-11-13",
-      "game": "Houston vs. Colorado",
-      "start": "2026-11-14T03:15:00Z",
-      "check_at": "2026-11-14T03:00:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Houston vs. Colorado: O/U 51.5 → Under ($877, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-okc-lac-2026-11-13",
-      "game": "Thunder vs. Clippers",
-      "start": "2026-11-14T03:30:00Z",
-      "check_at": "2026-11-14T03:15:00Z",
-      "passing": 1,
-      "near": 5,
-      "best": "Spread: Thunder (-7.5) → Clippers ($10.2k, 2 wallets)",
-      "status": "passes"
-    },
     {
       "event_slug": "atp-fritz-tirante-2026-11-14",
       "game": "BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante",
