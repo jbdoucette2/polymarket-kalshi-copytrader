@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sat Nov 14, 5:53 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
+Updated Sat Nov 14, 6:13 AM. Bankroll **$96.23** (start $100): $86.41 cash + open trades at cost.
 
 Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
@@ -122,30 +122,30 @@ Record: 59 won, 43 lost, 10 sold early. Realized P&L $-3.77. Open: 1.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (2123 settled so far, 79 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (2131 settled so far, 79 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 2123 | 47% | 48¢ | -1 pts | -7% |
-| Rules: one rule away | 1999 | 46% | 48¢ | -1 pts | -7% |
+| **all** | 2131 | 47% | 48¢ | -1 pts | -6% |
+| Rules: one rule away | 2007 | 47% | 48¢ | -1 pts | -6% |
 | Rules: passed every rule | 124 | 49% | 51¢ | -2 pts | -8% |
-| Price: 40–60¢ | 798 | 47% | 49¢ | -2 pts | -4% |
+| Price: 40–60¢ | 804 | 47% | 49¢ | -2 pts | -3% |
 | Price: 60–80¢ | 371 | 72% | 69¢ | +3 pts | +4% |
-| Price: 80¢+ | 223 | 89% | 88¢ | +1 pts | +1% |
-| Price: under 40¢ | 731 | 20% | 24¢ | -3 pts | -17% |
-| Wallets on the pick: 1 wallet | 1752 | 46% | 48¢ | -2 pts | -7% |
+| Price: 80¢+ | 224 | 89% | 88¢ | +1 pts | +1% |
+| Price: under 40¢ | 732 | 20% | 24¢ | -3 pts | -17% |
+| Wallets on the pick: 1 wallet | 1760 | 46% | 48¢ | -2 pts | -7% |
 | Wallets on the pick: 2 wallets | 297 | 48% | 50¢ | -2 pts | -8% |
 | Wallets on the pick: 3+ wallets | 74 | 58% | 50¢ | +8 pts | +16% |
-| Leader money: $20k+ | 90 | 60% | 57¢ | +3 pts | +3% |
-| Leader money: $5k–20k | 193 | 51% | 55¢ | -3 pts | -7% |
-| Leader money: under $5k | 1840 | 45% | 47¢ | -1 pts | -7% |
+| Leader money: $20k+ | 91 | 60% | 57¢ | +4 pts | +4% |
+| Leader money: $5k–20k | 195 | 51% | 55¢ | -3 pts | -7% |
+| Leader money: under $5k | 1845 | 46% | 47¢ | -1 pts | -7% |
 | Market type: draw | 109 | 51% | 54¢ | -3 pts | -20% |
-| Market type: moneyline | 302 | 50% | 52¢ | -2 pts | -9% |
-| Market type: soccer win/lose | 351 | 48% | 49¢ | -1 pts | -6% |
-| Market type: spread | 606 | 45% | 49¢ | -4 pts | -10% |
-| Market type: total | 755 | 45% | 44¢ | +1 pts | -2% |
+| Market type: moneyline | 304 | 50% | 52¢ | -2 pts | -9% |
+| Market type: soccer win/lose | 352 | 49% | 49¢ | -1 pts | -5% |
+| Market type: spread | 609 | 45% | 49¢ | -3 pts | -9% |
+| Market type: total | 757 | 45% | 44¢ | +1 pts | -2% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 87 | 33% | 37¢ | -4 pts | -11% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 1897 | 47% | 48¢ | -2 pts | -7% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 1905 | 47% | 48¢ | -1 pts | -7% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 29 | 52% | 49¢ | +3 pts | +9% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -155,13 +155,13 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Jsram | 5 | 80% | 52¢ | +28 pts |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | BreakTheBank | 21 | 62% | 48¢ | +14 pts |
-| monkeymashingkeyboard | 60 | 60% | 50¢ | +10 pts |
+| monkeymashingkeyboard | 61 | 59% | 50¢ | +9 pts |
 | 0xde9f7f4e | 10 | 70% | 62¢ | +8 pts |
-| Flaznorp (benched) | 672 | 63% | 58¢ | +5 pts |
-| keeptheblueflagflyinghigh | 93 | 58% | 54¢ | +4 pts |
-| HomeRunHazard (benched) | 359 | 58% | 54¢ | +4 pts |
+| Flaznorp (benched) | 675 | 63% | 58¢ | +4 pts |
+| HomeRunHazard (benched) | 366 | 58% | 54¢ | +4 pts |
+| keeptheblueflagflyinghigh | 97 | 58% | 54¢ | +4 pts |
 | gmpm2 | 28 | 57% | 54¢ | +3 pts |
-| primm | 35 | 54% | 52¢ | +2 pts |
+| primm | 36 | 56% | 53¢ | +2 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | RN1 (benched) | 77 | 51% | 51¢ | -0 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 21 | 52% | 55¢ | -3 pts |
@@ -173,6 +173,15 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### Syracuse vs. NC State · starts Sat Nov 14, 5:00 PM
+
+- Sat Nov 14, 5:10 AM (hourly): Syracuse vs. NC State: first seen: 1 vetted on Syracuse ($4.7k), fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sat Nov 14, 5:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Nevada vs. Northern Illinois · starts Sat Nov 14, 8:30 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Spread: Nevada (-5.5): Kalshi matched at 50¢
@@ -180,6 +189,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | — | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | — | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Nevada (-6.5) → Northern Illinois | gmpm2 $4.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $4.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Nevada (-5.5) → Northern Illinois | gmpm2 $3.4k | $0 | 50¢ NO | fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -207,6 +218,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $264 | $0 | — | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Auburn (-4.5) → Auburn | primm $282 | $0 | — | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Auburn vs. Mississippi State: O/U 49.5 → Over | primm $264 | $0 | 55¢ YES | fails: only 1 vetted wallet with $264 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Auburn (-4.5) → Auburn | primm $282 | $0 | 42¢ YES | fails: only 1 vetted wallet with $282 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Auburn vs. Mississippi State: O/U 51.5 → Over | primm $17 | $0 | 50¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -242,6 +256,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | — | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Cincinnati vs. Iowa State: O/U 59.5 → Under | primm $301 | $0 | 55¢ NO | fails: only 1 vetted wallet with $301 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -265,6 +280,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | — | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: East Carolina (-13.5) → East Carolina | primm $520 | $0 | — | fails: only 1 vetted wallet with $520 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | 41¢ YES | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Spread: East Carolina (-13.5) → East Carolina | primm $520 | $0 | 45¢ YES | fails: only 1 vetted wallet with $520 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: East Carolina (-14.5) → East Carolina | primm $429 | $0 | 41¢ YES | fails: only 1 vetted wallet with $429 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -288,6 +305,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | — | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Spread: Georgia Southern (-7.5) → Georgia Southern | primm $500 | $0 | 43¢ YES | fails: only 1 vetted wallet with $500 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -305,6 +323,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | — | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 46¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 47¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Spread: Miami (FL) (-14.5) → Miami (FL) | primm $546 | $0 | 47¢ YES | fails: only 1 vetted wallet with $546 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -322,6 +341,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | — | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 48¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 49¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Wake Forest vs. SMU: O/U 59.5 → Under | primm $667 | $0 | 49¢ NO | fails: only 1 vetted wallet with $667 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -337,6 +357,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | — | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | UAB vs. Temple: O/U 51.5 → Under | primm $714 | $0 | 60¢ NO | fails: only 1 vetted wallet with $714 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -354,6 +375,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Ohio State (-11.5) → Northwestern | primm $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | 48¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Ohio State (-11.5) → Northwestern | primm $53 | $0 | 45¢ NO | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Ohio State (-13.5) → Northwestern | primm $2.0k | $0 | 48¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -382,6 +405,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | — | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $52 | $0 | — | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 41¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Appalachian State (-2.5) → Appalachian State | primm $53 | $0 | 48¢ YES | fails: only 1 vetted wallet with $53 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Appalachian State (-3.5) → Appalachian State | primm $82 | $0 | 42¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -403,6 +428,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Sat Nov 14, 5:10 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Kansas vs. West Virginia: O/U 69.5 → Over | primm $21 | $0 | 47¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -417,6 +443,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | — | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | Spread: Clemson (-17.5) → Clemson | primm $56 | $0 | 43¢ YES | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -432,19 +459,12 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 14, 5:10 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 4:10 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 3:11 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 2:11 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 1:13 AM | hourly | BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante → Taylor Fritz | keeptheblueflagflyinghigh $1.9k | $0 | 84¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Syracuse vs. NC State · starts Sat Nov 14, 5:00 PM
-
-- Sat Nov 14, 5:10 AM (hourly): Syracuse vs. NC State: first seen: 1 vetted on Syracuse ($4.7k), fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 5:10 AM | hourly | Syracuse vs. NC State → Syracuse | keeptheblueflagflyinghigh $4.7k | $0 | 57¢ YES | fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina · starts Sat Nov 14, 9:30 PM
 
@@ -452,6 +472,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $521 | $0 | — | fails: only 1 vetted wallet with $521 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Sat Nov 14, 5:10 AM | hourly | WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina → Linda Noskova | monkeymashingkeyboard $518 | $0 | 62¢ YES | fails: only 1 vetted wallet with $518 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Houston vs. Colorado · starts Sat Nov 14, 3:15 AM
@@ -5229,6 +5250,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Sat Nov 14, 6:13 AM | hourly | Spread: Washington (-1.5) → Michigan State | primm $524 | $0 | — | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 48¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
 | Sat Nov 14, 5:10 AM | hourly | Spread: Washington (-1.5) → Michigan State | primm $524 | $0 | 46¢ NO | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 46c vs leaders 42c |
 | Sat Nov 14, 4:10 AM | hourly | Spread: Washington (-2.5) → Michigan State | primm $17 | $0 | 48¢ NO | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
@@ -13631,204 +13654,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 2:13 AM | hourly | Will Operário Ferroviário EC win on 2026-11-14? → Yes | Flaznorp $1.7k | $0 | — | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Thu Nov 12, 12:17 AM | hourly | Will Operário Ferroviário EC win on 2026-11-14? → Yes | Flaznorp $1.8k | $0 | — | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### New Zealand vs. India - More Markets · starts Thu Nov 12, 6:10 AM
-
-- Thu Nov 12, 6:13 AM (hourly): New Zealand vs. India: O/U 5.5: Kalshi 92¢ → 91¢
-- Thu Nov 12, 6:13 AM (hourly): New Zealand vs. India: O/U 1.5: Kalshi 20¢ → 19¢
-- Thu Nov 12, 6:13 AM (hourly): New Zealand vs. India: Both Teams to Score: back: 1 vetted on No ($316), fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+); market type not supported
-- Thu Nov 12, 6:13 AM (hourly): Spread: New Zealand (-1.5): back: 1 vetted on India ($349), fails: only 1 vetted wallet with $349 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 5:16 AM (pregame): New Zealand vs. India: O/U 5.5: first seen: 1 vetted on Under ($20), fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 4:15 AM (hourly): New Zealand vs. India: O/U 2.5: Kalshi 58¢ → 59¢
-- Thu Nov 12, 4:15 AM (hourly): New Zealand vs. India: O/U 1.5: Kalshi 21¢ → 20¢
-- Thu Nov 12, 3:16 AM (hourly): Spread: New Zealand (-1.5): all vetted wallets left India
-- Thu Nov 12, 3:16 AM (hourly): New Zealand vs. India: O/U 0.5: all vetted wallets left Over
-- Thu Nov 12, 3:16 AM (hourly): New Zealand vs. India: O/U 4.5: all vetted wallets left Over
-- Thu Nov 12, 3:16 AM (hourly): New Zealand vs. India: O/U 2.5: Kalshi matched at 58¢
-- Thu Nov 12, 3:16 AM (hourly): New Zealand vs. India: O/U 1.5: Kalshi matched at 21¢
-- Thu Nov 12, 12:17 AM (hourly): New Zealand vs. India: O/U 1.5: Kalshi 19¢ → 20¢
-- Thu Nov 12, 12:17 AM (hourly): New Zealand vs. India: O/U 2.5: Kalshi 61¢ → 59¢
-- Thu Nov 12, 12:17 AM (hourly): New Zealand vs. India: O/U 4.5: first seen: 1 vetted on Over ($21), fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 12:17 AM (hourly): Spread: New Zealand (-1.5): Kalshi 46¢ → 47¢
-- Wed Nov 11, 11:17 PM (hourly): New Zealand vs. India: O/U 1.5: first seen: 1 vetted on Under ($5), fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 11:17 PM (hourly): New Zealand vs. India: O/U 2.5: Kalshi matched at 61¢
-- Wed Nov 11, 11:17 PM (hourly): Spread: New Zealand (-1.5): Kalshi matched at 46¢
-- Wed Nov 11, 9:14 PM (hourly): New Zealand vs. India: O/U 2.5: Kalshi 63¢ → 64¢
-- Wed Nov 11, 8:13 PM (hourly): Spread: New Zealand (-1.5): Kalshi 46¢ → 45¢
-- Wed Nov 11, 6:12 PM (hourly): New Zealand vs. India: Both Teams to Score: all vetted wallets left No
-- Wed Nov 11, 6:12 PM (hourly): New Zealand vs. India: O/U 2.5: Kalshi matched at 63¢
-- Wed Nov 11, 5:16 PM (hourly): Spread: New Zealand (-1.5): Kalshi 48¢ → 46¢
-- Wed Nov 11, 4:19 PM (hourly): New Zealand vs. India: O/U 2.5: first seen: 1 vetted on Over ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 4:19 PM (hourly): Spread: New Zealand (-1.5): Kalshi 50¢ → 48¢
-- Wed Nov 11, 2:17 PM (hourly): Spread: New Zealand (-1.5): Kalshi 51¢ → 50¢
-- Wed Nov 11, 10:16 AM (hourly): Spread: New Zealand (-1.5): Kalshi 52¢ → 51¢
-- Wed Nov 11, 8:13 AM (hourly): Spread: New Zealand (-1.5): Kalshi 53¢ → 52¢
-- Wed Nov 11, 7:13 AM (hourly): Spread: New Zealand (-1.5): Kalshi matched at 53¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 AM | hourly | New Zealand vs. India: O/U 5.5 → Under | Flaznorp $45 | $0 | 91¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $58 | $0 | 19¢ NO | fails: only 1 vetted wallet with $58 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | New Zealand vs. India: Both Teams to Score → No | Flaznorp $316 | $0 | — | fails: only 1 vetted wallet with $316 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Thu Nov 12, 6:13 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $349 | $0 | 41¢ NO | fails: only 1 vetted wallet with $349 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | pregame | New Zealand vs. India: O/U 5.5 → Under | Flaznorp $20 | $0 | 92¢ NO | fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | pregame | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $25 | $0 | 59¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | pregame | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $52 | $0 | 20¢ NO | fails: only 1 vetted wallet with $52 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $24 | $0 | 59¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $55 | $0 | 20¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Spread: New Zealand (-1.5) → India | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:16 AM | hourly | New Zealand vs. India: O/U 0.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:16 AM | hourly | New Zealand vs. India: O/U 4.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 3:16 AM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $24 | $0 | 58¢ YES | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $55 | $0 | 21¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 2:13 AM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $5 | $0 | 20¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $21 | $0 | 59¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | New Zealand vs. India: O/U 4.5 → Over | Flaznorp $21 | $0 | 19¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $155 | $0 | 47¢ NO | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $828 | $0 | 96¢ YES | fails: only 1 vetted wallet with $828 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 11:17 PM | hourly | New Zealand vs. India: O/U 1.5 → Under | Flaznorp $5 | $0 | 19¢ NO | fails: only 1 vetted wallet with $5 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $22 | $0 | 61¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $151 | $0 | 46¢ NO | fails: only 1 vetted wallet with $151 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $829 | $0 | 96¢ YES | fails: only 1 vetted wallet with $829 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 10:14 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 10:14 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $148 | $0 | — | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Wed Nov 11, 10:14 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $797 | $0 | — | fails: only 1 vetted wallet with $797 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 11, 9:14 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | 64¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $148 | $0 | 45¢ NO | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $797 | $0 | 97¢ YES | fails: only 1 vetted wallet with $797 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 8:13 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | 63¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $141 | $0 | 45¢ NO | fails: only 1 vetted wallet with $141 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $797 | $0 | 97¢ YES | fails: only 1 vetted wallet with $797 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 7:17 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | 63¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $143 | $0 | 46¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $796 | $0 | 97¢ YES | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 6:12 PM | hourly | New Zealand vs. India: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 6:12 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | 63¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:12 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $143 | $0 | 46¢ NO | fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:12 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $796 | $0 | 97¢ YES | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 5:16 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Wed Nov 11, 5:16 PM | hourly | New Zealand vs. India: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Wed Nov 11, 5:16 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $144 | $0 | 46¢ NO | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 5:16 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $796 | $0 | — | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 11, 4:19 PM | hourly | New Zealand vs. India: O/U 2.5 → Over | Flaznorp $23 | $0 | 63¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 4:19 PM | hourly | New Zealand vs. India: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Wed Nov 11, 4:19 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $144 | $0 | 48¢ NO | fails: only 1 vetted wallet with $144 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 4:19 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $796 | $0 | 97¢ YES | fails: only 1 vetted wallet with $796 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 3:16 PM | hourly | New Zealand vs. India: Both Teams to Score → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Wed Nov 11, 3:16 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $151 | $0 | 50¢ NO | fails: only 1 vetted wallet with $151 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $267 | $0 | 96¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 2:17 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $157 | $0 | 50¢ NO | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 2:17 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $265 | $0 | 96¢ YES | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢ |
-| Wed Nov 11, 1:18 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 51¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 1:18 PM | hourly | New Zealand vs. India: O/U 0.5 → Over | Flaznorp $265 | $0 | — | fails: only 1 vetted wallet with $265 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 96¢ outside 5–95¢; no Kalshi totals market |
-| Wed Nov 11, 12:14 PM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 51¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:20 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 51¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:16 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 51¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:15 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 52¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $160 | $0 | 52¢ NO | fails: only 1 vetted wallet with $160 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:13 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $166 | $0 | 53¢ NO | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:19 AM | hourly | Spread: New Zealand (-1.5) → India | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### New Zealand vs. India · starts Thu Nov 12, 6:10 AM
-
-- Thu Nov 12, 6:13 AM (hourly): Will New Zealand win on 2026-11-12?: Kalshi 21¢ → 18¢
-- Thu Nov 12, 6:13 AM (hourly): Will India win on 2026-11-12?: back: 1 vetted on Yes ($221), fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢
-- Thu Nov 12, 5:16 AM (pregame): Will India win on 2026-11-12?: all vetted wallets left Yes
-- Thu Nov 12, 4:15 AM (hourly): Will India win on 2026-11-12?: Kalshi 8¢ → 7¢
-- Thu Nov 12, 4:15 AM (hourly): Will New Zealand win on 2026-11-12?: Kalshi 23¢ → 21¢
-- Thu Nov 12, 3:16 AM (hourly): Will India win on 2026-11-12?: Kalshi matched at 8¢
-- Thu Nov 12, 3:16 AM (hourly): Will New Zealand win on 2026-11-12?: Kalshi matched at 23¢
-- Wed Nov 11, 8:13 PM (hourly): Will New Zealand win on 2026-11-12?: first seen: 1 vetted on No ($532), fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 6:12 PM (hourly): Will New Zealand vs. India end in a draw?: all vetted wallets left No
-- Wed Nov 11, 6:12 PM (hourly): Will India win on 2026-11-12?: Kalshi 9¢ → 8¢
-- Wed Nov 11, 5:16 PM (hourly): Will India win on 2026-11-12?: Kalshi 8¢ → 9¢
-- Wed Nov 11, 4:19 PM (hourly): Will New Zealand vs. India end in a draw?: Kalshi 85¢ → 86¢
-- Wed Nov 11, 4:19 PM (hourly): Will India win on 2026-11-12?: Kalshi 9¢ → 8¢
-- Wed Nov 11, 2:17 PM (hourly): Will New Zealand vs. India end in a draw?: Kalshi 84¢ → 85¢
-- Wed Nov 11, 1:18 PM (hourly): Will India win on 2026-11-12?: Kalshi 10¢ → 9¢
-- Wed Nov 11, 11:20 AM (hourly): Will New Zealand vs. India end in a draw?: first seen: 1 vetted on No ($79), fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 10:16 AM (hourly): Will India win on 2026-11-12?: back: 1 vetted on Yes ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
-- Wed Nov 11, 8:13 AM (hourly): Will India win on 2026-11-12?: all vetted wallets left Yes
-- Wed Nov 11, 6:19 AM (hourly): Will India win on 2026-11-12?: first seen: 1 vetted on Yes ($17), fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 6:13 AM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $496 | $0 | 18¢ NO | fails: only 1 vetted wallet with $496 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $221 | $0 | 5¢ YES | fails: only 1 vetted wallet with $221 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 4¢ outside 5–95¢ |
-| Thu Nov 12, 5:16 AM | pregame | Will India win on 2026-11-12? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 5:16 AM | pregame | Will New Zealand win on 2026-11-12? → No | Flaznorp $559 | $0 | 21¢ NO | fails: only 1 vetted wallet with $559 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $82 | $0 | 7¢ YES | fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $559 | $0 | 21¢ NO | fails: only 1 vetted wallet with $559 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $73 | $0 | 8¢ YES | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $565 | $0 | 23¢ NO | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 2:13 AM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $565 | $0 | — | fails: only 1 vetted wallet with $565 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 AM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $591 | $0 | 22¢ NO | fails: only 1 vetted wallet with $591 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:17 PM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $561 | $0 | 22¢ NO | fails: only 1 vetted wallet with $561 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:14 PM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $532 | $0 | 22¢ NO | fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 9:14 PM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $532 | $0 | 22¢ NO | fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 PM | hourly | Will New Zealand win on 2026-11-12? → No | Flaznorp $532 | $0 | 22¢ NO | fails: only 1 vetted wallet with $532 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 7:17 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:12 PM | hourly | Will New Zealand vs. India end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 6:12 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $84 | $0 | 8¢ YES | fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 5:16 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $81 | $0 | 86¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
-| Wed Nov 11, 5:16 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $95 | $0 | 9¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 4:19 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $81 | $0 | 86¢ NO | fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 86c vs leaders 83c |
-| Wed Nov 11, 4:19 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $95 | $0 | 8¢ YES | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $40 | $0 | 9¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 3:16 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $80 | $0 | 85¢ NO | fails: only 1 vetted wallet with $80 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 2:17 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $40 | $0 | 9¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 2:17 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $79 | $0 | 85¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 1:18 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $40 | $0 | 9¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 1:18 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $79 | $0 | 84¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 12:14 PM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $42 | $0 | 10¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 12:14 PM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $79 | $0 | 84¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:20 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $42 | $0 | 10¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 11:20 AM | hourly | Will New Zealand vs. India end in a draw? → No | Flaznorp $79 | $0 | 84¢ NO | fails: only 1 vetted wallet with $79 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 10:16 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $33 | $0 | 10¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 8:13 AM | hourly | Will India win on 2026-11-12? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 7:13 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $17 | $0 | 10¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-| Wed Nov 11, 6:19 AM | hourly | Will India win on 2026-11-12? → Yes | Flaznorp $17 | $0 | 10¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### New Zealand vs. India - Exact Score · starts Thu Nov 12, 6:10 AM
-
-- Thu Nov 12, 5:16 AM (pregame): Exact Score: New Zealand 2 - 2 India?: all vetted wallets left No
-- Wed Nov 11, 6:12 PM (hourly): Exact Score: New Zealand 1 - 0 India?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 12, 5:16 AM | pregame | Exact Score: New Zealand 2 - 2 India? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 4:15 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $262 | $0 | — | fails: only 1 vetted wallet with $262 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Thu Nov 12, 3:16 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Thu Nov 12, 2:13 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-| Thu Nov 12, 12:17 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 11:17 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 10:14 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 9:14 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 8:13 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 7:17 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 6:12 PM | hourly | Exact Score: New Zealand 1 - 0 India? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Wed Nov 11, 6:12 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 5:16 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 4:19 PM | hourly | Exact Score: New Zealand 1 - 0 India? → No | Flaznorp $105 | $0 | — | fails: only 1 vetted wallet with $105 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Wed Nov 11, 4:19 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 3:16 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 2:17 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 1:18 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 12:14 PM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 11:20 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 10:16 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 9:15 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 8:13 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $261 | $0 | — | fails: only 1 vetted wallet with $261 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 7:13 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-| Wed Nov 11, 6:19 AM | hourly | Exact Score: New Zealand 2 - 2 India? → No | Flaznorp $260 | $0 | — | fails: only 1 vetted wallet with $260 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; market type not supported |
-
 ### Antigua and Barbuda vs. Trinidad and Tobago · starts Thu Nov 12, 11:00 PM
 
 - Thu Nov 12, 4:15 AM (hourly): Will Trinidad and Tobago win on 2026-11-12?: all vetted wallets left No
@@ -13927,13 +13752,13 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 2-3 (11 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 2-5 (9 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 16-21 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 6-7 (1 pending) | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 0-0 (5 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 208-151 (50 pending) | benched |
-| monkeymashingkeyboard | trader: 104 trades per market (median), up to 108 | Fri Nov 13, 7:13 AM | 7-2 | released Sat Nov 14, 4:10 AM: shadow picks won 67% of 6 games at an average price of 45¢ |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 213-153 (48 pending) | benched |
+| monkeymashingkeyboard | trader: 104 trades per market (median), up to 108 | Fri Nov 13, 7:13 AM | 7-3 | released Sat Nov 14, 4:10 AM: shadow picks won 67% of 6 games at an average price of 45¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 | BreakTheBank | trader: 7 trades per market (median), up to 378 | Sat Nov 7, 8:17 PM | 5-3 | released Mon Nov 9, 1:12 AM: shadow picks won 71% of 7 games at an average price of 52¢ |
