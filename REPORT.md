@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 12:22 AM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
+Updated Sun Nov 15, 12:38 AM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
 
 Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 1.
 
@@ -10872,22 +10872,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 3:16 AM | hourly | India Tour of New Zealand ODIs: New Zealand vs India → New Zealand | tradecraft $40 | $0 | 78¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 46c |
 | Thu Nov 12, 2:13 AM | hourly | India Tour of New Zealand ODIs: New Zealand vs India → New Zealand | tradecraft $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Curaçao vs. Panama - More Markets · starts Fri Nov 13, 12:30 AM
-
-- Fri Nov 13, 12:18 AM (pregame): Curaçao vs. Panama: O/U 3.5: Kalshi 23¢ → 24¢
-- Fri Nov 13, 12:18 AM (pregame): Curaçao vs. Panama: O/U 1.5: Kalshi 30¢ → 29¢
-- Thu Nov 12, 11:12 PM (hourly): Curaçao vs. Panama: O/U 3.5: Kalshi 24¢ → 23¢
-- Thu Nov 12, 11:12 PM (hourly): Curaçao vs. Panama: O/U 1.5: first seen: 1 vetted on Under ($157), fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 10:14 PM (hourly): Curaçao vs. Panama: O/U 3.5: first seen: 1 vetted on Over ($6), fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 12:18 AM | pregame | Curaçao vs. Panama: O/U 3.5 → Over | Flaznorp $6 | $0 | 24¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | pregame | Curaçao vs. Panama: O/U 1.5 → Under | Flaznorp $155 | $0 | 29¢ NO | fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Curaçao vs. Panama: O/U 3.5 → Over | Flaznorp $6 | $0 | 23¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Curaçao vs. Panama: O/U 1.5 → Under | Flaznorp $157 | $0 | 30¢ NO | fails: only 1 vetted wallet with $157 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Curaçao vs. Panama: O/U 3.5 → Over | Flaznorp $6 | $0 | 24¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Richmond Spiders vs. Southern Illinois Salukis · starts Fri Nov 13, 1:00 AM
 
 - Fri Nov 13, 12:18 AM (pregame): Spread: Richmond Spiders (-4.5): Kalshi 41¢ → 42¢
@@ -10939,74 +10923,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 7:13 PM | hourly | Spread: South Alabama Jaguars (-1.5) → South Alabama Jaguars | Flaznorp $64 | $0 | 47¢ YES | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 6:13 PM | hourly | Spread: South Alabama Jaguars (-1.5) → South Alabama Jaguars | Flaznorp $64 | $0 | 47¢ YES | fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 5:15 PM | hourly | Spread: South Alabama Jaguars (-1.5) → South Alabama Jaguars | Flaznorp $62 | $0 | — | fails: only 1 vetted wallet with $62 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas · starts Fri Nov 13, 12:30 AM
-
-- Thu Nov 12, 1:15 PM (hourly): Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas: Kalshi matched at 40¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 12:18 AM | pregame | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | pregame | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:17 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:13 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:15 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:16 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:17 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:20 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 1:15 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | 40¢ YES | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 12:17 PM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 11:14 AM | hourly | Lima: Genaro Alberto Olivieri vs Juan Pablo Varillas → Genaro Alberto Olivieri | Flaznorp $119 | $0 | — | fails: only 1 vetted wallet with $119 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Curaçao vs. Panama · starts Fri Nov 13, 12:30 AM
-
-- Thu Nov 12, 10:14 PM (hourly): Will Curaçao win on 2026-11-12?: all vetted wallets left No
-- Thu Nov 12, 10:14 PM (hourly): Will Panama win on 2026-11-12?: Kalshi 48¢ → 50¢
-- Thu Nov 12, 3:17 PM (hourly): Will Curaçao win on 2026-11-12?: Kalshi 72¢ → 76¢
-- Thu Nov 12, 2:20 PM (hourly): Will Curaçao win on 2026-11-12?: Kalshi 73¢ → 72¢
-- Thu Nov 12, 11:14 AM (hourly): Will Panama win on 2026-11-12?: first seen: 1 vetted on Yes ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 3:16 AM (hourly): Will Curaçao win on 2026-11-12?: Kalshi matched at 71¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 12:18 AM | pregame | Will Panama win on 2026-11-12? → Yes | Flaznorp $108 | $63 | 49¢ YES | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); opposition 59%; Kalshi 49c vs leaders 45c |
-| Thu Nov 12, 11:12 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $108 | $12 | 50¢ YES | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); opposition 11%; Kalshi 50c vs leaders 45c |
-| Thu Nov 12, 10:14 PM | hourly | Will Curaçao win on 2026-11-12? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Thu Nov 12, 10:14 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $108 | $0 | 50¢ YES | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 50c vs leaders 45c |
-| Thu Nov 12, 9:17 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | 76¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 9:17 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $106 | $0 | 48¢ YES | fails: only 1 vetted wallet with $106 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | 48¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 39c |
-| Thu Nov 12, 8:15 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | 76¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 7:13 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | 48¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 39c |
-| Thu Nov 12, 7:13 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | 76¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 6:13 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | 48¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 39c |
-| Thu Nov 12, 6:13 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | 76¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 5:15 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 5:15 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | 47¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 39c |
-| Thu Nov 12, 4:16 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $40 | $0 | 76¢ NO | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 3:17 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $26 | $0 | 48¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 39c |
-| Thu Nov 12, 3:17 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $39 | $0 | 76¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 70c |
-| Thu Nov 12, 2:20 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $23 | $0 | 42¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 42c vs leaders 39c |
-| Thu Nov 12, 2:20 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $38 | $0 | 72¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 1:15 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $23 | $0 | 42¢ YES | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 42c vs leaders 39c |
-| Thu Nov 12, 1:15 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $38 | $0 | 73¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 73c vs leaders 70c |
-| Thu Nov 12, 12:17 PM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 12:17 PM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 11:14 AM | hourly | Will Panama win on 2026-11-12? → Yes | Flaznorp $22 | $0 | 40¢ YES | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:14 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:15 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:12 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:12 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:14 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | 71¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:13 AM | hourly | Will Curaçao win on 2026-11-12? → No | Flaznorp $37 | $0 | — | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
 ### Tunisia vs. Libya · starts Fri Nov 13, 4:00 PM
 
