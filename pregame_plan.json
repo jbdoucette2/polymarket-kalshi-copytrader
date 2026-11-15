@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T04:13:02Z",
+  "updated": "2026-11-15T05:12:58Z",
   "games": [
     {
       "event_slug": "nfl-ne-det-2026-11-15",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Bills vs. Jets → Bills ($364, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $364 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Bills vs. Jets → Bills ($403, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-la-ari-2026-11-15",
@@ -38,8 +38,8 @@
       "check_at": "2026-11-15T20:50:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rams vs. Cardinals → Cardinals ($3.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rams vs. Cardinals → Cardinals ($3.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
