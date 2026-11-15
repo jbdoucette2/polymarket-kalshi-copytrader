@@ -1,46 +1,6 @@
 {
-  "updated": "2026-11-15T20:10:40Z",
+  "updated": "2026-11-15T21:10:18Z",
   "games": [
-    {
-      "event_slug": "per1-ajp-cdg-2026-11-15",
-      "game": "ADC Juan Pablo II College vs. CD Garcilaso",
-      "start": "2026-11-15T20:15:00Z",
-      "check_at": "2026-11-15T20:00:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will ADC Juan Pablo II College win on 2026-11-15? → Yes ($83, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-lal-phx-2026-11-15",
-      "game": "Lakers vs. Suns",
-      "start": "2026-11-15T21:00:00Z",
-      "check_at": "2026-11-15T20:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Lakers (-3.5) → Suns ($9.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-sea-lv-2026-11-15",
-      "game": "Seahawks vs. Raiders",
-      "start": "2026-11-15T21:05:00Z",
-      "check_at": "2026-11-15T20:50:00Z",
-      "passing": 1,
-      "near": 1,
-      "best": "Seahawks vs. Raiders → Seahawks ($32.3k, 2 wallets)",
-      "status": "passes"
-    },
-    {
-      "event_slug": "nfl-la-ari-2026-11-15",
-      "game": "Rams vs. Cardinals",
-      "start": "2026-11-15T21:05:00Z",
-      "check_at": "2026-11-15T20:50:00Z",
-      "passing": 1,
-      "near": 2,
-      "best": "Rams vs. Cardinals: O/U 38.5 → Under ($9.6k, 3 wallets)",
-      "status": "passes"
-    },
     {
       "event_slug": "nfl-sf-dal-2026-11-15",
       "game": "49ers vs. Cowboys",
@@ -57,9 +17,9 @@
       "start": "2026-11-15T21:30:00Z",
       "check_at": "2026-11-15T21:15:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Hornets (-1.5) → Clippers ($2.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Hornets vs. Clippers → Hornets ($16.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $16.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-sas-uta-2026-11-15",
@@ -68,8 +28,8 @@
       "check_at": "2026-11-15T21:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Spurs vs. Jazz → Spurs ($26.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $26.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spurs vs. Jazz → Spurs ($35.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $35.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-pepp-ore-2026-11-15",
@@ -78,8 +38,8 @@
       "check_at": "2026-11-15T21:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Oregon Ducks (-13.5) → Oregon Ducks ($2.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Oregon Ducks (-13.5) → Oregon Ducks ($2.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-nyk-tor-2026-11-15",
@@ -87,7 +47,7 @@
       "start": "2026-11-15T23:00:00Z",
       "check_at": "2026-11-15T22:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Knicks vs. Raptors: O/U 218.5 → Under ($6.7k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -112,13 +72,23 @@
       "status": "passes"
     },
     {
+      "event_slug": "nhl-fla-dal-2026-11-15",
+      "game": "Panthers vs. Stars",
+      "start": "2026-11-16T01:00:00Z",
+      "check_at": "2026-11-16T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Panthers vs. Stars → Panthers ($24.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $24.9k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nfl-pit-cin-2026-11-16",
       "game": "Steelers vs. Bengals",
       "start": "2026-11-16T01:20:00Z",
       "check_at": "2026-11-16T01:05:00Z",
       "passing": 2,
       "near": 2,
-      "best": "Spread: Bengals (-3.5) → Bengals ($40.1k, 2 wallets)",
+      "best": "Spread: Bengals (-3.5) → Bengals ($40.2k, 2 wallets)",
       "status": "passes"
     },
     {
@@ -128,8 +98,8 @@
       "check_at": "2026-11-16T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Thunder (-10.5) → Thunder ($4.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Thunder (-10.5) → Thunder ($4.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
