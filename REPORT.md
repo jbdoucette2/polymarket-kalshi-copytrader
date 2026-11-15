@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 1:12 AM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
+Updated Sun Nov 15, 1:23 AM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
 
 Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 1.
 
@@ -10566,97 +10566,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 4:15 AM | hourly | Will Atletico Morelia win on 2026-11-12? → No | Flaznorp $29 | $0 | 46¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 3:16 AM | hourly | Will Atletico Morelia win on 2026-11-12? → No | Flaznorp $29 | $0 | 46¢ NO | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 2:13 AM | hourly | Will Atletico Morelia win on 2026-11-12? → No | Flaznorp $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Commanders vs. Giants · starts Fri Nov 13, 1:15 AM
-
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-6.5): BreakTheBank added $1.3k on Giants
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-7.5): BreakTheBank joined Giants (+$6.4k)
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-3.5): BreakTheBank added $42.8k on Giants
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-2.5): now fails: opposition 27%; already traded this game
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-2.5): Kalshi 47¢ → 48¢
-- Fri Nov 13, 1:17 AM (hourly): Spread: Giants (-2.5): BreakTheBank added $122.3k on Giants
-- Fri Nov 13, 1:17 AM (hourly): Commanders vs. Giants: now fails: only 1 vetted wallet with $30.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 36%; already traded this game
-- Fri Nov 13, 1:17 AM (hourly): Commanders vs. Giants: Kalshi 54¢ → 46¢
-- Fri Nov 13, 1:17 AM (hourly): Commanders vs. Giants: majority flipped to Commanders ($30.1k vs $10.9k)
-- Fri Nov 13, 1:09 AM (verify): Spread: Giants (-2.5): 15-min check: opposition 27% (2 wallets, $134.4k for vs $36.4k against); sold
-- Fri Nov 13, 12:18 AM (pregame): Commanders vs. Giants: O/U 40.5: keeptheblueflagflyinghigh joined Under (+$5.0k)
-- Fri Nov 13, 12:18 AM (pregame): Spread: Giants (-6.5): first seen: 1 vetted on Giants ($243), fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 12:18 AM (pregame): Spread: Giants (-3.5): first seen: 1 vetted on Giants ($4.6k), fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 12:18 AM (pregame): Spread: Giants (-2.5): now passes
-- Fri Nov 13, 12:18 AM (pregame): Spread: Giants (-2.5): Kalshi 48¢ → 47¢
-- Fri Nov 13, 12:18 AM (pregame): Spread: Giants (-2.5): BreakTheBank joined Giants (+$2.4k)
-- Thu Nov 12, 11:12 PM (hourly): Spread: Giants (-7.5): first seen: 1 vetted on Giants ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Thu Nov 12, 9:17 PM (hourly): Spread: Giants (-2.5): Kalshi 49¢ → 48¢
-- Thu Nov 12, 9:17 PM (hourly): Commanders vs. Giants: Kalshi 55¢ → 54¢
-- Thu Nov 12, 9:17 PM (hourly): Commanders vs. Giants: tradecraft joined Giants (+$17)
-- Thu Nov 12, 8:15 PM (hourly): Commanders vs. Giants: Kalshi 56¢ → 55¢
-- Thu Nov 12, 6:13 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 49¢
-- Thu Nov 12, 1:15 PM (hourly): Spread: Giants (-2.5): Kalshi matched at 49¢
-- Thu Nov 12, 4:15 AM (hourly): Spread: Giants (-2.5): Kalshi 50¢ → 49¢
-- Thu Nov 12, 3:16 AM (hourly): Spread: Giants (-2.5): Kalshi matched at 50¢
-- Thu Nov 12, 2:13 AM (hourly): Commanders vs. Giants: first seen: 2 vetted on Giants ($11.1k), passes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 1:17 AM | hourly | Spread: Giants (-6.5) → Giants | BreakTheBank $1.6k | $15 | 32¢ YES | fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+); already traded this game |
-| Fri Nov 13, 1:17 AM | hourly | Commanders vs. Giants: O/U 40.5 → Under | keeptheblueflagflyinghigh $5.0k, tradecraft $119 | $4.4k | — | fails: opposition 86%; already traded this game; Kalshi has no 40.5 line |
-| Fri Nov 13, 1:17 AM | hourly | Spread: Giants (-7.5) → Giants | BreakTheBank $6.4k, tradecraft $13 | $0 | 25¢ YES | fails: already traded this game |
-| Fri Nov 13, 1:17 AM | hourly | Spread: Giants (-3.5) → Giants | BreakTheBank $47.5k | $424 | 39¢ YES | fails: only 1 vetted wallet with $47.5k (needs 3+ wallets, or 2 with $5.0k+); already traded this game |
-| Fri Nov 13, 1:17 AM | hourly | Spread: Giants (-2.5) → Giants | BreakTheBank $124.7k, monkeymashingkeyboard $9.7k | $36.4k | 48¢ YES | fails: opposition 27%; already traded this game |
-| Fri Nov 13, 1:17 AM | hourly | Commanders vs. Giants → Commanders | keeptheblueflagflyinghigh $30.1k | $10.9k | 46¢ YES | fails: only 1 vetted wallet with $30.1k (needs 3+ wallets, or 2 with $5.0k+); opposition 36%; already traded this game |
-| Fri Nov 13, 12:18 AM | pregame | Spread: Giants (-7.5) → Giants | tradecraft $13 | $0 | 25¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | pregame | Commanders vs. Giants: O/U 40.5 → Under | keeptheblueflagflyinghigh $5.0k, tradecraft $95 | $0 | — | fails: Kalshi has no 40.5 line |
-| Fri Nov 13, 12:18 AM | pregame | Spread: Giants (-6.5) → Giants | BreakTheBank $243 | $0 | 32¢ YES | fails: only 1 vetted wallet with $243 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | pregame | Spread: Giants (-3.5) → Giants | BreakTheBank $4.6k | $0 | 39¢ YES | fails: only 1 vetted wallet with $4.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | pregame | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k, BreakTheBank $2.4k | $0 | 47¢ YES | passes |
-| Fri Nov 13, 12:18 AM | pregame | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.7k, Flaznorp $22, tradecraft $17 | $0 | 54¢ YES | passes |
-| Thu Nov 12, 11:12 PM | hourly | Spread: Giants (-7.5) → Giants | tradecraft $13 | $0 | 25¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Commanders vs. Giants: O/U 40.5 → Under | tradecraft $95 | $0 | — | fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 40.5 line |
-| Thu Nov 12, 11:12 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.7k, Flaznorp $22, tradecraft $17 | $0 | 54¢ YES | passes |
-| Thu Nov 12, 10:14 PM | hourly | Commanders vs. Giants: O/U 40.5 → Under | tradecraft $61 | $0 | — | fails: only 1 vetted wallet with $61 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 40.5 line |
-| Thu Nov 12, 10:14 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.7k, Flaznorp $22, tradecraft $17 | $0 | 54¢ YES | passes |
-| Thu Nov 12, 9:17 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 48¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:17 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.7k, Flaznorp $22, tradecraft $17 | $0 | 54¢ YES | passes |
-| Thu Nov 12, 8:15 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 55¢ YES | passes |
-| Thu Nov 12, 7:13 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:13 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 6:13 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 5:15 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | — | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 12, 5:15 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 4:16 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:16 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 3:17 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:17 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 2:20 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.5k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:20 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 1:15 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.3k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 1:15 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $10.9k, Flaznorp $22 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 12:17 PM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | — | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Thu Nov 12, 12:17 PM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 11:14 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:14 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 10:15 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:15 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 9:12 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:12 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 8:12 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:12 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 7:14 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:14 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 6:13 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 5:16 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:16 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 4:15 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 49¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 4:15 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 3:16 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:16 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 2:13 AM | hourly | Commanders vs. Giants → Giants | monkeymashingkeyboard $11.1k, Flaznorp $23 | $0 | 56¢ YES | passes |
-| Thu Nov 12, 2:13 AM | hourly | Spread: Giants (-2.5) → Giants | monkeymashingkeyboard $9.7k | $0 | — | fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
 ### India Tour of New Zealand ODIs: New Zealand vs India · starts Fri Nov 13, 2:00 AM
 
