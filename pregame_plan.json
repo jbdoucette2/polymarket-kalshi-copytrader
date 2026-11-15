@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-15T08:10:40Z",
+  "updated": "2026-11-15T09:09:34Z",
   "games": [
-    {
-      "event_slug": "bkaba-dub-spa-2026-11-15",
-      "game": "BC Dubai vs. Spartak Subotica",
-      "start": "2026-11-15T09:00:00Z",
-      "check_at": "2026-11-15T08:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "BC Dubai vs. Spartak Subotica → Spartak Subotica ($6, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "bkbsl-ese-bah-2026-11-15",
       "game": "Esenler Erokspor vs. Bahcesehir Koleji",
@@ -22,12 +12,22 @@
       "status": "fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "atp-grenier-bax-2026-11-15",
+      "game": "Metz: Hugo Grenier vs Florent Bax",
+      "start": "2026-11-15T11:20:00Z",
+      "check_at": "2026-11-15T11:05:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Metz: Hugo Grenier vs Florent Bax → Florent Bax ($70, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "unl-lat-arm-2026-11-15",
       "game": "Latvia vs. Armenia",
       "start": "2026-11-15T14:00:00Z",
       "check_at": "2026-11-15T13:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Will Latvia vs. Armenia end in a draw? → No ($35, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)"
     },
