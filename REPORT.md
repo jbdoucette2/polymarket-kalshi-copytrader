@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 9:09 AM. Bankroll **$93.69** (start $100): $93.69 cash + open trades at cost.
+Updated Sun Nov 15, 10:10 AM. Bankroll **$93.69** (start $100): $93.69 cash + open trades at cost.
 
 Record: 60 won, 44 lost, 10 sold early. Realized P&L $-6.31. Open: 0.
 
@@ -186,6 +186,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.6k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.6k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -219,6 +221,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Chiefs vs. Falcons: O/U 48.5 → Over | primm $1.0k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Chiefs (-3.5) → Falcons | monkeymashingkeyboard $18.6k | $0 | 54¢ NO | fails: only 1 vetted wallet with $18.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Chiefs vs. Falcons: O/U 48.5 → Over | primm $1.0k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Chiefs (-3.5) → Falcons | monkeymashingkeyboard $18.6k | $0 | 54¢ NO | fails: only 1 vetted wallet with $18.6k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Chiefs vs. Falcons: O/U 48.5 → Over | primm $1.0k | $0 | 47¢ YES | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -258,6 +262,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Spurs (-16.5) → Jazz | monkeymashingkeyboard $14 | $0 | 50¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Spurs (-16.5) → Jazz | monkeymashingkeyboard $14 | $0 | 50¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Spread: Spurs (-16.5) → Jazz | monkeymashingkeyboard $14 | $0 | 50¢ NO | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+) |
 
@@ -271,6 +276,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $10.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $10.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $10.0k | $0 | 51¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 7:12 AM | hourly | Texans vs. Browns: O/U 40.5 → Over | monkeymashingkeyboard $10.0k | $0 | — | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -302,6 +308,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Spread: 49ers (-3.5) → 49ers | monkeymashingkeyboard $16.3k | $0 | 53¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Spread: 49ers (-6.5) → 49ers | primm $115 | $0 | 42¢ YES | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: 49ers (-3.5) → 49ers | monkeymashingkeyboard $16.3k | $0 | 53¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: 49ers (-6.5) → 49ers | primm $115 | $0 | 42¢ YES | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Spread: 49ers (-3.5) → 49ers | monkeymashingkeyboard $16.3k | $0 | 53¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -347,6 +355,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Patriots vs. Lions → Lions | monkeymashingkeyboard $11.5k | $0 | 58¢ YES | fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Lions (-2.5) → Lions | monkeymashingkeyboard $23.4k | $0 | 52¢ YES | fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Patriots (-9.5) → Lions | tradecraft $42 | $0 | 84¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Patriots vs. Lions: O/U 50.5 → Under | gmpm2 $23.4k | $0 | 53¢ NO | fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Patriots vs. Lions → Lions | monkeymashingkeyboard $11.5k | $0 | 58¢ YES | fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Lions (-2.5) → Lions | monkeymashingkeyboard $23.4k | $0 | 52¢ YES | fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Patriots (-9.5) → Lions | tradecraft $42 | $0 | 84¢ NO | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -411,12 +423,15 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Rams vs. Cardinals · starts Sun Nov 15, 9:05 PM
 
+- Sun Nov 15, 10:10 AM (hourly): Rams vs. Cardinals: O/U 38.5: first seen: 1 vetted on Under ($3.3k), fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 15, 8:10 AM (hourly): Rams vs. Cardinals: monkeymashingkeyboard added $1.0k on Cardinals
 - Sun Nov 15, 3:10 AM (hourly): Rams vs. Cardinals: monkeymashingkeyboard added $2.9k on Cardinals
 - Sat Nov 14, 9:14 PM (hourly): Rams vs. Cardinals: first seen: 1 vetted on Cardinals ($253), fails: only 1 vetted wallet with $253 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Rams vs. Cardinals → Cardinals | monkeymashingkeyboard $4.8k | $0 | 20¢ YES | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Rams vs. Cardinals: O/U 38.5 → Under | gmpm2 $3.3k | $0 | 49¢ NO | fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Rams vs. Cardinals → Cardinals | monkeymashingkeyboard $4.8k | $0 | 20¢ YES | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Rams vs. Cardinals → Cardinals | monkeymashingkeyboard $4.8k | $0 | 20¢ YES | fails: only 1 vetted wallet with $4.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 7:12 AM | hourly | Rams vs. Cardinals → Cardinals | monkeymashingkeyboard $3.8k | $0 | 20¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -442,6 +457,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Vikings vs. Packers → Packers | monkeymashingkeyboard $26.2k | $0 | 59¢ YES | fails: only 1 vetted wallet with $26.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 9:09 AM | hourly | Vikings vs. Packers → Packers | monkeymashingkeyboard $26.2k | $0 | 59¢ YES | fails: only 1 vetted wallet with $26.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 53¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
@@ -475,6 +492,68 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 6:13 PM | hourly | Vikings vs. Packers → Packers | monkeymashingkeyboard $26.4k | $0 | 59¢ YES | fails: only 1 vetted wallet with $26.4k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 6:13 PM | hourly | Spread: Packers (-2.5) → Packers | monkeymashingkeyboard $10.9k | $0 | 54¢ YES | fails: only 1 vetted wallet with $10.9k (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Latvia vs. Armenia · starts Sun Nov 15, 2:00 PM
+
+- Sun Nov 15, 10:10 AM (hourly): Will Latvia win on 2026-11-15?: first seen: 1 vetted on Yes ($8), fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 15, 9:09 AM (hourly): Will Armenia win on 2026-11-15?: first seen: 1 vetted on No ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
+- Sun Nov 15, 8:10 AM (hourly): Will Latvia vs. Armenia end in a draw?: Kalshi matched at 70¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | 70¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Will Latvia win on 2026-11-15? → Yes | tradecraft $8 | $0 | 29¢ YES | fails: only 1 vetted wallet with $8 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 10:10 AM | hourly | Will Armenia win on 2026-11-15? → No | tradecraft $15 | $0 | 60¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 9:09 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | 70¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 9:09 AM | hourly | Will Armenia win on 2026-11-15? → No | tradecraft $15 | $0 | 60¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 8:10 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | 70¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 7:12 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
+
+### Delfino Pescara vs. US Sambenedettese · starts Sun Nov 15, 1:30 PM
+
+- Sun Nov 15, 10:10 AM (hourly): Will Delfino Pescara vs. US Sambenedettese end in a draw?: first seen: 1 vetted on No ($37), fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Will Delfino Pescara vs. US Sambenedettese end in a draw? → No | tradecraft $37 | $0 | 81¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Bills vs. Jets · starts Sun Nov 15, 6:00 PM
+
+- Sun Nov 15, 4:13 AM (hourly): Bills vs. Jets: first seen: 1 vetted on Bills ($364), fails: only 1 vetted wallet with $364 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 9:09 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 8:10 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 7:12 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 6:11 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 5:12 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
+| Sun Nov 15, 4:13 AM | hourly | Bills vs. Jets → Bills | tradecraft $364 | $0 | 80¢ YES | fails: only 1 vetted wallet with $364 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### CD Tenerife vs. AD Ceuta FC · starts Sun Nov 15, 1:00 PM
+
+- Sun Nov 15, 10:10 AM (hourly): Will CD Tenerife win on 2026-11-15?: first seen: 1 vetted on No ($22), fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Will CD Tenerife win on 2026-11-15? → No | tradecraft $22 | $0 | 45¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Latvia vs. Armenia - More Markets · starts Sun Nov 15, 2:00 PM
+
+- Sun Nov 15, 10:10 AM (hourly): Latvia vs. Armenia: O/U 1.5: first seen: 1 vetted on Over ($2.4k), fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Latvia vs. Armenia: O/U 1.5 → Over | keeptheblueflagflyinghigh $2.4k | $0 | 68¢ YES | fails: only 1 vetted wallet with $2.4k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Cyprus vs. Montenegro - More Markets · starts Sun Nov 15, 2:00 PM
+
+- Sun Nov 15, 10:10 AM (hourly): Cyprus vs. Montenegro: O/U 2.5: first seen: 1 vetted on Over ($6.4k), fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Cyprus vs. Montenegro: O/U 2.5 → Over | keeptheblueflagflyinghigh $6.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Esenler Erokspor vs. Bahcesehir Koleji · starts Sun Nov 15, 10:00 AM
 
 - Sun Nov 15, 8:10 AM (hourly): Esenler Erokspor vs. Bahcesehir Koleji: first seen: 1 vetted on Esenler Erokspor ($27), fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+)
@@ -484,37 +563,14 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 15, 9:09 AM | pregame | Esenler Erokspor vs. Bahcesehir Koleji → Esenler Erokspor | tradecraft $27 | $0 | 41¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Esenler Erokspor vs. Bahcesehir Koleji → Esenler Erokspor | tradecraft $27 | $0 | 41¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Latvia vs. Armenia · starts Sun Nov 15, 2:00 PM
-
-- Sun Nov 15, 9:09 AM (hourly): Will Armenia win on 2026-11-15?: first seen: 1 vetted on No ($15), fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 8:10 AM (hourly): Will Latvia vs. Armenia end in a draw?: Kalshi matched at 70¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 15, 9:09 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | 70¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:09 AM | hourly | Will Armenia win on 2026-11-15? → No | tradecraft $15 | $0 | 60¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | 70¢ NO | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:12 AM | hourly | Will Latvia vs. Armenia end in a draw? → No | tradecraft $35 | $0 | — | fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Bills vs. Jets · starts Sun Nov 15, 6:00 PM
-
-- Sun Nov 15, 4:13 AM (hourly): Bills vs. Jets: first seen: 1 vetted on Bills ($364), fails: only 1 vetted wallet with $364 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 15, 9:09 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:12 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:12 AM | hourly | Bills vs. Jets → Bills | tradecraft $403 | $0 | 80¢ YES | fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 4:13 AM | hourly | Bills vs. Jets → Bills | tradecraft $364 | $0 | 80¢ YES | fails: only 1 vetted wallet with $364 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Metz: Hugo Grenier vs Florent Bax · starts Sun Nov 15, 11:20 AM
 
+- Sun Nov 15, 10:10 AM (hourly): Metz: Hugo Grenier vs Florent Bax: Kalshi 27¢ → 30¢
 - Sun Nov 15, 9:09 AM (hourly): Metz: Hugo Grenier vs Florent Bax: first seen: 1 vetted on Florent Bax ($70), fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | hourly | Metz: Hugo Grenier vs Florent Bax → Florent Bax | keeptheblueflagflyinghigh $78 | $0 | 30¢ YES | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 26c |
 | Sun Nov 15, 9:09 AM | hourly | Metz: Hugo Grenier vs Florent Bax → Florent Bax | keeptheblueflagflyinghigh $70 | $0 | 27¢ YES | fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### BC Dubai vs. Spartak Subotica · starts Sun Nov 15, 9:00 AM
@@ -10381,55 +10437,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 9:17 PM | hourly | Will Malawi win on 2026-11-13? → No | Flaznorp $136 | $0 | — | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Thu Nov 12, 8:15 PM | hourly | Will Malawi win on 2026-11-13? → No | Flaznorp $136 | $0 | — | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 
-### M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade · starts Fri Nov 13, 10:00 AM
-
-- Fri Nov 13, 9:12 AM (pregame): M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade: Kalshi matched at 39¢
-- Fri Nov 13, 6:17 AM (hourly): M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade: first seen: 1 vetted on Daniel Jade ($50), fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 9:12 AM | pregame | M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade → Daniel Jade | Flaznorp $50 | $0 | 39¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade → Daniel Jade | Flaznorp $50 | $0 | — | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade → Daniel Jade | Flaznorp $50 | $0 | 39¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | M25 Vale do Lobo: Izan Almazan Valiente vs Daniel Jade → Daniel Jade | Flaznorp $50 | $0 | 39¢ YES | fails: only 1 vetted wallet with $50 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Wonju DB Promy vs. Sonic Boom · starts Fri Nov 13, 10:00 AM
-
-- Fri Nov 13, 9:12 AM (pregame): Wonju DB Promy vs. Sonic Boom: Kalshi 33¢ → 35¢
-- Fri Nov 13, 7:13 AM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 34¢ → 33¢
-- Fri Nov 13, 6:17 AM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 33¢ → 34¢
-- Fri Nov 13, 1:17 AM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 34¢ → 33¢
-- Thu Nov 12, 10:14 PM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 33¢ → 34¢
-- Thu Nov 12, 8:15 PM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 34¢ → 33¢
-- Thu Nov 12, 6:13 PM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi matched at 34¢
-- Thu Nov 12, 3:17 PM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 36¢ → 35¢
-- Thu Nov 12, 2:20 PM (hourly): Wonju DB Promy vs. Sonic Boom: Kalshi 39¢ → 36¢
-- Thu Nov 12, 1:15 PM (hourly): Wonju DB Promy vs. Sonic Boom: first seen: 1 vetted on Sonic Boom ($611), fails: only 1 vetted wallet with $611 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 9:12 AM | pregame | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $555 | $0 | 35¢ YES | fails: only 1 vetted wallet with $555 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $523 | $0 | 33¢ YES | fails: only 1 vetted wallet with $523 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 33¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 34¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $523 | $0 | 33¢ YES | fails: only 1 vetted wallet with $523 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 33¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:10 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 33¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 2:16 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 33¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 1:17 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 33¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 34¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 34¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $531 | $0 | 34¢ YES | fails: only 1 vetted wallet with $531 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:17 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 33¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 33¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 7:13 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 34¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 6:13 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 34¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 5:15 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | — | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Thu Nov 12, 4:16 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 35¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 3:17 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $539 | $0 | 35¢ YES | fails: only 1 vetted wallet with $539 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 2:20 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $555 | $0 | 36¢ YES | fails: only 1 vetted wallet with $555 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 1:15 PM | hourly | Wonju DB Promy vs. Sonic Boom → Sonic Boom | Flaznorp $611 | $0 | 39¢ YES | fails: only 1 vetted wallet with $611 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Latina Calcio vs. Campobasso FC - More Markets · starts Fri Nov 13, 7:30 PM
 
 - Fri Nov 13, 5:11 AM (hourly): Latina Calcio vs. Campobasso FC: O/U 2.5: Kalshi matched at 46¢
@@ -10533,7 +10540,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 0-1 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 21-30 (14 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 21-30 (18 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 27-30 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 7-8 (3 pending) | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 8-13 (1 pending) | benched |
@@ -10547,6 +10554,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | When | Game | Pick | Reason |
 | --- | --- | --- | --- |
+| Sun Nov 15, 10:10 AM | Forca Lleida CE vs. Manresa | Forca Lleida CE vs. Manresa → Manresa | only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 40c vs leaders 37c |
 | Sun Nov 15, 9:09 AM | ICC Women's Emerging Nations Trophy T20s: Sri Lanka Women vs Papua New Guinea Women | ICC Women's Emerging Nations Trophy T20s: Sri Lanka Women vs Papua New Guinea Women → Papua New Guinea Women | only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; no Kalshi game found |
 | Sun Nov 15, 9:09 AM | Esenler Erokspor vs. Bahcesehir Koleji | Esenler Erokspor vs. Bahcesehir Koleji → Esenler Erokspor | only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | BC Dubai vs. Spartak Subotica | BC Dubai vs. Spartak Subotica → Spartak Subotica | only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -10576,4 +10584,3 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Sun Nov 15, 12:12 AM | Bulls vs. Timberwolves | Spread: Timberwolves (-14.5) → Timberwolves | no Kalshi spread market |
 | Sun Nov 15, 12:12 AM | Mavericks vs. Cavaliers | Mavericks vs. Cavaliers → Mavericks | Kalshi 77c vs leaders 69c |
 | Sun Nov 15, 12:12 AM | Nets vs. Grizzlies | Spread: Grizzlies (-1.5) → Grizzlies | only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sat Nov 14, 11:12 PM | Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks | Louisiana-Lafayette Ragin' Cajuns vs. UNCW Seahawks → Louisiana-Lafayette Ragin' Cajuns | only 1 vetted wallet with $208.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 49c |
