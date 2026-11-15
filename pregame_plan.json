@@ -1,56 +1,6 @@
 {
-  "updated": "2026-11-15T02:11:10Z",
+  "updated": "2026-11-15T03:10:51Z",
   "games": [
-    {
-      "event_slug": "cfb-txtech-okst-2026-11-14",
-      "game": "Texas Tech vs. Oklahoma State",
-      "start": "2026-11-15T02:30:00Z",
-      "check_at": "2026-11-15T02:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Texas Tech vs. Oklahoma State: O/U 73.5 → Over ($14.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-utahst-sdst-2026-11-14",
-      "game": "Utah State vs. San Diego State",
-      "start": "2026-11-15T02:30:00Z",
-      "check_at": "2026-11-15T02:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Utah State vs. San Diego State → Utah State ($1.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-nyi-ana-2026-11-14",
-      "game": "Islanders vs. Ducks",
-      "start": "2026-11-15T03:00:00Z",
-      "check_at": "2026-11-15T02:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Ducks (-1.5) → Islanders ($11.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-utahv-nevada-2026-11-14",
-      "game": "Utah Valley Wolverines vs. Nevada Wolf Pack",
-      "start": "2026-11-15T03:00:00Z",
-      "check_at": "2026-11-15T02:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Nevada Wolf Pack (-9.5) → Utah Valley Wolverines ($3.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-wyom-utep-2026-11-14",
-      "game": "Wyoming vs. UTEP",
-      "start": "2026-11-15T03:00:00Z",
-      "check_at": "2026-11-15T02:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Wyoming vs. UTEP: O/U 43.5 → Under ($608, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $608 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "cfb-utah-arz-2026-11-14",
       "game": "Utah vs. Arizona",
@@ -58,8 +8,8 @@
       "check_at": "2026-11-15T03:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Utah vs. Arizona → Arizona ($21.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $21.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Arizona (-2.5) → Utah ($935, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ndkst-hawaii-2026-11-14",
@@ -68,8 +18,8 @@
       "check_at": "2026-11-15T03:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: North Dakota State (-7.5) → Hawai'i ($1.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: North Dakota State (-7.5) → Hawai'i ($1.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-ne-det-2026-11-15",
@@ -108,8 +58,8 @@
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Chiefs (-3.5) → Falcons ($3.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Chiefs (-3.5) → Falcons ($3.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-la-ari-2026-11-15",
@@ -118,8 +68,8 @@
       "check_at": "2026-11-15T20:50:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rams vs. Cardinals → Cardinals ($277, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $277 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rams vs. Cardinals → Cardinals ($3.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-sf-dal-2026-11-15",
