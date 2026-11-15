@@ -1,45 +1,15 @@
 {
-  "updated": "2026-11-15T00:12:50Z",
+  "updated": "2026-11-15T01:12:52Z",
   "games": [
     {
-      "event_slug": "nba-dal-cle-2026-11-14",
-      "game": "Mavericks vs. Cavaliers",
-      "start": "2026-11-15T00:30:00Z",
-      "check_at": "2026-11-15T00:15:00Z",
+      "event_slug": "cfb-ntx-utsa-2026-11-14",
+      "game": "North Texas vs. UTSA",
+      "start": "2026-11-15T02:00:00Z",
+      "check_at": "2026-11-15T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Mavericks vs. Cavaliers → Mavericks ($168.1k, 2 wallets)",
-      "status": "fails: Kalshi 77c vs leaders 69c"
-    },
-    {
-      "event_slug": "cfb-stan-vtech-2026-11-14",
-      "game": "Stanford vs. Virginia Tech",
-      "start": "2026-11-15T00:30:00Z",
-      "check_at": "2026-11-15T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Stanford vs. Virginia Tech → Virginia Tech ($6.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-chi-min-2026-11-14",
-      "game": "Bulls vs. Timberwolves",
-      "start": "2026-11-15T01:00:00Z",
-      "check_at": "2026-11-15T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Timberwolves (-14.5) → Timberwolves ($13.6k, 2 wallets)",
-      "status": "fails: no Kalshi spread market"
-    },
-    {
-      "event_slug": "nhl-buf-dal-2026-11-14",
-      "game": "Sabres vs. Stars",
-      "start": "2026-11-15T01:00:00Z",
-      "check_at": "2026-11-15T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Sabres vs. Stars → Stars ($9.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "North Texas vs. UTSA → North Texas ($10.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-nyi-ana-2026-11-14",
@@ -48,8 +18,8 @@
       "check_at": "2026-11-15T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Islanders vs. Ducks → Islanders ($201, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Islanders vs. Ducks → Islanders ($197, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $197 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-utah-arz-2026-11-14",
@@ -58,8 +28,8 @@
       "check_at": "2026-11-15T03:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Utah vs. Arizona → Arizona ($22.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $22.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Utah vs. Arizona → Arizona ($21.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-ndkst-hawaii-2026-11-14",
