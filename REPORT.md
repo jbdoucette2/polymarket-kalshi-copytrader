@@ -1,8 +1,8 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 5:11 PM. Bankroll **$93.69** (start $100): $43.28 cash + open trades at cost.
+Updated Sun Nov 15, 5:53 PM. Bankroll **$92.69** (start $100): $52.14 cash + open trades at cost.
 
-Record: 60 won, 44 lost, 10 sold early. Realized P&L $-6.31. Open: 5.
+Record: 60 won, 44 lost, 11 sold early. Realized P&L $-7.31. Open: 4.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,7 @@ Record: 60 won, 44 lost, 10 sold early. Realized P&L $-6.31. Open: 5.
 | Sun Nov 15, 5:11 PM | [Panthers vs. Saints](https://polymarket.com/event/nfl-car-no-2026-11-15) | Panthers vs. Saints → Saints | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($124,816) | 20 × 50¢ YES `KXNFLGAME-26NOV15CARNO-NO` | open |  |
 | Sun Nov 15, 5:11 PM | [Chiefs vs. Falcons](https://polymarket.com/event/nfl-kc-atl-2026-11-15) | Chiefs vs. Falcons → Falcons | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($29,407) | 26 × 38¢ YES `KXNFLGAME-26NOV15KCATL-ATL` | open |  |
 | Sun Nov 15, 5:11 PM | [Vikings vs. Packers](https://polymarket.com/event/nfl-min-gb-2026-11-15) | Vikings vs. Packers → Packers | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($81,169) | 17 × 58¢ YES `KXNFLGAME-26NOV15MINGB-GB` | open |  |
-| Sun Nov 15, 5:11 PM | [Texans vs. Browns](https://polymarket.com/event/nfl-hou-cle-2026-11-15) | Texans vs. Browns: O/U 40.5 → Over | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($12,419) | 18 × 53¢ YES `KXNFLTOTAL-26NOV15HOUCLE-41` | open |  |
+| Sun Nov 15, 5:11 PM | [Texans vs. Browns](https://polymarket.com/event/nfl-hou-cle-2026-11-15) | Texans vs. Browns: O/U 40.5 → Over | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($12,419) | 18 × 53¢ YES `KXNFLTOTAL-26NOV15HOUCLE-41` | sold | $-1.00 |
 | Sat Nov 14, 10:13 PM | [Florida vs. Kentucky](https://polymarket.com/event/cfb-fl-uk-2026-11-14) | Florida vs. Kentucky → Kentucky | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($23,958) | 16 × 59¢ YES `KXNCAAFGAME-26NOV14FLAUK-UK` | lost | $-9.72 |
 | Sat Nov 14, 3:11 AM | [Thunder vs. Clippers](https://polymarket.com/event/nba-okc-lac-2026-11-13) | Spread: Thunder (-7.5) → Clippers | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) ($10,192) | 17 × 56¢ NO `KXNBASPREAD-26NOV13OKCLAC-OKC8` | won | $+7.18 |
 | Fri Nov 13, 7:18 PM | [Luxembourg vs. Estonia](https://polymarket.com/event/unl-lux-est-2026-11-13) | Will Luxembourg win on 2026-11-13? → Yes | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($10,709) | 25 × 39¢ YES `KXUEFANLGAME-26NOV13LUXEST-LUX` | lost | $-10.17 |
@@ -317,6 +317,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Chiefs vs. Falcons · starts Sun Nov 15, 6:00 PM
 
+- Sun Nov 15, 5:53 PM (verify): Chiefs vs. Falcons: 15-min check: still passes (3 wallets, $29.4k for vs $0 against); holding
 - Sun Nov 15, 4:10 PM (hourly): Chiefs vs. Falcons: tradecraft joined Falcons (+$23)
 - Sun Nov 15, 3:11 PM (hourly): Chiefs vs. Falcons: monkeymashingkeyboard added $3.1k on Falcons
 - Sun Nov 15, 2:10 PM (hourly): Chiefs vs. Falcons: monkeymashingkeyboard added $3.4k on Falcons
@@ -473,6 +474,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Panthers vs. Saints · starts Sun Nov 15, 6:00 PM
 
+- Sun Nov 15, 5:53 PM (verify): Panthers vs. Saints: 15-min check: still passes (4 wallets, $202.5k for vs $0 against); holding
 - Sun Nov 15, 5:11 PM (pregame): Panthers vs. Saints: O/U 48.5: first seen: 1 vetted on Over ($5.2k), fails: only 1 vetted wallet with $5.2k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 15, 5:11 PM (pregame): Panthers vs. Saints: O/U 50.5: primm added $1.7k on Over
 - Sun Nov 15, 5:11 PM (pregame): Spread: Saints (-2.5): Kalshi 56¢ → 57¢
@@ -711,6 +713,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Bills vs. Jets · starts Sun Nov 15, 6:00 PM
 
+- Sun Nov 15, 5:53 PM (verify): Bills vs. Jets: 15-min check: still passes (3 wallets, $44.0k for vs $0 against); holding
 - Sun Nov 15, 5:11 PM (pregame): Bills vs. Jets: O/U 50.5: first seen: 1 vetted on Over ($13.6k), fails: only 1 vetted wallet with $13.6k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 15, 5:11 PM (pregame): Bills vs. Jets: gmpm2 joined Bills (+$10.3k)
 - Sun Nov 15, 2:10 PM (hourly): Spread: Bills (-8.5): first seen: 1 vetted on Jets ($212), fails: only 1 vetted wallet with $212 (needs 3+ wallets, or 2 with $5.0k+)
@@ -742,6 +745,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Texans vs. Browns · starts Sun Nov 15, 6:00 PM
 
+- Sun Nov 15, 5:53 PM (verify): Texans vs. Browns: O/U 40.5: 15-min check: Over has only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+); opposition 122% (1 wallets, $10.0k for vs $12.2k against); sold
 - Sun Nov 15, 5:11 PM (pregame): Spread: Texans (-3.5): Kalshi 50¢ → 51¢
 - Sun Nov 15, 4:10 PM (hourly): Texans vs. Browns: first seen: 1 vetted on Browns ($19.8k), fails: only 1 vetted wallet with $19.8k (needs 3+ wallets, or 2 with $5.0k+)
 - Sun Nov 15, 4:10 PM (hourly): Spread: Texans (-3.5): Kalshi 48¢ → 50¢
@@ -793,6 +797,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Vikings vs. Packers · starts Sun Nov 15, 6:00 PM
 
+- Sun Nov 15, 5:53 PM (verify): Vikings vs. Packers: 15-min check: still passes (3 wallets, $81.2k for vs $0 against); holding
 - Sun Nov 15, 5:11 PM (pregame): Vikings vs. Packers: tradecraft joined Packers (+$21)
 - Sun Nov 15, 5:11 PM (pregame): Vikings vs. Packers: keeptheblueflagflyinghigh added $17.7k on Packers
 - Sun Nov 15, 4:10 PM (hourly): Vikings vs. Packers: monkeymashingkeyboard added $11.3k on Packers
