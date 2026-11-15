@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 8:38 PM. Bankroll **$92.69** (start $100): $32.56 cash + open trades at cost.
+Updated Sun Nov 15, 8:53 PM. Bankroll **$92.69** (start $100): $32.56 cash + open trades at cost.
 
 Record: 60 won, 44 lost, 11 sold early. Realized P&L $-7.31. Open: 6.
 
@@ -252,6 +252,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Rams vs. Cardinals · starts Sun Nov 15, 9:05 PM
 
+- Sun Nov 15, 8:53 PM (verify): Rams vs. Cardinals: O/U 38.5: 15-min check: still passes (3 wallets, $32.6k for vs $0 against); holding
 - Sun Nov 15, 8:10 PM (pregame): Rams vs. Cardinals: O/U 38.5: Kalshi 52¢ → 51¢
 - Sun Nov 15, 8:10 PM (pregame): Spread: Rams (-9.5): Kalshi 52¢ → 53¢
 - Sun Nov 15, 6:11 PM (hourly): Spread: Rams (-9.5): Kalshi 51¢ → 52¢
@@ -621,6 +622,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Seahawks vs. Raiders · starts Sun Nov 15, 9:05 PM
 
+- Sun Nov 15, 8:53 PM (verify): Seahawks vs. Raiders: 15-min check: still passes (2 wallets, $32.3k for vs $0 against); holding
 - Sun Nov 15, 8:10 PM (pregame): Seahawks vs. Raiders: tradecraft left
 - Sun Nov 15, 8:10 PM (pregame): Spread: Seahawks (-6.5): Kalshi 49¢ → 50¢
 - Sun Nov 15, 7:10 PM (hourly): Spread: Seahawks (-6.5): first seen: 1 vetted on Seahawks ($61.6k), fails: only 1 vetted wallet with $61.6k (needs 3+ wallets, or 2 with $5.0k+)
