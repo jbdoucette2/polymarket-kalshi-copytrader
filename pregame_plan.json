@@ -1,116 +1,6 @@
 {
-  "updated": "2026-11-14T23:12:26Z",
+  "updated": "2026-11-15T00:12:50Z",
   "games": [
-    {
-      "event_slug": "cfb-sjst-airf-2026-11-14",
-      "game": "San Jose State vs. Air Force",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Air Force (-13.5) → Air Force ($1.7k, 2 wallets)",
-      "status": "fails: only 2 vetted wallets with $1.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-phi-cbj-2026-11-14",
-      "game": "Flyers vs. Blue Jackets",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Flyers vs. Blue Jackets → Flyers ($8.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-det-tb-2026-11-14",
-      "game": "Red Wings vs. Lightning",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Lightning (-1.5) → Lightning ($10.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-min-bos-2026-11-14",
-      "game": "Wild vs. Bruins",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Wild vs. Bruins → Wild ($9.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-bayl-byu-2026-11-14",
-      "game": "Baylor vs. BYU",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: BYU (-10.5) → BYU ($1.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-col-mon-2026-11-14",
-      "game": "Avalanche vs. Canadiens",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Avalanche vs. Canadiens → Avalanche ($2.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-minnst-pennst-2026-11-14",
-      "game": "Minnesota vs. Penn State",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Penn State (-14.5) → Penn State ($158, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-fla-stl-2026-11-14",
-      "game": "Panthers vs. Blues",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Blues (-1.5) → Panthers ($19.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $19.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-den-nop-2026-11-14",
-      "game": "Nuggets vs. Pelicans",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Nuggets (-12.5) → Pelicans ($9.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-edm-tor-2026-11-14",
-      "game": "Oilers vs. Maple Leafs",
-      "start": "2026-11-15T00:00:00Z",
-      "check_at": "2026-11-14T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Oilers vs. Maple Leafs → Maple Leafs ($5.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-flatl-tulsa-2026-11-14",
-      "game": "Florida Atlantic vs. Tulsa",
-      "start": "2026-11-15T00:15:00Z",
-      "check_at": "2026-11-15T00:00:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Florida Atlantic vs. Tulsa: O/U 73.5 → Over ($9.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nba-dal-cle-2026-11-14",
       "game": "Mavericks vs. Cavaliers",
@@ -118,18 +8,8 @@
       "check_at": "2026-11-15T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Mavericks vs. Cavaliers: O/U 231.5 → Over ($122, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $122 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-pur-iowa-2026-11-14",
-      "game": "Purdue vs. Iowa",
-      "start": "2026-11-15T00:30:00Z",
-      "check_at": "2026-11-15T00:15:00Z",
-      "passing": 0,
-      "near": 4,
-      "best": "Spread: Iowa (-16.5) → Purdue ($6.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Mavericks vs. Cavaliers → Mavericks ($168.1k, 2 wallets)",
+      "status": "fails: Kalshi 77c vs leaders 69c"
     },
     {
       "event_slug": "cfb-stan-vtech-2026-11-14",
@@ -137,39 +17,9 @@
       "start": "2026-11-15T00:30:00Z",
       "check_at": "2026-11-15T00:15:00Z",
       "passing": 0,
-      "near": 4,
+      "near": 1,
       "best": "Stanford vs. Virginia Tech → Virginia Tech ($6.4k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-unlv-nmx-2026-11-14",
-      "game": "UNLV vs. New Mexico",
-      "start": "2026-11-15T00:30:00Z",
-      "check_at": "2026-11-15T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: New Mexico (-16.5) → New Mexico ($6.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-tx-lsu-2026-11-14",
-      "game": "Texas vs. LSU",
-      "start": "2026-11-15T00:30:00Z",
-      "check_at": "2026-11-15T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: LSU (-4.5) → Texas ($15.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $15.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-sc-ark-2026-11-14",
-      "game": "South Carolina vs. Arkansas",
-      "start": "2026-11-15T00:45:00Z",
-      "check_at": "2026-11-15T00:30:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: South Carolina (-7.5) → Arkansas ($6.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-chi-min-2026-11-14",
@@ -177,29 +27,9 @@
       "start": "2026-11-15T01:00:00Z",
       "check_at": "2026-11-15T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Timberwolves (-15.5) → Timberwolves ($18.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $18.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-det-mia-2026-11-14",
-      "game": "Pistons vs. Heat",
-      "start": "2026-11-15T01:00:00Z",
-      "check_at": "2026-11-15T00:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spread: Pistons (-3.5) → Pistons ($5.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-bkn-mem-2026-11-14",
-      "game": "Nets vs. Grizzlies",
-      "start": "2026-11-15T01:00:00Z",
-      "check_at": "2026-11-15T00:45:00Z",
-      "passing": 0,
       "near": 1,
-      "best": "Nets vs. Grizzlies: O/U 226.5 → Over ($13.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Timberwolves (-14.5) → Timberwolves ($13.6k, 2 wallets)",
+      "status": "fails: no Kalshi spread market"
     },
     {
       "event_slug": "nhl-buf-dal-2026-11-14",
@@ -207,29 +37,9 @@
       "start": "2026-11-15T01:00:00Z",
       "check_at": "2026-11-15T00:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Sabres vs. Stars → Stars ($9.6k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $9.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-txtech-okst-2026-11-14",
-      "game": "Texas Tech vs. Oklahoma State",
-      "start": "2026-11-15T02:30:00Z",
-      "check_at": "2026-11-15T02:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Texas Tech vs. Oklahoma State: O/U 73.5 → Over ($14.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-utahst-sdst-2026-11-14",
-      "game": "Utah State vs. San Diego State",
-      "start": "2026-11-15T02:30:00Z",
-      "check_at": "2026-11-15T02:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Utah State vs. San Diego State: O/U 43.5 → Over ($890, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $890 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-nyi-ana-2026-11-14",
@@ -237,19 +47,9 @@
       "start": "2026-11-15T03:00:00Z",
       "check_at": "2026-11-15T02:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Ducks (-1.5) → Islanders ($11.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.2k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-wyom-utep-2026-11-14",
-      "game": "Wyoming vs. UTEP",
-      "start": "2026-11-15T03:00:00Z",
-      "check_at": "2026-11-15T02:45:00Z",
-      "passing": 0,
       "near": 1,
-      "best": "Wyoming vs. UTEP: O/U 43.5 → Under ($608, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $608 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Islanders vs. Ducks → Islanders ($201, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $201 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-utah-arz-2026-11-14",
@@ -257,9 +57,19 @@
       "start": "2026-11-15T03:30:00Z",
       "check_at": "2026-11-15T03:15:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Arizona (-1.5) → Utah ($1.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Utah vs. Arizona → Arizona ($22.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $22.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-ndkst-hawaii-2026-11-14",
+      "game": "North Dakota State vs. Hawai'i",
+      "start": "2026-11-15T04:00:00Z",
+      "check_at": "2026-11-15T03:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "North Dakota State vs. Hawai'i → Hawai'i ($767, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $767 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-ne-det-2026-11-15",
@@ -267,9 +77,9 @@
       "start": "2026-11-15T14:30:00Z",
       "check_at": "2026-11-15T14:15:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Patriots vs. Lions: O/U 50.5 → Under ($23.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Patriots vs. Lions → Lions ($11.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-min-gb-2026-11-15",
@@ -277,29 +87,9 @@
       "start": "2026-11-15T18:00:00Z",
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Vikings vs. Packers → Packers ($26.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $26.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-hou-cle-2026-11-15",
-      "game": "Texans vs. Browns",
-      "start": "2026-11-15T18:00:00Z",
-      "check_at": "2026-11-15T17:45:00Z",
-      "passing": 0,
       "near": 1,
-      "best": "Texans vs. Browns: O/U 40.5 → Over ($9.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-kc-atl-2026-11-15",
-      "game": "Chiefs vs. Falcons",
-      "start": "2026-11-15T18:00:00Z",
-      "check_at": "2026-11-15T17:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Chiefs (-3.5) → Falcons ($3.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Vikings vs. Packers → Packers ($26.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $26.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-la-ari-2026-11-15",
@@ -308,18 +98,8 @@
       "check_at": "2026-11-15T20:50:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rams vs. Cardinals → Cardinals ($266, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $266 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-sf-dal-2026-11-15",
-      "game": "49ers vs. Cowboys",
-      "start": "2026-11-15T21:25:00Z",
-      "check_at": "2026-11-15T21:10:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: 49ers (-3.5) → 49ers ($5.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rams vs. Cardinals → Cardinals ($276, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $276 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
