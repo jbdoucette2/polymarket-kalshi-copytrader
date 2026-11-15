@@ -1,25 +1,15 @@
 {
-  "updated": "2026-11-15T11:10:21Z",
+  "updated": "2026-11-15T12:10:44Z",
   "games": [
     {
-      "event_slug": "atp-grenier-bax-2026-11-15",
-      "game": "Metz: Hugo Grenier vs Florent Bax",
-      "start": "2026-11-15T11:20:00Z",
-      "check_at": "2026-11-15T11:05:00Z",
+      "event_slug": "bkbsl-mer2-cay-2026-11-15",
+      "game": "Denizli Basket vs. Cayirova",
+      "start": "2026-11-15T12:30:00Z",
+      "check_at": "2026-11-15T12:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Metz: Hugo Grenier vs Florent Bax → Florent Bax ($64, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $64 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "es2-cdt-ceu-2026-11-15",
-      "game": "CD Tenerife vs. AD Ceuta FC",
-      "start": "2026-11-15T13:00:00Z",
-      "check_at": "2026-11-15T12:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Will CD Tenerife win on 2026-11-15? → No ($23, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Denizli Basket vs. Cayirova → Denizli Basket ($25, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "serc-pes-sam-2026-11-15",
@@ -38,8 +28,8 @@
       "check_at": "2026-11-15T13:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Cyprus vs. Montenegro: O/U 2.5 → Over ($7.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Cyprus vs. Montenegro: O/U 2.5 → Over ($9.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-lat-arm-2026-11-15-more-markets",
@@ -58,8 +48,8 @@
       "check_at": "2026-11-15T13:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Will Latvia vs. Armenia end in a draw? → No ($35, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $35 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Will Latvia vs. Armenia end in a draw? → No ($49, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-cyp-mon-2026-11-15",
@@ -76,10 +66,20 @@
       "game": "Patriots vs. Lions",
       "start": "2026-11-15T14:30:00Z",
       "check_at": "2026-11-15T14:15:00Z",
-      "passing": 1,
-      "near": 4,
-      "best": "Patriots vs. Lions: O/U 50.5 → Under ($22.5k, 2 wallets)",
+      "passing": 2,
+      "near": 3,
+      "best": "Patriots vs. Lions: O/U 50.5 → Under ($21.7k, 2 wallets)",
       "status": "passes"
+    },
+    {
+      "event_slug": "bklkl-zal-nep-2026-11-15",
+      "game": "BC Zalgiris Kaunas vs. BC Neptunas Klaipeda",
+      "start": "2026-11-15T14:50:00Z",
+      "check_at": "2026-11-15T14:35:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BC Zalgiris Kaunas vs. BC Neptunas Klaipeda → BC Zalgiris Kaunas ($20, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $20 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-min-gb-2026-11-15",
@@ -87,9 +87,9 @@
       "start": "2026-11-15T18:00:00Z",
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Vikings vs. Packers → Packers ($26.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $26.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Vikings vs. Packers → Packers ($37.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $37.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-kc-atl-2026-11-15",
@@ -107,9 +107,19 @@
       "start": "2026-11-15T18:00:00Z",
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
+      "near": 2,
+      "best": "Spread: Texans (-3.5) → Browns ($18.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $18.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-ind-phi-2026-11-15",
+      "game": "Pacers vs. 76ers",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
       "near": 1,
-      "best": "Texans vs. Browns: O/U 40.5 → Over ($10.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: 76ers (-6.5) → Pacers ($126, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $126 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-buf-nyj-2026-11-15",
@@ -132,6 +142,16 @@
       "status": "fails: only 1 vetted wallet with $300 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nfl-sea-lv-2026-11-15",
+      "game": "Seahawks vs. Raiders",
+      "start": "2026-11-15T21:05:00Z",
+      "check_at": "2026-11-15T20:50:00Z",
+      "passing": 1,
+      "near": 0,
+      "best": "Seahawks vs. Raiders → Seahawks ($18.8k, 2 wallets)",
+      "status": "passes"
+    },
+    {
       "event_slug": "nfl-la-ari-2026-11-15",
       "game": "Rams vs. Cardinals",
       "start": "2026-11-15T21:05:00Z",
@@ -147,9 +167,19 @@
       "start": "2026-11-15T21:25:00Z",
       "check_at": "2026-11-15T21:10:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Spread: 49ers (-3.5) → 49ers ($16.3k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-cha-lac-2026-11-15",
+      "game": "Hornets vs. Clippers",
+      "start": "2026-11-15T21:30:00Z",
+      "check_at": "2026-11-15T21:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Clippers (-1.5) → Clippers ($2.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-sas-uta-2026-11-15",
@@ -160,6 +190,16 @@
       "near": 1,
       "best": "Spread: Spurs (-16.5) → Jazz ($14, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-atl-mil-2026-11-15",
+      "game": "Hawks vs. Bucks",
+      "start": "2026-11-16T01:00:00Z",
+      "check_at": "2026-11-16T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Hawks vs. Bucks: O/U 233.5 → Over ($6.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-pit-cin-2026-11-16",
