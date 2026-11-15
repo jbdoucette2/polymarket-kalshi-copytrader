@@ -1,45 +1,15 @@
 {
-  "updated": "2026-11-15T21:10:18Z",
+  "updated": "2026-11-15T22:12:11Z",
   "games": [
     {
-      "event_slug": "nfl-sf-dal-2026-11-15",
-      "game": "49ers vs. Cowboys",
-      "start": "2026-11-15T21:25:00Z",
-      "check_at": "2026-11-15T21:10:00Z",
-      "passing": 2,
-      "near": 1,
-      "best": "Spread: 49ers (-3.5) → 49ers ($50.4k, 2 wallets)",
-      "status": "passes"
-    },
-    {
-      "event_slug": "nba-cha-lac-2026-11-15",
-      "game": "Hornets vs. Clippers",
-      "start": "2026-11-15T21:30:00Z",
-      "check_at": "2026-11-15T21:15:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Hornets vs. Clippers → Hornets ($16.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-sas-uta-2026-11-15",
-      "game": "Spurs vs. Jazz",
-      "start": "2026-11-15T22:00:00Z",
-      "check_at": "2026-11-15T21:45:00Z",
-      "passing": 0,
-      "near": 3,
-      "best": "Spurs vs. Jazz → Spurs ($35.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $35.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-pepp-ore-2026-11-15",
-      "game": "Pepperdine Waves vs. Oregon Ducks",
-      "start": "2026-11-15T22:00:00Z",
-      "check_at": "2026-11-15T21:45:00Z",
+      "event_slug": "nba-dal-bos-2026-11-15",
+      "game": "Mavericks vs. Celtics",
+      "start": "2026-11-15T23:00:00Z",
+      "check_at": "2026-11-15T22:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Oregon Ducks (-13.5) → Oregon Ducks ($2.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Celtics (-14.5) → Mavericks ($1.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-nyk-tor-2026-11-15",
@@ -48,8 +18,8 @@
       "check_at": "2026-11-15T22:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Knicks vs. Raptors: O/U 218.5 → Under ($6.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Knicks (-4.5) → Knicks ($8.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $8.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-hou-was-2026-11-15",
@@ -57,9 +27,19 @@
       "start": "2026-11-16T00:00:00Z",
       "check_at": "2026-11-15T23:45:00Z",
       "passing": 0,
+      "near": 3,
+      "best": "Rockets vs. Wizards → Rockets ($16.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-edm-phi-2026-11-15",
+      "game": "Oilers vs. Flyers",
+      "start": "2026-11-16T00:30:00Z",
+      "check_at": "2026-11-16T00:15:00Z",
+      "passing": 0,
       "near": 2,
-      "best": "Spread: Rockets (-8.5) → Wizards ($8.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Oilers vs. Flyers → Flyers ($10.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-atl-mil-2026-11-15",
@@ -67,7 +47,7 @@
       "start": "2026-11-16T01:00:00Z",
       "check_at": "2026-11-16T00:45:00Z",
       "passing": 1,
-      "near": 2,
+      "near": 3,
       "best": "Hawks vs. Bucks: O/U 233.5 → Over ($21.6k, 2 wallets)",
       "status": "passes"
     },
@@ -86,9 +66,9 @@
       "game": "Steelers vs. Bengals",
       "start": "2026-11-16T01:20:00Z",
       "check_at": "2026-11-16T01:05:00Z",
-      "passing": 2,
-      "near": 2,
-      "best": "Spread: Bengals (-3.5) → Bengals ($40.2k, 2 wallets)",
+      "passing": 1,
+      "near": 3,
+      "best": "Spread: Bengals (-3.5) → Bengals ($40.3k, 2 wallets)",
       "status": "passes"
     },
     {
