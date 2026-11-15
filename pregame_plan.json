@@ -1,15 +1,25 @@
 {
-  "updated": "2026-11-15T05:12:58Z",
+  "updated": "2026-11-15T06:11:25Z",
   "games": [
+    {
+      "event_slug": "bkaba-dub-spa-2026-11-15",
+      "game": "BC Dubai vs. Spartak Subotica",
+      "start": "2026-11-15T09:00:00Z",
+      "check_at": "2026-11-15T08:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "BC Dubai vs. Spartak Subotica → Spartak Subotica ($6, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "nfl-ne-det-2026-11-15",
       "game": "Patriots vs. Lions",
       "start": "2026-11-15T14:30:00Z",
       "check_at": "2026-11-15T14:15:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Patriots vs. Lions → Lions ($11.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "Patriots vs. Lions: O/U 50.5 → Under ($23.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $23.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-min-gb-2026-11-15",
@@ -17,7 +27,7 @@
       "start": "2026-11-15T18:00:00Z",
       "check_at": "2026-11-15T17:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Vikings vs. Packers → Packers ($26.2k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $26.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -32,14 +42,54 @@
       "status": "fails: only 1 vetted wallet with $403 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nfl-kc-atl-2026-11-15",
+      "game": "Chiefs vs. Falcons",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Chiefs (-3.5) → Falcons ($18.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $18.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-hou-cle-2026-11-15",
+      "game": "Texans vs. Browns",
+      "start": "2026-11-15T18:00:00Z",
+      "check_at": "2026-11-15T17:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Texans vs. Browns: O/U 40.5 → Over ($10.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nfl-la-ari-2026-11-15",
       "game": "Rams vs. Cardinals",
       "start": "2026-11-15T21:05:00Z",
       "check_at": "2026-11-15T20:50:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rams vs. Cardinals → Cardinals ($3.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rams vs. Cardinals → Cardinals ($3.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-sf-dal-2026-11-15",
+      "game": "49ers vs. Cowboys",
+      "start": "2026-11-15T21:25:00Z",
+      "check_at": "2026-11-15T21:10:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: 49ers (-3.5) → 49ers ($5.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-pit-cin-2026-11-16",
+      "game": "Steelers vs. Bengals",
+      "start": "2026-11-16T01:20:00Z",
+      "check_at": "2026-11-16T01:05:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Bengals (-3.5) → Bengals ($15.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
