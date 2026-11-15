@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 7:22 PM. Bankroll **$92.69** (start $100): $52.14 cash + open trades at cost.
+Updated Sun Nov 15, 7:37 PM. Bankroll **$92.69** (start $100): $52.14 cash + open trades at cost.
 
 Record: 60 won, 44 lost, 11 sold early. Realized P&L $-7.31. Open: 4.
 
@@ -9643,75 +9643,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 9:17 PM | hourly | Spread: Slovakia (-1.5) → Faroe Islands | Flaznorp $22 | $0 | 55¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 8:15 PM | hourly | Spread: Slovakia (-1.5) → Faroe Islands | Flaznorp $22 | $0 | 55¢ NO | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### CD Leganés vs. Burgos CF · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 7:18 PM (pregame): Will CD Leganés win on 2026-11-13?: Kalshi 61¢ → 59¢
-- Fri Nov 13, 7:18 PM (pregame): Will Burgos CF win on 2026-11-13?: first seen: 1 vetted on Yes ($385), fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 3:23 PM (hourly): Will CD Leganés vs. Burgos CF end in a draw?: Kalshi 71¢ → 70¢
-- Fri Nov 13, 8:15 AM (hourly): Will CD Leganés vs. Burgos CF end in a draw?: Kalshi 70¢ → 71¢
-- Thu Nov 12, 10:14 PM (hourly): Will CD Leganés vs. Burgos CF end in a draw?: Kalshi 71¢ → 70¢
-- Thu Nov 12, 8:15 PM (hourly): Will CD Leganés vs. Burgos CF end in a draw?: first seen: 1 vetted on No ($150), fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Will CD Leganés win on 2026-11-13? → No | Flaznorp $36 | $0 | 59¢ NO | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | pregame | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $148 | $0 | 70¢ NO | fails: only 1 vetted wallet with $148 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | pregame | Will Burgos CF win on 2026-11-13? → Yes | Flaznorp $385 | $0 | 29¢ YES | fails: only 1 vetted wallet with $385 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 6:14 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 5:13 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 4:18 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Fri Nov 13, 3:23 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 12:17 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:14 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 11:14 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 10:12 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 9:12 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 8:15 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Fri Nov 13, 7:13 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 6:17 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 5:11 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 4:15 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:10 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Fri Nov 13, 3:10 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 2:16 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Fri Nov 13, 2:16 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 1:17 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Fri Nov 13, 1:17 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Fri Nov 13, 12:18 AM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 62¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 62c vs leaders 57c |
-| Thu Nov 12, 11:12 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $38 | $0 | 61¢ NO | fails: only 1 vetted wallet with $38 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 61c vs leaders 57c |
-| Thu Nov 12, 10:14 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 70¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:17 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $37 | $0 | 60¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 57c |
-| Thu Nov 12, 9:17 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | Will CD Leganés win on 2026-11-13? → No | Flaznorp $37 | $0 | 60¢ NO | fails: only 1 vetted wallet with $37 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 57c |
-| Thu Nov 12, 8:15 PM | hourly | Will CD Leganés vs. Burgos CF end in a draw? → No | Flaznorp $150 | $0 | 71¢ NO | fails: only 1 vetted wallet with $150 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### ACD Ospitaletto vs. Dolomiti Bellunesi · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 7:18 PM (pregame): Will ACD Ospitaletto win on 2026-11-13?: Kalshi matched at 34¢
-- Fri Nov 13, 5:13 PM (hourly): Will ACD Ospitaletto win on 2026-11-13?: Kalshi matched at 35¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Will ACD Ospitaletto win on 2026-11-13? → No | Flaznorp $44 | $0 | 34¢ NO | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Will ACD Ospitaletto win on 2026-11-13? → No | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Will ACD Ospitaletto win on 2026-11-13? → No | Flaznorp $45 | $0 | 35¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will ACD Ospitaletto win on 2026-11-13? → No | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Grenada vs. St. Kitts and Nevis · starts Fri Nov 13, 8:00 PM
 
 - Fri Nov 13, 7:18 PM (pregame): Will Grenada win on 2026-11-13?: Kalshi matched at 19¢
@@ -9840,44 +9771,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 8:15 PM | hourly | Salamanca CF UDS vs. RC Celta de Vigo: O/U 2.5 → Under | Flaznorp $78 | $0 | 35¢ NO | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 8:15 PM | hourly | Salamanca CF UDS vs. RC Celta de Vigo: O/U 4.5 → Under | Flaznorp $137 | $0 | 78¢ NO | fails: only 1 vetted wallet with $137 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 8:15 PM | hourly | Salamanca CF UDS vs. RC Celta de Vigo: O/U 0.5 → Over | Flaznorp $190 | $0 | 99¢ YES | fails: only 1 vetted wallet with $190 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 99c vs leaders 96c |
-
-### CD Leganés vs. Burgos CF - More Markets · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 7:18 PM (pregame): CD Leganés vs. Burgos CF: O/U 4.5: first seen: 1 vetted on Over ($88), fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 5:13 PM (hourly): Spread: CD Leganés (-1.5): first seen: 1 vetted on CD Leganés ($31), fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 5:13 PM (hourly): CD Leganés vs. Burgos CF: O/U 1.5: Kalshi matched at 32¢
-- Fri Nov 13, 3:23 PM (hourly): CD Leganés vs. Burgos CF: O/U 1.5: Kalshi matched at 32¢
-- Fri Nov 13, 9:12 AM (hourly): CD Leganés vs. Burgos CF: O/U 1.5: Kalshi matched at 32¢
-- Thu Nov 12, 8:15 PM (hourly): CD Leganés vs. Burgos CF: O/U 1.5: first seen: 1 vetted on Under ($39), fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Spread: CD Leganés (-1.5) → CD Leganés | Flaznorp $32 | $0 | — | fails: only 1 vetted wallet with $32 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 7:18 PM | pregame | CD Leganés vs. Burgos CF: O/U 1.5 → Over | keeptheblueflagflyinghigh $209 | $40 | 68¢ YES | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); opposition 19% |
-| Fri Nov 13, 7:18 PM | pregame | CD Leganés vs. Burgos CF: O/U 4.5 → Over | Flaznorp $88 | $0 | 9¢ YES | fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Spread: CD Leganés (-1.5) → CD Leganés | Flaznorp $31 | $0 | — | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 6:14 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 5:13 PM | hourly | Spread: CD Leganés (-1.5) → CD Leganés | Flaznorp $31 | $0 | 18¢ YES | fails: only 1 vetted wallet with $31 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 3:23 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 11:14 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | — | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 7:13 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:10 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 2:16 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 1:17 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 10:14 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 9:17 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 8:15 PM | hourly | CD Leganés vs. Burgos CF: O/U 1.5 → Under | Flaznorp $39 | $0 | 32¢ NO | fails: only 1 vetted wallet with $39 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Slovakia vs. Faroe Islands · starts Fri Nov 13, 7:45 PM
 
@@ -10074,28 +9967,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 8:15 PM | hourly | Will Bulgaria vs. Iceland end in a draw? → No | Flaznorp $56 | $0 | 74¢ NO | fails: only 1 vetted wallet with $56 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 12, 8:15 PM | hourly | Will Iceland win on 2026-11-13? → No | Flaznorp $315 | $0 | 47¢ NO | fails: only 1 vetted wallet with $315 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Knoxville: Max Hans Rehberg vs Daniel Milavsky · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 7:18 PM (pregame): Knoxville: Max Hans Rehberg vs Daniel Milavsky: Kalshi matched at 47¢
-- Fri Nov 13, 5:13 PM (hourly): Knoxville: Max Hans Rehberg vs Daniel Milavsky: Kalshi matched at 46¢
-- Fri Nov 13, 3:23 PM (hourly): Knoxville: Max Hans Rehberg vs Daniel Milavsky: Kalshi matched at 46¢
-- Fri Nov 13, 9:12 AM (hourly): Knoxville: Max Hans Rehberg vs Daniel Milavsky: Kalshi matched at 46¢
-- Fri Nov 13, 7:13 AM (hourly): Knoxville: Max Hans Rehberg vs Daniel Milavsky: first seen: 1 vetted on Daniel Milavsky ($238), fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 47¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | pregame | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | — | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | — | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | — | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | — | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Knoxville: Max Hans Rehberg vs Daniel Milavsky → Daniel Milavsky | Flaznorp $238 | $0 | 46¢ YES | fails: only 1 vetted wallet with $238 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Scotland vs. North Macedonia · starts Fri Nov 13, 7:45 PM
 
 - Fri Nov 13, 7:18 PM (pregame): Will Scotland win on 2026-11-13?: Kalshi matched at 17¢
@@ -10137,28 +10008,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 5:11 AM | hourly | Spread: St. Kitts and Nevis (-2.5) → St. Kitts and Nevis | Flaznorp $11 | $0 | 20¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 4:15 AM | hourly | Spread: St. Kitts and Nevis (-2.5) → St. Kitts and Nevis | Flaznorp $11 | $0 | — | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Fri Nov 13, 3:10 AM | hourly | Spread: St. Kitts and Nevis (-2.5) → St. Kitts and Nevis | Flaznorp $11 | $0 | 20¢ YES | fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Latina Calcio vs. Campobasso FC · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 7:18 PM (pregame): Will Campobasso FC win on 2026-11-13?: Kalshi matched at 26¢
-- Fri Nov 13, 6:14 PM (hourly): Will Campobasso FC win on 2026-11-13?: tradecraft joined Yes (+$13)
-- Fri Nov 13, 5:13 PM (hourly): Will Campobasso FC win on 2026-11-13?: Kalshi matched at 27¢
-- Fri Nov 13, 9:12 AM (hourly): Will Campobasso FC win on 2026-11-13?: Kalshi matched at 29¢
-- Fri Nov 13, 7:13 AM (hourly): Will Campobasso FC win on 2026-11-13?: first seen: 1 vetted on Yes ($33), fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $74, tradecraft $13 | $0 | 26¢ YES | fails: only 2 vetted wallets with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $74, tradecraft $13 | $0 | — | fails: only 2 vetted wallets with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $74 | $0 | 27¢ YES | fails: only 1 vetted wallet with $74 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $78 | $0 | — | fails: only 1 vetted wallet with $78 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $36 | $0 | 31¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 31c vs leaders 28c |
-| Fri Nov 13, 12:17 PM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | 29¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | 29¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | 29¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Will Campobasso FC win on 2026-11-13? → Yes | Flaznorp $33 | $0 | 29¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Slovenia vs. Switzerland · starts Fri Nov 13, 7:45 PM
 
@@ -10427,33 +10276,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 12, 10:14 PM | hourly | Will Malawi win on 2026-11-13? → No | Flaznorp $136 | $0 | — | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Thu Nov 12, 9:17 PM | hourly | Will Malawi win on 2026-11-13? → No | Flaznorp $136 | $0 | — | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
 | Thu Nov 12, 8:15 PM | hourly | Will Malawi win on 2026-11-13? → No | Flaznorp $136 | $0 | — | fails: only 1 vetted wallet with $136 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 97¢ outside 5–95¢; no Kalshi game found |
-
-### Latina Calcio vs. Campobasso FC - More Markets · starts Fri Nov 13, 7:30 PM
-
-- Fri Nov 13, 5:11 AM (hourly): Latina Calcio vs. Campobasso FC: O/U 2.5: Kalshi matched at 46¢
-- Thu Nov 12, 11:12 PM (hourly): Latina Calcio vs. Campobasso FC: O/U 2.5: first seen: 1 vetted on Over ($40), fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 7:18 PM | pregame | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $41 | $0 | — | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 6:14 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | 47¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 44c |
-| Fri Nov 13, 4:18 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | 47¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 47c vs leaders 44c |
-| Fri Nov 13, 12:17 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | 48¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
-| Fri Nov 13, 10:12 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | 48¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
-| Fri Nov 13, 9:12 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | 48¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 48c vs leaders 44c |
-| Fri Nov 13, 8:15 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $41 | $0 | 46¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $41 | $0 | 46¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $41 | $0 | 46¢ YES | fails: only 1 vetted wallet with $41 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | — | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:10 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | 46¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 2:16 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | 46¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 1:17 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | 46¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:18 AM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | 46¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 12, 11:12 PM | hourly | Latina Calcio vs. Campobasso FC: O/U 2.5 → Over | Flaznorp $40 | $0 | 46¢ YES | fails: only 1 vetted wallet with $40 (needs 3+ wallets, or 2 with $5.0k+) |
 
 
 ## Time-out
