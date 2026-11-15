@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Sun Nov 15, 2:38 AM. Bankroll **$103.41** (start $100): $93.69 cash + open trades at cost.
+Updated Sun Nov 15, 2:52 AM. Bankroll **$93.69** (start $100): $93.69 cash + open trades at cost.
 
-Record: 60 won, 43 lost, 10 sold early. Realized P&L $+3.41. Open: 1.
+Record: 60 won, 44 lost, 10 sold early. Realized P&L $-6.31. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 10:13 PM | [Florida vs. Kentucky](https://polymarket.com/event/cfb-fl-uk-2026-11-14) | Florida vs. Kentucky → Kentucky | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($23,958) | 16 × 59¢ YES `KXNCAAFGAME-26NOV14FLAUK-UK` | open |  |
+| Sat Nov 14, 10:13 PM | [Florida vs. Kentucky](https://polymarket.com/event/cfb-fl-uk-2026-11-14) | Florida vs. Kentucky → Kentucky | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($23,958) | 16 × 59¢ YES `KXNCAAFGAME-26NOV14FLAUK-UK` | lost | $-9.72 |
 | Sat Nov 14, 3:11 AM | [Thunder vs. Clippers](https://polymarket.com/event/nba-okc-lac-2026-11-13) | Spread: Thunder (-7.5) → Clippers | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) ($10,192) | 17 × 56¢ NO `KXNBASPREAD-26NOV13OKCLAC-OKC8` | won | $+7.18 |
 | Fri Nov 13, 7:18 PM | [Luxembourg vs. Estonia](https://polymarket.com/event/unl-lux-est-2026-11-13) | Will Luxembourg win on 2026-11-13? → Yes | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16) ($10,709) | 25 × 39¢ YES `KXUEFANLGAME-26NOV13LUXEST-LUX` | lost | $-10.17 |
 | Fri Nov 13, 7:18 PM | [Netherlands vs. Greece - More Markets](https://polymarket.com/event/unl-nld-grc-2026-11-13-more-markets) | Netherlands vs. Greece: O/U 3.5 → Over | [Flaznorp](https://polymarket.com/profile/0x821dab0565ebf5b327f51db06223fdcfe01acf16), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($7,390) | 23 × 43¢ YES `KXUEFANLTOTAL-26NOV13NEDGRE-4` | won | $+12.71 |
