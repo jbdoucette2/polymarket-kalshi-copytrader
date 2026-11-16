@@ -1,15 +1,35 @@
 {
-  "updated": "2026-11-16T13:15:13Z",
+  "updated": "2026-11-16T14:15:20Z",
   "games": [
+    {
+      "event_slug": "unl-est-bul-2026-11-16-more-markets",
+      "game": "Estonia vs. Bulgaria - More Markets",
+      "start": "2026-11-16T17:00:00Z",
+      "check_at": "2026-11-16T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Estonia vs. Bulgaria: O/U 2.5 → Under ($8.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $8.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "unl-isl-lux-2026-11-16-more-markets",
       "game": "Iceland vs. Luxembourg - More Markets",
       "start": "2026-11-16T17:00:00Z",
       "check_at": "2026-11-16T16:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Spread: Iceland (-1.5) → Iceland ($1.3k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-grc-ser-2026-11-16-more-markets",
+      "game": "Greece vs. Serbia - More Markets",
+      "start": "2026-11-16T19:45:00Z",
+      "check_at": "2026-11-16T19:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Greece (-1.5) → Greece ($2.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-ger-nld-2026-11-16-more-markets",
@@ -22,14 +42,24 @@
       "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-orl-bos-2026-11-16",
+      "game": "Magic vs. Celtics",
+      "start": "2026-11-17T00:00:00Z",
+      "check_at": "2026-11-16T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Celtics (-8.5) → Magic ($858, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $858 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-mem-was-2026-11-16",
       "game": "Grizzlies vs. Wizards",
       "start": "2026-11-17T00:00:00Z",
       "check_at": "2026-11-16T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Grizzlies (-4.5) → Wizards ($585, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $585 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Grizzlies (-4.5) → Wizards ($607, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $607 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-hou-mia-2026-11-16",
