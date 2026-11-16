@@ -1,56 +1,6 @@
 {
-  "updated": "2026-11-16T19:11:16Z",
+  "updated": "2026-11-16T20:11:53Z",
   "games": [
-    {
-      "event_slug": "atp-medvede-cobolli-2026-11-16",
-      "game": "ATP World Tour Finals, Ivan Lendl Group: Daniil Medvedev vs Flavio Cobolli",
-      "start": "2026-11-16T19:30:00Z",
-      "check_at": "2026-11-16T19:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "ATP World Tour Finals, Ivan Lendl Group: Daniil Medvedev vs Flavio Cobolli → Daniil Medvedev ($2.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "unl-che-sco-2026-11-16-more-markets",
-      "game": "Switzerland vs. Scotland - More Markets",
-      "start": "2026-11-16T19:45:00Z",
-      "check_at": "2026-11-16T19:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Switzerland vs. Scotland: O/U 2.5 → Under ($8.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "unl-grc-ser-2026-11-16-more-markets",
-      "game": "Greece vs. Serbia - More Markets",
-      "start": "2026-11-16T19:45:00Z",
-      "check_at": "2026-11-16T19:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Greece (-1.5) → Greece ($3.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "unl-mac-slv-2026-11-16-more-markets",
-      "game": "North Macedonia vs. Slovenia - More Markets",
-      "start": "2026-11-16T19:45:00Z",
-      "check_at": "2026-11-16T19:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Slovenia (-1.5) → North Macedonia ($191, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $191 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "unl-gib-mal-2026-11-16-more-markets",
-      "game": "Gibraltar vs. Malta - More Markets",
-      "start": "2026-11-16T19:45:00Z",
-      "check_at": "2026-11-16T19:30:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Gibraltar vs. Malta: O/U 1.5 → Under ($180, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $180 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nba-mem-was-2026-11-16",
       "game": "Grizzlies vs. Wizards",
@@ -62,24 +12,14 @@
       "status": "fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-chi-cle-2026-11-16",
-      "game": "Bulls vs. Cavaliers",
-      "start": "2026-11-17T00:00:00Z",
-      "check_at": "2026-11-16T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Cavaliers (-9.5) → Bulls ($1.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "cbb-ekent-kentst-2026-11-16",
       "game": "Eastern Kentucky Colonels vs. Kent State Golden Flashes",
       "start": "2026-11-17T00:00:00Z",
       "check_at": "2026-11-16T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Kent State Golden Flashes (-10.5) → Eastern Kentucky Colonels ($131, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $131 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Kent State Golden Flashes (-10.5) → Eastern Kentucky Colonels ($132, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $132 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-mon-nyr-2026-11-16",
@@ -118,8 +58,18 @@
       "check_at": "2026-11-17T00:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Warriors (-3.5) → Warriors ($6.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Warriors (-3.5) → Warriors ($6.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-lac-bal-2026-11-17",
+      "game": "Chargers vs. Ravens",
+      "start": "2026-11-17T01:15:00Z",
+      "check_at": "2026-11-17T01:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Chargers vs. Ravens → Ravens ($745, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phx-den-2026-11-16",
