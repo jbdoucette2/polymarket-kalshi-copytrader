@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 10:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Mon Nov 16, 11:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -184,8 +184,57 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### Iceland vs. Luxembourg - More Markets · starts Mon Nov 16, 5:00 PM
+
+- Mon Nov 16, 11:11 AM (hourly): Spread: Iceland (-1.5): first seen: 1 vetted on Iceland ($162), fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 11:11 AM | hourly | Spread: Iceland (-1.5) → Iceland | keeptheblueflagflyinghigh $162 | $0 | 58¢ YES | fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Montana Grizzlies vs. Kansas State Wildcats · starts Tue Nov 17, 1:00 AM
+
+- Mon Nov 16, 10:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
+- Mon Nov 16, 6:11 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 47¢ → 46¢
+- Mon Nov 16, 5:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
+- Mon Nov 16, 2:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): first seen: 1 vetted on Montana Grizzlies ($543), fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 11:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 47¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 10:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 47¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 9:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 8:13 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 7:13 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 46¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 6:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 46¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 5:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 47¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 4:12 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 3:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 2:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $543 | $0 | 46¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Germany vs. Netherlands - More Markets · starts Mon Nov 16, 7:45 PM
+
+- Mon Nov 16, 11:11 AM (hourly): Germany vs. Netherlands: O/U 3.5: first seen: 1 vetted on Under ($1.8k), fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 11:11 AM | hourly | Germany vs. Netherlands: O/U 3.5 → Under | keeptheblueflagflyinghigh $1.8k | $0 | 54¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
+
+### ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe · starts Mon Nov 16, 1:00 PM
+
+- Mon Nov 16, 7:13 AM (hourly): ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe: first seen: 1 vetted on Carlos Alcaraz ($25.3k), fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 11:11 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $24.8k | $0 | 89¢ YES | fails: only 1 vetted wallet with $24.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 10:10 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 9:11 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 8:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 7:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Chargers vs. Ravens · starts Tue Nov 17, 1:15 AM
 
+- Mon Nov 16, 11:11 AM (hourly): Chargers vs. Ravens: Kalshi 68¢ → 69¢
 - Mon Nov 16, 8:13 AM (hourly): Chargers vs. Ravens: Kalshi 69¢ → 68¢
 - Mon Nov 16, 6:11 AM (hourly): Spread: Ravens (-5.5): all vetted wallets left Ravens
 - Mon Nov 16, 6:11 AM (hourly): Chargers vs. Ravens: Kalshi 68¢ → 69¢
@@ -198,6 +247,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 11:11 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $756 | $0 | 69¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 66c |
 | Mon Nov 16, 10:10 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $756 | $0 | 68¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 9:11 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $756 | $0 | 68¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 8:13 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $756 | $0 | 68¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -212,36 +262,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 16, 3:11 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $745 | $0 | 67¢ YES | fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 2:10 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $423 | $0 | 47¢ YES | fails: only 1 vetted wallet with $423 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 2:10 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $745 | $0 | 67¢ YES | fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Montana Grizzlies vs. Kansas State Wildcats · starts Tue Nov 17, 1:00 AM
-
-- Mon Nov 16, 10:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
-- Mon Nov 16, 6:11 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 47¢ → 46¢
-- Mon Nov 16, 5:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
-- Mon Nov 16, 2:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): first seen: 1 vetted on Montana Grizzlies ($543), fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 10:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 47¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 9:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 8:13 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 7:13 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 46¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 6:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 46¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 5:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 47¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 4:12 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 3:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 2:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $543 | $0 | 46¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe · starts Mon Nov 16, 1:00 PM
-
-- Mon Nov 16, 7:13 AM (hourly): ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe: first seen: 1 vetted on Carlos Alcaraz ($25.3k), fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 10:10 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 9:11 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 8:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 7:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Steelers vs. Bengals · starts Mon Nov 16, 1:20 AM
 
@@ -4006,56 +4026,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 2:14 PM | hourly | Spread: James Madison (-5.5) → UConn | keeptheblueflagflyinghigh $634 | $0 | 53¢ NO | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sat Nov 14, 1:14 PM | hourly | Spread: James Madison (-5.5) → UConn | keeptheblueflagflyinghigh $634 | $0 | — | fails: only 1 vetted wallet with $634 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs · starts Sat Nov 14, 10:30 AM
-
-- Sat Nov 14, 10:13 AM (pregame): Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs: robloxgamblemaster-2008-10-18 added $74.0k on Team Falcons
-- Sat Nov 14, 8:11 AM (hourly): Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs: first seen: 1 vetted on Team Falcons ($135.9k), fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 10:13 AM | pregame | Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons | robloxgamblemaster-2008-10-18 $209.9k | $0 | 49¢ YES | fails: only 1 vetted wallet with $209.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 9:12 AM | hourly | Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons | robloxgamblemaster-2008-10-18 $135.9k | $0 | 49¢ YES | fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 8:11 AM | hourly | Counter-Strike: FURIA vs Team Falcons (BO3) - BLAST Rivals Playoffs → Team Falcons | robloxgamblemaster-2008-10-18 $135.9k | $0 | 49¢ YES | fails: only 1 vetted wallet with $135.9k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Japan vs. Brazil - More Markets · starts Sat Nov 14, 10:15 AM
-
-- Sat Nov 14, 10:13 AM (hourly): Japan vs. Brazil: O/U 3.5: keeptheblueflagflyinghigh added $2.9k on Under
-- Sat Nov 14, 9:12 AM (pregame): Japan vs. Brazil: O/U 3.5: back: 1 vetted on Under ($2.8k), fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 11:13 PM (hourly): Japan vs. Brazil: O/U 0.5: all vetted wallets left Under
-- Fri Nov 13, 11:13 PM (hourly): Japan vs. Brazil: O/U 3.5: all vetted wallets left Over
-- Fri Nov 13, 11:13 PM (hourly): Japan vs. Brazil: Both Teams to Score: all vetted wallets left No
-- Fri Nov 13, 7:18 PM (hourly): Japan vs. Brazil: O/U 0.5: Kalshi matched at 6¢
-- Fri Nov 13, 5:13 PM (hourly): Japan vs. Brazil: O/U 0.5: Kalshi matched at 6¢
-- Fri Nov 13, 3:23 PM (hourly): Japan vs. Brazil: O/U 0.5: Kalshi matched at 6¢
-- Fri Nov 13, 11:14 AM (hourly): Japan vs. Brazil: O/U 0.5: first seen: 1 vetted on Under ($46), fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 10:13 AM | hourly | Japan vs. Brazil: O/U 3.5 → Under | keeptheblueflagflyinghigh $5.7k | $0 | 60¢ NO | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 9:12 AM | pregame | Japan vs. Brazil: O/U 3.5 → Under | keeptheblueflagflyinghigh $2.8k | $0 | 60¢ NO | fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Japan vs. Brazil: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Japan vs. Brazil: O/U 3.5 → Over | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $14 | $0 | — | fails: only 1 vetted wallet with $14 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 8:17 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | 6¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 7:18 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | 6¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 5:13 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | 6¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 4:18 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 3:23 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 3:23 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | 6¢ NO | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 12:17 PM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $45 | $0 | — | fails: only 1 vetted wallet with $45 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 11:14 AM | hourly | Japan vs. Brazil: Both Teams to Score → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 11:14 AM | hourly | Japan vs. Brazil: O/U 0.5 → Under | Flaznorp $46 | $0 | 6¢ NO | fails: only 1 vetted wallet with $46 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante · starts Sat Nov 14, 12:00 PM
 
 - Sat Nov 14, 11:13 AM (pregame): BNP Paribas Nordic Open: Taylor Fritz vs Thiago Agustin Tirante: keeptheblueflagflyinghigh added $3.4k on Taylor Fritz
@@ -4890,25 +4860,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 5:13 PM | hourly | Spread: Boreham Wood FC (-1.5) → Boreham Wood FC | Flaznorp $21 | $0 | 38¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 4:18 PM | hourly | Spread: Boreham Wood FC (-1.5) → Boreham Wood FC | Flaznorp $21 | $0 | — | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Fri Nov 13, 3:23 PM | hourly | Spread: Boreham Wood FC (-1.5) → Boreham Wood FC | Flaznorp $21 | $0 | 38¢ YES | fails: only 1 vetted wallet with $21 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Japan vs. Brazil · starts Sat Nov 14, 10:15 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Will Brazil win on 2026-11-14?: all vetted wallets left No
-- Fri Nov 13, 7:18 PM (hourly): Will Brazil win on 2026-11-14?: Kalshi matched at 49¢
-- Fri Nov 13, 11:14 AM (hourly): Will Brazil win on 2026-11-14?: first seen: 1 vetted on No ($543), fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Will Brazil win on 2026-11-14? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | — | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | — | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:14 AM | hourly | Will Brazil win on 2026-11-14? → No | Flaznorp $543 | $0 | 49¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### AC Carpi vs. AS Giana Erminio · starts Sat Nov 14, 4:30 PM
 
@@ -6067,23 +6018,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 4:18 PM | hourly | Walsall FC vs. Barnet FC: Barnet FC O/U 5.5 → Under | Flaznorp $661 | $0 | — | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 3:23 PM | hourly | Walsall FC vs. Barnet FC: Barnet FC O/U 5.5 → Under | Flaznorp $661 | $0 | — | fails: only 1 vetted wallet with $661 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 
-### Japan vs. Brazil - Exact Score · starts Sat Nov 14, 10:15 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Exact Score: Japan 0 - 0 Brazil?: all vetted wallets left Yes
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 7:18 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 6:14 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 4:18 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 3:23 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 12:17 PM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-| Fri Nov 13, 11:14 AM | hourly | Exact Score: Japan 0 - 0 Brazil? → Yes | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
 ### Manchester United WFC vs. Crystal Palace · starts Sat Nov 14, 12:45 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Will Manchester United WFC win on 2026-11-14?: all vetted wallets left No
@@ -6455,8 +6389,8 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 0-0 (4 pending) | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 0-0 | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 5-5 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 34-44 (14 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 31-34 | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 34-44 (18 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 31-34 (1 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 18-17 (3 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |

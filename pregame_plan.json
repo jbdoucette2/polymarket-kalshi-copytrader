@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:10:33Z",
+  "updated": "2026-11-16T11:11:27Z",
   "games": [
     {
       "event_slug": "atp-alcaraz-tiafoe-2026-11-16",
@@ -8,8 +8,28 @@
       "check_at": "2026-11-16T12:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz ($25.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz ($24.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $24.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-isl-lux-2026-11-16-more-markets",
+      "game": "Iceland vs. Luxembourg - More Markets",
+      "start": "2026-11-16T17:00:00Z",
+      "check_at": "2026-11-16T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Iceland (-1.5) → Iceland ($162, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $162 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-ger-nld-2026-11-16-more-markets",
+      "game": "Germany vs. Netherlands - More Markets",
+      "start": "2026-11-16T19:45:00Z",
+      "check_at": "2026-11-16T19:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Germany vs. Netherlands: O/U 3.5 → Under ($1.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-mont-kanst-2026-11-16",
@@ -20,16 +40,6 @@
       "near": 1,
       "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($556, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-lac-bal-2026-11-17",
-      "game": "Chargers vs. Ravens",
-      "start": "2026-11-17T01:15:00Z",
-      "check_at": "2026-11-17T01:00:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Chargers vs. Ravens → Ravens ($756, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
