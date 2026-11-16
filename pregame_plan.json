@@ -1,25 +1,15 @@
 {
-  "updated": "2026-11-16T15:15:13Z",
+  "updated": "2026-11-16T16:15:28Z",
   "games": [
-    {
-      "event_slug": "unl-est-bul-2026-11-16-more-markets",
-      "game": "Estonia vs. Bulgaria - More Markets",
-      "start": "2026-11-16T17:00:00Z",
-      "check_at": "2026-11-16T16:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Estonia vs. Bulgaria: O/U 2.5 → Under ($8.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "unl-isl-lux-2026-11-16-more-markets",
       "game": "Iceland vs. Luxembourg - More Markets",
       "start": "2026-11-16T17:00:00Z",
       "check_at": "2026-11-16T16:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Iceland (-1.5) → Iceland ($1.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Spread: Iceland (-1.5) → Iceland ($1.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-lit-lie-2026-11-16-more-markets",
@@ -48,8 +38,8 @@
       "check_at": "2026-11-16T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Switzerland vs. Scotland: O/U 2.5 → Under ($5.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Switzerland vs. Scotland: O/U 2.5 → Under ($5.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-grc-ser-2026-11-16-more-markets",
@@ -58,8 +48,8 @@
       "check_at": "2026-11-16T19:30:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Greece (-1.5) → Greece ($2.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Greece (-1.5) → Greece ($3.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-ger-nld-2026-11-16-more-markets",
@@ -132,24 +122,14 @@
       "status": "fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cbb-mont-kanst-2026-11-16",
-      "game": "Montana Grizzlies vs. Kansas State Wildcats",
-      "start": "2026-11-17T01:00:00Z",
-      "check_at": "2026-11-17T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($604, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $604 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nba-gsw-nop-2026-11-16",
       "game": "Warriors vs. Pelicans",
       "start": "2026-11-17T01:00:00Z",
       "check_at": "2026-11-17T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Warriors vs. Pelicans: O/U 225.5 → Under ($158, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Warriors vs. Pelicans: O/U 225.5 → Under ($155, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $155 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-lac-bal-2026-11-17",
@@ -168,8 +148,8 @@
       "check_at": "2026-11-17T01:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Suns vs. Nuggets: O/U 228.5 → Over ($143, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Suns vs. Nuggets: O/U 228.5 → Over ($140, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $140 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
