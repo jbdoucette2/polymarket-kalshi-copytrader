@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 3:11 AM. Bankroll **$67.41** (start $100): $57.55 cash + open trades at cost.
+Updated Mon Nov 16, 3:22 AM. Bankroll **$67.41** (start $100): $57.55 cash + open trades at cost.
 
 Record: 63 won, 48 lost, 11 sold early. Realized P&L $-32.59. Open: 1.
 
@@ -4096,68 +4096,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sat Nov 14, 12:10 AM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 11:13 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 10:15 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Houston vs. Colorado · starts Sat Nov 14, 3:15 AM
-
-- Sat Nov 14, 3:11 AM (hourly): Houston vs. Colorado: O/U 57.5: first seen: 1 vetted on Under ($416), fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 14, 3:11 AM (hourly): Spread: Houston (-10.5): first seen: 1 vetted on Houston ($13), fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+)
-- Sat Nov 14, 3:11 AM (hourly): Houston vs. Colorado: O/U 51.5: Kalshi 47¢ → 46¢
-- Sat Nov 14, 3:11 AM (hourly): Spread: Houston (-7.5): Kalshi 51¢ → 50¢
-- Sat Nov 14, 3:11 AM (hourly): Spread: Houston (-7.5): majority flipped to Houston ($6.4k vs $1.8k)
-- Sat Nov 14, 2:11 AM (pregame): Spread: Houston (-7.5): Kalshi 52¢ → 51¢
-- Sat Nov 14, 1:13 AM (hourly): Houston vs. Colorado: O/U 49.5: all vetted wallets left Over
-- Sat Nov 14, 1:13 AM (hourly): Houston vs. Colorado: O/U 51.5: Kalshi 48¢ → 47¢
-- Sat Nov 14, 1:13 AM (hourly): Spread: Houston (-7.5): Kalshi 51¢ → 52¢
-- Sat Nov 14, 12:10 AM (hourly): Houston vs. Colorado: O/U 51.5: Kalshi 53¢ → 48¢
-- Sat Nov 14, 12:10 AM (hourly): Houston vs. Colorado: O/U 51.5: majority flipped to Under ($915 vs $26)
-- Fri Nov 13, 11:13 PM (hourly): Houston vs. Colorado: all vetted wallets left Colorado
-- Fri Nov 13, 11:13 PM (hourly): Spread: Houston (-7.5): Kalshi matched at 51¢
-- Fri Nov 13, 11:13 PM (hourly): Houston vs. Colorado: O/U 51.5: Kalshi matched at 53¢
-- Fri Nov 13, 11:13 PM (hourly): Houston vs. Colorado: O/U 49.5: Kalshi matched at 59¢
-- Fri Nov 13, 8:17 PM (hourly): Spread: Houston (-7.5): Kalshi 50¢ → 51¢
-- Fri Nov 13, 7:18 PM (hourly): Spread: Houston (-7.5): Kalshi matched at 50¢
-- Fri Nov 13, 7:18 PM (hourly): Houston vs. Colorado: O/U 51.5: first seen: 1 vetted on Over ($25), fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 7:18 PM (hourly): Houston vs. Colorado: O/U 49.5: first seen: 1 vetted on Over ($28), fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 3:23 PM (hourly): Houston vs. Colorado: first seen: 1 vetted on Colorado ($19), fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 3:11 AM | hourly | Houston vs. Colorado: O/U 57.5 → Under | primm $416 | $0 | 62¢ NO | fails: only 1 vetted wallet with $416 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 3:11 AM | hourly | Spread: Houston (-10.5) → Houston | primm $13 | $0 | 42¢ YES | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 3:11 AM | hourly | Houston vs. Colorado: O/U 51.5 → Under | keeptheblueflagflyinghigh $877 | $0 | 46¢ NO | fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 3:11 AM | hourly | Spread: Houston (-7.5) → Houston | primm $6.4k | $1.8k | 50¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); opposition 28% |
-| Sat Nov 14, 2:11 AM | pregame | Houston vs. Colorado: O/U 51.5 → Under | keeptheblueflagflyinghigh $877 | $0 | 47¢ NO | fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 2:11 AM | pregame | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.8k | $0 | 51¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:13 AM | hourly | Houston vs. Colorado: O/U 49.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 14, 1:13 AM | hourly | Houston vs. Colorado: O/U 51.5 → Under | keeptheblueflagflyinghigh $877 | $0 | 47¢ NO | fails: only 1 vetted wallet with $877 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:13 AM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.8k | $0 | 52¢ NO | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Houston vs. Colorado: O/U 51.5 → Under | keeptheblueflagflyinghigh $915 | $26 | 48¢ NO | fails: only 1 vetted wallet with $915 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $29 | $0 | 59¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Houston vs. Colorado → Colorado | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Houston vs. Colorado: O/U 51.5 → Over | tradecraft $26 | $0 | 53¢ YES | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $29 | $0 | 59¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:15 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 10:15 PM | hourly | Houston vs. Colorado: O/U 51.5 → Over | tradecraft $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 10:15 PM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:14 PM | hourly | Houston vs. Colorado: O/U 51.5 → Over | tradecraft $26 | $0 | — | fails: only 1 vetted wallet with $26 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 9:14 PM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $29 | $0 | — | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 8:17 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | 51¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Houston vs. Colorado: O/U 51.5 → Over | tradecraft $25 | $0 | 52¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $28 | $0 | 58¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | 50¢ NO | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Houston vs. Colorado: O/U 51.5 → Over | tradecraft $25 | $0 | 52¢ YES | fails: only 1 vetted wallet with $25 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Houston vs. Colorado: O/U 49.5 → Over | tradecraft $28 | $0 | 58¢ YES | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Spread: Houston (-7.5) → Colorado | keeptheblueflagflyinghigh $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 6:14 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Houston vs. Colorado → Colorado | Flaznorp $19 | $0 | 26¢ YES | fails: only 1 vetted wallet with $19 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Thunder vs. Clippers · starts Sat Nov 14, 3:30 AM
 
