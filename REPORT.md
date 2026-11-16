@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 1:23 AM. Bankroll **$67.41** (start $100): $57.55 cash + open trades at cost.
+Updated Mon Nov 16, 1:38 AM. Bankroll **$67.41** (start $100): $57.55 cash + open trades at cost.
 
 Record: 63 won, 48 lost, 11 sold early. Realized P&L $-32.59. Open: 1.
 
@@ -4526,89 +4526,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 11:13 PM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | tradecraft $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 10:15 PM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | tradecraft $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### Jazz vs. Rockets · starts Sat Nov 14, 1:30 AM
-
-- Sat Nov 14, 1:13 AM (pregame): Jazz vs. Rockets: O/U 220.5: Kalshi 53¢ → 51¢
-- Sat Nov 14, 1:13 AM (pregame): Spread: Rockets (-15.5): Kalshi 49¢ → 50¢
-- Sat Nov 14, 12:10 AM (hourly): Jazz vs. Rockets: O/U 220.5: Kalshi 52¢ → 53¢
-- Fri Nov 13, 11:13 PM (hourly): Spread: Rockets (-3.5): all vetted wallets left Jazz
-- Fri Nov 13, 11:13 PM (hourly): Spread: Rockets (-17.5): all vetted wallets left Rockets
-- Fri Nov 13, 11:13 PM (hourly): Jazz vs. Rockets: O/U 220.5: Kalshi matched at 52¢
-- Fri Nov 13, 11:13 PM (hourly): Spread: Rockets (-15.5): Kalshi matched at 49¢
-- Fri Nov 13, 8:17 PM (hourly): Jazz vs. Rockets: O/U 220.5: Kalshi 52¢ → 53¢
-- Fri Nov 13, 8:17 PM (hourly): Spread: Rockets (-15.5): Kalshi 49¢ → 50¢
-- Fri Nov 13, 8:17 PM (hourly): Spread: Rockets (-3.5): Kalshi 16¢ → 15¢
-- Fri Nov 13, 7:18 PM (hourly): Jazz vs. Rockets: O/U 220.5: Kalshi matched at 52¢
-- Fri Nov 13, 7:18 PM (hourly): Spread: Rockets (-15.5): Kalshi matched at 49¢
-- Fri Nov 13, 7:18 PM (hourly): Spread: Rockets (-3.5): Kalshi matched at 16¢
-- Fri Nov 13, 7:18 PM (hourly): Spread: Rockets (-17.5): Kalshi matched at 42¢
-- Fri Nov 13, 6:14 PM (hourly): Spread: Rockets (-15.5): keeptheblueflagflyinghigh added $8.5k on Rockets
-- Fri Nov 13, 5:13 PM (hourly): Jazz vs. Rockets: O/U 220.5: first seen: 1 vetted on Over ($5.4k), fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 5:13 PM (hourly): Spread: Rockets (-15.5): Kalshi matched at 51¢
-- Fri Nov 13, 5:13 PM (hourly): Spread: Rockets (-17.5): Kalshi matched at 44¢
-- Fri Nov 13, 3:23 PM (hourly): Spread: Rockets (-15.5): first seen: 1 vetted on Rockets ($13.8k), fails: only 1 vetted wallet with $13.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 3:23 PM (hourly): Spread: Rockets (-17.5): Kalshi matched at 44¢
-- Fri Nov 13, 9:12 AM (hourly): Jazz vs. Rockets: O/U 218.5: all vetted wallets left Over
-- Fri Nov 13, 9:12 AM (hourly): Spread: Rockets (-17.5): Kalshi matched at 47¢
-- Fri Nov 13, 7:13 AM (hourly): Spread: Rockets (-17.5): Kalshi 48¢ → 47¢
-- Fri Nov 13, 5:11 AM (hourly): Jazz vs. Rockets: O/U 218.5: Kalshi 53¢ → 54¢
-- Fri Nov 13, 4:15 AM (hourly): Spread: Rockets (-17.5): Kalshi 49¢ → 48¢
-- Fri Nov 13, 3:10 AM (hourly): Spread: Rockets (-17.5): first seen: 1 vetted on Rockets ($49), fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 2:16 AM (hourly): Jazz vs. Rockets: O/U 218.5: first seen: 1 vetted on Over ($267), fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 1:13 AM | pregame | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | 51¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 1:13 AM | pregame | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $22.3k | $0 | 50¢ YES | fails: only 1 vetted wallet with $22.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sat Nov 14, 12:10 AM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | 49¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Rockets (-3.5) → Jazz | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Rockets (-17.5) → Rockets | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | 52¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | 49¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:15 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | — | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 10:15 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | — | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | — | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | — | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Rockets (-3.5) → Jazz | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 9:14 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $42 | $0 | — | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 8:17 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | 50¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Spread: Rockets (-3.5) → Jazz | Flaznorp $15 | $0 | 15¢ NO | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $42 | $0 | 42¢ YES | fails: only 1 vetted wallet with $42 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | 52¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $21.8k | $0 | 49¢ YES | fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Spread: Rockets (-3.5) → Jazz | Flaznorp $16 | $0 | 16¢ NO | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $43 | $0 | 42¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | — | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 6:14 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $22.3k | $0 | — | fails: only 1 vetted wallet with $22.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 6:14 PM | hourly | Spread: Rockets (-3.5) → Jazz | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 6:14 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $43 | $0 | — | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 5:13 PM | hourly | Jazz vs. Rockets: O/U 220.5 → Over | keeptheblueflagflyinghigh $5.4k | $0 | 52¢ YES | fails: only 1 vetted wallet with $5.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $13.8k | $0 | 51¢ YES | fails: only 1 vetted wallet with $13.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $44 | $0 | 44¢ YES | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $13.8k | $0 | — | fails: only 1 vetted wallet with $13.8k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 4:18 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 3:23 PM | hourly | Spread: Rockets (-15.5) → Rockets | keeptheblueflagflyinghigh $13.8k | $0 | 51¢ YES | fails: only 1 vetted wallet with $13.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $44 | $0 | 44¢ YES | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $49 | $0 | — | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 11:14 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $49 | $0 | 47¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 47¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:12 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 47¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | — | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Fri Nov 13, 7:13 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $276 | $0 | 54¢ YES | fails: only 1 vetted wallet with $276 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 47¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $276 | $0 | 54¢ YES | fails: only 1 vetted wallet with $276 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 48¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $270 | $0 | 54¢ YES | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 48¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $48 | $0 | 48¢ YES | fails: only 1 vetted wallet with $48 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:15 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $270 | $0 | 53¢ YES | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:10 AM | hourly | Spread: Rockets (-17.5) → Rockets | Flaznorp $49 | $0 | 49¢ YES | fails: only 1 vetted wallet with $49 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:10 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $270 | $0 | 53¢ YES | fails: only 1 vetted wallet with $270 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 2:16 AM | hourly | Jazz vs. Rockets: O/U 218.5 → Over | monkeymashingkeyboard $267 | $0 | 53¢ YES | fails: only 1 vetted wallet with $267 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Rangers vs. Canucks · starts Sat Nov 14, 2:00 AM
 
 - Fri Nov 13, 11:13 PM (hourly): Spread: Rangers (-1.5): Kalshi matched at 45¢
@@ -7216,30 +7133,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 5:13 PM | hourly | Exact Score: Real Sociedad de Fútbol B 1 - 1 Real Sporting de Gijón? → Yes | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Fri Nov 13, 4:18 PM | hourly | Exact Score: Real Sociedad de Fútbol B 1 - 1 Real Sporting de Gijón? → Yes | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Fri Nov 13, 3:23 PM | hourly | Exact Score: Real Sociedad de Fútbol B 1 - 1 Real Sporting de Gijón? → Yes | Flaznorp $7 | $0 | — | fails: only 1 vetted wallet with $7 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### Internacional de Bogotá vs. Independiente Santa Fe · starts Sat Nov 14, 1:30 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Will Internacional de Bogotá win on 2026-11-13?: all vetted wallets left Yes
-- Fri Nov 13, 5:11 AM (hourly): Will Internacional de Bogotá win on 2026-11-13?: first seen: 1 vetted on Yes ($118), fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | — | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:14 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Will Internacional de Bogotá win on 2026-11-13? → Yes | Flaznorp $118 | $0 | 28¢ YES | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### California-San Diego Tritons vs. Utah State Aggies · starts Sat Nov 14, 3:00 AM
 
