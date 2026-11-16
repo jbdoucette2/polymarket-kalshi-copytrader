@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 12:22 AM. Bankroll **$57.56** (start $100): $47.41 cash + open trades at cost.
+Updated Mon Nov 16, 12:38 AM. Bankroll **$57.56** (start $100): $47.41 cash + open trades at cost.
 
 Record: 62 won, 48 lost, 11 sold early. Realized P&L $-42.44. Open: 1.
 
@@ -5995,29 +5995,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 5:13 PM | hourly | Spread: China PR (-1.5) → China PR | Flaznorp $87 | $0 | 43¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
 | Fri Nov 13, 4:18 PM | hourly | Spread: China PR (-1.5) → China PR | Flaznorp $87 | $0 | — | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Fri Nov 13, 3:23 PM | hourly | Spread: China PR (-1.5) → China PR | Flaznorp $87 | $0 | 41¢ YES | fails: only 1 vetted wallet with $87 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders · starts Sat Nov 14, 12:30 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5: all vetted wallets left Under
-- Fri Nov 13, 11:13 PM (hourly): Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: all vetted wallets left Southeast Missouri State Redhawks
-- Fri Nov 13, 5:13 PM (hourly): Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: first seen: 1 vetted on Southeast Missouri State Redhawks ($330), fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $111 | $0 | — | fails: only 1 vetted wallet with $111 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 9:14 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | Flaznorp $330 | $0 | 32¢ YES | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 146.5 line |
-| Fri Nov 13, 8:17 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | Flaznorp $330 | $0 | 32¢ YES | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 146.5 line |
-| Fri Nov 13, 7:18 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | Flaznorp $330 | $0 | 32¢ YES | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:14 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Fri Nov 13, 6:14 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | Flaznorp $330 | $0 | 32¢ YES | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $108 | $0 | — | fails: only 1 vetted wallet with $108 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 146.5 line |
-| Fri Nov 13, 5:13 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders → Southeast Missouri State Redhawks | Flaznorp $330 | $0 | 32¢ YES | fails: only 1 vetted wallet with $330 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $110 | $0 | — | fails: only 1 vetted wallet with $110 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 146.5 line |
-| Fri Nov 13, 3:23 PM | hourly | Southeast Missouri State Redhawks vs. Middle Tennessee Blue Raiders: O/U 146.5 → Under | Flaznorp $107 | $0 | — | fails: only 1 vetted wallet with $107 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 146.5 line |
 
 ### China PR vs. Malaysia - Exact Score · starts Sat Nov 14, 12:00 PM
 
