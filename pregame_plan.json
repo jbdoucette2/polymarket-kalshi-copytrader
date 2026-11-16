@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-16T22:11:24Z",
+  "updated": "2026-11-16T23:13:30Z",
   "games": [
-    {
-      "event_slug": "nba-mem-was-2026-11-16",
-      "game": "Grizzlies vs. Wizards",
-      "start": "2026-11-17T00:00:00Z",
-      "check_at": "2026-11-16T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Grizzlies (-3.5) → Wizards ($4.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nhl-mon-nyr-2026-11-16",
       "game": "Canadiens vs. Rangers",
@@ -22,54 +12,14 @@
       "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-phi-bkn-2026-11-16",
-      "game": "76ers vs. Nets",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "76ers vs. Nets: O/U 224.5 → Under ($7.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-hou-mia-2026-11-16",
-      "game": "Rockets vs. Heat",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Rockets (-1.5) → Rockets ($501, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $501 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-gsw-nop-2026-11-16",
-      "game": "Warriors vs. Pelicans",
-      "start": "2026-11-17T01:00:00Z",
-      "check_at": "2026-11-17T00:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Warriors (-3.5) → Warriors ($6.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
       "event_slug": "nfl-lac-bal-2026-11-17",
       "game": "Chargers vs. Ravens",
       "start": "2026-11-17T01:15:00Z",
       "check_at": "2026-11-17T01:00:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Ravens (-4.5) → Ravens ($3.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-phx-den-2026-11-16",
-      "game": "Suns vs. Nuggets",
-      "start": "2026-11-17T02:00:00Z",
-      "check_at": "2026-11-17T01:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Suns vs. Nuggets: O/U 230.5 → Over ($2.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $2.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Chargers vs. Ravens → Ravens ($745, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-van-utah-2026-11-16",
@@ -77,7 +27,7 @@
       "start": "2026-11-17T02:30:00Z",
       "check_at": "2026-11-17T02:15:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Canucks vs. Utah → Utah ($32.8k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $32.8k (needs 3+ wallets, or 2 with $5.0k+)"
     }
