@@ -1,13 +1,13 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 12:13 AM. Bankroll **$54.11** (start $100): $34.41 cash + open trades at cost.
+Updated Mon Nov 16, 12:22 AM. Bankroll **$57.56** (start $100): $47.41 cash + open trades at cost.
 
-Record: 61 won, 48 lost, 11 sold early. Realized P&L $-45.89. Open: 2.
+Record: 62 won, 48 lost, 11 sold early. Realized P&L $-42.44. Open: 1.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sun Nov 15, 9:10 PM | [49ers vs. Cowboys](https://polymarket.com/event/nfl-sf-dal-2026-11-15) | Spread: 49ers (-3.5) → 49ers | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($50,377) | 20 × 49¢ YES `KXNFLSPREAD-26NOV15SFDAL-SF4` | open |  |
-| Sun Nov 15, 8:10 PM | [Seahawks vs. Raiders](https://polymarket.com/event/nfl-sea-lv-2026-11-15) | Seahawks vs. Raiders → Seahawks | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($32,255) | 13 × 72¢ YES `KXNFLGAME-26NOV15SEALV-SEA` | open |  |
+| Sun Nov 15, 8:10 PM | [Seahawks vs. Raiders](https://polymarket.com/event/nfl-sea-lv-2026-11-15) | Seahawks vs. Raiders → Seahawks | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($32,255) | 13 × 72¢ YES `KXNFLGAME-26NOV15SEALV-SEA` | won | $+3.45 |
 | Sun Nov 15, 8:10 PM | [Rams vs. Cardinals](https://polymarket.com/event/nfl-la-ari-2026-11-15) | Rams vs. Cardinals: O/U 38.5 → Under | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($9,574) | 19 × 51¢ NO `KXNFLTOTAL-26NOV15LARARI-39` | lost | $-10.03 |
 | Sun Nov 15, 5:11 PM | [Bills vs. Jets](https://polymarket.com/event/nfl-buf-nyj-2026-11-15) | Bills vs. Jets → Bills | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($43,858) | 12 × 80¢ YES `KXNFLGAME-26NOV15BUFNYJ-BUF` | won | $+2.26 |
 | Sun Nov 15, 5:11 PM | [Panthers vs. Saints](https://polymarket.com/event/nfl-car-no-2026-11-15) | Panthers vs. Saints → Saints | [tradecraft](https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($124,816) | 20 × 50¢ YES `KXNFLGAME-26NOV15CARNO-NO` | lost | $-10.35 |
