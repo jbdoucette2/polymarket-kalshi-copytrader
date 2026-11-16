@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 5:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Mon Nov 16, 6:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -166,10 +166,10 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | Jsram | 6 | 67% | 49¢ | +17 pts |
 | BreakTheBank (benched) | 35 | 60% | 49¢ | +11 pts |
 | monkeymashingkeyboard (benched) | 86 | 57% | 50¢ | +7 pts |
+| HomeRunHazard (benched) | 480 | 59% | 54¢ | +5 pts |
 | Flaznorp (benched) | 753 | 61% | 56¢ | +5 pts |
-| HomeRunHazard (benched) | 479 | 58% | 54¢ | +5 pts |
 | gmpm2 (benched) | 40 | 57% | 54¢ | +4 pts |
-| keeptheblueflagflyinghigh | 212 | 55% | 54¢ | +2 pts |
+| keeptheblueflagflyinghigh | 213 | 55% | 54¢ | +1 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | RN1 (benched) | 105 | 51% | 51¢ | -0 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 56 | 52% | 53¢ | -1 pts |
@@ -186,6 +186,9 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Chargers vs. Ravens · starts Tue Nov 17, 1:15 AM
 
+- Mon Nov 16, 6:11 AM (hourly): Spread: Ravens (-5.5): all vetted wallets left Ravens
+- Mon Nov 16, 6:11 AM (hourly): Chargers vs. Ravens: Kalshi 68¢ → 69¢
+- Mon Nov 16, 6:11 AM (hourly): Chargers vs. Ravens: gmpm2 left
 - Mon Nov 16, 5:10 AM (hourly): Chargers vs. Ravens: Kalshi 67¢ → 68¢
 - Mon Nov 16, 5:10 AM (hourly): Chargers vs. Ravens: gmpm2 joined Ravens (+$100)
 - Mon Nov 16, 3:11 AM (hourly): Spread: Ravens (-5.5): Kalshi 47¢ → 48¢
@@ -194,6 +197,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 6:11 AM | hourly | Spread: Ravens (-5.5) → Ravens | none | $0 | — | fails: no vetted wallets hold it now |
+| Mon Nov 16, 6:11 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $756 | $0 | 69¢ YES | fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 69c vs leaders 66c |
 | Mon Nov 16, 5:10 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $427 | $0 | 48¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 5:10 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $745, gmpm2 $100 | $0 | 68¢ YES | fails: only 2 vetted wallets with $845 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 4:12 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $427 | $0 | 48¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -205,11 +210,13 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Montana Grizzlies vs. Kansas State Wildcats · starts Tue Nov 17, 1:00 AM
 
+- Mon Nov 16, 6:11 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 47¢ → 46¢
 - Mon Nov 16, 5:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
 - Mon Nov 16, 2:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): first seen: 1 vetted on Montana Grizzlies ($543), fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 6:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $556 | $0 | 46¢ NO | fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 5:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 47¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 4:12 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 3:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -4849,18 +4856,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 9:14 PM | hourly | UD Almería vs. FC Andorra: O/U 2.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 8:17 PM | hourly | UD Almería vs. FC Andorra: O/U 2.5 → Under | Flaznorp $23 | $0 | 42¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Yokohama B-Corsairs vs. Shiga Lakestars · starts Sat Nov 14, 6:05 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Yokohama B-Corsairs vs. Shiga Lakestars: all vetted wallets left Yokohama B-Corsairs
-- Fri Nov 13, 8:17 PM (hourly): Yokohama B-Corsairs vs. Shiga Lakestars: Kalshi matched at 40¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Yokohama B-Corsairs vs. Shiga Lakestars → Yokohama B-Corsairs | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Yokohama B-Corsairs vs. Shiga Lakestars → Yokohama B-Corsairs | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Yokohama B-Corsairs vs. Shiga Lakestars → Yokohama B-Corsairs | Flaznorp $104 | $0 | 40¢ YES | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Yokohama B-Corsairs vs. Shiga Lakestars → Yokohama B-Corsairs | Flaznorp $104 | $0 | — | fails: only 1 vetted wallet with $104 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Peterborough United FC vs. Oxford United FC - Halftime Result · starts Sat Nov 14, 3:00 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Oxford United FC leading at halftime?: all vetted wallets left Yes
@@ -6509,9 +6504,9 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 34-44 (7 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 31-34 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 18-17 (1 pending) | benched |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 18-17 (2 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 280-199 (10 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 281-199 (9 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
