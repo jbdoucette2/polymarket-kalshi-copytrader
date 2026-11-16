@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T14:15:20Z",
+  "updated": "2026-11-16T15:15:13Z",
   "games": [
     {
       "event_slug": "unl-est-bul-2026-11-16-more-markets",
@@ -18,8 +18,38 @@
       "check_at": "2026-11-16T16:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Spread: Iceland (-1.5) → Iceland ($1.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Iceland (-1.5) → Iceland ($1.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.4k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-lit-lie-2026-11-16-more-markets",
+      "game": "Lithuania vs. Liechtenstein - More Markets",
+      "start": "2026-11-16T17:00:00Z",
+      "check_at": "2026-11-16T16:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Lithuania (-1.5) → Liechtenstein ($237, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $237 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "atp-medvede-cobolli-2026-11-16",
+      "game": "ATP World Tour Finals, Ivan Lendl Group: Daniil Medvedev vs Flavio Cobolli",
+      "start": "2026-11-16T19:30:00Z",
+      "check_at": "2026-11-16T19:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "ATP World Tour Finals, Ivan Lendl Group: Daniil Medvedev vs Flavio Cobolli → Daniil Medvedev ($2.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.2k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "unl-che-sco-2026-11-16-more-markets",
+      "game": "Switzerland vs. Scotland - More Markets",
+      "start": "2026-11-16T19:45:00Z",
+      "check_at": "2026-11-16T19:30:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Switzerland vs. Scotland: O/U 2.5 → Under ($5.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-grc-ser-2026-11-16-more-markets",
@@ -42,14 +72,24 @@
       "status": "fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-chi-cle-2026-11-16",
+      "game": "Bulls vs. Cavaliers",
+      "start": "2026-11-17T00:00:00Z",
+      "check_at": "2026-11-16T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Cavaliers (-9.5) → Bulls ($1.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-orl-bos-2026-11-16",
       "game": "Magic vs. Celtics",
       "start": "2026-11-17T00:00:00Z",
       "check_at": "2026-11-16T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Celtics (-8.5) → Magic ($858, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $858 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Celtics (-8.5) → Magic ($875, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $875 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-mem-was-2026-11-16",
@@ -58,18 +98,8 @@
       "check_at": "2026-11-16T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Grizzlies (-4.5) → Wizards ($607, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $607 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-hou-mia-2026-11-16",
-      "game": "Rockets vs. Heat",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: Rockets (-2.5) → Rockets ($10.2k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Grizzlies (-4.5) → Wizards ($596, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $596 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-mon-nyr-2026-11-16",
@@ -82,14 +112,64 @@
       "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-hou-mia-2026-11-16",
+      "game": "Rockets vs. Heat",
+      "start": "2026-11-17T00:30:00Z",
+      "check_at": "2026-11-17T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Rockets (-2.5) → Rockets ($10.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phi-bkn-2026-11-16",
+      "game": "76ers vs. Nets",
+      "start": "2026-11-17T00:30:00Z",
+      "check_at": "2026-11-17T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "76ers vs. Nets: O/U 224.5 → Under ($7.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "cbb-mont-kanst-2026-11-16",
       "game": "Montana Grizzlies vs. Kansas State Wildcats",
       "start": "2026-11-17T01:00:00Z",
       "check_at": "2026-11-17T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($556, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $556 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($604, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $604 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-gsw-nop-2026-11-16",
+      "game": "Warriors vs. Pelicans",
+      "start": "2026-11-17T01:00:00Z",
+      "check_at": "2026-11-17T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Warriors vs. Pelicans: O/U 225.5 → Under ($158, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $158 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nfl-lac-bal-2026-11-17",
+      "game": "Chargers vs. Ravens",
+      "start": "2026-11-17T01:15:00Z",
+      "check_at": "2026-11-17T01:00:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Chargers vs. Ravens → Ravens ($756, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $756 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phx-den-2026-11-16",
+      "game": "Suns vs. Nuggets",
+      "start": "2026-11-17T02:00:00Z",
+      "check_at": "2026-11-17T01:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Suns vs. Nuggets: O/U 228.5 → Over ($143, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
