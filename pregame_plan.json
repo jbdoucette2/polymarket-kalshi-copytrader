@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-16T12:13:24Z",
+  "updated": "2026-11-16T13:15:13Z",
   "games": [
-    {
-      "event_slug": "atp-alcaraz-tiafoe-2026-11-16",
-      "game": "ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe",
-      "start": "2026-11-16T13:00:00Z",
-      "check_at": "2026-11-16T12:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz ($25.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $25.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "unl-isl-lux-2026-11-16-more-markets",
       "game": "Iceland vs. Luxembourg - More Markets",
@@ -18,8 +8,8 @@
       "check_at": "2026-11-16T16:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Iceland (-1.5) → Iceland ($971, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $971 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Iceland (-1.5) → Iceland ($1.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "unl-ger-nld-2026-11-16-more-markets",
@@ -40,6 +30,26 @@
       "near": 1,
       "best": "Spread: Grizzlies (-4.5) → Wizards ($585, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $585 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-hou-mia-2026-11-16",
+      "game": "Rockets vs. Heat",
+      "start": "2026-11-17T00:30:00Z",
+      "check_at": "2026-11-17T00:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Rockets (-2.5) → Rockets ($10.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nhl-mon-nyr-2026-11-16",
+      "game": "Canadiens vs. Rangers",
+      "start": "2026-11-17T00:30:00Z",
+      "check_at": "2026-11-17T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Canadiens vs. Rangers → Canadiens ($10.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-mont-kanst-2026-11-16",
