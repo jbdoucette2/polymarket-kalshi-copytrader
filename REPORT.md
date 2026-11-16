@@ -1,12 +1,12 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 4:22 AM. Bankroll **$67.41** (start $100): $57.55 cash + open trades at cost.
+Updated Mon Nov 16, 4:38 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
-Record: 63 won, 48 lost, 11 sold early. Realized P&L $-32.59. Open: 1.
+Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
 | Entered | Game | Pick | Leaders | Kalshi | Status | P&L |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 1:10 AM | [Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | Spread: Bengals (-3.5) → Bengals | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($40,995) | 18 × 53¢ YES `KXNFLSPREAD-26NOV15PITCIN-CIN4` | open |  |
+| Mon Nov 16, 1:10 AM | [Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | Spread: Bengals (-3.5) → Bengals | [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) ($40,995) | 18 × 53¢ YES `KXNFLSPREAD-26NOV15PITCIN-CIN4` | won | $+8.14 |
 | Sun Nov 15, 9:10 PM | [49ers vs. Cowboys](https://polymarket.com/event/nfl-sf-dal-2026-11-15) | Spread: 49ers (-3.5) → 49ers | [monkeymashingkeyboard](https://polymarket.com/profile/0x684baa57c338c2549aec0aa3f034f695d72a8409), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($50,377) | 20 × 49¢ YES `KXNFLSPREAD-26NOV15SFDAL-SF4` | won | $+9.85 |
 | Sun Nov 15, 8:10 PM | [Seahawks vs. Raiders](https://polymarket.com/event/nfl-sea-lv-2026-11-15) | Seahawks vs. Raiders → Seahawks | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98) ($32,255) | 13 × 72¢ YES `KXNFLGAME-26NOV15SEALV-SEA` | won | $+3.45 |
 | Sun Nov 15, 8:10 PM | [Rams vs. Cardinals](https://polymarket.com/event/nfl-la-ari-2026-11-15) | Rams vs. Cardinals: O/U 38.5 → Under | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc), [keeptheblueflagflyinghigh](https://polymarket.com/profile/0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98), [primm](https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029) ($9,574) | 19 × 51¢ NO `KXNFLTOTAL-26NOV15LARARI-39` | lost | $-10.03 |
