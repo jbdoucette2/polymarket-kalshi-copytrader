@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Mon Nov 16, 4:38 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Mon Nov 16, 5:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -132,30 +132,30 @@ Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (2316 settled so far, 89 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (2321 settled so far, 90 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 2316 | 47% | 48¢ | -1 pts | -7% |
-| Rules: one rule away | 2182 | 47% | 48¢ | -1 pts | -7% |
-| Rules: passed every rule | 134 | 50% | 52¢ | -2 pts | -8% |
-| Price: 40–60¢ | 925 | 48% | 49¢ | -1 pts | -2% |
-| Price: 60–80¢ | 400 | 70% | 69¢ | +1 pts | +1% |
+| **all** | 2321 | 47% | 48¢ | -1 pts | -7% |
+| Rules: one rule away | 2186 | 47% | 48¢ | -1 pts | -7% |
+| Rules: passed every rule | 135 | 50% | 52¢ | -1 pts | -7% |
+| Price: 40–60¢ | 929 | 48% | 49¢ | -1 pts | -2% |
+| Price: 60–80¢ | 401 | 70% | 69¢ | +1 pts | +1% |
 | Price: 80¢+ | 235 | 89% | 88¢ | +1 pts | +1% |
 | Price: under 40¢ | 756 | 20% | 24¢ | -4 pts | -19% |
-| Wallets on the pick: 1 wallet | 1926 | 46% | 48¢ | -2 pts | -7% |
-| Wallets on the pick: 2 wallets | 312 | 48% | 50¢ | -2 pts | -7% |
+| Wallets on the pick: 1 wallet | 1930 | 46% | 48¢ | -2 pts | -7% |
+| Wallets on the pick: 2 wallets | 313 | 49% | 50¢ | -1 pts | -6% |
 | Wallets on the pick: 3+ wallets | 78 | 56% | 50¢ | +6 pts | +12% |
-| Leader money: $20k+ | 118 | 58% | 56¢ | +1 pts | +1% |
-| Leader money: $5k–20k | 248 | 50% | 54¢ | -4 pts | -8% |
-| Leader money: under $5k | 1950 | 46% | 47¢ | -1 pts | -7% |
+| Leader money: $20k+ | 120 | 58% | 56¢ | +2 pts | +2% |
+| Leader money: $5k–20k | 250 | 51% | 54¢ | -3 pts | -8% |
+| Leader money: under $5k | 1951 | 46% | 47¢ | -1 pts | -7% |
 | Market type: draw | 111 | 51% | 55¢ | -3 pts | -20% |
-| Market type: moneyline | 360 | 49% | 52¢ | -3 pts | -11% |
+| Market type: moneyline | 361 | 49% | 52¢ | -3 pts | -11% |
 | Market type: soccer win/lose | 360 | 48% | 49¢ | -1 pts | -7% |
-| Market type: spread | 678 | 47% | 49¢ | -2 pts | -7% |
-| Market type: total | 807 | 45% | 45¢ | +0 pts | -3% |
-| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 92 | 33% | 38¢ | -5 pts | -14% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 2079 | 47% | 49¢ | -2 pts | -7% |
+| Market type: spread | 681 | 47% | 49¢ | -2 pts | -7% |
+| Market type: total | 808 | 45% | 45¢ | +0 pts | -3% |
+| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 93 | 32% | 38¢ | -5 pts | -15% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 2083 | 47% | 49¢ | -1 pts | -7% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 31 | 52% | 50¢ | +1 pts | +8% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -164,16 +164,16 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | --- | --- | --- | --- | --- |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | Jsram | 6 | 67% | 49¢ | +17 pts |
-| BreakTheBank (benched) | 34 | 62% | 49¢ | +13 pts |
-| monkeymashingkeyboard (benched) | 85 | 56% | 50¢ | +6 pts |
-| HomeRunHazard (benched) | 475 | 59% | 54¢ | +5 pts |
+| BreakTheBank (benched) | 35 | 60% | 49¢ | +11 pts |
+| monkeymashingkeyboard (benched) | 86 | 57% | 50¢ | +7 pts |
 | Flaznorp (benched) | 753 | 61% | 56¢ | +5 pts |
-| gmpm2 | 39 | 56% | 54¢ | +3 pts |
-| keeptheblueflagflyinghigh | 210 | 55% | 54¢ | +1 pts |
+| HomeRunHazard (benched) | 479 | 58% | 54¢ | +5 pts |
+| gmpm2 (benched) | 40 | 57% | 54¢ | +4 pts |
+| keeptheblueflagflyinghigh | 212 | 55% | 54¢ | +2 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | RN1 (benched) | 105 | 51% | 51¢ | -0 pts |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 56 | 52% | 53¢ | -1 pts |
 | tradecraft (benched) | 15 | 60% | 61¢ | -1 pts |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 54 | 52% | 53¢ | -1 pts |
 | primm | 63 | 49% | 51¢ | -2 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | takeormake (benched) | 25 | 36% | 45¢ | -9 pts |
@@ -186,12 +186,16 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Chargers vs. Ravens · starts Tue Nov 17, 1:15 AM
 
+- Mon Nov 16, 5:10 AM (hourly): Chargers vs. Ravens: Kalshi 67¢ → 68¢
+- Mon Nov 16, 5:10 AM (hourly): Chargers vs. Ravens: gmpm2 joined Ravens (+$100)
 - Mon Nov 16, 3:11 AM (hourly): Spread: Ravens (-5.5): Kalshi 47¢ → 48¢
 - Mon Nov 16, 2:10 AM (hourly): Spread: Ravens (-5.5): first seen: 1 vetted on Ravens ($423), fails: only 1 vetted wallet with $423 (needs 3+ wallets, or 2 with $5.0k+)
 - Mon Nov 16, 2:10 AM (hourly): Chargers vs. Ravens: first seen: 1 vetted on Ravens ($745), fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 5:10 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $427 | $0 | 48¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
+| Mon Nov 16, 5:10 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $745, gmpm2 $100 | $0 | 68¢ YES | fails: only 2 vetted wallets with $845 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 4:12 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $427 | $0 | 48¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 4:12 AM | hourly | Chargers vs. Ravens → Ravens | CUTJALENHURTS $745 | $0 | 67¢ YES | fails: only 1 vetted wallet with $745 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 3:11 AM | hourly | Spread: Ravens (-5.5) → Ravens | gmpm2 $427 | $0 | 48¢ YES | fails: only 1 vetted wallet with $427 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -201,10 +205,12 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Montana Grizzlies vs. Kansas State Wildcats · starts Tue Nov 17, 1:00 AM
 
+- Mon Nov 16, 5:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): Kalshi 46¢ → 47¢
 - Mon Nov 16, 2:10 AM (hourly): Spread: Kansas State Wildcats (-15.5): first seen: 1 vetted on Montana Grizzlies ($543), fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Mon Nov 16, 5:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 47¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 4:12 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 3:11 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $549 | $0 | 46¢ NO | fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 2:10 AM | hourly | Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies | keeptheblueflagflyinghigh $543 | $0 | 46¢ NO | fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -4100,36 +4106,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 11:13 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 10:15 PM | hourly | UFC 334: Amanda Nunes vs. Kayla Harrison (Women's Bantamweight, Main Card) → Kayla Harrison | BreakTheBank $1.3k | $0 | — | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 
-### RB Ōmiya Ardija vs. Montedio Yamagata · starts Sat Nov 14, 5:00 AM
-
-- Sat Nov 14, 1:13 AM (hourly): Will RB Ōmiya Ardija win on 2026-11-14?: all vetted wallets left Yes
-- Fri Nov 13, 11:13 PM (hourly): Will RB Ōmiya Ardija win on 2026-11-14?: Kalshi matched at 59¢
-- Fri Nov 13, 10:12 AM (hourly): Will Montedio Yamagata win on 2026-11-14?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 1:13 AM | hourly | Will RB Ōmiya Ardija win on 2026-11-14? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 14, 12:10 AM | hourly | Will RB Ōmiya Ardija win on 2026-11-14? → Yes | tradecraft $36 | $0 | 59¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:13 PM | hourly | Will RB Ōmiya Ardija win on 2026-11-14? → Yes | tradecraft $36 | $0 | 59¢ YES | fails: only 1 vetted wallet with $36 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:15 PM | hourly | Will RB Ōmiya Ardija win on 2026-11-14? → Yes | tradecraft $28 | $0 | — | fails: only 1 vetted wallet with $28 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 10:12 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:12 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | Flaznorp $102 | $0 | 80¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Fri Nov 13, 8:15 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | Flaznorp $102 | $0 | — | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | Flaznorp $102 | $0 | 80¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Fri Nov 13, 6:17 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | Flaznorp $102 | $0 | 80¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-| Fri Nov 13, 5:11 AM | hourly | Will Montedio Yamagata win on 2026-11-14? → No | Flaznorp $102 | $0 | 80¢ NO | fails: only 1 vetted wallet with $102 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 80c vs leaders 77c |
-
-### FC Gifu vs. Matsumoto Yamaga FC · starts Sat Nov 14, 5:00 AM
-
-- Sat Nov 14, 1:13 AM (hourly): Will FC Gifu vs. Matsumoto Yamaga FC end in a draw?: all vetted wallets left No
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sat Nov 14, 1:13 AM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Sat Nov 14, 12:10 AM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | tradecraft $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:13 PM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | tradecraft $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 10:15 PM | hourly | Will FC Gifu vs. Matsumoto Yamaga FC end in a draw? → No | tradecraft $57 | $0 | — | fails: only 1 vetted wallet with $57 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Doncaster Rovers FC vs. Leyton Orient FC - More Markets · starts Sat Nov 14, 3:00 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Doncaster Rovers FC vs. Leyton Orient FC: 1st Half O/U 3.5: all vetted wallets left Under
@@ -4621,74 +4597,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 4:18 PM | hourly | Exact Score: Doncaster Rovers FC 0 - 0 Leyton Orient FC? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; market type not supported |
 | Fri Nov 13, 3:23 PM | hourly | Exact Score: Doncaster Rovers FC 0 - 0 Leyton Orient FC? → No | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; market type not supported |
 
-### RB Ōmiya Ardija vs. Montedio Yamagata - More Markets · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: all vetted wallets left Under
-- Fri Nov 13, 11:13 PM (hourly): Spread: RB Ōmiya Ardija (-1.5): all vetted wallets left Montedio Yamagata
-- Fri Nov 13, 11:13 PM (hourly): Spread: RB Ōmiya Ardija (-2.5): all vetted wallets left RB Ōmiya Ardija
-- Fri Nov 13, 8:17 PM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: Kalshi matched at 17¢
-- Fri Nov 13, 8:17 PM (hourly): Spread: RB Ōmiya Ardija (-1.5): Kalshi matched at 68¢
-- Fri Nov 13, 5:13 PM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: Kalshi matched at 17¢
-- Fri Nov 13, 5:13 PM (hourly): Spread: RB Ōmiya Ardija (-1.5): Kalshi matched at 68¢
-- Fri Nov 13, 3:23 PM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: Kalshi matched at 17¢
-- Fri Nov 13, 3:23 PM (hourly): Spread: RB Ōmiya Ardija (-1.5): Kalshi matched at 68¢
-- Fri Nov 13, 9:12 AM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: Kalshi matched at 17¢
-- Fri Nov 13, 9:12 AM (hourly): Spread: RB Ōmiya Ardija (-1.5): Kalshi matched at 68¢
-- Fri Nov 13, 7:13 AM (hourly): Spread: RB Ōmiya Ardija (-1.5): Kalshi 68¢ → 67¢
-- Fri Nov 13, 5:11 AM (hourly): RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5: first seen: 1 vetted on Under ($18), fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 5:11 AM (hourly): Spread: RB Ōmiya Ardija (-1.5): first seen: 1 vetted on Montedio Yamagata ($47), fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $17 | $0 | 18¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 8:17 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $16 | $0 | — | fails: only 1 vetted wallet with $16 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:18 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:18 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $29 | $0 | 18¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 5:13 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 4:18 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 4:18 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $18 | $0 | 18¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 3:23 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | — | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 12:17 PM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $24 | $0 | — | fails: only 1 vetted wallet with $24 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 12:17 PM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:14 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $29 | $0 | 18¢ YES | fails: only 1 vetted wallet with $29 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 11:14 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $17 | $0 | 18¢ YES | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 10:12 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $18 | $0 | 18¢ YES | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 9:12 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $17 | $0 | — | fails: only 1 vetted wallet with $17 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:15 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $27 | $0 | — | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:15 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | — | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $27 | $0 | 18¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 7:13 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 67¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $27 | $0 | 18¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 18c vs leaders 12c |
-| Fri Nov 13, 6:17 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | RB Ōmiya Ardija vs. Montedio Yamagata: O/U 1.5 → Under | Flaznorp $18 | $0 | 17¢ NO | fails: only 1 vetted wallet with $18 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Spread: RB Ōmiya Ardija (-2.5) → RB Ōmiya Ardija | Flaznorp $33 | $0 | 17¢ YES | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 17c vs leaders 12c |
-| Fri Nov 13, 5:11 AM | hourly | Spread: RB Ōmiya Ardija (-1.5) → Montedio Yamagata | Flaznorp $47 | $0 | 68¢ NO | fails: only 1 vetted wallet with $47 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Vendée Fontenay Foot vs. Clermont Foot 63 · starts Sat Nov 14, 3:00 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Will Clermont Foot 63 win on 2026-11-14?: all vetted wallets left No
@@ -4798,57 +4706,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 3:23 PM | hourly | Swindon Town FC vs. Grimsby Town FC: O/U 4.5 → Over | Flaznorp $9 | $0 | 99¢ YES | fails: only 1 vetted wallet with $9 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 99c vs leaders 20c |
 | Fri Nov 13, 3:23 PM | hourly | Swindon Town FC vs. Grimsby Town FC: O/U 2.5 → Under | Flaznorp $13 | $0 | 100¢ NO | fails: only 1 vetted wallet with $13 (needs 3+ wallets, or 2 with $5.0k+); Kalshi market not open |
 
-### Ōita Trinita vs. Tochigi City FC · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Will Tochigi City FC win on 2026-11-14?: all vetted wallets left Yes
-- Fri Nov 13, 11:13 PM (hourly): Will Ōita Trinita win on 2026-11-14?: all vetted wallets left No
-- Fri Nov 13, 8:17 PM (hourly): Will Tochigi City FC win on 2026-11-14?: Kalshi matched at 28¢
-- Fri Nov 13, 8:17 PM (hourly): Will Ōita Trinita win on 2026-11-14?: Kalshi matched at 55¢
-- Fri Nov 13, 5:13 PM (hourly): Will Tochigi City FC win on 2026-11-14?: Kalshi matched at 28¢
-- Fri Nov 13, 5:13 PM (hourly): Will Ōita Trinita win on 2026-11-14?: Kalshi matched at 55¢
-- Fri Nov 13, 3:23 PM (hourly): Will Tochigi City FC win on 2026-11-14?: Kalshi matched at 28¢
-- Fri Nov 13, 3:23 PM (hourly): Will Ōita Trinita win on 2026-11-14?: Kalshi matched at 55¢
-- Fri Nov 13, 9:12 AM (hourly): Will Tochigi City FC win on 2026-11-14?: Kalshi matched at 28¢
-- Fri Nov 13, 9:12 AM (hourly): Will Ōita Trinita win on 2026-11-14?: Kalshi matched at 54¢
-- Fri Nov 13, 6:17 AM (hourly): Will Ōita Trinita win on 2026-11-14?: Kalshi 56¢ → 55¢
-- Fri Nov 13, 5:11 AM (hourly): Will Tochigi City FC win on 2026-11-14?: first seen: 1 vetted on Yes ($10), fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+)
-- Fri Nov 13, 5:11 AM (hourly): Will Ōita Trinita win on 2026-11-14?: first seen: 1 vetted on No ($69), fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:17 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 55¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:18 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:13 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 55¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 4:18 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 3:23 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 55¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 12:17 PM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 11:14 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 54¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 54¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 54¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | — | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:15 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | — | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:13 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $68 | $0 | 55¢ NO | fails: only 1 vetted wallet with $68 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $69 | $0 | 55¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Will Tochigi City FC win on 2026-11-14? → Yes | Flaznorp $10 | $0 | 28¢ YES | fails: only 1 vetted wallet with $10 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Will Ōita Trinita win on 2026-11-14? → No | Flaznorp $69 | $0 | 56¢ NO | fails: only 1 vetted wallet with $69 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Central Espanol FC vs. CA Boston River - More Markets · starts Sat Nov 14, 1:00 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Central Espanol FC vs. CA Boston River: 1st Half O/U 1.5: all vetted wallets left Over
@@ -4872,34 +4729,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 4:18 PM | hourly | Central Espanol FC vs. CA Boston River: O/U 3.5 → Under | Flaznorp $98 | $0 | — | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Fri Nov 13, 3:23 PM | hourly | Central Espanol FC vs. CA Boston River: 1st Half O/U 1.5 → Over | Flaznorp $33 | $0 | — | fails: only 1 vetted wallet with $33 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Fri Nov 13, 3:23 PM | hourly | Central Espanol FC vs. CA Boston River: O/U 3.5 → Under | Flaznorp $98 | $0 | 76¢ NO | fails: only 1 vetted wallet with $98 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 73c |
-
-### Shōnan Bellmāre vs. Yokohama FC - More Markets · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: all vetted wallets left Under
-- Fri Nov 13, 8:17 PM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: Kalshi matched at 23¢
-- Fri Nov 13, 5:13 PM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: Kalshi matched at 23¢
-- Fri Nov 13, 3:23 PM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: Kalshi matched at 23¢
-- Fri Nov 13, 9:12 AM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: Kalshi matched at 23¢
-- Fri Nov 13, 5:11 AM (hourly): Shōnan Bellmāre vs. Yokohama FC: O/U 1.5: first seen: 1 vetted on Under ($23), fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 8:15 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | — | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 6:17 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 5:11 AM | hourly | Shōnan Bellmāre vs. Yokohama FC: O/U 1.5 → Under | Flaznorp $23 | $0 | 23¢ NO | fails: only 1 vetted wallet with $23 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Wycombe Wanderers FC vs. Huddersfield Town AFC - Halftime Result · starts Sat Nov 14, 3:00 PM
 
@@ -5294,18 +5123,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 4:18 PM | hourly | Exact Score: Wycombe Wanderers FC 0 - 0 Huddersfield Town AFC? → No | Flaznorp $0 | $0 | — | fails: only 1 vetted wallet with $0 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; market type not supported |
 | Fri Nov 13, 3:23 PM | hourly | Exact Score: Wycombe Wanderers FC 0 - 0 Huddersfield Town AFC? → No | Flaznorp $0 | $0 | — | fails: only 1 vetted wallet with $0 (needs 3+ wallets, or 2 with $5.0k+); Polymarket price 1¢ outside 5–95¢; market type not supported |
 
-### Fujieda MYFC vs. Ventforet Kōfu - More Markets · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5: all vetted wallets left Over
-- Fri Nov 13, 8:17 PM (hourly): Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5: Kalshi matched at 29¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5 → Over | Flaznorp $43 | $0 | 29¢ YES | fails: only 1 vetted wallet with $43 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Fujieda MYFC vs. Ventforet Kōfu: O/U 3.5 → Over | Flaznorp $44 | $0 | — | fails: only 1 vetted wallet with $44 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 ### Manchester United WFC vs. Crystal Palace - More Markets · starts Sat Nov 14, 12:45 PM
 
 - Fri Nov 13, 11:13 PM (hourly): Spread: Crystal Palace (-2.5): all vetted wallets left Manchester United WFC
@@ -5412,46 +5229,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 8:17 PM | hourly | Exact Score: Romania 2 - 1 Poland? → Yes | Flaznorp $2 | $0 | — | fails: only 1 vetted wallet with $2 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Fri Nov 13, 8:17 PM | hourly | Exact Score: Romania 0 - 2 Poland? → Yes | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
 | Fri Nov 13, 8:17 PM | hourly | Exact Score: Romania 1 - 0 Poland? → Yes | Flaznorp $3 | $0 | — | fails: only 1 vetted wallet with $3 (needs 3+ wallets, or 2 with $5.0k+); market type not supported |
-
-### Albirex Niigata vs. Tegevajaro Miyazaki - More Markets · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5: all vetted wallets left Under
-- Fri Nov 13, 11:13 PM (hourly): Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5: all vetted wallets left Under
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 11:13 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 9:14 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 8:17 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 7:18 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:18 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 5:13 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 4:18 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 4:18 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 3:23 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 12:17 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 12:17 PM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 11:14 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 10:12 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 10:12 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 9:12 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 9:12 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 8:15 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | — | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:15 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | — | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 7:13 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 6:17 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 6:17 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
-| Fri Nov 13, 5:11 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 1.5 → Under | Flaznorp $73 | $0 | 30¢ NO | fails: only 1 vetted wallet with $73 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 30c vs leaders 27c |
-| Fri Nov 13, 5:11 AM | hourly | Albirex Niigata vs. Tegevajaro Miyazaki: O/U 3.5 → Under | Flaznorp $209 | $0 | 78¢ NO | fails: only 1 vetted wallet with $209 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 78c vs leaders 74c |
 
 ### Uganda vs. Botswana - More Markets · starts Sat Nov 14, 4:00 PM
 
@@ -5665,34 +5442,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Fri Nov 13, 5:13 PM | hourly | Will Uganda vs. Botswana end in a draw? → No | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 4:18 PM | hourly | Will Uganda win on 2026-11-14? → No | Flaznorp $12 | $0 | — | fails: only 1 vetted wallet with $12 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
 | Fri Nov 13, 4:18 PM | hourly | Will Uganda vs. Botswana end in a draw? → No | Flaznorp $22 | $0 | — | fails: only 1 vetted wallet with $22 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
-### Albirex Niigata vs. Tegevajaro Miyazaki · starts Sat Nov 14, 5:00 AM
-
-- Fri Nov 13, 11:13 PM (hourly): Will Albirex Niigata win on 2026-11-14?: all vetted wallets left No
-- Fri Nov 13, 8:17 PM (hourly): Will Albirex Niigata win on 2026-11-14?: Kalshi matched at 73¢
-- Fri Nov 13, 5:13 PM (hourly): Will Albirex Niigata win on 2026-11-14?: Kalshi matched at 74¢
-- Fri Nov 13, 3:23 PM (hourly): Will Albirex Niigata win on 2026-11-14?: Kalshi matched at 74¢
-- Fri Nov 13, 11:14 AM (hourly): Will Albirex Niigata win on 2026-11-14?: Kalshi 75¢ → 74¢
-- Fri Nov 13, 10:12 AM (hourly): Will Albirex Niigata win on 2026-11-14?: Kalshi 76¢ → 75¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Fri Nov 13, 11:13 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | none | $0 | — | fails: no vetted wallets hold it now |
-| Fri Nov 13, 9:14 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 8:17 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | 73¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 7:18 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 6:14 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 5:13 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | 74¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 4:18 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 3:23 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | 74¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 12:17 PM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | — | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 11:14 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | 74¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 10:12 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $54 | $0 | 75¢ NO | fails: only 1 vetted wallet with $54 (needs 3+ wallets, or 2 with $5.0k+) |
-| Fri Nov 13, 9:12 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $55 | $0 | 76¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 73c |
-| Fri Nov 13, 8:15 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $55 | $0 | — | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Fri Nov 13, 7:13 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $55 | $0 | 76¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 73c |
-| Fri Nov 13, 6:17 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $55 | $0 | 76¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 73c |
-| Fri Nov 13, 5:11 AM | hourly | Will Albirex Niigata win on 2026-11-14? → No | Flaznorp $55 | $0 | 76¢ NO | fails: only 1 vetted wallet with $55 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 76c vs leaders 73c |
 
 ### Romania vs. Poland - More Markets · starts Sat Nov 14, 7:45 PM
 
@@ -6753,15 +6502,16 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
-| monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 0-0 (2 pending) | benched |
+| gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
+| monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 0-0 (4 pending) | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 0-0 | benched |
-| BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 5-4 (1 pending) | benched |
+| BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 5-5 | benched |
 | Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 34-44 (7 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 31-34 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
-| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 17-16 (3 pending) | benched |
+| 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 18-17 (1 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 279-196 (14 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 280-199 (10 pending) | benched |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
