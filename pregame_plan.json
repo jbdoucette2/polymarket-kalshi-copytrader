@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T02:10:28Z",
+  "updated": "2026-11-16T03:11:27Z",
   "games": [
     {
       "event_slug": "cbb-mont-kanst-2026-11-16",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-17T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($543, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Kansas State Wildcats (-15.5) → Montana Grizzlies ($549, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $549 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nfl-lac-bal-2026-11-17",
