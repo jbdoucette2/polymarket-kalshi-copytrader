@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-17T21:10:34Z",
+  "updated": "2026-11-17T22:10:57Z",
   "games": [
+    {
+      "event_slug": "cfb-emich-wmich-2026-11-17",
+      "game": "Eastern Michigan vs. Western Michigan",
+      "start": "2026-11-17T23:00:00Z",
+      "check_at": "2026-11-17T22:45:00Z",
+      "passing": 0,
+      "near": 6,
+      "best": "Spread: Western Michigan (-17.5) → Western Michigan ($6.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cfb-miaoh-kentst-2026-11-17",
       "game": "Miami (OH) vs. Kent State",
@@ -28,8 +38,8 @@
       "check_at": "2026-11-18T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Timberwolves (-2.5) → Trail Blazers ($9.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $9.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Timberwolves (-2.5) → Trail Blazers ($9.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cha-lal-2026-11-17",
@@ -38,8 +48,8 @@
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Hornets vs. Lakers → Hornets ($8.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hornets vs. Lakers → Hornets ($10.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $10.8k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
