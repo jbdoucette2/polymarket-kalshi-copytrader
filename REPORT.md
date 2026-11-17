@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 17, 8:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Tue Nov 17, 9:09 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -132,30 +132,30 @@ Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (2342 settled so far, 90 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (2343 settled so far, 90 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 2342 | 47% | 48¢ | -2 pts | -7% |
-| Rules: one rule away | 2207 | 47% | 48¢ | -2 pts | -7% |
+| **all** | 2343 | 47% | 48¢ | -1 pts | -7% |
+| Rules: one rule away | 2208 | 47% | 48¢ | -1 pts | -7% |
 | Rules: passed every rule | 135 | 50% | 52¢ | -1 pts | -7% |
 | Price: 40–60¢ | 942 | 48% | 49¢ | -1 pts | -3% |
 | Price: 60–80¢ | 405 | 70% | 69¢ | +1 pts | +0% |
 | Price: 80¢+ | 236 | 89% | 88¢ | +1 pts | +1% |
-| Price: under 40¢ | 759 | 20% | 24¢ | -4 pts | -18% |
-| Wallets on the pick: 1 wallet | 1951 | 46% | 48¢ | -2 pts | -8% |
+| Price: under 40¢ | 760 | 21% | 24¢ | -4 pts | -18% |
+| Wallets on the pick: 1 wallet | 1952 | 46% | 48¢ | -2 pts | -7% |
 | Wallets on the pick: 2 wallets | 313 | 49% | 50¢ | -1 pts | -6% |
 | Wallets on the pick: 3+ wallets | 78 | 56% | 50¢ | +6 pts | +12% |
 | Leader money: $20k+ | 122 | 58% | 57¢ | +1 pts | +1% |
 | Leader money: $5k–20k | 257 | 50% | 54¢ | -4 pts | -8% |
-| Leader money: under $5k | 1963 | 46% | 47¢ | -1 pts | -7% |
+| Leader money: under $5k | 1964 | 46% | 47¢ | -1 pts | -7% |
 | Market type: draw | 111 | 51% | 55¢ | -3 pts | -20% |
-| Market type: moneyline | 367 | 49% | 52¢ | -3 pts | -11% |
+| Market type: moneyline | 368 | 49% | 52¢ | -3 pts | -10% |
 | Market type: soccer win/lose | 360 | 48% | 49¢ | -1 pts | -7% |
 | Market type: spread | 690 | 47% | 49¢ | -2 pts | -6% |
 | Market type: total | 814 | 44% | 45¢ | -0 pts | -3% |
 | Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 95 | 32% | 38¢ | -6 pts | -17% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 2102 | 47% | 49¢ | -2 pts | -7% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 2103 | 47% | 49¢ | -2 pts | -7% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 31 | 52% | 50¢ | +1 pts | +8% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -183,6 +183,39 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 ## Position changes
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
+
+### Trail Blazers vs. Timberwolves · starts Wed Nov 18, 1:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Spread: Timberwolves (-2.5): Kalshi matched at 52¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 9:09 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $139 | $0 | 52¢ NO | fails: only 1 vetted wallet with $139 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 8:10 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | 52¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 7:13 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | — | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Knicks vs. Raptors · starts Wed Nov 18, 12:30 AM
+
+- Tue Nov 17, 7:13 AM (hourly): Knicks vs. Raptors: monkeymashingkeyboard added $1.9k on Raptors
+- Tue Nov 17, 5:13 AM (hourly): Knicks vs. Raptors: first seen: 1 vetted on Raptors ($935), fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 9:09 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.8k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.8k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 8:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.7k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 7:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.2k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 6:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $1.3k | $0 | 43¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 5:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $935 | $0 | 43¢ YES | fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Hornets vs. Lakers · starts Wed Nov 18, 4:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Hornets vs. Lakers: O/U 218.5: Kalshi matched at 53¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 9:09 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 8:10 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 7:13 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
 ### Tennessee State Tigers vs. South Florida Bulls · starts Wed Nov 18, 12:00 AM
 
@@ -219,36 +252,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 17, 6:10 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 10.5 spread line |
 | Tue Nov 17, 5:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 10.5 spread line |
 | Tue Nov 17, 4:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Trail Blazers vs. Timberwolves · starts Wed Nov 18, 1:00 AM
-
-- Tue Nov 17, 8:10 AM (hourly): Spread: Timberwolves (-2.5): Kalshi matched at 52¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 17, 8:10 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | 52¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 7:13 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | — | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-
-### Knicks vs. Raptors · starts Wed Nov 18, 12:30 AM
-
-- Tue Nov 17, 7:13 AM (hourly): Knicks vs. Raptors: monkeymashingkeyboard added $1.9k on Raptors
-- Tue Nov 17, 5:13 AM (hourly): Knicks vs. Raptors: first seen: 1 vetted on Raptors ($935), fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 17, 8:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.7k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 7:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.2k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 6:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $1.3k | $0 | 43¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 5:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $935 | $0 | 43¢ YES | fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Hornets vs. Lakers · starts Wed Nov 18, 4:00 AM
-
-- Tue Nov 17, 8:10 AM (hourly): Hornets vs. Lakers: O/U 218.5: Kalshi matched at 53¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 17, 8:10 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 7:13 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
 ### Sydney: Dane Sweeny vs Christian Langmo · starts Tue Nov 17, 5:15 AM
 
@@ -2295,19 +2298,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 15, 9:09 AM | pregame | Esenler Erokspor vs. Bahcesehir Koleji → Esenler Erokspor | tradecraft $27 | $0 | 41¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 AM | hourly | Esenler Erokspor vs. Bahcesehir Koleji → Esenler Erokspor | tradecraft $27 | $0 | 41¢ YES | fails: only 1 vetted wallet with $27 (needs 3+ wallets, or 2 with $5.0k+) |
 
-### BC Dubai vs. Spartak Subotica · starts Sun Nov 15, 9:00 AM
-
-- Sun Nov 15, 8:10 AM (pregame): BC Dubai vs. Spartak Subotica: Kalshi matched at 13¢
-- Sun Nov 15, 6:11 AM (hourly): BC Dubai vs. Spartak Subotica: Kalshi matched at 13¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sun Nov 15, 8:10 AM | pregame | BC Dubai vs. Spartak Subotica → Spartak Subotica | tradecraft $6 | $0 | 13¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:12 AM | hourly | BC Dubai vs. Spartak Subotica → Spartak Subotica | tradecraft $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 15, 6:11 AM | hourly | BC Dubai vs. Spartak Subotica → Spartak Subotica | tradecraft $6 | $0 | 13¢ YES | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:12 AM | hourly | BC Dubai vs. Spartak Subotica → Spartak Subotica | tradecraft $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Sun Nov 15, 4:13 AM | hourly | BC Dubai vs. Spartak Subotica → Spartak Subotica | tradecraft $6 | $0 | — | fails: only 1 vetted wallet with $6 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 
 ## Time-out
 
@@ -2318,7 +2308,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 2-0 (1 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 6-6 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 47-61 (17 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 47-61 (18 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 36-38 (2 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 22-18 (1 pending) | benched |
