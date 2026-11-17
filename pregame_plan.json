@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T06:10:37Z",
+  "updated": "2026-11-17T07:13:18Z",
   "games": [
     {
       "event_slug": "nba-nyk-tor-2026-11-17",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-18T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Knicks vs. Raptors → Raptors ($1.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Knicks vs. Raptors → Raptors ($3.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
