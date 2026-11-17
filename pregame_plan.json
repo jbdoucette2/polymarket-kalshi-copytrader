@@ -1,15 +1,35 @@
 {
-  "updated": "2026-11-17T18:13:53Z",
+  "updated": "2026-11-17T19:11:07Z",
   "games": [
+    {
+      "event_slug": "cfb-miaoh-kentst-2026-11-17",
+      "game": "Miami (OH) vs. Kent State",
+      "start": "2026-11-18T00:00:00Z",
+      "check_at": "2026-11-17T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Miami (OH) vs. Kent State: O/U 45.5 → Under ($2.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "nba-nyk-tor-2026-11-17",
       "game": "Knicks vs. Raptors",
       "start": "2026-11-18T00:30:00Z",
       "check_at": "2026-11-18T00:15:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Knicks vs. Raptors → Raptors ($36.6k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $36.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-por-min-2026-11-17",
+      "game": "Trail Blazers vs. Timberwolves",
+      "start": "2026-11-18T01:00:00Z",
+      "check_at": "2026-11-18T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Timberwolves (-2.5) → Trail Blazers ($6.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.9k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cha-lal-2026-11-17",
@@ -17,9 +37,9 @@
       "start": "2026-11-18T04:00:00Z",
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Hornets vs. Lakers → Hornets ($7.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $7.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Hornets vs. Lakers → Hornets ($7.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $7.9k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
