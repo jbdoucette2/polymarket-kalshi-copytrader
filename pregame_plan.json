@@ -1,53 +1,13 @@
 {
-  "updated": "2026-11-17T00:11:16Z",
+  "updated": "2026-11-17T01:10:36Z",
   "games": [
-    {
-      "event_slug": "nhl-mon-nyr-2026-11-16",
-      "game": "Canadiens vs. Rangers",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Canadiens vs. Rangers → Canadiens ($14.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.1k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-phi-bkn-2026-11-16",
-      "game": "76ers vs. Nets",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Spread: 76ers (-5.5) → 76ers ($8.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.4k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-hou-mia-2026-11-16",
-      "game": "Rockets vs. Heat",
-      "start": "2026-11-17T00:30:00Z",
-      "check_at": "2026-11-17T00:15:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Rockets vs. Heat: O/U 232.5 → Under ($6.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-gsw-nop-2026-11-16",
-      "game": "Warriors vs. Pelicans",
-      "start": "2026-11-17T01:00:00Z",
-      "check_at": "2026-11-17T00:45:00Z",
-      "passing": 0,
-      "near": 2,
-      "best": "Warriors vs. Pelicans → Pelicans ($6.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.9k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nfl-lac-bal-2026-11-17",
       "game": "Chargers vs. Ravens",
       "start": "2026-11-17T01:15:00Z",
       "check_at": "2026-11-17T01:00:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 3,
       "best": "Spread: Ravens (-4.5) → Ravens ($10.1k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $10.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -78,8 +38,8 @@
       "check_at": "2026-11-17T03:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo ($289, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo ($311, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $311 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
