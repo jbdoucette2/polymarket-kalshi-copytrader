@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-17T16:14:44Z",
+  "updated": "2026-11-17T17:11:51Z",
   "games": [
+    {
+      "event_slug": "cfb-miaoh-kentst-2026-11-17",
+      "game": "Miami (OH) vs. Kent State",
+      "start": "2026-11-18T00:00:00Z",
+      "check_at": "2026-11-17T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Miami (OH) vs. Kent State: O/U 45.5 → Under ($2.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.6k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "nba-nyk-tor-2026-11-17",
       "game": "Knicks vs. Raptors",
@@ -8,8 +18,8 @@
       "check_at": "2026-11-18T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Knicks vs. Raptors → Raptors ($8.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Knicks (-3.5) → Raptors ($9.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.8k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-por-min-2026-11-17",
@@ -28,8 +38,8 @@
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Hornets vs. Lakers → Hornets ($5.1k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $5.1k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hornets vs. Lakers → Hornets ($5.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.5k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
