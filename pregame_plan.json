@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T15:12:25Z",
+  "updated": "2026-11-17T16:14:44Z",
   "games": [
     {
       "event_slug": "nba-nyk-tor-2026-11-17",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-18T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Knicks vs. Raptors → Raptors ($6.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Knicks vs. Raptors → Raptors ($8.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $8.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-por-min-2026-11-17",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-18T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Timberwolves (-2.5) → Trail Blazers ($6.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Timberwolves (-2.5) → Trail Blazers ($6.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-cha-lal-2026-11-17",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
       "near": 3,
-      "best": "Hornets vs. Lakers → Hornets ($4.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Hornets vs. Lakers → Hornets ($5.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.1k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
