@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Tue Nov 17, 7:13 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Tue Nov 17, 8:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -184,6 +184,51 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
+### Tennessee State Tigers vs. South Florida Bulls · starts Wed Nov 18, 12:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Spread: South Florida Bulls (-11.5): all vetted wallets left Tennessee State Tigers
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Spread: South Florida Bulls (-11.5) → Tennessee State Tigers | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 17, 7:13 AM | hourly | Spread: South Florida Bulls (-11.5) → Tennessee State Tigers | keeptheblueflagflyinghigh $400 | $0 | — | fails: only 1 vetted wallet with $400 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 17, 6:10 AM | hourly | Spread: South Florida Bulls (-11.5) → Tennessee State Tigers | keeptheblueflagflyinghigh $400 | $0 | — | fails: only 1 vetted wallet with $400 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 11.5 spread line |
+| Tue Nov 17, 5:13 AM | hourly | Spread: South Florida Bulls (-11.5) → Tennessee State Tigers | keeptheblueflagflyinghigh $400 | $0 | — | fails: only 1 vetted wallet with $400 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 11.5 spread line |
+| Tue Nov 17, 4:13 AM | hourly | Spread: South Florida Bulls (-11.5) → Tennessee State Tigers | keeptheblueflagflyinghigh $404 | $0 | — | fails: only 1 vetted wallet with $404 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Rider Broncs vs. Miami Hurricanes · starts Wed Nov 18, 12:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Rider Broncs vs. Miami Hurricanes: O/U 150.5: all vetted wallets left Over
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Rider Broncs vs. Miami Hurricanes: O/U 150.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 17, 7:13 AM | hourly | Rider Broncs vs. Miami Hurricanes: O/U 150.5 → Over | keeptheblueflagflyinghigh $451 | $0 | — | fails: only 1 vetted wallet with $451 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+| Tue Nov 17, 6:10 AM | hourly | Rider Broncs vs. Miami Hurricanes: O/U 150.5 → Over | keeptheblueflagflyinghigh $451 | $0 | — | fails: only 1 vetted wallet with $451 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 150.5 line |
+| Tue Nov 17, 5:13 AM | hourly | Rider Broncs vs. Miami Hurricanes: O/U 150.5 → Over | keeptheblueflagflyinghigh $451 | $0 | — | fails: only 1 vetted wallet with $451 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 150.5 line |
+| Tue Nov 17, 4:13 AM | hourly | Rider Broncs vs. Miami Hurricanes: O/U 150.5 → Over | keeptheblueflagflyinghigh $456 | $0 | — | fails: only 1 vetted wallet with $456 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
+
+### Central Michigan Chippewas vs. Dayton Flyers · starts Wed Nov 18, 12:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Spread: Dayton Flyers (-10.5): all vetted wallets left Central Michigan Chippewas
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | none | $0 | — | fails: no vetted wallets hold it now |
+| Tue Nov 17, 7:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+| Tue Nov 17, 6:10 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 10.5 spread line |
+| Tue Nov 17, 5:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 10.5 spread line |
+| Tue Nov 17, 4:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
+### Trail Blazers vs. Timberwolves · starts Wed Nov 18, 1:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Spread: Timberwolves (-2.5): Kalshi matched at 52¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | 52¢ NO | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 7:13 AM | hourly | Spread: Timberwolves (-2.5) → Trail Blazers | monkeymashingkeyboard $115 | $0 | — | fails: only 1 vetted wallet with $115 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
+
 ### Knicks vs. Raptors · starts Wed Nov 18, 12:30 AM
 
 - Tue Nov 17, 7:13 AM (hourly): Knicks vs. Raptors: monkeymashingkeyboard added $1.9k on Raptors
@@ -191,9 +236,19 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.7k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 17, 7:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $3.2k | $0 | 43¢ YES | fails: only 1 vetted wallet with $3.2k (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 17, 6:10 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $1.3k | $0 | 43¢ YES | fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Tue Nov 17, 5:13 AM | hourly | Knicks vs. Raptors → Raptors | monkeymashingkeyboard $935 | $0 | 43¢ YES | fails: only 1 vetted wallet with $935 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Hornets vs. Lakers · starts Wed Nov 18, 4:00 AM
+
+- Tue Nov 17, 8:10 AM (hourly): Hornets vs. Lakers: O/U 218.5: Kalshi matched at 53¢
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tue Nov 17, 8:10 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
+| Tue Nov 17, 7:13 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 
 ### Sydney: Dane Sweeny vs Christian Langmo · starts Tue Nov 17, 5:15 AM
 
@@ -2263,7 +2318,7 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 2-0 (1 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 6-6 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 47-61 (16 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 47-61 (17 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 36-38 (2 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 22-18 (1 pending) | benched |
