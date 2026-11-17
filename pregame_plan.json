@@ -1,15 +1,4 @@
 {
-  "updated": "2026-11-17T02:12:43Z",
-  "games": [
-    {
-      "event_slug": "nhl-van-utah-2026-11-16",
-      "game": "Canucks vs. Utah",
-      "start": "2026-11-17T02:30:00Z",
-      "check_at": "2026-11-17T02:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Canucks vs. Utah → Utah ($32.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $32.8k (needs 3+ wallets, or 2 with $5.0k+)"
-    }
-  ]
+  "updated": "2026-11-17T03:12:18Z",
+  "games": []
 }
