@@ -1,6 +1,36 @@
 {
-  "updated": "2026-11-18T13:16:30Z",
+  "updated": "2026-11-18T14:16:52Z",
   "games": [
+    {
+      "event_slug": "cbb-det-emich-2026-11-18",
+      "game": "Detroit Titans vs. Eastern Michigan Eagles",
+      "start": "2026-11-18T23:30:00Z",
+      "check_at": "2026-11-18T23:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Detroit Titans vs. Eastern Michigan Eagles: O/U 141.5 → Over ($208, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-hou-ind-2026-11-18",
+      "game": "Rockets vs. Pacers",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Rockets vs. Pacers: O/U 226.5 → Over ($153, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phi-orl-2026-11-18",
+      "game": "76ers vs. Magic",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "76ers vs. Magic: O/U 221.5 → Under ($8.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $8.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cbb-wichst-loych-2026-11-18",
       "game": "Wichita State Shockers vs. Loyola Chicago Ramblers",
@@ -10,6 +40,26 @@
       "near": 1,
       "best": "Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers ($186, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-bos-den-2026-11-18",
+      "game": "Celtics vs. Nuggets",
+      "start": "2026-11-19T02:30:00Z",
+      "check_at": "2026-11-19T02:15:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Celtics (-3.5) → Nuggets ($390, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phx-sac-2026-11-18",
+      "game": "Suns vs. Kings",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Suns (-6.5) → Kings ($8.9k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
