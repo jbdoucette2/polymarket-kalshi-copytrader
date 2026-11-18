@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:16:52Z",
+  "updated": "2026-11-18T15:12:27Z",
   "games": [
     {
       "event_slug": "cbb-det-emich-2026-11-18",
@@ -8,8 +8,18 @@
       "check_at": "2026-11-18T23:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Detroit Titans vs. Eastern Michigan Eagles: O/U 141.5 → Over ($208, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $208 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Detroit Titans vs. Eastern Michigan Eagles: O/U 141.5 → Over ($215, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-tentch-ncashe-2026-11-18",
+      "game": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs",
+      "start": "2026-11-18T23:30:00Z",
+      "check_at": "2026-11-18T23:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($83, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-hou-ind-2026-11-18",
@@ -17,9 +27,9 @@
       "start": "2026-11-19T00:00:00Z",
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Rockets vs. Pacers: O/U 226.5 → Over ($153, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Rockets vs. Pacers: O/U 224.5 → Under ($1.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phi-orl-2026-11-18",
@@ -42,14 +52,24 @@
       "status": "fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-det-nop-2026-11-18",
+      "game": "Pistons vs. Pelicans",
+      "start": "2026-11-19T01:00:00Z",
+      "check_at": "2026-11-19T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Pistons (-6.5) → Pelicans ($143, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $143 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-bos-den-2026-11-18",
       "game": "Celtics vs. Nuggets",
       "start": "2026-11-19T02:30:00Z",
       "check_at": "2026-11-19T02:15:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Celtics (-3.5) → Nuggets ($390, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $390 (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Celtics vs. Nuggets: O/U 222.5 → Over ($4.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phx-sac-2026-11-18",
@@ -58,8 +78,28 @@
       "check_at": "2026-11-19T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Suns (-6.5) → Kings ($8.9k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Suns (-6.5) → Kings ($9.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-txs-sdst-2026-11-18",
+      "game": "Texas Southern Tigers vs. San Diego State Aztecs",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Texas Southern Tigers vs. San Diego State Aztecs: O/U 157.5 → Under ($543, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-unlv-aubrn-2026-11-18",
+      "game": "UNLV Runnin' Rebels vs. Auburn Tigers",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Auburn Tigers (-8.5) → UNLV Runnin' Rebels ($11, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
