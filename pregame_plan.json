@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:12:05Z",
+  "updated": "2026-11-18T23:10:54Z",
   "games": [
     {
       "event_slug": "cbb-det-emich-2026-11-18",
@@ -18,8 +18,18 @@
       "check_at": "2026-11-18T23:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($83, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($82, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $82 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-akron-umass-2026-11-18",
+      "game": "Akron vs. UMass",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 6,
+      "best": "Akron vs. UMass: O/U 45.5 → Under ($15.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15.1k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phi-orl-2026-11-18",
@@ -28,8 +38,8 @@
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "76ers vs. Magic: O/U 221.5 → Under ($14.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "76ers vs. Magic → 76ers ($6.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-hou-ind-2026-11-18",
@@ -37,7 +47,7 @@
       "start": "2026-11-19T00:00:00Z",
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Rockets vs. Pacers: O/U 224.5 → Under ($1.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -52,14 +62,14 @@
       "status": "fails: only 1 vetted wallet with $731 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "cfb-cmich-buf-2026-11-18",
-      "game": "Central Michigan vs. Buffalo",
+      "event_slug": "nba-chi-bkn-2026-11-18",
+      "game": "Bulls vs. Nets",
       "start": "2026-11-19T00:30:00Z",
       "check_at": "2026-11-19T00:15:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Buffalo (-2.5) → Buffalo ($1.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Spread: Nets (-2.5) → Nets ($966, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $966 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-was-tor-2026-11-18",
@@ -68,38 +78,28 @@
       "check_at": "2026-11-19T00:15:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Wizards vs. Raptors → Raptors ($1.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wizards vs. Raptors → Raptors ($2.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $2.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-chi-bkn-2026-11-18",
-      "game": "Bulls vs. Nets",
+      "event_slug": "cfb-cmich-buf-2026-11-18",
+      "game": "Central Michigan vs. Buffalo",
       "start": "2026-11-19T00:30:00Z",
       "check_at": "2026-11-19T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Nets (-2.5) → Nets ($987, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $987 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Buffalo (-2.5) → Buffalo ($1.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
-      "event_slug": "nba-gsw-dal-2026-11-18",
-      "game": "Warriors vs. Mavericks",
+      "event_slug": "nba-atl-okc-2026-11-18",
+      "game": "Hawks vs. Thunder",
       "start": "2026-11-19T01:00:00Z",
       "check_at": "2026-11-19T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Warriors vs. Mavericks: O/U 222.5 → Under ($6.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-det-nop-2026-11-18",
-      "game": "Pistons vs. Pelicans",
-      "start": "2026-11-19T01:00:00Z",
-      "check_at": "2026-11-19T00:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Pistons vs. Pelicans → Pistons ($1.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $1.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Thunder (-6.5) → Thunder ($3.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-wichst-loych-2026-11-18",
@@ -112,24 +112,24 @@
       "status": "fails: only 1 vetted wallet with $182 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-gsw-dal-2026-11-18",
+      "game": "Warriors vs. Mavericks",
+      "start": "2026-11-19T01:00:00Z",
+      "check_at": "2026-11-19T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Warriors vs. Mavericks: O/U 222.5 → Under ($6.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-bos-den-2026-11-18",
       "game": "Celtics vs. Nuggets",
       "start": "2026-11-19T02:30:00Z",
       "check_at": "2026-11-19T02:15:00Z",
       "passing": 0,
       "near": 4,
-      "best": "Celtics vs. Nuggets: O/U 220.5 → Under ($15.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nba-uta-lal-2026-11-18",
-      "game": "Jazz vs. Lakers",
-      "start": "2026-11-19T03:00:00Z",
-      "check_at": "2026-11-19T02:45:00Z",
-      "passing": 0,
-      "near": 4,
-      "best": "Spread: Lakers (-11.5) → Lakers ($49.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $49.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Celtics vs. Nuggets: O/U 220.5 → Under ($16.2k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $16.2k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phx-sac-2026-11-18",
@@ -140,6 +140,16 @@
       "near": 3,
       "best": "Spread: Suns (-6.5) → Kings ($21.4k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $21.4k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-uta-lal-2026-11-18",
+      "game": "Jazz vs. Lakers",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 4,
+      "best": "Spread: Lakers (-11.5) → Lakers ($49.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $49.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-txs-sdst-2026-11-18",
