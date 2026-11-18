@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T19:11:40Z",
+  "updated": "2026-11-18T20:10:43Z",
   "games": [
     {
       "event_slug": "cbb-det-emich-2026-11-18",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-18T23:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($81, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $81 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($83, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $83 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phi-orl-2026-11-18",
@@ -37,7 +37,7 @@
       "start": "2026-11-19T00:00:00Z",
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Rockets vs. Pacers: O/U 224.5 → Under ($1.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -50,6 +50,16 @@
       "near": 1,
       "best": "Spread: Heat (-11.5) → Heat ($717, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $717 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-cmich-buf-2026-11-18",
+      "game": "Central Michigan vs. Buffalo",
+      "start": "2026-11-19T00:30:00Z",
+      "check_at": "2026-11-19T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Buffalo (-2.5) → Buffalo ($1.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-was-tor-2026-11-18",
@@ -97,9 +107,9 @@
       "start": "2026-11-19T02:30:00Z",
       "check_at": "2026-11-19T02:15:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Celtics vs. Nuggets → Nuggets ($11.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 4,
+      "best": "Celtics vs. Nuggets → Nuggets ($15.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-phx-sac-2026-11-18",
