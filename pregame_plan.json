@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T12:13:25Z",
+  "updated": "2026-11-18T13:16:30Z",
   "games": [
     {
       "event_slug": "cbb-wichst-loych-2026-11-18",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-19T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers ($184, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers ($186, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }

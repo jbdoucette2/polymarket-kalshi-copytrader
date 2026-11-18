@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 18, 12:13 PM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Wed Nov 18, 1:16 PM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -190,6 +190,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:16 PM | hourly | Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers | keeptheblueflagflyinghigh $186 | $0 | 49¢ YES | fails: only 1 vetted wallet with $186 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 12:13 PM | hourly | Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers | keeptheblueflagflyinghigh $184 | $0 | 49¢ YES | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 11:12 AM | hourly | Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers | keeptheblueflagflyinghigh $184 | $0 | 49¢ YES | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 10:13 AM | hourly | Wichita State Shockers vs. Loyola Chicago Ramblers → Loyola Chicago Ramblers | keeptheblueflagflyinghigh $184 | $0 | 49¢ YES | fails: only 1 vetted wallet with $184 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -215,6 +216,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:16 PM | hourly | Spread: Pistons (-7.5) → Pelicans | monkeymashingkeyboard $3.6k | $0 | — | fails: only 1 vetted wallet with $3.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Wed Nov 18, 12:13 PM | hourly | Spread: Pistons (-7.5) → Pelicans | monkeymashingkeyboard $3.6k | $0 | — | fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Wed Nov 18, 11:12 AM | hourly | Spread: Pistons (-7.5) → Pelicans | monkeymashingkeyboard $3.5k | $0 | 52¢ NO | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 10:13 AM | hourly | Spread: Pistons (-7.5) → Pelicans | monkeymashingkeyboard $3.5k | $0 | — | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -228,6 +230,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:16 PM | hourly | Spread: Suns (-6.5) → Kings | monkeymashingkeyboard $8.9k | $0 | — | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Wed Nov 18, 12:13 PM | hourly | Spread: Suns (-6.5) → Kings | monkeymashingkeyboard $7.4k | $0 | — | fails: only 1 vetted wallet with $7.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 | Wed Nov 18, 11:12 AM | hourly | Spread: Suns (-6.5) → Kings | monkeymashingkeyboard $2.0k | $0 | 51¢ NO | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 10:13 AM | hourly | Spread: Suns (-6.5) → Kings | monkeymashingkeyboard $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -242,6 +245,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:16 PM | hourly | 76ers vs. Magic: O/U 223.5 → Over | keeptheblueflagflyinghigh $871 | $0 | — | fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 18, 12:13 PM | hourly | 76ers vs. Magic: O/U 223.5 → Over | keeptheblueflagflyinghigh $853 | $0 | — | fails: only 1 vetted wallet with $853 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 18, 11:12 AM | hourly | 76ers vs. Magic: O/U 223.5 → Over | keeptheblueflagflyinghigh $853 | $0 | 47¢ YES | fails: only 1 vetted wallet with $853 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 10:13 AM | hourly | 76ers vs. Magic: O/U 223.5 → Over | keeptheblueflagflyinghigh $853 | $0 | — | fails: only 1 vetted wallet with $853 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -261,6 +265,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:16 PM | hourly | Rockets vs. Pacers: O/U 226.5 → Over | keeptheblueflagflyinghigh $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 18, 12:13 PM | hourly | Rockets vs. Pacers: O/U 226.5 → Over | keeptheblueflagflyinghigh $153 | $0 | — | fails: only 1 vetted wallet with $153 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 18, 11:12 AM | hourly | Rockets vs. Pacers: O/U 226.5 → Over | keeptheblueflagflyinghigh $166 | $0 | 47¢ YES | fails: only 1 vetted wallet with $166 (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 10:13 AM | hourly | Rockets vs. Pacers: O/U 226.5 → Over | keeptheblueflagflyinghigh $156 | $0 | — | fails: only 1 vetted wallet with $156 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
@@ -1046,19 +1051,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 16, 3:15 PM | hourly | Estonia vs. Bulgaria: O/U 2.5 → Under | keeptheblueflagflyinghigh $8.8k | $0 | 61¢ NO | fails: only 1 vetted wallet with $8.8k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 2:15 PM | hourly | Estonia vs. Bulgaria: O/U 2.5 → Under | keeptheblueflagflyinghigh $8.8k | $0 | 61¢ NO | fails: only 1 vetted wallet with $8.8k (needs 3+ wallets, or 2 with $5.0k+) |
 
-### ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe · starts Mon Nov 16, 1:00 PM
-
-- Mon Nov 16, 7:13 AM (hourly): ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe: first seen: 1 vetted on Carlos Alcaraz ($25.3k), fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 12:13 PM | pregame | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.1k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 11:11 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $24.8k | $0 | 89¢ YES | fails: only 1 vetted wallet with $24.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 10:10 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 9:11 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 8:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 7:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -1070,11 +1062,11 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 4-0 (1 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 7-8 | benched |
 | Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 65-87 (8 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 42-47 (1 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 42-47 (2 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 22-18 (2 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 311-219 (13 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 311-219 (14 pending) | benched |
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 4-2 | released Tue Nov 17, 4:13 AM: shadow picks won 80% of 5 games at an average price of 50¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
