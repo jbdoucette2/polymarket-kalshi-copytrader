@@ -1,6 +1,76 @@
 {
-  "updated": "2026-11-18T16:15:03Z",
+  "updated": "2026-11-18T17:13:02Z",
   "games": [
+    {
+      "event_slug": "cbb-det-emich-2026-11-18",
+      "game": "Detroit Titans vs. Eastern Michigan Eagles",
+      "start": "2026-11-18T23:30:00Z",
+      "check_at": "2026-11-18T23:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Detroit Titans vs. Eastern Michigan Eagles: O/U 141.5 → Over ($215, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $215 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-tentch-ncashe-2026-11-18",
+      "game": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs",
+      "start": "2026-11-18T23:30:00Z",
+      "check_at": "2026-11-18T23:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Tennessee Tech Golden Eagles vs. UNC Asheville Bulldogs: O/U 161.5 → Under ($84, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $84 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phi-orl-2026-11-18",
+      "game": "76ers vs. Magic",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "76ers vs. Magic: O/U 221.5 → Under ($14.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $14.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-hou-ind-2026-11-18",
+      "game": "Rockets vs. Pacers",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Rockets vs. Pacers: O/U 224.5 → Under ($1.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-mil-mia-2026-11-18",
+      "game": "Bucks vs. Heat",
+      "start": "2026-11-19T00:00:00Z",
+      "check_at": "2026-11-18T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Heat (-11.5) → Heat ($717, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $717 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-was-tor-2026-11-18",
+      "game": "Wizards vs. Raptors",
+      "start": "2026-11-19T00:30:00Z",
+      "check_at": "2026-11-19T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Wizards vs. Raptors: O/U 227.5 → Over ($417, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $417 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-det-nop-2026-11-18",
+      "game": "Pistons vs. Pelicans",
+      "start": "2026-11-19T01:00:00Z",
+      "check_at": "2026-11-19T00:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Pistons (-6.5) → Pelicans ($6.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $6.7k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cbb-wichst-loych-2026-11-18",
       "game": "Wichita State Shockers vs. Loyola Chicago Ramblers",
@@ -17,9 +87,39 @@
       "start": "2026-11-19T02:30:00Z",
       "check_at": "2026-11-19T02:15:00Z",
       "passing": 0,
+      "near": 3,
+      "best": "Celtics vs. Nuggets → Nuggets ($7.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $7.5k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-phx-sac-2026-11-18",
+      "game": "Suns vs. Kings",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Suns (-6.5) → Kings ($21.8k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $21.8k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-txs-sdst-2026-11-18",
+      "game": "Texas Southern Tigers vs. San Diego State Aztecs",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
       "near": 1,
-      "best": "Celtics vs. Nuggets → Nuggets ($4.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $4.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Texas Southern Tigers vs. San Diego State Aztecs: O/U 157.5 → Under ($543, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-unlv-aubrn-2026-11-18",
+      "game": "UNLV Runnin' Rebels vs. Auburn Tigers",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Auburn Tigers (-8.5) → UNLV Runnin' Rebels ($11, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $11 (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
