@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 18, 12:12 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Wed Nov 18, 1:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -167,12 +167,12 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | BreakTheBank (benched) | 37 | 59% | 49¢ | +10 pts |
 | tradecraft (benched) | 19 | 68% | 61¢ | +8 pts |
 | monkeymashingkeyboard | 92 | 58% | 50¢ | +7 pts |
-| HomeRunHazard (benched) | 498 | 59% | 54¢ | +5 pts |
-| Flaznorp (benched) | 814 | 60% | 55¢ | +5 pts |
+| HomeRunHazard (benched) | 501 | 59% | 54¢ | +5 pts |
+| Flaznorp (benched) | 815 | 60% | 55¢ | +5 pts |
 | gmpm2 (benched) | 40 | 57% | 54¢ | +4 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 61 | 54% | 53¢ | +1 pts |
-| RN1 (benched) | 124 | 52% | 51¢ | +0 pts |
+| RN1 (benched) | 125 | 51% | 51¢ | +0 pts |
 | primm | 64 | 50% | 51¢ | -1 pts |
 | keeptheblueflagflyinghigh | 234 | 53% | 54¢ | -1 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
@@ -186,6 +186,8 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Hornets vs. Lakers · starts Wed Nov 18, 4:00 AM
 
+- Wed Nov 18, 1:09 AM (hourly): Hornets vs. Lakers: monkeymashingkeyboard added $7.5k on Hornets
+- Wed Nov 18, 1:09 AM (hourly): Spread: Lakers (-7.5): Kalshi matched at 53¢
 - Wed Nov 18, 12:12 AM (hourly): Hornets vs. Lakers: monkeymashingkeyboard added $3.4k on Hornets
 - Wed Nov 18, 12:12 AM (hourly): Spread: Lakers (-7.5): monkeymashingkeyboard added $1.1k on Hornets
 - Tue Nov 17, 11:10 PM (hourly): Spread: Lakers (-8.5): Kalshi 56¢ → 57¢
@@ -209,6 +211,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 1:09 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $3.5k | $0 | 60¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 51c |
+| Wed Nov 18, 1:09 AM | hourly | Hornets vs. Lakers → Hornets | monkeymashingkeyboard $23.5k | $0 | 28¢ YES | fails: only 1 vetted wallet with $23.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 18, 1:09 AM | hourly | Spread: Lakers (-8.5) → Hornets | monkeymashingkeyboard $118 | $0 | 57¢ NO | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Wed Nov 18, 1:09 AM | hourly | Spread: Lakers (-7.5) → Hornets | monkeymashingkeyboard $5.7k | $0 | 53¢ NO | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 12:12 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $3.5k | $0 | — | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
 | Wed Nov 18, 12:12 AM | hourly | Hornets vs. Lakers → Hornets | monkeymashingkeyboard $16.0k | $0 | 28¢ YES | fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 12:12 AM | hourly | Spread: Lakers (-7.5) → Hornets | monkeymashingkeyboard $5.6k | $0 | — | fails: only 1 vetted wallet with $5.6k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
@@ -1073,105 +1079,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Sun Nov 15, 9:10 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.1k | $0 | 52¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Sun Nov 15, 8:10 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Flames vs. Ducks · starts Mon Nov 16, 1:00 AM
-
-- Sun Nov 15, 11:13 PM (hourly): Flames vs. Ducks: first seen: 1 vetted on Flames ($4.1k), fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 12:13 AM | pregame | Flames vs. Ducks → Flames | keeptheblueflagflyinghigh $4.1k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Flames vs. Ducks → Flames | keeptheblueflagflyinghigh $4.1k | $0 | 43¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Hawks vs. Bucks · starts Mon Nov 16, 1:00 AM
-
-- Mon Nov 16, 12:13 AM (pregame): Hawks vs. Bucks: O/U 233.5: keeptheblueflagflyinghigh added $7.5k on Over
-- Sun Nov 15, 11:13 PM (hourly): Hawks vs. Bucks: O/U 232.5: all vetted wallets left Over
-- Sun Nov 15, 11:13 PM (hourly): Spread: Hawks (-8.5): first seen: 1 vetted on Hawks ($1.1k), fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 11:13 PM (hourly): Hawks vs. Bucks: Kalshi 27¢ → 26¢
-- Sun Nov 15, 11:13 PM (hourly): Hawks vs. Bucks: O/U 233.5: now fails: only 1 vetted wallet with $7.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 11:13 PM (hourly): Hawks vs. Bucks: O/U 233.5: monkeymashingkeyboard left
-- Sun Nov 15, 11:13 PM (hourly): Spread: Hawks (-7.5): Kalshi 53¢ → 55¢
-- Sun Nov 15, 10:12 PM (hourly): Hawks vs. Bucks: O/U 235.5: Kalshi 57¢ → 56¢
-- Sun Nov 15, 10:12 PM (hourly): Hawks vs. Bucks: first seen: 1 vetted on Bucks ($5.2k), fails: only 1 vetted wallet with $5.2k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 10:12 PM (hourly): Spread: Hawks (-7.5): Kalshi 54¢ → 53¢
-- Sun Nov 15, 6:11 PM (hourly): Hawks vs. Bucks: O/U 235.5: Kalshi 55¢ → 57¢
-- Sun Nov 15, 6:11 PM (hourly): Hawks vs. Bucks: O/U 233.5: Kalshi 51¢ → 50¢
-- Sun Nov 15, 6:11 PM (hourly): Spread: Hawks (-7.5): Kalshi 53¢ → 54¢
-- Sun Nov 15, 5:11 PM (hourly): Hawks vs. Bucks: O/U 235.5: first seen: 1 vetted on Under ($524), fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 5:11 PM (hourly): Hawks vs. Bucks: O/U 233.5: Kalshi 53¢ → 51¢
-- Sun Nov 15, 5:11 PM (hourly): Hawks vs. Bucks: O/U 233.5: monkeymashingkeyboard added $8.9k on Over
-- Sun Nov 15, 4:10 PM (hourly): Spread: Hawks (-7.5): first seen: 1 vetted on Hawks ($2.0k), fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 4:10 PM (hourly): Hawks vs. Bucks: O/U 233.5: now passes
-- Sun Nov 15, 4:10 PM (hourly): Hawks vs. Bucks: O/U 233.5: keeptheblueflagflyinghigh joined Over (+$7.6k)
-- Sun Nov 15, 12:10 PM (hourly): Hawks vs. Bucks: O/U 233.5: first seen: 1 vetted on Over ($6.4k), fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 12:13 AM | pregame | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | — | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Mon Nov 16, 12:13 AM | pregame | Spread: Hawks (-8.5) → Hawks | keeptheblueflagflyinghigh $1.1k | $0 | — | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 16, 12:13 AM | pregame | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | — | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 16, 12:13 AM | pregame | Hawks vs. Bucks → Bucks | keeptheblueflagflyinghigh $6.8k | $0 | 26¢ YES | fails: only 1 vetted wallet with $6.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 12:13 AM | pregame | Hawks vs. Bucks: O/U 233.5 → Over | keeptheblueflagflyinghigh $14.7k | $0 | — | fails: only 1 vetted wallet with $14.7k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 15, 11:13 PM | hourly | Hawks vs. Bucks: O/U 232.5 → Over | none | $0 | — | fails: no vetted wallets hold it now |
-| Sun Nov 15, 11:13 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | 56¢ NO | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Spread: Hawks (-8.5) → Hawks | keeptheblueflagflyinghigh $1.1k | $0 | 51¢ YES | fails: only 1 vetted wallet with $1.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Hawks vs. Bucks → Bucks | keeptheblueflagflyinghigh $5.7k | $0 | 26¢ YES | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | keeptheblueflagflyinghigh $7.2k | $0 | 50¢ YES | fails: only 1 vetted wallet with $7.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 55¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $922 | $0 | 56¢ NO | fails: only 1 vetted wallet with $922 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Hawks vs. Bucks → Bucks | keeptheblueflagflyinghigh $5.2k | $0 | 27¢ YES | fails: only 1 vetted wallet with $5.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $14.6k, keeptheblueflagflyinghigh $7.0k | $0 | 50¢ YES | passes |
-| Sun Nov 15, 10:12 PM | hourly | Hawks vs. Bucks: O/U 232.5 → Over | monkeymashingkeyboard $20.6k | $0 | — | fails: only 1 vetted wallet with $20.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 232.5 line |
-| Sun Nov 15, 10:12 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | 57¢ NO | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $14.6k, keeptheblueflagflyinghigh $7.0k | $0 | 50¢ YES | passes |
-| Sun Nov 15, 9:10 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | 57¢ NO | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $14.6k, keeptheblueflagflyinghigh $7.0k | $0 | 50¢ YES | passes |
-| Sun Nov 15, 8:10 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:10 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | 57¢ NO | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $14.6k, keeptheblueflagflyinghigh $7.0k | $0 | 50¢ YES | passes |
-| Sun Nov 15, 7:10 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $938 | $0 | 57¢ NO | fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $14.6k, keeptheblueflagflyinghigh $7.0k | $0 | 50¢ YES | passes |
-| Sun Nov 15, 6:11 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 54¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Hawks vs. Bucks: O/U 235.5 → Under | keeptheblueflagflyinghigh $524 | $0 | 55¢ NO | fails: only 1 vetted wallet with $524 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $15.4k, keeptheblueflagflyinghigh $7.5k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 4:10 PM | hourly | Spread: Hawks (-7.5) → Hawks | keeptheblueflagflyinghigh $2.0k | $0 | 53¢ YES | fails: only 1 vetted wallet with $2.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 4:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | keeptheblueflagflyinghigh $7.6k, monkeymashingkeyboard $6.6k | $0 | 53¢ YES | passes |
-| Sun Nov 15, 3:11 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $6.6k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 2:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $6.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 1:11 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $6.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 12:10 PM | hourly | Hawks vs. Bucks: O/U 233.5 → Over | monkeymashingkeyboard $6.4k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Oilers vs. Flyers · starts Mon Nov 16, 12:30 AM
-
-- Mon Nov 16, 12:13 AM (pregame): Oilers vs. Flyers: Kalshi 43¢ → 44¢
-- Sun Nov 15, 10:12 PM (hourly): Spread: Oilers (-1.5): first seen: 1 vetted on Flyers ($7.0k), fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 10:12 PM (hourly): Oilers vs. Flyers: first seen: 1 vetted on Flyers ($10.6k), fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 12:13 AM | pregame | Spread: Oilers (-1.5) → Flyers | keeptheblueflagflyinghigh $7.1k | $0 | — | fails: only 1 vetted wallet with $7.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 16, 12:13 AM | pregame | Oilers vs. Flyers → Flyers | keeptheblueflagflyinghigh $10.8k | $0 | 44¢ YES | fails: only 1 vetted wallet with $10.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Spread: Oilers (-1.5) → Flyers | keeptheblueflagflyinghigh $7.0k | $0 | 66¢ NO | fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Oilers vs. Flyers → Flyers | keeptheblueflagflyinghigh $10.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Spread: Oilers (-1.5) → Flyers | keeptheblueflagflyinghigh $7.0k | $0 | 66¢ NO | fails: only 1 vetted wallet with $7.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Oilers vs. Flyers → Flyers | keeptheblueflagflyinghigh $10.6k | $0 | 43¢ YES | fails: only 1 vetted wallet with $10.6k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Panthers vs. Stars · starts Mon Nov 16, 1:00 AM
-
-- Sun Nov 15, 10:12 PM (hourly): Panthers vs. Stars: Kalshi 45¢ → 46¢
-- Sun Nov 15, 9:10 PM (hourly): Panthers vs. Stars: first seen: 1 vetted on Panthers ($24.9k), fails: only 1 vetted wallet with $24.9k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 12:13 AM | pregame | Panthers vs. Stars → Panthers | keeptheblueflagflyinghigh $25.4k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Panthers vs. Stars → Panthers | keeptheblueflagflyinghigh $25.4k | $0 | 46¢ YES | fails: only 1 vetted wallet with $25.4k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Panthers vs. Stars → Panthers | keeptheblueflagflyinghigh $24.9k | $0 | 46¢ YES | fails: only 1 vetted wallet with $24.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Panthers vs. Stars → Panthers | keeptheblueflagflyinghigh $24.9k | $0 | 45¢ YES | fails: only 1 vetted wallet with $24.9k (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -1182,12 +1089,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 4-0 (1 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 6-6 (2 pending) | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 62-77 (12 pending) | benched |
-| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 41-43 (4 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 62-78 (12 pending) | benched |
+| RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 41-44 (4 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 22-18 (1 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 294-204 (32 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 294-207 (30 pending) | benched |
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 4-2 | released Tue Nov 17, 4:13 AM: shadow picks won 80% of 5 games at an average price of 50¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |

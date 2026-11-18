@@ -1,25 +1,15 @@
 {
-  "updated": "2026-11-18T00:12:23Z",
+  "updated": "2026-11-18T01:09:59Z",
   "games": [
-    {
-      "event_slug": "nba-nyk-tor-2026-11-17",
-      "game": "Knicks vs. Raptors",
-      "start": "2026-11-18T00:30:00Z",
-      "check_at": "2026-11-18T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Knicks vs. Raptors → Raptors ($42.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $42.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nba-cha-lal-2026-11-17",
       "game": "Hornets vs. Lakers",
       "start": "2026-11-18T04:00:00Z",
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Hornets vs. Lakers → Hornets ($16.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $16.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Hornets vs. Lakers → Hornets ($23.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $23.5k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
