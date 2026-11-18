@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:09:59Z",
+  "updated": "2026-11-18T02:10:36Z",
   "games": [
     {
       "event_slug": "nba-cha-lal-2026-11-17",
@@ -7,7 +7,7 @@
       "start": "2026-11-18T04:00:00Z",
       "check_at": "2026-11-18T03:45:00Z",
       "passing": 0,
-      "near": 2,
+      "near": 1,
       "best": "Hornets vs. Lakers → Hornets ($23.5k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $23.5k (needs 3+ wallets, or 2 with $5.0k+)"
     }

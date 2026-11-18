@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Wed Nov 18, 1:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Wed Nov 18, 2:10 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -167,7 +167,7 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | BreakTheBank (benched) | 37 | 59% | 49¢ | +10 pts |
 | tradecraft (benched) | 19 | 68% | 61¢ | +8 pts |
 | monkeymashingkeyboard | 92 | 58% | 50¢ | +7 pts |
-| HomeRunHazard (benched) | 501 | 59% | 54¢ | +5 pts |
+| HomeRunHazard (benched) | 503 | 59% | 53¢ | +5 pts |
 | Flaznorp (benched) | 815 | 60% | 55¢ | +5 pts |
 | gmpm2 (benched) | 40 | 57% | 54¢ | +4 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
@@ -186,6 +186,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 ### Hornets vs. Lakers · starts Wed Nov 18, 4:00 AM
 
+- Wed Nov 18, 2:10 AM (hourly): Spread: Lakers (-7.5): Kalshi 53¢ → 54¢
 - Wed Nov 18, 1:09 AM (hourly): Hornets vs. Lakers: monkeymashingkeyboard added $7.5k on Hornets
 - Wed Nov 18, 1:09 AM (hourly): Spread: Lakers (-7.5): Kalshi matched at 53¢
 - Wed Nov 18, 12:12 AM (hourly): Hornets vs. Lakers: monkeymashingkeyboard added $3.4k on Hornets
@@ -211,6 +212,10 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Wed Nov 18, 2:10 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $3.6k | $0 | 60¢ YES | fails: only 1 vetted wallet with $3.6k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 51c |
+| Wed Nov 18, 2:10 AM | hourly | Hornets vs. Lakers → Hornets | monkeymashingkeyboard $23.5k | $0 | 28¢ YES | fails: only 1 vetted wallet with $23.5k (needs 3+ wallets, or 2 with $5.0k+) |
+| Wed Nov 18, 2:10 AM | hourly | Spread: Lakers (-8.5) → Hornets | monkeymashingkeyboard $120 | $0 | 57¢ NO | fails: only 1 vetted wallet with $120 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
+| Wed Nov 18, 2:10 AM | hourly | Spread: Lakers (-7.5) → Hornets | monkeymashingkeyboard $5.7k | $0 | 54¢ NO | fails: only 1 vetted wallet with $5.7k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 51c |
 | Wed Nov 18, 1:09 AM | hourly | Hornets vs. Lakers: O/U 218.5 → Over | monkeymashingkeyboard $3.5k | $0 | 60¢ YES | fails: only 1 vetted wallet with $3.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 60c vs leaders 51c |
 | Wed Nov 18, 1:09 AM | hourly | Hornets vs. Lakers → Hornets | monkeymashingkeyboard $23.5k | $0 | 28¢ YES | fails: only 1 vetted wallet with $23.5k (needs 3+ wallets, or 2 with $5.0k+) |
 | Wed Nov 18, 1:09 AM | hourly | Spread: Lakers (-8.5) → Hornets | monkeymashingkeyboard $118 | $0 | 57¢ NO | fails: only 1 vetted wallet with $118 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 57c vs leaders 54c |
@@ -953,132 +958,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Mon Nov 16, 8:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Mon Nov 16, 7:13 AM | hourly | ATP World Tour Finals, Ivan Lendl Group: Carlos Alcaraz vs Frances Tiafoe → Carlos Alcaraz | keeptheblueflagflyinghigh $25.3k | $0 | 89¢ YES | fails: only 1 vetted wallet with $25.3k (needs 3+ wallets, or 2 with $5.0k+) |
 
-### Steelers vs. Bengals · starts Mon Nov 16, 1:20 AM
-
-- Mon Nov 16, 1:10 AM (pregame): Steelers vs. Bengals: Kalshi 65¢ → 67¢
-- Mon Nov 16, 1:10 AM (pregame): Steelers vs. Bengals: gmpm2 added $27.9k on Bengals
-- Mon Nov 16, 1:10 AM (pregame): Steelers vs. Bengals: O/U 48.5: Kalshi matched at 53¢
-- Mon Nov 16, 1:10 AM (pregame): Spread: Bengals (-3.5): now passes
-- Mon Nov 16, 1:10 AM (pregame): Spread: Bengals (-3.5): Kalshi matched at 53¢
-- Mon Nov 16, 1:10 AM (pregame): Spread: Bengals (-3.5): gmpm2 cut $20.9k on Bengals
-- Mon Nov 16, 1:10 AM (pregame): Spread: Bengals (-3.5): keeptheblueflagflyinghigh joined Bengals (+$29.9k)
-- Mon Nov 16, 12:13 AM (hourly): Spread: Bengals (-3.5): gmpm2 added $8.9k on Bengals
-- Mon Nov 16, 12:13 AM (hourly): Steelers vs. Bengals: Kalshi 36¢ → 65¢
-- Mon Nov 16, 12:13 AM (hourly): Steelers vs. Bengals: majority flipped to Bengals ($27.6k vs $18.3k)
-- Sun Nov 15, 11:13 PM (hourly): Spread: Bengals (-3.5): now fails: only 1 vetted wallet with $23.1k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 11:13 PM (hourly): Spread: Bengals (-3.5): monkeymashingkeyboard left
-- Sun Nov 15, 10:12 PM (hourly): Steelers vs. Bengals: now fails: only 1 vetted wallet with $18.8k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 10:12 PM (hourly): Steelers vs. Bengals: tradecraft left
-- Sun Nov 15, 8:10 PM (hourly): Steelers vs. Bengals: Kalshi 37¢ → 36¢
-- Sun Nov 15, 6:11 PM (hourly): Spread: Bengals (-3.5): now passes
-- Sun Nov 15, 6:11 PM (hourly): Spread: Bengals (-3.5): Kalshi 50¢ → 51¢
-- Sun Nov 15, 6:11 PM (hourly): Spread: Bengals (-3.5): gmpm2 joined Bengals (+$22.3k)
-- Sun Nov 15, 4:10 PM (hourly): Steelers vs. Bengals: O/U 48.5: first seen: 1 vetted on Over ($6.6k), fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 2:10 PM (hourly): Steelers vs. Bengals: first seen: 2 vetted on Steelers ($18.8k), passes
-- Sun Nov 15, 8:10 AM (hourly): Steelers vs. Bengals: O/U 50.5: Kalshi matched at 47¢
-- Sun Nov 15, 8:10 AM (hourly): Spread: Bengals (-3.5): Kalshi matched at 50¢
-- Sun Nov 15, 6:11 AM (hourly): Steelers vs. Bengals: O/U 50.5: Kalshi matched at 47¢
-- Sun Nov 15, 6:11 AM (hourly): Spread: Bengals (-3.5): Kalshi matched at 50¢
-- Sun Nov 15, 2:11 AM (hourly): Steelers vs. Bengals: O/U 50.5: first seen: 1 vetted on Over ($479), fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 2:11 AM (hourly): Spread: Bengals (-3.5): first seen: 1 vetted on Bengals ($15.2k), fails: only 1 vetted wallet with $15.2k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 1:10 AM | pregame | Steelers vs. Bengals → Bengals | gmpm2 $55.5k | $0 | 67¢ YES | fails: only 1 vetted wallet with $55.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 1:10 AM | pregame | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $163 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+); opposition 34% |
-| Mon Nov 16, 1:10 AM | pregame | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.5k | $0 | 53¢ YES | fails: only 1 vetted wallet with $6.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 1:10 AM | pregame | Spread: Bengals (-3.5) → Bengals | keeptheblueflagflyinghigh $29.9k, gmpm2 $11.1k | $0 | 53¢ YES | passes |
-| Mon Nov 16, 12:13 AM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $32.0k | $0 | — | fails: only 1 vetted wallet with $32.0k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 16, 12:13 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $469 | $0 | — | fails: only 1 vetted wallet with $469 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Mon Nov 16, 12:13 AM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.4k | $0 | — | fails: only 1 vetted wallet with $6.4k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Mon Nov 16, 12:13 AM | hourly | Steelers vs. Bengals → Bengals | gmpm2 $27.6k | $18.3k | 65¢ YES | fails: only 1 vetted wallet with $27.6k (needs 3+ wallets, or 2 with $5.0k+); opposition 66% |
-| Sun Nov 15, 11:13 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $23.1k | $0 | 51¢ YES | fails: only 1 vetted wallet with $23.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:13 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k | $0 | 36¢ YES | fails: only 1 vetted wallet with $18.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $23.6k, monkeymashingkeyboard $16.7k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 10:12 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k | $0 | 36¢ YES | fails: only 1 vetted wallet with $18.8k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $23.6k, monkeymashingkeyboard $16.7k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 9:10 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 36¢ YES | passes |
-| Sun Nov 15, 8:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $23.5k, monkeymashingkeyboard $16.7k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 8:10 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 36¢ YES | passes |
-| Sun Nov 15, 7:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:10 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $23.4k, monkeymashingkeyboard $16.7k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 7:10 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 6:11 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 PM | hourly | Spread: Bengals (-3.5) → Bengals | gmpm2 $22.3k, monkeymashingkeyboard $16.7k | $0 | 51¢ YES | passes |
-| Sun Nov 15, 6:11 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 5:11 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:11 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 4:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 4:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 4:10 PM | hourly | Steelers vs. Bengals: O/U 48.5 → Over | keeptheblueflagflyinghigh $6.6k | $0 | 54¢ YES | fails: only 1 vetted wallet with $6.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 4:10 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 3:11 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 3:11 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 3:11 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 2:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 2:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.7k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 2:10 PM | hourly | Steelers vs. Bengals → Steelers | keeptheblueflagflyinghigh $18.8k, tradecraft $12 | $0 | 37¢ YES | passes |
-| Sun Nov 15, 1:11 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 1:11 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.3k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 12:10 PM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 12:10 PM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.3k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 11:10 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $16.3k | $0 | 50¢ YES | fails: only 1 vetted wallet with $16.3k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:10 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.6k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:09 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:09 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.6k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.6k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.6k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 7:12 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | — | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 15, 7:12 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.5k | $0 | — | fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 15, 6:11 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 6:11 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.5k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 5:12 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | — | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 15, 5:12 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.5k | $0 | — | fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 15, 4:13 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | — | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi totals market |
-| Sun Nov 15, 4:13 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.5k | $0 | — | fails: only 1 vetted wallet with $15.5k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 15, 3:10 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 3:10 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.2k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.2k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 2:11 AM | hourly | Steelers vs. Bengals: O/U 50.5 → Over | primm $479 | $0 | 47¢ YES | fails: only 1 vetted wallet with $479 (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 2:11 AM | hourly | Spread: Bengals (-3.5) → Bengals | monkeymashingkeyboard $15.2k | $0 | 50¢ YES | fails: only 1 vetted wallet with $15.2k (needs 3+ wallets, or 2 with $5.0k+) |
-
-### Thunder vs. Kings · starts Mon Nov 16, 2:00 AM
-
-- Mon Nov 16, 1:10 AM (pregame): Spread: Thunder (-11.5): Kalshi matched at 46¢
-- Mon Nov 16, 1:10 AM (pregame): Spread: Thunder (-11.5): majority flipped to Kings ($1.0k vs $0)
-- Mon Nov 16, 1:10 AM (pregame): Thunder vs. Kings: Kalshi 81¢ → 84¢
-- Mon Nov 16, 1:10 AM (pregame): Spread: Thunder (-12.5): first seen: 1 vetted on Thunder ($8.9k), fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+)
-- Mon Nov 16, 12:13 AM (hourly): Thunder vs. Kings: first seen: 1 vetted on Thunder ($1.7k), fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+)
-- Sun Nov 15, 10:12 PM (hourly): Spread: Thunder (-10.5): Kalshi 52¢ → 53¢
-- Sun Nov 15, 8:10 PM (hourly): Spread: Thunder (-10.5): first seen: 1 vetted on Thunder ($4.0k), fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mon Nov 16, 1:10 AM | pregame | Spread: Thunder (-11.5) → Kings | keeptheblueflagflyinghigh $1.0k | $0 | 46¢ NO | fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 1:10 AM | pregame | Thunder vs. Kings → Thunder | keeptheblueflagflyinghigh $1.8k | $0 | 84¢ YES | fails: only 1 vetted wallet with $1.8k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 84c vs leaders 79c |
-| Mon Nov 16, 1:10 AM | pregame | Spread: Thunder (-12.5) → Thunder | keeptheblueflagflyinghigh $8.9k | $0 | 51¢ YES | fails: only 1 vetted wallet with $8.9k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 1:10 AM | pregame | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $10.0k | $0 | 58¢ YES | fails: only 1 vetted wallet with $10.0k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 58c vs leaders 54c |
-| Mon Nov 16, 12:13 AM | hourly | Spread: Thunder (-11.5) → Thunder | keeptheblueflagflyinghigh $15 | $0 | — | fails: only 1 vetted wallet with $15 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Mon Nov 16, 12:13 AM | hourly | Thunder vs. Kings → Thunder | keeptheblueflagflyinghigh $1.7k | $0 | 81¢ YES | fails: only 1 vetted wallet with $1.7k (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 12:13 AM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.1k | $0 | — | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
-| Sun Nov 15, 11:13 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.1k | $0 | 53¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 10:12 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.1k | $0 | 53¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 9:10 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.1k | $0 | 52¢ YES | fails: only 1 vetted wallet with $4.1k (needs 3+ wallets, or 2 with $5.0k+) |
-| Sun Nov 15, 8:10 PM | hourly | Spread: Thunder (-10.5) → Thunder | keeptheblueflagflyinghigh $4.0k | $0 | 52¢ YES | fails: only 1 vetted wallet with $4.0k (needs 3+ wallets, or 2 with $5.0k+) |
-
 
 ## Time-out
 
@@ -1089,12 +968,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 4-0 (1 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 6-6 (2 pending) | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 62-78 (12 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 62-78 (15 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 41-44 (4 pending) | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 22-18 (1 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 294-207 (30 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 296-207 (31 pending) | benched |
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 4-2 | released Tue Nov 17, 4:13 AM: shadow picks won 80% of 5 games at an average price of 50¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
