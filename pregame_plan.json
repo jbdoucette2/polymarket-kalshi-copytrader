@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:10:43Z",
+  "updated": "2026-11-18T21:11:10Z",
   "games": [
     {
       "event_slug": "cbb-det-emich-2026-11-18",
@@ -27,9 +27,9 @@
       "start": "2026-11-19T00:00:00Z",
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "76ers vs. Magic: O/U 221.5 → Under ($14.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $14.3k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "76ers vs. Magic: O/U 221.5 → Under ($14.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $14.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-hou-ind-2026-11-18",
@@ -37,7 +37,7 @@
       "start": "2026-11-19T00:00:00Z",
       "check_at": "2026-11-18T23:45:00Z",
       "passing": 0,
-      "near": 1,
+      "near": 2,
       "best": "Rockets vs. Pacers: O/U 224.5 → Under ($1.0k, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
@@ -122,14 +122,24 @@
       "status": "fails: only 1 vetted wallet with $21.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "nba-uta-lal-2026-11-18",
+      "game": "Jazz vs. Lakers",
+      "start": "2026-11-19T03:00:00Z",
+      "check_at": "2026-11-19T02:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Spread: Lakers (-10.5) → Jazz ($9.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $9.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "cbb-txs-sdst-2026-11-18",
       "game": "Texas Southern Tigers vs. San Diego State Aztecs",
       "start": "2026-11-19T03:00:00Z",
       "check_at": "2026-11-19T02:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Texas Southern Tigers vs. San Diego State Aztecs: O/U 157.5 → Under ($543, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $543 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Texas Southern Tigers vs. San Diego State Aztecs: O/U 157.5 → Under ($527, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $527 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-unlv-aubrn-2026-11-18",
