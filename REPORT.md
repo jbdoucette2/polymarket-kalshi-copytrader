@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 19, 5:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Thu Nov 19, 6:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -132,30 +132,30 @@ Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
 ## What's working
 
-Every market that passed the rules or missed by one, graded at its last check before the start (2372 settled so far, 90 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
+Every market that passed the rules or missed by one, graded at its last check before the start (2385 settled so far, 90 of them traded). Edge is win rate minus the average price; return is profit per $1 staked before fees. Groups under 5 picks are left out.
 
 | Group | Picks | Won | Avg price | Edge | Return |
 | --- | --- | --- | --- | --- | --- |
-| **all** | 2372 | 47% | 48¢ | -2 pts | -7% |
-| Rules: one rule away | 2237 | 47% | 48¢ | -2 pts | -7% |
+| **all** | 2385 | 47% | 48¢ | -2 pts | -7% |
+| Rules: one rule away | 2250 | 47% | 48¢ | -2 pts | -7% |
 | Rules: passed every rule | 135 | 50% | 52¢ | -1 pts | -7% |
-| Price: 40–60¢ | 968 | 48% | 49¢ | -1 pts | -3% |
+| Price: 40–60¢ | 979 | 47% | 49¢ | -1 pts | -3% |
 | Price: 60–80¢ | 406 | 70% | 69¢ | +0 pts | +0% |
 | Price: 80¢+ | 236 | 89% | 88¢ | +1 pts | +1% |
-| Price: under 40¢ | 762 | 20% | 24¢ | -4 pts | -18% |
-| Wallets on the pick: 1 wallet | 1981 | 46% | 48¢ | -2 pts | -8% |
+| Price: under 40¢ | 764 | 21% | 24¢ | -4 pts | -18% |
+| Wallets on the pick: 1 wallet | 1994 | 46% | 48¢ | -2 pts | -7% |
 | Wallets on the pick: 2 wallets | 313 | 49% | 50¢ | -1 pts | -6% |
 | Wallets on the pick: 3+ wallets | 78 | 56% | 50¢ | +6 pts | +12% |
-| Leader money: $20k+ | 124 | 57% | 57¢ | +1 pts | -0% |
-| Leader money: $5k–20k | 265 | 50% | 54¢ | -3 pts | -8% |
-| Leader money: under $5k | 1983 | 46% | 47¢ | -1 pts | -7% |
+| Leader money: $20k+ | 128 | 56% | 56¢ | -0 pts | -2% |
+| Leader money: $5k–20k | 267 | 51% | 54¢ | -3 pts | -7% |
+| Leader money: under $5k | 1990 | 46% | 47¢ | -1 pts | -7% |
 | Market type: draw | 111 | 51% | 55¢ | -3 pts | -20% |
-| Market type: moneyline | 374 | 49% | 52¢ | -3 pts | -10% |
+| Market type: moneyline | 378 | 49% | 52¢ | -3 pts | -9% |
 | Market type: soccer win/lose | 360 | 48% | 49¢ | -1 pts | -7% |
-| Market type: spread | 702 | 47% | 49¢ | -3 pts | -7% |
-| Market type: total | 825 | 44% | 45¢ | -0 pts | -3% |
-| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 100 | 34% | 38¢ | -4 pts | -12% |
-| Kalshi vs leaders' entry: price moved under 3¢ | 2127 | 47% | 49¢ | -2 pts | -7% |
+| Market type: spread | 707 | 47% | 49¢ | -3 pts | -7% |
+| Market type: total | 829 | 45% | 45¢ | -0 pts | -3% |
+| Kalshi vs leaders' entry: price fell 3¢+ since leaders bought | 102 | 34% | 38¢ | -4 pts | -12% |
+| Kalshi vs leaders' entry: price moved under 3¢ | 2138 | 47% | 49¢ | -2 pts | -7% |
 | Kalshi vs leaders' entry: price rose 3¢+ since leaders bought | 31 | 52% | 50¢ | +1 pts | +8% |
 
 Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
@@ -166,14 +166,14 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | 0x83720820 | 6 | 67% | 49¢ | +17 pts |
 | BreakTheBank (benched) | 40 | 57% | 49¢ | +8 pts |
 | tradecraft (benched) | 19 | 68% | 61¢ | +8 pts |
-| monkeymashingkeyboard | 101 | 56% | 50¢ | +6 pts |
-| HomeRunHazard (benched) | 554 | 59% | 53¢ | +6 pts |
-| Flaznorp (benched) | 842 | 59% | 55¢ | +5 pts |
+| monkeymashingkeyboard | 104 | 56% | 50¢ | +6 pts |
+| HomeRunHazard (benched) | 559 | 59% | 53¢ | +5 pts |
+| Flaznorp (benched) | 843 | 59% | 55¢ | +5 pts |
 | gmpm2 (benched) | 40 | 57% | 54¢ | +4 pts |
 | SnakeBall (benched) | 95 | 68% | 68¢ | +1 pts |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 (benched) | 66 | 55% | 54¢ | +1 pts |
 | RN1 (benched) | 134 | 51% | 51¢ | +0 pts |
-| keeptheblueflagflyinghigh | 246 | 53% | 54¢ | -0 pts |
+| keeptheblueflagflyinghigh | 249 | 53% | 54¢ | -0 pts |
 | primm | 66 | 48% | 50¢ | -2 pts |
 | ferrariChampions2026 | 120 | 48% | 53¢ | -5 pts |
 | takeormake (benched) | 25 | 36% | 45¢ | -9 pts |
@@ -185,15 +185,6 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 
 Games starting in the last 48 hours or later that had a market passing or one rule away. Newest first.
 
-### Charleston Cougars vs. Drake Bulldogs · starts Fri Nov 20, 12:30 AM
-
-- Thu Nov 19, 4:10 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: first seen: 1 vetted on Under ($67), fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Thu Nov 19, 5:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $66 | $0 | 49¢ NO | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
-| Thu Nov 19, 4:10 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 49¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
-
 ### Robert Morris Colonials vs. Toledo Rockets · starts Fri Nov 20, 12:00 AM
 
 - Thu Nov 19, 5:11 AM (hourly): Spread: Toledo Rockets (-7.5): Kalshi 49¢ → 48¢
@@ -201,8 +192,19 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 6:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $91 | $0 | 48¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 5:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $93 | $0 | 48¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 4:10 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $93 | $0 | 49¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
+
+### Charleston Cougars vs. Drake Bulldogs · starts Fri Nov 20, 12:30 AM
+
+- Thu Nov 19, 4:10 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: first seen: 1 vetted on Under ($67), fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 6:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $66 | $0 | 49¢ NO | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 19, 5:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $66 | $0 | 49¢ NO | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
+| Thu Nov 19, 4:10 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 49¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 
 ### Celtics vs. Nuggets · starts Thu Nov 19, 2:30 AM
 
@@ -1050,21 +1052,6 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Tue Nov 17, 5:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); Kalshi has no 10.5 spread line |
 | Tue Nov 17, 4:13 AM | hourly | Spread: Dayton Flyers (-10.5) → Central Michigan Chippewas | keeptheblueflagflyinghigh $570 | $0 | — | fails: only 1 vetted wallet with $570 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi spread market |
 
-### Sydney: Dane Sweeny vs Christian Langmo · starts Tue Nov 17, 5:15 AM
-
-- Tue Nov 17, 5:13 AM (hourly): Sydney: Dane Sweeny vs Christian Langmo: Kalshi matched at 29¢
-- Tue Nov 17, 12:11 AM (hourly): Sydney: Dane Sweeny vs Christian Langmo: Kalshi matched at 29¢
-
-| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tue Nov 17, 5:13 AM | hourly | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $300 | $0 | 29¢ YES | fails: only 1 vetted wallet with $300 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 4:13 AM | pregame | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $300 | $0 | — | fails: only 1 vetted wallet with $300 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 17, 3:12 AM | pregame | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $300 | $0 | — | fails: only 1 vetted wallet with $300 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 17, 2:12 AM | hourly | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $311 | $0 | — | fails: only 1 vetted wallet with $311 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-| Tue Nov 17, 1:10 AM | hourly | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $311 | $0 | 29¢ YES | fails: only 1 vetted wallet with $311 (needs 3+ wallets, or 2 with $5.0k+) |
-| Tue Nov 17, 12:11 AM | hourly | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $289 | $0 | 29¢ YES | fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+) |
-| Mon Nov 16, 11:13 PM | hourly | Sydney: Dane Sweeny vs Christian Langmo → Christian Langmo | keeptheblueflagflyinghigh $289 | $0 | — | fails: only 1 vetted wallet with $289 (needs 3+ wallets, or 2 with $5.0k+); no Kalshi game found |
-
 
 ## Time-out
 
@@ -1075,12 +1062,12 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
 | tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 4-0 (3 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 7-8 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 72-95 (8 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 73-95 (7 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 45-49 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 25-20 (1 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
-| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 327-227 (20 pending) | benched |
+| HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 329-230 (15 pending) | benched |
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 4-2 | released Tue Nov 17, 4:13 AM: shadow picks won 80% of 5 games at an average price of 50¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |

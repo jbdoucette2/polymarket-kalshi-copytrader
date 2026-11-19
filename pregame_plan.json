@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T05:11:05Z",
+  "updated": "2026-11-19T06:11:14Z",
   "games": [
     {
       "event_slug": "cbb-robms-toledo-2026-11-19",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($93, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($91, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-char-drake-2026-11-19",
