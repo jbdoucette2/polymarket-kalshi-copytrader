@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T17:14:03Z",
+  "updated": "2026-11-19T18:14:06Z",
   "games": [
     {
       "event_slug": "nhl-lak-tor-2026-11-19",
@@ -8,8 +8,18 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Kings vs. Maple Leafs → Maple Leafs ($11.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Kings vs. Maple Leafs → Maple Leafs ($12.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12.0k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-gsw-mem-2026-11-19",
+      "game": "Warriors vs. Grizzlies",
+      "start": "2026-11-20T01:00:00Z",
+      "check_at": "2026-11-20T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Grizzlies (-6.5) → Grizzlies ($13.4k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-nyk-min-2026-11-19",
@@ -17,9 +27,9 @@
       "start": "2026-11-20T01:00:00Z",
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
-      "near": 1,
-      "best": "Knicks vs. Timberwolves → Timberwolves ($22.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $22.5k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 2,
+      "best": "Knicks vs. Timberwolves → Timberwolves ($23.7k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $23.7k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-rutger-unlv-2026-11-19",
