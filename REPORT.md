@@ -1,6 +1,6 @@
 # Copy-trade sim (paper)
 
-Updated Thu Nov 19, 10:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
+Updated Thu Nov 19, 11:11 AM. Bankroll **$75.55** (start $100): $75.55 cash + open trades at cost.
 
 Record: 64 won, 48 lost, 11 sold early. Realized P&L $-24.45. Open: 0.
 
@@ -164,8 +164,8 @@ Wallets with 5+ graded pre-game picks ($500+, one per game), best edge first:
 | --- | --- | --- | --- | --- |
 | ndb1 | 5 | 60% | 43¢ | +17 pts |
 | 0x83720820 | 6 | 67% | 49¢ | +17 pts |
+| tradecraft | 20 | 70% | 61¢ | +9 pts |
 | BreakTheBank (benched) | 40 | 57% | 49¢ | +8 pts |
-| tradecraft (benched) | 19 | 68% | 61¢ | +8 pts |
 | monkeymashingkeyboard | 104 | 56% | 50¢ | +6 pts |
 | HomeRunHazard (benched) | 568 | 58% | 53¢ | +5 pts |
 | Flaznorp (benched) | 844 | 59% | 55¢ | +5 pts |
@@ -194,6 +194,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 11:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $91 | $0 | 47¢ YES | fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 10:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $92 | $0 | 47¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 9:12 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $92 | $0 | 54¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 49c |
 | Thu Nov 19, 8:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $92 | $0 | 54¢ YES | fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+); Kalshi 54c vs leaders 49c |
@@ -202,8 +203,17 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 19, 5:11 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $93 | $0 | 48¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 4:10 AM | hourly | Spread: Toledo Rockets (-7.5) → Toledo Rockets | keeptheblueflagflyinghigh $93 | $0 | 49¢ YES | fails: only 1 vetted wallet with $93 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Clippers vs. Spurs · starts Fri Nov 20, 1:00 AM
+
+- Thu Nov 19, 11:11 AM (hourly): Clippers vs. Spurs: O/U 225.5: first seen: 1 vetted on Under ($959), fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 11:11 AM | hourly | Clippers vs. Spurs: O/U 225.5 → Under | keeptheblueflagflyinghigh $959 | $0 | 47¢ NO | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Charleston Cougars vs. Drake Bulldogs · starts Fri Nov 20, 12:30 AM
 
+- Thu Nov 19, 11:11 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: Kalshi 49¢ → 50¢
 - Thu Nov 19, 10:11 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: Kalshi 51¢ → 49¢
 - Thu Nov 19, 9:12 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: Kalshi 50¢ → 51¢
 - Thu Nov 19, 8:11 AM (hourly): Charleston Cougars vs. Drake Bulldogs: O/U 158.5: Kalshi 48¢ → 50¢
@@ -212,6 +222,7 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 11:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 50¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 10:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 49¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 9:12 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 51¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 8:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 50¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
@@ -220,13 +231,25 @@ Games starting in the last 48 hours or later that had a market passing or one ru
 | Thu Nov 19, 5:11 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $66 | $0 | 49¢ NO | fails: only 1 vetted wallet with $66 (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 4:10 AM | hourly | Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under | keeptheblueflagflyinghigh $67 | $0 | 49¢ NO | fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+) |
 
+### Warriors vs. Grizzlies · starts Fri Nov 20, 1:00 AM
+
+- Thu Nov 19, 11:11 AM (hourly): Warriors vs. Grizzlies: O/U 225.5: first seen: 1 vetted on Under ($959), fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+)
+
+| Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 11:11 AM | hourly | Warriors vs. Grizzlies: O/U 225.5 → Under | keeptheblueflagflyinghigh $959 | $0 | 47¢ NO | fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+) |
+
 ### Knicks vs. Timberwolves · starts Fri Nov 20, 1:00 AM
 
+- Thu Nov 19, 11:11 AM (hourly): Knicks vs. Timberwolves: O/U 215.5: Kalshi 51¢ → 56¢
+- Thu Nov 19, 11:11 AM (hourly): Knicks vs. Timberwolves: monkeymashingkeyboard added $2.2k on Timberwolves
 - Thu Nov 19, 10:11 AM (hourly): Knicks vs. Timberwolves: O/U 215.5: Kalshi 59¢ → 51¢
 - Thu Nov 19, 10:11 AM (hourly): Knicks vs. Timberwolves: first seen: 1 vetted on Timberwolves ($5.1k), fails: only 1 vetted wallet with $5.1k (needs 3+ wallets, or 2 with $5.0k+)
 
 | Time | Run | Market → side | Leaders | Opp. | Kalshi | Rules |
 | --- | --- | --- | --- | --- | --- | --- |
+| Thu Nov 19, 11:11 AM | hourly | Knicks vs. Timberwolves: O/U 215.5 → Over | monkeymashingkeyboard $2.5k | $0 | 56¢ YES | fails: only 1 vetted wallet with $2.5k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 56c vs leaders 50c |
+| Thu Nov 19, 11:11 AM | hourly | Knicks vs. Timberwolves → Timberwolves | monkeymashingkeyboard $7.3k | $1.2k | 48¢ YES | fails: only 1 vetted wallet with $7.3k (needs 3+ wallets, or 2 with $5.0k+); opposition 16% |
 | Thu Nov 19, 10:11 AM | hourly | Knicks vs. Timberwolves: O/U 215.5 → Over | monkeymashingkeyboard $2.3k | $0 | 51¢ YES | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 10:11 AM | hourly | Knicks vs. Timberwolves → Timberwolves | monkeymashingkeyboard $5.1k | $0 | 48¢ YES | fails: only 1 vetted wallet with $5.1k (needs 3+ wallets, or 2 with $5.0k+) |
 | Thu Nov 19, 9:12 AM | hourly | Knicks vs. Timberwolves: O/U 215.5 → Over | monkeymashingkeyboard $2.3k | $0 | 59¢ YES | fails: only 1 vetted wallet with $2.3k (needs 3+ wallets, or 2 with $5.0k+); Kalshi 59c vs leaders 50c |
@@ -1085,15 +1108,15 @@ Wallets that don't count for or against a trade until their shadow picks win 60%
 | Wallet | Why | Since | Shadow picks | Status |
 | --- | --- | --- | --- | --- |
 | gmpm2 | trader: 3 trades per market (median), up to 271 | Mon Nov 16, 5:10 AM | 0-0 | benched |
-| tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 4-0 (3 pending) | benched |
 | BreakTheBank | trader: 38 trades per market (median), up to 190 | Sat Nov 14, 7:10 AM | 7-8 | benched |
-| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 73-96 (10 pending) | benched |
+| Flaznorp | trader: 61 trades per market (median), up to 146 | Fri Nov 13, 9:14 PM | 73-96 (11 pending) | benched |
 | RN1 | trader: 13 trades per market (median), up to 206 | Sun Nov 8, 4:50 PM | 45-49 | benched |
 | takeormake | lost our last 3 copied trades (3-5 overall) | Sun Nov 8, 6:12 AM | 8-10 | benched |
 | 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465 | trader: 1 trades per market (median), up to 454 | Sun Nov 8, 2:11 AM | 25-20 (1 pending) | benched |
 | SnakeBall | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 22-12 | benched |
 | HomeRunHazard | lost our last 3 copied trades (10-9 overall) | Wed Nov 4, 5:11 AM | 332-236 (10 pending) | benched |
 | monkeymashingkeyboard | lost our last 3 copied trades (0-3 overall) | Sun Nov 15, 10:12 PM | 4-2 | released Tue Nov 17, 4:13 AM: shadow picks won 80% of 5 games at an average price of 50¢ |
+| tradecraft | lost our last 3 copied trades (12-4 overall) | Sun Nov 15, 9:10 PM | 5-0 | released Thu Nov 19, 11:11 AM: shadow picks won 100% of 5 games at an average price of 61¢ |
 | keeptheblueflagflyinghigh | trader: 98 trades per market (median), up to 163 | Sun Nov 8, 6:12 AM | 13-4 | released Tue Nov 10, 3:11 AM: shadow picks won 80% of 5 games at an average price of 54¢ |
 | ferrariChampions2026 | lost our last 3 copied trades (7-5 overall) | Sat Nov 7, 10:17 PM | 8-8 | released Sun Nov 8, 4:10 AM: shadow picks won 62% of 8 games at an average price of 55¢ |
 
