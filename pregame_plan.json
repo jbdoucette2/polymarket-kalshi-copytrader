@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T01:10:58Z",
+  "updated": "2026-11-19T02:14:04Z",
   "games": [
     {
       "event_slug": "nba-bos-den-2026-11-18",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-19T02:45:00Z",
       "passing": 0,
       "near": 4,
-      "best": "Spread: Lakers (-11.5) → Lakers ($49.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $49.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Lakers (-11.5) → Lakers ($54.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $54.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-txs-sdst-2026-11-18",
