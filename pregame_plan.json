@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T12:12:12Z",
+  "updated": "2026-11-19T13:14:26Z",
   "games": [
     {
       "event_slug": "cbb-robms-toledo-2026-11-19",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($90, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($91, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $91 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-char-drake-2026-11-19",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Warriors vs. Grizzlies: O/U 225.5 → Under ($938, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $938 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Warriors vs. Grizzlies: O/U 225.5 → Under ($959, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $959 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-lac-sas-2026-11-19",
