@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T18:14:06Z",
+  "updated": "2026-11-19T19:11:08Z",
   "games": [
     {
       "event_slug": "nhl-lak-tor-2026-11-19",
@@ -12,14 +12,34 @@
       "status": "fails: only 1 vetted wallet with $12.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
+      "event_slug": "cbb-robms-toledo-2026-11-19",
+      "game": "Robert Morris Colonials vs. Toledo Rockets",
+      "start": "2026-11-20T00:00:00Z",
+      "check_at": "2026-11-19T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($96, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cbb-char-drake-2026-11-19",
+      "game": "Charleston Cougars vs. Drake Bulldogs",
+      "start": "2026-11-20T00:30:00Z",
+      "check_at": "2026-11-20T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($70, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
       "event_slug": "nba-gsw-mem-2026-11-19",
       "game": "Warriors vs. Grizzlies",
       "start": "2026-11-20T01:00:00Z",
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Grizzlies (-6.5) → Grizzlies ($13.4k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.4k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Grizzlies (-6.5) → Grizzlies ($13.6k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $13.6k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-nyk-min-2026-11-19",
@@ -27,9 +47,9 @@
       "start": "2026-11-20T01:00:00Z",
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Knicks vs. Timberwolves → Timberwolves ($23.7k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $23.7k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 3,
+      "best": "Knicks vs. Timberwolves: O/U 215.5 → Over ($25.5k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $25.5k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-rutger-unlv-2026-11-19",
