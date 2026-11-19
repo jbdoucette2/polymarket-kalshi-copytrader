@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T19:11:08Z",
+  "updated": "2026-11-19T20:13:12Z",
   "games": [
     {
       "event_slug": "nhl-lak-tor-2026-11-19",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Kings vs. Maple Leafs → Maple Leafs ($12.0k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $12.0k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Kings vs. Maple Leafs → Maple Leafs ($12.3k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $12.3k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-robms-toledo-2026-11-19",
@@ -30,6 +30,16 @@
       "near": 1,
       "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($70, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "cfb-rice-templ-2026-11-19",
+      "game": "Rice vs. Temple",
+      "start": "2026-11-20T00:30:00Z",
+      "check_at": "2026-11-20T00:15:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Rice vs. Temple: O/U 51.5 → Under ($990, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $990 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-gsw-mem-2026-11-19",
