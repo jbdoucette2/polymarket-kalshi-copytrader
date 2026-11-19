@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-19T22:11:18Z",
+  "updated": "2026-11-19T23:10:55Z",
   "games": [
     {
-      "event_slug": "bra-vit-bra-2026-11-19",
-      "game": "EC Vitória vs. Red Bull Bragantino",
-      "start": "2026-11-19T22:30:00Z",
-      "check_at": "2026-11-19T22:15:00Z",
+      "event_slug": "atp-milavsk-draxl-2026-11-19",
+      "game": "Drummondville: Daniel Milavsky vs Liam Draxl",
+      "start": "2026-11-19T23:30:00Z",
+      "check_at": "2026-11-19T23:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Will Red Bull Bragantino win on 2026-11-19? → No ($210, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $210 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Drummondville: Daniel Milavsky vs Liam Draxl → Daniel Milavsky ($871, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nhl-lak-tor-2026-11-19",
@@ -28,18 +28,8 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($96, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $96 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-char-drake-2026-11-19",
-      "game": "Charleston Cougars vs. Drake Bulldogs",
-      "start": "2026-11-20T00:30:00Z",
-      "check_at": "2026-11-20T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($70, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($95, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cfb-rice-templ-2026-11-19",
@@ -48,8 +38,8 @@
       "check_at": "2026-11-20T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Rice vs. Temple: O/U 51.5 → Under ($990, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $990 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Rice vs. Temple: O/U 51.5 → Under ($970, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $970 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-gsw-mem-2026-11-19",
