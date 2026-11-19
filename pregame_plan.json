@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:13:16Z",
+  "updated": "2026-11-19T15:13:42Z",
   "games": [
     {
       "event_slug": "cbb-robms-toledo-2026-11-19",
@@ -8,8 +8,8 @@
       "check_at": "2026-11-19T23:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($90, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $90 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($88, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $88 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-char-drake-2026-11-19",
@@ -18,8 +18,8 @@
       "check_at": "2026-11-20T00:15:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($67, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($70, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $70 (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-gsw-mem-2026-11-19",
@@ -28,8 +28,8 @@
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
       "near": 1,
-      "best": "Warriors vs. Grizzlies: O/U 225.5 → Under ($980, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $980 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Warriors vs. Grizzlies: O/U 225.5 → Under ($1.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "nba-nyk-min-2026-11-19",
@@ -38,8 +38,18 @@
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
       "near": 2,
-      "best": "Knicks vs. Timberwolves → Timberwolves ($11.8k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $11.8k (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Knicks vs. Timberwolves: O/U 215.5 → Over ($18.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $18.1k (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-lac-sas-2026-11-19",
+      "game": "Clippers vs. Spurs",
+      "start": "2026-11-20T01:00:00Z",
+      "check_at": "2026-11-20T00:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Clippers vs. Spurs: O/U 225.5 → Under ($1.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $1.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-rutger-unlv-2026-11-19",
