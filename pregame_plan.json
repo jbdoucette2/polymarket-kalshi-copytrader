@@ -1,6 +1,16 @@
 {
-  "updated": "2026-11-19T09:12:04Z",
+  "updated": "2026-11-19T10:11:17Z",
   "games": [
+    {
+      "event_slug": "cbb-robms-toledo-2026-11-19",
+      "game": "Robert Morris Colonials vs. Toledo Rockets",
+      "start": "2026-11-20T00:00:00Z",
+      "check_at": "2026-11-19T23:45:00Z",
+      "passing": 0,
+      "near": 1,
+      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($92, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $92 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
     {
       "event_slug": "cbb-char-drake-2026-11-19",
       "game": "Charleston Cougars vs. Drake Bulldogs",
@@ -10,6 +20,16 @@
       "near": 1,
       "best": "Charleston Cougars vs. Drake Bulldogs: O/U 158.5 → Under ($67, 1 wallets)",
       "status": "fails: only 1 vetted wallet with $67 (needs 3+ wallets, or 2 with $5.0k+)"
+    },
+    {
+      "event_slug": "nba-nyk-min-2026-11-19",
+      "game": "Knicks vs. Timberwolves",
+      "start": "2026-11-20T01:00:00Z",
+      "check_at": "2026-11-20T00:45:00Z",
+      "passing": 0,
+      "near": 2,
+      "best": "Knicks vs. Timberwolves → Timberwolves ($5.1k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $5.1k (needs 3+ wallets, or 2 with $5.0k+)"
     }
   ]
 }
