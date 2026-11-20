@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:21:18+00:00",
+ "updated": "2026-11-20T21:21:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -64,6 +64,10 @@
     },
     {
      "t": "2026-11-20T20:21:18+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T21:21:20+00:00",
      "equity": 100.0
     }
    ],
@@ -132,6 +136,10 @@
     {
      "t": "2026-11-20T20:21:18+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T21:21:20+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -143,22 +151,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.0,
-   "cash": 100.0,
-   "pnl": 0.0,
-   "pnl_after_kalshi_fees": 0.0,
-   "return_pct": 0.0,
+   "equity": 99.83,
+   "cash": 94.0,
+   "pnl": -0.17,
+   "pnl_after_kalshi_fees": -0.45,
+   "return_pct": -0.2,
    "realized": 0,
-   "kalshi_fees": 0.0,
+   "kalshi_fees": 0.28,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 0,
+   "open": 1,
+   "at_risk": 6.0,
+   "copied": 1,
    "skipped": 0,
-   "max_drawdown_pct": 0.0,
+   "max_drawdown_pct": 0.2,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -199,11 +207,39 @@
     {
      "t": "2026-11-20T20:21:18+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T21:21:20+00:00",
+     "equity": 99.83
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Grizzlies vs. Timberwolves",
+     "outcome": "Grizzlies",
+     "event_slug": "nba-mem-min-2026-11-21",
+     "cost": 6.0,
+     "shares": 16.9,
+     "avg": 0.355,
+     "mark": 0.345,
+     "opened": "2026-11-20T20:31:04+00:00"
+    }
+   ],
    "closed": [],
-   "log": []
+   "log": [
+    {
+     "ts": "2026-11-20T21:21:20+00:00",
+     "kind": "buy",
+     "title": "Grizzlies vs. Timberwolves",
+     "outcome": "Grizzlies",
+     "event_slug": "nba-mem-min-2026-11-21",
+     "leader_usd": 1166.25,
+     "stake": 6.0,
+     "price": 0.355,
+     "leader_price": 0.35,
+     "mult": 2.0
+    }
+   ]
   },
   {
    "id": "D",
@@ -265,6 +301,10 @@
     },
     {
      "t": "2026-11-20T20:21:18+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T21:21:20+00:00",
      "equity": 100.0
     }
    ],
@@ -332,6 +372,10 @@
     },
     {
      "t": "2026-11-20T20:21:18+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T21:21:20+00:00",
      "equity": 100.0
     }
    ],

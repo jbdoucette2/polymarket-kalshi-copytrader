@@ -3,14 +3,43 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 100.0,
+ "cash": 94.0,
  "since": 1795198438,
- "last_ts": 1795198438,
- "positions": {},
- "leader_shares": {},
+ "last_ts": 1795207733,
+ "positions": {
+  "6010720608100636618683978441589351905755283559190160709714270500815076146742": {
+   "cond": "0xd878ee4681a0a960ba658a7c5d67cb682aaa724f3f87c7441da1b486bada3128",
+   "idx": 0,
+   "outcome": "Grizzlies",
+   "title": "Grizzlies vs. Timberwolves",
+   "slug": "nba-mem-min-2026-11-21",
+   "event_slug": "nba-mem-min-2026-11-21",
+   "shares": 16.901408450704228,
+   "cost": 6.0,
+   "kfee": 0.28,
+   "opened": "2026-11-20T20:31:04+00:00",
+   "mark": 0.345
+  }
+ },
+ "leader_shares": {
+  "6010720608100636618683978441589351905755283559190160709714270500815076146742": 3332.142858
+ },
  "median_usd": 264.6,
  "closed": [],
- "log": [],
+ "log": [
+  {
+   "ts": "2026-11-20T21:21:20+00:00",
+   "kind": "buy",
+   "title": "Grizzlies vs. Timberwolves",
+   "outcome": "Grizzlies",
+   "event_slug": "nba-mem-min-2026-11-21",
+   "leader_usd": 1166.25,
+   "stake": 6.0,
+   "price": 0.355,
+   "leader_price": 0.35,
+   "mult": 2.0
+  }
+ ],
  "history": [
   {
    "t": "2026-11-20T18:13:58+00:00",
@@ -39,10 +68,14 @@
   {
    "t": "2026-11-20T20:21:18+00:00",
    "equity": 100.0
+  },
+  {
+   "t": "2026-11-20T21:21:20+00:00",
+   "equity": 99.83
   }
  ],
- "kfees": 0.0,
- "copied": 0,
+ "kfees": 0.28,
+ "copied": 1,
  "skipped": 0,
  "median_ts": 1795198438
 }
