@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:21:20+00:00",
+ "updated": "2026-11-20T23:20:48+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -72,6 +72,10 @@
     },
     {
      "t": "2026-11-20T22:21:18+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T23:20:46+00:00",
      "equity": 100.0
     }
    ],
@@ -148,6 +152,10 @@
     {
      "t": "2026-11-20T22:21:18+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T23:20:46+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -159,21 +167,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.33,
-   "cash": 82.0,
-   "pnl": -0.67,
-   "pnl_after_kalshi_fees": -1.35,
-   "return_pct": -0.7,
+   "equity": 99.5,
+   "cash": 77.33,
+   "pnl": -0.5,
+   "pnl_after_kalshi_fees": -1.24,
+   "return_pct": -0.5,
    "realized": 0,
-   "kalshi_fees": 0.68,
+   "kalshi_fees": 0.74,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 18.0,
-   "copied": 3,
-   "skipped": 0,
+   "open": 4,
+   "at_risk": 22.67,
+   "copied": 4,
+   "skipped": 1,
    "max_drawdown_pct": 0.7,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -223,6 +231,10 @@
     {
      "t": "2026-11-20T22:21:18+00:00",
      "equity": 99.33
+    },
+    {
+     "t": "2026-11-20T23:20:46+00:00",
+     "equity": 99.5
     }
    ],
    "positions": [
@@ -243,7 +255,7 @@
      "cost": 6.0,
      "shares": 11.11,
      "avg": 0.54,
-     "mark": 0.505,
+     "mark": 0.54,
      "opened": "2026-11-20T21:51:38+00:00"
     },
     {
@@ -253,12 +265,45 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.535,
+     "mark": 0.52,
      "opened": "2026-11-20T22:18:41+00:00"
+    },
+    {
+     "title": "Pelicans vs. Thunder",
+     "outcome": "Thunder",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "cost": 4.67,
+     "shares": 5.59,
+     "avg": 0.835,
+     "mark": 0.825,
+     "opened": "2026-11-20T23:05:02+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-20T23:20:46+00:00",
+     "kind": "buy",
+     "title": "Pelicans vs. Thunder",
+     "outcome": "Thunder",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "leader_usd": 411.68,
+     "stake": 4.67,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 1.56
+    },
+    {
+     "ts": "2026-11-20T23:20:46+00:00",
+     "kind": "skip",
+     "title": "Iowa State vs. UCF: O/U 49.5",
+     "outcome": "Over",
+     "event_slug": "cfb-iowast-ucf-2026-11-20",
+     "leader_usd": 63.96,
+     "reason": "below $1 minimum",
+     "price": 0.5,
+     "leader_price": 0.52
+    },
     {
      "ts": "2026-11-20T22:21:18+00:00",
      "kind": "buy",
@@ -366,6 +411,10 @@
     {
      "t": "2026-11-20T22:21:18+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T23:20:46+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -440,6 +489,10 @@
     },
     {
      "t": "2026-11-20T22:21:18+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T23:20:46+00:00",
      "equity": 100.0
     }
    ],
