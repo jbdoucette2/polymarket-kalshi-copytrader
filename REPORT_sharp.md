@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-20T19:04:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-20T19:07:31+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$99.93** (-0.07; after Kalshi fees -0.19) · 0-0 · sold early 0 · 1 open ($3.57) · max drawdown 0.1%
 
@@ -9,10 +9,7 @@ Updated 2026-11-20T19:04:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Wallet | Scored bets | Edge | Sports copied |
 | --- | --- | --- | --- |
 | [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223) | 10 | +0.128 | epl +0.21 |
-| [UpTheBlues](https://polymarket.com/profile/0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7) | 78 | +0.044 | nba +0.10 |
-| [ferrariChampions2026](https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319) | 103 | +0.031 | nhl +0.06, nba +0.02, nfl +0.06 |
 | [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) | 78 | +0.021 | nfl +0.14 |
-| [omnibus-076daa](https://polymarket.com/profile/0x076daa87c4fe1a85402a9b6b8e0a866224388d4c) | 78 | +0.000 | itf +0.12 |
 
 ## Open
 
