@@ -1,55 +1,15 @@
 {
-  "updated": "2026-11-19T23:10:55Z",
+  "updated": "2026-11-20T00:13:13Z",
   "games": [
-    {
-      "event_slug": "atp-milavsk-draxl-2026-11-19",
-      "game": "Drummondville: Daniel Milavsky vs Liam Draxl",
-      "start": "2026-11-19T23:30:00Z",
-      "check_at": "2026-11-19T23:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Drummondville: Daniel Milavsky vs Liam Draxl → Daniel Milavsky ($871, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $871 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nhl-lak-tor-2026-11-19",
-      "game": "Kings vs. Maple Leafs",
-      "start": "2026-11-20T00:00:00Z",
-      "check_at": "2026-11-19T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Kings vs. Maple Leafs → Maple Leafs ($12.3k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $12.3k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cbb-robms-toledo-2026-11-19",
-      "game": "Robert Morris Colonials vs. Toledo Rockets",
-      "start": "2026-11-20T00:00:00Z",
-      "check_at": "2026-11-19T23:45:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Spread: Toledo Rockets (-7.5) → Toledo Rockets ($95, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $95 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "cfb-rice-templ-2026-11-19",
-      "game": "Rice vs. Temple",
-      "start": "2026-11-20T00:30:00Z",
-      "check_at": "2026-11-20T00:15:00Z",
-      "passing": 0,
-      "near": 1,
-      "best": "Rice vs. Temple: O/U 51.5 → Under ($970, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $970 (needs 3+ wallets, or 2 with $5.0k+)"
-    },
     {
       "event_slug": "nba-gsw-mem-2026-11-19",
       "game": "Warriors vs. Grizzlies",
       "start": "2026-11-20T01:00:00Z",
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
-      "near": 2,
-      "best": "Spread: Grizzlies (-6.5) → Grizzlies ($13.6k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $13.6k (needs 3+ wallets, or 2 with $5.0k+)"
+      "near": 1,
+      "best": "Warriors vs. Grizzlies: O/U 225.5 → Under ($8.8k, 2 wallets)",
+      "status": "fails: no Kalshi totals market"
     },
     {
       "event_slug": "nba-nyk-min-2026-11-19",
@@ -57,19 +17,9 @@
       "start": "2026-11-20T01:00:00Z",
       "check_at": "2026-11-20T00:45:00Z",
       "passing": 0,
-      "near": 3,
-      "best": "Knicks vs. Timberwolves: O/U 215.5 → Over ($25.5k, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $25.5k (needs 3+ wallets, or 2 with $5.0k+)"
-    },
-    {
-      "event_slug": "nfl-ind-hou-2026-11-20",
-      "game": "Colts vs. Texans",
-      "start": "2026-11-20T01:15:00Z",
-      "check_at": "2026-11-20T01:00:00Z",
-      "passing": 0,
       "near": 1,
-      "best": "Spread: Colts (-4.5) → Texans ($933, 1 wallets)",
-      "status": "fails: only 1 vetted wallet with $933 (needs 3+ wallets, or 2 with $5.0k+)"
+      "best": "Knicks vs. Timberwolves → Timberwolves ($24.0k, 1 wallets)",
+      "status": "fails: only 1 vetted wallet with $24.0k (needs 3+ wallets, or 2 with $5.0k+)"
     },
     {
       "event_slug": "cbb-rutger-unlv-2026-11-19",
