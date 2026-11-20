@@ -1,0 +1,46 @@
+# Five $100 paper accounts, each mirroring one Polymarket wallet (copy5.py). Paper only: no keys, no orders.
+# Runs every 15 minutes on GitHub's servers, so the laptop can be off. Free: public repos get unlimited
+# Actions minutes; a private repo gets 2,000 free minutes/month (~1 min per run, so use "*/30" there).
+# Results: docs/index.html (turn on GitHub Pages: Settings > Pages > Deploy from branch > main > /docs)
+# and REPORT_copy5.md. GitHub may start scheduled runs a few minutes late; that's expected.
+name: copy5
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # private repo: */30 keeps it inside the 2,000 free minutes; use */15 if public
+  workflow_dispatch:
+    inputs:
+      backtest_days:
+        description: "Leave empty for a normal run. Or a number of days to backtest (e.g. 30)."
+        required: false
+        default: ""
+      delay_min:
+        description: "Backtest: minutes after the leader that our copy happens"
+        required: false
+        default: "15"
+permissions:
+  contents: write
+concurrency: copy5
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Forward run
+        if: ${{ !inputs.backtest_days }}
+        run: python copy5.py run
+      - name: Backtest
+        if: ${{ inputs.backtest_days }}
+        run: python copy5.py backtest --days "${{ inputs.backtest_days }}" --delay "${{ inputs.delay_min }}"
+      - name: Save results
+        run: |
+          git config user.name "copy5-bot"
+          git config user.email "copy5-bot@users.noreply.github.com"
+          git add copy5_state docs REPORT_copy5.md
+          git diff --cached --quiet && exit 0
+          git commit -m "copy5 run $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
