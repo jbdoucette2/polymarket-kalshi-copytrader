@@ -1,0 +1,50 @@
+{
+  "_note": "Five $100 paper accounts, each mirroring one Polymarket wallet. Picked 2026-11-19 from rivo.markets (all-time Polymarket leaderboard, stats as shown that day) and checked against each wallet's last 200 Polymarket trades. None carries rivo's MARKET MAKER badge; all traded in the past day.",
+  "accounts": [
+    {
+      "id": "A",
+      "name": "BreakTheBank",
+      "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+      "focus": "NFL, NBA",
+      "risk": "High",
+      "rivo": {"rank": 5, "record": "18042-29885", "win": "38%", "return": "+7%", "traded": "$109.7M", "profit": "+$7.2M", "copy_score": 37},
+      "why": "Polymarket's #1 sports wallet by profit this month. Huge bets (median fill ~$16.7k) at coin-flip prices and many fills per game, so its edge is thin per trade and results swing."
+    },
+    {
+      "id": "B",
+      "name": "Flipadelphia",
+      "addr": "0x448861155279dbf833d041b963e3ac854599e319",
+      "focus": "College football, NFL",
+      "risk": "Medium",
+      "rivo": {"rank": 74, "record": "2512-1152", "win": "69%", "return": "+11%", "traded": "$8.5M", "profit": "+$936.9K", "copy_score": 65},
+      "why": "US football specialist, the sports Kalshi lists best. Mostly buys (90%), ~$1.5k median fill, 84 events in 18 days."
+    },
+    {
+      "id": "C",
+      "name": "ic4cream",
+      "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "focus": "Multi-sport: college football and basketball, tennis, esports",
+      "risk": "Medium",
+      "rivo": {"rank": 81, "record": "1728-1176", "win": "60%", "return": "+10%", "traded": "$8.3M", "profit": "+$791.9K", "copy_score": 57},
+      "why": "The most copyable wallet found: 97% of bets placed more than 15 min before the game (median 7 hours), ~24 bets a day at coin-flip prices, ~$440 median."
+    },
+    {
+      "id": "D",
+      "name": "GetsOnBase",
+      "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
+      "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
+      "risk": "Medium-high: few, large bets",
+      "rivo": {"rank": 104, "record": "551-86", "win": "86%", "return": "+98%", "traded": "$625.7K", "profit": "+$610.7K", "copy_score": 84},
+      "why": "Highest copy score among active pre-game bettors (94% pre-game). Only ~10 bets a week, so results take longer to mean anything."
+    },
+    {
+      "id": "E",
+      "name": "dabossrealman",
+      "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+      "focus": "NBA (in-game)",
+      "risk": "Control: in-game bettor",
+      "rivo": {"rank": 78, "record": "1427-712", "win": "67%", "return": "+14%", "traded": "$6.2M", "profit": "+$868.1K", "copy_score": 64},
+      "why": "Kept as a control. Bets only during games (median 2 hours after tip-off): +$751 in a 30-day backtest at its own prices, −$76 when copied 15 minutes later. Shows live whether in-game edges survive copying."
+    }
+  ]
+}
