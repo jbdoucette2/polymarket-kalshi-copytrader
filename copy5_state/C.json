@@ -1,0 +1,24 @@
+{
+ "id": "C",
+ "name": "ic4cream",
+ "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
+ "start": 100.0,
+ "cash": 100.0,
+ "since": 1795198438,
+ "last_ts": 1795198438,
+ "positions": {},
+ "leader_shares": {},
+ "median_usd": 264.6,
+ "closed": [],
+ "log": [],
+ "history": [
+  {
+   "t": "2026-11-20T18:13:58+00:00",
+   "equity": 100.0
+  }
+ ],
+ "kfees": 0.0,
+ "copied": 0,
+ "skipped": 0,
+ "median_ts": 1795198438
+}

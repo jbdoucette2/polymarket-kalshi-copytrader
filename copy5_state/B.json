@@ -1,0 +1,24 @@
+{
+ "id": "B",
+ "name": "Flipadelphia",
+ "addr": "0x448861155279dbf833d041b963e3ac854599e319",
+ "start": 100.0,
+ "cash": 100.0,
+ "since": 1795198438,
+ "last_ts": 1795198438,
+ "positions": {},
+ "leader_shares": {},
+ "median_usd": 1370.8145,
+ "closed": [],
+ "log": [],
+ "history": [
+  {
+   "t": "2026-11-20T18:13:58+00:00",
+   "equity": 100.0
+  }
+ ],
+ "kfees": 0.0,
+ "copied": 0,
+ "skipped": 0,
+ "median_ts": 1795198438
+}

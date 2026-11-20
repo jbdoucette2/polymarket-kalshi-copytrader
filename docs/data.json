@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:54:17+00:00",
+ "updated": "2026-11-20T18:13:58+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -8,7 +8,7 @@
    "id": "A",
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
-   "since": "2026-11-20T00:54:16+00:00",
+   "since": "2026-11-20T18:13:58+00:00",
    "equity": 100.0,
    "cash": 100.0,
    "pnl": 0.0,
@@ -39,7 +39,7 @@
    "why": "Polymarket's #1 sports wallet by profit this month. Huge bets (median fill ~$16.7k) at coin-flip prices and many fills per game, so its edge is thin per trade and results swing.",
    "history": [
     {
-     "t": "2026-11-20T00:54:16+00:00",
+     "t": "2026-11-20T18:13:58+00:00",
      "equity": 100.0
     }
    ],
@@ -51,7 +51,7 @@
    "id": "B",
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
-   "since": "2026-11-20T00:54:16+00:00",
+   "since": "2026-11-20T18:13:58+00:00",
    "equity": 100.0,
    "cash": 100.0,
    "pnl": 0.0,
@@ -82,7 +82,7 @@
    "why": "US football specialist, the sports Kalshi lists best. Mostly buys (90%), ~$1.5k median fill, 84 events in 18 days.",
    "history": [
     {
-     "t": "2026-11-20T00:54:16+00:00",
+     "t": "2026-11-20T18:13:58+00:00",
      "equity": 100.0
     }
    ],
@@ -94,7 +94,7 @@
    "id": "C",
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
-   "since": "2026-11-20T00:54:16+00:00",
+   "since": "2026-11-20T18:13:58+00:00",
    "equity": 100.0,
    "cash": 100.0,
    "pnl": 0.0,
@@ -125,7 +125,7 @@
    "why": "The most copyable wallet found: 97% of bets placed more than 15 min before the game (median 7 hours), ~24 bets a day at coin-flip prices, ~$440 median.",
    "history": [
     {
-     "t": "2026-11-20T00:54:16+00:00",
+     "t": "2026-11-20T18:13:58+00:00",
      "equity": 100.0
     }
    ],
@@ -137,7 +137,7 @@
    "id": "D",
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
-   "since": "2026-11-20T00:54:16+00:00",
+   "since": "2026-11-20T18:13:58+00:00",
    "equity": 100.0,
    "cash": 100.0,
    "pnl": 0.0,
@@ -168,7 +168,7 @@
    "why": "Highest copy score among active pre-game bettors (94% pre-game). Only ~10 bets a week, so results take longer to mean anything.",
    "history": [
     {
-     "t": "2026-11-20T00:54:16+00:00",
+     "t": "2026-11-20T18:13:58+00:00",
      "equity": 100.0
     }
    ],
@@ -180,7 +180,7 @@
    "id": "E",
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
-   "since": "2026-11-20T00:54:16+00:00",
+   "since": "2026-11-20T18:13:58+00:00",
    "equity": 100.0,
    "cash": 100.0,
    "pnl": 0.0,
@@ -211,7 +211,7 @@
    "why": "Kept as a control. Bets only during games (median 2 hours after tip-off): +$751 in a 30-day backtest at its own prices, \u2212$76 when copied 15 minutes later. Shows live whether in-game edges survive copying.",
    "history": [
     {
-     "t": "2026-11-20T00:54:16+00:00",
+     "t": "2026-11-20T18:13:58+00:00",
      "equity": 100.0
     }
    ],
