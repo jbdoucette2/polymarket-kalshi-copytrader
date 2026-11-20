@@ -1,0 +1,555 @@
+{
+ "id": "D",
+ "name": "GetsOnBase",
+ "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
+ "start": 100.0,
+ "cash": 217.041,
+ "since": 1792543094,
+ "last_ts": 1795046761,
+ "positions": {},
+ "leader_shares": {
+  "89663909991526082331855536452679529366626919282062415872556910690401116114333": 5043.45,
+  "96816250497350620302248517829694270108066249643940609547158704546671768492017": 26471.6,
+  "85422020852500122620838672229675829221524138380564907162023679204849933696547": 44388.59,
+  "81399866347075950657382337778194100676028967267724120082627383622189327770530": 66961.70000000001,
+  "98297698719019520580950851212377681477393147451051090708184029625621399379253": 19991.489999999998,
+  "84024402580170828531496280029468757804369753848625201850377225674973435072573": 21193.129999999997,
+  "44618421633673065639972046851963467920041500158016615923880407223074476614055": 8295.48,
+  "36567865766753198571269109466959528856438782040370312530254241592057593510368": 57373.299999999996,
+  "67526007155123864561080755678984780495552377556254105238162673528289532625471": 58580.22,
+  "100897373545538136963254703322400571031004630828500022316086516107567220704902": 22513.02,
+  "56672068359322169174293110963871309525134121946810529511976169406111102503960": 126923.35,
+  "112442874537877043362648123443630821837081296850149459395764030832477569059991": 79619.99,
+  "62116299210895463566281070697453248200247290298817072852728278044966474458414": 20.83,
+  "92972014031749206050377928402220982701560547332753820304410147633787347371643": 173199.72,
+  "9274787767301841052044678014832601302177347012049323902574074210322978426721": 23052.57,
+  "90373484141779954230511209866505678304249586034836704713085791056164162371932": 10494.52
+ },
+ "median_usd": 4684.903399890792,
+ "closed": [
+  {
+   "ts": "2026-11-05T02:32:34+00:00",
+   "title": "Will CA Paranaense win on 2026-11-04?",
+   "outcome": "No",
+   "event_slug": "bra-cap-vas-2026-11-04",
+   "cost": 1.94,
+   "pnl": 1.24,
+   "kfee": 0.06,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-05T02:41:26+00:00",
+   "title": "Will CR Vasco da Gama win on 2026-11-04?",
+   "outcome": "Yes",
+   "event_slug": "bra-cap-vas-2026-11-04",
+   "cost": 5.55,
+   "pnl": 10.89,
+   "kfee": 0.26,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-07T23:38:39+00:00",
+   "title": "Spread: Philadelphia Union (-1.5)",
+   "outcome": "Philadelphia Union",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "cost": 6.73,
+   "pnl": 5.18,
+   "kfee": 0.21,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-07T23:38:39+00:00",
+   "title": "Philadelphia Union vs. Toronto FC: O/U 3.5",
+   "outcome": "Over",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "cost": 6.73,
+   "pnl": 5.71,
+   "kfee": 0.22,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-07T23:38:39+00:00",
+   "title": "Spread: Philadelphia Union (-2.5)",
+   "outcome": "Philadelphia Union",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "cost": 5.08,
+   "pnl": 8.86,
+   "kfee": 0.24,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-08T19:27:16+00:00",
+   "title": "CD Universidad Cat\u00f3lica vs. CD Limache: O/U 3.5",
+   "outcome": "Over",
+   "event_slug": "chi1-cuc-cdl-2026-11-08-more-markets",
+   "cost": 7.35,
+   "pnl": -7.35,
+   "kfee": 0.3,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-08T22:02:14+00:00",
+   "title": "Spread: CF Universidad de Chile (-1.5)",
+   "outcome": "CF Universidad de Chile",
+   "event_slug": "chi1-cud-cdc-2026-11-09-more-markets",
+   "cost": 3.96,
+   "pnl": -3.96,
+   "kfee": 0.12,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-09T00:40:34+00:00",
+   "title": "Will CR Vasco da Gama win on 2026-11-08?",
+   "outcome": "Yes",
+   "event_slug": "brco-vas-pal-2026-11-08",
+   "cost": 14.18,
+   "pnl": 19.53,
+   "kfee": 0.58,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-15T19:05:38+00:00",
+   "title": "Finland vs. San Marino: O/U 4.5",
+   "outcome": "Over",
+   "event_slug": "unl-fin-smr-2026-11-15-more-markets",
+   "cost": 8.41,
+   "pnl": 9.52,
+   "kfee": 0.32,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-15T19:05:38+00:00",
+   "title": "Spread: Finland (-3.5)",
+   "outcome": "Finland",
+   "event_slug": "unl-fin-smr-2026-11-15-more-markets",
+   "cost": 8.41,
+   "pnl": 6.06,
+   "kfee": 0.25,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-15T21:54:36+00:00",
+   "title": "France vs. T\u00fcrkiye: O/U 3.5",
+   "outcome": "Under",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "cost": 16.82,
+   "pnl": 19.15,
+   "kfee": 0.63,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-15T21:54:36+00:00",
+   "title": "Spread: France (-2.5)",
+   "outcome": "T\u00fcrkiye",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "cost": 17.75,
+   "pnl": 11.73,
+   "kfee": 0.5,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-20T00:38:14+00:00",
+   "title": "Will Santos FC win on 2026-11-18?",
+   "outcome": "No",
+   "event_slug": "bra-cor-san-2026-11-18",
+   "cost": 1.4,
+   "pnl": -1.4,
+   "kfee": 0.05,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-20T00:38:14+00:00",
+   "title": "Will Cruzeiro EC win on 2026-11-18?",
+   "outcome": "Yes",
+   "event_slug": "bra-cru-pal-2026-11-18",
+   "cost": 22.38,
+   "pnl": 30.9,
+   "kfee": 0.92,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-20T00:38:14+00:00",
+   "title": "Will SE Palmeiras win on 2026-11-18?",
+   "outcome": "No",
+   "event_slug": "bra-cru-pal-2026-11-18",
+   "cost": 11.19,
+   "pnl": 5.24,
+   "kfee": 0.25,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-20T00:38:14+00:00",
+   "title": "Will EC Bahia win on 2026-11-18?",
+   "outcome": "Yes",
+   "event_slug": "bra-gre-bah-2026-11-18",
+   "cost": 4.26,
+   "pnl": -4.26,
+   "kfee": 0.2,
+   "how": "lost",
+   "exit_price": 0.0
+  }
+ ],
+ "log": [
+  {
+   "ts": "2026-11-04T21:37:16+00:00",
+   "kind": "buy",
+   "title": "Will CA Paranaense win on 2026-11-04?",
+   "outcome": "No",
+   "event_slug": "bra-cap-vas-2026-11-04",
+   "leader_usd": 3026.07,
+   "stake": 1.94,
+   "price": 0.61,
+   "leader_price": 0.6,
+   "mult": 0.65
+  },
+  {
+   "ts": "2026-11-04T21:37:30+00:00",
+   "kind": "buy",
+   "title": "Will CR Vasco da Gama win on 2026-11-04?",
+   "outcome": "Yes",
+   "event_slug": "bra-cap-vas-2026-11-04",
+   "leader_usd": 8671.41,
+   "stake": 5.55,
+   "price": 0.338,
+   "leader_price": 0.328,
+   "mult": 1.85
+  },
+  {
+   "ts": "2026-11-07T20:04:31+00:00",
+   "kind": "buy",
+   "title": "Spread: Philadelphia Union (-1.5)",
+   "outcome": "Philadelphia Union",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "leader_usd": 24643.93,
+   "stake": 6.73,
+   "price": 0.565,
+   "leader_price": 0.555,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-07T20:04:49+00:00",
+   "kind": "buy",
+   "title": "Philadelphia Union vs. Toronto FC: O/U 3.5",
+   "outcome": "Over",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "leader_usd": 35558.13,
+   "stake": 6.73,
+   "price": 0.541,
+   "leader_price": 0.531,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-07T20:05:34+00:00",
+   "kind": "buy",
+   "title": "Spread: Philadelphia Union (-2.5)",
+   "outcome": "Philadelphia Union",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "leader_usd": 4657.69,
+   "stake": 3.34,
+   "price": 0.35,
+   "leader_price": 0.34,
+   "mult": 0.99
+  },
+  {
+   "ts": "2026-11-07T20:15:39+00:00",
+   "kind": "buy",
+   "title": "Spread: Philadelphia Union (-2.5)",
+   "outcome": "Philadelphia Union",
+   "event_slug": "mls-phi-tor-2026-11-07-more-markets",
+   "leader_usd": 2427.75,
+   "stake": 1.74,
+   "price": 0.395,
+   "leader_price": 0.385,
+   "mult": 0.52
+  },
+  {
+   "ts": "2026-11-08T14:44:37+00:00",
+   "kind": "buy",
+   "title": "CD Universidad Cat\u00f3lica vs. CD Limache: O/U 3.5",
+   "outcome": "Over",
+   "event_slug": "chi1-cuc-cdl-2026-11-08-more-markets",
+   "leader_usd": 8707.15,
+   "stake": 7.35,
+   "price": 0.421,
+   "leader_price": 0.411,
+   "mult": 1.86
+  },
+  {
+   "ts": "2026-11-08T17:07:40+00:00",
+   "kind": "buy",
+   "title": "Spread: CF Universidad de Chile (-1.5)",
+   "outcome": "CF Universidad de Chile",
+   "event_slug": "chi1-cud-cdc-2026-11-09-more-markets",
+   "leader_usd": 4684.9,
+   "stake": 3.96,
+   "price": 0.575,
+   "leader_price": 0.565,
+   "mult": 1.0
+  },
+  {
+   "ts": "2026-11-08T19:01:52+00:00",
+   "kind": "buy",
+   "title": "Will CR Vasco da Gama win on 2026-11-08?",
+   "outcome": "Yes",
+   "event_slug": "brco-vas-pal-2026-11-08",
+   "leader_usd": 15912.1,
+   "stake": 7.91,
+   "price": 0.407,
+   "leader_price": 0.397,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-08T19:21:00+00:00",
+   "kind": "buy",
+   "title": "Will CR Vasco da Gama win on 2026-11-08?",
+   "outcome": "Yes",
+   "event_slug": "brco-vas-pal-2026-11-08",
+   "leader_usd": 7420.05,
+   "stake": 6.27,
+   "price": 0.439,
+   "leader_price": 0.429,
+   "mult": 1.58
+  },
+  {
+   "ts": "2026-11-15T15:50:20+00:00",
+   "kind": "buy",
+   "title": "Finland vs. San Marino: O/U 4.5",
+   "outcome": "Over",
+   "event_slug": "unl-fin-smr-2026-11-15-more-markets",
+   "leader_usd": 26890.14,
+   "stake": 8.41,
+   "price": 0.469,
+   "leader_price": 0.459,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-15T15:50:31+00:00",
+   "kind": "buy",
+   "title": "Spread: Finland (-3.5)",
+   "outcome": "Finland",
+   "event_slug": "unl-fin-smr-2026-11-15-more-markets",
+   "leader_usd": 12861.38,
+   "stake": 8.41,
+   "price": 0.581,
+   "leader_price": 0.571,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-15T18:36:13+00:00",
+   "kind": "buy",
+   "title": "France vs. T\u00fcrkiye: O/U 3.5",
+   "outcome": "Under",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "leader_usd": 9623.94,
+   "stake": 8.41,
+   "price": 0.478,
+   "leader_price": 0.468,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-15T18:37:11+00:00",
+   "kind": "buy",
+   "title": "Spread: France (-2.5)",
+   "outcome": "T\u00fcrkiye",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "leader_usd": 26621.73,
+   "stake": 8.41,
+   "price": 0.598,
+   "leader_price": 0.588,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-15T18:59:02+00:00",
+   "kind": "buy",
+   "title": "France vs. T\u00fcrkiye: O/U 3.5",
+   "outcome": "Under",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "leader_usd": 47620.99,
+   "stake": 8.41,
+   "price": 0.458,
+   "leader_price": 0.448,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-15T19:09:35+00:00",
+   "kind": "buy",
+   "title": "Spread: France (-2.5)",
+   "outcome": "T\u00fcrkiye",
+   "event_slug": "unl-fra-tur-2026-11-15-more-markets",
+   "leader_usd": 20453.25,
+   "stake": 9.34,
+   "price": 0.606,
+   "leader_price": 0.596,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-18T21:36:50+00:00",
+   "kind": "buy",
+   "title": "Will Santos FC win on 2026-11-18?",
+   "outcome": "No",
+   "event_slug": "bra-cor-san-2026-11-18",
+   "leader_usd": 10.83,
+   "stake": 1.4,
+   "price": 0.53,
+   "leader_price": 0.52,
+   "mult": 0.25
+  },
+  {
+   "ts": "2026-11-18T22:41:16+00:00",
+   "kind": "buy",
+   "title": "Will Cruzeiro EC win on 2026-11-18?",
+   "outcome": "Yes",
+   "event_slug": "bra-cru-pal-2026-11-18",
+   "leader_usd": 57495.5,
+   "stake": 11.19,
+   "price": 0.422,
+   "leader_price": 0.412,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-18T22:41:28+00:00",
+   "kind": "buy",
+   "title": "Will SE Palmeiras win on 2026-11-18?",
+   "outcome": "No",
+   "event_slug": "bra-cru-pal-2026-11-18",
+   "leader_usd": 15469.91,
+   "stake": 11.19,
+   "price": 0.681,
+   "leader_price": 0.671,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-18T23:19:05+00:00",
+   "kind": "buy",
+   "title": "Will Cruzeiro EC win on 2026-11-18?",
+   "outcome": "Yes",
+   "event_slug": "bra-cru-pal-2026-11-18",
+   "leader_usd": 13698.4,
+   "stake": 11.19,
+   "price": 0.418,
+   "leader_price": 0.408,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-19T00:06:01+00:00",
+   "kind": "buy",
+   "title": "Will EC Bahia win on 2026-11-18?",
+   "outcome": "Yes",
+   "event_slug": "bra-gre-bah-2026-11-18",
+   "leader_usd": 3568.14,
+   "stake": 4.26,
+   "price": 0.35,
+   "leader_price": 0.34,
+   "mult": 0.76
+  }
+ ],
+ "history": [
+  {
+   "t": "2026-11-04T21:37:16+00:00",
+   "equity": 100.0
+  },
+  {
+   "t": "2026-11-04T21:37:30+00:00",
+   "equity": 100.0
+  },
+  {
+   "t": "2026-11-07T20:04:31+00:00",
+   "equity": 112.13
+  },
+  {
+   "t": "2026-11-07T20:04:49+00:00",
+   "equity": 112.13
+  },
+  {
+   "t": "2026-11-07T20:05:34+00:00",
+   "equity": 112.13
+  },
+  {
+   "t": "2026-11-07T20:15:39+00:00",
+   "equity": 112.13
+  },
+  {
+   "t": "2026-11-08T14:44:37+00:00",
+   "equity": 131.87
+  },
+  {
+   "t": "2026-11-08T17:07:40+00:00",
+   "equity": 131.87
+  },
+  {
+   "t": "2026-11-08T19:01:52+00:00",
+   "equity": 131.87
+  },
+  {
+   "t": "2026-11-08T19:21:00+00:00",
+   "equity": 131.87
+  },
+  {
+   "t": "2026-11-15T15:50:20+00:00",
+   "equity": 140.1
+  },
+  {
+   "t": "2026-11-15T15:50:31+00:00",
+   "equity": 140.1
+  },
+  {
+   "t": "2026-11-15T18:36:13+00:00",
+   "equity": 140.1
+  },
+  {
+   "t": "2026-11-15T18:37:11+00:00",
+   "equity": 140.1
+  },
+  {
+   "t": "2026-11-15T18:59:02+00:00",
+   "equity": 140.1
+  },
+  {
+   "t": "2026-11-15T19:09:35+00:00",
+   "equity": 155.68
+  },
+  {
+   "t": "2026-11-18T21:36:50+00:00",
+   "equity": 186.56
+  },
+  {
+   "t": "2026-11-18T22:41:16+00:00",
+   "equity": 186.56
+  },
+  {
+   "t": "2026-11-18T22:41:28+00:00",
+   "equity": 186.56
+  },
+  {
+   "t": "2026-11-18T23:19:05+00:00",
+   "equity": 186.56
+  },
+  {
+   "t": "2026-11-19T00:06:01+00:00",
+   "equity": 186.56
+  },
+  {
+   "t": "2026-11-20T00:38:14+00:00",
+   "equity": 217.04
+  }
+ ],
+ "kfees": 5.11,
+ "copied": 21,
+ "skipped": 0,
+ "median_ts": 1795135094
+}
