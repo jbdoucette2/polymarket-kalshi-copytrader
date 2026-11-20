@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:21:21+00:00",
+ "updated": "2026-11-20T22:21:20+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -68,6 +68,10 @@
     },
     {
      "t": "2026-11-20T21:21:20+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T22:21:18+00:00",
      "equity": 100.0
     }
    ],
@@ -140,6 +144,10 @@
     {
      "t": "2026-11-20T21:21:20+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T22:21:18+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -151,22 +159,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.83,
-   "cash": 94.0,
-   "pnl": -0.17,
-   "pnl_after_kalshi_fees": -0.45,
-   "return_pct": -0.2,
+   "equity": 99.33,
+   "cash": 82.0,
+   "pnl": -0.67,
+   "pnl_after_kalshi_fees": -1.35,
+   "return_pct": -0.7,
    "realized": 0,
-   "kalshi_fees": 0.28,
+   "kalshi_fees": 0.68,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.0,
-   "copied": 1,
+   "open": 3,
+   "at_risk": 18.0,
+   "copied": 3,
    "skipped": 0,
-   "max_drawdown_pct": 0.2,
+   "max_drawdown_pct": 0.7,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -211,6 +219,10 @@
     {
      "t": "2026-11-20T21:21:20+00:00",
      "equity": 99.83
+    },
+    {
+     "t": "2026-11-20T22:21:18+00:00",
+     "equity": 99.33
     }
    ],
    "positions": [
@@ -223,10 +235,54 @@
      "avg": 0.355,
      "mark": 0.345,
      "opened": "2026-11-20T20:31:04+00:00"
+    },
+    {
+     "title": "Spread: Miami Hurricanes (-35.5)",
+     "outcome": "Manhattan Jaspers",
+     "event_slug": "cbb-manh-mia-2026-11-20",
+     "cost": 6.0,
+     "shares": 11.11,
+     "avg": 0.54,
+     "mark": 0.505,
+     "opened": "2026-11-20T21:51:38+00:00"
+    },
+    {
+     "title": "Spread: Southern Illinois Salukis (-1.5)",
+     "outcome": "Southern Illinois Salukis",
+     "event_slug": "cbb-tmrt-sill-2026-11-20",
+     "cost": 6.0,
+     "shares": 11.01,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-20T22:18:41+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-20T22:21:18+00:00",
+     "kind": "buy",
+     "title": "Spread: Southern Illinois Salukis (-1.5)",
+     "outcome": "Southern Illinois Salukis",
+     "event_slug": "cbb-tmrt-sill-2026-11-20",
+     "leader_usd": 592.92,
+     "stake": 6.0,
+     "price": 0.545,
+     "leader_price": 0.54,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-20T22:21:18+00:00",
+     "kind": "buy",
+     "title": "Spread: Miami Hurricanes (-35.5)",
+     "outcome": "Manhattan Jaspers",
+     "event_slug": "cbb-manh-mia-2026-11-20",
+     "leader_usd": 690.72,
+     "stake": 6.0,
+     "price": 0.54,
+     "leader_price": 0.473,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-20T21:21:20+00:00",
      "kind": "buy",
@@ -306,6 +362,10 @@
     {
      "t": "2026-11-20T21:21:20+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T22:21:18+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -376,6 +436,10 @@
     },
     {
      "t": "2026-11-20T21:21:20+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-20T22:21:18+00:00",
      "equity": 100.0
     }
    ],
