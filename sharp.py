@@ -51,6 +51,7 @@ RESCORE_SEC = 7 * 86400
 MAX_SCORE_BETS = 120     # per wallet, most recent, to bound API calls
 SCORE_PAGES = 16        # x500 fills per wallet when scoring, so busy wallets' history reaches back far enough
 WORKERS = 5
+SCORE_V = 2              # bump when the scoring rules change, to force a rescore on the next run
 
 
 # ---------------- data ----------------
@@ -121,6 +122,14 @@ def wallet_bets(addr, since, pages=8):
     groups = c5.group_fills(tr)
     buys = [g for g in groups if g["side"] == "BUY"]
     return buys, median([g["usd"] for g in buys]), [g for g in groups if g["side"] == "SELL"]
+
+
+def two_sided(buys):
+    """Markets where the wallet bought more than one outcome: hedging or market making, not a pick."""
+    sides = {}
+    for g in buys:
+        sides.setdefault(g["cond"], set()).add(g["idx"])
+    return {c for c, s in sides.items() if len(s) > 1}
 
 
 def features(g, meta, med, at=None):
@@ -206,8 +215,10 @@ def build_scores(names, t_from, t_to, cache=None):
     meta = market_meta(conds)
     todo = []
     for a, (buys, med) in per.items():
-        cand = []
+        cand, hedged = [], two_sided(buys)
         for g in buys:
+            if g["cond"] in hedged:
+                continue
             f = features(g, meta, med)
             if f["pregame"] and f["conv"] >= MIN_CONV and f["closed"] and f["closed_ts"] and f["closed_ts"] < t_to:
                 cand.append((g, f))
@@ -346,10 +357,14 @@ def cmd_walkforward(days):
         events += [(g["ts"] + DELAY, "sell", a, g) for g in sells]
         conds += [g["cond"] for g in buys]
     meta = market_meta(conds)
-    cand = []
-    for e in events:
+    cand, sides = [], {}
+    for e in sorted(events, key=lambda x: x[0]):
         at, kind, a, g = e
         if kind == "buy":
+            s = sides.setdefault((a, g["cond"]), set())
+            s.add(g["idx"])
+            if len(s) > 1:   # this wallet now holds both sides of this market: not a pick
+                continue
             f = features(g, meta, meds[a])
             edge = eligible(scores, a, f["sport"])
             if edge is not None and f["pregame"] and f["conv"] >= MIN_CONV:
@@ -405,10 +420,10 @@ def cmd_run():
     os.makedirs(STATE_DIR, exist_ok=True)
     sp = os.path.join(STATE_DIR, "scores.json")
     sc = json.load(open(sp, encoding="utf-8")) if os.path.exists(sp) else {}
-    if ts - sc.get("ts", 0) > RESCORE_SEC:
+    if ts - sc.get("ts", 0) > RESCORE_SEC or sc.get("v") != SCORE_V:
         names = pool()
         scores, _, _ = build_scores(names, ts - SCORE_DAYS * 86400, ts)
-        sc = {"ts": ts, "scored": iso(ts), "scores": scores}
+        sc = {"ts": ts, "scored": iso(ts), "scores": scores, "v": SCORE_V}
         save_json(sp, sc)
         log(f"rescored {len(scores)} wallets")
     scores = sc["scores"]
@@ -434,6 +449,12 @@ def cmd_run():
             if g["token"] in st["positions"]:
                 leader_sold(st, g, c5.price_at(g["token"], ts), ts, a)
             continue
+        sd = st.setdefault("sides", {}).setdefault(a, {})
+        idxs = sd.setdefault(g["cond"], [])
+        if g["idx"] not in idxs:
+            idxs.append(g["idx"])
+        if len(idxs) > 1:   # leader holds both sides of this market: not a pick
+            continue
         f = features(g, meta, scores[a].get("median_usd"), at=ts)
         edge = eligible(scores, a, f["sport"])
         if edge is None or not f["pregame"]:
@@ -446,6 +467,9 @@ def cmd_run():
         if not passes(f, px):
             recent.append([ts, g["cond"], g["idx"], a])
     st["recent"] = recent
+    for a, sd in st.get("sides", {}).items():   # keep the last 300 markets per wallet
+        if len(sd) > 300:
+            st["sides"][a] = dict(list(sd.items())[-300:])
     settle(st, meta, ts, live=True)
     eq = c5.settle_and_mark(st, c5.market_info([p["cond"] for p in st["positions"].values()]), ts)
     st["history"].append({"t": iso(ts), "equity": eq})
