@@ -6,7 +6,7 @@
 name: copy5
 on:
   schedule:
-    - cron: "*/30 * * * *"   # private repo: */30 keeps it inside the 2,000 free minutes; use */15 if public
+    - cron: "7,37 * * * *"   # twice an hour, off the busy :00/:30 marks (GitHub drops or delays those most)
   workflow_dispatch:
     inputs:
       backtest_days:
