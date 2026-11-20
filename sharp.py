@@ -51,7 +51,7 @@ RESCORE_SEC = 7 * 86400
 MAX_SCORE_BETS = 120     # per wallet, most recent, to bound API calls
 SCORE_PAGES = 16        # x500 fills per wallet when scoring, so busy wallets' history reaches back far enough
 WORKERS = 5
-SCORE_V = 2              # bump when the scoring rules change, to force a rescore on the next run
+SCORE_V = 3             # bump when the scoring rules change, to force a rescore on the next run
 
 
 # ---------------- data ----------------
@@ -70,11 +70,17 @@ def leaderboard(period, n):
     return out[:n]
 
 
+# Wallets rivo.markets badges as MARKET MAKER (checked 2026-11-19): they trade both sides for the spread,
+# so their buys aren't picks.
+MARKET_MAKERS = {"flaznorp", "uptheblues", "rn1", "homerunhazard", "ferrarichampions2026",
+                 "keeptheblueflagflyinghigh", "goallineghost", "takeormake"}
+
+
 def pool():
     names = dict(leaderboard("all", POOL_ALL))
     for a in c5.load_accounts():
         names.setdefault(a["addr"].lower(), a["name"])
-    return names
+    return {a: n for a, n in names.items() if str(n).lower() not in MARKET_MAKERS}
 
 
 def market_meta(conds):
