@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copy-5 Paper Accounts</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1b;--mute:#6b6b66;--line:#e4e3de;--pos:#1a7f4b;--neg:#c2362b;
+--c1:#2f6fd6;--c2:#d9822b;--c3:#2a9d8f;--c4:#a64ca6;--c5:#6b8e23}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--card:#1f1f1d;--ink:#ecebe6;--mute:#9b9a93;--line:#33322f;--pos:#4cc38a;--neg:#ff6b5e;
+--c1:#6ea0ff;--c2:#f0a35c;--c3:#4fc4b5;--c4:#d58ad5;--c5:#a3c35a}}
+:root[data-theme="dark"]{--bg:#151514;--card:#1f1f1d;--ink:#ecebe6;--mute:#9b9a93;--line:#33322f;--pos:#4cc38a;--neg:#ff6b5e;
+--c1:#6ea0ff;--c2:#f0a35c;--c3:#4fc4b5;--c4:#d58ad5;--c5:#a3c35a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
+.sub{color:var(--mute);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.card .nm{font-weight:600;display:flex;align-items:center;gap:6px}.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.card .eq{font-size:24px;font-weight:650;margin:4px 0 0;font-variant-numeric:tabular-nums}
+.card .row{display:flex;justify-content:space-between;font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:1px 7px;color:var(--mute)}
+#chart{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;position:relative}
+#chart svg{display:block;width:100%}
+#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font-size:12px;display:none;white-space:nowrap}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{color:var(--mute);font-weight:600}td.n,th.n{text-align:right}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-top:10px}
+summary{cursor:pointer;padding:10px 14px;font-weight:600}
+details .in{padding:0 14px 14px}
+.why{font-size:13px;color:var(--mute);margin:0 0 8px}
+a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+<h1>Copy-5 paper accounts</h1>
+<div class="sub" id="upd">Loading…</div>
+<div class="grid" id="cards"></div>
+<h2>Equity since start</h2>
+<div id="chart"><svg id="svg" height="280"></svg><div id="tip"></div></div>
+<h2>Backtests</h2>
+<p class="sub">Same rules replayed over each leader's past trades. "Instant" uses the leader's own price, which no copier can get; the delayed rows use the real price that many minutes later and are the fair comparison.</p>
+<div id="bt"></div>
+<h2>Accounts</h2>
+<div id="detail"></div>
+</main>
+<script>
+const COLORS=["--c1","--c2","--c3","--c4","--c5"].map(v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim());
+const $=s=>document.querySelector(s);
+const money=v=>(v<0?"−$":"$")+Math.abs(v).toFixed(2);
+const signed=v=>(v>0?"+":v<0?"−":"")+"$"+Math.abs(v).toFixed(2);
+const cls=v=>v>0?"pos":v<0?"neg":"";
+function el(tag,attrs={},kids=[]){const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==="text")e.textContent=v;else e.setAttribute(k,v)}for(const k of[].concat(kids))if(k!=null)e.append(k);return e}
+function table(cols,rows){const t=el("table");const h=el("tr");cols.forEach(c=>h.append(el("th",{class:c.n?"n":"",text:c.h})));t.append(el("thead",{},h));const b=el("tbody");
+rows.forEach(r=>{const tr=el("tr");cols.forEach(c=>{const v=c.f(r);const td=el("td",{class:(c.n?"n ":"")+(c.c?c.c(r):"")});if(v instanceof Node)td.append(v);else td.textContent=v??"";tr.append(td)});b.append(tr)});t.append(b);return el("div",{class:"tw"},t)}
+fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(draw).catch(e=>{$("#upd").textContent="Could not load data.json: "+e});
+function draw(d){
+ $("#upd").textContent=`Updated ${new Date(d.updated).toLocaleString()} · each account started with $${d.start} · ${Math.round(d.base_pct*100)}% of equity per normal-sized bet · paper only`;
+ d.accounts.forEach((a,i)=>{
+  const c=el("div",{class:"card",id:"card-"+a.id});
+  c.append(el("div",{class:"nm"},[el("span",{class:"dot",style:"background:"+COLORS[i]}),el("span",{text:a.id+" · "+a.name})]));
+  c.append(el("div",{class:"row"},[el("span",{text:a.focus||""}),el("span",{class:"tag",text:a.risk||""})]));
+  c.append(el("div",{class:"eq",text:money(a.equity)}));
+  const r=(l,v,k)=>el("div",{class:"row"},[el("span",{text:l}),el("span",{class:k||"",text:v})]);
+  c.append(r("P&L",signed(a.pnl)+" ("+(a.return_pct>0?"+":"")+a.return_pct+"%)",cls(a.pnl)));
+  c.append(r("After Kalshi fees",signed(a.pnl_after_kalshi_fees),cls(a.pnl_after_kalshi_fees)));
+  c.append(r("Won–lost",a.won+"–"+a.lost+(a.sold_early?` · ${a.sold_early} sold`:"")));
+  c.append(r("Open",a.open+" ($"+a.at_risk.toFixed(2)+")"));
+  c.append(r("Max drawdown",a.max_drawdown_pct+"%"));
+  $("#cards").append(c)});
+ chart(d);
+ const bt=d.backtest||{};const keys=Object.keys(bt);
+ if(!keys.length)$("#bt").append(el("p",{class:"sub",text:"No backtests yet."}));
+ const ids=d.accounts.map(a=>a.id);
+ const rows=ids.map(id=>{const r={id,name:(d.accounts.find(a=>a.id===id)||{}).name};keys.forEach(k=>{r[k]=(bt[k].accounts.find(x=>x.id===id))});return r});
+ if(keys.length){$("#bt").append(table([{h:"Leader",f:r=>r.id+" · "+r.name}].concat(keys.map(k=>({h:k+" (after fees)",n:1,f:r=>r[k]?signed(r[k].pnl_after_kalshi_fees)+"  ·  "+r[k].won+"–"+r[k].lost:"",c:r=>r[k]?cls(r[k].pnl_after_kalshi_fees):""}))),rows))}
+ d.accounts.forEach((a,i)=>{
+  const det=el("details",{id:"acct-"+a.id});
+  det.append(el("summary",{},[el("span",{class:"dot",style:"display:inline-block;margin-right:6px;background:"+COLORS[i]}),a.id+" · "+a.name+" — "+money(a.equity)]));
+  const inn=el("div",{class:"in"});
+  inn.append(el("p",{class:"why"},[el("a",{href:"https://polymarket.com/profile/"+a.addr,target:"_blank",rel:"noopener",text:"Polymarket profile"})," · ",
+   el("a",{href:"https://rivo.markets/trader/polymarket/"+a.addr,target:"_blank",rel:"noopener",text:"rivo.markets"}),
+   a.rivo?` · rivo: ${a.rivo.record}, ${a.rivo.win} won, ${a.rivo.return} return, copy score ${a.rivo.copy_score}`:"",a.why?" — "+a.why:""]));
+  inn.append(el("h3",{style:"font-size:14px;margin:10px 0 6px",text:"Open positions"}));
+  inn.append(a.positions.length?table([{h:"Market",f:p=>p.title},{h:"Pick",f:p=>p.outcome},{h:"Cost",n:1,f:p=>money(p.cost)},{h:"Avg",n:1,f:p=>p.avg!=null?(p.avg*100).toFixed(0)+"¢":""},{h:"Now",n:1,f:p=>p.mark!=null?(p.mark*100).toFixed(0)+"¢":""}],a.positions):el("p",{class:"sub",text:"None."}));
+  inn.append(el("h3",{style:"font-size:14px;margin:12px 0 6px",text:"Recent copies and skips"}));
+  inn.append(a.log.length?table([{h:"Time",f:l=>new Date(l.ts).toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})},{h:"Action",f:l=>l.kind},{h:"Market",f:l=>l.title},{h:"Pick",f:l=>l.outcome},
+   {h:"Leader $",n:1,f:l=>"$"+Math.round(l.leader_usd).toLocaleString()},{h:"Leader px",n:1,f:l=>l.leader_price!=null?(l.leader_price*100).toFixed(0)+"¢":""},{h:"Our px",n:1,f:l=>l.price!=null?(l.price*100).toFixed(0)+"¢":""},{h:"Stake / note",f:l=>l.stake!=null?money(l.stake):l.reason||(l.pnl!=null?signed(l.pnl):"")}],a.log.slice(0,40)):el("p",{class:"sub",text:"Nothing copied yet."}));
+  inn.append(el("h3",{style:"font-size:14px;margin:12px 0 6px",text:"Closed"}));
+  inn.append(a.closed.length?table([{h:"Closed",f:c=>new Date(c.ts).toLocaleDateString()},{h:"Market",f:c=>c.title},{h:"Pick",f:c=>c.outcome},{h:"How",f:c=>c.how},{h:"Cost",n:1,f:c=>money(c.cost)},{h:"P&L",n:1,f:c=>signed(c.pnl),c:c=>cls(c.pnl)}],a.closed.slice(0,40)):el("p",{class:"sub",text:"Nothing settled yet."}));
+  det.append(inn);$("#detail").append(det)});
+}
+function chart(d){
+ const svg=$("#svg"),W=svg.clientWidth||600,H=280,P={l:44,r:12,t:12,b:24};svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+ const S=d.accounts.map(a=>a.history.map(h=>({t:+new Date(h.t),v:h.equity})));
+ const all=S.flat();if(all.length<2){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle" fill="currentColor" opacity=".6" font-size="13">The chart fills in after a few runs.</text>`;return}
+ const t0=Math.min(...all.map(p=>p.t)),t1=Math.max(...all.map(p=>p.t));let v0=Math.min(d.start,...all.map(p=>p.v)),v1=Math.max(d.start,...all.map(p=>p.v));const pad=(v1-v0)*.08||5;v0-=pad;v1+=pad;
+ const x=t=>P.l+(t-t0)/(t1-t0||1)*(W-P.l-P.r),y=v=>P.t+(1-(v-v0)/(v1-v0))*(H-P.t-P.b);
+ let s="";const ticks=5;for(let i=0;i<=ticks;i++){const v=v0+(v1-v0)*i/ticks;s+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y(v)}" y2="${y(v)}" stroke="currentColor" opacity=".08"/><text x="${P.l-6}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">$${v.toFixed(0)}</text>`}
+ s+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y(d.start)}" y2="${y(d.start)}" stroke="currentColor" opacity=".35" stroke-dasharray="4 4"/>`;
+ (t1-t0<3600e3?[t0]:[t0,(t0+t1)/2,t1]).forEach((t,i)=>{s+=`<text x="${x(t)}" y="${H-6}" text-anchor="${["start","middle","end"][i]}" font-size="11" fill="currentColor" opacity=".6">${new Date(t).toLocaleDateString([], {month:"short",day:"numeric"})}</text>`});
+ S.forEach((ser,i)=>{if(ser.length)s+=`<path d="${ser.map((p,j)=>(j?"L":"M")+x(p.t).toFixed(1)+","+y(p.v).toFixed(1)).join("")}" fill="none" stroke="${COLORS[i]}" stroke-width="2"/>`});
+ s+=`<line id="hl" y1="${P.t}" y2="${H-P.b}" stroke="currentColor" opacity="0"/>`;svg.innerHTML=s;
+ const tip=$("#tip"),hl=$("#hl");
+ svg.onmousemove=e=>{const r=svg.getBoundingClientRect(),mx=(e.clientX-r.left)*W/r.width;if(mx<P.l)return;const t=t0+(mx-P.l)/(W-P.l-P.r)*(t1-t0);
+  hl.setAttribute("x1",mx);hl.setAttribute("x2",mx);hl.setAttribute("opacity",".3");
+  const lines=d.accounts.map((a,i)=>{const ser=S[i];let p=null;for(const q of ser){if(q.t<=t)p=q;else break}return p?`<div><span style="color:${COLORS[i]}">●</span> ${a.name}: $${p.v.toFixed(2)}</div>`:""}).join("");
+  tip.innerHTML=`<div style="opacity:.7">${new Date(t).toLocaleString()}</div>`+lines;tip.style.display="block";
+  const left=Math.min(e.clientX-r.left+12,r.width-tip.offsetWidth-4);tip.style.left=Math.max(4,left)+"px";tip.style.top="10px"};
+ svg.onmouseleave=()=>{tip.style.display="none";hl.setAttribute("opacity","0")};
+}
+</script>
+</body>
+</html>
