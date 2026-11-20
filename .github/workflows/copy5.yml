@@ -23,7 +23,7 @@ concurrency: copy5
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,11 +35,16 @@ jobs:
       - name: Backtest
         if: ${{ inputs.backtest_days }}
         run: python copy5.py backtest --days "${{ inputs.backtest_days }}" --delay "${{ inputs.delay_min }}"
+      - name: Sharp Filter (rescores its wallet pool weekly; that run takes ~10 min)
+        if: ${{ !inputs.backtest_days }}
+        continue-on-error: true
+        run: python sharp.py run
       - name: Save results
         run: |
           git config user.name "copy5-bot"
           git config user.email "copy5-bot@users.noreply.github.com"
           git add copy5_state docs REPORT_copy5.md
+          git add sharp_state REPORT_sharp.md 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "copy5 run $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
