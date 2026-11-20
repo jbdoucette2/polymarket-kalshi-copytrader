@@ -519,6 +519,27 @@ def write_report(st, sc):
                  f"{ws['won']}-{ws['lost']}, copied {ws['copied']}, skipped {ws['skipped']}.\n")
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("\n".join(L) + "\n")
+    # Same data as JSON for the phone page (copied into it by the hourly Claude routine).
+    wallets = []
+    for a, v in sorted(scores.items(), key=lambda x: -x[1]["edge"]):
+        good = [{"sport": sp, "edge": x["edge"], "n": x["n"]} for sp, x in v["sports"].items()
+                if eligible(scores, a, sp) is not None]
+        if good:
+            wallets.append({"addr": a, "name": v.get("name", a[:10]), "n": v["n"], "edge": v["edge"],
+                            "sports": good, "benched": a in st["bench"]})
+    wfd = None
+    if os.path.exists(wf):
+        ws = w["summary"]
+        wfd = {"run": w["run"], "days": w["days"], "equity": ws["equity"], "pnl": ws["pnl"],
+               "pnl_after_kalshi_fees": ws["pnl_after_kalshi_fees"], "won": ws["won"], "lost": ws["lost"],
+               "copied": ws["copied"], "skipped": ws["skipped"]}
+    s.update({"history": st["history"][-1500:], "scored": sc.get("scored"), "wallets": wallets, "walkforward": wfd,
+              "positions": [{"title": p["title"], "outcome": p["outcome"], "leader": p.get("leader_name"),
+                             "cost": round(p["cost"], 2), "avg": round(p["cost"] / p["shares"], 3) if p["shares"] else None,
+                             "mark": p.get("mark")} for p in st["positions"].values()],
+              "closed": st["closed"][-60:][::-1], "log": st["log"][-60:][::-1], "updated": iso(now_ts()),
+              "start": st["start"]})
+    save_json(os.path.join(HERE, "docs", "sharp.json"), s)
 
 
 def main():
