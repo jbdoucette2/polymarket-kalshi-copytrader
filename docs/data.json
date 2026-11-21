@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:20:45+00:00",
+ "updated": "2026-11-21T03:21:03+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,22 +9,22 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 103.17,
+   "equity": 88.89,
    "cash": 88.02,
-   "pnl": 3.17,
-   "pnl_after_kalshi_fees": 2.63,
-   "return_pct": 3.2,
-   "realized": 0,
+   "pnl": -11.11,
+   "pnl_after_kalshi_fees": -11.65,
+   "return_pct": -11.1,
+   "realized": -7.28,
    "kalshi_fees": 0.54,
-   "settled": 0,
+   "settled": 2,
    "won": 0,
-   "lost": 0,
+   "lost": 2,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 11.98,
+   "open": 1,
+   "at_risk": 4.7,
    "copied": 3,
    "skipped": 3,
-   "max_drawdown_pct": 3.5,
+   "max_drawdown_pct": 16.9,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -93,29 +93,13 @@
     {
      "t": "2026-11-21T02:20:43+00:00",
      "equity": 103.17
+    },
+    {
+     "t": "2026-11-21T03:21:00+00:00",
+     "equity": 88.89
     }
    ],
    "positions": [
-    {
-     "title": "Spread: Hawks (-7.5)",
-     "outcome": "Hornets",
-     "event_slug": "nba-cha-atl-2026-11-20",
-     "cost": 6.0,
-     "shares": 11.01,
-     "avg": 0.545,
-     "mark": 0.0005,
-     "opened": "2026-11-20T23:40:23+00:00"
-    },
-    {
-     "title": "Spread: Hawks (-6.5)",
-     "outcome": "Hornets",
-     "event_slug": "nba-cha-atl-2026-11-20",
-     "cost": 1.28,
-     "shares": 2.59,
-     "avg": 0.495,
-     "mark": 0.0005,
-     "opened": "2026-11-20T23:40:46+00:00"
-    },
     {
      "title": "Pelicans vs. Thunder",
      "outcome": "Pelicans",
@@ -123,11 +107,34 @@
      "cost": 4.7,
      "shares": 34.81,
      "avg": 0.135,
-     "mark": 0.435,
+     "mark": 0.025,
      "opened": "2026-11-21T01:08:58+00:00"
     }
    ],
-   "closed": [],
+   "closed": [
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "title": "Spread: Hawks (-6.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "cost": 1.28,
+     "pnl": -1.28,
+     "kfee": 0.05,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "title": "Spread: Hawks (-7.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    }
+   ],
    "log": [
     {
      "ts": "2026-11-21T01:20:34+00:00",
@@ -289,6 +296,10 @@
     {
      "t": "2026-11-21T02:20:43+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T03:21:00+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -300,20 +311,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 79.18,
-   "cash": 59.33,
-   "pnl": -20.82,
-   "pnl_after_kalshi_fees": -22.19,
-   "return_pct": -20.8,
-   "realized": -6.0,
-   "kalshi_fees": 1.37,
-   "settled": 1,
+   "equity": 82.17,
+   "cash": 49.17,
+   "pnl": -17.83,
+   "pnl_after_kalshi_fees": -19.46,
+   "return_pct": -17.8,
+   "realized": -12.0,
+   "kalshi_fees": 1.63,
+   "settled": 2,
    "won": 0,
-   "lost": 1,
+   "lost": 2,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 34.67,
-   "copied": 7,
+   "open": 7,
+   "at_risk": 38.83,
+   "copied": 9,
    "skipped": 1,
    "max_drawdown_pct": 20.8,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -384,6 +395,10 @@
     {
      "t": "2026-11-21T02:20:43+00:00",
      "equity": 79.18
+    },
+    {
+     "t": "2026-11-21T03:21:00+00:00",
+     "equity": 82.17
     }
    ],
    "positions": [
@@ -394,18 +409,8 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.325,
+     "mark": 0.335,
      "opened": "2026-11-20T20:31:04+00:00"
-    },
-    {
-     "title": "Spread: Southern Illinois Salukis (-1.5)",
-     "outcome": "Southern Illinois Salukis",
-     "event_slug": "cbb-tmrt-sill-2026-11-20",
-     "cost": 6.0,
-     "shares": 11.01,
-     "avg": 0.545,
-     "mark": 0.0005,
-     "opened": "2026-11-20T22:18:41+00:00"
     },
     {
      "title": "Pelicans vs. Thunder",
@@ -414,7 +419,7 @@
      "cost": 4.67,
      "shares": 5.59,
      "avg": 0.835,
-     "mark": 0.565,
+     "mark": 0.975,
      "opened": "2026-11-20T23:05:02+00:00"
     },
     {
@@ -424,7 +429,7 @@
      "cost": 6.0,
      "shares": 11.65,
      "avg": 0.515,
-     "mark": 0.165,
+     "mark": 0.0005,
      "opened": "2026-11-21T00:06:31+00:00"
     },
     {
@@ -434,7 +439,7 @@
      "cost": 6.0,
      "shares": 11.11,
      "avg": 0.54,
-     "mark": 0.305,
+     "mark": 0.54,
      "opened": "2026-11-21T00:28:25+00:00"
     },
     {
@@ -446,9 +451,40 @@
      "avg": 0.485,
      "mark": 0.475,
      "opened": "2026-11-21T01:03:26+00:00"
+    },
+    {
+     "title": "Houston vs. West Virginia: O/U 71.5",
+     "outcome": "Under",
+     "event_slug": "cfb-hou-wvir-2026-11-21",
+     "cost": 4.52,
+     "shares": 8.53,
+     "avg": 0.53,
+     "mark": 0.52,
+     "opened": "2026-11-21T03:04:11+00:00"
+    },
+    {
+     "title": "Utah vs. TCU",
+     "outcome": "Utah",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 5.64,
+     "shares": 7.67,
+     "avg": 0.735,
+     "mark": 0.725,
+     "opened": "2026-11-21T03:14:01+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "title": "Spread: Southern Illinois Salukis (-1.5)",
+     "outcome": "Southern Illinois Salukis",
+     "event_slug": "cbb-tmrt-sill-2026-11-20",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T02:20:43+00:00",
      "title": "Spread: Miami Hurricanes (-35.5)",
@@ -462,6 +498,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Utah vs. TCU",
+     "outcome": "Utah",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "leader_usd": 878.92,
+     "stake": 5.64,
+     "price": 0.735,
+     "leader_price": 0.73,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Houston vs. West Virginia: O/U 71.5",
+     "outcome": "Under",
+     "event_slug": "cfb-hou-wvir-2026-11-21",
+     "leader_usd": 424.18,
+     "stake": 4.52,
+     "price": 0.53,
+     "leader_price": 0.51,
+     "mult": 1.6
+    },
     {
      "ts": "2026-11-21T01:20:34+00:00",
      "kind": "buy",
@@ -648,6 +708,10 @@
     {
      "t": "2026-11-21T02:20:43+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T03:21:00+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -659,11 +723,11 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.88,
+   "equity": 102.85,
    "cash": 95.73,
-   "pnl": -0.12,
-   "pnl_after_kalshi_fees": -0.26,
-   "return_pct": -0.1,
+   "pnl": 2.85,
+   "pnl_after_kalshi_fees": 2.71,
+   "return_pct": 2.8,
    "realized": 0,
    "kalshi_fees": 0.14,
    "settled": 0,
@@ -673,7 +737,7 @@
    "open": 1,
    "at_risk": 4.27,
    "copied": 1,
-   "skipped": 0,
+   "skipped": 2,
    "max_drawdown_pct": 0.1,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -743,6 +807,10 @@
     {
      "t": "2026-11-21T02:20:43+00:00",
      "equity": 99.88
+    },
+    {
+     "t": "2026-11-21T03:21:00+00:00",
+     "equity": 102.85
     }
    ],
    "positions": [
@@ -753,12 +821,34 @@
      "cost": 4.27,
      "shares": 7.91,
      "avg": 0.54,
-     "mark": 0.525,
+     "mark": 0.9,
      "opened": "2026-11-21T02:18:23+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "kind": "skip",
+     "title": "Shai Gilgeous-Alexander: Points O/U 34.5",
+     "outcome": "Yes",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "leader_usd": 8.82,
+     "reason": "too late: outcome already decided",
+     "price": 0.998,
+     "leader_price": 0.97
+    },
+    {
+     "ts": "2026-11-21T03:21:00+00:00",
+     "kind": "skip",
+     "title": "Shai Gilgeous-Alexander: Points O/U 32.5",
+     "outcome": "Yes",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "leader_usd": 4.9,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.97
+    },
     {
      "ts": "2026-11-21T02:20:43+00:00",
      "kind": "buy",
