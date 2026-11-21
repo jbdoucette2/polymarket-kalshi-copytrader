@@ -3,19 +3,19 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 98.17,
- "cash": 96.43,
- "pnl": -1.83,
- "pnl_after_kalshi_fees": -1.95,
- "return_pct": -1.8,
- "realized": 0,
+ "equity": 102.98,
+ "cash": 102.98,
+ "pnl": 2.98,
+ "pnl_after_kalshi_fees": 2.86,
+ "return_pct": 3.0,
+ "realized": 2.98,
  "kalshi_fees": 0.12,
- "settled": 0,
- "won": 0,
+ "settled": 1,
+ "won": 1,
  "lost": 0,
  "sold_early": 0,
- "open": 1,
- "at_risk": 3.57,
+ "open": 0,
+ "at_risk": 0,
  "copied": 1,
  "skipped": 1,
  "max_drawdown_pct": 1.8,
@@ -83,6 +83,10 @@
   {
    "t": "2026-11-21T05:20:40+00:00",
    "equity": 98.17
+  },
+  {
+   "t": "2026-11-21T06:20:53+00:00",
+   "equity": 102.98
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -127,17 +131,20 @@
   "copied": 140,
   "skipped": 782
  },
- "positions": [
+ "positions": [],
+ "closed": [
   {
+   "ts": "2026-11-21T06:20:53+00:00",
    "title": "Rockets vs. Nuggets",
    "outcome": "Nuggets",
-   "leader": "omnibus-076daa",
+   "event_slug": "nba-hou-den-2026-11-20",
    "cost": 3.57,
-   "avg": 0.545,
-   "mark": 0.265
+   "pnl": 2.98,
+   "kfee": 0.12,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
- "closed": [],
  "log": [
   {
    "ts": "2026-11-20T18:56:15+00:00",
@@ -166,6 +173,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-21T05:20:41+00:00",
+ "updated": "2026-11-21T06:20:54+00:00",
  "start": 100.0
 }

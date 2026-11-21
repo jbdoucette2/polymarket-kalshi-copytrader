@@ -3,31 +3,25 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 96.43,
+ "cash": 102.9805,
  "since": 1795200975,
  "last_ts": 1795200975,
- "positions": {
-  "26440765375097139299484482111322143601951907925964391946264161492264204121290": {
-   "cond": "0xd2ec06b5026f7da6ba5c3d71c50287854ecd72b0353524e641724e35c202bb6a",
-   "idx": 1,
-   "outcome": "Nuggets",
-   "title": "Rockets vs. Nuggets",
-   "slug": "nba-hou-den-2026-11-20",
-   "event_slug": "nba-hou-den-2026-11-20",
-   "shares": 6.55045871559633,
-   "cost": 3.57,
-   "kfee": 0.12,
-   "opened": "2026-11-20T18:56:15+00:00",
-   "leader": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
-   "leader_name": "omnibus-076daa",
-   "leader_shares": 947.981131,
-   "edge": 0.0625,
-   "mark": 0.265
-  }
- },
+ "positions": {},
  "leader_shares": {},
  "median_usd": null,
- "closed": [],
+ "closed": [
+  {
+   "ts": "2026-11-21T06:20:53+00:00",
+   "title": "Rockets vs. Nuggets",
+   "outcome": "Nuggets",
+   "event_slug": "nba-hou-den-2026-11-20",
+   "cost": 3.57,
+   "pnl": 2.98,
+   "kfee": 0.12,
+   "how": "won",
+   "exit_price": 1.0
+  }
+ ],
  "log": [
   {
    "ts": "2026-11-20T18:56:15+00:00",
@@ -120,6 +114,10 @@
   {
    "t": "2026-11-21T05:20:40+00:00",
    "equity": 98.17
+  },
+  {
+   "t": "2026-11-21T06:20:53+00:00",
+   "equity": 102.98
   }
  ],
  "kfees": 0.12,
@@ -139,7 +137,13 @@
  "day": {
   "2026-11-20": 3.57
  },
- "live": {},
+ "live": {
+  "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
+   "n": 1,
+   "net": 2.86,
+   "cost": 3.57
+  }
+ },
  "bench": [],
  "recent": [
   [

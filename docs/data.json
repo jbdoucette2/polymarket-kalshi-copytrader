@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T05:20:40+00:00",
+ "updated": "2026-11-21T06:20:53+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -104,6 +104,10 @@
     },
     {
      "t": "2026-11-21T05:20:38+00:00",
+     "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T06:20:50+00:00",
      "equity": 88.02
     }
    ],
@@ -316,6 +320,10 @@
     {
      "t": "2026-11-21T05:20:38+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T06:20:50+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -327,11 +335,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.13,
+   "equity": 75.96,
    "cash": 44.86,
-   "pnl": -23.87,
-   "pnl_after_kalshi_fees": -25.86,
-   "return_pct": -23.9,
+   "pnl": -24.04,
+   "pnl_after_kalshi_fees": -26.03,
+   "return_pct": -24.0,
    "realized": -23.08,
    "kalshi_fees": 1.99,
    "settled": 5,
@@ -342,7 +350,7 @@
    "at_risk": 32.06,
    "copied": 11,
    "skipped": 2,
-   "max_drawdown_pct": 23.9,
+   "max_drawdown_pct": 24.0,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -423,6 +431,10 @@
     {
      "t": "2026-11-21T05:20:38+00:00",
      "equity": 76.13
+    },
+    {
+     "t": "2026-11-21T06:20:50+00:00",
+     "equity": 75.96
     }
    ],
    "positions": [
@@ -433,7 +445,7 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.335,
+     "mark": 0.325,
      "opened": "2026-11-20T20:31:04+00:00"
     },
     {
@@ -802,6 +814,10 @@
     {
      "t": "2026-11-21T05:20:38+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T06:20:50+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -813,22 +829,22 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 103.02,
-   "cash": 94.46,
-   "pnl": 3.02,
-   "pnl_after_kalshi_fees": 2.39,
-   "return_pct": 3.0,
-   "realized": 3.64,
+   "equity": 99.99,
+   "cash": 99.99,
+   "pnl": -0.01,
+   "pnl_after_kalshi_fees": -0.64,
+   "return_pct": -0.0,
+   "realized": -0.01,
    "kalshi_fees": 0.63,
-   "settled": 1,
-   "won": 1,
-   "lost": 0,
+   "settled": 3,
+   "won": 2,
+   "lost": 1,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 9.18,
+   "open": 0,
+   "at_risk": 0,
    "copied": 3,
-   "skipped": 6,
-   "max_drawdown_pct": 0.6,
+   "skipped": 8,
+   "max_drawdown_pct": 3.5,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
    "rivo": {
@@ -909,31 +925,36 @@
     {
      "t": "2026-11-21T05:20:38+00:00",
      "equity": 103.02
-    }
-   ],
-   "positions": [
-    {
-     "title": "Collin Gillespie: Rebounds O/U 3.5",
-     "outcome": "Yes",
-     "event_slug": "nba-phx-uta-2026-11-20",
-     "cost": 2.96,
-     "shares": 5.53,
-     "avg": 0.535,
-     "mark": 0.525,
-     "opened": "2026-11-21T04:29:13+00:00"
     },
     {
+     "t": "2026-11-21T06:20:50+00:00",
+     "equity": 99.99
+    }
+   ],
+   "positions": [],
+   "closed": [
+    {
+     "ts": "2026-11-21T06:20:50+00:00",
      "title": "Miles Bridges: Points O/U 19.5",
      "outcome": "Yes",
      "event_slug": "nba-phx-uta-2026-11-20",
      "cost": 6.22,
-     "shares": 56.55,
-     "avg": 0.11,
-     "mark": 0.1,
-     "opened": "2026-11-21T04:54:55+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -6.22,
+     "kfee": 0.39,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-21T06:20:50+00:00",
+     "title": "Collin Gillespie: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "cost": 2.96,
+     "pnl": 2.57,
+     "kfee": 0.1,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-21T04:20:30+00:00",
      "title": "Javonte Green: Points O/U 9.5",
@@ -947,6 +968,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T06:20:50+00:00",
+     "kind": "skip",
+     "title": "Rockets vs. Nuggets: O/U 252.5",
+     "outcome": "Over",
+     "event_slug": "nba-hou-den-2026-11-20",
+     "leader_usd": 6.82,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.61
+    },
+    {
+     "ts": "2026-11-21T06:20:50+00:00",
+     "kind": "skip",
+     "title": "Rockets vs. Nuggets: O/U 250.5",
+     "outcome": "Over",
+     "event_slug": "nba-hou-den-2026-11-20",
+     "leader_usd": 45.34,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.907
+    },
     {
      "ts": "2026-11-21T05:20:38+00:00",
      "kind": "buy",
