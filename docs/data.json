@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:20:49+00:00",
+ "updated": "2026-11-21T12:20:49+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -133,6 +133,10 @@
     {
      "t": "2026-11-21T11:20:47+00:00",
      "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T12:20:46+00:00",
+     "equity": 88.02
     }
    ],
    "positions": [],
@@ -248,21 +252,21 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.0,
-   "cash": 100.0,
-   "pnl": 0.0,
-   "pnl_after_kalshi_fees": 0.0,
-   "return_pct": 0.0,
+   "equity": 99.98,
+   "cash": 98.95,
+   "pnl": -0.02,
+   "pnl_after_kalshi_fees": -0.06,
+   "return_pct": -0.0,
    "realized": 0,
-   "kalshi_fees": 0.0,
+   "kalshi_fees": 0.04,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 0,
-   "skipped": 0,
+   "open": 1,
+   "at_risk": 1.05,
+   "copied": 1,
+   "skipped": 1,
    "max_drawdown_pct": 0.0,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -372,11 +376,50 @@
     {
      "t": "2026-11-21T11:20:47+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T12:20:46+00:00",
+     "equity": 99.98
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Spread: Utah (-7.5)",
+     "outcome": "TCU",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 1.05,
+     "shares": 2.12,
+     "avg": 0.495,
+     "mark": 0.485,
+     "opened": "2026-11-21T12:04:58+00:00"
+    }
+   ],
    "closed": [],
-   "log": []
+   "log": [
+    {
+     "ts": "2026-11-21T12:20:46+00:00",
+     "kind": "skip",
+     "title": "Spread: Oklahoma State (-2.5)",
+     "outcome": "Arizona State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "leader_usd": 28.43,
+     "reason": "below $1 minimum",
+     "price": 0.495,
+     "leader_price": 0.49
+    },
+    {
+     "ts": "2026-11-21T12:20:46+00:00",
+     "kind": "buy",
+     "title": "Spread: Utah (-7.5)",
+     "outcome": "TCU",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "leader_usd": 480.04,
+     "stake": 1.05,
+     "price": 0.495,
+     "leader_price": 0.49,
+     "mult": 0.35
+    }
+   ]
   },
   {
    "id": "C",
@@ -506,6 +549,10 @@
     },
     {
      "t": "2026-11-21T11:20:47+00:00",
+     "equity": 75.95
+    },
+    {
+     "t": "2026-11-21T12:20:46+00:00",
      "equity": 75.95
     }
    ],
@@ -914,6 +961,10 @@
     {
      "t": "2026-11-21T11:20:47+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T12:20:46+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -1048,6 +1099,10 @@
     },
     {
      "t": "2026-11-21T11:20:47+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T12:20:46+00:00",
      "equity": 99.99
     }
    ],
