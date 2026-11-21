@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:20:55+00:00",
+ "updated": "2026-11-21T18:20:51+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,21 +9,21 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 84.79,
-   "cash": 66.37,
-   "pnl": -15.21,
-   "pnl_after_kalshi_fees": -16.38,
-   "return_pct": -15.2,
-   "realized": -11.98,
-   "kalshi_fees": 1.17,
-   "settled": 3,
-   "won": 0,
-   "lost": 3,
+   "equity": 86.52,
+   "cash": 64.83,
+   "pnl": -13.48,
+   "pnl_after_kalshi_fees": -14.8,
+   "return_pct": -13.5,
+   "realized": -12.59,
+   "kalshi_fees": 1.32,
+   "settled": 5,
+   "won": 1,
+   "lost": 4,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 21.65,
-   "copied": 9,
-   "skipped": 5,
+   "open": 4,
+   "at_risk": 22.58,
+   "copied": 10,
+   "skipped": 6,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
    "risk": "High",
@@ -161,6 +161,10 @@
     {
      "t": "2026-11-21T17:20:51+00:00",
      "equity": 84.79
+    },
+    {
+     "t": "2026-11-21T18:20:47+00:00",
+     "equity": 86.52
     }
    ],
    "positions": [
@@ -175,33 +179,13 @@
      "opened": "2026-11-21T16:33:41+00:00"
     },
     {
-     "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
-     "outcome": "Alessandro Costa",
-     "event_slug": "ufc-ami-ale35-2026-11-21",
-     "cost": 2.91,
-     "shares": 5.34,
-     "avg": 0.545,
-     "mark": 0.0005,
-     "opened": "2026-11-21T16:34:25+00:00"
-    },
-    {
-     "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
-     "outcome": "Tallison Teixeira",
-     "event_slug": "ufc-sha27-tal2-2026-11-21",
-     "cost": 1.44,
-     "shares": 3.74,
-     "avg": 0.385,
-     "mark": 0.375,
-     "opened": "2026-11-21T16:35:04+00:00"
-    },
-    {
      "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
      "outcome": "Ikram Aliskerov",
      "event_slug": "ufc-jar-ikr-2026-11-21",
-     "cost": 4.99,
-     "shares": 6.44,
-     "avg": 0.775,
-     "mark": 0.765,
+     "cost": 10.27,
+     "shares": 15.17,
+     "avg": 0.677,
+     "mark": 0.63,
      "opened": "2026-11-21T16:36:58+00:00"
     },
     {
@@ -211,7 +195,7 @@
      "cost": 1.75,
      "shares": 4.43,
      "avg": 0.395,
-     "mark": 0.385,
+     "mark": 0.395,
      "opened": "2026-11-21T16:37:46+00:00"
     },
     {
@@ -226,6 +210,28 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
+     "outcome": "Tallison Teixeira",
+     "event_slug": "ufc-sha27-tal2-2026-11-21",
+     "cost": 1.44,
+     "pnl": 2.3,
+     "kfee": 0.07,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
+     "outcome": "Alessandro Costa",
+     "event_slug": "ufc-ami-ale35-2026-11-21",
+     "cost": 2.91,
+     "pnl": -2.91,
+     "kfee": 0.1,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T04:20:30+00:00",
      "title": "Pelicans vs. Thunder",
@@ -261,6 +267,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+     "outcome": "Ikram Aliskerov",
+     "event_slug": "ufc-jar-ikr-2026-11-21",
+     "leader_usd": 39782.66,
+     "stake": 5.28,
+     "price": 0.605,
+     "leader_price": 0.77,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "skip",
+     "title": "Will Arsenal FC win on 2026-11-21?",
+     "outcome": "Yes",
+     "event_slug": "epl-new-ars-2026-11-21",
+     "leader_usd": 542.07,
+     "reason": "price ran away (0.65 -> 0.83)",
+     "price": 0.835,
+     "leader_price": 0.65
+    },
     {
      "ts": "2026-11-21T17:20:51+00:00",
      "kind": "skip",
@@ -431,20 +460,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 101.69,
-   "cash": 80.5,
-   "pnl": 1.69,
-   "pnl_after_kalshi_fees": 1.01,
-   "return_pct": 1.7,
+   "equity": 103.6,
+   "cash": 77.05,
+   "pnl": 3.6,
+   "pnl_after_kalshi_fees": 2.79,
+   "return_pct": 3.6,
    "realized": 0,
-   "kalshi_fees": 0.68,
+   "kalshi_fees": 0.81,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 19.5,
-   "copied": 5,
+   "open": 6,
+   "at_risk": 22.95,
+   "copied": 6,
    "skipped": 5,
    "max_drawdown_pct": 0.3,
    "focus": "College football, NFL",
@@ -583,6 +612,10 @@
     {
      "t": "2026-11-21T17:20:51+00:00",
      "equity": 101.69
+    },
+    {
+     "t": "2026-11-21T18:20:47+00:00",
+     "equity": 103.6
     }
    ],
    "positions": [
@@ -613,7 +646,7 @@
      "cost": 6.0,
      "shares": 12.63,
      "avg": 0.475,
-     "mark": 0.53,
+     "mark": 0.715,
      "opened": "2026-11-21T15:44:05+00:00"
     },
     {
@@ -623,7 +656,7 @@
      "cost": 3.9,
      "shares": 6.45,
      "avg": 0.605,
-     "mark": 0.805,
+     "mark": 0.635,
      "opened": "2026-11-21T16:27:37+00:00"
     },
     {
@@ -633,12 +666,34 @@
      "cost": 2.55,
      "shares": 7.39,
      "avg": 0.345,
-     "mark": 0.325,
+     "mark": 0.425,
      "opened": "2026-11-21T16:58:29+00:00"
+    },
+    {
+     "title": "Florida International vs. Kennesaw State",
+     "outcome": "Florida International",
+     "event_slug": "cfb-flint-kenest-2026-11-21",
+     "cost": 3.45,
+     "shares": 7.26,
+     "avg": 0.475,
+     "mark": 0.465,
+     "opened": "2026-11-21T17:56:14+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "buy",
+     "title": "Florida International vs. Kennesaw State",
+     "outcome": "Florida International",
+     "event_slug": "cfb-flint-kenest-2026-11-21",
+     "leader_usd": 1465.33,
+     "stake": 3.45,
+     "price": 0.475,
+     "leader_price": 0.46,
+     "mult": 1.15
+    },
     {
      "ts": "2026-11-21T17:20:51+00:00",
      "kind": "skip",
@@ -761,11 +816,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.17,
+   "equity": 73.0,
    "cash": 0.0,
-   "pnl": -22.83,
-   "pnl_after_kalshi_fees": -26.41,
-   "return_pct": -22.8,
+   "pnl": -27.0,
+   "pnl_after_kalshi_fees": -30.58,
+   "return_pct": -27.0,
    "realized": -23.08,
    "kalshi_fees": 3.58,
    "settled": 5,
@@ -775,8 +830,8 @@
    "open": 16,
    "at_risk": 76.92,
    "copied": 23,
-   "skipped": 5,
-   "max_drawdown_pct": 24.5,
+   "skipped": 7,
+   "max_drawdown_pct": 27.0,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -913,6 +968,10 @@
     {
      "t": "2026-11-21T17:20:51+00:00",
      "equity": 77.17
+    },
+    {
+     "t": "2026-11-21T18:20:47+00:00",
+     "equity": 73.0
     }
    ],
    "positions": [
@@ -943,7 +1002,7 @@
      "cost": 4.52,
      "shares": 8.53,
      "avg": 0.53,
-     "mark": 0.495,
+     "mark": 0.27,
      "opened": "2026-11-21T03:04:11+00:00"
     },
     {
@@ -1003,7 +1062,7 @@
      "cost": 4.62,
      "shares": 9.33,
      "avg": 0.495,
-     "mark": 0.65,
+     "mark": 0.28,
      "opened": "2026-11-21T15:37:10+00:00"
     },
     {
@@ -1013,7 +1072,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.54,
+     "mark": 0.615,
      "opened": "2026-11-21T15:58:44+00:00"
     },
     {
@@ -1043,7 +1102,7 @@
      "cost": 1.21,
      "shares": 2.14,
      "avg": 0.565,
-     "mark": 0.555,
+     "mark": 0.66,
      "opened": "2026-11-21T16:49:50+00:00"
     },
     {
@@ -1063,7 +1122,7 @@
      "cost": 4.62,
      "shares": 6.2,
      "avg": 0.745,
-     "mark": 0.735,
+     "mark": 0.765,
      "opened": "2026-11-21T17:18:47+00:00"
     },
     {
@@ -1073,7 +1132,7 @@
      "cost": 4.62,
      "shares": 13.01,
      "avg": 0.355,
-     "mark": 0.345,
+     "mark": 0.355,
      "opened": "2026-11-21T17:18:56+00:00"
     }
    ],
@@ -1135,6 +1194,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "skip",
+     "title": "Pelicans vs. Spurs: O/U 228.5",
+     "outcome": "Under",
+     "event_slug": "nba-nop-sas-2026-11-21",
+     "leader_usd": 5304.5,
+     "reason": "out of cash",
+     "price": 0.525,
+     "leader_price": 0.5
+    },
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Brian Ortega vs. Dan Hooker (Lightweight, Main Card)",
+     "outcome": "Brian Ortega",
+     "event_slug": "ufc-bri3-dan6-2026-11-21",
+     "leader_usd": 640.85,
+     "reason": "out of cash",
+     "price": 0.355,
+     "leader_price": 0.35
+    },
     {
      "ts": "2026-11-21T17:20:51+00:00",
      "kind": "buy",
@@ -1473,22 +1554,22 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.0,
-   "cash": 100.0,
-   "pnl": 0.0,
-   "pnl_after_kalshi_fees": 0.0,
-   "return_pct": 0.0,
+   "equity": 99.91,
+   "cash": 94.0,
+   "pnl": -0.09,
+   "pnl_after_kalshi_fees": -0.25,
+   "return_pct": -0.1,
    "realized": 0,
-   "kalshi_fees": 0.0,
+   "kalshi_fees": 0.16,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 0,
+   "open": 1,
+   "at_risk": 6.0,
+   "copied": 1,
    "skipped": 0,
-   "max_drawdown_pct": 0.0,
+   "max_drawdown_pct": 0.1,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -1625,11 +1706,39 @@
     {
      "t": "2026-11-21T17:20:51+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T18:20:47+00:00",
+     "equity": 99.91
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "New England Revolution vs. Philadelphia Union: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "mls-ner-phi-2026-11-21-more-markets",
+     "cost": 6.0,
+     "shares": 9.45,
+     "avg": 0.635,
+     "mark": 0.625,
+     "opened": "2026-11-21T18:01:29+00:00"
+    }
+   ],
    "closed": [],
-   "log": []
+   "log": [
+    {
+     "ts": "2026-11-21T18:20:47+00:00",
+     "kind": "buy",
+     "title": "New England Revolution vs. Philadelphia Union: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "mls-ner-phi-2026-11-21-more-markets",
+     "leader_usd": 30270.41,
+     "stake": 6.0,
+     "price": 0.635,
+     "leader_price": 0.594,
+     "mult": 2.0
+    }
+   ]
   },
   {
    "id": "E",
@@ -1787,6 +1896,10 @@
     },
     {
      "t": "2026-11-21T17:20:51+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T18:20:47+00:00",
      "equity": 99.99
     }
    ],
