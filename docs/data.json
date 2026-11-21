@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:20:51+00:00",
+ "updated": "2026-11-21T19:20:59+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,21 +9,21 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 86.52,
-   "cash": 64.83,
-   "pnl": -13.48,
-   "pnl_after_kalshi_fees": -14.8,
-   "return_pct": -13.5,
-   "realized": -12.59,
+   "equity": 90.54,
+   "cash": 80.0,
+   "pnl": -9.46,
+   "pnl_after_kalshi_fees": -10.78,
+   "return_pct": -9.5,
+   "realized": -7.69,
    "kalshi_fees": 1.32,
-   "settled": 5,
-   "won": 1,
+   "settled": 6,
+   "won": 2,
    "lost": 4,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 22.58,
+   "open": 3,
+   "at_risk": 12.31,
    "copied": 10,
-   "skipped": 6,
+   "skipped": 7,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
    "risk": "High",
@@ -165,6 +165,10 @@
     {
      "t": "2026-11-21T18:20:47+00:00",
      "equity": 86.52
+    },
+    {
+     "t": "2026-11-21T19:20:55+00:00",
+     "equity": 90.54
     }
    ],
    "positions": [
@@ -179,23 +183,13 @@
      "opened": "2026-11-21T16:33:41+00:00"
     },
     {
-     "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
-     "outcome": "Ikram Aliskerov",
-     "event_slug": "ufc-jar-ikr-2026-11-21",
-     "cost": 10.27,
-     "shares": 15.17,
-     "avg": 0.677,
-     "mark": 0.63,
-     "opened": "2026-11-21T16:36:58+00:00"
-    },
-    {
      "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
      "outcome": "Asu Almabayev",
      "event_slug": "ufc-kyo-asu-2026-11-21",
      "cost": 1.75,
      "shares": 4.43,
      "avg": 0.395,
-     "mark": 0.395,
+     "mark": 0.0005,
      "opened": "2026-11-21T16:37:46+00:00"
     },
     {
@@ -205,11 +199,22 @@
      "cost": 5.28,
      "shares": 8.06,
      "avg": 0.655,
-     "mark": 0.645,
+     "mark": 0.665,
      "opened": "2026-11-21T16:38:55+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+     "outcome": "Ikram Aliskerov",
+     "event_slug": "ufc-jar-ikr-2026-11-21",
+     "cost": 10.27,
+     "pnl": 4.9,
+     "kfee": 0.23,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-21T18:20:47+00:00",
      "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
@@ -267,6 +272,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+     "outcome": "Asu Almabayev",
+     "event_slug": "ufc-kyo-asu-2026-11-21",
+     "leader_usd": 58786.47,
+     "reason": "too late: outcome already decided",
+     "price": 0.001,
+     "leader_price": 0.39
+    },
     {
      "ts": "2026-11-21T18:20:47+00:00",
      "kind": "buy",
@@ -460,11 +476,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 103.6,
+   "equity": 104.65,
    "cash": 77.05,
-   "pnl": 3.6,
-   "pnl_after_kalshi_fees": 2.79,
-   "return_pct": 3.6,
+   "pnl": 4.65,
+   "pnl_after_kalshi_fees": 3.84,
+   "return_pct": 4.7,
    "realized": 0,
    "kalshi_fees": 0.81,
    "settled": 0,
@@ -616,6 +632,10 @@
     {
      "t": "2026-11-21T18:20:47+00:00",
      "equity": 103.6
+    },
+    {
+     "t": "2026-11-21T19:20:55+00:00",
+     "equity": 104.65
     }
    ],
    "positions": [
@@ -646,7 +666,7 @@
      "cost": 6.0,
      "shares": 12.63,
      "avg": 0.475,
-     "mark": 0.715,
+     "mark": 0.75,
      "opened": "2026-11-21T15:44:05+00:00"
     },
     {
@@ -656,7 +676,7 @@
      "cost": 3.9,
      "shares": 6.45,
      "avg": 0.605,
-     "mark": 0.635,
+     "mark": 0.81,
      "opened": "2026-11-21T16:27:37+00:00"
     },
     {
@@ -666,7 +686,7 @@
      "cost": 2.55,
      "shares": 7.39,
      "avg": 0.345,
-     "mark": 0.425,
+     "mark": 0.355,
      "opened": "2026-11-21T16:58:29+00:00"
     },
     {
@@ -816,11 +836,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.0,
+   "equity": 72.4,
    "cash": 0.0,
-   "pnl": -27.0,
-   "pnl_after_kalshi_fees": -30.58,
-   "return_pct": -27.0,
+   "pnl": -27.6,
+   "pnl_after_kalshi_fees": -31.18,
+   "return_pct": -27.6,
    "realized": -23.08,
    "kalshi_fees": 3.58,
    "settled": 5,
@@ -830,8 +850,8 @@
    "open": 16,
    "at_risk": 76.92,
    "copied": 23,
-   "skipped": 7,
-   "max_drawdown_pct": 27.0,
+   "skipped": 13,
+   "max_drawdown_pct": 27.6,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -972,6 +992,10 @@
     {
      "t": "2026-11-21T18:20:47+00:00",
      "equity": 73.0
+    },
+    {
+     "t": "2026-11-21T19:20:55+00:00",
+     "equity": 72.4
     }
    ],
    "positions": [
@@ -992,7 +1016,7 @@
      "cost": 6.0,
      "shares": 12.37,
      "avg": 0.485,
-     "mark": 0.465,
+     "mark": 0.495,
      "opened": "2026-11-21T01:03:26+00:00"
     },
     {
@@ -1002,7 +1026,7 @@
      "cost": 4.52,
      "shares": 8.53,
      "avg": 0.53,
-     "mark": 0.27,
+     "mark": 0.18,
      "opened": "2026-11-21T03:04:11+00:00"
     },
     {
@@ -1062,7 +1086,7 @@
      "cost": 4.62,
      "shares": 9.33,
      "avg": 0.495,
-     "mark": 0.28,
+     "mark": 0.105,
      "opened": "2026-11-21T15:37:10+00:00"
     },
     {
@@ -1072,7 +1096,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.615,
+     "mark": 0.645,
      "opened": "2026-11-21T15:58:44+00:00"
     },
     {
@@ -1102,7 +1126,7 @@
      "cost": 1.21,
      "shares": 2.14,
      "avg": 0.565,
-     "mark": 0.66,
+     "mark": 0.625,
      "opened": "2026-11-21T16:49:50+00:00"
     },
     {
@@ -1112,7 +1136,7 @@
      "cost": 7.98,
      "shares": 16.8,
      "avg": 0.475,
-     "mark": 0.475,
+     "mark": 0.485,
      "opened": "2026-11-21T16:55:46+00:00"
     },
     {
@@ -1122,7 +1146,7 @@
      "cost": 4.62,
      "shares": 6.2,
      "avg": 0.745,
-     "mark": 0.765,
+     "mark": 0.938,
      "opened": "2026-11-21T17:18:47+00:00"
     },
     {
@@ -1194,6 +1218,72 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Spread: Knicks (-3.5)",
+     "outcome": "Trail Blazers",
+     "event_slug": "nba-por-nyk-2026-11-21",
+     "leader_usd": 220.83,
+     "reason": "out of cash",
+     "price": 0.505,
+     "leader_price": 0.51
+    },
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Spread: South Florida (-2.5)",
+     "outcome": "Florida Atlantic",
+     "event_slug": "cfb-sfl-flatl-2026-11-21",
+     "leader_usd": 9945.5,
+     "reason": "out of cash",
+     "price": 0.505,
+     "leader_price": 0.5
+    },
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Spread: South Florida (-3.5)",
+     "outcome": "South Florida",
+     "event_slug": "cfb-sfl-flatl-2026-11-21",
+     "leader_usd": 328.09,
+     "reason": "out of cash",
+     "price": 0.435,
+     "leader_price": 0.43
+    },
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Spread: Middle Tennessee (-5.5)",
+     "outcome": "Middle Tennessee",
+     "event_slug": "cfb-mtnst-smho-2026-11-21",
+     "leader_usd": 1202.34,
+     "reason": "out of cash",
+     "price": 0.595,
+     "leader_price": 0.52
+    },
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Spread: Texas Tech (-4.5)",
+     "outcome": "Baylor",
+     "event_slug": "cfb-txtech-bayl-2026-11-21",
+     "leader_usd": 1450.08,
+     "reason": "out of cash",
+     "price": 0.485,
+     "leader_price": 0.48
+    },
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "skip",
+     "title": "Texas Tech vs. Baylor: O/U 57.5",
+     "outcome": "Under",
+     "event_slug": "cfb-txtech-bayl-2026-11-21",
+     "leader_usd": 750.17,
+     "reason": "out of cash",
+     "price": 0.505,
+     "leader_price": 0.5
+    },
     {
      "ts": "2026-11-21T18:20:47+00:00",
      "kind": "skip",
@@ -1554,22 +1644,22 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.91,
-   "cash": 94.0,
-   "pnl": -0.09,
-   "pnl_after_kalshi_fees": -0.25,
-   "return_pct": -0.1,
+   "equity": 99.26,
+   "cash": 91.37,
+   "pnl": -0.74,
+   "pnl_after_kalshi_fees": -1.02,
+   "return_pct": -0.7,
    "realized": 0,
-   "kalshi_fees": 0.16,
+   "kalshi_fees": 0.28,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.0,
-   "copied": 1,
+   "open": 2,
+   "at_risk": 8.63,
+   "copied": 2,
    "skipped": 0,
-   "max_drawdown_pct": 0.1,
+   "max_drawdown_pct": 0.7,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -1710,6 +1800,10 @@
     {
      "t": "2026-11-21T18:20:47+00:00",
      "equity": 99.91
+    },
+    {
+     "t": "2026-11-21T19:20:55+00:00",
+     "equity": 99.26
     }
    ],
    "positions": [
@@ -1720,12 +1814,34 @@
      "cost": 6.0,
      "shares": 9.45,
      "avg": 0.635,
-     "mark": 0.625,
+     "mark": 0.565,
      "opened": "2026-11-21T18:01:29+00:00"
+    },
+    {
+     "title": "Will SE Palmeiras win on 2026-11-21?",
+     "outcome": "Yes",
+     "event_slug": "bra-pal-fla-2026-11-21",
+     "cost": 2.63,
+     "shares": 7.41,
+     "avg": 0.355,
+     "mark": 0.345,
+     "opened": "2026-11-21T18:32:41+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T19:20:55+00:00",
+     "kind": "buy",
+     "title": "Will SE Palmeiras win on 2026-11-21?",
+     "outcome": "Yes",
+     "event_slug": "bra-pal-fla-2026-11-21",
+     "leader_usd": 4111.18,
+     "stake": 2.63,
+     "price": 0.355,
+     "leader_price": 0.29,
+     "mult": 0.88
+    },
     {
      "ts": "2026-11-21T18:20:47+00:00",
      "kind": "buy",
@@ -1900,6 +2016,10 @@
     },
     {
      "t": "2026-11-21T18:20:47+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T19:20:55+00:00",
      "equity": 99.99
     }
    ],
