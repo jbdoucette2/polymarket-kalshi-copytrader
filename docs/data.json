@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:20:53+00:00",
+ "updated": "2026-11-21T16:21:17+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -149,6 +149,10 @@
     {
      "t": "2026-11-21T15:20:51+00:00",
      "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T16:21:15+00:00",
+     "equity": 88.02
     }
    ],
    "positions": [],
@@ -264,22 +268,22 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.86,
-   "cash": 92.95,
-   "pnl": -0.14,
-   "pnl_after_kalshi_fees": -0.36,
-   "return_pct": -0.1,
+   "equity": 99.73,
+   "cash": 86.95,
+   "pnl": -0.27,
+   "pnl_after_kalshi_fees": -0.72,
+   "return_pct": -0.3,
    "realized": 0,
-   "kalshi_fees": 0.22,
+   "kalshi_fees": 0.45,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 7.05,
-   "copied": 2,
+   "open": 3,
+   "at_risk": 13.05,
+   "copied": 3,
    "skipped": 2,
-   "max_drawdown_pct": 0.1,
+   "max_drawdown_pct": 0.3,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -404,6 +408,10 @@
     {
      "t": "2026-11-21T15:20:51+00:00",
      "equity": 99.86
+    },
+    {
+     "t": "2026-11-21T16:21:15+00:00",
+     "equity": 99.73
     }
    ],
    "positions": [
@@ -426,10 +434,32 @@
      "avg": 0.595,
      "mark": 0.585,
      "opened": "2026-11-21T15:19:10+00:00"
+    },
+    {
+     "title": "Spread: Syracuse (-2.5)",
+     "outcome": "Boston College",
+     "event_slug": "cfb-syra-boscol-2026-11-21",
+     "cost": 6.0,
+     "shares": 12.63,
+     "avg": 0.475,
+     "mark": 0.465,
+     "opened": "2026-11-21T15:44:05+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T16:21:15+00:00",
+     "kind": "buy",
+     "title": "Spread: Syracuse (-2.5)",
+     "outcome": "Boston College",
+     "event_slug": "cfb-syra-boscol-2026-11-21",
+     "leader_usd": 2953.51,
+     "stake": 6.0,
+     "price": 0.475,
+     "leader_price": 0.46,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T15:20:51+00:00",
      "kind": "buy",
@@ -483,22 +513,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.81,
-   "cash": 33.89,
-   "pnl": -24.19,
-   "pnl_after_kalshi_fees": -26.57,
-   "return_pct": -24.2,
+   "equity": 75.65,
+   "cash": 20.03,
+   "pnl": -24.35,
+   "pnl_after_kalshi_fees": -27.22,
+   "return_pct": -24.3,
    "realized": -23.08,
-   "kalshi_fees": 2.38,
+   "kalshi_fees": 2.87,
    "settled": 5,
    "won": 1,
    "lost": 4,
    "sold_early": 0,
-   "open": 8,
-   "at_risk": 43.03,
-   "copied": 14,
+   "open": 11,
+   "at_risk": 56.89,
+   "copied": 17,
    "skipped": 3,
-   "max_drawdown_pct": 24.2,
+   "max_drawdown_pct": 24.3,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -623,6 +653,10 @@
     {
      "t": "2026-11-21T15:20:51+00:00",
      "equity": 75.81
+    },
+    {
+     "t": "2026-11-21T16:21:15+00:00",
+     "equity": 75.65
     }
    ],
    "positions": [
@@ -653,7 +687,7 @@
      "cost": 4.52,
      "shares": 8.53,
      "avg": 0.53,
-     "mark": 0.495,
+     "mark": 0.475,
      "opened": "2026-11-21T03:04:11+00:00"
     },
     {
@@ -673,7 +707,7 @@
      "cost": 7.01,
      "shares": 15.25,
      "avg": 0.46,
-     "mark": 0.465,
+     "mark": 0.475,
      "opened": "2026-11-21T03:29:52+00:00"
     },
     {
@@ -683,7 +717,7 @@
      "cost": 4.62,
      "shares": 8.32,
      "avg": 0.555,
-     "mark": 0.56,
+     "mark": 0.565,
      "opened": "2026-11-21T04:51:40+00:00"
     },
     {
@@ -703,8 +737,38 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.535,
      "opened": "2026-11-21T15:08:07+00:00"
+    },
+    {
+     "title": "Syracuse vs. Boston College: O/U 53.5",
+     "outcome": "Over",
+     "event_slug": "cfb-syra-boscol-2026-11-21",
+     "cost": 4.62,
+     "shares": 9.33,
+     "avg": 0.495,
+     "mark": 0.485,
+     "opened": "2026-11-21T15:37:10+00:00"
+    },
+    {
+     "title": "Spread: Army (-5.5)",
+     "outcome": "East Carolina",
+     "event_slug": "cfb-ecar-army-2026-11-21",
+     "cost": 4.62,
+     "shares": 8.8,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-21T15:58:44+00:00"
+    },
+    {
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Mavericks",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "cost": 4.62,
+     "shares": 8.8,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-21T16:16:43+00:00"
     }
    ],
    "closed": [
@@ -765,6 +829,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T16:21:15+00:00",
+     "kind": "buy",
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Mavericks",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "leader_usd": 980.72,
+     "stake": 4.62,
+     "price": 0.525,
+     "leader_price": 0.52,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T16:21:15+00:00",
+     "kind": "buy",
+     "title": "Spread: Army (-5.5)",
+     "outcome": "East Carolina",
+     "event_slug": "cfb-ecar-army-2026-11-21",
+     "leader_usd": 660.0,
+     "stake": 4.62,
+     "price": 0.525,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T16:21:15+00:00",
+     "kind": "buy",
+     "title": "Syracuse vs. Boston College: O/U 53.5",
+     "outcome": "Over",
+     "event_slug": "cfb-syra-boscol-2026-11-21",
+     "leader_usd": 728.5,
+     "stake": 4.62,
+     "price": 0.495,
+     "leader_price": 0.47,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T15:20:51+00:00",
      "kind": "buy",
@@ -1113,6 +1213,10 @@
     {
      "t": "2026-11-21T15:20:51+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T16:21:15+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -1263,6 +1367,10 @@
     },
     {
      "t": "2026-11-21T15:20:51+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T16:21:15+00:00",
      "equity": 99.99
     }
    ],
