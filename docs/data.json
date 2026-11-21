@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:21:07+00:00",
+ "updated": "2026-11-21T14:21:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -141,6 +141,10 @@
     {
      "t": "2026-11-21T13:21:06+00:00",
      "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T14:21:10+00:00",
+     "equity": 88.02
     }
    ],
    "positions": [],
@@ -256,10 +260,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.98,
+   "equity": 99.96,
    "cash": 98.95,
-   "pnl": -0.02,
-   "pnl_after_kalshi_fees": -0.06,
+   "pnl": -0.04,
+   "pnl_after_kalshi_fees": -0.08,
    "return_pct": -0.0,
    "realized": 0,
    "kalshi_fees": 0.04,
@@ -270,7 +274,7 @@
    "open": 1,
    "at_risk": 1.05,
    "copied": 1,
-   "skipped": 1,
+   "skipped": 2,
    "max_drawdown_pct": 0.0,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -388,6 +392,10 @@
     {
      "t": "2026-11-21T13:21:06+00:00",
      "equity": 99.98
+    },
+    {
+     "t": "2026-11-21T14:21:10+00:00",
+     "equity": 99.96
     }
    ],
    "positions": [
@@ -398,12 +406,23 @@
      "cost": 1.05,
      "shares": 2.12,
      "avg": 0.495,
-     "mark": 0.485,
+     "mark": 0.475,
      "opened": "2026-11-21T12:04:58+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T14:21:10+00:00",
+     "kind": "skip",
+     "title": "Spread: Syracuse (-3.5)",
+     "outcome": "Boston College",
+     "event_slug": "cfb-syra-boscol-2026-11-21",
+     "leader_usd": 3.24,
+     "reason": "below $1 minimum",
+     "price": 0.545,
+     "leader_price": 0.54
+    },
     {
      "ts": "2026-11-21T12:20:46+00:00",
      "kind": "skip",
@@ -434,20 +453,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.95,
-   "cash": 44.86,
-   "pnl": -24.05,
-   "pnl_after_kalshi_fees": -26.04,
+   "equity": 76.03,
+   "cash": 40.24,
+   "pnl": -23.97,
+   "pnl_after_kalshi_fees": -26.12,
    "return_pct": -24.0,
    "realized": -23.08,
-   "kalshi_fees": 1.99,
+   "kalshi_fees": 2.15,
    "settled": 5,
    "won": 1,
    "lost": 4,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 32.06,
-   "copied": 11,
+   "open": 7,
+   "at_risk": 36.68,
+   "copied": 12,
    "skipped": 2,
    "max_drawdown_pct": 24.1,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -566,6 +585,10 @@
     {
      "t": "2026-11-21T13:21:06+00:00",
      "equity": 75.95
+    },
+    {
+     "t": "2026-11-21T14:21:10+00:00",
+     "equity": 76.03
     }
    ],
    "positions": [
@@ -626,8 +649,18 @@
      "cost": 4.62,
      "shares": 8.32,
      "avg": 0.555,
-     "mark": 0.545,
+     "mark": 0.565,
      "opened": "2026-11-21T04:51:40+00:00"
+    },
+    {
+     "title": "Utah vs. TCU: O/U 47.5",
+     "outcome": "Under",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 4.62,
+     "shares": 8.64,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-21T13:36:49+00:00"
     }
    ],
    "closed": [
@@ -688,6 +721,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T14:21:10+00:00",
+     "kind": "buy",
+     "title": "Utah vs. TCU: O/U 47.5",
+     "outcome": "Under",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "leader_usd": 2378.64,
+     "stake": 4.62,
+     "price": 0.535,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T05:20:38+00:00",
      "kind": "buy",
@@ -981,6 +1026,10 @@
     {
      "t": "2026-11-21T13:21:06+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T14:21:10+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -1123,6 +1172,10 @@
     },
     {
      "t": "2026-11-21T13:21:06+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T14:21:10+00:00",
      "equity": 99.99
     }
    ],
