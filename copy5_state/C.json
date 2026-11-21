@@ -3,9 +3,9 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 6.2041,
+ "cash": 10.9457,
  "since": 1795198438,
- "last_ts": 1795291183,
+ "last_ts": 1795294648,
  "positions": {
   "6010720608100636618683978441589351905755283559190160709714270500815076146742": {
    "cond": "0xd878ee4681a0a960ba658a7c5d67cb682aaa724f3f87c7441da1b486bada3128",
@@ -31,7 +31,7 @@
    "cost": 6.0,
    "kfee": 0.22,
    "opened": "2026-11-21T01:03:26+00:00",
-   "mark": 0.555
+   "mark": 0.725
   },
   "46385438597978742001642080631072533876028177095665469628609712504416636222842": {
    "cond": "0x7ec132808b1763837497d6ca42c76d0d0982ca4fc6300d673eccec971da20f8e",
@@ -44,7 +44,7 @@
    "cost": 4.52,
    "kfee": 0.15,
    "opened": "2026-11-21T03:04:11+00:00",
-   "mark": 0.145
+   "mark": 0.915
   },
   "8856866893342038836567188693939564504761038257204736113760382639756904436422": {
    "cond": "0x36c5bd67ac0e228f1d97a205fb51241d670fb9b626fe638bdbecedd28a5d651f",
@@ -58,19 +58,6 @@
    "kfee": 0.11,
    "opened": "2026-11-21T03:14:01+00:00",
    "mark": 0.745
-  },
-  "38770054631374394609390477142157371265537739652351213979300779296718368562032": {
-   "cond": "0x7506db8e855c5d7425ebe44e93d416ddf08358a44636f55377f38234294e8add",
-   "idx": 0,
-   "outcome": "Aljamain Sterling",
-   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
-   "slug": "ufc-alj-kev16-2026-11-21",
-   "event_slug": "ufc-alj-kev16-2026-11-21",
-   "shares": 15.246500867553499,
-   "cost": 7.01,
-   "kfee": 0.28,
-   "opened": "2026-11-21T03:29:52+00:00",
-   "mark": 0.005
   },
   "20468958298423100582622036195043238317165189623696905457850315356280349803171": {
    "cond": "0xcf231fe5bc7f287b76296fc3d44ed347f3aa428f8ff73a1d21d5b40ad594bc14",
@@ -96,7 +83,7 @@
    "cost": 4.62,
    "kfee": 0.16,
    "opened": "2026-11-21T13:36:49+00:00",
-   "mark": 0.515
+   "mark": 0.525
   },
   "62953912946758034235579818510172074414289315632520182829647321231672482924755": {
    "cond": "0xb9485171a42f7aaaa08e61fe9c4440cf81ac0cfd90f8bfdcce25c1b04818a1b1",
@@ -111,32 +98,6 @@
    "opened": "2026-11-21T15:08:07+00:00",
    "mark": 0.545
   },
-  "52414393882062790678845319895361559104215745238410006226530401417764685224658": {
-   "cond": "0xfd3577970ae777e65a4a3b641a9563bd54f0208388580ebf84ab61c64f92547b",
-   "idx": 0,
-   "outcome": "Over",
-   "title": "Syracuse vs. Boston College: O/U 53.5",
-   "slug": "cfb-syra-boscol-2026-11-21-total-53pt5",
-   "event_slug": "cfb-syra-boscol-2026-11-21",
-   "shares": 9.333333333333334,
-   "cost": 4.62,
-   "kfee": 0.17,
-   "opened": "2026-11-21T15:37:10+00:00",
-   "mark": 0.255
-  },
-  "19990511830767547671590598698911027884580166098533709312111831318451739958139": {
-   "cond": "0x08ec3d8df8a34cc917a9f138d6a7a210f7fd33ae1dc67c874f44040361f9aeec",
-   "idx": 1,
-   "outcome": "East Carolina",
-   "title": "Spread: Army (-5.5)",
-   "slug": "cfb-ecar-army-2026-11-21-spread-home-5pt5",
-   "event_slug": "cfb-ecar-army-2026-11-21",
-   "shares": 8.8,
-   "cost": 4.62,
-   "kfee": 0.16,
-   "opened": "2026-11-21T15:58:44+00:00",
-   "mark": 0.9995
-  },
   "31976321654204112623078902509775143695196644436624006858818703147856673222466": {
    "cond": "0x779b874ed02642638f0cd5ed1a5f9aac390dae8e3fd5690f0141f6ac1f715e16",
    "idx": 0,
@@ -150,32 +111,6 @@
    "opened": "2026-11-21T16:16:43+00:00",
    "mark": 0.515
   },
-  "40560937511115868339592356032675785026633708432966485104442989975863154360000": {
-   "cond": "0xc4da93d360cf03426bb27ac700bb4d15d1fb6f7a019c09f30642f15bfee352c4",
-   "idx": 1,
-   "outcome": "Under",
-   "title": "O/U 1.5 Rounds",
-   "slug": "ufc-jproch-nav-2026-11-21-totals-1pt5",
-   "event_slug": "ufc-jproch-nav-2026-11-21",
-   "shares": 4.155844155844156,
-   "cost": 1.6,
-   "kfee": 0.07,
-   "opened": "2026-11-21T16:23:46+00:00",
-   "mark": 0.375
-  },
-  "753941464417906125693106662162807343615158583259170402645734302253644992965": {
-   "cond": "0x17462d80f0c4eb9d9f242394ef461639fde035197befeb5ec1eb4e62a57efb31",
-   "idx": 1,
-   "outcome": "Bucks",
-   "title": "Spread: 76ers (-11.5)",
-   "slug": "nba-mil-phi-2026-11-21-spread-home-11pt5",
-   "event_slug": "nba-mil-phi-2026-11-21",
-   "shares": 2.1415929203539825,
-   "cost": 1.21,
-   "kfee": 0.04,
-   "opened": "2026-11-21T16:49:50+00:00",
-   "mark": 0.715
-  },
   "101967228372437531459870909778736832847697787837075420841275257956927085598091": {
    "cond": "0xbd8839a47fc78c1804b974581fd783073f18aad5c81ebfff6bc2edabcb52da0f",
    "idx": 1,
@@ -187,7 +122,33 @@
    "cost": 7.98,
    "kfee": 0.30000000000000004,
    "opened": "2026-11-21T16:55:46+00:00",
-   "mark": 0.485
+   "mark": 0.325
+  },
+  "99031663596571089265092751090156602901807537131641328243307489802536941819629": {
+   "cond": "0x3e0cbc0b578f1de4007f1d834c320acb667a6b20ea6f872cc52caa010d7e39df",
+   "idx": 1,
+   "outcome": "Troy",
+   "title": "Spread: Georgia Southern (-9.5)",
+   "slug": "cfb-gas-troy-2026-11-21-spread-away-9pt5",
+   "event_slug": "cfb-gas-troy-2026-11-21",
+   "shares": 12.840579710144928,
+   "cost": 4.43,
+   "kfee": 0.21,
+   "opened": "2026-11-21T20:40:02+00:00",
+   "mark": 0.3
+  },
+  "71159775970833090249803653638079435665566165338374800340637517676257215398951": {
+   "cond": "0x5e8e0a91b7070140ff89ae697fadb719a5bdb46f84c34d7f34734d1a93901ae9",
+   "idx": 1,
+   "outcome": "Troy",
+   "title": "Spread: Georgia Southern (-7.5)",
+   "slug": "cfb-gas-troy-2026-11-21-spread-away-7pt5",
+   "event_slug": "cfb-gas-troy-2026-11-21",
+   "shares": 6.436363636363636,
+   "cost": 1.77,
+   "kfee": 0.09,
+   "opened": "2026-11-21T20:51:10+00:00",
+   "mark": 0.26
   }
  },
  "leader_shares": {
@@ -223,7 +184,11 @@
   "59910250776074027963616153207594889600434159702903034089207345701770681688790": 19891.0,
   "29528164761816956139398065742054347074546328755431127257207142203391188822163": 433.0,
   "91600247139760287536883698175790490741379111886385410574070925134046063891491": 2501.0,
-  "78027949944673821573706184532795130808463090208198234271994134724814049646390": 2287.0
+  "78027949944673821573706184532795130808463090208198234271994134724814049646390": 2287.0,
+  "52664273474806698749477192232157999110929251264132082889471211762942298496619": 278.0,
+  "95352229517567948553969247900258461209205043732051447626010835762950338836498": 210.0,
+  "99031663596571089265092751090156602901807537131641328243307489802536941819629": 3099.7200000000003,
+  "71159775970833090249803653638079435665566165338374800340637517676257215398951": 564.0
  },
  "median_usd": 264.0,
  "closed": [
@@ -303,6 +268,61 @@
    "kfee": 0.21,
    "how": "lost",
    "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "outcome": "Aljamain Sterling",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "cost": 7.01,
+   "pnl": -7.01,
+   "kfee": 0.28,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "Syracuse vs. Boston College: O/U 53.5",
+   "outcome": "Over",
+   "event_slug": "cfb-syra-boscol-2026-11-21",
+   "cost": 4.62,
+   "pnl": -4.62,
+   "kfee": 0.17,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "Spread: Army (-5.5)",
+   "outcome": "East Carolina",
+   "event_slug": "cfb-ecar-army-2026-11-21",
+   "cost": 4.62,
+   "pnl": 4.18,
+   "kfee": 0.16,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "O/U 1.5 Rounds",
+   "outcome": "Under",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "cost": 1.6,
+   "pnl": -1.6,
+   "kfee": 0.07,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "Spread: 76ers (-11.5)",
+   "outcome": "Bucks",
+   "event_slug": "nba-mil-phi-2026-11-21",
+   "cost": 1.21,
+   "pnl": 0.93,
+   "kfee": 0.04,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
  "log": [
@@ -757,6 +777,63 @@
    "reason": "out of cash",
    "price": 0.515,
    "leader_price": 0.5
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+   "outcome": "Jir\u00ed Proch\u00e1zka",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "leader_usd": 94.52,
+   "reason": "too late: outcome already decided",
+   "price": 0.001,
+   "leader_price": 0.34
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "Thunder vs. Heat",
+   "outcome": "Thunder",
+   "event_slug": "nba-okc-mia-2026-11-22",
+   "leader_usd": 100.8,
+   "reason": "below $1 minimum",
+   "price": 0.515,
+   "leader_price": 0.48
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "buy",
+   "title": "Spread: Georgia Southern (-9.5)",
+   "outcome": "Troy",
+   "event_slug": "cfb-gas-troy-2026-11-21",
+   "leader_usd": 843.76,
+   "stake": 4.43,
+   "price": 0.345,
+   "leader_price": 0.53,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "buy",
+   "title": "Spread: Georgia Southern (-7.5)",
+   "outcome": "Troy",
+   "event_slug": "cfb-gas-troy-2026-11-21",
+   "leader_usd": 287.64,
+   "stake": 1.77,
+   "price": 0.275,
+   "leader_price": 0.51,
+   "mult": 1.09
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "Spread: Georgia Southern (-9.5)",
+   "outcome": "Troy",
+   "event_slug": "cfb-gas-troy-2026-11-21",
+   "leader_usd": 813.67,
+   "reason": "out of cash",
+   "price": 0.335,
+   "leader_price": 0.54
   }
  ],
  "history": [
@@ -895,10 +972,14 @@
   {
    "t": "2026-11-21T20:20:58+00:00",
    "equity": 66.39
+  },
+  {
+   "t": "2026-11-21T21:20:47+00:00",
+   "equity": 68.39
   }
  ],
- "kfees": 3.58,
- "copied": 23,
- "skipped": 16,
+ "kfees": 3.88,
+ "copied": 25,
+ "skipped": 19,
  "median_ts": 1795285247
 }

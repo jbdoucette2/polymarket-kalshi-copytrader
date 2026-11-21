@@ -5,7 +5,7 @@
  "start": 100.0,
  "cash": 99.9901,
  "since": 1795198438,
- "last_ts": 1795239413,
+ "last_ts": 1795292917,
  "positions": {},
  "leader_shares": {
   "78083652215768741610079485956636484885308002887261692793586503341662806323474": 38.989242,
@@ -180,6 +180,24 @@
    "reason": "too late: outcome already decided",
    "price": 1.0,
    "leader_price": 0.61
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "Bucks vs. 76ers: O/U 251.5",
+   "outcome": "Over",
+   "event_slug": "nba-mil-phi-2026-11-21",
+   "leader_usd": 11.76,
+   "reason": "no current price (market closed?)"
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "Bucks vs. 76ers: O/U 257.5",
+   "outcome": "Over",
+   "event_slug": "nba-mil-phi-2026-11-21",
+   "leader_usd": 26.24,
+   "reason": "no current price (market closed?)"
   }
  ],
  "history": [
@@ -318,10 +336,14 @@
   {
    "t": "2026-11-21T20:20:58+00:00",
    "equity": 99.99
+  },
+  {
+   "t": "2026-11-21T21:20:47+00:00",
+   "equity": 99.99
   }
  ],
  "kfees": 0.63,
  "copied": 3,
- "skipped": 8,
+ "skipped": 10,
  "median_ts": 1795285247
 }

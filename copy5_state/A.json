@@ -3,37 +3,10 @@
  "name": "BreakTheBank",
  "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
  "start": 100.0,
- "cash": 74.4563,
+ "cash": 100.4129,
  "since": 1795198438,
- "last_ts": 1795291660,
- "positions": {
-  "12653717349966440791907189659072939667212361700903292107262676489068799342566": {
-   "cond": "0x7506db8e855c5d7425ebe44e93d416ddf08358a44636f55377f38234294e8add",
-   "idx": 1,
-   "outcome": "Kevin Vallejos",
-   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
-   "slug": "ufc-alj-kev16-2026-11-21",
-   "event_slug": "ufc-alj-kev16-2026-11-21",
-   "shares": 9.688073394495413,
-   "cost": 5.28,
-   "kfee": 0.17,
-   "opened": "2026-11-21T16:33:41+00:00",
-   "mark": 0.995
-  },
-  "63457155869463499394771120334784441573628429591038941773766010934490389543619": {
-   "cond": "0xdc8303985c6259152c8ff6b70e365b2a4ebfcc23110a7d70af81548d4e91dd57",
-   "idx": 1,
-   "outcome": "Navajo Stirling",
-   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
-   "slug": "ufc-jproch-nav-2026-11-21",
-   "event_slug": "ufc-jproch-nav-2026-11-21",
-   "shares": 16.26847610969748,
-   "cost": 10.82,
-   "kfee": 0.26,
-   "opened": "2026-11-21T16:38:55+00:00",
-   "mark": 0.665
-  }
- },
+ "last_ts": 1795293311,
+ "positions": {},
  "leader_shares": {
   "11376846649846397637629515718287737992489767404893188768280033139373736291692": 139143.03,
   "12042500102922379995800896870229961180519863063448798221842069005259042944123": 15786.47,
@@ -46,7 +19,7 @@
   "13089260581222514942808273085591542627543252842149460654137020465025187134427": 18965.33,
   "80670276674187063060491876810333189890304023874556375703264361399600975089674": 93844.67,
   "23179889754289405220424103056305227273784320688703234024360843927522715300866": 180316.49,
-  "63457155869463499394771120334784441573628429591038941773766010934490389543619": 155549.86,
+  "63457155869463499394771120334784441573628429591038941773766010934490389543619": 988067.6799999998,
   "79970670136427043765822700251808091493092739571466293666699108016665390134486": 833.96
  },
  "median_usd": 16961.817900000002,
@@ -127,6 +100,28 @@
    "kfee": 0.08,
    "how": "lost",
    "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "outcome": "Kevin Vallejos",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "cost": 5.28,
+   "pnl": 4.41,
+   "kfee": 0.17,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+   "outcome": "Navajo Stirling",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "cost": 10.82,
+   "pnl": 5.45,
+   "kfee": 0.26,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
  "log": [
@@ -360,6 +355,17 @@
    "price": 0.675,
    "leader_price": 0.67,
    "mult": 2.0
+  },
+  {
+   "ts": "2026-11-21T21:20:47+00:00",
+   "kind": "skip",
+   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+   "outcome": "Navajo Stirling",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "leader_usd": 549730.67,
+   "reason": "too late: outcome already decided",
+   "price": 1.0,
+   "leader_price": 0.66
   }
  ],
  "history": [
@@ -498,10 +504,14 @@
   {
    "t": "2026-11-21T20:20:58+00:00",
    "equity": 94.91
+  },
+  {
+   "t": "2026-11-21T21:20:47+00:00",
+   "equity": 100.41
   }
  ],
  "kfees": 1.45,
  "copied": 11,
- "skipped": 9,
+ "skipped": 10,
  "median_ts": 1795285247
 }
