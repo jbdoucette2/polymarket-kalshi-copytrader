@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:21:13+00:00",
+ "updated": "2026-11-21T15:20:53+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -145,6 +145,10 @@
     {
      "t": "2026-11-21T14:21:10+00:00",
      "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T15:20:51+00:00",
+     "equity": 88.02
     }
    ],
    "positions": [],
@@ -260,22 +264,22 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.96,
-   "cash": 98.95,
-   "pnl": -0.04,
-   "pnl_after_kalshi_fees": -0.08,
-   "return_pct": -0.0,
+   "equity": 99.86,
+   "cash": 92.95,
+   "pnl": -0.14,
+   "pnl_after_kalshi_fees": -0.36,
+   "return_pct": -0.1,
    "realized": 0,
-   "kalshi_fees": 0.04,
+   "kalshi_fees": 0.22,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 1.05,
-   "copied": 1,
+   "open": 2,
+   "at_risk": 7.05,
+   "copied": 2,
    "skipped": 2,
-   "max_drawdown_pct": 0.0,
+   "max_drawdown_pct": 0.1,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -396,6 +400,10 @@
     {
      "t": "2026-11-21T14:21:10+00:00",
      "equity": 99.96
+    },
+    {
+     "t": "2026-11-21T15:20:51+00:00",
+     "equity": 99.86
     }
    ],
    "positions": [
@@ -408,10 +416,32 @@
      "avg": 0.495,
      "mark": 0.475,
      "opened": "2026-11-21T12:04:58+00:00"
+    },
+    {
+     "title": "Spread: UCLA (-6.5)",
+     "outcome": "Michigan",
+     "event_slug": "cfb-ucla-mich-2026-11-21",
+     "cost": 6.0,
+     "shares": 10.08,
+     "avg": 0.595,
+     "mark": 0.585,
+     "opened": "2026-11-21T15:19:10+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T15:20:51+00:00",
+     "kind": "buy",
+     "title": "Spread: UCLA (-6.5)",
+     "outcome": "Michigan",
+     "event_slug": "cfb-ucla-mich-2026-11-21",
+     "leader_usd": 2766.29,
+     "stake": 6.0,
+     "price": 0.595,
+     "leader_price": 0.58,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T14:21:10+00:00",
      "kind": "skip",
@@ -453,22 +483,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.03,
-   "cash": 40.24,
-   "pnl": -23.97,
-   "pnl_after_kalshi_fees": -26.12,
-   "return_pct": -24.0,
+   "equity": 75.81,
+   "cash": 33.89,
+   "pnl": -24.19,
+   "pnl_after_kalshi_fees": -26.57,
+   "return_pct": -24.2,
    "realized": -23.08,
-   "kalshi_fees": 2.15,
+   "kalshi_fees": 2.38,
    "settled": 5,
    "won": 1,
    "lost": 4,
    "sold_early": 0,
-   "open": 7,
-   "at_risk": 36.68,
-   "copied": 12,
-   "skipped": 2,
-   "max_drawdown_pct": 24.1,
+   "open": 8,
+   "at_risk": 43.03,
+   "copied": 14,
+   "skipped": 3,
+   "max_drawdown_pct": 24.2,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -589,6 +619,10 @@
     {
      "t": "2026-11-21T14:21:10+00:00",
      "equity": 76.03
+    },
+    {
+     "t": "2026-11-21T15:20:51+00:00",
+     "equity": 75.81
     }
    ],
    "positions": [
@@ -619,7 +653,7 @@
      "cost": 4.52,
      "shares": 8.53,
      "avg": 0.53,
-     "mark": 0.505,
+     "mark": 0.495,
      "opened": "2026-11-21T03:04:11+00:00"
     },
     {
@@ -636,10 +670,10 @@
      "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
      "outcome": "Aljamain Sterling",
      "event_slug": "ufc-alj-kev16-2026-11-21",
-     "cost": 5.28,
-     "shares": 11.6,
-     "avg": 0.455,
-     "mark": 0.455,
+     "cost": 7.01,
+     "shares": 15.25,
+     "avg": 0.46,
+     "mark": 0.465,
      "opened": "2026-11-21T03:29:52+00:00"
     },
     {
@@ -649,7 +683,7 @@
      "cost": 4.62,
      "shares": 8.32,
      "avg": 0.555,
-     "mark": 0.565,
+     "mark": 0.56,
      "opened": "2026-11-21T04:51:40+00:00"
     },
     {
@@ -659,8 +693,18 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.515,
      "opened": "2026-11-21T13:36:49+00:00"
+    },
+    {
+     "title": "Spread: Oregon State (-7.5)",
+     "outcome": "Utah State",
+     "event_slug": "cfb-utahst-oregst-2026-11-21",
+     "cost": 4.62,
+     "shares": 8.64,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-21T15:08:07+00:00"
     }
    ],
    "closed": [
@@ -721,6 +765,41 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T15:20:51+00:00",
+     "kind": "buy",
+     "title": "Spread: Oregon State (-7.5)",
+     "outcome": "Utah State",
+     "event_slug": "cfb-utahst-oregst-2026-11-21",
+     "leader_usd": 3379.36,
+     "stake": 4.62,
+     "price": 0.535,
+     "leader_price": 0.512,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T15:20:51+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Aljamain Sterling",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 197.8,
+     "stake": 1.73,
+     "price": 0.475,
+     "leader_price": 0.46,
+     "mult": 0.75
+    },
+    {
+     "ts": "2026-11-21T15:20:51+00:00",
+     "kind": "skip",
+     "title": "Spread: Panthers (-2.5)",
+     "outcome": "Panthers",
+     "event_slug": "nhl-buf-fla-2026-11-21",
+     "leader_usd": 28.0,
+     "reason": "below $1 minimum",
+     "price": 0.245,
+     "leader_price": 0.241
+    },
     {
      "ts": "2026-11-21T14:21:10+00:00",
      "kind": "buy",
@@ -1030,6 +1109,10 @@
     {
      "t": "2026-11-21T14:21:10+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T15:20:51+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -1176,6 +1259,10 @@
     },
     {
      "t": "2026-11-21T14:21:10+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T15:20:51+00:00",
      "equity": 99.99
     }
    ],
