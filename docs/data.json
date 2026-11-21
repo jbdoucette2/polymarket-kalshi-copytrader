@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:20:48+00:00",
+ "updated": "2026-11-21T00:20:53+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,22 +9,22 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.0,
-   "cash": 100.0,
-   "pnl": 0.0,
-   "pnl_after_kalshi_fees": 0.0,
-   "return_pct": 0.0,
+   "equity": 99.32,
+   "cash": 92.72,
+   "pnl": -0.68,
+   "pnl_after_kalshi_fees": -0.93,
+   "return_pct": -0.7,
    "realized": 0,
-   "kalshi_fees": 0.0,
+   "kalshi_fees": 0.25,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 0,
-   "skipped": 0,
-   "max_drawdown_pct": 0.0,
+   "open": 2,
+   "at_risk": 7.28,
+   "copied": 2,
+   "skipped": 3,
+   "max_drawdown_pct": 0.7,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -77,11 +77,94 @@
     {
      "t": "2026-11-20T23:20:46+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T00:20:50+00:00",
+     "equity": 99.32
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Spread: Hawks (-7.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "cost": 6.0,
+     "shares": 11.01,
+     "avg": 0.545,
+     "mark": 0.49,
+     "opened": "2026-11-20T23:40:23+00:00"
+    },
+    {
+     "title": "Spread: Hawks (-6.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "cost": 1.28,
+     "shares": 2.59,
+     "avg": 0.495,
+     "mark": 0.465,
+     "opened": "2026-11-20T23:40:46+00:00"
+    }
+   ],
    "closed": [],
-   "log": []
+   "log": [
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "skip",
+     "title": "Pelicans vs. Thunder",
+     "outcome": "Pelicans",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "leader_usd": 667.22,
+     "reason": "below $1 minimum",
+     "price": 0.195,
+     "leader_price": 0.19
+    },
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "skip",
+     "title": "Spread: Magic (-5.5)",
+     "outcome": "Nets",
+     "event_slug": "nba-orl-bkn-2026-11-20",
+     "leader_usd": 685.96,
+     "reason": "below $1 minimum",
+     "price": 0.455,
+     "leader_price": 0.45
+    },
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "skip",
+     "title": "Spread: Hawks (-5.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "leader_usd": 14.7,
+     "reason": "below $1 minimum",
+     "price": 0.475,
+     "leader_price": 0.42
+    },
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "buy",
+     "title": "Spread: Hawks (-6.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "leader_usd": 7261.78,
+     "stake": 1.28,
+     "price": 0.495,
+     "leader_price": 0.46,
+     "mult": 0.43
+    },
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "buy",
+     "title": "Spread: Hawks (-7.5)",
+     "outcome": "Hornets",
+     "event_slug": "nba-cha-atl-2026-11-20",
+     "leader_usd": 69571.51,
+     "stake": 6.0,
+     "price": 0.545,
+     "leader_price": 0.5,
+     "mult": 2.0
+    }
+   ]
   },
   {
    "id": "B",
@@ -156,6 +239,10 @@
     {
      "t": "2026-11-20T23:20:46+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T00:20:50+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -167,22 +254,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.5,
-   "cash": 77.33,
-   "pnl": -0.5,
-   "pnl_after_kalshi_fees": -1.24,
-   "return_pct": -0.5,
+   "equity": 90.55,
+   "cash": 71.33,
+   "pnl": -9.45,
+   "pnl_after_kalshi_fees": -10.4,
+   "return_pct": -9.5,
    "realized": 0,
-   "kalshi_fees": 0.74,
+   "kalshi_fees": 0.95,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 22.67,
-   "copied": 4,
+   "open": 5,
+   "at_risk": 28.67,
+   "copied": 5,
    "skipped": 1,
-   "max_drawdown_pct": 0.7,
+   "max_drawdown_pct": 9.5,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -235,6 +322,10 @@
     {
      "t": "2026-11-20T23:20:46+00:00",
      "equity": 99.5
+    },
+    {
+     "t": "2026-11-21T00:20:50+00:00",
+     "equity": 90.55
     }
    ],
    "positions": [
@@ -245,7 +336,7 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.345,
+     "mark": 0.34,
      "opened": "2026-11-20T20:31:04+00:00"
     },
     {
@@ -255,7 +346,7 @@
      "cost": 6.0,
      "shares": 11.11,
      "avg": 0.54,
-     "mark": 0.54,
+     "mark": 0.09,
      "opened": "2026-11-20T21:51:38+00:00"
     },
     {
@@ -265,7 +356,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.52,
+     "mark": 0.19,
      "opened": "2026-11-20T22:18:41+00:00"
     },
     {
@@ -275,12 +366,34 @@
      "cost": 4.67,
      "shares": 5.59,
      "avg": 0.835,
-     "mark": 0.825,
+     "mark": 0.805,
      "opened": "2026-11-20T23:05:02+00:00"
+    },
+    {
+     "title": "Magic vs. Nets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-orl-bkn-2026-11-20",
+     "cost": 6.0,
+     "shares": 11.65,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-21T00:06:31+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T00:20:50+00:00",
+     "kind": "buy",
+     "title": "Magic vs. Nets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-orl-bkn-2026-11-20",
+     "leader_usd": 8730.0,
+     "stake": 6.0,
+     "price": 0.515,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-20T23:20:46+00:00",
      "kind": "buy",
@@ -415,6 +528,10 @@
     {
      "t": "2026-11-20T23:20:46+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T00:20:50+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -493,6 +610,10 @@
     },
     {
      "t": "2026-11-20T23:20:46+00:00",
+     "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T00:20:50+00:00",
      "equity": 100.0
     }
    ],
