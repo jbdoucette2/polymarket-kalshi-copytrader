@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:21:03+00:00",
+ "updated": "2026-11-21T04:20:34+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,22 +9,22 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 88.89,
+   "equity": 88.02,
    "cash": 88.02,
-   "pnl": -11.11,
-   "pnl_after_kalshi_fees": -11.65,
-   "return_pct": -11.1,
-   "realized": -7.28,
+   "pnl": -11.98,
+   "pnl_after_kalshi_fees": -12.52,
+   "return_pct": -12.0,
+   "realized": -11.98,
    "kalshi_fees": 0.54,
-   "settled": 2,
+   "settled": 3,
    "won": 0,
-   "lost": 2,
+   "lost": 3,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.7,
+   "open": 0,
+   "at_risk": 0,
    "copied": 3,
    "skipped": 3,
-   "max_drawdown_pct": 16.9,
+   "max_drawdown_pct": 17.7,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -97,21 +97,25 @@
     {
      "t": "2026-11-21T03:21:00+00:00",
      "equity": 88.89
+    },
+    {
+     "t": "2026-11-21T04:20:30+00:00",
+     "equity": 88.02
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-21T04:20:30+00:00",
      "title": "Pelicans vs. Thunder",
      "outcome": "Pelicans",
      "event_slug": "nba-nop-okc-2026-11-20",
      "cost": 4.7,
-     "shares": 34.81,
-     "avg": 0.135,
-     "mark": 0.025,
-     "opened": "2026-11-21T01:08:58+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -4.7,
+     "kfee": 0.29,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T03:21:00+00:00",
      "title": "Spread: Hawks (-6.5)",
@@ -300,6 +304,10 @@
     {
      "t": "2026-11-21T03:21:00+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T04:20:30+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -311,22 +319,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.17,
-   "cash": 49.17,
-   "pnl": -17.83,
-   "pnl_after_kalshi_fees": -19.46,
-   "return_pct": -17.8,
-   "realized": -12.0,
-   "kalshi_fees": 1.63,
-   "settled": 2,
-   "won": 0,
-   "lost": 2,
+   "equity": 76.26,
+   "cash": 49.48,
+   "pnl": -23.74,
+   "pnl_after_kalshi_fees": -25.58,
+   "return_pct": -23.7,
+   "realized": -23.08,
+   "kalshi_fees": 1.84,
+   "settled": 5,
+   "won": 1,
+   "lost": 4,
    "sold_early": 0,
-   "open": 7,
-   "at_risk": 38.83,
-   "copied": 9,
-   "skipped": 1,
-   "max_drawdown_pct": 20.8,
+   "open": 5,
+   "at_risk": 27.44,
+   "copied": 10,
+   "skipped": 2,
+   "max_drawdown_pct": 23.7,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -399,6 +407,10 @@
     {
      "t": "2026-11-21T03:21:00+00:00",
      "equity": 82.17
+    },
+    {
+     "t": "2026-11-21T04:20:30+00:00",
+     "equity": 76.26
     }
    ],
    "positions": [
@@ -411,36 +423,6 @@
      "avg": 0.355,
      "mark": 0.335,
      "opened": "2026-11-20T20:31:04+00:00"
-    },
-    {
-     "title": "Pelicans vs. Thunder",
-     "outcome": "Thunder",
-     "event_slug": "nba-nop-okc-2026-11-20",
-     "cost": 4.67,
-     "shares": 5.59,
-     "avg": 0.835,
-     "mark": 0.975,
-     "opened": "2026-11-20T23:05:02+00:00"
-    },
-    {
-     "title": "Magic vs. Nets: O/U 223.5",
-     "outcome": "Under",
-     "event_slug": "nba-orl-bkn-2026-11-20",
-     "cost": 6.0,
-     "shares": 11.65,
-     "avg": 0.515,
-     "mark": 0.0005,
-     "opened": "2026-11-21T00:06:31+00:00"
-    },
-    {
-     "title": "Spread: Toledo (-17.5)",
-     "outcome": "Bowling Green",
-     "event_slug": "cfb-bowlgr-toledo-2026-11-20",
-     "cost": 6.0,
-     "shares": 11.11,
-     "avg": 0.54,
-     "mark": 0.54,
-     "opened": "2026-11-21T00:28:25+00:00"
     },
     {
      "title": "Spread: Iowa (-7.5)",
@@ -469,11 +451,54 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.725,
+     "mark": 0.735,
      "opened": "2026-11-21T03:14:01+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Aljamain Sterling",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "cost": 5.28,
+     "shares": 11.6,
+     "avg": 0.455,
+     "mark": 0.445,
+     "opened": "2026-11-21T03:29:52+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "title": "Spread: Toledo (-17.5)",
+     "outcome": "Bowling Green",
+     "event_slug": "cfb-bowlgr-toledo-2026-11-20",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "title": "Magic vs. Nets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-orl-bkn-2026-11-20",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.21,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "title": "Pelicans vs. Thunder",
+     "outcome": "Thunder",
+     "event_slug": "nba-nop-okc-2026-11-20",
+     "cost": 4.67,
+     "pnl": 0.92,
+     "kfee": 0.06,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-21T03:21:00+00:00",
      "title": "Spread: Southern Illinois Salukis (-1.5)",
@@ -498,6 +523,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "skip",
+     "title": "Spread: Cal Poly Mustangs (-7.5)",
+     "outcome": "Cal Poly Mustangs",
+     "event_slug": "cbb-narz-calpol-2026-11-21",
+     "leader_usd": 54.0,
+     "reason": "below $1 minimum",
+     "price": 0.53,
+     "leader_price": 0.53
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Aljamain Sterling",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 12454.2,
+     "stake": 5.28,
+     "price": 0.455,
+     "leader_price": 0.45,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T03:21:00+00:00",
      "kind": "buy",
@@ -712,6 +760,10 @@
     {
      "t": "2026-11-21T03:21:00+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T04:20:30+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -723,21 +775,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 102.85,
-   "cash": 95.73,
-   "pnl": 2.85,
-   "pnl_after_kalshi_fees": 2.71,
-   "return_pct": 2.8,
-   "realized": 0,
+   "equity": 103.64,
+   "cash": 103.64,
+   "pnl": 3.64,
+   "pnl_after_kalshi_fees": 3.5,
+   "return_pct": 3.6,
+   "realized": 3.64,
    "kalshi_fees": 0.14,
-   "settled": 0,
-   "won": 0,
+   "settled": 1,
+   "won": 1,
    "lost": 0,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.27,
+   "open": 0,
+   "at_risk": 0,
    "copied": 1,
-   "skipped": 2,
+   "skipped": 6,
    "max_drawdown_pct": 0.1,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -811,22 +863,71 @@
     {
      "t": "2026-11-21T03:21:00+00:00",
      "equity": 102.85
+    },
+    {
+     "t": "2026-11-21T04:20:30+00:00",
+     "equity": 103.64
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-21T04:20:30+00:00",
      "title": "Javonte Green: Points O/U 9.5",
      "outcome": "Yes",
      "event_slug": "nba-tor-det-2026-11-20",
      "cost": 4.27,
-     "shares": 7.91,
-     "avg": 0.54,
-     "mark": 0.9,
-     "opened": "2026-11-21T02:18:23+00:00"
+     "pnl": 3.64,
+     "kfee": 0.14,
+     "how": "won",
+     "exit_price": 1.0
     }
    ],
-   "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "skip",
+     "title": "Rockets vs. Nuggets: 1H O/U 121.5",
+     "outcome": "Over",
+     "event_slug": "nba-hou-den-2026-11-20",
+     "leader_usd": 184.24,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.906
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "skip",
+     "title": "Rockets vs. Nuggets: 2Q O/U 57.5",
+     "outcome": "Over",
+     "event_slug": "nba-hou-den-2026-11-20",
+     "leader_usd": 2.52,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.42
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "skip",
+     "title": "Rockets vs. Nuggets: 1H O/U 117.5",
+     "outcome": "Over",
+     "event_slug": "nba-hou-den-2026-11-20",
+     "leader_usd": 35.28,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.852
+    },
+    {
+     "ts": "2026-11-21T04:20:30+00:00",
+     "kind": "skip",
+     "title": "Josh Green: Points O/U 4.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "leader_usd": 56.84,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.963
+    },
     {
      "ts": "2026-11-21T03:21:00+00:00",
      "kind": "skip",

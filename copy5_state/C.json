@@ -3,9 +3,9 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 49.17,
+ "cash": 49.4828,
  "since": 1795198438,
- "last_ts": 1795230841,
+ "last_ts": 1795233445,
  "positions": {
   "6010720608100636618683978441589351905755283559190160709714270500815076146742": {
    "cond": "0xd878ee4681a0a960ba658a7c5d67cb682aaa724f3f87c7441da1b486bada3128",
@@ -19,45 +19,6 @@
    "kfee": 0.28,
    "opened": "2026-11-20T20:31:04+00:00",
    "mark": 0.335
-  },
-  "58702627443718347465015808422290484240181770203949861144490440281222088767473": {
-   "cond": "0xa23a00cde01ce10a8423cac639fe3ef1de2751072b67cd8da5dc9b640447045b",
-   "idx": 1,
-   "outcome": "Thunder",
-   "title": "Pelicans vs. Thunder",
-   "slug": "nba-nop-okc-2026-11-20",
-   "event_slug": "nba-nop-okc-2026-11-20",
-   "shares": 5.592814371257485,
-   "cost": 4.67,
-   "kfee": 0.06,
-   "opened": "2026-11-20T23:05:02+00:00",
-   "mark": 0.975
-  },
-  "40021611003222058151963353059395821682303251452070057306857137699347945718577": {
-   "cond": "0x698977308d509489f35aacfd0234d4f83955d464d03cfbb13ede24bb53e95883",
-   "idx": 1,
-   "outcome": "Under",
-   "title": "Magic vs. Nets: O/U 223.5",
-   "slug": "nba-orl-bkn-2026-11-20-total-223pt5",
-   "event_slug": "nba-orl-bkn-2026-11-20",
-   "shares": 11.650485436893204,
-   "cost": 6.0,
-   "kfee": 0.21,
-   "opened": "2026-11-21T00:06:31+00:00",
-   "mark": 0.0005
-  },
-  "72356028440129983420668665346776705016965763733346620758322478665685504770199": {
-   "cond": "0x11af6d2f8f85689d6b56b98979531afcb6ab059e5fa1d46fb91740ae0641a235",
-   "idx": 1,
-   "outcome": "Bowling Green",
-   "title": "Spread: Toledo (-17.5)",
-   "slug": "cfb-bowlgr-toledo-2026-11-20-spread-home-17pt5",
-   "event_slug": "cfb-bowlgr-toledo-2026-11-20",
-   "shares": 11.11111111111111,
-   "cost": 6.0,
-   "kfee": 0.2,
-   "opened": "2026-11-21T00:28:25+00:00",
-   "mark": 0.54
   },
   "56148685922670395635226026549501179284107928033396683632183660918328589012563": {
    "cond": "0xffe2dd7dbb225148e5574ef2e769c2982bcfcd1009b4b16d216583da643d37c1",
@@ -96,7 +57,20 @@
    "cost": 5.64,
    "kfee": 0.11,
    "opened": "2026-11-21T03:14:01+00:00",
-   "mark": 0.725
+   "mark": 0.735
+  },
+  "38770054631374394609390477142157371265537739652351213979300779296718368562032": {
+   "cond": "0x7506db8e855c5d7425ebe44e93d416ddf08358a44636f55377f38234294e8add",
+   "idx": 0,
+   "outcome": "Aljamain Sterling",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "slug": "ufc-alj-kev16-2026-11-21",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "shares": 11.604395604395604,
+   "cost": 5.28,
+   "kfee": 0.21,
+   "opened": "2026-11-21T03:29:52+00:00",
+   "mark": 0.445
   }
  },
  "leader_shares": {
@@ -109,7 +83,9 @@
   "72356028440129983420668665346776705016965763733346620758322478665685504770199": 2399.0,
   "56148685922670395635226026549501179284107928033396683632183660918328589012563": 1188.0,
   "46385438597978742001642080631072533876028177095665469628609712504416636222842": 831.73,
-  "8856866893342038836567188693939564504761038257204736113760382639756904436422": 1204.0
+  "8856866893342038836567188693939564504761038257204736113760382639756904436422": 1204.0,
+  "38770054631374394609390477142157371265537739652351213979300779296718368562032": 27676.0,
+  "95110229549814431196300945615472029557479152408346972554314697307032054713708": 101.886793
  },
  "median_usd": 264.6,
  "closed": [
@@ -129,6 +105,39 @@
    "title": "Spread: Southern Illinois Salukis (-1.5)",
    "outcome": "Southern Illinois Salukis",
    "event_slug": "cbb-tmrt-sill-2026-11-20",
+   "cost": 6.0,
+   "pnl": -6.0,
+   "kfee": 0.2,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T04:20:30+00:00",
+   "title": "Pelicans vs. Thunder",
+   "outcome": "Thunder",
+   "event_slug": "nba-nop-okc-2026-11-20",
+   "cost": 4.67,
+   "pnl": 0.92,
+   "kfee": 0.06,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-21T04:20:30+00:00",
+   "title": "Magic vs. Nets: O/U 223.5",
+   "outcome": "Under",
+   "event_slug": "nba-orl-bkn-2026-11-20",
+   "cost": 6.0,
+   "pnl": -6.0,
+   "kfee": 0.21,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-21T04:20:30+00:00",
+   "title": "Spread: Toledo (-17.5)",
+   "outcome": "Bowling Green",
+   "event_slug": "cfb-bowlgr-toledo-2026-11-20",
    "cost": 6.0,
    "pnl": -6.0,
    "kfee": 0.2,
@@ -255,6 +264,29 @@
    "price": 0.735,
    "leader_price": 0.73,
    "mult": 2.0
+  },
+  {
+   "ts": "2026-11-21T04:20:30+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "outcome": "Aljamain Sterling",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "leader_usd": 12454.2,
+   "stake": 5.28,
+   "price": 0.455,
+   "leader_price": 0.45,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-21T04:20:30+00:00",
+   "kind": "skip",
+   "title": "Spread: Cal Poly Mustangs (-7.5)",
+   "outcome": "Cal Poly Mustangs",
+   "event_slug": "cbb-narz-calpol-2026-11-21",
+   "leader_usd": 54.0,
+   "reason": "below $1 minimum",
+   "price": 0.53,
+   "leader_price": 0.53
   }
  ],
  "history": [
@@ -317,10 +349,14 @@
   {
    "t": "2026-11-21T03:21:00+00:00",
    "equity": 82.17
+  },
+  {
+   "t": "2026-11-21T04:20:30+00:00",
+   "equity": 76.26
   }
  ],
- "kfees": 1.63,
- "copied": 9,
- "skipped": 1,
+ "kfees": 1.84,
+ "copied": 10,
+ "skipped": 2,
  "median_ts": 1795198438
 }
