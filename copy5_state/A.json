@@ -3,16 +3,102 @@
  "name": "BreakTheBank",
  "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
  "start": 100.0,
- "cash": 88.02,
+ "cash": 66.37,
  "since": 1795198438,
- "last_ts": 1795223383,
- "positions": {},
+ "last_ts": 1795279135,
+ "positions": {
+  "12653717349966440791907189659072939667212361700903292107262676489068799342566": {
+   "cond": "0x7506db8e855c5d7425ebe44e93d416ddf08358a44636f55377f38234294e8add",
+   "idx": 1,
+   "outcome": "Kevin Vallejos",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "slug": "ufc-alj-kev16-2026-11-21",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "shares": 9.688073394495413,
+   "cost": 5.28,
+   "kfee": 0.17,
+   "opened": "2026-11-21T16:33:41+00:00",
+   "mark": 0.535
+  },
+  "94924309990696189937343588653563612152442335906966979949061786526672497346210": {
+   "cond": "0x31404d5ca18a175b8bdccfc7109f9dbef807b82d2b5bd790922762cf96066e28",
+   "idx": 1,
+   "outcome": "Alessandro Costa",
+   "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
+   "slug": "ufc-ami-ale35-2026-11-21",
+   "event_slug": "ufc-ami-ale35-2026-11-21",
+   "shares": 5.339449541284403,
+   "cost": 2.91,
+   "kfee": 0.1,
+   "opened": "2026-11-21T16:34:25+00:00",
+   "mark": 0.535
+  },
+  "98722108478729109314951211947064375733850721645822007854835903695404948136568": {
+   "cond": "0x2d7bfb689fec84120c08ac5a3046577e54d75490b5cc28f6acb59813555a95ed",
+   "idx": 1,
+   "outcome": "Tallison Teixeira",
+   "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
+   "slug": "ufc-sha27-tal2-2026-11-21",
+   "event_slug": "ufc-sha27-tal2-2026-11-21",
+   "shares": 3.74025974025974,
+   "cost": 1.44,
+   "kfee": 0.07,
+   "opened": "2026-11-21T16:35:04+00:00",
+   "mark": 0.375
+  },
+  "80670276674187063060491876810333189890304023874556375703264361399600975089674": {
+   "cond": "0x01d568219643ca122ba7644827dc26c48b765dfab549b086d72659cc0130441d",
+   "idx": 1,
+   "outcome": "Ikram Aliskerov",
+   "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+   "slug": "ufc-jar-ikr-2026-11-21",
+   "event_slug": "ufc-jar-ikr-2026-11-21",
+   "shares": 6.438709677419355,
+   "cost": 4.99,
+   "kfee": 0.08,
+   "opened": "2026-11-21T16:36:58+00:00",
+   "mark": 0.765
+  },
+  "23179889754289405220424103056305227273784320688703234024360843927522715300866": {
+   "cond": "0x7ae9725048dd25f013549d02532b1a7c1f5f37a48b35bd7962299b4d2114426b",
+   "idx": 1,
+   "outcome": "Asu Almabayev",
+   "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+   "slug": "ufc-kyo-asu-2026-11-21",
+   "event_slug": "ufc-kyo-asu-2026-11-21",
+   "shares": 4.430379746835443,
+   "cost": 1.75,
+   "kfee": 0.08,
+   "opened": "2026-11-21T16:37:46+00:00",
+   "mark": 0.385
+  },
+  "63457155869463499394771120334784441573628429591038941773766010934490389543619": {
+   "cond": "0xdc8303985c6259152c8ff6b70e365b2a4ebfcc23110a7d70af81548d4e91dd57",
+   "idx": 1,
+   "outcome": "Navajo Stirling",
+   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+   "slug": "ufc-jproch-nav-2026-11-21",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "shares": 8.061068702290076,
+   "cost": 5.28,
+   "kfee": 0.13,
+   "opened": "2026-11-21T16:38:55+00:00",
+   "mark": 0.645
+  }
+ },
  "leader_shares": {
   "11376846649846397637629515718287737992489767404893188768280033139373736291692": 139143.03,
   "12042500102922379995800896870229961180519863063448798221842069005259042944123": 15786.47,
   "79721239142814267204208923264439747483705492249215437021408689200807892787313": 35.0,
   "20803280068035947155204561885414447397054986976916735025008021357343325027796": 1524.35,
-  "56522472634132313120762119892962488731910017337468522953384736207232777237178": 137207.34
+  "56522472634132313120762119892962488731910017337468522953384736207232777237178": 137207.34,
+  "12653717349966440791907189659072939667212361700903292107262676489068799342566": 125969.51,
+  "94924309990696189937343588653563612152442335906966979949061786526672497346210": 36037.2,
+  "98722108478729109314951211947064375733850721645822007854835903695404948136568": 24976.71,
+  "13089260581222514942808273085591542627543252842149460654137020465025187134427": 18965.33,
+  "80670276674187063060491876810333189890304023874556375703264361399600975089674": 42178.88,
+  "23179889754289405220424103056305227273784320688703234024360843927522715300866": 29581.94,
+  "63457155869463499394771120334784441573628429591038941773766010934490389543619": 83638.3
  },
  "median_usd": 16975.844,
  "closed": [
@@ -119,6 +205,89 @@
    "price": 0.135,
    "leader_price": 0.199,
    "mult": 1.57
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+   "outcome": "Kevin Vallejos",
+   "event_slug": "ufc-alj-kev16-2026-11-21",
+   "leader_usd": 66763.84,
+   "stake": 5.28,
+   "price": 0.545,
+   "leader_price": 0.53,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
+   "outcome": "Alessandro Costa",
+   "event_slug": "ufc-ami-ale35-2026-11-21",
+   "leader_usd": 18739.34,
+   "stake": 2.91,
+   "price": 0.545,
+   "leader_price": 0.52,
+   "mult": 1.1
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
+   "outcome": "Tallison Teixeira",
+   "event_slug": "ufc-sha27-tal2-2026-11-21",
+   "leader_usd": 9241.38,
+   "stake": 1.44,
+   "price": 0.385,
+   "leader_price": 0.37,
+   "mult": 0.54
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "skip",
+   "title": "UFC Fight Night: Aleksandre Topuria vs. Santiago Luna (Bantamweight, Main Card)",
+   "outcome": "Santiago Luna",
+   "event_slug": "ufc-ale58-san6-2026-11-21",
+   "leader_usd": 5499.95,
+   "reason": "below $1 minimum",
+   "price": 0.295,
+   "leader_price": 0.29
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+   "outcome": "Ikram Aliskerov",
+   "event_slug": "ufc-jar-ikr-2026-11-21",
+   "leader_usd": 32055.95,
+   "stake": 4.99,
+   "price": 0.775,
+   "leader_price": 0.76,
+   "mult": 1.89
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+   "outcome": "Asu Almabayev",
+   "event_slug": "ufc-kyo-asu-2026-11-21",
+   "leader_usd": 11241.14,
+   "stake": 1.75,
+   "price": 0.395,
+   "leader_price": 0.38,
+   "mult": 0.66
+  },
+  {
+   "ts": "2026-11-21T16:44:36+00:00",
+   "kind": "buy",
+   "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+   "outcome": "Navajo Stirling",
+   "event_slug": "ufc-jproch-nav-2026-11-21",
+   "leader_usd": 53528.51,
+   "stake": 5.28,
+   "price": 0.655,
+   "leader_price": 0.64,
+   "mult": 2.0
   }
  ],
  "history": [
@@ -237,10 +406,14 @@
   {
    "t": "2026-11-21T16:21:15+00:00",
    "equity": 88.02
+  },
+  {
+   "t": "2026-11-21T16:44:36+00:00",
+   "equity": 87.64
   }
  ],
- "kfees": 0.54,
- "copied": 3,
- "skipped": 3,
+ "kfees": 1.17,
+ "copied": 9,
+ "skipped": 4,
  "median_ts": 1795198438
 }

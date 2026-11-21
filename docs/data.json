@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:21:17+00:00",
+ "updated": "2026-11-21T16:44:40+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,22 +9,22 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 88.02,
-   "cash": 88.02,
-   "pnl": -11.98,
-   "pnl_after_kalshi_fees": -12.52,
-   "return_pct": -12.0,
+   "equity": 87.64,
+   "cash": 66.37,
+   "pnl": -12.36,
+   "pnl_after_kalshi_fees": -13.53,
+   "return_pct": -12.4,
    "realized": -11.98,
-   "kalshi_fees": 0.54,
+   "kalshi_fees": 1.17,
    "settled": 3,
    "won": 0,
    "lost": 3,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 3,
-   "skipped": 3,
-   "max_drawdown_pct": 17.7,
+   "open": 6,
+   "at_risk": 21.65,
+   "copied": 9,
+   "skipped": 4,
+   "max_drawdown_pct": 18.0,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -153,9 +153,74 @@
     {
      "t": "2026-11-21T16:21:15+00:00",
      "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T16:44:36+00:00",
+     "equity": 87.64
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Kevin Vallejos",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "cost": 5.28,
+     "shares": 9.69,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-21T16:33:41+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
+     "outcome": "Alessandro Costa",
+     "event_slug": "ufc-ami-ale35-2026-11-21",
+     "cost": 2.91,
+     "shares": 5.34,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-21T16:34:25+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
+     "outcome": "Tallison Teixeira",
+     "event_slug": "ufc-sha27-tal2-2026-11-21",
+     "cost": 1.44,
+     "shares": 3.74,
+     "avg": 0.385,
+     "mark": 0.375,
+     "opened": "2026-11-21T16:35:04+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+     "outcome": "Ikram Aliskerov",
+     "event_slug": "ufc-jar-ikr-2026-11-21",
+     "cost": 4.99,
+     "shares": 6.44,
+     "avg": 0.775,
+     "mark": 0.765,
+     "opened": "2026-11-21T16:36:58+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+     "outcome": "Asu Almabayev",
+     "event_slug": "ufc-kyo-asu-2026-11-21",
+     "cost": 1.75,
+     "shares": 4.43,
+     "avg": 0.395,
+     "mark": 0.385,
+     "opened": "2026-11-21T16:37:46+00:00"
+    },
+    {
+     "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+     "outcome": "Navajo Stirling",
+     "event_slug": "ufc-jproch-nav-2026-11-21",
+     "cost": 5.28,
+     "shares": 8.06,
+     "avg": 0.655,
+     "mark": 0.645,
+     "opened": "2026-11-21T16:38:55+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-21T04:20:30+00:00",
@@ -192,6 +257,89 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+     "outcome": "Navajo Stirling",
+     "event_slug": "ufc-jproch-nav-2026-11-21",
+     "leader_usd": 53528.51,
+     "stake": 5.28,
+     "price": 0.655,
+     "leader_price": 0.64,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+     "outcome": "Asu Almabayev",
+     "event_slug": "ufc-kyo-asu-2026-11-21",
+     "leader_usd": 11241.14,
+     "stake": 1.75,
+     "price": 0.395,
+     "leader_price": 0.38,
+     "mult": 0.66
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
+     "outcome": "Ikram Aliskerov",
+     "event_slug": "ufc-jar-ikr-2026-11-21",
+     "leader_usd": 32055.95,
+     "stake": 4.99,
+     "price": 0.775,
+     "leader_price": 0.76,
+     "mult": 1.89
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Aleksandre Topuria vs. Santiago Luna (Bantamweight, Main Card)",
+     "outcome": "Santiago Luna",
+     "event_slug": "ufc-ale58-san6-2026-11-21",
+     "leader_usd": 5499.95,
+     "reason": "below $1 minimum",
+     "price": 0.295,
+     "leader_price": 0.29
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Shamil Gaziev vs. Tallison Teixeira (Heavyweight, Prelims)",
+     "outcome": "Tallison Teixeira",
+     "event_slug": "ufc-sha27-tal2-2026-11-21",
+     "leader_usd": 9241.38,
+     "stake": 1.44,
+     "price": 0.385,
+     "leader_price": 0.37,
+     "mult": 0.54
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Amir Albazi vs. Alessandro Costa (Flyweight, Prelims)",
+     "outcome": "Alessandro Costa",
+     "event_slug": "ufc-ami-ale35-2026-11-21",
+     "leader_usd": 18739.34,
+     "stake": 2.91,
+     "price": 0.545,
+     "leader_price": 0.52,
+     "mult": 1.1
+    },
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Kevin Vallejos",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 66763.84,
+     "stake": 5.28,
+     "price": 0.545,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T01:20:34+00:00",
      "kind": "buy",
@@ -268,20 +416,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.73,
-   "cash": 86.95,
-   "pnl": -0.27,
-   "pnl_after_kalshi_fees": -0.72,
+   "equity": 99.67,
+   "cash": 83.05,
+   "pnl": -0.33,
+   "pnl_after_kalshi_fees": -0.89,
    "return_pct": -0.3,
    "realized": 0,
-   "kalshi_fees": 0.45,
+   "kalshi_fees": 0.56,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 13.05,
-   "copied": 3,
+   "open": 4,
+   "at_risk": 16.95,
+   "copied": 4,
    "skipped": 2,
    "max_drawdown_pct": 0.3,
    "focus": "College football, NFL",
@@ -412,6 +560,10 @@
     {
      "t": "2026-11-21T16:21:15+00:00",
      "equity": 99.73
+    },
+    {
+     "t": "2026-11-21T16:44:36+00:00",
+     "equity": 99.67
     }
    ],
    "positions": [
@@ -444,10 +596,32 @@
      "avg": 0.475,
      "mark": 0.465,
      "opened": "2026-11-21T15:44:05+00:00"
+    },
+    {
+     "title": "Colorado vs. Cincinnati",
+     "outcome": "Cincinnati",
+     "event_slug": "cfb-col-cin-2026-11-21",
+     "cost": 3.9,
+     "shares": 6.45,
+     "avg": 0.605,
+     "mark": 0.595,
+     "opened": "2026-11-21T16:27:37+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "Colorado vs. Cincinnati",
+     "outcome": "Cincinnati",
+     "event_slug": "cfb-col-cin-2026-11-21",
+     "leader_usd": 1780.14,
+     "stake": 3.9,
+     "price": 0.605,
+     "leader_price": 0.59,
+     "mult": 1.3
+    },
     {
      "ts": "2026-11-21T16:21:15+00:00",
      "kind": "buy",
@@ -513,22 +687,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.65,
-   "cash": 20.03,
-   "pnl": -24.35,
-   "pnl_after_kalshi_fees": -27.22,
-   "return_pct": -24.3,
+   "equity": 75.54,
+   "cash": 18.43,
+   "pnl": -24.46,
+   "pnl_after_kalshi_fees": -27.4,
+   "return_pct": -24.5,
    "realized": -23.08,
-   "kalshi_fees": 2.87,
+   "kalshi_fees": 2.94,
    "settled": 5,
    "won": 1,
    "lost": 4,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 56.89,
-   "copied": 17,
+   "open": 12,
+   "at_risk": 58.49,
+   "copied": 18,
    "skipped": 3,
-   "max_drawdown_pct": 24.3,
+   "max_drawdown_pct": 24.5,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -657,6 +831,10 @@
     {
      "t": "2026-11-21T16:21:15+00:00",
      "equity": 75.65
+    },
+    {
+     "t": "2026-11-21T16:44:36+00:00",
+     "equity": 75.54
     }
    ],
    "positions": [
@@ -707,7 +885,7 @@
      "cost": 7.01,
      "shares": 15.25,
      "avg": 0.46,
-     "mark": 0.475,
+     "mark": 0.465,
      "opened": "2026-11-21T03:29:52+00:00"
     },
     {
@@ -757,7 +935,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.525,
      "opened": "2026-11-21T15:58:44+00:00"
     },
     {
@@ -769,6 +947,16 @@
      "avg": 0.525,
      "mark": 0.515,
      "opened": "2026-11-21T16:16:43+00:00"
+    },
+    {
+     "title": "O/U 1.5 Rounds",
+     "outcome": "Under",
+     "event_slug": "ufc-jproch-nav-2026-11-21",
+     "cost": 1.6,
+     "shares": 4.16,
+     "avg": 0.385,
+     "mark": 0.375,
+     "opened": "2026-11-21T16:23:46+00:00"
     }
    ],
    "closed": [
@@ -829,6 +1017,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T16:44:36+00:00",
+     "kind": "buy",
+     "title": "O/U 1.5 Rounds",
+     "outcome": "Under",
+     "event_slug": "ufc-jproch-nav-2026-11-21",
+     "leader_usd": 183.92,
+     "stake": 1.6,
+     "price": 0.385,
+     "leader_price": 0.38,
+     "mult": 0.7
+    },
     {
      "ts": "2026-11-21T16:21:15+00:00",
      "kind": "buy",
@@ -1217,6 +1417,10 @@
     {
      "t": "2026-11-21T16:21:15+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T16:44:36+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -1371,6 +1575,10 @@
     },
     {
      "t": "2026-11-21T16:21:15+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T16:44:36+00:00",
      "equity": 99.99
     }
    ],
