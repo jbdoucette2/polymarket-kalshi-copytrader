@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:20:59+00:00",
+ "updated": "2026-11-21T20:21:02+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,21 +9,21 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 90.54,
-   "cash": 80.0,
-   "pnl": -9.46,
-   "pnl_after_kalshi_fees": -10.78,
-   "return_pct": -9.5,
-   "realized": -7.69,
-   "kalshi_fees": 1.32,
-   "settled": 6,
+   "equity": 94.91,
+   "cash": 74.46,
+   "pnl": -5.09,
+   "pnl_after_kalshi_fees": -6.54,
+   "return_pct": -5.1,
+   "realized": -9.44,
+   "kalshi_fees": 1.45,
+   "settled": 7,
    "won": 2,
-   "lost": 4,
+   "lost": 5,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 12.31,
-   "copied": 10,
-   "skipped": 7,
+   "open": 2,
+   "at_risk": 16.1,
+   "copied": 11,
+   "skipped": 9,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
    "risk": "High",
@@ -169,6 +169,10 @@
     {
      "t": "2026-11-21T19:20:55+00:00",
      "equity": 90.54
+    },
+    {
+     "t": "2026-11-21T20:20:58+00:00",
+     "equity": 94.91
     }
    ],
    "positions": [
@@ -179,31 +183,32 @@
      "cost": 5.28,
      "shares": 9.69,
      "avg": 0.545,
-     "mark": 0.535,
+     "mark": 0.995,
      "opened": "2026-11-21T16:33:41+00:00"
-    },
-    {
-     "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
-     "outcome": "Asu Almabayev",
-     "event_slug": "ufc-kyo-asu-2026-11-21",
-     "cost": 1.75,
-     "shares": 4.43,
-     "avg": 0.395,
-     "mark": 0.0005,
-     "opened": "2026-11-21T16:37:46+00:00"
     },
     {
      "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
      "outcome": "Navajo Stirling",
      "event_slug": "ufc-jproch-nav-2026-11-21",
-     "cost": 5.28,
-     "shares": 8.06,
-     "avg": 0.655,
+     "cost": 10.82,
+     "shares": 16.27,
+     "avg": 0.665,
      "mark": 0.665,
      "opened": "2026-11-21T16:38:55+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "title": "UFC Fight Night: Kyoji Horiguchi vs. Asu Almabayev (Flyweight, Main Card)",
+     "outcome": "Asu Almabayev",
+     "event_slug": "ufc-kyo-asu-2026-11-21",
+     "cost": 1.75,
+     "pnl": -1.75,
+     "kfee": 0.08,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T19:20:55+00:00",
      "title": "UFC Fight Night: Jared Cannonier vs. Ikram Aliskerov (Middleweight, Main Card)",
@@ -272,6 +277,40 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "buy",
+     "title": "UFC Fight Night: Jir\u00ed Proch\u00e1zka vs. Navajo Stirling (Light Heavyweight, Main Card)",
+     "outcome": "Navajo Stirling",
+     "event_slug": "ufc-jproch-nav-2026-11-21",
+     "leader_usd": 48180.75,
+     "stake": 5.54,
+     "price": 0.675,
+     "leader_price": 0.67,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Kevin Vallejos",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 56311.11,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.54
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Kevin Vallejos",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 103994.99,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.54
+    },
     {
      "ts": "2026-11-21T19:20:55+00:00",
      "kind": "skip",
@@ -476,21 +515,21 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 104.65,
-   "cash": 77.05,
-   "pnl": 4.65,
-   "pnl_after_kalshi_fees": 3.84,
-   "return_pct": 4.7,
+   "equity": 112.72,
+   "cash": 73.71,
+   "pnl": 12.72,
+   "pnl_after_kalshi_fees": 11.8,
+   "return_pct": 12.7,
    "realized": 0,
-   "kalshi_fees": 0.81,
+   "kalshi_fees": 0.92,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 22.95,
-   "copied": 6,
-   "skipped": 5,
+   "open": 7,
+   "at_risk": 26.29,
+   "copied": 7,
+   "skipped": 8,
    "max_drawdown_pct": 0.3,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -636,6 +675,10 @@
     {
      "t": "2026-11-21T19:20:55+00:00",
      "equity": 104.65
+    },
+    {
+     "t": "2026-11-21T20:20:58+00:00",
+     "equity": 112.72
     }
    ],
    "positions": [
@@ -656,7 +699,7 @@
      "cost": 6.0,
      "shares": 10.08,
      "avg": 0.595,
-     "mark": 0.585,
+     "mark": 0.595,
      "opened": "2026-11-21T15:19:10+00:00"
     },
     {
@@ -666,7 +709,7 @@
      "cost": 6.0,
      "shares": 12.63,
      "avg": 0.475,
-     "mark": 0.75,
+     "mark": 0.9865,
      "opened": "2026-11-21T15:44:05+00:00"
     },
     {
@@ -676,7 +719,7 @@
      "cost": 3.9,
      "shares": 6.45,
      "avg": 0.605,
-     "mark": 0.81,
+     "mark": 0.9995,
      "opened": "2026-11-21T16:27:37+00:00"
     },
     {
@@ -686,7 +729,7 @@
      "cost": 2.55,
      "shares": 7.39,
      "avg": 0.345,
-     "mark": 0.355,
+     "mark": 0.9995,
      "opened": "2026-11-21T16:58:29+00:00"
     },
     {
@@ -696,12 +739,67 @@
      "cost": 3.45,
      "shares": 7.26,
      "avg": 0.475,
-     "mark": 0.465,
+     "mark": 0.335,
      "opened": "2026-11-21T17:56:14+00:00"
+    },
+    {
+     "title": "Spread: Nevada (-7.5)",
+     "outcome": "Hawaii",
+     "event_slug": "cfb-hawaii-nevada-2026-11-21",
+     "cost": 3.34,
+     "shares": 6.02,
+     "avg": 0.555,
+     "mark": 0.545,
+     "opened": "2026-11-21T19:24:38+00:00"
     }
    ],
    "closed": [],
    "log": [
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "Spread: Texas (-17.5)",
+     "outcome": "Arkansas",
+     "event_slug": "cfb-ark-tx-2026-11-21",
+     "leader_usd": 60.4,
+     "reason": "below $1 minimum",
+     "price": 0.485,
+     "leader_price": 0.48
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "Spread: Iowa (-8.5)",
+     "outcome": "Illinois",
+     "event_slug": "cfb-iowa-ill-2026-11-21",
+     "leader_usd": 10.07,
+     "reason": "below $1 minimum",
+     "price": 0.495,
+     "leader_price": 0.52
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "buy",
+     "title": "Spread: Nevada (-7.5)",
+     "outcome": "Hawaii",
+     "event_slug": "cfb-hawaii-nevada-2026-11-21",
+     "leader_usd": 1418.87,
+     "stake": 3.34,
+     "price": 0.555,
+     "leader_price": 0.54,
+     "mult": 1.11
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "UNLV vs. San Jose State",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-unlv-sjst-2026-11-21",
+     "leader_usd": 31.23,
+     "reason": "below $1 minimum",
+     "price": 0.325,
+     "leader_price": 0.32
+    },
     {
      "ts": "2026-11-21T18:20:47+00:00",
      "kind": "buy",
@@ -836,22 +934,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.4,
-   "cash": 0.0,
-   "pnl": -27.6,
-   "pnl_after_kalshi_fees": -31.18,
-   "return_pct": -27.6,
-   "realized": -23.08,
+   "equity": 66.39,
+   "cash": 6.2,
+   "pnl": -33.61,
+   "pnl_after_kalshi_fees": -37.19,
+   "return_pct": -33.6,
+   "realized": -26.12,
    "kalshi_fees": 3.58,
-   "settled": 5,
-   "won": 1,
-   "lost": 4,
+   "settled": 7,
+   "won": 2,
+   "lost": 5,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 76.92,
+   "open": 14,
+   "at_risk": 67.68,
    "copied": 23,
-   "skipped": 13,
-   "max_drawdown_pct": 27.6,
+   "skipped": 16,
+   "max_drawdown_pct": 33.6,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -996,6 +1094,10 @@
     {
      "t": "2026-11-21T19:20:55+00:00",
      "equity": 72.4
+    },
+    {
+     "t": "2026-11-21T20:20:58+00:00",
+     "equity": 66.39
     }
    ],
    "positions": [
@@ -1016,7 +1118,7 @@
      "cost": 6.0,
      "shares": 12.37,
      "avg": 0.485,
-     "mark": 0.495,
+     "mark": 0.555,
      "opened": "2026-11-21T01:03:26+00:00"
     },
     {
@@ -1026,7 +1128,7 @@
      "cost": 4.52,
      "shares": 8.53,
      "avg": 0.53,
-     "mark": 0.18,
+     "mark": 0.145,
      "opened": "2026-11-21T03:04:11+00:00"
     },
     {
@@ -1046,7 +1148,7 @@
      "cost": 7.01,
      "shares": 15.25,
      "avg": 0.46,
-     "mark": 0.465,
+     "mark": 0.005,
      "opened": "2026-11-21T03:29:52+00:00"
     },
     {
@@ -1076,7 +1178,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.535,
+     "mark": 0.545,
      "opened": "2026-11-21T15:08:07+00:00"
     },
     {
@@ -1086,7 +1188,7 @@
      "cost": 4.62,
      "shares": 9.33,
      "avg": 0.495,
-     "mark": 0.105,
+     "mark": 0.255,
      "opened": "2026-11-21T15:37:10+00:00"
     },
     {
@@ -1096,7 +1198,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.645,
+     "mark": 0.9995,
      "opened": "2026-11-21T15:58:44+00:00"
     },
     {
@@ -1126,7 +1228,7 @@
      "cost": 1.21,
      "shares": 2.14,
      "avg": 0.565,
-     "mark": 0.625,
+     "mark": 0.715,
      "opened": "2026-11-21T16:49:50+00:00"
     },
     {
@@ -1138,29 +1240,31 @@
      "avg": 0.475,
      "mark": 0.485,
      "opened": "2026-11-21T16:55:46+00:00"
-    },
+    }
+   ],
+   "closed": [
     {
-     "title": "Spread: CSyD Defensa y Justicia (-1.5)",
-     "outcome": "CA Barracas Central",
-     "event_slug": "arg-def-bar-2026-11-21-more-markets",
-     "cost": 4.62,
-     "shares": 6.2,
-     "avg": 0.745,
-     "mark": 0.938,
-     "opened": "2026-11-21T17:18:47+00:00"
-    },
-    {
+     "ts": "2026-11-21T20:20:58+00:00",
      "title": "UFC Fight Night: Brian Ortega vs. Dan Hooker (Lightweight, Main Card)",
      "outcome": "Brian Ortega",
      "event_slug": "ufc-bri3-dan6-2026-11-21",
      "cost": 4.62,
-     "shares": 13.01,
-     "avg": 0.355,
-     "mark": 0.355,
-     "opened": "2026-11-21T17:18:56+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -4.62,
+     "kfee": 0.21,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "title": "Spread: CSyD Defensa y Justicia (-1.5)",
+     "outcome": "CA Barracas Central",
+     "event_slug": "arg-def-bar-2026-11-21-more-markets",
+     "cost": 4.62,
+     "pnl": 1.58,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-21T04:20:30+00:00",
      "title": "Spread: Toledo (-17.5)",
@@ -1218,6 +1322,39 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "Spread: Georgia Southern (-8.5)",
+     "outcome": "Troy",
+     "event_slug": "cfb-gas-troy-2026-11-21",
+     "leader_usd": 1143.5,
+     "reason": "out of cash",
+     "price": 0.515,
+     "leader_price": 0.5
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
+     "outcome": "Aljamain Sterling",
+     "event_slug": "ufc-alj-kev16-2026-11-21",
+     "leader_usd": 4999.86,
+     "reason": "too late: outcome already decided",
+     "price": 0.005,
+     "leader_price": 0.47
+    },
+    {
+     "ts": "2026-11-21T20:20:58+00:00",
+     "kind": "skip",
+     "title": "Will CA Paranaense vs. Clube do Remo end in a draw?",
+     "outcome": "No",
+     "event_slug": "bra-cap-cre-2026-11-22",
+     "leader_usd": 1825.73,
+     "reason": "out of cash",
+     "price": 0.745,
+     "leader_price": 0.73
+    },
     {
      "ts": "2026-11-21T19:20:55+00:00",
      "kind": "skip",
@@ -1644,11 +1781,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.26,
+   "equity": 100.21,
    "cash": 91.37,
-   "pnl": -0.74,
-   "pnl_after_kalshi_fees": -1.02,
-   "return_pct": -0.7,
+   "pnl": 0.21,
+   "pnl_after_kalshi_fees": -0.07,
+   "return_pct": 0.2,
    "realized": 0,
    "kalshi_fees": 0.28,
    "settled": 0,
@@ -1804,6 +1941,10 @@
     {
      "t": "2026-11-21T19:20:55+00:00",
      "equity": 99.26
+    },
+    {
+     "t": "2026-11-21T20:20:58+00:00",
+     "equity": 100.21
     }
    ],
    "positions": [
@@ -1814,7 +1955,7 @@
      "cost": 6.0,
      "shares": 9.45,
      "avg": 0.635,
-     "mark": 0.565,
+     "mark": 0.485,
      "opened": "2026-11-21T18:01:29+00:00"
     },
     {
@@ -1824,7 +1965,7 @@
      "cost": 2.63,
      "shares": 7.41,
      "avg": 0.355,
-     "mark": 0.345,
+     "mark": 0.575,
      "opened": "2026-11-21T18:32:41+00:00"
     }
    ],
@@ -2020,6 +2161,10 @@
     },
     {
      "t": "2026-11-21T19:20:55+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-21T20:20:58+00:00",
      "equity": 99.99
     }
    ],
