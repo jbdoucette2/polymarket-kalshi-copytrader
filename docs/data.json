@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:26:09+00:00",
+ "updated": "2026-11-21T02:20:45+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 106.91,
+   "equity": 103.17,
    "cash": 88.02,
-   "pnl": 6.91,
-   "pnl_after_kalshi_fees": 6.37,
-   "return_pct": 6.9,
+   "pnl": 3.17,
+   "pnl_after_kalshi_fees": 2.63,
+   "return_pct": 3.2,
    "realized": 0,
    "kalshi_fees": 0.54,
    "settled": 0,
@@ -24,7 +24,7 @@
    "at_risk": 11.98,
    "copied": 3,
    "skipped": 3,
-   "max_drawdown_pct": 0.7,
+   "max_drawdown_pct": 3.5,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -89,6 +89,10 @@
     {
      "t": "2026-11-21T01:26:08+00:00",
      "equity": 106.91
+    },
+    {
+     "t": "2026-11-21T02:20:43+00:00",
+     "equity": 103.17
     }
    ],
    "positions": [
@@ -99,7 +103,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.745,
+     "mark": 0.0005,
      "opened": "2026-11-20T23:40:23+00:00"
     },
     {
@@ -109,7 +113,7 @@
      "cost": 1.28,
      "shares": 2.59,
      "avg": 0.495,
-     "mark": 0.7,
+     "mark": 0.0005,
      "opened": "2026-11-20T23:40:46+00:00"
     },
     {
@@ -119,7 +123,7 @@
      "cost": 4.7,
      "shares": 34.81,
      "avg": 0.135,
-     "mark": 0.255,
+     "mark": 0.435,
      "opened": "2026-11-21T01:08:58+00:00"
     }
    ],
@@ -281,6 +285,10 @@
     {
      "t": "2026-11-21T01:26:08+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T02:20:43+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -292,22 +300,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 86.23,
+   "equity": 79.18,
    "cash": 59.33,
-   "pnl": -13.77,
-   "pnl_after_kalshi_fees": -15.14,
-   "return_pct": -13.8,
-   "realized": 0,
+   "pnl": -20.82,
+   "pnl_after_kalshi_fees": -22.19,
+   "return_pct": -20.8,
+   "realized": -6.0,
    "kalshi_fees": 1.37,
-   "settled": 0,
+   "settled": 1,
    "won": 0,
-   "lost": 0,
+   "lost": 1,
    "sold_early": 0,
-   "open": 7,
-   "at_risk": 40.67,
+   "open": 6,
+   "at_risk": 34.67,
    "copied": 7,
    "skipped": 1,
-   "max_drawdown_pct": 14.5,
+   "max_drawdown_pct": 20.8,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -372,6 +380,10 @@
     {
      "t": "2026-11-21T01:26:08+00:00",
      "equity": 86.23
+    },
+    {
+     "t": "2026-11-21T02:20:43+00:00",
+     "equity": 79.18
     }
    ],
    "positions": [
@@ -382,18 +394,8 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.335,
+     "mark": 0.325,
      "opened": "2026-11-20T20:31:04+00:00"
-    },
-    {
-     "title": "Spread: Miami Hurricanes (-35.5)",
-     "outcome": "Manhattan Jaspers",
-     "event_slug": "cbb-manh-mia-2026-11-20",
-     "cost": 6.0,
-     "shares": 11.11,
-     "avg": 0.54,
-     "mark": 0.0005,
-     "opened": "2026-11-20T21:51:38+00:00"
     },
     {
      "title": "Spread: Southern Illinois Salukis (-1.5)",
@@ -412,7 +414,7 @@
      "cost": 4.67,
      "shares": 5.59,
      "avg": 0.835,
-     "mark": 0.745,
+     "mark": 0.565,
      "opened": "2026-11-20T23:05:02+00:00"
     },
     {
@@ -422,7 +424,7 @@
      "cost": 6.0,
      "shares": 11.65,
      "avg": 0.515,
-     "mark": 0.45,
+     "mark": 0.165,
      "opened": "2026-11-21T00:06:31+00:00"
     },
     {
@@ -432,7 +434,7 @@
      "cost": 6.0,
      "shares": 11.11,
      "avg": 0.54,
-     "mark": 0.535,
+     "mark": 0.305,
      "opened": "2026-11-21T00:28:25+00:00"
     },
     {
@@ -446,7 +448,19 @@
      "opened": "2026-11-21T01:03:26+00:00"
     }
    ],
-   "closed": [],
+   "closed": [
+    {
+     "ts": "2026-11-21T02:20:43+00:00",
+     "title": "Spread: Miami Hurricanes (-35.5)",
+     "outcome": "Manhattan Jaspers",
+     "event_slug": "cbb-manh-mia-2026-11-20",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    }
+   ],
    "log": [
     {
      "ts": "2026-11-21T01:20:34+00:00",
@@ -630,6 +644,10 @@
     {
      "t": "2026-11-21T01:26:08+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T02:20:43+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -641,22 +659,22 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.0,
-   "cash": 100.0,
-   "pnl": 0.0,
-   "pnl_after_kalshi_fees": 0.0,
-   "return_pct": 0.0,
+   "equity": 99.88,
+   "cash": 95.73,
+   "pnl": -0.12,
+   "pnl_after_kalshi_fees": -0.26,
+   "return_pct": -0.1,
    "realized": 0,
-   "kalshi_fees": 0.0,
+   "kalshi_fees": 0.14,
    "settled": 0,
    "won": 0,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 0,
+   "open": 1,
+   "at_risk": 4.27,
+   "copied": 1,
    "skipped": 0,
-   "max_drawdown_pct": 0.0,
+   "max_drawdown_pct": 0.1,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
    "rivo": {
@@ -721,11 +739,39 @@
     {
      "t": "2026-11-21T01:26:08+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T02:20:43+00:00",
+     "equity": 99.88
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Javonte Green: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-tor-det-2026-11-20",
+     "cost": 4.27,
+     "shares": 7.91,
+     "avg": 0.54,
+     "mark": 0.525,
+     "opened": "2026-11-21T02:18:23+00:00"
+    }
+   ],
    "closed": [],
-   "log": []
+   "log": [
+    {
+     "ts": "2026-11-21T02:20:43+00:00",
+     "kind": "buy",
+     "title": "Javonte Green: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-tor-det-2026-11-20",
+     "leader_usd": 36.26,
+     "stake": 4.27,
+     "price": 0.54,
+     "leader_price": 0.93,
+     "mult": 1.42
+    }
+   ]
   }
  ],
  "backtest": {

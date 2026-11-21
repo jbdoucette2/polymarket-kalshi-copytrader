@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-21T01:26:10+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-21T02:20:47+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$99.93** (-0.07; after Kalshi fees -0.19) · 0-0 · sold early 0 · 1 open ($3.57) · max drawdown 0.1%
+**$99.61** (-0.39; after Kalshi fees -0.51) · 0-0 · sold early 0 · 1 open ($3.57) · max drawdown 0.4%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,7 +15,7 @@ Updated 2026-11-21T01:26:10+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
-| Rockets vs. Nuggets | Nuggets | omnibus-076daa | $3.57 | 54c |
+| Rockets vs. Nuggets | Nuggets | omnibus-076daa | $3.57 | 48c |
 
 ## Recent decisions
 

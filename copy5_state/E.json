@@ -3,14 +3,43 @@
  "name": "dabossrealman",
  "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
  "start": 100.0,
- "cash": 100.0,
+ "cash": 95.73,
  "since": 1795198438,
- "last_ts": 1795198438,
- "positions": {},
- "leader_shares": {},
+ "last_ts": 1795227503,
+ "positions": {
+  "78083652215768741610079485956636484885308002887261692793586503341662806323474": {
+   "cond": "0x8a4a686e7d98eed46a847a279914a4bf9bc166765e00bfb46682b21ff329b58b",
+   "idx": 0,
+   "outcome": "Yes",
+   "title": "Javonte Green: Points O/U 9.5",
+   "slug": "nba-tor-det-2026-11-20-points-javonte-green-9pt5",
+   "event_slug": "nba-tor-det-2026-11-20",
+   "shares": 7.907407407407406,
+   "cost": 4.27,
+   "kfee": 0.14,
+   "opened": "2026-11-21T02:18:23+00:00",
+   "mark": 0.525
+  }
+ },
+ "leader_shares": {
+  "78083652215768741610079485956636484885308002887261692793586503341662806323474": 38.989242
+ },
  "median_usd": 25.479983999999998,
  "closed": [],
- "log": [],
+ "log": [
+  {
+   "ts": "2026-11-21T02:20:43+00:00",
+   "kind": "buy",
+   "title": "Javonte Green: Points O/U 9.5",
+   "outcome": "Yes",
+   "event_slug": "nba-tor-det-2026-11-20",
+   "leader_usd": 36.26,
+   "stake": 4.27,
+   "price": 0.54,
+   "leader_price": 0.93,
+   "mult": 1.42
+  }
+ ],
  "history": [
   {
    "t": "2026-11-20T18:13:58+00:00",
@@ -63,10 +92,14 @@
   {
    "t": "2026-11-21T01:26:08+00:00",
    "equity": 100.0
+  },
+  {
+   "t": "2026-11-21T02:20:43+00:00",
+   "equity": 99.88
   }
  ],
- "kfees": 0.0,
- "copied": 0,
+ "kfees": 0.14,
+ "copied": 1,
  "skipped": 0,
  "median_ts": 1795198438
 }
