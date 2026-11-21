@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T04:20:34+00:00",
+ "updated": "2026-11-21T05:20:40+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -100,6 +100,10 @@
     },
     {
      "t": "2026-11-21T04:20:30+00:00",
+     "equity": 88.02
+    },
+    {
+     "t": "2026-11-21T05:20:38+00:00",
      "equity": 88.02
     }
    ],
@@ -308,6 +312,10 @@
     {
      "t": "2026-11-21T04:20:30+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T05:20:38+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -319,22 +327,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.26,
-   "cash": 49.48,
-   "pnl": -23.74,
-   "pnl_after_kalshi_fees": -25.58,
-   "return_pct": -23.7,
+   "equity": 76.13,
+   "cash": 44.86,
+   "pnl": -23.87,
+   "pnl_after_kalshi_fees": -25.86,
+   "return_pct": -23.9,
    "realized": -23.08,
-   "kalshi_fees": 1.84,
+   "kalshi_fees": 1.99,
    "settled": 5,
    "won": 1,
    "lost": 4,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 27.44,
-   "copied": 10,
+   "open": 6,
+   "at_risk": 32.06,
+   "copied": 11,
    "skipped": 2,
-   "max_drawdown_pct": 23.7,
+   "max_drawdown_pct": 23.9,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -411,6 +419,10 @@
     {
      "t": "2026-11-21T04:20:30+00:00",
      "equity": 76.26
+    },
+    {
+     "t": "2026-11-21T05:20:38+00:00",
+     "equity": 76.13
     }
    ],
    "positions": [
@@ -431,7 +443,7 @@
      "cost": 6.0,
      "shares": 12.37,
      "avg": 0.485,
-     "mark": 0.475,
+     "mark": 0.465,
      "opened": "2026-11-21T01:03:26+00:00"
     },
     {
@@ -451,7 +463,7 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.735,
+     "mark": 0.745,
      "opened": "2026-11-21T03:14:01+00:00"
     },
     {
@@ -463,6 +475,16 @@
      "avg": 0.455,
      "mark": 0.445,
      "opened": "2026-11-21T03:29:52+00:00"
+    },
+    {
+     "title": "Loyola Marymount Lions vs. California Baptist Lancers: O/U 137.5",
+     "outcome": "Under",
+     "event_slug": "cbb-loymry-cabap-2026-11-21",
+     "cost": 4.62,
+     "shares": 8.32,
+     "avg": 0.555,
+     "mark": 0.545,
+     "opened": "2026-11-21T04:51:40+00:00"
     }
    ],
    "closed": [
@@ -523,6 +545,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T05:20:38+00:00",
+     "kind": "buy",
+     "title": "Loyola Marymount Lions vs. California Baptist Lancers: O/U 137.5",
+     "outcome": "Under",
+     "event_slug": "cbb-loymry-cabap-2026-11-21",
+     "leader_usd": 1926.78,
+     "stake": 4.62,
+     "price": 0.555,
+     "leader_price": 0.507,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T04:20:30+00:00",
      "kind": "skip",
@@ -764,6 +798,10 @@
     {
      "t": "2026-11-21T04:20:30+00:00",
      "equity": 100.0
+    },
+    {
+     "t": "2026-11-21T05:20:38+00:00",
+     "equity": 100.0
     }
    ],
    "positions": [],
@@ -775,22 +813,22 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 103.64,
-   "cash": 103.64,
-   "pnl": 3.64,
-   "pnl_after_kalshi_fees": 3.5,
-   "return_pct": 3.6,
+   "equity": 103.02,
+   "cash": 94.46,
+   "pnl": 3.02,
+   "pnl_after_kalshi_fees": 2.39,
+   "return_pct": 3.0,
    "realized": 3.64,
-   "kalshi_fees": 0.14,
+   "kalshi_fees": 0.63,
    "settled": 1,
    "won": 1,
    "lost": 0,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 1,
+   "open": 2,
+   "at_risk": 9.18,
+   "copied": 3,
    "skipped": 6,
-   "max_drawdown_pct": 0.1,
+   "max_drawdown_pct": 0.6,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
    "rivo": {
@@ -867,9 +905,34 @@
     {
      "t": "2026-11-21T04:20:30+00:00",
      "equity": 103.64
+    },
+    {
+     "t": "2026-11-21T05:20:38+00:00",
+     "equity": 103.02
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Collin Gillespie: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "cost": 2.96,
+     "shares": 5.53,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-21T04:29:13+00:00"
+    },
+    {
+     "title": "Miles Bridges: Points O/U 19.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "cost": 6.22,
+     "shares": 56.55,
+     "avg": 0.11,
+     "mark": 0.1,
+     "opened": "2026-11-21T04:54:55+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-21T04:20:30+00:00",
@@ -884,6 +947,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-21T05:20:38+00:00",
+     "kind": "buy",
+     "title": "Miles Bridges: Points O/U 19.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "leader_usd": 122.5,
+     "stake": 6.22,
+     "price": 0.11,
+     "leader_price": 0.98,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-21T05:20:38+00:00",
+     "kind": "buy",
+     "title": "Collin Gillespie: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-phx-uta-2026-11-20",
+     "leader_usd": 24.25,
+     "stake": 2.96,
+     "price": 0.535,
+     "leader_price": 0.82,
+     "mult": 0.95
+    },
     {
      "ts": "2026-11-21T04:20:30+00:00",
      "kind": "skip",

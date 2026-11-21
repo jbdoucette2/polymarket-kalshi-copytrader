@@ -3,11 +3,11 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 99.93,
+ "equity": 98.17,
  "cash": 96.43,
- "pnl": -0.07,
- "pnl_after_kalshi_fees": -0.19,
- "return_pct": -0.1,
+ "pnl": -1.83,
+ "pnl_after_kalshi_fees": -1.95,
+ "return_pct": -1.8,
  "realized": 0,
  "kalshi_fees": 0.12,
  "settled": 0,
@@ -18,7 +18,7 @@
  "at_risk": 3.57,
  "copied": 1,
  "skipped": 1,
- "max_drawdown_pct": 0.4,
+ "max_drawdown_pct": 1.8,
  "history": [
   {
    "t": "2026-11-20T18:56:15+00:00",
@@ -79,6 +79,10 @@
   {
    "t": "2026-11-21T04:20:34+00:00",
    "equity": 99.93
+  },
+  {
+   "t": "2026-11-21T05:20:40+00:00",
+   "equity": 98.17
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -130,7 +134,7 @@
    "leader": "omnibus-076daa",
    "cost": 3.57,
    "avg": 0.545,
-   "mark": 0.535
+   "mark": 0.265
   }
  ],
  "closed": [],
@@ -162,6 +166,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-21T04:20:35+00:00",
+ "updated": "2026-11-21T05:20:41+00:00",
  "start": 100.0
 }
