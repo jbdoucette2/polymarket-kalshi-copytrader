@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:21:09+00:00",
+ "updated": "2026-11-22T20:21:17+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 94.66,
+   "equity": 100.74,
    "cash": 57.36,
-   "pnl": -5.34,
-   "pnl_after_kalshi_fees": -7.89,
-   "return_pct": -5.3,
+   "pnl": 0.74,
+   "pnl_after_kalshi_fees": -1.81,
+   "return_pct": 0.7,
    "realized": 0.42,
    "kalshi_fees": 2.55,
    "settled": 9,
@@ -281,6 +281,10 @@
     {
      "t": "2026-11-22T19:21:06+00:00",
      "equity": 94.66
+    },
+    {
+     "t": "2026-11-22T20:21:14+00:00",
+     "equity": 100.74
     }
    ],
    "positions": [
@@ -291,7 +295,7 @@
      "cost": 3.33,
      "shares": 7.48,
      "avg": 0.445,
-     "mark": 0.375,
+     "mark": 0.335,
      "opened": "2026-11-22T16:08:19+00:00"
     },
     {
@@ -301,7 +305,7 @@
      "cost": 3.6,
      "shares": 7.58,
      "avg": 0.475,
-     "mark": 0.395,
+     "mark": 0.495,
      "opened": "2026-11-22T17:53:31+00:00"
     },
     {
@@ -311,7 +315,7 @@
      "cost": 6.02,
      "shares": 11.47,
      "avg": 0.525,
-     "mark": 0.425,
+     "mark": 0.505,
      "opened": "2026-11-22T17:53:40+00:00"
     },
     {
@@ -321,7 +325,7 @@
      "cost": 6.02,
      "shares": 9.95,
      "avg": 0.605,
-     "mark": 0.525,
+     "mark": 0.645,
      "opened": "2026-11-22T17:53:50+00:00"
     },
     {
@@ -331,7 +335,7 @@
      "cost": 6.02,
      "shares": 10.29,
      "avg": 0.585,
-     "mark": 0.345,
+     "mark": 0.62,
      "opened": "2026-11-22T17:56:44+00:00"
     },
     {
@@ -341,7 +345,7 @@
      "cost": 6.02,
      "shares": 6.73,
      "avg": 0.895,
-     "mark": 0.8875,
+     "mark": 0.9645,
      "opened": "2026-11-22T17:57:55+00:00"
     },
     {
@@ -351,7 +355,7 @@
      "cost": 6.02,
      "shares": 7.12,
      "avg": 0.845,
-     "mark": 0.835,
+     "mark": 0.845,
      "opened": "2026-11-22T19:08:16+00:00"
     },
     {
@@ -361,7 +365,7 @@
      "cost": 6.02,
      "shares": 9.33,
      "avg": 0.645,
-     "mark": 0.635,
+     "mark": 0.645,
      "opened": "2026-11-22T19:16:56+00:00"
     }
    ],
@@ -823,22 +827,22 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 107.42,
-   "cash": 80.98,
-   "pnl": 7.42,
-   "pnl_after_kalshi_fees": 4.77,
-   "return_pct": 7.4,
-   "realized": 15.27,
+   "equity": 107.27,
+   "cash": 85.94,
+   "pnl": 7.27,
+   "pnl_after_kalshi_fees": 4.62,
+   "return_pct": 7.3,
+   "realized": 16.98,
    "kalshi_fees": 2.65,
-   "settled": 11,
-   "won": 5,
+   "settled": 12,
+   "won": 6,
    "lost": 6,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 34.29,
+   "open": 8,
+   "at_risk": 31.04,
    "copied": 20,
    "skipped": 18,
-   "max_drawdown_pct": 10.5,
+   "max_drawdown_pct": 10.7,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1095,6 +1099,10 @@
     {
      "t": "2026-11-22T19:21:06+00:00",
      "equity": 107.42
+    },
+    {
+     "t": "2026-11-22T20:21:14+00:00",
+     "equity": 107.27
     }
    ],
    "positions": [
@@ -1105,7 +1113,7 @@
      "cost": 2.63,
      "shares": 4.74,
      "avg": 0.555,
-     "mark": 0.155,
+     "mark": 0.3,
      "opened": "2026-11-22T12:08:56+00:00"
     },
     {
@@ -1125,18 +1133,8 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.485,
+     "mark": 0.495,
      "opened": "2026-11-22T14:17:34+00:00"
-    },
-    {
-     "title": "Titans vs. Cowboys: O/U 50.5",
-     "outcome": "Over",
-     "event_slug": "nfl-ten-dal-2026-11-22",
-     "cost": 3.25,
-     "shares": 4.96,
-     "avg": 0.655,
-     "mark": 0.885,
-     "opened": "2026-11-22T14:24:14+00:00"
     },
     {
      "title": "Spread: Ravens (-1.5)",
@@ -1145,7 +1143,7 @@
      "cost": 6.92,
      "shares": 16.28,
      "avg": 0.425,
-     "mark": 0.335,
+     "mark": 0.285,
      "opened": "2026-11-22T14:31:26+00:00"
     },
     {
@@ -1155,7 +1153,7 @@
      "cost": 2.76,
      "shares": 8.0,
      "avg": 0.345,
-     "mark": 0.325,
+     "mark": 0.185,
      "opened": "2026-11-22T15:39:31+00:00"
     },
     {
@@ -1165,7 +1163,7 @@
      "cost": 3.44,
      "shares": 5.5,
      "avg": 0.625,
-     "mark": 0.215,
+     "mark": 0.375,
      "opened": "2026-11-22T16:35:41+00:00"
     },
     {
@@ -1175,7 +1173,7 @@
      "cost": 2.85,
      "shares": 7.81,
      "avg": 0.365,
-     "mark": 0.0375,
+     "mark": 0.0325,
      "opened": "2026-11-22T16:48:17+00:00"
     },
     {
@@ -1185,11 +1183,22 @@
      "cost": 4.09,
      "shares": 8.61,
      "avg": 0.475,
-     "mark": 0.395,
+     "mark": 0.355,
      "opened": "2026-11-22T17:17:04+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T20:21:14+00:00",
+     "title": "Titans vs. Cowboys: O/U 50.5",
+     "outcome": "Over",
+     "event_slug": "nfl-ten-dal-2026-11-22",
+     "cost": 3.25,
+     "pnl": 1.71,
+     "kfee": 0.08,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T07:21:29+00:00",
      "title": "Spread: Nevada (-7.5)",
@@ -1758,20 +1767,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 32.0,
-   "cash": 12.72,
-   "pnl": -68.0,
-   "pnl_after_kalshi_fees": -72.86,
-   "return_pct": -68.0,
+   "equity": 31.31,
+   "cash": 10.71,
+   "pnl": -68.69,
+   "pnl_after_kalshi_fees": -73.6,
+   "return_pct": -68.7,
    "realized": -66.58,
-   "kalshi_fees": 4.86,
+   "kalshi_fees": 4.91,
    "settled": 28,
    "won": 9,
    "lost": 19,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 20.7,
-   "copied": 40,
+   "open": 5,
+   "at_risk": 22.71,
+   "copied": 41,
    "skipped": 29,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2030,6 +2039,10 @@
     {
      "t": "2026-11-22T19:21:06+00:00",
      "equity": 32.0
+    },
+    {
+     "t": "2026-11-22T20:21:14+00:00",
+     "equity": 31.31
     }
    ],
    "positions": [
@@ -2040,7 +2053,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.535,
+     "mark": 0.545,
      "opened": "2026-11-21T16:16:43+00:00"
     },
     {
@@ -2050,7 +2063,7 @@
      "cost": 2.01,
      "shares": 3.5,
      "avg": 0.575,
-     "mark": 0.325,
+     "mark": 0.265,
      "opened": "2026-11-22T14:23:59+00:00"
     },
     {
@@ -2060,7 +2073,7 @@
      "cost": 12.06,
      "shares": 14.44,
      "avg": 0.835,
-     "mark": 0.835,
+     "mark": 0.845,
      "opened": "2026-11-22T15:58:49+00:00"
     },
     {
@@ -2070,8 +2083,18 @@
      "cost": 2.01,
      "shares": 3.27,
      "avg": 0.615,
-     "mark": 0.42,
+     "mark": 0.21,
      "opened": "2026-11-22T18:11:49+00:00"
+    },
+    {
+     "title": "Getafe CF vs. Club Atl\u00e9tico de Madrid: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "lal-get-mad-2026-11-22-more-markets",
+     "cost": 2.01,
+     "shares": 3.12,
+     "avg": 0.645,
+     "mark": 0.635,
+     "opened": "2026-11-22T19:43:34+00:00"
     }
    ],
    "closed": [
@@ -2385,6 +2408,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T20:21:14+00:00",
+     "kind": "buy",
+     "title": "Getafe CF vs. Club Atl\u00e9tico de Madrid: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "lal-get-mad-2026-11-22-more-markets",
+     "leader_usd": 828.52,
+     "stake": 2.01,
+     "price": 0.645,
+     "leader_price": 0.77,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T18:21:08+00:00",
      "kind": "skip",
@@ -3064,18 +3099,6 @@
      "price": 0.455,
      "leader_price": 0.45,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T03:21:00+00:00",
-     "kind": "buy",
-     "title": "Utah vs. TCU",
-     "outcome": "Utah",
-     "event_slug": "cfb-utah-tcu-2026-11-21",
-     "leader_usd": 878.92,
-     "stake": 5.64,
-     "price": 0.735,
-     "leader_price": 0.73,
-     "mult": 2.0
     }
    ]
   },
@@ -3084,20 +3107,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 91.97,
-   "cash": 70.14,
-   "pnl": -8.03,
-   "pnl_after_kalshi_fees": -9.06,
-   "return_pct": -8.0,
+   "equity": 96.26,
+   "cash": 60.69,
+   "pnl": -3.74,
+   "pnl_after_kalshi_fees": -5.1,
+   "return_pct": -3.7,
    "realized": -13.42,
-   "kalshi_fees": 1.03,
+   "kalshi_fees": 1.36,
    "settled": 3,
    "won": 0,
    "lost": 3,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 16.44,
-   "copied": 6,
+   "open": 5,
+   "at_risk": 25.89,
+   "copied": 8,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -3356,6 +3379,10 @@
     {
      "t": "2026-11-22T19:21:06+00:00",
      "equity": 91.97
+    },
+    {
+     "t": "2026-11-22T20:21:14+00:00",
+     "equity": 96.26
     }
    ],
    "positions": [
@@ -3366,7 +3393,7 @@
      "cost": 5.48,
      "shares": 10.24,
      "avg": 0.535,
-     "mark": 0.675,
+     "mark": 0.745,
      "opened": "2026-11-22T18:06:29+00:00"
     },
     {
@@ -3376,7 +3403,7 @@
      "cost": 5.48,
      "shares": 13.53,
      "avg": 0.405,
-     "mark": 0.58,
+     "mark": 0.79,
      "opened": "2026-11-22T18:11:47+00:00"
     },
     {
@@ -3386,8 +3413,28 @@
      "cost": 5.48,
      "shares": 8.37,
      "avg": 0.655,
-     "mark": 0.845,
+     "mark": 0.955,
      "opened": "2026-11-22T18:12:08+00:00"
+    },
+    {
+     "title": "Will CD Universidad Cat\u00f3lica win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "chi1-csc-cuc-2026-11-22",
+     "cost": 4.26,
+     "shares": 11.06,
+     "avg": 0.385,
+     "mark": 0.375,
+     "opened": "2026-11-22T20:11:26+00:00"
+    },
+    {
+     "title": "Will CSD Colo-Colo win on 2026-11-22?",
+     "outcome": "No",
+     "event_slug": "chi1-csc-cuc-2026-11-22",
+     "cost": 5.19,
+     "shares": 8.17,
+     "avg": 0.635,
+     "mark": 0.625,
+     "opened": "2026-11-22T20:11:28+00:00"
     }
    ],
    "closed": [
@@ -3426,6 +3473,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T20:21:14+00:00",
+     "kind": "buy",
+     "title": "Will CSD Colo-Colo win on 2026-11-22?",
+     "outcome": "No",
+     "event_slug": "chi1-csc-cuc-2026-11-22",
+     "leader_usd": 15548.73,
+     "stake": 5.19,
+     "price": 0.635,
+     "leader_price": 0.605,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T20:21:14+00:00",
+     "kind": "buy",
+     "title": "Will CD Universidad Cat\u00f3lica win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "chi1-csc-cuc-2026-11-22",
+     "leader_usd": 8148.38,
+     "stake": 4.26,
+     "price": 0.385,
+     "leader_price": 0.342,
+     "mult": 1.64
+    },
     {
      "ts": "2026-11-22T18:21:08+00:00",
      "kind": "buy",
@@ -3776,6 +3847,10 @@
     },
     {
      "t": "2026-11-22T19:21:06+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T20:21:14+00:00",
      "equity": 102.05
     }
    ],
