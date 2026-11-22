@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:20:52+00:00",
+ "updated": "2026-11-22T17:20:44+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -264,6 +264,10 @@
     },
     {
      "t": "2026-11-22T16:20:50+00:00",
+     "equity": 100.34
+    },
+    {
+     "t": "2026-11-22T17:20:40+00:00",
      "equity": 100.34
     }
    ],
@@ -642,20 +646,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.75,
-   "cash": 91.36,
-   "pnl": 14.75,
-   "pnl_after_kalshi_fees": 12.49,
-   "return_pct": 14.8,
+   "equity": 114.59,
+   "cash": 80.98,
+   "pnl": 14.59,
+   "pnl_after_kalshi_fees": 11.94,
+   "return_pct": 14.6,
    "realized": 15.27,
-   "kalshi_fees": 2.26,
+   "kalshi_fees": 2.65,
    "settled": 11,
    "won": 5,
    "lost": 6,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 23.91,
-   "copied": 17,
+   "open": 9,
+   "at_risk": 34.29,
+   "copied": 20,
    "skipped": 15,
    "max_drawdown_pct": 5.7,
    "focus": "College football, NFL",
@@ -898,6 +902,10 @@
     {
      "t": "2026-11-22T16:20:50+00:00",
      "equity": 114.75
+    },
+    {
+     "t": "2026-11-22T17:20:40+00:00",
+     "equity": 114.59
     }
    ],
    "positions": [
@@ -928,7 +936,7 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.465,
+     "mark": 0.485,
      "opened": "2026-11-22T14:17:34+00:00"
     },
     {
@@ -960,6 +968,36 @@
      "avg": 0.345,
      "mark": 0.335,
      "opened": "2026-11-22T15:39:31+00:00"
+    },
+    {
+     "title": "Spread: Steelers (-1.5)",
+     "outcome": "Steelers",
+     "event_slug": "nfl-pit-phi-2026-11-22",
+     "cost": 3.44,
+     "shares": 5.5,
+     "avg": 0.625,
+     "mark": 0.615,
+     "opened": "2026-11-22T16:35:41+00:00"
+    },
+    {
+     "title": "Spread: Steelers (-7.5)",
+     "outcome": "Steelers",
+     "event_slug": "nfl-pit-phi-2026-11-22",
+     "cost": 2.85,
+     "shares": 7.81,
+     "avg": 0.365,
+     "mark": 0.355,
+     "opened": "2026-11-22T16:48:17+00:00"
+    },
+    {
+     "title": "Spread: Panthers (-1.5)",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "cost": 4.09,
+     "shares": 8.61,
+     "avg": 0.475,
+     "mark": 0.465,
+     "opened": "2026-11-22T17:17:04+00:00"
     }
    ],
    "closed": [
@@ -1086,6 +1124,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Spread: Panthers (-1.5)",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 1509.64,
+     "stake": 4.09,
+     "price": 0.475,
+     "leader_price": 0.47,
+     "mult": 1.18
+    },
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Spread: Steelers (-7.5)",
+     "outcome": "Steelers",
+     "event_slug": "nfl-pit-phi-2026-11-22",
+     "leader_usd": 1050.0,
+     "stake": 2.85,
+     "price": 0.365,
+     "leader_price": 0.35,
+     "mult": 0.82
+    },
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Spread: Steelers (-1.5)",
+     "outcome": "Steelers",
+     "event_slug": "nfl-pit-phi-2026-11-22",
+     "leader_usd": 1267.9,
+     "stake": 3.44,
+     "price": 0.625,
+     "leader_price": 0.62,
+     "mult": 0.99
+    },
     {
      "ts": "2026-11-22T16:20:50+00:00",
      "kind": "buy",
@@ -1463,19 +1537,19 @@
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 33.16,
-   "cash": 22.77,
+   "cash": 16.74,
    "pnl": -66.84,
-   "pnl_after_kalshi_fees": -71.52,
+   "pnl_after_kalshi_fees": -71.61,
    "return_pct": -66.8,
    "realized": -66.58,
-   "kalshi_fees": 4.68,
+   "kalshi_fees": 4.77,
    "settled": 28,
    "won": 9,
    "lost": 19,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 10.65,
-   "copied": 35,
+   "at_risk": 16.68,
+   "copied": 38,
    "skipped": 27,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -1718,6 +1792,10 @@
     {
      "t": "2026-11-22T16:20:50+00:00",
      "equity": 33.16
+    },
+    {
+     "t": "2026-11-22T17:20:40+00:00",
+     "equity": 33.16
     }
    ],
    "positions": [
@@ -1738,15 +1816,15 @@
      "cost": 2.01,
      "shares": 3.5,
      "avg": 0.575,
-     "mark": 0.565,
+     "mark": 0.585,
      "opened": "2026-11-22T14:23:59+00:00"
     },
     {
      "title": "Raiders vs. Broncos",
      "outcome": "Broncos",
      "event_slug": "nfl-lv-den-2026-11-22",
-     "cost": 4.02,
-     "shares": 4.81,
+     "cost": 10.05,
+     "shares": 12.04,
      "avg": 0.835,
      "mark": 0.825,
      "opened": "2026-11-22T15:58:49+00:00"
@@ -2063,6 +2141,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 6109.63,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 1974.57,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T17:20:40+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 4048.74,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T16:20:50+00:00",
      "kind": "buy",
@@ -2720,41 +2834,6 @@
      "price": 0.515,
      "leader_price": 0.5,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-20T23:20:46+00:00",
-     "kind": "buy",
-     "title": "Pelicans vs. Thunder",
-     "outcome": "Thunder",
-     "event_slug": "nba-nop-okc-2026-11-20",
-     "leader_usd": 411.68,
-     "stake": 4.67,
-     "price": 0.835,
-     "leader_price": 0.83,
-     "mult": 1.56
-    },
-    {
-     "ts": "2026-11-20T23:20:46+00:00",
-     "kind": "skip",
-     "title": "Iowa State vs. UCF: O/U 49.5",
-     "outcome": "Over",
-     "event_slug": "cfb-iowast-ucf-2026-11-20",
-     "leader_usd": 63.96,
-     "reason": "below $1 minimum",
-     "price": 0.5,
-     "leader_price": 0.52
-    },
-    {
-     "ts": "2026-11-20T22:21:18+00:00",
-     "kind": "buy",
-     "title": "Spread: Southern Illinois Salukis (-1.5)",
-     "outcome": "Southern Illinois Salukis",
-     "event_slug": "cbb-tmrt-sill-2026-11-20",
-     "leader_usd": 592.92,
-     "stake": 6.0,
-     "price": 0.545,
-     "leader_price": 0.54,
-     "mult": 2.0
     }
    ]
   },
@@ -2763,11 +2842,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 90.8,
+   "equity": 86.59,
    "cash": 86.58,
-   "pnl": -9.2,
-   "pnl_after_kalshi_fees": -9.68,
-   "return_pct": -9.2,
+   "pnl": -13.41,
+   "pnl_after_kalshi_fees": -13.89,
+   "return_pct": -13.4,
    "realized": -8.63,
    "kalshi_fees": 0.48,
    "settled": 2,
@@ -2778,7 +2857,7 @@
    "at_risk": 4.79,
    "copied": 3,
    "skipped": 0,
-   "max_drawdown_pct": 9.4,
+   "max_drawdown_pct": 13.6,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -3019,6 +3098,10 @@
     {
      "t": "2026-11-22T16:20:50+00:00",
      "equity": 90.8
+    },
+    {
+     "t": "2026-11-22T17:20:40+00:00",
+     "equity": 86.59
     }
    ],
    "positions": [
@@ -3029,7 +3112,7 @@
      "cost": 4.79,
      "shares": 11.4,
      "avg": 0.42,
-     "mark": 0.37,
+     "mark": 0.0005,
      "opened": "2026-11-22T14:13:50+00:00"
     }
    ],
@@ -3356,6 +3439,10 @@
     },
     {
      "t": "2026-11-22T16:20:50+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T17:20:40+00:00",
      "equity": 102.05
     }
    ],

@@ -22,7 +22,7 @@
    "leader_name": "gmpm2",
    "leader_shares": 81748.89,
    "edge": 0.1406,
-   "mark": 0.485
+   "mark": 0.495
   },
   "78930952793952568483208079740033362601534821344668537553544399487441668801183": {
    "cond": "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751",
@@ -39,7 +39,8 @@
    "leader_name": "gmpm2",
    "leader_shares": 7669.02,
    "edge": 0.1406,
-   "mark": 0.515
+   "mark": 0.525,
+   "leader_sold": 4.18
   }
  },
  "leader_shares": {},
@@ -219,6 +220,30 @@
    "leader": "gmpm2",
    "edge": 0.141,
    "agree": false
+  },
+  {
+   "ts": "2026-11-22T17:20:44+00:00",
+   "kind": "skip",
+   "title": "Dolphins vs. Bills: O/U 46.5",
+   "outcome": "Over",
+   "event_slug": "nfl-mia-buf-2026-11-22",
+   "leader_usd": 13200.0,
+   "reason": "already have a bet on this game",
+   "price": 0.435,
+   "leader_price": 0.44,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T17:20:44+00:00",
+   "kind": "skip",
+   "title": "Dolphins vs. Bills: O/U 44.5",
+   "outcome": "Over",
+   "event_slug": "nfl-mia-buf-2026-11-22",
+   "leader_usd": 17108.0,
+   "reason": "already have a bet on this game",
+   "price": 0.515,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -445,11 +470,15 @@
   {
    "t": "2026-11-22T16:20:53+00:00",
    "equity": 102.78
+  },
+  {
+   "t": "2026-11-22T17:20:44+00:00",
+   "equity": 102.98
   }
  ],
  "kfees": 0.49,
  "copied": 3,
- "skipped": 10,
+ "skipped": 12,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -459,7 +488,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795364264
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795365409
  },
  "day": {
   "2026-11-20": 3.57,
@@ -489,6 +518,18 @@
   [
    1795364453,
    "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751",
+   0,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795368044,
+   "0x9d314ac3a5eea08a960f9547bd3686e58c31d3342b143425d5af22bb29d822dc",
+   0,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795368044,
+   "0xac4473730205b6f801be10ff60c851c24001b477262fbec5a3f50030313e28db",
    0,
    "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
   ]
@@ -577,6 +618,12 @@
     0
    ],
    "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751": [
+    0
+   ],
+   "0x9d314ac3a5eea08a960f9547bd3686e58c31d3342b143425d5af22bb29d822dc": [
+    0
+   ],
+   "0xac4473730205b6f801be10ff60c851c24001b477262fbec5a3f50030313e28db": [
     0
    ]
   }
