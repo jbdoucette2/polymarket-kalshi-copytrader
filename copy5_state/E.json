@@ -3,23 +3,10 @@
  "name": "dabossrealman",
  "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
  "start": 100.0,
- "cash": 86.3756,
+ "cash": 94.6853,
  "since": 1795198438,
  "last_ts": 1795317574,
  "positions": {
-  "49931439887261274272515167099510613295598940926416712183158869249604415596294": {
-   "cond": "0x80042ee978fc43b799845c8206cfbba19c13753d2ec23e5fc37184ee6f4eea43",
-   "idx": 0,
-   "outcome": "Yes",
-   "title": "Kris Dunn: Rebounds O/U 3.5",
-   "slug": "nba-lac-dal-2026-11-21-rebounds-kris-dunn-3pt5",
-   "event_slug": "nba-lac-dal-2026-11-21",
-   "shares": 1.8232044198895025,
-   "cost": 1.65,
-   "kfee": 0.02,
-   "opened": "2026-11-22T02:41:58+00:00",
-   "mark": 0.895
-  },
   "65415371643411139678356992282505065014142370904299992688102661775724181749018": {
    "cond": "0x33bdcb8d7c20dae5f790fb6cfcf5cb3b35608f4bc0f393db178fdd87dfc88b7b",
    "idx": 0,
@@ -31,20 +18,7 @@
    "cost": 6.0,
    "kfee": 0.03,
    "opened": "2026-11-22T03:16:50+00:00",
-   "mark": 0.525
-  },
-  "1590191221443462696240844443616833457834297749938208371686019289326340792489": {
-   "cond": "0x83a993dcad7338632e70bcb46d8b0c1c41ac20441fea14f31d77cf7bce50a114",
-   "idx": 0,
-   "outcome": "Yes",
-   "title": "Zaccharie Risacher: Points O/U 9.5",
-   "slug": "nba-lac-dal-2026-11-21-points-zaccharie-risacher-9pt5",
-   "event_slug": "nba-lac-dal-2026-11-21",
-   "shares": 6.486486486486486,
-   "cost": 6.0,
-   "kfee": 0.04,
-   "opened": "2026-11-22T03:19:34+00:00",
-   "mark": 0.475
+   "mark": 0.9995
   }
  },
  "leader_shares": {
@@ -109,6 +83,28 @@
    "cost": 2.33,
    "pnl": 0.04,
    "kfee": 0.01,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T04:21:19+00:00",
+   "title": "Kris Dunn: Rebounds O/U 3.5",
+   "outcome": "Yes",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "cost": 1.65,
+   "pnl": 0.17,
+   "kfee": 0.02,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T04:21:19+00:00",
+   "title": "Zaccharie Risacher: Points O/U 9.5",
+   "outcome": "Yes",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "cost": 6.0,
+   "pnl": 0.49,
+   "kfee": 0.04,
    "how": "won",
    "exit_price": 1.0
   }
@@ -499,6 +495,10 @@
   {
    "t": "2026-11-22T03:21:00+00:00",
    "equity": 94.44
+  },
+  {
+   "t": "2026-11-22T04:21:19+00:00",
+   "equity": 101.07
   }
  ],
  "kfees": 0.73,

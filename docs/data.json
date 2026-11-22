@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:21:03+00:00",
+ "updated": "2026-11-22T04:21:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -208,6 +208,10 @@
     },
     {
      "t": "2026-11-22T03:21:00+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T04:21:19+00:00",
      "equity": 100.41
     }
    ],
@@ -563,19 +567,19 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 118.86,
-   "cash": 98.38,
-   "pnl": 18.86,
-   "pnl_after_kalshi_fees": 17.4,
-   "return_pct": 18.9,
-   "realized": 10.82,
+   "equity": 118.5,
+   "cash": 115.27,
+   "pnl": 18.5,
+   "pnl_after_kalshi_fees": 17.04,
+   "return_pct": 18.5,
+   "realized": 19.66,
    "kalshi_fees": 1.46,
-   "settled": 7,
-   "won": 4,
-   "lost": 3,
+   "settled": 9,
+   "won": 5,
+   "lost": 4,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 12.44,
+   "open": 2,
+   "at_risk": 4.39,
    "copied": 11,
    "skipped": 12,
    "max_drawdown_pct": 5.7,
@@ -763,6 +767,10 @@
     {
      "t": "2026-11-22T03:21:00+00:00",
      "equity": 118.86
+    },
+    {
+     "t": "2026-11-22T04:21:19+00:00",
+     "equity": 118.5
     }
    ],
    "positions": [
@@ -773,7 +781,7 @@
      "cost": 1.05,
      "shares": 2.12,
      "avg": 0.495,
-     "mark": 0.175,
+     "mark": 0.075,
      "opened": "2026-11-21T12:04:58+00:00"
     },
     {
@@ -783,31 +791,33 @@
      "cost": 3.34,
      "shares": 6.02,
      "avg": 0.555,
-     "mark": 0.535,
+     "mark": 0.51,
      "opened": "2026-11-21T19:24:38+00:00"
-    },
+    }
+   ],
+   "closed": [
     {
-     "title": "Spread: UNLV (-6.5)",
-     "outcome": "San Jose State",
-     "event_slug": "cfb-unlv-sjst-2026-11-21",
-     "cost": 6.84,
-     "shares": 16.89,
-     "avg": 0.405,
-     "mark": 0.9995,
-     "opened": "2026-11-22T00:02:28+00:00"
-    },
-    {
+     "ts": "2026-11-22T04:21:19+00:00",
      "title": "Stanford vs. California",
      "outcome": "California",
      "event_slug": "cfb-stan-cah-2026-11-21",
      "cost": 1.21,
-     "shares": 2.78,
-     "avg": 0.435,
-     "mark": 0.0025,
-     "opened": "2026-11-22T00:30:16+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -1.21,
+     "kfee": 0.05,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-22T04:21:19+00:00",
+     "title": "Spread: UNLV (-6.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-unlv-sjst-2026-11-21",
+     "cost": 6.84,
+     "pnl": 10.05,
+     "kfee": 0.29,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T01:20:55+00:00",
      "title": "Spread: Marshall (-3.5)",
@@ -1158,22 +1168,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 36.21,
+   "equity": 33.45,
    "cash": 0.0,
-   "pnl": -63.79,
-   "pnl_after_kalshi_fees": -68.35,
-   "return_pct": -63.8,
-   "realized": -53.35,
+   "pnl": -66.55,
+   "pnl_after_kalshi_fees": -71.11,
+   "return_pct": -66.5,
+   "realized": -63.97,
    "kalshi_fees": 4.56,
-   "settled": 18,
+   "settled": 20,
    "won": 5,
-   "lost": 13,
+   "lost": 15,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 46.65,
+   "open": 9,
+   "at_risk": 36.03,
    "copied": 32,
    "skipped": 27,
-   "max_drawdown_pct": 63.8,
+   "max_drawdown_pct": 66.5,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1358,19 +1368,13 @@
     {
      "t": "2026-11-22T03:21:00+00:00",
      "equity": 36.21
+    },
+    {
+     "t": "2026-11-22T04:21:19+00:00",
+     "equity": 33.45
     }
    ],
    "positions": [
-    {
-     "title": "Grizzlies vs. Timberwolves",
-     "outcome": "Grizzlies",
-     "event_slug": "nba-mem-min-2026-11-21",
-     "cost": 6.0,
-     "shares": 16.9,
-     "avg": 0.355,
-     "mark": 0.0005,
-     "opened": "2026-11-20T20:31:04+00:00"
-    },
     {
      "title": "Utah vs. TCU",
      "outcome": "Utah",
@@ -1378,18 +1382,8 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.935,
+     "mark": 0.9795,
      "opened": "2026-11-21T03:14:01+00:00"
-    },
-    {
-     "title": "Loyola Marymount Lions vs. California Baptist Lancers: O/U 137.5",
-     "outcome": "Under",
-     "event_slug": "cbb-loymry-cabap-2026-11-21",
-     "cost": 4.62,
-     "shares": 8.32,
-     "avg": 0.555,
-     "mark": 0.0005,
-     "opened": "2026-11-21T04:51:40+00:00"
     },
     {
      "title": "Utah vs. TCU: O/U 47.5",
@@ -1398,7 +1392,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.635,
+     "mark": 0.835,
      "opened": "2026-11-21T13:36:49+00:00"
     },
     {
@@ -1408,7 +1402,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.555,
+     "mark": 0.785,
      "opened": "2026-11-21T15:08:07+00:00"
     },
     {
@@ -1428,7 +1422,7 @@
      "cost": 1.57,
      "shares": 2.55,
      "avg": 0.615,
-     "mark": 0.675,
+     "mark": 0.05,
      "opened": "2026-11-22T00:07:47+00:00"
     },
     {
@@ -1438,7 +1432,7 @@
      "cost": 3.83,
      "shares": 7.3,
      "avg": 0.525,
-     "mark": 0.15,
+     "mark": 0.0005,
      "opened": "2026-11-22T00:15:04+00:00"
     },
     {
@@ -1448,7 +1442,7 @@
      "cost": 3.35,
      "shares": 7.61,
      "avg": 0.44,
-     "mark": 0.505,
+     "mark": 0.008,
      "opened": "2026-11-22T00:21:53+00:00"
     },
     {
@@ -1458,7 +1452,7 @@
      "cost": 2.25,
      "shares": 3.78,
      "avg": 0.595,
-     "mark": 0.555,
+     "mark": 0.63,
      "opened": "2026-11-22T01:45:35+00:00"
     },
     {
@@ -1468,11 +1462,33 @@
      "cost": 5.53,
      "shares": 8.71,
      "avg": 0.635,
-     "mark": 0.605,
+     "mark": 0.535,
      "opened": "2026-11-22T02:44:13+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T04:21:19+00:00",
+     "title": "Loyola Marymount Lions vs. California Baptist Lancers: O/U 137.5",
+     "outcome": "Under",
+     "event_slug": "cbb-loymry-cabap-2026-11-21",
+     "cost": 4.62,
+     "pnl": -4.62,
+     "kfee": 0.15,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-22T04:21:19+00:00",
+     "title": "Grizzlies vs. Timberwolves",
+     "outcome": "Grizzlies",
+     "event_slug": "nba-mem-min-2026-11-21",
+     "cost": 6.0,
+     "pnl": -6.0,
+     "kfee": 0.28,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T03:21:00+00:00",
      "title": "Spread: Golden Knights (-1.5)",
@@ -2561,6 +2577,10 @@
     {
      "t": "2026-11-22T03:21:00+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T04:21:19+00:00",
+     "equity": 91.37
     }
    ],
    "positions": [],
@@ -2620,19 +2640,19 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 94.44,
-   "cash": 86.38,
-   "pnl": -5.56,
-   "pnl_after_kalshi_fees": -6.29,
-   "return_pct": -5.6,
-   "realized": 0.03,
+   "equity": 101.07,
+   "cash": 94.69,
+   "pnl": 1.07,
+   "pnl_after_kalshi_fees": 0.34,
+   "return_pct": 1.1,
+   "realized": 0.69,
    "kalshi_fees": 0.73,
-   "settled": 4,
-   "won": 3,
+   "settled": 6,
+   "won": 5,
    "lost": 1,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 13.65,
+   "open": 1,
+   "at_risk": 6.0,
    "copied": 7,
    "skipped": 12,
    "max_drawdown_pct": 8.9,
@@ -2820,19 +2840,13 @@
     {
      "t": "2026-11-22T03:21:00+00:00",
      "equity": 94.44
+    },
+    {
+     "t": "2026-11-22T04:21:19+00:00",
+     "equity": 101.07
     }
    ],
    "positions": [
-    {
-     "title": "Kris Dunn: Rebounds O/U 3.5",
-     "outcome": "Yes",
-     "event_slug": "nba-lac-dal-2026-11-21",
-     "cost": 1.65,
-     "shares": 1.82,
-     "avg": 0.905,
-     "mark": 0.895,
-     "opened": "2026-11-22T02:41:58+00:00"
-    },
     {
      "title": "Zach LaVine: Rebounds O/U 1.5",
      "outcome": "Yes",
@@ -2840,21 +2854,33 @@
      "cost": 6.0,
      "shares": 6.38,
      "avg": 0.94,
-     "mark": 0.525,
+     "mark": 0.9995,
      "opened": "2026-11-22T03:16:50+00:00"
-    },
+    }
+   ],
+   "closed": [
     {
+     "ts": "2026-11-22T04:21:19+00:00",
      "title": "Zaccharie Risacher: Points O/U 9.5",
      "outcome": "Yes",
      "event_slug": "nba-lac-dal-2026-11-21",
      "cost": 6.0,
-     "shares": 6.49,
-     "avg": 0.925,
-     "mark": 0.475,
-     "opened": "2026-11-22T03:19:34+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 0.49,
+     "kfee": 0.04,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-22T04:21:19+00:00",
+     "title": "Kris Dunn: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-lac-dal-2026-11-21",
+     "cost": 1.65,
+     "pnl": 0.17,
+     "kfee": 0.02,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T03:21:00+00:00",
      "title": "Stephon Castle: Points O/U 9.5",
