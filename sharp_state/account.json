@@ -72,6 +72,42 @@
    "price": 0.515,
    "leader_price": 0.51,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Titans vs. Cowboys",
+   "outcome": "Titans",
+   "event_slug": "nfl-ten-dal-2026-11-22",
+   "leader_usd": 1140.87,
+   "reason": "small bet for this wallet",
+   "price": 0.235,
+   "leader_price": 0.23,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Spread: Lions (-4.5)",
+   "outcome": "Buccaneers",
+   "event_slug": "nfl-tb-det-2026-11-22",
+   "leader_usd": 262.6,
+   "reason": "small bet for this wallet",
+   "price": 0.535,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Spread: Lions (-3.5)",
+   "outcome": "Buccaneers",
+   "event_slug": "nfl-tb-det-2026-11-22",
+   "leader_usd": 2.4,
+   "reason": "small bet for this wallet",
+   "price": 0.495,
+   "leader_price": 0.48,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -230,11 +266,15 @@
   {
    "t": "2026-11-22T01:20:58+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T02:21:02+00:00",
+   "equity": 102.98
   }
  ],
  "kfees": 0.12,
  "copied": 1,
- "skipped": 3,
+ "skipped": 6,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -244,7 +284,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795309303
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795313659
  },
  "day": {
   "2026-11-20": 3.57
@@ -313,6 +353,18 @@
    "0xf67a0d86970f6791f73ed28dc673221e22c0a9263af5a7f045fa4d40d917af01": [
     0,
     1
+   ],
+   "0xab11ff9511dd7272e764e7a5d499bd9f4156d84bb0668a8f427c72d68e4adb3d": [
+    0
+   ],
+   "0x8a80ff532cd9d0e7e695215c0a8958cbc90b4a19f9aaca2102f543b760157744": [
+    1
+   ],
+   "0xabf8221bd0c94b1abe32aa14cffa13f6fbc8f2712362eecc20b19156747a5dba": [
+    1
+   ],
+   "0xc5a0afee8b74d469b11297c8b6950abd939b3d57344f86aac0219aa1baaef25f": [
+    0
    ]
   }
  }

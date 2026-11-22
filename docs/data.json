@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:20:58+00:00",
+ "updated": "2026-11-22T02:21:02+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -196,6 +196,10 @@
     },
     {
      "t": "2026-11-22T01:20:55+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T02:21:00+00:00",
      "equity": 100.41
     }
    ],
@@ -551,11 +555,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 113.33,
+   "equity": 110.92,
    "cash": 98.38,
-   "pnl": 13.33,
-   "pnl_after_kalshi_fees": 11.87,
-   "return_pct": 13.3,
+   "pnl": 10.92,
+   "pnl_after_kalshi_fees": 9.46,
+   "return_pct": 10.9,
    "realized": 10.82,
    "kalshi_fees": 1.46,
    "settled": 7,
@@ -739,6 +743,10 @@
     {
      "t": "2026-11-22T01:20:55+00:00",
      "equity": 113.33
+    },
+    {
+     "t": "2026-11-22T02:21:00+00:00",
+     "equity": 110.92
     }
    ],
    "positions": [
@@ -749,7 +757,7 @@
      "cost": 1.05,
      "shares": 2.12,
      "avg": 0.495,
-     "mark": 0.485,
+     "mark": 0.465,
      "opened": "2026-11-21T12:04:58+00:00"
     },
     {
@@ -759,7 +767,7 @@
      "cost": 3.34,
      "shares": 6.02,
      "avg": 0.555,
-     "mark": 0.545,
+     "mark": 0.535,
      "opened": "2026-11-21T19:24:38+00:00"
     },
     {
@@ -769,7 +777,7 @@
      "cost": 6.84,
      "shares": 16.89,
      "avg": 0.405,
-     "mark": 0.56,
+     "mark": 0.435,
      "opened": "2026-11-22T00:02:28+00:00"
     },
     {
@@ -779,7 +787,7 @@
      "cost": 1.21,
      "shares": 2.78,
      "avg": 0.435,
-     "mark": 0.425,
+     "mark": 0.355,
      "opened": "2026-11-22T00:30:16+00:00"
     }
    ],
@@ -1134,22 +1142,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 47.67,
-   "cash": 7.78,
-   "pnl": -52.33,
-   "pnl_after_kalshi_fees": -56.67,
-   "return_pct": -52.3,
+   "equity": 40.16,
+   "cash": 5.53,
+   "pnl": -59.84,
+   "pnl_after_kalshi_fees": -64.25,
+   "return_pct": -59.8,
    "realized": -50.41,
-   "kalshi_fees": 4.34,
+   "kalshi_fees": 4.41,
    "settled": 17,
    "won": 5,
    "lost": 12,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 41.81,
-   "copied": 29,
-   "skipped": 25,
-   "max_drawdown_pct": 52.3,
+   "open": 11,
+   "at_risk": 44.06,
+   "copied": 30,
+   "skipped": 26,
+   "max_drawdown_pct": 59.8,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1322,6 +1330,10 @@
     {
      "t": "2026-11-22T01:20:55+00:00",
      "equity": 47.67
+    },
+    {
+     "t": "2026-11-22T02:21:00+00:00",
+     "equity": 40.16
     }
    ],
    "positions": [
@@ -1332,7 +1344,7 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.385,
+     "mark": 0.145,
      "opened": "2026-11-20T20:31:04+00:00"
     },
     {
@@ -1342,7 +1354,7 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.745,
+     "mark": 0.755,
      "opened": "2026-11-21T03:14:01+00:00"
     },
     {
@@ -1352,7 +1364,7 @@
      "cost": 4.62,
      "shares": 8.32,
      "avg": 0.555,
-     "mark": 0.31,
+     "mark": 0.0005,
      "opened": "2026-11-21T04:51:40+00:00"
     },
     {
@@ -1392,7 +1404,7 @@
      "cost": 2.94,
      "shares": 8.78,
      "avg": 0.335,
-     "mark": 0.29,
+     "mark": 0.2,
      "opened": "2026-11-21T22:38:05+00:00"
     },
     {
@@ -1402,7 +1414,7 @@
      "cost": 1.57,
      "shares": 2.55,
      "avg": 0.615,
-     "mark": 0.675,
+     "mark": 0.75,
      "opened": "2026-11-22T00:07:47+00:00"
     },
     {
@@ -1412,7 +1424,7 @@
      "cost": 3.83,
      "shares": 7.3,
      "avg": 0.525,
-     "mark": 0.48,
+     "mark": 0.38,
      "opened": "2026-11-22T00:15:04+00:00"
     },
     {
@@ -1422,8 +1434,18 @@
      "cost": 3.35,
      "shares": 7.61,
      "avg": 0.44,
-     "mark": 0.43,
+     "mark": 0.485,
      "opened": "2026-11-22T00:21:53+00:00"
+    },
+    {
+     "title": "Spread: Oklahoma State (-4.5)",
+     "outcome": "Arizona State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "cost": 2.25,
+     "shares": 3.78,
+     "avg": 0.595,
+     "mark": 0.585,
+     "opened": "2026-11-22T01:45:35+00:00"
     }
    ],
    "closed": [
@@ -1616,6 +1638,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T02:21:00+00:00",
+     "kind": "skip",
+     "title": "Thunder vs. Heat",
+     "outcome": "Heat",
+     "event_slug": "nba-okc-mia-2026-11-22",
+     "leader_usd": 32.94,
+     "reason": "below $1 minimum",
+     "price": 0.535,
+     "leader_price": 0.54
+    },
+    {
+     "ts": "2026-11-22T02:21:00+00:00",
+     "kind": "buy",
+     "title": "Spread: Oklahoma State (-4.5)",
+     "outcome": "Arizona State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "leader_usd": 399.39,
+     "stake": 2.25,
+     "price": 0.595,
+     "leader_price": 0.601,
+     "mult": 1.51
+    },
     {
      "ts": "2026-11-22T01:20:55+00:00",
      "kind": "skip",
@@ -2434,6 +2479,10 @@
     {
      "t": "2026-11-22T01:20:55+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T02:21:00+00:00",
+     "equity": 91.37
     }
    ],
    "positions": [],
@@ -2680,6 +2729,10 @@
     },
     {
      "t": "2026-11-22T01:20:55+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-22T02:21:00+00:00",
      "equity": 99.99
     }
    ],

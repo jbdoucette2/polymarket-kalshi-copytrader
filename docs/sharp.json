@@ -17,7 +17,7 @@
  "open": 0,
  "at_risk": 0,
  "copied": 1,
- "skipped": 3,
+ "skipped": 6,
  "max_drawdown_pct": 1.8,
  "history": [
   {
@@ -175,6 +175,10 @@
   {
    "t": "2026-11-22T01:20:58+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T02:21:02+00:00",
+   "equity": 102.98
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -235,6 +239,42 @@
  ],
  "log": [
   {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Spread: Lions (-3.5)",
+   "outcome": "Buccaneers",
+   "event_slug": "nfl-tb-det-2026-11-22",
+   "leader_usd": 2.4,
+   "reason": "small bet for this wallet",
+   "price": 0.495,
+   "leader_price": 0.48,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Spread: Lions (-4.5)",
+   "outcome": "Buccaneers",
+   "event_slug": "nfl-tb-det-2026-11-22",
+   "leader_usd": 262.6,
+   "reason": "small bet for this wallet",
+   "price": 0.535,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T02:21:02+00:00",
+   "kind": "skip",
+   "title": "Titans vs. Cowboys",
+   "outcome": "Titans",
+   "event_slug": "nfl-ten-dal-2026-11-22",
+   "leader_usd": 1140.87,
+   "reason": "small bet for this wallet",
+   "price": 0.235,
+   "leader_price": 0.23,
+   "leader": "gmpm2"
+  },
+  {
    "ts": "2026-11-22T01:20:58+00:00",
    "kind": "skip",
    "title": "Bengals vs. Commanders: O/U 54.5",
@@ -285,6 +325,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-22T01:21:00+00:00",
+ "updated": "2026-11-22T02:21:04+00:00",
  "start": 100.0
 }
