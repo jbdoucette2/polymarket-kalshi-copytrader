@@ -3,21 +3,21 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 102.98,
- "cash": 102.98,
- "pnl": 2.98,
- "pnl_after_kalshi_fees": 2.86,
- "return_pct": 3.0,
+ "equity": 102.88,
+ "cash": 97.83,
+ "pnl": 2.88,
+ "pnl_after_kalshi_fees": 2.57,
+ "return_pct": 2.9,
  "realized": 2.98,
- "kalshi_fees": 0.12,
+ "kalshi_fees": 0.31,
  "settled": 1,
  "won": 1,
  "lost": 0,
  "sold_early": 0,
- "open": 0,
- "at_risk": 0,
- "copied": 1,
- "skipped": 7,
+ "open": 1,
+ "at_risk": 5.15,
+ "copied": 2,
+ "skipped": 9,
  "max_drawdown_pct": 1.8,
  "history": [
   {
@@ -235,6 +235,10 @@
   {
    "t": "2026-11-22T14:20:25+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T15:21:11+00:00",
+   "equity": 102.88
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -279,7 +283,16 @@
   "copied": 140,
   "skipped": 782
  },
- "positions": [],
+ "positions": [
+  {
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "leader": "gmpm2",
+   "cost": 5.15,
+   "avg": 0.495,
+   "mark": 0.485
+  }
+ ],
  "closed": [
   {
    "ts": "2026-11-21T06:20:53+00:00",
@@ -294,6 +307,44 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "skip",
+   "title": "Cardinals vs. Chiefs: O/U 40.5",
+   "outcome": "Over",
+   "event_slug": "nfl-ari-kc-2026-11-22",
+   "leader_usd": 1078.0,
+   "reason": "small bet for this wallet",
+   "price": 0.485,
+   "leader_price": 0.49,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 24976.68,
+   "reason": "already have a bet on this game",
+   "price": 0.625,
+   "leader_price": 0.62,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "buy",
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 39239.47,
+   "stake": 5.15,
+   "price": 0.495,
+   "leader_price": 0.48,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
+  },
   {
    "ts": "2026-11-22T13:21:10+00:00",
    "kind": "skip",
@@ -393,6 +444,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-22T14:20:26+00:00",
+ "updated": "2026-11-22T15:21:13+00:00",
  "start": 100.0
 }

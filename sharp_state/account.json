@@ -3,10 +3,28 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 102.9805,
+ "cash": 97.8305,
  "since": 1795200975,
  "last_ts": 1795200975,
- "positions": {},
+ "positions": {
+  "98055297371724956716574930608378405403990883379763089906467964666353197355957": {
+   "cond": "0xa15b78019a311d51226f561344d48379b87f93147f3dec65fa5fe9434909a425",
+   "idx": 0,
+   "outcome": "49ers",
+   "title": "Spread: 49ers (-3.5)",
+   "slug": "nfl-min-sf-2026-11-23-spread-home-3pt5",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "shares": 10.404040404040405,
+   "cost": 5.15,
+   "kfee": 0.19,
+   "opened": "2026-11-22T15:21:11+00:00",
+   "leader": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+   "leader_name": "gmpm2",
+   "leader_shares": 81748.89,
+   "edge": 0.1406,
+   "mark": 0.485
+  }
+ },
  "leader_shares": {},
  "median_usd": null,
  "closed": [
@@ -119,6 +137,44 @@
    "reason": "small bet for this wallet",
    "price": 0.335,
    "leader_price": 0.33,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "buy",
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 39239.47,
+   "stake": 5.15,
+   "price": 0.495,
+   "leader_price": 0.48,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 24976.68,
+   "reason": "already have a bet on this game",
+   "price": 0.625,
+   "leader_price": 0.62,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T15:21:11+00:00",
+   "kind": "skip",
+   "title": "Cardinals vs. Chiefs: O/U 40.5",
+   "outcome": "Over",
+   "event_slug": "nfl-ari-kc-2026-11-22",
+   "leader_usd": 1078.0,
+   "reason": "small bet for this wallet",
+   "price": 0.485,
+   "leader_price": 0.49,
    "leader": "gmpm2"
   }
  ],
@@ -338,11 +394,15 @@
   {
    "t": "2026-11-22T14:20:25+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T15:21:11+00:00",
+   "equity": 102.88
   }
  ],
- "kfees": 0.12,
- "copied": 1,
- "skipped": 7,
+ "kfees": 0.31,
+ "copied": 2,
+ "skipped": 9,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -352,10 +412,11 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795354943
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795359310
  },
  "day": {
-  "2026-11-20": 3.57
+  "2026-11-20": 3.57,
+  "2026-11-22": 5.15
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -365,7 +426,20 @@
   }
  },
  "bench": [],
- "recent": [],
+ "recent": [
+  [
+   1795360871,
+   "0xa15b78019a311d51226f561344d48379b87f93147f3dec65fa5fe9434909a425",
+   0,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795360871,
+   "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
+   1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ]
+ ],
  "sides": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
    "0x5501fc55c35ccc9c714880095f601794e8c60ecbb13765400378793c9ce2cbd3": [
@@ -435,6 +509,15 @@
     0
    ],
    "0x8c9d3ab12a472949eb6852326bfe6004883b2670884035c6c5d2b8a05c0dd99b": [
+    0
+   ],
+   "0xa15b78019a311d51226f561344d48379b87f93147f3dec65fa5fe9434909a425": [
+    0
+   ],
+   "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7": [
+    1
+   ],
+   "0x7c6421d749bf4de35d4e6e64f8eb0a2dea74825e942f15e89c0e8a86149d9b68": [
     0
    ]
   }

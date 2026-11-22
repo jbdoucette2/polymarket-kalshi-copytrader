@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:20:24+00:00",
+ "updated": "2026-11-22T15:21:11+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -256,6 +256,10 @@
     },
     {
      "t": "2026-11-22T14:20:22+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T15:21:07+00:00",
      "equity": 100.41
     }
    ],
@@ -611,20 +615,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 115.07,
-   "cash": 105.72,
-   "pnl": 15.07,
-   "pnl_after_kalshi_fees": 13.36,
-   "return_pct": 15.1,
+   "equity": 114.83,
+   "cash": 94.12,
+   "pnl": 14.83,
+   "pnl_after_kalshi_fees": 12.7,
+   "return_pct": 14.8,
    "realized": 15.27,
-   "kalshi_fees": 1.71,
+   "kalshi_fees": 2.13,
    "settled": 11,
    "won": 5,
    "lost": 6,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 9.55,
-   "copied": 13,
+   "open": 5,
+   "at_risk": 21.15,
+   "copied": 16,
    "skipped": 15,
    "max_drawdown_pct": 5.7,
    "focus": "College football, NFL",
@@ -859,6 +863,10 @@
     {
      "t": "2026-11-22T14:20:22+00:00",
      "equity": 115.07
+    },
+    {
+     "t": "2026-11-22T15:21:07+00:00",
+     "equity": 114.83
     }
    ],
    "positions": [
@@ -881,6 +889,36 @@
      "avg": 0.675,
      "mark": 0.665,
      "opened": "2026-11-22T14:15:37+00:00"
+    },
+    {
+     "title": "Spread: Jaguars (-6.5)",
+     "outcome": "Jaguars",
+     "event_slug": "nfl-jax-nyg-2026-11-22",
+     "cost": 1.43,
+     "shares": 3.01,
+     "avg": 0.475,
+     "mark": 0.465,
+     "opened": "2026-11-22T14:17:34+00:00"
+    },
+    {
+     "title": "Titans vs. Cowboys: O/U 50.5",
+     "outcome": "Over",
+     "event_slug": "nfl-ten-dal-2026-11-22",
+     "cost": 3.25,
+     "shares": 4.96,
+     "avg": 0.655,
+     "mark": 0.645,
+     "opened": "2026-11-22T14:24:14+00:00"
+    },
+    {
+     "title": "Spread: Ravens (-1.5)",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "cost": 6.92,
+     "shares": 16.28,
+     "avg": 0.425,
+     "mark": 0.415,
+     "opened": "2026-11-22T14:31:26+00:00"
     }
    ],
    "closed": [
@@ -1007,6 +1045,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T15:21:07+00:00",
+     "kind": "buy",
+     "title": "Spread: Ravens (-1.5)",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 4829.87,
+     "stake": 6.92,
+     "price": 0.425,
+     "leader_price": 0.41,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T15:21:07+00:00",
+     "kind": "buy",
+     "title": "Titans vs. Cowboys: O/U 50.5",
+     "outcome": "Over",
+     "event_slug": "nfl-ten-dal-2026-11-22",
+     "leader_usd": 1198.62,
+     "stake": 3.25,
+     "price": 0.655,
+     "leader_price": 0.64,
+     "mult": 0.94
+    },
+    {
+     "ts": "2026-11-22T15:21:07+00:00",
+     "kind": "buy",
+     "title": "Spread: Jaguars (-6.5)",
+     "outcome": "Jaguars",
+     "event_slug": "nfl-jax-nyg-2026-11-22",
+     "leader_usd": 526.87,
+     "stake": 1.43,
+     "price": 0.475,
+     "leader_price": 0.46,
+     "mult": 0.41
+    },
     {
      "ts": "2026-11-22T14:20:22+00:00",
      "kind": "buy",
@@ -1335,20 +1409,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 33.25,
-   "cash": 28.8,
-   "pnl": -66.75,
-   "pnl_after_kalshi_fees": -71.31,
+   "equity": 33.21,
+   "cash": 26.79,
+   "pnl": -66.79,
+   "pnl_after_kalshi_fees": -71.41,
    "return_pct": -66.8,
    "realized": -66.58,
-   "kalshi_fees": 4.56,
+   "kalshi_fees": 4.62,
    "settled": 28,
    "won": 9,
    "lost": 19,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.62,
-   "copied": 32,
+   "open": 2,
+   "at_risk": 6.63,
+   "copied": 33,
    "skipped": 27,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -1583,6 +1657,10 @@
     {
      "t": "2026-11-22T14:20:22+00:00",
      "equity": 33.25
+    },
+    {
+     "t": "2026-11-22T15:21:07+00:00",
+     "equity": 33.21
     }
    ],
    "positions": [
@@ -1595,6 +1673,16 @@
      "avg": 0.525,
      "mark": 0.505,
      "opened": "2026-11-21T16:16:43+00:00"
+    },
+    {
+     "title": "Buccaneers vs. Lions: O/U 46.5",
+     "outcome": "Over",
+     "event_slug": "nfl-tb-det-2026-11-22",
+     "cost": 2.01,
+     "shares": 3.5,
+     "avg": 0.575,
+     "mark": 0.565,
+     "opened": "2026-11-22T14:23:59+00:00"
     }
    ],
    "closed": [
@@ -1908,6 +1996,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T15:21:07+00:00",
+     "kind": "buy",
+     "title": "Buccaneers vs. Lions: O/U 46.5",
+     "outcome": "Over",
+     "event_slug": "nfl-tb-det-2026-11-22",
+     "leader_usd": 740.32,
+     "stake": 2.01,
+     "price": 0.575,
+     "leader_price": 0.56,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T03:21:00+00:00",
      "kind": "skip",
@@ -2596,11 +2696,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 91.26,
+   "equity": 91.2,
    "cash": 86.58,
-   "pnl": -8.74,
-   "pnl_after_kalshi_fees": -9.22,
-   "return_pct": -8.7,
+   "pnl": -8.8,
+   "pnl_after_kalshi_fees": -9.28,
+   "return_pct": -8.8,
    "realized": -8.63,
    "kalshi_fees": 0.48,
    "settled": 2,
@@ -2611,7 +2711,7 @@
    "at_risk": 4.79,
    "copied": 3,
    "skipped": 0,
-   "max_drawdown_pct": 8.9,
+   "max_drawdown_pct": 9.0,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -2844,6 +2944,10 @@
     {
      "t": "2026-11-22T14:20:22+00:00",
      "equity": 91.26
+    },
+    {
+     "t": "2026-11-22T15:21:07+00:00",
+     "equity": 91.2
     }
    ],
    "positions": [
@@ -2854,7 +2958,7 @@
      "cost": 4.79,
      "shares": 11.4,
      "avg": 0.42,
-     "mark": 0.41,
+     "mark": 0.405,
      "opened": "2026-11-22T14:13:50+00:00"
     }
    ],
@@ -3173,6 +3277,10 @@
     },
     {
      "t": "2026-11-22T14:20:22+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T15:21:07+00:00",
      "equity": 102.05
     }
    ],
