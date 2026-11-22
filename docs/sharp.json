@@ -17,7 +17,7 @@
  "open": 0,
  "at_risk": 0,
  "copied": 1,
- "skipped": 6,
+ "skipped": 7,
  "max_drawdown_pct": 1.8,
  "history": [
   {
@@ -227,6 +227,10 @@
   {
    "t": "2026-11-22T12:21:04+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T13:21:10+00:00",
+   "equity": 102.98
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -286,6 +290,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-22T13:21:10+00:00",
+   "kind": "skip",
+   "title": "Buccaneers vs. Lions",
+   "outcome": "Buccaneers",
+   "event_slug": "nfl-tb-det-2026-11-22",
+   "leader_usd": 1746.28,
+   "reason": "small bet for this wallet",
+   "price": 0.335,
+   "leader_price": 0.33,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-22T02:21:02+00:00",
    "kind": "skip",
@@ -373,6 +389,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-22T12:21:05+00:00",
+ "updated": "2026-11-22T13:21:12+00:00",
  "start": 100.0
 }
