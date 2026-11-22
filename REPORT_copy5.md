@@ -1,12 +1,12 @@
 # Copy-5 paper accounts
 
-Updated 2026-11-22T08:21:28+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
+Updated 2026-11-22T09:20:40+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
 
 | Acct | Leader | Risk | Equity | P&L | After Kalshi fees | W-L | Sold early | Open | Max drawdown |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | A | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) | High | $100.41 | +0.41 | -1.04 | 4-5 | 0 | 0 ($0.00) | 20.7% |
 | B | [Flipadelphia](https://polymarket.com/profile/0x448861155279dbf833d041b963e3ac854599e319) | Medium | $115.27 | +15.27 | +13.81 | 5-6 | 0 | 0 ($0.00) | 5.7% |
-| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $33.60 | -66.40 | -70.96 | 9-19 | 0 | 1 ($4.62) | 73.4% |
+| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $33.51 | -66.49 | -71.05 | 9-19 | 0 | 1 ($4.62) | 73.4% |
 | D | [GetsOnBase](https://polymarket.com/profile/0x018d6c652ca2f1d428a1186faafcf03b537eac8a) | Medium-high: few, large bets | $91.37 | -8.63 | -8.91 | 0-2 | 0 | 0 ($0.00) | 8.8% |
 | E | [dabossrealman](https://polymarket.com/profile/0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38) | Control: in-game bettor | $102.05 | +2.05 | +1.28 | 7-1 | 0 | 0 ($0.00) | 8.9% |
 
