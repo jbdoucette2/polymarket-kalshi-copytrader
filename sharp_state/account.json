@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 97.8305,
+ "cash": 92.6805,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -23,6 +23,23 @@
    "leader_shares": 81748.89,
    "edge": 0.1406,
    "mark": 0.485
+  },
+  "78930952793952568483208079740033362601534821344668537553544399487441668801183": {
+   "cond": "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751",
+   "idx": 0,
+   "outcome": "Bills",
+   "title": "Spread: Bills (-16.5)",
+   "slug": "nfl-mia-buf-2026-11-22-spread-home-16pt5",
+   "event_slug": "nfl-mia-buf-2026-11-22",
+   "shares": 9.80952380952381,
+   "cost": 5.15,
+   "kfee": 0.18,
+   "opened": "2026-11-22T16:20:53+00:00",
+   "leader": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+   "leader_name": "gmpm2",
+   "leader_shares": 7669.02,
+   "edge": 0.1406,
+   "mark": 0.515
   }
  },
  "leader_shares": {},
@@ -176,6 +193,32 @@
    "price": 0.485,
    "leader_price": 0.49,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T16:20:53+00:00",
+   "kind": "skip",
+   "title": "Raiders vs. Broncos: O/U 40.5",
+   "outcome": "Over",
+   "event_slug": "nfl-lv-den-2026-11-22",
+   "leader_usd": 28.43,
+   "reason": "small bet for this wallet",
+   "price": 0.535,
+   "leader_price": 0.53,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T16:20:53+00:00",
+   "kind": "buy",
+   "title": "Spread: Bills (-16.5)",
+   "outcome": "Bills",
+   "event_slug": "nfl-mia-buf-2026-11-22",
+   "leader_usd": 3911.2,
+   "stake": 5.15,
+   "price": 0.525,
+   "leader_price": 0.51,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
   }
  ],
  "history": [
@@ -398,11 +441,15 @@
   {
    "t": "2026-11-22T15:21:11+00:00",
    "equity": 102.88
+  },
+  {
+   "t": "2026-11-22T16:20:53+00:00",
+   "equity": 102.78
   }
  ],
- "kfees": 0.31,
- "copied": 2,
- "skipped": 9,
+ "kfees": 0.49,
+ "copied": 3,
+ "skipped": 10,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -412,11 +459,11 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795359310
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795364264
  },
  "day": {
   "2026-11-20": 3.57,
-  "2026-11-22": 5.15
+  "2026-11-22": 10.3
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -437,6 +484,12 @@
    1795360871,
    "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
    1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795364453,
+   "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751",
+   0,
    "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
   ]
  ],
@@ -518,6 +571,12 @@
     1
    ],
    "0x7c6421d749bf4de35d4e6e64f8eb0a2dea74825e942f15e89c0e8a86149d9b68": [
+    0
+   ],
+   "0xccee6bc1e98bd2a25eee81cce9b756f3252e4360938f47bdd5c14a834a085546": [
+    0
+   ],
+   "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751": [
     0
    ]
   }

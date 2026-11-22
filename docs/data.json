@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:21:11+00:00",
+ "updated": "2026-11-22T16:20:52+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.41,
-   "cash": 100.41,
-   "pnl": 0.41,
-   "pnl_after_kalshi_fees": -1.04,
-   "return_pct": 0.4,
+   "equity": 100.34,
+   "cash": 97.08,
+   "pnl": 0.34,
+   "pnl_after_kalshi_fees": -1.24,
+   "return_pct": 0.3,
    "realized": 0.42,
-   "kalshi_fees": 1.45,
+   "kalshi_fees": 1.58,
    "settled": 9,
    "won": 4,
    "lost": 5,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 11,
+   "open": 1,
+   "at_risk": 3.33,
+   "copied": 12,
    "skipped": 10,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -261,9 +261,24 @@
     {
      "t": "2026-11-22T15:21:07+00:00",
      "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T16:20:50+00:00",
+     "equity": 100.34
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Ravens vs. Panthers",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "cost": 3.33,
+     "shares": 7.48,
+     "avg": 0.445,
+     "mark": 0.435,
+     "opened": "2026-11-22T16:08:19+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-21T21:20:47+00:00",
@@ -366,6 +381,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T16:20:50+00:00",
+     "kind": "buy",
+     "title": "Ravens vs. Panthers",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 18759.79,
+     "stake": 3.33,
+     "price": 0.445,
+     "leader_price": 0.43,
+     "mult": 1.11
+    },
     {
      "ts": "2026-11-21T21:20:47+00:00",
      "kind": "skip",
@@ -615,20 +642,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.83,
-   "cash": 94.12,
-   "pnl": 14.83,
-   "pnl_after_kalshi_fees": 12.7,
+   "equity": 114.75,
+   "cash": 91.36,
+   "pnl": 14.75,
+   "pnl_after_kalshi_fees": 12.49,
    "return_pct": 14.8,
    "realized": 15.27,
-   "kalshi_fees": 2.13,
+   "kalshi_fees": 2.26,
    "settled": 11,
    "won": 5,
    "lost": 6,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 21.15,
-   "copied": 16,
+   "open": 6,
+   "at_risk": 23.91,
+   "copied": 17,
    "skipped": 15,
    "max_drawdown_pct": 5.7,
    "focus": "College football, NFL",
@@ -867,6 +894,10 @@
     {
      "t": "2026-11-22T15:21:07+00:00",
      "equity": 114.83
+    },
+    {
+     "t": "2026-11-22T16:20:50+00:00",
+     "equity": 114.75
     }
    ],
    "positions": [
@@ -919,6 +950,16 @@
      "avg": 0.425,
      "mark": 0.415,
      "opened": "2026-11-22T14:31:26+00:00"
+    },
+    {
+     "title": "Spread: Bears (-6.5)",
+     "outcome": "Saints",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "cost": 2.76,
+     "shares": 8.0,
+     "avg": 0.345,
+     "mark": 0.335,
+     "opened": "2026-11-22T15:39:31+00:00"
     }
    ],
    "closed": [
@@ -1045,6 +1086,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T16:20:50+00:00",
+     "kind": "buy",
+     "title": "Spread: Bears (-6.5)",
+     "outcome": "Saints",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "leader_usd": 1019.07,
+     "stake": 2.76,
+     "price": 0.345,
+     "leader_price": 0.33,
+     "mult": 0.8
+    },
     {
      "ts": "2026-11-22T15:21:07+00:00",
      "kind": "buy",
@@ -1409,20 +1462,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 33.21,
-   "cash": 26.79,
-   "pnl": -66.79,
-   "pnl_after_kalshi_fees": -71.41,
+   "equity": 33.16,
+   "cash": 22.77,
+   "pnl": -66.84,
+   "pnl_after_kalshi_fees": -71.52,
    "return_pct": -66.8,
    "realized": -66.58,
-   "kalshi_fees": 4.62,
+   "kalshi_fees": 4.68,
    "settled": 28,
    "won": 9,
    "lost": 19,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 6.63,
-   "copied": 33,
+   "open": 3,
+   "at_risk": 10.65,
+   "copied": 35,
    "skipped": 27,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -1661,6 +1714,10 @@
     {
      "t": "2026-11-22T15:21:07+00:00",
      "equity": 33.21
+    },
+    {
+     "t": "2026-11-22T16:20:50+00:00",
+     "equity": 33.16
     }
    ],
    "positions": [
@@ -1683,6 +1740,16 @@
      "avg": 0.575,
      "mark": 0.565,
      "opened": "2026-11-22T14:23:59+00:00"
+    },
+    {
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "cost": 4.02,
+     "shares": 4.81,
+     "avg": 0.835,
+     "mark": 0.825,
+     "opened": "2026-11-22T15:58:49+00:00"
     }
    ],
    "closed": [
@@ -1996,6 +2063,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T16:20:50+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 5836.56,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T16:20:50+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 15031.3,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T15:21:07+00:00",
      "kind": "buy",
@@ -2664,30 +2755,6 @@
      "price": 0.545,
      "leader_price": 0.54,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-20T22:21:18+00:00",
-     "kind": "buy",
-     "title": "Spread: Miami Hurricanes (-35.5)",
-     "outcome": "Manhattan Jaspers",
-     "event_slug": "cbb-manh-mia-2026-11-20",
-     "leader_usd": 690.72,
-     "stake": 6.0,
-     "price": 0.54,
-     "leader_price": 0.473,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-20T21:21:20+00:00",
-     "kind": "buy",
-     "title": "Grizzlies vs. Timberwolves",
-     "outcome": "Grizzlies",
-     "event_slug": "nba-mem-min-2026-11-21",
-     "leader_usd": 1166.25,
-     "stake": 6.0,
-     "price": 0.355,
-     "leader_price": 0.35,
-     "mult": 2.0
     }
    ]
   },
@@ -2696,11 +2763,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 91.2,
+   "equity": 90.8,
    "cash": 86.58,
-   "pnl": -8.8,
-   "pnl_after_kalshi_fees": -9.28,
-   "return_pct": -8.8,
+   "pnl": -9.2,
+   "pnl_after_kalshi_fees": -9.68,
+   "return_pct": -9.2,
    "realized": -8.63,
    "kalshi_fees": 0.48,
    "settled": 2,
@@ -2711,7 +2778,7 @@
    "at_risk": 4.79,
    "copied": 3,
    "skipped": 0,
-   "max_drawdown_pct": 9.0,
+   "max_drawdown_pct": 9.4,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -2948,6 +3015,10 @@
     {
      "t": "2026-11-22T15:21:07+00:00",
      "equity": 91.2
+    },
+    {
+     "t": "2026-11-22T16:20:50+00:00",
+     "equity": 90.8
     }
    ],
    "positions": [
@@ -2958,7 +3029,7 @@
      "cost": 4.79,
      "shares": 11.4,
      "avg": 0.42,
-     "mark": 0.405,
+     "mark": 0.37,
      "opened": "2026-11-22T14:13:50+00:00"
     }
    ],
@@ -3281,6 +3352,10 @@
     },
     {
      "t": "2026-11-22T15:21:07+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T16:20:50+00:00",
      "equity": 102.05
     }
    ],

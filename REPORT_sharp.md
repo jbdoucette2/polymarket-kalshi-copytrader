@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-22T15:21:13+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-22T16:20:55+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$102.88** (+2.88; after Kalshi fees +2.57) · 1-0 · sold early 0 · 1 open ($5.15) · max drawdown 1.8%
+**$102.78** (+2.78; after Kalshi fees +2.29) · 1-0 · sold early 0 · 2 open ($10.30) · max drawdown 1.8%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,11 +16,14 @@ Updated 2026-11-22T15:21:13+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 | 48c |
+| Spread: Bills (-16.5) | Bills | gmpm2 | $5.15 | 52c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-22 16:20 | buy | Spread: Bills (-16.5) | Bills | gmpm2 | $5.15 at 52c |
+| 11-22 16:20 | skip | Raiders vs. Broncos: O/U 40.5 | Over | gmpm2 | small bet for this wallet |
 | 11-22 15:21 | skip | Cardinals vs. Chiefs: O/U 40.5 | Over | gmpm2 | small bet for this wallet |
 | 11-22 15:21 | skip | Vikings vs. 49ers | 49ers | gmpm2 | already have a bet on this game |
 | 11-22 15:21 | buy | Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 at 50c |
