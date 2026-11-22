@@ -3,7 +3,7 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 16.313,
+ "cash": 28.8032,
  "since": 1795198438,
  "last_ts": 1795317175,
  "positions": {
@@ -18,33 +18,7 @@
    "cost": 4.62,
    "kfee": 0.16,
    "opened": "2026-11-21T16:16:43+00:00",
-   "mark": 0.535
-  },
-  "114067174121034132282934204455563213126341413305240117356202318440889477919115": {
-   "cond": "0xc05570196d4938be5098be8b195c4493cc5c4ed113a7475fac1317c737c3bff3",
-   "idx": 1,
-   "outcome": "Arizona State",
-   "title": "Spread: Oklahoma State (-4.5)",
-   "slug": "cfb-okst-arzst-2026-11-21-spread-away-4pt5",
-   "event_slug": "cfb-okst-arzst-2026-11-21",
-   "shares": 3.781512605042017,
-   "cost": 2.25,
-   "kfee": 0.07,
-   "opened": "2026-11-22T01:45:35+00:00",
-   "mark": 0.9995
-  },
-  "9595633319107579179834390170631460368380392498238092572825429675044634339780": {
-   "cond": "0x86a7781aca8b0b7534a3daf0fa4295b2779965eb08855001a3c09416d8c8d371",
-   "idx": 0,
-   "outcome": "Oklahoma State",
-   "title": "Oklahoma State vs. Arizona State",
-   "slug": "cfb-okst-arzst-2026-11-21",
-   "event_slug": "cfb-okst-arzst-2026-11-21",
-   "shares": 8.708661417322833,
-   "cost": 5.53,
-   "kfee": 0.15000000000000002,
-   "opened": "2026-11-22T02:44:13+00:00",
-   "mark": 0.9995
+   "mark": 0.545
   }
  },
  "leader_shares": {
@@ -384,6 +358,28 @@
    "cost": 4.62,
    "pnl": 4.02,
    "kfee": 0.16,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T08:21:27+00:00",
+   "title": "Spread: Oklahoma State (-4.5)",
+   "outcome": "Arizona State",
+   "event_slug": "cfb-okst-arzst-2026-11-21",
+   "cost": 2.25,
+   "pnl": 1.53,
+   "kfee": 0.07,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T08:21:27+00:00",
+   "title": "Oklahoma State vs. Arizona State",
+   "outcome": "Oklahoma State",
+   "event_slug": "cfb-okst-arzst-2026-11-21",
+   "cost": 5.53,
+   "pnl": 3.18,
+   "kfee": 0.15,
    "how": "won",
    "exit_price": 1.0
   }
@@ -1259,6 +1255,10 @@
   {
    "t": "2026-11-22T07:21:29+00:00",
    "equity": 33.5
+  },
+  {
+   "t": "2026-11-22T08:21:27+00:00",
+   "equity": 33.6
   }
  ],
  "kfees": 4.56,
