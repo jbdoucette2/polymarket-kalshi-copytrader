@@ -17,7 +17,7 @@
  "open": 0,
  "at_risk": 0,
  "copied": 1,
- "skipped": 2,
+ "skipped": 3,
  "max_drawdown_pct": 1.8,
  "history": [
   {
@@ -171,6 +171,10 @@
   {
    "t": "2026-11-22T00:21:26+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T01:20:58+00:00",
+   "equity": 102.98
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -231,6 +235,18 @@
  ],
  "log": [
   {
+   "ts": "2026-11-22T01:20:58+00:00",
+   "kind": "skip",
+   "title": "Bengals vs. Commanders: O/U 54.5",
+   "outcome": "Over",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "leader_usd": 967.2,
+   "reason": "small bet for this wallet",
+   "price": 0.515,
+   "leader_price": 0.51,
+   "leader": "gmpm2"
+  },
+  {
    "ts": "2026-11-21T18:20:51+00:00",
    "kind": "skip",
    "title": "Bengals vs. Commanders: O/U 54.5",
@@ -269,6 +285,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-22T00:21:27+00:00",
+ "updated": "2026-11-22T01:21:00+00:00",
  "start": 100.0
 }

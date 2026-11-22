@@ -60,6 +60,18 @@
    "price": 0.495,
    "leader_price": 0.48,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T01:20:58+00:00",
+   "kind": "skip",
+   "title": "Bengals vs. Commanders: O/U 54.5",
+   "outcome": "Over",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "leader_usd": 967.2,
+   "reason": "small bet for this wallet",
+   "price": 0.515,
+   "leader_price": 0.51,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -214,11 +226,15 @@
   {
    "t": "2026-11-22T00:21:26+00:00",
    "equity": 102.98
+  },
+  {
+   "t": "2026-11-22T01:20:58+00:00",
+   "equity": 102.98
   }
  ],
  "kfees": 0.12,
  "copied": 1,
- "skipped": 2,
+ "skipped": 3,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -228,7 +244,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795305970
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795309303
  },
  "day": {
   "2026-11-20": 3.57
@@ -295,7 +311,8 @@
     1
    ],
    "0xf67a0d86970f6791f73ed28dc673221e22c0a9263af5a7f045fa4d40d917af01": [
-    0
+    0,
+    1
    ]
   }
  }
