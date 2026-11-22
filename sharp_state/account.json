@@ -22,7 +22,7 @@
    "leader_name": "gmpm2",
    "leader_shares": 81748.89,
    "edge": 0.1406,
-   "mark": 0.515
+   "mark": 0.525
   }
  },
  "leader_shares": {},
@@ -236,6 +236,54 @@
    "reason": "already have a bet on this game",
    "price": 0.515,
    "leader_price": 0.52,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers: O/U 46.5",
+   "outcome": "Under",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 21612.44,
+   "reason": "already have a bet on this game",
+   "price": 0.555,
+   "leader_price": 0.54,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 19192.45,
+   "reason": "already have a bet on this game",
+   "price": 0.485,
+   "leader_price": 0.47,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 419.12,
+   "reason": "small bet for this wallet",
+   "price": 0.525,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 5281.9,
+   "reason": "already have a bet on this game",
+   "price": 0.655,
+   "leader_price": 0.65,
    "leader": "gmpm2"
   }
  ],
@@ -491,11 +539,15 @@
   {
    "t": "2026-11-22T22:20:48+00:00",
    "equity": 107.85
+  },
+  {
+   "t": "2026-11-22T23:20:52+00:00",
+   "equity": 107.95
   }
  ],
  "kfees": 0.49,
  "copied": 3,
- "skipped": 12,
+ "skipped": 16,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -505,7 +557,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795376276
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795389001
  },
  "day": {
   "2026-11-20": 3.57,
@@ -553,6 +605,24 @@
    1795368044,
    "0xac4473730205b6f801be10ff60c851c24001b477262fbec5a3f50030313e28db",
    0,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795389652,
+   "0x6fc896c49abd395b45e90506979246adfbef33d95415de21fcd53aca90f41f4b",
+   1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795389652,
+   "0x23d2d26608aa318d165ce0ed3f711d3caabbbf6f9c28b41fdf10a10e91b8d789",
+   1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795389652,
+   "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
+   1,
    "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
   ]
  ],
@@ -651,6 +721,15 @@
    ],
    "0x363ae1d8442e38acfdf0a58b223e220c391c38c693730f870dbb6fae805bc2da": [
     0
+   ],
+   "0x50637093fda39947d6401c23ac4b03e50e1efac994a1dd273942b368b1c21c32": [
+    1
+   ],
+   "0x6fc896c49abd395b45e90506979246adfbef33d95415de21fcd53aca90f41f4b": [
+    1
+   ],
+   "0x23d2d26608aa318d165ce0ed3f711d3caabbbf6f9c28b41fdf10a10e91b8d789": [
+    1
    ]
   }
  }

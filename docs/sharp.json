@@ -3,11 +3,11 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 107.85,
+ "equity": 107.95,
  "cash": 102.49,
- "pnl": 7.85,
- "pnl_after_kalshi_fees": 7.36,
- "return_pct": 7.8,
+ "pnl": 7.95,
+ "pnl_after_kalshi_fees": 7.46,
+ "return_pct": 8.0,
  "realized": 7.64,
  "kalshi_fees": 0.49,
  "settled": 2,
@@ -17,7 +17,7 @@
  "open": 1,
  "at_risk": 5.15,
  "copied": 3,
- "skipped": 12,
+ "skipped": 16,
  "max_drawdown_pct": 1.8,
  "history": [
   {
@@ -271,6 +271,10 @@
   {
    "t": "2026-11-22T22:20:48+00:00",
    "equity": 107.85
+  },
+  {
+   "t": "2026-11-22T23:20:52+00:00",
+   "equity": 107.95
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -322,7 +326,7 @@
    "leader": "gmpm2",
    "cost": 5.15,
    "avg": 0.495,
-   "mark": 0.515
+   "mark": 0.525
   }
  ],
  "closed": [
@@ -350,6 +354,54 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 5281.9,
+   "reason": "already have a bet on this game",
+   "price": 0.655,
+   "leader_price": 0.65,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 419.12,
+   "reason": "small bet for this wallet",
+   "price": 0.525,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 19192.45,
+   "reason": "already have a bet on this game",
+   "price": 0.485,
+   "leader_price": 0.47,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-22T23:20:52+00:00",
+   "kind": "skip",
+   "title": "Vikings vs. 49ers: O/U 46.5",
+   "outcome": "Under",
+   "event_slug": "nfl-min-sf-2026-11-23",
+   "leader_usd": 21612.44,
+   "reason": "already have a bet on this game",
+   "price": 0.555,
+   "leader_price": 0.54,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-22T17:20:44+00:00",
    "kind": "skip",
@@ -537,6 +589,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-22T22:20:49+00:00",
+ "updated": "2026-11-22T23:20:54+00:00",
  "start": 100.0
 }

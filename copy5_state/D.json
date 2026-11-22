@@ -3,49 +3,10 @@
  "name": "GetsOnBase",
  "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
  "start": 100.0,
- "cash": 60.69,
+ "cash": 92.8303,
  "since": 1795198438,
  "last_ts": 1795378288,
  "positions": {
-  "86310622643811074645668729379101054863123036246450652608191666288132754316626": {
-   "cond": "0x13a27f67a1284260454fe0739836354090c4383938b8797fd41c4e3c552f9e31",
-   "idx": 0,
-   "outcome": "Over",
-   "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
-   "slug": "bra-cap-cre-2026-11-22-total-2pt5",
-   "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-   "shares": 10.242990654205608,
-   "cost": 5.48,
-   "kfee": 0.18,
-   "opened": "2026-11-22T18:06:29+00:00",
-   "mark": 0.9995
-  },
-  "61159161040534119507343492564654127718543612791960534267989673475535346611932": {
-   "cond": "0x487f874b62af98b12b3094dd985f179477a0fb43e2e95d29eda69d2687585500",
-   "idx": 0,
-   "outcome": "CA Paranaense",
-   "title": "Spread: CA Paranaense (-1.5)",
-   "slug": "bra-cap-cre-2026-11-22-spread-home-1pt5",
-   "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-   "shares": 13.530864197530864,
-   "cost": 5.48,
-   "kfee": 0.23,
-   "opened": "2026-11-22T18:11:47+00:00",
-   "mark": 0.9995
-  },
-  "69556738057653020228873713718799919095314000664343931088312692369571536175896": {
-   "cond": "0xee570c865ffeda4c62829d561ea8a0b4e1e61012b3733a8ba4ffc1879ded951d",
-   "idx": 0,
-   "outcome": "Yes",
-   "title": "Will CA Paranaense win on 2026-11-22?",
-   "slug": "bra-cap-cre-2026-11-22-cap",
-   "event_slug": "bra-cap-cre-2026-11-22",
-   "shares": 8.366412213740459,
-   "cost": 5.48,
-   "kfee": 0.14,
-   "opened": "2026-11-22T18:12:08+00:00",
-   "mark": 0.9995
-  },
   "57472732121318040408303879074583032046546043731806944869511260113439603636854": {
    "cond": "0xc13089b1ce6ea508af8d2ab7e8eb55bd28581de45fed1ba4619e69afe33e4776",
    "idx": 0,
@@ -57,7 +18,7 @@
    "cost": 4.26,
    "kfee": 0.19,
    "opened": "2026-11-22T20:11:26+00:00",
-   "mark": 0.034
+   "mark": 0.0005
   },
   "79534733035316700397376009144217629782849083110833854883135392338322552731559": {
    "cond": "0x50693ee8857d23dded9c19d371999a440a6358cbf79dcc7ff6718fae2485be39",
@@ -70,7 +31,7 @@
    "cost": 5.19,
    "kfee": 0.14,
    "opened": "2026-11-22T20:11:28+00:00",
-   "mark": 0.135
+   "mark": 0.0005
   }
  },
  "leader_shares": {
@@ -117,6 +78,39 @@
    "kfee": 0.2,
    "how": "lost",
    "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-22T23:20:48+00:00",
+   "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
+   "outcome": "Over",
+   "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+   "cost": 5.48,
+   "pnl": 4.76,
+   "kfee": 0.18,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T23:20:48+00:00",
+   "title": "Spread: CA Paranaense (-1.5)",
+   "outcome": "CA Paranaense",
+   "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+   "cost": 5.48,
+   "pnl": 8.05,
+   "kfee": 0.23,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T23:20:48+00:00",
+   "title": "Will CA Paranaense win on 2026-11-22?",
+   "outcome": "Yes",
+   "event_slug": "bra-cap-cre-2026-11-22",
+   "cost": 5.48,
+   "pnl": 2.89,
+   "kfee": 0.14,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
  "log": [
@@ -473,6 +467,10 @@
   {
    "t": "2026-11-22T22:20:44+00:00",
    "equity": 94.29
+  },
+  {
+   "t": "2026-11-22T23:20:48+00:00",
+   "equity": 92.84
   }
  ],
  "kfees": 1.36,

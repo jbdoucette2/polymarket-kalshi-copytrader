@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:20:47+00:00",
+ "updated": "2026-11-22T23:20:52+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,21 +9,21 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 92.69,
-   "cash": 68.36,
-   "pnl": -7.31,
-   "pnl_after_kalshi_fees": -10.12,
-   "return_pct": -7.3,
+   "equity": 94.14,
+   "cash": 63.17,
+   "pnl": -5.86,
+   "pnl_after_kalshi_fees": -8.87,
+   "return_pct": -5.9,
    "realized": -13.57,
-   "kalshi_fees": 2.81,
+   "kalshi_fees": 3.01,
    "settled": 15,
    "won": 6,
    "lost": 9,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 18.06,
-   "copied": 20,
-   "skipped": 12,
+   "open": 4,
+   "at_risk": 23.25,
+   "copied": 21,
+   "skipped": 15,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
    "risk": "High",
@@ -293,6 +293,10 @@
     {
      "t": "2026-11-22T22:20:44+00:00",
      "equity": 92.69
+    },
+    {
+     "t": "2026-11-22T23:20:48+00:00",
+     "equity": 94.14
     }
    ],
    "positions": [
@@ -303,7 +307,7 @@
      "cost": 6.02,
      "shares": 7.12,
      "avg": 0.845,
-     "mark": 0.9785,
+     "mark": 0.9005,
      "opened": "2026-11-22T19:08:16+00:00"
     },
     {
@@ -313,7 +317,7 @@
      "cost": 6.02,
      "shares": 9.33,
      "avg": 0.645,
-     "mark": 0.645,
+     "mark": 0.655,
      "opened": "2026-11-22T19:16:56+00:00"
     },
     {
@@ -323,8 +327,18 @@
      "cost": 6.02,
      "shares": 15.64,
      "avg": 0.385,
-     "mark": 0.725,
+     "mark": 0.855,
      "opened": "2026-11-22T20:40:35+00:00"
+    },
+    {
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Jazz",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "cost": 5.19,
+     "shares": 11.41,
+     "avg": 0.455,
+     "mark": 0.445,
+     "opened": "2026-11-22T23:08:46+00:00"
     }
    ],
    "closed": [
@@ -495,6 +509,51 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "buy",
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Jazz",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "leader_usd": 116969.12,
+     "stake": 5.19,
+     "price": 0.455,
+     "leader_price": 0.44,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "skip",
+     "title": "Spread: Jets (-2.5)",
+     "outcome": "Jets",
+     "event_slug": "nfl-nyj-lac-2026-11-22",
+     "leader_usd": 15687.74,
+     "reason": "price ran away (0.61 -> 0.84)",
+     "price": 0.84,
+     "leader_price": 0.61
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "skip",
+     "title": "Spread: Jets (-3.5)",
+     "outcome": "Jets",
+     "event_slug": "nfl-nyj-lac-2026-11-22",
+     "leader_usd": 7190.74,
+     "reason": "price ran away (0.49 -> 0.65)",
+     "price": 0.65,
+     "leader_price": 0.49
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "skip",
+     "title": "Jets vs. Chargers",
+     "outcome": "Jets",
+     "event_slug": "nfl-nyj-lac-2026-11-22",
+     "leader_usd": 107847.51,
+     "reason": "price ran away (0.67 -> 0.86)",
+     "price": 0.865,
+     "leader_price": 0.67
+    },
     {
      "ts": "2026-11-22T22:20:44+00:00",
      "kind": "skip",
@@ -874,11 +933,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 92.16,
+   "equity": 87.23,
    "cash": 82.93,
-   "pnl": -7.84,
-   "pnl_after_kalshi_fees": -10.51,
-   "return_pct": -7.8,
+   "pnl": -12.77,
+   "pnl_after_kalshi_fees": -15.44,
+   "return_pct": -12.8,
    "realized": -5.71,
    "kalshi_fees": 2.67,
    "settled": 18,
@@ -889,7 +948,7 @@
    "at_risk": 11.36,
    "copied": 21,
    "skipped": 18,
-   "max_drawdown_pct": 23.2,
+   "max_drawdown_pct": 27.4,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1158,6 +1217,10 @@
     {
      "t": "2026-11-22T22:20:44+00:00",
      "equity": 92.16
+    },
+    {
+     "t": "2026-11-22T23:20:48+00:00",
+     "equity": 87.23
     }
    ],
    "positions": [
@@ -1168,7 +1231,7 @@
      "cost": 6.92,
      "shares": 10.25,
      "avg": 0.675,
-     "mark": 0.525,
+     "mark": 0.12,
      "opened": "2026-11-22T14:15:37+00:00"
     },
     {
@@ -1178,7 +1241,7 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.285,
+     "mark": 0.035,
      "opened": "2026-11-22T14:17:34+00:00"
     },
     {
@@ -1188,7 +1251,7 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.9345,
+     "mark": 0.9295,
      "opened": "2026-11-22T21:19:05+00:00"
     }
    ],
@@ -1850,20 +1913,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 36.31,
-   "cash": 15.32,
-   "pnl": -63.69,
-   "pnl_after_kalshi_fees": -68.67,
-   "return_pct": -63.7,
-   "realized": -63.98,
-   "kalshi_fees": 4.98,
-   "settled": 30,
+   "equity": 35.29,
+   "cash": 13.16,
+   "pnl": -64.71,
+   "pnl_after_kalshi_fees": -69.76,
+   "return_pct": -64.7,
+   "realized": -65.99,
+   "kalshi_fees": 5.05,
+   "settled": 31,
    "won": 11,
-   "lost": 19,
+   "lost": 20,
    "sold_early": 0,
    "open": 4,
-   "at_risk": 20.7,
-   "copied": 42,
+   "at_risk": 20.85,
+   "copied": 43,
    "skipped": 31,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2134,6 +2197,10 @@
     {
      "t": "2026-11-22T22:20:44+00:00",
      "equity": 36.31
+    },
+    {
+     "t": "2026-11-22T23:20:48+00:00",
+     "equity": 35.29
     }
    ],
    "positions": [
@@ -2154,18 +2221,8 @@
      "cost": 12.06,
      "shares": 14.44,
      "avg": 0.835,
-     "mark": 0.9785,
+     "mark": 0.9005,
      "opened": "2026-11-22T15:58:49+00:00"
-    },
-    {
-     "title": "Spread: CA Paranaense (-1.5)",
-     "outcome": "Clube do Remo",
-     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-     "cost": 2.01,
-     "shares": 3.27,
-     "avg": 0.615,
-     "mark": 0.0005,
-     "opened": "2026-11-22T18:11:49+00:00"
     },
     {
      "title": "Spread: Heat (-4.5)",
@@ -2174,11 +2231,32 @@
      "cost": 2.01,
      "shares": 3.83,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.555,
      "opened": "2026-11-22T22:00:07+00:00"
+    },
+    {
+     "title": "Oilers vs. Blues: O/U 5.5",
+     "outcome": "Over",
+     "event_slug": "nhl-edm-stl-2026-11-22",
+     "cost": 2.16,
+     "shares": 3.76,
+     "avg": 0.575,
+     "mark": 0.565,
+     "opened": "2026-11-22T22:30:44+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "Clube do Remo",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 2.01,
+     "pnl": -2.01,
+     "kfee": 0.06,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T22:20:44+00:00",
      "title": "Getafe CF vs. Club Atl\u00e9tico de Madrid: O/U 3.5",
@@ -2511,6 +2589,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "buy",
+     "title": "Oilers vs. Blues: O/U 5.5",
+     "outcome": "Over",
+     "event_slug": "nhl-edm-stl-2026-11-22",
+     "leader_usd": 628.14,
+     "stake": 2.16,
+     "price": 0.575,
+     "leader_price": 0.57,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T22:20:44+00:00",
      "kind": "buy",
@@ -3189,18 +3279,6 @@
      "reason": "below $1 minimum",
      "price": 0.245,
      "leader_price": 0.241
-    },
-    {
-     "ts": "2026-11-21T14:21:10+00:00",
-     "kind": "buy",
-     "title": "Utah vs. TCU: O/U 47.5",
-     "outcome": "Under",
-     "event_slug": "cfb-utah-tcu-2026-11-21",
-     "leader_usd": 2378.64,
-     "stake": 4.62,
-     "price": 0.535,
-     "leader_price": 0.53,
-     "mult": 2.0
     }
    ]
   },
@@ -3209,19 +3287,19 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 94.29,
-   "cash": 60.69,
-   "pnl": -5.71,
-   "pnl_after_kalshi_fees": -7.07,
-   "return_pct": -5.7,
-   "realized": -13.42,
+   "equity": 92.84,
+   "cash": 92.83,
+   "pnl": -7.16,
+   "pnl_after_kalshi_fees": -8.52,
+   "return_pct": -7.2,
+   "realized": 2.28,
    "kalshi_fees": 1.36,
-   "settled": 3,
-   "won": 0,
+   "settled": 6,
+   "won": 3,
    "lost": 3,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 25.89,
+   "open": 2,
+   "at_risk": 9.45,
    "copied": 8,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
@@ -3493,39 +3571,13 @@
     {
      "t": "2026-11-22T22:20:44+00:00",
      "equity": 94.29
+    },
+    {
+     "t": "2026-11-22T23:20:48+00:00",
+     "equity": 92.84
     }
    ],
    "positions": [
-    {
-     "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
-     "outcome": "Over",
-     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-     "cost": 5.48,
-     "shares": 10.24,
-     "avg": 0.535,
-     "mark": 0.9995,
-     "opened": "2026-11-22T18:06:29+00:00"
-    },
-    {
-     "title": "Spread: CA Paranaense (-1.5)",
-     "outcome": "CA Paranaense",
-     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-     "cost": 5.48,
-     "shares": 13.53,
-     "avg": 0.405,
-     "mark": 0.9995,
-     "opened": "2026-11-22T18:11:47+00:00"
-    },
-    {
-     "title": "Will CA Paranaense win on 2026-11-22?",
-     "outcome": "Yes",
-     "event_slug": "bra-cap-cre-2026-11-22",
-     "cost": 5.48,
-     "shares": 8.37,
-     "avg": 0.655,
-     "mark": 0.9995,
-     "opened": "2026-11-22T18:12:08+00:00"
-    },
     {
      "title": "Will CD Universidad Cat\u00f3lica win on 2026-11-22?",
      "outcome": "Yes",
@@ -3533,7 +3585,7 @@
      "cost": 4.26,
      "shares": 11.06,
      "avg": 0.385,
-     "mark": 0.034,
+     "mark": 0.0005,
      "opened": "2026-11-22T20:11:26+00:00"
     },
     {
@@ -3543,11 +3595,44 @@
      "cost": 5.19,
      "shares": 8.17,
      "avg": 0.635,
-     "mark": 0.135,
+     "mark": 0.0005,
      "opened": "2026-11-22T20:11:28+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "title": "Will CA Paranaense win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "bra-cap-cre-2026-11-22",
+     "cost": 5.48,
+     "pnl": 2.89,
+     "kfee": 0.14,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "CA Paranaense",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 5.48,
+     "pnl": 8.05,
+     "kfee": 0.23,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 5.48,
+     "pnl": 4.76,
+     "kfee": 0.18,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T19:21:06+00:00",
      "title": "Will CD Huachipato win on 2026-11-22?",
@@ -3686,21 +3771,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 102.04,
-   "cash": 100.9,
-   "pnl": 2.04,
-   "pnl_after_kalshi_fees": 1.26,
-   "return_pct": 2.0,
-   "realized": 2.06,
+   "equity": 102.11,
+   "cash": 102.11,
+   "pnl": 2.11,
+   "pnl_after_kalshi_fees": 1.33,
+   "return_pct": 2.1,
+   "realized": 2.11,
    "kalshi_fees": 0.78,
-   "settled": 8,
-   "won": 7,
+   "settled": 9,
+   "won": 8,
    "lost": 1,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 1.15,
+   "open": 0,
+   "at_risk": 0,
    "copied": 9,
-   "skipped": 17,
+   "skipped": 19,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -3970,21 +4055,25 @@
     {
      "t": "2026-11-22T22:20:44+00:00",
      "equity": 102.04
+    },
+    {
+     "t": "2026-11-22T23:20:48+00:00",
+     "equity": 102.11
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-22T23:20:48+00:00",
      "title": "Nickeil Alexander-Walker: Points O/U 14.5",
      "outcome": "Yes",
      "event_slug": "nba-det-atl-2026-11-22",
      "cost": 1.15,
-     "shares": 1.2,
-     "avg": 0.955,
-     "mark": 0.945,
-     "opened": "2026-11-22T22:00:04+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 0.05,
+     "kfee": 0.01,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T06:21:04+00:00",
      "title": "Darius Acuff Jr.: 3-Pointers Made O/U 1.5",
@@ -4075,6 +4164,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "skip",
+     "title": "Cade Cunningham: 3-Pointers Made O/U 0.5",
+     "outcome": "Yes",
+     "event_slug": "nba-det-atl-2026-11-22",
+     "leader_usd": 6.0,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.6
+    },
+    {
+     "ts": "2026-11-22T23:20:48+00:00",
+     "kind": "skip",
+     "title": "Aaron Wiggins: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-det-atl-2026-11-22",
+     "leader_usd": 4.85,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.96
+    },
     {
      "ts": "2026-11-22T22:20:44+00:00",
      "kind": "buy",
