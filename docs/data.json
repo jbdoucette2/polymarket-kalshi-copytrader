@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:20:44+00:00",
+ "updated": "2026-11-22T18:21:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,21 +9,21 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.34,
-   "cash": 97.08,
-   "pnl": 0.34,
-   "pnl_after_kalshi_fees": -1.24,
-   "return_pct": 0.3,
+   "equity": 100.72,
+   "cash": 69.4,
+   "pnl": 0.72,
+   "pnl_after_kalshi_fees": -1.61,
+   "return_pct": 0.7,
    "realized": 0.42,
-   "kalshi_fees": 1.58,
+   "kalshi_fees": 2.33,
    "settled": 9,
    "won": 4,
    "lost": 5,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 3.33,
-   "copied": 12,
-   "skipped": 10,
+   "open": 6,
+   "at_risk": 31.01,
+   "copied": 17,
+   "skipped": 11,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
    "risk": "High",
@@ -269,6 +269,10 @@
     {
      "t": "2026-11-22T17:20:40+00:00",
      "equity": 100.34
+    },
+    {
+     "t": "2026-11-22T18:21:08+00:00",
+     "equity": 100.72
     }
    ],
    "positions": [
@@ -279,8 +283,58 @@
      "cost": 3.33,
      "shares": 7.48,
      "avg": 0.445,
-     "mark": 0.435,
+     "mark": 0.615,
      "opened": "2026-11-22T16:08:19+00:00"
+    },
+    {
+     "title": "Spread: Bears (-14.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "cost": 3.6,
+     "shares": 7.58,
+     "avg": 0.475,
+     "mark": 0.47,
+     "opened": "2026-11-22T17:53:31+00:00"
+    },
+    {
+     "title": "Spread: Bears (-13.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "cost": 6.02,
+     "shares": 11.47,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-22T17:53:40+00:00"
+    },
+    {
+     "title": "Spread: Bears (-10.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "cost": 6.02,
+     "shares": 9.95,
+     "avg": 0.605,
+     "mark": 0.585,
+     "opened": "2026-11-22T17:53:50+00:00"
+    },
+    {
+     "title": "Dolphins vs. Bills: O/U 44.5",
+     "outcome": "Under",
+     "event_slug": "nfl-mia-buf-2026-11-22",
+     "cost": 6.02,
+     "shares": 10.29,
+     "avg": 0.585,
+     "mark": 0.545,
+     "opened": "2026-11-22T17:56:44+00:00"
+    },
+    {
+     "title": "Saints vs. Bears",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "cost": 6.02,
+     "shares": 6.73,
+     "avg": 0.895,
+     "mark": 0.865,
+     "opened": "2026-11-22T17:57:55+00:00"
     }
    ],
    "closed": [
@@ -385,6 +439,77 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Saints vs. Bears",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "leader_usd": 432777.59,
+     "stake": 6.02,
+     "price": 0.895,
+     "leader_price": 0.85,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Dolphins vs. Bills: O/U 44.5",
+     "outcome": "Under",
+     "event_slug": "nfl-mia-buf-2026-11-22",
+     "leader_usd": 55017.97,
+     "stake": 6.02,
+     "price": 0.585,
+     "leader_price": 0.49,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "skip",
+     "title": "Ravens vs. Panthers",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 259976.48,
+     "reason": "price ran away (0.44 -> 0.59)",
+     "price": 0.595,
+     "leader_price": 0.44
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Spread: Bears (-10.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "leader_usd": 58419.14,
+     "stake": 6.02,
+     "price": 0.605,
+     "leader_price": 0.558,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Spread: Bears (-13.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "leader_usd": 105276.72,
+     "stake": 6.02,
+     "price": 0.525,
+     "leader_price": 0.48,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Spread: Bears (-14.5)",
+     "outcome": "Bears",
+     "event_slug": "nfl-no-chi-2026-11-22",
+     "leader_usd": 20469.72,
+     "stake": 3.6,
+     "price": 0.475,
+     "leader_price": 0.425,
+     "mult": 1.2
+    },
     {
      "ts": "2026-11-22T16:20:50+00:00",
      "kind": "buy",
@@ -646,11 +771,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.59,
+   "equity": 116.34,
    "cash": 80.98,
-   "pnl": 14.59,
-   "pnl_after_kalshi_fees": 11.94,
-   "return_pct": 14.6,
+   "pnl": 16.34,
+   "pnl_after_kalshi_fees": 13.69,
+   "return_pct": 16.3,
    "realized": 15.27,
    "kalshi_fees": 2.65,
    "settled": 11,
@@ -660,7 +785,7 @@
    "open": 9,
    "at_risk": 34.29,
    "copied": 20,
-   "skipped": 15,
+   "skipped": 17,
    "max_drawdown_pct": 5.7,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -906,6 +1031,10 @@
     {
      "t": "2026-11-22T17:20:40+00:00",
      "equity": 114.59
+    },
+    {
+     "t": "2026-11-22T18:21:08+00:00",
+     "equity": 116.34
     }
    ],
    "positions": [
@@ -916,7 +1045,7 @@
      "cost": 2.63,
      "shares": 4.74,
      "avg": 0.555,
-     "mark": 0.535,
+     "mark": 0.455,
      "opened": "2026-11-22T12:08:56+00:00"
     },
     {
@@ -926,7 +1055,7 @@
      "cost": 6.92,
      "shares": 10.25,
      "avg": 0.675,
-     "mark": 0.665,
+     "mark": 0.675,
      "opened": "2026-11-22T14:15:37+00:00"
     },
     {
@@ -936,7 +1065,7 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.485,
+     "mark": 0.48,
      "opened": "2026-11-22T14:17:34+00:00"
     },
     {
@@ -946,7 +1075,7 @@
      "cost": 3.25,
      "shares": 4.96,
      "avg": 0.655,
-     "mark": 0.645,
+     "mark": 0.62,
      "opened": "2026-11-22T14:24:14+00:00"
     },
     {
@@ -956,7 +1085,7 @@
      "cost": 6.92,
      "shares": 16.28,
      "avg": 0.425,
-     "mark": 0.415,
+     "mark": 0.585,
      "opened": "2026-11-22T14:31:26+00:00"
     },
     {
@@ -966,7 +1095,7 @@
      "cost": 2.76,
      "shares": 8.0,
      "avg": 0.345,
-     "mark": 0.335,
+     "mark": 0.29,
      "opened": "2026-11-22T15:39:31+00:00"
     },
     {
@@ -976,7 +1105,7 @@
      "cost": 3.44,
      "shares": 5.5,
      "avg": 0.625,
-     "mark": 0.615,
+     "mark": 0.45,
      "opened": "2026-11-22T16:35:41+00:00"
     },
     {
@@ -986,7 +1115,7 @@
      "cost": 2.85,
      "shares": 7.81,
      "avg": 0.365,
-     "mark": 0.355,
+     "mark": 0.225,
      "opened": "2026-11-22T16:48:17+00:00"
     },
     {
@@ -996,7 +1125,7 @@
      "cost": 4.09,
      "shares": 8.61,
      "avg": 0.475,
-     "mark": 0.465,
+     "mark": 0.66,
      "opened": "2026-11-22T17:17:04+00:00"
     }
    ],
@@ -1124,6 +1253,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "skip",
+     "title": "Spread: Jaguars (-1.5)",
+     "outcome": "Jaguars",
+     "event_slug": "nfl-jax-nyg-2026-11-22",
+     "leader_usd": 36.18,
+     "reason": "below $1 minimum",
+     "price": 0.675,
+     "leader_price": 0.67
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "skip",
+     "title": "Ravens vs. Panthers: O/U 42.5",
+     "outcome": "Over",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 589.16,
+     "reason": "price ran away (0.57 -> 0.77)",
+     "price": 0.77,
+     "leader_price": 0.57
+    },
     {
      "ts": "2026-11-22T17:20:40+00:00",
      "kind": "buy",
@@ -1536,21 +1687,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 33.16,
-   "cash": 16.74,
-   "pnl": -66.84,
-   "pnl_after_kalshi_fees": -71.61,
-   "return_pct": -66.8,
+   "equity": 32.76,
+   "cash": 12.72,
+   "pnl": -67.24,
+   "pnl_after_kalshi_fees": -72.1,
+   "return_pct": -67.2,
    "realized": -66.58,
-   "kalshi_fees": 4.77,
+   "kalshi_fees": 4.86,
    "settled": 28,
    "won": 9,
    "lost": 19,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 16.68,
-   "copied": 38,
-   "skipped": 27,
+   "open": 4,
+   "at_risk": 20.7,
+   "copied": 40,
+   "skipped": 29,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -1796,6 +1947,10 @@
     {
      "t": "2026-11-22T17:20:40+00:00",
      "equity": 33.16
+    },
+    {
+     "t": "2026-11-22T18:21:08+00:00",
+     "equity": 32.76
     }
    ],
    "positions": [
@@ -1816,18 +1971,28 @@
      "cost": 2.01,
      "shares": 3.5,
      "avg": 0.575,
-     "mark": 0.585,
+     "mark": 0.485,
      "opened": "2026-11-22T14:23:59+00:00"
     },
     {
      "title": "Raiders vs. Broncos",
      "outcome": "Broncos",
      "event_slug": "nfl-lv-den-2026-11-22",
-     "cost": 10.05,
-     "shares": 12.04,
+     "cost": 12.06,
+     "shares": 14.44,
      "avg": 0.835,
      "mark": 0.825,
      "opened": "2026-11-22T15:58:49+00:00"
+    },
+    {
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "Clube do Remo",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 2.01,
+     "shares": 3.27,
+     "avg": 0.615,
+     "mark": 0.605,
+     "opened": "2026-11-22T18:11:49+00:00"
     }
    ],
    "closed": [
@@ -2141,6 +2306,52 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "skip",
+     "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
+     "outcome": "Under",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "leader_usd": 199.95,
+     "reason": "below $1 minimum",
+     "price": 0.475,
+     "leader_price": 0.43
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "Clube do Remo",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "leader_usd": 3318.4,
+     "stake": 2.01,
+     "price": 0.615,
+     "leader_price": 0.61,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "skip",
+     "title": "Spread: Panthers (-3.5)",
+     "outcome": "Ravens",
+     "event_slug": "nfl-bal-car-2026-11-22",
+     "leader_usd": 284.13,
+     "reason": "price ran away (0.59 -> 0.75)",
+     "price": 0.75,
+     "leader_price": 0.59
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 4213.08,
+     "stake": 2.01,
+     "price": 0.835,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T17:20:40+00:00",
      "kind": "buy",
@@ -2786,54 +2997,6 @@
      "price": 0.735,
      "leader_price": 0.73,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T03:21:00+00:00",
-     "kind": "buy",
-     "title": "Houston vs. West Virginia: O/U 71.5",
-     "outcome": "Under",
-     "event_slug": "cfb-hou-wvir-2026-11-21",
-     "leader_usd": 424.18,
-     "stake": 4.52,
-     "price": 0.53,
-     "leader_price": 0.51,
-     "mult": 1.6
-    },
-    {
-     "ts": "2026-11-21T01:20:34+00:00",
-     "kind": "buy",
-     "title": "Spread: Iowa (-7.5)",
-     "outcome": "Illinois",
-     "event_slug": "cfb-iowa-ill-2026-11-21",
-     "leader_usd": 558.36,
-     "stake": 6.0,
-     "price": 0.485,
-     "leader_price": 0.47,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T01:20:34+00:00",
-     "kind": "buy",
-     "title": "Spread: Toledo (-17.5)",
-     "outcome": "Bowling Green",
-     "event_slug": "cfb-bowlgr-toledo-2026-11-20",
-     "leader_usd": 1319.45,
-     "stake": 6.0,
-     "price": 0.54,
-     "leader_price": 0.55,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T00:20:50+00:00",
-     "kind": "buy",
-     "title": "Magic vs. Nets: O/U 223.5",
-     "outcome": "Under",
-     "event_slug": "nba-orl-bkn-2026-11-20",
-     "leader_usd": 8730.0,
-     "stake": 6.0,
-     "price": 0.515,
-     "leader_price": 0.5,
-     "mult": 2.0
     }
    ]
   },
@@ -2842,22 +3005,22 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 86.59,
-   "cash": 86.58,
-   "pnl": -13.41,
-   "pnl_after_kalshi_fees": -13.89,
-   "return_pct": -13.4,
+   "equity": 86.26,
+   "cash": 70.14,
+   "pnl": -13.74,
+   "pnl_after_kalshi_fees": -14.77,
+   "return_pct": -13.7,
    "realized": -8.63,
-   "kalshi_fees": 0.48,
+   "kalshi_fees": 1.03,
    "settled": 2,
    "won": 0,
    "lost": 2,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.79,
-   "copied": 3,
+   "open": 4,
+   "at_risk": 21.23,
+   "copied": 6,
    "skipped": 0,
-   "max_drawdown_pct": 13.6,
+   "max_drawdown_pct": 13.9,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -3102,6 +3265,10 @@
     {
      "t": "2026-11-22T17:20:40+00:00",
      "equity": 86.59
+    },
+    {
+     "t": "2026-11-22T18:21:08+00:00",
+     "equity": 86.26
     }
    ],
    "positions": [
@@ -3114,6 +3281,36 @@
      "avg": 0.42,
      "mark": 0.0005,
      "opened": "2026-11-22T14:13:50+00:00"
+    },
+    {
+     "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 5.48,
+     "shares": 10.24,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-22T18:06:29+00:00"
+    },
+    {
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "CA Paranaense",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "cost": 5.48,
+     "shares": 13.53,
+     "avg": 0.405,
+     "mark": 0.395,
+     "opened": "2026-11-22T18:11:47+00:00"
+    },
+    {
+     "title": "Will CA Paranaense win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "bra-cap-cre-2026-11-22",
+     "cost": 5.48,
+     "shares": 8.37,
+     "avg": 0.655,
+     "mark": 0.645,
+     "opened": "2026-11-22T18:12:08+00:00"
     }
    ],
    "closed": [
@@ -3141,6 +3338,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Will CA Paranaense win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "bra-cap-cre-2026-11-22",
+     "leader_usd": 36522.05,
+     "stake": 5.48,
+     "price": 0.655,
+     "leader_price": 0.644,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "Spread: CA Paranaense (-1.5)",
+     "outcome": "CA Paranaense",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "leader_usd": 12044.01,
+     "stake": 5.48,
+     "price": 0.405,
+     "leader_price": 0.383,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T18:21:08+00:00",
+     "kind": "buy",
+     "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
+     "leader_usd": 27151.24,
+     "stake": 5.48,
+     "price": 0.535,
+     "leader_price": 0.553,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T14:20:22+00:00",
      "kind": "buy",
@@ -3443,6 +3676,10 @@
     },
     {
      "t": "2026-11-22T17:20:40+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T18:21:08+00:00",
      "equity": 102.05
     }
    ],
