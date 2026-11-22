@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:21:20+00:00",
+ "updated": "2026-11-22T00:21:26+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -188,6 +188,10 @@
     },
     {
      "t": "2026-11-21T23:21:17+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T00:21:22+00:00",
      "equity": 100.41
     }
    ],
@@ -543,20 +547,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 110.52,
-   "cash": 96.35,
-   "pnl": 10.52,
-   "pnl_after_kalshi_fees": 9.4,
-   "return_pct": 10.5,
-   "realized": 14.02,
-   "kalshi_fees": 1.12,
-   "settled": 3,
+   "equity": 112.85,
+   "cash": 89.51,
+   "pnl": 12.85,
+   "pnl_after_kalshi_fees": 11.44,
+   "return_pct": 12.8,
+   "realized": 8.76,
+   "kalshi_fees": 1.41,
+   "settled": 5,
    "won": 3,
-   "lost": 0,
+   "lost": 2,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 17.67,
-   "copied": 9,
+   "open": 5,
+   "at_risk": 19.25,
+   "copied": 10,
    "skipped": 9,
    "max_drawdown_pct": 3.6,
    "focus": "College football, NFL",
@@ -723,6 +727,10 @@
     {
      "t": "2026-11-21T23:21:17+00:00",
      "equity": 110.52
+    },
+    {
+     "t": "2026-11-22T00:21:22+00:00",
+     "equity": 112.85
     }
    ],
    "positions": [
@@ -743,18 +751,8 @@
      "cost": 6.0,
      "shares": 10.08,
      "avg": 0.595,
-     "mark": 0.91,
+     "mark": 0.9895,
      "opened": "2026-11-21T15:19:10+00:00"
-    },
-    {
-     "title": "Florida International vs. Kennesaw State",
-     "outcome": "Florida International",
-     "event_slug": "cfb-flint-kenest-2026-11-21",
-     "cost": 3.45,
-     "shares": 7.26,
-     "avg": 0.475,
-     "mark": 0.003,
-     "opened": "2026-11-21T17:56:14+00:00"
     },
     {
      "title": "Spread: Nevada (-7.5)",
@@ -773,21 +771,43 @@
      "cost": 2.02,
      "shares": 8.24,
      "avg": 0.245,
-     "mark": 0.075,
+     "mark": 0.2895,
      "opened": "2026-11-21T20:21:52+00:00"
     },
     {
+     "title": "Spread: UNLV (-6.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-unlv-sjst-2026-11-21",
+     "cost": 6.84,
+     "shares": 16.89,
+     "avg": 0.405,
+     "mark": 0.395,
+     "opened": "2026-11-22T00:02:28+00:00"
+    }
+   ],
+   "closed": [
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
      "title": "Spread: Texas (-17.5)",
      "outcome": "Arkansas",
      "event_slug": "cfb-ark-tx-2026-11-21",
      "cost": 1.81,
-     "shares": 5.75,
-     "avg": 0.315,
-     "mark": 0.0075,
-     "opened": "2026-11-21T20:31:28+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -1.81,
+     "kfee": 0.09,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "title": "Florida International vs. Kennesaw State",
+     "outcome": "Florida International",
+     "event_slug": "cfb-flint-kenest-2026-11-21",
+     "cost": 3.45,
+     "pnl": -3.45,
+     "kfee": 0.13,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T21:20:47+00:00",
      "title": "East Carolina vs. Army",
@@ -823,6 +843,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "kind": "buy",
+     "title": "Spread: UNLV (-6.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-unlv-sjst-2026-11-21",
+     "leader_usd": 2954.56,
+     "stake": 6.84,
+     "price": 0.405,
+     "leader_price": 0.51,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-21T21:20:47+00:00",
      "kind": "buy",
@@ -1037,22 +1069,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 56.28,
-   "cash": 16.53,
-   "pnl": -43.72,
-   "pnl_after_kalshi_fees": -47.74,
-   "return_pct": -43.7,
-   "realized": -36.23,
-   "kalshi_fees": 4.02,
-   "settled": 14,
+   "equity": 48.28,
+   "cash": 11.13,
+   "pnl": -51.72,
+   "pnl_after_kalshi_fees": -55.92,
+   "return_pct": -51.7,
+   "realized": -44.21,
+   "kalshi_fees": 4.2,
+   "settled": 15,
    "won": 5,
-   "lost": 9,
+   "lost": 10,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 47.24,
-   "copied": 26,
-   "skipped": 21,
-   "max_drawdown_pct": 43.7,
+   "open": 11,
+   "at_risk": 44.66,
+   "copied": 28,
+   "skipped": 23,
+   "max_drawdown_pct": 51.7,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1217,6 +1249,10 @@
     {
      "t": "2026-11-21T23:21:17+00:00",
      "equity": 56.28
+    },
+    {
+     "t": "2026-11-22T00:21:22+00:00",
+     "equity": 48.28
     }
    ],
    "positions": [
@@ -1247,7 +1283,7 @@
      "cost": 4.62,
      "shares": 8.32,
      "avg": 0.555,
-     "mark": 0.565,
+     "mark": 0.535,
      "opened": "2026-11-21T04:51:40+00:00"
     },
     {
@@ -1277,18 +1313,8 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.52,
+     "mark": 0.535,
      "opened": "2026-11-21T16:16:43+00:00"
-    },
-    {
-     "title": "Spread: Texas Tech (-4.5)",
-     "outcome": "Baylor",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "cost": 7.98,
-     "shares": 16.8,
-     "avg": 0.475,
-     "mark": 0.23,
-     "opened": "2026-11-21T16:55:46+00:00"
     },
     {
      "title": "Spread: Georgia Southern (-9.5)",
@@ -1297,7 +1323,7 @@
      "cost": 4.43,
      "shares": 12.84,
      "avg": 0.345,
-     "mark": 0.175,
+     "mark": 0.0005,
      "opened": "2026-11-21T20:40:02+00:00"
     },
     {
@@ -1307,7 +1333,7 @@
      "cost": 1.77,
      "shares": 6.44,
      "avg": 0.275,
-     "mark": 0.11,
+     "mark": 0.0005,
      "opened": "2026-11-21T20:51:10+00:00"
     },
     {
@@ -1317,11 +1343,42 @@
      "cost": 2.94,
      "shares": 8.78,
      "avg": 0.335,
-     "mark": 0.325,
+     "mark": 0.215,
      "opened": "2026-11-21T22:38:05+00:00"
+    },
+    {
+     "title": "Spread: UTSA (-2.5)",
+     "outcome": "UTSA",
+     "event_slug": "cfb-utsa-uab-2026-11-21",
+     "cost": 1.57,
+     "shares": 2.55,
+     "avg": 0.615,
+     "mark": 0.605,
+     "opened": "2026-11-22T00:07:47+00:00"
+    },
+    {
+     "title": "Spread: Louisville (-10.5)",
+     "outcome": "Pittsburgh",
+     "event_slug": "cfb-pitt-lou-2026-11-21",
+     "cost": 3.83,
+     "shares": 7.3,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-22T00:15:04+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "title": "Spread: Texas Tech (-4.5)",
+     "outcome": "Baylor",
+     "event_slug": "cfb-txtech-bayl-2026-11-21",
+     "cost": 7.98,
+     "pnl": -7.98,
+     "kfee": 0.3,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T23:21:17+00:00",
      "title": "Spread: Iowa (-7.5)",
@@ -1478,6 +1535,52 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "kind": "buy",
+     "title": "Spread: Louisville (-10.5)",
+     "outcome": "Pittsburgh",
+     "event_slug": "cfb-pitt-lou-2026-11-21",
+     "leader_usd": 880.18,
+     "stake": 3.83,
+     "price": 0.525,
+     "leader_price": 0.508,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "kind": "buy",
+     "title": "Spread: UTSA (-2.5)",
+     "outcome": "UTSA",
+     "event_slug": "cfb-utsa-uab-2026-11-21",
+     "leader_usd": 216.0,
+     "stake": 1.57,
+     "price": 0.615,
+     "leader_price": 0.6,
+     "mult": 0.82
+    },
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "kind": "skip",
+     "title": "Arizona vs. Kansas State: O/U 53.5",
+     "outcome": "Under",
+     "event_slug": "cfb-arz-kanst-2026-11-21",
+     "leader_usd": 1109.15,
+     "reason": "price ran away (0.50 -> 0.60)",
+     "price": 0.605,
+     "leader_price": 0.5
+    },
+    {
+     "ts": "2026-11-22T00:21:22+00:00",
+     "kind": "skip",
+     "title": "Spread: UNLV (-5.5)",
+     "outcome": "UNLV",
+     "event_slug": "cfb-unlv-sjst-2026-11-21",
+     "leader_usd": 1063.11,
+     "reason": "price ran away (0.53 -> 0.64)",
+     "price": 0.635,
+     "leader_price": 0.53
+    },
     {
      "ts": "2026-11-21T23:21:17+00:00",
      "kind": "skip",
@@ -2033,14 +2136,14 @@
    "pnl": -8.63,
    "pnl_after_kalshi_fees": -8.91,
    "return_pct": -8.6,
-   "realized": -6.0,
+   "realized": -8.63,
    "kalshi_fees": 0.28,
-   "settled": 1,
+   "settled": 2,
    "won": 0,
-   "lost": 1,
+   "lost": 2,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 2.63,
+   "open": 0,
+   "at_risk": 0,
    "copied": 2,
    "skipped": 0,
    "max_drawdown_pct": 8.8,
@@ -2208,21 +2311,25 @@
     {
      "t": "2026-11-21T23:21:17+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T00:21:22+00:00",
+     "equity": 91.37
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-22T00:21:22+00:00",
      "title": "Will SE Palmeiras win on 2026-11-21?",
      "outcome": "Yes",
      "event_slug": "bra-pal-fla-2026-11-21",
      "cost": 2.63,
-     "shares": 7.41,
-     "avg": 0.355,
-     "mark": 0.0005,
-     "opened": "2026-11-21T18:32:41+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -2.63,
+     "kfee": 0.12,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-21T21:20:47+00:00",
      "title": "New England Revolution vs. Philadelphia Union: O/U 2.5",
@@ -2446,6 +2553,10 @@
     },
     {
      "t": "2026-11-21T23:21:17+00:00",
+     "equity": 99.99
+    },
+    {
+     "t": "2026-11-22T00:21:22+00:00",
      "equity": 99.99
     }
    ],
