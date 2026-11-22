@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:21:02+00:00",
+ "updated": "2026-11-22T02:38:05+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -200,6 +200,10 @@
     },
     {
      "t": "2026-11-22T02:21:00+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T02:38:04+00:00",
      "equity": 100.41
     }
    ],
@@ -555,11 +559,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 110.92,
+   "equity": 106.89,
    "cash": 98.38,
-   "pnl": 10.92,
-   "pnl_after_kalshi_fees": 9.46,
-   "return_pct": 10.9,
+   "pnl": 6.89,
+   "pnl_after_kalshi_fees": 5.43,
+   "return_pct": 6.9,
    "realized": 10.82,
    "kalshi_fees": 1.46,
    "settled": 7,
@@ -570,7 +574,7 @@
    "at_risk": 12.44,
    "copied": 11,
    "skipped": 12,
-   "max_drawdown_pct": 3.6,
+   "max_drawdown_pct": 5.7,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -747,6 +751,10 @@
     {
      "t": "2026-11-22T02:21:00+00:00",
      "equity": 110.92
+    },
+    {
+     "t": "2026-11-22T02:38:04+00:00",
+     "equity": 106.89
     }
    ],
    "positions": [
@@ -757,7 +765,7 @@
      "cost": 1.05,
      "shares": 2.12,
      "avg": 0.495,
-     "mark": 0.465,
+     "mark": 0.445,
      "opened": "2026-11-21T12:04:58+00:00"
     },
     {
@@ -777,7 +785,7 @@
      "cost": 6.84,
      "shares": 16.89,
      "avg": 0.405,
-     "mark": 0.435,
+     "mark": 0.225,
      "opened": "2026-11-22T00:02:28+00:00"
     },
     {
@@ -787,7 +795,7 @@
      "cost": 1.21,
      "shares": 2.78,
      "avg": 0.435,
-     "mark": 0.355,
+     "mark": 0.195,
      "opened": "2026-11-22T00:30:16+00:00"
     }
    ],
@@ -1142,11 +1150,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 40.16,
+   "equity": 39.54,
    "cash": 5.53,
-   "pnl": -59.84,
-   "pnl_after_kalshi_fees": -64.25,
-   "return_pct": -59.8,
+   "pnl": -60.46,
+   "pnl_after_kalshi_fees": -64.87,
+   "return_pct": -60.5,
    "realized": -50.41,
    "kalshi_fees": 4.41,
    "settled": 17,
@@ -1157,7 +1165,7 @@
    "at_risk": 44.06,
    "copied": 30,
    "skipped": 26,
-   "max_drawdown_pct": 59.8,
+   "max_drawdown_pct": 60.5,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1334,6 +1342,10 @@
     {
      "t": "2026-11-22T02:21:00+00:00",
      "equity": 40.16
+    },
+    {
+     "t": "2026-11-22T02:38:04+00:00",
+     "equity": 39.54
     }
    ],
    "positions": [
@@ -1344,7 +1356,7 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.145,
+     "mark": 0.075,
      "opened": "2026-11-20T20:31:04+00:00"
     },
     {
@@ -1354,7 +1366,7 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.755,
+     "mark": 0.765,
      "opened": "2026-11-21T03:14:01+00:00"
     },
     {
@@ -1374,7 +1386,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.535,
+     "mark": 0.58,
      "opened": "2026-11-21T13:36:49+00:00"
     },
     {
@@ -1404,7 +1416,7 @@
      "cost": 2.94,
      "shares": 8.78,
      "avg": 0.335,
-     "mark": 0.2,
+     "mark": 0.045,
      "opened": "2026-11-21T22:38:05+00:00"
     },
     {
@@ -1414,7 +1426,7 @@
      "cost": 1.57,
      "shares": 2.55,
      "avg": 0.615,
-     "mark": 0.75,
+     "mark": 0.555,
      "opened": "2026-11-22T00:07:47+00:00"
     },
     {
@@ -1424,7 +1436,7 @@
      "cost": 3.83,
      "shares": 7.3,
      "avg": 0.525,
-     "mark": 0.38,
+     "mark": 0.595,
      "opened": "2026-11-22T00:15:04+00:00"
     },
     {
@@ -1434,7 +1446,7 @@
      "cost": 3.35,
      "shares": 7.61,
      "avg": 0.44,
-     "mark": 0.485,
+     "mark": 0.535,
      "opened": "2026-11-22T00:21:53+00:00"
     },
     {
@@ -2483,6 +2495,10 @@
     {
      "t": "2026-11-22T02:21:00+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T02:38:04+00:00",
+     "equity": 91.37
     }
    ],
    "positions": [],
@@ -2542,21 +2558,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.99,
-   "cash": 99.99,
-   "pnl": -0.01,
-   "pnl_after_kalshi_fees": -0.64,
+   "equity": 99.97,
+   "cash": 97.66,
+   "pnl": -0.03,
+   "pnl_after_kalshi_fees": -0.67,
    "return_pct": -0.0,
    "realized": -0.01,
-   "kalshi_fees": 0.63,
+   "kalshi_fees": 0.64,
    "settled": 3,
    "won": 2,
    "lost": 1,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 3,
-   "skipped": 10,
+   "open": 1,
+   "at_risk": 2.33,
+   "copied": 4,
+   "skipped": 11,
    "max_drawdown_pct": 3.5,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -2734,9 +2750,24 @@
     {
      "t": "2026-11-22T02:21:00+00:00",
      "equity": 99.99
+    },
+    {
+     "t": "2026-11-22T02:38:04+00:00",
+     "equity": 99.97
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Stephon Castle: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-nop-sas-2026-11-21",
+     "cost": 2.33,
+     "shares": 2.37,
+     "avg": 0.985,
+     "mark": 0.975,
+     "opened": "2026-11-22T02:32:47+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-21T06:20:50+00:00",
@@ -2773,6 +2804,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T02:38:04+00:00",
+     "kind": "buy",
+     "title": "Stephon Castle: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-nop-sas-2026-11-21",
+     "leader_usd": 19.0,
+     "stake": 2.33,
+     "price": 0.985,
+     "leader_price": 0.95,
+     "mult": 0.78
+    },
+    {
+     "ts": "2026-11-22T02:38:04+00:00",
+     "kind": "skip",
+     "title": "Stephon Castle: 3-Pointers Made O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-nop-sas-2026-11-21",
+     "leader_usd": 3.9,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.78
+    },
     {
      "ts": "2026-11-21T21:20:47+00:00",
      "kind": "skip",
