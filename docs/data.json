@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:20:50+00:00",
+ "updated": "2026-11-22T06:21:07+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -216,6 +216,10 @@
     },
     {
      "t": "2026-11-22T05:20:47+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T06:21:04+00:00",
      "equity": 100.41
     }
    ],
@@ -571,19 +575,19 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 120.07,
+   "equity": 116.02,
    "cash": 115.27,
-   "pnl": 20.07,
-   "pnl_after_kalshi_fees": 18.61,
-   "return_pct": 20.1,
-   "realized": 19.66,
+   "pnl": 16.02,
+   "pnl_after_kalshi_fees": 14.56,
+   "return_pct": 16.0,
+   "realized": 18.61,
    "kalshi_fees": 1.46,
-   "settled": 9,
+   "settled": 10,
    "won": 5,
-   "lost": 4,
+   "lost": 5,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 4.39,
+   "open": 1,
+   "at_risk": 3.34,
    "copied": 11,
    "skipped": 12,
    "max_drawdown_pct": 5.7,
@@ -779,19 +783,13 @@
     {
      "t": "2026-11-22T05:20:47+00:00",
      "equity": 120.07
+    },
+    {
+     "t": "2026-11-22T06:21:04+00:00",
+     "equity": 116.02
     }
    ],
    "positions": [
-    {
-     "title": "Spread: Utah (-7.5)",
-     "outcome": "TCU",
-     "event_slug": "cfb-utah-tcu-2026-11-21",
-     "cost": 1.05,
-     "shares": 2.12,
-     "avg": 0.495,
-     "mark": 0.915,
-     "opened": "2026-11-21T12:04:58+00:00"
-    },
     {
      "title": "Spread: Nevada (-7.5)",
      "outcome": "Hawaii",
@@ -799,11 +797,22 @@
      "cost": 3.34,
      "shares": 6.02,
      "avg": 0.555,
-     "mark": 0.475,
+     "mark": 0.125,
      "opened": "2026-11-21T19:24:38+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "title": "Spread: Utah (-7.5)",
+     "outcome": "TCU",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 1.05,
+     "pnl": -1.05,
+     "kfee": 0.04,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T04:21:19+00:00",
      "title": "Stanford vs. California",
@@ -1176,22 +1185,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 28.32,
-   "cash": 0.0,
-   "pnl": -71.68,
-   "pnl_after_kalshi_fees": -76.24,
-   "return_pct": -71.7,
-   "realized": -72.72,
+   "equity": 26.58,
+   "cash": 7.68,
+   "pnl": -73.42,
+   "pnl_after_kalshi_fees": -77.98,
+   "return_pct": -73.4,
+   "realized": -75.31,
    "kalshi_fees": 4.56,
-   "settled": 23,
-   "won": 5,
-   "lost": 18,
+   "settled": 25,
+   "won": 6,
+   "lost": 19,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 27.28,
+   "open": 4,
+   "at_risk": 17.02,
    "copied": 32,
    "skipped": 27,
-   "max_drawdown_pct": 71.7,
+   "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1384,29 +1393,13 @@
     {
      "t": "2026-11-22T05:20:47+00:00",
      "equity": 28.32
+    },
+    {
+     "t": "2026-11-22T06:21:04+00:00",
+     "equity": 26.58
     }
    ],
    "positions": [
-    {
-     "title": "Utah vs. TCU",
-     "outcome": "Utah",
-     "event_slug": "cfb-utah-tcu-2026-11-21",
-     "cost": 5.64,
-     "shares": 7.67,
-     "avg": 0.735,
-     "mark": 0.654,
-     "opened": "2026-11-21T03:14:01+00:00"
-    },
-    {
-     "title": "Utah vs. TCU: O/U 47.5",
-     "outcome": "Under",
-     "event_slug": "cfb-utah-tcu-2026-11-21",
-     "cost": 4.62,
-     "shares": 8.64,
-     "avg": 0.535,
-     "mark": 0.73,
-     "opened": "2026-11-21T13:36:49+00:00"
-    },
     {
      "title": "Spread: Oregon State (-7.5)",
      "outcome": "Utah State",
@@ -1414,7 +1407,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.875,
+     "mark": 0.915,
      "opened": "2026-11-21T15:08:07+00:00"
     },
     {
@@ -1424,7 +1417,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.545,
+     "mark": 0.535,
      "opened": "2026-11-21T16:16:43+00:00"
     },
     {
@@ -1434,7 +1427,7 @@
      "cost": 2.25,
      "shares": 3.78,
      "avg": 0.595,
-     "mark": 0.94,
+     "mark": 0.8,
      "opened": "2026-11-22T01:45:35+00:00"
     },
     {
@@ -1444,11 +1437,33 @@
      "cost": 5.53,
      "shares": 8.71,
      "avg": 0.635,
-     "mark": 0.125,
+     "mark": 0.375,
      "opened": "2026-11-22T02:44:13+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "title": "Utah vs. TCU: O/U 47.5",
+     "outcome": "Under",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 4.62,
+     "pnl": -4.62,
+     "kfee": 0.16,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "title": "Utah vs. TCU",
+     "outcome": "Utah",
+     "event_slug": "cfb-utah-tcu-2026-11-21",
+     "cost": 5.64,
+     "pnl": 2.03,
+     "kfee": 0.11,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T05:20:47+00:00",
      "title": "Spread: Fresno State (-20.5)",
@@ -2600,6 +2615,10 @@
     {
      "t": "2026-11-22T05:20:47+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T06:21:04+00:00",
+     "equity": 91.37
     }
    ],
    "positions": [],
@@ -2659,21 +2678,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 101.04,
-   "cash": 93.6,
-   "pnl": 1.04,
-   "pnl_after_kalshi_fees": 0.27,
-   "return_pct": 1.0,
-   "realized": 0.69,
+   "equity": 102.05,
+   "cash": 102.05,
+   "pnl": 2.05,
+   "pnl_after_kalshi_fees": 1.28,
+   "return_pct": 2.0,
+   "realized": 2.06,
    "kalshi_fees": 0.77,
-   "settled": 6,
-   "won": 5,
+   "settled": 8,
+   "won": 7,
    "lost": 1,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 7.09,
+   "open": 0,
+   "at_risk": 0,
    "copied": 8,
-   "skipped": 15,
+   "skipped": 17,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -2867,31 +2886,36 @@
     {
      "t": "2026-11-22T05:20:47+00:00",
      "equity": 101.04
-    }
-   ],
-   "positions": [
-    {
-     "title": "Zach LaVine: Rebounds O/U 1.5",
-     "outcome": "Yes",
-     "event_slug": "nba-bos-sac-2026-11-21",
-     "cost": 6.0,
-     "shares": 6.38,
-     "avg": 0.94,
-     "mark": 0.9995,
-     "opened": "2026-11-22T03:16:50+00:00"
     },
     {
+     "t": "2026-11-22T06:21:04+00:00",
+     "equity": 102.05
+    }
+   ],
+   "positions": [],
+   "closed": [
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
      "title": "Darius Acuff Jr.: 3-Pointers Made O/U 1.5",
      "outcome": "Yes",
      "event_slug": "nba-bos-sac-2026-11-21",
      "cost": 1.09,
-     "shares": 2.08,
-     "avg": 0.525,
-     "mark": 0.515,
-     "opened": "2026-11-22T05:20:22+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 0.99,
+     "kfee": 0.04,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "title": "Zach LaVine: Rebounds O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-sac-2026-11-21",
+     "cost": 6.0,
+     "pnl": 0.38,
+     "kfee": 0.03,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T04:21:19+00:00",
      "title": "Zaccharie Risacher: Points O/U 9.5",
@@ -2960,6 +2984,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "kind": "skip",
+     "title": "Darius Acuff Jr.: Points O/U 19.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-sac-2026-11-21",
+     "leader_usd": 9.8,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
+    {
+     "ts": "2026-11-22T06:21:04+00:00",
+     "kind": "skip",
+     "title": "Paul George: Rebounds O/U 7.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-sac-2026-11-21",
+     "leader_usd": 66.93,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.96
+    },
     {
      "ts": "2026-11-22T05:20:47+00:00",
      "kind": "buy",
