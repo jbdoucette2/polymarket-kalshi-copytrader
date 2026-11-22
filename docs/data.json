@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:38:37+00:00",
+ "updated": "2026-11-22T19:21:09+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 98.94,
-   "cash": 69.4,
-   "pnl": -1.06,
-   "pnl_after_kalshi_fees": -3.39,
-   "return_pct": -1.1,
+   "equity": 94.66,
+   "cash": 57.36,
+   "pnl": -5.34,
+   "pnl_after_kalshi_fees": -7.89,
+   "return_pct": -5.3,
    "realized": 0.42,
-   "kalshi_fees": 2.33,
+   "kalshi_fees": 2.55,
    "settled": 9,
    "won": 4,
    "lost": 5,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 31.01,
-   "copied": 17,
+   "open": 8,
+   "at_risk": 43.05,
+   "copied": 19,
    "skipped": 11,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -277,6 +277,10 @@
     {
      "t": "2026-11-22T18:38:35+00:00",
      "equity": 98.94
+    },
+    {
+     "t": "2026-11-22T19:21:06+00:00",
+     "equity": 94.66
     }
    ],
    "positions": [
@@ -287,7 +291,7 @@
      "cost": 3.33,
      "shares": 7.48,
      "avg": 0.445,
-     "mark": 0.725,
+     "mark": 0.375,
      "opened": "2026-11-22T16:08:19+00:00"
     },
     {
@@ -297,7 +301,7 @@
      "cost": 3.6,
      "shares": 7.58,
      "avg": 0.475,
-     "mark": 0.365,
+     "mark": 0.395,
      "opened": "2026-11-22T17:53:31+00:00"
     },
     {
@@ -307,7 +311,7 @@
      "cost": 6.02,
      "shares": 11.47,
      "avg": 0.525,
-     "mark": 0.42,
+     "mark": 0.425,
      "opened": "2026-11-22T17:53:40+00:00"
     },
     {
@@ -317,7 +321,7 @@
      "cost": 6.02,
      "shares": 9.95,
      "avg": 0.605,
-     "mark": 0.5,
+     "mark": 0.525,
      "opened": "2026-11-22T17:53:50+00:00"
     },
     {
@@ -327,7 +331,7 @@
      "cost": 6.02,
      "shares": 10.29,
      "avg": 0.585,
-     "mark": 0.57,
+     "mark": 0.345,
      "opened": "2026-11-22T17:56:44+00:00"
     },
     {
@@ -337,8 +341,28 @@
      "cost": 6.02,
      "shares": 6.73,
      "avg": 0.895,
-     "mark": 0.845,
+     "mark": 0.8875,
      "opened": "2026-11-22T17:57:55+00:00"
+    },
+    {
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "cost": 6.02,
+     "shares": 7.12,
+     "avg": 0.845,
+     "mark": 0.835,
+     "opened": "2026-11-22T19:08:16+00:00"
+    },
+    {
+     "title": "Vikings vs. 49ers",
+     "outcome": "49ers",
+     "event_slug": "nfl-min-sf-2026-11-23",
+     "cost": 6.02,
+     "shares": 9.33,
+     "avg": 0.645,
+     "mark": 0.635,
+     "opened": "2026-11-22T19:16:56+00:00"
     }
    ],
    "closed": [
@@ -443,6 +467,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T19:21:06+00:00",
+     "kind": "buy",
+     "title": "Vikings vs. 49ers",
+     "outcome": "49ers",
+     "event_slug": "nfl-min-sf-2026-11-23",
+     "leader_usd": 40283.13,
+     "stake": 6.02,
+     "price": 0.645,
+     "leader_price": 0.63,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T19:21:06+00:00",
+     "kind": "buy",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "leader_usd": 282368.07,
+     "stake": 6.02,
+     "price": 0.845,
+     "leader_price": 0.83,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T18:21:08+00:00",
      "kind": "buy",
@@ -775,11 +823,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 117.69,
+   "equity": 107.42,
    "cash": 80.98,
-   "pnl": 17.69,
-   "pnl_after_kalshi_fees": 15.04,
-   "return_pct": 17.7,
+   "pnl": 7.42,
+   "pnl_after_kalshi_fees": 4.77,
+   "return_pct": 7.4,
    "realized": 15.27,
    "kalshi_fees": 2.65,
    "settled": 11,
@@ -789,8 +837,8 @@
    "open": 9,
    "at_risk": 34.29,
    "copied": 20,
-   "skipped": 17,
-   "max_drawdown_pct": 5.7,
+   "skipped": 18,
+   "max_drawdown_pct": 10.5,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1043,6 +1091,10 @@
     {
      "t": "2026-11-22T18:38:35+00:00",
      "equity": 117.69
+    },
+    {
+     "t": "2026-11-22T19:21:06+00:00",
+     "equity": 107.42
     }
    ],
    "positions": [
@@ -1053,7 +1105,7 @@
      "cost": 2.63,
      "shares": 4.74,
      "avg": 0.555,
-     "mark": 0.37,
+     "mark": 0.155,
      "opened": "2026-11-22T12:08:56+00:00"
     },
     {
@@ -1073,7 +1125,7 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.48,
+     "mark": 0.485,
      "opened": "2026-11-22T14:17:34+00:00"
     },
     {
@@ -1083,7 +1135,7 @@
      "cost": 3.25,
      "shares": 4.96,
      "avg": 0.655,
-     "mark": 0.76,
+     "mark": 0.885,
      "opened": "2026-11-22T14:24:14+00:00"
     },
     {
@@ -1093,7 +1145,7 @@
      "cost": 6.92,
      "shares": 16.28,
      "avg": 0.425,
-     "mark": 0.715,
+     "mark": 0.335,
      "opened": "2026-11-22T14:31:26+00:00"
     },
     {
@@ -1103,7 +1155,7 @@
      "cost": 2.76,
      "shares": 8.0,
      "avg": 0.345,
-     "mark": 0.365,
+     "mark": 0.325,
      "opened": "2026-11-22T15:39:31+00:00"
     },
     {
@@ -1113,7 +1165,7 @@
      "cost": 3.44,
      "shares": 5.5,
      "avg": 0.625,
-     "mark": 0.195,
+     "mark": 0.215,
      "opened": "2026-11-22T16:35:41+00:00"
     },
     {
@@ -1123,7 +1175,7 @@
      "cost": 2.85,
      "shares": 7.81,
      "avg": 0.365,
-     "mark": 0.065,
+     "mark": 0.0375,
      "opened": "2026-11-22T16:48:17+00:00"
     },
     {
@@ -1133,7 +1185,7 @@
      "cost": 4.09,
      "shares": 8.61,
      "avg": 0.475,
-     "mark": 0.775,
+     "mark": 0.395,
      "opened": "2026-11-22T17:17:04+00:00"
     }
    ],
@@ -1261,6 +1313,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T19:21:06+00:00",
+     "kind": "skip",
+     "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+     "outcome": "No",
+     "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+     "leader_usd": 4291.01,
+     "reason": "too late: outcome already decided",
+     "price": 0.981,
+     "leader_price": 0.977
+    },
     {
      "ts": "2026-11-22T18:21:08+00:00",
      "kind": "skip",
@@ -1695,11 +1758,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 32.1,
+   "equity": 32.0,
    "cash": 12.72,
-   "pnl": -67.9,
-   "pnl_after_kalshi_fees": -72.76,
-   "return_pct": -67.9,
+   "pnl": -68.0,
+   "pnl_after_kalshi_fees": -72.86,
+   "return_pct": -68.0,
    "realized": -66.58,
    "kalshi_fees": 4.86,
    "settled": 28,
@@ -1963,6 +2026,10 @@
     {
      "t": "2026-11-22T18:38:35+00:00",
      "equity": 32.1
+    },
+    {
+     "t": "2026-11-22T19:21:06+00:00",
+     "equity": 32.0
     }
    ],
    "positions": [
@@ -1973,7 +2040,7 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.505,
+     "mark": 0.535,
      "opened": "2026-11-21T16:16:43+00:00"
     },
     {
@@ -1983,7 +2050,7 @@
      "cost": 2.01,
      "shares": 3.5,
      "avg": 0.575,
-     "mark": 0.28,
+     "mark": 0.325,
      "opened": "2026-11-22T14:23:59+00:00"
     },
     {
@@ -1993,7 +2060,7 @@
      "cost": 12.06,
      "shares": 14.44,
      "avg": 0.835,
-     "mark": 0.825,
+     "mark": 0.835,
      "opened": "2026-11-22T15:58:49+00:00"
     },
     {
@@ -2003,7 +2070,7 @@
      "cost": 2.01,
      "shares": 3.27,
      "avg": 0.615,
-     "mark": 0.625,
+     "mark": 0.42,
      "opened": "2026-11-22T18:11:49+00:00"
     }
    ],
@@ -3017,19 +3084,19 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 85.99,
+   "equity": 91.97,
    "cash": 70.14,
-   "pnl": -14.01,
-   "pnl_after_kalshi_fees": -15.04,
-   "return_pct": -14.0,
-   "realized": -8.63,
+   "pnl": -8.03,
+   "pnl_after_kalshi_fees": -9.06,
+   "return_pct": -8.0,
+   "realized": -13.42,
    "kalshi_fees": 1.03,
-   "settled": 2,
+   "settled": 3,
    "won": 0,
-   "lost": 2,
+   "lost": 3,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 21.23,
+   "open": 3,
+   "at_risk": 16.44,
    "copied": 6,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
@@ -3285,19 +3352,13 @@
     {
      "t": "2026-11-22T18:38:35+00:00",
      "equity": 85.99
+    },
+    {
+     "t": "2026-11-22T19:21:06+00:00",
+     "equity": 91.97
     }
    ],
    "positions": [
-    {
-     "title": "Will CD Huachipato win on 2026-11-22?",
-     "outcome": "Yes",
-     "event_slug": "chi1-cdh-cd1-2026-11-22",
-     "cost": 4.79,
-     "shares": 11.4,
-     "avg": 0.42,
-     "mark": 0.0005,
-     "opened": "2026-11-22T14:13:50+00:00"
-    },
     {
      "title": "CA Paranaense vs. Clube do Remo: O/U 2.5",
      "outcome": "Over",
@@ -3305,7 +3366,7 @@
      "cost": 5.48,
      "shares": 10.24,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.675,
      "opened": "2026-11-22T18:06:29+00:00"
     },
     {
@@ -3315,7 +3376,7 @@
      "cost": 5.48,
      "shares": 13.53,
      "avg": 0.405,
-     "mark": 0.375,
+     "mark": 0.58,
      "opened": "2026-11-22T18:11:47+00:00"
     },
     {
@@ -3325,11 +3386,22 @@
      "cost": 5.48,
      "shares": 8.37,
      "avg": 0.655,
-     "mark": 0.645,
+     "mark": 0.845,
      "opened": "2026-11-22T18:12:08+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T19:21:06+00:00",
+     "title": "Will CD Huachipato win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "chi1-cdh-cd1-2026-11-22",
+     "cost": 4.79,
+     "pnl": -4.79,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T00:21:22+00:00",
      "title": "Will SE Palmeiras win on 2026-11-21?",
@@ -3700,6 +3772,10 @@
     },
     {
      "t": "2026-11-22T18:38:35+00:00",
+     "equity": 102.05
+    },
+    {
+     "t": "2026-11-22T19:21:06+00:00",
      "equity": 102.05
     }
    ],
