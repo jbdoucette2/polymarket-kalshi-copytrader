@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 92.6805,
+ "cash": 102.49,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -23,24 +23,6 @@
    "leader_shares": 81748.89,
    "edge": 0.1406,
    "mark": 0.515
-  },
-  "78930952793952568483208079740033362601534821344668537553544399487441668801183": {
-   "cond": "0x493980f46b7cfa309b44ab5f241d119aa033223a4975486be4739ed841503751",
-   "idx": 0,
-   "outcome": "Bills",
-   "title": "Spread: Bills (-16.5)",
-   "slug": "nfl-mia-buf-2026-11-22-spread-home-16pt5",
-   "event_slug": "nfl-mia-buf-2026-11-22",
-   "shares": 9.80952380952381,
-   "cost": 5.15,
-   "kfee": 0.18,
-   "opened": "2026-11-22T16:20:53+00:00",
-   "leader": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
-   "leader_name": "gmpm2",
-   "leader_shares": 7669.02,
-   "edge": 0.1406,
-   "mark": 0.9995,
-   "leader_sold": 4.18
   }
  },
  "leader_shares": {},
@@ -54,6 +36,17 @@
    "cost": 3.57,
    "pnl": 2.98,
    "kfee": 0.12,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-22T22:20:48+00:00",
+   "title": "Spread: Bills (-16.5)",
+   "outcome": "Bills",
+   "event_slug": "nfl-mia-buf-2026-11-22",
+   "cost": 5.15,
+   "pnl": 4.66,
+   "kfee": 0.18,
    "how": "won",
    "exit_price": 1.0
   }
@@ -494,6 +487,10 @@
   {
    "t": "2026-11-22T21:20:42+00:00",
    "equity": 107.84
+  },
+  {
+   "t": "2026-11-22T22:20:48+00:00",
+   "equity": 107.85
   }
  ],
  "kfees": 0.49,
@@ -519,6 +516,11 @@
    "n": 1,
    "net": 2.86,
    "cost": 3.57
+  },
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": {
+   "n": 1,
+   "net": 4.48,
+   "cost": 5.15
   }
  },
  "bench": [],
