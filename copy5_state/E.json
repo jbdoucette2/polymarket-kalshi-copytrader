@@ -3,22 +3,48 @@
  "name": "dabossrealman",
  "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
  "start": 100.0,
- "cash": 97.6601,
+ "cash": 86.3756,
  "since": 1795198438,
- "last_ts": 1795314767,
+ "last_ts": 1795317574,
  "positions": {
-  "40532230659249959056799501150984892883705874506055256785956796557702284252990": {
-   "cond": "0x4cffd38e32d8cbcab5e8ecf2a715babe72c93d73151c317406ad82d628e922ec",
+  "49931439887261274272515167099510613295598940926416712183158869249604415596294": {
+   "cond": "0x80042ee978fc43b799845c8206cfbba19c13753d2ec23e5fc37184ee6f4eea43",
    "idx": 0,
    "outcome": "Yes",
-   "title": "Stephon Castle: Points O/U 9.5",
-   "slug": "nba-nop-sas-2026-11-21-points-stephon-castle-9pt5",
-   "event_slug": "nba-nop-sas-2026-11-21",
-   "shares": 2.3654822335025383,
-   "cost": 2.33,
-   "kfee": 0.01,
-   "opened": "2026-11-22T02:32:47+00:00",
-   "mark": 0.975
+   "title": "Kris Dunn: Rebounds O/U 3.5",
+   "slug": "nba-lac-dal-2026-11-21-rebounds-kris-dunn-3pt5",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "shares": 1.8232044198895025,
+   "cost": 1.65,
+   "kfee": 0.02,
+   "opened": "2026-11-22T02:41:58+00:00",
+   "mark": 0.895
+  },
+  "65415371643411139678356992282505065014142370904299992688102661775724181749018": {
+   "cond": "0x33bdcb8d7c20dae5f790fb6cfcf5cb3b35608f4bc0f393db178fdd87dfc88b7b",
+   "idx": 0,
+   "outcome": "Yes",
+   "title": "Zach LaVine: Rebounds O/U 1.5",
+   "slug": "nba-bos-sac-2026-11-21-rebounds-zach-lavine-1pt5",
+   "event_slug": "nba-bos-sac-2026-11-21",
+   "shares": 6.382978723404256,
+   "cost": 6.0,
+   "kfee": 0.03,
+   "opened": "2026-11-22T03:16:50+00:00",
+   "mark": 0.525
+  },
+  "1590191221443462696240844443616833457834297749938208371686019289326340792489": {
+   "cond": "0x83a993dcad7338632e70bcb46d8b0c1c41ac20441fea14f31d77cf7bce50a114",
+   "idx": 0,
+   "outcome": "Yes",
+   "title": "Zaccharie Risacher: Points O/U 9.5",
+   "slug": "nba-lac-dal-2026-11-21-points-zaccharie-risacher-9pt5",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "shares": 6.486486486486486,
+   "cost": 6.0,
+   "kfee": 0.04,
+   "opened": "2026-11-22T03:19:34+00:00",
+   "mark": 0.475
   }
  },
  "leader_shares": {
@@ -34,7 +60,11 @@
   "42834109115158635303673071561329944674426424788236360680665103120989319262064": 49.994216,
   "53198660101409351057769907880209867624087287654297746359874148637273375470451": 11.18,
   "18537432352391561214274207026326009532442816119067727583172838468475962480506": 5.0,
-  "40532230659249959056799501150984892883705874506055256785956796557702284252990": 20.0
+  "40532230659249959056799501150984892883705874506055256785956796557702284252990": 20.0,
+  "49931439887261274272515167099510613295598940926416712183158869249604415596294": 14.0,
+  "1457985474094627444165561680531134982782859077432172567607629297030959995441": 21.0,
+  "65415371643411139678356992282505065014142370904299992688102661775724181749018": 170.0,
+  "1590191221443462696240844443616833457834297749938208371686019289326340792489": 95.0
  },
  "median_usd": 24.5,
  "closed": [
@@ -70,6 +100,17 @@
    "kfee": 0.39,
    "how": "lost",
    "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-22T03:21:00+00:00",
+   "title": "Stephon Castle: Points O/U 9.5",
+   "outcome": "Yes",
+   "event_slug": "nba-nop-sas-2026-11-21",
+   "cost": 2.33,
+   "pnl": 0.04,
+   "kfee": 0.01,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
  "log": [
@@ -237,6 +278,53 @@
    "price": 0.985,
    "leader_price": 0.95,
    "mult": 0.78
+  },
+  {
+   "ts": "2026-11-22T03:21:00+00:00",
+   "kind": "buy",
+   "title": "Kris Dunn: Rebounds O/U 3.5",
+   "outcome": "Yes",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "leader_usd": 13.44,
+   "stake": 1.65,
+   "price": 0.905,
+   "leader_price": 0.96,
+   "mult": 0.55
+  },
+  {
+   "ts": "2026-11-22T03:21:00+00:00",
+   "kind": "skip",
+   "title": "Ty Jerome: Points O/U 14.5",
+   "outcome": "Yes",
+   "event_slug": "nba-mem-min-2026-11-21",
+   "leader_usd": 17.64,
+   "reason": "too late: outcome already decided",
+   "price": 1.0,
+   "leader_price": 0.84
+  },
+  {
+   "ts": "2026-11-22T03:21:00+00:00",
+   "kind": "buy",
+   "title": "Zach LaVine: Rebounds O/U 1.5",
+   "outcome": "Yes",
+   "event_slug": "nba-bos-sac-2026-11-21",
+   "leader_usd": 158.1,
+   "stake": 6.0,
+   "price": 0.94,
+   "leader_price": 0.93,
+   "mult": 2.0
+  },
+  {
+   "ts": "2026-11-22T03:21:00+00:00",
+   "kind": "buy",
+   "title": "Zaccharie Risacher: Points O/U 9.5",
+   "outcome": "Yes",
+   "event_slug": "nba-lac-dal-2026-11-21",
+   "leader_usd": 91.75,
+   "stake": 6.0,
+   "price": 0.925,
+   "leader_price": 0.966,
+   "mult": 2.0
   }
  ],
  "history": [
@@ -407,10 +495,14 @@
   {
    "t": "2026-11-22T02:38:04+00:00",
    "equity": 99.97
+  },
+  {
+   "t": "2026-11-22T03:21:00+00:00",
+   "equity": 94.44
   }
  ],
- "kfees": 0.64,
- "copied": 4,
- "skipped": 11,
+ "kfees": 0.73,
+ "copied": 7,
+ "skipped": 12,
  "median_ts": 1795285247
 }

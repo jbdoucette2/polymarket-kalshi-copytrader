@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:38:05+00:00",
+ "updated": "2026-11-22T03:21:03+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -204,6 +204,10 @@
     },
     {
      "t": "2026-11-22T02:38:04+00:00",
+     "equity": 100.41
+    },
+    {
+     "t": "2026-11-22T03:21:00+00:00",
      "equity": 100.41
     }
    ],
@@ -559,11 +563,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 106.89,
+   "equity": 118.86,
    "cash": 98.38,
-   "pnl": 6.89,
-   "pnl_after_kalshi_fees": 5.43,
-   "return_pct": 6.9,
+   "pnl": 18.86,
+   "pnl_after_kalshi_fees": 17.4,
+   "return_pct": 18.9,
    "realized": 10.82,
    "kalshi_fees": 1.46,
    "settled": 7,
@@ -755,6 +759,10 @@
     {
      "t": "2026-11-22T02:38:04+00:00",
      "equity": 106.89
+    },
+    {
+     "t": "2026-11-22T03:21:00+00:00",
+     "equity": 118.86
     }
    ],
    "positions": [
@@ -765,7 +773,7 @@
      "cost": 1.05,
      "shares": 2.12,
      "avg": 0.495,
-     "mark": 0.445,
+     "mark": 0.175,
      "opened": "2026-11-21T12:04:58+00:00"
     },
     {
@@ -785,7 +793,7 @@
      "cost": 6.84,
      "shares": 16.89,
      "avg": 0.405,
-     "mark": 0.225,
+     "mark": 0.9995,
      "opened": "2026-11-22T00:02:28+00:00"
     },
     {
@@ -795,7 +803,7 @@
      "cost": 1.21,
      "shares": 2.78,
      "avg": 0.435,
-     "mark": 0.195,
+     "mark": 0.0025,
      "opened": "2026-11-22T00:30:16+00:00"
     }
    ],
@@ -1150,22 +1158,22 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 39.54,
-   "cash": 5.53,
-   "pnl": -60.46,
-   "pnl_after_kalshi_fees": -64.87,
-   "return_pct": -60.5,
-   "realized": -50.41,
-   "kalshi_fees": 4.41,
-   "settled": 17,
+   "equity": 36.21,
+   "cash": 0.0,
+   "pnl": -63.79,
+   "pnl_after_kalshi_fees": -68.35,
+   "return_pct": -63.8,
+   "realized": -53.35,
+   "kalshi_fees": 4.56,
+   "settled": 18,
    "won": 5,
-   "lost": 12,
+   "lost": 13,
    "sold_early": 0,
    "open": 11,
-   "at_risk": 44.06,
-   "copied": 30,
-   "skipped": 26,
-   "max_drawdown_pct": 60.5,
+   "at_risk": 46.65,
+   "copied": 32,
+   "skipped": 27,
+   "max_drawdown_pct": 63.8,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
    "rivo": {
@@ -1346,6 +1354,10 @@
     {
      "t": "2026-11-22T02:38:04+00:00",
      "equity": 39.54
+    },
+    {
+     "t": "2026-11-22T03:21:00+00:00",
+     "equity": 36.21
     }
    ],
    "positions": [
@@ -1356,7 +1368,7 @@
      "cost": 6.0,
      "shares": 16.9,
      "avg": 0.355,
-     "mark": 0.075,
+     "mark": 0.0005,
      "opened": "2026-11-20T20:31:04+00:00"
     },
     {
@@ -1366,7 +1378,7 @@
      "cost": 5.64,
      "shares": 7.67,
      "avg": 0.735,
-     "mark": 0.765,
+     "mark": 0.935,
      "opened": "2026-11-21T03:14:01+00:00"
     },
     {
@@ -1386,7 +1398,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.58,
+     "mark": 0.635,
      "opened": "2026-11-21T13:36:49+00:00"
     },
     {
@@ -1396,7 +1408,7 @@
      "cost": 4.62,
      "shares": 8.64,
      "avg": 0.535,
-     "mark": 0.545,
+     "mark": 0.555,
      "opened": "2026-11-21T15:08:07+00:00"
     },
     {
@@ -1410,23 +1422,13 @@
      "opened": "2026-11-21T16:16:43+00:00"
     },
     {
-     "title": "Spread: Golden Knights (-1.5)",
-     "outcome": "Golden Knights",
-     "event_slug": "nhl-las-wpg-2026-11-21",
-     "cost": 2.94,
-     "shares": 8.78,
-     "avg": 0.335,
-     "mark": 0.045,
-     "opened": "2026-11-21T22:38:05+00:00"
-    },
-    {
      "title": "Spread: UTSA (-2.5)",
      "outcome": "UTSA",
      "event_slug": "cfb-utsa-uab-2026-11-21",
      "cost": 1.57,
      "shares": 2.55,
      "avg": 0.615,
-     "mark": 0.555,
+     "mark": 0.675,
      "opened": "2026-11-22T00:07:47+00:00"
     },
     {
@@ -1436,7 +1438,7 @@
      "cost": 3.83,
      "shares": 7.3,
      "avg": 0.525,
-     "mark": 0.595,
+     "mark": 0.15,
      "opened": "2026-11-22T00:15:04+00:00"
     },
     {
@@ -1446,7 +1448,7 @@
      "cost": 3.35,
      "shares": 7.61,
      "avg": 0.44,
-     "mark": 0.535,
+     "mark": 0.505,
      "opened": "2026-11-22T00:21:53+00:00"
     },
     {
@@ -1456,11 +1458,32 @@
      "cost": 2.25,
      "shares": 3.78,
      "avg": 0.595,
-     "mark": 0.585,
+     "mark": 0.555,
      "opened": "2026-11-22T01:45:35+00:00"
+    },
+    {
+     "title": "Oklahoma State vs. Arizona State",
+     "outcome": "Oklahoma State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "cost": 5.53,
+     "shares": 8.71,
+     "avg": 0.635,
+     "mark": 0.605,
+     "opened": "2026-11-22T02:44:13+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "title": "Spread: Golden Knights (-1.5)",
+     "outcome": "Golden Knights",
+     "event_slug": "nhl-las-wpg-2026-11-21",
+     "cost": 2.94,
+     "pnl": -2.94,
+     "kfee": 0.14,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T01:20:55+00:00",
      "title": "Spread: Georgia Southern (-7.5)",
@@ -1650,6 +1673,41 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "skip",
+     "title": "Spread: Oklahoma State (-3.5)",
+     "outcome": "Arizona State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "leader_usd": 1930.88,
+     "reason": "out of cash",
+     "price": 0.535,
+     "leader_price": 0.54
+    },
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Oklahoma State vs. Arizona State",
+     "outcome": "Oklahoma State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "leader_usd": 12090.6,
+     "stake": 2.55,
+     "price": 0.635,
+     "leader_price": 0.6,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Oklahoma State vs. Arizona State",
+     "outcome": "Oklahoma State",
+     "event_slug": "cfb-okst-arzst-2026-11-21",
+     "leader_usd": 4628.17,
+     "stake": 2.98,
+     "price": 0.635,
+     "leader_price": 0.599,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T02:21:00+00:00",
      "kind": "skip",
@@ -2499,6 +2557,10 @@
     {
      "t": "2026-11-22T02:38:04+00:00",
      "equity": 91.37
+    },
+    {
+     "t": "2026-11-22T03:21:00+00:00",
+     "equity": 91.37
     }
    ],
    "positions": [],
@@ -2558,22 +2620,22 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.97,
-   "cash": 97.66,
-   "pnl": -0.03,
-   "pnl_after_kalshi_fees": -0.67,
-   "return_pct": -0.0,
-   "realized": -0.01,
-   "kalshi_fees": 0.64,
-   "settled": 3,
-   "won": 2,
+   "equity": 94.44,
+   "cash": 86.38,
+   "pnl": -5.56,
+   "pnl_after_kalshi_fees": -6.29,
+   "return_pct": -5.6,
+   "realized": 0.03,
+   "kalshi_fees": 0.73,
+   "settled": 4,
+   "won": 3,
    "lost": 1,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 2.33,
-   "copied": 4,
-   "skipped": 11,
-   "max_drawdown_pct": 3.5,
+   "open": 3,
+   "at_risk": 13.65,
+   "copied": 7,
+   "skipped": 12,
+   "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
    "rivo": {
@@ -2754,21 +2816,56 @@
     {
      "t": "2026-11-22T02:38:04+00:00",
      "equity": 99.97
+    },
+    {
+     "t": "2026-11-22T03:21:00+00:00",
+     "equity": 94.44
     }
    ],
    "positions": [
     {
+     "title": "Kris Dunn: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-lac-dal-2026-11-21",
+     "cost": 1.65,
+     "shares": 1.82,
+     "avg": 0.905,
+     "mark": 0.895,
+     "opened": "2026-11-22T02:41:58+00:00"
+    },
+    {
+     "title": "Zach LaVine: Rebounds O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-sac-2026-11-21",
+     "cost": 6.0,
+     "shares": 6.38,
+     "avg": 0.94,
+     "mark": 0.525,
+     "opened": "2026-11-22T03:16:50+00:00"
+    },
+    {
+     "title": "Zaccharie Risacher: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-lac-dal-2026-11-21",
+     "cost": 6.0,
+     "shares": 6.49,
+     "avg": 0.925,
+     "mark": 0.475,
+     "opened": "2026-11-22T03:19:34+00:00"
+    }
+   ],
+   "closed": [
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
      "title": "Stephon Castle: Points O/U 9.5",
      "outcome": "Yes",
      "event_slug": "nba-nop-sas-2026-11-21",
      "cost": 2.33,
-     "shares": 2.37,
-     "avg": 0.985,
-     "mark": 0.975,
-     "opened": "2026-11-22T02:32:47+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 0.04,
+     "kfee": 0.01,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-21T06:20:50+00:00",
      "title": "Miles Bridges: Points O/U 19.5",
@@ -2804,6 +2901,53 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Zaccharie Risacher: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-lac-dal-2026-11-21",
+     "leader_usd": 91.75,
+     "stake": 6.0,
+     "price": 0.925,
+     "leader_price": 0.966,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Zach LaVine: Rebounds O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-sac-2026-11-21",
+     "leader_usd": 158.1,
+     "stake": 6.0,
+     "price": 0.94,
+     "leader_price": 0.93,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "skip",
+     "title": "Ty Jerome: Points O/U 14.5",
+     "outcome": "Yes",
+     "event_slug": "nba-mem-min-2026-11-21",
+     "leader_usd": 17.64,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.84
+    },
+    {
+     "ts": "2026-11-22T03:21:00+00:00",
+     "kind": "buy",
+     "title": "Kris Dunn: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-lac-dal-2026-11-21",
+     "leader_usd": 13.44,
+     "stake": 1.65,
+     "price": 0.905,
+     "leader_price": 0.96,
+     "mult": 0.55
+    },
     {
      "ts": "2026-11-22T02:38:04+00:00",
      "kind": "buy",
