@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:20:59+00:00",
+ "updated": "2026-11-23T03:21:17+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,19 +9,19 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 94.06,
+   "equity": 99.19,
    "cash": 80.17,
-   "pnl": -5.94,
-   "pnl_after_kalshi_fees": -9.14,
-   "return_pct": -5.9,
-   "realized": -2.85,
+   "pnl": -0.81,
+   "pnl_after_kalshi_fees": -4.01,
+   "return_pct": -0.8,
+   "realized": -8.04,
    "kalshi_fees": 3.2,
-   "settled": 17,
+   "settled": 18,
    "won": 8,
-   "lost": 9,
+   "lost": 10,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 16.97,
+   "open": 2,
+   "at_risk": 11.78,
    "copied": 22,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
@@ -313,6 +313,10 @@
     {
      "t": "2026-11-23T02:20:56+00:00",
      "equity": 94.06
+    },
+    {
+     "t": "2026-11-23T03:21:14+00:00",
+     "equity": 99.19
     }
    ],
    "positions": [
@@ -323,18 +327,8 @@
      "cost": 6.02,
      "shares": 9.33,
      "avg": 0.645,
-     "mark": 0.735,
+     "mark": 0.9735,
      "opened": "2026-11-22T19:16:56+00:00"
-    },
-    {
-     "title": "Mavericks vs. Jazz",
-     "outcome": "Jazz",
-     "event_slug": "nba-dal-uta-2026-11-22",
-     "cost": 5.19,
-     "shares": 11.41,
-     "avg": 0.455,
-     "mark": 0.056,
-     "opened": "2026-11-22T23:08:46+00:00"
     },
     {
      "title": "Spread: 49ers (-3.5)",
@@ -343,11 +337,22 @@
      "cost": 5.76,
      "shares": 10.57,
      "avg": 0.545,
-     "mark": 0.605,
+     "mark": 0.94,
      "opened": "2026-11-23T00:57:52+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-23T03:21:14+00:00",
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Jazz",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "cost": 5.19,
+     "pnl": -5.19,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-23T01:21:13+00:00",
      "title": "Raiders vs. Broncos",
@@ -973,10 +978,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 85.91,
+   "equity": 85.88,
    "cash": 82.93,
-   "pnl": -14.09,
-   "pnl_after_kalshi_fees": -16.76,
+   "pnl": -14.12,
+   "pnl_after_kalshi_fees": -16.79,
    "return_pct": -14.1,
    "realized": -14.06,
    "kalshi_fees": 2.67,
@@ -1277,6 +1282,10 @@
     {
      "t": "2026-11-23T02:20:56+00:00",
      "equity": 85.91
+    },
+    {
+     "t": "2026-11-23T03:21:14+00:00",
+     "equity": 85.88
     }
    ],
    "positions": [
@@ -1287,7 +1296,7 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.9335,
+     "mark": 0.9235,
      "opened": "2026-11-22T21:19:05+00:00"
     }
    ],
@@ -1971,21 +1980,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.47,
-   "cash": 31.43,
-   "pnl": -56.53,
-   "pnl_after_kalshi_fees": -61.58,
-   "return_pct": -56.5,
-   "realized": -61.79,
-   "kalshi_fees": 5.05,
-   "settled": 33,
-   "won": 13,
+   "equity": 43.94,
+   "cash": 41.9,
+   "pnl": -56.06,
+   "pnl_after_kalshi_fees": -61.19,
+   "return_pct": -56.1,
+   "realized": -56.01,
+   "kalshi_fees": 5.13,
+   "settled": 35,
+   "won": 15,
    "lost": 20,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 6.78,
-   "copied": 43,
-   "skipped": 35,
+   "open": 1,
+   "at_risk": 2.08,
+   "copied": 44,
+   "skipped": 36,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -2275,31 +2284,47 @@
     {
      "t": "2026-11-23T02:20:56+00:00",
      "equity": 43.47
+    },
+    {
+     "t": "2026-11-23T03:21:14+00:00",
+     "equity": 43.94
     }
    ],
    "positions": [
     {
-     "title": "Mavericks vs. Jazz",
-     "outcome": "Mavericks",
-     "event_slug": "nba-dal-uta-2026-11-22",
-     "cost": 4.62,
-     "shares": 8.8,
-     "avg": 0.525,
-     "mark": 0.944,
-     "opened": "2026-11-21T16:16:43+00:00"
-    },
+     "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
+     "outcome": "Over",
+     "event_slug": "cbb-colst-arz-2026-11-23",
+     "cost": 2.08,
+     "shares": 4.12,
+     "avg": 0.505,
+     "mark": 0.495,
+     "opened": "2026-11-23T02:39:11+00:00"
+    }
+   ],
+   "closed": [
     {
+     "ts": "2026-11-23T03:21:14+00:00",
      "title": "Oilers vs. Blues: O/U 5.5",
      "outcome": "Over",
      "event_slug": "nhl-edm-stl-2026-11-22",
      "cost": 2.16,
-     "shares": 3.76,
-     "avg": 0.575,
-     "mark": 0.995,
-     "opened": "2026-11-22T22:30:44+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 1.6,
+     "kfee": 0.07,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-23T03:21:14+00:00",
+     "title": "Mavericks vs. Jazz",
+     "outcome": "Mavericks",
+     "event_slug": "nba-dal-uta-2026-11-22",
+     "cost": 4.62,
+     "pnl": 4.18,
+     "kfee": 0.16,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T02:20:56+00:00",
      "title": "Spread: Heat (-4.5)",
@@ -2665,6 +2690,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T03:21:14+00:00",
+     "kind": "skip",
+     "title": "Spread: BYU Cougars (-11.5)",
+     "outcome": "BYU Cougars",
+     "event_slug": "cbb-wash-byu-2026-11-23",
+     "leader_usd": 185.82,
+     "reason": "below $1 minimum",
+     "price": 0.535,
+     "leader_price": 0.503
+    },
+    {
+     "ts": "2026-11-23T03:21:14+00:00",
+     "kind": "buy",
+     "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
+     "outcome": "Over",
+     "event_slug": "cbb-colst-arz-2026-11-23",
+     "leader_usd": 499.8,
+     "stake": 2.08,
+     "price": 0.505,
+     "leader_price": 0.497,
+     "mult": 1.81
+    },
     {
      "ts": "2026-11-23T02:20:56+00:00",
      "kind": "skip",
@@ -3328,30 +3376,6 @@
      "price": 0.385,
      "leader_price": 0.38,
      "mult": 0.7
-    },
-    {
-     "ts": "2026-11-21T16:21:15+00:00",
-     "kind": "buy",
-     "title": "Mavericks vs. Jazz",
-     "outcome": "Mavericks",
-     "event_slug": "nba-dal-uta-2026-11-22",
-     "leader_usd": 980.72,
-     "stake": 4.62,
-     "price": 0.525,
-     "leader_price": 0.52,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T16:21:15+00:00",
-     "kind": "buy",
-     "title": "Spread: Army (-5.5)",
-     "outcome": "East Carolina",
-     "event_slug": "cfb-ecar-army-2026-11-21",
-     "leader_usd": 660.0,
-     "stake": 4.62,
-     "price": 0.525,
-     "leader_price": 0.5,
-     "mult": 2.0
     }
    ]
   },
@@ -3663,6 +3687,10 @@
     },
     {
      "t": "2026-11-23T02:20:56+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T03:21:14+00:00",
      "equity": 92.83
     }
    ],
@@ -4164,6 +4192,10 @@
     },
     {
      "t": "2026-11-23T02:20:56+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T03:21:14+00:00",
      "equity": 105.41
     }
    ],
