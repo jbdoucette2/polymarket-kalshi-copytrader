@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T04:20:39+00:00",
+ "updated": "2026-11-23T05:21:12+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,19 +9,19 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.06,
-   "cash": 80.17,
-   "pnl": 0.06,
-   "pnl_after_kalshi_fees": -3.14,
+   "equity": 100.07,
+   "cash": 100.07,
+   "pnl": 0.07,
+   "pnl_after_kalshi_fees": -3.13,
    "return_pct": 0.1,
-   "realized": -8.04,
+   "realized": 0.08,
    "kalshi_fees": 3.2,
-   "settled": 18,
-   "won": 8,
+   "settled": 20,
+   "won": 10,
    "lost": 10,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 11.78,
+   "open": 0,
+   "at_risk": 0,
    "copied": 22,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
@@ -321,31 +321,36 @@
     {
      "t": "2026-11-23T04:20:37+00:00",
      "equity": 100.06
-    }
-   ],
-   "positions": [
-    {
-     "title": "Vikings vs. 49ers",
-     "outcome": "49ers",
-     "event_slug": "nfl-min-sf-2026-11-23",
-     "cost": 6.02,
-     "shares": 9.33,
-     "avg": 0.645,
-     "mark": 0.9995,
-     "opened": "2026-11-22T19:16:56+00:00"
     },
     {
+     "t": "2026-11-23T05:21:09+00:00",
+     "equity": 100.07
+    }
+   ],
+   "positions": [],
+   "closed": [
+    {
+     "ts": "2026-11-23T05:21:09+00:00",
      "title": "Spread: 49ers (-3.5)",
      "outcome": "49ers",
      "event_slug": "nfl-min-sf-2026-11-23",
      "cost": 5.76,
-     "shares": 10.57,
-     "avg": 0.545,
-     "mark": 0.9995,
-     "opened": "2026-11-23T00:57:52+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 4.81,
+     "kfee": 0.19,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-23T05:21:09+00:00",
+     "title": "Vikings vs. 49ers",
+     "outcome": "49ers",
+     "event_slug": "nfl-min-sf-2026-11-23",
+     "cost": 6.02,
+     "pnl": 3.31,
+     "kfee": 0.15,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T03:21:14+00:00",
      "title": "Mavericks vs. Jazz",
@@ -982,11 +987,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 85.88,
+   "equity": 85.79,
    "cash": 82.93,
-   "pnl": -14.12,
-   "pnl_after_kalshi_fees": -16.79,
-   "return_pct": -14.1,
+   "pnl": -14.21,
+   "pnl_after_kalshi_fees": -16.88,
+   "return_pct": -14.2,
    "realized": -14.06,
    "kalshi_fees": 2.67,
    "settled": 20,
@@ -997,7 +1002,7 @@
    "at_risk": 3.01,
    "copied": 21,
    "skipped": 18,
-   "max_drawdown_pct": 28.5,
+   "max_drawdown_pct": 28.6,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1294,6 +1299,10 @@
     {
      "t": "2026-11-23T04:20:37+00:00",
      "equity": 85.88
+    },
+    {
+     "t": "2026-11-23T05:21:09+00:00",
+     "equity": 85.79
     }
    ],
    "positions": [
@@ -1304,7 +1313,7 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.9225,
+     "mark": 0.896,
      "opened": "2026-11-22T21:19:05+00:00"
     }
    ],
@@ -1988,20 +1997,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.94,
-   "cash": 41.9,
-   "pnl": -56.06,
-   "pnl_after_kalshi_fees": -61.19,
-   "return_pct": -56.1,
+   "equity": 44.14,
+   "cash": 39.26,
+   "pnl": -55.86,
+   "pnl_after_kalshi_fees": -61.08,
+   "return_pct": -55.9,
    "realized": -56.01,
-   "kalshi_fees": 5.13,
+   "kalshi_fees": 5.22,
    "settled": 35,
    "won": 15,
    "lost": 20,
    "sold_early": 0,
    "open": 1,
-   "at_risk": 2.08,
-   "copied": 44,
+   "at_risk": 4.72,
+   "copied": 45,
    "skipped": 36,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2300,6 +2309,10 @@
     {
      "t": "2026-11-23T04:20:37+00:00",
      "equity": 43.94
+    },
+    {
+     "t": "2026-11-23T05:21:09+00:00",
+     "equity": 44.14
     }
    ],
    "positions": [
@@ -2307,10 +2320,10 @@
      "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
      "outcome": "Over",
      "event_slug": "cbb-colst-arz-2026-11-23",
-     "cost": 2.08,
-     "shares": 4.12,
-     "avg": 0.505,
-     "mark": 0.495,
+     "cost": 4.72,
+     "shares": 8.79,
+     "avg": 0.537,
+     "mark": 0.555,
      "opened": "2026-11-23T02:39:11+00:00"
     }
    ],
@@ -2702,6 +2715,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T05:21:09+00:00",
+     "kind": "buy",
+     "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
+     "outcome": "Over",
+     "event_slug": "cbb-colst-arz-2026-11-23",
+     "leader_usd": 1543.47,
+     "stake": 2.64,
+     "price": 0.565,
+     "leader_price": 0.513,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T03:21:14+00:00",
      "kind": "skip",
@@ -3376,18 +3401,6 @@
      "price": 0.565,
      "leader_price": 0.53,
      "mult": 0.52
-    },
-    {
-     "ts": "2026-11-21T16:44:36+00:00",
-     "kind": "buy",
-     "title": "O/U 1.5 Rounds",
-     "outcome": "Under",
-     "event_slug": "ufc-jproch-nav-2026-11-21",
-     "leader_usd": 183.92,
-     "stake": 1.6,
-     "price": 0.385,
-     "leader_price": 0.38,
-     "mult": 0.7
     }
    ]
   },
@@ -3707,6 +3720,10 @@
     },
     {
      "t": "2026-11-23T04:20:37+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T05:21:09+00:00",
      "equity": 92.83
     }
    ],
@@ -4216,6 +4233,10 @@
     },
     {
      "t": "2026-11-23T04:20:37+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T05:21:09+00:00",
      "equity": 105.41
     }
    ],
