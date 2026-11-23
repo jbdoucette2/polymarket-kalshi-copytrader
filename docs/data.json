@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:21:19+00:00",
+ "updated": "2026-11-23T20:31:51+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -388,6 +388,10 @@
     },
     {
      "t": "2026-11-23T20:21:16+00:00",
+     "equity": 99.95
+    },
+    {
+     "t": "2026-11-23T20:31:50+00:00",
      "equity": 99.95
     }
    ],
@@ -1454,6 +1458,10 @@
     {
      "t": "2026-11-23T20:21:16+00:00",
      "equity": 72.8
+    },
+    {
+     "t": "2026-11-23T20:31:50+00:00",
+     "equity": 72.8
     }
    ],
    "positions": [
@@ -2228,11 +2236,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.65,
+   "equity": 44.53,
    "cash": 19.6,
-   "pnl": -56.35,
-   "pnl_after_kalshi_fees": -62.24,
-   "return_pct": -56.4,
+   "pnl": -55.47,
+   "pnl_after_kalshi_fees": -61.36,
+   "return_pct": -55.5,
    "realized": -56.01,
    "kalshi_fees": 5.89,
    "settled": 35,
@@ -2242,7 +2250,7 @@
    "open": 9,
    "at_risk": 24.38,
    "copied": 53,
-   "skipped": 40,
+   "skipped": 43,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -2608,6 +2616,10 @@
     {
      "t": "2026-11-23T20:21:16+00:00",
      "equity": 43.65
+    },
+    {
+     "t": "2026-11-23T20:31:50+00:00",
+     "equity": 44.53
     }
    ],
    "positions": [
@@ -2668,7 +2680,7 @@
      "cost": 2.64,
      "shares": 5.03,
      "avg": 0.525,
-     "mark": 0.595,
+     "mark": 0.775,
      "opened": "2026-11-23T18:57:26+00:00"
     },
     {
@@ -2698,7 +2710,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     }
    ],
@@ -3090,6 +3102,39 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T20:31:50+00:00",
+     "kind": "skip",
+     "title": "Celtics vs. Wizards: O/U 221.5",
+     "outcome": "Under",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "leader_usd": 11.52,
+     "reason": "below $1 minimum",
+     "price": 0.6,
+     "leader_price": 0.64
+    },
+    {
+     "ts": "2026-11-23T20:31:50+00:00",
+     "kind": "skip",
+     "title": "Celtics vs. Wizards: O/U 215.5",
+     "outcome": "Under",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "leader_usd": 40.8,
+     "reason": "below $1 minimum",
+     "price": 0.47,
+     "leader_price": 0.51
+    },
+    {
+     "ts": "2026-11-23T20:31:50+00:00",
+     "kind": "skip",
+     "title": "Celtics vs. Wizards: O/U 217.5",
+     "outcome": "Under",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "leader_usd": 94.64,
+     "reason": "below $1 minimum",
+     "price": 0.515,
+     "leader_price": 0.56
+    },
     {
      "ts": "2026-11-23T20:21:16+00:00",
      "kind": "buy",
@@ -3746,39 +3791,6 @@
      "reason": "out of cash",
      "price": 0.745,
      "leader_price": 0.73
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Spread: Knicks (-3.5)",
-     "outcome": "Trail Blazers",
-     "event_slug": "nba-por-nyk-2026-11-21",
-     "leader_usd": 220.83,
-     "reason": "out of cash",
-     "price": 0.505,
-     "leader_price": 0.51
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Spread: South Florida (-2.5)",
-     "outcome": "Florida Atlantic",
-     "event_slug": "cfb-sfl-flatl-2026-11-21",
-     "leader_usd": 9945.5,
-     "reason": "out of cash",
-     "price": 0.505,
-     "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Spread: South Florida (-3.5)",
-     "outcome": "South Florida",
-     "event_slug": "cfb-sfl-flatl-2026-11-21",
-     "leader_usd": 328.09,
-     "reason": "out of cash",
-     "price": 0.435,
-     "leader_price": 0.43
     }
    ]
   },
@@ -4166,6 +4178,10 @@
     },
     {
      "t": "2026-11-23T20:21:16+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T20:31:50+00:00",
      "equity": 92.83
     }
    ],
@@ -4743,6 +4759,10 @@
     },
     {
      "t": "2026-11-23T20:21:16+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T20:31:50+00:00",
      "equity": 105.41
     }
    ],
