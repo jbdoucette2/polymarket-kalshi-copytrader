@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:21:32+00:00",
+ "updated": "2026-11-23T09:21:34+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -340,6 +340,10 @@
     },
     {
      "t": "2026-11-23T08:21:30+00:00",
+     "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T09:21:32+00:00",
      "equity": 100.07
     }
    ],
@@ -1017,7 +1021,7 @@
    "open": 1,
    "at_risk": 3.01,
    "copied": 21,
-   "skipped": 18,
+   "skipped": 20,
    "max_drawdown_pct": 28.6,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -1335,6 +1339,10 @@
     {
      "t": "2026-11-23T08:21:30+00:00",
      "equity": 85.81
+    },
+    {
+     "t": "2026-11-23T09:21:32+00:00",
+     "equity": 85.81
     }
    ],
    "positions": [
@@ -1345,7 +1353,7 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.903,
+     "mark": 0.9005,
      "opened": "2026-11-22T21:19:05+00:00"
     }
    ],
@@ -1572,6 +1580,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T09:21:32+00:00",
+     "kind": "skip",
+     "title": "Will National Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+     "outcome": "Yes",
+     "event_slug": "new-zealand-legislative-election-winner",
+     "leader_usd": 1710.82,
+     "reason": "too late: outcome already decided",
+     "price": 0.994,
+     "leader_price": 0.993
+    },
+    {
+     "ts": "2026-11-23T09:21:32+00:00",
+     "kind": "skip",
+     "title": "Will Labour Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+     "outcome": "No",
+     "event_slug": "new-zealand-legislative-election-winner",
+     "leader_usd": 26243.44,
+     "reason": "too late: outcome already decided",
+     "price": 0.994,
+     "leader_price": 0.994
+    },
     {
      "ts": "2026-11-22T21:20:38+00:00",
      "kind": "buy",
@@ -2360,6 +2390,10 @@
     },
     {
      "t": "2026-11-23T08:21:30+00:00",
+     "equity": 44.05
+    },
+    {
+     "t": "2026-11-23T09:21:32+00:00",
      "equity": 44.05
     }
    ],
@@ -3789,6 +3823,10 @@
     {
      "t": "2026-11-23T08:21:30+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T09:21:32+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4317,6 +4355,10 @@
     },
     {
      "t": "2026-11-23T08:21:30+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T09:21:32+00:00",
      "equity": 105.41
     }
    ],
