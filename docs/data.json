@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:20:45+00:00",
+ "updated": "2026-11-23T01:21:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 96.81,
-   "cash": 78.81,
-   "pnl": -3.19,
-   "pnl_after_kalshi_fees": -6.2,
-   "return_pct": -3.2,
-   "realized": -3.95,
-   "kalshi_fees": 3.01,
-   "settled": 16,
-   "won": 7,
+   "equity": 94.62,
+   "cash": 80.17,
+   "pnl": -5.38,
+   "pnl_after_kalshi_fees": -8.58,
+   "return_pct": -5.4,
+   "realized": -2.85,
+   "kalshi_fees": 3.2,
+   "settled": 17,
+   "won": 8,
    "lost": 9,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 17.23,
-   "copied": 21,
+   "at_risk": 16.97,
+   "copied": 22,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -305,19 +305,13 @@
     {
      "t": "2026-11-23T00:20:42+00:00",
      "equity": 96.81
+    },
+    {
+     "t": "2026-11-23T01:21:13+00:00",
+     "equity": 94.62
     }
    ],
    "positions": [
-    {
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "cost": 6.02,
-     "shares": 7.12,
-     "avg": 0.845,
-     "mark": 0.972,
-     "opened": "2026-11-22T19:08:16+00:00"
-    },
     {
      "title": "Vikings vs. 49ers",
      "outcome": "49ers",
@@ -335,11 +329,32 @@
      "cost": 5.19,
      "shares": 11.41,
      "avg": 0.455,
-     "mark": 0.435,
+     "mark": 0.235,
      "opened": "2026-11-22T23:08:46+00:00"
+    },
+    {
+     "title": "Spread: 49ers (-3.5)",
+     "outcome": "49ers",
+     "event_slug": "nfl-min-sf-2026-11-23",
+     "cost": 5.76,
+     "shares": 10.57,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-23T00:57:52+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "cost": 6.02,
+     "pnl": 1.1,
+     "kfee": 0.07,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T00:13:47+00:00",
      "title": "Jets vs. Chargers",
@@ -518,6 +533,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "kind": "buy",
+     "title": "Spread: 49ers (-3.5)",
+     "outcome": "49ers",
+     "event_slug": "nfl-min-sf-2026-11-23",
+     "leader_usd": 36992.54,
+     "stake": 5.76,
+     "price": 0.545,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-22T23:20:48+00:00",
      "kind": "buy",
@@ -942,22 +969,22 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 86.57,
+   "equity": 85.91,
    "cash": 82.93,
-   "pnl": -13.43,
-   "pnl_after_kalshi_fees": -16.1,
-   "return_pct": -13.4,
-   "realized": -5.71,
+   "pnl": -14.09,
+   "pnl_after_kalshi_fees": -16.76,
+   "return_pct": -14.1,
+   "realized": -14.06,
    "kalshi_fees": 2.67,
-   "settled": 18,
+   "settled": 20,
    "won": 6,
-   "lost": 12,
+   "lost": 14,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 11.36,
+   "open": 1,
+   "at_risk": 3.01,
    "copied": 21,
    "skipped": 18,
-   "max_drawdown_pct": 27.9,
+   "max_drawdown_pct": 28.5,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1238,29 +1265,13 @@
     {
      "t": "2026-11-23T00:20:42+00:00",
      "equity": 86.57
+    },
+    {
+     "t": "2026-11-23T01:21:13+00:00",
+     "equity": 85.91
     }
    ],
    "positions": [
-    {
-     "title": "Spread: Jaguars (-1.5)",
-     "outcome": "Jaguars",
-     "event_slug": "nfl-jax-nyg-2026-11-22",
-     "cost": 6.92,
-     "shares": 10.25,
-     "avg": 0.675,
-     "mark": 0.06,
-     "opened": "2026-11-22T14:15:37+00:00"
-    },
-    {
-     "title": "Spread: Jaguars (-6.5)",
-     "outcome": "Jaguars",
-     "event_slug": "nfl-jax-nyg-2026-11-22",
-     "cost": 1.43,
-     "shares": 3.01,
-     "avg": 0.475,
-     "mark": 0.019,
-     "opened": "2026-11-22T14:17:34+00:00"
-    },
     {
      "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
      "outcome": "No",
@@ -1268,11 +1279,33 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.9295,
+     "mark": 0.9315,
      "opened": "2026-11-22T21:19:05+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "title": "Spread: Jaguars (-6.5)",
+     "outcome": "Jaguars",
+     "event_slug": "nfl-jax-nyg-2026-11-22",
+     "cost": 1.43,
+     "pnl": -1.43,
+     "kfee": 0.06,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "title": "Spread: Jaguars (-1.5)",
+     "outcome": "Jaguars",
+     "event_slug": "nfl-jax-nyg-2026-11-22",
+     "cost": 6.92,
+     "pnl": -6.92,
+     "kfee": 0.16,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T22:20:44+00:00",
      "title": "Spread: Panthers (-1.5)",
@@ -1930,19 +1963,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 37.41,
-   "cash": 13.16,
-   "pnl": -62.59,
-   "pnl_after_kalshi_fees": -67.64,
-   "return_pct": -62.6,
-   "realized": -65.99,
+   "equity": 39.64,
+   "cash": 27.6,
+   "pnl": -60.36,
+   "pnl_after_kalshi_fees": -65.41,
+   "return_pct": -60.4,
+   "realized": -63.61,
    "kalshi_fees": 5.05,
-   "settled": 31,
-   "won": 11,
+   "settled": 32,
+   "won": 12,
    "lost": 20,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 20.85,
+   "open": 3,
+   "at_risk": 8.79,
    "copied": 43,
    "skipped": 32,
    "max_drawdown_pct": 73.4,
@@ -2226,6 +2259,10 @@
     {
      "t": "2026-11-23T00:20:42+00:00",
      "equity": 37.41
+    },
+    {
+     "t": "2026-11-23T01:21:13+00:00",
+     "equity": 39.64
     }
    ],
    "positions": [
@@ -2236,18 +2273,8 @@
      "cost": 4.62,
      "shares": 8.8,
      "avg": 0.525,
-     "mark": 0.565,
+     "mark": 0.765,
      "opened": "2026-11-21T16:16:43+00:00"
-    },
-    {
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "cost": 12.06,
-     "shares": 14.44,
-     "avg": 0.835,
-     "mark": 0.972,
-     "opened": "2026-11-22T15:58:49+00:00"
     },
     {
      "title": "Spread: Heat (-4.5)",
@@ -2256,7 +2283,7 @@
      "cost": 2.01,
      "shares": 3.83,
      "avg": 0.525,
-     "mark": 0.765,
+     "mark": 0.9995,
      "opened": "2026-11-22T22:00:07+00:00"
     },
     {
@@ -2266,11 +2293,22 @@
      "cost": 2.16,
      "shares": 3.76,
      "avg": 0.575,
-     "mark": 0.615,
+     "mark": 0.395,
      "opened": "2026-11-22T22:30:44+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "title": "Raiders vs. Broncos",
+     "outcome": "Broncos",
+     "event_slug": "nfl-lv-den-2026-11-22",
+     "cost": 12.06,
+     "pnl": 2.38,
+     "kfee": 0.18,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T23:20:48+00:00",
      "title": "Spread: CA Paranaense (-1.5)",
@@ -3312,19 +3350,19 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 92.84,
+   "equity": 92.83,
    "cash": 92.83,
-   "pnl": -7.16,
-   "pnl_after_kalshi_fees": -8.52,
+   "pnl": -7.17,
+   "pnl_after_kalshi_fees": -8.53,
    "return_pct": -7.2,
-   "realized": 2.28,
+   "realized": -7.17,
    "kalshi_fees": 1.36,
-   "settled": 6,
+   "settled": 8,
    "won": 3,
-   "lost": 3,
+   "lost": 5,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 9.45,
+   "open": 0,
+   "at_risk": 0,
    "copied": 8,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
@@ -3608,31 +3646,36 @@
     {
      "t": "2026-11-23T00:20:42+00:00",
      "equity": 92.84
-    }
-   ],
-   "positions": [
-    {
-     "title": "Will CD Universidad Cat\u00f3lica win on 2026-11-22?",
-     "outcome": "Yes",
-     "event_slug": "chi1-csc-cuc-2026-11-22",
-     "cost": 4.26,
-     "shares": 11.06,
-     "avg": 0.385,
-     "mark": 0.0005,
-     "opened": "2026-11-22T20:11:26+00:00"
     },
     {
+     "t": "2026-11-23T01:21:13+00:00",
+     "equity": 92.83
+    }
+   ],
+   "positions": [],
+   "closed": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
      "title": "Will CSD Colo-Colo win on 2026-11-22?",
      "outcome": "No",
      "event_slug": "chi1-csc-cuc-2026-11-22",
      "cost": 5.19,
-     "shares": 8.17,
-     "avg": 0.635,
-     "mark": 0.0005,
-     "opened": "2026-11-22T20:11:28+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -5.19,
+     "kfee": 0.14,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "title": "Will CD Universidad Cat\u00f3lica win on 2026-11-22?",
+     "outcome": "Yes",
+     "event_slug": "chi1-csc-cuc-2026-11-22",
+     "cost": 4.26,
+     "pnl": -4.26,
+     "kfee": 0.19,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-22T23:20:48+00:00",
      "title": "Will CA Paranaense win on 2026-11-22?",
@@ -3804,21 +3847,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 105.37,
-   "cash": 97.64,
-   "pnl": 5.37,
-   "pnl_after_kalshi_fees": 4.45,
+   "equity": 105.41,
+   "cash": 105.41,
+   "pnl": 5.41,
+   "pnl_after_kalshi_fees": 4.49,
    "return_pct": 5.4,
-   "realized": 2.11,
+   "realized": 5.41,
    "kalshi_fees": 0.92,
-   "settled": 9,
-   "won": 8,
+   "settled": 10,
+   "won": 9,
    "lost": 1,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.47,
+   "open": 0,
+   "at_risk": 0,
    "copied": 10,
-   "skipped": 21,
+   "skipped": 22,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -4100,21 +4143,25 @@
     {
      "t": "2026-11-23T00:20:42+00:00",
      "equity": 105.37
+    },
+    {
+     "t": "2026-11-23T01:21:13+00:00",
+     "equity": 105.41
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-23T01:21:13+00:00",
      "title": "Nuggets vs. Bulls: Race to 10 Points",
      "outcome": "Nuggets",
      "event_slug": "nba-den-chi-2026-11-22",
      "cost": 4.47,
-     "shares": 7.77,
-     "avg": 0.575,
-     "mark": 0.995,
-     "opened": "2026-11-23T00:13:23+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 3.3,
+     "kfee": 0.14,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-22T23:20:48+00:00",
      "title": "Nickeil Alexander-Walker: Points O/U 14.5",
@@ -4216,6 +4263,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T01:21:13+00:00",
+     "kind": "skip",
+     "title": "Pelle Larsson: Points O/U 14.5",
+     "outcome": "Yes",
+     "event_slug": "nba-okc-mia-2026-11-22",
+     "leader_usd": 42.14,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.928
+    },
     {
      "ts": "2026-11-23T00:20:42+00:00",
      "kind": "skip",

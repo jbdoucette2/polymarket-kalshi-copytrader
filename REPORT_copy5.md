@@ -1,14 +1,14 @@
 # Copy-5 paper accounts
 
-Updated 2026-11-23T00:20:45+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
+Updated 2026-11-23T01:21:16+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
 
 | Acct | Leader | Risk | Equity | P&L | After Kalshi fees | W-L | Sold early | Open | Max drawdown |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) | High | $96.81 | -3.19 | -6.20 | 7-9 | 0 | 3 ($17.23) | 20.7% |
-| B | [Flipadelphia](https://polymarket.com/profile/0x448861155279dbf833d041b963e3ac854599e319) | Medium | $86.57 | -13.43 | -16.10 | 6-12 | 0 | 3 ($11.36) | 27.9% |
-| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $37.41 | -62.59 | -67.64 | 11-20 | 0 | 4 ($20.85) | 73.4% |
-| D | [GetsOnBase](https://polymarket.com/profile/0x018d6c652ca2f1d428a1186faafcf03b537eac8a) | Medium-high: few, large bets | $92.84 | -7.16 | -8.52 | 3-3 | 0 | 2 ($9.45) | 14.2% |
-| E | [dabossrealman](https://polymarket.com/profile/0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38) | Control: in-game bettor | $105.37 | +5.37 | +4.45 | 8-1 | 0 | 1 ($4.47) | 8.9% |
+| A | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) | High | $94.62 | -5.38 | -8.58 | 8-9 | 0 | 3 ($16.97) | 20.7% |
+| B | [Flipadelphia](https://polymarket.com/profile/0x448861155279dbf833d041b963e3ac854599e319) | Medium | $85.91 | -14.09 | -16.76 | 6-14 | 0 | 1 ($3.01) | 28.5% |
+| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $39.64 | -60.36 | -65.41 | 12-20 | 0 | 3 ($8.79) | 73.4% |
+| D | [GetsOnBase](https://polymarket.com/profile/0x018d6c652ca2f1d428a1186faafcf03b537eac8a) | Medium-high: few, large bets | $92.83 | -7.17 | -8.53 | 3-5 | 0 | 0 ($0.00) | 14.2% |
+| E | [dabossrealman](https://polymarket.com/profile/0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38) | Control: in-game bettor | $105.41 | +5.41 | +4.49 | 9-1 | 0 | 0 ($0.00) | 8.9% |
 
 ## Backtest: 30 days, instant copy (leader's own price)
 

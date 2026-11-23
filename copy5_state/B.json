@@ -7,32 +7,6 @@
  "since": 1795198438,
  "last_ts": 1795382345,
  "positions": {
-  "82745281538915421952221507132504462395107833120570201635292892946896604078907": {
-   "cond": "0xb87394acb866f72b1a1d5e283dbb8065dd9eae30ad6e411619b51f856c561d2b",
-   "idx": 0,
-   "outcome": "Jaguars",
-   "title": "Spread: Jaguars (-1.5)",
-   "slug": "nfl-jax-nyg-2026-11-22-spread-away-1pt5",
-   "event_slug": "nfl-jax-nyg-2026-11-22",
-   "shares": 10.251851851851852,
-   "cost": 6.92,
-   "kfee": 0.16,
-   "opened": "2026-11-22T14:15:37+00:00",
-   "mark": 0.06
-  },
-  "6844246538829017143835962577945574364040251705780557785839755486721734484504": {
-   "cond": "0x21ecf08c86db16c88aca8618b105308caa6840e69e8650e5498532e35be1ecd6",
-   "idx": 0,
-   "outcome": "Jaguars",
-   "title": "Spread: Jaguars (-6.5)",
-   "slug": "nfl-jax-nyg-2026-11-22-spread-away-6pt5",
-   "event_slug": "nfl-jax-nyg-2026-11-22",
-   "shares": 3.0105263157894737,
-   "cost": 1.43,
-   "kfee": 0.06,
-   "opened": "2026-11-22T14:17:34+00:00",
-   "mark": 0.019
-  },
   "99515425688162145433015537697061766068227910832727697250207811996495663573106": {
    "cond": "0x27748e74503ff93d998d1e857980c43eca77c38efd61f642dd43d41a18525250",
    "idx": 1,
@@ -44,7 +18,7 @@
    "cost": 3.01,
    "kfee": 0.02,
    "opened": "2026-11-22T21:19:05+00:00",
-   "mark": 0.9295
+   "mark": 0.9315
   }
  },
  "leader_shares": {
@@ -283,6 +257,28 @@
    "cost": 4.09,
    "pnl": -4.09,
    "kfee": 0.16,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-23T01:21:13+00:00",
+   "title": "Spread: Jaguars (-1.5)",
+   "outcome": "Jaguars",
+   "event_slug": "nfl-jax-nyg-2026-11-22",
+   "cost": 6.92,
+   "pnl": -6.92,
+   "kfee": 0.16,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-23T01:21:13+00:00",
+   "title": "Spread: Jaguars (-6.5)",
+   "outcome": "Jaguars",
+   "event_slug": "nfl-jax-nyg-2026-11-22",
+   "cost": 1.43,
+   "pnl": -1.43,
+   "kfee": 0.06,
    "how": "lost",
    "exit_price": 0.0
   }
@@ -1007,6 +1003,10 @@
   {
    "t": "2026-11-23T00:20:42+00:00",
    "equity": 86.57
+  },
+  {
+   "t": "2026-11-23T01:21:13+00:00",
+   "equity": 85.91
   }
  ],
  "kfees": 2.67,
