@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:13:49+00:00",
+ "updated": "2026-11-23T00:20:45+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 96.91,
+   "equity": 96.81,
    "cash": 78.81,
-   "pnl": -3.09,
-   "pnl_after_kalshi_fees": -6.1,
-   "return_pct": -3.1,
+   "pnl": -3.19,
+   "pnl_after_kalshi_fees": -6.2,
+   "return_pct": -3.2,
    "realized": -3.95,
    "kalshi_fees": 3.01,
    "settled": 16,
@@ -301,6 +301,10 @@
     {
      "t": "2026-11-23T00:13:47+00:00",
      "equity": 96.91
+    },
+    {
+     "t": "2026-11-23T00:20:42+00:00",
+     "equity": 96.81
     }
    ],
    "positions": [
@@ -311,7 +315,7 @@
      "cost": 6.02,
      "shares": 7.12,
      "avg": 0.845,
-     "mark": 0.987,
+     "mark": 0.972,
      "opened": "2026-11-22T19:08:16+00:00"
     },
     {
@@ -938,11 +942,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 87.29,
+   "equity": 86.57,
    "cash": 82.93,
-   "pnl": -12.71,
-   "pnl_after_kalshi_fees": -15.38,
-   "return_pct": -12.7,
+   "pnl": -13.43,
+   "pnl_after_kalshi_fees": -16.1,
+   "return_pct": -13.4,
    "realized": -5.71,
    "kalshi_fees": 2.67,
    "settled": 18,
@@ -953,7 +957,7 @@
    "at_risk": 11.36,
    "copied": 21,
    "skipped": 18,
-   "max_drawdown_pct": 27.4,
+   "max_drawdown_pct": 27.9,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1230,6 +1234,10 @@
     {
      "t": "2026-11-23T00:13:47+00:00",
      "equity": 87.29
+    },
+    {
+     "t": "2026-11-23T00:20:42+00:00",
+     "equity": 86.57
     }
    ],
    "positions": [
@@ -1240,7 +1248,7 @@
      "cost": 6.92,
      "shares": 10.25,
      "avg": 0.675,
-     "mark": 0.13,
+     "mark": 0.06,
      "opened": "2026-11-22T14:15:37+00:00"
     },
     {
@@ -1250,7 +1258,7 @@
      "cost": 1.43,
      "shares": 3.01,
      "avg": 0.475,
-     "mark": 0.02,
+     "mark": 0.019,
      "opened": "2026-11-22T14:17:34+00:00"
     },
     {
@@ -1922,11 +1930,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 37.11,
+   "equity": 37.41,
    "cash": 13.16,
-   "pnl": -62.89,
-   "pnl_after_kalshi_fees": -67.94,
-   "return_pct": -62.9,
+   "pnl": -62.59,
+   "pnl_after_kalshi_fees": -67.64,
+   "return_pct": -62.6,
    "realized": -65.99,
    "kalshi_fees": 5.05,
    "settled": 31,
@@ -2214,6 +2222,10 @@
     {
      "t": "2026-11-23T00:13:47+00:00",
      "equity": 37.11
+    },
+    {
+     "t": "2026-11-23T00:20:42+00:00",
+     "equity": 37.41
     }
    ],
    "positions": [
@@ -2234,7 +2246,7 @@
      "cost": 12.06,
      "shares": 14.44,
      "avg": 0.835,
-     "mark": 0.987,
+     "mark": 0.972,
      "opened": "2026-11-22T15:58:49+00:00"
     },
     {
@@ -2254,7 +2266,7 @@
      "cost": 2.16,
      "shares": 3.76,
      "avg": 0.575,
-     "mark": 0.48,
+     "mark": 0.615,
      "opened": "2026-11-22T22:30:44+00:00"
     }
    ],
@@ -3592,6 +3604,10 @@
     {
      "t": "2026-11-23T00:13:47+00:00",
      "equity": 92.84
+    },
+    {
+     "t": "2026-11-23T00:20:42+00:00",
+     "equity": 92.84
     }
    ],
    "positions": [
@@ -3788,11 +3804,11 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 101.06,
+   "equity": 105.37,
    "cash": 97.64,
-   "pnl": 1.06,
-   "pnl_after_kalshi_fees": 0.14,
-   "return_pct": 1.1,
+   "pnl": 5.37,
+   "pnl_after_kalshi_fees": 4.45,
+   "return_pct": 5.4,
    "realized": 2.11,
    "kalshi_fees": 0.92,
    "settled": 9,
@@ -3802,7 +3818,7 @@
    "open": 1,
    "at_risk": 4.47,
    "copied": 10,
-   "skipped": 20,
+   "skipped": 21,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -4080,6 +4096,10 @@
     {
      "t": "2026-11-23T00:13:47+00:00",
      "equity": 101.06
+    },
+    {
+     "t": "2026-11-23T00:20:42+00:00",
+     "equity": 105.37
     }
    ],
    "positions": [
@@ -4090,7 +4110,7 @@
      "cost": 4.47,
      "shares": 7.77,
      "avg": 0.575,
-     "mark": 0.44,
+     "mark": 0.995,
      "opened": "2026-11-23T00:13:23+00:00"
     }
    ],
@@ -4196,6 +4216,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T00:20:42+00:00",
+     "kind": "skip",
+     "title": "Nuggets vs. Bulls: Race to 20 Points",
+     "outcome": "Bulls",
+     "event_slug": "nba-den-chi-2026-11-22",
+     "leader_usd": 14.7,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.809
+    },
     {
      "ts": "2026-11-23T00:13:47+00:00",
      "kind": "buy",
