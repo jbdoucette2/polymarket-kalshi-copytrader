@@ -1,12 +1,11 @@
 # Five $100 paper accounts, each mirroring one Polymarket wallet (copy5.py). Paper only: no keys, no orders.
-# Runs every 15 minutes on GitHub's servers, so the laptop can be off. Free: public repos get unlimited
-# Actions minutes; a private repo gets 2,000 free minutes/month (~1 min per run, so use "*/30" there).
-# Results: docs/index.html (turn on GitHub Pages: Settings > Pages > Deploy from branch > main > /docs)
-# and REPORT_copy5.md. GitHub may start scheduled runs a few minutes late; that's expected.
+# Also runs Sharp Filter (sharp.py). Runs on GitHub's servers, so the laptop can be off. Free: the repo is
+# public, so Actions minutes are unlimited. Results: REPORT_copy5.md, REPORT_sharp.md and docs/*.json
+# (a Claude routine copies those into the phone page).
 name: copy5
 on:
-  schedule:
-    - cron: "7,37 * * * *"   # twice an hour, off the busy :00/:30 marks (GitHub drops or delays those most)
+  # No GitHub schedule: it fired only now and then. A free cron-job.org job starts this workflow every
+  # 15 minutes through GitHub's API (POST .../actions/workflows/copy5.yml/dispatches, body {"ref":"main"}).
   workflow_dispatch:
     inputs:
       backtest_days:
