@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:14:48+00:00",
+ "updated": "2026-11-23T22:17:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -400,6 +400,10 @@
     },
     {
      "t": "2026-11-23T22:14:45+00:00",
+     "equity": 99.96
+    },
+    {
+     "t": "2026-11-23T22:17:17+00:00",
      "equity": 99.96
     }
    ],
@@ -1500,6 +1504,10 @@
     {
      "t": "2026-11-23T22:14:45+00:00",
      "equity": 73.04
+    },
+    {
+     "t": "2026-11-23T22:17:17+00:00",
+     "equity": 73.04
     }
    ],
    "positions": [
@@ -2296,20 +2304,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 45.81,
-   "cash": 21.99,
-   "pnl": -54.19,
-   "pnl_after_kalshi_fees": -60.17,
-   "return_pct": -54.2,
+   "equity": 45.57,
+   "cash": 19.21,
+   "pnl": -54.43,
+   "pnl_after_kalshi_fees": -60.48,
+   "return_pct": -54.4,
    "realized": -53.62,
-   "kalshi_fees": 5.98,
+   "kalshi_fees": 6.05,
    "settled": 36,
    "won": 16,
    "lost": 20,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 24.38,
-   "copied": 54,
+   "open": 10,
+   "at_risk": 27.16,
+   "copied": 55,
    "skipped": 44,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2688,6 +2696,10 @@
     {
      "t": "2026-11-23T22:14:45+00:00",
      "equity": 45.81
+    },
+    {
+     "t": "2026-11-23T22:17:17+00:00",
+     "equity": 45.57
     }
    ],
    "positions": [
@@ -2718,7 +2730,7 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.645,
+     "mark": 0.55,
      "opened": "2026-11-23T16:11:56+00:00"
     },
     {
@@ -2780,6 +2792,16 @@
      "avg": 0.555,
      "mark": 0.545,
      "opened": "2026-11-23T22:02:07+00:00"
+    },
+    {
+     "title": "Spread: SC Internacional (-1.5)",
+     "outcome": "EC Vit\u00f3ria",
+     "event_slug": "bra-int-vit-2026-11-23-more-markets",
+     "cost": 2.78,
+     "shares": 4.24,
+     "avg": 0.655,
+     "mark": 0.655,
+     "opened": "2026-11-23T22:16:52+00:00"
     }
    ],
    "closed": [
@@ -3181,6 +3203,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T22:17:17+00:00",
+     "kind": "buy",
+     "title": "Spread: SC Internacional (-1.5)",
+     "outcome": "EC Vit\u00f3ria",
+     "event_slug": "bra-int-vit-2026-11-23-more-markets",
+     "leader_usd": 2366.0,
+     "stake": 2.78,
+     "price": 0.655,
+     "leader_price": 0.65,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T22:14:45+00:00",
      "kind": "buy",
@@ -3860,17 +3894,6 @@
      "reason": "too late: outcome already decided",
      "price": 0.001,
      "leader_price": 0.34
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "skip",
-     "title": "Spread: Georgia Southern (-8.5)",
-     "outcome": "Troy",
-     "event_slug": "cfb-gas-troy-2026-11-21",
-     "leader_usd": 1143.5,
-     "reason": "out of cash",
-     "price": 0.515,
-     "leader_price": 0.5
     }
    ]
   },
@@ -4270,6 +4293,10 @@
     },
     {
      "t": "2026-11-23T22:14:45+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T22:17:17+00:00",
      "equity": 92.83
     }
    ],
@@ -4859,6 +4886,10 @@
     },
     {
      "t": "2026-11-23T22:14:45+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T22:17:17+00:00",
      "equity": 105.41
     }
    ],
