@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-22T23:20:54+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-23T00:13:50+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$107.95** (+7.95; after Kalshi fees +7.46) · 2-0 · sold early 0 · 1 open ($5.15) · max drawdown 1.8%
 
@@ -21,6 +21,8 @@ Updated 2026-11-22T23:20:54+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-23 00:13 | skip | Vikings vs. 49ers: O/U 44.5 | Under | gmpm2 | market didn't react |
+| 11-23 00:13 | skip | Vikings vs. 49ers: O/U 46.5 | Under | gmpm2 | small bet for this wallet |
 | 11-22 23:20 | skip | Vikings vs. 49ers | 49ers | gmpm2 | already have a bet on this game |
 | 11-22 23:20 | skip | Spread: 49ers (-3.5) | 49ers | gmpm2 | small bet for this wallet |
 | 11-22 23:20 | skip | Vikings vs. 49ers: O/U 44.5 | Under | gmpm2 | already have a bet on this game |
