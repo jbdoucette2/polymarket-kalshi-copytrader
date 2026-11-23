@@ -7,32 +7,6 @@
  "since": 1795198438,
  "last_ts": 1795444951,
  "positions": {
-  "99515425688162145433015537697061766068227910832727697250207811996495663573106": {
-   "cond": "0x27748e74503ff93d998d1e857980c43eca77c38efd61f642dd43d41a18525250",
-   "idx": 1,
-   "outcome": "No",
-   "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-   "slug": "will-jensen-huang-rejoin-nvidia-by-december-31-2026",
-   "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
-   "shares": 8.901372481567149,
-   "cost": 8.17,
-   "kfee": 0.06,
-   "opened": "2026-11-22T21:19:05+00:00",
-   "mark": 0.0005
-  },
-  "78050707233661870173074202833865854714024023780994250642218115804678415254675": {
-   "cond": "0x6368d1c0daed920fb7cb4444636b605e8b02d700dfdf70bba2758a7c0c4054cb",
-   "idx": 1,
-   "outcome": "No",
-   "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-   "slug": "will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-   "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
-   "shares": 5.225316455696203,
-   "cost": 5.16,
-   "kfee": 0.01,
-   "opened": "2026-11-23T10:58:01+00:00",
-   "mark": 0.0005
-  },
   "49952287244614575734723913757649087902024339238007187585607375183859292977482": {
    "cond": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
    "idx": 1,
@@ -44,7 +18,7 @@
    "cost": 5.16,
    "kfee": 0.16,
    "opened": "2026-11-23T11:33:11+00:00",
-   "mark": 0.585
+   "mark": 0.595
   }
  },
  "leader_shares": {
@@ -309,6 +283,28 @@
    "cost": 1.43,
    "pnl": -1.43,
    "kfee": 0.06,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-23T16:21:49+00:00",
+   "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+   "outcome": "No",
+   "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+   "cost": 8.17,
+   "pnl": -8.17,
+   "kfee": 0.06,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-23T16:21:49+00:00",
+   "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+   "outcome": "No",
+   "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+   "cost": 5.16,
+   "pnl": -5.16,
+   "kfee": 0.01,
    "how": "lost",
    "exit_price": 0.0
   }
@@ -1155,6 +1151,10 @@
   {
    "t": "2026-11-23T15:20:54+00:00",
    "equity": 72.8
+  },
+  {
+   "t": "2026-11-23T16:21:49+00:00",
+   "equity": 72.89
   }
  ],
  "kfees": 2.88,
