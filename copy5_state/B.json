@@ -3,9 +3,9 @@
  "name": "Flipadelphia",
  "addr": "0x448861155279dbf833d041b963e3ac854599e319",
  "start": 100.0,
- "cash": 63.0939,
+ "cash": 59.4639,
  "since": 1795198438,
- "last_ts": 1795470020,
+ "last_ts": 1795474601,
  "positions": {
   "49952287244614575734723913757649087902024339238007187585607375183859292977482": {
    "cond": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
@@ -18,7 +18,7 @@
    "cost": 5.16,
    "kfee": 0.16,
    "opened": "2026-11-23T11:33:11+00:00",
-   "mark": 0.655
+   "mark": 0.675
   },
   "19884202204363090591845974364927513432419394537229594683046302661092511466716": {
    "cond": "0x8a42bb4cb9b9f157b539611f6a8c122388f652570cfc3c07d538e7df2bb78894",
@@ -27,11 +27,24 @@
    "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
    "slug": "will-ulf-kristersson-be-the-next-prime-minister-of-sweden",
    "event_slug": "next-prime-minister-of-sweden",
-   "shares": 6.397652237710933,
-   "cost": 4.36,
-   "kfee": 0.1,
+   "shares": 8.286128074142159,
+   "cost": 5.63,
+   "kfee": 0.13,
    "opened": "2026-11-23T21:40:19+00:00",
-   "mark": 0.628
+   "mark": 0.6605
+  },
+  "25832552647557838111946249126827390264485440304971811900387354937650418146262": {
+   "cond": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8",
+   "idx": 0,
+   "outcome": "Yes",
+   "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+   "slug": "will-psoe-win-the-most-seats-in-the-2026-spanish-general-election",
+   "event_slug": "spain-general-election-winner",
+   "shares": 9.254901960784313,
+   "cost": 2.36,
+   "kfee": 0.13,
+   "opened": "2026-11-23T22:56:41+00:00",
+   "mark": 0.245
   }
  },
  "leader_shares": {
@@ -76,7 +89,8 @@
   "26180671930795783086167354944853320138724504174864059426988212642169432238219": 1722.93,
   "49952287244614575734723913757649087902024339238007187585607375183859292977482": 10055.720000000001,
   "35881927903913591668487935030681875729286802786667589217674332358016961558863": 0.0,
-  "19884202204363090591845974364927513432419394537229594683046302661092511466716": 7716.21
+  "19884202204363090591845974364927513432419394537229594683046302661092511466716": 8825.87,
+  "25832552647557838111946249126827390264485440304971811900387354937650418146262": 5589.13
  },
  "median_usd": 1237.9463999999998,
  "closed": [
@@ -843,6 +857,30 @@
    "price": 0.681,
    "leader_price": 0.591,
    "mult": 2.0
+  },
+  {
+   "ts": "2026-11-23T23:02:23+00:00",
+   "kind": "buy",
+   "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+   "outcome": "Yes",
+   "event_slug": "next-prime-minister-of-sweden",
+   "leader_usd": 719.05,
+   "stake": 1.27,
+   "price": 0.672,
+   "leader_price": 0.648,
+   "mult": 0.58
+  },
+  {
+   "ts": "2026-11-23T23:02:23+00:00",
+   "kind": "buy",
+   "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+   "outcome": "Yes",
+   "event_slug": "spain-general-election-winner",
+   "leader_usd": 1341.39,
+   "stake": 2.36,
+   "price": 0.255,
+   "leader_price": 0.24,
+   "mult": 1.08
   }
  ],
  "history": [
@@ -1221,10 +1259,14 @@
   {
    "t": "2026-11-23T22:47:13+00:00",
    "equity": 73.09
+  },
+  {
+   "t": "2026-11-23T23:02:23+00:00",
+   "equity": 73.37
   }
  ],
- "kfees": 2.98,
- "copied": 25,
+ "kfees": 3.14,
+ "copied": 27,
  "skipped": 20,
  "median_ts": 1795461705
 }
