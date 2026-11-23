@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:21:20+00:00",
+ "updated": "2026-11-23T11:21:09+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -348,6 +348,10 @@
     },
     {
      "t": "2026-11-23T10:21:18+00:00",
+     "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T11:21:07+00:00",
      "equity": 100.07
     }
    ],
@@ -1011,20 +1015,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 85.82,
-   "cash": 82.93,
-   "pnl": -14.18,
-   "pnl_after_kalshi_fees": -16.85,
+   "equity": 85.75,
+   "cash": 77.77,
+   "pnl": -14.25,
+   "pnl_after_kalshi_fees": -16.93,
    "return_pct": -14.2,
    "realized": -14.06,
-   "kalshi_fees": 2.67,
+   "kalshi_fees": 2.68,
    "settled": 20,
    "won": 6,
    "lost": 14,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 3.01,
-   "copied": 21,
+   "open": 2,
+   "at_risk": 8.17,
+   "copied": 22,
    "skipped": 20,
    "max_drawdown_pct": 28.6,
    "focus": "College football, NFL",
@@ -1351,6 +1355,10 @@
     {
      "t": "2026-11-23T10:21:18+00:00",
      "equity": 85.82
+    },
+    {
+     "t": "2026-11-23T11:21:07+00:00",
+     "equity": 85.75
     }
    ],
    "positions": [
@@ -1361,8 +1369,18 @@
      "cost": 3.01,
      "shares": 3.19,
      "avg": 0.944,
-     "mark": 0.9045,
+     "mark": 0.9005,
      "opened": "2026-11-22T21:19:05+00:00"
+    },
+    {
+     "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+     "outcome": "No",
+     "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+     "cost": 5.16,
+     "shares": 5.23,
+     "avg": 0.987,
+     "mark": 0.9775,
+     "opened": "2026-11-23T10:58:01+00:00"
     }
    ],
    "closed": [
@@ -1588,6 +1606,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T11:21:07+00:00",
+     "kind": "buy",
+     "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+     "outcome": "No",
+     "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+     "leader_usd": 11969.73,
+     "stake": 5.16,
+     "price": 0.988,
+     "leader_price": 0.972,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T09:21:32+00:00",
      "kind": "skip",
@@ -2406,6 +2436,10 @@
     },
     {
      "t": "2026-11-23T10:21:18+00:00",
+     "equity": 44.05
+    },
+    {
+     "t": "2026-11-23T11:21:07+00:00",
      "equity": 44.05
     }
    ],
@@ -3843,6 +3877,10 @@
     {
      "t": "2026-11-23T10:21:18+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T11:21:07+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4379,6 +4417,10 @@
     },
     {
      "t": "2026-11-23T10:21:18+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T11:21:07+00:00",
      "equity": 105.41
     }
    ],
