@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:20:49+00:00",
+ "updated": "2026-11-23T19:21:48+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -380,6 +380,10 @@
     },
     {
      "t": "2026-11-23T18:20:47+00:00",
+     "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T19:21:45+00:00",
      "equity": 100.07
     }
    ],
@@ -1043,11 +1047,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.2,
+   "equity": 72.29,
    "cash": 67.45,
-   "pnl": -27.8,
-   "pnl_after_kalshi_fees": -30.68,
-   "return_pct": -27.8,
+   "pnl": -27.71,
+   "pnl_after_kalshi_fees": -30.59,
+   "return_pct": -27.7,
    "realized": -27.39,
    "kalshi_fees": 2.88,
    "settled": 22,
@@ -1415,6 +1419,10 @@
     {
      "t": "2026-11-23T18:20:47+00:00",
      "equity": 72.2
+    },
+    {
+     "t": "2026-11-23T19:21:45+00:00",
+     "equity": 72.29
     }
    ],
    "positions": [
@@ -1425,7 +1433,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.52,
+     "mark": 0.53,
      "opened": "2026-11-23T11:33:11+00:00"
     }
    ],
@@ -2189,20 +2197,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.82,
-   "cash": 30.08,
-   "pnl": -56.18,
-   "pnl_after_kalshi_fees": -61.72,
-   "return_pct": -56.2,
+   "equity": 43.31,
+   "cash": 22.16,
+   "pnl": -56.69,
+   "pnl_after_kalshi_fees": -62.5,
+   "return_pct": -56.7,
    "realized": -56.01,
-   "kalshi_fees": 5.54,
+   "kalshi_fees": 5.81,
    "settled": 35,
    "won": 15,
    "lost": 20,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 13.9,
-   "copied": 49,
+   "open": 8,
+   "at_risk": 21.82,
+   "copied": 52,
    "skipped": 40,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2561,6 +2569,10 @@
     {
      "t": "2026-11-23T18:20:47+00:00",
      "equity": 43.82
+    },
+    {
+     "t": "2026-11-23T19:21:45+00:00",
+     "equity": 43.31
     }
    ],
    "positions": [
@@ -2581,7 +2593,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.56,
+     "mark": 0.565,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -2591,7 +2603,7 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.51,
+     "mark": 0.52,
      "opened": "2026-11-23T16:11:56+00:00"
     },
     {
@@ -2611,8 +2623,38 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.515,
+     "mark": 0.435,
      "opened": "2026-11-23T16:43:49+00:00"
+    },
+    {
+     "title": "Will ACF Fiorentina win on 2026-11-23?",
+     "outcome": "No",
+     "event_slug": "sea-mon-fio-2026-11-23",
+     "cost": 2.64,
+     "shares": 5.03,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-23T18:57:26+00:00"
+    },
+    {
+     "title": "Spread: Santa Clara Broncos (-2.5)",
+     "outcome": "Santa Clara Broncos",
+     "event_slug": "cbb-sanclr-illst-2026-11-23",
+     "cost": 2.64,
+     "shares": 4.84,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-23T19:04:31+00:00"
+    },
+    {
+     "title": "Spread: UNLV Runnin' Rebels (-7.5)",
+     "outcome": "UNLV Runnin Rebels",
+     "event_slug": "cbb-ewash-unlv-2026-11-23",
+     "cost": 2.64,
+     "shares": 4.93,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-23T19:15:08+00:00"
     }
    ],
    "closed": [
@@ -3003,6 +3045,42 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T19:21:45+00:00",
+     "kind": "buy",
+     "title": "Spread: UNLV Runnin' Rebels (-7.5)",
+     "outcome": "UNLV Runnin Rebels",
+     "event_slug": "cbb-ewash-unlv-2026-11-23",
+     "leader_usd": 818.48,
+     "stake": 2.64,
+     "price": 0.535,
+     "leader_price": 0.52,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-23T19:21:45+00:00",
+     "kind": "buy",
+     "title": "Spread: Santa Clara Broncos (-2.5)",
+     "outcome": "Santa Clara Broncos",
+     "event_slug": "cbb-sanclr-illst-2026-11-23",
+     "leader_usd": 785.68,
+     "stake": 2.64,
+     "price": 0.545,
+     "leader_price": 0.528,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-23T19:21:45+00:00",
+     "kind": "buy",
+     "title": "Will ACF Fiorentina win on 2026-11-23?",
+     "outcome": "No",
+     "event_slug": "sea-mon-fio-2026-11-23",
+     "leader_usd": 530.0,
+     "stake": 2.64,
+     "price": 0.525,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T17:20:51+00:00",
      "kind": "skip",
@@ -3655,39 +3733,6 @@
      "reason": "out of cash",
      "price": 0.595,
      "leader_price": 0.52
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Spread: Texas Tech (-4.5)",
-     "outcome": "Baylor",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "leader_usd": 1450.08,
-     "reason": "out of cash",
-     "price": 0.485,
-     "leader_price": 0.48
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Texas Tech vs. Baylor: O/U 57.5",
-     "outcome": "Under",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "leader_usd": 750.17,
-     "reason": "out of cash",
-     "price": 0.505,
-     "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-21T18:20:47+00:00",
-     "kind": "skip",
-     "title": "Pelicans vs. Spurs: O/U 228.5",
-     "outcome": "Under",
-     "event_slug": "nba-nop-sas-2026-11-21",
-     "leader_usd": 5304.5,
-     "reason": "out of cash",
-     "price": 0.525,
-     "leader_price": 0.5
     }
    ]
   },
@@ -4067,6 +4112,10 @@
     },
     {
      "t": "2026-11-23T18:20:47+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T19:21:45+00:00",
      "equity": 92.83
     }
    ],
@@ -4636,6 +4685,10 @@
     },
     {
      "t": "2026-11-23T18:20:47+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T19:21:45+00:00",
      "equity": 105.41
     }
    ],
