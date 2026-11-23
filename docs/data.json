@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:31:51+00:00",
+ "updated": "2026-11-23T21:21:32+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -392,6 +392,10 @@
     },
     {
      "t": "2026-11-23T20:31:50+00:00",
+     "equity": 99.95
+    },
+    {
+     "t": "2026-11-23T21:21:30+00:00",
      "equity": 99.95
     }
    ],
@@ -1078,11 +1082,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.8,
+   "equity": 72.71,
    "cash": 67.45,
-   "pnl": -27.2,
-   "pnl_after_kalshi_fees": -30.08,
-   "return_pct": -27.2,
+   "pnl": -27.29,
+   "pnl_after_kalshi_fees": -30.17,
+   "return_pct": -27.3,
    "realized": -27.39,
    "kalshi_fees": 2.88,
    "settled": 22,
@@ -1462,6 +1466,10 @@
     {
      "t": "2026-11-23T20:31:50+00:00",
      "equity": 72.8
+    },
+    {
+     "t": "2026-11-23T21:21:30+00:00",
+     "equity": 72.71
     }
    ],
    "positions": [
@@ -1472,7 +1480,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.585,
+     "mark": 0.575,
      "opened": "2026-11-23T11:33:11+00:00"
     }
    ],
@@ -2236,11 +2244,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 44.53,
+   "equity": 46.14,
    "cash": 19.6,
-   "pnl": -55.47,
-   "pnl_after_kalshi_fees": -61.36,
-   "return_pct": -55.5,
+   "pnl": -53.86,
+   "pnl_after_kalshi_fees": -59.75,
+   "return_pct": -53.9,
    "realized": -56.01,
    "kalshi_fees": 5.89,
    "settled": 35,
@@ -2250,7 +2258,7 @@
    "open": 9,
    "at_risk": 24.38,
    "copied": 53,
-   "skipped": 43,
+   "skipped": 44,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -2620,6 +2628,10 @@
     {
      "t": "2026-11-23T20:31:50+00:00",
      "equity": 44.53
+    },
+    {
+     "t": "2026-11-23T21:21:30+00:00",
+     "equity": 46.14
     }
    ],
    "positions": [
@@ -2650,7 +2662,7 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.515,
+     "mark": 0.705,
      "opened": "2026-11-23T16:11:56+00:00"
     },
     {
@@ -2660,7 +2672,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.505,
+     "mark": 0.495,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2680,7 +2692,7 @@
      "cost": 2.64,
      "shares": 5.03,
      "avg": 0.525,
-     "mark": 0.775,
+     "mark": 0.996,
      "opened": "2026-11-23T18:57:26+00:00"
     },
     {
@@ -2700,7 +2712,7 @@
      "cost": 2.64,
      "shares": 4.93,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.54,
      "opened": "2026-11-23T19:15:08+00:00"
     },
     {
@@ -3102,6 +3114,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T21:21:30+00:00",
+     "kind": "skip",
+     "title": "Counter-Strike: 9z vs Lynn Vision (BO1) - PGL Major Singapore Stage 1",
+     "outcome": "Lynn Vision",
+     "event_slug": "cs2-9z-lvg-2026-11-24",
+     "leader_usd": 1.9,
+     "reason": "below $1 minimum",
+     "price": 0.375,
+     "leader_price": 0.38
+    },
     {
      "ts": "2026-11-23T20:31:50+00:00",
      "kind": "skip",
@@ -3780,17 +3803,6 @@
      "reason": "too late: outcome already decided",
      "price": 0.005,
      "leader_price": 0.47
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "skip",
-     "title": "Will CA Paranaense vs. Clube do Remo end in a draw?",
-     "outcome": "No",
-     "event_slug": "bra-cap-cre-2026-11-22",
-     "leader_usd": 1825.73,
-     "reason": "out of cash",
-     "price": 0.745,
-     "leader_price": 0.73
     }
    ]
   },
@@ -4182,6 +4194,10 @@
     },
     {
      "t": "2026-11-23T20:31:50+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T21:21:30+00:00",
      "equity": 92.83
     }
    ],
@@ -4763,6 +4779,10 @@
     },
     {
      "t": "2026-11-23T20:31:50+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T21:21:30+00:00",
      "equity": 105.41
     }
    ],
