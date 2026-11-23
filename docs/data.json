@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:21:52+00:00",
+ "updated": "2026-11-23T17:20:53+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -372,6 +372,10 @@
     },
     {
      "t": "2026-11-23T16:21:49+00:00",
+     "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T17:20:51+00:00",
      "equity": 100.07
     }
    ],
@@ -1035,11 +1039,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.89,
+   "equity": 72.52,
    "cash": 67.45,
-   "pnl": -27.11,
-   "pnl_after_kalshi_fees": -29.99,
-   "return_pct": -27.1,
+   "pnl": -27.48,
+   "pnl_after_kalshi_fees": -30.36,
+   "return_pct": -27.5,
    "realized": -27.39,
    "kalshi_fees": 2.88,
    "settled": 22,
@@ -1050,7 +1054,7 @@
    "at_risk": 5.16,
    "copied": 24,
    "skipped": 20,
-   "max_drawdown_pct": 39.4,
+   "max_drawdown_pct": 39.6,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1399,6 +1403,10 @@
     {
      "t": "2026-11-23T16:21:49+00:00",
      "equity": 72.89
+    },
+    {
+     "t": "2026-11-23T17:20:51+00:00",
+     "equity": 72.52
     }
    ],
    "positions": [
@@ -1409,7 +1417,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.595,
+     "mark": 0.555,
      "opened": "2026-11-23T11:33:11+00:00"
     }
    ],
@@ -2173,21 +2181,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.83,
-   "cash": 35.36,
-   "pnl": -56.17,
-   "pnl_after_kalshi_fees": -61.53,
-   "return_pct": -56.2,
+   "equity": 43.74,
+   "cash": 30.08,
+   "pnl": -56.26,
+   "pnl_after_kalshi_fees": -61.8,
+   "return_pct": -56.3,
    "realized": -56.01,
-   "kalshi_fees": 5.36,
+   "kalshi_fees": 5.54,
    "settled": 35,
    "won": 15,
    "lost": 20,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 8.62,
-   "copied": 47,
-   "skipped": 39,
+   "open": 5,
+   "at_risk": 13.9,
+   "copied": 49,
+   "skipped": 40,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -2537,6 +2545,10 @@
     {
      "t": "2026-11-23T16:21:49+00:00",
      "equity": 43.83
+    },
+    {
+     "t": "2026-11-23T17:20:51+00:00",
+     "equity": 43.74
     }
    ],
    "positions": [
@@ -2567,8 +2579,28 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.495,
+     "mark": 0.5,
      "opened": "2026-11-23T16:11:56+00:00"
+    },
+    {
+     "title": "Nets vs. Timberwolves: O/U 223.5",
+     "outcome": "Over",
+     "event_slug": "nba-bkn-min-2026-11-23",
+     "cost": 2.64,
+     "shares": 5.13,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-23T16:24:07+00:00"
+    },
+    {
+     "title": "Thunder vs. Pacers: O/U 221.5",
+     "outcome": "Under",
+     "event_slug": "nba-okc-ind-2026-11-23",
+     "cost": 2.64,
+     "shares": 5.13,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-23T16:43:49+00:00"
     }
    ],
    "closed": [
@@ -2959,6 +2991,41 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T17:20:51+00:00",
+     "kind": "skip",
+     "title": "Cavaliers vs. Bulls: O/U 240.5",
+     "outcome": "Under",
+     "event_slug": "nba-cle-chi-2026-11-23",
+     "leader_usd": 149.94,
+     "reason": "below $1 minimum",
+     "price": 0.515,
+     "leader_price": 0.51
+    },
+    {
+     "ts": "2026-11-23T17:20:51+00:00",
+     "kind": "buy",
+     "title": "Thunder vs. Pacers: O/U 221.5",
+     "outcome": "Under",
+     "event_slug": "nba-okc-ind-2026-11-23",
+     "leader_usd": 2978.0,
+     "stake": 2.64,
+     "price": 0.515,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-23T17:20:51+00:00",
+     "kind": "buy",
+     "title": "Nets vs. Timberwolves: O/U 223.5",
+     "outcome": "Over",
+     "event_slug": "nba-bkn-min-2026-11-23",
+     "leader_usd": 6577.0,
+     "stake": 2.64,
+     "price": 0.515,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T16:21:49+00:00",
      "kind": "buy",
@@ -3609,41 +3676,6 @@
      "reason": "out of cash",
      "price": 0.525,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-21T18:20:47+00:00",
-     "kind": "skip",
-     "title": "UFC Fight Night: Brian Ortega vs. Dan Hooker (Lightweight, Main Card)",
-     "outcome": "Brian Ortega",
-     "event_slug": "ufc-bri3-dan6-2026-11-21",
-     "leader_usd": 640.85,
-     "reason": "out of cash",
-     "price": 0.355,
-     "leader_price": 0.35
-    },
-    {
-     "ts": "2026-11-21T17:20:51+00:00",
-     "kind": "buy",
-     "title": "Spread: Texas Tech (-4.5)",
-     "outcome": "Baylor",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "leader_usd": 1113.48,
-     "stake": 3.36,
-     "price": 0.475,
-     "leader_price": 0.475,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T17:20:51+00:00",
-     "kind": "buy",
-     "title": "UFC Fight Night: Brian Ortega vs. Dan Hooker (Lightweight, Main Card)",
-     "outcome": "Brian Ortega",
-     "event_slug": "ufc-bri3-dan6-2026-11-21",
-     "leader_usd": 1661.8,
-     "stake": 4.62,
-     "price": 0.355,
-     "leader_price": 0.35,
-     "mult": 2.0
     }
    ]
   },
@@ -4015,6 +4047,10 @@
     },
     {
      "t": "2026-11-23T16:21:49+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T17:20:51+00:00",
      "equity": 92.83
     }
    ],
@@ -4576,6 +4612,10 @@
     },
     {
      "t": "2026-11-23T16:21:49+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T17:20:51+00:00",
      "equity": 105.41
     }
    ],
