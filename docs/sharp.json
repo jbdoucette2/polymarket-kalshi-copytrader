@@ -3,20 +3,20 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 112.89,
- "cash": 112.89,
- "pnl": 12.89,
- "pnl_after_kalshi_fees": 12.4,
- "return_pct": 12.9,
+ "equity": 112.78,
+ "cash": 107.25,
+ "pnl": 12.78,
+ "pnl_after_kalshi_fees": 12.09,
+ "return_pct": 12.8,
  "realized": 12.89,
- "kalshi_fees": 0.49,
+ "kalshi_fees": 0.69,
  "settled": 3,
  "won": 3,
  "lost": 0,
  "sold_early": 0,
- "open": 0,
- "at_risk": 0,
- "copied": 3,
+ "open": 1,
+ "at_risk": 5.64,
+ "copied": 4,
  "skipped": 18,
  "max_drawdown_pct": 1.8,
  "history": [
@@ -375,6 +375,10 @@
   {
    "t": "2026-11-23T21:21:32+00:00",
    "equity": 112.89
+  },
+  {
+   "t": "2026-11-23T22:14:48+00:00",
+   "equity": 112.78
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -419,7 +423,16 @@
   "copied": 140,
   "skipped": 782
  },
- "positions": [],
+ "positions": [
+  {
+   "title": "Spread: Bengals (-6.5)",
+   "outcome": "Bengals",
+   "leader": "gmpm2",
+   "cost": 5.64,
+   "avg": 0.505,
+   "mark": 0.495
+  }
+ ],
  "closed": [
   {
    "ts": "2026-11-23T05:21:12+00:00",
@@ -456,6 +469,20 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-23T22:14:48+00:00",
+   "kind": "buy",
+   "title": "Spread: Bengals (-6.5)",
+   "outcome": "Bengals",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "leader_usd": 34619.73,
+   "stake": 5.64,
+   "price": 0.505,
+   "leader_price": 0.49,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
+  },
   {
    "ts": "2026-11-23T00:13:49+00:00",
    "kind": "skip",
@@ -715,6 +742,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-23T21:21:33+00:00",
+ "updated": "2026-11-23T22:14:50+00:00",
  "start": 100.0
 }

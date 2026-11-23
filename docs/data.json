@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:21:32+00:00",
+ "updated": "2026-11-23T22:14:48+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.95,
-   "cash": 94.07,
-   "pnl": -0.05,
-   "pnl_after_kalshi_fees": -3.47,
+   "equity": 99.96,
+   "cash": 88.07,
+   "pnl": -0.04,
+   "pnl_after_kalshi_fees": -3.66,
    "return_pct": -0.0,
    "realized": 0.08,
-   "kalshi_fees": 3.42,
+   "kalshi_fees": 3.62,
    "settled": 20,
    "won": 10,
    "lost": 10,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.0,
-   "copied": 23,
+   "open": 2,
+   "at_risk": 12.0,
+   "copied": 24,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -397,6 +397,10 @@
     {
      "t": "2026-11-23T21:21:30+00:00",
      "equity": 99.95
+    },
+    {
+     "t": "2026-11-23T22:14:45+00:00",
+     "equity": 99.96
     }
    ],
    "positions": [
@@ -407,8 +411,18 @@
      "cost": 6.0,
      "shares": 12.12,
      "avg": 0.495,
-     "mark": 0.485,
+     "mark": 0.495,
      "opened": "2026-11-23T19:50:08+00:00"
+    },
+    {
+     "title": "Spread: Bengals (-5.5)",
+     "outcome": "Bengals",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "cost": 6.0,
+     "shares": 11.01,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-23T21:48:28+00:00"
     }
    ],
    "closed": [
@@ -634,6 +648,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T22:14:45+00:00",
+     "kind": "buy",
+     "title": "Spread: Bengals (-5.5)",
+     "outcome": "Bengals",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "leader_usd": 84369.72,
+     "stake": 6.0,
+     "price": 0.545,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T20:21:16+00:00",
      "kind": "buy",
@@ -1082,20 +1108,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.71,
-   "cash": 67.45,
-   "pnl": -27.29,
-   "pnl_after_kalshi_fees": -30.17,
-   "return_pct": -27.3,
+   "equity": 73.04,
+   "cash": 63.09,
+   "pnl": -26.96,
+   "pnl_after_kalshi_fees": -29.94,
+   "return_pct": -27.0,
    "realized": -27.39,
-   "kalshi_fees": 2.88,
+   "kalshi_fees": 2.98,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 5.16,
-   "copied": 24,
+   "open": 2,
+   "at_risk": 9.52,
+   "copied": 25,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -1470,6 +1496,10 @@
     {
      "t": "2026-11-23T21:21:30+00:00",
      "equity": 72.71
+    },
+    {
+     "t": "2026-11-23T22:14:45+00:00",
+     "equity": 73.04
     }
    ],
    "positions": [
@@ -1480,8 +1510,18 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.575,
+     "mark": 0.645,
      "opened": "2026-11-23T11:33:11+00:00"
+    },
+    {
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "cost": 4.36,
+     "shares": 6.4,
+     "avg": 0.681,
+     "mark": 0.6345,
+     "opened": "2026-11-23T21:40:19+00:00"
     }
    ],
    "closed": [
@@ -1729,6 +1769,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T22:14:45+00:00",
+     "kind": "buy",
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 4556.77,
+     "stake": 4.36,
+     "price": 0.681,
+     "leader_price": 0.591,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T12:21:57+00:00",
      "kind": "buy",
@@ -2244,20 +2296,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.14,
-   "cash": 19.6,
-   "pnl": -53.86,
-   "pnl_after_kalshi_fees": -59.75,
-   "return_pct": -53.9,
-   "realized": -56.01,
-   "kalshi_fees": 5.89,
-   "settled": 35,
-   "won": 15,
+   "equity": 45.81,
+   "cash": 21.99,
+   "pnl": -54.19,
+   "pnl_after_kalshi_fees": -60.17,
+   "return_pct": -54.2,
+   "realized": -53.62,
+   "kalshi_fees": 5.98,
+   "settled": 36,
+   "won": 16,
    "lost": 20,
    "sold_early": 0,
    "open": 9,
    "at_risk": 24.38,
-   "copied": 53,
+   "copied": 54,
    "skipped": 44,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2632,6 +2684,10 @@
     {
      "t": "2026-11-23T21:21:30+00:00",
      "equity": 46.14
+    },
+    {
+     "t": "2026-11-23T22:14:45+00:00",
+     "equity": 45.81
     }
    ],
    "positions": [
@@ -2662,7 +2718,7 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.705,
+     "mark": 0.645,
      "opened": "2026-11-23T16:11:56+00:00"
     },
     {
@@ -2672,7 +2728,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.495,
+     "mark": 0.485,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2682,18 +2738,8 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.435,
+     "mark": 0.415,
      "opened": "2026-11-23T16:43:49+00:00"
-    },
-    {
-     "title": "Will ACF Fiorentina win on 2026-11-23?",
-     "outcome": "No",
-     "event_slug": "sea-mon-fio-2026-11-23",
-     "cost": 2.64,
-     "shares": 5.03,
-     "avg": 0.525,
-     "mark": 0.996,
-     "opened": "2026-11-23T18:57:26+00:00"
     },
     {
      "title": "Spread: Santa Clara Broncos (-2.5)",
@@ -2724,9 +2770,30 @@
      "avg": 0.56,
      "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
+    },
+    {
+     "title": "Chiefs vs. Bills: O/U 50.5",
+     "outcome": "Under",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "cost": 2.64,
+     "shares": 4.76,
+     "avg": 0.555,
+     "mark": 0.545,
+     "opened": "2026-11-23T22:02:07+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-23T22:14:45+00:00",
+     "title": "Will ACF Fiorentina win on 2026-11-23?",
+     "outcome": "No",
+     "event_slug": "sea-mon-fio-2026-11-23",
+     "cost": 2.64,
+     "pnl": 2.39,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T03:21:14+00:00",
      "title": "Oilers vs. Blues: O/U 5.5",
@@ -3114,6 +3181,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T22:14:45+00:00",
+     "kind": "buy",
+     "title": "Chiefs vs. Bills: O/U 50.5",
+     "outcome": "Under",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "leader_usd": 895.7,
+     "stake": 2.64,
+     "price": 0.555,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T21:21:30+00:00",
      "kind": "skip",
@@ -3792,17 +3871,6 @@
      "reason": "out of cash",
      "price": 0.515,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "skip",
-     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
-     "outcome": "Aljamain Sterling",
-     "event_slug": "ufc-alj-kev16-2026-11-21",
-     "leader_usd": 4999.86,
-     "reason": "too late: outcome already decided",
-     "price": 0.005,
-     "leader_price": 0.47
     }
    ]
   },
@@ -4198,6 +4266,10 @@
     },
     {
      "t": "2026-11-23T21:21:30+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T22:14:45+00:00",
      "equity": 92.83
     }
    ],
@@ -4783,6 +4855,10 @@
     },
     {
      "t": "2026-11-23T21:21:30+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T22:14:45+00:00",
      "equity": 105.41
     }
    ],
