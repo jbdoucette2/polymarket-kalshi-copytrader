@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T11:21:09+00:00",
+ "updated": "2026-11-23T12:21:59+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -352,6 +352,10 @@
     },
     {
      "t": "2026-11-23T11:21:07+00:00",
+     "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T12:21:57+00:00",
      "equity": 100.07
     }
    ],
@@ -1015,22 +1019,22 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 85.75,
-   "cash": 77.77,
-   "pnl": -14.25,
-   "pnl_after_kalshi_fees": -16.93,
-   "return_pct": -14.2,
+   "equity": 85.59,
+   "cash": 67.45,
+   "pnl": -14.41,
+   "pnl_after_kalshi_fees": -17.29,
+   "return_pct": -14.4,
    "realized": -14.06,
-   "kalshi_fees": 2.68,
+   "kalshi_fees": 2.88,
    "settled": 20,
    "won": 6,
    "lost": 14,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 8.17,
-   "copied": 22,
+   "open": 3,
+   "at_risk": 18.49,
+   "copied": 24,
    "skipped": 20,
-   "max_drawdown_pct": 28.6,
+   "max_drawdown_pct": 28.7,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -1359,6 +1363,10 @@
     {
      "t": "2026-11-23T11:21:07+00:00",
      "equity": 85.75
+    },
+    {
+     "t": "2026-11-23T12:21:57+00:00",
+     "equity": 85.59
     }
    ],
    "positions": [
@@ -1366,10 +1374,10 @@
      "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
      "outcome": "No",
      "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
-     "cost": 3.01,
-     "shares": 3.19,
-     "avg": 0.944,
-     "mark": 0.9005,
+     "cost": 8.17,
+     "shares": 8.9,
+     "avg": 0.918,
+     "mark": 0.8935,
      "opened": "2026-11-22T21:19:05+00:00"
     },
     {
@@ -1379,8 +1387,18 @@
      "cost": 5.16,
      "shares": 5.23,
      "avg": 0.987,
-     "mark": 0.9775,
+     "mark": 0.979,
      "opened": "2026-11-23T10:58:01+00:00"
+    },
+    {
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "cost": 5.16,
+     "shares": 9.13,
+     "avg": 0.565,
+     "mark": 0.555,
+     "opened": "2026-11-23T11:33:11+00:00"
     }
    ],
    "closed": [
@@ -1606,6 +1624,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T12:21:57+00:00",
+     "kind": "buy",
+     "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+     "outcome": "No",
+     "event_slug": "jensen-huang-rejoins-nvidia-byptptpt",
+     "leader_usd": 5293.21,
+     "stake": 5.16,
+     "price": 0.903,
+     "leader_price": 0.88,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-23T12:21:57+00:00",
+     "kind": "buy",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 5486.78,
+     "stake": 5.16,
+     "price": 0.565,
+     "leader_price": 0.546,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T11:21:07+00:00",
      "kind": "buy",
@@ -2440,6 +2482,10 @@
     },
     {
      "t": "2026-11-23T11:21:07+00:00",
+     "equity": 44.05
+    },
+    {
+     "t": "2026-11-23T12:21:57+00:00",
      "equity": 44.05
     }
    ],
@@ -3881,6 +3927,10 @@
     {
      "t": "2026-11-23T11:21:07+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T12:21:57+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4421,6 +4471,10 @@
     },
     {
      "t": "2026-11-23T11:21:07+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T12:21:57+00:00",
      "equity": 105.41
     }
    ],
