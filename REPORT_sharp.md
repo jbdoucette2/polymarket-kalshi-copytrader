@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-23T01:21:18+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-23T02:21:03+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$108.06** (+8.06; after Kalshi fees +7.57) · 2-0 · sold early 0 · 1 open ($5.15) · max drawdown 1.8%
+**$108.78** (+8.78; after Kalshi fees +8.29) · 2-0 · sold early 0 · 1 open ($5.15) · max drawdown 1.8%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,7 +15,7 @@ Updated 2026-11-23T01:21:18+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
-| Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 | 54c |
+| Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 | 60c |
 
 ## Recent decisions
 
