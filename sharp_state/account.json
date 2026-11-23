@@ -716,6 +716,10 @@
   {
    "t": "2026-11-23T23:17:21+00:00",
    "equity": 112.89
+  },
+  {
+   "t": "2026-11-23T23:32:14+00:00",
+   "equity": 112.89
   }
  ],
  "kfees": 0.69,
@@ -751,24 +755,6 @@
  },
  "bench": [],
  "recent": [
-  [
-   1795389652,
-   "0x6fc896c49abd395b45e90506979246adfbef33d95415de21fcd53aca90f41f4b",
-   1,
-   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
-  ],
-  [
-   1795389652,
-   "0x23d2d26608aa318d165ce0ed3f711d3caabbbf6f9c28b41fdf10a10e91b8d789",
-   1,
-   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
-  ],
-  [
-   1795389652,
-   "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
-   1,
-   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
-  ],
   [
    1795472088,
    "0xccf963f2dcfddc7802aa7762d96736e09e9b4ab9eb4c5332c3b0f23f47c2cca8",
