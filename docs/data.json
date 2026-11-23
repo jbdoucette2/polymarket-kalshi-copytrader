@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:21:48+00:00",
+ "updated": "2026-11-23T20:21:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.07,
-   "cash": 100.07,
-   "pnl": 0.07,
-   "pnl_after_kalshi_fees": -3.13,
-   "return_pct": 0.1,
+   "equity": 99.95,
+   "cash": 94.07,
+   "pnl": -0.05,
+   "pnl_after_kalshi_fees": -3.47,
+   "return_pct": -0.0,
    "realized": 0.08,
-   "kalshi_fees": 3.2,
+   "kalshi_fees": 3.42,
    "settled": 20,
    "won": 10,
    "lost": 10,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 22,
+   "open": 1,
+   "at_risk": 6.0,
+   "copied": 23,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -385,9 +385,24 @@
     {
      "t": "2026-11-23T19:21:45+00:00",
      "equity": 100.07
+    },
+    {
+     "t": "2026-11-23T20:21:16+00:00",
+     "equity": 99.95
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Spread: Bengals (-6.5)",
+     "outcome": "Bengals",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "cost": 6.0,
+     "shares": 12.12,
+     "avg": 0.495,
+     "mark": 0.485,
+     "opened": "2026-11-23T19:50:08+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-23T05:21:09+00:00",
@@ -611,6 +626,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T20:21:16+00:00",
+     "kind": "buy",
+     "title": "Spread: Bengals (-6.5)",
+     "outcome": "Bengals",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "leader_usd": 85762.55,
+     "stake": 6.0,
+     "price": 0.495,
+     "leader_price": 0.48,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-23T01:21:13+00:00",
      "kind": "buy",
@@ -1047,11 +1074,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 72.29,
+   "equity": 72.8,
    "cash": 67.45,
-   "pnl": -27.71,
-   "pnl_after_kalshi_fees": -30.59,
-   "return_pct": -27.7,
+   "pnl": -27.2,
+   "pnl_after_kalshi_fees": -30.08,
+   "return_pct": -27.2,
    "realized": -27.39,
    "kalshi_fees": 2.88,
    "settled": 22,
@@ -1423,6 +1450,10 @@
     {
      "t": "2026-11-23T19:21:45+00:00",
      "equity": 72.29
+    },
+    {
+     "t": "2026-11-23T20:21:16+00:00",
+     "equity": 72.8
     }
    ],
    "positions": [
@@ -1433,7 +1464,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.53,
+     "mark": 0.585,
      "opened": "2026-11-23T11:33:11+00:00"
     }
    ],
@@ -2197,20 +2228,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.31,
-   "cash": 22.16,
-   "pnl": -56.69,
-   "pnl_after_kalshi_fees": -62.5,
-   "return_pct": -56.7,
+   "equity": 43.65,
+   "cash": 19.6,
+   "pnl": -56.35,
+   "pnl_after_kalshi_fees": -62.24,
+   "return_pct": -56.4,
    "realized": -56.01,
-   "kalshi_fees": 5.81,
+   "kalshi_fees": 5.89,
    "settled": 35,
    "won": 15,
    "lost": 20,
    "sold_early": 0,
-   "open": 8,
-   "at_risk": 21.82,
-   "copied": 52,
+   "open": 9,
+   "at_risk": 24.38,
+   "copied": 53,
    "skipped": 40,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2573,6 +2604,10 @@
     {
      "t": "2026-11-23T19:21:45+00:00",
      "equity": 43.31
+    },
+    {
+     "t": "2026-11-23T20:21:16+00:00",
+     "equity": 43.65
     }
    ],
    "positions": [
@@ -2603,7 +2638,7 @@
      "cost": 1.26,
      "shares": 2.5,
      "avg": 0.505,
-     "mark": 0.52,
+     "mark": 0.515,
      "opened": "2026-11-23T16:11:56+00:00"
     },
     {
@@ -2633,7 +2668,7 @@
      "cost": 2.64,
      "shares": 5.03,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.595,
      "opened": "2026-11-23T18:57:26+00:00"
     },
     {
@@ -2655,6 +2690,16 @@
      "avg": 0.535,
      "mark": 0.525,
      "opened": "2026-11-23T19:15:08+00:00"
+    },
+    {
+     "title": "San Diego State vs. Washington State: O/U 45.5",
+     "outcome": "Over",
+     "event_slug": "cfb-sdst-washst-2026-11-28",
+     "cost": 2.56,
+     "shares": 4.57,
+     "avg": 0.56,
+     "mark": 0.55,
+     "opened": "2026-11-23T19:59:08+00:00"
     }
    ],
    "closed": [
@@ -3045,6 +3090,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-23T20:21:16+00:00",
+     "kind": "buy",
+     "title": "San Diego State vs. Washington State: O/U 45.5",
+     "outcome": "Over",
+     "event_slug": "cfb-sdst-washst-2026-11-28",
+     "leader_usd": 513.57,
+     "stake": 2.56,
+     "price": 0.56,
+     "leader_price": 0.52,
+     "mult": 1.94
+    },
     {
      "ts": "2026-11-23T19:21:45+00:00",
      "kind": "buy",
@@ -3722,17 +3779,6 @@
      "reason": "out of cash",
      "price": 0.435,
      "leader_price": 0.43
-    },
-    {
-     "ts": "2026-11-21T19:20:55+00:00",
-     "kind": "skip",
-     "title": "Spread: Middle Tennessee (-5.5)",
-     "outcome": "Middle Tennessee",
-     "event_slug": "cfb-mtnst-smho-2026-11-21",
-     "leader_usd": 1202.34,
-     "reason": "out of cash",
-     "price": 0.595,
-     "leader_price": 0.52
     }
    ]
   },
@@ -4116,6 +4162,10 @@
     },
     {
      "t": "2026-11-23T19:21:45+00:00",
+     "equity": 92.83
+    },
+    {
+     "t": "2026-11-23T20:21:16+00:00",
      "equity": 92.83
     }
    ],
@@ -4689,6 +4739,10 @@
     },
     {
      "t": "2026-11-23T19:21:45+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-23T20:21:16+00:00",
      "equity": 105.41
     }
    ],
