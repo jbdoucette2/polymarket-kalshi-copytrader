@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:32:14+00:00",
+ "updated": "2026-11-24T19:47:18+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -744,6 +744,10 @@
     },
     {
      "t": "2026-11-24T19:32:12+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T19:47:15+00:00",
      "equity": 82.84
     }
    ],
@@ -1522,11 +1526,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.57,
+   "equity": 73.52,
    "cash": 52.84,
-   "pnl": -26.43,
-   "pnl_after_kalshi_fees": -29.7,
-   "return_pct": -26.4,
+   "pnl": -26.48,
+   "pnl_after_kalshi_fees": -29.75,
+   "return_pct": -26.5,
    "realized": -27.39,
    "kalshi_fees": 3.27,
    "settled": 22,
@@ -2258,6 +2262,10 @@
     {
      "t": "2026-11-24T19:32:12+00:00",
      "equity": 73.57
+    },
+    {
+     "t": "2026-11-24T19:47:15+00:00",
+     "equity": 73.52
     }
    ],
    "positions": [
@@ -2278,7 +2286,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.6765,
+     "mark": 0.672,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3112,20 +3120,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.32,
-   "cash": 23.15,
-   "pnl": -39.68,
-   "pnl_after_kalshi_fees": -46.96,
-   "return_pct": -39.7,
+   "equity": 60.23,
+   "cash": 19.55,
+   "pnl": -39.77,
+   "pnl_after_kalshi_fees": -47.19,
+   "return_pct": -39.8,
    "realized": -39.98,
-   "kalshi_fees": 7.28,
+   "kalshi_fees": 7.42,
    "settled": 46,
    "won": 24,
    "lost": 22,
    "sold_early": 0,
-   "open": 13,
-   "at_risk": 36.86,
-   "copied": 68,
+   "open": 14,
+   "at_risk": 40.46,
+   "copied": 69,
    "skipped": 55,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3848,6 +3856,10 @@
     {
      "t": "2026-11-24T19:32:12+00:00",
      "equity": 60.32
+    },
+    {
+     "t": "2026-11-24T19:47:15+00:00",
+     "equity": 60.23
     }
    ],
    "positions": [
@@ -3898,7 +3910,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.585,
+     "mark": 0.58,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -3928,7 +3940,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.56,
+     "mark": 0.555,
      "opened": "2026-11-24T14:35:56+00:00"
     },
     {
@@ -3958,7 +3970,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.535,
+     "mark": 0.545,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -3980,6 +3992,16 @@
      "avg": 0.565,
      "mark": 0.555,
      "opened": "2026-11-24T16:32:05+00:00"
+    },
+    {
+     "title": "Tennessee Volunteers vs. Maryland Terrapins",
+     "outcome": "Maryland Terrapins",
+     "event_slug": "cbb-tenn-mary-2026-11-24",
+     "cost": 3.6,
+     "shares": 7.74,
+     "avg": 0.465,
+     "mark": 0.455,
+     "opened": "2026-11-24T19:40:29+00:00"
     }
    ],
    "closed": [
@@ -4491,6 +4513,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T19:47:15+00:00",
+     "kind": "buy",
+     "title": "Tennessee Volunteers vs. Maryland Terrapins",
+     "outcome": "Maryland Terrapins",
+     "event_slug": "cbb-tenn-mary-2026-11-24",
+     "leader_usd": 555.75,
+     "stake": 3.6,
+     "price": 0.465,
+     "leader_price": 0.45,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T19:17:21+00:00",
      "kind": "skip",
@@ -5170,18 +5204,6 @@
      "price": 0.835,
      "leader_price": 0.83,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-22T17:20:40+00:00",
-     "kind": "buy",
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "leader_usd": 1974.57,
-     "stake": 2.01,
-     "price": 0.835,
-     "leader_price": 0.83,
-     "mult": 2.0
     }
    ]
   },
@@ -5190,20 +5212,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 92.86,
-   "cash": 70.55,
-   "pnl": -7.14,
-   "pnl_after_kalshi_fees": -9.27,
-   "return_pct": -7.1,
+   "equity": 92.61,
+   "cash": 67.18,
+   "pnl": -7.39,
+   "pnl_after_kalshi_fees": -9.62,
+   "return_pct": -7.4,
    "realized": -7.17,
-   "kalshi_fees": 2.13,
+   "kalshi_fees": 2.23,
    "settled": 8,
    "won": 3,
    "lost": 5,
    "sold_early": 0,
    "open": 4,
-   "at_risk": 22.28,
-   "copied": 12,
+   "at_risk": 25.65,
+   "copied": 13,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -5926,6 +5948,10 @@
     {
      "t": "2026-11-24T19:32:12+00:00",
      "equity": 92.86
+    },
+    {
+     "t": "2026-11-24T19:47:15+00:00",
+     "equity": 92.61
     }
    ],
    "positions": [
@@ -5946,7 +5972,7 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.495,
+     "mark": 0.49,
      "opened": "2026-11-24T18:35:31+00:00"
     },
     {
@@ -5963,10 +5989,10 @@
      "title": "Spread: Middlesbrough FC (-1.5)",
      "outcome": "Swansea City AFC",
      "event_slug": "elc-mid-swa-2026-11-24-more-markets",
-     "cost": 5.57,
-     "shares": 9.21,
-     "avg": 0.605,
-     "mark": 0.595,
+     "cost": 8.94,
+     "shares": 14.92,
+     "avg": 0.599,
+     "mark": 0.58,
      "opened": "2026-11-24T19:28:11+00:00"
     }
    ],
@@ -6061,6 +6087,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T19:47:15+00:00",
+     "kind": "buy",
+     "title": "Spread: Middlesbrough FC (-1.5)",
+     "outcome": "Swansea City AFC",
+     "event_slug": "elc-mid-swa-2026-11-24-more-markets",
+     "leader_usd": 6915.48,
+     "stake": 3.37,
+     "price": 0.59,
+     "leader_price": 0.59,
+     "mult": 1.21
+    },
     {
      "ts": "2026-11-24T19:32:12+00:00",
      "kind": "buy",
@@ -6947,6 +6985,10 @@
     },
     {
      "t": "2026-11-24T19:32:12+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T19:47:15+00:00",
      "equity": 105.62
     }
    ],
