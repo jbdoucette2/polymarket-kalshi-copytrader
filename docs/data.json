@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:47:15+00:00",
+ "updated": "2026-11-24T14:02:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -652,6 +652,10 @@
     },
     {
      "t": "2026-11-24T13:47:13+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T14:02:11+00:00",
      "equity": 82.84
     }
    ],
@@ -1430,11 +1434,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.98,
+   "equity": 73.87,
    "cash": 57.2,
-   "pnl": -26.02,
-   "pnl_after_kalshi_fees": -29.21,
-   "return_pct": -26.0,
+   "pnl": -26.13,
+   "pnl_after_kalshi_fees": -29.32,
+   "return_pct": -26.1,
    "realized": -27.39,
    "kalshi_fees": 3.19,
    "settled": 22,
@@ -2074,6 +2078,10 @@
     {
      "t": "2026-11-24T13:47:13+00:00",
      "equity": 73.98
+    },
+    {
+     "t": "2026-11-24T14:02:11+00:00",
+     "equity": 73.87
     }
    ],
    "positions": [
@@ -2094,7 +2102,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.685,
+     "mark": 0.676,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2916,20 +2924,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.61,
-   "cash": 50.85,
-   "pnl": -37.39,
-   "pnl_after_kalshi_fees": -43.71,
-   "return_pct": -37.4,
+   "equity": 62.55,
+   "cash": 47.1,
+   "pnl": -37.45,
+   "pnl_after_kalshi_fees": -43.89,
+   "return_pct": -37.5,
    "realized": -37.55,
-   "kalshi_fees": 6.32,
+   "kalshi_fees": 6.44,
    "settled": 45,
    "won": 24,
    "lost": 21,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 11.59,
-   "copied": 59,
+   "open": 6,
+   "at_risk": 15.34,
+   "copied": 60,
    "skipped": 48,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3560,6 +3568,10 @@
     {
      "t": "2026-11-24T13:47:13+00:00",
      "equity": 62.61
+    },
+    {
+     "t": "2026-11-24T14:02:11+00:00",
+     "equity": 62.55
     }
    ],
    "positions": [
@@ -3612,6 +3624,16 @@
      "avg": 0.535,
      "mark": 0.565,
      "opened": "2026-11-24T13:31:07+00:00"
+    },
+    {
+     "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
+     "outcome": "Over",
+     "event_slug": "cbb-prov-arz-2026-11-24",
+     "cost": 3.75,
+     "shares": 6.88,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-24T13:56:43+00:00"
     }
    ],
    "closed": [
@@ -4112,6 +4134,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T14:02:11+00:00",
+     "kind": "buy",
+     "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
+     "outcome": "Over",
+     "event_slug": "cbb-prov-arz-2026-11-24",
+     "leader_usd": 936.51,
+     "stake": 3.75,
+     "price": 0.545,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T13:32:12+00:00",
      "kind": "buy",
@@ -4793,17 +4827,6 @@
      "reason": "price ran away (0.50 -> 0.60)",
      "price": 0.605,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-22T00:21:22+00:00",
-     "kind": "skip",
-     "title": "Spread: UNLV (-5.5)",
-     "outcome": "UNLV",
-     "event_slug": "cfb-unlv-sjst-2026-11-21",
-     "leader_usd": 1063.11,
-     "reason": "price ran away (0.53 -> 0.64)",
-     "price": 0.635,
-     "leader_price": 0.53
     }
    ]
   },
@@ -5455,6 +5478,10 @@
     },
     {
      "t": "2026-11-24T13:47:13+00:00",
+     "equity": 92.72
+    },
+    {
+     "t": "2026-11-24T14:02:11+00:00",
      "equity": 92.72
     }
    ],
@@ -6319,6 +6346,10 @@
     },
     {
      "t": "2026-11-24T13:47:13+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T14:02:11+00:00",
      "equity": 105.62
     }
    ],
