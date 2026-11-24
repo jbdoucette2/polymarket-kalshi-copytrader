@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:32:13+00:00",
+ "updated": "2026-11-24T03:47:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 96.11,
+   "equity": 93.03,
    "cash": 77.75,
-   "pnl": -3.89,
-   "pnl_after_kalshi_fees": -7.88,
-   "return_pct": -3.9,
+   "pnl": -6.97,
+   "pnl_after_kalshi_fees": -10.96,
+   "return_pct": -7.0,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -489,6 +489,10 @@
     {
      "t": "2026-11-24T03:32:11+00:00",
      "equity": 96.11
+    },
+    {
+     "t": "2026-11-24T03:47:13+00:00",
+     "equity": 93.03
     }
    ],
    "positions": [
@@ -499,7 +503,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.365,
+     "mark": 0.275,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -509,7 +513,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.405,
+     "mark": 0.305,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -519,7 +523,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.8465,
+     "mark": 0.9145,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -529,7 +533,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.275,
+     "mark": 0.215,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1743,6 +1747,10 @@
     {
      "t": "2026-11-24T03:32:11+00:00",
      "equity": 73.49
+    },
+    {
+     "t": "2026-11-24T03:47:13+00:00",
+     "equity": 73.49
     }
    ],
    "positions": [
@@ -2573,19 +2581,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 54.0,
-   "cash": 26.6,
-   "pnl": -46.0,
-   "pnl_after_kalshi_fees": -52.22,
-   "return_pct": -46.0,
-   "realized": -51.07,
+   "equity": 53.89,
+   "cash": 30.91,
+   "pnl": -46.11,
+   "pnl_after_kalshi_fees": -52.33,
+   "return_pct": -46.1,
+   "realized": -48.8,
    "kalshi_fees": 6.22,
-   "settled": 40,
-   "won": 19,
+   "settled": 41,
+   "won": 20,
    "lost": 21,
    "sold_early": 0,
-   "open": 8,
-   "at_risk": 22.32,
+   "open": 7,
+   "at_risk": 20.27,
    "copied": 57,
    "skipped": 47,
    "max_drawdown_pct": 73.4,
@@ -3053,6 +3061,10 @@
     {
      "t": "2026-11-24T03:32:11+00:00",
      "equity": 54.0
+    },
+    {
+     "t": "2026-11-24T03:47:13+00:00",
+     "equity": 53.89
     }
    ],
    "positions": [
@@ -3093,7 +3105,7 @@
      "cost": 2.64,
      "shares": 4.93,
      "avg": 0.535,
-     "mark": 0.63,
+     "mark": 0.575,
      "opened": "2026-11-23T19:15:08+00:00"
     },
     {
@@ -3117,27 +3129,28 @@
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
-     "title": "Cavaliers vs. Bulls: O/U 239.5",
-     "outcome": "Under",
-     "event_slug": "nba-cle-chi-2026-11-23",
-     "cost": 2.05,
-     "shares": 4.32,
-     "avg": 0.475,
-     "mark": 0.9995,
-     "opened": "2026-11-24T00:56:28+00:00"
-    },
-    {
      "title": "Spread: Lakers (-14.5)",
      "outcome": "Lakers",
      "event_slug": "nba-uta-lal-2026-11-23",
      "cost": 2.43,
      "shares": 5.12,
      "avg": 0.475,
-     "mark": 0.545,
+     "mark": 0.575,
      "opened": "2026-11-24T01:20:01+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T03:47:13+00:00",
+     "title": "Cavaliers vs. Bulls: O/U 239.5",
+     "outcome": "Under",
+     "event_slug": "nba-cle-chi-2026-11-23",
+     "cost": 2.05,
+     "pnl": 2.27,
+     "kfee": 0.08,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-24T03:02:12+00:00",
      "title": "Thunder vs. Pacers: O/U 221.5",
@@ -4759,6 +4772,10 @@
     {
      "t": "2026-11-24T03:32:11+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T03:47:13+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4970,7 +4987,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 12,
-   "skipped": 34,
+   "skipped": 35,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5436,6 +5453,10 @@
     {
      "t": "2026-11-24T03:32:11+00:00",
      "equity": 105.48
+    },
+    {
+     "t": "2026-11-24T03:47:13+00:00",
+     "equity": 105.48
     }
    ],
    "positions": [],
@@ -5574,6 +5595,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T03:47:13+00:00",
+     "kind": "skip",
+     "title": "Suns Team Total: O/U 112.5",
+     "outcome": "Over",
+     "event_slug": "nba-phx-nop-2026-11-23",
+     "leader_usd": 13.72,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
     {
      "ts": "2026-11-24T03:32:11+00:00",
      "kind": "skip",
