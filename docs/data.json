@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:17:22+00:00",
+ "updated": "2026-11-24T19:32:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -740,6 +740,10 @@
     },
     {
      "t": "2026-11-24T19:17:21+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T19:32:12+00:00",
      "equity": 82.84
     }
    ],
@@ -1518,10 +1522,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.59,
+   "equity": 73.57,
    "cash": 52.84,
-   "pnl": -26.41,
-   "pnl_after_kalshi_fees": -29.68,
+   "pnl": -26.43,
+   "pnl_after_kalshi_fees": -29.7,
    "return_pct": -26.4,
    "realized": -27.39,
    "kalshi_fees": 3.27,
@@ -2250,6 +2254,10 @@
     {
      "t": "2026-11-24T19:17:21+00:00",
      "equity": 73.59
+    },
+    {
+     "t": "2026-11-24T19:32:12+00:00",
+     "equity": 73.57
     }
    ],
    "positions": [
@@ -2270,7 +2278,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.678,
+     "mark": 0.6765,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3104,10 +3112,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.29,
+   "equity": 60.32,
    "cash": 23.15,
-   "pnl": -39.71,
-   "pnl_after_kalshi_fees": -46.99,
+   "pnl": -39.68,
+   "pnl_after_kalshi_fees": -46.96,
    "return_pct": -39.7,
    "realized": -39.98,
    "kalshi_fees": 7.28,
@@ -3836,6 +3844,10 @@
     {
      "t": "2026-11-24T19:17:21+00:00",
      "equity": 60.29
+    },
+    {
+     "t": "2026-11-24T19:32:12+00:00",
+     "equity": 60.32
     }
    ],
    "positions": [
@@ -3886,7 +3898,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.575,
+     "mark": 0.585,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -5178,20 +5190,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 92.84,
-   "cash": 76.12,
-   "pnl": -7.16,
-   "pnl_after_kalshi_fees": -9.13,
-   "return_pct": -7.2,
+   "equity": 92.86,
+   "cash": 70.55,
+   "pnl": -7.14,
+   "pnl_after_kalshi_fees": -9.27,
+   "return_pct": -7.1,
    "realized": -7.17,
-   "kalshi_fees": 1.97,
+   "kalshi_fees": 2.13,
    "settled": 8,
    "won": 3,
    "lost": 5,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 16.71,
-   "copied": 11,
+   "open": 4,
+   "at_risk": 22.28,
+   "copied": 12,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -5910,6 +5922,10 @@
     {
      "t": "2026-11-24T19:17:21+00:00",
      "equity": 92.84
+    },
+    {
+     "t": "2026-11-24T19:32:12+00:00",
+     "equity": 92.86
     }
    ],
    "positions": [
@@ -5940,8 +5956,18 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.465,
+     "mark": 0.475,
      "opened": "2026-11-24T18:48:05+00:00"
+    },
+    {
+     "title": "Spread: Middlesbrough FC (-1.5)",
+     "outcome": "Swansea City AFC",
+     "event_slug": "elc-mid-swa-2026-11-24-more-markets",
+     "cost": 5.57,
+     "shares": 9.21,
+     "avg": 0.605,
+     "mark": 0.595,
+     "opened": "2026-11-24T19:28:11+00:00"
     }
    ],
    "closed": [
@@ -6035,6 +6061,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T19:32:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Middlesbrough FC (-1.5)",
+     "outcome": "Swansea City AFC",
+     "event_slug": "elc-mid-swa-2026-11-24-more-markets",
+     "leader_usd": 19580.38,
+     "stake": 5.57,
+     "price": 0.605,
+     "leader_price": 0.591,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T19:02:11+00:00",
      "kind": "buy",
@@ -6905,6 +6943,10 @@
     },
     {
      "t": "2026-11-24T19:17:21+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T19:32:12+00:00",
      "equity": 105.62
     }
    ],
