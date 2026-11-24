@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:02:14+00:00",
+ "updated": "2026-11-24T15:17:27+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -672,6 +672,10 @@
     },
     {
      "t": "2026-11-24T15:02:13+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T15:17:24+00:00",
      "equity": 82.84
     }
    ],
@@ -1450,11 +1454,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.07,
+   "equity": 74.04,
    "cash": 57.2,
-   "pnl": -25.93,
-   "pnl_after_kalshi_fees": -29.12,
-   "return_pct": -25.9,
+   "pnl": -25.96,
+   "pnl_after_kalshi_fees": -29.15,
+   "return_pct": -26.0,
    "realized": -27.39,
    "kalshi_fees": 3.19,
    "settled": 22,
@@ -2114,6 +2118,10 @@
     {
      "t": "2026-11-24T15:02:13+00:00",
      "equity": 74.07
+    },
+    {
+     "t": "2026-11-24T15:17:24+00:00",
+     "equity": 74.04
     }
    ],
    "positions": [
@@ -2124,7 +2132,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.725,
+     "mark": 0.715,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2134,7 +2142,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.685,
+     "mark": 0.69,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2956,21 +2964,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.22,
-   "cash": 37.17,
-   "pnl": -37.78,
-   "pnl_after_kalshi_fees": -44.57,
-   "return_pct": -37.8,
+   "equity": 60.89,
+   "cash": 33.42,
+   "pnl": -39.11,
+   "pnl_after_kalshi_fees": -46.03,
+   "return_pct": -39.1,
    "realized": -37.55,
-   "kalshi_fees": 6.79,
+   "kalshi_fees": 6.92,
    "settled": 45,
    "won": 24,
    "lost": 21,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 25.27,
-   "copied": 63,
-   "skipped": 51,
+   "open": 10,
+   "at_risk": 29.02,
+   "copied": 64,
+   "skipped": 52,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -3620,6 +3628,10 @@
     {
      "t": "2026-11-24T15:02:13+00:00",
      "equity": 62.22
+    },
+    {
+     "t": "2026-11-24T15:17:24+00:00",
+     "equity": 60.89
     }
    ],
    "positions": [
@@ -3670,7 +3682,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.57,
+     "mark": 0.565,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -3680,7 +3692,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.525,
+     "mark": 0.545,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -3710,8 +3722,18 @@
      "cost": 2.43,
      "shares": 5.12,
      "avg": 0.475,
-     "mark": 0.45,
+     "mark": 0.18,
      "opened": "2026-11-24T14:43:11+00:00"
+    },
+    {
+     "title": "Mavericks vs. Nuggets: O/U 233.5",
+     "outcome": "Over",
+     "event_slug": "nba-dal-den-2026-11-24",
+     "cost": 3.75,
+     "shares": 7.14,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-24T15:07:31+00:00"
     }
    ],
    "closed": [
@@ -4212,6 +4234,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T15:17:24+00:00",
+     "kind": "skip",
+     "title": "Wyoming Cowboys vs. Kent State Golden Flashes: O/U 144.5",
+     "outcome": "Under",
+     "event_slug": "cbb-wyom-kentst-2026-11-24",
+     "leader_usd": 19.08,
+     "reason": "below $1 minimum",
+     "price": 0.535,
+     "leader_price": 0.53
+    },
+    {
+     "ts": "2026-11-24T15:17:24+00:00",
+     "kind": "buy",
+     "title": "Mavericks vs. Nuggets: O/U 233.5",
+     "outcome": "Over",
+     "event_slug": "nba-dal-den-2026-11-24",
+     "leader_usd": 16109.01,
+     "stake": 3.75,
+     "price": 0.525,
+     "leader_price": 0.5,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T15:02:13+00:00",
      "kind": "skip",
@@ -4882,29 +4927,6 @@
      "price": 0.635,
      "leader_price": 0.599,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-22T02:21:00+00:00",
-     "kind": "skip",
-     "title": "Thunder vs. Heat",
-     "outcome": "Heat",
-     "event_slug": "nba-okc-mia-2026-11-22",
-     "leader_usd": 32.94,
-     "reason": "below $1 minimum",
-     "price": 0.535,
-     "leader_price": 0.54
-    },
-    {
-     "ts": "2026-11-22T02:21:00+00:00",
-     "kind": "buy",
-     "title": "Spread: Oklahoma State (-4.5)",
-     "outcome": "Arizona State",
-     "event_slug": "cfb-okst-arzst-2026-11-21",
-     "leader_usd": 399.39,
-     "stake": 2.25,
-     "price": 0.595,
-     "leader_price": 0.601,
-     "mult": 1.51
     }
    ]
   },
@@ -5576,6 +5598,10 @@
     },
     {
      "t": "2026-11-24T15:02:13+00:00",
+     "equity": 92.72
+    },
+    {
+     "t": "2026-11-24T15:17:24+00:00",
      "equity": 92.72
     }
    ],
@@ -6460,6 +6486,10 @@
     },
     {
      "t": "2026-11-24T15:02:13+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T15:17:24+00:00",
      "equity": 105.62
     }
    ],
