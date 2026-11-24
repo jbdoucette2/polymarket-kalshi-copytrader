@@ -3,7 +3,7 @@
  "name": "GetsOnBase",
  "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
  "start": 100.0,
- "cash": 78.9066,
+ "cash": 105.5514,
  "since": 1795198438,
  "last_ts": 1795549166,
  "positions": {
@@ -19,32 +19,6 @@
    "kfee": 0.19,
    "opened": "2026-11-24T11:42:20+00:00",
    "mark": 0.495
-  },
-  "5231812122365975334411040952684545413516236382642709946520731524905377186031": {
-   "cond": "0x4da87ef56f53ea94365870d627c54322f866aef1118140323d616790b4480a85",
-   "idx": 1,
-   "outcome": "Under",
-   "title": "Sheffield United FC vs. Southampton FC: O/U 2.5",
-   "slug": "elc-she-sot-2026-11-24-total-2pt5",
-   "event_slug": "elc-she-sot-2026-11-24-more-markets",
-   "shares": 11.726315789473686,
-   "cost": 5.57,
-   "kfee": 0.21,
-   "opened": "2026-11-24T18:35:31+00:00",
-   "mark": 0.9995
-  },
-  "103857026931335154991373600231606726645752081365496661978361166637873549447492": {
-   "cond": "0xd6f26d74d998c4b83d8f05c3942ad95e97c8303f86e2d5ee04f6e3e20de278ba",
-   "idx": 1,
-   "outcome": "Swansea City AFC",
-   "title": "Spread: Middlesbrough FC (-1.5)",
-   "slug": "elc-mid-swa-2026-11-24-spread-home-1pt5",
-   "event_slug": "elc-mid-swa-2026-11-24-more-markets",
-   "shares": 14.918475977027597,
-   "cost": 8.94,
-   "kfee": 0.26,
-   "opened": "2026-11-24T19:28:11+00:00",
-   "mark": 0.9995
   }
  },
  "leader_shares": {
@@ -159,6 +133,28 @@
    "cost": 5.57,
    "pnl": 6.16,
    "kfee": 0.21,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T23:47:13+00:00",
+   "title": "Sheffield United FC vs. Southampton FC: O/U 2.5",
+   "outcome": "Under",
+   "event_slug": "elc-she-sot-2026-11-24-more-markets",
+   "cost": 5.57,
+   "pnl": 6.16,
+   "kfee": 0.21,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T23:47:13+00:00",
+   "title": "Spread: Middlesbrough FC (-1.5)",
+   "outcome": "Swansea City AFC",
+   "event_slug": "elc-mid-swa-2026-11-24-more-markets",
+   "cost": 8.94,
+   "pnl": 5.98,
+   "kfee": 0.26,
    "how": "won",
    "exit_price": 1.0
   }
@@ -1093,6 +1089,10 @@
   {
    "t": "2026-11-24T23:32:13+00:00",
    "equity": 110.89
+  },
+  {
+   "t": "2026-11-24T23:47:13+00:00",
+   "equity": 110.91
   }
  ],
  "kfees": 2.23,
