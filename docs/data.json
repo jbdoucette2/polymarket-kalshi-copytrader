@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:02:29+00:00",
+ "updated": "2026-11-24T16:17:28+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -688,6 +688,10 @@
     },
     {
      "t": "2026-11-24T16:02:25+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T16:17:22+00:00",
      "equity": 82.84
     }
    ],
@@ -1466,20 +1470,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.05,
-   "cash": 57.2,
-   "pnl": -25.95,
-   "pnl_after_kalshi_fees": -29.14,
-   "return_pct": -26.0,
+   "equity": 74.47,
+   "cash": 52.84,
+   "pnl": -25.53,
+   "pnl_after_kalshi_fees": -28.8,
+   "return_pct": -25.5,
    "realized": -27.39,
-   "kalshi_fees": 3.19,
+   "kalshi_fees": 3.27,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 15.41,
-   "copied": 28,
+   "at_risk": 19.77,
+   "copied": 29,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -2146,6 +2150,10 @@
     {
      "t": "2026-11-24T16:02:25+00:00",
      "equity": 74.05
+    },
+    {
+     "t": "2026-11-24T16:17:22+00:00",
+     "equity": 74.47
     }
    ],
    "positions": [
@@ -2153,10 +2161,10 @@
      "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
      "outcome": "No",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 5.16,
-     "shares": 9.13,
-     "avg": 0.565,
-     "mark": 0.715,
+     "cost": 9.52,
+     "shares": 14.91,
+     "avg": 0.639,
+     "mark": 0.745,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2166,7 +2174,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.691,
+     "mark": 0.709,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2425,6 +2433,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T16:17:22+00:00",
+     "kind": "buy",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 3736.75,
+     "stake": 4.36,
+     "price": 0.755,
+     "leader_price": 0.747,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T13:32:12+00:00",
      "kind": "buy",
@@ -2988,11 +3008,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.1,
+   "equity": 60.55,
    "cash": 26.9,
-   "pnl": -39.9,
-   "pnl_after_kalshi_fees": -47.06,
-   "return_pct": -39.9,
+   "pnl": -39.45,
+   "pnl_after_kalshi_fees": -46.61,
+   "return_pct": -39.5,
    "realized": -37.55,
    "kalshi_fees": 7.16,
    "settled": 45,
@@ -3668,6 +3688,10 @@
     {
      "t": "2026-11-24T16:02:25+00:00",
      "equity": 60.1
+    },
+    {
+     "t": "2026-11-24T16:17:22+00:00",
+     "equity": 60.55
     }
    ],
    "positions": [
@@ -3718,7 +3742,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.57,
+     "mark": 0.575,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -3728,7 +3752,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.55,
+     "mark": 0.555,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -3748,7 +3772,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.545,
      "opened": "2026-11-24T14:35:56+00:00"
     },
     {
@@ -3758,7 +3782,7 @@
      "cost": 2.43,
      "shares": 5.12,
      "avg": 0.475,
-     "mark": 0.0375,
+     "mark": 0.075,
      "opened": "2026-11-24T14:43:11+00:00"
     },
     {
@@ -3788,7 +3812,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.535,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5681,6 +5705,10 @@
     {
      "t": "2026-11-24T16:02:25+00:00",
      "equity": 92.72
+    },
+    {
+     "t": "2026-11-24T16:17:22+00:00",
+     "equity": 92.72
     }
    ],
    "positions": [
@@ -6580,6 +6608,10 @@
     },
     {
      "t": "2026-11-24T16:02:25+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T16:17:22+00:00",
      "equity": 105.62
     }
    ],
