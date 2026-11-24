@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:17:14+00:00",
+ "updated": "2026-11-24T20:32:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -756,6 +756,10 @@
     },
     {
      "t": "2026-11-24T20:17:11+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T20:32:13+00:00",
      "equity": 82.84
     }
    ],
@@ -1534,20 +1538,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.64,
-   "cash": 52.84,
-   "pnl": -26.36,
-   "pnl_after_kalshi_fees": -29.63,
-   "return_pct": -26.4,
+   "equity": 74.13,
+   "cash": 50.14,
+   "pnl": -25.87,
+   "pnl_after_kalshi_fees": -29.19,
+   "return_pct": -25.9,
    "realized": -27.39,
-   "kalshi_fees": 3.27,
+   "kalshi_fees": 3.32,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 19.77,
-   "copied": 29,
+   "at_risk": 22.47,
+   "copied": 30,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -2282,6 +2286,10 @@
     {
      "t": "2026-11-24T20:17:11+00:00",
      "equity": 73.64
+    },
+    {
+     "t": "2026-11-24T20:32:13+00:00",
+     "equity": 74.13
     }
    ],
    "positions": [
@@ -2289,10 +2297,10 @@
      "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
      "outcome": "No",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 9.52,
-     "shares": 14.91,
-     "avg": 0.639,
-     "mark": 0.71,
+     "cost": 12.22,
+     "shares": 18.48,
+     "avg": 0.661,
+     "mark": 0.745,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2302,7 +2310,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.682,
+     "mark": 0.6825,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2561,6 +2569,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T20:32:13+00:00",
+     "kind": "buy",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 1498.21,
+     "stake": 2.7,
+     "price": 0.755,
+     "leader_price": 0.72,
+     "mult": 1.24
+    },
     {
      "ts": "2026-11-24T16:17:22+00:00",
      "kind": "buy",
@@ -3136,20 +3156,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.54,
-   "cash": 17.52,
-   "pnl": -37.46,
-   "pnl_after_kalshi_fees": -44.98,
-   "return_pct": -37.5,
+   "equity": 63.43,
+   "cash": 14.84,
+   "pnl": -36.57,
+   "pnl_after_kalshi_fees": -44.19,
+   "return_pct": -36.6,
    "realized": -39.98,
-   "kalshi_fees": 7.52,
+   "kalshi_fees": 7.62,
    "settled": 46,
    "won": 24,
    "lost": 22,
    "sold_early": 0,
-   "open": 15,
-   "at_risk": 42.49,
-   "copied": 70,
+   "open": 16,
+   "at_risk": 45.17,
+   "copied": 71,
    "skipped": 55,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3884,6 +3904,10 @@
     {
      "t": "2026-11-24T20:17:11+00:00",
      "equity": 62.54
+    },
+    {
+     "t": "2026-11-24T20:32:13+00:00",
+     "equity": 63.43
     }
    ],
    "positions": [
@@ -3924,7 +3948,7 @@
      "cost": 2.14,
      "shares": 2.76,
      "avg": 0.775,
-     "mark": 0.78,
+     "mark": 0.785,
      "opened": "2026-11-24T13:10:32+00:00"
     },
     {
@@ -3944,7 +3968,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.59,
+     "mark": 0.61,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -4024,7 +4048,7 @@
      "cost": 3.6,
      "shares": 7.74,
      "avg": 0.465,
-     "mark": 0.475,
+     "mark": 0.525,
      "opened": "2026-11-24T19:40:29+00:00"
     },
     {
@@ -4034,8 +4058,18 @@
      "cost": 2.03,
      "shares": 6.25,
      "avg": 0.325,
-     "mark": 0.61,
+     "mark": 0.675,
      "opened": "2026-11-24T19:56:23+00:00"
+    },
+    {
+     "title": "Spread: VMI Keydets (-4.5)",
+     "outcome": "Southern Indiana Screaming Eagles",
+     "event_slug": "cbb-usi-vamil-2026-11-24",
+     "cost": 2.68,
+     "shares": 5.41,
+     "avg": 0.495,
+     "mark": 0.485,
+     "opened": "2026-11-24T20:21:43+00:00"
     }
    ],
    "closed": [
@@ -4547,6 +4581,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T20:32:13+00:00",
+     "kind": "buy",
+     "title": "Spread: VMI Keydets (-4.5)",
+     "outcome": "Southern Indiana Screaming Eagles",
+     "event_slug": "cbb-usi-vamil-2026-11-24",
+     "leader_usd": 395.92,
+     "stake": 2.68,
+     "price": 0.495,
+     "leader_price": 0.49,
+     "mult": 1.49
+    },
     {
      "ts": "2026-11-24T20:02:14+00:00",
      "kind": "buy",
@@ -5226,18 +5272,6 @@
      "reason": "price ran away (0.59 -> 0.75)",
      "price": 0.75,
      "leader_price": 0.59
-    },
-    {
-     "ts": "2026-11-22T18:21:08+00:00",
-     "kind": "buy",
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "leader_usd": 4213.08,
-     "stake": 2.01,
-     "price": 0.835,
-     "leader_price": 0.83,
-     "mult": 2.0
     }
    ]
   },
@@ -5246,11 +5280,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 94.43,
+   "equity": 97.86,
    "cash": 67.18,
-   "pnl": -5.57,
-   "pnl_after_kalshi_fees": -7.8,
-   "return_pct": -5.6,
+   "pnl": -2.14,
+   "pnl_after_kalshi_fees": -4.37,
+   "return_pct": -2.1,
    "realized": -7.17,
    "kalshi_fees": 2.23,
    "settled": 8,
@@ -5994,6 +6028,10 @@
     {
      "t": "2026-11-24T20:17:11+00:00",
      "equity": 94.43
+    },
+    {
+     "t": "2026-11-24T20:32:13+00:00",
+     "equity": 97.86
     }
    ],
    "positions": [
@@ -6014,7 +6052,7 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.305,
+     "mark": 0.545,
      "opened": "2026-11-24T18:35:31+00:00"
     },
     {
@@ -6024,7 +6062,7 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.675,
+     "mark": 0.645,
      "opened": "2026-11-24T18:48:05+00:00"
     },
     {
@@ -6034,7 +6072,7 @@
      "cost": 8.94,
      "shares": 14.92,
      "avg": 0.599,
-     "mark": 0.69,
+     "mark": 0.755,
      "opened": "2026-11-24T19:28:11+00:00"
     }
    ],
@@ -7039,6 +7077,10 @@
     },
     {
      "t": "2026-11-24T20:17:11+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T20:32:13+00:00",
      "equity": 105.62
     }
    ],
