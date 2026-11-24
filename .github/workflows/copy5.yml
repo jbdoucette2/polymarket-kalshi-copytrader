@@ -16,6 +16,10 @@ on:
         description: "Backtest: minutes after the leader that our copy happens"
         required: false
         default: "15"
+      sharp_walkforward_days:
+        description: "Sharp Filter walk-forward instead of a normal run: number of days (e.g. 30)."
+        required: false
+        default: ""
 permissions:
   contents: write
 concurrency: copy5
@@ -29,13 +33,16 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install requests
       - name: Forward run
-        if: ${{ !inputs.backtest_days }}
+        if: ${{ !inputs.backtest_days && !inputs.sharp_walkforward_days }}
         run: python copy5.py run
       - name: Backtest
         if: ${{ inputs.backtest_days }}
         run: python copy5.py backtest --days "${{ inputs.backtest_days }}" --delay "${{ inputs.delay_min }}"
+      - name: Sharp Filter walk-forward
+        if: ${{ inputs.sharp_walkforward_days }}
+        run: python sharp.py walkforward --days "${{ inputs.sharp_walkforward_days }}"
       - name: Sharp Filter (rescores its wallet pool weekly; that run takes ~10 min)
-        if: ${{ !inputs.backtest_days }}
+        if: ${{ !inputs.backtest_days && !inputs.sharp_walkforward_days }}
         continue-on-error: true
         run: python sharp.py run
       - name: Save results
