@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-24T00:17:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-24T00:32:22+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$112.89** (+12.89; after Kalshi fees +12.20) · 3-0 · sold early 0 · 1 open ($5.64) · max drawdown 1.8%
 
@@ -44,7 +44,7 @@ Updated 2026-11-24T00:17:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-20 18:56 | skip | Magic vs. Nets: O/U 222.5 | Under | omnibus-076daa | market didn't react |
 | 11-20 18:56 | buy | Rockets vs. Nuggets | Nuggets | omnibus-076daa | $3.57 at 55c |
 
-## Walk-forward test (2026-11-20)
+## Walk-forward test (2026-11-24)
 
-Scored wallets on days 60-30 ago, then traded the last 30 days with those scores: $95.89 (-4.11; after fees -20.26), 76-64, copied 140, skipped 782.
+Scored wallets on days 60-30 ago, then traded the last 30 days with those scores: $101.64 (+1.64; after fees -19.37), 66-54, copied 125, skipped 253.
 
