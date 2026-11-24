@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:47:24+00:00",
+ "updated": "2026-11-24T01:02:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.99,
+   "equity": 99.71,
    "cash": 77.75,
-   "pnl": -0.01,
-   "pnl_after_kalshi_fees": -4.0,
-   "return_pct": -0.0,
+   "pnl": -0.29,
+   "pnl_after_kalshi_fees": -4.28,
+   "return_pct": -0.3,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -445,6 +445,10 @@
     {
      "t": "2026-11-24T00:47:21+00:00",
      "equity": 99.99
+    },
+    {
+     "t": "2026-11-24T01:02:13+00:00",
+     "equity": 99.71
     }
    ],
    "positions": [
@@ -455,7 +459,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.505,
+     "mark": 0.495,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -485,7 +489,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.445,
+     "mark": 0.435,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1219,10 +1223,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.52,
+   "equity": 73.5,
    "cash": 59.46,
-   "pnl": -26.48,
-   "pnl_after_kalshi_fees": -29.62,
+   "pnl": -26.5,
+   "pnl_after_kalshi_fees": -29.64,
    "return_pct": -26.5,
    "realized": -27.39,
    "kalshi_fees": 3.14,
@@ -1655,6 +1659,10 @@
     {
      "t": "2026-11-24T00:47:21+00:00",
      "equity": 73.52
+    },
+    {
+     "t": "2026-11-24T01:02:13+00:00",
+     "equity": 73.5
     }
    ],
    "positions": [
@@ -1675,7 +1683,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.673,
+     "mark": 0.6705,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2485,20 +2493,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 48.05,
-   "cash": 19.21,
-   "pnl": -51.95,
-   "pnl_after_kalshi_fees": -58.0,
-   "return_pct": -52.0,
-   "realized": -53.62,
-   "kalshi_fees": 6.05,
-   "settled": 36,
-   "won": 16,
+   "equity": 48.58,
+   "cash": 19.66,
+   "pnl": -51.42,
+   "pnl_after_kalshi_fees": -57.55,
+   "return_pct": -51.4,
+   "realized": -52.38,
+   "kalshi_fees": 6.13,
+   "settled": 37,
+   "won": 17,
    "lost": 20,
    "sold_early": 0,
    "open": 10,
-   "at_risk": 27.16,
-   "copied": 55,
+   "at_risk": 27.95,
+   "copied": 56,
    "skipped": 47,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2921,6 +2929,10 @@
     {
      "t": "2026-11-24T00:47:21+00:00",
      "equity": 48.05
+    },
+    {
+     "t": "2026-11-24T01:02:13+00:00",
+     "equity": 48.58
     }
    ],
    "positions": [
@@ -2945,23 +2957,13 @@
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
-     "title": "Georgia State Panthers vs. Tulane Green Wave: O/U 147.5",
-     "outcome": "Under",
-     "event_slug": "cbb-gast-tulane-2026-11-23",
-     "cost": 1.26,
-     "shares": 2.5,
-     "avg": 0.505,
-     "mark": 0.9995,
-     "opened": "2026-11-23T16:11:56+00:00"
-    },
-    {
      "title": "Nets vs. Timberwolves: O/U 223.5",
      "outcome": "Over",
      "event_slug": "nba-bkn-min-2026-11-23",
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.47,
+     "mark": 0.485,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2971,7 +2973,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.64,
+     "mark": 0.505,
      "opened": "2026-11-23T16:43:49+00:00"
     },
     {
@@ -2981,7 +2983,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.275,
+     "mark": 0.51,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -3023,9 +3025,30 @@
      "avg": 0.655,
      "mark": 0.9995,
      "opened": "2026-11-23T22:16:52+00:00"
+    },
+    {
+     "title": "Cavaliers vs. Bulls: O/U 239.5",
+     "outcome": "Under",
+     "event_slug": "nba-cle-chi-2026-11-23",
+     "cost": 2.05,
+     "shares": 4.32,
+     "avg": 0.475,
+     "mark": 0.475,
+     "opened": "2026-11-24T00:56:28+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T01:02:13+00:00",
+     "title": "Georgia State Panthers vs. Tulane Green Wave: O/U 147.5",
+     "outcome": "Under",
+     "event_slug": "cbb-gast-tulane-2026-11-23",
+     "cost": 1.26,
+     "pnl": 1.24,
+     "kfee": 0.05,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T22:14:45+00:00",
      "title": "Will ACF Fiorentina win on 2026-11-23?",
@@ -3424,6 +3447,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:02:13+00:00",
+     "kind": "buy",
+     "title": "Cavaliers vs. Bulls: O/U 239.5",
+     "outcome": "Under",
+     "event_slug": "nba-cle-chi-2026-11-23",
+     "leader_usd": 390.1,
+     "stake": 2.05,
+     "price": 0.475,
+     "leader_price": 0.47,
+     "mult": 1.47
+    },
     {
      "ts": "2026-11-23T22:32:12+00:00",
      "kind": "skip",
@@ -4102,18 +4137,6 @@
      "reason": "out of cash",
      "price": 0.335,
      "leader_price": 0.54
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "kind": "buy",
-     "title": "Spread: Georgia Southern (-7.5)",
-     "outcome": "Troy",
-     "event_slug": "cfb-gas-troy-2026-11-21",
-     "leader_usd": 287.64,
-     "stake": 1.77,
-     "price": 0.275,
-     "leader_price": 0.51,
-     "mult": 1.09
     }
    ]
   },
@@ -4558,6 +4581,10 @@
     {
      "t": "2026-11-24T00:47:21+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T01:02:13+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4769,7 +4796,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 10,
-   "skipped": 25,
+   "skipped": 26,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5191,6 +5218,10 @@
     {
      "t": "2026-11-24T00:47:21+00:00",
      "equity": 105.41
+    },
+    {
+     "t": "2026-11-24T01:02:13+00:00",
+     "equity": 105.41
     }
    ],
    "positions": [],
@@ -5307,6 +5338,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:02:13+00:00",
+     "kind": "skip",
+     "title": "Tyler Herro: Assists O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-mil-tor-2026-11-23",
+     "leader_usd": 484.12,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.97
+    },
     {
      "ts": "2026-11-23T02:20:56+00:00",
      "kind": "skip",
