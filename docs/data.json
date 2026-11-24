@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:47:17+00:00",
+ "updated": "2026-11-24T00:02:17+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,20 +9,20 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.2,
-   "cash": 82.86,
-   "pnl": 0.2,
-   "pnl_after_kalshi_fees": -3.6,
-   "return_pct": 0.2,
+   "equity": 100.04,
+   "cash": 80.19,
+   "pnl": 0.04,
+   "pnl_after_kalshi_fees": -3.85,
+   "return_pct": 0.0,
    "realized": 0.08,
-   "kalshi_fees": 3.8,
+   "kalshi_fees": 3.89,
    "settled": 20,
    "won": 10,
    "lost": 10,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 17.21,
-   "copied": 25,
+   "open": 3,
+   "at_risk": 19.88,
+   "copied": 26,
    "skipped": 15,
    "max_drawdown_pct": 20.7,
    "focus": "NFL, NBA",
@@ -429,6 +429,10 @@
     {
      "t": "2026-11-23T23:47:15+00:00",
      "equity": 100.2
+    },
+    {
+     "t": "2026-11-24T00:02:14+00:00",
+     "equity": 100.04
     }
    ],
    "positions": [
@@ -449,8 +453,18 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.555,
+     "mark": 0.545,
      "opened": "2026-11-23T21:48:28+00:00"
+    },
+    {
+     "title": "Bengals vs. Commanders: O/U 54.5",
+     "outcome": "Under",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "cost": 2.67,
+     "shares": 5.09,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-23T23:55:16+00:00"
     }
    ],
    "closed": [
@@ -676,6 +690,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T00:02:14+00:00",
+     "kind": "buy",
+     "title": "Bengals vs. Commanders: O/U 54.5",
+     "outcome": "Under",
+     "event_slug": "nfl-cin-was-2026-11-24",
+     "leader_usd": 15146.27,
+     "stake": 2.67,
+     "price": 0.525,
+     "leader_price": 0.51,
+     "mult": 0.89
+    },
     {
      "ts": "2026-11-23T22:47:13+00:00",
      "kind": "buy",
@@ -1148,11 +1174,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.7,
+   "equity": 73.89,
    "cash": 59.46,
-   "pnl": -26.3,
-   "pnl_after_kalshi_fees": -29.44,
-   "return_pct": -26.3,
+   "pnl": -26.11,
+   "pnl_after_kalshi_fees": -29.25,
+   "return_pct": -26.1,
    "realized": -27.39,
    "kalshi_fees": 3.14,
    "settled": 22,
@@ -1568,6 +1594,10 @@
     {
      "t": "2026-11-23T23:47:15+00:00",
      "equity": 73.7
+    },
+    {
+     "t": "2026-11-24T00:02:14+00:00",
+     "equity": 73.89
     }
    ],
    "positions": [
@@ -1578,7 +1608,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.69,
+     "mark": 0.71,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2398,11 +2428,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 47.86,
+   "equity": 47.02,
    "cash": 19.21,
-   "pnl": -52.14,
-   "pnl_after_kalshi_fees": -58.19,
-   "return_pct": -52.1,
+   "pnl": -52.98,
+   "pnl_after_kalshi_fees": -59.03,
+   "return_pct": -53.0,
    "realized": -53.62,
    "kalshi_fees": 6.05,
    "settled": 36,
@@ -2818,6 +2848,10 @@
     {
      "t": "2026-11-23T23:47:15+00:00",
      "equity": 47.86
+    },
+    {
+     "t": "2026-11-24T00:02:14+00:00",
+     "equity": 47.02
     }
    ],
    "positions": [
@@ -2838,7 +2872,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.56,
+     "mark": 0.565,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -2878,7 +2912,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.525,
+     "mark": 0.3,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -2898,7 +2932,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -2918,7 +2952,7 @@
      "cost": 2.78,
      "shares": 4.24,
      "avg": 0.655,
-     "mark": 0.932,
+     "mark": 0.9905,
      "opened": "2026-11-23T22:16:52+00:00"
     }
    ],
@@ -4439,6 +4473,10 @@
     {
      "t": "2026-11-23T23:47:15+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T00:02:14+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -5055,6 +5093,10 @@
     },
     {
      "t": "2026-11-23T23:47:15+00:00",
+     "equity": 105.41
+    },
+    {
+     "t": "2026-11-24T00:02:14+00:00",
      "equity": 105.41
     }
    ],
