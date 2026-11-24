@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:02:14+00:00",
+ "updated": "2026-11-24T23:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -801,6 +801,10 @@
     {
      "t": "2026-11-24T23:02:12+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T23:17:10+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1578,20 +1582,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.11,
-   "cash": 50.14,
-   "pnl": -25.89,
-   "pnl_after_kalshi_fees": -29.21,
-   "return_pct": -25.9,
+   "equity": 75.05,
+   "cash": 41.42,
+   "pnl": -24.95,
+   "pnl_after_kalshi_fees": -28.43,
+   "return_pct": -25.0,
    "realized": -27.39,
-   "kalshi_fees": 3.32,
+   "kalshi_fees": 3.48,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 22.47,
-   "copied": 30,
+   "at_risk": 31.19,
+   "copied": 32,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -2370,6 +2374,10 @@
     {
      "t": "2026-11-24T23:02:12+00:00",
      "equity": 74.11
+    },
+    {
+     "t": "2026-11-24T23:17:10+00:00",
+     "equity": 75.05
     }
    ],
    "positions": [
@@ -2377,20 +2385,20 @@
      "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
      "outcome": "No",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 12.22,
-     "shares": 18.48,
-     "avg": 0.661,
-     "mark": 0.73,
+     "cost": 16.58,
+     "shares": 24.0,
+     "avg": 0.691,
+     "mark": 0.78,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
      "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
      "outcome": "Yes",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 7.89,
-     "shares": 11.51,
-     "avg": 0.685,
-     "mark": 0.705,
+     "cost": 12.25,
+     "shares": 17.51,
+     "avg": 0.7,
+     "mark": 0.7165,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2649,6 +2657,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T23:17:10+00:00",
+     "kind": "buy",
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 3402.34,
+     "stake": 4.36,
+     "price": 0.727,
+     "leader_price": 0.72,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-24T23:17:10+00:00",
+     "kind": "buy",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 3598.26,
+     "stake": 4.36,
+     "price": 0.79,
+     "leader_price": 0.764,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-24T20:32:13+00:00",
      "kind": "buy",
@@ -3236,11 +3268,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 53.58,
+   "equity": 55.03,
    "cash": 0.29,
-   "pnl": -46.42,
-   "pnl_after_kalshi_fees": -54.56,
-   "return_pct": -46.4,
+   "pnl": -44.97,
+   "pnl_after_kalshi_fees": -53.11,
+   "return_pct": -45.0,
    "realized": -39.98,
    "kalshi_fees": 8.14,
    "settled": 46,
@@ -3250,7 +3282,7 @@
    "open": 20,
    "at_risk": 59.72,
    "copied": 76,
-   "skipped": 55,
+   "skipped": 56,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -4028,6 +4060,10 @@
     {
      "t": "2026-11-24T23:02:12+00:00",
      "equity": 53.58
+    },
+    {
+     "t": "2026-11-24T23:17:10+00:00",
+     "equity": 55.03
     }
    ],
    "positions": [
@@ -4038,7 +4074,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.615,
+     "mark": 0.605,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -4068,7 +4104,7 @@
      "cost": 2.14,
      "shares": 2.76,
      "avg": 0.775,
-     "mark": 0.8,
+     "mark": 0.73,
      "opened": "2026-11-24T13:10:32+00:00"
     },
     {
@@ -4088,7 +4124,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.455,
+     "mark": 0.6,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -4108,7 +4144,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.46,
+     "mark": 0.49,
      "opened": "2026-11-24T14:35:56+00:00"
     },
     {
@@ -4188,7 +4224,7 @@
      "cost": 2.68,
      "shares": 5.41,
      "avg": 0.495,
-     "mark": 0.525,
+     "mark": 0.515,
      "opened": "2026-11-24T20:21:43+00:00"
     },
     {
@@ -4218,7 +4254,7 @@
      "cost": 2.95,
      "shares": 5.62,
      "avg": 0.525,
-     "mark": 0.53,
+     "mark": 0.625,
      "opened": "2026-11-24T22:17:20+00:00"
     },
     {
@@ -4741,6 +4777,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T23:17:10+00:00",
+     "kind": "skip",
+     "title": "Spread: Furman Paladins (-7.5)",
+     "outcome": "Furman Paladins",
+     "event_slug": "cbb-elon-furman-2026-11-24",
+     "leader_usd": 2.5,
+     "reason": "out of cash",
+     "price": 0.495,
+     "leader_price": 0.5
+    },
     {
      "ts": "2026-11-24T22:47:13+00:00",
      "kind": "buy",
@@ -5424,17 +5471,6 @@
      "price": 0.525,
      "leader_price": 0.53,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-22T22:20:44+00:00",
-     "kind": "skip",
-     "title": "Thunder vs. Heat",
-     "outcome": "Heat",
-     "event_slug": "nba-okc-mia-2026-11-22",
-     "leader_usd": 66.93,
-     "reason": "below $1 minimum",
-     "price": 0.635,
-     "leader_price": 0.69
     }
    ]
   },
@@ -6234,6 +6270,10 @@
     },
     {
      "t": "2026-11-24T23:02:12+00:00",
+     "equity": 110.89
+    },
+    {
+     "t": "2026-11-24T23:17:10+00:00",
      "equity": 110.89
     }
    ],
@@ -7325,6 +7365,10 @@
     },
     {
      "t": "2026-11-24T23:02:12+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T23:17:10+00:00",
      "equity": 105.62
     }
    ],
