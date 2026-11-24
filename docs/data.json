@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:02:16+00:00",
+ "updated": "2026-11-24T13:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -640,6 +640,10 @@
     },
     {
      "t": "2026-11-24T13:02:15+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T13:17:12+00:00",
      "equity": 82.84
     }
    ],
@@ -2050,6 +2054,10 @@
     {
      "t": "2026-11-24T13:02:15+00:00",
      "equity": 74.38
+    },
+    {
+     "t": "2026-11-24T13:17:12+00:00",
+     "equity": 74.38
     }
    ],
    "positions": [
@@ -2070,7 +2078,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.722,
+     "mark": 0.711,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2080,7 +2088,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.245,
+     "mark": 0.255,
      "opened": "2026-11-23T22:56:41+00:00"
     }
    ],
@@ -2880,20 +2888,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.54,
-   "cash": 54.6,
-   "pnl": -37.46,
-   "pnl_after_kalshi_fees": -43.68,
+   "equity": 62.51,
+   "cash": 52.46,
+   "pnl": -37.49,
+   "pnl_after_kalshi_fees": -43.75,
    "return_pct": -37.5,
    "realized": -37.55,
-   "kalshi_fees": 6.22,
+   "kalshi_fees": 6.26,
    "settled": 45,
    "won": 24,
    "lost": 21,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 7.84,
-   "copied": 57,
+   "open": 4,
+   "at_risk": 9.98,
+   "copied": 58,
    "skipped": 48,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3512,6 +3520,10 @@
     {
      "t": "2026-11-24T13:02:15+00:00",
      "equity": 62.54
+    },
+    {
+     "t": "2026-11-24T13:17:12+00:00",
+     "equity": 62.51
     }
    ],
    "positions": [
@@ -3544,6 +3556,16 @@
      "avg": 0.555,
      "mark": 0.595,
      "opened": "2026-11-23T22:02:07+00:00"
+    },
+    {
+     "title": "Spread: Michigan Wolverines (-14.5)",
+     "outcome": "Creighton Bluejays",
+     "event_slug": "cbb-mich-creigh-2026-11-24",
+     "cost": 2.14,
+     "shares": 2.76,
+     "avg": 0.775,
+     "mark": 0.765,
+     "opened": "2026-11-24T13:10:32+00:00"
     }
    ],
    "closed": [
@@ -4044,6 +4066,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T13:17:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Michigan Wolverines (-14.5)",
+     "outcome": "Creighton Bluejays",
+     "event_slug": "cbb-mich-creigh-2026-11-24",
+     "leader_usd": 301.84,
+     "stake": 2.14,
+     "price": 0.775,
+     "leader_price": 0.758,
+     "mult": 1.14
+    },
     {
      "ts": "2026-11-24T04:32:12+00:00",
      "kind": "skip",
@@ -4723,18 +4757,6 @@
      "reason": "below $1 minimum",
      "price": 0.505,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-21T23:21:17+00:00",
-     "kind": "buy",
-     "title": "Spread: Golden Knights (-1.5)",
-     "outcome": "Golden Knights",
-     "event_slug": "nhl-las-wpg-2026-11-21",
-     "leader_usd": 370.59,
-     "stake": 2.94,
-     "price": 0.335,
-     "leader_price": 0.33,
-     "mult": 1.4
     }
    ]
   },
@@ -5374,6 +5396,10 @@
     },
     {
      "t": "2026-11-24T13:02:15+00:00",
+     "equity": 92.61
+    },
+    {
+     "t": "2026-11-24T13:17:12+00:00",
      "equity": 92.61
     }
    ],
@@ -6226,6 +6252,10 @@
     },
     {
      "t": "2026-11-24T13:02:15+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T13:17:12+00:00",
      "equity": 105.62
     }
    ],
