@@ -3,23 +3,10 @@
  "name": "dabossrealman",
  "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
  "start": 100.0,
- "cash": 103.1026,
+ "cash": 104.2263,
  "since": 1795198438,
  "last_ts": 1795485046,
  "positions": {
-  "85310436512355137101530635324011364572930876912732908933690430123200763330943": {
-   "cond": "0x95a95785788cd484af9df31c1d56e028f676c298644a076ce17b373edf7b9947",
-   "idx": 0,
-   "outcome": "Yes",
-   "title": "Jrue Holiday: Points O/U 9.5",
-   "slug": "nba-por-phi-2026-11-23-points-jrue-holiday-9pt5",
-   "event_slug": "nba-por-phi-2026-11-23",
-   "shares": 1.1237113402061856,
-   "cost": 1.09,
-   "kfee": 0.01,
-   "opened": "2026-11-24T01:39:43+00:00",
-   "mark": 0.9995
-  },
   "102315949771002867432648612432009889109256425577285950460673346666315638380893": {
    "cond": "0xba7ad7acffebadbd4ce71e4a4c26758773266f92d4c22cb47db7af8475308ae7",
    "idx": 0,
@@ -31,7 +18,7 @@
    "cost": 1.22,
    "kfee": 0.01,
    "opened": "2026-11-24T01:50:46+00:00",
-   "mark": 0.965
+   "mark": 0.97
   }
  },
  "leader_shares": {
@@ -186,6 +173,17 @@
    "cost": 4.47,
    "pnl": 3.3,
    "kfee": 0.14,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T02:17:13+00:00",
+   "title": "Jrue Holiday: Points O/U 9.5",
+   "outcome": "Yes",
+   "event_slug": "nba-por-phi-2026-11-23",
+   "cost": 1.09,
+   "pnl": 0.03,
+   "kfee": 0.01,
    "how": "won",
    "exit_price": 1.0
   }
@@ -1101,6 +1099,10 @@
   {
    "t": "2026-11-24T02:02:13+00:00",
    "equity": 105.43
+  },
+  {
+   "t": "2026-11-24T02:17:13+00:00",
+   "equity": 105.44
   }
  ],
  "kfees": 0.94,

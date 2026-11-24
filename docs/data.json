@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:02:16+00:00",
+ "updated": "2026-11-24T02:17:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 101.2,
+   "equity": 102.01,
    "cash": 77.75,
-   "pnl": 1.2,
-   "pnl_after_kalshi_fees": -2.79,
-   "return_pct": 1.2,
+   "pnl": 2.01,
+   "pnl_after_kalshi_fees": -1.98,
+   "return_pct": 2.0,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -465,6 +465,10 @@
     {
      "t": "2026-11-24T02:02:13+00:00",
      "equity": 101.2
+    },
+    {
+     "t": "2026-11-24T02:17:13+00:00",
+     "equity": 102.01
     }
    ],
    "positions": [
@@ -475,7 +479,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.485,
+     "mark": 0.495,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -485,7 +489,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.53,
+     "mark": 0.555,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -495,7 +499,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.92,
+     "mark": 0.955,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -505,7 +509,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.4,
+     "mark": 0.425,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1695,6 +1699,10 @@
     {
      "t": "2026-11-24T02:02:13+00:00",
      "equity": 73.51
+    },
+    {
+     "t": "2026-11-24T02:17:13+00:00",
+     "equity": 73.51
     }
    ],
    "positions": [
@@ -1715,7 +1723,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.6725,
+     "mark": 0.672,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2525,11 +2533,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.25,
+   "equity": 50.05,
    "cash": 17.23,
-   "pnl": -53.75,
-   "pnl_after_kalshi_fees": -59.97,
-   "return_pct": -53.8,
+   "pnl": -49.95,
+   "pnl_after_kalshi_fees": -56.17,
+   "return_pct": -50.0,
    "realized": -52.38,
    "kalshi_fees": 6.22,
    "settled": 37,
@@ -2981,6 +2989,10 @@
     {
      "t": "2026-11-24T02:02:13+00:00",
      "equity": 46.25
+    },
+    {
+     "t": "2026-11-24T02:17:13+00:00",
+     "equity": 50.05
     }
    ],
    "positions": [
@@ -3011,7 +3023,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.88,
+     "mark": 0.935,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -3021,7 +3033,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.075,
+     "mark": 0.015,
      "opened": "2026-11-23T16:43:49+00:00"
     },
     {
@@ -3031,7 +3043,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.195,
+     "mark": 0.995,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -3091,7 +3103,7 @@
      "cost": 2.43,
      "shares": 5.12,
      "avg": 0.475,
-     "mark": 0.455,
+     "mark": 0.445,
      "opened": "2026-11-24T01:20:01+00:00"
     }
    ],
@@ -4660,6 +4672,10 @@
     {
      "t": "2026-11-24T02:02:13+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T02:17:13+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4857,19 +4873,19 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 105.43,
-   "cash": 103.1,
-   "pnl": 5.43,
-   "pnl_after_kalshi_fees": 4.49,
+   "equity": 105.44,
+   "cash": 104.23,
+   "pnl": 5.44,
+   "pnl_after_kalshi_fees": 4.5,
    "return_pct": 5.4,
-   "realized": 5.41,
+   "realized": 5.44,
    "kalshi_fees": 0.94,
-   "settled": 10,
-   "won": 9,
+   "settled": 11,
+   "won": 10,
    "lost": 1,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 2.31,
+   "open": 1,
+   "at_risk": 1.22,
    "copied": 12,
    "skipped": 31,
    "max_drawdown_pct": 8.9,
@@ -5313,19 +5329,13 @@
     {
      "t": "2026-11-24T02:02:13+00:00",
      "equity": 105.43
+    },
+    {
+     "t": "2026-11-24T02:17:13+00:00",
+     "equity": 105.44
     }
    ],
    "positions": [
-    {
-     "title": "Jrue Holiday: Points O/U 9.5",
-     "outcome": "Yes",
-     "event_slug": "nba-por-phi-2026-11-23",
-     "cost": 1.09,
-     "shares": 1.12,
-     "avg": 0.97,
-     "mark": 0.9995,
-     "opened": "2026-11-24T01:39:43+00:00"
-    },
     {
      "title": "Cedric Coward: Points O/U 14.5",
      "outcome": "Yes",
@@ -5333,11 +5343,22 @@
      "cost": 1.22,
      "shares": 1.25,
      "avg": 0.975,
-     "mark": 0.965,
+     "mark": 0.97,
      "opened": "2026-11-24T01:50:46+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T02:17:13+00:00",
+     "title": "Jrue Holiday: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-por-phi-2026-11-23",
+     "cost": 1.09,
+     "pnl": 0.03,
+     "kfee": 0.01,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-23T01:21:13+00:00",
      "title": "Nuggets vs. Bulls: Race to 10 Points",
