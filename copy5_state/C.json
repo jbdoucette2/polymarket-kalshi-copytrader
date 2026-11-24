@@ -3,23 +3,10 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 45.8077,
+ "cash": 54.5991,
  "since": 1795198438,
  "last_ts": 1795494112,
  "positions": {
-  "103210685831214526862506143637633379806406742173835736361417985177390704759422": {
-   "cond": "0x03d5497cfae821677f4fefd8b8645c0c7ad0ee18217c11b6840426a140fadc32",
-   "idx": 0,
-   "outcome": "Over",
-   "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
-   "slug": "cbb-colst-arz-2026-11-23-total-158pt5",
-   "event_slug": "cbb-colst-arz-2026-11-23",
-   "shares": 8.791378252869535,
-   "cost": 4.72,
-   "kfee": 0.16999999999999998,
-   "opened": "2026-11-23T02:39:11+00:00",
-   "mark": 0.9995
-  },
   "25035631793468111561238277867721581045805005713747922491643939004357576460934": {
    "cond": "0x3213b2f592ce37780d6734d2130565e814e9049854172dfd9b5d6cead8e65174",
    "idx": 1,
@@ -632,6 +619,17 @@
    "cost": 2.64,
    "pnl": 2.29,
    "kfee": 0.09,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T09:02:12+00:00",
+   "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
+   "outcome": "Over",
+   "event_slug": "cbb-colst-arz-2026-11-23",
+   "cost": 4.72,
+   "pnl": 4.07,
+   "kfee": 0.17,
    "how": "won",
    "exit_price": 1.0
   }
@@ -2385,6 +2383,10 @@
   },
   {
    "t": "2026-11-24T08:47:13+00:00",
+   "equity": 62.51
+  },
+  {
+   "t": "2026-11-24T09:02:12+00:00",
    "equity": 62.51
   }
  ],
