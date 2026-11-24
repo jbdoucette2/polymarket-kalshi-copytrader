@@ -3,63 +3,10 @@
  "name": "BreakTheBank",
  "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
  "start": 100.0,
- "cash": 77.7526,
+ "cash": 82.8383,
  "since": 1795198438,
  "last_ts": 1795480633,
- "positions": {
-  "25833909583848229560604946180146254026252241209923592644429191596992200679138": {
-   "cond": "0xccf963f2dcfddc7802aa7762d96736e09e9b4ab9eb4c5332c3b0f23f47c2cca8",
-   "idx": 0,
-   "outcome": "Bengals",
-   "title": "Spread: Bengals (-6.5)",
-   "slug": "nfl-cin-was-2026-11-24-spread-away-6pt5",
-   "event_slug": "nfl-cin-was-2026-11-24",
-   "shares": 22.23771697558105,
-   "cost": 11.21,
-   "kfee": 0.4,
-   "opened": "2026-11-23T19:50:08+00:00",
-   "mark": 0.0005
-  },
-  "115458097634498057759096834816008368241222688137561226553880188740627053264972": {
-   "cond": "0xda43dd854e0cc3112395637026eea4a388be4d9904f6d3ee4b9299ab728e72b8",
-   "idx": 0,
-   "outcome": "Bengals",
-   "title": "Spread: Bengals (-5.5)",
-   "slug": "nfl-cin-was-2026-11-24-spread-away-5pt5",
-   "event_slug": "nfl-cin-was-2026-11-24",
-   "shares": 11.009174311926605,
-   "cost": 6.0,
-   "kfee": 0.2,
-   "opened": "2026-11-23T21:48:28+00:00",
-   "mark": 0.0005
-  },
-  "16298346419904446811715156267782437584556634543121344799544323583504303916515": {
-   "cond": "0x39a313554edd6b1b88b0f930ea79d62c0b27f87720af1bca272a361b5d615898",
-   "idx": 1,
-   "outcome": "Under",
-   "title": "Bengals vs. Commanders: O/U 54.5",
-   "slug": "nfl-cin-was-2026-11-24-total-54pt5",
-   "event_slug": "nfl-cin-was-2026-11-24",
-   "shares": 5.085714285714285,
-   "cost": 2.67,
-   "kfee": 0.09,
-   "opened": "2026-11-23T23:55:16+00:00",
-   "mark": 0.9995
-  },
-  "38171991561981764637396174653583320614378533633699318283121909536639818437904": {
-   "cond": "0x85f2673300cea4bbf1991eaf4f279f0cd8d3c6c8c952f618dced8516a8483bb1",
-   "idx": 0,
-   "outcome": "Bengals",
-   "title": "Spread: Bengals (-7.5)",
-   "slug": "nfl-cin-was-2026-11-24-spread-away-7pt5",
-   "event_slug": "nfl-cin-was-2026-11-24",
-   "shares": 5.362637362637362,
-   "cost": 2.44,
-   "kfee": 0.1,
-   "opened": "2026-11-24T00:36:43+00:00",
-   "mark": 0.0005
-  }
- },
+ "positions": {},
  "leader_shares": {
   "11376846649846397637629515718287737992489767404893188768280033139373736291692": 139143.03,
   "12042500102922379995800896870229961180519863063448798221842069005259042944123": 15786.47,
@@ -314,6 +261,50 @@
    "kfee": 0.19,
    "how": "won",
    "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T04:47:19+00:00",
+   "title": "Spread: Bengals (-6.5)",
+   "outcome": "Bengals",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "cost": 11.21,
+   "pnl": -11.21,
+   "kfee": 0.4,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-24T04:47:19+00:00",
+   "title": "Spread: Bengals (-5.5)",
+   "outcome": "Bengals",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "cost": 6.0,
+   "pnl": -6.0,
+   "kfee": 0.2,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-24T04:47:19+00:00",
+   "title": "Bengals vs. Commanders: O/U 54.5",
+   "outcome": "Under",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "cost": 2.67,
+   "pnl": 2.42,
+   "kfee": 0.09,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T04:47:19+00:00",
+   "title": "Spread: Bengals (-7.5)",
+   "outcome": "Bengals",
+   "event_slug": "nfl-cin-was-2026-11-24",
+   "cost": 2.44,
+   "pnl": -2.44,
+   "kfee": 0.1,
+   "how": "lost",
+   "exit_price": 0.0
   }
  ],
  "log": [
@@ -1286,6 +1277,10 @@
   {
    "t": "2026-11-24T04:32:12+00:00",
    "equity": 82.86
+  },
+  {
+   "t": "2026-11-24T04:47:19+00:00",
+   "equity": 82.84
   }
  ],
  "kfees": 3.99,

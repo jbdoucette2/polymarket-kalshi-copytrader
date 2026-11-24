@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-24T04:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-24T04:47:21+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$107.26** (+7.26; after Kalshi fees +6.57) · 3-0 · sold early 0 · 1 open ($5.64) · max drawdown 5.9%
+**$107.25** (+7.25; after Kalshi fees +6.56) · 3-1 · sold early 0 · 0 open ($0.00) · max drawdown 5.9%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,7 +15,6 @@ Updated 2026-11-24T04:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
-| Spread: Bengals (-6.5) | Bengals | gmpm2 | $5.64 | 0c |
 
 ## Recent decisions
 
