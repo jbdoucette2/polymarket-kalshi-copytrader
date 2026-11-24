@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:17:18+00:00",
+ "updated": "2026-11-24T01:32:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.69,
+   "equity": 97.22,
    "cash": 77.75,
-   "pnl": -0.31,
-   "pnl_after_kalshi_fees": -4.3,
-   "return_pct": -0.3,
+   "pnl": -2.78,
+   "pnl_after_kalshi_fees": -6.77,
+   "return_pct": -2.8,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -453,6 +453,10 @@
     {
      "t": "2026-11-24T01:17:15+00:00",
      "equity": 99.69
+    },
+    {
+     "t": "2026-11-24T01:32:14+00:00",
+     "equity": 97.22
     }
    ],
    "positions": [
@@ -463,7 +467,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.495,
+     "mark": 0.415,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -473,7 +477,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.545,
+     "mark": 0.445,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -483,7 +487,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.51,
+     "mark": 0.67,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -493,7 +497,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.435,
+     "mark": 0.36,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1227,11 +1231,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.48,
+   "equity": 73.44,
    "cash": 59.46,
-   "pnl": -26.52,
-   "pnl_after_kalshi_fees": -29.66,
-   "return_pct": -26.5,
+   "pnl": -26.56,
+   "pnl_after_kalshi_fees": -29.7,
+   "return_pct": -26.6,
    "realized": -27.39,
    "kalshi_fees": 3.14,
    "settled": 22,
@@ -1671,6 +1675,10 @@
     {
      "t": "2026-11-24T01:17:15+00:00",
      "equity": 73.48
+    },
+    {
+     "t": "2026-11-24T01:32:14+00:00",
+     "equity": 73.44
     }
    ],
    "positions": [
@@ -1681,7 +1689,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.68,
+     "mark": 0.675,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2501,20 +2509,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 49.98,
-   "cash": 19.66,
-   "pnl": -50.02,
-   "pnl_after_kalshi_fees": -56.15,
-   "return_pct": -50.0,
+   "equity": 50.5,
+   "cash": 17.23,
+   "pnl": -49.5,
+   "pnl_after_kalshi_fees": -55.72,
+   "return_pct": -49.5,
    "realized": -52.38,
-   "kalshi_fees": 6.13,
+   "kalshi_fees": 6.22,
    "settled": 37,
    "won": 17,
    "lost": 20,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 27.95,
-   "copied": 56,
+   "open": 11,
+   "at_risk": 30.38,
+   "copied": 57,
    "skipped": 47,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -2945,6 +2953,10 @@
     {
      "t": "2026-11-24T01:17:15+00:00",
      "equity": 49.98
+    },
+    {
+     "t": "2026-11-24T01:32:14+00:00",
+     "equity": 50.5
     }
    ],
    "positions": [
@@ -2975,7 +2987,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.685,
+     "mark": 0.935,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2985,7 +2997,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.495,
+     "mark": 0.46,
      "opened": "2026-11-23T16:43:49+00:00"
     },
     {
@@ -2995,7 +3007,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.55,
+     "mark": 0.45,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -3045,8 +3057,18 @@
      "cost": 2.05,
      "shares": 4.32,
      "avg": 0.475,
-     "mark": 0.53,
+     "mark": 0.52,
      "opened": "2026-11-24T00:56:28+00:00"
+    },
+    {
+     "title": "Spread: Lakers (-14.5)",
+     "outcome": "Lakers",
+     "event_slug": "nba-uta-lal-2026-11-23",
+     "cost": 2.43,
+     "shares": 5.12,
+     "avg": 0.475,
+     "mark": 0.465,
+     "opened": "2026-11-24T01:20:01+00:00"
     }
    ],
    "closed": [
@@ -3459,6 +3481,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:32:14+00:00",
+     "kind": "buy",
+     "title": "Spread: Lakers (-14.5)",
+     "outcome": "Lakers",
+     "event_slug": "nba-uta-lal-2026-11-23",
+     "leader_usd": 450.26,
+     "stake": 2.43,
+     "price": 0.475,
+     "leader_price": 0.47,
+     "mult": 1.7
+    },
     {
      "ts": "2026-11-24T01:02:13+00:00",
      "kind": "buy",
@@ -4138,17 +4172,6 @@
      "reason": "below $1 minimum",
      "price": 0.595,
      "leader_price": 0.59
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "kind": "skip",
-     "title": "Spread: Georgia Southern (-9.5)",
-     "outcome": "Troy",
-     "event_slug": "cfb-gas-troy-2026-11-21",
-     "leader_usd": 813.67,
-     "reason": "out of cash",
-     "price": 0.335,
-     "leader_price": 0.54
     }
    ]
   },
@@ -4601,6 +4624,10 @@
     {
      "t": "2026-11-24T01:17:15+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T01:32:14+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4812,7 +4839,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 10,
-   "skipped": 28,
+   "skipped": 30,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5242,6 +5269,10 @@
     {
      "t": "2026-11-24T01:17:15+00:00",
      "equity": 105.41
+    },
+    {
+     "t": "2026-11-24T01:32:14+00:00",
+     "equity": 105.41
     }
    ],
    "positions": [],
@@ -5358,6 +5389,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:32:14+00:00",
+     "kind": "skip",
+     "title": "LeBron James: Rebounds O/U 3.5",
+     "outcome": "Yes",
+     "event_slug": "nba-por-phi-2026-11-23",
+     "leader_usd": 246.38,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.95
+    },
+    {
+     "ts": "2026-11-24T01:32:14+00:00",
+     "kind": "skip",
+     "title": "Moussa Diabat\u00e9: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-mem-cha-2026-11-23",
+     "leader_usd": 9.8,
+     "reason": "too late: outcome already decided",
+     "price": 0.98,
+     "leader_price": 0.98
+    },
     {
      "ts": "2026-11-24T01:17:15+00:00",
      "kind": "skip",
