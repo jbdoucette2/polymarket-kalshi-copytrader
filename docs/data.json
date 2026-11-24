@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:47:15+00:00",
+ "updated": "2026-11-24T18:02:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -716,6 +716,10 @@
     },
     {
      "t": "2026-11-24T17:47:13+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T18:02:15+00:00",
      "equity": 82.84
     }
    ],
@@ -1494,11 +1498,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.08,
+   "equity": 73.98,
    "cash": 52.84,
-   "pnl": -25.92,
-   "pnl_after_kalshi_fees": -29.19,
-   "return_pct": -25.9,
+   "pnl": -26.02,
+   "pnl_after_kalshi_fees": -29.29,
+   "return_pct": -26.0,
    "realized": -27.39,
    "kalshi_fees": 3.27,
    "settled": 22,
@@ -2202,6 +2206,10 @@
     {
      "t": "2026-11-24T17:47:13+00:00",
      "equity": 74.08
+    },
+    {
+     "t": "2026-11-24T18:02:15+00:00",
+     "equity": 73.98
     }
    ],
    "positions": [
@@ -2212,7 +2220,7 @@
      "cost": 9.52,
      "shares": 14.91,
      "avg": 0.639,
-     "mark": 0.73,
+     "mark": 0.725,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2222,7 +2230,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.6945,
+     "mark": 0.6925,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3056,10 +3064,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.31,
+   "equity": 60.26,
    "cash": 23.15,
-   "pnl": -39.69,
-   "pnl_after_kalshi_fees": -46.97,
+   "pnl": -39.74,
+   "pnl_after_kalshi_fees": -47.02,
    "return_pct": -39.7,
    "realized": -37.55,
    "kalshi_fees": 7.28,
@@ -3070,7 +3078,7 @@
    "open": 14,
    "at_risk": 39.29,
    "copied": 68,
-   "skipped": 53,
+   "skipped": 54,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -3764,6 +3772,10 @@
     {
      "t": "2026-11-24T17:47:13+00:00",
      "equity": 60.31
+    },
+    {
+     "t": "2026-11-24T18:02:15+00:00",
+     "equity": 60.26
     }
    ],
    "positions": [
@@ -3804,7 +3816,7 @@
      "cost": 2.14,
      "shares": 2.76,
      "avg": 0.775,
-     "mark": 0.79,
+     "mark": 0.785,
      "opened": "2026-11-24T13:10:32+00:00"
     },
     {
@@ -3824,7 +3836,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.56,
+     "mark": 0.555,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -4406,6 +4418,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T18:02:15+00:00",
+     "kind": "skip",
+     "title": "Spread: Stanford Cardinal (-3.5)",
+     "outcome": "Colorado Buffaloes",
+     "event_slug": "cbb-stan-col-2026-11-24",
+     "leader_usd": 4.54,
+     "reason": "below $1 minimum",
+     "price": 0.47,
+     "leader_price": 0.47
+    },
     {
      "ts": "2026-11-24T16:47:11+00:00",
      "kind": "buy",
@@ -5083,18 +5106,6 @@
      "outcome": "Broncos",
      "event_slug": "nfl-lv-den-2026-11-22",
      "leader_usd": 4048.74,
-     "stake": 2.01,
-     "price": 0.835,
-     "leader_price": 0.83,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-22T16:20:50+00:00",
-     "kind": "buy",
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "leader_usd": 5836.56,
      "stake": 2.01,
      "price": 0.835,
      "leader_price": 0.83,
@@ -5814,6 +5825,10 @@
     },
     {
      "t": "2026-11-24T17:47:13+00:00",
+     "equity": 92.72
+    },
+    {
+     "t": "2026-11-24T18:02:15+00:00",
      "equity": 92.72
     }
    ],
@@ -6742,6 +6757,10 @@
     },
     {
      "t": "2026-11-24T17:47:13+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T18:02:15+00:00",
      "equity": 105.62
     }
    ],
