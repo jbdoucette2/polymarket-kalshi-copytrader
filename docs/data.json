@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:17:13+00:00",
+ "updated": "2026-11-24T13:32:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -644,6 +644,10 @@
     },
     {
      "t": "2026-11-24T13:17:12+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T13:32:12+00:00",
      "equity": 82.84
     }
    ],
@@ -1422,20 +1426,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.38,
-   "cash": 59.46,
-   "pnl": -25.62,
-   "pnl_after_kalshi_fees": -28.76,
-   "return_pct": -25.6,
+   "equity": 74.18,
+   "cash": 57.2,
+   "pnl": -25.82,
+   "pnl_after_kalshi_fees": -29.01,
+   "return_pct": -25.8,
    "realized": -27.39,
-   "kalshi_fees": 3.14,
+   "kalshi_fees": 3.19,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 13.15,
-   "copied": 27,
+   "at_risk": 15.41,
+   "copied": 28,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -2058,6 +2062,10 @@
     {
      "t": "2026-11-24T13:17:12+00:00",
      "equity": 74.38
+    },
+    {
+     "t": "2026-11-24T13:32:12+00:00",
+     "equity": 74.18
     }
    ],
    "positions": [
@@ -2075,10 +2083,10 @@
      "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
      "outcome": "Yes",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 5.63,
-     "shares": 8.29,
-     "avg": 0.679,
-     "mark": 0.711,
+     "cost": 7.89,
+     "shares": 11.51,
+     "avg": 0.685,
+     "mark": 0.691,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2337,6 +2345,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T13:32:12+00:00",
+     "kind": "buy",
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 1285.87,
+     "stake": 2.26,
+     "price": 0.701,
+     "leader_price": 0.69,
+     "mult": 1.04
+    },
     {
      "ts": "2026-11-23T23:02:23+00:00",
      "kind": "buy",
@@ -2888,20 +2908,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.51,
-   "cash": 52.46,
-   "pnl": -37.49,
-   "pnl_after_kalshi_fees": -43.75,
+   "equity": 62.47,
+   "cash": 50.85,
+   "pnl": -37.53,
+   "pnl_after_kalshi_fees": -43.85,
    "return_pct": -37.5,
    "realized": -37.55,
-   "kalshi_fees": 6.26,
+   "kalshi_fees": 6.32,
    "settled": 45,
    "won": 24,
    "lost": 21,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 9.98,
-   "copied": 58,
+   "open": 5,
+   "at_risk": 11.59,
+   "copied": 59,
    "skipped": 48,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3524,6 +3544,10 @@
     {
      "t": "2026-11-24T13:17:12+00:00",
      "equity": 62.51
+    },
+    {
+     "t": "2026-11-24T13:32:12+00:00",
+     "equity": 62.47
     }
    ],
    "positions": [
@@ -3566,6 +3590,16 @@
      "avg": 0.775,
      "mark": 0.765,
      "opened": "2026-11-24T13:10:32+00:00"
+    },
+    {
+     "title": "Milwaukee Panthers vs. Florida Gators: O/U 156.5",
+     "outcome": "Under",
+     "event_slug": "cbb-wbd-fl-2026-11-24",
+     "cost": 1.61,
+     "shares": 3.01,
+     "avg": 0.535,
+     "mark": 0.52,
+     "opened": "2026-11-24T13:31:07+00:00"
     }
    ],
    "closed": [
@@ -4066,6 +4100,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T13:32:12+00:00",
+     "kind": "buy",
+     "title": "Milwaukee Panthers vs. Florida Gators: O/U 156.5",
+     "outcome": "Under",
+     "event_slug": "cbb-wbd-fl-2026-11-24",
+     "leader_usd": 227.9,
+     "stake": 1.61,
+     "price": 0.535,
+     "leader_price": 0.522,
+     "mult": 0.86
+    },
     {
      "ts": "2026-11-24T13:17:12+00:00",
      "kind": "buy",
@@ -4746,17 +4792,6 @@
      "reason": "price ran away (0.53 -> 0.64)",
      "price": 0.635,
      "leader_price": 0.53
-    },
-    {
-     "ts": "2026-11-21T23:21:17+00:00",
-     "kind": "skip",
-     "title": "Spread: Loyola Marymount Lions (-13.5)",
-     "outcome": "Loyola Marymount Lions",
-     "event_slug": "cbb-loymry-cabap-2026-11-21",
-     "leader_usd": 20.91,
-     "reason": "below $1 minimum",
-     "price": 0.505,
-     "leader_price": 0.5
     }
    ]
   },
@@ -5400,6 +5435,10 @@
     },
     {
      "t": "2026-11-24T13:17:12+00:00",
+     "equity": 92.61
+    },
+    {
+     "t": "2026-11-24T13:32:12+00:00",
      "equity": 92.61
     }
    ],
@@ -6256,6 +6295,10 @@
     },
     {
      "t": "2026-11-24T13:17:12+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T13:32:12+00:00",
      "equity": 105.62
     }
    ],
