@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:02:15+00:00",
+ "updated": "2026-11-24T07:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -544,6 +544,10 @@
     },
     {
      "t": "2026-11-24T07:02:13+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T07:17:12+00:00",
      "equity": 82.84
     }
    ],
@@ -1858,6 +1862,10 @@
     {
      "t": "2026-11-24T07:02:13+00:00",
      "equity": 73.52
+    },
+    {
+     "t": "2026-11-24T07:17:12+00:00",
+     "equity": 73.52
     }
    ],
    "positions": [
@@ -2689,18 +2697,18 @@
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 62.51,
-   "cash": 40.87,
+   "cash": 45.81,
    "pnl": -37.49,
    "pnl_after_kalshi_fees": -43.71,
    "return_pct": -37.5,
-   "realized": -43.91,
+   "realized": -41.62,
    "kalshi_fees": 6.22,
-   "settled": 43,
-   "won": 22,
+   "settled": 44,
+   "won": 23,
    "lost": 21,
    "sold_early": 0,
-   "open": 5,
-   "at_risk": 15.2,
+   "open": 4,
+   "at_risk": 12.56,
    "copied": 57,
    "skipped": 48,
    "max_drawdown_pct": 73.4,
@@ -3224,6 +3232,10 @@
     {
      "t": "2026-11-24T07:02:13+00:00",
      "equity": 62.51
+    },
+    {
+     "t": "2026-11-24T07:17:12+00:00",
+     "equity": 62.51
     }
    ],
    "positions": [
@@ -3248,16 +3260,6 @@
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
-     "title": "Spread: UNLV Runnin' Rebels (-7.5)",
-     "outcome": "UNLV Runnin Rebels",
-     "event_slug": "cbb-ewash-unlv-2026-11-23",
-     "cost": 2.64,
-     "shares": 4.93,
-     "avg": 0.535,
-     "mark": 0.9995,
-     "opened": "2026-11-23T19:15:08+00:00"
-    },
-    {
      "title": "San Diego State vs. Washington State: O/U 45.5",
      "outcome": "Over",
      "event_slug": "cfb-sdst-washst-2026-11-28",
@@ -3279,6 +3281,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T07:17:12+00:00",
+     "title": "Spread: UNLV Runnin' Rebels (-7.5)",
+     "outcome": "UNLV Runnin Rebels",
+     "event_slug": "cbb-ewash-unlv-2026-11-23",
+     "cost": 2.64,
+     "pnl": 2.29,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-24T06:02:12+00:00",
      "title": "Spread: Lakers (-14.5)",
@@ -4989,6 +5002,10 @@
     {
      "t": "2026-11-24T07:02:13+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T07:17:12+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -5721,6 +5738,10 @@
     },
     {
      "t": "2026-11-24T07:02:13+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T07:17:12+00:00",
      "equity": 105.62
     }
    ],

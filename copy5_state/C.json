@@ -3,7 +3,7 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 40.8731,
+ "cash": 45.8077,
  "since": 1795198438,
  "last_ts": 1795494112,
  "positions": {
@@ -32,19 +32,6 @@
    "kfee": 0.09,
    "opened": "2026-11-23T14:39:32+00:00",
    "mark": 0.565
-  },
-  "14228231143927312986953443592316467138605345940895559238927745753666604571457": {
-   "cond": "0xe5049c1c08f793a64d27635ca925618adb180c01c3c005633a8b27d41eae3002",
-   "idx": 0,
-   "outcome": "UNLV Runnin Rebels",
-   "title": "Spread: UNLV Runnin' Rebels (-7.5)",
-   "slug": "cbb-ewash-unlv-2026-11-23-spread-home-7pt5",
-   "event_slug": "cbb-ewash-unlv-2026-11-23",
-   "shares": 4.934579439252336,
-   "cost": 2.64,
-   "kfee": 0.09,
-   "opened": "2026-11-23T19:15:08+00:00",
-   "mark": 0.9995
   },
   "75737745400238391195258500280330655461302512380431007519147518017741145039955": {
    "cond": "0xf42ed676aa1b92dd58673d0d8ddcd0e6d0ccdd570ab32fa0885c5aaf785d8160",
@@ -633,6 +620,17 @@
    "event_slug": "nba-uta-lal-2026-11-23",
    "cost": 2.43,
    "pnl": 2.69,
+   "kfee": 0.09,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-24T07:17:12+00:00",
+   "title": "Spread: UNLV Runnin' Rebels (-7.5)",
+   "outcome": "UNLV Runnin Rebels",
+   "event_slug": "cbb-ewash-unlv-2026-11-23",
+   "cost": 2.64,
+   "pnl": 2.29,
    "kfee": 0.09,
    "how": "won",
    "exit_price": 1.0
@@ -2359,6 +2357,10 @@
   },
   {
    "t": "2026-11-24T07:02:13+00:00",
+   "equity": 62.51
+  },
+  {
+   "t": "2026-11-24T07:17:12+00:00",
    "equity": 62.51
   }
  ],
