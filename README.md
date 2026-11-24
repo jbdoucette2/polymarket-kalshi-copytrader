@@ -59,6 +59,52 @@ Start somewhere other than $100 with `COPYSIM_START=137.54`. For scheduled cloud
 
 GitHub Actions also works: see `.github/workflows/copysim.yml` (off until you uncomment the schedule).
 
+## Copy-5: five single-wallet paper accounts (`copy5.py`)
+
+Five $100 paper accounts, each mirroring **one** Polymarket wallet's exact buys and sells, chosen from
+rivo.markets (see `copy5_accounts.json` for who, why, and their rivo stats). Each copied buy risks 3% of the
+account, scaled 0.25x–2x by how big the leader's bet is versus their usual bet. When the leader sells part of a
+position, the account sells the same fraction. Entries use the market price **at the time of our run** (+1¢),
+not the leader's price, and are skipped if the price ran more than 10¢ away or the game is already decided.
+P&L is shown gross and after a Kalshi-style taker fee.
+
+```bash
+python copy5.py run                          # one cycle (GitHub Actions runs this every 15 min)
+python copy5.py backtest --days 30 --delay 15  # replay the last 30 days, copying 15 min after each leader trade
+python copy5.py backtest --days 30 --delay 0   # same at the leader's own price (upper bound, not achievable)
+```
+
+Runs free on GitHub Actions (`.github/workflows/copy5.yml`); the dashboard is `docs/index.html` on GitHub Pages.
+To swap a leader, edit `copy5_accounts.json`; that account restarts at $100.
+
+## Sharp Filter: one account that copies only bets with a measured edge (`sharp.py`)
+
+One $100 paper account. Instead of trusting win rate or profit, it scores each wallet by how much its
+copyable bets beat **the price we'd actually have paid** (15 min after the leader, plus 1¢ slippage and the
+Kalshi fee), then copies a wallet only in the sports where that edge holds up.
+
+- **Pool:** Polymarket's all-time top 100 sports wallets plus the Copy-5 leaders, minus wallets rivo.markets
+  badges as market makers (`MARKET_MAKERS`).
+- **Scoring:** pre-game buys only, at least half the wallet's median bet, not hedged with the other side.
+  Scores are shrunk toward zero for small samples (`K_WALLET`, `K_SPORT`); a wallet needs 8+ scored bets and
+  5+ in a sport, and a shrunk edge of 2¢+ (`MIN_EDGE`) there. Rescored weekly (`RESCORE_SEC`), or right away
+  when `SCORE_V` is bumped.
+- **Per bet:** skipped if the game started, the price didn't move at least ½¢ since the leader, ran more
+  than 10¢ away, another eligible wallet is on the other side, or we already have a bet on that game.
+  Agreement from another eligible wallet raises the stake 1.5x.
+- **Size:** quarter Kelly on the estimated edge, max 5% of equity per bet and 20% per day.
+- **Exits:** the leader sells half or more before the game → we sell; otherwise hold to settlement.
+  Wallets whose copies lose 15%+ over 12+ settled bets are benched.
+
+```bash
+python sharp.py run                       # one cycle (runs inside the copy5 workflow)
+python sharp.py walkforward --days 30     # score on days 60-30 ago, trade the last 30 with those scores
+python sharp.py report
+```
+
+Results: `REPORT_sharp.md`, `docs/sharp.json`, state in `sharp_state/`. To re-run the walk-forward from your
+phone: GitHub → Actions → copy5 → Run workflow, set `sharp_walkforward_days` to 30 (about 10 minutes).
+
 ## Going live (when the sim says it's worth it)
 
 Suggested bar first: 50+ settled paper trades with positive profit after fees.
