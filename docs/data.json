@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:47:16+00:00",
+ "updated": "2026-11-24T03:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.21,
+   "equity": 96.2,
    "cash": 77.75,
-   "pnl": -0.79,
-   "pnl_after_kalshi_fees": -4.78,
-   "return_pct": -0.8,
+   "pnl": -3.8,
+   "pnl_after_kalshi_fees": -7.79,
+   "return_pct": -3.8,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -477,6 +477,10 @@
     {
      "t": "2026-11-24T02:47:13+00:00",
      "equity": 99.21
+    },
+    {
+     "t": "2026-11-24T03:02:12+00:00",
+     "equity": 96.2
     }
    ],
    "positions": [
@@ -487,7 +491,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.435,
+     "mark": 0.365,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -497,7 +501,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.495,
+     "mark": 0.42,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -507,7 +511,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.871,
+     "mark": 0.833,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -517,7 +521,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.355,
+     "mark": 0.275,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1251,10 +1255,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.54,
+   "equity": 73.53,
    "cash": 59.46,
-   "pnl": -26.46,
-   "pnl_after_kalshi_fees": -29.6,
+   "pnl": -26.47,
+   "pnl_after_kalshi_fees": -29.61,
    "return_pct": -26.5,
    "realized": -27.39,
    "kalshi_fees": 3.14,
@@ -1719,6 +1723,10 @@
     {
      "t": "2026-11-24T02:47:13+00:00",
      "equity": 73.54
+    },
+    {
+     "t": "2026-11-24T03:02:12+00:00",
+     "equity": 73.53
     }
    ],
    "positions": [
@@ -1739,7 +1747,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.67,
+     "mark": 0.6695,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2549,19 +2557,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 50.07,
-   "cash": 21.47,
-   "pnl": -49.93,
-   "pnl_after_kalshi_fees": -56.15,
-   "return_pct": -49.9,
-   "realized": -50.92,
+   "equity": 49.25,
+   "cash": 26.6,
+   "pnl": -50.75,
+   "pnl_after_kalshi_fees": -56.97,
+   "return_pct": -50.8,
+   "realized": -51.07,
    "kalshi_fees": 6.22,
-   "settled": 38,
-   "won": 18,
-   "lost": 20,
+   "settled": 40,
+   "won": 19,
+   "lost": 21,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 27.6,
+   "open": 8,
+   "at_risk": 22.32,
    "copied": 57,
    "skipped": 47,
    "max_drawdown_pct": 73.4,
@@ -3017,6 +3025,10 @@
     {
      "t": "2026-11-24T02:47:13+00:00",
      "equity": 50.07
+    },
+    {
+     "t": "2026-11-24T03:02:12+00:00",
+     "equity": 49.25
     }
    ],
    "positions": [
@@ -3041,26 +3053,6 @@
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
-     "title": "Nets vs. Timberwolves: O/U 223.5",
-     "outcome": "Over",
-     "event_slug": "nba-bkn-min-2026-11-23",
-     "cost": 2.64,
-     "shares": 5.13,
-     "avg": 0.515,
-     "mark": 0.9995,
-     "opened": "2026-11-23T16:24:07+00:00"
-    },
-    {
-     "title": "Thunder vs. Pacers: O/U 221.5",
-     "outcome": "Under",
-     "event_slug": "nba-okc-ind-2026-11-23",
-     "cost": 2.64,
-     "shares": 5.13,
-     "avg": 0.515,
-     "mark": 0.0005,
-     "opened": "2026-11-23T16:43:49+00:00"
-    },
-    {
      "title": "Spread: Santa Clara Broncos (-2.5)",
      "outcome": "Santa Clara Broncos",
      "event_slug": "cbb-sanclr-illst-2026-11-23",
@@ -3077,7 +3069,7 @@
      "cost": 2.64,
      "shares": 4.93,
      "avg": 0.535,
-     "mark": 0.535,
+     "mark": 0.53,
      "opened": "2026-11-23T19:15:08+00:00"
     },
     {
@@ -3107,7 +3099,7 @@
      "cost": 2.05,
      "shares": 4.32,
      "avg": 0.475,
-     "mark": 0.295,
+     "mark": 0.11,
      "opened": "2026-11-24T00:56:28+00:00"
     },
     {
@@ -3122,6 +3114,28 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T03:02:12+00:00",
+     "title": "Thunder vs. Pacers: O/U 221.5",
+     "outcome": "Under",
+     "event_slug": "nba-okc-ind-2026-11-23",
+     "cost": 2.64,
+     "pnl": -2.64,
+     "kfee": 0.09,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-24T03:02:12+00:00",
+     "title": "Nets vs. Timberwolves: O/U 223.5",
+     "outcome": "Over",
+     "event_slug": "nba-bkn-min-2026-11-23",
+     "cost": 2.64,
+     "pnl": 2.49,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-24T02:47:13+00:00",
      "title": "Spread: SC Internacional (-1.5)",
@@ -4709,6 +4723,10 @@
     {
      "t": "2026-11-24T02:47:13+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T03:02:12+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4920,7 +4938,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 12,
-   "skipped": 32,
+   "skipped": 33,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5374,6 +5392,10 @@
     {
      "t": "2026-11-24T02:47:13+00:00",
      "equity": 105.48
+    },
+    {
+     "t": "2026-11-24T03:02:12+00:00",
+     "equity": 105.48
     }
    ],
    "positions": [],
@@ -5512,6 +5534,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T03:02:12+00:00",
+     "kind": "skip",
+     "title": "Bucks vs. Raptors: O/U 225.5",
+     "outcome": "Over",
+     "event_slug": "nba-mil-tor-2026-11-23",
+     "leader_usd": 14.7,
+     "reason": "too late: outcome already decided",
+     "price": 0.995,
+     "leader_price": 0.94
+    },
     {
      "ts": "2026-11-24T02:47:13+00:00",
      "kind": "skip",
