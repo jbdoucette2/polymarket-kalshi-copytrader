@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:32:16+00:00",
+ "updated": "2026-11-24T01:47:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 97.22,
+   "equity": 99.61,
    "cash": 77.75,
-   "pnl": -2.78,
-   "pnl_after_kalshi_fees": -6.77,
-   "return_pct": -2.8,
+   "pnl": -0.39,
+   "pnl_after_kalshi_fees": -4.38,
+   "return_pct": -0.4,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -457,6 +457,10 @@
     {
      "t": "2026-11-24T01:32:14+00:00",
      "equity": 97.22
+    },
+    {
+     "t": "2026-11-24T01:47:12+00:00",
+     "equity": 99.61
     }
    ],
    "positions": [
@@ -467,7 +471,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.415,
+     "mark": 0.455,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -477,7 +481,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.445,
+     "mark": 0.495,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -487,7 +491,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.67,
+     "mark": 0.83,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -497,7 +501,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.36,
+     "mark": 0.385,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1231,11 +1235,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.44,
+   "equity": 73.52,
    "cash": 59.46,
-   "pnl": -26.56,
-   "pnl_after_kalshi_fees": -29.7,
-   "return_pct": -26.6,
+   "pnl": -26.48,
+   "pnl_after_kalshi_fees": -29.62,
+   "return_pct": -26.5,
    "realized": -27.39,
    "kalshi_fees": 3.14,
    "settled": 22,
@@ -1679,6 +1683,10 @@
     {
      "t": "2026-11-24T01:32:14+00:00",
      "equity": 73.44
+    },
+    {
+     "t": "2026-11-24T01:47:12+00:00",
+     "equity": 73.52
     }
    ],
    "positions": [
@@ -1689,7 +1697,7 @@
      "cost": 5.16,
      "shares": 9.13,
      "avg": 0.565,
-     "mark": 0.675,
+     "mark": 0.68,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -1699,7 +1707,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.6685,
+     "mark": 0.673,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2509,11 +2517,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 50.5,
+   "equity": 49.3,
    "cash": 17.23,
-   "pnl": -49.5,
-   "pnl_after_kalshi_fees": -55.72,
-   "return_pct": -49.5,
+   "pnl": -50.7,
+   "pnl_after_kalshi_fees": -56.92,
+   "return_pct": -50.7,
    "realized": -52.38,
    "kalshi_fees": 6.22,
    "settled": 37,
@@ -2957,6 +2965,10 @@
     {
      "t": "2026-11-24T01:32:14+00:00",
      "equity": 50.5
+    },
+    {
+     "t": "2026-11-24T01:47:12+00:00",
+     "equity": 49.3
     }
    ],
    "positions": [
@@ -2987,7 +2999,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.935,
+     "mark": 0.945,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2997,7 +3009,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.46,
+     "mark": 0.485,
      "opened": "2026-11-23T16:43:49+00:00"
     },
     {
@@ -3007,7 +3019,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.45,
+     "mark": 0.245,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -3057,7 +3069,7 @@
      "cost": 2.05,
      "shares": 4.32,
      "avg": 0.475,
-     "mark": 0.52,
+     "mark": 0.43,
      "opened": "2026-11-24T00:56:28+00:00"
     },
     {
@@ -4628,6 +4640,10 @@
     {
      "t": "2026-11-24T01:32:14+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T01:47:12+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4825,21 +4841,21 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 105.41,
-   "cash": 105.41,
-   "pnl": 5.41,
-   "pnl_after_kalshi_fees": 4.49,
+   "equity": 105.4,
+   "cash": 104.32,
+   "pnl": 5.4,
+   "pnl_after_kalshi_fees": 4.47,
    "return_pct": 5.4,
    "realized": 5.41,
-   "kalshi_fees": 0.92,
+   "kalshi_fees": 0.93,
    "settled": 10,
    "won": 9,
    "lost": 1,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 10,
-   "skipped": 30,
+   "open": 1,
+   "at_risk": 1.09,
+   "copied": 11,
+   "skipped": 31,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5273,9 +5289,24 @@
     {
      "t": "2026-11-24T01:32:14+00:00",
      "equity": 105.41
+    },
+    {
+     "t": "2026-11-24T01:47:12+00:00",
+     "equity": 105.4
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Jrue Holiday: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-por-phi-2026-11-23",
+     "cost": 1.09,
+     "shares": 1.12,
+     "avg": 0.97,
+     "mark": 0.96,
+     "opened": "2026-11-24T01:39:43+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-23T01:21:13+00:00",
@@ -5389,6 +5420,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:47:12+00:00",
+     "kind": "buy",
+     "title": "Jrue Holiday: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-por-phi-2026-11-23",
+     "leader_usd": 8.82,
+     "stake": 1.09,
+     "price": 0.97,
+     "leader_price": 0.97,
+     "mult": 0.35
+    },
+    {
+     "ts": "2026-11-24T01:47:12+00:00",
+     "kind": "skip",
+     "title": "Kyle Kuzma: Points O/U 9.5",
+     "outcome": "Yes",
+     "event_slug": "nba-mil-tor-2026-11-23",
+     "leader_usd": 8.82,
+     "reason": "too late: outcome already decided",
+     "price": 0.985,
+     "leader_price": 0.96
+    },
     {
      "ts": "2026-11-24T01:32:14+00:00",
      "kind": "skip",
