@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T04:17:13+00:00",
+ "updated": "2026-11-24T04:32:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 83.33,
+   "equity": 82.86,
    "cash": 77.75,
-   "pnl": -16.67,
-   "pnl_after_kalshi_fees": -20.66,
-   "return_pct": -16.7,
+   "pnl": -17.14,
+   "pnl_after_kalshi_fees": -21.13,
+   "return_pct": -17.1,
    "realized": 0.08,
    "kalshi_fees": 3.99,
    "settled": 20,
@@ -24,7 +24,7 @@
    "at_risk": 22.32,
    "copied": 27,
    "skipped": 16,
-   "max_drawdown_pct": 22.1,
+   "max_drawdown_pct": 22.5,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -501,6 +501,10 @@
     {
      "t": "2026-11-24T04:17:12+00:00",
      "equity": 83.33
+    },
+    {
+     "t": "2026-11-24T04:32:12+00:00",
+     "equity": 82.86
     }
    ],
    "positions": [
@@ -511,7 +515,7 @@
      "cost": 11.21,
      "shares": 22.24,
      "avg": 0.504,
-     "mark": 0.015,
+     "mark": 0.0005,
      "opened": "2026-11-23T19:50:08+00:00"
     },
     {
@@ -521,7 +525,7 @@
      "cost": 6.0,
      "shares": 11.01,
      "avg": 0.545,
-     "mark": 0.0095,
+     "mark": 0.0005,
      "opened": "2026-11-23T21:48:28+00:00"
     },
     {
@@ -531,7 +535,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.995,
+     "mark": 0.9995,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -541,7 +545,7 @@
      "cost": 2.44,
      "shares": 5.36,
      "avg": 0.455,
-     "mark": 0.015,
+     "mark": 0.0005,
      "opened": "2026-11-24T00:36:43+00:00"
     }
    ],
@@ -1767,6 +1771,10 @@
     {
      "t": "2026-11-24T04:17:12+00:00",
      "equity": 73.53
+    },
+    {
+     "t": "2026-11-24T04:32:12+00:00",
+     "equity": 73.53
     }
    ],
    "positions": [
@@ -1787,7 +1795,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.669,
+     "mark": 0.6685,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2597,21 +2605,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 54.27,
-   "cash": 30.91,
-   "pnl": -45.73,
-   "pnl_after_kalshi_fees": -51.95,
-   "return_pct": -45.7,
-   "realized": -48.8,
+   "equity": 55.21,
+   "cash": 35.76,
+   "pnl": -44.79,
+   "pnl_after_kalshi_fees": -51.01,
+   "return_pct": -44.8,
+   "realized": -46.6,
    "kalshi_fees": 6.22,
-   "settled": 41,
-   "won": 20,
+   "settled": 42,
+   "won": 21,
    "lost": 21,
    "sold_early": 0,
-   "open": 7,
-   "at_risk": 20.27,
+   "open": 6,
+   "at_risk": 17.63,
    "copied": 57,
-   "skipped": 47,
+   "skipped": 48,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -3089,6 +3097,10 @@
     {
      "t": "2026-11-24T04:17:12+00:00",
      "equity": 54.27
+    },
+    {
+     "t": "2026-11-24T04:32:12+00:00",
+     "equity": 55.21
     }
    ],
    "positions": [
@@ -3099,7 +3111,7 @@
      "cost": 4.72,
      "shares": 8.79,
      "avg": 0.537,
-     "mark": 0.505,
+     "mark": 0.5,
      "opened": "2026-11-23T02:39:11+00:00"
     },
     {
@@ -3113,23 +3125,13 @@
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
-     "title": "Spread: Santa Clara Broncos (-2.5)",
-     "outcome": "Santa Clara Broncos",
-     "event_slug": "cbb-sanclr-illst-2026-11-23",
-     "cost": 2.64,
-     "shares": 4.84,
-     "avg": 0.545,
-     "mark": 0.9995,
-     "opened": "2026-11-23T19:04:31+00:00"
-    },
-    {
      "title": "Spread: UNLV Runnin' Rebels (-7.5)",
      "outcome": "UNLV Runnin Rebels",
      "event_slug": "cbb-ewash-unlv-2026-11-23",
      "cost": 2.64,
      "shares": 4.93,
      "avg": 0.535,
-     "mark": 0.705,
+     "mark": 0.965,
      "opened": "2026-11-23T19:15:08+00:00"
     },
     {
@@ -3159,11 +3161,22 @@
      "cost": 2.43,
      "shares": 5.12,
      "avg": 0.475,
-     "mark": 0.525,
+     "mark": 0.465,
      "opened": "2026-11-24T01:20:01+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-24T04:32:12+00:00",
+     "title": "Spread: Santa Clara Broncos (-2.5)",
+     "outcome": "Santa Clara Broncos",
+     "event_slug": "cbb-sanclr-illst-2026-11-23",
+     "cost": 2.64,
+     "pnl": 2.2,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-24T03:47:13+00:00",
      "title": "Cavaliers vs. Bulls: O/U 239.5",
@@ -3617,6 +3630,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T04:32:12+00:00",
+     "kind": "skip",
+     "title": "Ole Miss Rebels vs. BYU Cougars",
+     "outcome": "Ole Miss Rebels",
+     "event_slug": "cbb-miss-byu-2026-11-24",
+     "leader_usd": 60.99,
+     "reason": "below $1 minimum",
+     "price": 0.53,
+     "leader_price": 0.57
+    },
     {
      "ts": "2026-11-24T01:32:14+00:00",
      "kind": "buy",
@@ -4297,17 +4321,6 @@
      "price": 0.335,
      "leader_price": 0.33,
      "mult": 1.4
-    },
-    {
-     "ts": "2026-11-21T23:21:17+00:00",
-     "kind": "skip",
-     "title": "Spread: Knicks (-3.5)",
-     "outcome": "Trail Blazers",
-     "event_slug": "nba-por-nyk-2026-11-21",
-     "leader_usd": 65.49,
-     "reason": "below $1 minimum",
-     "price": 0.595,
-     "leader_price": 0.59
     }
    ]
   },
@@ -4808,6 +4821,10 @@
     {
      "t": "2026-11-24T04:17:12+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T04:32:12+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -5019,7 +5036,7 @@
    "open": 1,
    "at_risk": 3.04,
    "copied": 13,
-   "skipped": 35,
+   "skipped": 36,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5497,6 +5514,10 @@
     {
      "t": "2026-11-24T04:17:12+00:00",
      "equity": 105.45
+    },
+    {
+     "t": "2026-11-24T04:32:12+00:00",
+     "equity": 105.45
     }
    ],
    "positions": [
@@ -5646,6 +5667,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T04:32:12+00:00",
+     "kind": "skip",
+     "title": "Stephon Castle: 3-Pointers Made O/U 2.5",
+     "outcome": "Yes",
+     "event_slug": "nba-sas-sac-2026-11-23",
+     "leader_usd": 4.85,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.97
+    },
     {
      "ts": "2026-11-24T04:02:12+00:00",
      "kind": "buy",
