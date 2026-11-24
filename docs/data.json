@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:02:16+00:00",
+ "updated": "2026-11-24T01:17:18+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,10 +9,10 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 99.71,
+   "equity": 99.69,
    "cash": 77.75,
-   "pnl": -0.29,
-   "pnl_after_kalshi_fees": -4.28,
+   "pnl": -0.31,
+   "pnl_after_kalshi_fees": -4.3,
    "return_pct": -0.3,
    "realized": 0.08,
    "kalshi_fees": 3.99,
@@ -449,6 +449,10 @@
     {
      "t": "2026-11-24T01:02:13+00:00",
      "equity": 99.71
+    },
+    {
+     "t": "2026-11-24T01:17:15+00:00",
+     "equity": 99.69
     }
    ],
    "positions": [
@@ -479,7 +483,7 @@
      "cost": 2.67,
      "shares": 5.09,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.51,
      "opened": "2026-11-23T23:55:16+00:00"
     },
     {
@@ -1223,10 +1227,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.5,
+   "equity": 73.48,
    "cash": 59.46,
-   "pnl": -26.5,
-   "pnl_after_kalshi_fees": -29.64,
+   "pnl": -26.52,
+   "pnl_after_kalshi_fees": -29.66,
    "return_pct": -26.5,
    "realized": -27.39,
    "kalshi_fees": 3.14,
@@ -1663,6 +1667,10 @@
     {
      "t": "2026-11-24T01:02:13+00:00",
      "equity": 73.5
+    },
+    {
+     "t": "2026-11-24T01:17:15+00:00",
+     "equity": 73.48
     }
    ],
    "positions": [
@@ -1683,7 +1691,7 @@
      "cost": 5.63,
      "shares": 8.29,
      "avg": 0.679,
-     "mark": 0.6705,
+     "mark": 0.6685,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -2493,11 +2501,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 48.58,
+   "equity": 49.98,
    "cash": 19.66,
-   "pnl": -51.42,
-   "pnl_after_kalshi_fees": -57.55,
-   "return_pct": -51.4,
+   "pnl": -50.02,
+   "pnl_after_kalshi_fees": -56.15,
+   "return_pct": -50.0,
    "realized": -52.38,
    "kalshi_fees": 6.13,
    "settled": 37,
@@ -2933,6 +2941,10 @@
     {
      "t": "2026-11-24T01:02:13+00:00",
      "equity": 48.58
+    },
+    {
+     "t": "2026-11-24T01:17:15+00:00",
+     "equity": 49.98
     }
    ],
    "positions": [
@@ -2963,7 +2975,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.485,
+     "mark": 0.685,
      "opened": "2026-11-23T16:24:07+00:00"
     },
     {
@@ -2973,7 +2985,7 @@
      "cost": 2.64,
      "shares": 5.13,
      "avg": 0.515,
-     "mark": 0.505,
+     "mark": 0.495,
      "opened": "2026-11-23T16:43:49+00:00"
     },
     {
@@ -2983,7 +2995,7 @@
      "cost": 2.64,
      "shares": 4.84,
      "avg": 0.545,
-     "mark": 0.51,
+     "mark": 0.55,
      "opened": "2026-11-23T19:04:31+00:00"
     },
     {
@@ -3033,7 +3045,7 @@
      "cost": 2.05,
      "shares": 4.32,
      "avg": 0.475,
-     "mark": 0.475,
+     "mark": 0.53,
      "opened": "2026-11-24T00:56:28+00:00"
     }
    ],
@@ -4585,6 +4597,10 @@
     {
      "t": "2026-11-24T01:02:13+00:00",
      "equity": 92.83
+    },
+    {
+     "t": "2026-11-24T01:17:15+00:00",
+     "equity": 92.83
     }
    ],
    "positions": [],
@@ -4796,7 +4812,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 10,
-   "skipped": 26,
+   "skipped": 28,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -5222,6 +5238,10 @@
     {
      "t": "2026-11-24T01:02:13+00:00",
      "equity": 105.41
+    },
+    {
+     "t": "2026-11-24T01:17:15+00:00",
+     "equity": 105.41
     }
    ],
    "positions": [],
@@ -5338,6 +5358,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T01:17:15+00:00",
+     "kind": "skip",
+     "title": "Grizzlies vs. Hornets: 1H O/U 121.5",
+     "outcome": "Over",
+     "event_slug": "nba-mem-cha-2026-11-23",
+     "leader_usd": 199.92,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.4
+    },
+    {
+     "ts": "2026-11-24T01:17:15+00:00",
+     "kind": "skip",
+     "title": "Grizzlies vs. Hornets: 1H O/U 117.5",
+     "outcome": "Over",
+     "event_slug": "nba-mem-cha-2026-11-23",
+     "leader_usd": 453.74,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.954
+    },
     {
      "ts": "2026-11-24T01:02:13+00:00",
      "kind": "skip",
