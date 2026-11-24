@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:17:13+00:00",
+ "updated": "2026-11-24T21:32:26+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -772,6 +772,10 @@
     },
     {
      "t": "2026-11-24T21:17:11+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-24T21:32:23+00:00",
      "equity": 82.84
     }
    ],
@@ -1550,11 +1554,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.2,
+   "equity": 74.11,
    "cash": 50.14,
-   "pnl": -25.8,
-   "pnl_after_kalshi_fees": -29.12,
-   "return_pct": -25.8,
+   "pnl": -25.89,
+   "pnl_after_kalshi_fees": -29.21,
+   "return_pct": -25.9,
    "realized": -27.39,
    "kalshi_fees": 3.32,
    "settled": 22,
@@ -2314,6 +2318,10 @@
     {
      "t": "2026-11-24T21:17:11+00:00",
      "equity": 74.2
+    },
+    {
+     "t": "2026-11-24T21:32:23+00:00",
+     "equity": 74.11
     }
    ],
    "positions": [
@@ -2334,7 +2342,7 @@
      "cost": 7.89,
      "shares": 11.51,
      "avg": 0.685,
-     "mark": 0.705,
+     "mark": 0.697,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3180,20 +3188,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.94,
-   "cash": 14.84,
-   "pnl": -39.06,
-   "pnl_after_kalshi_fees": -46.68,
-   "return_pct": -39.1,
+   "equity": 58.31,
+   "cash": 8.4,
+   "pnl": -41.69,
+   "pnl_after_kalshi_fees": -49.54,
+   "return_pct": -41.7,
    "realized": -39.98,
-   "kalshi_fees": 7.62,
+   "kalshi_fees": 7.85,
    "settled": 46,
    "won": 24,
    "lost": 22,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 45.17,
-   "copied": 71,
+   "open": 18,
+   "at_risk": 51.61,
+   "copied": 73,
    "skipped": 55,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -3944,6 +3952,10 @@
     {
      "t": "2026-11-24T21:17:11+00:00",
      "equity": 60.94
+    },
+    {
+     "t": "2026-11-24T21:32:23+00:00",
+     "equity": 58.31
     }
    ],
    "positions": [
@@ -3994,7 +4006,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.59,
+     "mark": 0.585,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -4024,7 +4036,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.555,
+     "mark": 0.545,
      "opened": "2026-11-24T14:35:56+00:00"
     },
     {
@@ -4084,7 +4096,7 @@
      "cost": 3.6,
      "shares": 7.74,
      "avg": 0.465,
-     "mark": 0.375,
+     "mark": 0.195,
      "opened": "2026-11-24T19:40:29+00:00"
     },
     {
@@ -4094,7 +4106,7 @@
      "cost": 2.03,
      "shares": 6.25,
      "avg": 0.325,
-     "mark": 0.52,
+     "mark": 0.355,
      "opened": "2026-11-24T19:56:23+00:00"
     },
     {
@@ -4106,6 +4118,26 @@
      "avg": 0.495,
      "mark": 0.485,
      "opened": "2026-11-24T20:21:43+00:00"
+    },
+    {
+     "title": "Timberwolves vs. Thunder",
+     "outcome": "Timberwolves",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "cost": 2.84,
+     "shares": 5.62,
+     "avg": 0.505,
+     "mark": 0.495,
+     "opened": "2026-11-24T21:22:04+00:00"
+    },
+    {
+     "title": "Spread: Liberty (-17.5)",
+     "outcome": "Missouri State",
+     "event_slug": "cfb-librty-msrst-2026-11-28",
+     "cost": 3.6,
+     "shares": 6.92,
+     "avg": 0.52,
+     "mark": 0.51,
+     "opened": "2026-11-24T21:25:28+00:00"
     }
    ],
    "closed": [
@@ -4617,6 +4649,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-24T21:32:23+00:00",
+     "kind": "buy",
+     "title": "Spread: Liberty (-17.5)",
+     "outcome": "Missouri State",
+     "event_slug": "cfb-librty-msrst-2026-11-28",
+     "leader_usd": 641.44,
+     "stake": 3.6,
+     "price": 0.52,
+     "leader_price": 0.517,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-24T21:32:23+00:00",
+     "kind": "buy",
+     "title": "Timberwolves vs. Thunder",
+     "outcome": "Timberwolves",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "leader_usd": 418.5,
+     "stake": 2.84,
+     "price": 0.505,
+     "leader_price": 0.5,
+     "mult": 1.58
+    },
     {
      "ts": "2026-11-24T20:32:13+00:00",
      "kind": "buy",
@@ -5285,29 +5341,6 @@
      "reason": "below $1 minimum",
      "price": 0.475,
      "leader_price": 0.43
-    },
-    {
-     "ts": "2026-11-22T18:21:08+00:00",
-     "kind": "buy",
-     "title": "Spread: CA Paranaense (-1.5)",
-     "outcome": "Clube do Remo",
-     "event_slug": "bra-cap-cre-2026-11-22-more-markets",
-     "leader_usd": 3318.4,
-     "stake": 2.01,
-     "price": 0.615,
-     "leader_price": 0.61,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-22T18:21:08+00:00",
-     "kind": "skip",
-     "title": "Spread: Panthers (-3.5)",
-     "outcome": "Ravens",
-     "event_slug": "nfl-bal-car-2026-11-22",
-     "leader_usd": 284.13,
-     "reason": "price ran away (0.59 -> 0.75)",
-     "price": 0.75,
-     "leader_price": 0.59
     }
    ]
   },
@@ -5316,11 +5349,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 100.45,
+   "equity": 105.9,
    "cash": 67.18,
-   "pnl": 0.45,
-   "pnl_after_kalshi_fees": -1.78,
-   "return_pct": 0.5,
+   "pnl": 5.9,
+   "pnl_after_kalshi_fees": 3.67,
+   "return_pct": 5.9,
    "realized": -7.17,
    "kalshi_fees": 2.23,
    "settled": 8,
@@ -6080,6 +6113,10 @@
     {
      "t": "2026-11-24T21:17:11+00:00",
      "equity": 100.45
+    },
+    {
+     "t": "2026-11-24T21:32:23+00:00",
+     "equity": 105.9
     }
    ],
    "positions": [
@@ -6100,7 +6137,7 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.81,
+     "mark": 0.983,
      "opened": "2026-11-24T18:35:31+00:00"
     },
     {
@@ -6110,7 +6147,7 @@
      "cost": 5.57,
      "shares": 11.73,
      "avg": 0.475,
-     "mark": 0.715,
+     "mark": 0.765,
      "opened": "2026-11-24T18:48:05+00:00"
     },
     {
@@ -6120,7 +6157,7 @@
      "cost": 8.94,
      "shares": 14.92,
      "avg": 0.599,
-     "mark": 0.665,
+     "mark": 0.855,
      "opened": "2026-11-24T19:28:11+00:00"
     }
    ],
@@ -7141,6 +7178,10 @@
     },
     {
      "t": "2026-11-24T21:17:11+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-24T21:32:23+00:00",
      "equity": 105.62
     }
    ],
