@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:17:13+00:00",
+ "updated": "2026-11-25T15:32:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1061,6 +1061,10 @@
     {
      "t": "2026-11-25T15:17:11+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T15:32:12+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1838,20 +1842,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.49,
-   "cash": 41.42,
-   "pnl": -26.51,
-   "pnl_after_kalshi_fees": -29.99,
-   "return_pct": -26.5,
+   "equity": 73.58,
+   "cash": 39.22,
+   "pnl": -26.42,
+   "pnl_after_kalshi_fees": -29.94,
+   "return_pct": -26.4,
    "realized": -27.39,
-   "kalshi_fees": 3.48,
+   "kalshi_fees": 3.52,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 3,
-   "at_risk": 31.19,
-   "copied": 32,
+   "at_risk": 33.39,
+   "copied": 33,
    "skipped": 20,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -2890,6 +2894,10 @@
     {
      "t": "2026-11-25T15:17:11+00:00",
      "equity": 73.49
+    },
+    {
+     "t": "2026-11-25T15:32:12+00:00",
+     "equity": 73.58
     }
    ],
    "positions": [
@@ -2897,10 +2905,10 @@
      "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
      "outcome": "No",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 16.58,
-     "shares": 24.0,
-     "avg": 0.691,
-     "mark": 0.73,
+     "cost": 18.78,
+     "shares": 26.96,
+     "avg": 0.697,
+     "mark": 0.735,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -3169,6 +3177,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T15:32:12+00:00",
+     "kind": "buy",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 1222.67,
+     "stake": 2.2,
+     "price": 0.745,
+     "leader_price": 0.74,
+     "mult": 1.01
+    },
     {
      "ts": "2026-11-24T23:17:10+00:00",
      "kind": "buy",
@@ -3780,20 +3800,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 59.99,
-   "cash": 16.46,
-   "pnl": -40.01,
-   "pnl_after_kalshi_fees": -48.86,
-   "return_pct": -40.0,
+   "equity": 59.75,
+   "cash": 10.5,
+   "pnl": -40.25,
+   "pnl_after_kalshi_fees": -49.31,
+   "return_pct": -40.2,
    "realized": -39.23,
-   "kalshi_fees": 8.85,
+   "kalshi_fees": 9.06,
    "settled": 58,
    "won": 31,
    "lost": 27,
    "sold_early": 0,
-   "open": 14,
-   "at_risk": 44.31,
-   "copied": 82,
+   "open": 16,
+   "at_risk": 50.27,
+   "copied": 84,
    "skipped": 64,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -4832,6 +4852,10 @@
     {
      "t": "2026-11-25T15:17:11+00:00",
      "equity": 59.99
+    },
+    {
+     "t": "2026-11-25T15:32:12+00:00",
+     "equity": 59.75
     }
    ],
    "positions": [
@@ -4842,7 +4866,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.535,
+     "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -4892,7 +4916,7 @@
      "cost": 2.84,
      "shares": 5.62,
      "avg": 0.505,
-     "mark": 0.465,
+     "mark": 0.455,
      "opened": "2026-11-24T21:22:04+00:00"
     },
     {
@@ -4972,8 +4996,28 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.495,
      "opened": "2026-11-25T14:56:32+00:00"
+    },
+    {
+     "title": "Timberwolves vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "cost": 2.31,
+     "shares": 4.49,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-25T15:15:43+00:00"
+    },
+    {
+     "title": "Suns vs. Rockets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-phx-hou-2026-11-25",
+     "cost": 3.65,
+     "shares": 6.95,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-25T15:20:28+00:00"
     }
    ],
    "closed": [
@@ -5617,6 +5661,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T15:32:12+00:00",
+     "kind": "buy",
+     "title": "Suns vs. Rockets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-phx-hou-2026-11-25",
+     "leader_usd": 1851.0,
+     "stake": 3.65,
+     "price": 0.525,
+     "leader_price": 0.497,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-25T15:32:12+00:00",
+     "kind": "buy",
+     "title": "Timberwolves vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "leader_usd": 337.04,
+     "stake": 2.31,
+     "price": 0.515,
+     "leader_price": 0.5,
+     "mult": 1.27
+    },
     {
      "ts": "2026-11-25T15:02:12+00:00",
      "kind": "buy",
@@ -6287,30 +6355,6 @@
      "reason": "below $1 minimum",
      "price": 0.515,
      "leader_price": 0.51
-    },
-    {
-     "ts": "2026-11-23T17:20:51+00:00",
-     "kind": "buy",
-     "title": "Thunder vs. Pacers: O/U 221.5",
-     "outcome": "Under",
-     "event_slug": "nba-okc-ind-2026-11-23",
-     "leader_usd": 2978.0,
-     "stake": 2.64,
-     "price": 0.515,
-     "leader_price": 0.5,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-23T17:20:51+00:00",
-     "kind": "buy",
-     "title": "Nets vs. Timberwolves: O/U 223.5",
-     "outcome": "Over",
-     "event_slug": "nba-bkn-min-2026-11-23",
-     "leader_usd": 6577.0,
-     "stake": 2.64,
-     "price": 0.515,
-     "leader_price": 0.5,
-     "mult": 2.0
     }
    ]
   },
@@ -7370,6 +7414,10 @@
     },
     {
      "t": "2026-11-25T15:17:11+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-25T15:32:12+00:00",
      "equity": 116.37
     }
    ],
@@ -8723,6 +8771,10 @@
     },
     {
      "t": "2026-11-25T15:17:11+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T15:32:12+00:00",
      "equity": 106.34
     }
    ],
