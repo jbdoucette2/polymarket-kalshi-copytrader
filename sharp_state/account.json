@@ -327,6 +327,18 @@
    "leader": "gmpm2",
    "edge": 0.141,
    "agree": false
+  },
+  {
+   "ts": "2026-11-25T15:47:13+00:00",
+   "kind": "skip",
+   "title": "Packers vs. Rams",
+   "outcome": "Rams",
+   "event_slug": "nfl-gb-la-2026-11-26",
+   "leader_usd": 5101.91,
+   "reason": "market didn't react",
+   "price": 0.565,
+   "leader_price": 0.56,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -1353,11 +1365,15 @@
   {
    "t": "2026-11-25T15:32:13+00:00",
    "equity": 107.25
+  },
+  {
+   "t": "2026-11-25T15:47:13+00:00",
+   "equity": 107.25
   }
  ],
  "kfees": 0.69,
  "copied": 4,
- "skipped": 18,
+ "skipped": 19,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -1367,7 +1383,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795482751
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795621030
  },
  "day": {
   "2026-11-22": 10.3,
@@ -1496,6 +1512,9 @@
     0
    ],
    "0xda43dd854e0cc3112395637026eea4a388be4d9904f6d3ee4b9299ab728e72b8": [
+    1
+   ],
+   "0xba02accd1ec7e114cd94100cc9607f1a00a7c1305a525068e9fbb822b80a6ecd": [
     1
    ]
   }

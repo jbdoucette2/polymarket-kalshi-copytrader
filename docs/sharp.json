@@ -17,7 +17,7 @@
  "open": 0,
  "at_risk": 0,
  "copied": 4,
- "skipped": 18,
+ "skipped": 19,
  "max_drawdown_pct": 5.9,
  "history": [
   {
@@ -1043,6 +1043,10 @@
   {
    "t": "2026-11-25T15:32:13+00:00",
    "equity": 107.25
+  },
+  {
+   "t": "2026-11-25T15:47:13+00:00",
+   "equity": 107.25
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1135,6 +1139,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-25T15:47:13+00:00",
+   "kind": "skip",
+   "title": "Packers vs. Rams",
+   "outcome": "Rams",
+   "event_slug": "nfl-gb-la-2026-11-26",
+   "leader_usd": 5101.91,
+   "reason": "market didn't react",
+   "price": 0.565,
+   "leader_price": 0.56,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-23T22:14:48+00:00",
    "kind": "buy",
@@ -1408,6 +1424,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-25T15:32:13+00:00",
+ "updated": "2026-11-25T15:47:14+00:00",
  "start": 100.0
 }
