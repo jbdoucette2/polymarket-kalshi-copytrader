@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:47:16+00:00",
+ "updated": "2026-11-25T00:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -813,6 +813,10 @@
     {
      "t": "2026-11-24T23:47:13+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T00:02:12+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1590,11 +1594,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.07,
+   "equity": 76.65,
    "cash": 41.42,
-   "pnl": -23.93,
-   "pnl_after_kalshi_fees": -27.41,
-   "return_pct": -23.9,
+   "pnl": -23.35,
+   "pnl_after_kalshi_fees": -26.83,
+   "return_pct": -23.3,
    "realized": -27.39,
    "kalshi_fees": 3.48,
    "settled": 22,
@@ -2394,6 +2398,10 @@
     {
      "t": "2026-11-24T23:47:13+00:00",
      "equity": 76.07
+    },
+    {
+     "t": "2026-11-25T00:02:12+00:00",
+     "equity": 76.65
     }
    ],
    "positions": [
@@ -2404,7 +2412,7 @@
      "cost": 16.58,
      "shares": 24.0,
      "avg": 0.691,
-     "mark": 0.81,
+     "mark": 0.805,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2414,7 +2422,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7335,
+     "mark": 0.7735,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3284,11 +3292,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 52.74,
+   "equity": 51.19,
    "cash": 0.29,
-   "pnl": -47.26,
-   "pnl_after_kalshi_fees": -55.4,
-   "return_pct": -47.3,
+   "pnl": -48.81,
+   "pnl_after_kalshi_fees": -56.95,
+   "return_pct": -48.8,
    "realized": -39.98,
    "kalshi_fees": 8.14,
    "settled": 46,
@@ -3298,7 +3306,7 @@
    "open": 20,
    "at_risk": 59.72,
    "copied": 76,
-   "skipped": 58,
+   "skipped": 63,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -4088,6 +4096,10 @@
     {
      "t": "2026-11-24T23:47:13+00:00",
      "equity": 52.74
+    },
+    {
+     "t": "2026-11-25T00:02:12+00:00",
+     "equity": 51.19
     }
    ],
    "positions": [
@@ -4098,7 +4110,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.6,
+     "mark": 0.615,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -4128,7 +4140,7 @@
      "cost": 2.14,
      "shares": 2.76,
      "avg": 0.775,
-     "mark": 0.985,
+     "mark": 0.9905,
      "opened": "2026-11-24T13:10:32+00:00"
     },
     {
@@ -4138,7 +4150,7 @@
      "cost": 1.61,
      "shares": 3.01,
      "avg": 0.535,
-     "mark": 0.585,
+     "mark": 0.5,
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
@@ -4148,7 +4160,7 @@
      "cost": 3.75,
      "shares": 6.88,
      "avg": 0.545,
-     "mark": 0.64,
+     "mark": 0.5,
      "opened": "2026-11-24T13:56:43+00:00"
     },
     {
@@ -4248,7 +4260,7 @@
      "cost": 2.68,
      "shares": 5.41,
      "avg": 0.495,
-     "mark": 0.4,
+     "mark": 0.35,
      "opened": "2026-11-24T20:21:43+00:00"
     },
     {
@@ -4278,7 +4290,7 @@
      "cost": 2.95,
      "shares": 5.62,
      "avg": 0.525,
-     "mark": 0.05,
+     "mark": 0.0285,
      "opened": "2026-11-24T22:17:20+00:00"
     },
     {
@@ -4288,7 +4300,7 @@
      "cost": 2.8,
      "shares": 5.89,
      "avg": 0.475,
-     "mark": 0.47,
+     "mark": 0.465,
      "opened": "2026-11-24T22:37:38+00:00"
     }
    ],
@@ -4801,6 +4813,61 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T00:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Eastern Michigan (-6.5)",
+     "outcome": "Eastern Michigan",
+     "event_slug": "cfb-kentst-emich-2026-11-24",
+     "leader_usd": 685.88,
+     "reason": "out of cash",
+     "price": 0.525,
+     "leader_price": 0.52
+    },
+    {
+     "ts": "2026-11-25T00:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Pistons (-1.5)",
+     "outcome": "Magic",
+     "event_slug": "nba-det-orl-2026-11-24",
+     "leader_usd": 525.1,
+     "reason": "out of cash",
+     "price": 0.605,
+     "leader_price": 0.59
+    },
+    {
+     "ts": "2026-11-25T00:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Pistons (-2.5)",
+     "outcome": "Magic",
+     "event_slug": "nba-det-orl-2026-11-24",
+     "leader_usd": 907.68,
+     "reason": "out of cash",
+     "price": 0.625,
+     "leader_price": 0.61
+    },
+    {
+     "ts": "2026-11-25T00:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Pistons (-3.5)",
+     "outcome": "Magic",
+     "event_slug": "nba-det-orl-2026-11-24",
+     "leader_usd": 444.16,
+     "reason": "out of cash",
+     "price": 0.66,
+     "leader_price": 0.64
+    },
+    {
+     "ts": "2026-11-25T00:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Vanderbilt Commodores (-2.5)",
+     "outcome": "Ohio State Buckeyes",
+     "event_slug": "cbb-vand-ohiost-2026-11-24",
+     "leader_usd": 522.52,
+     "reason": "out of cash",
+     "price": 0.52,
+     "leader_price": 0.537
+    },
     {
      "ts": "2026-11-24T23:47:13+00:00",
      "kind": "skip",
@@ -5437,62 +5504,6 @@
      "reason": "below $1 minimum",
      "price": 0.535,
      "leader_price": 0.503
-    },
-    {
-     "ts": "2026-11-23T03:21:14+00:00",
-     "kind": "buy",
-     "title": "Colorado State Rams vs. Arizona Wildcats: O/U 158.5",
-     "outcome": "Over",
-     "event_slug": "cbb-colst-arz-2026-11-23",
-     "leader_usd": 499.8,
-     "stake": 2.08,
-     "price": 0.505,
-     "leader_price": 0.497,
-     "mult": 1.81
-    },
-    {
-     "ts": "2026-11-23T02:20:56+00:00",
-     "kind": "skip",
-     "title": "Spurs vs. Kings: O/U 221.5",
-     "outcome": "Under",
-     "event_slug": "nba-sas-sac-2026-11-23",
-     "leader_usd": 28.0,
-     "reason": "below $1 minimum",
-     "price": 0.46,
-     "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-23T02:20:56+00:00",
-     "kind": "skip",
-     "title": "Celtics vs. Warriors: O/U 212.5",
-     "outcome": "Over",
-     "event_slug": "nba-bos-gsw-2026-11-22",
-     "leader_usd": 182.5,
-     "reason": "below $1 minimum",
-     "price": 0.17,
-     "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-23T02:20:56+00:00",
-     "kind": "skip",
-     "title": "Vikings vs. 49ers: O/U 44.5",
-     "outcome": "Over",
-     "event_slug": "nfl-min-sf-2026-11-23",
-     "leader_usd": 24.91,
-     "reason": "price ran away (0.53 -> 0.81)",
-     "price": 0.805,
-     "leader_price": 0.53
-    },
-    {
-     "ts": "2026-11-23T00:13:47+00:00",
-     "kind": "skip",
-     "title": "Spread: Western Michigan (-6.5)",
-     "outcome": "Miami (OH)",
-     "event_slug": "cfb-miaoh-wmich-2026-11-24",
-     "leader_usd": 129.86,
-     "reason": "below $1 minimum",
-     "price": 0.455,
-     "leader_price": 0.47
     }
    ]
   },
@@ -6304,6 +6315,10 @@
     },
     {
      "t": "2026-11-24T23:47:13+00:00",
+     "equity": 110.91
+    },
+    {
+     "t": "2026-11-25T00:02:12+00:00",
      "equity": 110.91
     }
    ],
@@ -7409,6 +7424,10 @@
     },
     {
      "t": "2026-11-24T23:47:13+00:00",
+     "equity": 105.62
+    },
+    {
+     "t": "2026-11-25T00:02:12+00:00",
      "equity": 105.62
     }
    ],
