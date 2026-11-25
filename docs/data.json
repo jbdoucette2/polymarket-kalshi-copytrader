@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:17:13+00:00",
+ "updated": "2026-11-25T21:32:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1153,6 +1153,10 @@
     {
      "t": "2026-11-25T21:17:12+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T21:32:13+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1930,11 +1934,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.13,
+   "equity": 74.17,
    "cash": 39.22,
-   "pnl": -25.87,
-   "pnl_after_kalshi_fees": -29.39,
-   "return_pct": -25.9,
+   "pnl": -25.83,
+   "pnl_after_kalshi_fees": -29.35,
+   "return_pct": -25.8,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3074,6 +3078,10 @@
     {
      "t": "2026-11-25T21:17:12+00:00",
      "equity": 74.13
+    },
+    {
+     "t": "2026-11-25T21:32:13+00:00",
+     "equity": 74.17
     }
    ],
    "positions": [
@@ -3094,7 +3102,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7015,
+     "mark": 0.704,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3976,19 +3984,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 59.18,
+   "equity": 59.15,
    "cash": 0.23,
-   "pnl": -40.82,
-   "pnl_after_kalshi_fees": -50.21,
-   "return_pct": -40.8,
-   "realized": -39.23,
+   "pnl": -40.85,
+   "pnl_after_kalshi_fees": -50.24,
+   "return_pct": -40.9,
+   "realized": -42.88,
    "kalshi_fees": 9.39,
-   "settled": 58,
+   "settled": 59,
    "won": 31,
-   "lost": 27,
+   "lost": 28,
    "sold_early": 0,
-   "open": 18,
-   "at_risk": 60.54,
+   "open": 17,
+   "at_risk": 56.89,
    "copied": 87,
    "skipped": 65,
    "max_drawdown_pct": 73.4,
@@ -5120,6 +5128,10 @@
     {
      "t": "2026-11-25T21:17:12+00:00",
      "equity": 59.18
+    },
+    {
+     "t": "2026-11-25T21:32:13+00:00",
+     "equity": 59.15
     }
    ],
    "positions": [
@@ -5210,7 +5222,7 @@
      "cost": 3.09,
      "shares": 5.72,
      "avg": 0.54,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-25T03:26:01+00:00"
     },
     {
@@ -5242,16 +5254,6 @@
      "avg": 0.525,
      "mark": 0.9995,
      "opened": "2026-11-25T14:08:29+00:00"
-    },
-    {
-     "title": "Northern Colorado Bears vs. Detroit Titans: O/U 147.5",
-     "outcome": "Under",
-     "event_slug": "cbb-ncol-det-2026-11-25",
-     "cost": 3.65,
-     "shares": 7.09,
-     "avg": 0.515,
-     "mark": 0.0005,
-     "opened": "2026-11-25T14:48:17+00:00"
     },
     {
      "title": "Timberwolves vs. Thunder: O/U 222.5",
@@ -5305,6 +5307,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-25T21:32:13+00:00",
+     "title": "Northern Colorado Bears vs. Detroit Titans: O/U 147.5",
+     "outcome": "Under",
+     "event_slug": "cbb-ncol-det-2026-11-25",
+     "cost": 3.65,
+     "pnl": -3.65,
+     "kfee": 0.13,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-25T09:02:11+00:00",
      "title": "Spread: St. John's Red Storm (-10.5)",
@@ -7791,6 +7804,10 @@
     {
      "t": "2026-11-25T21:17:12+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-25T21:32:13+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9235,6 +9252,10 @@
     },
     {
      "t": "2026-11-25T21:17:12+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T21:32:13+00:00",
      "equity": 106.34
     }
    ],
