@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:47:16+00:00",
+ "updated": "2026-11-25T18:02:23+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1097,6 +1097,10 @@
     {
      "t": "2026-11-25T17:47:14+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T18:02:21+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1874,11 +1878,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.92,
+   "equity": 74.02,
    "cash": 39.22,
-   "pnl": -26.08,
-   "pnl_after_kalshi_fees": -29.6,
-   "return_pct": -26.1,
+   "pnl": -25.98,
+   "pnl_after_kalshi_fees": -29.5,
+   "return_pct": -26.0,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -2962,6 +2966,10 @@
     {
      "t": "2026-11-25T17:47:14+00:00",
      "equity": 73.92
+    },
+    {
+     "t": "2026-11-25T18:02:21+00:00",
+     "equity": 74.02
     }
    ],
    "positions": [
@@ -2982,7 +2990,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.713,
+     "mark": 0.7185,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3864,20 +3872,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 57.6,
-   "cash": 3.2,
-   "pnl": -42.4,
-   "pnl_after_kalshi_fees": -51.7,
-   "return_pct": -42.4,
+   "equity": 56.41,
+   "cash": 0.23,
+   "pnl": -43.59,
+   "pnl_after_kalshi_fees": -52.98,
+   "return_pct": -43.6,
    "realized": -39.23,
-   "kalshi_fees": 9.3,
+   "kalshi_fees": 9.39,
    "settled": 58,
    "won": 31,
    "lost": 27,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 57.57,
-   "copied": 86,
+   "open": 18,
+   "at_risk": 60.54,
+   "copied": 87,
    "skipped": 64,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -4952,6 +4960,10 @@
     {
      "t": "2026-11-25T17:47:14+00:00",
      "equity": 57.6
+    },
+    {
+     "t": "2026-11-25T18:02:21+00:00",
+     "equity": 56.41
     }
    ],
    "positions": [
@@ -5072,7 +5084,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.495,
+     "mark": 0.505,
      "opened": "2026-11-25T14:08:29+00:00"
     },
     {
@@ -5082,7 +5094,7 @@
      "cost": 3.65,
      "shares": 7.09,
      "avg": 0.515,
-     "mark": 0.2,
+     "mark": 0.0295,
      "opened": "2026-11-25T14:48:17+00:00"
     },
     {
@@ -5124,6 +5136,16 @@
      "avg": 0.535,
      "mark": 0.545,
      "opened": "2026-11-25T16:57:47+00:00"
+    },
+    {
+     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
+     "cost": 2.97,
+     "shares": 5.08,
+     "avg": 0.585,
+     "mark": 0.575,
+     "opened": "2026-11-25T17:57:30+00:00"
     }
    ],
    "closed": [
@@ -5767,6 +5789,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T18:02:21+00:00",
+     "kind": "buy",
+     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
+     "leader_usd": 432.63,
+     "stake": 2.97,
+     "price": 0.585,
+     "leader_price": 0.57,
+     "mult": 1.63
+    },
     {
      "ts": "2026-11-25T17:47:14+00:00",
      "kind": "buy",
@@ -6449,18 +6483,6 @@
      "stake": 2.64,
      "price": 0.535,
      "leader_price": 0.52,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-23T19:21:45+00:00",
-     "kind": "buy",
-     "title": "Spread: Santa Clara Broncos (-2.5)",
-     "outcome": "Santa Clara Broncos",
-     "event_slug": "cbb-sanclr-illst-2026-11-23",
-     "leader_usd": 785.68,
-     "stake": 2.64,
-     "price": 0.545,
-     "leader_price": 0.528,
      "mult": 2.0
     }
    ]
@@ -7557,6 +7579,10 @@
     },
     {
      "t": "2026-11-25T17:47:14+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-25T18:02:21+00:00",
      "equity": 116.37
     }
    ],
@@ -8946,6 +8972,10 @@
     },
     {
      "t": "2026-11-25T17:47:14+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T18:02:21+00:00",
      "equity": 106.34
     }
    ],
