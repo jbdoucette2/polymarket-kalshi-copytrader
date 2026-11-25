@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T05:47:15+00:00",
+ "updated": "2026-11-25T06:02:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -909,6 +909,10 @@
     {
      "t": "2026-11-25T05:47:13+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T06:02:12+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1686,11 +1690,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.4,
+   "equity": 74.43,
    "cash": 41.42,
-   "pnl": -24.6,
-   "pnl_after_kalshi_fees": -28.08,
-   "return_pct": -24.6,
+   "pnl": -25.57,
+   "pnl_after_kalshi_fees": -29.05,
+   "return_pct": -25.6,
    "realized": -27.39,
    "kalshi_fees": 3.48,
    "settled": 22,
@@ -2586,6 +2590,10 @@
     {
      "t": "2026-11-25T05:47:13+00:00",
      "equity": 75.4
+    },
+    {
+     "t": "2026-11-25T06:02:12+00:00",
+     "equity": 74.43
     }
    ],
    "positions": [
@@ -2596,7 +2604,7 @@
      "cost": 16.58,
      "shares": 24.0,
      "avg": 0.691,
-     "mark": 0.775,
+     "mark": 0.755,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -2606,7 +2614,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.743,
+     "mark": 0.715,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3476,19 +3484,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 59.59,
+   "equity": 59.94,
    "cash": 24.05,
-   "pnl": -40.41,
-   "pnl_after_kalshi_fees": -48.74,
-   "return_pct": -40.4,
-   "realized": -38.74,
+   "pnl": -40.06,
+   "pnl_after_kalshi_fees": -48.39,
+   "return_pct": -40.1,
+   "realized": -42.49,
    "kalshi_fees": 8.33,
-   "settled": 56,
+   "settled": 57,
    "won": 30,
-   "lost": 26,
+   "lost": 27,
    "sold_early": 0,
-   "open": 12,
-   "at_risk": 37.21,
+   "open": 11,
+   "at_risk": 33.46,
    "copied": 78,
    "skipped": 63,
    "max_drawdown_pct": 73.4,
@@ -4376,6 +4384,10 @@
     {
      "t": "2026-11-25T05:47:13+00:00",
      "equity": 59.59
+    },
+    {
+     "t": "2026-11-25T06:02:12+00:00",
+     "equity": 59.94
     }
    ],
    "positions": [
@@ -4406,18 +4418,8 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.89,
+     "mark": 0.94,
      "opened": "2026-11-24T14:35:17+00:00"
-    },
-    {
-     "title": "Mavericks vs. Nuggets: O/U 233.5",
-     "outcome": "Over",
-     "event_slug": "nba-dal-den-2026-11-24",
-     "cost": 3.75,
-     "shares": 7.14,
-     "avg": 0.525,
-     "mark": 0.0005,
-     "opened": "2026-11-24T15:07:31+00:00"
     },
     {
      "title": "Senators vs. Panthers",
@@ -4501,6 +4503,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-25T06:02:12+00:00",
+     "title": "Mavericks vs. Nuggets: O/U 233.5",
+     "outcome": "Over",
+     "event_slug": "nba-dal-den-2026-11-24",
+     "cost": 3.75,
+     "pnl": -3.75,
+     "kfee": 0.13,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-25T05:02:12+00:00",
      "title": "Central Michigan Chippewas vs. Notre Dame Fighting Irish: O/U 152.5",
@@ -6719,6 +6732,10 @@
     {
      "t": "2026-11-25T05:47:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-25T06:02:12+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -7919,6 +7936,10 @@
     },
     {
      "t": "2026-11-25T05:47:13+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T06:02:12+00:00",
      "equity": 106.34
     }
    ],
