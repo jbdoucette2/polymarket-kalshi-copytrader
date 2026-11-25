@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:32:16+00:00",
+ "updated": "2026-11-25T03:47:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -873,6 +873,10 @@
     {
      "t": "2026-11-25T03:32:14+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T03:47:13+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1650,11 +1654,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.92,
+   "equity": 75.83,
    "cash": 41.42,
-   "pnl": -24.08,
-   "pnl_after_kalshi_fees": -27.56,
-   "return_pct": -24.1,
+   "pnl": -24.17,
+   "pnl_after_kalshi_fees": -27.65,
+   "return_pct": -24.2,
    "realized": -27.39,
    "kalshi_fees": 3.48,
    "settled": 22,
@@ -2514,6 +2518,10 @@
     {
      "t": "2026-11-25T03:32:14+00:00",
      "equity": 75.92
+    },
+    {
+     "t": "2026-11-25T03:47:13+00:00",
+     "equity": 75.83
     }
    ],
    "positions": [
@@ -2534,7 +2542,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.759,
+     "mark": 0.754,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3404,19 +3412,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 58.71,
-   "cash": 6.97,
-   "pnl": -41.29,
-   "pnl_after_kalshi_fees": -49.53,
-   "return_pct": -41.3,
-   "realized": -48.43,
+   "equity": 57.77,
+   "cash": 11.64,
+   "pnl": -42.23,
+   "pnl_after_kalshi_fees": -50.47,
+   "return_pct": -42.2,
+   "realized": -46.4,
    "kalshi_fees": 8.24,
-   "settled": 52,
-   "won": 26,
+   "settled": 53,
+   "won": 27,
    "lost": 26,
    "sold_early": 0,
-   "open": 15,
-   "at_risk": 44.59,
+   "open": 14,
+   "at_risk": 41.95,
    "copied": 77,
    "skipped": 63,
    "max_drawdown_pct": 73.4,
@@ -4268,19 +4276,13 @@
     {
      "t": "2026-11-25T03:32:14+00:00",
      "equity": 58.71
+    },
+    {
+     "t": "2026-11-25T03:47:13+00:00",
+     "equity": 57.77
     }
    ],
    "positions": [
-    {
-     "title": "Spread: Western Michigan (-7.5)",
-     "outcome": "Miami (OH)",
-     "event_slug": "cfb-miaoh-wmich-2026-11-24",
-     "cost": 2.64,
-     "shares": 4.67,
-     "avg": 0.565,
-     "mark": 0.9995,
-     "opened": "2026-11-23T14:39:32+00:00"
-    },
     {
      "title": "San Diego State vs. Washington State: O/U 45.5",
      "outcome": "Over",
@@ -4288,7 +4290,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.555,
+     "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -4318,7 +4320,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.53,
+     "mark": 0.545,
      "opened": "2026-11-24T14:35:17+00:00"
     },
     {
@@ -4328,7 +4330,7 @@
      "cost": 3.75,
      "shares": 7.14,
      "avg": 0.525,
-     "mark": 0.25,
+     "mark": 0.095,
      "opened": "2026-11-24T15:07:31+00:00"
     },
     {
@@ -4418,11 +4420,22 @@
      "cost": 3.09,
      "shares": 5.72,
      "avg": 0.54,
-     "mark": 0.53,
+     "mark": 0.545,
      "opened": "2026-11-25T03:26:01+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-25T03:47:13+00:00",
+     "title": "Spread: Western Michigan (-7.5)",
+     "outcome": "Miami (OH)",
+     "event_slug": "cfb-miaoh-wmich-2026-11-24",
+     "cost": 2.64,
+     "pnl": 2.03,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-25T03:17:13+00:00",
      "title": "Spread: Michigan Wolverines (-5.5)",
@@ -5697,11 +5710,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 111.01,
+   "equity": 113.39,
    "cash": 105.55,
-   "pnl": 11.01,
-   "pnl_after_kalshi_fees": 8.78,
-   "return_pct": 11.0,
+   "pnl": 13.39,
+   "pnl_after_kalshi_fees": 11.16,
+   "return_pct": 13.4,
    "realized": 11.13,
    "kalshi_fees": 2.23,
    "settled": 11,
@@ -6561,6 +6574,10 @@
     {
      "t": "2026-11-25T03:32:14+00:00",
      "equity": 111.01
+    },
+    {
+     "t": "2026-11-25T03:47:13+00:00",
+     "equity": 113.39
     }
    ],
    "positions": [
@@ -6571,7 +6588,7 @@
      "cost": 5.57,
      "shares": 10.82,
      "avg": 0.515,
-     "mark": 0.505,
+     "mark": 0.725,
      "opened": "2026-11-24T11:42:20+00:00"
     }
    ],
@@ -6876,7 +6893,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 15,
-   "skipped": 38,
+   "skipped": 39,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -7726,6 +7743,10 @@
     {
      "t": "2026-11-25T03:32:14+00:00",
      "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T03:47:13+00:00",
+     "equity": 106.34
     }
    ],
    "positions": [],
@@ -7897,6 +7918,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T03:47:13+00:00",
+     "kind": "skip",
+     "title": "Celtics vs. Wizards: 4Q O/U 53.5",
+     "outcome": "Over",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "leader_usd": 9.8,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
     {
      "ts": "2026-11-25T03:32:14+00:00",
      "kind": "skip",
