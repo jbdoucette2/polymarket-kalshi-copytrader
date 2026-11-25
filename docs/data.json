@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:02:18+00:00",
+ "updated": "2026-11-25T03:17:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -865,6 +865,10 @@
     {
      "t": "2026-11-25T03:02:16+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T03:17:13+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1642,11 +1646,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.97,
+   "equity": 75.92,
    "cash": 41.42,
-   "pnl": -24.03,
-   "pnl_after_kalshi_fees": -27.51,
-   "return_pct": -24.0,
+   "pnl": -24.08,
+   "pnl_after_kalshi_fees": -27.56,
+   "return_pct": -24.1,
    "realized": -27.39,
    "kalshi_fees": 3.48,
    "settled": 22,
@@ -2498,6 +2502,10 @@
     {
      "t": "2026-11-25T03:02:16+00:00",
      "equity": 75.97
+    },
+    {
+     "t": "2026-11-25T03:17:13+00:00",
+     "equity": 75.92
     }
    ],
    "positions": [
@@ -2518,7 +2526,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.762,
+     "mark": 0.759,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3388,19 +3396,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 59.88,
-   "cash": 0.29,
-   "pnl": -40.12,
-   "pnl_after_kalshi_fees": -48.26,
-   "return_pct": -40.1,
-   "realized": -49.36,
+   "equity": 60.61,
+   "cash": 10.06,
+   "pnl": -39.39,
+   "pnl_after_kalshi_fees": -47.53,
+   "return_pct": -39.4,
+   "realized": -48.43,
    "kalshi_fees": 8.14,
-   "settled": 49,
-   "won": 24,
-   "lost": 25,
+   "settled": 52,
+   "won": 26,
+   "lost": 26,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 50.34,
+   "open": 14,
+   "at_risk": 41.5,
    "copied": 76,
    "skipped": 63,
    "max_drawdown_pct": 73.4,
@@ -4244,6 +4252,10 @@
     {
      "t": "2026-11-25T03:02:16+00:00",
      "equity": 59.88
+    },
+    {
+     "t": "2026-11-25T03:17:13+00:00",
+     "equity": 60.61
     }
    ],
    "positions": [
@@ -4254,7 +4266,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.831,
+     "mark": 0.9875,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -4278,16 +4290,6 @@
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
-     "title": "Spread: Michigan Wolverines (-14.5)",
-     "outcome": "Creighton Bluejays",
-     "event_slug": "cbb-mich-creigh-2026-11-24",
-     "cost": 2.14,
-     "shares": 2.76,
-     "avg": 0.775,
-     "mark": 0.9995,
-     "opened": "2026-11-24T13:10:32+00:00"
-    },
-    {
      "title": "Milwaukee Panthers vs. Florida Gators: O/U 156.5",
      "outcome": "Under",
      "event_slug": "cbb-wbd-fl-2026-11-24",
@@ -4306,16 +4308,6 @@
      "avg": 0.535,
      "mark": 0.525,
      "opened": "2026-11-24T14:35:17+00:00"
-    },
-    {
-     "title": "Spread: Iowa State Cyclones (-8.5)",
-     "outcome": "Iowa State Cyclones",
-     "event_slug": "cbb-sdst-iowast-2026-11-24",
-     "cost": 3.75,
-     "shares": 7.01,
-     "avg": 0.535,
-     "mark": 0.9995,
-     "opened": "2026-11-24T14:35:56+00:00"
     },
     {
      "title": "Mavericks vs. Nuggets: O/U 233.5",
@@ -4398,16 +4390,6 @@
      "opened": "2026-11-24T21:25:28+00:00"
     },
     {
-     "title": "Spread: Michigan Wolverines (-5.5)",
-     "outcome": "Michigan Wolverines",
-     "event_slug": "cbb-mich-creigh-2026-11-24",
-     "cost": 2.95,
-     "shares": 5.62,
-     "avg": 0.525,
-     "mark": 0.0005,
-     "opened": "2026-11-24T22:17:20+00:00"
-    },
-    {
      "title": "Ravens vs. Texans: O/U 46.5",
      "outcome": "Under",
      "event_slug": "nfl-bal-hou-2026-11-29",
@@ -4419,6 +4401,39 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-25T03:17:13+00:00",
+     "title": "Spread: Michigan Wolverines (-5.5)",
+     "outcome": "Michigan Wolverines",
+     "event_slug": "cbb-mich-creigh-2026-11-24",
+     "cost": 2.95,
+     "pnl": -2.95,
+     "kfee": 0.1,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-25T03:17:13+00:00",
+     "title": "Spread: Iowa State Cyclones (-8.5)",
+     "outcome": "Iowa State Cyclones",
+     "event_slug": "cbb-sdst-iowast-2026-11-24",
+     "cost": 3.75,
+     "pnl": 3.26,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-25T03:17:13+00:00",
+     "title": "Spread: Michigan Wolverines (-14.5)",
+     "outcome": "Creighton Bluejays",
+     "event_slug": "cbb-mich-creigh-2026-11-24",
+     "cost": 2.14,
+     "pnl": 0.62,
+     "kfee": 0.04,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-25T02:32:14+00:00",
      "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
@@ -5659,11 +5674,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 110.91,
+   "equity": 111.01,
    "cash": 105.55,
-   "pnl": 10.91,
-   "pnl_after_kalshi_fees": 8.68,
-   "return_pct": 10.9,
+   "pnl": 11.01,
+   "pnl_after_kalshi_fees": 8.78,
+   "return_pct": 11.0,
    "realized": 11.13,
    "kalshi_fees": 2.23,
    "settled": 11,
@@ -6515,6 +6530,10 @@
     {
      "t": "2026-11-25T03:02:16+00:00",
      "equity": 110.91
+    },
+    {
+     "t": "2026-11-25T03:17:13+00:00",
+     "equity": 111.01
     }
    ],
    "positions": [
@@ -6525,7 +6544,7 @@
      "cost": 5.57,
      "shares": 10.82,
      "avg": 0.515,
-     "mark": 0.495,
+     "mark": 0.505,
      "opened": "2026-11-24T11:42:20+00:00"
     }
    ],
@@ -6816,19 +6835,19 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 106.33,
-   "cash": 99.8,
-   "pnl": 6.33,
-   "pnl_after_kalshi_fees": 5.32,
+   "equity": 106.34,
+   "cash": 106.34,
+   "pnl": 6.34,
+   "pnl_after_kalshi_fees": 5.33,
    "return_pct": 6.3,
-   "realized": 6.13,
+   "realized": 6.33,
    "kalshi_fees": 1.01,
-   "settled": 14,
-   "won": 13,
+   "settled": 15,
+   "won": 14,
    "lost": 1,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.34,
+   "open": 0,
+   "at_risk": 0,
    "copied": 15,
    "skipped": 37,
    "max_drawdown_pct": 8.9,
@@ -7672,21 +7691,25 @@
     {
      "t": "2026-11-25T03:02:16+00:00",
      "equity": 106.33
+    },
+    {
+     "t": "2026-11-25T03:17:13+00:00",
+     "equity": 106.34
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-25T03:17:13+00:00",
      "title": "AJ Dybantsa: Points O/U 9.5",
      "outcome": "Yes",
      "event_slug": "nba-bos-was-2026-11-24",
      "cost": 6.34,
-     "shares": 6.54,
-     "avg": 0.97,
-     "mark": 0.9995,
-     "opened": "2026-11-25T02:08:40+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 0.2,
+     "kfee": 0.02,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-25T03:02:16+00:00",
      "title": "Trae Young: Assists O/U 7.5",

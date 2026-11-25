@@ -3,7 +3,7 @@
  "name": "ic4cream",
  "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
  "start": 100.0,
- "cash": 0.2891,
+ "cash": 10.0597,
  "since": 1795198438,
  "last_ts": 1795564694,
  "positions": {
@@ -18,7 +18,7 @@
    "cost": 2.64,
    "kfee": 0.09,
    "opened": "2026-11-23T14:39:32+00:00",
-   "mark": 0.831
+   "mark": 0.9875
   },
   "75737745400238391195258500280330655461302512380431007519147518017741145039955": {
    "cond": "0xf42ed676aa1b92dd58673d0d8ddcd0e6d0ccdd570ab32fa0885c5aaf785d8160",
@@ -46,19 +46,6 @@
    "opened": "2026-11-23T22:02:07+00:00",
    "mark": 0.595
   },
-  "15321660955379052121432297383888871251165430579351622960883729091624981248737": {
-   "cond": "0x0b58ab5868a1feb92e34a7486202c93208848f241f9ccb1ea6a9c2fd50456e4d",
-   "idx": 1,
-   "outcome": "Creighton Bluejays",
-   "title": "Spread: Michigan Wolverines (-14.5)",
-   "slug": "cbb-mich-creigh-2026-11-24-spread-away-14pt5",
-   "event_slug": "cbb-mich-creigh-2026-11-24",
-   "shares": 2.761290322580645,
-   "cost": 2.14,
-   "kfee": 0.04,
-   "opened": "2026-11-24T13:10:32+00:00",
-   "mark": 0.9995
-  },
   "87884722625880424055100914627498023151986288286807686168747742744385343219753": {
    "cond": "0xecafc7b1931e7d21068c3a78b9b5338e749eca3c1b04d93366a4dd078f0d0e67",
    "idx": 1,
@@ -84,19 +71,6 @@
    "kfee": 0.13,
    "opened": "2026-11-24T14:35:17+00:00",
    "mark": 0.525
-  },
-  "98078311867798029021947552257757069504687501277283826621888044040047839546514": {
-   "cond": "0x488ee35796ac9d7d96c78b98b597c8f96a1c4e08aae1b12b1b9e1ab1e846e038",
-   "idx": 0,
-   "outcome": "Iowa State Cyclones",
-   "title": "Spread: Iowa State Cyclones (-8.5)",
-   "slug": "cbb-sdst-iowast-2026-11-24-spread-home-8pt5",
-   "event_slug": "cbb-sdst-iowast-2026-11-24",
-   "shares": 7.009345794392523,
-   "cost": 3.75,
-   "kfee": 0.13,
-   "opened": "2026-11-24T14:35:56+00:00",
-   "mark": 0.9995
   },
   "115462093868863901714714011451306951501469720573046471071924282897212022873781": {
    "cond": "0xf433d92ddac5ed816e4cc8cce371aa34a09d7087c9b8a8cd21408c2685904051",
@@ -201,19 +175,6 @@
    "kfee": 0.21000000000000002,
    "opened": "2026-11-24T21:25:28+00:00",
    "mark": 0.49
-  },
-  "1048852120543634021191587703999868431022995198831056905386825407133007638728": {
-   "cond": "0x748e976450ffcd65984ba2438f063824f684e11cbd614456cbc2047fd9c2dc30",
-   "idx": 0,
-   "outcome": "Michigan Wolverines",
-   "title": "Spread: Michigan Wolverines (-5.5)",
-   "slug": "cbb-mich-creigh-2026-11-24-spread-away-5pt5",
-   "event_slug": "cbb-mich-creigh-2026-11-24",
-   "shares": 5.6190476190476195,
-   "cost": 2.95,
-   "kfee": 0.1,
-   "opened": "2026-11-24T22:17:20+00:00",
-   "mark": 0.0005
   },
   "67023687265484552164990343696586475805023995620649921919726562303142716314195": {
    "cond": "0x2156e4d2de1bd5ccdd4fcbd0683d624392828dee1c10febe4d412cbd2fb186a8",
@@ -889,6 +850,39 @@
    "cost": 3.75,
    "pnl": -3.75,
    "kfee": 0.12,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-25T03:17:13+00:00",
+   "title": "Spread: Michigan Wolverines (-14.5)",
+   "outcome": "Creighton Bluejays",
+   "event_slug": "cbb-mich-creigh-2026-11-24",
+   "cost": 2.14,
+   "pnl": 0.62,
+   "kfee": 0.04,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-25T03:17:13+00:00",
+   "title": "Spread: Iowa State Cyclones (-8.5)",
+   "outcome": "Iowa State Cyclones",
+   "event_slug": "cbb-sdst-iowast-2026-11-24",
+   "cost": 3.75,
+   "pnl": 3.26,
+   "kfee": 0.13,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-25T03:17:13+00:00",
+   "title": "Spread: Michigan Wolverines (-5.5)",
+   "outcome": "Michigan Wolverines",
+   "event_slug": "cbb-mich-creigh-2026-11-24",
+   "cost": 2.95,
+   "pnl": -2.95,
+   "kfee": 0.1,
    "how": "lost",
    "exit_price": 0.0
   }
@@ -3328,6 +3322,10 @@
   {
    "t": "2026-11-25T03:02:16+00:00",
    "equity": 59.88
+  },
+  {
+   "t": "2026-11-25T03:17:13+00:00",
+   "equity": 60.61
   }
  ],
  "kfees": 8.14,
