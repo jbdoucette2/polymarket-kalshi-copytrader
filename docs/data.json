@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:32:14+00:00",
+ "updated": "2026-11-25T04:47:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -889,6 +889,10 @@
     {
      "t": "2026-11-25T04:32:13+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T04:47:13+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1666,10 +1670,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.99,
+   "equity": 75.05,
    "cash": 41.42,
-   "pnl": -25.01,
-   "pnl_after_kalshi_fees": -28.49,
+   "pnl": -24.95,
+   "pnl_after_kalshi_fees": -28.43,
    "return_pct": -25.0,
    "realized": -27.39,
    "kalshi_fees": 3.48,
@@ -2546,6 +2550,10 @@
     {
      "t": "2026-11-25T04:32:13+00:00",
      "equity": 74.99
+    },
+    {
+     "t": "2026-11-25T04:47:13+00:00",
+     "equity": 75.05
     }
    ],
    "positions": [
@@ -2566,7 +2574,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7195,
+     "mark": 0.723,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3436,11 +3444,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 58.59,
+   "equity": 58.53,
    "cash": 16.77,
-   "pnl": -41.41,
-   "pnl_after_kalshi_fees": -49.74,
-   "return_pct": -41.4,
+   "pnl": -41.47,
+   "pnl_after_kalshi_fees": -49.8,
+   "return_pct": -41.5,
    "realized": -42.27,
    "kalshi_fees": 8.33,
    "settled": 55,
@@ -4316,6 +4324,10 @@
     {
      "t": "2026-11-25T04:32:13+00:00",
      "equity": 58.59
+    },
+    {
+     "t": "2026-11-25T04:47:13+00:00",
+     "equity": 58.53
     }
    ],
    "positions": [
@@ -4346,7 +4358,7 @@
      "cost": 3.75,
      "shares": 7.01,
      "avg": 0.535,
-     "mark": 0.665,
+     "mark": 0.61,
      "opened": "2026-11-24T14:35:17+00:00"
     },
     {
@@ -4356,7 +4368,7 @@
      "cost": 3.75,
      "shares": 7.14,
      "avg": 0.525,
-     "mark": 0.08,
+     "mark": 0.13,
      "opened": "2026-11-24T15:07:31+00:00"
     },
     {
@@ -4426,7 +4438,7 @@
      "cost": 2.8,
      "shares": 5.89,
      "avg": 0.475,
-     "mark": 0.465,
+     "mark": 0.46,
      "opened": "2026-11-24T22:37:38+00:00"
     },
     {
@@ -5758,11 +5770,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 115.45,
+   "equity": 115.56,
    "cash": 105.55,
-   "pnl": 15.45,
-   "pnl_after_kalshi_fees": 13.22,
-   "return_pct": 15.5,
+   "pnl": 15.56,
+   "pnl_after_kalshi_fees": 13.33,
+   "return_pct": 15.6,
    "realized": 11.13,
    "kalshi_fees": 2.23,
    "settled": 11,
@@ -6638,6 +6650,10 @@
     {
      "t": "2026-11-25T04:32:13+00:00",
      "equity": 115.45
+    },
+    {
+     "t": "2026-11-25T04:47:13+00:00",
+     "equity": 115.56
     }
    ],
    "positions": [
@@ -6648,7 +6664,7 @@
      "cost": 5.57,
      "shares": 10.82,
      "avg": 0.515,
-     "mark": 0.915,
+     "mark": 0.925,
      "opened": "2026-11-24T11:42:20+00:00"
     }
    ],
@@ -6953,7 +6969,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 15,
-   "skipped": 39,
+   "skipped": 40,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -7819,6 +7835,10 @@
     {
      "t": "2026-11-25T04:32:13+00:00",
      "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T04:47:13+00:00",
+     "equity": 106.34
     }
    ],
    "positions": [],
@@ -7990,6 +8010,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T04:47:13+00:00",
+     "kind": "skip",
+     "title": "Christian Braun: 3-Pointers Made O/U 1.5",
+     "outcome": "Yes",
+     "event_slug": "nba-dal-den-2026-11-24",
+     "leader_usd": 3.95,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.79
+    },
     {
      "ts": "2026-11-25T03:47:13+00:00",
      "kind": "skip",
