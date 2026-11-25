@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:17:17+00:00",
+ "updated": "2026-11-25T02:32:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -853,6 +853,10 @@
     {
      "t": "2026-11-25T02:17:13+00:00",
      "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T02:32:14+00:00",
+     "equity": 82.84
     }
    ],
    "positions": [],
@@ -1630,11 +1634,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.3,
+   "equity": 76.23,
    "cash": 41.42,
-   "pnl": -23.7,
-   "pnl_after_kalshi_fees": -27.18,
-   "return_pct": -23.7,
+   "pnl": -23.77,
+   "pnl_after_kalshi_fees": -27.25,
+   "return_pct": -23.8,
    "realized": -27.39,
    "kalshi_fees": 3.48,
    "settled": 22,
@@ -2474,6 +2478,10 @@
     {
      "t": "2026-11-25T02:17:13+00:00",
      "equity": 76.3
+    },
+    {
+     "t": "2026-11-25T02:32:14+00:00",
+     "equity": 76.23
     }
    ],
    "positions": [
@@ -2494,7 +2502,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.767,
+     "mark": 0.763,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3364,19 +3372,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 58.86,
+   "equity": 56.73,
    "cash": 0.29,
-   "pnl": -41.14,
-   "pnl_after_kalshi_fees": -49.28,
-   "return_pct": -41.1,
-   "realized": -45.61,
+   "pnl": -43.27,
+   "pnl_after_kalshi_fees": -51.41,
+   "return_pct": -43.3,
+   "realized": -49.36,
    "kalshi_fees": 8.14,
-   "settled": 48,
+   "settled": 49,
    "won": 24,
-   "lost": 24,
+   "lost": 25,
    "sold_early": 0,
-   "open": 18,
-   "at_risk": 54.09,
+   "open": 17,
+   "at_risk": 50.34,
    "copied": 76,
    "skipped": 63,
    "max_drawdown_pct": 73.4,
@@ -4208,6 +4216,10 @@
     {
      "t": "2026-11-25T02:17:13+00:00",
      "equity": 58.86
+    },
+    {
+     "t": "2026-11-25T02:32:14+00:00",
+     "equity": 56.73
     }
    ],
    "positions": [
@@ -4218,7 +4230,7 @@
      "cost": 2.64,
      "shares": 4.67,
      "avg": 0.565,
-     "mark": 0.925,
+     "mark": 0.92,
      "opened": "2026-11-23T14:39:32+00:00"
     },
     {
@@ -4262,16 +4274,6 @@
      "opened": "2026-11-24T13:31:07+00:00"
     },
     {
-     "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
-     "outcome": "Over",
-     "event_slug": "cbb-prov-arz-2026-11-24",
-     "cost": 3.75,
-     "shares": 6.88,
-     "avg": 0.545,
-     "mark": 0.0005,
-     "opened": "2026-11-24T13:56:43+00:00"
-    },
-    {
      "title": "Spread: St. John's Red Storm (-10.5)",
      "outcome": "St. Johns Red Storm",
      "event_slug": "cbb-stjohn-ore-2026-11-24",
@@ -4308,7 +4310,7 @@
      "cost": 3.75,
      "shares": 7.28,
      "avg": 0.515,
-     "mark": 0.75,
+     "mark": 0.5,
      "opened": "2026-11-24T15:17:38+00:00"
     },
     {
@@ -4368,7 +4370,7 @@
      "cost": 5.96,
      "shares": 11.42,
      "avg": 0.522,
-     "mark": 0.515,
+     "mark": 0.49,
      "opened": "2026-11-24T21:25:28+00:00"
     },
     {
@@ -4393,6 +4395,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-25T02:32:14+00:00",
+     "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
+     "outcome": "Over",
+     "event_slug": "cbb-prov-arz-2026-11-24",
+     "cost": 3.75,
+     "pnl": -3.75,
+     "kfee": 0.12,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-25T00:32:13+00:00",
      "title": "Spread: Tennessee Volunteers (-3.5)",
@@ -6466,6 +6479,10 @@
     {
      "t": "2026-11-25T02:17:13+00:00",
      "equity": 110.91
+    },
+    {
+     "t": "2026-11-25T02:32:14+00:00",
+     "equity": 110.91
     }
    ],
    "positions": [
@@ -6767,20 +6784,20 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 105.65,
-   "cash": 99.28,
-   "pnl": 5.65,
-   "pnl_after_kalshi_fees": 4.68,
-   "return_pct": 5.7,
+   "equity": 104.55,
+   "cash": 93.67,
+   "pnl": 4.55,
+   "pnl_after_kalshi_fees": 3.54,
+   "return_pct": 4.5,
    "realized": 5.61,
-   "kalshi_fees": 0.97,
+   "kalshi_fees": 1.01,
    "settled": 13,
    "won": 12,
    "lost": 1,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.34,
-   "copied": 14,
+   "open": 2,
+   "at_risk": 11.95,
+   "copied": 15,
    "skipped": 37,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
@@ -7611,6 +7628,10 @@
     {
      "t": "2026-11-25T02:17:13+00:00",
      "equity": 105.65
+    },
+    {
+     "t": "2026-11-25T02:32:14+00:00",
+     "equity": 104.55
     }
    ],
    "positions": [
@@ -7621,8 +7642,18 @@
      "cost": 6.34,
      "shares": 6.54,
      "avg": 0.97,
-     "mark": 0.975,
+     "mark": 0.9655,
      "opened": "2026-11-25T02:08:40+00:00"
+    },
+    {
+     "title": "Trae Young: Assists O/U 7.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "cost": 5.61,
+     "shares": 6.13,
+     "avg": 0.915,
+     "mark": 0.745,
+     "opened": "2026-11-25T02:31:37+00:00"
     }
    ],
    "closed": [
@@ -7771,6 +7802,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-25T02:32:14+00:00",
+     "kind": "buy",
+     "title": "Trae Young: Assists O/U 7.5",
+     "outcome": "Yes",
+     "event_slug": "nba-bos-was-2026-11-24",
+     "leader_usd": 45.08,
+     "stake": 5.61,
+     "price": 0.915,
+     "leader_price": 0.92,
+     "mult": 1.77
+    },
     {
      "ts": "2026-11-25T02:17:13+00:00",
      "kind": "skip",
