@@ -17,7 +17,7 @@
  "open": 0,
  "at_risk": 0,
  "copied": 4,
- "skipped": 19,
+ "skipped": 21,
  "max_drawdown_pct": 5.9,
  "history": [
   {
@@ -1167,6 +1167,10 @@
   {
    "t": "2026-11-25T23:32:24+00:00",
    "equity": 107.25
+  },
+  {
+   "t": "2026-11-25T23:47:16+00:00",
+   "equity": 107.25
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1259,6 +1263,30 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-25T23:47:16+00:00",
+   "kind": "skip",
+   "title": "Seahawks vs. 49ers",
+   "outcome": "49ers",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 2251.41,
+   "reason": "market didn't react",
+   "price": 0.565,
+   "leader_price": 0.56,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-25T23:47:16+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-3.5)",
+   "outcome": "49ers",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 348.15,
+   "reason": "small bet for this wallet",
+   "price": 0.42,
+   "leader_price": 0.42,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-25T15:47:13+00:00",
    "kind": "skip",
@@ -1544,6 +1572,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-25T23:32:25+00:00",
+ "updated": "2026-11-25T23:47:17+00:00",
  "start": 100.0
 }

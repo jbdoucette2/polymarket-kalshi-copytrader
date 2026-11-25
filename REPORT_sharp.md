@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-25T23:32:25+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-25T23:47:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$107.25** (+7.25; after Kalshi fees +6.56) · 3-1 · sold early 0 · 0 open ($0.00) · max drawdown 5.9%
 
@@ -20,6 +20,8 @@ Updated 2026-11-25T23:32:25+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-25 23:47 | skip | Seahawks vs. 49ers | 49ers | gmpm2 | market didn't react |
+| 11-25 23:47 | skip | Spread: 49ers (-3.5) | 49ers | gmpm2 | small bet for this wallet |
 | 11-25 15:47 | skip | Packers vs. Rams | Rams | gmpm2 | market didn't react |
 | 11-23 22:14 | buy | Spread: Bengals (-6.5) | Bengals | gmpm2 | $5.64 at 50c |
 | 11-23 00:13 | skip | Vikings vs. 49ers: O/U 44.5 | Under | gmpm2 | market didn't react |
