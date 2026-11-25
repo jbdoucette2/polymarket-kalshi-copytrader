@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:17:15+00:00",
+ "updated": "2026-11-25T20:32:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1136,6 +1136,10 @@
     },
     {
      "t": "2026-11-25T20:17:14+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-25T20:32:11+00:00",
      "equity": 82.84
     }
    ],
@@ -3042,6 +3046,10 @@
     {
      "t": "2026-11-25T20:17:14+00:00",
      "equity": 74.41
+    },
+    {
+     "t": "2026-11-25T20:32:11+00:00",
+     "equity": 74.41
     }
    ],
    "positions": [
@@ -3958,7 +3966,7 @@
    "open": 18,
    "at_risk": 60.54,
    "copied": 87,
-   "skipped": 64,
+   "skipped": 65,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -5072,6 +5080,10 @@
     {
      "t": "2026-11-25T20:17:14+00:00",
      "equity": 58.97
+    },
+    {
+     "t": "2026-11-25T20:32:11+00:00",
+     "equity": 58.97
     }
    ],
    "positions": [
@@ -5192,7 +5204,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.976,
+     "mark": 0.9765,
      "opened": "2026-11-25T14:08:29+00:00"
     },
     {
@@ -5898,6 +5910,17 @@
    ],
    "log": [
     {
+     "ts": "2026-11-25T20:32:11+00:00",
+     "kind": "skip",
+     "title": "Spread: 76ers (-1.5)",
+     "outcome": "76ers",
+     "event_slug": "nba-mia-phi-2026-11-25",
+     "leader_usd": 1474.65,
+     "reason": "out of cash",
+     "price": 0.455,
+     "leader_price": 0.45
+    },
+    {
      "ts": "2026-11-25T18:02:21+00:00",
      "kind": "buy",
      "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
@@ -6580,18 +6603,6 @@
      "price": 0.56,
      "leader_price": 0.52,
      "mult": 1.94
-    },
-    {
-     "ts": "2026-11-23T19:21:45+00:00",
-     "kind": "buy",
-     "title": "Spread: UNLV Runnin' Rebels (-7.5)",
-     "outcome": "UNLV Runnin Rebels",
-     "event_slug": "cbb-ewash-unlv-2026-11-23",
-     "leader_usd": 818.48,
-     "stake": 2.64,
-     "price": 0.535,
-     "leader_price": 0.52,
-     "mult": 2.0
     }
    ]
   },
@@ -7727,6 +7738,10 @@
     },
     {
      "t": "2026-11-25T20:17:14+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-25T20:32:11+00:00",
      "equity": 116.37
     }
    ],
@@ -9156,6 +9171,10 @@
     },
     {
      "t": "2026-11-25T20:17:14+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-25T20:32:11+00:00",
      "equity": 106.34
     }
    ],
