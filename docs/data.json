@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:47:15+00:00",
+ "updated": "2026-11-26T06:02:24+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1289,6 +1289,10 @@
     {
      "t": "2026-11-26T05:47:13+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T06:02:23+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2089,11 +2093,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.86,
+   "equity": 74.85,
    "cash": 39.22,
-   "pnl": -25.14,
-   "pnl_after_kalshi_fees": -28.66,
-   "return_pct": -25.1,
+   "pnl": -25.15,
+   "pnl_after_kalshi_fees": -28.67,
+   "return_pct": -25.2,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3369,6 +3373,10 @@
     {
      "t": "2026-11-26T05:47:13+00:00",
      "equity": 74.86
+    },
+    {
+     "t": "2026-11-26T06:02:23+00:00",
+     "equity": 74.85
     }
    ],
    "positions": [
@@ -3389,7 +3397,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7075,
+     "mark": 0.7065,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4287,14 +4295,14 @@
    "pnl": -17.97,
    "pnl_after_kalshi_fees": -27.82,
    "return_pct": -18.0,
-   "realized": -18.34,
+   "realized": -20.28,
    "kalshi_fees": 9.85,
-   "settled": 70,
+   "settled": 71,
    "won": 41,
-   "lost": 29,
+   "lost": 30,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 33.91,
+   "open": 8,
+   "at_risk": 31.97,
    "copied": 91,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
@@ -5562,6 +5570,10 @@
     {
      "t": "2026-11-26T05:47:13+00:00",
      "equity": 82.03
+    },
+    {
+     "t": "2026-11-26T06:02:23+00:00",
+     "equity": 82.03
     }
    ],
    "positions": [
@@ -5644,19 +5656,20 @@
      "avg": 0.545,
      "mark": 0.9995,
      "opened": "2026-11-26T02:21:03+00:00"
-    },
+    }
+   ],
+   "closed": [
     {
+     "ts": "2026-11-26T06:02:23+00:00",
      "title": "Sharks vs. Ducks: O/U 7.5",
      "outcome": "Over",
      "event_slug": "nhl-sj-ana-2026-11-25",
      "cost": 1.94,
-     "shares": 5.46,
-     "avg": 0.355,
-     "mark": 0.0005,
-     "opened": "2026-11-26T02:45:10+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -1.94,
+     "kfee": 0.09,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-26T05:02:16+00:00",
      "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
@@ -6305,17 +6318,6 @@
      "kfee": 0.04,
      "how": "won",
      "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "title": "O/U 1.5 Rounds",
-     "outcome": "Under",
-     "event_slug": "ufc-jproch-nav-2026-11-21",
-     "cost": 1.6,
-     "pnl": -1.6,
-     "kfee": 0.07,
-     "how": "lost",
-     "exit_price": 0.0
     }
    ],
    "log": [
@@ -8300,6 +8302,10 @@
     {
      "t": "2026-11-26T05:47:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T06:02:23+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9880,6 +9886,10 @@
     },
     {
      "t": "2026-11-26T05:47:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T06:02:23+00:00",
      "equity": 107.42
     }
    ],
