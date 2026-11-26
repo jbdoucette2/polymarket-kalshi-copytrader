@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:47:14+00:00",
+ "updated": "2026-11-26T02:02:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.42,
+   "equity": 80.11,
    "cash": 77.87,
-   "pnl": -18.58,
-   "pnl_after_kalshi_fees": -22.76,
-   "return_pct": -18.6,
+   "pnl": -19.89,
+   "pnl_after_kalshi_fees": -24.07,
+   "return_pct": -19.9,
    "realized": -17.15,
    "kalshi_fees": 4.18,
    "settled": 24,
@@ -24,7 +24,7 @@
    "at_risk": 4.97,
    "copied": 28,
    "skipped": 16,
-   "max_drawdown_pct": 23.8,
+   "max_drawdown_pct": 25.1,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1225,6 +1225,10 @@
     {
      "t": "2026-11-26T01:47:13+00:00",
      "equity": 81.42
+    },
+    {
+     "t": "2026-11-26T02:02:13+00:00",
+     "equity": 80.11
     }
    ],
    "positions": [
@@ -1235,7 +1239,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.325,
+     "mark": 0.205,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -3241,6 +3245,10 @@
     {
      "t": "2026-11-26T01:47:13+00:00",
      "equity": 74.94
+    },
+    {
+     "t": "2026-11-26T02:02:13+00:00",
+     "equity": 74.94
     }
    ],
    "positions": [
@@ -4143,21 +4151,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 61.57,
-   "cash": -0.0,
-   "pnl": -38.43,
-   "pnl_after_kalshi_fees": -48.06,
-   "return_pct": -38.4,
-   "realized": -39.58,
+   "equity": 62.3,
+   "cash": 5.72,
+   "pnl": -37.7,
+   "pnl_after_kalshi_fees": -47.33,
+   "return_pct": -37.7,
+   "realized": -36.95,
    "kalshi_fees": 9.63,
-   "settled": 60,
-   "won": 32,
+   "settled": 61,
+   "won": 33,
    "lost": 28,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 60.42,
+   "open": 16,
+   "at_risk": 57.33,
    "copied": 89,
-   "skipped": 70,
+   "skipped": 71,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -5359,6 +5367,10 @@
     {
      "t": "2026-11-26T01:47:13+00:00",
      "equity": 61.57
+    },
+    {
+     "t": "2026-11-26T02:02:13+00:00",
+     "equity": 62.3
     }
    ],
    "positions": [
@@ -5389,7 +5401,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.505,
+     "mark": 0.735,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5409,7 +5421,7 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.645,
+     "mark": 0.795,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5419,7 +5431,7 @@
      "cost": 2.84,
      "shares": 5.62,
      "avg": 0.505,
-     "mark": 0.305,
+     "mark": 0.265,
      "opened": "2026-11-24T21:22:04+00:00"
     },
     {
@@ -5443,23 +5455,13 @@
      "opened": "2026-11-24T22:37:38+00:00"
     },
     {
-     "title": "Spread: UC Riverside Highlanders (-3.5)",
-     "outcome": "Portland State Vikings",
-     "event_slug": "cbb-portst-ucrvs-2026-11-25",
-     "cost": 3.09,
-     "shares": 5.72,
-     "avg": 0.54,
-     "mark": 0.9995,
-     "opened": "2026-11-25T03:26:01+00:00"
-    },
-    {
      "title": "Broncos vs. Steelers",
      "outcome": "Broncos",
      "event_slug": "nfl-den-pit-2026-11-27",
      "cost": 3.3,
      "shares": 5.37,
      "avg": 0.615,
-     "mark": 0.645,
+     "mark": 0.655,
      "opened": "2026-11-25T04:12:02+00:00"
     },
     {
@@ -5479,7 +5481,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.26,
+     "mark": 0.21,
      "opened": "2026-11-25T14:56:32+00:00"
     },
     {
@@ -5489,7 +5491,7 @@
      "cost": 2.31,
      "shares": 4.49,
      "avg": 0.515,
-     "mark": 0.74,
+     "mark": 0.79,
      "opened": "2026-11-25T15:15:43+00:00"
     },
     {
@@ -5499,7 +5501,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.495,
+     "mark": 0.445,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5509,7 +5511,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.545,
+     "mark": 0.395,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5519,7 +5521,7 @@
      "cost": 6.52,
      "shares": 11.25,
      "avg": 0.58,
-     "mark": 0.625,
+     "mark": 0.685,
      "opened": "2026-11-25T17:57:30+00:00"
     },
     {
@@ -5534,6 +5536,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T02:02:13+00:00",
+     "title": "Spread: UC Riverside Highlanders (-3.5)",
+     "outcome": "Portland State Vikings",
+     "event_slug": "cbb-portst-ucrvs-2026-11-25",
+     "cost": 3.09,
+     "pnl": 2.63,
+     "kfee": 0.1,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-25T23:02:12+00:00",
      "title": "Saint Peter's Peacocks vs. Columbia Lions: O/U 125.5",
@@ -6182,20 +6195,20 @@
      "kfee": 0.2,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T02:20:43+00:00",
-     "title": "Spread: Miami Hurricanes (-35.5)",
-     "outcome": "Manhattan Jaspers",
-     "event_slug": "cbb-manh-mia-2026-11-20",
-     "cost": 6.0,
-     "pnl": -6.0,
-     "kfee": 0.2,
-     "how": "lost",
-     "exit_price": 0.0
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:02:13+00:00",
+     "kind": "skip",
+     "title": "76ers vs. Pacers",
+     "outcome": "76ers",
+     "event_slug": "nba-phi-ind-2026-11-27",
+     "leader_usd": 3.2,
+     "reason": "out of cash",
+     "price": 0.635,
+     "leader_price": 0.63
+    },
     {
      "ts": "2026-11-26T00:32:20+00:00",
      "kind": "buy",
@@ -6878,17 +6891,6 @@
      "reason": "below $1 minimum",
      "price": 0.655,
      "leader_price": 0.66
-    },
-    {
-     "ts": "2026-11-23T22:32:12+00:00",
-     "kind": "skip",
-     "title": "Spread: SC Internacional (-1.5)",
-     "outcome": "EC Vit\u00f3ria",
-     "event_slug": "bra-int-vit-2026-11-23-more-markets",
-     "leader_usd": 647.4,
-     "reason": "price ran away (0.65 -> 0.83)",
-     "price": 0.83,
-     "leader_price": 0.65
     }
    ]
   },
@@ -8112,6 +8114,10 @@
     },
     {
      "t": "2026-11-26T01:47:13+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T02:02:13+00:00",
      "equity": 116.37
     }
    ],
@@ -9629,6 +9635,10 @@
     },
     {
      "t": "2026-11-26T01:47:13+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-26T02:02:13+00:00",
      "equity": 106.34
     }
    ],
