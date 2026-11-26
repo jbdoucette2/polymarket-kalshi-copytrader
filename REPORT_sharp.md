@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-26T21:02:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-26T21:17:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$106.92** (+6.92; after Kalshi fees +6.03) · 3-1 · sold early 0 · 1 open ($5.36) · max drawdown 6.2%
 
@@ -21,6 +21,7 @@ Updated 2026-11-26T21:02:17+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-26 21:17 | skip | Spread: Cowboys (-3.5) | Eagles | gmpm2 | market didn't react |
 | 11-26 21:02 | skip | Spread: Cowboys (-3.5) | Eagles | gmpm2 | small bet for this wallet |
 | 11-26 21:02 | skip | Spread: Cowboys (-2.5) | Eagles | gmpm2 | small bet for this wallet |
 | 11-26 15:17 | skip | Commanders vs. Cardinals | Cardinals | gmpm2 | small bet for this wallet |

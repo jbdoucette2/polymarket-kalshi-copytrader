@@ -17,7 +17,7 @@
  "open": 1,
  "at_risk": 5.36,
  "copied": 5,
- "skipped": 28,
+ "skipped": 29,
  "max_drawdown_pct": 6.2,
  "history": [
   {
@@ -1511,6 +1511,10 @@
   {
    "t": "2026-11-26T21:02:15+00:00",
    "equity": 106.92
+  },
+  {
+   "t": "2026-11-26T21:17:15+00:00",
+   "equity": 106.92
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1612,6 +1616,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-26T21:17:15+00:00",
+   "kind": "skip",
+   "title": "Spread: Cowboys (-3.5)",
+   "outcome": "Eagles",
+   "event_slug": "nfl-phi-dal-2026-11-26",
+   "leader_usd": 7586.79,
+   "reason": "market didn't react",
+   "price": 0.345,
+   "leader_price": 0.34,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-26T21:02:15+00:00",
    "kind": "skip",
@@ -2019,6 +2035,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-26T21:02:17+00:00",
+ "updated": "2026-11-26T21:17:16+00:00",
  "start": 100.0
 }
