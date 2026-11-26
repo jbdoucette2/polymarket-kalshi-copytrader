@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:47:13+00:00",
+ "updated": "2026-11-26T05:02:18+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -14,14 +14,14 @@
    "pnl": -22.13,
    "pnl_after_kalshi_fees": -26.31,
    "return_pct": -22.1,
-   "realized": -17.15,
+   "realized": -22.12,
    "kalshi_fees": 4.18,
-   "settled": 24,
+   "settled": 25,
    "won": 11,
-   "lost": 13,
+   "lost": 14,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.97,
+   "open": 0,
+   "at_risk": 0,
    "copied": 28,
    "skipped": 16,
    "max_drawdown_pct": 27.2,
@@ -1273,21 +1273,25 @@
     {
      "t": "2026-11-26T04:47:12+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T05:02:16+00:00",
+     "equity": 77.87
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-26T05:02:16+00:00",
      "title": "Packers vs. Rams",
      "outcome": "Packers",
      "event_slug": "nfl-gb-la-2026-11-26",
      "cost": 4.97,
-     "shares": 10.92,
-     "avg": 0.455,
-     "mark": 0.0005,
-     "opened": "2026-11-26T00:33:55+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -4.97,
+     "kfee": 0.19,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-24T04:47:19+00:00",
      "title": "Spread: Bengals (-7.5)",
@@ -2073,11 +2077,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.86,
+   "equity": 74.83,
    "cash": 39.22,
-   "pnl": -25.14,
-   "pnl_after_kalshi_fees": -28.66,
-   "return_pct": -25.1,
+   "pnl": -25.17,
+   "pnl_after_kalshi_fees": -28.69,
+   "return_pct": -25.2,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3337,6 +3341,10 @@
     {
      "t": "2026-11-26T04:47:12+00:00",
      "equity": 74.86
+    },
+    {
+     "t": "2026-11-26T05:02:16+00:00",
+     "equity": 74.83
     }
    ],
    "positions": [
@@ -3357,7 +3365,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7075,
+     "mark": 0.7055,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4250,19 +4258,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 83.15,
-   "cash": 36.5,
-   "pnl": -16.85,
-   "pnl_after_kalshi_fees": -26.7,
-   "return_pct": -16.8,
-   "realized": -23.07,
+   "equity": 83.41,
+   "cash": 47.75,
+   "pnl": -16.59,
+   "pnl_after_kalshi_fees": -26.44,
+   "return_pct": -16.6,
+   "realized": -18.34,
    "kalshi_fees": 9.85,
-   "settled": 69,
-   "won": 40,
+   "settled": 70,
+   "won": 41,
    "lost": 29,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 40.43,
+   "open": 9,
+   "at_risk": 33.91,
    "copied": 91,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
@@ -5514,6 +5522,10 @@
     {
      "t": "2026-11-26T04:47:12+00:00",
      "equity": 83.15
+    },
+    {
+     "t": "2026-11-26T05:02:16+00:00",
+     "equity": 83.41
     }
    ],
    "positions": [
@@ -5578,16 +5590,6 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
-     "outcome": "Under",
-     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
-     "cost": 6.52,
-     "shares": 11.25,
-     "avg": 0.58,
-     "mark": 0.9995,
-     "opened": "2026-11-25T17:57:30+00:00"
-    },
-    {
      "title": "Spread: Cowboys (-9.5)",
      "outcome": "Eagles",
      "event_slug": "nfl-phi-dal-2026-11-26",
@@ -5604,7 +5606,7 @@
      "cost": 3.78,
      "shares": 6.94,
      "avg": 0.545,
-     "mark": 0.875,
+     "mark": 0.915,
      "opened": "2026-11-26T02:21:03+00:00"
     },
     {
@@ -5614,11 +5616,22 @@
      "cost": 1.94,
      "shares": 5.46,
      "avg": 0.355,
-     "mark": 0.365,
+     "mark": 0.36,
      "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T05:02:16+00:00",
+     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
+     "cost": 6.52,
+     "pnl": 4.73,
+     "kfee": 0.2,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T04:47:12+00:00",
      "title": "Packers vs. Rams: O/U 44.5",
@@ -6267,17 +6280,6 @@
      "kfee": 0.07,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "title": "Spread: Army (-5.5)",
-     "outcome": "East Carolina",
-     "event_slug": "cfb-ecar-army-2026-11-21",
-     "cost": 4.62,
-     "pnl": 4.18,
-     "kfee": 0.16,
-     "how": "won",
-     "exit_price": 1.0
     }
    ],
    "log": [
@@ -8246,6 +8248,10 @@
     {
      "t": "2026-11-26T04:47:12+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T05:02:16+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9810,6 +9816,10 @@
     },
     {
      "t": "2026-11-26T04:47:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T05:02:16+00:00",
      "equity": 107.42
     }
    ],
