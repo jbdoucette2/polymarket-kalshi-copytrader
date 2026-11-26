@@ -455,6 +455,30 @@
    "price": 0.255,
    "leader_price": 0.25,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T21:02:15+00:00",
+   "kind": "skip",
+   "title": "Spread: Cowboys (-2.5)",
+   "outcome": "Eagles",
+   "event_slug": "nfl-phi-dal-2026-11-26",
+   "leader_usd": 1576.63,
+   "reason": "small bet for this wallet",
+   "price": 0.265,
+   "leader_price": 0.26,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T21:02:15+00:00",
+   "kind": "skip",
+   "title": "Spread: Cowboys (-3.5)",
+   "outcome": "Eagles",
+   "event_slug": "nfl-phi-dal-2026-11-26",
+   "leader_usd": 1696.39,
+   "reason": "small bet for this wallet",
+   "price": 0.335,
+   "leader_price": 0.33,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -1945,11 +1969,15 @@
   {
    "t": "2026-11-26T20:47:21+00:00",
    "equity": 106.92
+  },
+  {
+   "t": "2026-11-26T21:02:15+00:00",
+   "equity": 106.92
   }
  ],
  "kfees": 0.89,
  "copied": 5,
- "skipped": 26,
+ "skipped": 28,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -1959,7 +1987,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795723362
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795726723
  },
  "day": {
   "2026-11-23": 5.64,
@@ -2131,6 +2159,12 @@
     1
    ],
    "0x09f9e63033305fb811b03804f6d790b2f01ad65e6aa4308d0a56bed3ff5409df": [
+    1
+   ],
+   "0x901200776020d47d612a8224ea42a212fed03860f5c76bd1064f5ea293dde0dd": [
+    1
+   ],
+   "0x58f1e83fde8cf1f76d3c42ff0fe6253e0a727644ff60f56abab0e60230552aa5": [
     1
    ]
   }
