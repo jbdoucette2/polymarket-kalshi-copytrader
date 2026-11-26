@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:32:13+00:00",
+ "updated": "2026-11-26T04:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1268,6 +1268,10 @@
     },
     {
      "t": "2026-11-26T04:32:12+00:00",
+     "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T04:47:12+00:00",
      "equity": 77.87
     }
    ],
@@ -3329,6 +3333,10 @@
     {
      "t": "2026-11-26T04:32:12+00:00",
      "equity": 74.86
+    },
+    {
+     "t": "2026-11-26T04:47:12+00:00",
+     "equity": 74.86
     }
    ],
    "positions": [
@@ -4242,19 +4250,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 84.11,
-   "cash": 23.04,
-   "pnl": -15.89,
-   "pnl_after_kalshi_fees": -25.74,
-   "return_pct": -15.9,
-   "realized": -29.13,
+   "equity": 83.15,
+   "cash": 36.5,
+   "pnl": -16.85,
+   "pnl_after_kalshi_fees": -26.7,
+   "return_pct": -16.8,
+   "realized": -23.07,
    "kalshi_fees": 9.85,
-   "settled": 67,
-   "won": 38,
+   "settled": 69,
+   "won": 40,
    "lost": 29,
    "sold_early": 0,
-   "open": 12,
-   "at_risk": 47.83,
+   "open": 10,
+   "at_risk": 40.43,
    "copied": 91,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
@@ -5502,6 +5510,10 @@
     {
      "t": "2026-11-26T04:32:12+00:00",
      "equity": 84.11
+    },
+    {
+     "t": "2026-11-26T04:47:12+00:00",
+     "equity": 83.15
     }
    ],
    "positions": [
@@ -5524,16 +5536,6 @@
      "avg": 0.555,
      "mark": 0.615,
      "opened": "2026-11-23T22:02:07+00:00"
-    },
-    {
-     "title": "Packers vs. Rams",
-     "outcome": "Rams",
-     "event_slug": "nfl-gb-la-2026-11-26",
-     "cost": 3.75,
-     "shares": 6.64,
-     "avg": 0.565,
-     "mark": 0.9995,
-     "opened": "2026-11-24T16:32:05+00:00"
     },
     {
      "title": "Spread: Liberty (-17.5)",
@@ -5576,16 +5578,6 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Packers vs. Rams: O/U 44.5",
-     "outcome": "Under",
-     "event_slug": "nfl-gb-la-2026-11-26",
-     "cost": 3.65,
-     "shares": 6.82,
-     "avg": 0.535,
-     "mark": 0.9995,
-     "opened": "2026-11-25T16:57:47+00:00"
-    },
-    {
      "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
      "outcome": "Under",
      "event_slug": "mex-tol-atl-2026-11-25-more-markets",
@@ -5612,7 +5604,7 @@
      "cost": 3.78,
      "shares": 6.94,
      "avg": 0.545,
-     "mark": 0.865,
+     "mark": 0.875,
      "opened": "2026-11-26T02:21:03+00:00"
     },
     {
@@ -5622,11 +5614,33 @@
      "cost": 1.94,
      "shares": 5.46,
      "avg": 0.355,
-     "mark": 0.555,
+     "mark": 0.365,
      "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T04:47:12+00:00",
+     "title": "Packers vs. Rams: O/U 44.5",
+     "outcome": "Under",
+     "event_slug": "nfl-gb-la-2026-11-26",
+     "cost": 3.65,
+     "pnl": 3.17,
+     "kfee": 0.12,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-26T04:47:12+00:00",
+     "title": "Packers vs. Rams",
+     "outcome": "Rams",
+     "event_slug": "nfl-gb-la-2026-11-26",
+     "cost": 3.75,
+     "pnl": 2.89,
+     "kfee": 0.12,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T04:32:12+00:00",
      "title": "Suns vs. Rockets: O/U 223.5",
@@ -6264,28 +6278,6 @@
      "kfee": 0.16,
      "how": "won",
      "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "title": "Syracuse vs. Boston College: O/U 53.5",
-     "outcome": "Over",
-     "event_slug": "cfb-syra-boscol-2026-11-21",
-     "cost": 4.62,
-     "pnl": -4.62,
-     "kfee": 0.17,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "title": "UFC Fight Night: Aljamain Sterling vs. Kevin Vallejos (Featherweight, Main Card)",
-     "outcome": "Aljamain Sterling",
-     "event_slug": "ufc-alj-kev16-2026-11-21",
-     "cost": 7.01,
-     "pnl": -7.01,
-     "kfee": 0.28,
-     "how": "lost",
-     "exit_price": 0.0
     }
    ],
    "log": [
@@ -8250,6 +8242,10 @@
     {
      "t": "2026-11-26T04:32:12+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T04:47:12+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9810,6 +9806,10 @@
     },
     {
      "t": "2026-11-26T04:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T04:47:12+00:00",
      "equity": 107.42
     }
    ],
