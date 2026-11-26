@@ -17,7 +17,7 @@
  "open": 1,
  "at_risk": 5.36,
  "copied": 5,
- "skipped": 22,
+ "skipped": 23,
  "max_drawdown_pct": 6.0,
  "history": [
   {
@@ -1379,6 +1379,10 @@
   {
    "t": "2026-11-26T12:47:14+00:00",
    "equity": 107.14
+  },
+  {
+   "t": "2026-11-26T13:02:16+00:00",
+   "equity": 107.14
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1480,6 +1484,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-26T13:02:16+00:00",
+   "kind": "skip",
+   "title": "Spread: Bills (-2.5)",
+   "outcome": "Bills",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 94.5,
+   "reason": "small bet for this wallet",
+   "price": 0.545,
+   "leader_price": 0.54,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-26T09:32:15+00:00",
    "kind": "skip",
@@ -1815,6 +1831,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-26T12:47:14+00:00",
+ "updated": "2026-11-26T13:02:17+00:00",
  "start": 100.0
 }
