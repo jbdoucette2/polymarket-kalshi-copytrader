@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:17:15+00:00",
+ "updated": "2026-11-26T16:32:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1457,6 +1457,10 @@
     {
      "t": "2026-11-26T16:17:13+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T16:32:12+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2257,20 +2261,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.04,
-   "cash": 35.17,
-   "pnl": -22.96,
-   "pnl_after_kalshi_fees": -26.55,
-   "return_pct": -23.0,
+   "equity": 77.9,
+   "cash": 32.21,
+   "pnl": -22.1,
+   "pnl_after_kalshi_fees": -25.73,
+   "return_pct": -22.1,
    "realized": -27.39,
-   "kalshi_fees": 3.59,
+   "kalshi_fees": 3.63,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
    "open": 4,
-   "at_risk": 37.44,
-   "copied": 34,
+   "at_risk": 40.4,
+   "copied": 35,
    "skipped": 21,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -3705,6 +3709,10 @@
     {
      "t": "2026-11-26T16:17:13+00:00",
      "equity": 77.04
+    },
+    {
+     "t": "2026-11-26T16:32:12+00:00",
+     "equity": 77.9
     }
    ],
    "positions": [
@@ -3715,17 +3723,17 @@
      "cost": 18.78,
      "shares": 26.96,
      "avg": 0.697,
-     "mark": 0.81,
+     "mark": 0.83,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
      "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
      "outcome": "Yes",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 12.25,
-     "shares": 17.51,
-     "avg": 0.7,
-     "mark": 0.779,
+     "cost": 15.21,
+     "shares": 21.17,
+     "avg": 0.718,
+     "mark": 0.799,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3994,6 +4002,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T16:32:12+00:00",
+     "kind": "buy",
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 1663.62,
+     "stake": 2.96,
+     "price": 0.809,
+     "leader_price": 0.797,
+     "mult": 1.36
+    },
     {
      "ts": "2026-11-26T14:17:12+00:00",
      "kind": "buy",
@@ -4640,11 +4660,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.42,
+   "equity": 81.54,
    "cash": 23.17,
-   "pnl": -18.58,
-   "pnl_after_kalshi_fees": -29.53,
-   "return_pct": -18.6,
+   "pnl": -18.46,
+   "pnl_after_kalshi_fees": -29.41,
+   "return_pct": -18.5,
    "realized": -17.12,
    "kalshi_fees": 10.95,
    "settled": 72,
@@ -6088,6 +6108,10 @@
     {
      "t": "2026-11-26T16:17:13+00:00",
      "equity": 81.42
+    },
+    {
+     "t": "2026-11-26T16:32:12+00:00",
+     "equity": 81.54
     }
    ],
    "positions": [
@@ -6108,7 +6132,7 @@
      "cost": 2.64,
      "shares": 4.76,
      "avg": 0.555,
-     "mark": 0.625,
+     "mark": 0.63,
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
@@ -6168,7 +6192,7 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.545,
+     "mark": 0.555,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -9036,6 +9060,10 @@
     {
      "t": "2026-11-26T16:17:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T16:32:12+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -10784,6 +10812,10 @@
     },
     {
      "t": "2026-11-26T16:17:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T16:32:12+00:00",
      "equity": 107.42
     }
    ],
