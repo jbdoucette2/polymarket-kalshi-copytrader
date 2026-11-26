@@ -419,6 +419,30 @@
    "price": 0.545,
    "leader_price": 0.54,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T14:17:15+00:00",
+   "kind": "skip",
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 13.63,
+   "reason": "small bet for this wallet",
+   "price": 0.465,
+   "leader_price": 0.47,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T14:17:15+00:00",
+   "kind": "skip",
+   "title": "Chiefs vs. Bills: O/U 46.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 123.17,
+   "reason": "small bet for this wallet",
+   "price": 0.525,
+   "leader_price": 0.52,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -1801,11 +1825,15 @@
   {
    "t": "2026-11-26T14:02:17+00:00",
    "equity": 107.14
+  },
+  {
+   "t": "2026-11-26T14:17:15+00:00",
+   "equity": 107.14
   }
  ],
  "kfees": 0.89,
  "copied": 5,
- "skipped": 23,
+ "skipped": 25,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -1815,7 +1843,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795697680
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795702248
  },
  "day": {
   "2026-11-23": 5.64,

@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-26T14:02:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-26T14:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
 **$107.14** (+7.14; after Kalshi fees +6.25) · 3-1 · sold early 0 · 1 open ($5.36) · max drawdown 6.0%
 
@@ -21,6 +21,8 @@ Updated 2026-11-26T14:02:17+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-26 14:17 | skip | Chiefs vs. Bills: O/U 46.5 | Under | gmpm2 | small bet for this wallet |
+| 11-26 14:17 | skip | Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | small bet for this wallet |
 | 11-26 13:02 | skip | Spread: Bills (-2.5) | Bills | gmpm2 | small bet for this wallet |
 | 11-26 09:32 | skip | Chiefs vs. Bills: O/U 46.5 | Under | gmpm2 | already have a bet on this game |
 | 11-26 09:32 | buy | Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | $5.36 at 48c |

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:02:16+00:00",
+ "updated": "2026-11-26T14:17:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1421,6 +1421,10 @@
     {
      "t": "2026-11-26T14:02:15+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T14:17:12+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2221,20 +2225,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.29,
-   "cash": 39.22,
-   "pnl": -22.71,
-   "pnl_after_kalshi_fees": -26.23,
-   "return_pct": -22.7,
+   "equity": 77.39,
+   "cash": 35.17,
+   "pnl": -22.61,
+   "pnl_after_kalshi_fees": -26.2,
+   "return_pct": -22.6,
    "realized": -27.39,
-   "kalshi_fees": 3.52,
+   "kalshi_fees": 3.59,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 33.39,
-   "copied": 33,
+   "open": 4,
+   "at_risk": 37.44,
+   "copied": 34,
    "skipped": 21,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -3633,6 +3637,10 @@
     {
      "t": "2026-11-26T14:02:15+00:00",
      "equity": 77.29
+    },
+    {
+     "t": "2026-11-26T14:17:12+00:00",
+     "equity": 77.39
     }
    ],
    "positions": [
@@ -3653,7 +3661,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.779,
+     "mark": 0.793,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3663,8 +3671,18 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.265,
+     "mark": 0.255,
      "opened": "2026-11-23T22:56:41+00:00"
+    },
+    {
+     "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+     "outcome": "No",
+     "event_slug": "spain-general-election-winner",
+     "cost": 4.05,
+     "shares": 5.36,
+     "avg": 0.755,
+     "mark": 0.745,
+     "opened": "2026-11-26T14:03:09+00:00"
     }
    ],
    "closed": [
@@ -3912,6 +3930,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T14:17:12+00:00",
+     "kind": "buy",
+     "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+     "outcome": "No",
+     "event_slug": "spain-general-election-winner",
+     "leader_usd": 2274.49,
+     "stake": 4.05,
+     "price": 0.755,
+     "leader_price": 0.74,
+     "mult": 1.86
+    },
     {
      "ts": "2026-11-26T02:17:17+00:00",
      "kind": "skip",
@@ -4546,20 +4576,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.18,
-   "cash": 44.75,
-   "pnl": -17.82,
-   "pnl_after_kalshi_fees": -28.01,
-   "return_pct": -17.8,
+   "equity": 82.27,
+   "cash": 34.81,
+   "pnl": -17.73,
+   "pnl_after_kalshi_fees": -28.27,
+   "return_pct": -17.7,
    "realized": -17.12,
-   "kalshi_fees": 10.19,
+   "kalshi_fees": 10.54,
    "settled": 72,
    "won": 42,
    "lost": 30,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 38.13,
-   "copied": 93,
+   "open": 11,
+   "at_risk": 48.07,
+   "copied": 95,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -5958,6 +5988,10 @@
     {
      "t": "2026-11-26T14:02:15+00:00",
      "equity": 82.18
+    },
+    {
+     "t": "2026-11-26T14:17:12+00:00",
+     "equity": 82.27
     }
    ],
    "positions": [
@@ -6038,7 +6072,7 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.535,
+     "mark": 0.565,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -6050,6 +6084,26 @@
      "avg": 0.535,
      "mark": 0.525,
      "opened": "2026-11-26T13:49:21+00:00"
+    },
+    {
+     "title": "Spread: Texas Longhorns (-8.5)",
+     "outcome": "Georgetown Hoyas",
+     "event_slug": "cbb-george-tx-2026-11-26",
+     "cost": 4.97,
+     "shares": 9.47,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-26T14:14:04+00:00"
+    },
+    {
+     "title": "Spread: Alabama Crimson Tide (-14.5)",
+     "outcome": "Alabama Crimson Tide",
+     "event_slug": "cbb-kanst-ala-2026-11-26",
+     "cost": 4.97,
+     "shares": 9.84,
+     "avg": 0.505,
+     "mark": 0.495,
+     "opened": "2026-11-26T14:14:27+00:00"
     }
    ],
    "closed": [
@@ -6715,6 +6769,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T14:17:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Alabama Crimson Tide (-14.5)",
+     "outcome": "Alabama Crimson Tide",
+     "event_slug": "cbb-kanst-ala-2026-11-26",
+     "leader_usd": 964.05,
+     "stake": 4.97,
+     "price": 0.505,
+     "leader_price": 0.498,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-26T14:17:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Texas Longhorns (-8.5)",
+     "outcome": "Georgetown Hoyas",
+     "event_slug": "cbb-george-tx-2026-11-26",
+     "leader_usd": 1256.75,
+     "stake": 4.97,
+     "price": 0.525,
+     "leader_price": 0.519,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-26T14:02:15+00:00",
      "kind": "buy",
@@ -7385,30 +7463,6 @@
      "price": 0.535,
      "leader_price": 0.507,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-24T14:02:11+00:00",
-     "kind": "buy",
-     "title": "Providence Friars vs. Arizona Wildcats: O/U 154.5",
-     "outcome": "Over",
-     "event_slug": "cbb-prov-arz-2026-11-24",
-     "leader_usd": 936.51,
-     "stake": 3.75,
-     "price": 0.545,
-     "leader_price": 0.53,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-24T13:32:12+00:00",
-     "kind": "buy",
-     "title": "Milwaukee Panthers vs. Florida Gators: O/U 156.5",
-     "outcome": "Under",
-     "event_slug": "cbb-wbd-fl-2026-11-24",
-     "leader_usd": 227.9,
-     "stake": 1.61,
-     "price": 0.535,
-     "leader_price": 0.522,
-     "mult": 0.86
     }
    ]
   },
@@ -8828,6 +8882,10 @@
     },
     {
      "t": "2026-11-26T14:02:15+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T14:17:12+00:00",
      "equity": 116.37
     }
    ],
@@ -10541,6 +10599,10 @@
     },
     {
      "t": "2026-11-26T14:02:15+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T14:17:12+00:00",
      "equity": 107.42
     }
    ],
