@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:17:15+00:00",
+ "updated": "2026-11-26T23:32:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1569,6 +1569,10 @@
     {
      "t": "2026-11-26T23:17:14+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T23:32:11+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2369,10 +2373,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.02,
+   "equity": 80.97,
    "cash": 24.07,
-   "pnl": -18.98,
-   "pnl_after_kalshi_fees": -22.76,
+   "pnl": -19.03,
+   "pnl_after_kalshi_fees": -22.81,
    "return_pct": -19.0,
    "realized": -27.39,
    "kalshi_fees": 3.78,
@@ -3929,6 +3933,10 @@
     {
      "t": "2026-11-26T23:17:14+00:00",
      "equity": 81.02
+    },
+    {
+     "t": "2026-11-26T23:32:11+00:00",
+     "equity": 80.97
     }
    ],
    "positions": [
@@ -3949,7 +3957,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8645,
+     "mark": 0.8625,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4932,19 +4940,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 66.0,
+   "equity": 67.1,
    "cash": 9.15,
-   "pnl": -34.0,
-   "pnl_after_kalshi_fees": -45.38,
-   "return_pct": -34.0,
-   "realized": -17.12,
+   "pnl": -32.9,
+   "pnl_after_kalshi_fees": -44.28,
+   "return_pct": -32.9,
+   "realized": -22.09,
    "kalshi_fees": 11.38,
-   "settled": 72,
+   "settled": 73,
    "won": 42,
-   "lost": 30,
+   "lost": 31,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 73.73,
+   "open": 16,
+   "at_risk": 68.76,
    "copied": 103,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6492,6 +6500,10 @@
     {
      "t": "2026-11-26T23:17:14+00:00",
      "equity": 66.0
+    },
+    {
+     "t": "2026-11-26T23:32:11+00:00",
+     "equity": 67.1
     }
    ],
    "positions": [
@@ -6562,7 +6574,7 @@
      "cost": 3.63,
      "shares": 6.91,
      "avg": 0.525,
-     "mark": 0.25,
+     "mark": 0.155,
      "opened": "2026-11-25T23:35:40+00:00"
     },
     {
@@ -6572,18 +6584,8 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.55,
+     "mark": 0.555,
      "opened": "2026-11-26T13:46:51+00:00"
-    },
-    {
-     "title": "Spread: Arizona State Sun Devils (-3.5)",
-     "outcome": "Arizona State Sun Devils",
-     "event_slug": "cbb-sc-arzst-2026-11-26",
-     "cost": 4.97,
-     "shares": 9.29,
-     "avg": 0.535,
-     "mark": 0.0005,
-     "opened": "2026-11-26T13:49:21+00:00"
     },
     {
      "title": "Spread: Texas Longhorns (-8.5)",
@@ -6612,7 +6614,7 @@
      "cost": 4.97,
      "shares": 9.84,
      "avg": 0.505,
-     "mark": 0.245,
+     "mark": 0.37,
      "opened": "2026-11-26T14:45:37+00:00"
     },
     {
@@ -6662,11 +6664,22 @@
      "cost": 4.46,
      "shares": 8.13,
      "avg": 0.548,
-     "mark": 0.625,
+     "mark": 0.685,
      "opened": "2026-11-26T22:13:16+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T23:32:11+00:00",
+     "title": "Spread: Arizona State Sun Devils (-3.5)",
+     "outcome": "Arizona State Sun Devils",
+     "event_slug": "cbb-sc-arzst-2026-11-26",
+     "cost": 4.97,
+     "pnl": -4.97,
+     "kfee": 0.17,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-26T07:17:13+00:00",
      "title": "Will CF Monterrey win on 2026-11-25?",
@@ -7315,17 +7328,6 @@
      "kfee": 0.22,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T22:10:05+00:00",
-     "title": "Houston vs. West Virginia: O/U 71.5",
-     "outcome": "Under",
-     "event_slug": "cfb-hou-wvir-2026-11-21",
-     "cost": 4.52,
-     "pnl": 4.01,
-     "kfee": 0.15,
-     "how": "won",
-     "exit_price": 1.0
     }
    ],
    "log": [
@@ -9591,6 +9593,10 @@
     {
      "t": "2026-11-26T23:17:14+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T23:32:11+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11451,6 +11457,10 @@
     },
     {
      "t": "2026-11-26T23:17:14+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T23:32:11+00:00",
      "equity": 107.42
     }
    ],
