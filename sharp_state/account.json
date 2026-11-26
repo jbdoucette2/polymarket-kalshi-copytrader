@@ -443,6 +443,18 @@
    "price": 0.525,
    "leader_price": 0.52,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T15:17:16+00:00",
+   "kind": "skip",
+   "title": "Commanders vs. Cardinals",
+   "outcome": "Cardinals",
+   "event_slug": "nfl-was-ari-2026-11-29",
+   "leader_usd": 29.0,
+   "reason": "small bet for this wallet",
+   "price": 0.255,
+   "leader_price": 0.25,
+   "leader": "gmpm2"
   }
  ],
  "history": [
@@ -1841,11 +1853,15 @@
   {
    "t": "2026-11-26T15:02:17+00:00",
    "equity": 107.14
+  },
+  {
+   "t": "2026-11-26T15:17:16+00:00",
+   "equity": 107.14
   }
  ],
  "kfees": 0.89,
  "copied": 5,
- "skipped": 25,
+ "skipped": 26,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -1855,7 +1871,7 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795702248
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795705327
  },
  "day": {
   "2026-11-23": 5.64,
@@ -2022,6 +2038,9 @@
    ],
    "0x201a0973017a02cc6730c0c9425b02b71a31e4421d1d081d52ba00a600797bdd": [
     0
+   ],
+   "0x73b0351f3b6c9a4c9e132e7601481b0f6e6cd91c9869f5eeac90c4b4c08d04fa": [
+    1
    ]
   }
  }

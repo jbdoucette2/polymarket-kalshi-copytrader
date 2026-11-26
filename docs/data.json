@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:02:17+00:00",
+ "updated": "2026-11-26T15:17:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1437,6 +1437,10 @@
     {
      "t": "2026-11-26T15:02:15+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T15:17:15+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2237,11 +2241,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.36,
+   "equity": 77.01,
    "cash": 35.17,
-   "pnl": -22.64,
-   "pnl_after_kalshi_fees": -26.23,
-   "return_pct": -22.6,
+   "pnl": -22.99,
+   "pnl_after_kalshi_fees": -26.58,
+   "return_pct": -23.0,
    "realized": -27.39,
    "kalshi_fees": 3.59,
    "settled": 22,
@@ -3665,6 +3669,10 @@
     {
      "t": "2026-11-26T15:02:15+00:00",
      "equity": 77.36
+    },
+    {
+     "t": "2026-11-26T15:17:15+00:00",
+     "equity": 77.01
     }
    ],
    "positions": [
@@ -3685,7 +3693,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7915,
+     "mark": 0.7715,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4600,20 +4608,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.02,
-   "cash": 28.14,
-   "pnl": -17.98,
-   "pnl_after_kalshi_fees": -28.76,
-   "return_pct": -18.0,
+   "equity": 81.92,
+   "cash": 23.17,
+   "pnl": -18.08,
+   "pnl_after_kalshi_fees": -29.03,
+   "return_pct": -18.1,
    "realized": -17.12,
-   "kalshi_fees": 10.78,
+   "kalshi_fees": 10.95,
    "settled": 72,
    "won": 42,
    "lost": 30,
    "sold_early": 0,
-   "open": 12,
-   "at_risk": 54.74,
-   "copied": 97,
+   "open": 13,
+   "at_risk": 59.71,
+   "copied": 98,
    "skipped": 74,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -6028,6 +6036,10 @@
     {
      "t": "2026-11-26T15:02:15+00:00",
      "equity": 82.02
+    },
+    {
+     "t": "2026-11-26T15:17:15+00:00",
+     "equity": 81.92
     }
    ],
    "positions": [
@@ -6150,6 +6162,16 @@
      "avg": 0.505,
      "mark": 0.465,
      "opened": "2026-11-26T14:45:37+00:00"
+    },
+    {
+     "title": "Spread: South Carolina (-6.5)",
+     "outcome": "Clemson",
+     "event_slug": "cfb-sc-clmsn-2026-11-28",
+     "cost": 4.97,
+     "shares": 9.65,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-26T15:15:45+00:00"
     }
    ],
    "closed": [
@@ -6815,6 +6837,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T15:17:15+00:00",
+     "kind": "buy",
+     "title": "Spread: South Carolina (-6.5)",
+     "outcome": "Clemson",
+     "event_slug": "cfb-sc-clmsn-2026-11-28",
+     "leader_usd": 1332.63,
+     "stake": 4.97,
+     "price": 0.515,
+     "leader_price": 0.51,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-26T14:47:12+00:00",
      "kind": "skip",
@@ -7498,17 +7532,6 @@
      "price": 0.475,
      "leader_price": 0.46,
      "mult": 1.3
-    },
-    {
-     "ts": "2026-11-24T14:47:14+00:00",
-     "kind": "skip",
-     "title": "Appalachian State Mountaineers vs. Yale Bulldogs: O/U 133.5",
-     "outcome": "Over",
-     "event_slug": "cbb-applst-yale-2026-11-24",
-     "leader_usd": 81.51,
-     "reason": "below $1 minimum",
-     "price": 0.535,
-     "leader_price": 0.557
     }
    ]
   },
@@ -8944,6 +8967,10 @@
     },
     {
      "t": "2026-11-26T15:02:15+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T15:17:15+00:00",
      "equity": 116.37
     }
    ],
@@ -10673,6 +10700,10 @@
     },
     {
      "t": "2026-11-26T15:02:15+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T15:17:15+00:00",
      "equity": 107.42
     }
    ],

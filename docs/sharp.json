@@ -17,7 +17,7 @@
  "open": 1,
  "at_risk": 5.36,
  "copied": 5,
- "skipped": 25,
+ "skipped": 26,
  "max_drawdown_pct": 6.0,
  "history": [
   {
@@ -1415,6 +1415,10 @@
   {
    "t": "2026-11-26T15:02:17+00:00",
    "equity": 107.14
+  },
+  {
+   "t": "2026-11-26T15:17:16+00:00",
+   "equity": 107.14
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1516,6 +1520,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-26T15:17:16+00:00",
+   "kind": "skip",
+   "title": "Commanders vs. Cardinals",
+   "outcome": "Cardinals",
+   "event_slug": "nfl-was-ari-2026-11-29",
+   "leader_usd": 29.0,
+   "reason": "small bet for this wallet",
+   "price": 0.255,
+   "leader_price": 0.25,
+   "leader": "gmpm2"
+  },
   {
    "ts": "2026-11-26T14:17:15+00:00",
    "kind": "skip",
@@ -1887,6 +1903,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-26T15:02:18+00:00",
+ "updated": "2026-11-26T15:17:17+00:00",
  "start": 100.0
 }
