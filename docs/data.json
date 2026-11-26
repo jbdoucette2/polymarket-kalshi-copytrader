@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:32:11+00:00",
+ "updated": "2026-11-26T03:47:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 80.0,
+   "equity": 79.56,
    "cash": 77.87,
-   "pnl": -20.0,
-   "pnl_after_kalshi_fees": -24.18,
-   "return_pct": -20.0,
+   "pnl": -20.44,
+   "pnl_after_kalshi_fees": -24.62,
+   "return_pct": -20.4,
    "realized": -17.15,
    "kalshi_fees": 4.18,
    "settled": 24,
@@ -24,7 +24,7 @@
    "at_risk": 4.97,
    "copied": 28,
    "skipped": 16,
-   "max_drawdown_pct": 25.2,
+   "max_drawdown_pct": 25.6,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1253,6 +1253,10 @@
     {
      "t": "2026-11-26T03:32:10+00:00",
      "equity": 80.0
+    },
+    {
+     "t": "2026-11-26T03:47:15+00:00",
+     "equity": 79.56
     }
    ],
    "positions": [
@@ -1263,7 +1267,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.195,
+     "mark": 0.155,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -2053,10 +2057,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.94,
+   "equity": 74.93,
    "cash": 39.22,
-   "pnl": -25.06,
-   "pnl_after_kalshi_fees": -28.58,
+   "pnl": -25.07,
+   "pnl_after_kalshi_fees": -28.59,
    "return_pct": -25.1,
    "realized": -27.39,
    "kalshi_fees": 3.52,
@@ -3297,6 +3301,10 @@
     {
      "t": "2026-11-26T03:32:10+00:00",
      "equity": 74.94
+    },
+    {
+     "t": "2026-11-26T03:47:15+00:00",
+     "equity": 74.93
     }
    ],
    "positions": [
@@ -3317,7 +3325,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.712,
+     "mark": 0.711,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4210,19 +4218,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.29,
-   "cash": 13.25,
-   "pnl": -28.71,
-   "pnl_after_kalshi_fees": -38.56,
-   "return_pct": -28.7,
-   "realized": -34.15,
+   "equity": 76.51,
+   "cash": 16.09,
+   "pnl": -23.49,
+   "pnl_after_kalshi_fees": -33.34,
+   "return_pct": -23.5,
+   "realized": -32.43,
    "kalshi_fees": 9.85,
-   "settled": 65,
-   "won": 36,
+   "settled": 66,
+   "won": 37,
    "lost": 29,
    "sold_early": 0,
-   "open": 14,
-   "at_risk": 52.6,
+   "open": 13,
+   "at_risk": 51.48,
    "copied": 91,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
@@ -5454,6 +5462,10 @@
     {
      "t": "2026-11-26T03:32:10+00:00",
      "equity": 71.29
+    },
+    {
+     "t": "2026-11-26T03:47:15+00:00",
+     "equity": 76.51
     }
    ],
    "positions": [
@@ -5478,23 +5490,13 @@
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
-     "title": "Predators vs. Stars",
-     "outcome": "Predators",
-     "event_slug": "nhl-nsh-dal-2026-11-25",
-     "cost": 1.12,
-     "shares": 2.84,
-     "avg": 0.395,
-     "mark": 0.9995,
-     "opened": "2026-11-24T15:52:11+00:00"
-    },
-    {
      "title": "Packers vs. Rams",
      "outcome": "Rams",
      "event_slug": "nfl-gb-la-2026-11-26",
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.8,
+     "mark": 0.845,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5544,7 +5546,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.36,
+     "mark": 0.56,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5554,7 +5556,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.295,
+     "mark": 0.465,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5584,7 +5586,7 @@
      "cost": 3.78,
      "shares": 6.94,
      "avg": 0.545,
-     "mark": 0.845,
+     "mark": 0.88,
      "opened": "2026-11-26T02:21:03+00:00"
     },
     {
@@ -5594,11 +5596,22 @@
      "cost": 1.94,
      "shares": 5.46,
      "avg": 0.355,
-     "mark": 0.17,
+     "mark": 0.56,
      "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T03:47:15+00:00",
+     "title": "Predators vs. Stars",
+     "outcome": "Predators",
+     "event_slug": "nhl-nsh-dal-2026-11-25",
+     "cost": 1.12,
+     "pnl": 1.72,
+     "kfee": 0.05,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T03:32:10+00:00",
      "title": "Timberwolves vs. Thunder: O/U 222.5",
@@ -6247,17 +6260,6 @@
      "kfee": 0.21,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "title": "Spread: CSyD Defensa y Justicia (-1.5)",
-     "outcome": "CA Barracas Central",
-     "event_slug": "arg-def-bar-2026-11-21-more-markets",
-     "cost": 4.62,
-     "pnl": 1.58,
-     "kfee": 0.09,
-     "how": "won",
-     "exit_price": 1.0
     }
    ],
    "log": [
@@ -8206,6 +8208,10 @@
     {
      "t": "2026-11-26T03:32:10+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T03:47:15+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9750,6 +9756,10 @@
     },
     {
      "t": "2026-11-26T03:32:10+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T03:47:15+00:00",
      "equity": 107.42
     }
    ],
