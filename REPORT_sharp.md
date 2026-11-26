@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-26T09:17:19+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-26T09:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$107.25** (+7.25; after Kalshi fees +6.56) · 3-1 · sold early 0 · 0 open ($0.00) · max drawdown 5.9%
+**$107.14** (+7.14; after Kalshi fees +6.25) · 3-1 · sold early 0 · 1 open ($5.36) · max drawdown 6.0%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,11 +15,14 @@ Updated 2026-11-26T09:17:19+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
+| Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | $5.36 | 46c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-26 09:32 | skip | Chiefs vs. Bills: O/U 46.5 | Under | gmpm2 | already have a bet on this game |
+| 11-26 09:32 | buy | Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | $5.36 at 48c |
 | 11-25 23:47 | skip | Seahawks vs. 49ers | 49ers | gmpm2 | market didn't react |
 | 11-25 23:47 | skip | Spread: 49ers (-3.5) | 49ers | gmpm2 | small bet for this wallet |
 | 11-25 15:47 | skip | Packers vs. Rams | Rams | gmpm2 | market didn't react |

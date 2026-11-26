@@ -3,10 +3,28 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 107.254,
+ "cash": 101.894,
  "since": 1795200975,
  "last_ts": 1795200975,
- "positions": {},
+ "positions": {
+  "57795031047934704820842917951133196011419720484218917663794401736673517403647": {
+   "cond": "0x1c3f61255038b20f4f1c3a8e280a5203bf91c7e6323ef8b7402597a13ba82ccb",
+   "idx": 1,
+   "outcome": "Under",
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "slug": "nfl-kc-buf-2026-11-27-total-44pt5",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "shares": 11.284210526315789,
+   "cost": 5.36,
+   "kfee": 0.2,
+   "opened": "2026-11-26T09:32:15+00:00",
+   "leader": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+   "leader_name": "gmpm2",
+   "leader_shares": 16348.58,
+   "edge": 0.1406,
+   "mark": 0.465
+  }
+ },
  "leader_shares": {},
  "median_usd": null,
  "closed": [
@@ -362,6 +380,32 @@
    "reason": "market didn't react",
    "price": 0.565,
    "leader_price": 0.56,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T09:32:15+00:00",
+   "kind": "buy",
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 7520.35,
+   "stake": 5.36,
+   "price": 0.475,
+   "leader_price": 0.46,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-26T09:32:15+00:00",
+   "kind": "skip",
+   "title": "Chiefs vs. Bills: O/U 46.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 8945.28,
+   "reason": "already have a bet on this game",
+   "price": 0.535,
+   "leader_price": 0.53,
    "leader": "gmpm2"
   }
  ],
@@ -1669,11 +1713,15 @@
   {
    "t": "2026-11-26T09:17:18+00:00",
    "equity": 107.25
+  },
+  {
+   "t": "2026-11-26T09:32:15+00:00",
+   "equity": 107.14
   }
  ],
- "kfees": 0.69,
- "copied": 4,
- "skipped": 21,
+ "kfees": 0.89,
+ "copied": 5,
+ "skipped": 22,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -1683,10 +1731,11 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795655805
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795684726
  },
  "day": {
-  "2026-11-23": 5.64
+  "2026-11-23": 5.64,
+  "2026-11-26": 5.36
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -1701,7 +1750,20 @@
   }
  },
  "bench": [],
- "recent": [],
+ "recent": [
+  [
+   1795685535,
+   "0x1c3f61255038b20f4f1c3a8e280a5203bf91c7e6323ef8b7402597a13ba82ccb",
+   1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ],
+  [
+   1795685535,
+   "0x848ba4c13b6a577ab2e958b536568b67f86b575a8fc7c2f350dbbde240e33799",
+   1,
+   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+  ]
+ ],
  "sides": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
    "0x5501fc55c35ccc9c714880095f601794e8c60ecbb13765400378793c9ce2cbd3": [
@@ -1827,6 +1889,12 @@
    ],
    "0xf1b352f32693cc7dff03b01aabbee8f0c7ec2fec498a28bbf29ece40cee4079e": [
     0
+   ],
+   "0x1c3f61255038b20f4f1c3a8e280a5203bf91c7e6323ef8b7402597a13ba82ccb": [
+    1
+   ],
+   "0x848ba4c13b6a577ab2e958b536568b67f86b575a8fc7c2f350dbbde240e33799": [
+    1
    ]
   }
  }

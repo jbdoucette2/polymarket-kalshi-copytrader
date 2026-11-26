@@ -3,22 +3,22 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 107.25,
- "cash": 107.25,
- "pnl": 7.25,
- "pnl_after_kalshi_fees": 6.56,
- "return_pct": 7.2,
+ "equity": 107.14,
+ "cash": 101.89,
+ "pnl": 7.14,
+ "pnl_after_kalshi_fees": 6.25,
+ "return_pct": 7.1,
  "realized": 7.25,
- "kalshi_fees": 0.69,
+ "kalshi_fees": 0.89,
  "settled": 4,
  "won": 3,
  "lost": 1,
  "sold_early": 0,
- "open": 0,
- "at_risk": 0,
- "copied": 4,
- "skipped": 21,
- "max_drawdown_pct": 5.9,
+ "open": 1,
+ "at_risk": 5.36,
+ "copied": 5,
+ "skipped": 22,
+ "max_drawdown_pct": 6.0,
  "history": [
   {
    "t": "2026-11-20T18:56:15+00:00",
@@ -1323,6 +1323,10 @@
   {
    "t": "2026-11-26T09:17:18+00:00",
    "equity": 107.25
+  },
+  {
+   "t": "2026-11-26T09:32:15+00:00",
+   "equity": 107.14
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1367,7 +1371,16 @@
   "copied": 125,
   "skipped": 253
  },
- "positions": [],
+ "positions": [
+  {
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "outcome": "Under",
+   "leader": "gmpm2",
+   "cost": 5.36,
+   "avg": 0.475,
+   "mark": 0.465
+  }
+ ],
  "closed": [
   {
    "ts": "2026-11-24T04:47:21+00:00",
@@ -1415,6 +1428,32 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-26T09:32:15+00:00",
+   "kind": "skip",
+   "title": "Chiefs vs. Bills: O/U 46.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 8945.28,
+   "reason": "already have a bet on this game",
+   "price": 0.535,
+   "leader_price": 0.53,
+   "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-26T09:32:15+00:00",
+   "kind": "buy",
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "leader_usd": 7520.35,
+   "stake": 5.36,
+   "price": 0.475,
+   "leader_price": 0.46,
+   "leader": "gmpm2",
+   "edge": 0.141,
+   "agree": false
+  },
   {
    "ts": "2026-11-25T23:47:16+00:00",
    "kind": "skip",
@@ -1724,6 +1763,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-26T09:17:19+00:00",
+ "updated": "2026-11-26T09:32:16+00:00",
  "start": 100.0
 }
