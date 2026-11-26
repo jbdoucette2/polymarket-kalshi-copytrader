@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:17:16+00:00",
+ "updated": "2026-11-26T03:32:11+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.42,
+   "equity": 80.0,
    "cash": 77.87,
-   "pnl": -18.58,
-   "pnl_after_kalshi_fees": -22.76,
-   "return_pct": -18.6,
+   "pnl": -20.0,
+   "pnl_after_kalshi_fees": -24.18,
+   "return_pct": -20.0,
    "realized": -17.15,
    "kalshi_fees": 4.18,
    "settled": 24,
@@ -24,7 +24,7 @@
    "at_risk": 4.97,
    "copied": 28,
    "skipped": 16,
-   "max_drawdown_pct": 25.1,
+   "max_drawdown_pct": 25.2,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1249,6 +1249,10 @@
     {
      "t": "2026-11-26T03:17:13+00:00",
      "equity": 81.42
+    },
+    {
+     "t": "2026-11-26T03:32:10+00:00",
+     "equity": 80.0
     }
    ],
    "positions": [
@@ -1259,7 +1263,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.325,
+     "mark": 0.195,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -2049,11 +2053,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.07,
+   "equity": 74.94,
    "cash": 39.22,
-   "pnl": -24.93,
-   "pnl_after_kalshi_fees": -28.45,
-   "return_pct": -24.9,
+   "pnl": -25.06,
+   "pnl_after_kalshi_fees": -28.58,
+   "return_pct": -25.1,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3289,6 +3293,10 @@
     {
      "t": "2026-11-26T03:17:13+00:00",
      "equity": 75.07
+    },
+    {
+     "t": "2026-11-26T03:32:10+00:00",
+     "equity": 74.94
     }
    ],
    "positions": [
@@ -3309,7 +3317,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7195,
+     "mark": 0.712,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4202,21 +4210,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 67.66,
-   "cash": 3.14,
-   "pnl": -32.34,
-   "pnl_after_kalshi_fees": -42.19,
-   "return_pct": -32.3,
-   "realized": -35.46,
+   "equity": 71.29,
+   "cash": 13.25,
+   "pnl": -28.71,
+   "pnl_after_kalshi_fees": -38.56,
+   "return_pct": -28.7,
+   "realized": -34.15,
    "kalshi_fees": 9.85,
-   "settled": 62,
-   "won": 34,
-   "lost": 28,
+   "settled": 65,
+   "won": 36,
+   "lost": 29,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 61.4,
+   "open": 14,
+   "at_risk": 52.6,
    "copied": 91,
-   "skipped": 72,
+   "skipped": 73,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -5442,6 +5450,10 @@
     {
      "t": "2026-11-26T03:17:13+00:00",
      "equity": 67.66
+    },
+    {
+     "t": "2026-11-26T03:32:10+00:00",
+     "equity": 71.29
     }
    ],
    "positions": [
@@ -5472,7 +5484,7 @@
      "cost": 1.12,
      "shares": 2.84,
      "avg": 0.395,
-     "mark": 0.775,
+     "mark": 0.9995,
      "opened": "2026-11-24T15:52:11+00:00"
     },
     {
@@ -5482,18 +5494,8 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.675,
+     "mark": 0.8,
      "opened": "2026-11-24T16:32:05+00:00"
-    },
-    {
-     "title": "Timberwolves vs. Thunder",
-     "outcome": "Timberwolves",
-     "event_slug": "nba-min-okc-2026-11-25",
-     "cost": 2.84,
-     "shares": 5.62,
-     "avg": 0.505,
-     "mark": 0.9995,
-     "opened": "2026-11-24T21:22:04+00:00"
     },
     {
      "title": "Spread: Liberty (-17.5)",
@@ -5536,33 +5538,13 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Timberwolves vs. Thunder: O/U 222.5",
-     "outcome": "Over",
-     "event_slug": "nba-min-okc-2026-11-25",
-     "cost": 3.65,
-     "shares": 6.95,
-     "avg": 0.525,
-     "mark": 0.0005,
-     "opened": "2026-11-25T14:56:32+00:00"
-    },
-    {
-     "title": "Timberwolves vs. Thunder: O/U 222.5",
-     "outcome": "Under",
-     "event_slug": "nba-min-okc-2026-11-25",
-     "cost": 2.31,
-     "shares": 4.49,
-     "avg": 0.515,
-     "mark": 0.9995,
-     "opened": "2026-11-25T15:15:43+00:00"
-    },
-    {
      "title": "Suns vs. Rockets: O/U 223.5",
      "outcome": "Under",
      "event_slug": "nba-phx-hou-2026-11-25",
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.205,
+     "mark": 0.36,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5572,7 +5554,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.355,
+     "mark": 0.295,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5602,7 +5584,7 @@
      "cost": 3.78,
      "shares": 6.94,
      "avg": 0.545,
-     "mark": 0.535,
+     "mark": 0.845,
      "opened": "2026-11-26T02:21:03+00:00"
     },
     {
@@ -5612,11 +5594,44 @@
      "cost": 1.94,
      "shares": 5.46,
      "avg": 0.355,
-     "mark": 0.29,
+     "mark": 0.17,
      "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T03:32:10+00:00",
+     "title": "Timberwolves vs. Thunder: O/U 222.5",
+     "outcome": "Under",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "cost": 2.31,
+     "pnl": 2.18,
+     "kfee": 0.08,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-26T03:32:10+00:00",
+     "title": "Timberwolves vs. Thunder: O/U 222.5",
+     "outcome": "Over",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "cost": 3.65,
+     "pnl": -3.65,
+     "kfee": 0.13,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-26T03:32:10+00:00",
+     "title": "Timberwolves vs. Thunder",
+     "outcome": "Timberwolves",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "cost": 2.84,
+     "pnl": 2.78,
+     "kfee": 0.1,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T03:17:13+00:00",
      "title": "Senators vs. Panthers",
@@ -6243,42 +6258,20 @@
      "kfee": 0.09,
      "how": "won",
      "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-21T04:20:30+00:00",
-     "title": "Spread: Toledo (-17.5)",
-     "outcome": "Bowling Green",
-     "event_slug": "cfb-bowlgr-toledo-2026-11-20",
-     "cost": 6.0,
-     "pnl": -6.0,
-     "kfee": 0.2,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T04:20:30+00:00",
-     "title": "Magic vs. Nets: O/U 223.5",
-     "outcome": "Under",
-     "event_slug": "nba-orl-bkn-2026-11-20",
-     "cost": 6.0,
-     "pnl": -6.0,
-     "kfee": 0.21,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T04:20:30+00:00",
-     "title": "Pelicans vs. Thunder",
-     "outcome": "Thunder",
-     "event_slug": "nba-nop-okc-2026-11-20",
-     "cost": 4.67,
-     "pnl": 0.92,
-     "kfee": 0.06,
-     "how": "won",
-     "exit_price": 1.0
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T03:32:10+00:00",
+     "kind": "skip",
+     "title": "Counter-Strike: 100 Thieves vs 9z (BO3) - PGL Major Singapore Stage 1",
+     "outcome": "100 Thieves",
+     "event_slug": "cs2-100t-9z-2026-11-26",
+     "leader_usd": 34.81,
+     "reason": "below $1 minimum",
+     "price": 0.585,
+     "leader_price": 0.59
+    },
     {
      "ts": "2026-11-26T02:47:17+00:00",
      "kind": "skip",
@@ -6961,18 +6954,6 @@
      "reason": "below $1 minimum",
      "price": 0.53,
      "leader_price": 0.57
-    },
-    {
-     "ts": "2026-11-24T01:32:14+00:00",
-     "kind": "buy",
-     "title": "Spread: Lakers (-14.5)",
-     "outcome": "Lakers",
-     "event_slug": "nba-uta-lal-2026-11-23",
-     "leader_usd": 450.26,
-     "stake": 2.43,
-     "price": 0.475,
-     "leader_price": 0.47,
-     "mult": 1.7
     }
    ]
   },
@@ -8221,6 +8202,10 @@
     {
      "t": "2026-11-26T03:17:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T03:32:10+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -8536,7 +8521,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 16,
-   "skipped": 45,
+   "skipped": 46,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -9762,6 +9747,10 @@
     {
      "t": "2026-11-26T03:17:13+00:00",
      "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T03:32:10+00:00",
+     "equity": 107.42
     }
    ],
    "positions": [],
@@ -9944,6 +9933,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T03:32:10+00:00",
+     "kind": "skip",
+     "title": "Clippers vs. Grizzlies: 4Q O/U 57.5",
+     "outcome": "Over",
+     "event_slug": "nba-lac-mem-2026-11-25",
+     "leader_usd": 58.8,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
     {
      "ts": "2026-11-26T02:47:17+00:00",
      "kind": "buy",
@@ -10602,17 +10602,6 @@
      "leader_usd": 8.82,
      "reason": "too late: outcome already decided",
      "price": 0.998,
-     "leader_price": 0.97
-    },
-    {
-     "ts": "2026-11-21T03:21:00+00:00",
-     "kind": "skip",
-     "title": "Shai Gilgeous-Alexander: Points O/U 32.5",
-     "outcome": "Yes",
-     "event_slug": "nba-nop-okc-2026-11-20",
-     "leader_usd": 4.9,
-     "reason": "too late: outcome already decided",
-     "price": 1.0,
      "leader_price": 0.97
     }
    ]
