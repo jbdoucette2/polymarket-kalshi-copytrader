@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:02:16+00:00",
+ "updated": "2026-11-26T02:17:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 80.11,
+   "equity": 81.64,
    "cash": 77.87,
-   "pnl": -19.89,
-   "pnl_after_kalshi_fees": -24.07,
-   "return_pct": -19.9,
+   "pnl": -18.36,
+   "pnl_after_kalshi_fees": -22.54,
+   "return_pct": -18.4,
    "realized": -17.15,
    "kalshi_fees": 4.18,
    "settled": 24,
@@ -1229,6 +1229,10 @@
     {
      "t": "2026-11-26T02:02:13+00:00",
      "equity": 80.11
+    },
+    {
+     "t": "2026-11-26T02:17:17+00:00",
+     "equity": 81.64
     }
    ],
    "positions": [
@@ -1239,7 +1243,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.205,
+     "mark": 0.345,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -2029,11 +2033,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.94,
+   "equity": 75.07,
    "cash": 39.22,
-   "pnl": -25.06,
-   "pnl_after_kalshi_fees": -28.58,
-   "return_pct": -25.1,
+   "pnl": -24.93,
+   "pnl_after_kalshi_fees": -28.45,
+   "return_pct": -24.9,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -2043,7 +2047,7 @@
    "open": 3,
    "at_risk": 33.39,
    "copied": 33,
-   "skipped": 20,
+   "skipped": 21,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -3249,6 +3253,10 @@
     {
      "t": "2026-11-26T02:02:13+00:00",
      "equity": 74.94
+    },
+    {
+     "t": "2026-11-26T02:17:17+00:00",
+     "equity": 75.07
     }
    ],
    "positions": [
@@ -3269,7 +3277,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.712,
+     "mark": 0.7195,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3528,6 +3536,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:17:17+00:00",
+     "kind": "skip",
+     "title": "Will Christopher Luxon be the next Prime Minister of New Zealand after the 2026 elections?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-new-zealand-174",
+     "leader_usd": 37.6,
+     "reason": "below $1 minimum",
+     "price": 0.775,
+     "leader_price": 0.748
+    },
     {
      "ts": "2026-11-25T15:32:12+00:00",
      "kind": "buy",
@@ -4151,11 +4170,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.3,
+   "equity": 58.2,
    "cash": 5.72,
-   "pnl": -37.7,
-   "pnl_after_kalshi_fees": -47.33,
-   "return_pct": -37.7,
+   "pnl": -41.8,
+   "pnl_after_kalshi_fees": -51.43,
+   "return_pct": -41.8,
    "realized": -36.95,
    "kalshi_fees": 9.63,
    "settled": 61,
@@ -5371,6 +5390,10 @@
     {
      "t": "2026-11-26T02:02:13+00:00",
      "equity": 62.3
+    },
+    {
+     "t": "2026-11-26T02:17:17+00:00",
+     "equity": 58.2
     }
    ],
    "positions": [
@@ -5401,7 +5424,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.735,
+     "mark": 0.775,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5411,7 +5434,7 @@
      "cost": 1.12,
      "shares": 2.84,
      "avg": 0.395,
-     "mark": 0.585,
+     "mark": 0.625,
      "opened": "2026-11-24T15:52:11+00:00"
     },
     {
@@ -5421,7 +5444,7 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.795,
+     "mark": 0.595,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5431,7 +5454,7 @@
      "cost": 2.84,
      "shares": 5.62,
      "avg": 0.505,
-     "mark": 0.265,
+     "mark": 0.26,
      "opened": "2026-11-24T21:22:04+00:00"
     },
     {
@@ -5481,7 +5504,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.21,
+     "mark": 0.565,
      "opened": "2026-11-25T14:56:32+00:00"
     },
     {
@@ -5491,7 +5514,7 @@
      "cost": 2.31,
      "shares": 4.49,
      "avg": 0.515,
-     "mark": 0.79,
+     "mark": 0.435,
      "opened": "2026-11-25T15:15:43+00:00"
     },
     {
@@ -5501,7 +5524,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.445,
+     "mark": 0.335,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5511,7 +5534,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.395,
+     "mark": 0.255,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5521,7 +5544,7 @@
      "cost": 6.52,
      "shares": 11.25,
      "avg": 0.58,
-     "mark": 0.685,
+     "mark": 0.495,
      "opened": "2026-11-25T17:57:30+00:00"
     },
     {
@@ -8119,6 +8142,10 @@
     {
      "t": "2026-11-26T02:02:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T02:17:17+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9639,6 +9666,10 @@
     },
     {
      "t": "2026-11-26T02:02:13+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-26T02:17:17+00:00",
      "equity": 106.34
     }
    ],
