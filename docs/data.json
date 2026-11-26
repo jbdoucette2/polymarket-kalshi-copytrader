@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:17:12+00:00",
+ "updated": "2026-11-26T00:32:22+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1200,6 +1200,10 @@
     },
     {
      "t": "2026-11-26T00:17:10+00:00",
+     "equity": 82.84
+    },
+    {
+     "t": "2026-11-26T00:32:20+00:00",
      "equity": 82.84
     }
    ],
@@ -3170,6 +3174,10 @@
     {
      "t": "2026-11-26T00:17:10+00:00",
      "equity": 75.07
+    },
+    {
+     "t": "2026-11-26T00:32:20+00:00",
+     "equity": 75.07
     }
    ],
    "positions": [
@@ -4072,20 +4080,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 61.7,
-   "cash": 3.55,
-   "pnl": -38.3,
-   "pnl_after_kalshi_fees": -47.82,
-   "return_pct": -38.3,
+   "equity": 61.42,
+   "cash": -0.0,
+   "pnl": -38.58,
+   "pnl_after_kalshi_fees": -48.21,
+   "return_pct": -38.6,
    "realized": -39.58,
-   "kalshi_fees": 9.52,
+   "kalshi_fees": 9.63,
    "settled": 60,
    "won": 32,
    "lost": 28,
    "sold_early": 0,
    "open": 17,
-   "at_risk": 56.87,
-   "copied": 88,
+   "at_risk": 60.42,
+   "copied": 89,
    "skipped": 70,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -5264,6 +5272,10 @@
     {
      "t": "2026-11-26T00:17:10+00:00",
      "equity": 61.7
+    },
+    {
+     "t": "2026-11-26T00:32:20+00:00",
+     "equity": 61.42
     }
    ],
    "positions": [
@@ -5294,7 +5306,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.535,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5384,7 +5396,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.505,
      "opened": "2026-11-25T14:56:32+00:00"
     },
     {
@@ -5394,7 +5406,7 @@
      "cost": 2.31,
      "shares": 4.49,
      "avg": 0.515,
-     "mark": 0.485,
+     "mark": 0.495,
      "opened": "2026-11-25T15:15:43+00:00"
     },
     {
@@ -5421,10 +5433,10 @@
      "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
      "outcome": "Under",
      "event_slug": "mex-tol-atl-2026-11-25-more-markets",
-     "cost": 2.97,
-     "shares": 5.08,
-     "avg": 0.585,
-     "mark": 0.615,
+     "cost": 6.52,
+     "shares": 11.25,
+     "avg": 0.58,
+     "mark": 0.565,
      "opened": "2026-11-25T17:57:30+00:00"
     },
     {
@@ -6101,6 +6113,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T00:32:20+00:00",
+     "kind": "buy",
+     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
+     "outcome": "Under",
+     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
+     "leader_usd": 734.86,
+     "stake": 3.55,
+     "price": 0.575,
+     "leader_price": 0.58,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-25T23:47:13+00:00",
      "kind": "buy",
@@ -6782,18 +6806,6 @@
      "reason": "price ran away (0.65 -> 0.83)",
      "price": 0.83,
      "leader_price": 0.65
-    },
-    {
-     "ts": "2026-11-23T22:17:17+00:00",
-     "kind": "buy",
-     "title": "Spread: SC Internacional (-1.5)",
-     "outcome": "EC Vit\u00f3ria",
-     "event_slug": "bra-int-vit-2026-11-23-more-markets",
-     "leader_usd": 2366.0,
-     "stake": 2.78,
-     "price": 0.655,
-     "leader_price": 0.65,
-     "mult": 2.0
     }
    ]
   },
@@ -7993,6 +8005,10 @@
     },
     {
      "t": "2026-11-26T00:17:10+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T00:32:20+00:00",
      "equity": 116.37
     }
    ],
@@ -9486,6 +9502,10 @@
     },
     {
      "t": "2026-11-26T00:17:10+00:00",
+     "equity": 106.34
+    },
+    {
+     "t": "2026-11-26T00:32:20+00:00",
      "equity": 106.34
     }
    ],
