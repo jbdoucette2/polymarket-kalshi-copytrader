@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:32:18+00:00",
+ "updated": "2026-11-26T02:47:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,10 +9,10 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 83.0,
+   "equity": 82.95,
    "cash": 77.87,
-   "pnl": -17.0,
-   "pnl_after_kalshi_fees": -21.18,
+   "pnl": -17.05,
+   "pnl_after_kalshi_fees": -21.23,
    "return_pct": -17.0,
    "realized": -17.15,
    "kalshi_fees": 4.18,
@@ -1237,6 +1237,10 @@
     {
      "t": "2026-11-26T02:32:16+00:00",
      "equity": 83.0
+    },
+    {
+     "t": "2026-11-26T02:47:17+00:00",
+     "equity": 82.95
     }
    ],
    "positions": [
@@ -1247,7 +1251,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.47,
+     "mark": 0.465,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -2037,11 +2041,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.07,
+   "equity": 74.94,
    "cash": 39.22,
-   "pnl": -24.93,
-   "pnl_after_kalshi_fees": -28.45,
-   "return_pct": -24.9,
+   "pnl": -25.06,
+   "pnl_after_kalshi_fees": -28.58,
+   "return_pct": -25.1,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3265,6 +3269,10 @@
     {
      "t": "2026-11-26T02:32:16+00:00",
      "equity": 75.07
+    },
+    {
+     "t": "2026-11-26T02:47:17+00:00",
+     "equity": 74.94
     }
    ],
    "positions": [
@@ -3285,7 +3293,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7195,
+     "mark": 0.712,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4178,21 +4186,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 63.69,
-   "cash": 1.94,
-   "pnl": -36.31,
-   "pnl_after_kalshi_fees": -46.07,
-   "return_pct": -36.3,
+   "equity": 65.22,
+   "cash": 0.0,
+   "pnl": -34.78,
+   "pnl_after_kalshi_fees": -44.63,
+   "return_pct": -34.8,
    "realized": -36.95,
-   "kalshi_fees": 9.76,
+   "kalshi_fees": 9.85,
    "settled": 61,
    "won": 33,
    "lost": 28,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 61.11,
-   "copied": 90,
-   "skipped": 71,
+   "open": 18,
+   "at_risk": 63.05,
+   "copied": 91,
+   "skipped": 72,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -5406,6 +5414,10 @@
     {
      "t": "2026-11-26T02:32:16+00:00",
      "equity": 63.69
+    },
+    {
+     "t": "2026-11-26T02:47:17+00:00",
+     "equity": 65.22
     }
    ],
    "positions": [
@@ -5436,7 +5448,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.965,
+     "mark": 0.9775,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5446,7 +5458,7 @@
      "cost": 1.12,
      "shares": 2.84,
      "avg": 0.395,
-     "mark": 0.705,
+     "mark": 0.695,
      "opened": "2026-11-24T15:52:11+00:00"
     },
     {
@@ -5456,7 +5468,7 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.53,
+     "mark": 0.545,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5466,7 +5478,7 @@
      "cost": 2.84,
      "shares": 5.62,
      "avg": 0.505,
-     "mark": 0.775,
+     "mark": 0.615,
      "opened": "2026-11-24T21:22:04+00:00"
     },
     {
@@ -5516,7 +5528,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.725,
+     "mark": 0.505,
      "opened": "2026-11-25T14:56:32+00:00"
     },
     {
@@ -5526,7 +5538,7 @@
      "cost": 2.31,
      "shares": 4.49,
      "avg": 0.515,
-     "mark": 0.275,
+     "mark": 0.495,
      "opened": "2026-11-25T15:15:43+00:00"
     },
     {
@@ -5536,7 +5548,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.235,
+     "mark": 0.28,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5546,7 +5558,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.285,
+     "mark": 0.345,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5556,7 +5568,7 @@
      "cost": 6.52,
      "shares": 11.25,
      "avg": 0.58,
-     "mark": 0.705,
+     "mark": 0.9,
      "opened": "2026-11-25T17:57:30+00:00"
     },
     {
@@ -5578,6 +5590,16 @@
      "avg": 0.545,
      "mark": 0.535,
      "opened": "2026-11-26T02:21:03+00:00"
+    },
+    {
+     "title": "Sharks vs. Ducks: O/U 7.5",
+     "outcome": "Over",
+     "event_slug": "nhl-sj-ana-2026-11-25",
+     "cost": 1.94,
+     "shares": 5.46,
+     "avg": 0.355,
+     "mark": 0.345,
+     "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
@@ -6243,6 +6265,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:47:17+00:00",
+     "kind": "skip",
+     "title": "Kraken vs. Oilers: O/U 6.5",
+     "outcome": "Under",
+     "event_slug": "nhl-sea-edm-2026-11-27",
+     "leader_usd": 10.6,
+     "reason": "out of cash",
+     "price": 0.515,
+     "leader_price": 0.524
+    },
+    {
+     "ts": "2026-11-26T02:47:17+00:00",
+     "kind": "buy",
+     "title": "Sharks vs. Ducks: O/U 7.5",
+     "outcome": "Over",
+     "event_slug": "nhl-sj-ana-2026-11-25",
+     "leader_usd": 314.65,
+     "stake": 1.94,
+     "price": 0.355,
+     "leader_price": 0.341,
+     "mult": 1.04
+    },
     {
      "ts": "2026-11-26T02:32:16+00:00",
      "kind": "buy",
@@ -6914,29 +6959,6 @@
      "price": 0.475,
      "leader_price": 0.47,
      "mult": 1.7
-    },
-    {
-     "ts": "2026-11-24T01:02:13+00:00",
-     "kind": "buy",
-     "title": "Cavaliers vs. Bulls: O/U 239.5",
-     "outcome": "Under",
-     "event_slug": "nba-cle-chi-2026-11-23",
-     "leader_usd": 390.1,
-     "stake": 2.05,
-     "price": 0.475,
-     "leader_price": 0.47,
-     "mult": 1.47
-    },
-    {
-     "ts": "2026-11-23T22:32:12+00:00",
-     "kind": "skip",
-     "title": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
-     "outcome": "Imperial",
-     "event_slug": "cs2-hero-imp11-2026-11-24",
-     "leader_usd": 1.75,
-     "reason": "below $1 minimum",
-     "price": 0.345,
-     "leader_price": 0.35
     }
    ]
   },
@@ -8173,6 +8195,10 @@
     {
      "t": "2026-11-26T02:32:16+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T02:47:17+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -8474,20 +8500,20 @@
    "name": "dabossrealman",
    "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 106.34,
-   "cash": 106.34,
-   "pnl": 6.34,
-   "pnl_after_kalshi_fees": 5.33,
-   "return_pct": 6.3,
+   "equity": 105.67,
+   "cash": 99.96,
+   "pnl": 5.67,
+   "pnl_after_kalshi_fees": 4.59,
+   "return_pct": 5.7,
    "realized": 6.33,
-   "kalshi_fees": 1.01,
+   "kalshi_fees": 1.08,
    "settled": 15,
    "won": 14,
    "lost": 1,
    "sold_early": 0,
-   "open": 0,
-   "at_risk": 0,
-   "copied": 15,
+   "open": 1,
+   "at_risk": 6.38,
+   "copied": 16,
    "skipped": 45,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
@@ -9702,9 +9728,24 @@
     {
      "t": "2026-11-26T02:32:16+00:00",
      "equity": 106.34
+    },
+    {
+     "t": "2026-11-26T02:47:17+00:00",
+     "equity": 105.67
     }
    ],
-   "positions": [],
+   "positions": [
+    {
+     "title": "Suns vs. Rockets: 2Q O/U 56.5",
+     "outcome": "Over",
+     "event_slug": "nba-phx-hou-2026-11-25",
+     "cost": 6.38,
+     "shares": 7.46,
+     "avg": 0.855,
+     "mark": 0.765,
+     "opened": "2026-11-26T02:46:54+00:00"
+    }
+   ],
    "closed": [
     {
      "ts": "2026-11-25T03:17:13+00:00",
@@ -9873,6 +9914,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:47:17+00:00",
+     "kind": "buy",
+     "title": "Suns vs. Rockets: 2Q O/U 56.5",
+     "outcome": "Over",
+     "event_slug": "nba-phx-hou-2026-11-25",
+     "leader_usd": 58.8,
+     "stake": 6.38,
+     "price": 0.855,
+     "leader_price": 0.98,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-26T02:32:16+00:00",
      "kind": "skip",
@@ -10531,18 +10584,6 @@
      "reason": "too late: outcome already decided",
      "price": 1.0,
      "leader_price": 0.97
-    },
-    {
-     "ts": "2026-11-21T02:20:43+00:00",
-     "kind": "buy",
-     "title": "Javonte Green: Points O/U 9.5",
-     "outcome": "Yes",
-     "event_slug": "nba-tor-det-2026-11-20",
-     "leader_usd": 36.26,
-     "stake": 4.27,
-     "price": 0.54,
-     "leader_price": 0.93,
-     "mult": 1.42
     }
    ]
   }
