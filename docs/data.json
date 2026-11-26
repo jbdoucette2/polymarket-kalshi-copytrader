@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:32:13+00:00",
+ "updated": "2026-11-26T18:47:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1493,6 +1493,10 @@
     {
      "t": "2026-11-26T18:32:12+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T18:47:13+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2293,11 +2297,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.51,
+   "equity": 81.67,
    "cash": 30.57,
-   "pnl": -18.49,
-   "pnl_after_kalshi_fees": -22.14,
-   "return_pct": -18.5,
+   "pnl": -18.33,
+   "pnl_after_kalshi_fees": -21.98,
+   "return_pct": -18.3,
    "realized": -27.39,
    "kalshi_fees": 3.65,
    "settled": 22,
@@ -3777,6 +3781,10 @@
     {
      "t": "2026-11-26T18:32:12+00:00",
      "equity": 81.51
+    },
+    {
+     "t": "2026-11-26T18:47:13+00:00",
+     "equity": 81.67
     }
    ],
    "positions": [
@@ -3797,7 +3805,7 @@
      "cost": 16.85,
      "shares": 23.04,
      "avg": 0.731,
-     "mark": 0.8745,
+     "mark": 0.8815,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4736,21 +4744,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 80.93,
-   "cash": 22.13,
-   "pnl": -19.07,
-   "pnl_after_kalshi_fees": -30.07,
-   "return_pct": -19.1,
+   "equity": 80.96,
+   "cash": 13.61,
+   "pnl": -19.04,
+   "pnl_after_kalshi_fees": -30.27,
+   "return_pct": -19.0,
    "realized": -17.12,
-   "kalshi_fees": 11.0,
+   "kalshi_fees": 11.23,
    "settled": 72,
    "won": 42,
    "lost": 30,
    "sold_early": 0,
-   "open": 14,
-   "at_risk": 60.75,
-   "copied": 99,
-   "skipped": 77,
+   "open": 16,
+   "at_risk": 69.27,
+   "copied": 101,
+   "skipped": 78,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -6220,6 +6228,10 @@
     {
      "t": "2026-11-26T18:32:12+00:00",
      "equity": 80.93
+    },
+    {
+     "t": "2026-11-26T18:47:13+00:00",
+     "equity": 80.96
     }
    ],
    "positions": [
@@ -6280,7 +6292,7 @@
      "cost": 7.3,
      "shares": 13.78,
      "avg": 0.53,
-     "mark": 0.465,
+     "mark": 0.47,
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
@@ -6310,7 +6322,7 @@
      "cost": 4.97,
      "shares": 9.29,
      "avg": 0.535,
-     "mark": 0.555,
+     "mark": 0.565,
      "opened": "2026-11-26T13:49:21+00:00"
     },
     {
@@ -6362,6 +6374,26 @@
      "avg": 0.385,
      "mark": 0.375,
      "opened": "2026-11-26T17:34:07+00:00"
+    },
+    {
+     "title": "Spread: Bills (-3.5)",
+     "outcome": "Chiefs",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "cost": 4.97,
+     "shares": 8.8,
+     "avg": 0.565,
+     "mark": 0.555,
+     "opened": "2026-11-26T18:36:27+00:00"
+    },
+    {
+     "title": "Nets vs. Raptors",
+     "outcome": "Raptors",
+     "event_slug": "nba-bkn-tor-2026-11-27",
+     "cost": 3.55,
+     "shares": 4.77,
+     "avg": 0.745,
+     "mark": 0.735,
+     "opened": "2026-11-26T18:40:34+00:00"
     }
    ],
    "closed": [
@@ -7028,6 +7060,41 @@
    ],
    "log": [
     {
+     "ts": "2026-11-26T18:47:13+00:00",
+     "kind": "buy",
+     "title": "Nets vs. Raptors",
+     "outcome": "Raptors",
+     "event_slug": "nba-bkn-tor-2026-11-27",
+     "leader_usd": 431.42,
+     "stake": 3.55,
+     "price": 0.745,
+     "leader_price": 0.74,
+     "mult": 1.43
+    },
+    {
+     "ts": "2026-11-26T18:47:13+00:00",
+     "kind": "buy",
+     "title": "Spread: Bills (-3.5)",
+     "outcome": "Chiefs",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "leader_usd": 2015.44,
+     "stake": 4.97,
+     "price": 0.565,
+     "leader_price": 0.56,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-26T18:47:13+00:00",
+     "kind": "skip",
+     "title": "Nets vs. Raptors",
+     "outcome": "Raptors",
+     "event_slug": "nba-bkn-tor-2026-11-27",
+     "leader_usd": 38.48,
+     "reason": "below $1 minimum",
+     "price": 0.735,
+     "leader_price": 0.74
+    },
+    {
      "ts": "2026-11-26T17:47:11+00:00",
      "kind": "buy",
      "title": "Kansas State vs. Iowa State",
@@ -7686,41 +7753,6 @@
      "price": 0.395,
      "leader_price": 0.39,
      "mult": 0.6
-    },
-    {
-     "ts": "2026-11-24T16:02:25+00:00",
-     "kind": "buy",
-     "title": "Senators vs. Panthers",
-     "outcome": "Panthers",
-     "event_slug": "nhl-ott-fla-2026-11-25",
-     "leader_usd": 232.67,
-     "stake": 1.65,
-     "price": 0.525,
-     "leader_price": 0.52,
-     "mult": 0.88
-    },
-    {
-     "ts": "2026-11-24T15:32:14+00:00",
-     "kind": "skip",
-     "title": "Baylor Bears vs. Alabama Crimson Tide: O/U 174.5",
-     "outcome": "Under",
-     "event_slug": "cbb-bayl-ala-2026-11-24",
-     "leader_usd": 42.33,
-     "reason": "below $1 minimum",
-     "price": 0.51,
-     "leader_price": 0.51
-    },
-    {
-     "ts": "2026-11-24T15:32:14+00:00",
-     "kind": "buy",
-     "title": "Central Michigan Chippewas vs. Notre Dame Fighting Irish: O/U 152.5",
-     "outcome": "Over",
-     "event_slug": "cbb-cmich-nd-2026-11-24",
-     "leader_usd": 812.86,
-     "stake": 3.75,
-     "price": 0.515,
-     "leader_price": 0.51,
-     "mult": 2.0
     }
    ]
   },
@@ -9212,6 +9244,10 @@
     },
     {
      "t": "2026-11-26T18:32:12+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T18:47:13+00:00",
      "equity": 116.37
     }
    ],
@@ -10997,6 +11033,10 @@
     },
     {
      "t": "2026-11-26T18:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T18:47:13+00:00",
      "equity": 107.42
     }
    ],
