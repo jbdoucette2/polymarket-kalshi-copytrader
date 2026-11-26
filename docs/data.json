@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:32:13+00:00",
+ "updated": "2026-11-26T14:47:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1429,6 +1429,10 @@
     {
      "t": "2026-11-26T14:32:12+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T14:47:12+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2229,11 +2233,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.41,
+   "equity": 77.35,
    "cash": 35.17,
-   "pnl": -22.59,
-   "pnl_after_kalshi_fees": -26.18,
-   "return_pct": -22.6,
+   "pnl": -22.65,
+   "pnl_after_kalshi_fees": -26.24,
+   "return_pct": -22.7,
    "realized": -27.39,
    "kalshi_fees": 3.59,
    "settled": 22,
@@ -3649,6 +3653,10 @@
     {
      "t": "2026-11-26T14:32:12+00:00",
      "equity": 77.41
+    },
+    {
+     "t": "2026-11-26T14:47:12+00:00",
+     "equity": 77.35
     }
    ],
    "positions": [
@@ -3669,7 +3677,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.7945,
+     "mark": 0.791,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4584,21 +4592,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.46,
-   "cash": 34.81,
-   "pnl": -17.54,
-   "pnl_after_kalshi_fees": -28.08,
-   "return_pct": -17.5,
+   "equity": 82.56,
+   "cash": 28.14,
+   "pnl": -17.44,
+   "pnl_after_kalshi_fees": -28.22,
+   "return_pct": -17.4,
    "realized": -17.12,
-   "kalshi_fees": 10.54,
+   "kalshi_fees": 10.78,
    "settled": 72,
    "won": 42,
    "lost": 30,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 48.07,
-   "copied": 95,
-   "skipped": 73,
+   "open": 12,
+   "at_risk": 54.74,
+   "copied": 97,
+   "skipped": 74,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -6004,6 +6012,10 @@
     {
      "t": "2026-11-26T14:32:12+00:00",
      "equity": 82.46
+    },
+    {
+     "t": "2026-11-26T14:47:12+00:00",
+     "equity": 82.56
     }
    ],
    "positions": [
@@ -6064,7 +6076,7 @@
      "cost": 7.3,
      "shares": 13.78,
      "avg": 0.53,
-     "mark": 0.475,
+     "mark": 0.465,
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
@@ -6084,7 +6096,7 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.575,
+     "mark": 0.585,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -6094,17 +6106,17 @@
      "cost": 4.97,
      "shares": 9.29,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.555,
      "opened": "2026-11-26T13:49:21+00:00"
     },
     {
      "title": "Spread: Texas Longhorns (-8.5)",
      "outcome": "Georgetown Hoyas",
      "event_slug": "cbb-george-tx-2026-11-26",
-     "cost": 4.97,
-     "shares": 9.47,
-     "avg": 0.525,
-     "mark": 0.515,
+     "cost": 6.67,
+     "shares": 12.59,
+     "avg": 0.53,
+     "mark": 0.535,
      "opened": "2026-11-26T14:14:04+00:00"
     },
     {
@@ -6114,8 +6126,18 @@
      "cost": 4.97,
      "shares": 9.84,
      "avg": 0.505,
-     "mark": 0.505,
+     "mark": 0.495,
      "opened": "2026-11-26T14:14:27+00:00"
+    },
+    {
+     "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
+     "outcome": "Over",
+     "event_slug": "cbb-utahst-usc-2026-11-26",
+     "cost": 4.97,
+     "shares": 9.84,
+     "avg": 0.505,
+     "mark": 0.485,
+     "opened": "2026-11-26T14:45:37+00:00"
     }
    ],
    "closed": [
@@ -6782,6 +6804,41 @@
    ],
    "log": [
     {
+     "ts": "2026-11-26T14:47:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Alabama Crimson Tide (-14.5)",
+     "outcome": "Kansas State Wildcats",
+     "event_slug": "cbb-kanst-ala-2026-11-26",
+     "leader_usd": 95.58,
+     "reason": "below $1 minimum",
+     "price": 0.505,
+     "leader_price": 0.529
+    },
+    {
+     "ts": "2026-11-26T14:47:12+00:00",
+     "kind": "buy",
+     "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
+     "outcome": "Over",
+     "event_slug": "cbb-utahst-usc-2026-11-26",
+     "leader_usd": 757.54,
+     "stake": 4.97,
+     "price": 0.505,
+     "leader_price": 0.49,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-26T14:47:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Texas Longhorns (-8.5)",
+     "outcome": "Georgetown Hoyas",
+     "event_slug": "cbb-george-tx-2026-11-26",
+     "leader_usd": 206.87,
+     "stake": 1.7,
+     "price": 0.545,
+     "leader_price": 0.528,
+     "mult": 0.69
+    },
+    {
      "ts": "2026-11-26T14:17:12+00:00",
      "kind": "buy",
      "title": "Spread: Alabama Crimson Tide (-14.5)",
@@ -7440,41 +7497,6 @@
      "reason": "below $1 minimum",
      "price": 0.535,
      "leader_price": 0.557
-    },
-    {
-     "ts": "2026-11-24T14:47:14+00:00",
-     "kind": "skip",
-     "title": "Spread: Boise State Broncos (-19.5)",
-     "outcome": "Idaho State Bengals",
-     "event_slug": "cbb-idhst-boise-2026-11-24",
-     "leader_usd": 2.6,
-     "reason": "below $1 minimum",
-     "price": 0.53,
-     "leader_price": 0.52
-    },
-    {
-     "ts": "2026-11-24T14:47:14+00:00",
-     "kind": "buy",
-     "title": "Spread: Iowa State Cyclones (-8.5)",
-     "outcome": "Iowa State Cyclones",
-     "event_slug": "cbb-sdst-iowast-2026-11-24",
-     "leader_usd": 656.24,
-     "stake": 3.75,
-     "price": 0.535,
-     "leader_price": 0.52,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-24T14:47:14+00:00",
-     "kind": "buy",
-     "title": "Spread: St. John's Red Storm (-10.5)",
-     "outcome": "St. Johns Red Storm",
-     "event_slug": "cbb-stjohn-ore-2026-11-24",
-     "leader_usd": 546.72,
-     "stake": 3.75,
-     "price": 0.535,
-     "leader_price": 0.507,
-     "mult": 2.0
     }
    ]
   },
@@ -8902,6 +8924,10 @@
     },
     {
      "t": "2026-11-26T14:32:12+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T14:47:12+00:00",
      "equity": 116.37
     }
    ],
@@ -10623,6 +10649,10 @@
     },
     {
      "t": "2026-11-26T14:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T14:47:12+00:00",
      "equity": 107.42
     }
    ],
