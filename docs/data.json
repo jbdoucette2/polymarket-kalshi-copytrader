@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:17:12+00:00",
+ "updated": "2026-11-26T04:32:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,10 +9,10 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.88,
+   "equity": 77.87,
    "cash": 77.87,
-   "pnl": -22.12,
-   "pnl_after_kalshi_fees": -26.3,
+   "pnl": -22.13,
+   "pnl_after_kalshi_fees": -26.31,
    "return_pct": -22.1,
    "realized": -17.15,
    "kalshi_fees": 4.18,
@@ -1265,6 +1265,10 @@
     {
      "t": "2026-11-26T04:17:11+00:00",
      "equity": 77.88
+    },
+    {
+     "t": "2026-11-26T04:32:12+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [
@@ -1275,7 +1279,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.0015,
+     "mark": 0.0005,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -2065,11 +2069,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.84,
+   "equity": 74.86,
    "cash": 39.22,
-   "pnl": -25.16,
-   "pnl_after_kalshi_fees": -28.68,
-   "return_pct": -25.2,
+   "pnl": -25.14,
+   "pnl_after_kalshi_fees": -28.66,
+   "return_pct": -25.1,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3321,6 +3325,10 @@
     {
      "t": "2026-11-26T04:17:11+00:00",
      "equity": 74.84
+    },
+    {
+     "t": "2026-11-26T04:32:12+00:00",
+     "equity": 74.86
     }
    ],
    "positions": [
@@ -3341,7 +3349,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.706,
+     "mark": 0.7075,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4234,19 +4242,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.79,
-   "cash": 16.09,
-   "pnl": -17.21,
-   "pnl_after_kalshi_fees": -27.06,
-   "return_pct": -17.2,
-   "realized": -32.43,
+   "equity": 84.11,
+   "cash": 23.04,
+   "pnl": -15.89,
+   "pnl_after_kalshi_fees": -25.74,
+   "return_pct": -15.9,
+   "realized": -29.13,
    "kalshi_fees": 9.85,
-   "settled": 66,
-   "won": 37,
+   "settled": 67,
+   "won": 38,
    "lost": 29,
    "sold_early": 0,
-   "open": 13,
-   "at_risk": 51.48,
+   "open": 12,
+   "at_risk": 47.83,
    "copied": 91,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
@@ -5490,6 +5498,10 @@
     {
      "t": "2026-11-26T04:17:11+00:00",
      "equity": 82.79
+    },
+    {
+     "t": "2026-11-26T04:32:12+00:00",
+     "equity": 84.11
     }
    ],
    "positions": [
@@ -5520,7 +5532,7 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.9985,
+     "mark": 0.9995,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5564,23 +5576,13 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Suns vs. Rockets: O/U 223.5",
-     "outcome": "Under",
-     "event_slug": "nba-phx-hou-2026-11-25",
-     "cost": 3.65,
-     "shares": 6.95,
-     "avg": 0.525,
-     "mark": 0.9995,
-     "opened": "2026-11-25T15:20:28+00:00"
-    },
-    {
      "title": "Packers vs. Rams: O/U 44.5",
      "outcome": "Under",
      "event_slug": "nfl-gb-la-2026-11-26",
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.955,
+     "mark": 0.9995,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5620,11 +5622,22 @@
      "cost": 1.94,
      "shares": 5.46,
      "avg": 0.355,
-     "mark": 0.37,
+     "mark": 0.555,
      "opened": "2026-11-26T02:45:10+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-26T04:32:12+00:00",
+     "title": "Suns vs. Rockets: O/U 223.5",
+     "outcome": "Under",
+     "event_slug": "nba-phx-hou-2026-11-25",
+     "cost": 3.65,
+     "pnl": 3.3,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T03:47:15+00:00",
      "title": "Predators vs. Stars",
@@ -6271,17 +6284,6 @@
      "cost": 7.01,
      "pnl": -7.01,
      "kfee": 0.28,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "title": "UFC Fight Night: Brian Ortega vs. Dan Hooker (Lightweight, Main Card)",
-     "outcome": "Brian Ortega",
-     "event_slug": "ufc-bri3-dan6-2026-11-21",
-     "cost": 4.62,
-     "pnl": -4.62,
-     "kfee": 0.21,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -8244,6 +8246,10 @@
     {
      "t": "2026-11-26T04:17:11+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T04:32:12+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -9800,6 +9806,10 @@
     },
     {
      "t": "2026-11-26T04:17:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T04:32:12+00:00",
      "equity": 107.42
     }
    ],
