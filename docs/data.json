@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:17:19+00:00",
+ "updated": "2026-11-26T02:32:18+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.64,
+   "equity": 83.0,
    "cash": 77.87,
-   "pnl": -18.36,
-   "pnl_after_kalshi_fees": -22.54,
-   "return_pct": -18.4,
+   "pnl": -17.0,
+   "pnl_after_kalshi_fees": -21.18,
+   "return_pct": -17.0,
    "realized": -17.15,
    "kalshi_fees": 4.18,
    "settled": 24,
@@ -1233,6 +1233,10 @@
     {
      "t": "2026-11-26T02:17:17+00:00",
      "equity": 81.64
+    },
+    {
+     "t": "2026-11-26T02:32:16+00:00",
+     "equity": 83.0
     }
    ],
    "positions": [
@@ -1243,7 +1247,7 @@
      "cost": 4.97,
      "shares": 10.92,
      "avg": 0.455,
-     "mark": 0.345,
+     "mark": 0.47,
      "opened": "2026-11-26T00:33:55+00:00"
     }
    ],
@@ -3257,6 +3261,10 @@
     {
      "t": "2026-11-26T02:17:17+00:00",
      "equity": 75.07
+    },
+    {
+     "t": "2026-11-26T02:32:16+00:00",
+     "equity": 75.07
     }
    ],
    "positions": [
@@ -4170,20 +4178,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 58.2,
-   "cash": 5.72,
-   "pnl": -41.8,
-   "pnl_after_kalshi_fees": -51.43,
-   "return_pct": -41.8,
+   "equity": 63.69,
+   "cash": 1.94,
+   "pnl": -36.31,
+   "pnl_after_kalshi_fees": -46.07,
+   "return_pct": -36.3,
    "realized": -36.95,
-   "kalshi_fees": 9.63,
+   "kalshi_fees": 9.76,
    "settled": 61,
    "won": 33,
    "lost": 28,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 57.33,
-   "copied": 89,
+   "open": 17,
+   "at_risk": 61.11,
+   "copied": 90,
    "skipped": 71,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -5394,6 +5402,10 @@
     {
      "t": "2026-11-26T02:17:17+00:00",
      "equity": 58.2
+    },
+    {
+     "t": "2026-11-26T02:32:16+00:00",
+     "equity": 63.69
     }
    ],
    "positions": [
@@ -5424,7 +5436,7 @@
      "cost": 1.65,
      "shares": 3.14,
      "avg": 0.525,
-     "mark": 0.775,
+     "mark": 0.965,
      "opened": "2026-11-24T15:51:20+00:00"
     },
     {
@@ -5434,7 +5446,7 @@
      "cost": 1.12,
      "shares": 2.84,
      "avg": 0.395,
-     "mark": 0.625,
+     "mark": 0.705,
      "opened": "2026-11-24T15:52:11+00:00"
     },
     {
@@ -5444,7 +5456,7 @@
      "cost": 3.75,
      "shares": 6.64,
      "avg": 0.565,
-     "mark": 0.595,
+     "mark": 0.53,
      "opened": "2026-11-24T16:32:05+00:00"
     },
     {
@@ -5454,7 +5466,7 @@
      "cost": 2.84,
      "shares": 5.62,
      "avg": 0.505,
-     "mark": 0.26,
+     "mark": 0.775,
      "opened": "2026-11-24T21:22:04+00:00"
     },
     {
@@ -5504,7 +5516,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.565,
+     "mark": 0.725,
      "opened": "2026-11-25T14:56:32+00:00"
     },
     {
@@ -5514,7 +5526,7 @@
      "cost": 2.31,
      "shares": 4.49,
      "avg": 0.515,
-     "mark": 0.435,
+     "mark": 0.275,
      "opened": "2026-11-25T15:15:43+00:00"
     },
     {
@@ -5524,7 +5536,7 @@
      "cost": 3.65,
      "shares": 6.95,
      "avg": 0.525,
-     "mark": 0.335,
+     "mark": 0.235,
      "opened": "2026-11-25T15:20:28+00:00"
     },
     {
@@ -5534,7 +5546,7 @@
      "cost": 3.65,
      "shares": 6.82,
      "avg": 0.535,
-     "mark": 0.255,
+     "mark": 0.285,
      "opened": "2026-11-25T16:57:47+00:00"
     },
     {
@@ -5544,7 +5556,7 @@
      "cost": 6.52,
      "shares": 11.25,
      "avg": 0.58,
-     "mark": 0.495,
+     "mark": 0.705,
      "opened": "2026-11-25T17:57:30+00:00"
     },
     {
@@ -5556,6 +5568,16 @@
      "avg": 0.525,
      "mark": 0.515,
      "opened": "2026-11-25T23:35:40+00:00"
+    },
+    {
+     "title": "Will CF Monterrey win on 2026-11-25?",
+     "outcome": "No",
+     "event_slug": "mex-mon1-ame-2026-11-25",
+     "cost": 3.78,
+     "shares": 6.94,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-26T02:21:03+00:00"
     }
    ],
    "closed": [
@@ -6221,6 +6243,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:32:16+00:00",
+     "kind": "buy",
+     "title": "Will CF Monterrey win on 2026-11-25?",
+     "outcome": "No",
+     "event_slug": "mex-mon1-ame-2026-11-25",
+     "leader_usd": 660.0,
+     "stake": 3.78,
+     "price": 0.545,
+     "leader_price": 0.55,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-26T02:02:13+00:00",
      "kind": "skip",
@@ -6903,17 +6937,6 @@
      "reason": "below $1 minimum",
      "price": 0.345,
      "leader_price": 0.35
-    },
-    {
-     "ts": "2026-11-23T22:32:12+00:00",
-     "kind": "skip",
-     "title": "Counter-Strike: Heroic vs Imperial (BO1) - PGL Major Singapore Stage 1",
-     "outcome": "Heroic",
-     "event_slug": "cs2-hero-imp11-2026-11-24",
-     "leader_usd": 3.3,
-     "reason": "below $1 minimum",
-     "price": 0.655,
-     "leader_price": 0.66
     }
    ]
   },
@@ -8146,6 +8169,10 @@
     {
      "t": "2026-11-26T02:17:17+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T02:32:16+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -8461,7 +8488,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 15,
-   "skipped": 43,
+   "skipped": 45,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -9671,6 +9698,10 @@
     {
      "t": "2026-11-26T02:17:17+00:00",
      "equity": 106.34
+    },
+    {
+     "t": "2026-11-26T02:32:16+00:00",
+     "equity": 106.34
     }
    ],
    "positions": [],
@@ -9842,6 +9873,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T02:32:16+00:00",
+     "kind": "skip",
+     "title": "Timberwolves vs. Thunder: 3Q O/U 64.5",
+     "outcome": "Over",
+     "event_slug": "nba-min-okc-2026-11-25",
+     "leader_usd": 127.4,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
+    {
+     "ts": "2026-11-26T02:32:16+00:00",
+     "kind": "skip",
+     "title": "Bulls vs. Hornets: O/U 209.5",
+     "outcome": "Over",
+     "event_slug": "nba-chi-cha-2026-11-25",
+     "leader_usd": 77.42,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.96
+    },
     {
      "ts": "2026-11-26T01:17:12+00:00",
      "kind": "skip",
