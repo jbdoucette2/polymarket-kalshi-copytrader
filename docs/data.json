@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:32:17+00:00",
+ "updated": "2026-11-26T13:47:17+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1413,6 +1413,10 @@
     {
      "t": "2026-11-26T13:32:16+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-26T13:47:15+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2213,11 +2217,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.51,
+   "equity": 77.41,
    "cash": 39.22,
-   "pnl": -22.49,
-   "pnl_after_kalshi_fees": -26.01,
-   "return_pct": -22.5,
+   "pnl": -22.59,
+   "pnl_after_kalshi_fees": -26.11,
+   "return_pct": -22.6,
    "realized": -27.39,
    "kalshi_fees": 3.52,
    "settled": 22,
@@ -3617,6 +3621,10 @@
     {
      "t": "2026-11-26T13:32:16+00:00",
      "equity": 77.51
+    },
+    {
+     "t": "2026-11-26T13:47:15+00:00",
+     "equity": 77.41
     }
    ],
    "positions": [
@@ -3637,7 +3645,7 @@
      "cost": 12.25,
      "shares": 17.51,
      "avg": 0.7,
-     "mark": 0.784,
+     "mark": 0.7785,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4530,20 +4538,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 82.27,
-   "cash": 54.69,
-   "pnl": -17.73,
-   "pnl_after_kalshi_fees": -27.58,
-   "return_pct": -17.7,
+   "equity": 82.13,
+   "cash": 49.72,
+   "pnl": -17.87,
+   "pnl_after_kalshi_fees": -27.89,
+   "return_pct": -17.9,
    "realized": -17.12,
-   "kalshi_fees": 9.85,
+   "kalshi_fees": 10.02,
    "settled": 72,
    "won": 42,
    "lost": 30,
    "sold_early": 0,
-   "open": 7,
-   "at_risk": 28.19,
-   "copied": 91,
+   "open": 8,
+   "at_risk": 33.16,
+   "copied": 92,
    "skipped": 73,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -5934,6 +5942,10 @@
     {
      "t": "2026-11-26T13:32:16+00:00",
      "equity": 82.27
+    },
+    {
+     "t": "2026-11-26T13:47:15+00:00",
+     "equity": 82.13
     }
    ],
    "positions": [
@@ -5954,7 +5966,7 @@
      "cost": 2.64,
      "shares": 4.76,
      "avg": 0.555,
-     "mark": 0.655,
+     "mark": 0.645,
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
@@ -6006,6 +6018,16 @@
      "avg": 0.525,
      "mark": 0.515,
      "opened": "2026-11-25T23:35:40+00:00"
+    },
+    {
+     "title": "Spread: Jacksonville State Gamecocks (-1.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "cost": 4.97,
+     "shares": 9.38,
+     "avg": 0.53,
+     "mark": 0.52,
+     "opened": "2026-11-26T13:46:51+00:00"
     }
    ],
    "closed": [
@@ -6671,6 +6693,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-26T13:47:15+00:00",
+     "kind": "buy",
+     "title": "Spread: Jacksonville State Gamecocks (-1.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "leader_usd": 1034.18,
+     "stake": 4.97,
+     "price": 0.53,
+     "leader_price": 0.53,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-26T03:32:10+00:00",
      "kind": "skip",
@@ -7353,17 +7387,6 @@
      "price": 0.775,
      "leader_price": 0.758,
      "mult": 1.14
-    },
-    {
-     "ts": "2026-11-24T04:32:12+00:00",
-     "kind": "skip",
-     "title": "Ole Miss Rebels vs. BYU Cougars",
-     "outcome": "Ole Miss Rebels",
-     "event_slug": "cbb-miss-byu-2026-11-24",
-     "leader_usd": 60.99,
-     "reason": "below $1 minimum",
-     "price": 0.53,
-     "leader_price": 0.57
     }
    ]
   },
@@ -8775,6 +8798,10 @@
     },
     {
      "t": "2026-11-26T13:32:16+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-26T13:47:15+00:00",
      "equity": 116.37
     }
    ],
@@ -10480,6 +10507,10 @@
     },
     {
      "t": "2026-11-26T13:32:16+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-26T13:47:15+00:00",
      "equity": 107.42
     }
    ],
