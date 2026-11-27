@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:47:22+00:00",
+ "updated": "2026-11-27T05:02:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1656,6 +1656,10 @@
     },
     {
      "t": "2026-11-27T04:47:21+00:00",
+     "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T05:02:13+00:00",
      "equity": 80.67
     }
    ],
@@ -4128,6 +4132,10 @@
     {
      "t": "2026-11-27T04:47:21+00:00",
      "equity": 81.45
+    },
+    {
+     "t": "2026-11-27T05:02:13+00:00",
+     "equity": 81.45
     }
    ],
    "positions": [
@@ -5141,20 +5149,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 56.39,
-   "cash": 16.59,
-   "pnl": -43.61,
-   "pnl_after_kalshi_fees": -55.42,
-   "return_pct": -43.6,
-   "realized": -28.96,
-   "kalshi_fees": 11.81,
-   "settled": 79,
+   "equity": 56.3,
+   "cash": 12.33,
+   "pnl": -43.7,
+   "pnl_after_kalshi_fees": -55.67,
+   "return_pct": -43.7,
+   "realized": -35.75,
+   "kalshi_fees": 11.97,
+   "settled": 81,
    "won": 45,
-   "lost": 34,
+   "lost": 36,
    "sold_early": 0,
-   "open": 15,
-   "at_risk": 54.44,
-   "copied": 108,
+   "open": 14,
+   "at_risk": 51.91,
+   "copied": 109,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -6789,6 +6797,10 @@
     {
      "t": "2026-11-27T04:47:21+00:00",
      "equity": 56.39
+    },
+    {
+     "t": "2026-11-27T05:02:13+00:00",
+     "equity": 56.3
     }
    ],
    "positions": [
@@ -6843,16 +6855,6 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Spread: Jacksonville State Gamecocks (-1.5)",
-     "outcome": "Jacksonville State Gamecocks",
-     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
-     "cost": 4.97,
-     "shares": 9.38,
-     "avg": 0.53,
-     "mark": 0.0005,
-     "opened": "2026-11-26T13:46:51+00:00"
-    },
-    {
      "title": "Spread: Alabama Crimson Tide (-14.5)",
      "outcome": "Alabama Crimson Tide",
      "event_slug": "cbb-kanst-ala-2026-11-26",
@@ -6899,7 +6901,7 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.0005,
+     "mark": 0.0025,
      "opened": "2026-11-26T23:44:52+00:00"
     },
     {
@@ -6911,16 +6913,6 @@
      "avg": 0.79,
      "mark": 0.78,
      "opened": "2026-11-27T00:20:39+00:00"
-    },
-    {
-     "title": "Spread: Jacksonville State Gamecocks (-2.5)",
-     "outcome": "Jacksonville State Gamecocks",
-     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
-     "cost": 1.82,
-     "shares": 4.67,
-     "avg": 0.39,
-     "mark": 0.0005,
-     "opened": "2026-11-27T00:50:34+00:00"
     },
     {
      "title": "South Alabama Jaguars vs. Fresno State Bulldogs",
@@ -6941,9 +6933,41 @@
      "avg": 0.53,
      "mark": 0.52,
      "opened": "2026-11-27T04:18:23+00:00"
+    },
+    {
+     "title": "Spread: Broncos (-6.5)",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 4.26,
+     "shares": 9.16,
+     "avg": 0.465,
+     "mark": 0.455,
+     "opened": "2026-11-27T04:56:08+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T05:02:13+00:00",
+     "title": "Spread: Jacksonville State Gamecocks (-2.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "cost": 1.82,
+     "pnl": -1.82,
+     "kfee": 0.08,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-27T05:02:13+00:00",
+     "title": "Spread: Jacksonville State Gamecocks (-1.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "cost": 4.97,
+     "pnl": -4.97,
+     "kfee": 0.17,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T04:47:21+00:00",
      "title": "Spread: Bills (-3.5)",
@@ -7581,31 +7605,21 @@
      "kfee": 0.13,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T05:20:47+00:00",
-     "title": "Spread: UTSA (-2.5)",
-     "outcome": "UTSA",
-     "event_slug": "cfb-utsa-uab-2026-11-21",
-     "cost": 1.57,
-     "pnl": -1.57,
-     "kfee": 0.05,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T04:21:19+00:00",
-     "title": "Loyola Marymount Lions vs. California Baptist Lancers: O/U 137.5",
-     "outcome": "Under",
-     "event_slug": "cbb-loymry-cabap-2026-11-21",
-     "cost": 4.62,
-     "pnl": -4.62,
-     "kfee": 0.15,
-     "how": "lost",
-     "exit_price": 0.0
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T05:02:13+00:00",
+     "kind": "buy",
+     "title": "Spread: Broncos (-6.5)",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "leader_usd": 1116.9,
+     "stake": 4.26,
+     "price": 0.465,
+     "leader_price": 0.45,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-27T04:32:21+00:00",
      "kind": "buy",
@@ -8289,18 +8303,6 @@
      "price": 0.525,
      "leader_price": 0.52,
      "mult": 1.64
-    },
-    {
-     "ts": "2026-11-24T21:32:23+00:00",
-     "kind": "buy",
-     "title": "Spread: Liberty (-17.5)",
-     "outcome": "Missouri State",
-     "event_slug": "cfb-librty-msrst-2026-11-28",
-     "leader_usd": 641.44,
-     "stake": 3.6,
-     "price": 0.52,
-     "leader_price": 0.517,
-     "mult": 2.0
     }
    ]
   },
@@ -9956,6 +9958,10 @@
     },
     {
      "t": "2026-11-27T04:47:21+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T05:02:13+00:00",
      "equity": 116.37
     }
    ],
@@ -11905,6 +11911,10 @@
     },
     {
      "t": "2026-11-27T04:47:21+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T05:02:13+00:00",
      "equity": 107.42
     }
    ],
