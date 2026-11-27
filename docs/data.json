@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:47:13+00:00",
+ "updated": "2026-11-27T15:02:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1817,6 +1817,10 @@
     {
      "t": "2026-11-27T14:47:11+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T15:02:14+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2640,11 +2644,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.95,
+   "equity": 78.41,
    "cash": 15.21,
-   "pnl": -22.05,
-   "pnl_after_kalshi_fees": -26.06,
-   "return_pct": -22.0,
+   "pnl": -21.59,
+   "pnl_after_kalshi_fees": -25.6,
+   "return_pct": -21.6,
    "realized": -27.39,
    "kalshi_fees": 4.01,
    "settled": 22,
@@ -2654,7 +2658,7 @@
    "open": 7,
    "at_risk": 57.4,
    "copied": 41,
-   "skipped": 25,
+   "skipped": 26,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -4448,6 +4452,10 @@
     {
      "t": "2026-11-27T14:47:11+00:00",
      "equity": 77.95
+    },
+    {
+     "t": "2026-11-27T15:02:14+00:00",
+     "equity": 78.41
     }
    ],
    "positions": [
@@ -4458,7 +4466,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.835,
+     "mark": 0.85,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4468,7 +4476,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.814,
+     "mark": 0.816,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4478,7 +4486,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.265,
+     "mark": 0.26,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -4488,7 +4496,7 @@
      "cost": 4.05,
      "shares": 5.36,
      "avg": 0.755,
-     "mark": 0.735,
+     "mark": 0.74,
      "opened": "2026-11-26T14:03:09+00:00"
     },
     {
@@ -4767,6 +4775,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T15:02:14+00:00",
+     "kind": "skip",
+     "title": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
+     "outcome": "No",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 338.52,
+     "reason": "below $1 minimum",
+     "price": 0.85,
+     "leader_price": 0.84
+    },
     {
      "ts": "2026-11-27T14:02:12+00:00",
      "kind": "buy",
@@ -5451,18 +5470,6 @@
      "reason": "price ran away (0.57 -> 0.80)",
      "price": 0.8,
      "leader_price": 0.57
-    },
-    {
-     "ts": "2026-11-21T17:20:51+00:00",
-     "kind": "buy",
-     "title": "East Carolina vs. Army",
-     "outcome": "East Carolina",
-     "event_slug": "cfb-ecar-army-2026-11-21",
-     "leader_usd": 1166.55,
-     "stake": 2.55,
-     "price": 0.345,
-     "leader_price": 0.35,
-     "mult": 0.85
     }
    ]
   },
@@ -5471,10 +5478,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 55.98,
+   "equity": 55.99,
    "cash": 0.75,
-   "pnl": -44.02,
-   "pnl_after_kalshi_fees": -56.41,
+   "pnl": -44.01,
+   "pnl_after_kalshi_fees": -56.4,
    "return_pct": -44.0,
    "realized": -42.09,
    "kalshi_fees": 12.39,
@@ -5485,7 +5492,7 @@
    "open": 16,
    "at_risk": 57.15,
    "copied": 113,
-   "skipped": 82,
+   "skipped": 83,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7279,6 +7286,10 @@
     {
      "t": "2026-11-27T14:47:11+00:00",
      "equity": 55.98
+    },
+    {
+     "t": "2026-11-27T15:02:14+00:00",
+     "equity": 55.99
     }
    ],
    "positions": [
@@ -7349,7 +7360,7 @@
      "cost": 1.04,
      "shares": 2.7,
      "avg": 0.385,
-     "mark": 0.375,
+     "mark": 0.365,
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
@@ -7389,7 +7400,7 @@
      "cost": 3.91,
      "shares": 7.38,
      "avg": 0.53,
-     "mark": 0.47,
+     "mark": 0.475,
      "opened": "2026-11-27T04:18:23+00:00"
     },
     {
@@ -8107,6 +8118,17 @@
    ],
    "log": [
     {
+     "ts": "2026-11-27T15:02:14+00:00",
+     "kind": "skip",
+     "title": "Texas Longhorns vs. Saint Mary's Gaels: O/U 159.5",
+     "outcome": "Over",
+     "event_slug": "cbb-tx-stmry-2026-11-27",
+     "leader_usd": 188.19,
+     "reason": "out of cash",
+     "price": 0.53,
+     "leader_price": 0.506
+    },
+    {
      "ts": "2026-11-27T14:47:11+00:00",
      "kind": "buy",
      "title": "Spread: Suns (-1.5)",
@@ -8791,17 +8813,6 @@
      "reason": "out of cash",
      "price": 0.625,
      "leader_price": 0.61
-    },
-    {
-     "ts": "2026-11-25T00:02:12+00:00",
-     "kind": "skip",
-     "title": "Spread: Pistons (-3.5)",
-     "outcome": "Magic",
-     "event_slug": "nba-det-orl-2026-11-24",
-     "leader_usd": 444.16,
-     "reason": "out of cash",
-     "price": 0.66,
-     "leader_price": 0.64
     }
    ]
   },
@@ -10617,6 +10628,10 @@
     },
     {
      "t": "2026-11-27T14:47:11+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T15:02:14+00:00",
      "equity": 116.53
     }
    ],
@@ -12761,6 +12776,10 @@
     },
     {
      "t": "2026-11-27T14:47:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T15:02:14+00:00",
      "equity": 107.42
     }
    ],
