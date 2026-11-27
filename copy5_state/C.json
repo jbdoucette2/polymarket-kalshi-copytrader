@@ -72,19 +72,6 @@
    "opened": "2026-11-25T13:20:16+00:00",
    "mark": 0.455
   },
-  "86730848383342717103244615035657940868756992748936395882119571243648650518134": {
-   "cond": "0xa456d6ef3a1932b55fa64f7f765ee404856fb86932ef2516f61fe4286d952326",
-   "idx": 0,
-   "outcome": "Alabama Crimson Tide",
-   "title": "Spread: Alabama Crimson Tide (-14.5)",
-   "slug": "cbb-kanst-ala-2026-11-26-spread-home-14pt5",
-   "event_slug": "cbb-kanst-ala-2026-11-26",
-   "shares": 9.841584158415841,
-   "cost": 4.97,
-   "kfee": 0.18,
-   "opened": "2026-11-26T14:14:27+00:00",
-   "mark": 0.0005
-  },
   "8797440560354424863367022156333719813355030883043208062968549195911531216288": {
    "cond": "0x5cf64245cba3998b6042eac6c24f3b07757ebe4656f2fd268e375dbfa0b8e7fb",
    "idx": 1,
@@ -1243,6 +1230,17 @@
    "cost": 1.37,
    "pnl": -1.37,
    "kfee": 0.05,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-27T06:32:13+00:00",
+   "title": "Spread: Alabama Crimson Tide (-14.5)",
+   "outcome": "Alabama Crimson Tide",
+   "event_slug": "cbb-kanst-ala-2026-11-26",
+   "cost": 4.97,
+   "pnl": -4.97,
+   "kfee": 0.18,
    "how": "lost",
    "exit_price": 0.0
   }
@@ -5069,6 +5067,10 @@
   },
   {
    "t": "2026-11-27T06:17:13+00:00",
+   "equity": 56.33
+  },
+  {
+   "t": "2026-11-27T06:32:13+00:00",
    "equity": 56.33
   }
  ],
