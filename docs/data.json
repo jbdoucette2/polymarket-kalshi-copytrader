@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:02:15+00:00",
+ "updated": "2026-11-27T02:17:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.47,
+   "equity": 79.14,
    "cash": 73.2,
-   "pnl": -21.53,
-   "pnl_after_kalshi_fees": -25.84,
-   "return_pct": -21.5,
+   "pnl": -20.86,
+   "pnl_after_kalshi_fees": -25.17,
+   "return_pct": -20.9,
    "realized": -22.12,
    "kalshi_fees": 4.31,
    "settled": 25,
@@ -1613,6 +1613,10 @@
     {
      "t": "2026-11-27T02:02:13+00:00",
      "equity": 78.47
+    },
+    {
+     "t": "2026-11-27T02:17:18+00:00",
+     "equity": 79.14
     }
    ],
    "positions": [
@@ -1623,7 +1627,7 @@
      "cost": 4.67,
      "shares": 7.47,
      "avg": 0.625,
-     "mark": 0.705,
+     "mark": 0.795,
      "opened": "2026-11-27T01:19:47+00:00"
     }
    ],
@@ -2436,10 +2440,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.2,
+   "equity": 81.23,
    "cash": 20.87,
-   "pnl": -18.8,
-   "pnl_after_kalshi_fees": -22.64,
+   "pnl": -18.77,
+   "pnl_after_kalshi_fees": -22.61,
    "return_pct": -18.8,
    "realized": -27.39,
    "kalshi_fees": 3.84,
@@ -4040,6 +4044,10 @@
     {
      "t": "2026-11-27T02:02:13+00:00",
      "equity": 81.2
+    },
+    {
+     "t": "2026-11-27T02:17:18+00:00",
+     "equity": 81.23
     }
    ],
    "positions": [
@@ -4060,7 +4068,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8815,
+     "mark": 0.8825,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5053,19 +5061,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 66.96,
+   "equity": 66.82,
    "cash": 10.86,
-   "pnl": -33.04,
-   "pnl_after_kalshi_fees": -44.58,
-   "return_pct": -33.0,
-   "realized": -25.48,
+   "pnl": -33.18,
+   "pnl_after_kalshi_fees": -44.72,
+   "return_pct": -33.2,
+   "realized": -30.45,
    "kalshi_fees": 11.54,
-   "settled": 75,
+   "settled": 76,
    "won": 43,
-   "lost": 32,
+   "lost": 33,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 63.66,
+   "open": 16,
+   "at_risk": 58.69,
    "copied": 106,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6657,6 +6665,10 @@
     {
      "t": "2026-11-27T02:02:13+00:00",
      "equity": 66.96
+    },
+    {
+     "t": "2026-11-27T02:17:18+00:00",
+     "equity": 66.82
     }
    ],
    "positions": [
@@ -6677,7 +6689,7 @@
      "cost": 2.64,
      "shares": 4.76,
      "avg": 0.555,
-     "mark": 0.835,
+     "mark": 0.825,
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
@@ -6727,7 +6739,7 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.765,
+     "mark": 0.79,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -6737,18 +6749,8 @@
      "cost": 4.97,
      "shares": 9.84,
      "avg": 0.505,
-     "mark": 0.465,
+     "mark": 0.475,
      "opened": "2026-11-26T14:14:27+00:00"
-    },
-    {
-     "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
-     "outcome": "Over",
-     "event_slug": "cbb-utahst-usc-2026-11-26",
-     "cost": 4.97,
-     "shares": 9.84,
-     "avg": 0.505,
-     "mark": 0.0005,
-     "opened": "2026-11-26T14:45:37+00:00"
     },
     {
      "title": "Spread: South Carolina (-6.5)",
@@ -6777,7 +6779,7 @@
      "cost": 4.97,
      "shares": 8.8,
      "avg": 0.565,
-     "mark": 0.445,
+     "mark": 0.325,
      "opened": "2026-11-26T18:36:27+00:00"
     },
     {
@@ -6807,7 +6809,7 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.575,
+     "mark": 0.57,
      "opened": "2026-11-26T23:44:52+00:00"
     },
     {
@@ -6827,11 +6829,22 @@
      "cost": 1.82,
      "shares": 4.67,
      "avg": 0.39,
-     "mark": 0.635,
+     "mark": 0.775,
      "opened": "2026-11-27T00:50:34+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T02:17:18+00:00",
+     "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
+     "outcome": "Over",
+     "event_slug": "cbb-utahst-usc-2026-11-26",
+     "cost": 4.97,
+     "pnl": -4.97,
+     "kfee": 0.18,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T02:02:13+00:00",
      "title": "Spread: Cowboys (-9.5)",
@@ -7478,17 +7491,6 @@
      "cost": 1.77,
      "pnl": -1.77,
      "kfee": 0.09,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T01:20:55+00:00",
-     "title": "Spread: Georgia Southern (-9.5)",
-     "outcome": "Troy",
-     "event_slug": "cfb-gas-troy-2026-11-21",
-     "cost": 4.43,
-     "pnl": -4.43,
-     "kfee": 0.21,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -9801,6 +9803,10 @@
     {
      "t": "2026-11-27T02:02:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T02:17:18+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11705,6 +11711,10 @@
     },
     {
      "t": "2026-11-27T02:02:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T02:17:18+00:00",
      "equity": 107.42
     }
    ],
