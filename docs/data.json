@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:17:15+00:00",
+ "updated": "2026-11-27T00:32:12+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1584,6 +1584,10 @@
     },
     {
      "t": "2026-11-27T00:17:14+00:00",
+     "equity": 77.87
+    },
+    {
+     "t": "2026-11-27T00:32:10+00:00",
      "equity": 77.87
     }
    ],
@@ -3961,6 +3965,10 @@
     {
      "t": "2026-11-27T00:17:14+00:00",
      "equity": 81.36
+    },
+    {
+     "t": "2026-11-27T00:32:10+00:00",
+     "equity": 81.36
     }
    ],
    "positions": [
@@ -4964,20 +4972,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 61.51,
-   "cash": 7.78,
-   "pnl": -38.49,
-   "pnl_after_kalshi_fees": -49.92,
-   "return_pct": -38.5,
+   "equity": 65.89,
+   "cash": 5.77,
+   "pnl": -34.11,
+   "pnl_after_kalshi_fees": -45.57,
+   "return_pct": -34.1,
    "realized": -28.76,
-   "kalshi_fees": 11.43,
+   "kalshi_fees": 11.46,
    "settled": 74,
    "won": 42,
    "lost": 32,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 63.46,
-   "copied": 104,
+   "open": 17,
+   "at_risk": 65.47,
+   "copied": 105,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -6540,6 +6548,10 @@
     {
      "t": "2026-11-27T00:17:14+00:00",
      "equity": 61.51
+    },
+    {
+     "t": "2026-11-27T00:32:10+00:00",
+     "equity": 65.89
     }
    ],
    "positions": [
@@ -6610,7 +6622,7 @@
      "cost": 3.63,
      "shares": 6.91,
      "avg": 0.525,
-     "mark": 0.08,
+     "mark": 0.295,
      "opened": "2026-11-25T23:35:40+00:00"
     },
     {
@@ -6690,7 +6702,7 @@
      "cost": 4.46,
      "shares": 8.13,
      "avg": 0.548,
-     "mark": 0.525,
+     "mark": 0.885,
      "opened": "2026-11-26T22:13:16+00:00"
     },
     {
@@ -6700,8 +6712,18 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.485,
+     "mark": 0.48,
      "opened": "2026-11-26T23:44:52+00:00"
+    },
+    {
+     "title": "Will Coritiba FBC win on 2026-11-29?",
+     "outcome": "No",
+     "event_slug": "bra-cor-fla-2026-11-29",
+     "cost": 2.01,
+     "shares": 2.54,
+     "avg": 0.79,
+     "mark": 0.78,
+     "opened": "2026-11-27T00:20:39+00:00"
     }
    ],
    "closed": [
@@ -7367,6 +7389,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T00:32:10+00:00",
+     "kind": "buy",
+     "title": "Will Coritiba FBC win on 2026-11-29?",
+     "outcome": "No",
+     "event_slug": "bra-cor-fla-2026-11-29",
+     "leader_usd": 285.19,
+     "stake": 2.01,
+     "price": 0.79,
+     "leader_price": 0.79,
+     "mult": 0.94
+    },
     {
      "ts": "2026-11-27T00:02:11+00:00",
      "kind": "buy",
@@ -8050,18 +8084,6 @@
      "price": 0.325,
      "leader_price": 0.594,
      "mult": 1.13
-    },
-    {
-     "ts": "2026-11-24T19:47:15+00:00",
-     "kind": "buy",
-     "title": "Tennessee Volunteers vs. Maryland Terrapins",
-     "outcome": "Maryland Terrapins",
-     "event_slug": "cbb-tenn-mary-2026-11-24",
-     "leader_usd": 555.75,
-     "stake": 3.6,
-     "price": 0.465,
-     "leader_price": 0.45,
-     "mult": 2.0
     }
    ]
   },
@@ -9645,6 +9667,10 @@
     },
     {
      "t": "2026-11-27T00:17:14+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T00:32:10+00:00",
      "equity": 116.37
     }
    ],
@@ -11522,6 +11548,10 @@
     },
     {
      "t": "2026-11-27T00:17:14+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T00:32:10+00:00",
      "equity": 107.42
     }
    ],
