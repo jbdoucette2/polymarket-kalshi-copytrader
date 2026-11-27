@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:47:13+00:00",
+ "updated": "2026-11-27T01:02:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1593,6 +1593,10 @@
     {
      "t": "2026-11-27T00:47:12+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-27T01:02:17+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2393,10 +2397,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.03,
+   "equity": 81.0,
    "cash": 20.87,
-   "pnl": -18.97,
-   "pnl_after_kalshi_fees": -22.81,
+   "pnl": -19.0,
+   "pnl_after_kalshi_fees": -22.84,
    "return_pct": -19.0,
    "realized": -27.39,
    "kalshi_fees": 3.84,
@@ -2407,7 +2411,7 @@
    "open": 6,
    "at_risk": 51.74,
    "copied": 39,
-   "skipped": 23,
+   "skipped": 24,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -3977,6 +3981,10 @@
     {
      "t": "2026-11-27T00:47:12+00:00",
      "equity": 81.03
+    },
+    {
+     "t": "2026-11-27T01:02:17+00:00",
+     "equity": 81.0
     }
    ],
    "positions": [
@@ -3997,7 +4005,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.875,
+     "mark": 0.8755,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4037,7 +4045,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.745,
+     "mark": 0.735,
      "opened": "2026-11-27T00:35:28+00:00"
     }
    ],
@@ -4286,6 +4294,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T01:02:17+00:00",
+     "kind": "skip",
+     "title": "Will Green Party win the third-most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+     "outcome": "Yes",
+     "event_slug": "new-zealand-election-3rd-place",
+     "leader_usd": 474.9,
+     "reason": "too late: outcome already decided",
+     "price": 0.993,
+     "leader_price": 0.998
+    },
     {
      "ts": "2026-11-27T00:47:12+00:00",
      "kind": "buy",
@@ -4972,17 +4991,6 @@
      "price": 0.595,
      "leader_price": 0.58,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T14:21:10+00:00",
-     "kind": "skip",
-     "title": "Spread: Syracuse (-3.5)",
-     "outcome": "Boston College",
-     "event_slug": "cfb-syra-boscol-2026-11-21",
-     "leader_usd": 3.24,
-     "reason": "below $1 minimum",
-     "price": 0.545,
-     "leader_price": 0.54
     }
    ]
   },
@@ -4991,20 +4999,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 68.39,
-   "cash": 5.77,
-   "pnl": -31.61,
-   "pnl_after_kalshi_fees": -43.07,
-   "return_pct": -31.6,
+   "equity": 62.26,
+   "cash": 3.95,
+   "pnl": -37.74,
+   "pnl_after_kalshi_fees": -49.28,
+   "return_pct": -37.7,
    "realized": -28.76,
-   "kalshi_fees": 11.46,
+   "kalshi_fees": 11.54,
    "settled": 74,
    "won": 42,
    "lost": 32,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 65.47,
-   "copied": 105,
+   "open": 18,
+   "at_risk": 67.29,
+   "copied": 106,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -6575,6 +6583,10 @@
     {
      "t": "2026-11-27T00:47:12+00:00",
      "equity": 68.39
+    },
+    {
+     "t": "2026-11-27T01:02:17+00:00",
+     "equity": 62.26
     }
    ],
    "positions": [
@@ -6645,7 +6657,7 @@
      "cost": 3.63,
      "shares": 6.91,
      "avg": 0.525,
-     "mark": 0.475,
+     "mark": 0.69,
      "opened": "2026-11-25T23:35:40+00:00"
     },
     {
@@ -6655,7 +6667,7 @@
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.555,
+     "mark": 0.565,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -6725,7 +6737,7 @@
      "cost": 4.46,
      "shares": 8.13,
      "avg": 0.548,
-     "mark": 0.9825,
+     "mark": 0.0005,
      "opened": "2026-11-26T22:13:16+00:00"
     },
     {
@@ -6735,7 +6747,7 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.68,
+     "mark": 0.8,
      "opened": "2026-11-26T23:44:52+00:00"
     },
     {
@@ -6747,6 +6759,16 @@
      "avg": 0.79,
      "mark": 0.78,
      "opened": "2026-11-27T00:20:39+00:00"
+    },
+    {
+     "title": "Spread: Jacksonville State Gamecocks (-2.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "cost": 1.82,
+     "shares": 4.67,
+     "avg": 0.39,
+     "mark": 0.385,
+     "opened": "2026-11-27T00:50:34+00:00"
     }
    ],
    "closed": [
@@ -7412,6 +7434,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T01:02:17+00:00",
+     "kind": "buy",
+     "title": "Spread: Jacksonville State Gamecocks (-2.5)",
+     "outcome": "Jacksonville State Gamecocks",
+     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
+     "leader_usd": 258.64,
+     "stake": 1.82,
+     "price": 0.39,
+     "leader_price": 0.53,
+     "mult": 0.85
+    },
     {
      "ts": "2026-11-27T00:32:10+00:00",
      "kind": "buy",
@@ -8095,18 +8129,6 @@
      "price": 0.495,
      "leader_price": 0.49,
      "mult": 1.49
-    },
-    {
-     "ts": "2026-11-24T20:02:14+00:00",
-     "kind": "buy",
-     "title": "Spread: Tennessee Volunteers (-3.5)",
-     "outcome": "Maryland Terrapins",
-     "event_slug": "cbb-tenn-mary-2026-11-24",
-     "leader_usd": 300.11,
-     "stake": 2.03,
-     "price": 0.325,
-     "leader_price": 0.594,
-     "mult": 1.13
     }
    ]
   },
@@ -9698,6 +9720,10 @@
     },
     {
      "t": "2026-11-27T00:47:12+00:00",
+     "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T01:02:17+00:00",
      "equity": 116.37
     }
    ],
@@ -11583,6 +11609,10 @@
     },
     {
      "t": "2026-11-27T00:47:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T01:02:17+00:00",
      "equity": 107.42
     }
    ],
