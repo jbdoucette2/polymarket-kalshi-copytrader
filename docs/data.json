@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:02:15+00:00",
+ "updated": "2026-11-27T03:17:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.02,
+   "equity": 76.82,
    "cash": 73.2,
-   "pnl": -21.98,
-   "pnl_after_kalshi_fees": -26.29,
-   "return_pct": -22.0,
+   "pnl": -23.18,
+   "pnl_after_kalshi_fees": -27.49,
+   "return_pct": -23.2,
    "realized": -22.12,
    "kalshi_fees": 4.31,
    "settled": 25,
@@ -24,7 +24,7 @@
    "at_risk": 4.67,
    "copied": 29,
    "skipped": 16,
-   "max_drawdown_pct": 27.3,
+   "max_drawdown_pct": 28.1,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1629,6 +1629,10 @@
     {
      "t": "2026-11-27T03:02:13+00:00",
      "equity": 78.02
+    },
+    {
+     "t": "2026-11-27T03:17:14+00:00",
+     "equity": 76.82
     }
    ],
    "positions": [
@@ -1639,7 +1643,7 @@
      "cost": 4.67,
      "shares": 7.47,
      "avg": 0.625,
-     "mark": 0.645,
+     "mark": 0.485,
      "opened": "2026-11-27T01:19:47+00:00"
     }
    ],
@@ -4072,6 +4076,10 @@
     {
      "t": "2026-11-27T03:02:13+00:00",
      "equity": 81.58
+    },
+    {
+     "t": "2026-11-27T03:17:14+00:00",
+     "equity": 81.58
     }
    ],
    "positions": [
@@ -5085,19 +5093,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.01,
+   "equity": 60.6,
    "cash": 10.86,
-   "pnl": -39.99,
-   "pnl_after_kalshi_fees": -51.53,
-   "return_pct": -40.0,
-   "realized": -30.45,
+   "pnl": -39.4,
+   "pnl_after_kalshi_fees": -50.94,
+   "return_pct": -39.4,
+   "realized": -34.91,
    "kalshi_fees": 11.54,
-   "settled": 76,
+   "settled": 77,
    "won": 43,
-   "lost": 33,
+   "lost": 34,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 58.69,
+   "open": 15,
+   "at_risk": 54.23,
    "copied": 106,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6705,6 +6713,10 @@
     {
      "t": "2026-11-27T03:02:13+00:00",
      "equity": 60.01
+    },
+    {
+     "t": "2026-11-27T03:17:14+00:00",
+     "equity": 60.6
     }
    ],
    "positions": [
@@ -6725,7 +6737,7 @@
      "cost": 2.64,
      "shares": 4.76,
      "avg": 0.555,
-     "mark": 0.968,
+     "mark": 0.9355,
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
@@ -6815,7 +6827,7 @@
      "cost": 4.97,
      "shares": 8.8,
      "avg": 0.565,
-     "mark": 0.505,
+     "mark": 0.68,
      "opened": "2026-11-26T18:36:27+00:00"
     },
     {
@@ -6829,23 +6841,13 @@
      "opened": "2026-11-26T18:40:34+00:00"
     },
     {
-     "title": "Spread: S\u00e3o Paulo FC (-1.5)",
-     "outcome": "Clube do Remo",
-     "event_slug": "bra-sao-cre-2026-11-26-more-markets",
-     "cost": 4.46,
-     "shares": 8.13,
-     "avg": 0.548,
-     "mark": 0.0005,
-     "opened": "2026-11-26T22:13:16+00:00"
-    },
-    {
      "title": "Spread: LSU Tigers (-6.5)",
      "outcome": "SMU Mustangs",
      "event_slug": "cbb-lsu-smu-2026-11-26",
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.31,
+     "mark": 0.0005,
      "opened": "2026-11-26T23:44:52+00:00"
     },
     {
@@ -6870,6 +6872,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T03:17:14+00:00",
+     "title": "Spread: S\u00e3o Paulo FC (-1.5)",
+     "outcome": "Clube do Remo",
+     "event_slug": "bra-sao-cre-2026-11-26-more-markets",
+     "cost": 4.46,
+     "pnl": -4.46,
+     "kfee": 0.15,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T02:17:18+00:00",
      "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
@@ -7516,17 +7529,6 @@
      "cost": 2.94,
      "pnl": -2.94,
      "kfee": 0.14,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T01:20:55+00:00",
-     "title": "Spread: Georgia Southern (-7.5)",
-     "outcome": "Troy",
-     "event_slug": "cfb-gas-troy-2026-11-21",
-     "cost": 1.77,
-     "pnl": -1.77,
-     "kfee": 0.09,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -9855,6 +9857,10 @@
     {
      "t": "2026-11-27T03:02:13+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T03:17:14+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11775,6 +11781,10 @@
     },
     {
      "t": "2026-11-27T03:02:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T03:17:14+00:00",
      "equity": 107.42
     }
    ],
