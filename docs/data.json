@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:47:13+00:00",
+ "updated": "2026-11-27T21:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 76.5,
+   "equity": 76.41,
    "cash": 73.69,
-   "pnl": -23.5,
-   "pnl_after_kalshi_fees": -28.1,
-   "return_pct": -23.5,
+   "pnl": -23.59,
+   "pnl_after_kalshi_fees": -28.19,
+   "return_pct": -23.6,
    "realized": -19.32,
    "kalshi_fees": 4.6,
    "settled": 26,
@@ -24,7 +24,7 @@
    "at_risk": 6.98,
    "copied": 31,
    "skipped": 16,
-   "max_drawdown_pct": 28.4,
+   "max_drawdown_pct": 28.5,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1913,6 +1913,10 @@
     {
      "t": "2026-11-27T20:47:11+00:00",
      "equity": 76.5
+    },
+    {
+     "t": "2026-11-27T21:02:12+00:00",
+     "equity": 76.41
     }
    ],
    "positions": [
@@ -1923,7 +1927,7 @@
      "cost": 4.84,
      "shares": 11.13,
      "avg": 0.435,
-     "mark": 0.17,
+     "mark": 0.16,
      "opened": "2026-11-27T19:59:43+00:00"
     },
     {
@@ -1933,7 +1937,7 @@
      "cost": 2.14,
      "shares": 4.7,
      "avg": 0.455,
-     "mark": 0.195,
+     "mark": 0.2,
      "opened": "2026-11-27T19:59:50+00:00"
     }
    ],
@@ -2781,19 +2785,19 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.78,
+   "equity": 74.14,
    "cash": 12.23,
-   "pnl": -26.22,
-   "pnl_after_kalshi_fees": -30.35,
-   "return_pct": -26.2,
-   "realized": -27.39,
+   "pnl": -25.86,
+   "pnl_after_kalshi_fees": -29.99,
+   "return_pct": -25.9,
+   "realized": -31.75,
    "kalshi_fees": 4.13,
-   "settled": 22,
+   "settled": 23,
    "won": 6,
-   "lost": 16,
+   "lost": 17,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 60.38,
+   "open": 8,
+   "at_risk": 56.02,
    "copied": 43,
    "skipped": 28,
    "max_drawdown_pct": 39.9,
@@ -4685,6 +4689,10 @@
     {
      "t": "2026-11-27T20:47:11+00:00",
      "equity": 73.78
+    },
+    {
+     "t": "2026-11-27T21:02:12+00:00",
+     "equity": 74.14
     }
    ],
    "positions": [
@@ -4735,7 +4743,7 @@
      "cost": 4.36,
      "shares": 6.36,
      "avg": 0.685,
-     "mark": 0.345,
+     "mark": 0.375,
      "opened": "2026-11-26T22:56:22+00:00"
     },
     {
@@ -4747,16 +4755,6 @@
      "avg": 0.755,
      "mark": 0.735,
      "opened": "2026-11-27T00:35:28+00:00"
-    },
-    {
-     "title": "Tulsa vs. UTSA",
-     "outcome": "Tulsa",
-     "event_slug": "cfb-tulsa-utsa-2026-11-27",
-     "cost": 4.36,
-     "shares": 8.15,
-     "avg": 0.535,
-     "mark": 0.0005,
-     "opened": "2026-11-27T13:54:17+00:00"
     },
     {
      "title": "Spread: Wisconsin (-7.5)",
@@ -4775,11 +4773,22 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.43,
+     "mark": 0.49,
      "opened": "2026-11-27T20:20:50+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T21:02:12+00:00",
+     "title": "Tulsa vs. UTSA",
+     "outcome": "Tulsa",
+     "event_slug": "cfb-tulsa-utsa-2026-11-27",
+     "cost": 4.36,
+     "pnl": -4.36,
+     "kfee": 0.15,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-23T16:21:49+00:00",
      "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
@@ -5728,11 +5737,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 48.5,
+   "equity": 47.92,
    "cash": 0.75,
-   "pnl": -51.5,
-   "pnl_after_kalshi_fees": -63.89,
-   "return_pct": -51.5,
+   "pnl": -52.08,
+   "pnl_after_kalshi_fees": -64.47,
+   "return_pct": -52.1,
    "realized": -43.26,
    "kalshi_fees": 12.39,
    "settled": 84,
@@ -7632,6 +7641,10 @@
     {
      "t": "2026-11-27T20:47:11+00:00",
      "equity": 48.5
+    },
+    {
+     "t": "2026-11-27T21:02:12+00:00",
+     "equity": 47.92
     }
    ],
    "positions": [
@@ -7672,7 +7685,7 @@
      "cost": 3.3,
      "shares": 5.37,
      "avg": 0.615,
-     "mark": 0.345,
+     "mark": 0.375,
      "opened": "2026-11-25T04:12:02+00:00"
     },
     {
@@ -7682,7 +7695,7 @@
      "cost": 7.3,
      "shares": 13.78,
      "avg": 0.53,
-     "mark": 0.785,
+     "mark": 0.755,
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
@@ -7742,7 +7755,7 @@
      "cost": 3.91,
      "shares": 7.38,
      "avg": 0.53,
-     "mark": 0.21,
+     "mark": 0.185,
      "opened": "2026-11-27T04:18:23+00:00"
     },
     {
@@ -7752,7 +7765,7 @@
      "cost": 4.26,
      "shares": 9.16,
      "avg": 0.465,
-     "mark": 0.155,
+     "mark": 0.14,
      "opened": "2026-11-27T04:56:08+00:00"
     },
     {
@@ -11053,6 +11066,10 @@
     {
      "t": "2026-11-27T20:47:11+00:00",
      "equity": 116.3
+    },
+    {
+     "t": "2026-11-27T21:02:12+00:00",
+     "equity": 116.3
     }
    ],
    "positions": [
@@ -13292,6 +13309,10 @@
     },
     {
      "t": "2026-11-27T20:47:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T21:02:12+00:00",
      "equity": 107.42
     }
    ],
