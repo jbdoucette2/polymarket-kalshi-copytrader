@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:17:14+00:00",
+ "updated": "2026-11-27T20:32:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 80.51,
+   "equity": 78.34,
    "cash": 73.69,
-   "pnl": -19.49,
-   "pnl_after_kalshi_fees": -24.09,
-   "return_pct": -19.5,
+   "pnl": -21.66,
+   "pnl_after_kalshi_fees": -26.26,
+   "return_pct": -21.7,
    "realized": -19.32,
    "kalshi_fees": 4.6,
    "settled": 26,
@@ -1905,6 +1905,10 @@
     {
      "t": "2026-11-27T20:17:12+00:00",
      "equity": 80.51
+    },
+    {
+     "t": "2026-11-27T20:32:12+00:00",
+     "equity": 78.34
     }
    ],
    "positions": [
@@ -1915,7 +1919,7 @@
      "cost": 4.84,
      "shares": 11.13,
      "avg": 0.435,
-     "mark": 0.425,
+     "mark": 0.285,
      "opened": "2026-11-27T19:59:43+00:00"
     },
     {
@@ -1925,7 +1929,7 @@
      "cost": 2.14,
      "shares": 4.7,
      "avg": 0.455,
-     "mark": 0.445,
+     "mark": 0.315,
      "opened": "2026-11-27T19:59:50+00:00"
     }
    ],
@@ -2773,21 +2777,21 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.82,
-   "cash": 13.63,
-   "pnl": -24.18,
-   "pnl_after_kalshi_fees": -28.25,
-   "return_pct": -24.2,
+   "equity": 74.74,
+   "cash": 12.23,
+   "pnl": -25.26,
+   "pnl_after_kalshi_fees": -29.39,
+   "return_pct": -25.3,
    "realized": -27.39,
-   "kalshi_fees": 4.07,
+   "kalshi_fees": 4.13,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
-   "open": 8,
-   "at_risk": 58.98,
-   "copied": 42,
-   "skipped": 26,
+   "open": 9,
+   "at_risk": 60.38,
+   "copied": 43,
+   "skipped": 27,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -4669,6 +4673,10 @@
     {
      "t": "2026-11-27T20:17:12+00:00",
      "equity": 75.82
+    },
+    {
+     "t": "2026-11-27T20:32:12+00:00",
+     "equity": 74.74
     }
    ],
    "positions": [
@@ -4689,7 +4697,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.849,
+     "mark": 0.85,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4719,7 +4727,7 @@
      "cost": 4.36,
      "shares": 6.36,
      "avg": 0.685,
-     "mark": 0.635,
+     "mark": 0.485,
      "opened": "2026-11-26T22:56:22+00:00"
     },
     {
@@ -4739,7 +4747,7 @@
      "cost": 4.36,
      "shares": 8.15,
      "avg": 0.535,
-     "mark": 0.0225,
+     "mark": 0.007,
      "opened": "2026-11-27T13:54:17+00:00"
     },
     {
@@ -4751,6 +4759,16 @@
      "avg": 0.485,
      "mark": 0.475,
      "opened": "2026-11-27T16:37:19+00:00"
+    },
+    {
+     "title": "Spread: North Dakota State (-8.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-ndkst-sjst-2026-11-27",
+     "cost": 1.4,
+     "shares": 2.89,
+     "avg": 0.485,
+     "mark": 0.475,
+     "opened": "2026-11-27T20:20:50+00:00"
     }
    ],
    "closed": [
@@ -4998,6 +5016,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: North Dakota State (-13.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-ndkst-sjst-2026-11-27",
+     "leader_usd": 88.48,
+     "reason": "below $1 minimum",
+     "price": 0.575,
+     "leader_price": 0.58
+    },
+    {
+     "ts": "2026-11-27T20:32:12+00:00",
+     "kind": "buy",
+     "title": "Spread: North Dakota State (-8.5)",
+     "outcome": "San Jose State",
+     "event_slug": "cfb-ndkst-sjst-2026-11-27",
+     "leader_usd": 786.25,
+     "stake": 1.4,
+     "price": 0.485,
+     "leader_price": 0.46,
+     "mult": 0.64
+    },
     {
      "ts": "2026-11-27T16:47:12+00:00",
      "kind": "buy",
@@ -5672,28 +5713,6 @@
      "price": 0.475,
      "leader_price": 0.46,
      "mult": 1.15
-    },
-    {
-     "ts": "2026-11-21T17:20:51+00:00",
-     "kind": "skip",
-     "title": "Spread: Boston College (-2.5)",
-     "outcome": "Boston College",
-     "event_slug": "cfb-syra-boscol-2026-11-21",
-     "leader_usd": 401.87,
-     "reason": "price ran away (0.38 -> 0.49)",
-     "price": 0.49,
-     "leader_price": 0.38
-    },
-    {
-     "ts": "2026-11-21T17:20:51+00:00",
-     "kind": "skip",
-     "title": "Spread: Boston College (-1.5)",
-     "outcome": "Boston College",
-     "event_slug": "cfb-syra-boscol-2026-11-21",
-     "leader_usd": 721.02,
-     "reason": "price ran away (0.40 -> 0.52)",
-     "price": 0.515,
-     "leader_price": 0.4
     }
    ]
   },
@@ -5702,11 +5721,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 54.28,
+   "equity": 51.29,
    "cash": 0.75,
-   "pnl": -45.72,
-   "pnl_after_kalshi_fees": -58.11,
-   "return_pct": -45.7,
+   "pnl": -48.71,
+   "pnl_after_kalshi_fees": -61.1,
+   "return_pct": -48.7,
    "realized": -43.26,
    "kalshi_fees": 12.39,
    "settled": 84,
@@ -5716,7 +5735,7 @@
    "open": 15,
    "at_risk": 55.98,
    "copied": 113,
-   "skipped": 89,
+   "skipped": 90,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7598,6 +7617,10 @@
     {
      "t": "2026-11-27T20:17:12+00:00",
      "equity": 54.28
+    },
+    {
+     "t": "2026-11-27T20:32:12+00:00",
+     "equity": 51.29
     }
    ],
    "positions": [
@@ -7638,7 +7661,7 @@
      "cost": 3.3,
      "shares": 5.37,
      "avg": 0.615,
-     "mark": 0.635,
+     "mark": 0.485,
      "opened": "2026-11-25T04:12:02+00:00"
     },
     {
@@ -7648,7 +7671,7 @@
      "cost": 7.3,
      "shares": 13.78,
      "avg": 0.53,
-     "mark": 0.525,
+     "mark": 0.655,
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
@@ -7698,7 +7721,7 @@
      "cost": 3.91,
      "shares": 7.45,
      "avg": 0.525,
-     "mark": 0.36,
+     "mark": 0.0055,
      "opened": "2026-11-27T04:14:56+00:00"
     },
     {
@@ -7708,7 +7731,7 @@
      "cost": 3.91,
      "shares": 7.38,
      "avg": 0.53,
-     "mark": 0.62,
+     "mark": 0.6,
      "opened": "2026-11-27T04:18:23+00:00"
     },
     {
@@ -7718,7 +7741,7 @@
      "cost": 4.26,
      "shares": 9.16,
      "avg": 0.465,
-     "mark": 0.385,
+     "mark": 0.255,
      "opened": "2026-11-27T04:56:08+00:00"
     },
     {
@@ -8416,6 +8439,17 @@
    ],
    "log": [
     {
+     "ts": "2026-11-27T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Memphis (-20.5)",
+     "outcome": "Memphis",
+     "event_slug": "cfb-templ-mphs-2026-11-27",
+     "leader_usd": 593.39,
+     "reason": "out of cash",
+     "price": 0.495,
+     "leader_price": 0.49
+    },
+    {
      "ts": "2026-11-27T19:17:19+00:00",
      "kind": "skip",
      "title": "Spread: Suns (-1.5)",
@@ -9096,18 +9130,6 @@
      "reason": "below $1 minimum",
      "price": 0.69,
      "leader_price": 0.68
-    },
-    {
-     "ts": "2026-11-25T14:17:14+00:00",
-     "kind": "buy",
-     "title": "Saint Peter's Peacocks vs. Columbia Lions: O/U 125.5",
-     "outcome": "Under",
-     "event_slug": "cbb-stpete-colmb-2026-11-25",
-     "leader_usd": 1326.0,
-     "stake": 3.65,
-     "price": 0.525,
-     "leader_price": 0.516,
-     "mult": 2.0
     }
    ]
   },
@@ -11011,6 +11033,10 @@
     },
     {
      "t": "2026-11-27T20:17:12+00:00",
+     "equity": 116.3
+    },
+    {
+     "t": "2026-11-27T20:32:12+00:00",
      "equity": 116.3
     }
    ],
@@ -13243,6 +13269,10 @@
     },
     {
      "t": "2026-11-27T20:17:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T20:32:12+00:00",
      "equity": 107.42
     }
    ],
