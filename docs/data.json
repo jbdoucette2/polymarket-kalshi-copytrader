@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:17:18+00:00",
+ "updated": "2026-11-27T13:32:12+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1793,6 +1793,10 @@
     {
      "t": "2026-11-27T13:17:17+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T13:32:11+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2616,11 +2620,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.84,
+   "equity": 78.95,
    "cash": 19.57,
-   "pnl": -21.16,
-   "pnl_after_kalshi_fees": -25.02,
-   "return_pct": -21.2,
+   "pnl": -21.05,
+   "pnl_after_kalshi_fees": -24.91,
+   "return_pct": -21.0,
    "realized": -27.39,
    "kalshi_fees": 3.86,
    "settled": 22,
@@ -4400,6 +4404,10 @@
     {
      "t": "2026-11-27T13:17:17+00:00",
      "equity": 78.84
+    },
+    {
+     "t": "2026-11-27T13:32:11+00:00",
+     "equity": 78.95
     }
    ],
    "positions": [
@@ -4420,7 +4428,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8225,
+     "mark": 0.8275,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4430,7 +4438,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.26,
+     "mark": 0.255,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -4440,7 +4448,7 @@
      "cost": 4.05,
      "shares": 5.36,
      "avg": 0.755,
-     "mark": 0.74,
+     "mark": 0.745,
      "opened": "2026-11-26T14:03:09+00:00"
     },
     {
@@ -5413,20 +5421,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 56.16,
-   "cash": 12.33,
-   "pnl": -43.84,
-   "pnl_after_kalshi_fees": -55.81,
-   "return_pct": -43.8,
+   "equity": 56.14,
+   "cash": 8.86,
+   "pnl": -43.86,
+   "pnl_after_kalshi_fees": -55.96,
+   "return_pct": -43.9,
    "realized": -42.09,
-   "kalshi_fees": 11.97,
+   "kalshi_fees": 12.1,
    "settled": 83,
    "won": 45,
    "lost": 38,
    "sold_early": 0,
-   "open": 12,
-   "at_risk": 45.57,
-   "copied": 109,
+   "open": 13,
+   "at_risk": 49.04,
+   "copied": 110,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -7197,6 +7205,10 @@
     {
      "t": "2026-11-27T13:17:17+00:00",
      "equity": 56.16
+    },
+    {
+     "t": "2026-11-27T13:32:11+00:00",
+     "equity": 56.14
     }
    ],
    "positions": [
@@ -7277,7 +7289,7 @@
      "cost": 3.55,
      "shares": 4.77,
      "avg": 0.745,
-     "mark": 0.745,
+     "mark": 0.755,
      "opened": "2026-11-26T18:40:34+00:00"
     },
     {
@@ -7319,6 +7331,16 @@
      "avg": 0.465,
      "mark": 0.455,
      "opened": "2026-11-27T04:56:08+00:00"
+    },
+    {
+     "title": "Spread: Celtics (-8.5)",
+     "outcome": "Hawks",
+     "event_slug": "nba-atl-bos-2026-11-27",
+     "cost": 3.47,
+     "shares": 6.87,
+     "avg": 0.505,
+     "mark": 0.495,
+     "opened": "2026-11-27T13:22:07+00:00"
     }
    ],
    "closed": [
@@ -7984,6 +8006,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T13:32:11+00:00",
+     "kind": "buy",
+     "title": "Spread: Celtics (-8.5)",
+     "outcome": "Hawks",
+     "event_slug": "nba-atl-bos-2026-11-27",
+     "leader_usd": 1375.65,
+     "stake": 3.47,
+     "price": 0.505,
+     "leader_price": 0.49,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-27T05:02:13+00:00",
      "kind": "buy",
@@ -8667,18 +8701,6 @@
      "price": 0.475,
      "leader_price": 0.48,
      "mult": 1.56
-    },
-    {
-     "ts": "2026-11-24T22:17:24+00:00",
-     "kind": "buy",
-     "title": "Spread: Michigan Wolverines (-5.5)",
-     "outcome": "Michigan Wolverines",
-     "event_slug": "cbb-mich-creigh-2026-11-24",
-     "leader_usd": 435.76,
-     "stake": 2.95,
-     "price": 0.525,
-     "leader_price": 0.52,
-     "mult": 1.64
     }
    ]
   },
@@ -8687,20 +8709,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 116.23,
-   "cash": 110.21,
-   "pnl": 16.23,
-   "pnl_after_kalshi_fees": 13.76,
-   "return_pct": 16.2,
+   "equity": 116.53,
+   "cash": 105.32,
+   "pnl": 16.53,
+   "pnl_after_kalshi_fees": 13.88,
+   "return_pct": 16.5,
    "realized": 16.38,
-   "kalshi_fees": 2.47,
+   "kalshi_fees": 2.65,
    "settled": 12,
    "won": 7,
    "lost": 5,
    "sold_early": 0,
    "open": 1,
-   "at_risk": 6.16,
-   "copied": 14,
+   "at_risk": 11.05,
+   "copied": 15,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -10471,6 +10493,10 @@
     {
      "t": "2026-11-27T13:17:17+00:00",
      "equity": 116.23
+    },
+    {
+     "t": "2026-11-27T13:32:11+00:00",
+     "equity": 116.53
     }
    ],
    "positions": [
@@ -10478,10 +10504,10 @@
      "title": "Columbus Crew vs. Inter Miami CF: O/U 3.5",
      "outcome": "Over",
      "event_slug": "mls-clb-mia-2026-11-27-more-markets",
-     "cost": 6.16,
-     "shares": 13.25,
-     "avg": 0.465,
-     "mark": 0.455,
+     "cost": 11.05,
+     "shares": 23.13,
+     "avg": 0.478,
+     "mark": 0.485,
      "opened": "2026-11-27T12:33:10+00:00"
     }
    ],
@@ -10620,6 +10646,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T13:32:11+00:00",
+     "kind": "buy",
+     "title": "Columbus Crew vs. Inter Miami CF: O/U 3.5",
+     "outcome": "Over",
+     "event_slug": "mls-clb-mia-2026-11-27-more-markets",
+     "leader_usd": 7996.06,
+     "stake": 4.89,
+     "price": 0.495,
+     "leader_price": 0.472,
+     "mult": 1.4
+    },
     {
      "ts": "2026-11-27T12:47:11+00:00",
      "kind": "buy",
@@ -12578,6 +12616,10 @@
     },
     {
      "t": "2026-11-27T13:17:17+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T13:32:11+00:00",
      "equity": 107.42
     }
    ],
