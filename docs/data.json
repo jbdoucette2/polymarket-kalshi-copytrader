@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:32:15+00:00",
+ "updated": "2026-11-27T14:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1813,6 +1813,10 @@
     {
      "t": "2026-11-27T14:32:13+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T14:47:11+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2636,11 +2640,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.4,
+   "equity": 77.95,
    "cash": 15.21,
-   "pnl": -21.6,
-   "pnl_after_kalshi_fees": -25.61,
-   "return_pct": -21.6,
+   "pnl": -22.05,
+   "pnl_after_kalshi_fees": -26.06,
+   "return_pct": -22.0,
    "realized": -27.39,
    "kalshi_fees": 4.01,
    "settled": 22,
@@ -4440,6 +4444,10 @@
     {
      "t": "2026-11-27T14:32:13+00:00",
      "equity": 78.4
+    },
+    {
+     "t": "2026-11-27T14:47:11+00:00",
+     "equity": 77.95
     }
    ],
    "positions": [
@@ -4450,7 +4458,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.85,
+     "mark": 0.835,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4460,7 +4468,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.815,
+     "mark": 0.814,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4470,7 +4478,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.255,
+     "mark": 0.265,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -4480,7 +4488,7 @@
      "cost": 4.05,
      "shares": 5.36,
      "avg": 0.755,
-     "mark": 0.745,
+     "mark": 0.735,
      "opened": "2026-11-26T14:03:09+00:00"
     },
     {
@@ -4500,7 +4508,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.745,
+     "mark": 0.735,
      "opened": "2026-11-27T00:35:28+00:00"
     },
     {
@@ -5463,21 +5471,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 56.09,
-   "cash": 4.22,
-   "pnl": -43.91,
-   "pnl_after_kalshi_fees": -56.17,
-   "return_pct": -43.9,
+   "equity": 55.98,
+   "cash": 0.75,
+   "pnl": -44.02,
+   "pnl_after_kalshi_fees": -56.41,
+   "return_pct": -44.0,
    "realized": -42.09,
-   "kalshi_fees": 12.26,
+   "kalshi_fees": 12.39,
    "settled": 83,
    "won": 45,
    "lost": 38,
    "sold_early": 0,
-   "open": 15,
-   "at_risk": 53.68,
-   "copied": 112,
-   "skipped": 81,
+   "open": 16,
+   "at_risk": 57.15,
+   "copied": 113,
+   "skipped": 82,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7267,6 +7275,10 @@
     {
      "t": "2026-11-27T14:32:13+00:00",
      "equity": 56.09
+    },
+    {
+     "t": "2026-11-27T14:47:11+00:00",
+     "equity": 55.98
     }
    ],
    "positions": [
@@ -7367,7 +7379,7 @@
      "cost": 3.91,
      "shares": 7.45,
      "avg": 0.525,
-     "mark": 0.565,
+     "mark": 0.575,
      "opened": "2026-11-27T04:14:56+00:00"
     },
     {
@@ -7377,7 +7389,7 @@
      "cost": 3.91,
      "shares": 7.38,
      "avg": 0.53,
-     "mark": 0.485,
+     "mark": 0.47,
      "opened": "2026-11-27T04:18:23+00:00"
     },
     {
@@ -7419,6 +7431,16 @@
      "avg": 0.52,
      "mark": 0.515,
      "opened": "2026-11-27T13:59:59+00:00"
+    },
+    {
+     "title": "Spread: Suns (-1.5)",
+     "outcome": "Mavericks",
+     "event_slug": "nba-dal-phx-2026-11-27",
+     "cost": 3.47,
+     "shares": 7.15,
+     "avg": 0.485,
+     "mark": 0.475,
+     "opened": "2026-11-27T14:38:40+00:00"
     }
    ],
    "closed": [
@@ -8084,6 +8106,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T14:47:11+00:00",
+     "kind": "buy",
+     "title": "Spread: Suns (-1.5)",
+     "outcome": "Mavericks",
+     "event_slug": "nba-dal-phx-2026-11-27",
+     "leader_usd": 2082.72,
+     "stake": 3.47,
+     "price": 0.485,
+     "leader_price": 0.48,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-27T14:47:11+00:00",
+     "kind": "skip",
+     "title": "Spread: 76ers (-3.5)",
+     "outcome": "Pacers",
+     "event_slug": "nba-phi-ind-2026-11-27",
+     "leader_usd": 57.77,
+     "reason": "below $1 minimum",
+     "price": 0.535,
+     "leader_price": 0.53
+    },
     {
      "ts": "2026-11-27T14:32:13+00:00",
      "kind": "skip",
@@ -8757,28 +8802,6 @@
      "reason": "out of cash",
      "price": 0.66,
      "leader_price": 0.64
-    },
-    {
-     "ts": "2026-11-25T00:02:12+00:00",
-     "kind": "skip",
-     "title": "Spread: Vanderbilt Commodores (-2.5)",
-     "outcome": "Ohio State Buckeyes",
-     "event_slug": "cbb-vand-ohiost-2026-11-24",
-     "leader_usd": 522.52,
-     "reason": "out of cash",
-     "price": 0.52,
-     "leader_price": 0.537
-    },
-    {
-     "ts": "2026-11-24T23:47:13+00:00",
-     "kind": "skip",
-     "title": "Spread: Pistons (-4.5)",
-     "outcome": "Magic",
-     "event_slug": "nba-det-orl-2026-11-24",
-     "leader_usd": 950.4,
-     "reason": "out of cash",
-     "price": 0.685,
-     "leader_price": 0.66
     }
    ]
   },
@@ -10590,6 +10613,10 @@
     },
     {
      "t": "2026-11-27T14:32:13+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T14:47:11+00:00",
      "equity": 116.53
     }
    ],
@@ -12730,6 +12757,10 @@
     },
     {
      "t": "2026-11-27T14:32:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T14:47:11+00:00",
      "equity": 107.42
     }
    ],
