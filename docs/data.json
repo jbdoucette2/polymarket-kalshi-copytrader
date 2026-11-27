@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:17:13+00:00",
+ "updated": "2026-11-27T23:32:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1953,6 +1953,10 @@
     {
      "t": "2026-11-27T23:17:11+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-27T23:32:13+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2822,11 +2826,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.85,
+   "equity": 70.62,
    "cash": 8.13,
-   "pnl": -29.15,
-   "pnl_after_kalshi_fees": -33.32,
-   "return_pct": -29.2,
+   "pnl": -29.38,
+   "pnl_after_kalshi_fees": -33.55,
+   "return_pct": -29.4,
    "realized": -36.11,
    "kalshi_fees": 4.17,
    "settled": 24,
@@ -4766,6 +4770,10 @@
     {
      "t": "2026-11-27T23:17:11+00:00",
      "equity": 70.85
+    },
+    {
+     "t": "2026-11-27T23:32:13+00:00",
+     "equity": 70.62
     }
    ],
    "positions": [
@@ -4786,7 +4794,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.84,
+     "mark": 0.8405,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4836,7 +4844,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.335,
+     "mark": 0.25,
      "opened": "2026-11-27T20:20:50+00:00"
     },
     {
@@ -5822,10 +5830,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.59,
+   "equity": 46.57,
    "cash": 14.54,
-   "pnl": -53.41,
-   "pnl_after_kalshi_fees": -65.8,
+   "pnl": -53.43,
+   "pnl_after_kalshi_fees": -65.82,
    "return_pct": -53.4,
    "realized": -48.25,
    "kalshi_fees": 12.39,
@@ -5836,7 +5844,7 @@
    "open": 11,
    "at_risk": 37.21,
    "copied": 113,
-   "skipped": 94,
+   "skipped": 96,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7766,6 +7774,10 @@
     {
      "t": "2026-11-27T23:17:11+00:00",
      "equity": 46.59
+    },
+    {
+     "t": "2026-11-27T23:32:13+00:00",
+     "equity": 46.57
     }
    ],
    "positions": [
@@ -7776,7 +7788,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -8544,6 +8556,28 @@
    ],
    "log": [
     {
+     "ts": "2026-11-27T23:32:13+00:00",
+     "kind": "skip",
+     "title": "Counter-Strike: Astralis vs Imperial (BO1) - PGL Major Singapore Stage 2",
+     "outcome": "Imperial",
+     "event_slug": "cs2-ast10-imp11-2026-11-28",
+     "leader_usd": 21.84,
+     "reason": "below $1 minimum",
+     "price": 0.415,
+     "leader_price": 0.42
+    },
+    {
+     "ts": "2026-11-27T23:32:13+00:00",
+     "kind": "skip",
+     "title": "Spread: Knicks (-2.5)",
+     "outcome": "Knicks",
+     "event_slug": "nba-mia-nyk-2026-11-27",
+     "leader_usd": 64.66,
+     "reason": "below $1 minimum",
+     "price": 0.525,
+     "leader_price": 0.53
+    },
+    {
      "ts": "2026-11-27T22:32:12+00:00",
      "kind": "skip",
      "title": "Spread: 49ers (-1.5)",
@@ -9207,30 +9241,6 @@
      "stake": 3.65,
      "price": 0.545,
      "leader_price": 0.53,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T17:02:14+00:00",
-     "kind": "buy",
-     "title": "Packers vs. Rams: O/U 44.5",
-     "outcome": "Under",
-     "event_slug": "nfl-gb-la-2026-11-26",
-     "leader_usd": 6714.57,
-     "stake": 3.65,
-     "price": 0.535,
-     "leader_price": 0.53,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T15:32:12+00:00",
-     "kind": "buy",
-     "title": "Suns vs. Rockets: O/U 223.5",
-     "outcome": "Under",
-     "event_slug": "nba-phx-hou-2026-11-25",
-     "leader_usd": 1851.0,
-     "stake": 3.65,
-     "price": 0.525,
-     "leader_price": 0.497,
      "mult": 2.0
     }
    ]
@@ -11183,6 +11193,10 @@
     },
     {
      "t": "2026-11-27T23:17:11+00:00",
+     "equity": 116.52
+    },
+    {
+     "t": "2026-11-27T23:32:13+00:00",
      "equity": 116.52
     }
    ],
@@ -13497,6 +13511,10 @@
     },
     {
      "t": "2026-11-27T23:17:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T23:32:13+00:00",
      "equity": 107.42
     }
    ],

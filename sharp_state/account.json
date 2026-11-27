@@ -607,6 +607,18 @@
    "price": 0.545,
    "leader_price": 0.5,
    "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T23:32:15+00:00",
+   "kind": "skip",
+   "title": "Spread: Knicks (-2.5)",
+   "outcome": "Knicks",
+   "event_slug": "nba-mia-nyk-2026-11-27",
+   "leader_usd": 64.66,
+   "reason": "small bet for this wallet",
+   "price": 0.525,
+   "leader_price": 0.53,
+   "leader": "ic4cream"
   }
  ],
  "history": [
@@ -2521,11 +2533,15 @@
   {
    "t": "2026-11-27T23:17:13+00:00",
    "equity": 113.11
+  },
+  {
+   "t": "2026-11-27T23:32:15+00:00",
+   "equity": 113.11
   }
  ],
  "kfees": 1.21,
  "copied": 7,
- "skipped": 34,
+ "skipped": 35,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2536,8 +2552,8 @@
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
-  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795821286,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795818233
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795822123,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795822112
  },
  "day": {
   "2026-11-26": 5.36,
@@ -2815,6 +2831,18 @@
    ],
    "0x46f9dd4a94af815cb8383b3bc229021937cc09942dc58ececbe00ea88856358b": [
     1
+   ],
+   "0x387596bc45d50d16277b65ee14b9345cb4786684f571e11ff4bc6419acdbe14c": [
+    0
+   ],
+   "0x1ff1703935a840ab828b265cc380500cc700d93f1c0a973460fbfbbce2654af3": [
+    0
+   ],
+   "0xe667820681203e026071aceedb492c0710a0e4412a4887d9c958c3541e15f8f8": [
+    0
+   ],
+   "0x6f76fbd3e91aca0d80982cc4e6d26b48fb7467f48d90badeec939b1fc77d07e3": [
+    0
    ]
   },
   "0x27f738fe203827445690339104aae35b20bc44b0": {
@@ -2840,6 +2868,12 @@
     1
    ],
    "0xabe9b44a6195e1fa78f8c23c61acefcf40c156674f2d14afe2072c3cbf07a369": [
+    1
+   ],
+   "0xe499f22bd66f74aa706930665eab2f43947e862c6db717d3e2b523fd16f5e1d5": [
+    0
+   ],
+   "0xdbf66636d6fc1ad6b96c5f1d5338ccec7edf39928638e830d4f437cd1919ad77": [
     1
    ]
   }

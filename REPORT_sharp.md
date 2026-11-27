@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-27T23:17:13+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-27T23:32:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
 **$113.11** (+13.11; after Kalshi fees +11.90) · 4-1 · sold early 0 · 2 open ($9.44) · max drawdown 6.2%
 
@@ -22,6 +22,7 @@ Updated 2026-11-27T23:17:13+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-27 23:32 | skip | Spread: Knicks (-2.5) | Knicks | ic4cream | small bet for this wallet |
 | 11-27 22:32 | skip | Spread: 49ers (-1.5) | Seahawks | ic4cream | already have a bet on this game |
 | 11-27 22:32 | skip | Spread: 49ers (-2.5) | Seahawks | ic4cream | already have a bet on this game |
 | 11-27 22:32 | buy | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 at 52c |
@@ -61,7 +62,6 @@ Updated 2026-11-27T23:17:13+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 02:21 | skip | Titans vs. Cowboys | Titans | gmpm2 | small bet for this wallet |
 | 11-22 01:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
 | 11-21 18:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
-| 11-20 18:56 | skip | Magic vs. Nets: O/U 222.5 | Under | omnibus-076daa | market didn't react |
 
 ## Walk-forward test (2026-11-24)
 
