@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:02:15+00:00",
+ "updated": "2026-11-27T19:17:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1885,6 +1885,10 @@
     {
      "t": "2026-11-27T19:02:13+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T19:17:19+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2708,10 +2712,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 75.93,
+   "equity": 75.91,
    "cash": 13.63,
-   "pnl": -24.07,
-   "pnl_after_kalshi_fees": -28.14,
+   "pnl": -24.09,
+   "pnl_after_kalshi_fees": -28.16,
    "return_pct": -24.1,
    "realized": -27.39,
    "kalshi_fees": 4.07,
@@ -4584,6 +4588,10 @@
     {
      "t": "2026-11-27T19:02:13+00:00",
      "equity": 75.93
+    },
+    {
+     "t": "2026-11-27T19:17:19+00:00",
+     "equity": 75.91
     }
    ],
    "positions": [
@@ -4604,7 +4612,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8335,
+     "mark": 0.8425,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4654,7 +4662,7 @@
      "cost": 4.36,
      "shares": 8.15,
      "avg": 0.535,
-     "mark": 0.085,
+     "mark": 0.055,
      "opened": "2026-11-27T13:54:17+00:00"
     },
     {
@@ -5617,11 +5625,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 54.58,
+   "equity": 54.37,
    "cash": 0.75,
-   "pnl": -45.42,
-   "pnl_after_kalshi_fees": -57.81,
-   "return_pct": -45.4,
+   "pnl": -45.63,
+   "pnl_after_kalshi_fees": -58.02,
+   "return_pct": -45.6,
    "realized": -42.09,
    "kalshi_fees": 12.39,
    "settled": 83,
@@ -5631,7 +5639,7 @@
    "open": 16,
    "at_risk": 57.15,
    "copied": 113,
-   "skipped": 88,
+   "skipped": 89,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7493,6 +7501,10 @@
     {
      "t": "2026-11-27T19:02:13+00:00",
      "equity": 54.58
+    },
+    {
+     "t": "2026-11-27T19:17:19+00:00",
+     "equity": 54.37
     }
    ],
    "positions": [
@@ -7503,7 +7515,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -7593,7 +7605,7 @@
      "cost": 3.91,
      "shares": 7.45,
      "avg": 0.525,
-     "mark": 0.54,
+     "mark": 0.525,
      "opened": "2026-11-27T04:14:56+00:00"
     },
     {
@@ -7653,7 +7665,7 @@
      "cost": 3.47,
      "shares": 7.15,
      "avg": 0.485,
-     "mark": 0.465,
+     "mark": 0.455,
      "opened": "2026-11-27T14:38:40+00:00"
     }
    ],
@@ -8320,6 +8332,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T19:17:19+00:00",
+     "kind": "skip",
+     "title": "Spread: Suns (-1.5)",
+     "outcome": "Suns",
+     "event_slug": "nba-dal-phx-2026-11-27",
+     "leader_usd": 609.4,
+     "reason": "out of cash",
+     "price": 0.545,
+     "leader_price": 0.55
+    },
     {
      "ts": "2026-11-27T18:47:12+00:00",
      "kind": "skip",
@@ -9001,18 +9024,6 @@
      "stake": 3.65,
      "price": 0.525,
      "leader_price": 0.516,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T13:32:12+00:00",
-     "kind": "buy",
-     "title": "Spread: Broncos (-3.5)",
-     "outcome": "Steelers",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "leader_usd": 812.92,
-     "stake": 3.65,
-     "price": 0.515,
-     "leader_price": 0.506,
      "mult": 2.0
     }
    ]
@@ -10897,6 +10908,10 @@
     },
     {
      "t": "2026-11-27T19:02:13+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T19:17:19+00:00",
      "equity": 116.53
     }
    ],
@@ -13109,6 +13124,10 @@
     },
     {
      "t": "2026-11-27T19:02:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T19:17:19+00:00",
      "equity": 107.42
     }
    ],

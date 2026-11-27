@@ -1,25 +1,29 @@
 # Sharp Filter paper account
 
-Updated 2026-11-27T19:02:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-27T19:18:11+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$113.18** (+13.18; after Kalshi fees +12.29) · 4-1 · sold early 0 · 0 open ($0.00) · max drawdown 6.2%
+**$113.11** (+13.11; after Kalshi fees +12.09) · 4-1 · sold early 0 · 1 open ($3.89) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
 | Wallet | Scored bets | Edge | Sports copied |
 | --- | --- | --- | --- |
-| [Jsram](https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223) | 10 | +0.128 | epl +0.21 |
-| [gmpm2](https://polymarket.com/profile/0x67542c3219b37fd1610aad290676ff91cdbfe3bc) | 78 | +0.021 | nfl +0.14 |
+| [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | 108 | +0.036 | nfl +0.09, nba +0.06, cbb +0.02 |
+| [CUTJALENHURTS](https://polymarket.com/profile/0xf68a281980f8c13828e84e147e3822381d6e5b1b) | 88 | +0.015 | nfl +0.06 |
 
 ## Open
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
+| Spread: Suns (-1.5) | Suns | ic4cream | $3.89 | 55c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-27 19:17 | buy | Spread: Suns (-1.5) | Suns | ic4cream | $3.89 at 56c |
+| 11-27 19:17 | skip | Warriors vs. Trail Blazers: O/U 217.5 | Over | ic4cream | small bet for this wallet |
+| 11-27 19:17 | skip | Warriors vs. Trail Blazers | Trail Blazers | ic4cream | small bet for this wallet |
 | 11-26 21:17 | skip | Spread: Cowboys (-3.5) | Eagles | gmpm2 | market didn't react |
 | 11-26 21:02 | skip | Spread: Cowboys (-3.5) | Eagles | gmpm2 | small bet for this wallet |
 | 11-26 21:02 | skip | Spread: Cowboys (-2.5) | Eagles | gmpm2 | small bet for this wallet |

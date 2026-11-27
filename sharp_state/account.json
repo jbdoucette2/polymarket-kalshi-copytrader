@@ -3,10 +3,28 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 113.1782,
+ "cash": 109.2882,
  "since": 1795200975,
  "last_ts": 1795200975,
- "positions": {},
+ "positions": {
+  "20598971961150403145380433536493087500406797610470591327053606509802820788875": {
+   "cond": "0xaee0f74791bfb71a3dbe6e8a0362610e65add99ce289c757311832931b4e4e8b",
+   "idx": 0,
+   "outcome": "Suns",
+   "title": "Spread: Suns (-1.5)",
+   "slug": "nba-dal-phx-2026-11-27-spread-home-1pt5",
+   "event_slug": "nba-dal-phx-2026-11-27",
+   "shares": 7.0090090090090085,
+   "cost": 3.89,
+   "kfee": 0.13,
+   "opened": "2026-11-27T19:17:21+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 1108.0,
+   "edge": 0.0588,
+   "mark": 0.545
+  }
+ },
  "leader_shares": {},
  "median_usd": null,
  "closed": [
@@ -484,6 +502,44 @@
    "price": 0.345,
    "leader_price": 0.34,
    "leader": "gmpm2"
+  },
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "skip",
+   "title": "Warriors vs. Trail Blazers",
+   "outcome": "Trail Blazers",
+   "event_slug": "nba-gsw-por-2026-11-27",
+   "leader_usd": 18.5,
+   "reason": "small bet for this wallet",
+   "price": 0.735,
+   "leader_price": 0.73,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "skip",
+   "title": "Warriors vs. Trail Blazers: O/U 217.5",
+   "outcome": "Over",
+   "event_slug": "nba-gsw-por-2026-11-27",
+   "leader_usd": 100.0,
+   "reason": "small bet for this wallet",
+   "price": 0.505,
+   "leader_price": 0.5,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "buy",
+   "title": "Spread: Suns (-1.5)",
+   "outcome": "Suns",
+   "event_slug": "nba-dal-phx-2026-11-27",
+   "leader_usd": 609.4,
+   "stake": 3.89,
+   "price": 0.555,
+   "leader_price": 0.55,
+   "leader": "ic4cream",
+   "edge": 0.059,
+   "agree": false
   }
  ],
  "history": [
@@ -2330,11 +2386,15 @@
   {
    "t": "2026-11-27T19:02:15+00:00",
    "equity": 113.18
+  },
+  {
+   "t": "2026-11-27T19:17:21+00:00",
+   "equity": 113.11
   }
  ],
- "kfees": 0.89,
- "copied": 5,
- "skipped": 29,
+ "kfees": 1.02,
+ "copied": 6,
+ "skipped": 31,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2344,10 +2404,13 @@
   "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": 1795200967,
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
-  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403
+  "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795804397,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795806337
  },
  "day": {
-  "2026-11-26": 5.36
+  "2026-11-26": 5.36,
+  "2026-11-27": 3.89
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -2362,7 +2425,14 @@
   }
  },
  "bench": [],
- "recent": [],
+ "recent": [
+  [
+   1795807041,
+   "0xaee0f74791bfb71a3dbe6e8a0362610e65add99ce289c757311832931b4e4e8b",
+   0,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ]
+ ],
  "sides": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
    "0x5501fc55c35ccc9c714880095f601794e8c60ecbb13765400378793c9ce2cbd3": [
@@ -2521,6 +2591,28 @@
     1
    ],
    "0x6f76fbd3e91aca0d80982cc4e6d26b48fb7467f48d90badeec939b1fc77d07e3": [
+    0
+   ]
+  },
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+   "0x79096ac1c2379d0b404ee975df2849bdced963659416258b08ec2256ad296e9d": [
+    0
+   ],
+   "0xfb702e36d89e429595fafae554d01fcd50900a2ea5c3e9b5af1b47082f21d7c3": [
+    1
+   ],
+   "0x7ed6583ad4b5e68130d37bfff5fe31eaa12cf38944f04b5224060cb1a272d9f2": [
+    1
+   ]
+  },
+  "0x27f738fe203827445690339104aae35b20bc44b0": {
+   "0x937c743974f9a4667d0e079f4bab20681448c79f306feffddc6998fa7bd6ca3c": [
+    1
+   ],
+   "0x6bcf5dedcac18e52119c73584a495f25655e094307618ec54368f1506f3d2124": [
+    0
+   ],
+   "0xaee0f74791bfb71a3dbe6e8a0362610e65add99ce289c757311832931b4e4e8b": [
     0
    ]
   }

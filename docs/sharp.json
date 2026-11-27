@@ -3,21 +3,21 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 113.18,
- "cash": 113.18,
- "pnl": 13.18,
- "pnl_after_kalshi_fees": 12.29,
- "return_pct": 13.2,
+ "equity": 113.11,
+ "cash": 109.29,
+ "pnl": 13.11,
+ "pnl_after_kalshi_fees": 12.09,
+ "return_pct": 13.1,
  "realized": 13.17,
- "kalshi_fees": 0.89,
+ "kalshi_fees": 1.02,
  "settled": 5,
  "won": 4,
  "lost": 1,
  "sold_early": 0,
- "open": 0,
- "at_risk": 0,
- "copied": 5,
- "skipped": 29,
+ "open": 1,
+ "at_risk": 3.89,
+ "copied": 6,
+ "skipped": 31,
  "max_drawdown_pct": 6.2,
  "history": [
   {
@@ -1863,34 +1863,48 @@
   {
    "t": "2026-11-27T19:02:15+00:00",
    "equity": 113.18
+  },
+  {
+   "t": "2026-11-27T19:17:21+00:00",
+   "equity": 113.11
   }
  ],
- "scored": "2026-11-20T19:06:18+00:00",
+ "scored": "2026-11-27T19:17:21+00:00",
  "wallets": [
   {
-   "addr": "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
-   "name": "Jsram",
-   "n": 10,
-   "edge": 0.1277,
+   "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "name": "ic4cream",
+   "n": 108,
+   "edge": 0.0364,
    "sports": [
     {
-     "sport": "epl",
-     "edge": 0.2095,
-     "n": 5
+     "sport": "nfl",
+     "edge": 0.0917,
+     "n": 16
+    },
+    {
+     "sport": "nba",
+     "edge": 0.0588,
+     "n": 31
+    },
+    {
+     "sport": "cbb",
+     "edge": 0.021,
+     "n": 25
     }
    ],
    "benched": false
   },
   {
-   "addr": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
-   "name": "gmpm2",
-   "n": 78,
-   "edge": 0.0215,
+   "addr": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+   "name": "CUTJALENHURTS",
+   "n": 88,
+   "edge": 0.0151,
    "sports": [
     {
      "sport": "nfl",
-     "edge": 0.1406,
-     "n": 31
+     "edge": 0.0573,
+     "n": 12
     }
    ],
    "benched": false
@@ -1907,7 +1921,16 @@
   "copied": 125,
   "skipped": 253
  },
- "positions": [],
+ "positions": [
+  {
+   "title": "Spread: Suns (-1.5)",
+   "outcome": "Suns",
+   "leader": "ic4cream",
+   "cost": 3.89,
+   "avg": 0.555,
+   "mark": 0.545
+  }
+ ],
  "closed": [
   {
    "ts": "2026-11-27T04:47:22+00:00",
@@ -1966,6 +1989,44 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "buy",
+   "title": "Spread: Suns (-1.5)",
+   "outcome": "Suns",
+   "event_slug": "nba-dal-phx-2026-11-27",
+   "leader_usd": 609.4,
+   "stake": 3.89,
+   "price": 0.555,
+   "leader_price": 0.55,
+   "leader": "ic4cream",
+   "edge": 0.059,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "skip",
+   "title": "Warriors vs. Trail Blazers: O/U 217.5",
+   "outcome": "Over",
+   "event_slug": "nba-gsw-por-2026-11-27",
+   "leader_usd": 100.0,
+   "reason": "small bet for this wallet",
+   "price": 0.505,
+   "leader_price": 0.5,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T19:17:21+00:00",
+   "kind": "skip",
+   "title": "Warriors vs. Trail Blazers",
+   "outcome": "Trail Blazers",
+   "event_slug": "nba-gsw-por-2026-11-27",
+   "leader_usd": 18.5,
+   "reason": "small bet for this wallet",
+   "price": 0.735,
+   "leader_price": 0.73,
+   "leader": "ic4cream"
+  },
   {
    "ts": "2026-11-26T21:17:15+00:00",
    "kind": "skip",
@@ -2385,6 +2446,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-27T19:02:16+00:00",
+ "updated": "2026-11-27T19:18:11+00:00",
  "start": 100.0
 }
