@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:32:16+00:00",
+ "updated": "2026-11-27T22:47:12+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,10 +9,10 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.78,
+   "equity": 73.76,
    "cash": 73.69,
-   "pnl": -26.22,
-   "pnl_after_kalshi_fees": -30.82,
+   "pnl": -26.24,
+   "pnl_after_kalshi_fees": -30.84,
    "return_pct": -26.2,
    "realized": -19.32,
    "kalshi_fees": 4.6,
@@ -1941,6 +1941,10 @@
     {
      "t": "2026-11-27T22:32:12+00:00",
      "equity": 73.78
+    },
+    {
+     "t": "2026-11-27T22:47:11+00:00",
+     "equity": 73.76
     }
    ],
    "positions": [
@@ -1951,7 +1955,7 @@
      "cost": 4.84,
      "shares": 11.13,
      "avg": 0.435,
-     "mark": 0.0055,
+     "mark": 0.0065,
      "opened": "2026-11-27T19:59:43+00:00"
     },
     {
@@ -1961,7 +1965,7 @@
      "cost": 2.14,
      "shares": 4.7,
      "avg": 0.455,
-     "mark": 0.005,
+     "mark": 0.0005,
      "opened": "2026-11-27T19:59:50+00:00"
     }
    ],
@@ -2809,11 +2813,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.66,
+   "equity": 70.89,
    "cash": 12.23,
-   "pnl": -29.34,
-   "pnl_after_kalshi_fees": -33.47,
-   "return_pct": -29.3,
+   "pnl": -29.11,
+   "pnl_after_kalshi_fees": -33.24,
+   "return_pct": -29.1,
    "realized": -31.75,
    "kalshi_fees": 4.13,
    "settled": 23,
@@ -4741,6 +4745,10 @@
     {
      "t": "2026-11-27T22:32:12+00:00",
      "equity": 70.66
+    },
+    {
+     "t": "2026-11-27T22:47:11+00:00",
+     "equity": 70.89
     }
    ],
    "positions": [
@@ -4791,7 +4799,7 @@
      "cost": 4.36,
      "shares": 6.36,
      "avg": 0.685,
-     "mark": 0.0065,
+     "mark": 0.0005,
      "opened": "2026-11-26T22:56:22+00:00"
     },
     {
@@ -4821,7 +4829,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.235,
+     "mark": 0.33,
      "opened": "2026-11-27T20:20:50+00:00"
     }
    ],
@@ -5785,11 +5793,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.72,
+   "equity": 46.58,
    "cash": 0.75,
-   "pnl": -53.28,
-   "pnl_after_kalshi_fees": -65.67,
-   "return_pct": -53.3,
+   "pnl": -53.42,
+   "pnl_after_kalshi_fees": -65.81,
+   "return_pct": -53.4,
    "realized": -43.26,
    "kalshi_fees": 12.39,
    "settled": 84,
@@ -7717,6 +7725,10 @@
     {
      "t": "2026-11-27T22:32:12+00:00",
      "equity": 46.72
+    },
+    {
+     "t": "2026-11-27T22:47:11+00:00",
+     "equity": 46.58
     }
    ],
    "positions": [
@@ -7757,7 +7769,7 @@
      "cost": 3.3,
      "shares": 5.37,
      "avg": 0.615,
-     "mark": 0.0065,
+     "mark": 0.0005,
      "opened": "2026-11-25T04:12:02+00:00"
     },
     {
@@ -7837,7 +7849,7 @@
      "cost": 4.26,
      "shares": 9.16,
      "avg": 0.465,
-     "mark": 0.0045,
+     "mark": 0.0005,
      "opened": "2026-11-27T04:56:08+00:00"
     },
     {
@@ -7847,7 +7859,7 @@
      "cost": 3.47,
      "shares": 6.87,
      "avg": 0.505,
-     "mark": 0.485,
+     "mark": 0.475,
      "opened": "2026-11-27T13:22:07+00:00"
     },
     {
@@ -9231,20 +9243,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 116.53,
-   "cash": 105.32,
-   "pnl": 16.53,
-   "pnl_after_kalshi_fees": 13.88,
+   "equity": 116.46,
+   "cash": 102.49,
+   "pnl": 16.46,
+   "pnl_after_kalshi_fees": 13.68,
    "return_pct": 16.5,
    "realized": 16.38,
-   "kalshi_fees": 2.65,
+   "kalshi_fees": 2.78,
    "settled": 12,
    "won": 7,
    "lost": 5,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 11.05,
-   "copied": 15,
+   "open": 2,
+   "at_risk": 13.88,
+   "copied": 16,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -11163,6 +11175,10 @@
     {
      "t": "2026-11-27T22:32:12+00:00",
      "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T22:47:11+00:00",
+     "equity": 116.46
     }
    ],
    "positions": [
@@ -11175,6 +11191,16 @@
      "avg": 0.478,
      "mark": 0.485,
      "opened": "2026-11-27T12:33:10+00:00"
+    },
+    {
+     "title": "AD Cali vs. CA Bucaramanga: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "col1-adc-cab-2026-11-27-more-markets",
+     "cost": 2.83,
+     "shares": 7.35,
+     "avg": 0.385,
+     "mark": 0.375,
+     "opened": "2026-11-27T22:43:31+00:00"
     }
    ],
    "closed": [
@@ -11312,6 +11338,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T22:47:11+00:00",
+     "kind": "buy",
+     "title": "AD Cali vs. CA Bucaramanga: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "col1-adc-cab-2026-11-27-more-markets",
+     "leader_usd": 4034.81,
+     "stake": 2.83,
+     "price": 0.385,
+     "leader_price": 0.385,
+     "mult": 0.81
+    },
     {
      "ts": "2026-11-27T13:32:11+00:00",
      "kind": "buy",
@@ -13430,6 +13468,10 @@
     },
     {
      "t": "2026-11-27T22:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T22:47:11+00:00",
      "equity": 107.42
     }
    ],
