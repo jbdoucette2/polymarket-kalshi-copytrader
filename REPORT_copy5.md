@@ -1,13 +1,13 @@
 # Copy-5 paper accounts
 
-Updated 2026-11-27T21:47:13+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
+Updated 2026-11-27T22:02:23+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
 
 | Acct | Leader | Risk | Equity | P&L | After Kalshi fees | W-L | Sold early | Open | Max drawdown |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) | High | $74.08 | -25.92 | -30.52 | 12-14 | 0 | 2 ($6.98) | 30.7% |
-| B | [Flipadelphia](https://polymarket.com/profile/0x448861155279dbf833d041b963e3ac854599e319) | Medium | $71.81 | -28.19 | -32.32 | 6-17 | 0 | 8 ($56.02) | 40.5% |
-| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $47.65 | -52.35 | -64.74 | 45-39 | 0 | 15 ($55.98) | 73.4% |
-| D | [GetsOnBase](https://polymarket.com/profile/0x018d6c652ca2f1d428a1186faafcf03b537eac8a) | Medium-high: few, large bets | $116.30 | +16.30 | +13.65 | 7-5 | 0 | 1 ($11.05) | 14.2% |
+| A | [BreakTheBank](https://polymarket.com/profile/0xf0318c32136c2db7fec88b84869aee6a1106c80c) | High | $73.87 | -26.13 | -30.73 | 12-14 | 0 | 2 ($6.98) | 30.9% |
+| B | [Flipadelphia](https://polymarket.com/profile/0x448861155279dbf833d041b963e3ac854599e319) | Medium | $70.94 | -29.06 | -33.19 | 6-17 | 0 | 8 ($56.02) | 40.9% |
+| C | [ic4cream](https://polymarket.com/profile/0x27f738fe203827445690339104aae35b20bc44b0) | Medium | $46.86 | -53.14 | -65.53 | 45-39 | 0 | 15 ($55.98) | 73.4% |
+| D | [GetsOnBase](https://polymarket.com/profile/0x018d6c652ca2f1d428a1186faafcf03b537eac8a) | Medium-high: few, large bets | $116.53 | +16.53 | +13.88 | 7-5 | 0 | 1 ($11.05) | 14.2% |
 | E | [dabossrealman](https://polymarket.com/profile/0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38) | Control: in-game bettor | $107.42 | +7.42 | +6.34 | 15-1 | 0 | 0 ($0.00) | 8.9% |
 
 ## Backtest: 30 days, instant copy (leader's own price)
