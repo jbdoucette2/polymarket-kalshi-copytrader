@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:47:14+00:00",
+ "updated": "2026-11-27T14:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1801,6 +1801,10 @@
     {
      "t": "2026-11-27T13:47:12+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T14:02:12+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2624,20 +2628,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.88,
-   "cash": 19.57,
-   "pnl": -21.12,
-   "pnl_after_kalshi_fees": -24.98,
-   "return_pct": -21.1,
+   "equity": 78.84,
+   "cash": 15.21,
+   "pnl": -21.16,
+   "pnl_after_kalshi_fees": -25.17,
+   "return_pct": -21.2,
    "realized": -27.39,
-   "kalshi_fees": 3.86,
+   "kalshi_fees": 4.01,
    "settled": 22,
    "won": 6,
    "lost": 16,
    "sold_early": 0,
-   "open": 6,
-   "at_risk": 53.04,
-   "copied": 40,
+   "open": 7,
+   "at_risk": 57.4,
+   "copied": 41,
    "skipped": 25,
    "max_drawdown_pct": 39.9,
    "focus": "College football, NFL",
@@ -4416,6 +4420,10 @@
     {
      "t": "2026-11-27T13:47:12+00:00",
      "equity": 78.88
+    },
+    {
+     "t": "2026-11-27T14:02:12+00:00",
+     "equity": 78.84
     }
    ],
    "positions": [
@@ -4436,7 +4444,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.825,
+     "mark": 0.8265,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4478,6 +4486,16 @@
      "avg": 0.755,
      "mark": 0.745,
      "opened": "2026-11-27T00:35:28+00:00"
+    },
+    {
+     "title": "Tulsa vs. UTSA",
+     "outcome": "Tulsa",
+     "event_slug": "cfb-tulsa-utsa-2026-11-27",
+     "cost": 4.36,
+     "shares": 8.15,
+     "avg": 0.535,
+     "mark": 0.525,
+     "opened": "2026-11-27T13:54:17+00:00"
     }
    ],
    "closed": [
@@ -4725,6 +4743,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T14:02:12+00:00",
+     "kind": "buy",
+     "title": "Tulsa vs. UTSA",
+     "outcome": "Tulsa",
+     "event_slug": "cfb-tulsa-utsa-2026-11-27",
+     "leader_usd": 3857.46,
+     "stake": 4.36,
+     "price": 0.535,
+     "leader_price": 0.52,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-27T10:47:11+00:00",
      "kind": "buy",
@@ -5409,18 +5439,6 @@
      "price": 0.345,
      "leader_price": 0.35,
      "mult": 0.85
-    },
-    {
-     "ts": "2026-11-21T16:44:36+00:00",
-     "kind": "buy",
-     "title": "Colorado vs. Cincinnati",
-     "outcome": "Cincinnati",
-     "event_slug": "cfb-col-cin-2026-11-21",
-     "leader_usd": 1780.14,
-     "stake": 3.9,
-     "price": 0.605,
-     "leader_price": 0.59,
-     "mult": 1.3
     }
    ]
   },
@@ -5429,20 +5447,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 56.06,
-   "cash": 7.69,
-   "pnl": -43.94,
-   "pnl_after_kalshi_fees": -56.08,
-   "return_pct": -43.9,
+   "equity": 56.02,
+   "cash": 4.22,
+   "pnl": -43.98,
+   "pnl_after_kalshi_fees": -56.24,
+   "return_pct": -44.0,
    "realized": -42.09,
-   "kalshi_fees": 12.14,
+   "kalshi_fees": 12.26,
    "settled": 83,
    "won": 45,
    "lost": 38,
    "sold_early": 0,
-   "open": 14,
-   "at_risk": 50.21,
-   "copied": 111,
+   "open": 15,
+   "at_risk": 53.68,
+   "copied": 112,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -7221,6 +7239,10 @@
     {
      "t": "2026-11-27T13:47:12+00:00",
      "equity": 56.06
+    },
+    {
+     "t": "2026-11-27T14:02:12+00:00",
+     "equity": 56.02
     }
    ],
    "positions": [
@@ -7363,6 +7385,16 @@
      "avg": 0.6,
      "mark": 0.59,
      "opened": "2026-11-27T13:37:01+00:00"
+    },
+    {
+     "title": "Spread: Jacksonville State Gamecocks (-5.5)",
+     "outcome": "Omaha Mavericks",
+     "event_slug": "cbb-jaxst-neom-2026-11-27",
+     "cost": 3.47,
+     "shares": 6.67,
+     "avg": 0.52,
+     "mark": 0.515,
+     "opened": "2026-11-27T13:59:59+00:00"
     }
    ],
    "closed": [
@@ -8028,6 +8060,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T14:02:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Jacksonville State Gamecocks (-5.5)",
+     "outcome": "Omaha Mavericks",
+     "event_slug": "cbb-jaxst-neom-2026-11-27",
+     "leader_usd": 2504.57,
+     "stake": 3.47,
+     "price": 0.52,
+     "leader_price": 0.51,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-27T13:47:12+00:00",
      "kind": "buy",
@@ -8711,18 +8755,6 @@
      "reason": "out of cash",
      "price": 0.495,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-24T22:47:13+00:00",
-     "kind": "buy",
-     "title": "Spread: Liberty (-17.5)",
-     "outcome": "Missouri State",
-     "event_slug": "cfb-librty-msrst-2026-11-28",
-     "leader_usd": 348.4,
-     "stake": 2.36,
-     "price": 0.525,
-     "leader_price": 0.52,
-     "mult": 1.31
     }
    ]
   },
@@ -10522,6 +10554,10 @@
     },
     {
      "t": "2026-11-27T13:47:12+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T14:02:12+00:00",
      "equity": 116.53
     }
    ],
@@ -12650,6 +12686,10 @@
     },
     {
      "t": "2026-11-27T13:47:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T14:02:12+00:00",
      "equity": 107.42
     }
    ],
