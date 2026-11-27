@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:47:11+00:00",
+ "updated": "2026-11-27T18:02:19+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1865,6 +1865,10 @@
     {
      "t": "2026-11-27T17:47:10+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T18:02:12+00:00",
+     "equity": 80.67
     }
    ],
    "positions": [],
@@ -2688,11 +2692,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 78.54,
+   "equity": 77.41,
    "cash": 13.63,
-   "pnl": -21.46,
-   "pnl_after_kalshi_fees": -25.53,
-   "return_pct": -21.5,
+   "pnl": -22.59,
+   "pnl_after_kalshi_fees": -26.66,
+   "return_pct": -22.6,
    "realized": -27.39,
    "kalshi_fees": 4.07,
    "settled": 22,
@@ -4544,6 +4548,10 @@
     {
      "t": "2026-11-27T17:47:10+00:00",
      "equity": 78.54
+    },
+    {
+     "t": "2026-11-27T18:02:12+00:00",
+     "equity": 77.41
     }
    ],
    "positions": [
@@ -4564,7 +4572,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.829,
+     "mark": 0.839,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4614,7 +4622,7 @@
      "cost": 4.36,
      "shares": 8.15,
      "avg": 0.535,
-     "mark": 0.455,
+     "mark": 0.285,
      "opened": "2026-11-27T13:54:17+00:00"
     },
     {
@@ -5577,11 +5585,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 55.41,
+   "equity": 54.85,
    "cash": 0.75,
-   "pnl": -44.59,
-   "pnl_after_kalshi_fees": -56.98,
-   "return_pct": -44.6,
+   "pnl": -45.15,
+   "pnl_after_kalshi_fees": -57.54,
+   "return_pct": -45.1,
    "realized": -42.09,
    "kalshi_fees": 12.39,
    "settled": 83,
@@ -5591,7 +5599,7 @@
    "open": 16,
    "at_risk": 57.15,
    "copied": 113,
-   "skipped": 85,
+   "skipped": 86,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7433,6 +7441,10 @@
     {
      "t": "2026-11-27T17:47:10+00:00",
      "equity": 55.41
+    },
+    {
+     "t": "2026-11-27T18:02:12+00:00",
+     "equity": 54.85
     }
    ],
    "positions": [
@@ -7443,7 +7455,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -7573,7 +7585,7 @@
      "cost": 1.17,
      "shares": 1.95,
      "avg": 0.6,
-     "mark": 0.35,
+     "mark": 0.075,
      "opened": "2026-11-27T13:37:01+00:00"
     },
     {
@@ -8261,6 +8273,17 @@
    ],
    "log": [
     {
+     "ts": "2026-11-27T18:02:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Penguins (-1.5)",
+     "outcome": "Penguins",
+     "event_slug": "nhl-pit-buf-2026-11-27",
+     "leader_usd": 8.97,
+     "reason": "out of cash",
+     "price": 0.235,
+     "leader_price": 0.23
+    },
+    {
      "ts": "2026-11-27T16:47:12+00:00",
      "kind": "skip",
      "title": "Spread: USC (-5.5)",
@@ -8945,17 +8968,6 @@
      "price": 0.54,
      "leader_price": 0.52,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T00:02:12+00:00",
-     "kind": "skip",
-     "title": "Spread: Eastern Michigan (-6.5)",
-     "outcome": "Eastern Michigan",
-     "event_slug": "cfb-kentst-emich-2026-11-24",
-     "leader_usd": 685.88,
-     "reason": "out of cash",
-     "price": 0.525,
-     "leader_price": 0.52
     }
    ]
   },
@@ -10819,6 +10831,10 @@
     },
     {
      "t": "2026-11-27T17:47:10+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T18:02:12+00:00",
      "equity": 116.53
     }
    ],
@@ -13011,6 +13027,10 @@
     },
     {
      "t": "2026-11-27T17:47:10+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T18:02:12+00:00",
      "equity": 107.42
     }
    ],
