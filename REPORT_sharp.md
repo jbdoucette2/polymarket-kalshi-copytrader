@@ -1,6 +1,6 @@
 # Sharp Filter paper account
 
-Updated 2026-11-27T20:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-27T20:47:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
 **$113.11** (+13.11; after Kalshi fees +12.09) · 4-1 · sold early 0 · 1 open ($3.89) · max drawdown 6.2%
 
@@ -21,6 +21,7 @@ Updated 2026-11-27T20:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-27 20:47 | skip | Giants vs. Colts | Colts | ic4cream | small bet for this wallet |
 | 11-27 19:17 | buy | Spread: Suns (-1.5) | Suns | ic4cream | $3.89 at 56c |
 | 11-27 19:17 | skip | Warriors vs. Trail Blazers: O/U 217.5 | Over | ic4cream | small bet for this wallet |
 | 11-27 19:17 | skip | Warriors vs. Trail Blazers | Trail Blazers | ic4cream | small bet for this wallet |

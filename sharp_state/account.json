@@ -540,6 +540,18 @@
    "leader": "ic4cream",
    "edge": 0.059,
    "agree": false
+  },
+  {
+   "ts": "2026-11-27T20:47:13+00:00",
+   "kind": "skip",
+   "title": "Giants vs. Colts",
+   "outcome": "Colts",
+   "event_slug": "nfl-nyg-ind-2026-11-29",
+   "leader_usd": 30.8,
+   "reason": "small bet for this wallet",
+   "price": 0.275,
+   "leader_price": 0.28,
+   "leader": "ic4cream"
   }
  ],
  "history": [
@@ -2410,11 +2422,15 @@
   {
    "t": "2026-11-27T20:32:15+00:00",
    "equity": 113.11
+  },
+  {
+   "t": "2026-11-27T20:47:13+00:00",
+   "equity": 113.11
   }
  ],
  "kfees": 1.02,
  "copied": 6,
- "skipped": 31,
+ "skipped": 32,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2425,8 +2441,8 @@
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
-  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795810997,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795810835
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795811983,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795811371
  },
  "day": {
   "2026-11-26": 5.36,
@@ -2645,6 +2661,12 @@
    ],
    "0xbec11310a30324181125d890a817d639716c0173c225e461c3292d7ed5044f6e": [
     1
+   ],
+   "0x18b5a551b5096ce13d3aca43b4b40b95f2ff7bccb2f552683159685908124c9a": [
+    1
+   ],
+   "0x7a773669dc1c49cf5e1118a77bee385c7b98dfa0f9de51d74c8c7fcf4bcb7aeb": [
+    1
    ]
   },
   "0x27f738fe203827445690339104aae35b20bc44b0": {
@@ -2659,6 +2681,9 @@
    ],
    "0x5ce1f2c0ebe75497826a8994b687ca29c578f9ddfd0ff4066ce388c23f45b358": [
     0
+   ],
+   "0x44af95c871127be21c2a6879c7887001f43b8d6789a6a884ab91f0b4c172493a": [
+    1
    ]
   }
  }
