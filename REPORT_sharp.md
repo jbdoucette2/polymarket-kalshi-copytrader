@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-27T03:17:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
+Updated 2026-11-27T03:32:12+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-20.
 
-**$110.86** (+10.86; after Kalshi fees +9.97) · 3-1 · sold early 0 · 1 open ($5.36) · max drawdown 6.2%
+**$112.28** (+12.28; after Kalshi fees +11.39) · 3-1 · sold early 0 · 1 open ($5.36) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,7 +15,7 @@ Updated 2026-11-27T03:17:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
-| Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | $5.36 | 80c |
+| Chiefs vs. Bills: O/U 44.5 | Under | gmpm2 | $5.36 | 92c |
 
 ## Recent decisions
 
