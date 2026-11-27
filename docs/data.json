@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:02:16+00:00",
+ "updated": "2026-11-27T23:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,19 +9,19 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.7,
+   "equity": 73.69,
    "cash": 73.69,
-   "pnl": -26.3,
-   "pnl_after_kalshi_fees": -30.9,
+   "pnl": -26.31,
+   "pnl_after_kalshi_fees": -30.91,
    "return_pct": -26.3,
-   "realized": -19.32,
+   "realized": -26.3,
    "kalshi_fees": 4.6,
-   "settled": 26,
+   "settled": 28,
    "won": 12,
-   "lost": 14,
+   "lost": 16,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 6.98,
+   "open": 0,
+   "at_risk": 0,
    "copied": 31,
    "skipped": 16,
    "max_drawdown_pct": 31.1,
@@ -1949,31 +1949,36 @@
     {
      "t": "2026-11-27T23:02:13+00:00",
      "equity": 73.7
-    }
-   ],
-   "positions": [
-    {
-     "title": "Spread: Broncos (-5.5)",
-     "outcome": "Broncos",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "cost": 4.84,
-     "shares": 11.13,
-     "avg": 0.435,
-     "mark": 0.0005,
-     "opened": "2026-11-27T19:59:43+00:00"
     },
     {
+     "t": "2026-11-27T23:17:11+00:00",
+     "equity": 73.69
+    }
+   ],
+   "positions": [],
+   "closed": [
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
      "title": "Spread: Broncos (-4.5)",
      "outcome": "Broncos",
      "event_slug": "nfl-den-pit-2026-11-27",
      "cost": 2.14,
-     "shares": 4.7,
-     "avg": 0.455,
-     "mark": 0.0005,
-     "opened": "2026-11-27T19:59:50+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -2.14,
+     "kfee": 0.09,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
+     "title": "Spread: Broncos (-5.5)",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 4.84,
+     "pnl": -4.84,
+     "kfee": 0.2,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T04:47:21+00:00",
      "title": "Chiefs vs. Bills",
@@ -2817,19 +2822,19 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.81,
+   "equity": 70.85,
    "cash": 8.13,
-   "pnl": -29.19,
-   "pnl_after_kalshi_fees": -33.36,
+   "pnl": -29.15,
+   "pnl_after_kalshi_fees": -33.32,
    "return_pct": -29.2,
-   "realized": -31.75,
+   "realized": -36.11,
    "kalshi_fees": 4.17,
-   "settled": 23,
+   "settled": 24,
    "won": 6,
-   "lost": 17,
+   "lost": 18,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 60.12,
+   "open": 8,
+   "at_risk": 55.76,
    "copied": 44,
    "skipped": 28,
    "max_drawdown_pct": 41.2,
@@ -4757,6 +4762,10 @@
     {
      "t": "2026-11-27T23:02:13+00:00",
      "equity": 70.81
+    },
+    {
+     "t": "2026-11-27T23:17:11+00:00",
+     "equity": 70.85
     }
    ],
    "positions": [
@@ -4777,7 +4786,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.838,
+     "mark": 0.84,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4799,16 +4808,6 @@
      "avg": 0.755,
      "mark": 0.735,
      "opened": "2026-11-26T14:03:09+00:00"
-    },
-    {
-     "title": "Broncos vs. Steelers",
-     "outcome": "Broncos",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "cost": 4.36,
-     "shares": 6.36,
-     "avg": 0.685,
-     "mark": 0.0005,
-     "opened": "2026-11-26T22:56:22+00:00"
     },
     {
      "title": "Will PP win the most seats in the 2026 Spanish general election?",
@@ -4837,7 +4836,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.325,
+     "mark": 0.335,
      "opened": "2026-11-27T20:20:50+00:00"
     },
     {
@@ -4847,11 +4846,22 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8695,
+     "mark": 0.8625,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
+     "title": "Broncos vs. Steelers",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 4.36,
+     "pnl": -4.36,
+     "kfee": 0.1,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T21:02:12+00:00",
      "title": "Tulsa vs. UTSA",
@@ -5812,19 +5822,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.57,
-   "cash": 0.75,
-   "pnl": -53.43,
-   "pnl_after_kalshi_fees": -65.82,
+   "equity": 46.59,
+   "cash": 14.54,
+   "pnl": -53.41,
+   "pnl_after_kalshi_fees": -65.8,
    "return_pct": -53.4,
-   "realized": -47.17,
+   "realized": -48.25,
    "kalshi_fees": 12.39,
-   "settled": 85,
-   "won": 45,
-   "lost": 40,
+   "settled": 88,
+   "won": 46,
+   "lost": 42,
    "sold_early": 0,
-   "open": 14,
-   "at_risk": 52.07,
+   "open": 11,
+   "at_risk": 37.21,
    "copied": 113,
    "skipped": 94,
    "max_drawdown_pct": 73.4,
@@ -7752,6 +7762,10 @@
     {
      "t": "2026-11-27T23:02:13+00:00",
      "equity": 46.57
+    },
+    {
+     "t": "2026-11-27T23:17:11+00:00",
+     "equity": 46.59
     }
    ],
    "positions": [
@@ -7762,7 +7776,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.545,
+     "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -7784,26 +7798,6 @@
      "avg": 0.475,
      "mark": 0.465,
      "opened": "2026-11-24T22:37:38+00:00"
-    },
-    {
-     "title": "Broncos vs. Steelers",
-     "outcome": "Broncos",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "cost": 3.3,
-     "shares": 5.37,
-     "avg": 0.615,
-     "mark": 0.0005,
-     "opened": "2026-11-25T04:12:02+00:00"
-    },
-    {
-     "title": "Spread: Broncos (-3.5)",
-     "outcome": "Steelers",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "cost": 7.3,
-     "shares": 13.78,
-     "avg": 0.53,
-     "mark": 0.9995,
-     "opened": "2026-11-25T13:20:16+00:00"
     },
     {
      "title": "Spread: South Carolina (-6.5)",
@@ -7856,16 +7850,6 @@
      "opened": "2026-11-27T04:18:23+00:00"
     },
     {
-     "title": "Spread: Broncos (-6.5)",
-     "outcome": "Broncos",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "cost": 4.26,
-     "shares": 9.16,
-     "avg": 0.465,
-     "mark": 0.0005,
-     "opened": "2026-11-27T04:56:08+00:00"
-    },
-    {
      "title": "Spread: Celtics (-8.5)",
      "outcome": "Hawks",
      "event_slug": "nba-atl-bos-2026-11-27",
@@ -7897,6 +7881,39 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
+     "title": "Spread: Broncos (-6.5)",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 4.26,
+     "pnl": -4.26,
+     "kfee": 0.16,
+     "how": "lost",
+     "exit_price": 0.0
+    },
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
+     "title": "Spread: Broncos (-3.5)",
+     "outcome": "Steelers",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 7.3,
+     "pnl": 6.48,
+     "kfee": 0.25,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-27T23:17:11+00:00",
+     "title": "Broncos vs. Steelers",
+     "outcome": "Broncos",
+     "event_slug": "nfl-den-pit-2026-11-27",
+     "cost": 3.3,
+     "pnl": -3.3,
+     "kfee": 0.09,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T23:02:13+00:00",
      "title": "South Alabama Jaguars vs. Fresno State Bulldogs",
@@ -8521,39 +8538,6 @@
      "cost": 2.01,
      "pnl": 1.49,
      "kfee": 0.06,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-22T08:21:27+00:00",
-     "title": "Oklahoma State vs. Arizona State",
-     "outcome": "Oklahoma State",
-     "event_slug": "cfb-okst-arzst-2026-11-21",
-     "cost": 5.53,
-     "pnl": 3.18,
-     "kfee": 0.15,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-22T08:21:27+00:00",
-     "title": "Spread: Oklahoma State (-4.5)",
-     "outcome": "Arizona State",
-     "event_slug": "cfb-okst-arzst-2026-11-21",
-     "cost": 2.25,
-     "pnl": 1.53,
-     "kfee": 0.07,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-22T07:21:29+00:00",
-     "title": "Spread: Oregon State (-7.5)",
-     "outcome": "Utah State",
-     "event_slug": "cfb-utahst-oregst-2026-11-21",
-     "cost": 4.62,
-     "pnl": 4.02,
-     "kfee": 0.16,
      "how": "won",
      "exit_price": 1.0
     }
@@ -9256,11 +9240,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 116.64,
+   "equity": 116.52,
    "cash": 100.62,
-   "pnl": 16.64,
-   "pnl_after_kalshi_fees": 13.78,
-   "return_pct": 16.6,
+   "pnl": 16.52,
+   "pnl_after_kalshi_fees": 13.66,
+   "return_pct": 16.5,
    "realized": 16.38,
    "kalshi_fees": 2.86,
    "settled": 12,
@@ -11196,6 +11180,10 @@
     {
      "t": "2026-11-27T23:02:13+00:00",
      "equity": 116.64
+    },
+    {
+     "t": "2026-11-27T23:17:11+00:00",
+     "equity": 116.52
     }
    ],
    "positions": [
@@ -11216,7 +11204,7 @@
      "cost": 4.7,
      "shares": 11.86,
      "avg": 0.396,
-     "mark": 0.405,
+     "mark": 0.395,
      "opened": "2026-11-27T22:43:31+00:00"
     }
    ],
@@ -13505,6 +13493,10 @@
     },
     {
      "t": "2026-11-27T23:02:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T23:17:11+00:00",
      "equity": 107.42
     }
    ],
