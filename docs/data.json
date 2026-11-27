@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:32:15+00:00",
+ "updated": "2026-11-27T23:47:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1957,6 +1957,10 @@
     {
      "t": "2026-11-27T23:32:13+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-27T23:47:19+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2826,11 +2830,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.62,
+   "equity": 71.35,
    "cash": 8.13,
-   "pnl": -29.38,
-   "pnl_after_kalshi_fees": -33.55,
-   "return_pct": -29.4,
+   "pnl": -28.65,
+   "pnl_after_kalshi_fees": -32.82,
+   "return_pct": -28.7,
    "realized": -36.11,
    "kalshi_fees": 4.17,
    "settled": 24,
@@ -2840,7 +2844,7 @@
    "open": 8,
    "at_risk": 55.76,
    "copied": 44,
-   "skipped": 28,
+   "skipped": 29,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -4774,6 +4778,10 @@
     {
      "t": "2026-11-27T23:32:13+00:00",
      "equity": 70.62
+    },
+    {
+     "t": "2026-11-27T23:47:19+00:00",
+     "equity": 71.35
     }
    ],
    "positions": [
@@ -4844,7 +4852,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.25,
+     "mark": 0.505,
      "opened": "2026-11-27T20:20:50+00:00"
     },
     {
@@ -4854,7 +4862,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8625,
+     "mark": 0.861,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5125,6 +5133,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-27T23:47:19+00:00",
+     "kind": "skip",
+     "title": "Will Labor win the second-most seats in the next Victorian state election?",
+     "outcome": "No",
+     "event_slug": "victoria-parliamentary-election-2nd-place",
+     "leader_usd": 150.46,
+     "reason": "below $1 minimum",
+     "price": 0.105,
+     "leader_price": 0.062
+    },
     {
      "ts": "2026-11-27T23:02:13+00:00",
      "kind": "buy",
@@ -5810,18 +5829,6 @@
      "reason": "below $1 minimum",
      "price": 0.495,
      "leader_price": 0.52
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "buy",
-     "title": "Spread: Nevada (-7.5)",
-     "outcome": "Hawaii",
-     "event_slug": "cfb-hawaii-nevada-2026-11-21",
-     "leader_usd": 1418.87,
-     "stake": 3.34,
-     "price": 0.555,
-     "leader_price": 0.54,
-     "mult": 1.11
     }
    ]
   },
@@ -5830,10 +5837,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.57,
+   "equity": 46.59,
    "cash": 14.54,
-   "pnl": -53.43,
-   "pnl_after_kalshi_fees": -65.82,
+   "pnl": -53.41,
+   "pnl_after_kalshi_fees": -65.8,
    "return_pct": -53.4,
    "realized": -48.25,
    "kalshi_fees": 12.39,
@@ -7778,6 +7785,10 @@
     {
      "t": "2026-11-27T23:32:13+00:00",
      "equity": 46.57
+    },
+    {
+     "t": "2026-11-27T23:47:19+00:00",
+     "equity": 46.59
     }
    ],
    "positions": [
@@ -7788,7 +7799,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.545,
+     "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -9250,11 +9261,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 116.52,
+   "equity": 115.92,
    "cash": 100.62,
-   "pnl": 16.52,
-   "pnl_after_kalshi_fees": 13.66,
-   "return_pct": 16.5,
+   "pnl": 15.92,
+   "pnl_after_kalshi_fees": 13.06,
+   "return_pct": 15.9,
    "realized": 16.38,
    "kalshi_fees": 2.86,
    "settled": 12,
@@ -11198,6 +11209,10 @@
     {
      "t": "2026-11-27T23:32:13+00:00",
      "equity": 116.52
+    },
+    {
+     "t": "2026-11-27T23:47:19+00:00",
+     "equity": 115.92
     }
    ],
    "positions": [
@@ -11218,7 +11233,7 @@
      "cost": 4.7,
      "shares": 11.86,
      "avg": 0.396,
-     "mark": 0.395,
+     "mark": 0.345,
      "opened": "2026-11-27T22:43:31+00:00"
     }
    ],
@@ -13515,6 +13530,10 @@
     },
     {
      "t": "2026-11-27T23:32:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T23:47:19+00:00",
      "equity": 107.42
     }
    ],
