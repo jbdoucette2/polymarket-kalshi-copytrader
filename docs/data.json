@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:02:12+00:00",
+ "updated": "2026-11-27T00:17:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1581,6 +1581,10 @@
     {
      "t": "2026-11-27T00:02:11+00:00",
      "equity": 77.87
+    },
+    {
+     "t": "2026-11-27T00:17:14+00:00",
+     "equity": 77.87
     }
    ],
    "positions": [],
@@ -2381,10 +2385,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 81.37,
+   "equity": 81.36,
    "cash": 24.07,
-   "pnl": -18.63,
-   "pnl_after_kalshi_fees": -22.41,
+   "pnl": -18.64,
+   "pnl_after_kalshi_fees": -22.42,
    "return_pct": -18.6,
    "realized": -27.39,
    "kalshi_fees": 3.78,
@@ -3953,6 +3957,10 @@
     {
      "t": "2026-11-27T00:02:11+00:00",
      "equity": 81.37
+    },
+    {
+     "t": "2026-11-27T00:17:14+00:00",
+     "equity": 81.36
     }
    ],
    "positions": [
@@ -3963,7 +3971,7 @@
      "cost": 18.78,
      "shares": 26.96,
      "avg": 0.697,
-     "mark": 0.905,
+     "mark": 0.9,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -3973,7 +3981,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8675,
+     "mark": 0.8755,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -3983,7 +3991,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.265,
+     "mark": 0.245,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -3993,7 +4001,7 @@
      "cost": 4.05,
      "shares": 5.36,
      "avg": 0.755,
-     "mark": 0.735,
+     "mark": 0.755,
      "opened": "2026-11-26T14:03:09+00:00"
     },
     {
@@ -4956,19 +4964,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 64.77,
+   "equity": 61.51,
    "cash": 7.78,
-   "pnl": -35.23,
-   "pnl_after_kalshi_fees": -46.66,
-   "return_pct": -35.2,
-   "realized": -22.09,
+   "pnl": -38.49,
+   "pnl_after_kalshi_fees": -49.92,
+   "return_pct": -38.5,
+   "realized": -28.76,
    "kalshi_fees": 11.43,
-   "settled": 73,
+   "settled": 74,
    "won": 42,
-   "lost": 31,
+   "lost": 32,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 70.13,
+   "open": 16,
+   "at_risk": 63.46,
    "copied": 104,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6528,6 +6536,10 @@
     {
      "t": "2026-11-27T00:02:11+00:00",
      "equity": 64.77
+    },
+    {
+     "t": "2026-11-27T00:17:14+00:00",
+     "equity": 61.51
     }
    ],
    "positions": [
@@ -6598,7 +6610,7 @@
      "cost": 3.63,
      "shares": 6.91,
      "avg": 0.525,
-     "mark": 0.14,
+     "mark": 0.08,
      "opened": "2026-11-25T23:35:40+00:00"
     },
     {
@@ -6610,16 +6622,6 @@
      "avg": 0.53,
      "mark": 0.555,
      "opened": "2026-11-26T13:46:51+00:00"
-    },
-    {
-     "title": "Spread: Texas Longhorns (-8.5)",
-     "outcome": "Georgetown Hoyas",
-     "event_slug": "cbb-george-tx-2026-11-26",
-     "cost": 6.67,
-     "shares": 12.59,
-     "avg": 0.53,
-     "mark": 0.0005,
-     "opened": "2026-11-26T14:14:04+00:00"
     },
     {
      "title": "Spread: Alabama Crimson Tide (-14.5)",
@@ -6638,7 +6640,7 @@
      "cost": 4.97,
      "shares": 9.84,
      "avg": 0.505,
-     "mark": 0.295,
+     "mark": 0.0005,
      "opened": "2026-11-26T14:45:37+00:00"
     },
     {
@@ -6688,7 +6690,7 @@
      "cost": 4.46,
      "shares": 8.13,
      "avg": 0.548,
-     "mark": 0.505,
+     "mark": 0.525,
      "opened": "2026-11-26T22:13:16+00:00"
     },
     {
@@ -6698,11 +6700,22 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.525,
+     "mark": 0.485,
      "opened": "2026-11-26T23:44:52+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T00:17:14+00:00",
+     "title": "Spread: Texas Longhorns (-8.5)",
+     "outcome": "Georgetown Hoyas",
+     "event_slug": "cbb-george-tx-2026-11-26",
+     "cost": 6.67,
+     "pnl": -6.67,
+     "kfee": 0.23,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-26T23:32:11+00:00",
      "title": "Spread: Arizona State Sun Devils (-3.5)",
@@ -7349,17 +7362,6 @@
      "cost": 7.98,
      "pnl": -7.98,
      "kfee": 0.3,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-21T23:21:17+00:00",
-     "title": "Spread: Iowa (-7.5)",
-     "outcome": "Illinois",
-     "event_slug": "cfb-iowa-ill-2026-11-21",
-     "cost": 6.0,
-     "pnl": -6.0,
-     "kfee": 0.22,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -9640,6 +9642,10 @@
     {
      "t": "2026-11-27T00:02:11+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T00:17:14+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11512,6 +11518,10 @@
     },
     {
      "t": "2026-11-27T00:02:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T00:17:14+00:00",
      "equity": 107.42
     }
    ],
