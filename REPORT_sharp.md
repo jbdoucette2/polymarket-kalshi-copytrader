@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-27T22:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-27T22:32:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$113.11** (+13.11; after Kalshi fees +12.09) · 4-1 · sold early 0 · 1 open ($3.89) · max drawdown 6.2%
+**$113.00** (+13.00; after Kalshi fees +11.79) · 4-1 · sold early 0 · 2 open ($9.44) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,11 +16,15 @@ Updated 2026-11-27T22:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Spread: Suns (-1.5) | Suns | ic4cream | $3.89 | 55c |
+| Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 50c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-27 22:32 | skip | Spread: 49ers (-1.5) | Seahawks | ic4cream | already have a bet on this game |
+| 11-27 22:32 | skip | Spread: 49ers (-2.5) | Seahawks | ic4cream | already have a bet on this game |
+| 11-27 22:32 | buy | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 at 52c |
 | 11-27 20:47 | skip | Giants vs. Colts | Colts | ic4cream | small bet for this wallet |
 | 11-27 19:17 | buy | Spread: Suns (-1.5) | Suns | ic4cream | $3.89 at 56c |
 | 11-27 19:17 | skip | Warriors vs. Trail Blazers: O/U 217.5 | Over | ic4cream | small bet for this wallet |
@@ -58,7 +62,6 @@ Updated 2026-11-27T22:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 01:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
 | 11-21 18:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
 | 11-20 18:56 | skip | Magic vs. Nets: O/U 222.5 | Under | omnibus-076daa | market didn't react |
-| 11-20 18:56 | buy | Rockets vs. Nuggets | Nuggets | omnibus-076daa | $3.57 at 55c |
 
 ## Walk-forward test (2026-11-24)
 

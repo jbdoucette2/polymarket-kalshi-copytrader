@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:17:14+00:00",
+ "updated": "2026-11-27T22:32:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,10 +9,10 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.83,
+   "equity": 73.78,
    "cash": 73.69,
-   "pnl": -26.17,
-   "pnl_after_kalshi_fees": -30.77,
+   "pnl": -26.22,
+   "pnl_after_kalshi_fees": -30.82,
    "return_pct": -26.2,
    "realized": -19.32,
    "kalshi_fees": 4.6,
@@ -24,7 +24,7 @@
    "at_risk": 6.98,
    "copied": 31,
    "skipped": 16,
-   "max_drawdown_pct": 30.9,
+   "max_drawdown_pct": 31.0,
    "focus": "NFL, NBA",
    "risk": "High",
    "rivo": {
@@ -1937,6 +1937,10 @@
     {
      "t": "2026-11-27T22:17:12+00:00",
      "equity": 73.83
+    },
+    {
+     "t": "2026-11-27T22:32:12+00:00",
+     "equity": 73.78
     }
    ],
    "positions": [
@@ -1947,7 +1951,7 @@
      "cost": 4.84,
      "shares": 11.13,
      "avg": 0.435,
-     "mark": 0.008,
+     "mark": 0.0055,
      "opened": "2026-11-27T19:59:43+00:00"
     },
     {
@@ -1957,7 +1961,7 @@
      "cost": 2.14,
      "shares": 4.7,
      "avg": 0.455,
-     "mark": 0.011,
+     "mark": 0.005,
      "opened": "2026-11-27T19:59:50+00:00"
     }
    ],
@@ -2805,11 +2809,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.01,
+   "equity": 70.66,
    "cash": 12.23,
-   "pnl": -28.99,
-   "pnl_after_kalshi_fees": -33.12,
-   "return_pct": -29.0,
+   "pnl": -29.34,
+   "pnl_after_kalshi_fees": -33.47,
+   "return_pct": -29.3,
    "realized": -31.75,
    "kalshi_fees": 4.13,
    "settled": 23,
@@ -2820,7 +2824,7 @@
    "at_risk": 56.02,
    "copied": 43,
    "skipped": 28,
-   "max_drawdown_pct": 40.9,
+   "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -4733,6 +4737,10 @@
     {
      "t": "2026-11-27T22:17:12+00:00",
      "equity": 71.01
+    },
+    {
+     "t": "2026-11-27T22:32:12+00:00",
+     "equity": 70.66
     }
    ],
    "positions": [
@@ -4753,7 +4761,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.844,
+     "mark": 0.839,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4783,7 +4791,7 @@
      "cost": 4.36,
      "shares": 6.36,
      "avg": 0.685,
-     "mark": 0.033,
+     "mark": 0.0065,
      "opened": "2026-11-26T22:56:22+00:00"
     },
     {
@@ -4793,7 +4801,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.745,
+     "mark": 0.735,
      "opened": "2026-11-27T00:35:28+00:00"
     },
     {
@@ -4813,7 +4821,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.24,
+     "mark": 0.235,
      "opened": "2026-11-27T20:20:50+00:00"
     }
    ],
@@ -5777,10 +5785,10 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.73,
+   "equity": 46.72,
    "cash": 0.75,
-   "pnl": -53.27,
-   "pnl_after_kalshi_fees": -65.66,
+   "pnl": -53.28,
+   "pnl_after_kalshi_fees": -65.67,
    "return_pct": -53.3,
    "realized": -43.26,
    "kalshi_fees": 12.39,
@@ -5791,7 +5799,7 @@
    "open": 15,
    "at_risk": 55.98,
    "copied": 113,
-   "skipped": 91,
+   "skipped": 94,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7705,6 +7713,10 @@
     {
      "t": "2026-11-27T22:17:12+00:00",
      "equity": 46.73
+    },
+    {
+     "t": "2026-11-27T22:32:12+00:00",
+     "equity": 46.72
     }
    ],
    "positions": [
@@ -7745,7 +7757,7 @@
      "cost": 3.3,
      "shares": 5.37,
      "avg": 0.615,
-     "mark": 0.033,
+     "mark": 0.0065,
      "opened": "2026-11-25T04:12:02+00:00"
     },
     {
@@ -7755,7 +7767,7 @@
      "cost": 7.3,
      "shares": 13.78,
      "avg": 0.53,
-     "mark": 0.992,
+     "mark": 0.9965,
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
@@ -7845,7 +7857,7 @@
      "cost": 3.47,
      "shares": 6.67,
      "avg": 0.52,
-     "mark": 0.515,
+     "mark": 0.525,
      "opened": "2026-11-27T13:59:59+00:00"
     },
     {
@@ -8523,6 +8535,39 @@
    ],
    "log": [
     {
+     "ts": "2026-11-27T22:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: 49ers (-1.5)",
+     "outcome": "Seahawks",
+     "event_slug": "nfl-sea-sf-2026-11-29",
+     "leader_usd": 806.0,
+     "reason": "out of cash",
+     "price": 0.545,
+     "leader_price": 0.5
+    },
+    {
+     "ts": "2026-11-27T22:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: 49ers (-2.5)",
+     "outcome": "Seahawks",
+     "event_slug": "nfl-sea-sf-2026-11-29",
+     "leader_usd": 519.47,
+     "reason": "out of cash",
+     "price": 0.575,
+     "leader_price": 0.54
+    },
+    {
+     "ts": "2026-11-27T22:32:12+00:00",
+     "kind": "skip",
+     "title": "Seahawks vs. 49ers",
+     "outcome": "Seahawks",
+     "event_slug": "nfl-sea-sf-2026-11-29",
+     "leader_usd": 283.82,
+     "reason": "out of cash",
+     "price": 0.505,
+     "leader_price": 0.46
+    },
+    {
      "ts": "2026-11-27T20:47:11+00:00",
      "kind": "skip",
      "title": "Giants vs. Colts",
@@ -9177,42 +9222,6 @@
      "stake": 3.65,
      "price": 0.525,
      "leader_price": 0.497,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T15:32:12+00:00",
-     "kind": "buy",
-     "title": "Timberwolves vs. Thunder: O/U 222.5",
-     "outcome": "Under",
-     "event_slug": "nba-min-okc-2026-11-25",
-     "leader_usd": 337.04,
-     "stake": 2.31,
-     "price": 0.515,
-     "leader_price": 0.5,
-     "mult": 1.27
-    },
-    {
-     "ts": "2026-11-25T15:02:12+00:00",
-     "kind": "buy",
-     "title": "Timberwolves vs. Thunder: O/U 222.5",
-     "outcome": "Over",
-     "event_slug": "nba-min-okc-2026-11-25",
-     "leader_usd": 567.5,
-     "stake": 3.65,
-     "price": 0.525,
-     "leader_price": 0.5,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T15:02:12+00:00",
-     "kind": "buy",
-     "title": "Northern Colorado Bears vs. Detroit Titans: O/U 147.5",
-     "outcome": "Under",
-     "event_slug": "cbb-ncol-det-2026-11-25",
-     "leader_usd": 753.12,
-     "stake": 3.65,
-     "price": 0.515,
-     "leader_price": 0.48,
      "mult": 2.0
     }
    ]
@@ -11149,6 +11158,10 @@
     },
     {
      "t": "2026-11-27T22:17:12+00:00",
+     "equity": 116.53
+    },
+    {
+     "t": "2026-11-27T22:32:12+00:00",
      "equity": 116.53
     }
    ],
@@ -13413,6 +13426,10 @@
     },
     {
      "t": "2026-11-27T22:17:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T22:32:12+00:00",
      "equity": 107.42
     }
    ],

@@ -3,21 +3,21 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 113.11,
- "cash": 109.29,
- "pnl": 13.11,
- "pnl_after_kalshi_fees": 12.09,
- "return_pct": 13.1,
+ "equity": 113.0,
+ "cash": 103.74,
+ "pnl": 13.0,
+ "pnl_after_kalshi_fees": 11.79,
+ "return_pct": 13.0,
  "realized": 13.17,
- "kalshi_fees": 1.02,
+ "kalshi_fees": 1.21,
  "settled": 5,
  "won": 4,
  "lost": 1,
  "sold_early": 0,
- "open": 1,
- "at_risk": 3.89,
- "copied": 6,
- "skipped": 32,
+ "open": 2,
+ "at_risk": 9.44,
+ "copied": 7,
+ "skipped": 34,
  "max_drawdown_pct": 6.2,
  "history": [
   {
@@ -1915,6 +1915,10 @@
   {
    "t": "2026-11-27T22:17:14+00:00",
    "equity": 113.11
+  },
+  {
+   "t": "2026-11-27T22:32:16+00:00",
+   "equity": 113.0
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -1977,6 +1981,14 @@
    "cost": 3.89,
    "avg": 0.555,
    "mark": 0.545
+  },
+  {
+   "title": "Seahawks vs. 49ers",
+   "outcome": "Seahawks",
+   "leader": "ic4cream",
+   "cost": 5.55,
+   "avg": 0.515,
+   "mark": 0.505
   }
  ],
  "closed": [
@@ -2037,6 +2049,44 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-1.5)",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 806.0,
+   "reason": "already have a bet on this game",
+   "price": 0.545,
+   "leader_price": 0.5,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-2.5)",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 519.47,
+   "reason": "already have a bet on this game",
+   "price": 0.575,
+   "leader_price": 0.54,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "buy",
+   "title": "Seahawks vs. 49ers",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 283.82,
+   "stake": 5.55,
+   "price": 0.515,
+   "leader_price": 0.46,
+   "leader": "ic4cream",
+   "edge": 0.092,
+   "agree": false
+  },
   {
    "ts": "2026-11-27T20:47:13+00:00",
    "kind": "skip",
@@ -2506,6 +2556,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-27T22:17:15+00:00",
+ "updated": "2026-11-27T22:32:17+00:00",
  "start": 100.0
 }

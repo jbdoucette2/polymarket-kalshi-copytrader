@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 109.2882,
+ "cash": 103.7382,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -23,6 +23,23 @@
    "leader_shares": 1108.0,
    "edge": 0.0588,
    "mark": 0.545
+  },
+  "69930278449666647421292749061373427611547422043372630829241501396207242586223": {
+   "cond": "0xec6c71ce4962016f75c7c6fd05b087ec61305623a4f359336fb9e8d43134f29a",
+   "idx": 0,
+   "outcome": "Seahawks",
+   "title": "Seahawks vs. 49ers",
+   "slug": "nfl-sea-sf-2026-11-29",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "shares": 10.776699029126213,
+   "cost": 5.55,
+   "kfee": 0.19,
+   "opened": "2026-11-27T22:32:16+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 617.0,
+   "edge": 0.0917,
+   "mark": 0.505
   }
  },
  "leader_shares": {},
@@ -551,6 +568,44 @@
    "reason": "small bet for this wallet",
    "price": 0.275,
    "leader_price": 0.28,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "buy",
+   "title": "Seahawks vs. 49ers",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 283.82,
+   "stake": 5.55,
+   "price": 0.515,
+   "leader_price": 0.46,
+   "leader": "ic4cream",
+   "edge": 0.092,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-2.5)",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 519.47,
+   "reason": "already have a bet on this game",
+   "price": 0.575,
+   "leader_price": 0.54,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-27T22:32:16+00:00",
+   "kind": "skip",
+   "title": "Spread: 49ers (-1.5)",
+   "outcome": "Seahawks",
+   "event_slug": "nfl-sea-sf-2026-11-29",
+   "leader_usd": 806.0,
+   "reason": "already have a bet on this game",
+   "price": 0.545,
+   "leader_price": 0.5,
    "leader": "ic4cream"
   }
  ],
@@ -2450,11 +2505,15 @@
   {
    "t": "2026-11-27T22:17:14+00:00",
    "equity": 113.11
+  },
+  {
+   "t": "2026-11-27T22:32:16+00:00",
+   "equity": 113.0
   }
  ],
- "kfees": 1.02,
- "copied": 6,
- "skipped": 32,
+ "kfees": 1.21,
+ "copied": 7,
+ "skipped": 34,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2466,11 +2525,11 @@
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795817564,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795811371
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795818233
  },
  "day": {
   "2026-11-26": 5.36,
-  "2026-11-27": 3.89
+  "2026-11-27": 9.44
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -2490,6 +2549,24 @@
    1795807041,
    "0xaee0f74791bfb71a3dbe6e8a0362610e65add99ce289c757311832931b4e4e8b",
    0,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795818736,
+   "0xec6c71ce4962016f75c7c6fd05b087ec61305623a4f359336fb9e8d43134f29a",
+   0,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795818736,
+   "0x4a281b8483b36588904beef3f090e0a0f7141c016d4d4f354085d7201eba3649",
+   1,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795818736,
+   "0xabe9b44a6195e1fa78f8c23c61acefcf40c156674f2d14afe2072c3cbf07a369",
+   1,
    "0x27f738fe203827445690339104aae35b20bc44b0"
   ]
  ],
@@ -2736,6 +2813,15 @@
     0
    ],
    "0x44af95c871127be21c2a6879c7887001f43b8d6789a6a884ab91f0b4c172493a": [
+    1
+   ],
+   "0xec6c71ce4962016f75c7c6fd05b087ec61305623a4f359336fb9e8d43134f29a": [
+    0
+   ],
+   "0x4a281b8483b36588904beef3f090e0a0f7141c016d4d4f354085d7201eba3649": [
+    1
+   ],
+   "0xabe9b44a6195e1fa78f8c23c61acefcf40c156674f2d14afe2072c3cbf07a369": [
     1
    ]
   }
