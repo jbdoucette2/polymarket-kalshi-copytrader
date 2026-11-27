@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:47:12+00:00",
+ "updated": "2026-11-27T02:02:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -9,11 +9,11 @@
    "name": "BreakTheBank",
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 77.79,
+   "equity": 78.47,
    "cash": 73.2,
-   "pnl": -22.21,
-   "pnl_after_kalshi_fees": -26.52,
-   "return_pct": -22.2,
+   "pnl": -21.53,
+   "pnl_after_kalshi_fees": -25.84,
+   "return_pct": -21.5,
    "realized": -22.12,
    "kalshi_fees": 4.31,
    "settled": 25,
@@ -1609,6 +1609,10 @@
     {
      "t": "2026-11-27T01:47:11+00:00",
      "equity": 77.79
+    },
+    {
+     "t": "2026-11-27T02:02:13+00:00",
+     "equity": 78.47
     }
    ],
    "positions": [
@@ -1619,7 +1623,7 @@
      "cost": 4.67,
      "shares": 7.47,
      "avg": 0.625,
-     "mark": 0.615,
+     "mark": 0.705,
      "opened": "2026-11-27T01:19:47+00:00"
     }
    ],
@@ -2432,11 +2436,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 80.96,
+   "equity": 81.2,
    "cash": 20.87,
-   "pnl": -19.04,
-   "pnl_after_kalshi_fees": -22.88,
-   "return_pct": -19.0,
+   "pnl": -18.8,
+   "pnl_after_kalshi_fees": -22.64,
+   "return_pct": -18.8,
    "realized": -27.39,
    "kalshi_fees": 3.84,
    "settled": 22,
@@ -4032,6 +4036,10 @@
     {
      "t": "2026-11-27T01:47:11+00:00",
      "equity": 80.96
+    },
+    {
+     "t": "2026-11-27T02:02:13+00:00",
+     "equity": 81.2
     }
    ],
    "positions": [
@@ -4042,7 +4050,7 @@
      "cost": 18.78,
      "shares": 26.96,
      "avg": 0.697,
-     "mark": 0.885,
+     "mark": 0.89,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4052,7 +4060,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8775,
+     "mark": 0.8815,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5045,19 +5053,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 68.5,
-   "cash": 3.95,
-   "pnl": -31.5,
-   "pnl_after_kalshi_fees": -43.04,
-   "return_pct": -31.5,
-   "realized": -28.76,
+   "equity": 66.96,
+   "cash": 10.86,
+   "pnl": -33.04,
+   "pnl_after_kalshi_fees": -44.58,
+   "return_pct": -33.0,
+   "realized": -25.48,
    "kalshi_fees": 11.54,
-   "settled": 74,
-   "won": 42,
+   "settled": 75,
+   "won": 43,
    "lost": 32,
    "sold_early": 0,
-   "open": 18,
-   "at_risk": 67.29,
+   "open": 17,
+   "at_risk": 63.66,
    "copied": 106,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6645,6 +6653,10 @@
     {
      "t": "2026-11-27T01:47:11+00:00",
      "equity": 68.5
+    },
+    {
+     "t": "2026-11-27T02:02:13+00:00",
+     "equity": 66.96
     }
    ],
    "positions": [
@@ -6665,7 +6677,7 @@
      "cost": 2.64,
      "shares": 4.76,
      "avg": 0.555,
-     "mark": 0.795,
+     "mark": 0.835,
      "opened": "2026-11-23T22:02:07+00:00"
     },
     {
@@ -6709,23 +6721,13 @@
      "opened": "2026-11-25T13:20:16+00:00"
     },
     {
-     "title": "Spread: Cowboys (-9.5)",
-     "outcome": "Eagles",
-     "event_slug": "nfl-phi-dal-2026-11-26",
-     "cost": 3.63,
-     "shares": 6.91,
-     "avg": 0.525,
-     "mark": 0.9995,
-     "opened": "2026-11-25T23:35:40+00:00"
-    },
-    {
      "title": "Spread: Jacksonville State Gamecocks (-1.5)",
      "outcome": "Jacksonville State Gamecocks",
      "event_slug": "cbb-jaxst-ucdv-2026-11-26",
      "cost": 4.97,
      "shares": 9.38,
      "avg": 0.53,
-     "mark": 0.82,
+     "mark": 0.765,
      "opened": "2026-11-26T13:46:51+00:00"
     },
     {
@@ -6735,7 +6737,7 @@
      "cost": 4.97,
      "shares": 9.84,
      "avg": 0.505,
-     "mark": 0.455,
+     "mark": 0.465,
      "opened": "2026-11-26T14:14:27+00:00"
     },
     {
@@ -6775,7 +6777,7 @@
      "cost": 4.97,
      "shares": 8.8,
      "avg": 0.565,
-     "mark": 0.58,
+     "mark": 0.445,
      "opened": "2026-11-26T18:36:27+00:00"
     },
     {
@@ -6805,7 +6807,7 @@
      "cost": 1.37,
      "shares": 2.56,
      "avg": 0.535,
-     "mark": 0.61,
+     "mark": 0.575,
      "opened": "2026-11-26T23:44:52+00:00"
     },
     {
@@ -6825,11 +6827,22 @@
      "cost": 1.82,
      "shares": 4.67,
      "avg": 0.39,
-     "mark": 0.645,
+     "mark": 0.635,
      "opened": "2026-11-27T00:50:34+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T02:02:13+00:00",
+     "title": "Spread: Cowboys (-9.5)",
+     "outcome": "Eagles",
+     "event_slug": "nfl-phi-dal-2026-11-26",
+     "cost": 3.63,
+     "pnl": 3.28,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-27T00:17:14+00:00",
      "title": "Spread: Texas Longhorns (-8.5)",
@@ -7476,17 +7489,6 @@
      "cost": 4.43,
      "pnl": -4.43,
      "kfee": 0.21,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T00:21:22+00:00",
-     "title": "Spread: Texas Tech (-4.5)",
-     "outcome": "Baylor",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "cost": 7.98,
-     "pnl": -7.98,
-     "kfee": 0.3,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -9795,6 +9797,10 @@
     {
      "t": "2026-11-27T01:47:11+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T02:02:13+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11695,6 +11701,10 @@
     },
     {
      "t": "2026-11-27T01:47:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T02:02:13+00:00",
      "equity": 107.42
     }
    ],
