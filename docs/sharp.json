@@ -3,11 +3,11 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 112.9,
+ "equity": 113.04,
  "cash": 101.89,
- "pnl": 12.9,
- "pnl_after_kalshi_fees": 12.01,
- "return_pct": 12.9,
+ "pnl": 13.04,
+ "pnl_after_kalshi_fees": 12.15,
+ "return_pct": 13.0,
  "realized": 7.25,
  "kalshi_fees": 0.89,
  "settled": 4,
@@ -1619,6 +1619,10 @@
   {
    "t": "2026-11-27T03:47:13+00:00",
    "equity": 112.9
+  },
+  {
+   "t": "2026-11-27T04:02:13+00:00",
+   "equity": 113.04
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1670,7 +1674,7 @@
    "leader": "gmpm2",
    "cost": 5.36,
    "avg": 0.475,
-   "mark": 0.975
+   "mark": 0.9875
   }
  ],
  "closed": [
@@ -2139,6 +2143,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-27T03:47:14+00:00",
+ "updated": "2026-11-27T04:02:14+00:00",
  "start": 100.0
 }
