@@ -3,28 +3,10 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 101.894,
+ "cash": 113.1782,
  "since": 1795200975,
  "last_ts": 1795200975,
- "positions": {
-  "57795031047934704820842917951133196011419720484218917663794401736673517403647": {
-   "cond": "0x1c3f61255038b20f4f1c3a8e280a5203bf91c7e6323ef8b7402597a13ba82ccb",
-   "idx": 1,
-   "outcome": "Under",
-   "title": "Chiefs vs. Bills: O/U 44.5",
-   "slug": "nfl-kc-buf-2026-11-27-total-44pt5",
-   "event_slug": "nfl-kc-buf-2026-11-27",
-   "shares": 11.284210526315789,
-   "cost": 5.36,
-   "kfee": 0.2,
-   "opened": "2026-11-26T09:32:15+00:00",
-   "leader": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
-   "leader_name": "gmpm2",
-   "leader_shares": 16348.58,
-   "edge": 0.1406,
-   "mark": 0.9995
-  }
- },
+ "positions": {},
  "leader_shares": {},
  "median_usd": null,
  "closed": [
@@ -71,6 +53,17 @@
    "kfee": 0.2,
    "how": "lost",
    "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-27T04:47:22+00:00",
+   "title": "Chiefs vs. Bills: O/U 44.5",
+   "outcome": "Under",
+   "event_slug": "nfl-kc-buf-2026-11-27",
+   "cost": 5.36,
+   "pnl": 5.92,
+   "kfee": 0.2,
+   "how": "won",
+   "exit_price": 1.0
   }
  ],
  "log": [
@@ -2105,6 +2098,10 @@
   {
    "t": "2026-11-27T04:32:24+00:00",
    "equity": 113.17
+  },
+  {
+   "t": "2026-11-27T04:47:22+00:00",
+   "equity": 113.18
   }
  ],
  "kfees": 0.89,
@@ -2131,9 +2128,9 @@
    "cost": 3.57
   },
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": {
-   "n": 3,
-   "net": 3.7,
-   "cost": 15.94
+   "n": 4,
+   "net": 9.42,
+   "cost": 21.3
   }
  },
  "bench": [],

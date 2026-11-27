@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:32:23+00:00",
+ "updated": "2026-11-27T04:47:22+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -10,18 +10,18 @@
    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 80.67,
-   "cash": 73.2,
+   "cash": 80.67,
    "pnl": -19.33,
    "pnl_after_kalshi_fees": -23.64,
    "return_pct": -19.3,
-   "realized": -22.12,
+   "realized": -19.32,
    "kalshi_fees": 4.31,
-   "settled": 25,
-   "won": 11,
+   "settled": 26,
+   "won": 12,
    "lost": 14,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 4.67,
+   "open": 0,
+   "at_risk": 0,
    "copied": 29,
    "skipped": 16,
    "max_drawdown_pct": 28.1,
@@ -1653,21 +1653,25 @@
     {
      "t": "2026-11-27T04:32:21+00:00",
      "equity": 80.67
+    },
+    {
+     "t": "2026-11-27T04:47:21+00:00",
+     "equity": 80.67
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-27T04:47:21+00:00",
      "title": "Chiefs vs. Bills",
      "outcome": "Bills",
      "event_slug": "nfl-kc-buf-2026-11-27",
      "cost": 4.67,
-     "shares": 7.47,
-     "avg": 0.625,
-     "mark": 0.9995,
-     "opened": "2026-11-27T01:19:47+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 2.8,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-26T05:02:16+00:00",
      "title": "Packers vs. Rams",
@@ -4120,6 +4124,10 @@
     {
      "t": "2026-11-27T04:32:21+00:00",
      "equity": 81.45
+    },
+    {
+     "t": "2026-11-27T04:47:21+00:00",
+     "equity": 81.45
     }
    ],
    "positions": [
@@ -5134,18 +5142,18 @@
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 56.39,
-   "cash": 3.04,
+   "cash": 16.59,
    "pnl": -43.61,
    "pnl_after_kalshi_fees": -55.42,
    "return_pct": -43.6,
-   "realized": -34.91,
+   "realized": -28.96,
    "kalshi_fees": 11.81,
-   "settled": 77,
-   "won": 43,
+   "settled": 79,
+   "won": 45,
    "lost": 34,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 62.05,
+   "open": 15,
+   "at_risk": 54.44,
    "copied": 108,
    "skipped": 79,
    "max_drawdown_pct": 73.4,
@@ -6777,6 +6785,10 @@
     {
      "t": "2026-11-27T04:32:21+00:00",
      "equity": 56.39
+    },
+    {
+     "t": "2026-11-27T04:47:21+00:00",
+     "equity": 56.39
     }
    ],
    "positions": [
@@ -6789,16 +6801,6 @@
      "avg": 0.56,
      "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
-    },
-    {
-     "title": "Chiefs vs. Bills: O/U 50.5",
-     "outcome": "Under",
-     "event_slug": "nfl-kc-buf-2026-11-27",
-     "cost": 2.64,
-     "shares": 4.76,
-     "avg": 0.555,
-     "mark": 0.9995,
-     "opened": "2026-11-23T22:02:07+00:00"
     },
     {
      "title": "Spread: Liberty (-17.5)",
@@ -6881,16 +6883,6 @@
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
-     "title": "Spread: Bills (-3.5)",
-     "outcome": "Chiefs",
-     "event_slug": "nfl-kc-buf-2026-11-27",
-     "cost": 4.97,
-     "shares": 8.8,
-     "avg": 0.565,
-     "mark": 0.9995,
-     "opened": "2026-11-26T18:36:27+00:00"
-    },
-    {
      "title": "Nets vs. Raptors",
      "outcome": "Raptors",
      "event_slug": "nba-bkn-tor-2026-11-27",
@@ -6952,6 +6944,28 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-27T04:47:21+00:00",
+     "title": "Spread: Bills (-3.5)",
+     "outcome": "Chiefs",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "cost": 4.97,
+     "pnl": 3.83,
+     "kfee": 0.16,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-27T04:47:21+00:00",
+     "title": "Chiefs vs. Bills: O/U 50.5",
+     "outcome": "Under",
+     "event_slug": "nfl-kc-buf-2026-11-27",
+     "cost": 2.64,
+     "pnl": 2.12,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-27T03:17:14+00:00",
      "title": "Spread: S\u00e3o Paulo FC (-1.5)",
@@ -7587,28 +7601,6 @@
      "cost": 4.62,
      "pnl": -4.62,
      "kfee": 0.15,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T04:21:19+00:00",
-     "title": "Grizzlies vs. Timberwolves",
-     "outcome": "Grizzlies",
-     "event_slug": "nba-mem-min-2026-11-21",
-     "cost": 6.0,
-     "pnl": -6.0,
-     "kfee": 0.28,
-     "how": "lost",
-     "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-22T03:21:00+00:00",
-     "title": "Spread: Golden Knights (-1.5)",
-     "outcome": "Golden Knights",
-     "event_slug": "nhl-las-wpg-2026-11-21",
-     "cost": 2.94,
-     "pnl": -2.94,
-     "kfee": 0.14,
      "how": "lost",
      "exit_price": 0.0
     }
@@ -9961,6 +9953,10 @@
     {
      "t": "2026-11-27T04:32:21+00:00",
      "equity": 116.37
+    },
+    {
+     "t": "2026-11-27T04:47:21+00:00",
+     "equity": 116.37
     }
    ],
    "positions": [],
@@ -11905,6 +11901,10 @@
     },
     {
      "t": "2026-11-27T04:32:21+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-27T04:47:21+00:00",
      "equity": 107.42
     }
    ],

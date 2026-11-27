@@ -3,19 +3,19 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 113.17,
- "cash": 101.89,
- "pnl": 13.17,
- "pnl_after_kalshi_fees": 12.28,
+ "equity": 113.18,
+ "cash": 113.18,
+ "pnl": 13.18,
+ "pnl_after_kalshi_fees": 12.29,
  "return_pct": 13.2,
- "realized": 7.25,
+ "realized": 13.17,
  "kalshi_fees": 0.89,
- "settled": 4,
- "won": 3,
+ "settled": 5,
+ "won": 4,
  "lost": 1,
  "sold_early": 0,
- "open": 1,
- "at_risk": 5.36,
+ "open": 0,
+ "at_risk": 0,
  "copied": 5,
  "skipped": 29,
  "max_drawdown_pct": 6.2,
@@ -1631,6 +1631,10 @@
   {
    "t": "2026-11-27T04:32:24+00:00",
    "equity": 113.17
+  },
+  {
+   "t": "2026-11-27T04:47:22+00:00",
+   "equity": 113.18
   }
  ],
  "scored": "2026-11-20T19:06:18+00:00",
@@ -1675,17 +1679,19 @@
   "copied": 125,
   "skipped": 253
  },
- "positions": [
+ "positions": [],
+ "closed": [
   {
+   "ts": "2026-11-27T04:47:22+00:00",
    "title": "Chiefs vs. Bills: O/U 44.5",
    "outcome": "Under",
-   "leader": "gmpm2",
+   "event_slug": "nfl-kc-buf-2026-11-27",
    "cost": 5.36,
-   "avg": 0.475,
-   "mark": 0.9995
-  }
- ],
- "closed": [
+   "pnl": 5.92,
+   "kfee": 0.2,
+   "how": "won",
+   "exit_price": 1.0
+  },
   {
    "ts": "2026-11-24T04:47:21+00:00",
    "title": "Spread: Bengals (-6.5)",
@@ -2151,6 +2157,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-27T04:32:24+00:00",
+ "updated": "2026-11-27T04:47:23+00:00",
  "start": 100.0
 }
