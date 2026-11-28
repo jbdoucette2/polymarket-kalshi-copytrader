@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T16:47:14+00:00",
+ "updated": "2026-11-28T17:02:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2232,6 +2232,10 @@
     },
     {
      "t": "2026-11-28T16:47:12+00:00",
+     "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T17:02:14+00:00",
      "equity": 73.69
     }
    ],
@@ -5326,6 +5330,10 @@
     {
      "t": "2026-11-28T16:47:12+00:00",
      "equity": 70.76
+    },
+    {
+     "t": "2026-11-28T17:02:14+00:00",
+     "equity": 70.76
     }
    ],
    "positions": [
@@ -5356,7 +5364,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.285,
+     "mark": 0.275,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -5376,7 +5384,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8735,
+     "mark": 0.8935,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6382,20 +6390,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.32,
-   "cash": 8.34,
-   "pnl": -39.68,
-   "pnl_after_kalshi_fees": -53.46,
-   "return_pct": -39.7,
+   "equity": 60.21,
+   "cash": 0.9,
+   "pnl": -39.79,
+   "pnl_after_kalshi_fees": -53.83,
+   "return_pct": -39.8,
    "realized": -38.04,
-   "kalshi_fees": 13.78,
+   "kalshi_fees": 14.04,
    "settled": 96,
    "won": 51,
    "lost": 45,
    "sold_early": 0,
-   "open": 16,
-   "at_risk": 53.63,
-   "copied": 127,
+   "open": 18,
+   "at_risk": 61.07,
+   "copied": 129,
    "skipped": 100,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8606,6 +8614,10 @@
     {
      "t": "2026-11-28T16:47:12+00:00",
      "equity": 60.32
+    },
+    {
+     "t": "2026-11-28T17:02:14+00:00",
+     "equity": 60.21
     }
    ],
    "positions": [
@@ -8766,8 +8778,28 @@
      "cost": 3.8,
      "shares": 7.1,
      "avg": 0.535,
-     "mark": 0.515,
+     "mark": 0.535,
      "opened": "2026-11-28T16:45:24+00:00"
+    },
+    {
+     "title": "Navy vs. Charlotte: O/U 51.5",
+     "outcome": "Under",
+     "event_slug": "cfb-navy-charlt-2026-11-28",
+     "cost": 3.72,
+     "shares": 6.95,
+     "avg": 0.535,
+     "mark": 0.52,
+     "opened": "2026-11-28T16:54:22+00:00"
+    },
+    {
+     "title": "Spread: North Carolina (-6.5)",
+     "outcome": "North Carolina",
+     "event_slug": "cfb-ncst-ncar-2026-11-28",
+     "cost": 3.72,
+     "shares": 7.29,
+     "avg": 0.51,
+     "mark": 0.49,
+     "opened": "2026-11-28T16:56:00+00:00"
     }
    ],
    "closed": [
@@ -9433,6 +9465,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T17:02:14+00:00",
+     "kind": "buy",
+     "title": "Spread: North Carolina (-6.5)",
+     "outcome": "North Carolina",
+     "event_slug": "cfb-ncst-ncar-2026-11-28",
+     "leader_usd": 879.55,
+     "stake": 3.72,
+     "price": 0.51,
+     "leader_price": 0.49,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-28T17:02:14+00:00",
+     "kind": "buy",
+     "title": "Navy vs. Charlotte: O/U 51.5",
+     "outcome": "Under",
+     "event_slug": "cfb-navy-charlt-2026-11-28",
+     "leader_usd": 633.88,
+     "stake": 3.72,
+     "price": 0.535,
+     "leader_price": 0.52,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T16:47:12+00:00",
      "kind": "buy",
@@ -10101,30 +10157,6 @@
      "price": 0.505,
      "leader_price": 0.49,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-26T14:47:12+00:00",
-     "kind": "buy",
-     "title": "Spread: Texas Longhorns (-8.5)",
-     "outcome": "Georgetown Hoyas",
-     "event_slug": "cbb-george-tx-2026-11-26",
-     "leader_usd": 206.87,
-     "stake": 1.7,
-     "price": 0.545,
-     "leader_price": 0.528,
-     "mult": 0.69
-    },
-    {
-     "ts": "2026-11-26T14:17:12+00:00",
-     "kind": "buy",
-     "title": "Spread: Alabama Crimson Tide (-14.5)",
-     "outcome": "Alabama Crimson Tide",
-     "event_slug": "cbb-kanst-ala-2026-11-26",
-     "leader_usd": 964.05,
-     "stake": 4.97,
-     "price": 0.505,
-     "leader_price": 0.498,
-     "mult": 2.0
     }
    ]
   },
@@ -10133,11 +10165,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 121.77,
+   "equity": 121.94,
    "cash": 114.62,
-   "pnl": 21.77,
-   "pnl_after_kalshi_fees": 17.46,
-   "return_pct": 21.8,
+   "pnl": 21.94,
+   "pnl_after_kalshi_fees": 17.63,
+   "return_pct": 21.9,
    "realized": 21.95,
    "kalshi_fees": 4.31,
    "settled": 17,
@@ -12357,6 +12389,10 @@
     {
      "t": "2026-11-28T16:47:12+00:00",
      "equity": 121.77
+    },
+    {
+     "t": "2026-11-28T17:02:14+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [
@@ -12367,7 +12403,7 @@
      "cost": 7.32,
      "shares": 16.83,
      "avg": 0.435,
-     "mark": 0.425,
+     "mark": 0.435,
      "opened": "2026-11-28T16:32:13+00:00"
     }
    ],
@@ -15079,6 +15115,10 @@
     },
     {
      "t": "2026-11-28T16:47:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T17:02:14+00:00",
      "equity": 107.42
     }
    ],
