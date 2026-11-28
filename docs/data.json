@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:47:14+00:00",
+ "updated": "2026-11-28T15:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2201,6 +2201,10 @@
     {
      "t": "2026-11-28T14:47:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T15:02:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3070,11 +3074,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.84,
+   "equity": 70.87,
    "cash": 14.86,
-   "pnl": -29.16,
-   "pnl_after_kalshi_fees": -33.41,
-   "return_pct": -29.2,
+   "pnl": -29.13,
+   "pnl_after_kalshi_fees": -33.38,
+   "return_pct": -29.1,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -5262,6 +5266,10 @@
     {
      "t": "2026-11-28T14:47:12+00:00",
      "equity": 70.84
+    },
+    {
+     "t": "2026-11-28T15:02:12+00:00",
+     "equity": 70.87
     }
    ],
    "positions": [
@@ -5282,7 +5290,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.827,
+     "mark": 0.828,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -6318,20 +6326,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 61.94,
-   "cash": 27.34,
-   "pnl": -38.06,
-   "pnl_after_kalshi_fees": -51.24,
-   "return_pct": -38.1,
+   "equity": 61.39,
+   "cash": 23.54,
+   "pnl": -38.61,
+   "pnl_after_kalshi_fees": -51.92,
+   "return_pct": -38.6,
    "realized": -36.64,
-   "kalshi_fees": 13.18,
+   "kalshi_fees": 13.31,
    "settled": 95,
    "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 12,
-   "at_risk": 36.03,
-   "copied": 122,
+   "open": 13,
+   "at_risk": 39.83,
+   "copied": 123,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8510,6 +8518,10 @@
     {
      "t": "2026-11-28T14:47:12+00:00",
      "equity": 61.94
+    },
+    {
+     "t": "2026-11-28T15:02:12+00:00",
+     "equity": 61.39
     }
    ],
    "positions": [
@@ -8550,7 +8562,7 @@
      "cost": 4.97,
      "shares": 9.65,
      "avg": 0.515,
-     "mark": 0.485,
+     "mark": 0.49,
      "opened": "2026-11-26T15:15:45+00:00"
     },
     {
@@ -8620,7 +8632,7 @@
      "cost": 1.4,
      "shares": 2.07,
      "avg": 0.675,
-     "mark": 0.645,
+     "mark": 0.395,
      "opened": "2026-11-28T14:26:04+00:00"
     },
     {
@@ -8632,6 +8644,16 @@
      "avg": 0.525,
      "mark": 0.515,
      "opened": "2026-11-28T14:36:51+00:00"
+    },
+    {
+     "title": "Spread: Indiana (-23.5)",
+     "outcome": "Purdue",
+     "event_slug": "cfb-pur-ind-2026-11-28",
+     "cost": 3.8,
+     "shares": 7.38,
+     "avg": 0.515,
+     "mark": 0.505,
+     "opened": "2026-11-28T14:55:55+00:00"
     }
    ],
    "closed": [
@@ -9297,6 +9319,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T15:02:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Indiana (-23.5)",
+     "outcome": "Purdue",
+     "event_slug": "cfb-pur-ind-2026-11-28",
+     "leader_usd": 1671.82,
+     "stake": 3.8,
+     "price": 0.515,
+     "leader_price": 0.49,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T14:47:12+00:00",
      "kind": "buy",
@@ -9976,18 +10010,6 @@
      "reason": "out of cash",
      "price": 0.515,
      "leader_price": 0.524
-    },
-    {
-     "ts": "2026-11-26T02:47:17+00:00",
-     "kind": "buy",
-     "title": "Sharks vs. Ducks: O/U 7.5",
-     "outcome": "Over",
-     "event_slug": "nhl-sj-ana-2026-11-25",
-     "leader_usd": 314.65,
-     "stake": 1.94,
-     "price": 0.355,
-     "leader_price": 0.341,
-     "mult": 1.04
     }
    ]
   },
@@ -12187,6 +12209,10 @@
     },
     {
      "t": "2026-11-28T14:47:12+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T15:02:12+00:00",
      "equity": 121.94
     }
    ],
@@ -14855,6 +14881,10 @@
     },
     {
      "t": "2026-11-28T14:47:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T15:02:12+00:00",
      "equity": 107.42
     }
    ],
