@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:47:20+00:00",
+ "updated": "2026-11-28T06:02:20+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2057,6 +2057,10 @@
     {
      "t": "2026-11-28T05:47:18+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T06:02:19+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2926,10 +2930,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.61,
+   "equity": 71.62,
    "cash": 14.86,
-   "pnl": -28.39,
-   "pnl_after_kalshi_fees": -32.64,
+   "pnl": -28.38,
+   "pnl_after_kalshi_fees": -32.63,
    "return_pct": -28.4,
    "realized": -36.41,
    "kalshi_fees": 4.25,
@@ -4974,6 +4978,10 @@
     {
      "t": "2026-11-28T05:47:18+00:00",
      "equity": 71.61
+    },
+    {
+     "t": "2026-11-28T06:02:19+00:00",
+     "equity": 71.62
     }
    ],
    "positions": [
@@ -5024,7 +5032,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8805,
+     "mark": 0.881,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6033,18 +6041,18 @@
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 62.3,
-   "cash": 20.24,
+   "cash": 31.42,
    "pnl": -37.7,
    "pnl_after_kalshi_fees": -50.56,
    "return_pct": -37.7,
-   "realized": -45.28,
+   "realized": -39.84,
    "kalshi_fees": 12.86,
-   "settled": 93,
-   "won": 49,
+   "settled": 94,
+   "won": 50,
    "lost": 44,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 34.48,
+   "open": 9,
+   "at_risk": 28.74,
    "copied": 118,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
@@ -8080,6 +8088,10 @@
     {
      "t": "2026-11-28T05:47:18+00:00",
      "equity": 62.3
+    },
+    {
+     "t": "2026-11-28T06:02:19+00:00",
+     "equity": 62.3
     }
    ],
    "positions": [
@@ -8140,7 +8152,7 @@
      "cost": 2.01,
      "shares": 2.54,
      "avg": 0.79,
-     "mark": 0.785,
+     "mark": 0.78,
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
@@ -8152,16 +8164,6 @@
      "avg": 0.52,
      "mark": 0.9995,
      "opened": "2026-11-27T13:59:59+00:00"
-    },
-    {
-     "title": "Spread: Utah (-24.5)",
-     "outcome": "West Virginia",
-     "event_slug": "cfb-wvir-utah-2026-11-27",
-     "cost": 5.74,
-     "shares": 11.18,
-     "avg": 0.513,
-     "mark": 0.9995,
-     "opened": "2026-11-28T00:56:05+00:00"
     },
     {
      "title": "Spread: Northwestern (-2.5)",
@@ -8185,6 +8187,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T06:02:19+00:00",
+     "title": "Spread: Utah (-24.5)",
+     "outcome": "West Virginia",
+     "event_slug": "cfb-wvir-utah-2026-11-27",
+     "cost": 5.74,
+     "pnl": 5.44,
+     "kfee": 0.21,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-28T05:02:13+00:00",
      "title": "Spread: Suns (-1.5)",
@@ -8831,17 +8844,6 @@
      "cost": 2.16,
      "pnl": 1.6,
      "kfee": 0.07,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-23T03:21:14+00:00",
-     "title": "Mavericks vs. Jazz",
-     "outcome": "Mavericks",
-     "event_slug": "nba-dal-uta-2026-11-22",
-     "cost": 4.62,
-     "pnl": 4.18,
-     "kfee": 0.16,
      "how": "won",
      "exit_price": 1.0
     }
@@ -9550,14 +9552,14 @@
    "pnl": 21.94,
    "pnl_after_kalshi_fees": 17.92,
    "return_pct": 21.9,
-   "realized": 28.93,
+   "realized": 21.95,
    "kalshi_fees": 4.02,
-   "settled": 16,
+   "settled": 17,
    "won": 9,
-   "lost": 7,
+   "lost": 8,
    "sold_early": 0,
-   "open": 1,
-   "at_risk": 6.98,
+   "open": 0,
+   "at_risk": 0,
    "copied": 23,
    "skipped": 0,
    "max_drawdown_pct": 24.1,
@@ -11593,21 +11595,25 @@
     {
      "t": "2026-11-28T05:47:18+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T06:02:19+00:00",
+     "equity": 121.94
     }
    ],
-   "positions": [
+   "positions": [],
+   "closed": [
     {
+     "ts": "2026-11-28T06:02:19+00:00",
      "title": "Millonarios FC vs. Am\u00e9rica de Cali: O/U 1.5",
      "outcome": "Over",
      "event_slug": "col1-mif-ad1-2026-11-27-more-markets",
      "cost": 6.98,
-     "shares": 10.66,
-     "avg": 0.655,
-     "mark": 0.0005,
-     "opened": "2026-11-28T00:53:31+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": -6.98,
+     "kfee": 0.17,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-28T03:47:11+00:00",
      "title": "AD Cali vs. CA Bucaramanga: O/U 2.5",
@@ -14116,6 +14122,10 @@
     },
     {
      "t": "2026-11-28T05:47:18+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T06:02:19+00:00",
      "equity": 107.42
     }
    ],
