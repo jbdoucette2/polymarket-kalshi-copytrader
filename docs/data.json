@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:17:15+00:00",
+ "updated": "2026-11-28T14:32:16+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2193,6 +2193,10 @@
     {
      "t": "2026-11-28T14:17:13+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T14:32:14+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3062,10 +3066,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.0,
+   "equity": 70.98,
    "cash": 14.86,
-   "pnl": -29.0,
-   "pnl_after_kalshi_fees": -33.25,
+   "pnl": -29.02,
+   "pnl_after_kalshi_fees": -33.27,
    "return_pct": -29.0,
    "realized": -36.41,
    "kalshi_fees": 4.25,
@@ -5246,6 +5250,10 @@
     {
      "t": "2026-11-28T14:17:13+00:00",
      "equity": 71.0
+    },
+    {
+     "t": "2026-11-28T14:32:14+00:00",
+     "equity": 70.98
     }
    ],
    "positions": [
@@ -5266,7 +5274,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.828,
+     "mark": 0.8275,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5296,7 +5304,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8825,
+     "mark": 0.881,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6302,20 +6310,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.23,
-   "cash": 34.3,
-   "pnl": -37.77,
-   "pnl_after_kalshi_fees": -50.76,
-   "return_pct": -37.8,
+   "equity": 62.07,
+   "cash": 29.1,
+   "pnl": -37.93,
+   "pnl_after_kalshi_fees": -51.05,
+   "return_pct": -37.9,
    "realized": -36.64,
-   "kalshi_fees": 12.99,
+   "kalshi_fees": 13.12,
    "settled": 95,
    "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 29.07,
-   "copied": 119,
+   "open": 11,
+   "at_risk": 34.27,
+   "copied": 121,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8486,6 +8494,10 @@
     {
      "t": "2026-11-28T14:17:13+00:00",
      "equity": 62.23
+    },
+    {
+     "t": "2026-11-28T14:32:14+00:00",
+     "equity": 62.07
     }
    ],
    "positions": [
@@ -8536,7 +8548,7 @@
      "cost": 1.04,
      "shares": 2.7,
      "avg": 0.385,
-     "mark": 0.355,
+     "mark": 0.345,
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
@@ -8566,7 +8578,7 @@
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.555,
+     "mark": 0.545,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8578,6 +8590,26 @@
      "avg": 0.545,
      "mark": 0.525,
      "opened": "2026-11-28T13:18:58+00:00"
+    },
+    {
+     "title": "Kansas State vs. Iowa State",
+     "outcome": "Iowa State",
+     "event_slug": "cfb-kanst-iowast-2026-11-28",
+     "cost": 3.8,
+     "shares": 5.71,
+     "avg": 0.665,
+     "mark": 0.655,
+     "opened": "2026-11-28T14:24:26+00:00"
+    },
+    {
+     "title": "Will SC Paderborn 07 win on 2026-11-28?",
+     "outcome": "No",
+     "event_slug": "bun-scp-s04-2026-11-28",
+     "cost": 1.4,
+     "shares": 2.07,
+     "avg": 0.675,
+     "mark": 0.665,
+     "opened": "2026-11-28T14:26:04+00:00"
     }
    ],
    "closed": [
@@ -9244,6 +9276,30 @@
    ],
    "log": [
     {
+     "ts": "2026-11-28T14:32:14+00:00",
+     "kind": "buy",
+     "title": "Will SC Paderborn 07 win on 2026-11-28?",
+     "outcome": "No",
+     "event_slug": "bun-scp-s04-2026-11-28",
+     "leader_usd": 224.25,
+     "stake": 1.4,
+     "price": 0.675,
+     "leader_price": 0.65,
+     "mult": 0.74
+    },
+    {
+     "ts": "2026-11-28T14:32:14+00:00",
+     "kind": "buy",
+     "title": "Kansas State vs. Iowa State",
+     "outcome": "Iowa State",
+     "event_slug": "cfb-kanst-iowast-2026-11-28",
+     "leader_usd": 2215.85,
+     "stake": 3.8,
+     "price": 0.665,
+     "leader_price": 0.65,
+     "mult": 2.0
+    },
+    {
      "ts": "2026-11-28T13:32:22+00:00",
      "kind": "buy",
      "title": "UCF vs. Colorado: O/U 47.5",
@@ -9909,29 +9965,6 @@
      "stake": 3.78,
      "price": 0.545,
      "leader_price": 0.55,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-26T02:02:13+00:00",
-     "kind": "skip",
-     "title": "76ers vs. Pacers",
-     "outcome": "76ers",
-     "event_slug": "nba-phi-ind-2026-11-27",
-     "leader_usd": 3.2,
-     "reason": "out of cash",
-     "price": 0.635,
-     "leader_price": 0.63
-    },
-    {
-     "ts": "2026-11-26T00:32:20+00:00",
-     "kind": "buy",
-     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
-     "outcome": "Under",
-     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
-     "leader_usd": 734.86,
-     "stake": 3.55,
-     "price": 0.575,
-     "leader_price": 0.58,
      "mult": 2.0
     }
    ]
@@ -12124,6 +12157,10 @@
     },
     {
      "t": "2026-11-28T14:17:13+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T14:32:14+00:00",
      "equity": 121.94
     }
    ],
@@ -14784,6 +14821,10 @@
     },
     {
      "t": "2026-11-28T14:17:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T14:32:14+00:00",
      "equity": 107.42
     }
    ],
