@@ -59,19 +59,6 @@
    "opened": "2026-11-27T00:35:28+00:00",
    "mark": 0.735
   },
-  "8751259912609686617787896547348549558222566390670930339036564965131715825467": {
-   "cond": "0x408748e9f39a27b1f5ab63c5a8aa423b898b5ca18527f5ed666cd62209b7ad1b",
-   "idx": 1,
-   "outcome": "Minnesota",
-   "title": "Spread: Wisconsin (-7.5)",
-   "slug": "cfb-minnst-wisc-2026-11-27-spread-home-7pt5",
-   "event_slug": "cfb-minnst-wisc-2026-11-27",
-   "shares": 3.257731958762887,
-   "cost": 1.58,
-   "kfee": 0.06,
-   "opened": "2026-11-27T16:37:19+00:00",
-   "mark": 0.0005
-  },
   "35291645172588917457521605652032084946130296187859859151580316412122619317107": {
    "cond": "0x91e20860241f7c90fcff5ec348a68f953bd66a02d5662ac26cab32ac1f904be6",
    "idx": 1,
@@ -433,6 +420,17 @@
    "kfee": 0.15,
    "how": "sold with leader",
    "exit_price": 0.715
+  },
+  {
+   "ts": "2026-11-28T04:17:14+00:00",
+   "title": "Spread: Wisconsin (-7.5)",
+   "outcome": "Minnesota",
+   "event_slug": "cfb-minnst-wisc-2026-11-27",
+   "cost": 1.58,
+   "pnl": -1.58,
+   "kfee": 0.06,
+   "how": "lost",
+   "exit_price": 0.0
   }
  ],
  "log": [
@@ -3320,6 +3318,10 @@
   },
   {
    "t": "2026-11-28T04:02:12+00:00",
+   "equity": 71.48
+  },
+  {
+   "t": "2026-11-28T04:17:14+00:00",
    "equity": 71.48
   }
  ],
