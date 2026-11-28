@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T20:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T20:47:22+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.12** (+9.12; after Kalshi fees +7.71) · 4-2 · sold early 0 · 5 open ($10.81) · max drawdown 6.4%
+**$109.14** (+9.14; after Kalshi fees +7.73) · 4-2 · sold early 0 · 5 open ($10.81) · max drawdown 6.4%
 
 ## Wallets it copies (and in which sports)
 
@@ -17,9 +17,9 @@ Updated 2026-11-28T20:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | --- | --- | --- | --- | --- |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
 | Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 50c |
-| Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 50c |
+| Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 48c |
 | Spread: Utah Valley Wolverines (-6.5) | San Jose State Spartans | ic4cream | $1.28 | 54c |
-| Northern Colorado Bears vs. San Diego Toreros: O/U 147.5 | Under | ic4cream | $1.31 | 54c |
+| Northern Colorado Bears vs. San Diego Toreros: O/U 147.5 | Under | ic4cream | $1.31 | 55c |
 
 ## Recent decisions
 

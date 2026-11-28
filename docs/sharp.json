@@ -3,10 +3,10 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 109.12,
+ "equity": 109.14,
  "cash": 98.48,
- "pnl": 9.12,
- "pnl_after_kalshi_fees": 7.71,
+ "pnl": 9.14,
+ "pnl_after_kalshi_fees": 7.73,
  "return_pct": 9.1,
  "realized": 9.28,
  "kalshi_fees": 1.41,
@@ -2271,6 +2271,10 @@
   {
    "t": "2026-11-28T20:32:15+00:00",
    "equity": 109.12
+  },
+  {
+   "t": "2026-11-28T20:47:22+00:00",
+   "equity": 109.14
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2340,7 +2344,7 @@
    "leader": "ic4cream",
    "cost": 1.42,
    "avg": 0.565,
-   "mark": 0.495
+   "mark": 0.5
   },
   {
    "title": "Spread: Stony Brook Seawolves (-6.5)",
@@ -2348,7 +2352,7 @@
    "leader": "ic4cream",
    "cost": 1.25,
    "avg": 0.525,
-   "mark": 0.495
+   "mark": 0.485
   },
   {
    "title": "Spread: Utah Valley Wolverines (-6.5)",
@@ -2364,7 +2368,7 @@
    "leader": "ic4cream",
    "cost": 1.31,
    "avg": 0.545,
-   "mark": 0.535
+   "mark": 0.545
   }
  ],
  "closed": [
@@ -3047,6 +3051,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T20:32:16+00:00",
+ "updated": "2026-11-28T20:47:22+00:00",
  "start": 100.0
 }

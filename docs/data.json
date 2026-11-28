@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T20:32:15+00:00",
+ "updated": "2026-11-28T20:47:22+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2293,6 +2293,10 @@
     {
      "t": "2026-11-28T20:32:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T20:47:19+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3162,11 +3166,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.37,
+   "equity": 73.84,
    "cash": 11.04,
-   "pnl": -25.63,
-   "pnl_after_kalshi_fees": -29.92,
-   "return_pct": -25.6,
+   "pnl": -26.16,
+   "pnl_after_kalshi_fees": -30.45,
+   "return_pct": -26.2,
    "realized": -36.41,
    "kalshi_fees": 4.29,
    "settled": 26,
@@ -5446,6 +5450,10 @@
     {
      "t": "2026-11-28T20:32:12+00:00",
      "equity": 74.37
+    },
+    {
+     "t": "2026-11-28T20:47:19+00:00",
+     "equity": 73.84
     }
    ],
    "positions": [
@@ -5456,7 +5464,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.93,
+     "mark": 0.915,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -5466,7 +5474,7 @@
      "cost": 22.81,
      "shares": 30.02,
      "avg": 0.76,
-     "mark": 0.904,
+     "mark": 0.9005,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5496,7 +5504,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.877,
+     "mark": 0.878,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6501,20 +6509,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 65.62,
-   "cash": 15.29,
-   "pnl": -34.38,
-   "pnl_after_kalshi_fees": -48.42,
-   "return_pct": -34.4,
-   "realized": -34.89,
-   "kalshi_fees": 14.04,
-   "settled": 99,
-   "won": 53,
+   "equity": 66.08,
+   "cash": 16.38,
+   "pnl": -33.92,
+   "pnl_after_kalshi_fees": -48.09,
+   "return_pct": -33.9,
+   "realized": -32.77,
+   "kalshi_fees": 14.17,
+   "settled": 100,
+   "won": 54,
    "lost": 46,
    "sold_early": 0,
    "open": 15,
-   "at_risk": 49.83,
-   "copied": 129,
+   "at_risk": 50.87,
+   "copied": 130,
    "skipped": 118,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8785,6 +8793,10 @@
     {
      "t": "2026-11-28T20:32:12+00:00",
      "equity": 65.62
+    },
+    {
+     "t": "2026-11-28T20:47:19+00:00",
+     "equity": 66.08
     }
    ],
    "positions": [
@@ -8805,7 +8817,7 @@
      "cost": 5.96,
      "shares": 11.42,
      "avg": 0.522,
-     "mark": 0.525,
+     "mark": 0.505,
      "opened": "2026-11-24T21:25:28+00:00"
     },
     {
@@ -8825,7 +8837,7 @@
      "cost": 4.97,
      "shares": 9.65,
      "avg": 0.515,
-     "mark": 0.555,
+     "mark": 0.545,
      "opened": "2026-11-26T15:15:45+00:00"
     },
     {
@@ -8849,23 +8861,13 @@
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
-     "title": "Spread: Northwestern (-2.5)",
-     "outcome": "Northwestern",
-     "event_slug": "cfb-ill-nw-2026-11-28",
-     "cost": 2.87,
-     "shares": 4.99,
-     "avg": 0.575,
-     "mark": 0.9995,
-     "opened": "2026-11-28T02:31:01+00:00"
-    },
-    {
      "title": "Fordham Rams vs. Harvard Crimson: O/U 138.5",
      "outcome": "Over",
      "event_slug": "cbb-fordm-harvrd-2026-11-28",
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.495,
+     "mark": 0.5,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8875,7 +8877,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.19,
+     "mark": 0.305,
      "opened": "2026-11-28T13:18:58+00:00"
     },
     {
@@ -8895,7 +8897,7 @@
      "cost": 1.76,
      "shares": 3.35,
      "avg": 0.525,
-     "mark": 0.495,
+     "mark": 0.485,
      "opened": "2026-11-28T14:36:51+00:00"
     },
     {
@@ -8915,7 +8917,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.445,
+     "mark": 0.455,
      "opened": "2026-11-28T15:10:27+00:00"
     },
     {
@@ -8925,7 +8927,7 @@
      "cost": 3.8,
      "shares": 5.39,
      "avg": 0.705,
-     "mark": 0.9695,
+     "mark": 0.9675,
      "opened": "2026-11-28T15:36:43+00:00"
     },
     {
@@ -8937,9 +8939,30 @@
      "avg": 0.535,
      "mark": 0.535,
      "opened": "2026-11-28T15:59:42+00:00"
+    },
+    {
+     "title": "Spread: Georgia (-35.5)",
+     "outcome": "Georgia",
+     "event_slug": "cfb-gtech-ga-2026-11-28",
+     "cost": 3.91,
+     "shares": 7.11,
+     "avg": 0.55,
+     "mark": 0.54,
+     "opened": "2026-11-28T20:42:05+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T20:47:19+00:00",
+     "title": "Spread: Northwestern (-2.5)",
+     "outcome": "Northwestern",
+     "event_slug": "cfb-ill-nw-2026-11-28",
+     "cost": 2.87,
+     "pnl": 2.12,
+     "kfee": 0.09,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-28T20:32:12+00:00",
      "title": "Spread: North Carolina (-6.5)",
@@ -9588,20 +9611,21 @@
      "kfee": 0.08,
      "how": "won",
      "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-24T03:02:12+00:00",
-     "title": "Thunder vs. Pacers: O/U 221.5",
-     "outcome": "Under",
-     "event_slug": "nba-okc-ind-2026-11-23",
-     "cost": 2.64,
-     "pnl": -2.64,
-     "kfee": 0.09,
-     "how": "lost",
-     "exit_price": 0.0
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T20:47:19+00:00",
+     "kind": "buy",
+     "title": "Spread: Georgia (-35.5)",
+     "outcome": "Georgia",
+     "event_slug": "cfb-gtech-ga-2026-11-28",
+     "leader_usd": 3208.14,
+     "stake": 3.91,
+     "price": 0.55,
+     "leader_price": 0.54,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T20:32:12+00:00",
      "kind": "skip",
@@ -10270,18 +10294,6 @@
      "price": 0.505,
      "leader_price": 0.49,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-27T05:02:13+00:00",
-     "kind": "buy",
-     "title": "Spread: Broncos (-6.5)",
-     "outcome": "Broncos",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "leader_usd": 1116.9,
-     "stake": 4.26,
-     "price": 0.465,
-     "leader_price": 0.45,
-     "mult": 2.0
     }
    ]
   },
@@ -10290,11 +10302,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.32,
+   "equity": 114.45,
    "cash": 96.06,
-   "pnl": 14.32,
-   "pnl_after_kalshi_fees": 9.33,
-   "return_pct": 14.3,
+   "pnl": 14.45,
+   "pnl_after_kalshi_fees": 9.46,
+   "return_pct": 14.5,
    "realized": 14.63,
    "kalshi_fees": 4.99,
    "settled": 18,
@@ -12574,6 +12586,10 @@
     {
      "t": "2026-11-28T20:32:12+00:00",
      "equity": 114.32
+    },
+    {
+     "t": "2026-11-28T20:47:19+00:00",
+     "equity": 114.45
     }
    ],
    "positions": [
@@ -12584,7 +12600,7 @@
      "cost": 8.05,
      "shares": 16.67,
      "avg": 0.483,
-     "mark": 0.485,
+     "mark": 0.535,
      "opened": "2026-11-28T19:22:03+00:00"
     },
     {
@@ -12594,7 +12610,7 @@
      "cost": 10.51,
      "shares": 20.36,
      "avg": 0.516,
-     "mark": 0.5,
+     "mark": 0.465,
      "opened": "2026-11-28T19:26:42+00:00"
     }
    ],
@@ -15448,6 +15464,10 @@
     },
     {
      "t": "2026-11-28T20:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T20:47:19+00:00",
      "equity": 107.42
     }
    ],
