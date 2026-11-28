@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:32:22+00:00",
+ "updated": "2026-11-28T03:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2021,6 +2021,10 @@
     {
      "t": "2026-11-28T03:32:21+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T03:47:11+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2890,10 +2894,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.52,
+   "equity": 71.5,
    "cash": 14.86,
-   "pnl": -28.48,
-   "pnl_after_kalshi_fees": -32.73,
+   "pnl": -28.5,
+   "pnl_after_kalshi_fees": -32.75,
    "return_pct": -28.5,
    "realized": -34.83,
    "kalshi_fees": 4.25,
@@ -4902,6 +4906,10 @@
     {
      "t": "2026-11-28T03:32:21+00:00",
      "equity": 71.52
+    },
+    {
+     "t": "2026-11-28T03:47:11+00:00",
+     "equity": 71.5
     }
    ],
    "positions": [
@@ -4922,7 +4930,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8475,
+     "mark": 0.847,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4952,7 +4960,7 @@
      "cost": 1.58,
      "shares": 3.26,
      "avg": 0.485,
-     "mark": 0.0115,
+     "mark": 0.0045,
      "opened": "2026-11-27T16:37:19+00:00"
     },
     {
@@ -4962,7 +4970,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8805,
+     "mark": 0.8825,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5959,19 +5967,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 43.41,
-   "cash": 9.27,
-   "pnl": -56.59,
-   "pnl_after_kalshi_fees": -69.35,
-   "return_pct": -56.6,
-   "realized": -52.36,
+   "equity": 43.45,
+   "cash": 16.15,
+   "pnl": -56.55,
+   "pnl_after_kalshi_fees": -69.31,
+   "return_pct": -56.5,
+   "realized": -48.96,
    "kalshi_fees": 12.76,
-   "settled": 91,
-   "won": 47,
+   "settled": 92,
+   "won": 48,
    "lost": 44,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 38.36,
+   "open": 10,
+   "at_risk": 34.89,
    "copied": 117,
    "skipped": 98,
    "max_drawdown_pct": 73.4,
@@ -7971,6 +7979,10 @@
     {
      "t": "2026-11-28T03:32:21+00:00",
      "equity": 43.41
+    },
+    {
+     "t": "2026-11-28T03:47:11+00:00",
+     "equity": 43.45
     }
    ],
    "positions": [
@@ -8035,23 +8047,13 @@
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
-     "title": "Spread: Celtics (-8.5)",
-     "outcome": "Hawks",
-     "event_slug": "nba-atl-bos-2026-11-27",
-     "cost": 3.47,
-     "shares": 6.87,
-     "avg": 0.505,
-     "mark": 0.9995,
-     "opened": "2026-11-27T13:22:07+00:00"
-    },
-    {
      "title": "Spread: Jacksonville State Gamecocks (-5.5)",
      "outcome": "Omaha Mavericks",
      "event_slug": "cbb-jaxst-neom-2026-11-27",
      "cost": 3.47,
      "shares": 6.67,
      "avg": 0.52,
-     "mark": 0.53,
+     "mark": 0.7,
      "opened": "2026-11-27T13:59:59+00:00"
     },
     {
@@ -8061,7 +8063,7 @@
      "cost": 3.47,
      "shares": 7.15,
      "avg": 0.485,
-     "mark": 0.27,
+     "mark": 0.115,
      "opened": "2026-11-27T14:38:40+00:00"
     },
     {
@@ -8071,7 +8073,7 @@
      "cost": 5.74,
      "shares": 11.18,
      "avg": 0.513,
-     "mark": 0.054,
+     "mark": 0.055,
      "opened": "2026-11-28T00:56:05+00:00"
     },
     {
@@ -8086,6 +8088,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T03:47:11+00:00",
+     "title": "Spread: Celtics (-8.5)",
+     "outcome": "Hawks",
+     "event_slug": "nba-atl-bos-2026-11-27",
+     "cost": 3.47,
+     "pnl": 3.4,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-28T03:32:21+00:00",
      "title": "Will Inter Miami CF win on 2026-11-27?",
@@ -8732,17 +8745,6 @@
      "cost": 2.01,
      "pnl": 1.82,
      "kfee": 0.07,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-23T01:21:13+00:00",
-     "title": "Raiders vs. Broncos",
-     "outcome": "Broncos",
-     "event_slug": "nfl-lv-den-2026-11-22",
-     "cost": 12.06,
-     "pnl": 2.38,
-     "kfee": 0.18,
      "how": "won",
      "exit_price": 1.0
     }
@@ -9445,19 +9447,19 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 122.33,
+   "equity": 121.94,
    "cash": 121.94,
-   "pnl": 22.33,
-   "pnl_after_kalshi_fees": 18.31,
-   "return_pct": 22.3,
-   "realized": 33.63,
+   "pnl": 21.94,
+   "pnl_after_kalshi_fees": 17.92,
+   "return_pct": 21.9,
+   "realized": 28.93,
    "kalshi_fees": 4.02,
-   "settled": 15,
+   "settled": 16,
    "won": 9,
-   "lost": 6,
+   "lost": 7,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 11.68,
+   "open": 1,
+   "at_risk": 6.98,
    "copied": 23,
    "skipped": 0,
    "max_drawdown_pct": 24.1,
@@ -11457,19 +11459,13 @@
     {
      "t": "2026-11-28T03:32:21+00:00",
      "equity": 122.33
+    },
+    {
+     "t": "2026-11-28T03:47:11+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [
-    {
-     "title": "AD Cali vs. CA Bucaramanga: O/U 2.5",
-     "outcome": "Over",
-     "event_slug": "col1-adc-cab-2026-11-27-more-markets",
-     "cost": 4.7,
-     "shares": 11.86,
-     "avg": 0.396,
-     "mark": 0.0005,
-     "opened": "2026-11-27T22:43:31+00:00"
-    },
     {
      "title": "Millonarios FC vs. Am\u00e9rica de Cali: O/U 1.5",
      "outcome": "Over",
@@ -11477,11 +11473,22 @@
      "cost": 6.98,
      "shares": 10.66,
      "avg": 0.655,
-     "mark": 0.036,
+     "mark": 0.0005,
      "opened": "2026-11-28T00:53:31+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T03:47:11+00:00",
+     "title": "AD Cali vs. CA Bucaramanga: O/U 2.5",
+     "outcome": "Over",
+     "event_slug": "col1-adc-cab-2026-11-27-more-markets",
+     "cost": 4.7,
+     "pnl": -4.7,
+     "kfee": 0.21,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-28T03:32:21+00:00",
      "title": "Will Inter Miami CF win on 2026-11-27?",
@@ -11946,7 +11953,7 @@
    "open": 0,
    "at_risk": 0,
    "copied": 16,
-   "skipped": 48,
+   "skipped": 49,
    "max_drawdown_pct": 8.9,
    "focus": "NBA (in-game)",
    "risk": "Control: in-game bettor",
@@ -13944,6 +13951,10 @@
     {
      "t": "2026-11-28T03:32:21+00:00",
      "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T03:47:11+00:00",
+     "equity": 107.42
     }
    ],
    "positions": [],
@@ -14126,6 +14137,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T03:47:11+00:00",
+     "kind": "skip",
+     "title": "Grizzlies vs. Timberwolves: O/U 213.5",
+     "outcome": "Over",
+     "event_slug": "nba-mem-min-2026-11-27",
+     "leader_usd": 209.72,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.98
+    },
     {
      "ts": "2026-11-28T00:32:22+00:00",
      "kind": "skip",
@@ -14785,17 +14807,6 @@
      "reason": "too late: outcome already decided",
      "price": 1.0,
      "leader_price": 0.42
-    },
-    {
-     "ts": "2026-11-21T04:20:30+00:00",
-     "kind": "skip",
-     "title": "Rockets vs. Nuggets: 1H O/U 117.5",
-     "outcome": "Over",
-     "event_slug": "nba-hou-den-2026-11-20",
-     "leader_usd": 35.28,
-     "reason": "too late: outcome already decided",
-     "price": 1.0,
-     "leader_price": 0.852
     }
    ]
   }
