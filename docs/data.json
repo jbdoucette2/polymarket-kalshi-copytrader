@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:02:14+00:00",
+ "updated": "2026-11-28T15:17:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2205,6 +2205,10 @@
     {
      "t": "2026-11-28T15:02:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T15:17:19+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3074,11 +3078,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.87,
+   "equity": 70.79,
    "cash": 14.86,
-   "pnl": -29.13,
-   "pnl_after_kalshi_fees": -33.38,
-   "return_pct": -29.1,
+   "pnl": -29.21,
+   "pnl_after_kalshi_fees": -33.46,
+   "return_pct": -29.2,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -5270,6 +5274,10 @@
     {
      "t": "2026-11-28T15:02:12+00:00",
      "equity": 70.87
+    },
+    {
+     "t": "2026-11-28T15:17:19+00:00",
+     "equity": 70.79
     }
    ],
    "positions": [
@@ -5280,7 +5288,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.88,
+     "mark": 0.875,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -5290,7 +5298,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.828,
+     "mark": 0.8325,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5310,7 +5318,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.725,
+     "mark": 0.715,
      "opened": "2026-11-27T00:35:28+00:00"
     },
     {
@@ -5320,7 +5328,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8745,
+     "mark": 0.874,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6326,20 +6334,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 61.39,
-   "cash": 23.54,
-   "pnl": -38.61,
-   "pnl_after_kalshi_fees": -51.92,
-   "return_pct": -38.6,
+   "equity": 60.74,
+   "cash": 19.74,
+   "pnl": -39.26,
+   "pnl_after_kalshi_fees": -52.7,
+   "return_pct": -39.3,
    "realized": -36.64,
-   "kalshi_fees": 13.31,
+   "kalshi_fees": 13.44,
    "settled": 95,
    "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 13,
-   "at_risk": 39.83,
-   "copied": 123,
+   "open": 14,
+   "at_risk": 43.63,
+   "copied": 124,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8522,6 +8530,10 @@
     {
      "t": "2026-11-28T15:02:12+00:00",
      "equity": 61.39
+    },
+    {
+     "t": "2026-11-28T15:17:19+00:00",
+     "equity": 60.74
     }
    ],
    "positions": [
@@ -8562,7 +8574,7 @@
      "cost": 4.97,
      "shares": 9.65,
      "avg": 0.515,
-     "mark": 0.49,
+     "mark": 0.465,
      "opened": "2026-11-26T15:15:45+00:00"
     },
     {
@@ -8592,7 +8604,7 @@
      "cost": 2.87,
      "shares": 4.99,
      "avg": 0.575,
-     "mark": 0.595,
+     "mark": 0.605,
      "opened": "2026-11-28T02:31:01+00:00"
     },
     {
@@ -8602,7 +8614,7 @@
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.535,
+     "mark": 0.555,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8632,7 +8644,7 @@
      "cost": 1.4,
      "shares": 2.07,
      "avg": 0.675,
-     "mark": 0.395,
+     "mark": 0.155,
      "opened": "2026-11-28T14:26:04+00:00"
     },
     {
@@ -8654,6 +8666,16 @@
      "avg": 0.515,
      "mark": 0.505,
      "opened": "2026-11-28T14:55:55+00:00"
+    },
+    {
+     "title": "Spread: South Carolina (-6.5)",
+     "outcome": "South Carolina",
+     "event_slug": "cfb-sc-clmsn-2026-11-28",
+     "cost": 3.8,
+     "shares": 6.97,
+     "avg": 0.545,
+     "mark": 0.535,
+     "opened": "2026-11-28T15:10:27+00:00"
     }
    ],
    "closed": [
@@ -9319,6 +9341,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T15:17:19+00:00",
+     "kind": "buy",
+     "title": "Spread: South Carolina (-6.5)",
+     "outcome": "South Carolina",
+     "event_slug": "cfb-sc-clmsn-2026-11-28",
+     "leader_usd": 1396.34,
+     "stake": 3.8,
+     "price": 0.545,
+     "leader_price": 0.52,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T15:02:12+00:00",
      "kind": "buy",
@@ -9999,17 +10033,6 @@
      "reason": "below $1 minimum",
      "price": 0.585,
      "leader_price": 0.59
-    },
-    {
-     "ts": "2026-11-26T02:47:17+00:00",
-     "kind": "skip",
-     "title": "Kraken vs. Oilers: O/U 6.5",
-     "outcome": "Under",
-     "event_slug": "nhl-sea-edm-2026-11-27",
-     "leader_usd": 10.6,
-     "reason": "out of cash",
-     "price": 0.515,
-     "leader_price": 0.524
     }
    ]
   },
@@ -12213,6 +12236,10 @@
     },
     {
      "t": "2026-11-28T15:02:12+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T15:17:19+00:00",
      "equity": 121.94
     }
    ],
@@ -14885,6 +14912,10 @@
     },
     {
      "t": "2026-11-28T15:02:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T15:17:19+00:00",
      "equity": 107.42
     }
    ],

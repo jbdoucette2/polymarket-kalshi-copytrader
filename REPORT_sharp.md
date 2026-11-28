@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T15:02:15+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T15:17:22+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.30** (+9.30; after Kalshi fees +7.99) · 4-2 · sold early 0 · 3 open ($8.22) · max drawdown 6.2%
+**$109.35** (+9.35; after Kalshi fees +8.04) · 4-2 · sold early 0 · 3 open ($8.22) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,7 +16,7 @@ Updated 2026-11-28T15:02:15+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
-| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 54c |
+| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 56c |
 | Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 52c |
 
 ## Recent decisions

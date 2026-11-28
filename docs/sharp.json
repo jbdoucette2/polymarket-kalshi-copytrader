@@ -3,10 +3,10 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 109.3,
+ "equity": 109.35,
  "cash": 101.07,
- "pnl": 9.3,
- "pnl_after_kalshi_fees": 7.99,
+ "pnl": 9.35,
+ "pnl_after_kalshi_fees": 8.04,
  "return_pct": 9.3,
  "realized": 9.28,
  "kalshi_fees": 1.31,
@@ -2183,6 +2183,10 @@
   {
    "t": "2026-11-28T15:02:14+00:00",
    "equity": 109.3
+  },
+  {
+   "t": "2026-11-28T15:17:21+00:00",
+   "equity": 109.35
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2252,7 +2256,7 @@
    "leader": "ic4cream",
    "cost": 1.42,
    "avg": 0.565,
-   "mark": 0.535
+   "mark": 0.555
   },
   {
    "title": "Spread: Stony Brook Seawolves (-6.5)",
@@ -2879,6 +2883,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T15:02:15+00:00",
+ "updated": "2026-11-28T15:17:22+00:00",
  "start": 100.0
 }
