@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T02:02:13+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T02:17:13+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$113.57** (+13.57; after Kalshi fees +12.36) · 4-1 · sold early 0 · 2 open ($9.44) · max drawdown 6.2%
+**$112.51** (+12.51; after Kalshi fees +11.30) · 4-1 · sold early 0 · 2 open ($9.44) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -15,7 +15,7 @@ Updated 2026-11-28T02:02:13+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
-| Spread: Suns (-1.5) | Suns | ic4cream | $3.89 | 60c |
+| Spread: Suns (-1.5) | Suns | ic4cream | $3.89 | 44c |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
 
 ## Recent decisions
