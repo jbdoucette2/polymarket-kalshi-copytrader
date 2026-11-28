@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:32:14+00:00",
+ "updated": "2026-11-28T09:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2117,6 +2117,10 @@
     {
      "t": "2026-11-28T09:32:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T09:47:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2986,11 +2990,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.7,
+   "equity": 71.8,
    "cash": 14.86,
-   "pnl": -28.3,
-   "pnl_after_kalshi_fees": -32.55,
-   "return_pct": -28.3,
+   "pnl": -28.2,
+   "pnl_after_kalshi_fees": -32.45,
+   "return_pct": -28.2,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -3000,7 +3004,7 @@
    "open": 5,
    "at_risk": 48.73,
    "copied": 44,
-   "skipped": 33,
+   "skipped": 35,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -5094,6 +5098,10 @@
     {
      "t": "2026-11-28T09:32:12+00:00",
      "equity": 71.7
+    },
+    {
+     "t": "2026-11-28T09:47:12+00:00",
+     "equity": 71.8
     }
    ],
    "positions": [
@@ -5124,7 +5132,7 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.265,
+     "mark": 0.275,
      "opened": "2026-11-23T22:56:41+00:00"
     },
     {
@@ -5144,7 +5152,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8785,
+     "mark": 0.8795,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5448,6 +5456,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T09:47:12+00:00",
+     "kind": "skip",
+     "title": "Will Labor win the second-most seats in the next Victorian state election?",
+     "outcome": "No",
+     "event_slug": "victoria-parliamentary-election-2nd-place",
+     "leader_usd": 3.99,
+     "reason": "below $1 minimum",
+     "price": 0.09,
+     "leader_price": 0.07
+    },
+    {
+     "ts": "2026-11-28T09:47:12+00:00",
+     "kind": "skip",
+     "title": "Will One Nation win the second-most seats in the next Victorian state election?",
+     "outcome": "Yes",
+     "event_slug": "victoria-parliamentary-election-2nd-place",
+     "leader_usd": 2.38,
+     "reason": "below $1 minimum",
+     "price": 0.09,
+     "leader_price": 0.059
+    },
     {
      "ts": "2026-11-28T09:17:12+00:00",
      "kind": "skip",
@@ -6120,29 +6150,6 @@
      "reason": "price ran away (0.50 -> 0.68)",
      "price": 0.68,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-22T01:20:55+00:00",
-     "kind": "skip",
-     "title": "Stanford vs. California: O/U 55.5",
-     "outcome": "Under",
-     "event_slug": "cfb-stan-cah-2026-11-21",
-     "leader_usd": 1323.86,
-     "reason": "price ran away (0.51 -> 0.61)",
-     "price": 0.61,
-     "leader_price": 0.51
-    },
-    {
-     "ts": "2026-11-22T00:21:22+00:00",
-     "kind": "buy",
-     "title": "Spread: UNLV (-6.5)",
-     "outcome": "San Jose State",
-     "event_slug": "cfb-unlv-sjst-2026-11-21",
-     "leader_usd": 2954.56,
-     "stake": 6.84,
-     "price": 0.405,
-     "leader_price": 0.51,
-     "mult": 2.0
     }
    ]
   },
@@ -8258,6 +8265,10 @@
     },
     {
      "t": "2026-11-28T09:32:12+00:00",
+     "equity": 62.3
+    },
+    {
+     "t": "2026-11-28T09:47:12+00:00",
      "equity": 62.3
     }
    ],
@@ -11812,6 +11823,10 @@
     {
      "t": "2026-11-28T09:32:12+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T09:47:12+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [],
@@ -14395,6 +14410,10 @@
     },
     {
      "t": "2026-11-28T09:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T09:47:12+00:00",
      "equity": 107.42
     }
    ],
