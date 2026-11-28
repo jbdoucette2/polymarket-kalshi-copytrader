@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:02:14+00:00",
+ "updated": "2026-11-28T10:17:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2125,6 +2125,10 @@
     {
      "t": "2026-11-28T10:02:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T10:17:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2994,10 +2998,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.91,
+   "equity": 71.88,
    "cash": 14.86,
-   "pnl": -28.09,
-   "pnl_after_kalshi_fees": -32.34,
+   "pnl": -28.12,
+   "pnl_after_kalshi_fees": -32.37,
    "return_pct": -28.1,
    "realized": -36.41,
    "kalshi_fees": 4.25,
@@ -3008,7 +3012,7 @@
    "open": 5,
    "at_risk": 48.73,
    "copied": 44,
-   "skipped": 35,
+   "skipped": 36,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -5110,6 +5114,10 @@
     {
      "t": "2026-11-28T10:02:12+00:00",
      "equity": 71.91
+    },
+    {
+     "t": "2026-11-28T10:17:12+00:00",
+     "equity": 71.88
     }
    ],
    "positions": [
@@ -5160,7 +5168,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8835,
+     "mark": 0.878,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5464,6 +5472,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T10:17:12+00:00",
+     "kind": "skip",
+     "title": "Will One Nation win the second-most seats in the next Victorian state election?",
+     "outcome": "Yes",
+     "event_slug": "victoria-parliamentary-election-2nd-place",
+     "leader_usd": 3.41,
+     "reason": "below $1 minimum",
+     "price": 0.025,
+     "leader_price": 0.008
+    },
     {
      "ts": "2026-11-28T09:47:12+00:00",
      "kind": "skip",
@@ -6147,17 +6166,6 @@
      "price": 0.435,
      "leader_price": 0.44,
      "mult": 0.37
-    },
-    {
-     "ts": "2026-11-22T01:20:55+00:00",
-     "kind": "skip",
-     "title": "SMU vs. Notre Dame: O/U 55.5",
-     "outcome": "Under",
-     "event_slug": "cfb-smu-nd-2026-11-21",
-     "leader_usd": 2500.0,
-     "reason": "price ran away (0.50 -> 0.68)",
-     "price": 0.68,
-     "leader_price": 0.5
     }
    ]
   },
@@ -8281,6 +8289,10 @@
     },
     {
      "t": "2026-11-28T10:02:12+00:00",
+     "equity": 62.3
+    },
+    {
+     "t": "2026-11-28T10:17:12+00:00",
      "equity": 62.3
     }
    ],
@@ -11843,6 +11855,10 @@
     {
      "t": "2026-11-28T10:02:12+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T10:17:12+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [],
@@ -14434,6 +14450,10 @@
     },
     {
      "t": "2026-11-28T10:02:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T10:17:12+00:00",
      "equity": 107.42
     }
    ],
