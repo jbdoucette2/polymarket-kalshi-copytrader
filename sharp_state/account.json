@@ -39,7 +39,7 @@
    "leader_name": "ic4cream",
    "leader_shares": 1532.964706,
    "edge": 0.021,
-   "mark": 0.5
+   "mark": 0.485
   },
   "66186090545517682607279253788738942769873170405300354505838010367674652182606": {
    "cond": "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359",
@@ -718,6 +718,18 @@
    "price": 0.565,
    "leader_price": 0.46,
    "leader": "CUTJALENHURTS"
+  },
+  {
+   "ts": "2026-11-28T20:17:14+00:00",
+   "kind": "skip",
+   "title": "Spread: Suns (-8.5)",
+   "outcome": "Jazz",
+   "event_slug": "nba-phx-uta-2026-11-29",
+   "leader_usd": 12.8,
+   "reason": "small bet for this wallet",
+   "price": 0.595,
+   "leader_price": 0.64,
+   "leader": "ic4cream"
   }
  ],
  "history": [
@@ -2964,11 +2976,15 @@
   {
    "t": "2026-11-28T20:02:14+00:00",
    "equity": 109.21
+  },
+  {
+   "t": "2026-11-28T20:17:14+00:00",
+   "equity": 109.17
   }
  ],
  "kfees": 1.36,
  "copied": 10,
- "skipped": 36,
+ "skipped": 37,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2979,8 +2995,8 @@
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
-  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795896114,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795894568
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795896701,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795896711
  },
  "day": {
   "2026-11-26": 5.36,
@@ -3475,6 +3491,9 @@
    ],
    "0x946819f9d5697deaed69af82c4ea871b51dc08265a02160b2eab7e93bcbb76ec": [
     0
+   ],
+   "0x4cfa3ecf5244c4f62a6dbf0c92b381add51d027714d10024a01b71848948244b": [
+    1
    ]
   },
   "0x27f738fe203827445690339104aae35b20bc44b0": {
@@ -3594,6 +3613,12 @@
    ],
    "0xc289dbd304097875516367cb78baafcf474083595123e01f48663e04fbe77e9c": [
     0
+   ],
+   "0x1551957584cddc93bc5b3857f833ac3c011eaaf7da45a1717709d5fdfddab89d": [
+    0
+   ],
+   "0xa953a8342939acbe2d8dbe0491033c8e98d63acaac50dfcfa3374721e66e51a9": [
+    1
    ]
   }
  }
