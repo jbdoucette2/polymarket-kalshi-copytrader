@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:02:13+00:00",
+ "updated": "2026-11-28T09:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2109,6 +2109,10 @@
     {
      "t": "2026-11-28T09:02:11+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T09:17:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2978,11 +2982,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.6,
+   "equity": 71.76,
    "cash": 14.86,
-   "pnl": -28.4,
-   "pnl_after_kalshi_fees": -32.65,
-   "return_pct": -28.4,
+   "pnl": -28.24,
+   "pnl_after_kalshi_fees": -32.49,
+   "return_pct": -28.2,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -2992,7 +2996,7 @@
    "open": 5,
    "at_risk": 48.73,
    "copied": 44,
-   "skipped": 32,
+   "skipped": 33,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -5078,6 +5082,10 @@
     {
      "t": "2026-11-28T09:02:11+00:00",
      "equity": 71.6
+    },
+    {
+     "t": "2026-11-28T09:17:12+00:00",
+     "equity": 71.76
     }
    ],
    "positions": [
@@ -5098,7 +5106,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8475,
+     "mark": 0.852,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5128,7 +5136,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.874,
+     "mark": 0.883,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5432,6 +5440,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T09:17:12+00:00",
+     "kind": "skip",
+     "title": "Will Labor win the most seats in the next Victorian state election?",
+     "outcome": "No",
+     "event_slug": "victoria-parliamentary-election-winner",
+     "leader_usd": 41.96,
+     "reason": "too late: outcome already decided",
+     "price": 1.0,
+     "leader_price": 0.999
+    },
     {
      "ts": "2026-11-28T03:02:12+00:00",
      "kind": "sell",
@@ -6116,18 +6135,6 @@
      "price": 0.405,
      "leader_price": 0.51,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "kind": "buy",
-     "title": "Spread: Texas (-17.5)",
-     "outcome": "Arkansas",
-     "event_slug": "cfb-ark-tx-2026-11-21",
-     "leader_usd": 768.54,
-     "stake": 1.81,
-     "price": 0.315,
-     "leader_price": 0.48,
-     "mult": 0.6
     }
    ]
   },
@@ -8235,6 +8242,10 @@
     },
     {
      "t": "2026-11-28T09:02:11+00:00",
+     "equity": 62.3
+    },
+    {
+     "t": "2026-11-28T09:17:12+00:00",
      "equity": 62.3
     }
    ],
@@ -11781,6 +11792,10 @@
     {
      "t": "2026-11-28T09:02:11+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T09:17:12+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [],
@@ -14356,6 +14371,10 @@
     },
     {
      "t": "2026-11-28T09:02:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T09:17:12+00:00",
      "equity": 107.42
     }
    ],
