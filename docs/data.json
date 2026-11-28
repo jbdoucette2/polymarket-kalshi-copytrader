@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:47:13+00:00",
+ "updated": "2026-11-28T03:02:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2009,6 +2009,10 @@
     {
      "t": "2026-11-28T02:47:11+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T03:02:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2878,19 +2882,19 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.83,
-   "cash": 11.02,
-   "pnl": -28.17,
-   "pnl_after_kalshi_fees": -32.34,
-   "return_pct": -28.2,
-   "realized": -34.62,
-   "kalshi_fees": 4.17,
+   "equity": 71.55,
+   "cash": 14.86,
+   "pnl": -28.45,
+   "pnl_after_kalshi_fees": -32.7,
+   "return_pct": -28.5,
+   "realized": -34.83,
+   "kalshi_fees": 4.25,
    "settled": 25,
    "won": 7,
    "lost": 18,
-   "sold_early": 0,
-   "open": 7,
-   "at_risk": 54.36,
+   "sold_early": 1,
+   "open": 6,
+   "at_risk": 50.31,
    "copied": 44,
    "skipped": 32,
    "max_drawdown_pct": 41.2,
@@ -4878,6 +4882,10 @@
     {
      "t": "2026-11-28T02:47:11+00:00",
      "equity": 71.83
+    },
+    {
+     "t": "2026-11-28T03:02:12+00:00",
+     "equity": 71.55
     }
    ],
    "positions": [
@@ -4908,18 +4916,8 @@
      "cost": 2.36,
      "shares": 9.25,
      "avg": 0.255,
-     "mark": 0.265,
+     "mark": 0.275,
      "opened": "2026-11-23T22:56:41+00:00"
-    },
-    {
-     "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
-     "outcome": "No",
-     "event_slug": "spain-general-election-winner",
-     "cost": 4.05,
-     "shares": 5.36,
-     "avg": 0.755,
-     "mark": 0.735,
-     "opened": "2026-11-26T14:03:09+00:00"
     },
     {
      "title": "Will PP win the most seats in the 2026 Spanish general election?",
@@ -4938,7 +4936,7 @@
      "cost": 1.58,
      "shares": 3.26,
      "avg": 0.485,
-     "mark": 0.105,
+     "mark": 0.024,
      "opened": "2026-11-27T16:37:19+00:00"
     },
     {
@@ -4953,6 +4951,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T03:02:12+00:00",
+     "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+     "outcome": "No",
+     "event_slug": "spain-general-election-winner",
+     "cost": 4.05,
+     "pnl": -0.21,
+     "kfee": 0.15,
+     "how": "sold with leader",
+     "exit_price": 0.715
+    },
     {
      "ts": "2026-11-28T00:47:18+00:00",
      "title": "Spread: North Dakota State (-8.5)",
@@ -5230,6 +5239,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T03:02:12+00:00",
+     "kind": "sell",
+     "title": "Will PSOE win the most seats in the 2026 Spanish general election?",
+     "outcome": "No",
+     "event_slug": "spain-general-election-winner",
+     "leader_usd": 27627.46,
+     "fraction": 1.0,
+     "price": 0.715,
+     "leader_price": 0.73,
+     "pnl": -0.21
+    },
     {
      "ts": "2026-11-28T02:32:12+00:00",
      "kind": "skip",
@@ -5914,17 +5935,6 @@
      "price": 0.315,
      "leader_price": 0.48,
      "mult": 0.6
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "kind": "skip",
-     "title": "Texas Tech vs. Baylor",
-     "outcome": "Texas Tech",
-     "event_slug": "cfb-txtech-bayl-2026-11-21",
-     "leader_usd": 1466.52,
-     "reason": "price ran away (0.66 -> 0.80)",
-     "price": 0.795,
-     "leader_price": 0.66
     }
    ]
   },
@@ -5933,11 +5943,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.6,
+   "equity": 43.74,
    "cash": 4.51,
-   "pnl": -53.4,
-   "pnl_after_kalshi_fees": -66.16,
-   "return_pct": -53.4,
+   "pnl": -56.26,
+   "pnl_after_kalshi_fees": -69.02,
+   "return_pct": -56.3,
    "realized": -52.16,
    "kalshi_fees": 12.76,
    "settled": 89,
@@ -7933,6 +7943,10 @@
     {
      "t": "2026-11-28T02:47:11+00:00",
      "equity": 46.6
+    },
+    {
+     "t": "2026-11-28T03:02:12+00:00",
+     "equity": 43.74
     }
    ],
    "positions": [
@@ -7993,7 +8007,7 @@
      "cost": 3.55,
      "shares": 4.77,
      "avg": 0.745,
-     "mark": 0.9955,
+     "mark": 0.9995,
      "opened": "2026-11-26T18:40:34+00:00"
     },
     {
@@ -8033,7 +8047,7 @@
      "cost": 3.47,
      "shares": 7.15,
      "avg": 0.485,
-     "mark": 0.255,
+     "mark": 0.21,
      "opened": "2026-11-27T14:38:40+00:00"
     },
     {
@@ -8043,7 +8057,7 @@
      "cost": 1.42,
      "shares": 3.79,
      "avg": 0.375,
-     "mark": 0.255,
+     "mark": 0.155,
      "opened": "2026-11-28T00:05:08+00:00"
     },
     {
@@ -8053,7 +8067,7 @@
      "cost": 5.74,
      "shares": 11.18,
      "avg": 0.513,
-     "mark": 0.415,
+     "mark": 0.22,
      "opened": "2026-11-28T00:56:05+00:00"
     },
     {
@@ -9427,11 +9441,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 93.25,
+   "equity": 89.98,
    "cash": 63.8,
-   "pnl": -6.75,
-   "pnl_after_kalshi_fees": -10.77,
-   "return_pct": -6.8,
+   "pnl": -10.02,
+   "pnl_after_kalshi_fees": -14.04,
+   "return_pct": -10.0,
    "realized": 16.38,
    "kalshi_fees": 4.02,
    "settled": 12,
@@ -9442,7 +9456,7 @@
    "at_risk": 52.57,
    "copied": 23,
    "skipped": 0,
-   "max_drawdown_pct": 21.4,
+   "max_drawdown_pct": 24.1,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -11427,6 +11441,10 @@
     {
      "t": "2026-11-28T02:47:11+00:00",
      "equity": 93.25
+    },
+    {
+     "t": "2026-11-28T03:02:12+00:00",
+     "equity": 89.98
     }
    ],
    "positions": [
@@ -11437,7 +11455,7 @@
      "cost": 11.05,
      "shares": 23.13,
      "avg": 0.478,
-     "mark": 0.0115,
+     "mark": 0.0065,
      "opened": "2026-11-27T12:33:10+00:00"
     },
     {
@@ -11457,7 +11475,7 @@
      "cost": 15.88,
      "shares": 36.66,
      "avg": 0.433,
-     "mark": 0.265,
+     "mark": 0.135,
      "opened": "2026-11-28T00:04:29+00:00"
     },
     {
@@ -11467,7 +11485,7 @@
      "cost": 13.96,
      "shares": 21.48,
      "avg": 0.65,
-     "mark": 0.745,
+     "mark": 0.845,
      "opened": "2026-11-28T00:05:07+00:00"
     },
     {
@@ -11477,7 +11495,7 @@
      "cost": 6.98,
      "shares": 10.66,
      "avg": 0.655,
-     "mark": 0.325,
+     "mark": 0.275,
      "opened": "2026-11-28T00:53:31+00:00"
     }
    ],
@@ -13898,6 +13916,10 @@
     },
     {
      "t": "2026-11-28T02:47:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T03:02:12+00:00",
      "equity": 107.42
     }
    ],
