@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T20:17:14+00:00",
+ "updated": "2026-11-28T20:32:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2289,6 +2289,10 @@
     {
      "t": "2026-11-28T20:17:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T20:32:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3158,10 +3162,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.4,
+   "equity": 74.37,
    "cash": 11.04,
-   "pnl": -25.6,
-   "pnl_after_kalshi_fees": -29.89,
+   "pnl": -25.63,
+   "pnl_after_kalshi_fees": -29.92,
    "return_pct": -25.6,
    "realized": -36.41,
    "kalshi_fees": 4.29,
@@ -5438,6 +5442,10 @@
     {
      "t": "2026-11-28T20:17:12+00:00",
      "equity": 74.4
+    },
+    {
+     "t": "2026-11-28T20:32:12+00:00",
+     "equity": 74.37
     }
    ],
    "positions": [
@@ -5458,7 +5466,7 @@
      "cost": 22.81,
      "shares": 30.02,
      "avg": 0.76,
-     "mark": 0.9045,
+     "mark": 0.904,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5488,7 +5496,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.88,
+     "mark": 0.877,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6493,21 +6501,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 66.36,
-   "cash": 0.9,
-   "pnl": -33.64,
-   "pnl_after_kalshi_fees": -47.68,
-   "return_pct": -33.6,
-   "realized": -41.76,
+   "equity": 65.62,
+   "cash": 15.29,
+   "pnl": -34.38,
+   "pnl_after_kalshi_fees": -48.42,
+   "return_pct": -34.4,
+   "realized": -34.89,
    "kalshi_fees": 14.04,
-   "settled": 97,
-   "won": 51,
+   "settled": 99,
+   "won": 53,
    "lost": 46,
    "sold_early": 0,
-   "open": 17,
-   "at_risk": 57.35,
+   "open": 15,
+   "at_risk": 49.83,
    "copied": 129,
-   "skipped": 113,
+   "skipped": 118,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -8773,6 +8781,10 @@
     {
      "t": "2026-11-28T20:17:12+00:00",
      "equity": 66.36
+    },
+    {
+     "t": "2026-11-28T20:32:12+00:00",
+     "equity": 65.62
     }
    ],
    "positions": [
@@ -8793,7 +8805,7 @@
      "cost": 5.96,
      "shares": 11.42,
      "avg": 0.522,
-     "mark": 0.665,
+     "mark": 0.525,
      "opened": "2026-11-24T21:25:28+00:00"
     },
     {
@@ -8813,7 +8825,7 @@
      "cost": 4.97,
      "shares": 9.65,
      "avg": 0.515,
-     "mark": 0.495,
+     "mark": 0.555,
      "opened": "2026-11-26T15:15:45+00:00"
     },
     {
@@ -8823,7 +8835,7 @@
      "cost": 1.04,
      "shares": 2.7,
      "avg": 0.385,
-     "mark": 0.165,
+     "mark": 0.135,
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
@@ -8843,7 +8855,7 @@
      "cost": 2.87,
      "shares": 4.99,
      "avg": 0.575,
-     "mark": 0.96,
+     "mark": 0.9995,
      "opened": "2026-11-28T02:31:01+00:00"
     },
     {
@@ -8853,7 +8865,7 @@
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.485,
+     "mark": 0.495,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8863,7 +8875,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.235,
+     "mark": 0.19,
      "opened": "2026-11-28T13:18:58+00:00"
     },
     {
@@ -8873,7 +8885,7 @@
      "cost": 3.8,
      "shares": 5.71,
      "avg": 0.665,
-     "mark": 0.835,
+     "mark": 0.865,
      "opened": "2026-11-28T14:24:26+00:00"
     },
     {
@@ -8883,7 +8895,7 @@
      "cost": 1.76,
      "shares": 3.35,
      "avg": 0.525,
-     "mark": 0.515,
+     "mark": 0.495,
      "opened": "2026-11-28T14:36:51+00:00"
     },
     {
@@ -8903,7 +8915,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.505,
+     "mark": 0.445,
      "opened": "2026-11-28T15:10:27+00:00"
     },
     {
@@ -8913,7 +8925,7 @@
      "cost": 3.8,
      "shares": 5.39,
      "avg": 0.705,
-     "mark": 0.835,
+     "mark": 0.9695,
      "opened": "2026-11-28T15:36:43+00:00"
     },
     {
@@ -8925,29 +8937,31 @@
      "avg": 0.535,
      "mark": 0.535,
      "opened": "2026-11-28T15:59:42+00:00"
-    },
+    }
+   ],
+   "closed": [
     {
-     "title": "Spread: North Carolina (-5.5)",
-     "outcome": "North Carolina",
-     "event_slug": "cfb-ncst-ncar-2026-11-28",
-     "cost": 3.8,
-     "shares": 7.1,
-     "avg": 0.535,
-     "mark": 0.9995,
-     "opened": "2026-11-28T16:45:24+00:00"
-    },
-    {
+     "ts": "2026-11-28T20:32:12+00:00",
      "title": "Spread: North Carolina (-6.5)",
      "outcome": "North Carolina",
      "event_slug": "cfb-ncst-ncar-2026-11-28",
      "cost": 3.72,
-     "shares": 7.29,
-     "avg": 0.51,
-     "mark": 0.9995,
-     "opened": "2026-11-28T16:56:00+00:00"
-    }
-   ],
-   "closed": [
+     "pnl": 3.57,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "title": "Spread: North Carolina (-5.5)",
+     "outcome": "North Carolina",
+     "event_slug": "cfb-ncst-ncar-2026-11-28",
+     "cost": 3.8,
+     "pnl": 3.3,
+     "kfee": 0.13,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-28T20:17:12+00:00",
      "title": "Navy vs. Charlotte: O/U 51.5",
@@ -9585,31 +9599,64 @@
      "kfee": 0.09,
      "how": "lost",
      "exit_price": 0.0
-    },
-    {
-     "ts": "2026-11-24T03:02:12+00:00",
-     "title": "Nets vs. Timberwolves: O/U 223.5",
-     "outcome": "Over",
-     "event_slug": "nba-bkn-min-2026-11-23",
-     "cost": 2.64,
-     "pnl": 2.49,
-     "kfee": 0.09,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-24T02:47:13+00:00",
-     "title": "Spread: SC Internacional (-1.5)",
-     "outcome": "EC Vit\u00f3ria",
-     "event_slug": "bra-int-vit-2026-11-23-more-markets",
-     "cost": 2.78,
-     "pnl": 1.46,
-     "kfee": 0.07,
-     "how": "won",
-     "exit_price": 1.0
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Delaware Fightin' Blue Hens vs. Stony Brook Seawolves: O/U 137.5",
+     "outcome": "Under",
+     "event_slug": "cbb-del-stbr-2026-11-28",
+     "leader_usd": 139.39,
+     "reason": "out of cash",
+     "price": 0.54,
+     "leader_price": 0.53
+    },
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Northern Colorado Bears vs. San Diego Toreros: O/U 147.5",
+     "outcome": "Under",
+     "event_slug": "cbb-ncol-sd-2026-11-28",
+     "leader_usd": 513.57,
+     "reason": "out of cash",
+     "price": 0.535,
+     "leader_price": 0.53
+    },
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "skip",
+     "title": "UTEP vs. Northern Illinois: O/U 51.5",
+     "outcome": "Over",
+     "event_slug": "cfb-utep-nill-2026-11-28",
+     "leader_usd": 10858.4,
+     "reason": "price ran away (0.49 -> 0.73)",
+     "price": 0.735,
+     "leader_price": 0.49
+    },
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Towson Tigers (-5.5)",
+     "outcome": "Towson Tigers",
+     "event_slug": "cbb-buf-tows-2026-11-28",
+     "leader_usd": 287.64,
+     "reason": "out of cash",
+     "price": 0.5,
+     "leader_price": 0.47
+    },
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "skip",
+     "title": "Spread: Boise State Broncos (-5.5)",
+     "outcome": "Boise State Broncos",
+     "event_slug": "cbb-ntx-boise-2026-11-28",
+     "leader_usd": 81.0,
+     "reason": "price ran away (0.50 -> 0.72)",
+     "price": 0.72,
+     "leader_price": 0.5
+    },
     {
      "ts": "2026-11-28T20:17:12+00:00",
      "kind": "skip",
@@ -10235,66 +10282,6 @@
      "price": 0.465,
      "leader_price": 0.45,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-27T04:32:21+00:00",
-     "kind": "buy",
-     "title": "Princeton Tigers vs. UNCW Seahawks: O/U 151.5",
-     "outcome": "Over",
-     "event_slug": "cbb-prnce-ncw-2026-11-27",
-     "leader_usd": 1353.54,
-     "stake": 3.91,
-     "price": 0.53,
-     "leader_price": 0.509,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-27T04:32:21+00:00",
-     "kind": "buy",
-     "title": "South Alabama Jaguars vs. Fresno State Bulldogs",
-     "outcome": "South Alabama Jaguars",
-     "event_slug": "cbb-sala-frest-2026-11-27",
-     "leader_usd": 862.96,
-     "stake": 3.91,
-     "price": 0.525,
-     "leader_price": 0.515,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-27T01:02:17+00:00",
-     "kind": "buy",
-     "title": "Spread: Jacksonville State Gamecocks (-2.5)",
-     "outcome": "Jacksonville State Gamecocks",
-     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
-     "leader_usd": 258.64,
-     "stake": 1.82,
-     "price": 0.39,
-     "leader_price": 0.53,
-     "mult": 0.85
-    },
-    {
-     "ts": "2026-11-27T00:32:10+00:00",
-     "kind": "buy",
-     "title": "Will Coritiba FBC win on 2026-11-29?",
-     "outcome": "No",
-     "event_slug": "bra-cor-fla-2026-11-29",
-     "leader_usd": 285.19,
-     "stake": 2.01,
-     "price": 0.79,
-     "leader_price": 0.79,
-     "mult": 0.94
-    },
-    {
-     "ts": "2026-11-27T00:02:11+00:00",
-     "kind": "buy",
-     "title": "Spread: LSU Tigers (-6.5)",
-     "outcome": "SMU Mustangs",
-     "event_slug": "cbb-lsu-smu-2026-11-26",
-     "leader_usd": 177.87,
-     "stake": 1.37,
-     "price": 0.535,
-     "leader_price": 0.49,
-     "mult": 0.59
     }
    ]
   },
@@ -10303,20 +10290,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.67,
-   "cash": 100.3,
-   "pnl": 14.67,
-   "pnl_after_kalshi_fees": 9.84,
-   "return_pct": 14.7,
+   "equity": 114.32,
+   "cash": 96.06,
+   "pnl": 14.32,
+   "pnl_after_kalshi_fees": 9.33,
+   "return_pct": 14.3,
    "realized": 14.63,
-   "kalshi_fees": 4.83,
+   "kalshi_fees": 4.99,
    "settled": 18,
    "won": 9,
    "lost": 9,
    "sold_early": 0,
    "open": 2,
-   "at_risk": 14.32,
-   "copied": 28,
+   "at_risk": 18.56,
+   "copied": 29,
    "skipped": 1,
    "max_drawdown_pct": 24.1,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -12583,6 +12570,10 @@
     {
      "t": "2026-11-28T20:17:12+00:00",
      "equity": 114.67
+    },
+    {
+     "t": "2026-11-28T20:32:12+00:00",
+     "equity": 114.32
     }
    ],
    "positions": [
@@ -12590,9 +12581,9 @@
      "title": "Vit\u00f3ria SC vs. CF Estrela da Amadora: O/U 2.5",
      "outcome": "Under",
      "event_slug": "por-gui-ama-2026-11-28-more-markets",
-     "cost": 3.81,
-     "shares": 8.02,
-     "avg": 0.475,
+     "cost": 8.05,
+     "shares": 16.67,
+     "avg": 0.483,
      "mark": 0.485,
      "opened": "2026-11-28T19:22:03+00:00"
     },
@@ -12603,7 +12594,7 @@
      "cost": 10.51,
      "shares": 20.36,
      "avg": 0.516,
-     "mark": 0.515,
+     "mark": 0.5,
      "opened": "2026-11-28T19:26:42+00:00"
     }
    ],
@@ -12808,6 +12799,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T20:32:12+00:00",
+     "kind": "buy",
+     "title": "Vit\u00f3ria SC vs. CF Estrela da Amadora: O/U 2.5",
+     "outcome": "Under",
+     "event_slug": "por-gui-ama-2026-11-28-more-markets",
+     "leader_usd": 6129.8,
+     "stake": 4.24,
+     "price": 0.49,
+     "leader_price": 0.48,
+     "mult": 1.23
+    },
     {
      "ts": "2026-11-28T20:02:11+00:00",
      "kind": "buy",
@@ -15441,6 +15444,10 @@
     },
     {
      "t": "2026-11-28T20:17:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T20:32:12+00:00",
      "equity": 107.42
     }
    ],

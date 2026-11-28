@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 99.7882,
+ "cash": 98.4782,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -39,7 +39,7 @@
    "leader_name": "ic4cream",
    "leader_shares": 1532.964706,
    "edge": 0.021,
-   "mark": 0.485
+   "mark": 0.495
   },
   "66186090545517682607279253788738942769873170405300354505838010367674652182606": {
    "cond": "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359",
@@ -56,7 +56,7 @@
    "leader_name": "ic4cream",
    "leader_shares": 550.0,
    "edge": 0.021,
-   "mark": 0.515
+   "mark": 0.495
   },
   "4286860341954974013249667926906022109704960672698866606121958031895118853782": {
    "cond": "0x66507c33b2643e035f763cde1d1167556ddbcbdb0f56b7df376da32e1c717a1d",
@@ -72,6 +72,23 @@
    "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
    "leader_name": "ic4cream",
    "leader_shares": 1908.26,
+   "edge": 0.021,
+   "mark": 0.535
+  },
+  "18206996271925929276164600749298914885471746258251352343122571918445382899084": {
+   "cond": "0x380b03e170812abc3d37234e6a2c09a0f39b0544b7db575a73302647e5bf66fe",
+   "idx": 1,
+   "outcome": "Under",
+   "title": "Northern Colorado Bears vs. San Diego Toreros: O/U 147.5",
+   "slug": "cbb-ncol-sd-2026-11-28-total-147pt5",
+   "event_slug": "cbb-ncol-sd-2026-11-28",
+   "shares": 2.403669724770642,
+   "cost": 1.31,
+   "kfee": 0.05,
+   "opened": "2026-11-28T20:32:15+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 969.0,
    "edge": 0.021,
    "mark": 0.535
   }
@@ -729,6 +746,32 @@
    "reason": "small bet for this wallet",
    "price": 0.595,
    "leader_price": 0.64,
+   "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-28T20:32:15+00:00",
+   "kind": "buy",
+   "title": "Northern Colorado Bears vs. San Diego Toreros: O/U 147.5",
+   "outcome": "Under",
+   "event_slug": "cbb-ncol-sd-2026-11-28",
+   "leader_usd": 513.57,
+   "stake": 1.31,
+   "price": 0.545,
+   "leader_price": 0.53,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-28T20:32:15+00:00",
+   "kind": "skip",
+   "title": "Delaware Fightin' Blue Hens vs. Stony Brook Seawolves: O/U 137.5",
+   "outcome": "Under",
+   "event_slug": "cbb-del-stbr-2026-11-28",
+   "leader_usd": 139.39,
+   "reason": "small bet for this wallet",
+   "price": 0.54,
+   "leader_price": 0.53,
    "leader": "ic4cream"
   }
  ],
@@ -2980,11 +3023,15 @@
   {
    "t": "2026-11-28T20:17:14+00:00",
    "equity": 109.17
+  },
+  {
+   "t": "2026-11-28T20:32:15+00:00",
+   "equity": 109.12
   }
  ],
- "kfees": 1.36,
- "copied": 10,
- "skipped": 37,
+ "kfees": 1.41,
+ "copied": 11,
+ "skipped": 38,
  "lead": {},
  "seen": {
   "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": 1795197375,
@@ -2995,13 +3042,13 @@
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
-  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795896701,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795896711
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795897496,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795897686
  },
  "day": {
   "2026-11-26": 5.36,
   "2026-11-27": 9.44,
-  "2026-11-28": 3.95
+  "2026-11-28": 5.26
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -3055,6 +3102,12 @@
   [
    1795881741,
    "0x66507c33b2643e035f763cde1d1167556ddbcbdb0f56b7df376da32e1c717a1d",
+   1,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795897935,
+   "0x380b03e170812abc3d37234e6a2c09a0f39b0544b7db575a73302647e5bf66fe",
    1,
    "0x27f738fe203827445690339104aae35b20bc44b0"
   ]
@@ -3494,6 +3547,9 @@
    ],
    "0x4cfa3ecf5244c4f62a6dbf0c92b381add51d027714d10024a01b71848948244b": [
     1
+   ],
+   "0xc6f95b736e40aa20eee6658a4be45febf6325961c9770370f2071dd3740bf80d": [
+    0
    ]
   },
   "0x27f738fe203827445690339104aae35b20bc44b0": {
@@ -3618,6 +3674,21 @@
     0
    ],
    "0xa953a8342939acbe2d8dbe0491033c8e98d63acaac50dfcfa3374721e66e51a9": [
+    1
+   ],
+   "0x247736c1a37d402776ca95c4b2de1c2e9e0325420f465bae9a9cfd5b921ce5ca": [
+    0
+   ],
+   "0x486123e222eeb353bacde93835f4fb6cb1fc8b3b1618ecd93c441870c36e6170": [
+    0
+   ],
+   "0xbff3b85fe134ef966dd313266d69efd250f5940034331544f4e16c7ca0164aaf": [
+    0
+   ],
+   "0x380b03e170812abc3d37234e6a2c09a0f39b0544b7db575a73302647e5bf66fe": [
+    1
+   ],
+   "0xdf6d60f15462d9e3aecb68a17089945b101852c8539d53561ac9de8033707886": [
     1
    ]
   }

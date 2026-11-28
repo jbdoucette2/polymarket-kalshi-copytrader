@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T20:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T20:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.17** (+9.17; after Kalshi fees +7.81) · 4-2 · sold early 0 · 4 open ($9.50) · max drawdown 6.4%
+**$109.12** (+9.12; after Kalshi fees +7.71) · 4-2 · sold early 0 · 5 open ($10.81) · max drawdown 6.4%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,14 +16,17 @@ Updated 2026-11-28T20:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
-| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 48c |
-| Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 52c |
+| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 50c |
+| Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 50c |
 | Spread: Utah Valley Wolverines (-6.5) | San Jose State Spartans | ic4cream | $1.28 | 54c |
+| Northern Colorado Bears vs. San Diego Toreros: O/U 147.5 | Under | ic4cream | $1.31 | 54c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-28 20:32 | skip | Delaware Fightin' Blue Hens vs. Stony Brook Seawolves: O/U 137.5 | Under | ic4cream | small bet for this wallet |
+| 11-28 20:32 | buy | Northern Colorado Bears vs. San Diego Toreros: O/U 147.5 | Under | ic4cream | $1.31 at 55c |
 | 11-28 20:17 | skip | Spread: Suns (-8.5) | Jazz | ic4cream | small bet for this wallet |
 | 11-28 18:32 | skip | Michael Penix Jr.: Passing Touchdowns O/U 0.5 | Over | CUTJALENHURTS | small bet for this wallet |
 | 11-28 16:02 | buy | Spread: Utah Valley Wolverines (-6.5) | San Jose State Spartans | ic4cream | $1.28 at 54c |
@@ -62,8 +65,6 @@ Updated 2026-11-28T20:17:15+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 16:20 | skip | Raiders vs. Broncos: O/U 40.5 | Over | gmpm2 | small bet for this wallet |
 | 11-22 15:21 | skip | Cardinals vs. Chiefs: O/U 40.5 | Over | gmpm2 | small bet for this wallet |
 | 11-22 15:21 | skip | Vikings vs. 49ers | 49ers | gmpm2 | already have a bet on this game |
-| 11-22 15:21 | buy | Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 at 50c |
-| 11-22 13:21 | skip | Buccaneers vs. Lions | Buccaneers | gmpm2 | small bet for this wallet |
 
 ## Walk-forward test (2026-11-24)
 
