@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T19:47:21+00:00",
+ "updated": "2026-11-28T20:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2281,6 +2281,10 @@
     {
      "t": "2026-11-28T19:47:18+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T20:02:11+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3150,11 +3154,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 74.7,
+   "equity": 74.77,
    "cash": 11.04,
-   "pnl": -25.3,
-   "pnl_after_kalshi_fees": -29.59,
-   "return_pct": -25.3,
+   "pnl": -25.23,
+   "pnl_after_kalshi_fees": -29.52,
+   "return_pct": -25.2,
    "realized": -36.41,
    "kalshi_fees": 4.29,
    "settled": 26,
@@ -5422,6 +5426,10 @@
     {
      "t": "2026-11-28T19:47:18+00:00",
      "equity": 74.7
+    },
+    {
+     "t": "2026-11-28T20:02:11+00:00",
+     "equity": 74.77
     }
    ],
    "positions": [
@@ -5442,7 +5450,7 @@
      "cost": 22.81,
      "shares": 30.02,
      "avg": 0.76,
-     "mark": 0.9055,
+     "mark": 0.9075,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5472,7 +5480,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.878,
+     "mark": 0.8795,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6477,11 +6485,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.44,
+   "equity": 64.37,
    "cash": 0.9,
-   "pnl": -29.56,
-   "pnl_after_kalshi_fees": -43.6,
-   "return_pct": -29.6,
+   "pnl": -35.63,
+   "pnl_after_kalshi_fees": -49.67,
+   "return_pct": -35.6,
    "realized": -38.04,
    "kalshi_fees": 14.04,
    "settled": 96,
@@ -8749,6 +8757,10 @@
     {
      "t": "2026-11-28T19:47:18+00:00",
      "equity": 70.44
+    },
+    {
+     "t": "2026-11-28T20:02:11+00:00",
+     "equity": 64.37
     }
    ],
    "positions": [
@@ -8769,7 +8781,7 @@
      "cost": 5.96,
      "shares": 11.42,
      "avg": 0.522,
-     "mark": 0.705,
+     "mark": 0.765,
      "opened": "2026-11-24T21:25:28+00:00"
     },
     {
@@ -8789,7 +8801,7 @@
      "cost": 4.97,
      "shares": 9.65,
      "avg": 0.515,
-     "mark": 0.445,
+     "mark": 0.45,
      "opened": "2026-11-26T15:15:45+00:00"
     },
     {
@@ -8799,7 +8811,7 @@
      "cost": 1.04,
      "shares": 2.7,
      "avg": 0.385,
-     "mark": 0.37,
+     "mark": 0.435,
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
@@ -8819,7 +8831,7 @@
      "cost": 2.87,
      "shares": 4.99,
      "avg": 0.575,
-     "mark": 0.93,
+     "mark": 0.77,
      "opened": "2026-11-28T02:31:01+00:00"
     },
     {
@@ -8829,7 +8841,7 @@
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.51,
+     "mark": 0.5,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8839,7 +8851,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.24,
+     "mark": 0.23,
      "opened": "2026-11-28T13:18:58+00:00"
     },
     {
@@ -8849,7 +8861,7 @@
      "cost": 3.8,
      "shares": 5.71,
      "avg": 0.665,
-     "mark": 0.63,
+     "mark": 0.565,
      "opened": "2026-11-28T14:24:26+00:00"
     },
     {
@@ -8879,7 +8891,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.555,
+     "mark": 0.55,
      "opened": "2026-11-28T15:10:27+00:00"
     },
     {
@@ -8889,7 +8901,7 @@
      "cost": 3.8,
      "shares": 5.39,
      "avg": 0.705,
-     "mark": 0.745,
+     "mark": 0.615,
      "opened": "2026-11-28T15:36:43+00:00"
     },
     {
@@ -8909,7 +8921,7 @@
      "cost": 3.8,
      "shares": 7.1,
      "avg": 0.535,
-     "mark": 0.995,
+     "mark": 0.9925,
      "opened": "2026-11-28T16:45:24+00:00"
     },
     {
@@ -8919,7 +8931,7 @@
      "cost": 3.72,
      "shares": 6.95,
      "avg": 0.535,
-     "mark": 0.715,
+     "mark": 0.0005,
      "opened": "2026-11-28T16:54:22+00:00"
     },
     {
@@ -8929,7 +8941,7 @@
      "cost": 3.72,
      "shares": 7.29,
      "avg": 0.51,
-     "mark": 0.985,
+     "mark": 0.9905,
      "opened": "2026-11-28T16:56:00+00:00"
     }
    ],
@@ -10290,20 +10302,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 114.61,
-   "cash": 103.63,
-   "pnl": 14.61,
-   "pnl_after_kalshi_fees": 9.9,
-   "return_pct": 14.6,
-   "realized": 21.95,
-   "kalshi_fees": 4.71,
-   "settled": 17,
+   "equity": 114.67,
+   "cash": 100.3,
+   "pnl": 14.67,
+   "pnl_after_kalshi_fees": 9.84,
+   "return_pct": 14.7,
+   "realized": 14.63,
+   "kalshi_fees": 4.83,
+   "settled": 18,
    "won": 9,
-   "lost": 8,
+   "lost": 9,
    "sold_early": 0,
-   "open": 3,
-   "at_risk": 18.31,
-   "copied": 27,
+   "open": 2,
+   "at_risk": 14.32,
+   "copied": 28,
    "skipped": 1,
    "max_drawdown_pct": 24.1,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -12562,19 +12574,13 @@
     {
      "t": "2026-11-28T19:47:18+00:00",
      "equity": 114.61
+    },
+    {
+     "t": "2026-11-28T20:02:11+00:00",
+     "equity": 114.67
     }
    ],
    "positions": [
-    {
-     "title": "Will Chicago Fire FC win on 2026-11-28?",
-     "outcome": "Yes",
-     "event_slug": "mls-clt-chi-2026-11-28",
-     "cost": 7.32,
-     "shares": 16.83,
-     "avg": 0.435,
-     "mark": 0.0005,
-     "opened": "2026-11-28T16:32:13+00:00"
-    },
     {
      "title": "Vit\u00f3ria SC vs. CF Estrela da Amadora: O/U 2.5",
      "outcome": "Under",
@@ -12589,14 +12595,25 @@
      "title": "Will Vit\u00f3ria SC win on 2026-11-28?",
      "outcome": "No",
      "event_slug": "por-gui-ama-2026-11-28",
-     "cost": 7.18,
-     "shares": 14.02,
-     "avg": 0.512,
-     "mark": 0.505,
+     "cost": 10.51,
+     "shares": 20.36,
+     "avg": 0.516,
+     "mark": 0.515,
      "opened": "2026-11-28T19:26:42+00:00"
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T20:02:11+00:00",
+     "title": "Will Chicago Fire FC win on 2026-11-28?",
+     "outcome": "Yes",
+     "event_slug": "mls-clt-chi-2026-11-28",
+     "cost": 7.32,
+     "pnl": -7.32,
+     "kfee": 0.29,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-28T06:02:19+00:00",
      "title": "Millonarios FC vs. Am\u00e9rica de Cali: O/U 1.5",
@@ -12786,6 +12803,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T20:02:11+00:00",
+     "kind": "buy",
+     "title": "Will Vit\u00f3ria SC win on 2026-11-28?",
+     "outcome": "No",
+     "event_slug": "por-gui-ama-2026-11-28",
+     "leader_usd": 4526.22,
+     "stake": 3.33,
+     "price": 0.525,
+     "leader_price": 0.519,
+     "mult": 0.91
+    },
     {
      "ts": "2026-11-28T19:47:18+00:00",
      "kind": "skip",
@@ -15399,6 +15428,10 @@
     },
     {
      "t": "2026-11-28T19:47:18+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T20:02:11+00:00",
      "equity": 107.42
     }
    ],
