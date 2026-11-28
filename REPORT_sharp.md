@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T18:17:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T18:32:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.35** (+9.35; after Kalshi fees +7.99) · 4-2 · sold early 0 · 4 open ($9.50) · max drawdown 6.2%
+**$109.32** (+9.32; after Kalshi fees +7.96) · 4-2 · sold early 0 · 4 open ($9.50) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,7 +16,7 @@ Updated 2026-11-28T18:17:14+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
-| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 56c |
+| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 55c |
 | Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 52c |
 | Spread: Utah Valley Wolverines (-6.5) | San Jose State Spartans | ic4cream | $1.28 | 54c |
 
@@ -24,6 +24,7 @@ Updated 2026-11-28T18:17:14+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-28 18:32 | skip | Michael Penix Jr.: Passing Touchdowns O/U 0.5 | Over | CUTJALENHURTS | small bet for this wallet |
 | 11-28 16:02 | buy | Spread: Utah Valley Wolverines (-6.5) | San Jose State Spartans | ic4cream | $1.28 at 54c |
 | 11-28 14:47 | buy | Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 at 52c |
 | 11-28 04:47 | buy | Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 at 56c |
@@ -63,7 +64,6 @@ Updated 2026-11-28T18:17:14+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 15:21 | buy | Spread: 49ers (-3.5) | 49ers | gmpm2 | $5.15 at 50c |
 | 11-22 13:21 | skip | Buccaneers vs. Lions | Buccaneers | gmpm2 | small bet for this wallet |
 | 11-22 02:21 | skip | Spread: Lions (-3.5) | Buccaneers | gmpm2 | small bet for this wallet |
-| 11-22 02:21 | skip | Spread: Lions (-4.5) | Buccaneers | gmpm2 | small bet for this wallet |
 
 ## Walk-forward test (2026-11-24)
 

@@ -3,10 +3,10 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 109.35,
+ "equity": 109.32,
  "cash": 99.79,
- "pnl": 9.35,
- "pnl_after_kalshi_fees": 7.99,
+ "pnl": 9.32,
+ "pnl_after_kalshi_fees": 7.96,
  "return_pct": 9.3,
  "realized": 9.28,
  "kalshi_fees": 1.36,
@@ -17,7 +17,7 @@
  "open": 4,
  "at_risk": 9.5,
  "copied": 10,
- "skipped": 35,
+ "skipped": 36,
  "max_drawdown_pct": 6.2,
  "history": [
   {
@@ -2235,6 +2235,10 @@
   {
    "t": "2026-11-28T18:17:14+00:00",
    "equity": 109.35
+  },
+  {
+   "t": "2026-11-28T18:32:13+00:00",
+   "equity": 109.32
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2304,7 +2308,7 @@
    "leader": "ic4cream",
    "cost": 1.42,
    "avg": 0.565,
-   "mark": 0.555
+   "mark": 0.545
   },
   {
    "title": "Spread: Stony Brook Seawolves (-6.5)",
@@ -2392,6 +2396,18 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-28T18:32:13+00:00",
+   "kind": "skip",
+   "title": "Michael Penix Jr.: Passing Touchdowns O/U 0.5",
+   "outcome": "Over",
+   "event_slug": "nfl-atl-min-2026-11-29-player-props",
+   "leader_usd": 748.83,
+   "reason": "small bet for this wallet",
+   "price": 0.565,
+   "leader_price": 0.46,
+   "leader": "CUTJALENHURTS"
+  },
   {
    "ts": "2026-11-28T16:02:21+00:00",
    "kind": "buy",
@@ -2953,6 +2969,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T18:17:14+00:00",
+ "updated": "2026-11-28T18:32:14+00:00",
  "start": 100.0
 }
