@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:47:21+00:00",
+ "updated": "2026-11-28T00:02:20+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1961,6 +1961,10 @@
     {
      "t": "2026-11-27T23:47:19+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T00:02:18+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2830,11 +2834,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.35,
+   "equity": 71.73,
    "cash": 8.13,
-   "pnl": -28.65,
-   "pnl_after_kalshi_fees": -32.82,
-   "return_pct": -28.7,
+   "pnl": -28.27,
+   "pnl_after_kalshi_fees": -32.44,
+   "return_pct": -28.3,
    "realized": -36.11,
    "kalshi_fees": 4.17,
    "settled": 24,
@@ -2844,7 +2848,7 @@
    "open": 8,
    "at_risk": 55.76,
    "copied": 44,
-   "skipped": 29,
+   "skipped": 31,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -4782,6 +4786,10 @@
     {
      "t": "2026-11-27T23:47:19+00:00",
      "equity": 71.35
+    },
+    {
+     "t": "2026-11-28T00:02:18+00:00",
+     "equity": 71.73
     }
    ],
    "positions": [
@@ -4792,7 +4800,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.885,
+     "mark": 0.88,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4802,7 +4810,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8405,
+     "mark": 0.848,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4842,7 +4850,7 @@
      "cost": 1.58,
      "shares": 3.26,
      "avg": 0.485,
-     "mark": 0.475,
+     "mark": 0.485,
      "opened": "2026-11-27T16:37:19+00:00"
     },
     {
@@ -4852,7 +4860,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.505,
+     "mark": 0.59,
      "opened": "2026-11-27T20:20:50+00:00"
     },
     {
@@ -4862,7 +4870,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.861,
+     "mark": 0.872,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5133,6 +5141,28 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T00:02:18+00:00",
+     "kind": "skip",
+     "title": "Will Labor win the third-most seats in the next Victorian state election?",
+     "outcome": "Yes",
+     "event_slug": "victoria-parliamentary-election-3rd-place",
+     "leader_usd": 3.61,
+     "reason": "below $1 minimum",
+     "price": 0.06,
+     "leader_price": 0.041
+    },
+    {
+     "ts": "2026-11-28T00:02:18+00:00",
+     "kind": "skip",
+     "title": "Will One Nation win the most seats in the next Victorian Legislative Council election?",
+     "outcome": "Yes",
+     "event_slug": "victoria-legislative-council-election-winner-20261008161713819",
+     "leader_usd": 1.66,
+     "reason": "below $1 minimum",
+     "price": 0.04,
+     "leader_price": 0.018
+    },
     {
      "ts": "2026-11-27T23:47:19+00:00",
      "kind": "skip",
@@ -5807,28 +5837,6 @@
      "price": 0.245,
      "leader_price": 0.48,
      "mult": 0.67
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "skip",
-     "title": "Spread: Texas (-17.5)",
-     "outcome": "Arkansas",
-     "event_slug": "cfb-ark-tx-2026-11-21",
-     "leader_usd": 60.4,
-     "reason": "below $1 minimum",
-     "price": 0.485,
-     "leader_price": 0.48
-    },
-    {
-     "ts": "2026-11-21T20:20:58+00:00",
-     "kind": "skip",
-     "title": "Spread: Iowa (-8.5)",
-     "outcome": "Illinois",
-     "event_slug": "cfb-iowa-ill-2026-11-21",
-     "leader_usd": 10.07,
-     "reason": "below $1 minimum",
-     "price": 0.495,
-     "leader_price": 0.52
     }
    ]
   },
@@ -5837,19 +5845,19 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.59,
+   "equity": 46.56,
    "cash": 14.54,
-   "pnl": -53.41,
-   "pnl_after_kalshi_fees": -65.8,
+   "pnl": -53.44,
+   "pnl_after_kalshi_fees": -65.83,
    "return_pct": -53.4,
-   "realized": -48.25,
+   "realized": -52.16,
    "kalshi_fees": 12.39,
-   "settled": 88,
+   "settled": 89,
    "won": 46,
-   "lost": 42,
+   "lost": 43,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 37.21,
+   "open": 10,
+   "at_risk": 33.3,
    "copied": 113,
    "skipped": 96,
    "max_drawdown_pct": 73.4,
@@ -7789,6 +7797,10 @@
     {
      "t": "2026-11-27T23:47:19+00:00",
      "equity": 46.59
+    },
+    {
+     "t": "2026-11-28T00:02:18+00:00",
+     "equity": 46.56
     }
    ],
    "positions": [
@@ -7799,7 +7811,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.55,
+     "mark": 0.545,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -7863,16 +7875,6 @@
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
-     "title": "Princeton Tigers vs. UNCW Seahawks: O/U 151.5",
-     "outcome": "Over",
-     "event_slug": "cbb-prnce-ncw-2026-11-27",
-     "cost": 3.91,
-     "shares": 7.38,
-     "avg": 0.53,
-     "mark": 0.0005,
-     "opened": "2026-11-27T04:18:23+00:00"
-    },
-    {
      "title": "Spread: Celtics (-8.5)",
      "outcome": "Hawks",
      "event_slug": "nba-atl-bos-2026-11-27",
@@ -7904,6 +7906,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T00:02:18+00:00",
+     "title": "Princeton Tigers vs. UNCW Seahawks: O/U 151.5",
+     "outcome": "Over",
+     "event_slug": "cbb-prnce-ncw-2026-11-27",
+     "cost": 3.91,
+     "pnl": -3.91,
+     "kfee": 0.13,
+     "how": "lost",
+     "exit_price": 0.0
+    },
     {
      "ts": "2026-11-27T23:17:11+00:00",
      "title": "Spread: Broncos (-6.5)",
@@ -8550,17 +8563,6 @@
      "cost": 2.01,
      "pnl": 1.11,
      "kfee": 0.05,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-22T22:20:44+00:00",
-     "title": "Buccaneers vs. Lions: O/U 46.5",
-     "outcome": "Over",
-     "event_slug": "nfl-tb-det-2026-11-22",
-     "cost": 2.01,
-     "pnl": 1.49,
-     "kfee": 0.06,
      "how": "won",
      "exit_price": 1.0
     }
@@ -9261,11 +9263,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 115.92,
+   "equity": 118.59,
    "cash": 100.62,
-   "pnl": 15.92,
-   "pnl_after_kalshi_fees": 13.06,
-   "return_pct": 15.9,
+   "pnl": 18.59,
+   "pnl_after_kalshi_fees": 15.73,
+   "return_pct": 18.6,
    "realized": 16.38,
    "kalshi_fees": 2.86,
    "settled": 12,
@@ -11213,6 +11215,10 @@
     {
      "t": "2026-11-27T23:47:19+00:00",
      "equity": 115.92
+    },
+    {
+     "t": "2026-11-28T00:02:18+00:00",
+     "equity": 118.59
     }
    ],
    "positions": [
@@ -11233,7 +11239,7 @@
      "cost": 4.7,
      "shares": 11.86,
      "avg": 0.396,
-     "mark": 0.345,
+     "mark": 0.57,
      "opened": "2026-11-27T22:43:31+00:00"
     }
    ],
@@ -13534,6 +13540,10 @@
     },
     {
      "t": "2026-11-27T23:47:19+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T00:02:18+00:00",
      "equity": 107.42
     }
    ],

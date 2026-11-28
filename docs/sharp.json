@@ -3,11 +3,11 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 113.11,
+ "equity": 113.22,
  "cash": 103.74,
- "pnl": 13.11,
- "pnl_after_kalshi_fees": 11.9,
- "return_pct": 13.1,
+ "pnl": 13.22,
+ "pnl_after_kalshi_fees": 12.01,
+ "return_pct": 13.2,
  "realized": 13.17,
  "kalshi_fees": 1.21,
  "settled": 5,
@@ -1939,6 +1939,10 @@
   {
    "t": "2026-11-27T23:47:21+00:00",
    "equity": 113.11
+  },
+  {
+   "t": "2026-11-28T00:02:20+00:00",
+   "equity": 113.22
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2008,7 +2012,7 @@
    "leader": "ic4cream",
    "cost": 5.55,
    "avg": 0.515,
-   "mark": 0.515
+   "mark": 0.525
   }
  ],
  "closed": [
@@ -2588,6 +2592,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-27T23:47:22+00:00",
+ "updated": "2026-11-28T00:02:21+00:00",
  "start": 100.0
 }
