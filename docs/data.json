@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:17:12+00:00",
+ "updated": "2026-11-28T02:32:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2001,6 +2001,10 @@
     {
      "t": "2026-11-28T02:17:11+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T02:32:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2870,10 +2874,10 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.71,
+   "equity": 71.69,
    "cash": 11.02,
-   "pnl": -28.29,
-   "pnl_after_kalshi_fees": -32.46,
+   "pnl": -28.31,
+   "pnl_after_kalshi_fees": -32.48,
    "return_pct": -28.3,
    "realized": -34.62,
    "kalshi_fees": 4.17,
@@ -2884,7 +2888,7 @@
    "open": 7,
    "at_risk": 54.36,
    "copied": 44,
-   "skipped": 31,
+   "skipped": 32,
    "max_drawdown_pct": 41.2,
    "focus": "College football, NFL",
    "risk": "Medium",
@@ -4862,6 +4866,10 @@
     {
      "t": "2026-11-28T02:17:11+00:00",
      "equity": 71.71
+    },
+    {
+     "t": "2026-11-28T02:32:12+00:00",
+     "equity": 71.69
     }
    ],
    "positions": [
@@ -4922,7 +4930,7 @@
      "cost": 1.58,
      "shares": 3.26,
      "avg": 0.485,
-     "mark": 0.065,
+     "mark": 0.06,
      "opened": "2026-11-27T16:37:19+00:00"
     },
     {
@@ -5214,6 +5222,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T02:32:12+00:00",
+     "kind": "skip",
+     "title": "Will Labor win the third-most seats in the next Victorian state election?",
+     "outcome": "Yes",
+     "event_slug": "victoria-parliamentary-election-3rd-place",
+     "leader_usd": 2.53,
+     "reason": "below $1 minimum",
+     "price": 0.034,
+     "leader_price": 0.046
+    },
     {
      "ts": "2026-11-28T00:02:18+00:00",
      "kind": "skip",
@@ -5898,18 +5917,6 @@
      "reason": "price ran away (0.66 -> 0.80)",
      "price": 0.795,
      "leader_price": 0.66
-    },
-    {
-     "ts": "2026-11-21T21:20:47+00:00",
-     "kind": "buy",
-     "title": "Spread: Marshall (-3.5)",
-     "outcome": "Marshall",
-     "event_slug": "cfb-gast-marsh-2026-11-21",
-     "leader_usd": 860.16,
-     "stake": 2.02,
-     "price": 0.245,
-     "leader_price": 0.48,
-     "mult": 0.67
     }
    ]
   },
@@ -5918,11 +5925,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 47.15,
+   "equity": 44.06,
    "cash": 7.38,
-   "pnl": -52.85,
-   "pnl_after_kalshi_fees": -65.52,
-   "return_pct": -52.9,
+   "pnl": -55.94,
+   "pnl_after_kalshi_fees": -68.61,
+   "return_pct": -55.9,
    "realized": -52.16,
    "kalshi_fees": 12.67,
    "settled": 89,
@@ -7910,6 +7917,10 @@
     {
      "t": "2026-11-28T02:17:11+00:00",
      "equity": 47.15
+    },
+    {
+     "t": "2026-11-28T02:32:12+00:00",
+     "equity": 44.06
     }
    ],
    "positions": [
@@ -7940,7 +7951,7 @@
      "cost": 2.8,
      "shares": 5.89,
      "avg": 0.475,
-     "mark": 0.46,
+     "mark": 0.465,
      "opened": "2026-11-24T22:37:38+00:00"
     },
     {
@@ -7970,7 +7981,7 @@
      "cost": 3.55,
      "shares": 4.77,
      "avg": 0.745,
-     "mark": 0.975,
+     "mark": 0.995,
      "opened": "2026-11-26T18:40:34+00:00"
     },
     {
@@ -7990,7 +8001,7 @@
      "cost": 3.47,
      "shares": 6.87,
      "avg": 0.505,
-     "mark": 0.305,
+     "mark": 0.245,
      "opened": "2026-11-27T13:22:07+00:00"
     },
     {
@@ -8010,7 +8021,7 @@
      "cost": 3.47,
      "shares": 7.15,
      "avg": 0.485,
-     "mark": 0.555,
+     "mark": 0.455,
      "opened": "2026-11-27T14:38:40+00:00"
     },
     {
@@ -8020,7 +8031,7 @@
      "cost": 1.42,
      "shares": 3.79,
      "avg": 0.375,
-     "mark": 0.335,
+     "mark": 0.315,
      "opened": "2026-11-28T00:05:08+00:00"
     },
     {
@@ -8030,7 +8041,7 @@
      "cost": 5.74,
      "shares": 11.18,
      "avg": 0.513,
-     "mark": 0.535,
+     "mark": 0.355,
      "opened": "2026-11-28T00:56:05+00:00"
     }
    ],
@@ -9393,11 +9404,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 98.79,
+   "equity": 94.26,
    "cash": 63.8,
-   "pnl": -1.21,
-   "pnl_after_kalshi_fees": -5.23,
-   "return_pct": -1.2,
+   "pnl": -5.74,
+   "pnl_after_kalshi_fees": -9.76,
+   "return_pct": -5.7,
    "realized": 16.38,
    "kalshi_fees": 4.02,
    "settled": 12,
@@ -9408,7 +9419,7 @@
    "at_risk": 52.57,
    "copied": 23,
    "skipped": 0,
-   "max_drawdown_pct": 16.7,
+   "max_drawdown_pct": 20.5,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
    "risk": "Medium-high: few, large bets",
    "rivo": {
@@ -11385,6 +11396,10 @@
     {
      "t": "2026-11-28T02:17:11+00:00",
      "equity": 98.79
+    },
+    {
+     "t": "2026-11-28T02:32:12+00:00",
+     "equity": 94.26
     }
    ],
    "positions": [
@@ -11395,7 +11410,7 @@
      "cost": 11.05,
      "shares": 23.13,
      "avg": 0.478,
-     "mark": 0.125,
+     "mark": 0.045,
      "opened": "2026-11-27T12:33:10+00:00"
     },
     {
@@ -11415,7 +11430,7 @@
      "cost": 15.88,
      "shares": 36.66,
      "avg": 0.433,
-     "mark": 0.345,
+     "mark": 0.295,
      "opened": "2026-11-28T00:04:29+00:00"
     },
     {
@@ -11425,7 +11440,7 @@
      "cost": 13.96,
      "shares": 21.48,
      "avg": 0.65,
-     "mark": 0.665,
+     "mark": 0.685,
      "opened": "2026-11-28T00:05:07+00:00"
     },
     {
@@ -11435,7 +11450,7 @@
      "cost": 6.98,
      "shares": 10.66,
      "avg": 0.655,
-     "mark": 0.485,
+     "mark": 0.365,
      "opened": "2026-11-28T00:53:31+00:00"
     }
    ],
@@ -13848,6 +13863,10 @@
     },
     {
      "t": "2026-11-28T02:17:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T02:32:12+00:00",
      "equity": 107.42
     }
    ],
