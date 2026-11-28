@@ -3,23 +3,10 @@
  "name": "GetsOnBase",
  "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
  "start": 100.0,
- "cash": 63.7969,
+ "cash": 121.9388,
  "since": 1795198438,
  "last_ts": 1795827211,
  "positions": {
-  "25022501626798336746481763960082091094257540668271068718380685227120972993492": {
-   "cond": "0xee5cf0c6bca1d41a149da597d7b3927db8b0b8132f7dcd1b4e4dad3f3f744da8",
-   "idx": 0,
-   "outcome": "Over",
-   "title": "Columbus Crew vs. Inter Miami CF: O/U 3.5",
-   "slug": "mls-clb-mia-2026-11-27-total-3pt5",
-   "event_slug": "mls-clb-mia-2026-11-27-more-markets",
-   "shares": 23.126099706744867,
-   "cost": 11.05,
-   "kfee": 0.42,
-   "opened": "2026-11-27T12:33:10+00:00",
-   "mark": 0.0005
-  },
   "72251168353833033977528806618234394250658710593714946948000575526388896533356": {
    "cond": "0xbf6ac5beae4d70aae0694f96c6f1626f8493d94c02ce52fb36959053b4aea709",
    "idx": 0,
@@ -33,32 +20,6 @@
    "opened": "2026-11-27T22:43:31+00:00",
    "mark": 0.0005
   },
-  "44946576096797886274286699708169632898346282579316561857117585845481375879459": {
-   "cond": "0x097a14c71fe29279b4d410ac5d05defd53869afffcd2bcc43c7b49c08203f498",
-   "idx": 0,
-   "outcome": "Yes",
-   "title": "Will Columbus Crew win on 2026-11-27?",
-   "slug": "mls-clb-mia-2026-11-27-clb",
-   "event_slug": "mls-clb-mia-2026-11-27",
-   "shares": 36.66369168356998,
-   "cost": 15.88,
-   "kfee": 0.64,
-   "opened": "2026-11-28T00:04:29+00:00",
-   "mark": 0.9995
-  },
-  "47111926684163164970422563926508042362665649937895824106713339813279236176575": {
-   "cond": "0xcccf6237b097cc1d046168695f6736e65d8ba86ab388c1977715af2b27724080",
-   "idx": 1,
-   "outcome": "No",
-   "title": "Will Inter Miami CF win on 2026-11-27?",
-   "slug": "mls-clb-mia-2026-11-27-mia",
-   "event_slug": "mls-clb-mia-2026-11-27",
-   "shares": 21.47819397597491,
-   "cost": 13.96,
-   "kfee": 0.35,
-   "opened": "2026-11-28T00:05:07+00:00",
-   "mark": 0.9995
-  },
   "34016763920118362430298806868339609109620569261456124658422989763673199829323": {
    "cond": "0x9e060d860e2f5ea0c5d0e735f51d10740e15f583ff9b90021f8cc14e91975da5",
    "idx": 0,
@@ -70,7 +31,7 @@
    "cost": 6.98,
    "kfee": 0.17,
    "opened": "2026-11-28T00:53:31+00:00",
-   "mark": 0.135
+   "mark": 0.036
   }
  },
  "leader_shares": {
@@ -223,6 +184,39 @@
    "cost": 5.57,
    "pnl": 5.25,
    "kfee": 0.19,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-28T03:32:21+00:00",
+   "title": "Columbus Crew vs. Inter Miami CF: O/U 3.5",
+   "outcome": "Over",
+   "event_slug": "mls-clb-mia-2026-11-27-more-markets",
+   "cost": 11.05,
+   "pnl": -11.05,
+   "kfee": 0.42,
+   "how": "lost",
+   "exit_price": 0.0
+  },
+  {
+   "ts": "2026-11-28T03:32:21+00:00",
+   "title": "Will Columbus Crew win on 2026-11-27?",
+   "outcome": "Yes",
+   "event_slug": "mls-clb-mia-2026-11-27",
+   "cost": 15.88,
+   "pnl": 20.78,
+   "kfee": 0.64,
+   "how": "won",
+   "exit_price": 1.0
+  },
+  {
+   "ts": "2026-11-28T03:32:21+00:00",
+   "title": "Will Inter Miami CF win on 2026-11-27?",
+   "outcome": "No",
+   "event_slug": "mls-clb-mia-2026-11-27",
+   "cost": 13.96,
+   "pnl": 7.52,
+   "kfee": 0.35,
    "how": "won",
    "exit_price": 1.0
   }
@@ -2485,6 +2479,10 @@
   {
    "t": "2026-11-28T03:17:12+00:00",
    "equity": 123.37
+  },
+  {
+   "t": "2026-11-28T03:32:21+00:00",
+   "equity": 122.33
   }
  ],
  "kfees": 4.02,

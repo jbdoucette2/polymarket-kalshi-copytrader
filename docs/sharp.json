@@ -3,11 +3,11 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 114.9,
+ "equity": 114.51,
  "cash": 103.74,
- "pnl": 14.9,
- "pnl_after_kalshi_fees": 13.69,
- "return_pct": 14.9,
+ "pnl": 14.51,
+ "pnl_after_kalshi_fees": 13.3,
+ "return_pct": 14.5,
  "realized": 13.17,
  "kalshi_fees": 1.21,
  "settled": 5,
@@ -1995,6 +1995,10 @@
   {
    "t": "2026-11-28T03:17:15+00:00",
    "equity": 114.9
+  },
+  {
+   "t": "2026-11-28T03:32:22+00:00",
+   "equity": 114.51
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2056,7 +2060,7 @@
    "leader": "ic4cream",
    "cost": 3.89,
    "avg": 0.555,
-   "mark": 0.785
+   "mark": 0.73
   },
   {
    "title": "Seahawks vs. 49ers",
@@ -2644,6 +2648,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T03:17:16+00:00",
+ "updated": "2026-11-28T03:32:23+00:00",
  "start": 100.0
 }
