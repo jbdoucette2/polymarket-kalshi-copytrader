@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 103.7382,
+ "cash": 102.3182,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -22,7 +22,7 @@
    "leader_name": "ic4cream",
    "leader_shares": 1108.0,
    "edge": 0.0588,
-   "mark": 0.0025
+   "mark": 0.0005
   },
   "69930278449666647421292749061373427611547422043372630829241501396207242586223": {
    "cond": "0xec6c71ce4962016f75c7c6fd05b087ec61305623a4f359336fb9e8d43134f29a",
@@ -40,6 +40,23 @@
    "leader_shares": 617.0,
    "edge": 0.0917,
    "mark": 0.525
+  },
+  "69700500361155782316020299484084248829901749829267568392182337143316533371774": {
+   "cond": "0x24e11ffead40dcea0c60715d8bcd5728a82be757201d5de595ef95fb4e5ed153",
+   "idx": 0,
+   "outcome": "Over",
+   "title": "Fordham Rams vs. Harvard Crimson: O/U 138.5",
+   "slug": "cbb-fordm-harvrd-2026-11-28-total-138pt5",
+   "event_slug": "cbb-fordm-harvrd-2026-11-28",
+   "shares": 2.5132743362831853,
+   "cost": 1.42,
+   "kfee": 0.05,
+   "opened": "2026-11-28T04:47:13+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 1532.964706,
+   "edge": 0.021,
+   "mark": 0.555
   }
  },
  "leader_shares": {},
@@ -619,6 +636,20 @@
    "price": 0.525,
    "leader_price": 0.53,
    "leader": "ic4cream"
+  },
+  {
+   "ts": "2026-11-28T04:47:13+00:00",
+   "kind": "buy",
+   "title": "Fordham Rams vs. Harvard Crimson: O/U 138.5",
+   "outcome": "Over",
+   "event_slug": "cbb-fordm-harvrd-2026-11-28",
+   "leader_usd": 776.83,
+   "stake": 1.42,
+   "price": 0.565,
+   "leader_price": 0.507,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
   }
  ],
  "history": [
@@ -2617,10 +2648,14 @@
   {
    "t": "2026-11-28T04:32:15+00:00",
    "equity": 109.41
+  },
+  {
+   "t": "2026-11-28T04:47:13+00:00",
+   "equity": 109.37
   }
  ],
- "kfees": 1.21,
- "copied": 7,
+ "kfees": 1.26,
+ "copied": 8,
  "skipped": 35,
  "lead": {},
  "seen": {
@@ -2632,12 +2667,13 @@
   "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": 1795197375,
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
-  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795839761,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795839820
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795840601,
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795840514
  },
  "day": {
   "2026-11-26": 5.36,
-  "2026-11-27": 9.44
+  "2026-11-27": 9.44,
+  "2026-11-28": 1.42
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -2675,6 +2711,12 @@
    1795818736,
    "0xabe9b44a6195e1fa78f8c23c61acefcf40c156674f2d14afe2072c3cbf07a369",
    1,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795841233,
+   "0x24e11ffead40dcea0c60715d8bcd5728a82be757201d5de595ef95fb4e5ed153",
+   0,
    "0x27f738fe203827445690339104aae35b20bc44b0"
   ]
  ],
@@ -3104,6 +3146,9 @@
     0
    ],
    "0xaff65c342b9c4cc813308a4427ae9b98fff06aeebb065891c6505df2a1400c6c": [
+    0
+   ],
+   "0x24e11ffead40dcea0c60715d8bcd5728a82be757201d5de595ef95fb4e5ed153": [
     0
    ]
   }

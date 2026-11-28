@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T04:32:14+00:00",
+ "updated": "2026-11-28T04:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2037,6 +2037,10 @@
     {
      "t": "2026-11-28T04:32:12+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T04:47:11+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2906,11 +2910,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.48,
+   "equity": 71.61,
    "cash": 14.86,
-   "pnl": -28.52,
-   "pnl_after_kalshi_fees": -32.77,
-   "return_pct": -28.5,
+   "pnl": -28.39,
+   "pnl_after_kalshi_fees": -32.64,
+   "return_pct": -28.4,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -4934,6 +4938,10 @@
     {
      "t": "2026-11-28T04:32:12+00:00",
      "equity": 71.48
+    },
+    {
+     "t": "2026-11-28T04:47:11+00:00",
+     "equity": 71.61
     }
    ],
    "positions": [
@@ -4944,7 +4952,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.885,
+     "mark": 0.89,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4984,7 +4992,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8815,
+     "mark": 0.88,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5992,20 +6000,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 48.07,
-   "cash": 16.15,
-   "pnl": -51.93,
-   "pnl_after_kalshi_fees": -64.69,
-   "return_pct": -51.9,
+   "equity": 50.87,
+   "cash": 13.09,
+   "pnl": -49.13,
+   "pnl_after_kalshi_fees": -61.99,
+   "return_pct": -49.1,
    "realized": -48.96,
-   "kalshi_fees": 12.76,
+   "kalshi_fees": 12.86,
    "settled": 92,
    "won": 48,
    "lost": 44,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 34.89,
-   "copied": 117,
+   "open": 11,
+   "at_risk": 37.95,
+   "copied": 118,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8020,6 +8028,10 @@
     {
      "t": "2026-11-28T04:32:12+00:00",
      "equity": 48.07
+    },
+    {
+     "t": "2026-11-28T04:47:11+00:00",
+     "equity": 50.87
     }
    ],
    "positions": [
@@ -8080,7 +8092,7 @@
      "cost": 2.01,
      "shares": 2.54,
      "avg": 0.79,
-     "mark": 0.78,
+     "mark": 0.785,
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
@@ -8090,7 +8102,7 @@
      "cost": 3.47,
      "shares": 6.67,
      "avg": 0.52,
-     "mark": 0.525,
+     "mark": 0.915,
      "opened": "2026-11-27T13:59:59+00:00"
     },
     {
@@ -8100,7 +8112,7 @@
      "cost": 3.47,
      "shares": 7.15,
      "avg": 0.485,
-     "mark": 0.9975,
+     "mark": 0.9995,
      "opened": "2026-11-27T14:38:40+00:00"
     },
     {
@@ -8110,7 +8122,7 @@
      "cost": 5.74,
      "shares": 11.18,
      "avg": 0.513,
-     "mark": 0.008,
+     "mark": 0.028,
      "opened": "2026-11-28T00:56:05+00:00"
     },
     {
@@ -8122,6 +8134,16 @@
      "avg": 0.575,
      "mark": 0.565,
      "opened": "2026-11-28T02:31:01+00:00"
+    },
+    {
+     "title": "Fordham Rams vs. Harvard Crimson: O/U 138.5",
+     "outcome": "Over",
+     "event_slug": "cbb-fordm-harvrd-2026-11-28",
+     "cost": 3.06,
+     "shares": 5.42,
+     "avg": 0.565,
+     "mark": 0.555,
+     "opened": "2026-11-28T04:35:14+00:00"
     }
    ],
    "closed": [
@@ -8787,6 +8809,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T04:47:11+00:00",
+     "kind": "buy",
+     "title": "Fordham Rams vs. Harvard Crimson: O/U 138.5",
+     "outcome": "Over",
+     "event_slug": "cbb-fordm-harvrd-2026-11-28",
+     "leader_usd": 776.83,
+     "stake": 3.06,
+     "price": 0.565,
+     "leader_price": 0.507,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T04:32:12+00:00",
      "kind": "skip",
@@ -9465,17 +9499,6 @@
      "price": 0.525,
      "leader_price": 0.52,
      "mult": 2.0
-    },
-    {
-     "ts": "2026-11-25T23:32:22+00:00",
-     "kind": "skip",
-     "title": "Will Juventus FC win on 2026-11-26?",
-     "outcome": "Yes",
-     "event_slug": "uel-juv-omo-2026-11-26",
-     "leader_usd": 4.15,
-     "reason": "below $1 minimum",
-     "price": 0.825,
-     "leader_price": 0.83
     }
    ]
   },
@@ -11511,6 +11534,10 @@
     },
     {
      "t": "2026-11-28T04:32:12+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T04:47:11+00:00",
      "equity": 121.94
     }
    ],
@@ -14015,6 +14042,10 @@
     },
     {
      "t": "2026-11-28T04:32:12+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T04:47:11+00:00",
      "equity": 107.42
     }
    ],

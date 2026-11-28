@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T04:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T04:47:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.41** (+9.41; after Kalshi fees +8.20) · 4-1 · sold early 0 · 2 open ($9.44) · max drawdown 6.2%
+**$109.37** (+9.37; after Kalshi fees +8.11) · 4-1 · sold early 0 · 3 open ($10.86) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -17,11 +17,13 @@ Updated 2026-11-28T04:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | --- | --- | --- | --- | --- |
 | Spread: Suns (-1.5) | Suns | ic4cream | $3.89 | 0c |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
+| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 56c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-28 04:47 | buy | Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 at 56c |
 | 11-27 23:32 | skip | Spread: Knicks (-2.5) | Knicks | ic4cream | small bet for this wallet |
 | 11-27 22:32 | skip | Spread: 49ers (-1.5) | Seahawks | ic4cream | already have a bet on this game |
 | 11-27 22:32 | skip | Spread: 49ers (-2.5) | Seahawks | ic4cream | already have a bet on this game |
@@ -61,7 +63,6 @@ Updated 2026-11-28T04:32:16+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 02:21 | skip | Spread: Lions (-4.5) | Buccaneers | gmpm2 | small bet for this wallet |
 | 11-22 02:21 | skip | Titans vs. Cowboys | Titans | gmpm2 | small bet for this wallet |
 | 11-22 01:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
-| 11-21 18:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
 
 ## Walk-forward test (2026-11-24)
 
