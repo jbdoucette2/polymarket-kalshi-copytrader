@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:47:20+00:00",
+ "updated": "2026-11-28T01:02:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1977,6 +1977,10 @@
     {
      "t": "2026-11-28T00:47:18+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T01:02:11+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2846,11 +2850,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 73.53,
+   "equity": 73.81,
    "cash": 11.02,
-   "pnl": -26.47,
-   "pnl_after_kalshi_fees": -30.64,
-   "return_pct": -26.5,
+   "pnl": -26.19,
+   "pnl_after_kalshi_fees": -30.36,
+   "return_pct": -26.2,
    "realized": -34.62,
    "kalshi_fees": 4.17,
    "settled": 25,
@@ -4814,6 +4818,10 @@
     {
      "t": "2026-11-28T00:47:18+00:00",
      "equity": 73.53
+    },
+    {
+     "t": "2026-11-28T01:02:11+00:00",
+     "equity": 73.81
     }
    ],
    "positions": [
@@ -4874,7 +4882,7 @@
      "cost": 1.58,
      "shares": 3.26,
      "avg": 0.485,
-     "mark": 0.55,
+     "mark": 0.645,
      "opened": "2026-11-27T16:37:19+00:00"
     },
     {
@@ -4884,7 +4892,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8795,
+     "mark": 0.872,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5870,21 +5878,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.19,
-   "cash": 13.12,
-   "pnl": -53.81,
-   "pnl_after_kalshi_fees": -66.27,
+   "equity": 46.22,
+   "cash": 10.25,
+   "pnl": -53.78,
+   "pnl_after_kalshi_fees": -66.35,
    "return_pct": -53.8,
    "realized": -52.16,
-   "kalshi_fees": 12.46,
+   "kalshi_fees": 12.57,
    "settled": 89,
    "won": 46,
    "lost": 43,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 34.72,
-   "copied": 114,
-   "skipped": 96,
+   "open": 12,
+   "at_risk": 37.59,
+   "copied": 115,
+   "skipped": 98,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -7838,6 +7846,10 @@
     {
      "t": "2026-11-28T00:47:18+00:00",
      "equity": 46.19
+    },
+    {
+     "t": "2026-11-28T01:02:11+00:00",
+     "equity": 46.22
     }
    ],
    "positions": [
@@ -7848,7 +7860,7 @@
      "cost": 2.56,
      "shares": 4.57,
      "avg": 0.56,
-     "mark": 0.545,
+     "mark": 0.55,
      "opened": "2026-11-23T19:59:08+00:00"
     },
     {
@@ -7918,7 +7930,7 @@
      "cost": 3.47,
      "shares": 6.87,
      "avg": 0.505,
-     "mark": 0.475,
+     "mark": 0.485,
      "opened": "2026-11-27T13:22:07+00:00"
     },
     {
@@ -7950,6 +7962,16 @@
      "avg": 0.375,
      "mark": 0.365,
      "opened": "2026-11-28T00:05:08+00:00"
+    },
+    {
+     "title": "Spread: Utah (-24.5)",
+     "outcome": "West Virginia",
+     "event_slug": "cfb-wvir-utah-2026-11-27",
+     "cost": 2.87,
+     "shares": 5.92,
+     "avg": 0.485,
+     "mark": 0.475,
+     "opened": "2026-11-28T00:56:05+00:00"
     }
    ],
    "closed": [
@@ -8616,6 +8638,40 @@
    ],
    "log": [
     {
+     "ts": "2026-11-28T01:02:11+00:00",
+     "kind": "buy",
+     "title": "Spread: Utah (-24.5)",
+     "outcome": "West Virginia",
+     "event_slug": "cfb-wvir-utah-2026-11-27",
+     "leader_usd": 2019.84,
+     "stake": 2.87,
+     "price": 0.485,
+     "leader_price": 0.48,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-28T01:02:11+00:00",
+     "kind": "skip",
+     "title": "Pacific Tigers vs. UC Davis Aggies: O/U 136.5",
+     "outcome": "Under",
+     "event_slug": "cbb-pacfc-ucdv-2026-11-27",
+     "leader_usd": 11.96,
+     "reason": "below $1 minimum",
+     "price": 0.49,
+     "leader_price": 0.52
+    },
+    {
+     "ts": "2026-11-28T01:02:11+00:00",
+     "kind": "skip",
+     "title": "Spread: Northwestern Wildcats (-12.5)",
+     "outcome": "Northeastern Huskies",
+     "event_slug": "cbb-neast-nw-2026-11-27",
+     "leader_usd": 2.55,
+     "reason": "below $1 minimum",
+     "price": 0.51,
+     "leader_price": 0.51
+    },
+    {
      "ts": "2026-11-28T00:17:12+00:00",
      "kind": "buy",
      "title": "Will Inter Miami CF win on 2026-11-27?",
@@ -9268,40 +9324,6 @@
      "reason": "out of cash",
      "price": 0.505,
      "leader_price": 0.5
-    },
-    {
-     "ts": "2026-11-25T21:47:12+00:00",
-     "kind": "skip",
-     "title": "Heat vs. 76ers: O/U 238.5",
-     "outcome": "Under",
-     "event_slug": "nba-mia-phi-2026-11-25",
-     "leader_usd": 916.9,
-     "reason": "out of cash",
-     "price": 0.535,
-     "leader_price": 0.53
-    },
-    {
-     "ts": "2026-11-25T20:32:11+00:00",
-     "kind": "skip",
-     "title": "Spread: 76ers (-1.5)",
-     "outcome": "76ers",
-     "event_slug": "nba-mia-phi-2026-11-25",
-     "leader_usd": 1474.65,
-     "reason": "out of cash",
-     "price": 0.455,
-     "leader_price": 0.45
-    },
-    {
-     "ts": "2026-11-25T18:02:21+00:00",
-     "kind": "buy",
-     "title": "Deportivo Toluca FC vs. Atlas FC: O/U 3.5",
-     "outcome": "Under",
-     "event_slug": "mex-tol-atl-2026-11-25-more-markets",
-     "leader_usd": 432.63,
-     "stake": 2.97,
-     "price": 0.585,
-     "leader_price": 0.57,
-     "mult": 1.63
     }
    ]
   },
@@ -9310,20 +9332,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 115.31,
-   "cash": 70.78,
-   "pnl": 15.31,
-   "pnl_after_kalshi_fees": 11.46,
-   "return_pct": 15.3,
+   "equity": 117.33,
+   "cash": 63.8,
+   "pnl": 17.33,
+   "pnl_after_kalshi_fees": 13.31,
+   "return_pct": 17.3,
    "realized": 16.38,
-   "kalshi_fees": 3.85,
+   "kalshi_fees": 4.02,
    "settled": 12,
    "won": 7,
    "lost": 5,
    "sold_early": 0,
-   "open": 4,
-   "at_risk": 45.59,
-   "copied": 22,
+   "open": 5,
+   "at_risk": 52.57,
+   "copied": 23,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -11278,6 +11300,10 @@
     {
      "t": "2026-11-28T00:47:18+00:00",
      "equity": 115.31
+    },
+    {
+     "t": "2026-11-28T01:02:11+00:00",
+     "equity": 117.33
     }
    ],
    "positions": [
@@ -11298,7 +11324,7 @@
      "cost": 4.7,
      "shares": 11.86,
      "avg": 0.396,
-     "mark": 0.365,
+     "mark": 0.575,
      "opened": "2026-11-27T22:43:31+00:00"
     },
     {
@@ -11308,7 +11334,7 @@
      "cost": 15.88,
      "shares": 36.66,
      "avg": 0.433,
-     "mark": 0.425,
+     "mark": 0.415,
      "opened": "2026-11-28T00:04:29+00:00"
     },
     {
@@ -11320,6 +11346,16 @@
      "avg": 0.65,
      "mark": 0.635,
      "opened": "2026-11-28T00:05:07+00:00"
+    },
+    {
+     "title": "Millonarios FC vs. Am\u00e9rica de Cali: O/U 1.5",
+     "outcome": "Over",
+     "event_slug": "col1-mif-ad1-2026-11-27-more-markets",
+     "cost": 6.98,
+     "shares": 10.66,
+     "avg": 0.655,
+     "mark": 0.645,
+     "opened": "2026-11-28T00:53:31+00:00"
     }
    ],
    "closed": [
@@ -11457,6 +11493,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T01:02:11+00:00",
+     "kind": "buy",
+     "title": "Millonarios FC vs. Am\u00e9rica de Cali: O/U 1.5",
+     "outcome": "Over",
+     "event_slug": "col1-mif-ad1-2026-11-27-more-markets",
+     "leader_usd": 12753.98,
+     "stake": 6.98,
+     "price": 0.655,
+     "leader_price": 0.629,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T00:47:18+00:00",
      "kind": "buy",
@@ -13695,6 +13743,10 @@
     },
     {
      "t": "2026-11-28T00:47:18+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T01:02:11+00:00",
      "equity": 107.42
     }
    ],
