@@ -4,19 +4,19 @@
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
  "equity": 109.35,
- "cash": 101.07,
+ "cash": 99.79,
  "pnl": 9.35,
- "pnl_after_kalshi_fees": 8.04,
+ "pnl_after_kalshi_fees": 7.99,
  "return_pct": 9.3,
  "realized": 9.28,
- "kalshi_fees": 1.31,
+ "kalshi_fees": 1.36,
  "settled": 6,
  "won": 4,
  "lost": 2,
  "sold_early": 0,
- "open": 3,
- "at_risk": 8.22,
- "copied": 9,
+ "open": 4,
+ "at_risk": 9.5,
+ "copied": 10,
  "skipped": 35,
  "max_drawdown_pct": 6.2,
  "history": [
@@ -2195,6 +2195,10 @@
   {
    "t": "2026-11-28T15:47:17+00:00",
    "equity": 109.35
+  },
+  {
+   "t": "2026-11-28T16:02:21+00:00",
+   "equity": 109.35
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2273,6 +2277,14 @@
    "cost": 1.25,
    "avg": 0.525,
    "mark": 0.515
+  },
+  {
+   "title": "Spread: Utah Valley Wolverines (-6.5)",
+   "outcome": "San Jose State Spartans",
+   "leader": "ic4cream",
+   "cost": 1.28,
+   "avg": 0.535,
+   "mark": 0.535
   }
  ],
  "closed": [
@@ -2344,6 +2356,20 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-28T16:02:21+00:00",
+   "kind": "buy",
+   "title": "Spread: Utah Valley Wolverines (-6.5)",
+   "outcome": "San Jose State Spartans",
+   "event_slug": "cbb-sjst-utahv-2026-11-28",
+   "leader_usd": 1028.71,
+   "stake": 1.28,
+   "price": 0.535,
+   "leader_price": 0.539,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
+  },
   {
    "ts": "2026-11-28T14:47:14+00:00",
    "kind": "buy",
@@ -2891,6 +2917,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T15:47:19+00:00",
+ "updated": "2026-11-28T16:02:21+00:00",
  "start": 100.0
 }

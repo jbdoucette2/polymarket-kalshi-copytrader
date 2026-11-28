@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 101.0682,
+ "cash": 99.7882,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -57,6 +57,23 @@
    "leader_shares": 550.0,
    "edge": 0.021,
    "mark": 0.515
+  },
+  "4286860341954974013249667926906022109704960672698866606121958031895118853782": {
+   "cond": "0x66507c33b2643e035f763cde1d1167556ddbcbdb0f56b7df376da32e1c717a1d",
+   "idx": 1,
+   "outcome": "San Jose State Spartans",
+   "title": "Spread: Utah Valley Wolverines (-6.5)",
+   "slug": "cbb-sjst-utahv-2026-11-28-spread-home-6pt5",
+   "event_slug": "cbb-sjst-utahv-2026-11-28",
+   "shares": 2.392523364485981,
+   "cost": 1.28,
+   "kfee": 0.05,
+   "opened": "2026-11-28T16:02:21+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 1908.26,
+   "edge": 0.021,
+   "mark": 0.535
   }
  },
  "leader_shares": {},
@@ -672,6 +689,20 @@
    "stake": 1.25,
    "price": 0.525,
    "leader_price": 0.51,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-28T16:02:21+00:00",
+   "kind": "buy",
+   "title": "Spread: Utah Valley Wolverines (-6.5)",
+   "outcome": "San Jose State Spartans",
+   "event_slug": "cbb-sjst-utahv-2026-11-28",
+   "leader_usd": 1028.71,
+   "stake": 1.28,
+   "price": 0.535,
+   "leader_price": 0.539,
    "leader": "ic4cream",
    "edge": 0.021,
    "agree": false
@@ -2853,10 +2884,14 @@
   {
    "t": "2026-11-28T15:47:17+00:00",
    "equity": 109.35
+  },
+  {
+   "t": "2026-11-28T16:02:21+00:00",
+   "equity": 109.35
   }
  ],
- "kfees": 1.31,
- "copied": 9,
+ "kfees": 1.36,
+ "copied": 10,
  "skipped": 35,
  "lead": {},
  "seen": {
@@ -2869,12 +2904,12 @@
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795861366,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795880203
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795881582
  },
  "day": {
   "2026-11-26": 5.36,
   "2026-11-27": 9.44,
-  "2026-11-28": 2.67
+  "2026-11-28": 3.95
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -2928,6 +2963,12 @@
   [
    1795877234,
    "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359",
+   1,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795881741,
+   "0x66507c33b2643e035f763cde1d1167556ddbcbdb0f56b7df376da32e1c717a1d",
    1,
    "0x27f738fe203827445690339104aae35b20bc44b0"
   ]
@@ -3395,6 +3436,12 @@
    ],
    "0x7b9aeb1b57d54ab30dc688fd20694b5d322d1d0a481d308beb0a2ec2d68264cb": [
     0
+   ],
+   "0xeaf8d3c76de95dc1b374da32fe204d90acb122544f0cbc1fa71a3891d296e0d6": [
+    0
+   ],
+   "0x66507c33b2643e035f763cde1d1167556ddbcbdb0f56b7df376da32e1c717a1d": [
+    1
    ]
   }
  }

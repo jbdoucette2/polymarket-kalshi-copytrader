@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:47:17+00:00",
+ "updated": "2026-11-28T16:02:20+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2217,6 +2217,10 @@
     {
      "t": "2026-11-28T15:47:14+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T16:02:19+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3086,11 +3090,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.83,
+   "equity": 70.93,
    "cash": 14.86,
-   "pnl": -29.17,
-   "pnl_after_kalshi_fees": -33.42,
-   "return_pct": -29.2,
+   "pnl": -29.07,
+   "pnl_after_kalshi_fees": -33.32,
+   "return_pct": -29.1,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -5294,6 +5298,10 @@
     {
      "t": "2026-11-28T15:47:14+00:00",
      "equity": 70.83
+    },
+    {
+     "t": "2026-11-28T16:02:19+00:00",
+     "equity": 70.93
     }
    ],
    "positions": [
@@ -5314,7 +5322,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.833,
+     "mark": 0.836,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5334,7 +5342,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.72,
+     "mark": 0.725,
      "opened": "2026-11-27T00:35:28+00:00"
     },
     {
@@ -5344,7 +5352,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8735,
+     "mark": 0.874,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6350,21 +6358,21 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.43,
-   "cash": 15.94,
-   "pnl": -39.57,
-   "pnl_after_kalshi_fees": -53.09,
-   "return_pct": -39.6,
+   "equity": 60.5,
+   "cash": 12.14,
+   "pnl": -39.5,
+   "pnl_after_kalshi_fees": -53.15,
+   "return_pct": -39.5,
    "realized": -36.64,
-   "kalshi_fees": 13.52,
+   "kalshi_fees": 13.65,
    "settled": 95,
    "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 15,
-   "at_risk": 47.43,
-   "copied": 125,
-   "skipped": 99,
+   "open": 16,
+   "at_risk": 51.23,
+   "copied": 126,
+   "skipped": 100,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -8558,6 +8566,10 @@
     {
      "t": "2026-11-28T15:47:14+00:00",
      "equity": 60.43
+    },
+    {
+     "t": "2026-11-28T16:02:19+00:00",
+     "equity": 60.5
     }
    ],
    "positions": [
@@ -8648,7 +8660,7 @@
      "cost": 3.8,
      "shares": 6.97,
      "avg": 0.545,
-     "mark": 0.525,
+     "mark": 0.535,
      "opened": "2026-11-28T13:18:58+00:00"
     },
     {
@@ -8668,7 +8680,7 @@
      "cost": 1.4,
      "shares": 2.07,
      "avg": 0.675,
-     "mark": 0.032,
+     "mark": 0.003,
      "opened": "2026-11-28T14:26:04+00:00"
     },
     {
@@ -8708,8 +8720,18 @@
      "cost": 3.8,
      "shares": 5.39,
      "avg": 0.705,
-     "mark": 0.695,
+     "mark": 0.705,
      "opened": "2026-11-28T15:36:43+00:00"
+    },
+    {
+     "title": "Spread: Utah Valley Wolverines (-6.5)",
+     "outcome": "San Jose State Spartans",
+     "event_slug": "cbb-sjst-utahv-2026-11-28",
+     "cost": 3.8,
+     "shares": 7.1,
+     "avg": 0.535,
+     "mark": 0.535,
+     "opened": "2026-11-28T15:59:42+00:00"
     }
    ],
    "closed": [
@@ -9375,6 +9397,29 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T16:02:19+00:00",
+     "kind": "buy",
+     "title": "Spread: Utah Valley Wolverines (-6.5)",
+     "outcome": "San Jose State Spartans",
+     "event_slug": "cbb-sjst-utahv-2026-11-28",
+     "leader_usd": 1028.71,
+     "stake": 3.8,
+     "price": 0.535,
+     "leader_price": 0.539,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-28T16:02:19+00:00",
+     "kind": "skip",
+     "title": "Spread: Notre Dame (-23.5)",
+     "outcome": "Notre Dame",
+     "event_slug": "cfb-nd-syra-2026-11-28",
+     "leader_usd": 114.57,
+     "reason": "below $1 minimum",
+     "price": 0.565,
+     "leader_price": 0.57
+    },
     {
      "ts": "2026-11-28T15:47:14+00:00",
      "kind": "buy",
@@ -10043,30 +10088,6 @@
      "stake": 4.97,
      "price": 0.525,
      "leader_price": 0.519,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-26T14:02:15+00:00",
-     "kind": "buy",
-     "title": "Spread: Arizona State Sun Devils (-3.5)",
-     "outcome": "Arizona State Sun Devils",
-     "event_slug": "cbb-sc-arzst-2026-11-26",
-     "leader_usd": 631.28,
-     "stake": 4.97,
-     "price": 0.535,
-     "leader_price": 0.52,
-     "mult": 2.0
-    },
-    {
-     "ts": "2026-11-26T13:47:15+00:00",
-     "kind": "buy",
-     "title": "Spread: Jacksonville State Gamecocks (-1.5)",
-     "outcome": "Jacksonville State Gamecocks",
-     "event_slug": "cbb-jaxst-ucdv-2026-11-26",
-     "leader_usd": 1034.18,
-     "stake": 4.97,
-     "price": 0.53,
-     "leader_price": 0.53,
      "mult": 2.0
     }
    ]
@@ -12283,6 +12304,10 @@
     },
     {
      "t": "2026-11-28T15:47:14+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T16:02:19+00:00",
      "equity": 121.94
     }
    ],
@@ -14967,6 +14992,10 @@
     },
     {
      "t": "2026-11-28T15:47:14+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T16:02:19+00:00",
      "equity": 107.42
     }
    ],
