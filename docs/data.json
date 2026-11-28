@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:02:20+00:00",
+ "updated": "2026-11-28T00:17:15+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -1965,6 +1965,10 @@
     {
      "t": "2026-11-28T00:02:18+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T00:17:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -2834,11 +2838,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 71.73,
+   "equity": 71.86,
    "cash": 8.13,
-   "pnl": -28.27,
-   "pnl_after_kalshi_fees": -32.44,
-   "return_pct": -28.3,
+   "pnl": -28.14,
+   "pnl_after_kalshi_fees": -32.31,
+   "return_pct": -28.1,
    "realized": -36.11,
    "kalshi_fees": 4.17,
    "settled": 24,
@@ -4790,6 +4794,10 @@
     {
      "t": "2026-11-28T00:02:18+00:00",
      "equity": 71.73
+    },
+    {
+     "t": "2026-11-28T00:17:12+00:00",
+     "equity": 71.86
     }
    ],
    "positions": [
@@ -4800,7 +4808,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.88,
+     "mark": 0.895,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -4810,7 +4818,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.848,
+     "mark": 0.844,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -4860,7 +4868,7 @@
      "cost": 1.4,
      "shares": 2.89,
      "avg": 0.485,
-     "mark": 0.59,
+     "mark": 0.515,
      "opened": "2026-11-27T20:20:50+00:00"
     },
     {
@@ -4870,7 +4878,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.872,
+     "mark": 0.8775,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5845,20 +5853,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 46.56,
-   "cash": 14.54,
-   "pnl": -53.44,
-   "pnl_after_kalshi_fees": -65.83,
-   "return_pct": -53.4,
+   "equity": 46.49,
+   "cash": 13.12,
+   "pnl": -53.51,
+   "pnl_after_kalshi_fees": -65.97,
+   "return_pct": -53.5,
    "realized": -52.16,
-   "kalshi_fees": 12.39,
+   "kalshi_fees": 12.46,
    "settled": 89,
    "won": 46,
    "lost": 43,
    "sold_early": 0,
-   "open": 10,
-   "at_risk": 33.3,
-   "copied": 113,
+   "open": 11,
+   "at_risk": 34.72,
+   "copied": 114,
    "skipped": 96,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -7801,6 +7809,10 @@
     {
      "t": "2026-11-28T00:02:18+00:00",
      "equity": 46.56
+    },
+    {
+     "t": "2026-11-28T00:17:12+00:00",
+     "equity": 46.49
     }
    ],
    "positions": [
@@ -7903,6 +7915,16 @@
      "avg": 0.485,
      "mark": 0.455,
      "opened": "2026-11-27T14:38:40+00:00"
+    },
+    {
+     "title": "Will Inter Miami CF win on 2026-11-27?",
+     "outcome": "Yes",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "cost": 1.42,
+     "shares": 3.79,
+     "avg": 0.375,
+     "mark": 0.355,
+     "opened": "2026-11-28T00:05:08+00:00"
     }
    ],
    "closed": [
@@ -8568,6 +8590,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T00:17:12+00:00",
+     "kind": "buy",
+     "title": "Will Inter Miami CF win on 2026-11-27?",
+     "outcome": "Yes",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "leader_usd": 300.96,
+     "stake": 1.42,
+     "price": 0.375,
+     "leader_price": 0.36,
+     "mult": 0.99
+    },
     {
      "ts": "2026-11-27T23:32:13+00:00",
      "kind": "skip",
@@ -9243,18 +9277,6 @@
      "price": 0.585,
      "leader_price": 0.57,
      "mult": 1.63
-    },
-    {
-     "ts": "2026-11-25T17:47:14+00:00",
-     "kind": "buy",
-     "title": "Spread: Broncos (-3.5)",
-     "outcome": "Steelers",
-     "event_slug": "nfl-den-pit-2026-11-27",
-     "leader_usd": 2279.53,
-     "stake": 3.65,
-     "price": 0.545,
-     "leader_price": 0.53,
-     "mult": 2.0
     }
    ]
   },
@@ -9263,20 +9285,20 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 118.59,
-   "cash": 100.62,
-   "pnl": 18.59,
-   "pnl_after_kalshi_fees": 15.73,
-   "return_pct": 18.6,
+   "equity": 117.78,
+   "cash": 86.66,
+   "pnl": 17.78,
+   "pnl_after_kalshi_fees": 14.46,
+   "return_pct": 17.8,
    "realized": 16.38,
-   "kalshi_fees": 2.86,
+   "kalshi_fees": 3.32,
    "settled": 12,
    "won": 7,
    "lost": 5,
    "sold_early": 0,
-   "open": 2,
-   "at_risk": 15.75,
-   "copied": 17,
+   "open": 4,
+   "at_risk": 29.71,
+   "copied": 19,
    "skipped": 0,
    "max_drawdown_pct": 14.2,
    "focus": "Soccer (MLS, Brazil, Chile, Liga MX)",
@@ -11219,6 +11241,10 @@
     {
      "t": "2026-11-28T00:02:18+00:00",
      "equity": 118.59
+    },
+    {
+     "t": "2026-11-28T00:17:12+00:00",
+     "equity": 117.78
     }
    ],
    "positions": [
@@ -11229,7 +11255,7 @@
      "cost": 11.05,
      "shares": 23.13,
      "avg": 0.478,
-     "mark": 0.485,
+     "mark": 0.475,
      "opened": "2026-11-27T12:33:10+00:00"
     },
     {
@@ -11239,8 +11265,28 @@
      "cost": 4.7,
      "shares": 11.86,
      "avg": 0.396,
-     "mark": 0.57,
+     "mark": 0.535,
      "opened": "2026-11-27T22:43:31+00:00"
+    },
+    {
+     "title": "Will Columbus Crew win on 2026-11-27?",
+     "outcome": "Yes",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "cost": 6.98,
+     "shares": 16.05,
+     "avg": 0.435,
+     "mark": 0.425,
+     "opened": "2026-11-28T00:04:29+00:00"
+    },
+    {
+     "title": "Will Inter Miami CF win on 2026-11-27?",
+     "outcome": "No",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "cost": 6.98,
+     "shares": 10.82,
+     "avg": 0.645,
+     "mark": 0.645,
+     "opened": "2026-11-28T00:05:07+00:00"
     }
    ],
    "closed": [
@@ -11378,6 +11424,30 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T00:17:12+00:00",
+     "kind": "buy",
+     "title": "Will Inter Miami CF win on 2026-11-27?",
+     "outcome": "No",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "leader_usd": 43901.86,
+     "stake": 6.98,
+     "price": 0.645,
+     "leader_price": 0.635,
+     "mult": 2.0
+    },
+    {
+     "ts": "2026-11-28T00:17:12+00:00",
+     "kind": "buy",
+     "title": "Will Columbus Crew win on 2026-11-27?",
+     "outcome": "Yes",
+     "event_slug": "mls-clb-mia-2026-11-27",
+     "leader_usd": 31985.49,
+     "stake": 6.98,
+     "price": 0.435,
+     "leader_price": 0.398,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-27T23:02:13+00:00",
      "kind": "buy",
@@ -13544,6 +13614,10 @@
     },
     {
      "t": "2026-11-28T00:02:18+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T00:17:12+00:00",
      "equity": 107.42
     }
    ],
