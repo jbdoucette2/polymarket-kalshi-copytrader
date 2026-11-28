@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T18:02:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T18:17:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.36** (+9.36; after Kalshi fees +8.00) · 4-2 · sold early 0 · 4 open ($9.50) · max drawdown 6.2%
+**$109.35** (+9.35; after Kalshi fees +7.99) · 4-2 · sold early 0 · 4 open ($9.50) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
