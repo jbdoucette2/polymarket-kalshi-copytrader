@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:17:15+00:00",
+ "updated": "2026-11-28T07:32:21+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2080,6 +2080,10 @@
     },
     {
      "t": "2026-11-28T07:17:13+00:00",
+     "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T07:32:19+00:00",
      "equity": 73.69
     }
    ],
@@ -5022,6 +5026,10 @@
     {
      "t": "2026-11-28T07:17:13+00:00",
      "equity": 71.4
+    },
+    {
+     "t": "2026-11-28T07:32:19+00:00",
+     "equity": 71.4
     }
    ],
    "positions": [
@@ -6081,18 +6089,18 @@
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
    "equity": 62.3,
-   "cash": 31.42,
+   "cash": 38.1,
    "pnl": -37.7,
    "pnl_after_kalshi_fees": -50.56,
    "return_pct": -37.7,
-   "realized": -39.84,
+   "realized": -36.64,
    "kalshi_fees": 12.86,
-   "settled": 94,
-   "won": 50,
+   "settled": 95,
+   "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 9,
-   "at_risk": 28.74,
+   "open": 8,
+   "at_risk": 25.27,
    "copied": 118,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
@@ -8152,6 +8160,10 @@
     {
      "t": "2026-11-28T07:17:13+00:00",
      "equity": 62.3
+    },
+    {
+     "t": "2026-11-28T07:32:19+00:00",
+     "equity": 62.3
     }
    ],
    "positions": [
@@ -8216,16 +8228,6 @@
      "opened": "2026-11-27T00:20:39+00:00"
     },
     {
-     "title": "Spread: Jacksonville State Gamecocks (-5.5)",
-     "outcome": "Omaha Mavericks",
-     "event_slug": "cbb-jaxst-neom-2026-11-27",
-     "cost": 3.47,
-     "shares": 6.67,
-     "avg": 0.52,
-     "mark": 0.9995,
-     "opened": "2026-11-27T13:59:59+00:00"
-    },
-    {
      "title": "Spread: Northwestern (-2.5)",
      "outcome": "Northwestern",
      "event_slug": "cfb-ill-nw-2026-11-28",
@@ -8247,6 +8249,17 @@
     }
    ],
    "closed": [
+    {
+     "ts": "2026-11-28T07:32:19+00:00",
+     "title": "Spread: Jacksonville State Gamecocks (-5.5)",
+     "outcome": "Omaha Mavericks",
+     "event_slug": "cbb-jaxst-neom-2026-11-27",
+     "cost": 3.47,
+     "pnl": 3.2,
+     "kfee": 0.12,
+     "how": "won",
+     "exit_price": 1.0
+    },
     {
      "ts": "2026-11-28T06:02:19+00:00",
      "title": "Spread: Utah (-24.5)",
@@ -8893,17 +8906,6 @@
      "cost": 2.64,
      "pnl": 2.39,
      "kfee": 0.09,
-     "how": "won",
-     "exit_price": 1.0
-    },
-    {
-     "ts": "2026-11-23T03:21:14+00:00",
-     "title": "Oilers vs. Blues: O/U 5.5",
-     "outcome": "Over",
-     "event_slug": "nhl-edm-stl-2026-11-22",
-     "cost": 2.16,
-     "pnl": 1.6,
-     "kfee": 0.07,
      "how": "won",
      "exit_price": 1.0
     }
@@ -11679,6 +11681,10 @@
     {
      "t": "2026-11-28T07:17:13+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T07:32:19+00:00",
+     "equity": 121.94
     }
    ],
    "positions": [],
@@ -14226,6 +14232,10 @@
     },
     {
      "t": "2026-11-28T07:17:13+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T07:32:19+00:00",
      "equity": 107.42
     }
    ],
