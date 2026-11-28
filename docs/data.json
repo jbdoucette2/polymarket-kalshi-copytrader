@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:32:16+00:00",
+ "updated": "2026-11-28T14:47:14+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2197,6 +2197,10 @@
     {
      "t": "2026-11-28T14:32:14+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T14:47:12+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3066,11 +3070,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.98,
+   "equity": 70.84,
    "cash": 14.86,
-   "pnl": -29.02,
-   "pnl_after_kalshi_fees": -33.27,
-   "return_pct": -29.0,
+   "pnl": -29.16,
+   "pnl_after_kalshi_fees": -33.41,
+   "return_pct": -29.2,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -5254,6 +5258,10 @@
     {
      "t": "2026-11-28T14:32:14+00:00",
      "equity": 70.98
+    },
+    {
+     "t": "2026-11-28T14:47:12+00:00",
+     "equity": 70.84
     }
    ],
    "positions": [
@@ -5264,7 +5272,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.885,
+     "mark": 0.88,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -5274,7 +5282,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8275,
+     "mark": 0.827,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5294,7 +5302,7 @@
      "cost": 3.2,
      "shares": 4.24,
      "avg": 0.755,
-     "mark": 0.715,
+     "mark": 0.725,
      "opened": "2026-11-27T00:35:28+00:00"
     },
     {
@@ -5304,7 +5312,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.881,
+     "mark": 0.8745,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6310,20 +6318,20 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 62.07,
-   "cash": 29.1,
-   "pnl": -37.93,
-   "pnl_after_kalshi_fees": -51.05,
-   "return_pct": -37.9,
+   "equity": 61.94,
+   "cash": 27.34,
+   "pnl": -38.06,
+   "pnl_after_kalshi_fees": -51.24,
+   "return_pct": -38.1,
    "realized": -36.64,
-   "kalshi_fees": 13.12,
+   "kalshi_fees": 13.18,
    "settled": 95,
    "won": 51,
    "lost": 44,
    "sold_early": 0,
-   "open": 11,
-   "at_risk": 34.27,
-   "copied": 121,
+   "open": 12,
+   "at_risk": 36.03,
+   "copied": 122,
    "skipped": 99,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
@@ -8498,6 +8506,10 @@
     {
      "t": "2026-11-28T14:32:14+00:00",
      "equity": 62.07
+    },
+    {
+     "t": "2026-11-28T14:47:12+00:00",
+     "equity": 61.94
     }
    ],
    "positions": [
@@ -8578,7 +8590,7 @@
      "cost": 3.06,
      "shares": 5.42,
      "avg": 0.565,
-     "mark": 0.545,
+     "mark": 0.535,
      "opened": "2026-11-28T04:35:14+00:00"
     },
     {
@@ -8608,8 +8620,18 @@
      "cost": 1.4,
      "shares": 2.07,
      "avg": 0.675,
-     "mark": 0.665,
+     "mark": 0.645,
      "opened": "2026-11-28T14:26:04+00:00"
+    },
+    {
+     "title": "Spread: Stony Brook Seawolves (-6.5)",
+     "outcome": "Delaware Fightin Blue Hens",
+     "event_slug": "cbb-del-stbr-2026-11-28",
+     "cost": 1.76,
+     "shares": 3.35,
+     "avg": 0.525,
+     "mark": 0.515,
+     "opened": "2026-11-28T14:36:51+00:00"
     }
    ],
    "closed": [
@@ -9275,6 +9297,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T14:47:12+00:00",
+     "kind": "buy",
+     "title": "Spread: Stony Brook Seawolves (-6.5)",
+     "outcome": "Delaware Fightin Blue Hens",
+     "event_slug": "cbb-del-stbr-2026-11-28",
+     "leader_usd": 280.5,
+     "stake": 1.76,
+     "price": 0.525,
+     "leader_price": 0.51,
+     "mult": 0.92
+    },
     {
      "ts": "2026-11-28T14:32:14+00:00",
      "kind": "buy",
@@ -9954,18 +9988,6 @@
      "price": 0.355,
      "leader_price": 0.341,
      "mult": 1.04
-    },
-    {
-     "ts": "2026-11-26T02:32:16+00:00",
-     "kind": "buy",
-     "title": "Will CF Monterrey win on 2026-11-25?",
-     "outcome": "No",
-     "event_slug": "mex-mon1-ame-2026-11-25",
-     "leader_usd": 660.0,
-     "stake": 3.78,
-     "price": 0.545,
-     "leader_price": 0.55,
-     "mult": 2.0
     }
    ]
   },
@@ -12161,6 +12183,10 @@
     },
     {
      "t": "2026-11-28T14:32:14+00:00",
+     "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T14:47:12+00:00",
      "equity": 121.94
     }
    ],
@@ -14825,6 +14851,10 @@
     },
     {
      "t": "2026-11-28T14:32:14+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T14:47:12+00:00",
      "equity": 107.42
     }
    ],

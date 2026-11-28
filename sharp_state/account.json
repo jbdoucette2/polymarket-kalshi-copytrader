@@ -3,7 +3,7 @@
  "name": "Sharp Filter",
  "addr": "-",
  "start": 100.0,
- "cash": 102.3182,
+ "cash": 101.0682,
  "since": 1795200975,
  "last_ts": 1795200975,
  "positions": {
@@ -39,7 +39,24 @@
    "leader_name": "ic4cream",
    "leader_shares": 1532.964706,
    "edge": 0.021,
-   "mark": 0.545
+   "mark": 0.535
+  },
+  "66186090545517682607279253788738942769873170405300354505838010367674652182606": {
+   "cond": "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359",
+   "idx": 1,
+   "outcome": "Delaware Fightin Blue Hens",
+   "title": "Spread: Stony Brook Seawolves (-6.5)",
+   "slug": "cbb-del-stbr-2026-11-28-spread-home-6pt5",
+   "event_slug": "cbb-del-stbr-2026-11-28",
+   "shares": 2.380952380952381,
+   "cost": 1.25,
+   "kfee": 0.05,
+   "opened": "2026-11-28T14:47:14+00:00",
+   "leader": "0x27f738fe203827445690339104aae35b20bc44b0",
+   "leader_name": "ic4cream",
+   "leader_shares": 550.0,
+   "edge": 0.021,
+   "mark": 0.515
   }
  },
  "leader_shares": {},
@@ -641,6 +658,20 @@
    "stake": 1.42,
    "price": 0.565,
    "leader_price": 0.507,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
+  },
+  {
+   "ts": "2026-11-28T14:47:14+00:00",
+   "kind": "buy",
+   "title": "Spread: Stony Brook Seawolves (-6.5)",
+   "outcome": "Delaware Fightin Blue Hens",
+   "event_slug": "cbb-del-stbr-2026-11-28",
+   "leader_usd": 280.5,
+   "stake": 1.25,
+   "price": 0.525,
+   "leader_price": 0.51,
    "leader": "ic4cream",
    "edge": 0.021,
    "agree": false
@@ -2802,10 +2833,14 @@
   {
    "t": "2026-11-28T14:32:16+00:00",
    "equity": 109.35
+  },
+  {
+   "t": "2026-11-28T14:47:14+00:00",
+   "equity": 109.3
   }
  ],
- "kfees": 1.26,
- "copied": 8,
+ "kfees": 1.31,
+ "copied": 9,
  "skipped": 35,
  "lead": {},
  "seen": {
@@ -2818,12 +2853,12 @@
   "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": 1795197375,
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": 1795801403,
   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": 1795861366,
-  "0x27f738fe203827445690339104aae35b20bc44b0": 1795876045
+  "0x27f738fe203827445690339104aae35b20bc44b0": 1795876611
  },
  "day": {
   "2026-11-26": 5.36,
   "2026-11-27": 9.44,
-  "2026-11-28": 1.42
+  "2026-11-28": 2.67
  },
  "live": {
   "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": {
@@ -2872,6 +2907,12 @@
    1795841233,
    "0x24e11ffead40dcea0c60715d8bcd5728a82be757201d5de595ef95fb4e5ed153",
    0,
+   "0x27f738fe203827445690339104aae35b20bc44b0"
+  ],
+  [
+   1795877234,
+   "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359",
+   1,
    "0x27f738fe203827445690339104aae35b20bc44b0"
   ]
  ],
@@ -3325,6 +3366,9 @@
     1
    ],
    "0xcad45b18c582a46b4adedff76cd57b456fa197c24e25f9964876fc848606a66f": [
+    1
+   ],
+   "0xea0a5e0131a8e4d0349620f67ba84e2fe0ea38d8628b748ace4028aab7975359": [
     1
    ]
   }

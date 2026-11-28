@@ -1,8 +1,8 @@
 # Sharp Filter paper account
 
-Updated 2026-11-28T14:32:17+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
+Updated 2026-11-28T14:47:14+00:00 UTC. Started with $100 on 2026-11-20. Paper only. Wallet scores from 2026-11-27.
 
-**$109.35** (+9.35; after Kalshi fees +8.09) · 4-2 · sold early 0 · 2 open ($6.97) · max drawdown 6.2%
+**$109.30** (+9.30; after Kalshi fees +7.99) · 4-2 · sold early 0 · 3 open ($8.22) · max drawdown 6.2%
 
 ## Wallets it copies (and in which sports)
 
@@ -16,12 +16,14 @@ Updated 2026-11-28T14:32:17+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | Game | Pick | Leader | Cost | Now |
 | --- | --- | --- | --- | --- |
 | Seahawks vs. 49ers | Seahawks | ic4cream | $5.55 | 52c |
-| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 55c |
+| Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 | 54c |
+| Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 | 52c |
 
 ## Recent decisions
 
 | Time | Action | Game | Pick | Leader | Note |
 | --- | --- | --- | --- | --- | --- |
+| 11-28 14:47 | buy | Spread: Stony Brook Seawolves (-6.5) | Delaware Fightin Blue Hens | ic4cream | $1.25 at 52c |
 | 11-28 04:47 | buy | Fordham Rams vs. Harvard Crimson: O/U 138.5 | Over | ic4cream | $1.42 at 56c |
 | 11-27 23:32 | skip | Spread: Knicks (-2.5) | Knicks | ic4cream | small bet for this wallet |
 | 11-27 22:32 | skip | Spread: 49ers (-1.5) | Seahawks | ic4cream | already have a bet on this game |
@@ -61,7 +63,6 @@ Updated 2026-11-28T14:32:17+00:00 UTC. Started with $100 on 2026-11-20. Paper on
 | 11-22 02:21 | skip | Spread: Lions (-3.5) | Buccaneers | gmpm2 | small bet for this wallet |
 | 11-22 02:21 | skip | Spread: Lions (-4.5) | Buccaneers | gmpm2 | small bet for this wallet |
 | 11-22 02:21 | skip | Titans vs. Cowboys | Titans | gmpm2 | small bet for this wallet |
-| 11-22 01:20 | skip | Bengals vs. Commanders: O/U 54.5 | Over | gmpm2 | small bet for this wallet |
 
 ## Walk-forward test (2026-11-24)
 

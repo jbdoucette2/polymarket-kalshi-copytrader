@@ -3,20 +3,20 @@
  "name": "Sharp Filter",
  "addr": "-",
  "since": "2026-11-20T18:56:15+00:00",
- "equity": 109.35,
- "cash": 102.32,
- "pnl": 9.35,
- "pnl_after_kalshi_fees": 8.09,
+ "equity": 109.3,
+ "cash": 101.07,
+ "pnl": 9.3,
+ "pnl_after_kalshi_fees": 7.99,
  "return_pct": 9.3,
  "realized": 9.28,
- "kalshi_fees": 1.26,
+ "kalshi_fees": 1.31,
  "settled": 6,
  "won": 4,
  "lost": 2,
  "sold_early": 0,
- "open": 2,
- "at_risk": 6.97,
- "copied": 8,
+ "open": 3,
+ "at_risk": 8.22,
+ "copied": 9,
  "skipped": 35,
  "max_drawdown_pct": 6.2,
  "history": [
@@ -2175,6 +2175,10 @@
   {
    "t": "2026-11-28T14:32:16+00:00",
    "equity": 109.35
+  },
+  {
+   "t": "2026-11-28T14:47:14+00:00",
+   "equity": 109.3
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2244,7 +2248,15 @@
    "leader": "ic4cream",
    "cost": 1.42,
    "avg": 0.565,
-   "mark": 0.545
+   "mark": 0.535
+  },
+  {
+   "title": "Spread: Stony Brook Seawolves (-6.5)",
+   "outcome": "Delaware Fightin Blue Hens",
+   "leader": "ic4cream",
+   "cost": 1.25,
+   "avg": 0.525,
+   "mark": 0.515
   }
  ],
  "closed": [
@@ -2316,6 +2328,20 @@
   }
  ],
  "log": [
+  {
+   "ts": "2026-11-28T14:47:14+00:00",
+   "kind": "buy",
+   "title": "Spread: Stony Brook Seawolves (-6.5)",
+   "outcome": "Delaware Fightin Blue Hens",
+   "event_slug": "cbb-del-stbr-2026-11-28",
+   "leader_usd": 280.5,
+   "stake": 1.25,
+   "price": 0.525,
+   "leader_price": 0.51,
+   "leader": "ic4cream",
+   "edge": 0.021,
+   "agree": false
+  },
   {
    "ts": "2026-11-28T04:47:13+00:00",
    "kind": "buy",
@@ -2849,6 +2875,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T14:32:17+00:00",
+ "updated": "2026-11-28T14:47:14+00:00",
  "start": 100.0
 }
