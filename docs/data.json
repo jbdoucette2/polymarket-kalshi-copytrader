@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T17:32:13+00:00",
+ "updated": "2026-11-28T17:47:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2245,6 +2245,10 @@
     {
      "t": "2026-11-28T17:32:11+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T17:47:10+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3114,20 +3118,20 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 69.99,
-   "cash": 14.86,
-   "pnl": -30.01,
-   "pnl_after_kalshi_fees": -34.26,
-   "return_pct": -30.0,
+   "equity": 71.26,
+   "cash": 11.04,
+   "pnl": -28.74,
+   "pnl_after_kalshi_fees": -33.03,
+   "return_pct": -28.7,
    "realized": -36.41,
-   "kalshi_fees": 4.25,
+   "kalshi_fees": 4.29,
    "settled": 26,
    "won": 7,
    "lost": 19,
    "sold_early": 1,
    "open": 5,
-   "at_risk": 48.73,
-   "copied": 44,
+   "at_risk": 52.55,
+   "copied": 45,
    "skipped": 36,
    "max_drawdown_pct": 41.7,
    "focus": "College football, NFL",
@@ -5350,6 +5354,10 @@
     {
      "t": "2026-11-28T17:32:11+00:00",
      "equity": 69.99
+    },
+    {
+     "t": "2026-11-28T17:47:10+00:00",
+     "equity": 71.26
     }
    ],
    "positions": [
@@ -5360,17 +5368,17 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.85,
+     "mark": 0.875,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
      "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
      "outcome": "Yes",
      "event_slug": "next-prime-minister-of-sweden",
-     "cost": 18.99,
-     "shares": 25.6,
-     "avg": 0.742,
-     "mark": 0.828,
+     "cost": 22.81,
+     "shares": 30.02,
+     "avg": 0.76,
+     "mark": 0.8545,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5400,7 +5408,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8885,
+     "mark": 0.874,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -5704,6 +5712,18 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T17:47:10+00:00",
+     "kind": "buy",
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "outcome": "Yes",
+     "event_slug": "next-prime-minister-of-sweden",
+     "leader_usd": 3340.39,
+     "stake": 3.82,
+     "price": 0.865,
+     "leader_price": 0.859,
+     "mult": 2.0
+    },
     {
      "ts": "2026-11-28T10:17:12+00:00",
      "kind": "skip",
@@ -6386,18 +6406,6 @@
      "reason": "price ran away (0.54 -> 0.68)",
      "price": 0.675,
      "leader_price": 0.54
-    },
-    {
-     "ts": "2026-11-22T01:20:55+00:00",
-     "kind": "buy",
-     "title": "Stanford vs. California",
-     "outcome": "California",
-     "event_slug": "cfb-stan-cah-2026-11-21",
-     "leader_usd": 471.24,
-     "stake": 1.21,
-     "price": 0.435,
-     "leader_price": 0.44,
-     "mult": 0.37
     }
    ]
   },
@@ -6406,11 +6414,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 66.46,
+   "equity": 65.95,
    "cash": 0.9,
-   "pnl": -33.54,
-   "pnl_after_kalshi_fees": -47.58,
-   "return_pct": -33.5,
+   "pnl": -34.05,
+   "pnl_after_kalshi_fees": -48.09,
+   "return_pct": -34.0,
    "realized": -38.04,
    "kalshi_fees": 14.04,
    "settled": 96,
@@ -8642,6 +8650,10 @@
     {
      "t": "2026-11-28T17:32:11+00:00",
      "equity": 66.46
+    },
+    {
+     "t": "2026-11-28T17:47:10+00:00",
+     "equity": 65.95
     }
    ],
    "positions": [
@@ -8712,7 +8724,7 @@
      "cost": 2.87,
      "shares": 4.99,
      "avg": 0.575,
-     "mark": 0.605,
+     "mark": 0.625,
      "opened": "2026-11-28T02:31:01+00:00"
     },
     {
@@ -8802,7 +8814,7 @@
      "cost": 3.8,
      "shares": 7.1,
      "avg": 0.535,
-     "mark": 0.85,
+     "mark": 0.825,
      "opened": "2026-11-28T16:45:24+00:00"
     },
     {
@@ -8812,7 +8824,7 @@
      "cost": 3.72,
      "shares": 6.95,
      "avg": 0.535,
-     "mark": 0.73,
+     "mark": 0.7,
      "opened": "2026-11-28T16:54:22+00:00"
     },
     {
@@ -8822,7 +8834,7 @@
      "cost": 3.72,
      "shares": 7.29,
      "avg": 0.51,
-     "mark": 0.835,
+     "mark": 0.805,
      "opened": "2026-11-28T16:56:00+00:00"
     }
    ],
@@ -10188,11 +10200,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 121.69,
+   "equity": 121.43,
    "cash": 114.62,
-   "pnl": 21.69,
-   "pnl_after_kalshi_fees": 17.38,
-   "return_pct": 21.7,
+   "pnl": 21.43,
+   "pnl_after_kalshi_fees": 17.12,
+   "return_pct": 21.4,
    "realized": 21.95,
    "kalshi_fees": 4.31,
    "settled": 17,
@@ -12424,6 +12436,10 @@
     {
      "t": "2026-11-28T17:32:11+00:00",
      "equity": 121.69
+    },
+    {
+     "t": "2026-11-28T17:47:10+00:00",
+     "equity": 121.43
     }
    ],
    "positions": [
@@ -12434,7 +12450,7 @@
      "cost": 7.32,
      "shares": 16.83,
      "avg": 0.435,
-     "mark": 0.42,
+     "mark": 0.405,
      "opened": "2026-11-28T16:32:13+00:00"
     }
    ],
@@ -15158,6 +15174,10 @@
     },
     {
      "t": "2026-11-28T17:32:11+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T17:47:10+00:00",
      "equity": 107.42
     }
    ],
