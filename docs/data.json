@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T17:02:15+00:00",
+ "updated": "2026-11-28T17:17:13+00:00",
  "start": 100.0,
  "base_pct": 0.03,
  "slip": 0.01,
@@ -2237,6 +2237,10 @@
     {
      "t": "2026-11-28T17:02:14+00:00",
      "equity": 73.69
+    },
+    {
+     "t": "2026-11-28T17:17:11+00:00",
+     "equity": 73.69
     }
    ],
    "positions": [],
@@ -3106,11 +3110,11 @@
    "name": "Flipadelphia",
    "addr": "0x448861155279dbf833d041b963e3ac854599e319",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 70.76,
+   "equity": 70.16,
    "cash": 14.86,
-   "pnl": -29.24,
-   "pnl_after_kalshi_fees": -33.49,
-   "return_pct": -29.2,
+   "pnl": -29.84,
+   "pnl_after_kalshi_fees": -34.09,
+   "return_pct": -29.8,
    "realized": -36.41,
    "kalshi_fees": 4.25,
    "settled": 26,
@@ -3121,7 +3125,7 @@
    "at_risk": 48.73,
    "copied": 44,
    "skipped": 36,
-   "max_drawdown_pct": 41.5,
+   "max_drawdown_pct": 41.6,
    "focus": "College football, NFL",
    "risk": "Medium",
    "rivo": {
@@ -5334,6 +5338,10 @@
     {
      "t": "2026-11-28T17:02:14+00:00",
      "equity": 70.76
+    },
+    {
+     "t": "2026-11-28T17:17:11+00:00",
+     "equity": 70.16
     }
    ],
    "positions": [
@@ -5344,7 +5352,7 @@
      "cost": 20.08,
      "shares": 28.44,
      "avg": 0.706,
-     "mark": 0.875,
+     "mark": 0.87,
      "opened": "2026-11-23T11:33:11+00:00"
     },
     {
@@ -5354,7 +5362,7 @@
      "cost": 18.99,
      "shares": 25.6,
      "avg": 0.742,
-     "mark": 0.8295,
+     "mark": 0.8125,
      "opened": "2026-11-23T21:40:19+00:00"
     },
     {
@@ -5384,7 +5392,7 @@
      "cost": 4.1,
      "shares": 4.66,
      "avg": 0.879,
-     "mark": 0.8935,
+     "mark": 0.89,
      "opened": "2026-11-27T22:48:31+00:00"
     }
    ],
@@ -6390,11 +6398,11 @@
    "name": "ic4cream",
    "addr": "0x27f738fe203827445690339104aae35b20bc44b0",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 60.21,
+   "equity": 63.42,
    "cash": 0.9,
-   "pnl": -39.79,
-   "pnl_after_kalshi_fees": -53.83,
-   "return_pct": -39.8,
+   "pnl": -36.58,
+   "pnl_after_kalshi_fees": -50.62,
+   "return_pct": -36.6,
    "realized": -38.04,
    "kalshi_fees": 14.04,
    "settled": 96,
@@ -6404,7 +6412,7 @@
    "open": 18,
    "at_risk": 61.07,
    "copied": 129,
-   "skipped": 100,
+   "skipped": 101,
    "max_drawdown_pct": 73.4,
    "focus": "Multi-sport: college football and basketball, tennis, esports",
    "risk": "Medium",
@@ -8618,6 +8626,10 @@
     {
      "t": "2026-11-28T17:02:14+00:00",
      "equity": 60.21
+    },
+    {
+     "t": "2026-11-28T17:17:11+00:00",
+     "equity": 63.42
     }
    ],
    "positions": [
@@ -8668,7 +8680,7 @@
      "cost": 1.04,
      "shares": 2.7,
      "avg": 0.385,
-     "mark": 0.325,
+     "mark": 0.315,
      "opened": "2026-11-26T17:34:07+00:00"
     },
     {
@@ -8718,7 +8730,7 @@
      "cost": 3.8,
      "shares": 5.71,
      "avg": 0.665,
-     "mark": 0.675,
+     "mark": 0.685,
      "opened": "2026-11-28T14:24:26+00:00"
     },
     {
@@ -8778,7 +8790,7 @@
      "cost": 3.8,
      "shares": 7.1,
      "avg": 0.535,
-     "mark": 0.535,
+     "mark": 0.685,
      "opened": "2026-11-28T16:45:24+00:00"
     },
     {
@@ -8788,7 +8800,7 @@
      "cost": 3.72,
      "shares": 6.95,
      "avg": 0.535,
-     "mark": 0.52,
+     "mark": 0.645,
      "opened": "2026-11-28T16:54:22+00:00"
     },
     {
@@ -8798,7 +8810,7 @@
      "cost": 3.72,
      "shares": 7.29,
      "avg": 0.51,
-     "mark": 0.49,
+     "mark": 0.66,
      "opened": "2026-11-28T16:56:00+00:00"
     }
    ],
@@ -9465,6 +9477,17 @@
     }
    ],
    "log": [
+    {
+     "ts": "2026-11-28T17:17:11+00:00",
+     "kind": "skip",
+     "title": "Spread: Ohio State (-10.5)",
+     "outcome": "Ohio State",
+     "event_slug": "cfb-mich-ohiost-2026-11-28",
+     "leader_usd": 431.5,
+     "reason": "out of cash",
+     "price": 0.495,
+     "leader_price": 0.5
+    },
     {
      "ts": "2026-11-28T17:02:14+00:00",
      "kind": "buy",
@@ -10145,18 +10168,6 @@
      "reason": "below $1 minimum",
      "price": 0.505,
      "leader_price": 0.529
-    },
-    {
-     "ts": "2026-11-26T14:47:12+00:00",
-     "kind": "buy",
-     "title": "Utah State Aggies vs. USC Trojans: O/U 160.5",
-     "outcome": "Over",
-     "event_slug": "cbb-utahst-usc-2026-11-26",
-     "leader_usd": 757.54,
-     "stake": 4.97,
-     "price": 0.505,
-     "leader_price": 0.49,
-     "mult": 2.0
     }
    ]
   },
@@ -10165,11 +10176,11 @@
    "name": "GetsOnBase",
    "addr": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
    "since": "2026-11-20T18:13:58+00:00",
-   "equity": 121.94,
+   "equity": 121.77,
    "cash": 114.62,
-   "pnl": 21.94,
-   "pnl_after_kalshi_fees": 17.63,
-   "return_pct": 21.9,
+   "pnl": 21.77,
+   "pnl_after_kalshi_fees": 17.46,
+   "return_pct": 21.8,
    "realized": 21.95,
    "kalshi_fees": 4.31,
    "settled": 17,
@@ -12393,6 +12404,10 @@
     {
      "t": "2026-11-28T17:02:14+00:00",
      "equity": 121.94
+    },
+    {
+     "t": "2026-11-28T17:17:11+00:00",
+     "equity": 121.77
     }
    ],
    "positions": [
@@ -12403,7 +12418,7 @@
      "cost": 7.32,
      "shares": 16.83,
      "avg": 0.435,
-     "mark": 0.435,
+     "mark": 0.425,
      "opened": "2026-11-28T16:32:13+00:00"
     }
    ],
@@ -15119,6 +15134,10 @@
     },
     {
      "t": "2026-11-28T17:02:14+00:00",
+     "equity": 107.42
+    },
+    {
+     "t": "2026-11-28T17:17:11+00:00",
      "equity": 107.42
     }
    ],
