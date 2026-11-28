@@ -8,14 +8,14 @@
  "pnl": 9.37,
  "pnl_after_kalshi_fees": 8.11,
  "return_pct": 9.4,
- "realized": 13.17,
+ "realized": 9.28,
  "kalshi_fees": 1.26,
- "settled": 5,
+ "settled": 6,
  "won": 4,
- "lost": 1,
+ "lost": 2,
  "sold_early": 0,
- "open": 3,
- "at_risk": 10.86,
+ "open": 2,
+ "at_risk": 6.97,
  "copied": 8,
  "skipped": 35,
  "max_drawdown_pct": 6.2,
@@ -2019,6 +2019,10 @@
   {
    "t": "2026-11-28T04:47:13+00:00",
    "equity": 109.37
+  },
+  {
+   "t": "2026-11-28T05:02:15+00:00",
+   "equity": 109.37
   }
  ],
  "scored": "2026-11-27T19:17:21+00:00",
@@ -2075,14 +2079,6 @@
  },
  "positions": [
   {
-   "title": "Spread: Suns (-1.5)",
-   "outcome": "Suns",
-   "leader": "ic4cream",
-   "cost": 3.89,
-   "avg": 0.555,
-   "mark": 0.0005
-  },
-  {
    "title": "Seahawks vs. 49ers",
    "outcome": "Seahawks",
    "leader": "ic4cream",
@@ -2100,6 +2096,17 @@
   }
  ],
  "closed": [
+  {
+   "ts": "2026-11-28T05:02:15+00:00",
+   "title": "Spread: Suns (-1.5)",
+   "outcome": "Suns",
+   "event_slug": "nba-dal-phx-2026-11-27",
+   "cost": 3.89,
+   "pnl": -3.89,
+   "kfee": 0.13,
+   "how": "lost",
+   "exit_price": 0.0
+  },
   {
    "ts": "2026-11-27T04:47:22+00:00",
    "title": "Chiefs vs. Bills: O/U 44.5",
@@ -2690,6 +2697,6 @@
    "agree": false
   }
  ],
- "updated": "2026-11-28T04:47:14+00:00",
+ "updated": "2026-11-28T05:02:16+00:00",
  "start": 100.0
 }
