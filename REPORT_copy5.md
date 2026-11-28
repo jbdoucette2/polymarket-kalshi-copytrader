@@ -1,6 +1,6 @@
 # Copy-5 paper accounts
 
-Updated 2026-11-28T06:17:13+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
+Updated 2026-11-28T06:32:15+00:00 UTC. Each account started with $100 and mirrors one Polymarket wallet. Paper only.
 
 | Acct | Leader | Risk | Equity | P&L | After Kalshi fees | W-L | Sold early | Open | Max drawdown |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
